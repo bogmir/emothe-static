@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0488_LaFuerzaDeLaSangre/16",{"lines":[["act-5","l1550","V, 1550",0,"v","un ceremonial público igual a nuestra dicha,"],["act-5","l1551","V, 1551",0,"v","y a nuestra grandeza, que lleva a estos amantes"],["act-5","l1552","V, 1552",0,"v","al deseado trono de su felicidad."]],"speakers":["DON ÍÑIGO"]});

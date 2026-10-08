@@ -1,0 +1,3482 @@
+<?xml version="1.0" ?>
+<TEI xml:lang="es" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="original">The Tragical History of Doctor Faustus</title>
+        <title type="traduccion">La trágica historia del Doctor Fausto</title>
+        <title key="orden">trágica historia del Doctor Fausto La</title>
+        <title key="archivo">EMOTHE0107_LaTragicaHistoriaDelDoctorFausto</title>
+        <author ana="fiable">Christopher Marlowe</author>
+        <author key="orden">Marlowe, Christopher</author>
+        <editor role="translator">
+          <persName>José Alcalá-Galiano</persName>
+        </editor>
+        <sponsor>
+          <orgName>Plan Nacional de Investigación Científica, Desarrollo e Innovación Tecnológica (Plan Nacional de I+D+i)</orgName>
+        </sponsor>
+        <funder>
+          <orgName>Dirección General de Investigación y Gestión del Plan Nacional de I+D+I (DGI). http://www.idi.mineco.gob.es</orgName>
+        </funder>
+        <principal>Joan Oleza Simó</principal>
+      </titleStmt>
+      <editionStmt>
+        <edition>Edición electrónica de &apos;La trágica historia del Doctor Fausto&apos;</edition>
+        <respStmt>
+          <resp>Edición</resp>
+          <persName>Bautista Boned, Luis</persName>
+          <orgName>Artelope</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent ana="verso">1184 versos</extent>
+      <publicationStmt>
+        <publisher>
+          <orgName>Proyecto ARTELOPE. Base de datos, argumentos y textos del teatro clásico español (FFI 2009 -12730) http://artelope.uv.es</orgName>
+        </publisher>
+        <idno type="code">EMOTHE0107_LaTragicaHistoriaDelDoctorFausto</idno>
+        <pubPlace>Valencia</pubPlace>
+        <date>2012</date>
+        <authority>
+          <orgName>Universitat de València - Estudi General. http://www.uv.es</orgName>
+        </authority>
+        <availability>
+          <p>La Colección de Teatro Clasico Europeo (CTCE) pertenece al proyecto Artelope y ofrece en la web textos completos sin ánimo de lucro y libres de derechos de lectura y de reproducción. En este último caso se ruega citar la procedencia: &quot;Oleza, Joan et al. Base de Datos y Argumentos del teatro de Lope de Vega. ARTELOPE. Publicación en web: http://artelope.uv.es&quot;</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La trágica historia del Doctor Fausto</title>
+          <author>Cristóbal Marlowe</author>
+          <editor role="traductor">José Alcalá-Galiano</editor>
+          <lang>Español</lang>
+          <note>Marlowe, Cristóbal. &lt;&lt;La trágica historia del Doctor Fausto.&gt;&gt; Traducido por José Alcalá-Galiano. Madrid: Librería General de Victoriano Suárez, 1911.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>La Colección de Textos Clásicos Europeos (CTCE) supone la creación de una base de datos de Teatro canónico clásico europeo en diferentes idiomas, versiones y refundiciones, todas ellas hipervinculadas.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Las presentes ediciones digitales están basadas, en su mayor parte, en ediciones científicas de reconocido prestigio y se ha tratado, en la mayoría de ocasiones, de respetar sus criterios de edición. Solo en casos muy puntuales el editor digital ha introducido leves cambios de los que da cumplida cuenta en el apartado de &quot;Notas&quot;.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="es-ES">Español</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>
+            <title>La trágica historia del Doctor Fausto</title>
+          </titlePart>
+        </docTitle>
+        <docAuthor>Christopher Marlowe</docAuthor>
+      </titlePage>
+      <div type="elenco">
+        <castList>
+          <castItem>
+            <role xml:id="fau">FAUSTO</role>
+          </castItem>
+          <castItem>
+            <role xml:id="meph">MEFISTÓFILIS</role>
+          </castItem>
+          <castItem>
+            <role xml:id="wag">WAGNER</role>
+            <roleDesc>(Criado de Fausto)</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="gan">ÁNGEL BUENO</role>
+          </castItem>
+          <castItem>
+            <role xml:id="ean">ÁNGEL MALO</role>
+          </castItem>
+          <castItem>
+            <role xml:id="val">VALDÉS</role>
+            <roleDesc>Amigo de Fausto</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="cor">CORNELIO</role>
+            <roleDesc>Amigo de Fausto</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="cho">CORO</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="fsch">PRIMER ESTUDIANTE</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="ssch">SEGUNDO ESTUDIANTE</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="wra">IRA</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="glu">GULA</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="slo">PEREZA</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="lec">LUJURIA</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="env">ENVIDIA</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="cov">AVARICIA</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="pri">SOBERBIA</role>
+          </castItem>
+          <castItem>
+            <role xml:id="luc">LUCIFER</role>
+          </castItem>
+          <castItem>
+            <role xml:id="pop">EL PAPA</role>
+          </castItem>
+          <castItem>
+            <role xml:id="lor">EL CARDENAL DE LORENA</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="fri">PRIMER FRAILE</role>
+          </castItem>
+          <castItem>
+            <role xml:id="hco">UN TRAFICANTE DE CABALLOS</role>
+          </castItem>
+          <castItem>
+            <role xml:id="duch">DUQUESA DE VANHOLT</role>
+          </castItem>
+          <castItem>
+            <role xml:id="duk">DUQUE DE VANHOLT</role>
+          </castItem>
+          <castItem>
+            <role xml:id="raf">RODOLFO</role>
+          </castItem>
+          <castItem>
+            <role xml:id="rob">ROBÍN</role>
+          </castItem>
+          <castItem>
+            <role xml:id="emp">EL EMPERADOR DE ALEMANIA</role>
+          </castItem>
+          <castItem>
+            <role xml:id="kni">UN CABALLERO</role>
+          </castItem>
+          <castItem>
+            <role xml:id="vin">TABERNERO</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="tsc">TERCER ESTUDIANTE</role>
+          </castItem>
+          <castItem>
+            <role xml:id="old">UN ANCIANO</role>
+          </castItem>
+          <castItem>
+            <role xml:id="bee">BELZEBÚ</role>
+          </castItem>
+          <castItem>
+            <role xml:id="all4">TODOS</role>
+          </castItem>
+          <castItem>
+            <role xml:id="dia">DIABLOS</role>
+          </castItem>
+          <castItem>
+            <role xml:id="spc">LOS SIETE PECADOS MORTALES</role>
+          </castItem>
+          <castItem>
+            <role xml:id="moi">FRAILES</role>
+          </castItem>
+          <castItem>
+            <role xml:id="est">ESTUDIANTES</role>
+          </castItem>
+          <castItem>
+            <role xml:id="cri">CRIADOS</role>
+          </castItem>
+          <castItem>
+            <role xml:id="pay">PAYASO</role>
+          </castItem>
+          <castItem>
+            <role xml:id="esp">Espíritus</role>
+            <roleDesc>(con las formas de Alejandro Magno, de su amada y de Elena)</roleDesc>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="amoi">OTROS FRAILES</role>
+          </castItem>
+        </castList>
+      </div>
+    </front>
+    <body>
+      <div1 type="act" n="1">
+        <head>Acto I</head>
+        <stage>(Entra el CORO)</stage>
+        <sp who="#cho">
+          <speaker>CORO</speaker>
+          <lg>
+            <l n="0001" xml:id="es-0001">No marchando á través de los famosos</l>
+            <l n="0002" xml:id="es-0002">Campos de Trasimeno, donde Marte</l>
+            <l n="0003" xml:id="es-0003">Rindió al Cartaginés; ni celebrando</l>
+            <l n="0004" xml:id="es-0004">En las soberbias Cortes de los reyes</l>
+            <l n="0005" xml:id="es-0005">Regocijos y fiestas amorosas,</l>
+            <l n="0006" xml:id="es-0006">En las que el rango y majestad se olvida;</l>
+            <l n="0007" xml:id="es-0007">Ni la pompa de heroïcas hazañas</l>
+            <l n="0008" xml:id="es-0008">Ensalzando, pretende nuestra musa</l>
+            <l n="0009" xml:id="es-0009">Alarde hacer de su divino canto.</l>
+            <l n="0010" xml:id="es-0010">Trátase de esto sólo, caballeros:</l>
+            <l n="0011" xml:id="es-0011">Representar debemos las escenas</l>
+            <l n="0012" xml:id="es-0012">De la suerte de Fausto, buena ó mala.</l>
+            <l n="0013" xml:id="es-0013">A vuestro recto juicio encomendamos</l>
+            <l n="0014" xml:id="es-0014">Nuestro aplauso, y de Fausto os hablaremos</l>
+            <l n="0015" xml:id="es-0015">Desde su infancia. De plebeyos padres</l>
+            <l n="0016" xml:id="es-0016">Nace en Germánia, dentro de una villa</l>
+            <l n="0017" xml:id="es-0017">Rodas llamada; en más floridos años</l>
+            <l n="0018" xml:id="es-0018">Va á Wertemberg, donde su parentela</l>
+            <l n="0019" xml:id="es-0019">Educación le da. Con tal premura</l>
+            <l n="0020" xml:id="es-0020">En las Sagradas Ciencias aprovecha</l>
+            <l n="0021" xml:id="es-0021">El fecundo caudal de la doctrina,</l>
+            <l n="0022" xml:id="es-0022">Que pronto es agraciado con el sumo</l>
+            <l n="0023" xml:id="es-0023">Título de doctor, sobrepujando</l>
+            <l n="0024" xml:id="es-0024">A cuantos se complacen en disputas</l>
+            <l n="0025" xml:id="es-0025">Sobre las hondas místicas materias</l>
+            <l n="0026" xml:id="es-0026">De la Teología; al fin hinchado,</l>
+            <l n="0027" xml:id="es-0027">Con la soberbia de su propio ingenio,</l>
+            <l n="0028" xml:id="es-0028">Más allá de su alcance se aventura</l>
+            <l n="0029" xml:id="es-0029">Con sus alas de cera, y, derretidas,</l>
+            <l n="0030" xml:id="es-0030">A su ruina conspira el mismo cielo,</l>
+            <l n="0031" xml:id="es-0031">Pues, dándose á diabólicos conjuros</l>
+            <l n="0032" xml:id="es-0032">Y ya saciado con lo áureos dones</l>
+            <l n="0033" xml:id="es-0033">De la sabiduría, se sumerge</l>
+            <l n="0034" xml:id="es-0034">En la maldita, oscura nigromancia.</l>
+            <l n="0035" xml:id="es-0035">Nada para su espíritu es tan grato</l>
+            <l n="0036" xml:id="es-0036">Como la negra magia, y la prefiere</l>
+            <l n="0037" xml:id="es-0037">A la dicha mayor. Tal es el hombre</l>
+            <l n="0038" xml:id="es-0038">Que en su laboratorio está sentado.</l>
+          </lg>
+        </sp>
+        <stage>(Vase).</stage>
+        <div2 type="scene" n="1">
+          <head>ESCENA I</head>
+          <stage>(Aparece FAUSTO en su laboratorio).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO</speaker>
+            <lg>
+              <l n="0039" xml:id="es-0039">Deja ya, deja tus estudios, Fausto,</l>
+              <l n="0040" xml:id="es-0040">Y empieza á sondear el vasto fondo</l>
+              <l n="0041" xml:id="es-0041">De lo que vas á profesar; habiendo</l>
+              <l n="0042" xml:id="es-0042">Comenzado por serlo, la apariencia</l>
+              <l n="0043" xml:id="es-0043">De teólogo ten, mas atrevido</l>
+              <l n="0044" xml:id="es-0044">De cada ciencia elévate á la cumbre</l>
+              <l n="0045" xml:id="es-0045">Y vive y muere consultando siempre</l>
+              <l n="0046" xml:id="es-0046">Las obras de Aristóteles. ¡Oh hermosa</l>
+              <l n="0047" xml:id="es-0047">Análica, tú me has fascinado!</l>
+              <l n="0048" xml:id="es-0048">
+                <emph>Bene disserere est finis logices.</emph>
+              </l>
+              <l n="0049" xml:id="es-0049">De la Lógica sabia el fin supremo</l>
+              <l n="0050" xml:id="es-0050">Será disputar bien? ¿Mayor milagro</l>
+              <l n="0051" xml:id="es-0051">Tal arte no consiente? Pues entonces</l>
+              <l n="0052" xml:id="es-0052">No leas más; tal fin ya has conseguido.</l>
+              <l n="0053" xml:id="es-0053">Al ingenio de Fausto sólo cuadra</l>
+              <l n="0054" xml:id="es-0054">Propósito mayor, más alto asunto.</l>
+              <l n="0055" xml:id="es-0055">Adiós, Economía. Ven, Galeno,</l>
+              <l n="0056" xml:id="es-0056">
+                Puesto que 
+                <emph>ubi desinit philosophus,</emph>
+              </l>
+              <l n="0057" xml:id="es-0057">
+                <emph>ibi incipit medicus,</emph>
+              </l>
+              <l n="0058" xml:id="es-0058">Hazte médico, Fausto; oro amontona</l>
+              <l n="0059" xml:id="es-0059">Y eterniza tu nombre por alguna</l>
+              <l n="0060" xml:id="es-0060">Cura maravillosa, sin ejemplo.</l>
+              <l n="0061" xml:id="es-0061">
+                <emph>Summun bonim medicinæ sanitas.</emph>
+              </l>
+              <l n="0062" xml:id="es-0062">El fin de la insegura medicina</l>
+              <l n="0063" xml:id="es-0063">Es sólo la salud de nuestro cuerpo.</l>
+              <l n="0064" xml:id="es-0064">¿Porqué, Fausto, tal fin no conseguiste?</l>
+              <l n="0065" xml:id="es-0065">¿No son los poderosos aforismos</l>
+              <l n="0066" xml:id="es-0066">Tu lenguaje común? Y tus recetas,</l>
+              <l n="0067" xml:id="es-0067">¿Conservadas no están cual monumentos?</l>
+              <l n="0068" xml:id="es-0068">Y no escaparon las ciudades todas</l>
+              <l n="0069" xml:id="es-0069">Por ellas de la peste y se aliviaron</l>
+              <l n="0070" xml:id="es-0070">Enfermedades mil desesperadas?</l>
+              <l n="0071" xml:id="es-0071">Y sin embargo, ¿qué eres todavía?</l>
+              <l n="0072" xml:id="es-0072">Eres tan solo Fausto; sólo un hombre.</l>
+              <l n="0073" xml:id="es-0073">Si pudieras hacer eternamente</l>
+              <l n="0074" xml:id="es-0074">A los hombres vivir ó habiendo muerto</l>
+              <l n="0075" xml:id="es-0075">Otra vez á la vida despertarlos,</l>
+              <l n="0076" xml:id="es-0076">Tu profesión entonces digna fuera</l>
+              <l n="0077" xml:id="es-0077">De estimación. ¡Adiós, pues, medicina!</l>
+              <l n="0078" xml:id="es-0078">
+                ¿Dónde está Justiniano? A ver; (Lee). 
+                <emph>Si una</emph>
+              </l>
+              <l n="0079" xml:id="es-0079">
+                <emph>Eademque res legatur duobus, alter rem</emph>
+              </l>
+              <l n="0080" xml:id="es-0080">
+                <emph>Alter valorem rei,</emph>
+                 etc.
+              </l>
+              <l n="0081" xml:id="es-0081">Lindo caso de herencias miserables.</l>
+              <stage>(Lee).</stage>
+              <l n="0082" xml:id="es-0082">
+                <emph>Exhereditare filium non potest pater, nisi,</emph>
+                 etc.
+              </l>
+              <l n="0083" xml:id="es-0083">Tal es el solo fin de la Instituta</l>
+              <l n="0084" xml:id="es-0084">Y el cuerpo universal de la ley toda.</l>
+              <l n="0085" xml:id="es-0085">Este mezquino estudio sólo es propio</l>
+              <l n="0086" xml:id="es-0086">De un ganapán hambriento y mercenario</l>
+              <l n="0087" xml:id="es-0087">Que sólo aspira á externas bojarascas;</l>
+              <l n="0088" xml:id="es-0088">Mas para mi razón es harto innoble</l>
+              <l n="0089" xml:id="es-0089">Y harto servil. Cuando se apura todo,</l>
+              <l n="0090" xml:id="es-0090">Lo mejor es la gran Teología.</l>
+              <l n="0091" xml:id="es-0091">La Biblia de Gerónimo, famosa,</l>
+              <l n="0092" xml:id="es-0092">Toma, Fausto, y estúdiala despacio.</l>
+              <stage>(Lee).</stage>
+              <l n="0093" xml:id="es-0093">
+                <emph>Stipendium peccati mors est</emph>
+                 : ¡Ah! 
+                <emph>Stipendium</emph>
+                 .
+              </l>
+              <l n="0094" xml:id="es-0094">Que la muerte es el premio del pecado.</l>
+              <l n="0095" xml:id="es-0095">Es bien dura, en verdad, esta sentencia.</l>
+              <stage>(Lee)</stage>
+              <l n="0096" xml:id="es-0096">
+                <emph>Si peccasse negamus, fallimur, et</emph>
+              </l>
+              <l n="0097" xml:id="es-0097">
+                <emph>mulla est in nobis veritas;</emph>
+              </l>
+              <l n="0098" xml:id="es-0098">Nosotros al decir que no pecamos</l>
+              <l n="0099" xml:id="es-0099">Nos engañamos á nosotros mismos</l>
+              <l n="0100" xml:id="es-0100">Faltando á la verdad, ergo parece</l>
+              <l n="0101" xml:id="es-0101">Que incurrimos entonces en pecado</l>
+              <l n="0102" xml:id="es-0102">Y habremos de morir por consecuencia.</l>
+              <l n="0103" xml:id="es-0103">Sí, debemos morir de eterna muerte.</l>
+              <l n="0104" xml:id="es-0104">
+                Lo 
+                <emph>che será, será</emph>
+                 ; ¡doctrina extraña!
+              </l>
+              <l n="0105" xml:id="es-0105">¿Qué nombre darla? ¡Adiós, Teología!</l>
+              <l n="0106" xml:id="es-0106">Aquestas metafísicas de magos</l>
+              <l n="0107" xml:id="es-0107">Y libros nigrománticos, profundas</l>
+              <l n="0108" xml:id="es-0108">Y celestiales son: líneas extrañas,</l>
+              <l n="0109" xml:id="es-0109">Círculos, cifras, caracteres, cuadros.</l>
+              <l n="0110" xml:id="es-0110">Estos son los que Fausto más ansía.</l>
+              <l n="0111" xml:id="es-0111">¡Qué mundo de riquezas y placeres</l>
+              <l n="0112" xml:id="es-0112">De poder y de honor y omnipotencia</l>
+              <l n="0113" xml:id="es-0113">Prometen al artífice estudioso!</l>
+              <l n="0114" xml:id="es-0114">Cuantas cosas se mueven entre el radio</l>
+              <l n="0115" xml:id="es-0115">De los callados polos, sometidas</l>
+              <l n="0116" xml:id="es-0116">A mi voz estarán: emperadores</l>
+              <l n="0117" xml:id="es-0117">Y reyes solamente obedecidos</l>
+              <l n="0118" xml:id="es-0118">En sus provincias son; lanzar no pueden</l>
+              <l n="0119" xml:id="es-0119">El raudo viento ni rasgar las nubes,</l>
+              <l n="0120" xml:id="es-0120">Mas del mago el dominio á aquel supera,</l>
+              <l n="0121" xml:id="es-0121">Se extiende hasta do alcanza el poderoso</l>
+              <l n="0122" xml:id="es-0122">Espíritu del hombre; un diestro mago</l>
+              <l n="0123" xml:id="es-0123">Es un potente dios: por tanto ahora,</l>
+              <l n="0124" xml:id="es-0124">Fausto, fatiga tu portal cerebro</l>
+              <l n="0125" xml:id="es-0125">Para lograr de un dios la prepotencia.</l>
+            </lg>
+          </sp>
+          <stage>(Entra WAGNER).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO</speaker>
+            <lg>
+              <l n="0126" xml:id="es-0126">Wagner, ve á saludar y encomendarme</l>
+              <l n="0127" xml:id="es-0127">A mis dos queridísimos amigos</l>
+              <l n="0128" xml:id="es-0128">El germano Valdés y el buen Cornelio;</l>
+              <l n="0129" xml:id="es-0129">Ruégales, con fervor, que me visiten.</l>
+            </lg>
+          </sp>
+          <sp who="#wag">
+            <speaker>WAG.</speaker>
+            <lg>
+              <l part="I" n="0130" xml:id="es-0130">Así lo haré, señor.</l>
+            </lg>
+          </sp>
+          <stage>(Vase).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO</speaker>
+            <lg>
+              <l part="F" xml:id="es-0131">Su provechosa</l>
+              <l n="0131" xml:id="es-0132">Plática, me será de más ayuda</l>
+              <l n="0132" xml:id="es-0133">Que todos mis trabajos, y con tanta</l>
+              <l n="0133" xml:id="es-0134">Prontitud nunca investigar podría.</l>
+            </lg>
+          </sp>
+          <stage>(Entran el ANGEL BUENO y el ANGEL MALO).</stage>
+          <sp who="#gan">
+            <speaker>ANGEL BUENO.</speaker>
+            <lg>
+              <l n="0134" xml:id="es-0135">¡Oh, Fausto, deja ese maldito libro</l>
+              <l n="0135" xml:id="es-0136">Y no le mires; tentará tu alma</l>
+              <l n="0136" xml:id="es-0137">Y habrá de amontonar sobre tu frente</l>
+              <l n="0137" xml:id="es-0138">La cólera de Dios abrumadora!</l>
+              <l n="0138" xml:id="es-0139">Lee, lee las Santas Escrituras;</l>
+              <l n="0139" xml:id="es-0140">Eso que estás leyendo son blasfemias.</l>
+            </lg>
+          </sp>
+          <sp who="#ean">
+            <speaker>ANGEL MALO.</speaker>
+            <lg>
+              <l n="0140" xml:id="es-0141">Sigue, Fausto, adelante en el estudio</l>
+              <l n="0141" xml:id="es-0142">De aquel arte famoso, que contiene</l>
+              <l n="0142" xml:id="es-0143">De la Naturaleza los tesoros;</l>
+              <l n="0143" xml:id="es-0144">Lo que en el cielo es Júpiter augusto</l>
+              <l n="0144" xml:id="es-0145">En la tierra sé tú; señor potente</l>
+              <l n="0145" xml:id="es-0146">Y árbitro de los vastos elementos.</l>
+            </lg>
+          </sp>
+          <stage>(Vanse los Angeles).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO</speaker>
+            <lg>
+              <l n="0146" xml:id="es-0147">¡Cuán orgulloso esto con esta idea!</l>
+              <l n="0147" xml:id="es-0148">Hacer que los espíritus me traigan</l>
+              <l n="0148" xml:id="es-0149">Todo cuanto me plazga; que mis dudas</l>
+              <l n="0149" xml:id="es-0150">Todas resuelvan y ejecuten todas</l>
+              <l n="0150" xml:id="es-0151">Cuantas locas empresas se me antojen!</l>
+              <l n="0151" xml:id="es-0152">Yo los haré volar hasta las Indias</l>
+              <l n="0152" xml:id="es-0153">En busca de oro, al Oceano inmenso</l>
+              <l n="0153" xml:id="es-0154">Despojar de sus perlas orientales,</l>
+              <l n="0154" xml:id="es-0155">Y del recién hallado nuevo mundo</l>
+              <l n="0155" xml:id="es-0156">Mirar cada confín para traerme</l>
+              <l n="0156" xml:id="es-0157">Regios manjares y sabrosas frutas;</l>
+              <l n="0157" xml:id="es-0158">Y los haré leerme los escritos</l>
+              <l n="0158" xml:id="es-0159">De extraña y sin igual filosofía;</l>
+              <l n="0159" xml:id="es-0160">Y de todos los reyes extranjeros</l>
+              <l n="0160" xml:id="es-0161">Los íntimos secretos revelarme;</l>
+              <l n="0161" xml:id="es-0162">De duro bronce la Germánia toda</l>
+              <l n="0162" xml:id="es-0163">Les haré amurallar, y haré en seguida</l>
+              <l n="0163" xml:id="es-0164">Que á la risueña Wertemberg circunde</l>
+              <l n="0164" xml:id="es-0165">Del Rhin impetuoso la corriente;</l>
+              <l n="0165" xml:id="es-0166">Y les haré las públicas escuelas</l>
+              <l n="0166" xml:id="es-0167">Llenar de seda, así los estudiantes</l>
+              <l n="0167" xml:id="es-0168">Irán soberbiamente engalanados;</l>
+              <l n="0168" xml:id="es-0169">Reclutaré soldados con dinero</l>
+              <l n="0169" xml:id="es-0170">Que me traerán, y al príncipe de Parma</l>
+              <l n="0170" xml:id="es-0171">De nuestra tierra expulsaré; reinando</l>
+              <l n="0171" xml:id="es-0172">Yo cual único rey de nuestro reinos.</l>
+              <l n="0172" xml:id="es-0173">Sí, máquinas de guerra más extrañas</l>
+              <l n="0173" xml:id="es-0174">Que la encendida destructora nave</l>
+              <l n="0174" xml:id="es-0175">En el puente de Amberes, ingeniosos</l>
+              <l n="0175" xml:id="es-0176">Haré que mis espíritus inventen.</l>
+              <stage>(Entran VALDÉS y CORNELIO).</stage>
+              <l n="0176" xml:id="es-0177">Ven, germano Valdés, y tú Cornelio,</l>
+              <l n="0177" xml:id="es-0178">Venid aquí y hacedme venturoso</l>
+              <l n="0178" xml:id="es-0179">Con vuestra grata plática sapiente.</l>
+              <l n="0179" xml:id="es-0180">Valdés, dulce Valdés y tú Cornelio</l>
+              <l n="0180" xml:id="es-0181">Sabed que vuestras íntimas palabras</l>
+              <l n="0181" xml:id="es-0182">Me han persuadido al fin, me han decidido</l>
+              <l n="0182" xml:id="es-0183">A practicar la magia portentosa</l>
+              <l n="0183" xml:id="es-0184">Y las ocultas artes; sin embargo,</l>
+              <l n="0184" xml:id="es-0185">No me movió vuestra palabra sólo</l>
+              <l n="0185" xml:id="es-0186">Sino también mi propia fantasía</l>
+              <l n="0186" xml:id="es-0187">Que ya distinto objeto con concibe,</l>
+              <l n="0187" xml:id="es-0188">Pues mi mente medita y se devana</l>
+              <l n="0188" xml:id="es-0189">Sobre los nigrománticos secretos.</l>
+              <l n="0189" xml:id="es-0190">Es la filosofía odiosa, obscura;</l>
+              <l n="0190" xml:id="es-0191">Son la Jurisprudencia y Medicina</l>
+              <l n="0191" xml:id="es-0192">Para ingenios mezquinos sólo propias;</l>
+              <l n="0192" xml:id="es-0193">De las tres la más baja es la insufrible,</l>
+              <l n="0193" xml:id="es-0194">Ingrata, dura y vil Teología.</l>
+              <l n="0194" xml:id="es-0195">Es la magia, la magia tentadora</l>
+              <l n="0195" xml:id="es-0196">La que me fascinó. Por eso, amables</l>
+              <l n="0196" xml:id="es-0197">Amigos, ayudadme en este empeño.</l>
+              <l n="0197" xml:id="es-0198">Y yo con concisos silogismos</l>
+              <l n="0198" xml:id="es-0199">He puesto en duro aprieto á los pastores</l>
+              <l n="0199" xml:id="es-0200">De la germana iglesia; yo, que hiciera</l>
+              <l n="0200" xml:id="es-0201">La flor y prez de Wertemberg á enjambres</l>
+              <l n="0201" xml:id="es-0202">Acudir á mis temas, cual los tristes</l>
+              <l n="0202" xml:id="es-0203">Infernales espíritus venían</l>
+              <l n="0203" xml:id="es-0204">A la voz melodiosa de Museo</l>
+              <l n="0204" xml:id="es-0205">Cuando al infierno fué, seré sin duda</l>
+              <l n="0205" xml:id="es-0206">Tan sabio como Agripa, cuya sombra</l>
+              <l n="0206" xml:id="es-0207">Hace que toda Europa le venere.</l>
+            </lg>
+          </sp>
+          <sp who="#val">
+            <speaker>VAL.</speaker>
+            <lg>
+              <l n="0207" xml:id="es-0208">Fausto, estos libros, el ingenio tuyo</l>
+              <l n="0208" xml:id="es-0209">Y la experiencia nuestra harán que todas</l>
+              <l n="0209" xml:id="es-0210">Las naciones del mundo nos adoren.</l>
+              <l n="0210" xml:id="es-0211">Como los Indios moros obedecen</l>
+              <l n="0211" xml:id="es-0212">A su hispano señor, así de todos</l>
+              <l n="0212" xml:id="es-0213">Los elementos deberán las fuerzas</l>
+              <l n="0213" xml:id="es-0214">Servirnos á los tres; como los leones</l>
+              <l n="0214" xml:id="es-0215">Nos deberán guardar cuando nos plazca,</l>
+              <l n="0215" xml:id="es-0216">Cual germanos jinetes ó gigantes</l>
+              <l n="0216" xml:id="es-0217">De Laponia trotando á nuestro lado.</l>
+              <l n="0217" xml:id="es-0218">O de mujeres ó de doncellas castas</l>
+              <l n="0218" xml:id="es-0219">La forma tomarán, de sus mejillas,</l>
+              <l n="0219" xml:id="es-0220">De sus etéreas frentes irradiando</l>
+              <l n="0220" xml:id="es-0221">Más hermosura que los albos senos</l>
+              <l n="0221" xml:id="es-0222">De la Reina de Amor; amplios bajeles</l>
+              <l n="0222" xml:id="es-0223">Nos traerán de la plácida Venecia</l>
+              <l n="0223" xml:id="es-0224">Y de América el áureo vellocino.</l>
+              <l n="0224" xml:id="es-0225">Como el sapiente Fausto decida.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO</speaker>
+            <lg>
+              <l n="0225" xml:id="es-0226">A ello, Valdés, estoy tan decidido</l>
+              <l n="0226" xml:id="es-0227">Cual tú á vivir; deja, pues, objeciones.</l>
+            </lg>
+          </sp>
+          <sp who="#cor">
+            <speaker>CORN.</speaker>
+            <lg>
+              <l n="0227" xml:id="es-0228">Los milagros que pronto hará la Magia</l>
+              <l n="0228" xml:id="es-0229">Harán que con empeño te consagres</l>
+              <l n="0229" xml:id="es-0230">A su estudio no más. Quien ya versado</l>
+              <l n="0230" xml:id="es-0231">Está en Astrología, rico en lenguas</l>
+              <l n="0231" xml:id="es-0232">Y buen conocedor en minerales,</l>
+              <l n="0232" xml:id="es-0233">Es ya dueño de todos los principio</l>
+              <l n="0233" xml:id="es-0234">Que la Mágia requiere; así, no dudes,</l>
+              <l n="0234" xml:id="es-0235">Fausto y tendrás renombre y consultado</l>
+              <l n="0235" xml:id="es-0236">Serás por tal misterio, más que fuera</l>
+              <l n="0236" xml:id="es-0237">El oráculo Délfico otros días.</l>
+              <l n="0237" xml:id="es-0238">Dícenme los espíritus, que pueden</l>
+              <l n="0238" xml:id="es-0239">Dejar enjuto el mar, de allí traernos</l>
+              <l n="0239" xml:id="es-0240">De todos los naufragios el tesoro</l>
+              <l n="0240" xml:id="es-0241">Y toda la riqueza que ocultaron</l>
+              <l n="0241" xml:id="es-0242">Nuestros antepasados en las duras</l>
+              <l n="0242" xml:id="es-0243">Y macizas entrañas de la tierra.</l>
+              <l n="0243" xml:id="es-0244">Así, pues, dime, Fausto, ¿qué nos puede</l>
+              <l part="I" n="0244" xml:id="es-0245">Hacer falta á los tres?</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO</speaker>
+            <lg>
+              <l part="F" xml:id="es-0246">Nada, Cornelio;</l>
+              <l n="0245" xml:id="es-0247">¡Oh, tal idea mi alma regocija!</l>
+              <l n="0246" xml:id="es-0248">Ven, pues, y muéstrame mágicas pruebas</l>
+              <l n="0247" xml:id="es-0249">De que yo puedo pronunciar conjuros</l>
+              <l n="0248" xml:id="es-0250">En selva abrupta y conseguir el pleno</l>
+              <l n="0249" xml:id="es-0251">Placer y posesión de estos deleites.</l>
+            </lg>
+          </sp>
+          <sp who="#val">
+            <speaker>VAL.</speaker>
+            <lg>
+              <l n="0250" xml:id="es-0252">Vuelta entonces á selva solitaria,</l>
+              <l n="0251" xml:id="es-0253">Lleva del sabio Bacon y de Alberto</l>
+              <l n="0252" xml:id="es-0254">Las grandes obras y el saltério hebráico.</l>
+              <l n="0253" xml:id="es-0255">El Nuevo Testamento; y cuantas cosas</l>
+              <l n="0254" xml:id="es-0256">Se requieran te habremos enseñado</l>
+              <l n="0255" xml:id="es-0257">Al terminar nuestra conferencia.</l>
+            </lg>
+          </sp>
+          <sp who="#cor">
+            <speaker>CORN.</speaker>
+            <lg>
+              <l n="0256" xml:id="es-0258">Valdés: primero, que conozca todas</l>
+              <l n="0257" xml:id="es-0259">Las palabras del arte, y en seguida</l>
+              <l n="0258" xml:id="es-0260">Cuando las otras ceremonias sepa,</l>
+              <l n="0259" xml:id="es-0261">Su habilidad y fuerza por sí mismo</l>
+              <l part="I" n="0260" xml:id="es-0262">Podrá Fausto probar.</l>
+            </lg>
+          </sp>
+          <sp who="#val">
+            <speaker>VAL.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0263">Primeramente</l>
+              <l n="0261" xml:id="es-0264">Los rudimentos lograré enseñarte</l>
+              <l n="0262" xml:id="es-0265">Y después más que yo serás perfecto.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO</speaker>
+            <lg>
+              <l n="0263" xml:id="es-0266">Entonces á comer quedad conmigo</l>
+              <l n="0264" xml:id="es-0267">Y después de yantar ensayaremos</l>
+              <l n="0265" xml:id="es-0268">Nuestras habilidades y destreza.</l>
+              <l n="0266" xml:id="es-0269">Pues antes de dormir probar deseo</l>
+              <l n="0267" xml:id="es-0270">Lo que yo puedo hacer, y en esta noche</l>
+              <l n="0268" xml:id="es-0271">Haré conjuros aunque en ello muera.</l>
+            </lg>
+          </sp>
+          <stage>(Vanse).</stage>
+        </div2>
+        <div2 type="scene" n="2">
+          <head>ESCENA II</head>
+          <stage>(Entran dos ESTUDIANTES).</stage>
+          <sp who="#fsch">
+            <speaker>1.er EST.</speaker>
+            <p>
+              Yo me pregunto qué habrá sido de Fausto que solía atronar nuestras escuelas con el 
+              <emph>sic probo</emph>
+               .
+            </p>
+          </sp>
+          <sp who="#ssch">
+            <speaker>2.º EST.</speaker>
+            <p>Pronto lo sabremos, porque, mira, ahí viene su criado.</p>
+          </sp>
+          <stage>(Entra WAGNER).</stage>
+          <sp who="#fsch">
+            <speaker>1.er EST.</speaker>
+            <p>¡Eh, galopín! ¿dónde está tu amo?</p>
+          </sp>
+          <sp who="#wag">
+            <speaker>WAG.</speaker>
+            <p>Dios del cielo lo sabe.</p>
+          </sp>
+          <sp who="#ssch">
+            <speaker>2.º EST.</speaker>
+            <p>¿Y tú no lo sabes?</p>
+          </sp>
+          <sp who="#wag">
+            <speaker>WAG.</speaker>
+            <p>Sí lo sé, mas de aquí no se sigue.....</p>
+          </sp>
+          <sp who="#fsch">
+            <speaker>1.er EST.</speaker>
+            <p>¡Ea! basta de broma y dinos dónde está.</p>
+          </sp>
+          <sp who="#wag">
+            <speaker>WAG.</speaker>
+            <p>De aquí no se sigue necesariamente por la fuerza del argumento, que vosotros siendo licenciados debáis sostenerlo. Por lo tanto reconoced vuestro error y estad atentos.</p>
+          </sp>
+          <sp who="#ssch">
+            <speaker>2.º EST.</speaker>
+            <p>¿Pero no dijiste que lo sabías?</p>
+          </sp>
+          <sp who="#wag">
+            <speaker>WAG.</speaker>
+            <p>¿Tenéis algún testigo de ello?</p>
+          </sp>
+          <sp who="#fsch">
+            <speaker>1.er EST.</speaker>
+            <p>Sí, bribón, yo te oí.</p>
+          </sp>
+          <sp who="#wag">
+            <speaker>WAG.</speaker>
+            <p>Pregunta á mi compañero si soy un ladrón.</p>
+          </sp>
+          <sp who="#ssch">
+            <speaker>2.º EST.</speaker>
+            <p>Bien, ¿no nos lo dirás?</p>
+          </sp>
+          <sp who="#wag">
+            <speaker>WAG.</speaker>
+            <p>
+              Sí, señor, os lo diré; pero si no fuéseis unos mentecatos, nunca me harías semejante pregunta; porque ¿no es él 
+              <emph>corpus naturate</emph>
+               ? ¿y no es éste 
+              <emph>mobile</emph>
+               ? luego, entonces ¿á qué venirme con tal pregunta? Si no fuera porque soy de un natural cachazudo, tardo en enfadarme y propenso á la lujuria (al amor quise decir), no os aprovechara el venir á cuarenta pies á la redonda del campo de ajusticiados, aunque no dudo que os he de ver ahorcados á los dos en las próximas vistas. Así, pues, habiendo triunfado sobre vosotros, pondré cara de preceptista y empiezo á hablar como sigue: En verdad, caros hermanos míos, mi amo y señor está allá dentro comiendo con Valdés y Cornelio, de lo que este vino, si pudiera hablar, daría fe á sus señorías. Así, pues, el Señor os bendiga, os guarde y os conserve, mis queridos hermanos!
+            </p>
+          </sp>
+          <stage>(Vase).</stage>
+          <sp who="#fsch">
+            <speaker>1.er EST.</speaker>
+            <p>Entonces me tema que haya caído en aquel arte diabólico, por el que los dos son infamados por todo el mundo.</p>
+          </sp>
+          <sp who="#ssch">
+            <speaker>2.º EST.</speaker>
+            <p>Aunque fuese un extraño y no un amigo mío, me dolería por él. Pero, ven, vamos á enterar al Rector, á ver si él con su sano consejo puede arrancarle.</p>
+          </sp>
+          <sp who="#fsch">
+            <speaker>1.er EST.</speaker>
+            <p>¡Oh!, pero me temo que nada puede ya arrancarle.</p>
+          </sp>
+          <sp who="#ssch">
+            <speaker>2.º EST.</speaker>
+            <p>Sin embargo, tratemos de hacer lo que podamos.</p>
+          </sp>
+          <stage>(Vanse).</stage>
+        </div2>
+        <div2 type="scene" n="3">
+          <head>ESCENA III</head>
+          <stage>(Entra FAUSTO para conjurar).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO</speaker>
+            <lg>
+              <l n="0269" xml:id="es-0313">Ahora que triste profunda sombra</l>
+              <l n="0270" xml:id="es-0314">De la tierra, anhelante de la vista</l>
+              <l n="0271" xml:id="es-0315">Del húmedo Orión desde la yerta</l>
+              <l n="0272" xml:id="es-0316">Antártica región, salta en el cielo</l>
+              <l n="0273" xml:id="es-0317">Y de la esfera el ámbito obscurece</l>
+              <l n="0274" xml:id="es-0318">Con su hálito, Fausto, tú principia</l>
+              <l n="0275" xml:id="es-0319">A disponer tus mágicos conjuros,</l>
+              <l n="0276" xml:id="es-0320">Y prueba si los diablos tu mandato</l>
+              <l n="0277" xml:id="es-0321">Habrán de obedecer, viendo que ardientes</l>
+              <l n="0278" xml:id="es-0322">Ruegos y sacrificios les hiciste.</l>
+              <l n="0279" xml:id="es-0323">En media de este círculo divino</l>
+              <l n="0280" xml:id="es-0324">Está de Jehová trazado el nombre;</l>
+              <l n="0281" xml:id="es-0325">Hácia atrás y adelante, en anagramas,</l>
+              <l n="0282" xml:id="es-0326">De santos hay los nombres abreviados;</l>
+              <l n="0283" xml:id="es-0327">Formas de cuanto pertenece al cielo,</l>
+              <l n="0284" xml:id="es-0328">Caracteres y signos, y figuras</l>
+              <l n="0285" xml:id="es-0329">De erráticas estrellas, con las cuales</l>
+              <l n="0286" xml:id="es-0330">Se fuerza á los espíritus ocultos</l>
+              <l n="0287" xml:id="es-0331">A aparecer. No temas nada, Fausto,</l>
+              <l n="0288" xml:id="es-0332">Y con resolución tienta la suma</l>
+              <l n="0289" xml:id="es-0333">De cuanto pueda ejecutar la mágia.</l>
+            </lg>
+            <p>
+              <emph>¡Sint mihi dei Acherontis propitii! ¡Valeat numen triplex Jehovae! ¡Ignei, aerii, aquatani spiritus, salvete! ¡Orientis princeps Belzebub, inferni ardentis</emph>
+               
+              <emph>monarcha, et Demogorgon, propitiamus vos, ut appareat et surgat</emph>
+               
+              <emph>Mephistophilis. Quid tu moraris? per Jehovam, Gehennam et consecratum</emph>
+               
+              <emph>aquam quam nunc spargo, signumque crucis quod nunc facio, et per vota</emph>
+               
+              <emph>nostra, ipse nunc surgat nobis dicatus Mephistophilis.</emph>
+            </p>
+          </sp>
+          <stage>(Aquí pide á los poderes altos y bajos que hagan aparecer á Mefistófilis ante él).</stage>
+          <stage>(Entra MEFISTÓFILIS).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO</speaker>
+            <lg>
+              <l n="0290" xml:id="es-0339">Te mando que te vuelvas y en seguida</l>
+              <l n="0291" xml:id="es-0340">Cambies tu forma; demasiado feo</l>
+              <l n="0292" xml:id="es-0341">Eres para servirme: vete y ponte</l>
+              <l n="0293" xml:id="es-0342">Traje de viejo fraile franciscano.</l>
+              <l n="0294" xml:id="es-0343">Pues tan santo disfraz es el que sienta</l>
+              <l n="0295" xml:id="es-0344">Entre todos mejor al diablo mismo.</l>
+              <stage>(Vase MEFISTÓFILIS)</stage>
+              <l n="0296" xml:id="es-0345">Veo que mis palabras celestiales</l>
+              <l n="0297" xml:id="es-0346">Tiene rara virtud. ¿Quién no querría</l>
+              <l n="0298" xml:id="es-0347">En tal arte lograr la prepotencia?</l>
+              <l n="0299" xml:id="es-0348">¡Cuán sumiso y humilde y obediente</l>
+              <l n="0300" xml:id="es-0349">Es este Mefistófilis!; tan grande</l>
+              <l n="0301" xml:id="es-0350">Y tan viva es la fuerza de la magia</l>
+              <l n="0302" xml:id="es-0351">Y mis hechizos. Ya eres laureado</l>
+              <l n="0303" xml:id="es-0352">Conjurar, ¡oh, Fausto! pues que puedes</l>
+              <l n="0304" xml:id="es-0353">Mandar á Mefistófilis el grande:</l>
+              <l n="0305" xml:id="es-0354">
+                <emph>Quin regis Mephistophilis fratis imagine</emph>
+                 .
+              </l>
+            </lg>
+          </sp>
+          <stage>(Entra Mefistófilis vestido de fraile franciscano).</stage>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0306" xml:id="es-0355">Y bien, Fausto, de mí ¿qué es lo que quieres?</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO</speaker>
+            <lg>
+              <l n="0307" xml:id="es-0356">Yo te mando servirme mientras viva,</l>
+              <l n="0308" xml:id="es-0357">Y ejecutar cuanto te ordene Fausto</l>
+              <l n="0309" xml:id="es-0358">Así te pida que hagas á la Luna,</l>
+              <l n="0310" xml:id="es-0359">Rodar precipitada de su esfera,</l>
+              <l n="0311" xml:id="es-0360">O al Oceano sumergir al mundo.</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0312" xml:id="es-0361">Soy servidor de Lucifer el grande,</l>
+              <l n="0313" xml:id="es-0362">Y no puedo seguirte, sin primero</l>
+              <l n="0314" xml:id="es-0363">Su permiso obtener: podemos sólo</l>
+              <l n="0315" xml:id="es-0364">Ejecutar aquello que él ordena.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO</speaker>
+            <lg>
+              <l n="0316" xml:id="es-0365">¿No te mandó que á mí te aparecieses?</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0317" xml:id="es-0366">No, de allí vine por mi propio gusto.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO</speaker>
+            <lg>
+              <l n="0318" xml:id="es-0367">¿No te evocaron mis conjuros? Habla.</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0319" xml:id="es-0368">
+                Causa fueron, mas sólo 
+                <emph>por accidens</emph>
+                 ;
+              </l>
+              <l n="0320" xml:id="es-0369">Porque cuando nosotros escuchamos</l>
+              <l n="0321" xml:id="es-0370">A alguien de Dios escarnecer el nombre,</l>
+              <l n="0322" xml:id="es-0371">Abjurar de las Santas Escrituras</l>
+              <l n="0323" xml:id="es-0372">Y de su Salvador, Cristo, volamos,</l>
+              <l n="0324" xml:id="es-0373">Esperando coger su alma gloriosa.</l>
+              <l n="0325" xml:id="es-0374">Ni nosotros vendríamos, al menos</l>
+              <l n="0326" xml:id="es-0375">Que usare ya de tales procederes,</l>
+              <l n="0327" xml:id="es-0376">Que en peligro esté ya de condenarse.</l>
+              <l n="0328" xml:id="es-0377">Así pues, la más rápida manera</l>
+              <l n="0329" xml:id="es-0378">De conjurar, es abjurar osado</l>
+              <l n="0330" xml:id="es-0379">La Trinidad y dirigir las plegarias</l>
+              <l n="0331" xml:id="es-0380">Con devoción al rey de los infiernos.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO</speaker>
+            <lg>
+              <l n="0332" xml:id="es-0381">Así Fausto hizo ya; y este principio</l>
+              <l n="0333" xml:id="es-0382">Proclama; sólo es rey el prepotente</l>
+              <l n="0334" xml:id="es-0383">Belbezú, á quien Fausto se consagra.</l>
+              <l n="0335" xml:id="es-0384">La voz «condenación» no le da espanto,</l>
+              <l n="0336" xml:id="es-0385">Pues confunde el Elíseo y el infierno:</l>
+              <l n="0337" xml:id="es-0386">¡Vaya con los filósofos antiguos</l>
+              <l n="0338" xml:id="es-0387">Su sombra! Mas dejando fruslerías</l>
+              <l n="0339" xml:id="es-0388">Vanas sobre las almas de los hombres,</l>
+              <l n="0340" xml:id="es-0389">Ahora dime quién es ese escondido</l>
+              <l part="I" n="0341" xml:id="es-0390">Lucifer, su señor.</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0391">Archiregente</l>
+              <l n="0342" xml:id="es-0392">De todos los espíritus y dueño.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO</speaker>
+            <lg>
+              <l n="0343" xml:id="es-0393">¿No fué este Lucifer ángel un día?</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0344" xml:id="es-0394">Sí, Fausto, y de su Dios el más amado.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO</speaker>
+            <lg>
+              <l n="0345" xml:id="es-0395">¿Y cómo entonces vino á ser é solo</l>
+              <l part="I" n="0346" xml:id="es-0396">Príncipe de los diablos?</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0397">¡Oh!, por alta,</l>
+              <l n="0347" xml:id="es-0398">Aspiración de orgullo y de insolencia,</l>
+              <l n="0348" xml:id="es-0399">Por las que Dios con irritada mano</l>
+              <l n="0349" xml:id="es-0400">Precipitóle de la faz del cielo.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO</speaker>
+            <lg>
+              <l n="0350" xml:id="es-0401">¿Y quiénes sois vosotros que por siempre</l>
+              <l part="I" n="0351" xml:id="es-0402">Vivís con Lucifer?</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0403">Nosotros somos</l>
+              <l n="0352" xml:id="es-0404">Infelices espíritus, caídos</l>
+              <l n="0353" xml:id="es-0405">Con Lucifer, que conspiramos contra</l>
+              <l n="0354" xml:id="es-0406">Nuestro Dios, con el mismo ya rebelde</l>
+              <l n="0355" xml:id="es-0407">Lucifer, y por siempre condenados</l>
+              <l part="I" n="0356" xml:id="es-0408">Con Lucifer estamos.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO</speaker>
+            <lg>
+              <l part="F" xml:id="es-0409">¿Y en qué sitio</l>
+              <l part="I" n="0357" xml:id="es-0410">Condenados estáis?</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0411">En el infierno.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO</speaker>
+            <lg>
+              <l n="0358" xml:id="es-0412">¿Y cómo entonces de ese infierno, fuera</l>
+              <l part="I" n="0359" xml:id="es-0413">Te encuentras tú?</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0414">Porque el infierno es éste.</l>
+              <l n="0360" xml:id="es-0415">Ni estoy yo fuera de él. ¿Te se figura</l>
+              <l n="0361" xml:id="es-0416">Que yo que vi de Dios la faz hermosa</l>
+              <l n="0362" xml:id="es-0417">Y gocé las eternas alegrías</l>
+              <l n="0363" xml:id="es-0418">Del cielo, no me siento atormentado</l>
+              <l n="0364" xml:id="es-0419">Cual por diez mil infiernos, al mirarme</l>
+              <l n="0365" xml:id="es-0420">Privado de la eterna venturanza?</l>
+              <l n="0366" xml:id="es-0421">¡Deja, Fausto, esas frívolas preguntas</l>
+              <l n="0367" xml:id="es-0422">Que llenan de terror, mi alma abatida!</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO</speaker>
+            <lg>
+              <l n="0368" xml:id="es-0423">¡Cómo! ¿Tan afligido se lamenta</l>
+              <l n="0369" xml:id="es-0424">El grande Mefistófolis por verse</l>
+              <l n="0370" xml:id="es-0425">Privado de los goces celestiales?</l>
+              <l n="0371" xml:id="es-0426">De Fausto aprende la viril firmeza,</l>
+              <l n="0372" xml:id="es-0427">Y desprecia los goces y alegrías</l>
+              <l n="0373" xml:id="es-0428">Que nunca lograrás. Ve presuroso</l>
+              <l n="0374" xml:id="es-0429">Y lleva á Lucifer este mensaje:</l>
+              <l n="0375" xml:id="es-0430">Considerando Fausto que ha incurrido</l>
+              <l n="0376" xml:id="es-0431">En una eterna muerte, por audaces</l>
+              <l n="0377" xml:id="es-0432">Juicios contra el poder del mismo Jove,</l>
+              <l n="0378" xml:id="es-0433">Dile que le hace entrega de su alma;</l>
+              <l n="0379" xml:id="es-0434">Mas él ha de otorgarle veinticuatro</l>
+              <l n="0380" xml:id="es-0435">Años, y consentirle que los viva</l>
+              <l n="0381" xml:id="es-0436">En el seno de todos los placeres;</l>
+              <l n="0382" xml:id="es-0437">Siempre teniéndote para servirme</l>
+              <l n="0383" xml:id="es-0438">Y procurarme todo cuanto pida,</l>
+              <l n="0384" xml:id="es-0439">Decirme todo aquello que pregunte,</l>
+              <l n="0385" xml:id="es-0440">Matar á mis rivales y enemigos,</l>
+              <l n="0386" xml:id="es-0441">A mis amigos ayudar, y siempre</l>
+              <l n="0387" xml:id="es-0442">Obediente mostrarse á mi deseo.</l>
+              <l n="0388" xml:id="es-0443">Vuelve con Lucifer, y á media noche</l>
+              <l n="0389" xml:id="es-0444">A mi laboratorio ve á buscarme,</l>
+              <l n="0390" xml:id="es-0445">Y me dirás la decisión suprema</l>
+              <l part="I" n="0391" xml:id="es-0446">De tu señor.</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0447">Así he de hacerlo, Fausto.</l>
+            </lg>
+          </sp>
+          <stage>(Vase).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO</speaker>
+            <lg>
+              <l n="0392" xml:id="es-0448">Aunque yo poseyera tantas almas</l>
+              <l n="0393" xml:id="es-0449">Como luceros hay, diéralas todas</l>
+              <l n="0394" xml:id="es-0450">Por este Mefistófilis. Del mundo,</l>
+              <l n="0395" xml:id="es-0451">Por él, emperador seré, y un puente</l>
+              <l n="0396" xml:id="es-0452">Fabricaré á través del vago viento</l>
+              <l n="0397" xml:id="es-0453">Para cruzar el férvido Oceano,</l>
+              <l n="0398" xml:id="es-0454">Con una hueste del hombres; las montañas</l>
+              <l n="0399" xml:id="es-0455">Que las playas del Africa limitan</l>
+              <l n="0400" xml:id="es-0456">Las habré de juntar, haciendo aquellas</l>
+              <l n="0401" xml:id="es-0457">Regiones con la España un continente,</l>
+              <l n="0402" xml:id="es-0458">Y ambas de mi corona tributarias;</l>
+              <l n="0403" xml:id="es-0459">El mismo emperador, por mi permiso</l>
+              <l n="0404" xml:id="es-0460">Tan sólo, vivirá, como igualmente</l>
+              <l n="0405" xml:id="es-0461">Los primeros magnates de Germánia.</l>
+              <l n="0406" xml:id="es-0462">Ahora, ya que logré lo que deseo,</l>
+              <l n="0407" xml:id="es-0463">Viviré meditando en estas artes</l>
+              <l n="0408" xml:id="es-0464">Hasta que Mefistófilis retorne.</l>
+            </lg>
+          </sp>
+          <stage>(Vase).</stage>
+        </div2>
+      </div1>
+      <div1 type="act" n="2">
+        <head>Acto II</head>
+        <div2 type="scene" n="1">
+          <head>ESCENA I</head>
+          <stage>(FAUSTO en su laboratorio)</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0409" xml:id="es-0465">¿Estás forzosamente condenado,</l>
+              <l n="0410" xml:id="es-0466">Fausto, y tu salvación ya no es posible?</l>
+              <l n="0411" xml:id="es-0467">¿Entonces de qué sirve el ocuparse</l>
+              <l n="0412" xml:id="es-0468">De los cielos y Dios? Quimeras tales</l>
+              <l n="0413" xml:id="es-0469">Aparta de tu mente y ya no esperes.</l>
+              <l n="0414" xml:id="es-0470">Desespera de Dios, tu confianza</l>
+              <l n="0415" xml:id="es-0471">Poniendo en Belzebú: no retrocedas;</l>
+              <l n="0416" xml:id="es-0472">No, Fausto, firme sé. ¿Porqué vacilas?</l>
+              <l n="0417" xml:id="es-0473">¡Oh! siento que algo grita en mis oídos:</l>
+              <l n="0418" xml:id="es-0474">«¡La magia abjura y vuelve a Dios!» Sí,Fausto</l>
+              <l n="0419" xml:id="es-0475">Volverá á Dios. ¿A Dios.....? Ya no te ama;</l>
+              <l n="0420" xml:id="es-0476">El Dios á quien adoras, á quien sirves,</l>
+              <l n="0421" xml:id="es-0477">Es tu propio apetito, que es lo mismo</l>
+              <l n="0422" xml:id="es-0478">Que amar a Belzebú: á el solamente</l>
+              <l n="0423" xml:id="es-0479">Un templo y un altar he de erigirle,</l>
+              <l n="0424" xml:id="es-0480">Ofreciéndole allí la tibia sangra</l>
+              <l n="0425" xml:id="es-0481">De niños á la luz recién nacidos.</l>
+            </lg>
+          </sp>
+          <stage>(Entran el ÁNGEL BUENO y el ÁNGEL MALO).</stage>
+          <sp who="#gan">
+            <speaker>ÁNGEL BUENO.</speaker>
+            <lg>
+              <l n="0426" xml:id="es-0482">Fausto, deja esas artes execrables.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0427" xml:id="es-0483">Plegaria, contrición y los gemidos</l>
+              <l n="0428" xml:id="es-0484">Del arrepentimiento, ¿de qué sirven?</l>
+            </lg>
+          </sp>
+          <sp who="#gan">
+            <speaker>ÁNGEL BUENO.</speaker>
+            <lg>
+              <l n="0429" xml:id="es-0485">¡Oh! medios son para llevarte al cielo.</l>
+            </lg>
+          </sp>
+          <sp who="#ean">
+            <speaker>ÁNGEL MALO.</speaker>
+            <lg>
+              <l n="0430" xml:id="es-0486">Más bien son ilusiones engañosas,</l>
+              <l n="0431" xml:id="es-0487">Frutos de la locura, que embrutecen</l>
+              <l n="0432" xml:id="es-0488">A los hombres que en ellos más confían.</l>
+            </lg>
+          </sp>
+          <sp who="#gan">
+            <speaker>ÁNGEL BUENO.</speaker>
+            <lg>
+              <l n="0433" xml:id="es-0489">Amable Fausto, pon tu pensamiento</l>
+              <l n="0434" xml:id="es-0490">En el cielo y las cosas celestiales.</l>
+            </lg>
+          </sp>
+          <sp who="#ean">
+            <speaker>ÁNGEL MALO.</speaker>
+            <lg>
+              <l n="0435" xml:id="es-0491">No, Fausto, piensa en honras y riquezas.</l>
+            </lg>
+          </sp>
+          <stage>(Vanse los ángeles).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0436" xml:id="es-0492">¡En la riqueza! Sí, la señoría</l>
+              <l n="0437" xml:id="es-0493">De Embden, mía será, cuando conmigo</l>
+              <l n="0438" xml:id="es-0494">Mefistófilis vaya. ¿Qué Dios puede</l>
+              <l n="0439" xml:id="es-0495">A Fausto lastimar? Estás en salvo:</l>
+              <l n="0440" xml:id="es-0496">No abrigue ya tu corazón más dudas.</l>
+              <l n="0441" xml:id="es-0497">Mefistófilis, ven; gratas noticias</l>
+              <l n="0442" xml:id="es-0498">Trae del gran Lucifer. ¿No es media noche?</l>
+              <l n="0443" xml:id="es-0499">Llega, pues, Mefistófilis al punto.</l>
+              <l n="0444" xml:id="es-0500">
+                <emph>¡Veni veni Mephistophile!</emph>
+              </l>
+            </lg>
+          </sp>
+          <stage>(Entra MEFISTÓFILIS).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0445" xml:id="es-0501">Ahora ven á decirme lo que dice</l>
+              <l part="I" n="0446" xml:id="es-0502">Lucifer, tu señor.</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0503">Que mientras viva</l>
+              <l n="0447" xml:id="es-0504">Fausto le servirá; mas mi servicio</l>
+              <l n="0448" xml:id="es-0505">Le ha de comprar al precio de su alma.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0449" xml:id="es-0506">Ya Fausto contra tú se la ha jugado.</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0450" xml:id="es-0507">Sí, Fausto, pero tienes que legarla</l>
+              <l n="0451" xml:id="es-0508">Con gran solemnidad y acta de entrega,</l>
+              <l n="0452" xml:id="es-0509">Has de escribirme con tu propia sangre;</l>
+              <l n="0453" xml:id="es-0510">Tal garantía con empeño exige</l>
+              <l n="0454" xml:id="es-0511">El grande Lucifer, y si te niegas,</l>
+              <l n="0455" xml:id="es-0512">Sin dilación me volveré al infierno.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0456" xml:id="es-0513">Quédate, Mefistófilis, y dime:</l>
+              <l n="0457" xml:id="es-0514">¿Qué bien puede traerle el alma mía</l>
+              <l part="I" n="0458" xml:id="es-0515">A tu señor?</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0516">El dilatar su reino.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0459" xml:id="es-0517">¿Y esa es la razón por que nos tienta?</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0460" xml:id="es-0518">
+                <emph>Solamen miseris socios habuisse doloris.</emph>
+              </l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0461" xml:id="es-0519">¡Cómo! ¿sentís vosotros los dolores</l>
+              <l n="0462" xml:id="es-0520">Que á otros seres afligen y atormentan?</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0463" xml:id="es-0521">Tan grande como aquellos que trituran</l>
+              <l n="0464" xml:id="es-0522">Las terrenales almas de los hombres.</l>
+              <l n="0465" xml:id="es-0523">Mas dime,Fausto, ¿me darás tu alma?</l>
+              <l n="0466" xml:id="es-0524">Si lo hicieres así, seré tu esclavo</l>
+              <l n="0467" xml:id="es-0525">Para servirte, dándote más cosas</l>
+              <l n="0468" xml:id="es-0526">Que ingenio tienes tú para pedirlas.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0469" xml:id="es-0527">Mefistófilis, sí, yo te la entrego.</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0470" xml:id="es-0528">Entonces,Fausto, valerosamente</l>
+              <l n="0471" xml:id="es-0529">Hiere tu brazo, empeña el alma tuya,</l>
+              <l n="0472" xml:id="es-0530">A fin de que en su día reclamarla</l>
+              <l n="0473" xml:id="es-0531">Pueda el gran Lucifer: tan grande entonces</l>
+              <l n="0474" xml:id="es-0532">Serás cual Lucifer.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0475" xml:id="es-0533">(Hiriéndose el brazo). Por tu amor, mira,</l>
+              <l n="0476" xml:id="es-0534">Corto mi brazo, y con mi propia sangre</l>
+              <l n="0477" xml:id="es-0535">El alma mía cedo y aseguro</l>
+              <l n="0478" xml:id="es-0536">Al grande Lucifer, señor supremo</l>
+              <l n="0479" xml:id="es-0537">Y alto regente de la noche eterna.</l>
+              <l n="0480" xml:id="es-0538">Aquí la tienes, mírala, mi sangre</l>
+              <l n="0481" xml:id="es-0539">Gota á gota salir del brazo mío:</l>
+              <l n="0482" xml:id="es-0540">Pueda propicia ser á mi deseo.</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0483" xml:id="es-0541">Pero, Fausto, es preciso que lo escribas</l>
+              <l n="0484" xml:id="es-0542">De acta donación en tu propia forma.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0485" xml:id="es-0543">Sí lo haré,</l>
+              <stage>(escribe)</stage>
+              <l n="0486" xml:id="es-0544">Mefistófilis al punto.</l>
+              <l part="I" n="0487" xml:id="es-0545">Y no puedo escribir.</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0546">Te traeré fuego</l>
+              <l n="0488" xml:id="es-0547">Para que se disuelva en el instante.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0489" xml:id="es-0548">¿Qué importa que mi sangre se detenga?</l>
+              <l n="0490" xml:id="es-0549">¿Acaso escribiría este contrato</l>
+              <l n="0491" xml:id="es-0550">Contra mi voluntad? ¿Porqué no brota,</l>
+              <l n="0492" xml:id="es-0551">Y así con ella seguiré escribiendo?</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO</speaker>
+            <lg>
+              <l n="0493" xml:id="es-0552">
+                <emph>Fausto te da su alma</emph>
+                 ..... ¡Oh, se detuvo
+              </l>
+              <l n="0494" xml:id="es-0553">De nuevo! ¿Y porqué no? ¿No es tuya tu alma?</l>
+              <stage>(Vuelve á escribir).</stage>
+              <l n="0495" xml:id="es-0554">
+                <emph>Fausto te da su alma</emph>
+                 .
+              </l>
+            </lg>
+          </sp>
+          <stage>(Vuelve Mefistófilis con un braserillo con ascuas).</stage>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0496" xml:id="es-0555">Aquí tenemos fuego. Vamos,Fausto</l>
+              <l part="I" n="0497" xml:id="es-0556">Aplícale.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0557">Mi sangre ya principia</l>
+              <l n="0498" xml:id="es-0558">A aclararse; concluyo sin demora.</l>
+            </lg>
+          </sp>
+          <stage>(Escribe).</stage>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0499" xml:id="es-0559">
+                <seg type="aside">¡Ah! ¿qué no haría por lograr su alma?</seg>
+              </l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0500" xml:id="es-0560">
+                Ya 
+                <emph>consummatum est</emph>
+                 , ya he terminado
+              </l>
+              <l n="0501" xml:id="es-0561">Este escrito; por él ya Fausto lega</l>
+              <l n="0502" xml:id="es-0562">Su alma á Lucifer. ¿Pero qué es esta</l>
+              <l n="0503" xml:id="es-0563">Inscripción que en mi brazo ha aparecido?</l>
+              <l n="0504" xml:id="es-0564">
+                <emph>Homo fuge</emph>
+                 , y ¿á dónde huir, á dónde?
+              </l>
+              <l n="0505" xml:id="es-0565">Si huyo hacia Dios me arrojará al infierno.</l>
+              <l n="0506" xml:id="es-0566">Mis sentidos se engañan; aquí nada</l>
+              <l n="0507" xml:id="es-0567">Hay escrito; y no obstante en este sitio</l>
+              <l n="0508" xml:id="es-0568">
+                Escrito está, bien claro: 
+                <emph>Homo fuge</emph>
+                 .
+              </l>
+              <l n="0509" xml:id="es-0569">Y sin embargo, no,Fausto no huye.</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0510" xml:id="es-0570">
+                <seg type="aside">Algo traeré para embriagar su mente.</seg>
+              </l>
+            </lg>
+          </sp>
+          <stage>(Yéndose).</stage>
+          <stage>(Vuelve Mefistófilis con diablos, que ofrecen coronas y ricas vestiduras á Fausto; danzan y después se marchan).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0511" xml:id="es-0571">Mefistófilis, dime, este aparato</l>
+              <l part="I" n="0512" xml:id="es-0572">¿Qué significa?</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0573">Nada, Fausto, sólo</l>
+              <l n="0513" xml:id="es-0574">Sirve para embriagar con su deleito</l>
+              <l n="0514" xml:id="es-0575">Tu espíritu y mostrarte lo que logra</l>
+              <l part="I" n="0515" xml:id="es-0576">La Magia realizar.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0577">¿Y evocar puedo</l>
+              <l n="0516" xml:id="es-0578">Espíritus también cuando me plazca?</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0517" xml:id="es-0579">Sí, Fausto, y realizar cosas más grandes</l>
+              <l part="I" n="0518" xml:id="es-0580">Que éstas.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0581">Entonces hay lo suficiente</l>
+              <l n="0519" xml:id="es-0582">Para mil almas. Ven, toma este rollo,</l>
+              <l n="0520" xml:id="es-0583">Acta de donación de cuerpo y alma;</l>
+              <l n="0521" xml:id="es-0584">Mas bajo condición de que tú cumplas</l>
+              <l n="0522" xml:id="es-0585">Las cláusulas entre ambos convenidas.</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0523" xml:id="es-0586">Fausto, te juro aquí, por el infierno</l>
+              <l n="0524" xml:id="es-0587">Y Lucifer, cumplir debidamente</l>
+              <l n="0525" xml:id="es-0588">Todas cuantas promesas nos hicimos.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0526" xml:id="es-0589">Entonces óyeme, voy á leerlas:</l>
+            </lg>
+            <stage>(Lee).</stage>
+            <p>
+              <emph>En las condiciones siguientes: Primero que Fausto sea</emph>
+               
+              <emph>un espíritu en forma y en substancia. Segundo, que</emph>
+               
+              <emph>Mefistófilis será su servidor y obedecerá su mandato.</emph>
+               
+              <emph>Tercero, que Mefistófilis hará por él y le traerá cuanto desee.</emph>
+               
+              <emph>Cuarto, que en su habitación ó casa se hallará invisible.</emph>
+               
+              <emph>Ultimo, que se aparecerá al susodicho Juan Fausto en todo</emph>
+               
+              <emph>tiempo y en cualquiera forma que le pluguiere. Yo Juan</emph>
+               
+              <emph>Fausto de Wertemberg, Doctor, por las presentes doy ambos</emph>
+               
+              <emph>cuerpo y alma á Lucifer, príncipe de Oriente y á su ministro</emph>
+               
+              <emph>Mefistófilis; y al propio tiempo les concedo que al expirar el</emph>
+               
+              <emph>plaza de veinticuatro años, sin violación de las supraescritas</emph>
+               
+              <emph>cláusulas, tengan pleno poder de apropiarse ó llevarse al</emph>
+               
+              <emph>dicho JuanFausto, en cuerpo y alma, carne, sangre ó bienes á</emph>
+               
+              <emph>sus moradas donde quiera que sean. Firmado por mí. Juan</emph>
+               
+              <emph>Fausto.</emph>
+            </p>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0527" xml:id="es-0605">¿Dime,Fausto, este escrito es tu contrato?</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0528" xml:id="es-0606">Sí, tómale, y el diablo buen provecho</l>
+              <l part="I" n="0529" xml:id="es-0607">Te conceda por él.</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0608">Entonces pide,</l>
+              <l part="I" n="0530" xml:id="es-0609">Fausto, lo que tú quieras.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0610">Ante todo,</l>
+              <l n="0531" xml:id="es-0611">Sobre el infierno quiero interrogarte.</l>
+              <l n="0532" xml:id="es-0612">Dime, ¿dónde se encuentran las regiones</l>
+              <l n="0533" xml:id="es-0613">A que los hombres llaman infierno?</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l part="I" n="0534" xml:id="es-0614">Bajo los cielos.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0615">Sí, ¿pero hácia dónde?</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0535" xml:id="es-0616">Dentro de las entrañas misteriosas</l>
+              <l n="0536" xml:id="es-0617">De aquellos elementos, donde estamos</l>
+              <l n="0537" xml:id="es-0618">Atormentados y habitamos siempre.</l>
+              <l n="0538" xml:id="es-0619">El infierno, ni límites conoce</l>
+              <l n="0539" xml:id="es-0620">Ni á concreto lugar se circunscribe.</l>
+              <l n="0540" xml:id="es-0621">Donde estamos nosotros, es infierno,</l>
+              <l n="0541" xml:id="es-0622">Y donde está el infierno, allí nosotros.</l>
+              <l n="0542" xml:id="es-0623">Hemos de estar por siempre; y, en resumen,</l>
+              <l n="0543" xml:id="es-0624">Cuando por fin el mundo se disuelva,</l>
+              <l n="0544" xml:id="es-0625">Cuando por fin estén purificadas</l>
+              <l n="0545" xml:id="es-0626">Las criaturas, los lugares todos</l>
+              <l n="0546" xml:id="es-0627">Que cielo no serán, serán infierno.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0547" xml:id="es-0628">¡Bah! yo creo el infierno una irrisoria</l>
+              <l part="I" n="0548" xml:id="es-0629">Fábula, nada más.</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0630">Sí, todavía</l>
+              <l n="0549" xml:id="es-0631">Piénsalo si te place, hasta que cambie</l>
+              <l n="0550" xml:id="es-0632">Tu parecer, la luz de la experiencia.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0551" xml:id="es-0633">¿Luego tú estás seguro de que Fausto</l>
+              <l part="I" n="0552" xml:id="es-0634">Se habrá de condenar?</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0635">Forzosamente.</l>
+              <l n="0553" xml:id="es-0636">Pues aquí tengo el pergamino escrito</l>
+              <l n="0554" xml:id="es-0637">Por el que á Lucifer cedes tu alma.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0555" xml:id="es-0638">Sí, y el cuerpo también: pero ¿qué importa?</l>
+              <l n="0556" xml:id="es-0639">¿Crees tan necio á Fausto, que imagine</l>
+              <l n="0557" xml:id="es-0640">Que existe algún dolor tras esta vida?</l>
+              <l n="0558" xml:id="es-0641">¡Bah! son sólo bobadas estas cosas</l>
+              <l part="I" n="0559" xml:id="es-0642">Y cuentos de comadres.</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0643">Pero, Fausto,</l>
+              <l n="0560" xml:id="es-0644">De lo contrario yo soy clara prueba,</l>
+              <l n="0561" xml:id="es-0645">Pues estoy condenado, y ahora mismo</l>
+              <l part="I" n="0562" xml:id="es-0646">Estoy en el infierno.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0647">¡Cómo! ¿ahora</l>
+              <l n="0563" xml:id="es-0648">En el infierno estás? Pues si el infierno</l>
+              <l n="0564" xml:id="es-0649">Es esto, aquí deseo condenarme.</l>
+              <l n="0565" xml:id="es-0650">¡Cómo!.... Andar, disputar....... Pero, dejando</l>
+              <l n="0566" xml:id="es-0651">Esta vana cuestión, tráeme una esposa:</l>
+              <l n="0567" xml:id="es-0652">La más hermosa joven de Germánia;</l>
+              <l n="0568" xml:id="es-0653">Porque yo soy lascivo y disoluto,</l>
+              <l n="0569" xml:id="es-0654">Y sin una mujer vivir no puedo.</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0570" xml:id="es-0655">¡Cómo, mujer! te lo suplico,Fausto,</l>
+              <l part="I" n="0571" xml:id="es-0656">No hables de una mujer.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0657">Sí, tráeme una,</l>
+              <l n="0572" xml:id="es-0658">Amable Mefistófilis; la quiero.</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0573" xml:id="es-0659">Está bien; la tendrás. Espera entonces</l>
+              <l n="0574" xml:id="es-0660">Aquí sentado, hasta que vuelva, y una</l>
+              <l n="0575" xml:id="es-0661">En el nombre del diablo te la traiga.</l>
+            </lg>
+          </sp>
+          <stage>(Vase).</stage>
+          <stage>(Vuelve Mefistófilis con un diablo vestido de mujer y arrojando llamas).</stage>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0576" xml:id="es-0662">Aquí te la presento. Dime,Fausto,</l>
+              <l part="I" n="0577" xml:id="es-0663">¿Te gusta tu mujer?</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0664">¡La peste en ella!........</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0578" xml:id="es-0665">¡Quita allá! Fausto, el matrimonio es sólo</l>
+              <l n="0579" xml:id="es-0666">Ceremoniosa farsa: si me quieres</l>
+              <l n="0580" xml:id="es-0667">No pienses más en él. La que te agrade,</l>
+              <l n="0581" xml:id="es-0668">La que con más placer miren tus ojos,</l>
+              <l n="0582" xml:id="es-0669">Tu corazón la logrará en seguida.</l>
+              <l n="0583" xml:id="es-0670">Así sea tan casta y pudibunda</l>
+              <l n="0584" xml:id="es-0671">Como lo fué Penélope, tan sabia</l>
+              <l n="0585" xml:id="es-0672">Cual la reina de Saba, tan hermosa</l>
+              <l n="0586" xml:id="es-0673">Como lo fuera Lucifer radiente</l>
+              <l n="0587" xml:id="es-0674">Antes de su caída. Ten, recibe</l>
+              <l n="0588" xml:id="es-0675">Este libro: la múltiple lectura</l>
+              <stage>(Le da el libro)</stage>
+              <l n="0589" xml:id="es-0676">De estos renglones nos aporta el oro.</l>
+              <l n="0590" xml:id="es-0677">Dibujar este círculo en el suelo</l>
+              <l n="0591" xml:id="es-0678">Desata el desbocado torbellino,</l>
+              <l n="0592" xml:id="es-0679">El relámpago, el trueno y la tormenta;</l>
+              <l n="0593" xml:id="es-0680">Pronuncia esto tres veces, fervoroso,</l>
+              <l n="0594" xml:id="es-0681">Y te aparecerán hombres armados,</l>
+              <l n="0595" xml:id="es-0682">Prontos á ejecutar cuanto quisieres.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Gracias, Mefistófilis; aunque lo que yo desearía es un libro en el que pudiera hallar todos los hechizos y encantamientos para evocar espíritus cuando me plazca.</p>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <p>Aquí están, en este libro.</p>
+          </sp>
+          <stage>(Indicándolos).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>También quisiera un libro donde pueda ver todos los signos y planetas del cielo y conocer su posición y movimientos.</p>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <p>Aquí están, también.</p>
+          </sp>
+          <stage>(Indicándolos).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>¡Ah! quiero otro libro más (y con este basta), en el que pueda ver todas las plantas, yerbas y árboles que crecen sobre la tierra.</p>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <p>Aquí están</p>
+          </sp>
+          <stage>(Indicándolos).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>¡Oh! tu estás engañado.</p>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <p>¡Bah! te lo garantizo</p>
+          </sp>
+          <stage>(Indicándolos).</stage>
+        </div2>
+        <div2 type="scene" n="2">
+          <head>ESCENA II</head>
+          <stage>(Entran FAUSTO y MEFISTÓFILIS).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0596" xml:id="es-0696">Cuando contemplo el ámbito del cielo,</l>
+              <l n="0597" xml:id="es-0697">Entonces me arrepiento y te maldigo</l>
+              <l n="0598" xml:id="es-0698">Pérfido Mefistófilis, pues sólo,</l>
+              <l n="0599" xml:id="es-0699">Sólo tú, me has privado de sus goces.</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0600" xml:id="es-0700">¡Cómo! Fausto, ¿tú piensas que es el cielo</l>
+              <l n="0601" xml:id="es-0701">Tan hermosa región? Pues yo te digo</l>
+              <l n="0602" xml:id="es-0702">Que no es el cielo la mitad hermoso</l>
+              <l n="0603" xml:id="es-0703">De lo que eres tú mismo ó cualquier hombre</l>
+              <l n="0604" xml:id="es-0704">De los que respiráis sobre la tierra.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0605" xml:id="es-0705">¿Y cómo pruebas eso que asegurar?</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0606" xml:id="es-0706">Hecho fué para el hombre, luego el hombre</l>
+              <l n="0607" xml:id="es-0707">Por fuerza debe ser más excelente.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0608" xml:id="es-0708">Luego si para el hombre fué creado,</l>
+              <l n="0609" xml:id="es-0709">Hecho fué para mí; por consecuencia</l>
+              <l n="0610" xml:id="es-0710">A esta magia renuncio, y me arrepiento.</l>
+            </lg>
+          </sp>
+          <stage>(Entran el ÁNGEL BUENO y el ÁNGEL MALO)</stage>
+          <sp who="#gan">
+            <speaker>ÁNGEL BUENO.</speaker>
+            <lg>
+              <l n="0611" xml:id="es-0711">Arrepiéntete, Fausto, y todavía</l>
+              <l n="0612" xml:id="es-0712">Benigno podrá Dios de tí apiadarse.</l>
+            </lg>
+          </sp>
+          <sp who="#ean">
+            <speaker>ÁNGEL MALO.</speaker>
+            <lg>
+              <l n="0613" xml:id="es-0713">Eres sólo un espíritu; no puede</l>
+              <l part="I" n="0614" xml:id="es-0714">Dios tenerte piedad.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0715">¿Quién á mi oído</l>
+              <l n="0615" xml:id="es-0716">Murmura que un espíritu soy sólo?</l>
+              <l n="0616" xml:id="es-0717">Aunque yo fuese un diablo, Dios podría</l>
+              <l n="0617" xml:id="es-0718">Apiadarse de mí. Sí, Dios, de fijo</l>
+              <l n="0618" xml:id="es-0719">Se apiadará de mí si me arrepiento.</l>
+            </lg>
+          </sp>
+          <sp who="#ean">
+            <speaker>ÁNGEL MALO.</speaker>
+            <lg>
+              <l n="0619" xml:id="es-0720">Mas nunca habrá de arrepentirse Fausto.</l>
+            </lg>
+          </sp>
+          <stage>(Vanse los Angeles).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0620" xml:id="es-0721">Está mi corazón empedernido,</l>
+              <l n="0621" xml:id="es-0722">A punto que ni puedo arrepentirme.</l>
+              <l n="0622" xml:id="es-0723">Cielo, fe, salvación, apenas puedo</l>
+              <l n="0623" xml:id="es-0724">Nombrarlos sin que atruenen en mis oídos</l>
+              <l n="0624" xml:id="es-0725">Estos horribles ecos pavorosos:</l>
+              <l n="0625" xml:id="es-0726">«Fausto, estas condenado», y en seguida</l>
+              <l n="0626" xml:id="es-0727">Espadas y puñales y venenos,</l>
+              <l n="0627" xml:id="es-0728">Armas de fuego, corredizas sogas</l>
+              <l n="0628" xml:id="es-0729">Y emponzoñando acero me parecen</l>
+              <l n="0629" xml:id="es-0730">Para, con propia mano, despacharme.</l>
+              <l n="0630" xml:id="es-0731">Y ha largo tiempo, antes de tal deseo,</l>
+              <l n="0631" xml:id="es-0732">Por propia mano hubiérame matado</l>
+              <l n="0632" xml:id="es-0733">Si ante el dulce placer no se rindiese</l>
+              <l n="0633" xml:id="es-0734">La desesperación. Al ciego Homero</l>
+              <l n="0634" xml:id="es-0735">No le he obligado á que su voz me cante</l>
+              <l n="0635" xml:id="es-0736">De Alejandro el amor, de Œnón la muerte?</l>
+              <l n="0636" xml:id="es-0737">Y el que los muros levantó de Tebas</l>
+              <l n="0637" xml:id="es-0738">Con el sin par fascinador acorde</l>
+              <l n="0638" xml:id="es-0739">Del harpa melodiosa, no me vino</l>
+              <l n="0639" xml:id="es-0740">Dulce música á dar, en compañía</l>
+              <l n="0640" xml:id="es-0741">De mi buen Mefistófilis? Entonces</l>
+              <l n="0641" xml:id="es-0742">¿Porqué desesperar cobardemente</l>
+              <l n="0642" xml:id="es-0743">O para qué morir? Estoy resuelto.</l>
+              <l n="0643" xml:id="es-0744">Fausto jamás habrá de arrepentirse.</l>
+              <l n="0644" xml:id="es-0745">Mefistófilis, ven, y discutamos</l>
+              <l n="0645" xml:id="es-0746">Otra vez la divina Astrología.</l>
+              <l n="0646" xml:id="es-0747">Dime primero, ¿existen muchos cielos</l>
+              <l n="0647" xml:id="es-0748">Por cima de la esfera de la luna?</l>
+              <l n="0648" xml:id="es-0749">¿Son todos esos cuerpos celestiales</l>
+              <l n="0649" xml:id="es-0750">Un globo nada más, de igual substancia</l>
+              <l n="0650" xml:id="es-0751">Que esta céntrica tierra que habitamos?</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0651" xml:id="es-0752">Como son los terrestres elementos,</l>
+              <l n="0652" xml:id="es-0753">Así son las esferas, mutuamente</l>
+              <l n="0653" xml:id="es-0754">Cada cual en el radio de las otras</l>
+              <l n="0654" xml:id="es-0755">Comprendida; mas, Fausto, todas juntas</l>
+              <l n="0655" xml:id="es-0756">Se mueven sobre un eje, cuyo extremo</l>
+              <l n="0656" xml:id="es-0757">Se llama el ancho polo de los mundos.</l>
+              <l n="0657" xml:id="es-0758">Ni son los nombres de Saturno, Marte</l>
+              <l n="0658" xml:id="es-0759">Y Júpiter tan sólo imaginarios,</l>
+              <l part="I" n="0659" xml:id="es-0760">Sino errantes estrellas.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0761">Dime, ¿y tienen</l>
+              <l n="0660" xml:id="es-0762">A su vez todos ellos movimiento</l>
+              <l n="0661" xml:id="es-0763">
+                <emph>Situ et tempore</emph>
+                 ?
+              </l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <p>Todos conjuntamente se mueven de Este á Oeste en veinticuatro horas sobre los polos del mundo; pero difieren en su movimiento sobre los polos del Zodíaco.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0662" xml:id="es-0767">¡Bah! todas esas nimias bagatelas</l>
+              <l n="0663" xml:id="es-0768">Wagner las puede resolver: ¿no tiene</l>
+              <l n="0664" xml:id="es-0769">Más genio Mefistófilis? La doble</l>
+              <l n="0665" xml:id="es-0770">Moción de los planetas, ¿quién la ignora?</l>
+              <l n="0666" xml:id="es-0771">La primera termina en el transcurso</l>
+              <l n="0667" xml:id="es-0772">De un día natural, y la segunda</l>
+            </lg>
+            <p>
+              De ese modo: Saturno en treinta años, Júpiter en doce, Marte en cuatro; el Sol, Venus y Mercurio en un año; la Luna en veintiocho días. ¡Bah! esas son nociones de principiante. Pero, dime, ¿tiene cada esfera un dominio ó 
+              <emph>intelligentia</emph>
+               ?
+            </p>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <p>Sí.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>¿Cuántos cielos ó esferas hay?</p>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <p>Nueve: los siete planetas, el firmamento y el empíreo cielo.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Bueno, resuélveme esta pregunta: ¿porqué no tenemos conjunciones, aposiciones, fases, eclipses, todo á un tiempo, sino unos años más y otros menos?</p>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <p>
+              <emph>Per inaequalem motum respectu totius</emph>
+               .
+            </p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Bien, estoy respondido. Dime ahora. ¿Quién hizo el mundo?</p>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <p>No te lo digo.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Mi buen Mefistófilis, dímelo.</p>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <p>No insistas, porque no he de decírtelo.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>¡Bribón!; ¿no te has obligado á decirme todo?</p>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <p>Sí, todo lo que no es contra nuestro reino; pero esto lo es. Piensa en el infierno, Fausto, porque estás condenado.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Fausto, piensa en el Dios que creó el mundo.</p>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <p>Pues de eso acuérdate.</p>
+          </sp>
+          <stage>(Vase).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0668" xml:id="es-0798">Sí, ¡vete, vete</l>
+              <l n="0669" xml:id="es-0799">Al negro infierno, espíritu maldito!</l>
+              <l n="0670" xml:id="es-0800">¡Tú condenaste, tú, del pobre Fausto</l>
+              <l n="0671" xml:id="es-0801">El alma! ¿No es muy tarde?</l>
+            </lg>
+          </sp>
+          <stage>(Vuelven el ÁNGEL BUENO y el ÁNGEL MALO).</stage>
+          <sp who="#ean">
+            <speaker>ÁNGEL MALO.</speaker>
+            <lg>
+              <l n="0672" xml:id="es-0802">Sí, muy tarde.</l>
+            </lg>
+          </sp>
+          <sp who="#gan">
+            <speaker>ÁNGEL BUENO.</speaker>
+            <lg>
+              <l n="0673" xml:id="es-0803">Nunca es tarde, si Fausto se arrepiente.</l>
+            </lg>
+          </sp>
+          <sp who="#ean">
+            <speaker>ÁNGEL MALO.</speaker>
+            <lg>
+              <l n="0674" xml:id="es-0804">Si te arrepientes de los demonios fieros</l>
+              <l part="I" n="0675" xml:id="es-0805">Te harán pedazos.</l>
+            </lg>
+          </sp>
+          <sp who="#gan">
+            <speaker>ÁNGEL BUENO.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0806">No: ni tu epidermis</l>
+              <l n="0676" xml:id="es-0807">Osarían tocar si te arrepientes.</l>
+            </lg>
+          </sp>
+          <stage>(Vanse los Angeles).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0677" xml:id="es-0808">Cristo, Salvador mío, ven procura</l>
+              <l n="0678" xml:id="es-0809">Salvar de Fausto el alma dolorida.</l>
+            </lg>
+          </sp>
+          <stage>(Entran LUCIFER, BELZEBÚ y MEFISTÓFILIS).</stage>
+          <sp who="#luc">
+            <speaker>LUCIFER.</speaker>
+            <lg>
+              <l n="0679" xml:id="es-0810">Cristo, salvar no puede el alma tuya,</l>
+              <l n="0680" xml:id="es-0811">Pues es justo; por ella nadie tiene</l>
+              <l part="I" n="0681" xml:id="es-0812">Interés sino yo.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0813">¿Quién eres, dime,</l>
+              <l n="0682" xml:id="es-0814">¡Oh, tú! que aspecto tienes tan horrible?</l>
+            </lg>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUC.</speaker>
+            <lg>
+              <l n="0683" xml:id="es-0815">Soy lucifer, y éste es mi compañero,</l>
+              <l part="I" n="0684" xml:id="es-0816">Príncipe del infierno.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0817">¡Oh! Fausto, Fausto,</l>
+              <l n="0685" xml:id="es-0818">Vienen aquí para llevar tu alma.</l>
+            </lg>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUC.</speaker>
+            <lg>
+              <l n="0686" xml:id="es-0819">Venimos á decir que nos ofendes,</l>
+              <l n="0687" xml:id="es-0820">Pues contra tu promesa hablas de Cristo.</l>
+              <l n="0688" xml:id="es-0821">Tú nunca deberías ni siquiera</l>
+              <l n="0689" xml:id="es-0822">Pensar en Dios; piensa en el diablo sólo</l>
+              <l part="I" n="0690" xml:id="es-0823">Y en su condenación.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0824">En adelante</l>
+              <l n="0691" xml:id="es-0825">No lo haré más; perdóname por todo,</l>
+              <l n="0692" xml:id="es-0826">Y Fausto jura no mirar al cielo,</l>
+              <l n="0693" xml:id="es-0827">Nunca nombrar á Dios, nunca rezarle;</l>
+              <l n="0694" xml:id="es-0828">En el fuego quemar sus Escrituras,</l>
+              <l n="0695" xml:id="es-0829">Feroz asesinar á sus ministros,</l>
+              <l n="0696" xml:id="es-0830">Y hacer que mis espíritus, airados</l>
+              <l n="0697" xml:id="es-0831">Las bóvedas derrumben de sus templos.</l>
+            </lg>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUC.</speaker>
+            <p>Hazlo así y te recompensaremos con largueza. Fausto, hemos venido del infierno para mostrarte algún pasatiempo. Siéntate y verás los Siete Pecados Mortales aparecer en su propia forma.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0698" xml:id="es-0836">Espectáculo tal, me será grato;</l>
+              <l n="0699" xml:id="es-0837">Como le fuera á Adán el Paraíso</l>
+              <l n="0700" xml:id="es-0838">En el día primero de acabada</l>
+              <l n="0701" xml:id="es-0839">Su creación.....</l>
+            </lg>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUC.</speaker>
+            <p>No hables de la Creación ni del Paraíso; mira este espectáculo. Habla del diablo y nada más. Ven. (Entran los SIETE PECADOS MORTALES). Ahora,Fausto, examínalos en sus diversos nombres y condiciones.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>¿Quién eres tú?, el primero.</p>
+          </sp>
+          <sp who="#pri">
+            <speaker>SOBERB.</speaker>
+            <p>Soy la Soberbia: Desdeño todo parentesco. Soy como la mosca de Ovidio. A veces como un rizo me planto en la frente de una muchacha, ó como una peluca me planto en sus sienes, ó como un abanico de plumas beso sus labios. Por supuesto, hago..... ¿qué es lo que yo no hago? No diré una palabra más á menos que el suelo esté perfumado y cubierto con tapices de Flandes.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>¿Quién eres tú?, el segundo.</p>
+          </sp>
+          <sp who="#cov">
+            <speaker>AVARIC.</speaker>
+            <p>Soy la Avaricia, engendrada por un tacaño en una vieja bolsa de cuero, y, á poder satisfacer mi deseo, pediría que esta casa y toda la gente que hay en ella, se convirtiesen en oro para poder encerraros en mi buen arca. ¡Oh, mi oro queridísimo!</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>¿Quién eres tú?, el tercero.</p>
+          </sp>
+          <sp who="#wra">
+            <speaker>IRA.</speaker>
+            <p>Soy la Ira: no tengo padre ni madre. Salí de la boca de un león, cuando apenas tenía media hora de edad, y desde entonces he corrido arriba y abajo por el mundo, con este estuche de dagas, hiriéndome á mí propia, cuando no tenía con quién pelear. Nací en el infierno y espero en él, pues alguno de vosotros será mi padre.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Tú, el cuarto, ¿quién eres?</p>
+          </sp>
+          <sp who="#env">
+            <speaker>ENVIDIA.</speaker>
+            <p>Soy la Envidia, engendrada por un deshollinador y una ostra hembra. No sé leer, y sin embargo quisiera ver quemados todos los libros. Me enflaquece el ver comer á los demás. ¡Oh, si sobreviniese un hambre sobre todo el mundo para que todos muriesen y viviese yo sola! ¡Entonces veríais qué gorda me pondría! Pero qué, ¿tú has de estar sentado y yo en pie?....</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>¡Quita allá, bribona envidiosa! ¿Quién eres tú?, el quinto.</p>
+          </sp>
+          <sp who="#glu">
+            <speaker>GULA.</speaker>
+            <p>¿Quién, yo, señor? Soy la Gula. Todos mis parientes han muerto, y maldito el ochavo que me dejaron, fuera de una miserable pensión de treinta comidas al día y diez meriendas, una friolerilla para satisfacer el apetito. ¡Oh, yo desciendo de regia estirpe! Mi abuelo fué un Pernil de Tocino, mi abuela una Bota de Vino tinto; mis padrinos fueron Pedro Sardina escabechada y Martina Buey Gordo. Oh, pero mi madrina, esa sí que era una señora alegre y bienquista en toda buena ciudad y villa. Su nombre era: la señora Margarita Cerveza de Marzo. Ahora,Fausto, que conoces toda mi progenie, ¿quieres convidarme á cenar?</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>No, antes quiero verte ahorcada. Te engullirías todos mis comestibles.</p>
+          </sp>
+          <sp who="#glu">
+            <speaker>GULA.</speaker>
+            <p>¡Entonces, el diablo te estrangule!</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Estrangúlate tú, ¡glotona! Y tú, el sexto, ¿quién eres?</p>
+          </sp>
+          <sp who="#slo">
+            <speaker>PEREZA.</speaker>
+            <p>Soy la Pereza. Fuí engendrada con una loma soleada, donde he estado tumbada desde entonces, y me habéis fastidiado en grande, trayéndome de allí. Dejad que me lleven allá otra vez la Gula y la Lujuria. No he de hablar una palabra más, por todos los tesoros de un rey.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>¿Quién sois, señora Desparpajo. La séptima y última?</p>
+          </sp>
+          <sp who="#lec">
+            <speaker>LUJURIA.</speaker>
+            <p>¿Quién, yo, señor? La primer letra de mi nombre es L.</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCIFER.</speaker>
+            <lg>
+              <l n="0702" xml:id="es-0895">Largo de aquí, al infierno, al infierno.</l>
+            </lg>
+          </sp>
+          <stage>(Vanse los Pecados).</stage>
+          <sp who="#luc">
+            <speaker>LUC.</speaker>
+            <lg>
+              <l n="0703" xml:id="es-0896">Fausto, ¿qué tal? ¿te agradan estas cosas?</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0704" xml:id="es-0897">¡Oh, sí, sustento dan al alma mía!</l>
+            </lg>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUC.</speaker>
+            <lg>
+              <l n="0705" xml:id="es-0898">¡Es claro! toda clase de placeres</l>
+              <l part="I" n="0706" xml:id="es-0899">En los infiernos hay.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0900">¡Oh, si pudiera</l>
+              <l n="0707" xml:id="es-0901">Ver el infierno, mas después volverme;</l>
+              <l part="I" n="0708" xml:id="es-0902">Cuán feliz fuera yo!</l>
+            </lg>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUC.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0903">Pues vas á serlo;</l>
+              <l n="0709" xml:id="es-0904">Espera, y al sonar la media noche,</l>
+              <l n="0710" xml:id="es-0905">Yo mandaré por ti; mas entretanto</l>
+              <l n="0711" xml:id="es-0906">Ten este libro, estúdiale en seguida</l>
+              <l n="0712" xml:id="es-0907">Desde el principio al fin, y convertirte</l>
+              <l n="0713" xml:id="es-0908">Podrás, en la figura que te plazca.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0714" xml:id="es-0909">Mil y mil gracias, Lucifer potente!</l>
+              <l n="0715" xml:id="es-0910">Este precioso don he de guardarle</l>
+              <l n="0716" xml:id="es-0911">Con más esmero que mi propia vida.</l>
+            </lg>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUC.</speaker>
+            <lg>
+              <l n="0717" xml:id="es-0912">Pues, adiós,Fausto, y en el diablo piensa.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l part="I" n="0718" xml:id="es-0913">Adiós gran Lucifer.</l>
+              <stage>(Vanse Lucifer y Belzebú).</stage>
+              <l part="F" xml:id="es-0914">Ven Mefistófilis.</l>
+            </lg>
+          </sp>
+          <stage>(Vanse).</stage>
+        </div2>
+      </div1>
+      <div1 type="act" n="3">
+        <head>Acto III</head>
+        <stage>(Entra el CORO).</stage>
+        <sp who="#cho">
+          <speaker>CORO.</speaker>
+          <lg>
+            <l n="0719" xml:id="es-0915">El docto Fausto, á fin de los arcanos</l>
+            <l n="0720" xml:id="es-0916">Penetrar de la eterna Astronomía,</l>
+            <l n="0721" xml:id="es-0917">Grabados en el libro del excelso</l>
+            <l n="0722" xml:id="es-0918">Firmamento de Jove, levantóse</l>
+            <l n="0723" xml:id="es-0919">A escalar del Olimpo la alta cumbre,</l>
+            <l n="0724" xml:id="es-0920">En refulgente carro, por la fuerza</l>
+            <l n="0725" xml:id="es-0921">De dragones uncidos, arrastrado.</l>
+            <l n="0726" xml:id="es-0922">Ahora fue de la gran Cosmografía</l>
+            <l n="0727" xml:id="es-0923">El estudio á probar; según infiere,</l>
+            <l n="0728" xml:id="es-0924">Habrá primero de arribar á Roma</l>
+            <l n="0729" xml:id="es-0925">A ver al Papa y de su regia corte</l>
+            <l n="0730" xml:id="es-0926">El esplendor, tomando alguna parte</l>
+            <l n="0731" xml:id="es-0927">Del Santo Pedro en la pomposa fiesta</l>
+            <l n="0732" xml:id="es-0928">Con gran solemnidad hoy celebrada.</l>
+          </lg>
+        </sp>
+        <stage>(Vase).</stage>
+        <div2 type="scene" n="1">
+          <head>ESCENA I</head>
+          <stage>(Entran FAUSTO y MEFISTÓFILIS).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0733" xml:id="es-0929">Después, buen Mefistófilis, de raudos,</l>
+              <l n="0734" xml:id="es-0930">De Tréveris cruzar con gran deleite</l>
+              <l n="0735" xml:id="es-0931">La soberbia ciudad, de aéreas cumbres,</l>
+              <l n="0736" xml:id="es-0932">Murallas de granito y hondos lagos</l>
+              <l n="0737" xml:id="es-0933">Cercada, y de cualquiera poderoso</l>
+              <l n="0738" xml:id="es-0934">Príncipe á la conquista inexpugnable;</l>
+              <l n="0739" xml:id="es-0935">Desde París, de Francia costeando</l>
+              <l n="0740" xml:id="es-0936">El vasto reino, vimos sumergirse</l>
+              <l n="0741" xml:id="es-0937">El río Maine en veloz corriente</l>
+              <l n="0742" xml:id="es-0938">Del Rhin, cuyas orillas se coronan</l>
+              <l n="0743" xml:id="es-0939">De arboledas y fértiles viñedos.</l>
+              <l n="0744" xml:id="es-0940">Después fuímos á Nápoles, risueña,</l>
+              <l n="0745" xml:id="es-0941">En la rica Campania, con sus bellos,</l>
+              <l n="0746" xml:id="es-0942">Con sus deslumbradores edificios,</l>
+              <l n="0747" xml:id="es-0943">Y cuyas rectas calles empedradas</l>
+              <l n="0748" xml:id="es-0944">Del más fino ladrillo en cuatro partes</l>
+              <l n="0749" xml:id="es-0945">Equivalentes, la ciudad dividen.</l>
+              <l n="0750" xml:id="es-0946">En ella contemplamos la áurea tumba</l>
+              <l n="0751" xml:id="es-0947">Del sapiente Marrón, y aquel camino</l>
+              <l n="0752" xml:id="es-0948">Del largo de una milla, que cortara</l>
+              <l n="0753" xml:id="es-0949">A través de una dura, viva roca</l>
+              <l n="0754" xml:id="es-0950">En el transcurso breve de una noche.</l>
+              <l n="0755" xml:id="es-0951">De allí á Venecia, Padua y otras villas,</l>
+              <l n="0756" xml:id="es-0952">En una de las cuales suntuoso</l>
+              <l n="0757" xml:id="es-0953">Levántase un gran templo que amenaza</l>
+              <l n="0758" xml:id="es-0954">Con su cúpula altiva á las estrellas.</l>
+              <l n="0759" xml:id="es-0955">Así Fausto su tiempo ha disfrutado;</l>
+              <l n="0760" xml:id="es-0956">Mas di, ¿qué sitio de descanso es este?</l>
+              <l n="0761" xml:id="es-0957">¿Cual antes te mandé, me has conducido</l>
+              <l n="0762" xml:id="es-0958">De la Roma imperial entre los muros?</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <p>Fausto, así lo he hecho, y para que no nos halle desprovistos, he tomado para nuestro uso las habitaciones privadas de Su Santidad.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Espero que Su Santidad nos dará la bienvenida.</p>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <p>¡Bah! hombre, eso no importa. Aprovechemos y démonos buen trato.</p>
+            <lg>
+              <l n="0763" xml:id="es-0965">Y ahora, para que puedas, Fausto mío,</l>
+              <l n="0764" xml:id="es-0966">Conocer lo que Roma en sí contiene</l>
+              <l n="0765" xml:id="es-0967">Que pueda convenirte y deleitarte,</l>
+              <l n="0766" xml:id="es-0968">Sabe que esta ciudad está asentada</l>
+              <l n="0767" xml:id="es-0969">Sobre siete colinas que soportan</l>
+              <l n="0768" xml:id="es-0970">Su sólido cimiento; en medio de ella,</l>
+              <l n="0769" xml:id="es-0971">Del caudaloso Tíber, la corriente,</l>
+              <l n="0770" xml:id="es-0972">Rueda entre sus orillas tortuosas,</l>
+              <l n="0771" xml:id="es-0973">Que en dos partes iguales la dividen;</l>
+              <l n="0772" xml:id="es-0974">Y sobre ellas apoyan sus estribos</l>
+              <l n="0773" xml:id="es-0975">Cuatro soberbios puentes, que seguro</l>
+              <l n="0774" xml:id="es-0976">Hacen el paso entre las dos mitades</l>
+              <l n="0775" xml:id="es-0977">De Roma. Sobre el puente titulado</l>
+              <l n="0776" xml:id="es-0978">
+                <emph>Ponte Angelo</emph>
+                 , un castillo se levanta,
+              </l>
+              <l n="0777" xml:id="es-0979">Formidable en extremo; en el recinto</l>
+              <l n="0778" xml:id="es-0980">De sus espesos muros se almacena</l>
+              <l n="0779" xml:id="es-0981">Tal provisión de gruesa artillería</l>
+              <l n="0780" xml:id="es-0982">Y de dobles cañones, fabricados</l>
+              <l n="0781" xml:id="es-0983">De refulgente y esculpido bronce,</l>
+              <l n="0782" xml:id="es-0984">Que iguala con su número á los días</l>
+              <l n="0783" xml:id="es-0985">De un año entero. Hay además, las puertas</l>
+              <l n="0784" xml:id="es-0986">Y las altas pirámides que trajo</l>
+              <l n="0785" xml:id="es-0987">Julio César, del Africa vencida.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0786" xml:id="es-0988">Pues por los reinos de infernal gobierno,</l>
+              <l n="0787" xml:id="es-0989">La Stigia, el Acheron y el ígneo lago</l>
+              <l n="0788" xml:id="es-0990">Del siempre ardiente Flageton, te juro</l>
+              <l n="0789" xml:id="es-0991">Que ansío ver los nobles monumentos</l>
+              <l n="0790" xml:id="es-0992">Y situación de la esplendente Roma.</l>
+              <l part="I" n="0791" xml:id="es-0993">Ven, pues, vamos allá.</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l part="F" xml:id="es-0994">No, Fausto, espera;</l>
+              <l n="0792" xml:id="es-0995">Sé que tienes afán de ver al Papa</l>
+              <l n="0793" xml:id="es-0996">Y de tomar alguna activa parte</l>
+              <l n="0794" xml:id="es-0997">Del Santo Pedro en la pomposa fiesta</l>
+              <l n="0795" xml:id="es-0998">Donde verás una apiñada turba</l>
+              <l n="0796" xml:id="es-0999">De tonsurados frailes, cuyo solo</l>
+              <l n="0797" xml:id="es-1000">
+                Y 
+                <emph>summum bonum</emph>
+                 es la comilona.
+              </l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0798" xml:id="es-1001">Bueno, me gustará conseguir de ellos</l>
+              <l n="0799" xml:id="es-1002">Alguna fiesta, y con sus desatinos</l>
+              <l n="0800" xml:id="es-1003">Un rato nos diviertan. Por lo tanto,</l>
+              <l n="0801" xml:id="es-1004">Encántame para que yo invisible</l>
+              <l n="0802" xml:id="es-1005">Me pueda hacer; logrando, sin ser visto,</l>
+              <l n="0803" xml:id="es-1006">Mientras en Roma esté, cuanto me plazca.</l>
+            </lg>
+          </sp>
+          <stage>(MEFISTÓFILIS le encanta).</stage>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0804" xml:id="es-1007">Fausto, ya estás; haz ahora cuanto quieras</l>
+              <l n="0805" xml:id="es-1008">Y no serás por nadie conocido.</l>
+            </lg>
+          </sp>
+          <stage>(Suena un toque. Entran el Papa y el Cardenal de Lorena al banquete, acompañados de frailes).</stage>
+          <sp who="#pop">
+            <speaker>PAPA.</speaker>
+            <p>¿Monseñor de Lorena, queréis acercaros?</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Así te caigas y el diablo te estrangule sin matarte.</p>
+          </sp>
+          <sp who="#pop">
+            <speaker>PAPA.</speaker>
+            <p>¿Qué es eso? ¿Quién es ese que habla? Hermanos, buscad quién es.</p>
+          </sp>
+          <sp who="#fri">
+            <speaker>1.er FRAI.</speaker>
+            <p>Aquí no hay nadie, con permiso de Vuestra Santidad.</p>
+          </sp>
+          <sp who="#pop">
+            <speaker>PAPA.</speaker>
+            <p>Monseñor, aquí tenéis un suculento plato que me ha enviado el obispo de Milán.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Gracias, señor</p>
+          </sp>
+          <stage>(arrebata el plato).</stage>
+          <sp who="#pop">
+            <speaker>PAPA.</speaker>
+            <p>¿Qué es esto? ¿quién se me ha llevado la carne? ¿quiere alguien mirar? Monseñor, este plato me lo envió el Cardenal de Florencia.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Es verdad. Venga acá</p>
+          </sp>
+          <stage>(arrebata el plato).</stage>
+          <sp who="#pop">
+            <speaker>PAPA.</speaker>
+            <p>¡Cómo, otra vez! Monseñor, bebo á salud de Vuestra Eminencia.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Brindo por Vuestra Eminencia.</p>
+          </sp>
+          <stage>(Arrebata la copa).</stage>
+          <sp who="#lor">
+            <speaker>C. DE L.</speaker>
+            <p>Señor, debe ser alguna ánima recién escapada del Purgatorio y que viene á impetrar el perdón de Vuestra Santidad.</p>
+          </sp>
+          <sp who="#pop">
+            <speaker>PAPA.</speaker>
+            <p>Eso debe ser. Hermanos, preparad una responso para aplacar la furia de esta ánima. Y otra vez, Monseñor, sigamos comiendo.</p>
+          </sp>
+          <stage>(El Papa se santigua).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0806" xml:id="es-1030">¿Qué es eso? ¿os santiguáis? Con esa farsa</l>
+              <l n="0807" xml:id="es-1031">Aquí no me vengáis, os lo aconsejo.</l>
+              <stage>(El Papa se vuelve á santiguar).</stage>
+              <l n="0808" xml:id="es-1032">Segunda vez. Cuidado á la tercera;</l>
+              <l n="0809" xml:id="es-1033">Pues oportunamente os lo prevengo.</l>
+              <stage>(El Papa se vuelve á santiguar y Fausto le da un bofetón y todos huyen).</stage>
+              <l n="0810" xml:id="es-1034">Mefistófilis, ven, ¿qué hacemos ahora?</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0811" xml:id="es-1035">No lo sé; pero van á maldecirnos</l>
+              <l n="0812" xml:id="es-1036">Con campanas y cirios y misales.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0813" xml:id="es-1037">Misal, campana, cirio chispeante,</l>
+              <l n="0814" xml:id="es-1038">Cirios, campanas y misales, cuerno,</l>
+              <l n="0815" xml:id="es-1039">Usados hacia atrás y hacia adelante</l>
+              <l n="0816" xml:id="es-1040">Para meter á Fausto en el infierno.</l>
+              <l n="0817" xml:id="es-1041">Pronto oirás de un cerdo los gruñidos,</l>
+              <l n="0818" xml:id="es-1042">De un asno al rebuznar la sinfonía,</l>
+              <l n="0819" xml:id="es-1043">De un choto, los bramidos,</l>
+              <l n="0820" xml:id="es-1044">Pues hoy es de San Pedro el Santo día.</l>
+            </lg>
+          </sp>
+          <stage>(Vuelven los Frailes á cantar un responso).</stage>
+          <sp who="#fri">
+            <speaker>1.er FRAI.</speaker>
+            <p>
+              Venid, hermanos, y despachemos nuestro negocio con toda devoción. (Cantan). Maldito sea el que se robó de la mesa la carne de Su Santidad 
+              <emph>¡maledicat Dominus!</emph>
+               Maldito sea el que pegó a Su Santidad un bofetón en el rostro 
+              <emph>¡maledicat Dominus!</emph>
+               Maldito sea el que dió á Fray Sandelo un coscorrón en la mollera 
+              <emph>¡maledicat Dominus!</emph>
+               Maldito sea el que turba a nuestro Santo responso 
+              <emph>¡maledicat Dominus!</emph>
+               Maldito sea el que se llevó el vino de Su Santidad 
+              <emph>¡maledicat Dominus!</emph>
+               
+              <emph>Et omnes Santi ¡Amén!</emph>
+            </p>
+          </sp>
+          <stage>(MEFISTÓFILIS y FAUSTO apalean á los Frailes y disparan cohetes entre ellos. Vanse).</stage>
+        </div2>
+      </div1>
+      <div1 type="act" n="4">
+        <head>Acto IV</head>
+        <stage>(Entra el CORO).</stage>
+        <sp who="#cho">
+          <speaker>CORO.</speaker>
+          <lg>
+            <l n="0821" xml:id="es-1053">Luego que fausto disfrutó la vista</l>
+            <l n="0822" xml:id="es-1054">De las más raras cosas y las Cortes</l>
+            <l n="0823" xml:id="es-1055">De reyes vió, detuvo su carrera</l>
+            <l n="0824" xml:id="es-1056">Y volvió á sus hogares, donde aquellos</l>
+            <l n="0825" xml:id="es-1057">Que con dolor su ausencia deploraron,</l>
+            <l n="0826" xml:id="es-1058">Es decir, sus amigos más cordiales,</l>
+            <l n="0827" xml:id="es-1059">Íntimos compañeros, con palabras</l>
+            <l n="0828" xml:id="es-1060">Cariñosas su vuelta saludaron,</l>
+            <l n="0829" xml:id="es-1061">Y al platicar de cuanto le ocurriera</l>
+            <l n="0830" xml:id="es-1062">Durante su fantástica jornada</l>
+            <l n="0831" xml:id="es-1063">Por el mundo y el aire, mil preguntas</l>
+            <l n="0832" xml:id="es-1064">Sobre la misteriosa astrología</l>
+            <l n="0833" xml:id="es-1065">Le hicieron, á que Fausto dió respuesta</l>
+            <l n="0834" xml:id="es-1066">Con tan sabia agudeza, que admiraron</l>
+            <l n="0835" xml:id="es-1067">Y se maravillaron de su ingenio.</l>
+            <l n="0836" xml:id="es-1068">Ya su nombre y su fama se divulgan</l>
+            <l n="0837" xml:id="es-1069">Por todas las naciones, una de ellas</l>
+            <l n="0838" xml:id="es-1070">La del Emperador, de Carlos V,</l>
+            <l n="0839" xml:id="es-1071">En cuyo regio alcázar, hoy á Fausto,</l>
+            <l n="0840" xml:id="es-1072">Y en medio de sus nobles, le festejan.</l>
+            <l n="0841" xml:id="es-1073">Lo que hizo allí por prueba de sus artes</l>
+            <l n="0842" xml:id="es-1074">Lo dejo sin decir, pues vuestros ojos</l>
+            <l n="0843" xml:id="es-1075">Lo van á presenciar ejecutado.</l>
+          </lg>
+        </sp>
+        <div2 type="scene" n="1">
+          <head>ESCENA I</head>
+          <stage>(Entra ROBÍN, mozo de cuadra, con un libro en la mano)</stage>
+          <sp who="#rob">
+            <speaker>ROBÍN.</speaker>
+            <p>¡Oh, esto es admirable! Aquí he robado uno de los libros de conjuros del Doctor Fausto, y á fe mía que he de buscar algunos círculos para mi uso particular. Haré que todas las chicas de mi barrio bailen ante mí á mi antojo.</p>
+          </sp>
+          <stage>(Entra RODOLFO llamando á ROBÍN).</stage>
+          <sp who="#raf">
+            <speaker>RODOLFO.</speaker>
+            <p>Robín, haz el favor de venir; aquí hay un caballero esperando su caballo y quiere que le frieguen y limpien todas sus cosas, y sobre esto le está dando tal matraca á la patrona, que ésta me envía á buscarte. Anda, ven, por favor.</p>
+          </sp>
+          <sp who="#rob">
+            <speaker>ROB.</speaker>
+            <p>No vengas, no vengas ó vas á volar descuartizado, Rodolfo; vete, pues voy á emprender un trabajo estupendo.</p>
+          </sp>
+          <sp who="#raf">
+            <speaker>ROD.</speaker>
+            <p>Ven, ¿qué haces ahí con ese libro? ¿Sabes acaso leer?</p>
+          </sp>
+          <sp who="#rob">
+            <speaker>ROB.</speaker>
+            <p>Sí, ya verán el amo y el ama cómo sé leer.</p>
+          </sp>
+          <sp who="#raf">
+            <speaker>ROD.</speaker>
+            <p>Pero, Robín, ¿qué libro es ese?</p>
+          </sp>
+          <sp who="#rob">
+            <speaker>ROB.</speaker>
+            <p>¡Qué libro! El más irresistible libro de conjuros que jamás inventó un diablo sulfurado!</p>
+          </sp>
+          <sp who="#raf">
+            <speaker>ROD.</speaker>
+            <p>¿Y tú puedes conjurar con él?</p>
+          </sp>
+          <sp who="#rob">
+            <speaker>ROB.</speaker>
+            <p>
+              Con él puedo hacer fácilmente todas estas cosas: primero, puedo de balde emborracharte con 
+              <emph>hipocras</emph>
+               en cualquier taberna de Europa. Este es uno de mis conjuros.
+            </p>
+          </sp>
+          <sp who="#raf">
+            <speaker>ROD.</speaker>
+            <p>Nuestro señor párroco, dice que eso no vale nada.</p>
+          </sp>
+          <sp who="#rob">
+            <speaker>ROB.</speaker>
+            <p>Es verdad, Rodolfo. Pero, mira, Rodolfo, si te se antoja, por ejemplo, Ana Espetera, la fregona, la tendrás en seguida.</p>
+          </sp>
+          <sp who="#raf">
+            <speaker>ROD.</speaker>
+            <p>¡Oh, bravo, Robín! ¿Podré conseguir á Ana Espetera? Con esa condición me comprometo á mantener á paja y cebada á tu diablo, gratis y mientras viva.</p>
+          </sp>
+          <sp who="#rob">
+            <speaker>ROB.</speaker>
+            <p>Basta, amigo Rodolfo; vamos ahora á limpiarnos las botas que están sucias y después conjuraremos en nombre del diablo.</p>
+          </sp>
+          <stage>(Vanse).</stage>
+        </div2>
+        <div2 type="scene" n="2">
+          <head>ESCENA II</head>
+          <stage>(Entran ROBÍN y RODOLFO con una copa de plata).</stage>
+          <sp who="#rob">
+            <speaker>ROBÍN.</speaker>
+            <p>
+              ¡Ven, Rodolfo! ¿No te dije que habíamos hecho ya nuestro negocio con este libro del Doctor Fausto? 
+              <emph>¡Ecce signum!</emph>
+               Esta es una verdadera ganga para los mozos de caballos; los nuestros no necesitarán comer cebada mientras esto dure.
+            </p>
+          </sp>
+          <sp who="#raf">
+            <speaker>RODOLFO.</speaker>
+            <p>Calla, Robín, ahí viene el tabernero.</p>
+          </sp>
+          <sp who="#rob">
+            <speaker>ROB.</speaker>
+            <p>¡Chitón! Voy á pegársela de un modo sobrenatural. (Entra el TABERNERO) Señor tabernero, creo que todo está pagado. ¡Quedad con Dios! Vente, Rodolfo.</p>
+          </sp>
+          <sp who="#vin">
+            <speaker>TAB.</speaker>
+            <p>Poco á poco, amiguito, tengo una palabra que decirte. Antes de irte tienes que pagarme una copa.</p>
+          </sp>
+          <sp who="#rob">
+            <speaker>ROB.</speaker>
+            <p>¡Yo una copa, Rodolfo, yo una copa! Os desprecio: sois un......, etc. ¡Yo una copa! Registradme.</p>
+          </sp>
+          <sp who="#vin">
+            <speaker>TAB.</speaker>
+            <p>Eso mismísimo voy á hacer con tu permiso.</p>
+          </sp>
+          <stage>(Registra á Robín).</stage>
+          <sp who="#rob">
+            <speaker>ROB.</speaker>
+            <p>¡Vamos! ¿Qué decís ahora?</p>
+          </sp>
+          <sp who="#vin">
+            <speaker>TAB.</speaker>
+            <p>Pues digo, que tengo algo que decir á tu compañero. ¡Eh, amigo!</p>
+          </sp>
+          <sp who="#raf">
+            <speaker>ROD.</speaker>
+            <p>¡A mí, compadre, a mí! Bueno, hartaros de registrar. (El tabernero le registra). Ahora, señor mío, se os debía caer la cara de vergüenza de cargar á hombres honrados con una duda sobre su veracidad.</p>
+          </sp>
+          <sp who="#vin">
+            <speaker>TAB.</speaker>
+            <p>Bien, pues alguno de vosotros tiene dentro la copa.</p>
+          </sp>
+          <sp who="#rob">
+            <speaker>ROB.</speaker>
+            <p>
+              <seg type="aside">Mientes, tabernero, que la tengo delante. Ojo á la copa ¡Rodolfo!</seg>
+            </p>
+          </sp>
+          <sp who="#vin">
+            <speaker>TAB.</speaker>
+            <p>¿Qué intentas, bribón?</p>
+          </sp>
+          <sp who="#rob">
+            <speaker>ROB.</speaker>
+            <p>
+              <seg type="aside">Ojo á la copa.</seg>
+            </p>
+          </sp>
+          <stage>(Entra MEFISTÓFILIS, les aplica cohetes á las espaldas y se va. Ellos se echan á correr).</stage>
+          <sp who="#vin">
+            <speaker>TAB.</speaker>
+            <p>
+              <emph>¡O, nomine Domini!</emph>
+               ¿Qué haces, Robín? Tú no tienes la copa.
+            </p>
+          </sp>
+          <sp who="#raf">
+            <speaker>ROD.</speaker>
+            <p>
+              <emph>¡Peccatum peccatorum!</emph>
+               Aquí está tu copa, buen tabernero.
+            </p>
+          </sp>
+          <stage>(Da la copa al tabernero, que se va).</stage>
+          <sp who="#rob">
+            <speaker>ROB.</speaker>
+            <p>
+              <emph>Misericordia pro nobis</emph>
+               . ¿Qué haré? Buen diablo, perdóname por esta vez y no volveré á robar tu librería.
+            </p>
+          </sp>
+          <stage>(Vuelve MEFISTÓFILIS).</stage>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0844" xml:id="es-1136">Monarca poderoso del infierno,</l>
+              <l n="0845" xml:id="es-1137">Ante cuya mirada, temblorosos</l>
+              <l n="0846" xml:id="es-1138">Los grandes potentados se arrodillan,</l>
+              <l n="0847" xml:id="es-1139">Ante cuyos altares se prosternan</l>
+              <l n="0848" xml:id="es-1140">Las almas á millares: los hechizos</l>
+              <l n="0849" xml:id="es-1141">Me habrán de fastidiar, de estos villanos.</l>
+              <l n="0850" xml:id="es-1142">Desde Constantinopla presuroso</l>
+              <l n="0851" xml:id="es-1143">Vine hasta aquí, tan sólo por capricho</l>
+              <l n="0852" xml:id="es-1144">De estos malditos rústicos esclavos.</l>
+            </lg>
+          </sp>
+          <sp who="#rob">
+            <speaker>ROB.</speaker>
+            <p>¡Cómo, desde Constantinopla! es un bonito viaje; ¿queréis seis peniques para el bolsillo, con que pagar la cena y la vuelta?</p>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <p>Está bien, canallas, por vuestra insolencia os transformo, á ti en mico y á ti en perro, y ahora largo de aquí.</p>
+          </sp>
+          <stage>(Vase).</stage>
+          <sp who="#rob">
+            <speaker>ROB.</speaker>
+            <p>¡Cómo, en mico! ¡Bravo! Me voy a divertir de lo lindo con los muchachos. Me darán muchas nueces y manzanas.</p>
+          </sp>
+          <sp who="#raf">
+            <speaker>ROD.</speaker>
+            <p>Y yo tengo que ser perro.</p>
+          </sp>
+          <sp who="#rob">
+            <speaker>ROB.</speaker>
+            <p>Apuesto á que nunca sacarás el hocico de la cazuela.</p>
+          </sp>
+          <stage>(Vanse).</stage>
+        </div2>
+        <div2 type="scene" n="3">
+          <head>ESCENA III</head>
+          <stage>(Entran el EMPERADOR, FAUSTO y un CABALLERO, con servidumbre).</stage>
+          <sp who="#emp">
+            <speaker>EMP.</speaker>
+            <p>Maese Doctor Fausto, he oído extraños rumores acerca de tu saber en las negras artes, y como ni en mi imperio, ni en todo el mundo hay nadie que pueda comparársete en los raros efectos de la magia. Dicen que tienes un espíritu familiar, con cuyo auxilio puedes ejecutar cuanto quieras. Así, pues, te pido que me hagas ver alguna prueba de tu habilidad, que mis ojos sean testigos que confirmen cuanto mis oídos oyeron referir; y aquí te juro, por el honor de mi imperial corona, que, hagas lo que hicieres, no serás en modo alguna perjudicado ni molestado.</p>
+          </sp>
+          <sp who="#kni">
+            <speaker>CAB.</speaker>
+            <p>
+              <seg type="aside">En verdad que tiene toda la taza de un brujo.</seg>
+            </p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Gracioso soberano mío: aunque debo confesarme harto inferior al rumor que los hombres han divulgado, y no merezco el honor que vuestra imperial majestad me dispensa, por el amor y el deber que á ello me obligan, haré gustoso cuanto vuestra majestad me ordene.</p>
+          </sp>
+          <sp who="#emp">
+            <speaker>EMP.</speaker>
+            <lg>
+              <l n="0853" xml:id="es-1170">Entonces, Doctor Fausto, atento escucha</l>
+              <l n="0854" xml:id="es-1171">Lo que voy á decir. Mientras me hallaba</l>
+              <l n="0855" xml:id="es-1172">Cierta vez solitario y caviloso,</l>
+              <l n="0856" xml:id="es-1173">Sentado en mi tranquilo gabinete,</l>
+              <l n="0857" xml:id="es-1174">Diversos pensamientos me asaltaron</l>
+              <l n="0858" xml:id="es-1175">Acerca del honor y la grandeza</l>
+              <l n="0859" xml:id="es-1176">De mis antecesores; cómo habían</l>
+              <l n="0860" xml:id="es-1177">Heróicos cumplido hazañas tales,</l>
+              <l n="0861" xml:id="es-1178">Ganado tan espléndidas riquezas,</l>
+              <l n="0862" xml:id="es-1179">Tantos y tantos reinos sometido,</l>
+              <l n="0863" xml:id="es-1180">Que nosotros sus nobles herederos,</l>
+              <l n="0864" xml:id="es-1181">O los que habrán de ser nuestros sólios</l>
+              <l n="0865" xml:id="es-1182">Posesores después, temo que nunca</l>
+              <l n="0866" xml:id="es-1183">Alcanzarán aquel supremo grado</l>
+              <l n="0867" xml:id="es-1184">De gran autoridad y alto renombre.</l>
+              <l n="0868" xml:id="es-1185">Es el Magno Alejandro, entre esos reyes</l>
+              <l n="0869" xml:id="es-1186">De toda mundanal supremacía,</l>
+              <l n="0870" xml:id="es-1187">El ejemplo mayor; de sus gloriosas</l>
+              <l n="0871" xml:id="es-1188">Hazañas, la aureola refulgente</l>
+              <l n="0872" xml:id="es-1189">Alumbra al mundo con tan vivos rayos,</l>
+              <l n="0873" xml:id="es-1190">Que sólo al mencionarle, sufre el alma</l>
+              <l n="0874" xml:id="es-1191">De no poder jamás ver aquel hombre.</l>
+              <l n="0875" xml:id="es-1192">Si tú por los manejos de tu artes</l>
+              <l n="0876" xml:id="es-1193">Evocases tal hombre desde el fondo</l>
+              <l n="0877" xml:id="es-1194">De las cóncavas bóvedas en donde</l>
+              <l n="0878" xml:id="es-1195">El gran conquistador yace enterrado,</l>
+              <l n="0879" xml:id="es-1196">Y si viene con él su amada hermosa,</l>
+              <l n="0880" xml:id="es-1197">Ambos bajo la forma verdadera:</l>
+              <l n="0881" xml:id="es-1198">El traje, la expresión que por los días</l>
+              <l n="0882" xml:id="es-1199">De su vida mostraron, mi deseo</l>
+              <l n="0883" xml:id="es-1200">Satisfarás, al par que gran motivo</l>
+              <l n="0884" xml:id="es-1201">Me darás de alabarte mientras viva.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Mi gracioso señor, pronto estoy á cumplir vuestra demanda hasta donde me lo consientan el arte y el poder de mi espíritu.</p>
+          </sp>
+          <sp who="#kni">
+            <speaker>CAB.</speaker>
+            <p>¡Bah! pues eso no vale nada.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Mas, con permiso de Vuestra Gracia, no está en mi mano el presentar ante vuestra vista los verdaderos y substanciales cuerpos de aquellos dos muertos príncipes, que desde hace tanto tiempo se convirtieron en polvo.</p>
+          </sp>
+          <sp who="#kni">
+            <speaker>CAB.</speaker>
+            <p>
+              <seg type="aside">Hola, hola, Maese Doctor: ya es un indicio de la gracia en vos, el confesar la verdad.</seg>
+            </p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Pero espíritus tales que sean la viva imagen de Alejandro y su amada, aparecerán ante Vuestra Gracia en el modo y forma en que ambos vivieron, en su más hermoso aspecto; lo que dudo baste al contentamiento de Vuestra imperial majestad.</p>
+          </sp>
+          <sp who="#emp">
+            <speaker>EMP.</speaker>
+            <lg>
+              <l n="0885" xml:id="es-1214">Manos á la obra, Maese Doctor.</l>
+              <l n="0886" xml:id="es-1215">Hacédmelos ver ahora mismo.</l>
+            </lg>
+          </sp>
+          <sp who="#kni">
+            <speaker>CAB.</speaker>
+            <p>¿Lo oís, Maese Dcotor? ¡Haced comparecer á Alejandro y su amada ante el emperador!</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>¿Y qué, señor?</p>
+          </sp>
+          <sp who="#kni">
+            <speaker>CAB.</speaker>
+            <p>¡Ya, ya! tan cierto es eso como que Diana va á volverme ciervo.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>No, señor; pero cuando Acteón murió dejó para vos sus cuernos. Mefistófilis. Vamos.</p>
+          </sp>
+          <stage>(Vase Mefistófilis).</stage>
+          <sp who="#kni">
+            <speaker>CAB.</speaker>
+            <p>Si váis á conjurar, yo me marcho.</p>
+          </sp>
+          <stage>(Vase).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Después me entenderé con vos, por haberme interrumpido. Aquí están, Gracioso Señor.</p>
+          </sp>
+          <stage>(Vuelve Mefistófilis con ESPÍRITUS, en forma de ALEJANDRO y su AMADA).</stage>
+          <sp who="#emp">
+            <speaker>EMP.</speaker>
+            <p>Maese Fausto, oí decir que esta señora, mientras vivió, tenía una verruga ó lunar en el cuello. ¿Cómo podría saber si era ó no cierto?</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Vuestra Alteza puede sin temor acercarse y verlo.</p>
+          </sp>
+          <sp who="#emp">
+            <speaker>EMP.</speaker>
+            <p>En verdad, estos no son espíritus, sino los verdaderos y substanciales cuerpos de aquellos dos muertos príncipes.</p>
+          </sp>
+          <stage>(Vanse los Espíritus).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>¿Se dignará ahora Vuestra Alteza mandar llamar al caballero que hace poco fué aquí tan amable conmigo?</p>
+          </sp>
+          <sp who="#emp">
+            <speaker>EMP.</speaker>
+            <p>Uno de vosotros id á llamarle. (Vase un servidor). ¿Qué es eso, señor caballero? Yo creí que eras soltero, pero ahora veo que tienes mujer, que no sólo te da cuernos, sino que te adorna con ellos. ¡Tiéntate la cabeza!</p>
+          </sp>
+          <sp who="#kni">
+            <speaker>CAB.</speaker>
+            <lg>
+              <l n="0887" xml:id="es-1238">Vil, condenado y execrable perro,</l>
+              <l n="0888" xml:id="es-1239">Engendrado de alguna impura roca</l>
+              <l n="0889" xml:id="es-1240">En la concavidad; ¿cómo te atreves</l>
+              <l n="0890" xml:id="es-1241">A ultrajar de este modo á un caballero?</l>
+              <l n="0891" xml:id="es-1242">Lo que has hecho, deshaz, pronto, ¡villano!</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>¡Oh, no tan pronto, señor mío! no corre prisa. ¿Os acordáis de cómo me interrumpísteis en mi plática con el emperador? Me parece que ahora debemos ajustar cuentas.</p>
+          </sp>
+          <sp who="#emp">
+            <speaker>EMP.</speaker>
+            <p>Buen Maesse Doctor, á ruego mío, libradle, está bastante escarmentado.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Gracioso señor, no tanto por la ofensa que me hizo en vuestra presencia, como por divertirnos con algún pasatiempo, se ha vengado Fausto dignamente de este insolente caballero; y siendo éste mi único propósito, le liberto gustoso de sus cuernos; mas de hoy en adelante, señor caballero, hablad bien de los sabios. Mefistófilis, transfórmale al punto. (Mefistófilis, le quita los cuernos). Y ahora, bondadoso señor, cumplido mi deber, humildemente me retiro.</p>
+          </sp>
+          <sp who="#emp">
+            <speaker>EMP.</speaker>
+            <p>Id con Dios, Maese Doctor, pero antes de marcharos esperad mi bondadosa recompensa.</p>
+          </sp>
+          <stage>(Vanse el emperador, el caballero y la servidumbre).</stage>
+        </div2>
+        <div2 type="scene" n="4">
+          <head>ESCENA IV</head>
+          <stage>(FAUSTO y MEFISTÓFILIS).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0892" xml:id="es-1257">Ya el incesante curso que recorre</l>
+              <l n="0893" xml:id="es-1258">Con pie tranquilo y silencioso el tiempo,</l>
+              <l n="0894" xml:id="es-1259">Acortando mis días y la trama</l>
+              <l n="0895" xml:id="es-1260">Vital de mi existencia, el pago exige</l>
+              <l n="0896" xml:id="es-1261">De mis últimos años; por lo tanto,</l>
+              <l n="0897" xml:id="es-1262">Mefistófilis caro, sin tardanza</l>
+              <l n="0898" xml:id="es-1263">A Wertemberg el paso apresuremos.</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l part="I" n="0899" xml:id="es-1264">Bien, ¿á caballo? ¿á pie?</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l part="F" xml:id="es-1265">Hasta que cruce</l>
+              <l n="0900" xml:id="es-1266">Esta verde pradera, andar prefiero.</l>
+            </lg>
+          </sp>
+          <stage>(Entrar un tratante en caballos).</stage>
+          <sp who="#hco">
+            <speaker>CHALÁN.</speaker>
+            <p>Todo el día ando buscando á cierto Maese Fustan. ¡Calle, miren donde está! ¡Dios os guarde, Maese Doctor!</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>¡Qué hay, señor chalán! Bien venido seáis.</p>
+          </sp>
+          <sp who="#hco">
+            <speaker>TRAT.</speaker>
+            <p>¿Lo oísteis, señor? Aquí os traigo cuarenta pesos por vuestro caballo.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>No puedo vendértele en ese precio; si le quieres por cincuenta, tómale.</p>
+          </sp>
+          <sp who="#hco">
+            <speaker>TRAT.</speaker>
+            <p>¡Ay, señor, no tengo más! (A Mefistófilis). Hablad en mi favor, os lo pido.</p>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <p>Os lo pido, dejádsele: es un buen muchacho y tiene mucha carga á cuestas; ni mujer, ni chiquillos.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Bueno, venga, tu dinero. (El chalán da el dinero á Fausto). Mi mozo te lo entregará. Pero debo prevenirte una cosa antes de dártele. No le lleves al pilón por nada.</p>
+          </sp>
+          <sp who="#hco">
+            <speaker>TRAT.</speaker>
+            <p>Pues ¿qué, señor, no bebe toda clase de aguas?</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Oh, sí beberá todas; pero no le lleves al agua: llévale por zanjas y breñas ó por donde quieras, pero no al agua.</p>
+          </sp>
+          <sp who="#hco">
+            <speaker>TRAT.</speaker>
+            <p>Está bien, señor. De esta hecha me hago hombre para siempre. No soltaré mi caballo por cuarenta pesos. Bueno, quedad con Dios, señor. Vuestro mozo me le entregará. Oh, pero oíd, señor, ¿si mi caballo se pone malo ó descompuesto me diréis lo que tiene?</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>¡Largo de aquí, canalla! ¿Piensas que soy veterinario?</p>
+          </sp>
+          <stage>(Vase el tratante).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0901" xml:id="es-1290">¿Quién eres, Fausto? ¿Qué eres más que un hombre</l>
+              <l n="0902" xml:id="es-1291">Condenador á morir? A su fin toca</l>
+              <l n="0903" xml:id="es-1292">Ya tu plaza fatal. Llévate, arranca</l>
+              <l n="0904" xml:id="es-1293">Tu, desesperación, la triste duda</l>
+              <l n="0905" xml:id="es-1294">Del pensamiento mío; ven y extingue</l>
+              <l n="0906" xml:id="es-1295">Mis temores en mi tranquilo sueño.</l>
+              <l n="0907" xml:id="es-1296">¡Mas qué! ¿Cristo al ladrón no ha perdonado</l>
+              <l n="0908" xml:id="es-1297">Desde la cruz? Entonces nada temas</l>
+              <l n="0909" xml:id="es-1298">Cálmate, Fausto, en reflexión tranquila.</l>
+            </lg>
+          </sp>
+          <stage>(Se duerme sobre un sillón).</stage>
+          <stage>(Vuelve el chalán todo mojado y gritando).</stage>
+          <sp who="#hco">
+            <speaker>TRAT.</speaker>
+            <p>Ay, ay, Doctor Fustan. Diantre con el Doctor Lopus, nunca hubo un doctor como él; me ha dado una purga que me ha purgado de cuarenta pesos que nunca volveré a ver. Pero, burro de mí, no quise hacer lo que me mandó, cuando me encargo que no le llevase al agua, y yo pensando que mi caballo tendría alguna rara cualidad que él no quería decirme, como un chico atrevido, lo llevé al hondo estanque que hay al extremo de la ciudad. No bien me hallo en medio del estanque, cátate que mi caballo desaparece y me encuentro montado sobre un haz de heno, y en mi vida me he visto más cerca de ahogarme. ¡Pero ya buscaré yo á mi doctor y tendré mis cuarenta pesos ó le ha de salir el más caro de los caballos! Oh, allí veo a su esquilador. Eh, oye tú, danzante, ¿dónde está tu amo?</p>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <p>¿Qué quieres con él? No puedes hablarle.</p>
+          </sp>
+          <sp who="#hco">
+            <speaker>TRAT.</speaker>
+            <p>Pues yo le he de hablar.</p>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <p>Pues está durmiendo, ven otro día.</p>
+          </sp>
+          <sp who="#hco">
+            <speaker>TRAT.</speaker>
+            <p>Le he de hablar ahora mismo ó le he de romper los vidrios en las narices.</p>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <p>Te digo que hace ocho noches que no duerme.</p>
+          </sp>
+          <sp who="#hco">
+            <speaker>TRAT.</speaker>
+            <p>Pues aunque no haya dormido en ocho semanas, yo le he de hablar.</p>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <p>Mira donde está dormido como una piedra.</p>
+          </sp>
+          <sp who="#hco">
+            <speaker>TRAT.</speaker>
+            <p>Sí, es él. ¡Dios os guarde, Maese Doctor, Maese Doctor, Maese Doctor Fustan! Cuarenta pesos, cuarenta pesos por una gavilla de heno.</p>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <p>Ya ves cómo no te oye.</p>
+          </sp>
+          <sp who="#hco">
+            <speaker>TRAT.</speaker>
+            <p>¡Eh!, ¡eh! (Ahuecando la voz á su oído) ¿No querrás despertar? Pronto te haré yo despertar. (Tira á Fausto de una pierna y se la arranca) ¡Ay!, ¡estoy perdido! ¿Qué haré?</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>¡Ay, mi pierna!, ¡mi pierna! ¡Socorro, Mefistófilis! Llama á los guardias. ¡Mi pierna, mi pierna!</p>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <p>Ven, canalla, que te lleve al Comisario.</p>
+          </sp>
+          <sp who="#hco">
+            <speaker>TRAT.</speaker>
+            <p>¡Oh, por Dios, señor, dejadme marchar y os daré cuarenta pesos más!</p>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <p>Vengan, ¿dónde están?</p>
+          </sp>
+          <sp who="#hco">
+            <speaker>TRAT.</speaker>
+            <p>No traigo ninguno, pero venid á mi posada y allí os los daré.</p>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <p>Ya estás largándote á escape.</p>
+          </sp>
+          <stage>(El tratante se va corriendo).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>¿Qué, se fué ya? ¡Vaya con Dios! Fausto ya tiene otra vez su pierna y el tratante, de seguro, una gavilla de heno por su trabajo. Está bien, la broma le costará cuarenta pesos más. (Entra WAGNER). ¡Hola Wagner! ¿Qué nuevas traes?</p>
+          </sp>
+          <sp who="#wag">
+            <speaker>WAG.</speaker>
+            <p>Señor: el Duque de Vanholt, con empeño solicita vuestra presencia.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>¡El Duque de Vanholt! Un cumplido caballero, para el cual no debo escatimar mi ingenio. Ven, Mefistófilis, vamos á verle.</p>
+          </sp>
+          <stage>(Vanse).</stage>
+        </div2>
+        <div2 type="scene" n="5">
+          <head>ESCENA V</head>
+          <stage>(Entran el DUQUE DE VANHOLT, la DUQUESA y FAUSTO).</stage>
+          <sp who="#duk">
+            <speaker>DUQUE.</speaker>
+            <p>Creedme, Maese Fausto, este jolgorio me ha divertido mucho.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Pláceme, amable señor, que tanto os satisfaga. En cuanto á vos, señora, quizás esto no os entretenga. He oído que á veces á las mujeres preñadas se les antoja tal ó cual golosina. ¿Cuál deseáis, señora? Decídmelo y lo tendréis en seguida.</p>
+          </sp>
+          <sp who="#duch">
+            <speaker>DUQ.ª</speaker>
+            <p>Gracias, buen Maese Doctor; y pues que veo vuestro galante afán de complacerme, no os ocultaré lo que mi corazón apetece, y si ahora en vez de ser Enero y la muerta estación del invierno, fuese verano, no desearía mejor manjar que un plato de uvas maduras.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>¡Ah, señora, eso no es nada! ¡Mefistófilis, corre! (Vase Mefistófilis). Aunque fuese cosa mayor que ésta, con tal que os plugiese la tendríais. (Vuelve Mefistófilis con las uvas) Aquí las tenéis, señora. ¿Os dignaréis probarlas?</p>
+          </sp>
+          <sp who="#duk">
+            <speaker>DUQUE.</speaker>
+            <p>Creedme, Maese Doctor, esto me maravilla más que todo, pues siendo la muerta estación del invierno y el mes de Enero, ¿cómo podéis procurarnos estas uvas?</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Con permiso de Vuestra Excelencia: el año está dividido en dos círculos sobre el mundo entero, de modo que cuando aquí para nosotros es invierno, en el opuesto círculo es verano para aquellos otros, como son la India, Saba y las remotas comarcas del Oriente; y por medio de un rápido espíritu que me obecede, me las han traído de allí, como véis. ¿Os gustan, señora? ¿Son buenas?</p>
+          </sp>
+          <sp who="#duch">
+            <speaker>DUQ.ª</speaker>
+            <p>Os asegura, Maese Doctor, que son las mejores uvas que he probado en toda mi vida.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Mucho me place, señora, que así sea.</p>
+          </sp>
+          <sp who="#duk">
+            <speaker>DUQUE.</speaker>
+            <p>Venid, señora, vamos donde podáis recompensar dignamente á este hombre sabio por la extrema amabilidad que no ha mostrado.</p>
+          </sp>
+          <sp who="#duch">
+            <speaker>DUQ.ª</speaker>
+            <p>Así lo haré, señor, y mientras viva le quedaré obligada por su cortesía.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Humildemente doy gracias á Vuestra Excelencia.</p>
+          </sp>
+          <sp who="#duk">
+            <speaker>DUQUE.</speaker>
+            <p>Venid, Maese Doctor, seguidnos y recibiréis vuestra recompensa.</p>
+          </sp>
+          <stage>(Vanse).</stage>
+        </div2>
+      </div1>
+      <div1 type="act" n="5">
+        <head>Acto V</head>
+        <div2 type="scene" n="1">
+          <head>ESCENA I</head>
+          <stage>(Entra WAGNER).</stage>
+          <sp who="#wag">
+            <speaker>WAGNER.</speaker>
+            <lg>
+              <l n="0910" xml:id="es-1371">Creo que mi señor en breve plazo</l>
+              <l n="0911" xml:id="es-1372">Piensa morir, pues de sus bienes todos</l>
+              <l n="0912" xml:id="es-1373">Hízome donación. No obstante, creo</l>
+              <l n="0913" xml:id="es-1374">Que si estuviera próxima esa muerte</l>
+              <l n="0914" xml:id="es-1375">Ni banquetes, jarana y borracheras</l>
+              <l n="0915" xml:id="es-1376">Entre estudiantes celebrar querría</l>
+              <l n="0916" xml:id="es-1377">Como en este momento en que cenando</l>
+              <l n="0917" xml:id="es-1378">Están en tan alegre comilona</l>
+              <l n="0918" xml:id="es-1379">Que Wagner otra tal no vió en su vida.</l>
+              <l n="0919" xml:id="es-1380">Hélos allí, ya vienen, pues sin duda,</l>
+              <l n="0920" xml:id="es-1381">Debe el festín haberse terminado.</l>
+            </lg>
+          </sp>
+          <stage>(Vase).</stage>
+          <stage>(Entra FAUSTO con dos ó tres ESTUDIANTES y MEFISTÓFILIS).</stage>
+          <sp who="#fsch">
+            <speaker>1.er EST.</speaker>
+            <p>Maese Doctor Fausto, apropósito de vuestra discusión sobre mujeres hermosas y sobre quién fué la más bella en todo el mundo, hemos convenido en que Elena de Grecia fué la más admirable dama que en todo tiempo vivió. Por lo tanto, Maese Doctor, si queréis concedernos el favor de hacernos ver aquella griega dama sin par, cuya majestad admira el mundo entero, os quedaríamos en extremo agradecidos.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0921" xml:id="es-1388">Señores, como sé que no es fingida</l>
+              <l n="0922" xml:id="es-1389">Vuestra amistad y como no acostumbra</l>
+              <l n="0923" xml:id="es-1390">Fausto á negar las justas peticiones</l>
+              <l n="0924" xml:id="es-1391">De los que el bien, propicios, le desean,</l>
+              <l n="0925" xml:id="es-1392">Contemplaréis aquella portentosa</l>
+              <l n="0926" xml:id="es-1393">Dama sin par de Grecia, no distinta,</l>
+              <l n="0927" xml:id="es-1394">En pompa y majestad, que cuando Paris</l>
+              <l n="0928" xml:id="es-1395">Cruzó con ella el mar y los despojos</l>
+              <l n="0929" xml:id="es-1396">De la rica Dardania condujera.</l>
+              <l n="0930" xml:id="es-1397">Pero callad, que hablar es peligroso.</l>
+            </lg>
+          </sp>
+          <stage>(Suena música y ELENA pasa á través del escenario).</stage>
+          <sp who="#ssch">
+            <speaker>2.º EST.</speaker>
+            <lg>
+              <l n="0931" xml:id="es-1398">Harto mezquino es el ingenio mío</l>
+              <l n="0932" xml:id="es-1399">Para osar celebrar á la que el mundo</l>
+              <l n="0933" xml:id="es-1400">Por su soberbia majestad admira.</l>
+            </lg>
+          </sp>
+          <sp who="#tsc">
+            <speaker>3.er EST.</speaker>
+            <lg>
+              <l n="0934" xml:id="es-1401">No es maravilla que el airado Griego</l>
+              <l n="0935" xml:id="es-1402">Con diez años de guerra castigase</l>
+              <l n="0936" xml:id="es-1403">El rapto de esa reina, cuya gracia,</l>
+              <l n="0937" xml:id="es-1404">Cuya hermosura celestial, excede</l>
+              <l n="0938" xml:id="es-1405">A cuanto puedan comparar con ella.</l>
+            </lg>
+          </sp>
+          <sp who="#fsch">
+            <speaker>1.er EST.</speaker>
+            <lg>
+              <l n="0939" xml:id="es-1406">Ya que el portento vimos de las obras</l>
+              <l n="0940" xml:id="es-1407">De la Naturaleza y el modelo</l>
+              <l n="0941" xml:id="es-1408">Único de excelencia y perfecciones,</l>
+              <l n="0942" xml:id="es-1409">Vámonos y por acto tan glorioso</l>
+              <l n="0943" xml:id="es-1410">Sea feliz y bienaventurado</l>
+              <l n="0944" xml:id="es-1411">Fausto por siempre. Adiós, señores míos.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0945" xml:id="es-1412">Igual es mi deseo hacia vosotros.</l>
+            </lg>
+          </sp>
+          <stage>(Vanse los estudiantes).</stage>
+          <sp who="#old">
+            <speaker>ANCIANO</speaker>
+            <lg>
+              <l n="0946" xml:id="es-1413">¡Ah, Doctor Fausto, como yo pudiera</l>
+              <l n="0947" xml:id="es-1414">Prevalecer para guiar sus pasos</l>
+              <l n="0948" xml:id="es-1415">A través del camino de la vida,</l>
+              <l n="0949" xml:id="es-1416">Por cuán florida y apacible senda</l>
+              <l n="0950" xml:id="es-1417">Llegar podrías á la meta oculta</l>
+              <l n="0951" xml:id="es-1418">Que ha de llevarte al celestial reposo!</l>
+              <l n="0952" xml:id="es-1419">Rompe tu corazón, vierte tu sangre</l>
+              <l n="0953" xml:id="es-1420">Y mézclala con lágrimas acerbas,</l>
+              <l n="0954" xml:id="es-1421">Lágrimas, ay, de la aflicción causada</l>
+              <l n="0955" xml:id="es-1422">Por arrepentimiento de tus viles,</l>
+              <l n="0956" xml:id="es-1423">Y de tus asquerosas impurezas,</l>
+              <l n="0957" xml:id="es-1424">Cuyo fétido hedor corrompe el alma</l>
+              <l n="0958" xml:id="es-1425">Con tan nefandos crímenes, nacidos</l>
+              <l n="0959" xml:id="es-1426">Del horrendo pecado, que á limpiarla</l>
+              <l n="0960" xml:id="es-1427">No alcanza, Fausto, compasión alguna</l>
+              <l n="0961" xml:id="es-1428">Sino la celestial misericordia</l>
+              <l n="0962" xml:id="es-1429">De tu piadoso Salvador, quien sólo</l>
+              <l n="0963" xml:id="es-1430">Con su sangre lavar puede tu culpa.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0964" xml:id="es-1431">¿Dónde estás, Fausto? Criminal ¿qué has hecho?</l>
+              <l n="0965" xml:id="es-1432">¡Condenado estás, Fausto, condenado!</l>
+              <l n="0966" xml:id="es-1433">¡Ah, desespera y muere! ya te llama</l>
+              <l n="0967" xml:id="es-1434">Con razón el infierno, y con rugiente</l>
+              <l n="0968" xml:id="es-1435">Y formidable voz te está gritando:</l>
+              <l n="0969" xml:id="es-1436">«Ven, Fausto, ven, casi llegó tu hora»,</l>
+              <l n="0970" xml:id="es-1437">Y allí Fausto se irá, cual te es debido.</l>
+            </lg>
+          </sp>
+          <stage>(Mefistófilis le da un puñal).</stage>
+          <sp who="#old">
+            <speaker>ANC.</speaker>
+            <lg>
+              <l n="0971" xml:id="es-1438">¡Ah, detente, detén buen Fausto el golpe</l>
+              <l n="0972" xml:id="es-1439">Desesperado! En torno á tu cabeza</l>
+              <l n="0973" xml:id="es-1440">Miro un ángel volar, y con un cáliz</l>
+              <l n="0974" xml:id="es-1441">Lleno del puro néctar de la gracia,</l>
+              <l n="0975" xml:id="es-1442">Sobre tu alma derramarle ofrece!</l>
+              <l n="0976" xml:id="es-1443">Así, pues, pide ya misericordia,</l>
+              <l n="0977" xml:id="es-1444">La desesperación cruel, evita.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0978" xml:id="es-1445">Oh, tú, mi dulce amigo, tus palabras,</l>
+              <l n="0979" xml:id="es-1446">Del alma dolorida son consuelo,</l>
+              <l n="0980" xml:id="es-1447">Permíteme un instante medir todo</l>
+              <l n="0981" xml:id="es-1448">El peso abrumador de mis pecados.</l>
+            </lg>
+          </sp>
+          <sp who="#old">
+            <speaker>ANC.</speaker>
+            <lg>
+              <l n="0982" xml:id="es-1449">Me voy, buen Fausto, con pesar, temiendo</l>
+              <l n="0983" xml:id="es-1450">De tu infeliz espíritu la ruina.</l>
+            </lg>
+          </sp>
+          <stage>(Vase).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0984" xml:id="es-1451">Maldito Fausto, ¿dónde hallar ahora,</l>
+              <l n="0985" xml:id="es-1452">Dónde, misericordia? Me arrepiento,</l>
+              <l n="0986" xml:id="es-1453">Y sufro y desespero; sin embargo,</l>
+              <l n="0987" xml:id="es-1454">El infierno pelea con las Gracias</l>
+              <l n="0988" xml:id="es-1455">Por conquistar mi conturbado pecho.</l>
+              <l n="0989" xml:id="es-1456">¿Qué hacer para escapar de las terribles</l>
+              <l n="0990" xml:id="es-1457">Y negras asechanzas de la muerte?</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="0991" xml:id="es-1458">Fausto, traidor, arresto el alma tuya</l>
+              <l n="0992" xml:id="es-1459">Por tu desobediencia á mi potente</l>
+              <l n="0993" xml:id="es-1460">Soberano señor; álzate el punto</l>
+              <l n="0994" xml:id="es-1461">En fiera rebelión, ó en mil pedazos,</l>
+              <l n="0995" xml:id="es-1462">Sin compasión desgarraré tus carnes.....</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="0996" xml:id="es-1463">Amable Mefistófilis, impetra</l>
+              <l n="0997" xml:id="es-1464">El perdón de mi injusto atrevimiento,</l>
+              <l n="0998" xml:id="es-1465">De tu señor, y con mi propia sangre</l>
+              <l n="0999" xml:id="es-1466">Confirmaré de nuevo la primera</l>
+              <l n="1000" xml:id="es-1467">Promesa que hice á Lucifer potente.</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="1001" xml:id="es-1468">Pues hazlo sin tardar y con sincero</l>
+              <l n="1002" xml:id="es-1469">Y leal corazón, si es que más grande</l>
+              <l n="1003" xml:id="es-1470">Peligro tu designio no entorpece.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="1004" xml:id="es-1471">Castiga, dulce amigo, y atormenta</l>
+              <l n="1005" xml:id="es-1472">Con las mayores penas del infierno</l>
+              <l n="1006" xml:id="es-1473">A ese ruin y encorvado vejestorio</l>
+              <l n="1007" xml:id="es-1474">Que de tu Lucifer osa apartarme.</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l n="1008" xml:id="es-1475">Grande es su fe, tentar no puedo su alma</l>
+              <l n="1009" xml:id="es-1476">Mas cuanto pueda atormentar su cuerpo</l>
+              <l n="1010" xml:id="es-1477">He de intentar, por más que valga poco.</l>
+            </lg>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="1011" xml:id="es-1478">Una cosa tan solo te suplico</l>
+              <l n="1012" xml:id="es-1479">Oh mi buen servidor, para el deseo</l>
+              <l n="1013" xml:id="es-1480">Saciar del corazón enamorado,</l>
+              <l n="1014" xml:id="es-1481">Y es el lograr tener de amante mía</l>
+              <l n="1015" xml:id="es-1482">A aquella hermosa celestial Elena</l>
+              <l n="1016" xml:id="es-1483">Que últimamente vi; sólo sus dulces</l>
+              <l n="1017" xml:id="es-1484">Abrazos pueden extinguir del todo</l>
+              <l n="1018" xml:id="es-1485">Los pensamientos mil que me disuaden</l>
+              <l n="1019" xml:id="es-1486">De cumplir mi promesa y sostenerme</l>
+              <l n="1020" xml:id="es-1487">En el irrevocable juramento</l>
+              <l part="I" n="1021" xml:id="es-1488">Que presté á Lucifer.</l>
+            </lg>
+          </sp>
+          <sp who="#meph">
+            <speaker>MEF.</speaker>
+            <lg>
+              <l part="F" xml:id="es-1489">Eso que pides</l>
+              <l n="1022" xml:id="es-1490">O cualquier otra cosa que apetezcas</l>
+              <l n="1023" xml:id="es-1491">Será cumplido en un guiñar de ojos.</l>
+            </lg>
+          </sp>
+          <stage>(Vuelve ELENA).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="1024" xml:id="es-1492">¿Es esa hermosa faz la que mil naves</l>
+              <l n="1025" xml:id="es-1493">Lanzó á la mar, la que abrasó las torres</l>
+              <l n="1026" xml:id="es-1494">Altísimas de Ilión? Elena, hermosa</l>
+              <l n="1027" xml:id="es-1495">Hazme inmortal con un divino beso.</l>
+              <stage>(La besa).</stage>
+              <l n="1028" xml:id="es-1496">El alma mía sorbe con sus labios.</l>
+              <l n="1029" xml:id="es-1497">¡Miradla adonde vuela! Ven, Elena,</l>
+              <l n="1030" xml:id="es-1498">Ven y devuélveme ya el alma mía,</l>
+              <l n="1031" xml:id="es-1499">Aquí quiero vivir, que en esos labios</l>
+              <l n="1032" xml:id="es-1500">Entero el cielo está y es miserable</l>
+              <l n="1033" xml:id="es-1501">Y vil escoria, cuanto no es Elena.</l>
+              <l n="1034" xml:id="es-1502">Yo para ti he de ser un nuevo Páris,</l>
+              <l n="1035" xml:id="es-1503">Y por tu dulce amor en vez de Troya</l>
+              <l n="1036" xml:id="es-1504">A Wertemberg saquearé, y al débil</l>
+              <l n="1037" xml:id="es-1505">Menelao retaré, con tus colores,</l>
+              <l n="1038" xml:id="es-1506">Ornando mi plumífera cimera.</l>
+              <l n="1039" xml:id="es-1507">Sí, yo heriré el talón al propio Aquiles,</l>
+              <l n="1040" xml:id="es-1508">Volviendo por un beso de mi Elena.</l>
+              <l n="1041" xml:id="es-1509">¡Oh, tú eres más etérea, más hermosa,</l>
+              <l n="1042" xml:id="es-1510">Que el aire vespertino, engalanado</l>
+              <l n="1043" xml:id="es-1511">Con la remota luz de mil estrellas;</l>
+              <l n="1044" xml:id="es-1512">Más radiante eres tú que la aureola</l>
+              <l n="1045" xml:id="es-1513">Del flamígero Júpiter, el día</l>
+              <l n="1046" xml:id="es-1514">Que á la infeliz Semele aparecióse;</l>
+              <l n="1047" xml:id="es-1515">Más bella que el monarca de los cielos</l>
+              <l n="1048" xml:id="es-1516">En los lascivos y verúleos brazos</l>
+              <l n="1049" xml:id="es-1517">De la ninfa Aretusa, y nadie, nadie,</l>
+              <l n="1050" xml:id="es-1518">Más que tú habrá de ser amante mía!</l>
+            </lg>
+          </sp>
+          <stage>(Vanse).</stage>
+        </div2>
+        <div2 type="scene" n="2">
+          <head>ESCENA II</head>
+          <stage>(Entra el ANCIANO).</stage>
+          <sp who="#old">
+            <speaker>ANCIANO</speaker>
+            <lg>
+              <l n="1051" xml:id="es-1519">¡Hombre maldito, miserable Fausto,</l>
+              <l n="1052" xml:id="es-1520">Que el alma condenada has excluído</l>
+              <l n="1053" xml:id="es-1521">De la gracia del cielo y te alejaste</l>
+              <l n="1054" xml:id="es-1522">Del trono en que se asienta su justicia.</l>
+            </lg>
+          </sp>
+          <stage>(Entran diablos)</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="1055" xml:id="es-1523">Satanás ya comienza con su orgullo</l>
+              <l n="1056" xml:id="es-1524">A tentarme; mas como en este horno</l>
+              <l n="1057" xml:id="es-1525">Dios probará mi fe, mi fe sin duda,</l>
+              <l n="1058" xml:id="es-1526">Triunfará sobre ti, maldito infierno.</l>
+              <l n="1059" xml:id="es-1527">Ambiciosos demonios, ves cuán dulce</l>
+              <l n="1060" xml:id="es-1528">Sonríe el cielo á la amenaza vuestra.</l>
+              <l n="1061" xml:id="es-1529">¡Cómo ríe y desprecia vuestras iras!</l>
+              <l n="1062" xml:id="es-1530">¡Atrás, infierno, ¡atrás! Desde aquí mismo</l>
+              <l n="1063" xml:id="es-1531">Hasta mi Dios levantaré mi vuelo.</l>
+            </lg>
+          </sp>
+          <stage>(Vanse por un lado el anciano y por el otro los diablos).</stage>
+        </div2>
+        <div2 type="scene" n="3">
+          <head>ESCENA III</head>
+          <stage>(Entra FAUSTO con ESTUDIANTES)</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>¡Ah, señores!</p>
+          </sp>
+          <sp who="#fsch">
+            <speaker>1.er EST.</speaker>
+            <p>¿Qué tiene Fausto?</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>¡Ah, mi querido compañero, si hubiese vivido contigo, viviría todavía! ¡Mientras que ahora muero eternamente! ¡Mira! ¿no viene? ¿no viene?</p>
+          </sp>
+          <sp who="#ssch">
+            <speaker>2.º EST.</speaker>
+            <p>¿Qué quiere decir Fausto?</p>
+          </sp>
+          <sp who="#tsc">
+            <speaker>3.er EST.</speaker>
+            <p>Probablemente es algún trastorno, hijo de su extrema soledad.</p>
+          </sp>
+          <sp who="#fsch">
+            <speaker>1.er EST.</speaker>
+            <p>Entonces busquemos médicos que le curen. Será sólo un empacho; no temas, hombre.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Un empacho de pecado mortal que ha condenado mi cuerpo y mi alma juntos.</p>
+          </sp>
+          <sp who="#ssch">
+            <speaker>2.º EST.</speaker>
+            <p>Entonces, Fausto, alza los ojos al cielo; no olvides que la clemencia de Dios es infinita.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Mas la culpa de Fausto nunca podrá ser perdonada. La serpiente que tentó á Eva podrá salvarse, pero no Fausto. Ah, señores, oidme con paciencia y no tembléis escuchando mis palabras. Aunque mi corazón palpita y se estremece al recordar que he sido aquí estudiante durante treinta años, ¡ah, ojalá nunca hubiere visto Wertemberg, ni jamás leído un libro! De los prodigios que he hecho, toda la Germánia, sí, y el mundo entero, pueden dar testimonio; más por ellos Fausto ha perdido á la vez la Germánia y el mundo, sí, y hasta el mismo cielo; el cielo, el asiento de Dios, el trono de los bienaventurados, el reino de la alegría, y debe habitar por siempre en el infierno, el infierno, ¡ah, el infierno por siempre! Caros amigos, ¿qué será de Fausto en el infierno para siempre?</p>
+          </sp>
+          <sp who="#tsc">
+            <speaker>3.er EST.</speaker>
+            <p>Entonces, Fausto, invocad á Dios.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>¡A Dios de quien Fausto ha abjurado! ¡Dios, de quien Fausto ha blasfemado! ¡Ah, Dios mío, quisiera llorar!, ¡pero el diablo retiene mis lágrima! ¡Brota sangre en vez de lágrimas! ¡Sí, vida y alma! ¡Oh, él paraliza mi lengua! ¡Quisiera elevar mis manos; pero mirad, me las sujetan, me las sujetan!</p>
+          </sp>
+          <sp who="#fsch #ssch #tsc">
+            <speaker>TODOS.</speaker>
+            <p>¿Quién, Fausto?</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Lucifer y Mefistófilis. ¡Ah, señores, les di mi alma á cambio de mis artes!</p>
+          </sp>
+          <sp who="#fsch #ssch #tsc">
+            <speaker>TODOS.</speaker>
+            <p>¡Dios lo veda!</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Dios lo veda, sí, pero Fausto lo ha hecho; por el vano placer de veinticuatro años, Fausto ha perdido la eterna dicha y alegría. Le escribí un contrato con mi propia sangre; el plazo expira, el momento llegará y él me llevará.</p>
+          </sp>
+          <sp who="#fsch">
+            <speaker>1.er EST.</speaker>
+            <p>¿Porqué Fausto no nos dijo eso antes, y entonces hubieran podido rezar por ti sacerdotes?</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Muchas veces pensé hacerlo, pero el diablo me amenazaba con hacerme trizas, si nombraba á Dios, y con llevarse mi cuerpo y mi alma, si siquiera daba oídos á sacerdotes, y ahora es demasiado tarde. Señores, apartad ó pereceréis conmigo.</p>
+          </sp>
+          <sp who="#ssch">
+            <speaker>2.º EST.</speaker>
+            <p>¡Oh! ¿qué haremos para salvar á Fausto?</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>No os ocupéis de mí; poneos en salvo, y marchaos.</p>
+          </sp>
+          <sp who="#tsc">
+            <speaker>3.er EST.</speaker>
+            <p>Dios me dará fortaleza; yo me quedo con Fausto.</p>
+          </sp>
+          <sp who="#fsch">
+            <speaker>1.er EST.</speaker>
+            <p>No tientes á Dios, caro amigo; pero vamos á la inmediata estancia, y allí roguemos por él.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Sí, rogad por mí, rogad por mí; y por más ruido que oigáis, no acudáis á mí, pues nada puede rescatarme.</p>
+          </sp>
+          <sp who="#ssch">
+            <speaker>2.º EST.</speaker>
+            <p>Ruega tú, y nosotros rogaremos para que Dios tenga misericordia de ti.</p>
+          </sp>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <p>Señores, adiós: si vivo hasta mañana, os visitaré; si no, Fausto estará en el infierno.</p>
+          </sp>
+          <sp who="#fsch #ssch #tsc">
+            <speaker>TODOS.</speaker>
+            <p>Fausto, adiós.</p>
+          </sp>
+          <stage>(Vanse los estudiantes. El reloj da las once).</stage>
+          <sp who="#fau">
+            <speaker>FAUSTO.</speaker>
+            <lg>
+              <l n="1064" xml:id="es-1582">¡Ah, Fausto, Fausto sólo ya una hora</l>
+              <l n="1065" xml:id="es-1583">Te queda por vivir, y en cuanto expire</l>
+              <l n="1066" xml:id="es-1584">Condenado serás eternamente!</l>
+              <l n="1067" xml:id="es-1585">Siempre móviles astros celestiales,</l>
+              <l n="1068" xml:id="es-1586">Quietos quedad para que cese el tiempo,</l>
+              <l n="1069" xml:id="es-1587">Y no llegue jamás la media noche.</l>
+              <l n="1070" xml:id="es-1588">Y tú, del universo ojo radiante,</l>
+              <l n="1071" xml:id="es-1589">Surge, surge de nuevo y haz que dure</l>
+              <l n="1072" xml:id="es-1590">Perpetuo el día, ó deja que esta hora</l>
+              <l n="1073" xml:id="es-1591">Un año sea, un mes, una semana,</l>
+              <l n="1074" xml:id="es-1592">Un día natural, para que Fausto</l>
+              <l n="1075" xml:id="es-1593">Se pueda arrepentir y el alma salve.</l>
+              <l n="1076" xml:id="es-1594">
+                <emph>¡O lente, lente currite noctis equi!</emph>
+              </l>
+              <l n="1077" xml:id="es-1595">Mas las estrellas giran, vuela el tiempo</l>
+              <l n="1078" xml:id="es-1596">Y el reloj va á sonar, y vendrá el diablo,</l>
+              <l n="1079" xml:id="es-1597">Y el triste Fausto condenarse debe.</l>
+              <l n="1080" xml:id="es-1598">¡Volaré hacia mi Dios! ¿Quién de mí tira?</l>
+              <l n="1081" xml:id="es-1599">¡Mira, mira en el alto firmamento</l>
+              <l n="1082" xml:id="es-1600">Brotar de Cristo la divina sangre!</l>
+              <l n="1083" xml:id="es-1601">Una gota mi alma salvaría,</l>
+              <l n="1084" xml:id="es-1602">Media gota, no más: ¡ah Cristo mío!</l>
+              <l n="1085" xml:id="es-1603">¡Ah, no así el corazón me despedaces</l>
+              <l n="1086" xml:id="es-1604">Por nombrar á mi Cristo!, todavía</l>
+              <l n="1087" xml:id="es-1605">Le volveré a invocar. ¡Oh, de mis ansias</l>
+              <l n="1088" xml:id="es-1606">Ten piedad, Lucifer! ¿Dónde está ahora?</l>
+              <l n="1089" xml:id="es-1607">¡Ah, se ha marchado!; pero mira adonde</l>
+              <l n="1090" xml:id="es-1608">Extiende Dios su vengativo brazo,</l>
+              <l n="1091" xml:id="es-1609">Inclinando hacia ti su frente airada.</l>
+              <l n="1092" xml:id="es-1610">Venid, venid montañas y colinas</l>
+              <l n="1093" xml:id="es-1611">Y caed sobre mí para esconderme</l>
+              <l n="1094" xml:id="es-1612">De ese Dios á la cólera implacable.</l>
+              <l n="1095" xml:id="es-1613">No, no; más bien precipitarme quiero</l>
+              <l n="1096" xml:id="es-1614">Cabeza abajo al fondo de la tierra.</l>
+              <l n="1097" xml:id="es-1615">¡Ábrete, tierra! ¡Oh, no, no has de albergarme!</l>
+              <l n="1098" xml:id="es-1616">Y vosotras, estrellas refulgentes,</l>
+              <l n="1099" xml:id="es-1617">Que presidís mi triste natalicio;</l>
+              <l n="1100" xml:id="es-1618">Cuyo influjo la muerte y el infierno</l>
+              <l n="1101" xml:id="es-1619">Adjudicóme; arrebatad á Fausto</l>
+              <l n="1102" xml:id="es-1620">Cual brumosa neblina á las entrañas</l>
+              <l n="1103" xml:id="es-1621">De la remota fecundante nube,</l>
+              <l n="1104" xml:id="es-1622">Para que luego al vomitar, abiertas,</l>
+              <l n="1105" xml:id="es-1623">En el aire sus bocas humeantes</l>
+              <l n="1106" xml:id="es-1624">Surjan de allí mis miembros, y mi alma</l>
+              <l n="1107" xml:id="es-1625">Logre libre ascender hasta los cielos.</l>
+              <stage>(El reloj da una media hora).</stage>
+              <l n="1108" xml:id="es-1626">¡Ah, ya la media hora ha transcurrido!</l>
+              <l n="1109" xml:id="es-1627">Y en un instante todo habrá pasado.</l>
+              <l n="1110" xml:id="es-1628">¡Oh Dios! si compasión del alma mía</l>
+              <l n="1111" xml:id="es-1629">No has de tener, por el amor siquiera</l>
+              <l n="1112" xml:id="es-1630">Del bondadoso Cristo, cuya sangre</l>
+              <l n="1113" xml:id="es-1631">Me rescató, por fin, á mi terrible</l>
+              <l n="1114" xml:id="es-1632">Incesante dolor; que por mil años,</l>
+              <l n="1115" xml:id="es-1633">Por cien mil viva Fausto en el infierno,</l>
+              <l n="1116" xml:id="es-1634">¡Mas que se salve al fin! Oh, fin no tiene</l>
+              <l n="1117" xml:id="es-1635">El dolor de las almas condenadas.</l>
+              <l n="1118" xml:id="es-1636">Ah, ¿porqué fatalismo no naciste</l>
+              <l n="1119" xml:id="es-1637">Criatura de un alma desprovista?</l>
+              <l n="1120" xml:id="es-1638">¿O porqué es inmortal ésta que tienes?</l>
+              <l n="1121" xml:id="es-1639">¡Ah! Si del gran Pitágoras al extraña</l>
+              <l n="1122" xml:id="es-1640">Metempsícosis fuese verdadera,</l>
+              <l n="1123" xml:id="es-1641">Mil alma huyera de mí, y en bestia bruta</l>
+              <l n="1124" xml:id="es-1642">Me convirtiera yo; todos los brutos</l>
+              <l n="1125" xml:id="es-1643">Felices son, pues al morir, sus almas</l>
+              <l n="1126" xml:id="es-1644">Entre los elementos se disuelven,</l>
+              <l n="1127" xml:id="es-1645">Mientras por siempre vivirá la mía</l>
+              <l n="1128" xml:id="es-1646">¡Para ser torturada en el infierno!</l>
+              <l n="1129" xml:id="es-1647">Malditos padres, ¡ay! que me engendraron.</l>
+              <l n="1130" xml:id="es-1648">No, no, Fausto, maldícete á ti mismo,</l>
+              <l n="1131" xml:id="es-1649">Maldice á Lucifer, que para siempre</l>
+              <l n="1132" xml:id="es-1650">De los goces del cielo te ha privado.</l>
+              <stage>(El reloj da las doce).</stage>
+              <l n="1133" xml:id="es-1651">¡Oh, ya suena, ya suena! ¡cuerpo mío</l>
+              <l n="1134" xml:id="es-1652">Vuélvete al aire, ó Lucifer sañudo</l>
+              <l n="1135" xml:id="es-1653">Sin dilación te llevará al infierno!</l>
+              <stage>(Truenos y relámpagos).</stage>
+              <l n="1136" xml:id="es-1654">Alma mía, transfórmate en menudas</l>
+              <l n="1137" xml:id="es-1655">Gotas de agua; cayendo al proceloso</l>
+              <l n="1138" xml:id="es-1656">Océano, do nunca habrán de hallarte.</l>
+              <stage>(Entran diablos).</stage>
+              <l n="1139" xml:id="es-1657">¡Oh, Dios mío, Dios mío! ¡no me mires</l>
+              <l n="1140" xml:id="es-1658">Con esa airada faz!, sierpes, culebras,</l>
+              <l n="1141" xml:id="es-1659">¡Dejadme respirar por un instante!</l>
+              <l n="1142" xml:id="es-1660">¡Hórrido, negro infierno, no bosteces!</l>
+              <l n="1143" xml:id="es-1661">¡No vengas, Lucifer! ¡Todos mis libros</l>
+              <l n="1144" xml:id="es-1662">Quemaré! ¡Mefistófilis! ¡Socorro!</l>
+            </lg>
+          </sp>
+          <stage>(Vanse diablos con Fausto).</stage>
+          <stage>(Entran ESTUDIANTES).</stage>
+          <sp who="#fsch">
+            <speaker>1.er EST.</speaker>
+            <lg>
+              <l n="1145" xml:id="es-1663">Venid, y á Fausto á visitar corramos,</l>
+              <l n="1146" xml:id="es-1664">Pues más terrible y espantosa noche</l>
+              <l n="1147" xml:id="es-1665">Jamás se vió; desde que en un principio</l>
+              <l n="1148" xml:id="es-1666">La creación del mundo comenzara,</l>
+              <l n="1149" xml:id="es-1667">Tan espantosos gritos y lamentos</l>
+              <l n="1150" xml:id="es-1668">Se escucharon jamás; rogad al cielo</l>
+              <l n="1151" xml:id="es-1669">Que el doctor del peligro haya escapado.</l>
+            </lg>
+          </sp>
+          <sp who="#ssch">
+            <speaker>2.º EST.</speaker>
+            <lg>
+              <l n="1152" xml:id="es-1670">¡Oh cielo, ampáranos! Mirad, amigos,</l>
+              <l n="1153" xml:id="es-1671">Aquí de Fausto están los rotos miembros</l>
+              <l n="1154" xml:id="es-1672">Destrozados por mano de la muerte.</l>
+            </lg>
+          </sp>
+          <sp who="#tsc">
+            <speaker>3.er EST.</speaker>
+            <lg>
+              <l n="1155" xml:id="es-1673">Los diablos á que Fausto obedecía</l>
+              <l n="1156" xml:id="es-1674">Le han puesto así, pues entre doce y una</l>
+              <l n="1157" xml:id="es-1675">De la noche, yo creo haberle oído</l>
+              <l n="1158" xml:id="es-1676">Gritar, y á voces implorar socorro,</l>
+              <l n="1159" xml:id="es-1677">Mientras toda la casa parecía</l>
+              <l n="1160" xml:id="es-1678">Arder en llamas, con horror tremendo</l>
+              <l n="1161" xml:id="es-1679">De aquellos condenados enemigos.</l>
+            </lg>
+          </sp>
+          <sp who="#ssch">
+            <speaker>2.º EST.</speaker>
+            <lg>
+              <l n="1162" xml:id="es-1680">Bien, señores, entonces aunque Fausto</l>
+              <l n="1163" xml:id="es-1681">Tuvo tal fin, que toda alma cristiana</l>
+              <l n="1164" xml:id="es-1682">Sólo al pensar en ello se conduele,</l>
+              <l n="1165" xml:id="es-1683">En vista de que fué docto estudiante.</l>
+              <l n="1166" xml:id="es-1684">En germanas escuelas admirado</l>
+              <l n="1167" xml:id="es-1685">Por su saber profundo y portentoso,</l>
+              <l n="1168" xml:id="es-1686">A sus despedazados miembros demos</l>
+              <l n="1169" xml:id="es-1687">Debida sepultura, y concurramos</l>
+              <l n="1170" xml:id="es-1688">Todos los estudiantes revestidos</l>
+              <l n="1171" xml:id="es-1689">De negro luto á su penoso entierro.</l>
+            </lg>
+          </sp>
+          <stage>(Entra el CORO).</stage>
+          <sp who="#cho">
+            <speaker>CORO.</speaker>
+            <lg>
+              <l n="1172" xml:id="es-1690">Cortada está la rama que pudiera</l>
+              <l n="1173" xml:id="es-1691">Derecha haber crecido, y abrasado</l>
+              <l n="1174" xml:id="es-1692">Está ya el ramo del laurel de Apolo,</l>
+              <l n="1175" xml:id="es-1693">Que algún día brotó sobre la frente</l>
+              <l n="1176" xml:id="es-1694">De este sabio mortal. Marchóse Fausto;</l>
+              <l n="1177" xml:id="es-1695">Ved su infernal caída; su terrible,</l>
+              <l n="1178" xml:id="es-1696">Su diabólica suerte, al sabio debe</l>
+              <l n="1179" xml:id="es-1697">Exhortarle á admirar sólo el arcano</l>
+              <l n="1180" xml:id="es-1698">De las cosas vedadas, cuya obscura</l>
+              <l n="1181" xml:id="es-1699">Profundidad á tan audaces genios</l>
+              <l n="1182" xml:id="es-1700">Tiéntalos á probar aún más de aquello</l>
+              <l n="1183" xml:id="es-1701">Que el poder celestial permite al hombre.</l>
+              <stage>(Vase).</stage>
+              <l n="1184" xml:id="es-1702">
+                <emph>Terminat hora diem; terminat auctor opus.</emph>
+              </l>
+            </lg>
+          </sp>
+        </div2>
+      </div1>
+    </body>
+    <back/>
+  </text>
+</TEI>

@@ -1,0 +1,2332 @@
+<?xml version="1.0" ?>
+<TEI xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="original">La vida es sueño</title>
+        <title type="traduccion">La vie est un sogne</title>
+        <title key="orden">vie est un sogne</title>
+        <title key="archivo">EMOTHE0023_LaVieEstUnSogne</title>
+        <author ana="fiable">Pedro Calderón de la Barca</author>
+        <author key="orden">Calderón de la Barca, Pedro</author>
+        <editor role="translator">
+          <persName>Jean Joseph Stanislas Albert Damas-Hinard</persName>
+        </editor>
+        <sponsor>
+          <orgName>Plan Nacional de Investigación Científica, Desarrollo e Innovación Tecnológica (Plan Nacional de I+D+i)</orgName>
+        </sponsor>
+        <funder>
+          <orgName>Dirección General de Investigación y Gestión del Plan Nacional de I+D+I (DGI). http://www.idi.mineco.gob.es</orgName>
+        </funder>
+        <principal>Joan Oleza Simó</principal>
+      </titleStmt>
+      <editionStmt>
+        <edition>Edición electrónica de &apos;La vie est un sogne&apos;</edition>
+        <respStmt>
+          <resp>Edición</resp>
+          <persName>Romeu Guallart, Luis María</persName>
+          <orgName>Artelope</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent ana="verso">0 versos</extent>
+      <publicationStmt>
+        <publisher>
+          <orgName>Proyecto ARTELOPE. Base de datos, argumentos y textos del teatro clásico español (FFI 2009 -12730) http://artelope.uv.es</orgName>
+        </publisher>
+        <idno type="code">EMOTHE0023_LaVieEstUnSogne</idno>
+        <pubPlace>Valencia</pubPlace>
+        <date>2012</date>
+        <authority>
+          <orgName>Universitat de València - Estudi General. http://www.uv.es</orgName>
+        </authority>
+        <availability>
+          <p>La Colección de Teatro Clasico Europeo (CTCE) pertenece al proyecto Artelope y ofrece en la web textos completos sin ánimo de lucro y libres de derechos de lectura y de reproducción. En este último caso se ruega citar la procedencia: &quot;Oleza, Joan et al. Base de Datos y Argumentos del teatro de Lope de Vega. ARTELOPE. Publicación en web: http://artelope.uv.es&quot;</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La vie est un sogne</title>
+          <author>Pedro Calderón de la Barca</author>
+          <editor>Jean Joseph Stanislas Albert Damas-Hinard</editor>
+          <lang>Francés</lang>
+          <note>Calderón de la Barca, La vie est un sogne, Damas-Hinard (ed. et trad.), Chefs-d&apos;oeuvre du théâtre espagnol. T1 / Pedro Calderón de la Barca, Paris, Gosselin, 1841-1845, vol III.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>La Colección de Textos Clásicos Europeos (CTCE) supone la creación de una base de datos de Teatro canónico clásico europeo en diferentes idiomas, versiones y refundiciones, todas ellas hipervinculadas.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Las presentes ediciones digitales están basadas, en su mayor parte, en ediciones científicas de reconocido prestigio y se ha tratado, en la mayoría de ocasiones, de respetar sus criterios de edición. Solo en casos muy puntuales el editor digital ha introducido leves cambios de los que da cumplida cuenta en el apartado de &quot;Notas&quot;.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fr-FR">Français</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>
+            <title>La vie est un sogne</title>
+          </titlePart>
+        </docTitle>
+        <docAuthor>Pedro Calderón de la Barca</docAuthor>
+      </titlePage>
+      <div type="elenco">
+        <castList>
+          <castItem>
+            <role xml:id="ros">Rosaura</role>
+            <roleDesc>dame</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="cla">Clairon</role>
+            <roleDesc>valet bouffon</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="clot">Clotaldo</role>
+            <roleDesc>vieillard</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="est">Estrella</role>
+            <roleDesc>infante</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="bas">Basilio</role>
+            <roleDesc>roi de Pologne</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="seg">Sigismond</role>
+            <roleDesc>prince</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="ast">Astolfe</role>
+            <roleDesc>duc de Moscovie</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="sol">Soldats</role>
+          </castItem>
+          <castItem>
+            <role xml:id="gua">Gardes</role>
+          </castItem>
+          <castItem>
+            <role xml:id="mus">Musiciens</role>
+          </castItem>
+          <castItem>
+            <role xml:id="acomp">Cortège</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="acomr">cortège du roi</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="sol1">premier soldat</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="sol2">deuxième soldat</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="otrsol">plus de soldats</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="dam">dames</role>
+          </castItem>
+          <castItem>
+            <role xml:id="cri">valets</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="otrcri">plus des valets</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="cri1">premier valet</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="cri2">deuxième valet</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="genr">fidèles au roi</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="gens">fidèles à Sigismond</role>
+          </castItem>
+          <castItem>
+            <role xml:id="tod1">tous 1</role>
+          </castItem>
+          <castItem>
+            <role xml:id="tod2">tous 2</role>
+          </castItem>
+          <castItem>
+            <role xml:id="tod3">tous 3</role>
+          </castItem>
+        </castList>
+      </div>
+    </front>
+    <body>
+      <div1 type="act" n="1">
+        <head>Journée I</head>
+        <div2 type="scene" n="1">
+          <head>SCÈNE I.</head>
+          <stage>Un site sauvage. Des montagnes. Une caverne.</stage>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Impétueux hippogriffe, aussi rapide que le vent, arrête-toi! Pourquoi, éclair sans flamme, oiseau sans plumes, poisson sans écailles, et quadrupède sans instinct naturel, — pourquoi donc t’emporter et t’élancer, le mors aux dents, au milieu du confus labyrinthe de ces rochers dépouillés?... Arrête, te dis-je, arrête-toi sur cette montagne, où les animaux sauvages auront aussi leur phaéton. Pour moi je ne veux pas aller plus avant, et terminant mon voyage où m’a conduite le destin, désespérée, je descends les hauteurs escarpées de ce mont sourcilleux qui brave le soleil... O Pologne! ce n’est pas là une attrayante hospitalité que celle que tu m’offres, puisqu’au moment où je mets le pied sur ton sol, tu permets que je le rougisse de mon sang. Hélas! mon sort ne me promettait pas davantage, et qui jamais eut pitié d’un malheureux?</p>
+          </sp>
+          <stage>On voit paraître, sur le haut d’une montagne, ROSAURA, vêtue en homme, portant des habits de voyage; elle commence à parler en descendant la montagne.</stage>
+          <stage>Entre CLAIRON; il descend par le même côté.</stage>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Vous pourriez bien dire deux, s’il vous plaît, et ne pas m’oublier quand vous vous plaignez; car si nous sommes deux qui avons quitté notre pays pour chercher les aventures, deux qui sommes arrivés jusqu’ici à travers toutes sortes de folies et de disgrâces, et deux encore qui avons dégringolé du haut de la montagne, — il n’est pas juste que j’aie partagé les périls et qu’ensuite je ne sois plus compté pour rien.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Je ne te comprends point dans mes plaintes, Clairon, afin de ne pas t’enlever le droit que tu as à tes propres consolations en pleurant ton infortune; car, comme disait un philosophe, on éprouve tant de plaisir à se plaindre, que pour pouvoir se plaindre on devrait presque chercher le malheur.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Le philosophe qui disait cela était un vieil ivrogne. Si je le tenais, je lui donnerais quelques douzaines de soufflets et autant de coups de pied, et ensuite il pourrait se plaindre tout son soûl... Mais, madame, dites-moi, qu’allons-nous faire tous deux, seuls, à pied, à cette heure, en ce lieu désert, et au moment où le soleil disparaît de l’horizon?</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Quelle singulière et triste aventure!... Toutefois, si mes sens ne s’abusent, si mes yeux ne sont pas trompés par mon imagination, il me semble qu’à la clarté incertaine du jour qui finit, j’aperçois là-bas un édifice.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Vous avez raison, ou bien mon désir et mon espoir en ont menti.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Je vois, au milieu des âpres rochers, une habitation si étroite, si basse, et d’une architecture si grossière, que l’on dirait un roc détaché qui a roulé du haut de la montagne.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Approchons-nous, madame, et au lieu de regarder ce petit palais, prions les personnes qui l’habitent de vouloir bien nous y recevoir.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>La porte en est ouverte... Mais quoi! le regard, en plongeant dans ce sombre lieu, n’y découvre que la nuit.</p>
+          </sp>
+          <stage>On entend un bruit de chaînes.</stage>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>O ciel! qu’entends-je?</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Je ne sais quel sentiment m’a rendue immobile, tremblante et glacée.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>N’est-ce pas le bruit d’une chaîne? Que je meure s’il n’y a pas là un galérien! Ma peur ne m’a jamais trompé.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Dans la caverne. Hélas! malheureux!… hélas! infortuné!</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Quelle triste voix!... J’éprouve une nouvelle peine et de nouveaux tourments.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Et moi de nouvelles craintes.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Clairon?</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Madame?</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Fuyons les périls de cette tour enchantée.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Je voudrais bien, madame; mais je n’ai pas même assez de courage pour fuir.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Mais n’aperçois-je pas une faible lumière, une pâle clarté, une sorte d’étoile vacillante dont l’éclat incertain et irrégulier augmente encore, s’il est possible, l’obscurité de cette ténébreuse habitation? — Oui, à ses reflets, je distingue, quoique de loin, un cadavre vivant qui est enseveli dans cette sombre prison... Et pour augmenter mon effroi, cet homme, qu’éclaire une triste lueur, porte pour vêtement une peau de bête, et il est chargé de fers. — Fuyons, ou du moins, puisqu’il ne nous est pas possible de fuir, écoutons d’ici ses plaintes.</p>
+          </sp>
+          <stage>Entre SIGISMOND; il est enchaîné et couvert de peaux de bêtes.</stage>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Hélas! malheureux!... hélas! infortuné!... O ciel! je voudrais savoir au moins, dans mon malheur, quel crime j’ai commis contre toi en naissant! Est-il juste à toi de me traiter aussi cruellement, puisque mon seul crime est d’être né? et si cela devait m’être imputé à crime, ne devais-tu pas m’empêcher de naître? car, pour justifier ta rigueur, tu n’as rien autre à me reprocher... Est-ce que le reste des êtres animés n’ont pas eu naissance ainsi que moi? et si tous ainsi que moi ont eu naissance, pourquoi donc jouissent-ils de privilèges qui m’ont été refusés?... L’oiseau naît, et à peine est-il une fleur qui a des plumes et un bouquet qui a des ailes, que, revêtu de sa parure charmante, il s’élance de son nid bientôt oublié, et fend d’un vol léger les plaines de l’air. Et moi qui ai plus d’âme, j’ai moins de liberté!... La bête sauvage naît, et dès que sa peau est marquée de ces lâches égales qui y semblent tracées par le plus habile pinceau, elle traverse les forêts en bondissant, et pressée par la nécessité, déchire sans pitié tout ce qu’elle rencontre sur son passage. Et moi, avec de meilleurs instincts, j’ai moins de liberté!... Le poisson naît, et à peine est-il sorti du limon et des algues marines où il fut déposé, — à peine, couvert d’écailles, peut-il se mirer sur les eaux, que, poussé par son caprice et la température de l’humide élément, il parcourt en tous sens l’immensité des mers. Et moi, avec plus d’intelligence, j’ai moins de liberté!... Le ruisseau naît, couleuvre argentée qui se détache parmi les fleurs, et à peine est-il sorti de son berceau parfumé, qu’il se déroule en longs plis avec un doux murmure, et traverse en chantant la plaine qui s’ouvre devant lui. Et moi, avec une vie plus complète, j’ai moins de liberté!... Aussi, quand j’y songe, mon sein se soulève d’indignation, et comme un volcan, il est prêt à lancer feu et flamme. Quelle justice, quelle raison, quelle loi permet donc de refuser à un homme le doux privilège, le droit précieux que Dieu accorde au ruisseau cristallin, au poisson, à la bête sauvage, à l’oiseau?</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Ses paroles m’ont inspiré tout à la fois de la crainte et de la pitié.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Qui donc a écouté mes plaintes?... Est-ce vous, Clotaldo?</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Dites que oui.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Non, ce n’est pas lui; c’est un infortuné qui dans ces tristes lieux avait entendu vos gémissements.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Eh bien! tu vas mourir; car je ne veux pas qu’il existe personne qui soit instruit de ma faiblesse; et seulement parce que tu m’a entendu, je vais te presser entre mes bras robustes et te mettre en pièces.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Pour moi je suis sourd, et par conséquent je n’ai pas pu vous entendre.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Si tu as en toi quelque chose d’humain, me voilà à tes pieds, épargne-moi.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Je ne sais par quelle secrète puissance, mais ta voix m’attendrit et ta présence me trouble. Qui es-tu? — Car bien que je ne connaisse rien du monde, puisque cette tour, ou, pour mieux dire, cette caverne, a été jusqu’ici mon berceau et mon tombeau; bien que depuis ma naissance je n’aie jamais vu que cet affreux désert, où je n’ai qu’une misérable existence aussi monotone et aussi triste que la mort; bien que je n’aie jamais parlé à aucun être vivant, si ce n’est à un homme qui partage ma disgrâce et qui m’a donné quelques renseignements sur le ciel et sur la terre, sur le cours des astres, sur l’art de gouverner les états; bien qu’à vrai dire, — ce qui cause ton effroi, — je sois un homme parmi les bêtes sauvages et une bête sauvage parmi les hommes, et que tu puisses à bon droit m’appeler un monstre; — toi seul, sache-le, tu as suspendu ma colère, adouci ma tristesse, et charmé mon oreille et ma vue. Chaque fois que je te regarde, je t’admire davantage, et à mesure que je le regarde je désire davantage te regarder. Je ne comprends pas que mes yeux se fixent ainsi sur loi, car en te voyant je meurs d’envie de te voir. Mais n’importe, laisse-moi te voir, et que je meure! car si à te voir je ressens un tel effet, que ressentirais-je donc à ne te voir pas? Ne serait-ce pas une douleur cruelle, une fureur, une rage pires que la mort? car, après avoir vécu si malheureux, ne serait-ce pas horrible de mourir au moment du bonheur?</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Je te regarde avec effroi et t’écoute avec admiration, sans savoir ni ce que je puis te dire ni ce que je dois te demander... Je te dirai seulement que le ciel m’a conduit aujourd’hui en ces lieux afin sans doute que je fusse un peu consolé, si toutefois c’est pour un malheureux une consolation que de voir un homme plus malheureux encore... On raconte d’un certain sage, qui était si pauvre qu’il n’avait pour toute nourriture que les herbes qu’il pouvait cueillir, qu’un jour, comme il disait à part soi, «est-il un homme plus pauvre et plus misérable? » et comme, là-dessus, il avait regardé en arrière, il eut réponse à sa question; car il aperçut un autre sage qui ramassait soigneusement les feuilles qu’il jetait. Moi, de même, j’allais par le monde me plaignant de la fortune, et tandis que je disais à part moi, «est-il un mortel plus maltraité du sort? » toi, plein de pitié, tu m’as répondu; car ma conscience me dit que tu ramasserais mes peines pour en faire ton allégresse. Si donc, par hasard, mes chagrins peuvent être pour toi un soulagement, une consolation, veuille en écouter le récit, et prends-en ce que j’en aurai de trop. Pour commencer...</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Du dehors. Gardes de cette tour qui, soit paresse, soit lâcheté, avez laissé pénétrer deux personnes dans la prison...</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>J’éprouve une nouvelle inquiétude.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>C’est Clotaldo, mon gardien. Ai-je à redouter de nouvelles disgrâces?</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Du dehors... Avancez, accourez sans retard, et, sans qu’elles puissent se défendre, arrêtez-les ou tuez-les.</p>
+          </sp>
+          <sp who="#clot #gua">
+            <speaker>TOUS.</speaker>
+            <p>Du dehors... Trahison! trahison!</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Gardes de cette tour, qui nous avez laissé entrer ici, puisque le choix nous est donné, contentez-vous de nous arrêter; ce sera le plus commode.</p>
+          </sp>
+          <stage>Entrent CLOTALDO et des Soldats.</stage>
+          <stage>Clotaldo tient un pistolet. Tous les soldats ont le visage couvert.</stage>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Couvrez-vous tous le visage; car il importe, tant que nous serons ici, que personne ne nous voie.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Il paraît qu’on va masqué dans ce pays?</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>O vous qui, par ignorance sans doute, avez franchi les limites de ce lieu retiré, contrairement au décret du roi qui défend à qui que ce soit de venir voir celui qui vit prisonnier parmi ces rochers, — rendez-vous, rendez vos armes, ou bien ce pistolet que je tiens va partir, en vomissant deux balles dont chacune donnera la mort à l’un de vous.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Avant que ces personnes reçoivent de toi la moindre injure, tyran farouche et cruel, je me serai moi-même donné la mort au moyen de ces fers... Oui, j’en jure par le ciel, tout enchaîné que je suis, je me déchirerai avec les mains, avec les dents, et je me briserai contre ces durs rochers, plutôt que de leur voir subir un outrage dont mon coeur serait désolé.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>
+              <seg type="aside">Qu’on le ramène dans sa prison et que la porte en soit fermée sur lui.</seg>
+            </p>
+          </sp>
+          <stage>Les soldats font rentrer Sigismond dans la caverne.</stage>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Du dehors. Vive Dieu! vous avez raison de m’ôter la liberté; car, semblable au géant de la fable, j’aurais entassé rochers sur rochers pour vous attaquer tous ensemble.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>C’est peut-être parce qu’on avait prévu la violence de ton caractère que tu souffres tous ces maux.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Puisque la fierté à ce point vous offense et vous irrite, il serait insensé à moi de ne pas vous demander humblement la vie qui est à vos pieds. Laissez-vous toucher de pitié en ma faveur, si vous ne voulez pas qu’on dise que vous traitez avec une égale rigueur et celui qui est fier et celui qui est humble.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Et si ni la Fierté ni l’Humilité,— ces personnages si importants et si écoutés dans les autosacramentales, — ne peuvent toucher votre coeur, moi qui ne suis ni fier ni humble, mais un milieu entre les deux, je vous prie de vouloir bien nous protéger.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Holà!</p>
+          </sp>
+          <sp who="#gua">
+            <speaker>DES SOLDATS.</speaker>
+            <p>Seigneur?</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Otez-leur à tous deux leurs armes, et bandez-leur les yeux, afin qu’ils ne voient pas où on les emmène.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Voici mon épée. C’est à vous seul que je la remets, car vous êtes ici le chef; et je ne voudrais pas la rendre à un homme moins considérable.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>
+              <seg type="aside">Tenez, prenez.</seg>
+            </p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Et si je dois mourir, je veux, en reconnaissance de cette grâce, vous laisser ce gage d’un grand prix, à cause du héros qui l’a portée. Gardez-la bien, je vous le recommande; car si je ne sais pas précisément quel secret est attaché à cette épée, je sais qu’elle enferme de grands mystères, et je savais que je pouvais compter sur elle pour venir en Pologne me venger d’un affreux outrage.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>
+              <seg type="aside">Qui te l’a donnée, cette épée?</seg>
+            </p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Une femme.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Son nom?</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Je dois le taire.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Dis-moi donc au moins sur quoi tu te fondes pour penser qu’il y ait un secret en cette épée?</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>La personne qui me l’a donnée m’a dit: «Pars pour la Pologne, et tâche, par ruse et adresse, que les nobles et les principaux du pays te voient cette épée; car, par ce moyen, tu trouveras auprès de l’un d’eux secours et protection.» Mais, dans l’idée que ce seigneur était peut-être mort, on n’a point voulu me le nommer.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>
+              <seg type="aside">Que le ciel me protège! qu’ai-je entendu? Il m’est impossible de dire si une pareille aventure est la vérité ou une fiction. C’est bien là l’épée que je laissai à la belle Violante en promettant que celui qui me la rapporterait me trouverait avec le dévouement d’un fils et la tendresse d’un père... Que dois-je donc faire dans une situation si difficile, alors que celui qui m’apporte cette épée qui doit être si puissante sur moi, arrive frappé d’une sentence de mort?... Quelle position cruelle! quelle affreuse destinée! O inconstance de la fortune!... C’est mon fils! c’est bien lui! ce gage me le garantit et mon coeur me l’assure; mon coeur qui tressaille de joie dans ma poitrine, comme pour s’élancer vers lui; mon coeur qui, semblable au prisonnier, lequel, entendant du bruit au dehors et ne pouvant s’échapper, se précipite à la fenêtre, afin de voir ce qui se passe, dans l’impuissance où il est de sortir de mon sein, monte vers mes yeux, qui sont en quelque sorte la fenêtre de mon âme, et s’en échappe en des larmes pleines de douceur... Que faire, grand Dieu? que faire?... Le conduire au roi? hélas! c’est le conduire à la mort. Le soustraire aux yeux du roi? je ne le puis comme loyal vassal... D’un côté l’amour paternel m’implore, d’un autre côté la loyauté me commande... Mais pourquoi hésiter? la fidélité que je dois au roi ne doit-elle point passer avant ma tendresse pour mon fils? Que ma loyauté ne subisse donc aucune atteinte, et qu’il advienne de mon fils ce que le sort voudra... D’ailleurs n’a-t-il point dit tout à l’heure qu’il venait se venger d’un outrage? Or l’homme outragé n’est-il pas un infâme? or un infâme peut-il être mon fils, peut-il être formé de mon sang?... Mais, d’autre part, s’il lui est arrivé quelqu’un de ces malheurs auxquels nous sommes tous exposés, — car l’honneur est chose si délicate qu’un souffle le ternit et qu’une parole l’enlève, — que pouvait faire de plus l’homme le plus généreux, que de venir, à travers tant de périls, chercher réparation et vengeance? Oui, c’est mon fils, c’est mon sang; je le reconnais à son courage, à sa valeur... C’est pourquoi, dans l’incertitude où je suis, le seul parti que j’aie à prendre, c’est d’aller au roi et de lui dire: «Voilà mon fils, tuez-le.» Qui sait? peut-être le roi se laissera-t-il toucher en ma faveur, et alors, mon fils vivant, je l’aiderai à se venger; et si le roi, constant dans ses rigueurs, le condamne à mourir, il mourra du moins sans savoir que je suis son père. Suivez-moi, étrangers, et soyez persuadés qu’il est des hommes aussi malheureux que vous; car, en songeant à notre situation respective, je ne sais lequel vaut mieux de vivre ou de mourir.</seg>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="2">
+          <head>SCÈNE II.</head>
+          <stage>Le vestibule du palais.</stage>
+          <stage>Entrent, d’un côté, ASTOLFE et des Soldats, et, de l’autre, l’Infante ESTRELLA et ses Dames.</stage>
+          <stage>Bruit de tambours et de trompettes.</stage>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>A votre apparition, noble madame, les trompettes et les tambours font entendre leurs sons belliqueux, les oiseaux commencent leurs chants joyeux, et les fleurs balancent amoureusement leurs têtes charmantes. Les trompettes et les tambours vous saluent comme Pallas, les oiseaux comme l’Aurore, et comme Flore les fleurs. Et en effet vous êtes Pallas dans la guerre, Aurore pour l’éclat dont vous brillez, et Flore pour le charme dont vous embellissez le printemps; et, outre tout cela, vous êtes la reine qui régnez sur mon âme.</p>
+          </sp>
+          <sp who="#est">
+            <speaker>ESTRELLA.</speaker>
+            <p>Si les paroles doivent toujours être en harmonie avec les actes, vous avez eu tort de m’adresser tous ces beaux compliments, que dément cet appareil guerrier auquel j’aurais voulu me soustraire. Toutes ces flatteries sont, à mon sens, en complet désaccord avec votre conduite. Et remarquez, je vous prie, qu’il n’appartient qu’aux bêtes sauvages, aussi perfides que cruelles, de caresser au moment où elles tuent.</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Vous êtes bien mal instruite de mes sentiments, noble Estrella, puisque vous doutez de la sincérité de mon hommage. Veuillez m’écouter, je vous en conjure. Eustorgue, troisième du nom, roi de Pologne, étant mort, eut pour héritiers Basilio et deux filles de qui vous et moi nous sommes nés... Je ne veux point vous fatiguer à vous conter rien qui soit hors de propos... De ces deux filles, Clorilde, qui aujourd’hui repose en paix dans un séjour meilleur, était l’aînée et fut votre mère; Recisonde, la cadette, — que Dieu conserve mille années, — se maria en Moscovie, et c’est d’elle que je suis né. Maintenant, pour venir à un autre point, Basilio, qui touche déjà à la vieillesse, après avoir toute sa vie dédaigné les plaisirs et négligé les darnes pour l’étude, est devenu veuf sans enfants, et vous et moi nous prétendons lui succéder. Vous, vous dites en votre faveur que vous êtes fille de la soeur aînée; moi, je réponds que je suis, il est vrai, le fils de la soeur cadette, mais que, comme homme, je dois être préféré. Nous avons soumis le différend à notre oncle; il nous a répondu qu’il voulait nous réconcilier, et dans ce but il nous a invités tous deux à nous trouver aujourd’hui en ce lieu même. Voilà avec quelle intention je suis venu ici; j’aime mieux vivre en paix avec vous que de vous faire la guerre, et il est mal à vous de me la déclarer... Oh! veuille l’amour, ce dieu plein de sagesse, que le vulgaire, dont les prédictions s’accomplissent si souvent, ne se soit pas trompé dans les acclamations avec lesquelles il nous a reçus tous deux! Puissiez-vous en effet être reine, mais l’être de mon consentement et de ma volonté! Puisse notre oncle, pour que votre gloire soit complète, vous donner sa couronne, votre mérite vous attirer un triomphe si flatteur, et mon amour mettre à vos pieds un empire!</p>
+          </sp>
+          <sp who="#est">
+            <speaker>ESTRELLA.</speaker>
+            <p>Mon coeur ne vous cède pas en générosité; car je ne serais contente d’avoir l’empire du monde que pour vous en faire hommage. Et cependant, je crains bien que mon amour ne vous trouve ingrat. Car, dites-moi, ce portrait que je vois suspendu sur votre poitrine, ne démentL a V i e E s t Un S o n g e il point vos discours?</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Je puis vous donner aisément satisfaction à cet égard... (Bruit de tambours.) Mais ce n’est pas le moment; ce bruit m’annonce que le roi sort avec son conseil.</p>
+          </sp>
+          <stage>Entrent LE ROI BASILIO et sa Suite.</stage>
+          <sp who="#est">
+            <speaker>ESTRELLA.</speaker>
+            <p>Sage Thalès...</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Docte Euclide... .</p>
+          </sp>
+          <sp who="#est">
+            <speaker>ESTRELLA.</speaker>
+            <p>Qui connaissez le cours des astres...</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Qui avez apprécié l’influence diverse des étoiles...</p>
+          </sp>
+          <sp who="#est">
+            <speaker>ESTRELLA.</speaker>
+            <p>Permettez que je vous presse dans mes bras.</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Souffrez que je me prosterne à vos pieds.</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Embrassez-moi, mes enfants; et puisqu’on venant ici vous m’avez montré tant de déférence, et que vous me témoignez de tels sentiments, croyez bien qu’aucun de vous n’aura lieu de se plaindre, croyez bien que vous serez satisfaits l’un et l’autre; seulement, ayant à vous confier mes désirs et mon projet, je vous demande un moment de silence. Pour ce qui est de votre approbation, vous me la donnerez après, si vous êtes contents. Écoutez-moi donc avec attention. — Vous savez déjà, mes enfants, et vous aussi, noble cour de Pologne, parents, amis, et vassaux, que ma science m’a mérité dans le inonde le surnom de docte, et que nos peintres, nos statuaires, rivaux de Timante et de Lysippe, ont reproduit mille fois mon image pour. immortaliser celui qu’ils appellent le grand Basilio. Vous savez aussi que la science dont je m’occupe le plus, et pour laquelle je professe le plus d’estime, ce sont les mathématiques, science au moyen de laquelle j’enlève au temps et à la renommée le privilège de m’apprendre les choses encore inaccomplies ou inconnues; car lorsque je vois présentes sur mes Tables les nouveautés des siècles futurs, n’est-ce pas comme si j’accompagnais le temps lui-même dans sa marche éternelle? (Montrant le ciel.) Cette voûte azurée, sur laquelle se promènent mes yeux, que le soleil illumine de ses rayons et que la lune éclaire la nuit d’une douce lumière, ces orbes de diamant, ces globes de cristal, ces astres, ces étoiles, voilà la plus chère étude de ma vie, voilà le livre précieux sur lequel le ciel a tracé clairement en lettres d’or notre destinée à tous, soit heureuse, soit malheureuse. Ces livres, je les lis aujourd’hui avec tant de facilité, qu’avec mon seul esprit et sans nul secours étranger, je les suis à toute heure dans leurs rapides mouvements... Mais plût au ciel qu’il ne m’eût pas été donné de les comprendre, et qu’ils eussent prononcé contre moi le trépas le plus affreux! car ne vaut-il pas mieux pour un infortuné mourir prématurément dans une sanglante tragédie, que de trouver sa perte dans sa propre science, et de devenir ainsi l’homicide de lui-même?... Vos regards me demandent le sens de ces paroles; je vais vous l’expliquer, en requérant de nouveau votre silence et votre attention. — De Clotilde, mon épouse, j’ai eu un fils infortuné, dont l’enfantement fut accompagné d’étranges prodiges. Sa mère, lorsqu’elle le portait dans son sein, — triste sépulture des hommes qui précède la vie de même que l’autre suit la mort, comme si Dieu nous eût voulu placer entre deux tombeaux, — sa mère, en dormant, avait rêvé mille fois qu’il sortait de ses flancs un monstre à figure humaine, impétueux et farouche, qui en naissant lui donnait la mort. Le jour de l’accouchement arriva, et le présage s’accomplit; car ces songes, que le ciel nous envoie, pourvu qu’on sache les interpréter, ne nous trompent jamais. Au moment où l’enfant naquit et ou fut tiré son horoscope, le soleil, taché de sang, venait de provoquer la lune au combat; les deux astres luttèrent avec un acharnement sans égal; et à la un l’on vit l’éclipse la plus complète, la plus horrible que le soleil ait subie depuis celle qui signala la mort du Christ. On eût dit que cet astre était arrivé à son dernier paroxysme, et qu’il allait disparaître à jamais dans ce sombre incendie. Les cieux s’obscurcirent, les édifices tremblèrent sur leur base, les nuées laissèrent tomber une pluie de pierres, et les fleuves coulèrent rougis de sang... C’est au milieu de tous ces prodiges que naquit Sigismond; et en naissant il montra ce qu’il serait, puisqu’il donna la mort à sa mère, lui témoignant ainsi sa reconnaissance. Pour moi, j’interrogeai mes livres, je consultai les astres, et là je vis que Sigismond serait l’homme le plus intraitable, le prince le plus cruel et le monarque le plus impie; que sa cour serait une école de perfidies et de vices; que les peuples se lèveraient contre lui; et qu’emporté par sa fureur, il ajouterait à tous ses crimes, — je ne le dis ici qu’avec honte, — de me renverser du trône, et de me faire prosterner à ses pieds... Quel homme n’est point disposé à se croire menacé dans l’avenir, surtout quand ses propres études le lui annoncent? Donc, croyant à ces présages funestes et aux malheurs que m’annonçaient les destins, je résolus de renfermer la bête sauvage qui venait de naître, pour voir si le sage peut éviter l’influence des étoiles. En conséquence, je fis publier que l’infant était mort en naissant; l’on construisit une tour au milieu des rochers de ces montagnes, qui sont d’une telle élévation, que la lumière du jour ne peut que difficilement y pénétrer; et des édits publics défendirent, sous les peines les plus graves, que personne entrât dans une certaine partie de la montagne. C’est là que vit enfermé le triste et malheureux Sigismond, qui, dans ce lieu, ne connaît que le seul Clotaldo, et n’a jamais vu, jamais entendu un autre homme. C’est Clotaldo, l’unique témoin de ses misères, qui lui a enseigné les sciences et l’a instruit dans la foi catholique... Maintenant voici trois choses. D’abord, ma chère Pologne, c’est que j’ai pour toi tant d’amour, que je veux te délivrer de l’oppression d’un tyran; car il ne serait pas un bon roi celui qui mettrait son pays en un si grand péril. En second lieu, je considère que si je prive mon sang des droits que lui ont accordés les lois divines et humaines, c’est agir contre la charité chrétienne, car rien ne m’autorise à être moi-même un despote afin d’empêcher un autre de l’être, et de commettre un crime afin que mon fils n’en commette point. Enfin, et en dernier lieu, je vois que j’ai eu grand tort de donner un tel crédit à de malheureux pronostics; car, bien qu’il ait de mauvaises inclinations, peut-être les aurait-il surmontées; d’autant qu’après tout, la planète la plus puissante peut bien faire incliner d’un côté ou d’un autre notre libre arbitre, mais ne peut pas le diriger d’une manière fatale et irrésistible. C’est pourquoi, au milieu de tous ces doutes et de toutes ces incertitudes, je me suis arrêté à un parti qui va bien vous surprendre: demain, sans plus tarder, je veux que Sigismond, tout en ignorant qu’il est mon fils et votre roi, s’asseye sur mon trône royal, pour vous gouverner en mon lieu et place, et que tous vous acceptiez son gouvernement et lui juriez obéissance. Par là j’obtiens trois avantages qui correspondent aux trois difficultés que j’ai dites. D’abord, c’est que si l’habitant des montagnes se montre prudent, sage et bon, et qu’il démente son funeste et redoutable horoscope, vous posséderez à la tête de l’état votre roi légitime. En second lieu, s’il est orgueilleux, intraitable et cruel, et qu’il s’abandonne sans frein à tous les vices, alors j’aurai largement accompli mes obligations; je pourrai le déposer en usant du pouvoir qui m’appartient; et quand je le ferai ramener à sa prison, ce ne sera plus cruauté, mais châtiment. Enfin, en troisième lieu, mes vassaux, si le prince est tel que je viens de dire, mon affection vous donnera des rois plus dignes de porter la couronne et le sceptre: ce seront mes neveux, qui, réunissant et confondant leurs droits par un heureux mariage, obtiendront l’empire qu’ils ont mérité. Voilà ma prière comme père, mon avis comme savant, mes conseils comme ancien, mes ordres comme roi; et s’il est vrai, ainsi que l’a dit l’Espagnol Sénèque, qu’un roi n’est que l’esclave de ses sujets, voilà mon humble supplique comme esclave.</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>S’il m’appartient, seigneur, de vous répondre comme étant celui qui est le plus intéressé en cette affaire, je vous invite au nom de tous à faire revenir Sigismond, car nous devons lui céder puisqu’il est votre fils.</p>
+          </sp>
+          <sp who="#est #ast #acomr #sol1 #sol2 #otrsol #dam">
+            <speaker>TOUS.</speaker>
+            <p>Oui, seigneur, rendez-nous notre prince; nous le demandons pour roi.</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Je vous suis reconnaissant, mes vassaux, de l’attachement que vous me témoignez. Accompagnez à leur appartement ces deux soutiens de mon empire. Demain vous verrez Sigismond.</p>
+          </sp>
+          <sp who="#est #ast #acomr #sol1 #sol2 #otrsol #dam">
+            <speaker>TOUS.</speaker>
+            <p>Vive le grand roi Basilio!</p>
+          </sp>
+          <stage>Tous se retirent à la suite d’Astolfe et d’Estrella»</stage>
+          <stage>Le Roi demeure seul, et entrent CLOTALDO, ROSAURA et CLAIRON.</stage>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Puis-je vous parler, seigneur?</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Soyez le bienvenu, Clotaldo.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Il ne peut pas en être autrement, seigneur, lorsque je viens a vos pieds. Et cependant le destin a été pour moi bien cruel, puisqu’il m’a fait enfreindre vos lois et vos ordres, à mon insu, contre ma volonté.</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Qu’est-ce donc?</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Hélas! j’en suis réduit là, qu’un événement qui aurait dû être pour moi le plus grand sujet de joie n’est qu’une disgrâce et un malheur.</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Expliquez-vous.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Ce beau jeune homme que vous voyez devant vous a pénétré par mégarde dans la tour où le prince est renfermé, et ce jeune homme...</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Soyez sans inquiétude, Clotaldo. Si cela fût arrivé un autre jour, je n’aurais pas été content, je l’avoue; mais à présent que j’ai révélé ce secret, il m’importe peu que ce jeune homme le connaisse. Venez me voir dans un moment; j’ai à vous conter beaucoup de choses, et je veux vous confier une mission du plus haut intérêt, en vous avertissant d’avance que vous allez jouer un des principaux rôles dans un événement jusqu’ici sans exemple. Quant à ces prisonniers, j’excuse votre négligence et je leur pardonne.</p>
+          </sp>
+          <stage>Il sort.</stage>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>
+              <seg type="aside">Le ciel a eu pitié de mon sort Maintenant que la nécessité ne m’y force pas, je ne dirai point qu’il est mon fils.</seg>
+            </p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Je vous baise les pieds mille fois.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Et moi aussi, avec beaucoup de politesse.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Vous m’avez donné la vie, seigneur; et puisque je n’existe que par vous, je veux être à jamais votre esclave.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>
+              <seg type="aside">Certes, ces paroles doivent exciter son courage.</seg>
+            </p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Oui, bien que vous m’ayez donné la vie, j’avoue que je ne vivrai point jusqu’à ce que je me sois vengé; mais bientôt ma vengeance sera complète, bientôt j’aurai rétabli mon honneur, et alors vous me permettrez de dire que je vous dois la vie.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Prenez cette épée, que vous portiez avec vous; elle suffira, je le sais, à votre vengeance; — car une épée qui a été à moi (je parle ainsi à cause qu’elle a été un moment entre mes mains) saura vous venger.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Je ceins de nouveau cette épée en votre nom; et sur cette épée, je jure que je me vengerai, quand bien même mon ennemi serait encore plus puissant qu’il n’est.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>L’est-il beaucoup?</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Il l’est à un tel point que je ne puis vous le dire; non pas que je ne fusse prêt à confier plus encore à votre prudence, mais afin que votre protection et vos bontés ne se tournent point contre moi.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>
+              <seg type="aside">Oh! que ne puisje savoir son nom!</seg>
+            </p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Tant de bonté a droit à toute ma confiance. Eh bien! sachez-le donc, mon ennemi n’est rien moins qu’Astolfe, duc de Moscovie.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>
+              <seg type="aside">O ciel! quelle douleur! Je ne pouvais rien imaginer de plus triste.</seg>
+            </p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Vous avez beau dire; quoiqu’il soit mon prince, il a pu m’outrager.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Il ne l’a point pu, vous dis-je, alors même qu’il vous eût porté la main au visage.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Il m’a plus outragé encore.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Parlez donc; car tout ce que vous me direz est au-dessous de ce que j’imagine.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Eh bien! soit... Mais je ne sais quel respect vous m’inspirez, de quelle vénération et de quelle crainte vous remplissez mon coeur; et j’ose à peine vous confier que ces vêtements ne sont point ceux que je devrais porter. Si donc je ne suis point ce que je parais être, et puisque Astolfe est venu épouser Estrella, jugez par là s’il a pu m’outrager. Je vous en ai dit assez.</p>
+          </sp>
+          <stage>Rosaura et Clairon sortent.</stage>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Écoute! arrête... Quel est ce confus labyrinthe où je me trouve perdu et où ma raison marche sans guide? Mon honneur est outragé, mon ennemi est puissant, et je suis son vassal que le ciel me montre le chemin! Mais, hélas! je ne l’espère point; car pour l’homme plongé dans cet abîme ténébreux, tout le ciel n’est qu’un présage, et le monde entier qu’un prodige.</p>
+          </sp>
+        </div2>
+      </div1>
+      <div1 type="act" n="2">
+        <head>Journée II</head>
+        <div2 type="scene" n="1">
+          <head>SCÈNE I.</head>
+          <stage>Une chambre dans le palais.</stage>
+          <stage>Entrent LE ROI et CLOTALDO.</stage>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Vos ordres, sire, sont exécutés.</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Conte-moi, Clotaldo, comment tout cela s’est passé.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Le voici, seigneur: nous avons employé le breuvage composé que vous nous aviez dit de préparer en mélangeant les vertus de certaines herbes; il a, en effet, un tel pouvoir, une telle force, qu’il peut enlever complètement à un homme sa raison, lui ôter ses sens et ses facultés, et le mettre, pour ainsi dire, dans l’état d’un vivant cadavre. Il n’y a plus à douter que cela soit possible, après que l’expérience l’a démontré tant de fois; il est certain que la médecine est pleine de secrets naturels; il n’y a ni animal, ni plante, ni pierre, qui n’ait en soi une qualité déterminée; et si la méchanceté des hommes a pu trouver mille poisons qui donnent la mort, pourquoi donc, en corrigeant la violence de ces poisons, ne leur donnerait-on pas le pouvoir d’endormir? Mais le doute n’est plus permis aujourd’hui, car il a contre lui-même la raison et l’évidence. Donc, pour en venir au fait, muni d’un breuvage composé d’opium et de jusquiame, je suis descendu dans la prison où est renfermé Sigismond. Afin de ne pas exciter sa défiance, j’ai commencé par causer avec lui des connaissances diverses que lui a enseignées la nature, laquelle l’a formé à sa divine école, au milieu des oiseaux et des bêtes sauvages; et voulant élever son esprit à la hauteur de vos desseins, j’ai pris pour thème le vol orgueilleux de l’aigle, qui, dédaignant les régions moyennes de l’air, monte rapide jusqu’à la région du feu, où il paraît un éclair empenné, une comète au brillant plumage. J’ai vanté la fierté de son vol en disant: «C’est, enfin, le roi des oiseaux, et c’est sans doute celui auquel vous donnez la préférence.» II n’en fallut pas davantage. A peine eus-je abordé ces idées de domination et de majesté, qu’il prit la parole d’un air plein d’orgueil, car, en effet, son sang le porte et l’excite à de grandes choses, et il s’écria: «Il est donc vrai que, même dans la république turbulente des oiseaux, il y a aussi et des chefs qui gouvernent et un peuple qui obéit! Pour moi, puisque nous en sommes sur ce sujet, je vous avouerai qu’en y pensant, mes malheurs me sont une consolation. Si j’obéis, c’est par force; jamais volontairement je ne me serais soumis à un homme.» Le voyant animé outre mesure et dans une agitation qui ressemblait à de la fureur, je lui offris l’apozème, et à peine la liqueur eut-elle passé du vase dans sa poitrine, que ses forces s’affaissèrent et que le sommeil s’empara de lui; une sueur froide coula sur tous ses membres; et c’est au point que si je n’avais pas su que ce n’était là qu’une apparence de mort, j’aurais mis en doute qu’il fût vivant. Sur ces entrefaites, arrivèrent les personnes à la prudence et au courage desquelles vous avez confié cette entreprise; on le plaça dans une voiture, et on l’a conduit ainsi jusqu’au palais, où toutes choses étaient préparées d’une manière digne de son rang. Maintenant on vient de le coucher dans votre lit, et pour se conformer à vos ordres, on veille avec soin sur son sommeil, en attendant qu’il sorte de cette léthargie. Et si en vous servant aussi fidèlement, j’ai mérité de vous une récompense, permettez-moi, sire, de vous demander, si je ne suis pas trop indiscret, quelle a été votre intention en faisant ainsi conduire auprès de vous Sigismond.</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Clotaldo, je trouve voire curiosité fort légitime, et par conséquent je veux la satisfaire. — Sigismond, vous ne l’ignorez pas, est menacé, par l’influence de son étoile, de toute sorte de disgrâces et de malheurs tragiques. Je prétends éprouver si le ciel ne pourrait pas s’être trompé, si le jeune homme qui nous a donné tant de preuves d’un caractère intraitable, ne pourrait pas, avec le temps, s’humaniser, se calmer, et si l’on ne pourrait pas le dompter à force de prudence et de sagesse; car enfin l’homme n’a pas été créé pour obéir aux étoiles. Voilà l’épreuve que je prétends faire, et pour cela, j’ai voulu qu’il fût amené en un lieu où il saura plus tard qu’il est mon fils, et sera en position de montrer ses qualités. S’il a assez de magnanimité pour triompher de ses mauvais penchants, il régnera; mais s’il cède à ses dispositions mauvaises, s’il est cruel et despote, il retournera en prison... Vous me demanderez peut-être, maintenant, quelle était la nécessité, pour faire cette expérience, de l’amener ici endormi? A cette question voici encore ma réponse: Si on lui eût appris dès aujourd’hui qu’il était mon fils, et que demain on le reconduisit à sa prison, il est certain, avec son caractère, qu’il serait au désespoir; car, sachant sa naissance, comment se consolerait-il? C’est pourquoi j’ai voulu qu’au besoin il eût la ressource de se dire que tout ce qu’il avait vu n’était qu’un songe. Nous y trouverons deux avantages: d’abord, de pouvoir étudier son caractère, et, en second lieu, de lui procurer la consolation dont je vous ai parlé. Et après tout, si, quand il aura commandé ici, il se revoit en prison, et qu’il s’imagine qu’il a rêvé tout ce qui s’est passé, il aura raison, Clotaldo; car dans ce monde, pour tous tant que nous sommes, vivre c’est rêver.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Il me semble, seigneur, qu’il y aurait à cela bien des choses à redire; mais ce n’est pas le moment. Je reconnais à certains signes que le prince s’est réveillé et qu’il vient de ce côté.</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Je me retire. Vous, son gouverneur, tâchez de dissiper le trouble où il doit être, et apprenez- lui la vérité.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Vous me permettez donc de la lui dire?</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Oui, car peut-être en sachant ce qui le menace, il fera plus d’efforts pour se vaincre.</p>
+          </sp>
+          <stage>Il sort.</stage>
+          <stage>Entre CLAIRON.</stage>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>
+              <seg type="aside">Moyennant un droit d’entrée de quatre coups de hallebarde que j’ai, non pas donnée, mais reçus d’un vilain hallebardier qui a la barbe aussi rouge que sa livrée, je pourrai vois à mon aise tout ce qui va se passer. Il n’y a pas de meilleure fenêtre que celle qu’on porte avec soi sans être obligé de demander de billet. Pour avoir à toutes les fêtes une excellente place sans payer, il suffit d’un peu d’effronterie.</seg>
+            </p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>
+              <seg type="aside">C’est Clairon, le valet de cette pauvre infortunée, qui, bravant tous les périls, est venue en Pologne venger mon outrage.</seg>
+            </p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Il y a, seigneur, que votre générosité, disposée à prendre fait et cause pour Rosaura, lui a conseillé, à ce qu’il paraît, de revêtir les habits de son sexe.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Et je lui ai donné ce conseil dans la crainte que l’on ne vînt à concevoir une mauvaise opinion de sa conduite.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Il y a qu’elle a changé de nom, qu’elle se fait passer pour votre nièce, et qu’à compter d’aujourd’hui elle a obtenu l’honneur d’être placée comme dame de compagnie auprès de la princesse Estrella.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Je suis bien aise qu’elle se soit conduite avec autant de sagesse.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Il y a encore qu’elle attend le moment où vous pourrez rétablir son honneur.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Elle a raison; car c’est le temps qui nous donnera tôt ou tard l’occasion favorable.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Il y a qu’en cette qualité, — de votre nièce, — elle est traitée, régalée, fêtée comme une reine. Il y a finalement que moi, qui suis venu avec elle, je me meurs de faim et personne ne se souvient de moi; personne ne pense que je suis Clairon, et que si un tel clairon se met à sonner, il pourra tout apprendre au roi, à Astolphe et à Estrella. Car Clairon et valet sont deux choses qui gardent difficilement un secret, et si je romps une fois le silence, il pourra se faire que l’on chante pour moi ce refrain si connu: «Clairon qui sonne au matin ne fait pas plus de train.»</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Tes plaintes sont fondées, et j’y ferai droit. Mais, en attendant, sois fidèle.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Voici le seigneur Sigismond.</p>
+          </sp>
+          <stage>Entrent SIGISMOND, des VALETS qui lui présentent des vêtements, et des MUSICIENS qui chantent.</stage>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Que le ciel me soit en aide! Que vois-je? Je doute si je veille, et j’éprouve une sorte de crainte... Moi dans un palais somptueux! moi au milieu du brocart et de la soie! moi, je suis entouré de valets si riches, si brillants! moi, j’ai dormi et me suis éveillé dans un lit si parfait! moi, j’ai, pour me servir, tant de gens qui m’offrent des vêtements!... Est-ce un rêve? non, je suis éveillé... Ne suis-je donc pas Sigismond?... O ciel! instruis-moi de la vérité, et apprends-moi ce qui se passe; dis-moi ce qui est arrivé pendant mon sommeil, et par quelle aventure je me trouve en ces lieux... Mais pourquoi m’en inquiéter? Je veux me laisser servir, et advienne que pourra!</p>
+          </sp>
+          <sp who="#cri1">
+            <speaker>PREMIER VALET.</speaker>
+            <p>Il paraît tout surpris et tout triste.</p>
+          </sp>
+          <sp who="#cri2">
+            <speaker>DEUXIÈME VALET.</speaker>
+            <p>Qui ne le serait à sa place?</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Moi.</p>
+          </sp>
+          <sp who="#cri1">
+            <speaker>DEUXIÈME VALET.</speaker>
+            <p>
+              <seg type="aside">Parle-lui donc, à présent.</seg>
+            </p>
+          </sp>
+          <sp who="#cri1">
+            <speaker>PREMIER VALET.</speaker>
+            <p>
+              <seg type="aside">Voulez-vous que l’on recommence à chanter?</seg>
+            </p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Non, c’est assez.</p>
+          </sp>
+          <sp who="#cri2">
+            <speaker>DEUXIÈME VALET.</speaker>
+            <p>Comme vous paraissez tout pensif, nous avons voulu vous distraire.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Mes chagrins n’ont pas besoin de distraction, et la seule musique que j’aime, c’est la musique militaire.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Que votre altesse, monseigneur, me permette de baiser sa main! Je tiens à honneur de lui témoigner ainsi le premier mon obéissance.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>
+              <seg type="aside">N’est-ce pas Clotaldo?... Comment donc celui qui me traitait si mal dans ma prison, me parle-t-il avec tant de respect? Que m’est-il donc arrivé de nouveau?</seg>
+            </p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Au milieu du trouble où vous met votre nouvelle position, votre raison doit flotter incertaine: eh bien! je veux, s’il est possible, dissiper tous vos doutes. — Vous saurez donc, seigneur, que vous êtes prince héritier de la couronne de Pologne. Si l’on vous a tenu renfermé si longtemps, ça été pour obéir à un destin fatal qui menace cet empire de toute sorte de périls pour l’époque où vous prendrez en main le sceptre royal. Mais on a espéré que, par votre force morale, vous surmonteriez les étoiles, car un homme généreux doit les vaincre; et pendant que vous étiez plongé dans un profond sommeil, on vous a tiré de la tour où vous étiez et l’on vous a porté au palais. Votre père et mon roi viendra vous voir, Sigismond, et c’est de lui que vous apprendrez le reste.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Eh quoi! misérable, infâme, traître, qu’ai-je encore à apprendre? et maintenant que je sais qui je suis, n’en est-ce pas assez pour montrer dès ce moment et ma fierté et mon pouvoir? Comment avez-vous pu trahir votre pays jusqu’à m’emprisonner, jusqu’à m’enlever, contre tout droit et toute raison, le rang qui m’était dû?</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Infortuné que je suis!</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Vous avez manqué à la justice, vous avez abusé le roi, vous m’avez traité avec une rigueur cruelle; et ainsi, la justice, le roi et moi, nous vous condamnons, pour vos crimes, à mourir de mes mains.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Seigneur...</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Que personne ne cherche à m’arrêter; ce serait une peine inutile. Et, vive Dieu! si quelqu’un d’entre vous se met devant moi, je le jette par la fenêtre.</p>
+          </sp>
+          <sp who="#cri2">
+            <speaker>DEUXIÈME VALET.</speaker>
+            <p>Fuyez, Clotaldo!</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Hélas! malheureux, pourquoi montrez-vous tant d’orgueil, sans savoir que vous êtes au milieu d’un rêve?</p>
+          </sp>
+          <stage>Il sort.</stage>
+          <sp who="#cri2">
+            <speaker>DEUXIÈME VALET.</speaker>
+            <p>Remarquez, seigneur...</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Otez-vous...</p>
+          </sp>
+          <sp who="#cri2">
+            <speaker>DEUXIÈME VALET.</speaker>
+            <p>Il n’a fait qu’obéir au roi.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Il ne devait pas obéir au roi en une chose qui n’était pas juste; et d’ailleurs j’étais son prince.</p>
+          </sp>
+          <sp who="#cri2">
+            <speaker>DEUXIÈME VALET.</speaker>
+            <p>Il n’a point dû examiner s’il faisait bien ou mal.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Il paraît que vous cherchez quelque chose, puisque vous osez me répondre.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Le prince parle fort bien, et vous vous conduisez fort mal.</p>
+          </sp>
+          <sp who="#cri2">
+            <speaker>DEUXIÈME VALET.</speaker>
+            <p>Qui vous a donné la permission de venir ici?</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>C’est moi qui l’ai prise.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Dis-moi, qui es-tu, toi?</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Je suis un homme qui aime à se mêler des affaires des autres, et je ne crains personne en ce genre: j’ai fait mes preuves.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Dans ce monde tout nouveau où je me trouve, toi seul m’as plu.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Je serais trop heureux, seigneur, de plaire à tout ce qui s’appelle Sigismond.</p>
+          </sp>
+          <stage>Entre ASTOLFE.</stage>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Heureux mille fois, ô prince! le jour où vous vous montrez à la Pologne, et où vousremplissez ce pays d’une splendeur inaccoutumée, en sortant, comme le soleil, du sein des monts.Que votre noble front puisse porter longtemps la couronne royale!</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Dieu vous garde!</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Je me fâcherais d’un accueil aussi froid, si vous me connaissiez; mais vous ne savez pas qui je suis, et c’est là votre excuse. Je suis Astolfe, duc de Moscovie, et votre cousin: nous pouvons traiter d’égal à égal.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Eh quoi! en vous disant: Dieu vous garde! je ne vous fais pas un bon accueil? Eh bien! puisque cela ne suffit pas à votre rang, à votre naissance, et que vous n’êtes pas content, la première fois que je vous reverrai, je dirai: «Que Dieu ne vous garde pas! »</p>
+          </sp>
+          <sp who="#cri2">
+            <speaker>DEUXIÈME VALET.</speaker>
+            <p>
+              <seg type="aside">Que votre altesse ne s’en offense pas; il traite avec tout le monde comme un homme quia été élevé dans les montagnes. Seigneur, ménagez davantage le prince Astolfe.</seg>
+            </p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Il m’a ennuyé avec ses belles phrases, et il ne m’a pas moins ennuyé avec son chapeau qu’il a gardé sur sa tête.</p>
+          </sp>
+          <sp who="#cri2">
+            <speaker>DEUXIÈME VALET.</speaker>
+            <p>C’est un grand prince.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Je suis encore plus grand.</p>
+          </sp>
+          <sp who="#cri2">
+            <speaker>DEUXIÈME VALET.</speaker>
+            <p>Il est bon que vous ayez l’un pour l’autre plus d’égards que n’en ont entre eux les autres seigneurs de la cour.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>De quoi vous mêlez-vous, s’il vous plaît?</p>
+          </sp>
+          <stage>Entre ESTRELLA.</stage>
+          <sp who="#est">
+            <speaker>ESTRELLA.</speaker>
+            <p>Que votre altesse, monseigneur, soit la bienvenue dans ce palais qui est fier de la posséder; et qu’elle y vive avec bonheur et avec gloire, non pas des années, mais des siècles.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>
+              <seg type="aside">Dis-moi maintenant, toi, quelle est cette charmante femme? Quelle est cette noble beauté? Quelle est cette divinité céleste qui se montre à mes yeux avec un tel éclat?</seg>
+            </p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Seigneur, c’est votre cousine Estrella.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>
+              <seg type="aside">Je vous remercie, madame, de votre compliment; mais je ne l’accepte et je ne suis le bienvenu que parce que je vous ai vue; car c’est l’unique plaisir, la seule joie que je trouve en ce lieu. — Permettez-moi, je vous prie, de baiser votre main plus blanche que la neige.</seg>
+            </p>
+          </sp>
+          <sp who="#est">
+            <speaker>ESTRELLA.</speaker>
+            <p>Cela n’est pas convenable.</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>
+              <seg type="aside">S’il lui prend la main, je suis perdu.</seg>
+            </p>
+          </sp>
+          <sp who="#cri2">
+            <speaker>DEUXIÈME VALET.</speaker>
+            <p>Je connais les secrets sentiments d’Astolfe, et je veux le servir. Songez, seigneur, qu’en présence du prince Astolfc, il n’est point juste que votre altesse...</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Ne vous ai-je point dit de ne pas vous mêler de mes affaires?</p>
+          </sp>
+          <sp who="#cri2">
+            <speaker>DEUXIÈME VALET.</speaker>
+            <p>Je vous dis ce qui est juste.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Ne m’ennuyez pas. Je ne trouve de juste que ce qui est selon mon bon plaisir.</p>
+          </sp>
+          <sp who="#cri2">
+            <speaker>DEUXIÈME VALET.</speaker>
+            <p>Il n’y a qu’un moment, seigneur, vous disiez qu’il ne faut obéir à son prince qu’en ce qui est juste.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Vous devez aussi m’avoir entendu dire que je jetterais par la fenêtre le premier qui m’ennuierait.</p>
+          </sp>
+          <sp who="#cri2">
+            <speaker>DEUXIÈME VALET.</speaker>
+            <p>On ne traite pas ainsi un homme de ma sorte</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Vive Dieu! je vais vous prouver le contraire.</p>
+          </sp>
+          <stage>Il l’enlève dans ses bras et court vers le balcon.</stage>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Qu’est-ce donc?</p>
+          </sp>
+          <sp who="#est">
+            <speaker>ESTRELLA.</speaker>
+            <p>Empêchez-le tous.</p>
+          </sp>
+          <stage>Elle sort.</stage>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>revenant. Le voilà dans la mer, Vive Dieu! je lui ai montré que cela n’était pas si difficile.</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Mesurez un peu mieux votre conduite. S’il y a loin d’une bête sauvage à un homme, il n’y a pas moins de distance des montagnes à un palais.</p>
+          </sp>
+          <stage>Il s’éloigne.</stage>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Prenez garde! si vous avez tant de présomption, votre tête risque de se gonfler et de ne plus tenir dans votre chapeau.</p>
+          </sp>
+          <stage>Entre LE ROI.</stage>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Que s’est-il donc passé?</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Ce n’est rien; j’ai jeté seulement par la fenêtre un homme qui m’ennuyait.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>
+              <seg type="aside">Sachez que vous parlez au roi.</seg>
+            </p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Comment! dès le premier jour de votre arrivée, vous tuez un homme!</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Il me soutenait que je ne le ferais pas; j’ai voulu lui prouver que cela m’était possible.</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Je suis désolé, prince, de ces commencements. Je pensais vous trouver averti et luttant contre l’influence des étoiles, et votre premier acte n’est rien moins qu’un homicide! Comment pourrai-je vous presser sur mon sein avec tendresse et bonheur, en ce moment où vous venez de donner la mort à un homme? Qui peut voir sans un trouble secret un poignard rougi de sang et récemment souillé d’un meurtre? Qui peut voir, sans être douloureusement ému, la place où un de ses semblables a péri d’une façon tragique? quelque force que l’on ait, il est impossible de surmonter ces instincts naturels. Aussi, quoique je fusse venu pour vous embrasser, je m’en abstiens; je craindrais de me voir dans vos bras.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Je me passerai de vos embrassements comme j’ai fait jusqu’à ce jour. Que m’importent, après tout, les caresses d’un père qui m’a traité avec tant de rigueur, qui m’a éloigné d’auprès de sa personne, qui m’a fait élever parmi les bêtes sauvages et m’a renfermé comme un monstre! Que m’importent les caresses d’un homme qui, après m’avoir donné le jour, a cherché ma mort par tous les moyens les plus cruels!</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Plût à Dieu, hélas! que je ne t’eusse point donné le jour, comme tu me le reproches! je ne serais pas témoin de tes déportements, je n’entendrais pas tes injures.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Si vous ne m’aviez pas donné le jour, je ne me plaindrais pas de vous, et je ne me plains que parce qu’après me l’avoir donné vous avez voulu me l’ôter. Donner est quelquefois noble et généreux; mais vouloir ôter ce qu’on a donné est la marque d’un coeur vulgaire, d’une âme sans grandeur.</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>C’est ainsi que tu me témoignes ta reconnaissance pour t’avoir tiré de prison et t’avoir fait prince?</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Et comment pourrais-je vous être reconnaissant? Que me donnez-vous donc? Me donnez-vous autre chose que ce qui m’appartient, et ce que la mort vous forcera bientôt de quitter? Vous êtes mon père et mon roi; donc votre pouvoir, votre fortune, vos titres, tout cela me revient de droit naturel; et loin que je sois votre obligé, c’est moi, au contraire, qui pourrais vous demander compte de ce que vous m’avez privé si longtemps de mon rang et de ma liberté. Ainsi, remerciez-moi de ce que je ne vous fais pas payer ce que vous me devez.</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Insolent et barbare, tais-toi... Le ciel a tenu sa menace, et je vois en toi tout ce qu’il avait annoncé; mais, bien que tu saches à présent qui tu es, et que tu te voies en un lieu où tu ne reconnais pas de supérieur, je t’en avertis, prends-y garde, sois humble, doux, humain; car autrement, bien que tu te croies éveillé, tu t’apercevrais peut-être que tu n’as fait qu’un rêve.</p>
+          </sp>
+          <stage>Il sort.</stage>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Que dit-il? Qui! moi, je rêve, bien que je me croie éveillé!... Non je ne rêve point, car j’ai conscience de ce que j’ai été et de ce que je suis... Aussi a-t-il beau se repentir, il ne peut plus revenir sur le passé. Je sais qui je suis, et il a beau soupirer, se désoler, crier, il ne peut empêcher que je ne sois l’héritier de sa couronne. Quand je me suis laissé emprisonner, j’ignorais qui j’étais; mais à présent, je sais qui je suis, et je sais que je suis un composé d’homme et de bête sauvage.</p>
+          </sp>
+          <stage>Entre ROSAURA, sous des habits de femme.</stage>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>
+              <seg type="aside">Je viens ici rejoindre la princesse, avec la crainte de rencontrer Astolfe. Clotaldo désire qu’il ne me voie pas et ne sache pas qui je suis; il dit que cela est pour moi de la plus haute importance, et je me confie à sa prudente affection, d’autant que je lui dois déjà l’honneur et la vie.</seg>
+            </p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>De tout ce que vous avez vu ici, monseigneur, qu’est-ce qui vous plaît le plus?</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Rien ne m’a étonné, je m’attendais d’avance à tout cela; une seule chose aurait pu me causer de l’admiration, c’est la beauté de la femme que j’ai vue... Je lisais un jour, je ne sais plus dans quel livre, que l’être qui doit le plus de reconnaissance à Dieu, c’est l’homme, parce qu’il est un petit monde; mais je pense à présent, moi, que c’est la femme, parce qu’elle est un ciel en abrégé, et qu’il y a aussi loin de l’homme à elle que de la terre au ciel; — et cela est d’autant plus vrai de celle-ci...</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>
+              <seg type="aside">Le prince est ici; retirons-nous.</seg>
+            </p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Arrêtez, femme! écoutez! Ne réunissez pas ainsi dans le même moment, par votre apparition et votre disparition subites, l’orient et l’occident; songez que si vous fuyez, le jour fuit avec vous, et que le monde est replongé dans les ténèbres... Mais que vois-je?</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Moi aussi, j’ai peine à en croire mes yeux.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>J’ai déjà vu cette beauté.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>J’ai vu cette grandeur, cette pompe dans un état bien misérable et prisonnière.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>
+              <seg type="aside">Maintenant je vis, je respire. — Femme, — car il n’est pas de mot plus doux pour la bouche de l’homme, — femme, qui êtes-vous? Je ne puis voir vos traits, et il me semble que je vous ai déjà vue et que je vous dois mon adoration et ma foi. Qui êtes-vous, femme divine?</seg>
+            </p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>
+              <seg type="aside">Il m’importe qu’il ne sache pas qui je suis.</seg>
+            </p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Ne dites point cela, dites plutôt que vous êtes ce soleil dont la flamme fait vivre cette princesse, car elle s’éclaire de la splendeur de vos rayons. J’ai vu dans le royaume des fleurs que la rose les gouvernait, et elle était leur reine comme étant la plus charmante. J’ai vu, au milieu des minéraux les plus riches, le diamant que tout le monde préférerait, et il était leur roi comme étant celui qui avait le plus d’éclat. J’ai vu dans la voûte azurée où les étoiles tiennent leur cour, que l’étoile de Vénus marchait la première parce qu’elle est de toutes la plus belle. J’ai vu, dans les plus hautes sphères, le soleil qui avait rassemblé les planètes et qui les présidait parce qu’il est la lumière du jour. Pourquoi donc lorsque, parmi les fleurs, les minéraux, les étoiles et les planètes, la plus belle est préférée, pourquoi servez-vous une beauté qui vous est inférieure, vous qui êtes le soleil, l’étoile de Vénus, le diamant et la rose?</p>
+          </sp>
+          <stage>Entre CLOTALDO; il s’arrête derrière la tapisserie.</stage>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>
+              <seg type="aside">C’est à moi qu’il appartient de soumettre l’indomptable Sigismond, puisqueje l’ai élevé. Mais que vois-je, ô ciel?</seg>
+            </p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>
+              <seg type="aside">Je suis confuse de vos louanges; mon silence vous répondra mieux que je ne le ferais. Lorsque la raison se trouve intimidée, celui qui parle le mieux, seigneur, c’est celui qui se tait.</seg>
+            </p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>De grâce, ne vous éloignez pas. Songez que pour moi votre absence, comme je vous l’ai dit, c’est l’obscurité, ce sont les ténèbres.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Je demande à votre altesse cette permission.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Puisque vous vous en allez de vous-même, vous n’avez rien à demander.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Eh bien! accordez-moi ce que je vous demande.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Prenez garde de lasser ma courtoisie et de me rendre grossier et brutal; car tout ce qui me résiste irrite ma patience.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Votre penchant à la colère et à la fureur pourrait être plus fort que votre patience; mais il n’oserait ni ne pourrait, j’espère, surmonter les égards que vous me devez.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Ne serait-ce que pour vous montrer que je le puis, je suis capable de perdre le respect que je vous dois; car je suis porté à faire tout ce qu’on me dit être au-delà de mon pouvoir. Aujourd’hui j’ai précipité de cette fenêtre un homme qui me disait que je ne le pourrais pas. Prenez donc garde que, pour voir si je le puis, je ne jette aussi votre honneur par la fenêtre</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Il s’obstine. Que faire? Comment empêcher que sa fureur insensée n’attente aussi à l’honneur de ma fille?</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Ce n’est pas en vain que l’on craignait que votre tyrannie ne préparât à ce royaume infortuné d’affreux scandales! ce n’est pas en vain que l’on redoutait de vous des crimes, des trahisons, des assassinats!... Eh! que pourrait-on attendre d’un homme qui n’a d’humain que le nom, qui est plein d’un orgueil farouche, impitoyable, et qui a été élevé parmi les bêtes sauvages?</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Je voulais vous empêcher de prononcer ces injures, et c’est pour cela que je vous parlais avec courtoisie, pensant que je commandais ainsi vos égards; mais si je suis un barbare quand je vous traite comme je faisais tout à l’heure, je veux que vos reproches soient plus vrais et mieux fondés, vive Dieu! — Holà! qu’on nous laisse seuls, qu’on ferme cette porte, et que personne n’entre.</p>
+          </sp>
+          <stage>Clairon sort.</stage>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>
+              <seg type="aside">Hélas! je me meurs. Considérez, seigneur...</seg>
+            </p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Je suis un tyran, et vous espérez me fléchir?</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>
+              <seg type="aside">Quelle affreuse position! je ne puis plus y tenir; et il faut que je me montre à lui et que je m’oppose à sa fureur, dût-il me donner la mort.</seg>
+            </p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Eh quoi! tu m’oses provoquer de nouveau, vieillard insensé? Tu ne crains pas ma colère? Comment as-tu pénétré jusqu’ici?</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>J’ai entendu les accents d’une voix qui vous implorait, et je suis accouru pour vous prier d’être plus généreux, plus humain, si vous voulez régner, et de ne pas vous montrer aussi cruel en vous liant sur ce que vous commandez ici à tous; car, peut-être, ce n’est qu’un songe.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>En me parlant ainsi de mes illusions, tu excites ma rage. Je vais voir, en te tuant, si je suis bien éveillé ou si je rêve.</p>
+          </sp>
+          <stage>Au moment où il tire son poignard, Clotaldo retient son bras et s’agenouille.</stage>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Ah! sans doute, par ce moyen, je sauverai ma vie.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Ote ta main de dessus la poignée de ma dague.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Jusqu’à ce qu’il vienne du monde qui puisse contenir votre fureur, je ne dois pas vous lâcher.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>O ciel!</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Lâche-moi, te dis-je, vieillard insensé, ou je t’étouffe dans mes bras.</p>
+          </sp>
+          <stage>Ils luttent.</stage>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>appelant. Au secours! accourez! on tue Clotaldo!</p>
+          </sp>
+          <stage>Elle sort.</stage>
+          <stage>Entre ASTOLFE, au moment où Clotaldo tombe à terre, et il se met entre lui et Sigismond.</stage>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Qu’est-ce donc, prince? Ne craignez-vous pas de souiller vos armes en les baignant au sang d’un vieillard?... Que votre brillante épée rentre dans son fourreau.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Quand elle sera teinte de son sang infâme...</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Il doit trouver à mes pieds un refuge; ma venue doit lui servir à quelque chose.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Elle vous servira à mourir. Vous m’aurez donné l’occasion de me venger du déplaisir que vous m’avez causé ce matin.</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Si je tire l’épée, ce n’est pas pour vous insulter, mais pour défendre ma vie.</p>
+          </sp>
+          <stage>Astolfe et Sigismond se battent.</stage>
+          <stage>Entrent LE ROI, ESTRELLA et leur suite.</stage>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Ne l’offensez pas, seigneur.</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Pourquoi ces épées?...</p>
+          </sp>
+          <sp who="#est">
+            <speaker>ESTRELLA.</speaker>
+            <p>Astolfe! ô ciel! quelle douleur!</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Que s’est-il donc passé?</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Rien, seigneur, grâce à votre arrivée.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Il s’est passé beaucoup d’événements, seigneur; et entre autres choses, j’ai voulu tuer ce vieillard.</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Quoi! vous n’avez pas plus d’égards pour les cheveux blancs?</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Seigneur, ne lui faites point de reproches; il n’y a eu aucun mal.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>
+              <seg type="aside">Il est plaisant à vous de me demander des égards pour des cheveux blancs! Vous même quelque jour, malgré vos cheveux blancs, je vous verrai à mes pieds; car je ne suis pas encore vengé de l’indigne traitement que vous m’avez fait subir.</seg>
+            </p>
+          </sp>
+          <stage>Il sort.</stage>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Avant de voir ce moment, tu retourneras endormi dans un lieu où tu croiras à ton réveil que tout ce qui t’est arrivé, étant un bien de ce monde, n’était qu’un rêve.</p>
+          </sp>
+          <stage>Le Roi et Clotalde sortent. Restent Estrella et Astolfe.</stage>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Hélas! quand le destin annonce des malheurs, le plus souvent ils s’accomplissent; il est aussi infaillible pour le mal qu’incertain pour le bien, et s’il annonçait toujours des événements funestes, il ne se tromperait jamais. Sigismond et moi nous en sommes la preuve, Estrella, quoique d’une manière différente. Pour Sigismond, la destinée a prédit de tristes et sanglants malheurs, et elle a dit vrai, tout arrive; mais pour moi, à qui elle avait promis le bonheur, la joie, le plus beau triomphe, et qui ai vu avec tant d’espérance, madame, l’éclat d’une beauté auprès de laquelle pâlit le soleil, — pour moi la destinée s’est trompée; ou, du moins, sa prédiction, par le résultat, se trouve mêlée de vérité et de mensonge; car elle m’a laissé entrevoir des faveurs, et maintenant je ne vois plus que dédains.</p>
+          </sp>
+          <sp who="#est">
+            <speaker>ESTRELLA.</speaker>
+            <p>Je ne doute pas que toutes ces galanteries et ces belles paroles ne partent d’un coeur sincère; mais elles s’adressent, sans doute, à une autre femme dont vous aviez le portrait suspendu à votre cou lorsque vous m’êtes venu voir; c’est pourquoi elle doit seule entendre ces gracieux compliments, et seule vous en récompenser. Ce n’est pas une bonne recommandation en amour que les soins que l’on a rendus à une autre dame.</p>
+          </sp>
+          <stage>Entre ROSAURA; elle s’arrête derrière la tapisserie.</stage>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>
+              <seg type="aside">Grâces à Dieu, mes malheurs sont au comble! Après ce que je vois, je n’ai plus rien à craindre.</seg>
+            </p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>
+              <seg type="aside">Que Rosaura me pardonne cet outrage; mais l’absence rend infidèles les hommes et les femmes.</seg>
+            </p>
+          </sp>
+          <stage>Il sort.</stage>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>
+              <seg type="aside">Je craignais d’être vue et n’ai rien pu entendre.</seg>
+            </p>
+          </sp>
+          <sp who="#est">
+            <speaker>ESTRELLA.</speaker>
+            <p>appelant. Astrea!</p>
+          </sp>
+          <stage>Rosaura se montre.</stage>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Madame!</p>
+          </sp>
+          <sp who="#est">
+            <speaker>ESTRELLA.</speaker>
+            <p>Je me réjouis que ce soit vous qui vous soyez présentée; j’ai à vous confier un secret.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>C’est trop d’honneur, madame, pour celle qui vous obéit.</p>
+          </sp>
+          <sp who="#est">
+            <speaker>ESTRELLA.</speaker>
+            <p>Depuis le peu de temps que je vous connais, Astrea, je me suis attachée à vous on ne peut plus; aussi je veux vous confier une chose que je me suis bien souvent cachée à moi-même.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Je suis votre esclave.</p>
+          </sp>
+          <sp who="#est">
+            <speaker>ESTRELLA.</speaker>
+            <p>Pour vous dire cela en peu de mots, vous saurez que mon cousin Astolfe doit m’épouser, — si toutefois la fortune permet que ce bonheur me dédommage de tous mes chagrins. J’ai été affligée de lui voir porter au cou le portrait d’une dame; je le lui ai avoué avec douceur, il a été sensible à ma remarque, il m’aime, et sort à l’instant pour m’aller chercher ce portrait. Or, pour des raisons que vous devinez sans peine, il m’en coûterait de recevoir ce portrait de ses mains; demeurez ici à l’attendre, et quand il arrivera, priez-le de ma part qu’il vous le remette. Je ne vous en dis pas davantage; vous avez de l’esprit, vous êtes charmante, et vous devez savoir ce que c’est que l’amour.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Plût à Dieu qu’il n’en fût pas ainsi!... Que le ciel me soit en aide! Existe-t-il une personne assez sage, assez prudente, pour prendre un parti raisonnable dans une situation aussi difficile?... Est-il une personne au monde à qui le ciel inclément envoie autant d’ennuis et de chagrins?... Que faire au milieu de ce trouble, où je ne vois point la conduite que je dois tenir, et où je n’aperçois ni soulagement ni consolation?... Quand une fois on a éprouvé un malheur, tous les malheurs arrivent à la suite, et il semblerait qu’ils s’engendrent les uns des autres. Un sage disait que les malheurs étaient lâches, parce qu’un ne va jamais seul. Moi je dirais plutôt qu’ils sont braves, car ils vont toujours en avant, ne reculent jamais; et quand on marche avec eux, on n’a pas à craindre qu’ils vous laissent en chemin et vous abandonnent. Je le sais, moi qui, dans tous les événements de ma vie, les ai sans cesse trouvés à mes côtés, moi qui n’en ai jamais été délaissée, moi qu’ils accompagneront fidèlement, j’en suis assurée, jusqu’à la mort... Hélas! que faire en cette circonstance? Si je dis qui je suis, Clotaldo, qui a bien voulu m’accorder sa protection, peut s’en offenser; d’autant qu’il m’a dit qu’il attendait de mon silence la réparation de mon honneur... Si je ne dis pas à Astolfe qui je suis et qu’il me voie, il saura bientôt à quoi s’en tenir; car si ma voix, si mes regards essaient de le tromper, mon âme n’en sera pas capable, et, révoltée, elle accusera de mensonge mon regard et ma voix... Que faire? quel est mon but? Hélas! j’aurais beau me préparer, quand viendra l’occasion j’agirai selon l’instinct de ma douleur; car c’est la douleur qui gouverne un coeur malheureux. Laissons donc, laissons agir ma douleur suivant l’inspiration du moment. — Mais, ô ciel! puisque voici déjà l’occasion et le moment, protége-moi, soutiens-moi!</p>
+          </sp>
+          <stage>Elle sort.</stage>
+          <stage>Entre ASTOLFE; il tient à la main un portrait.</stage>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Voici, madame, le portrait... Mais, grand Dieu!</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>D’où vient l’étonnement de votre altesse?</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>De ce que je vous vois et de ce que je vous entends, Rosaura.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Moi, Rosaura!... votre altesse est dans l’erreur; elle me prend sûrement pour une autre. Mon nom est Astrea, et je ne mérite point de vous causer un pareil trouble.</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Ne cherchez pas davantage à me tromper; mes sentiments ne m’abusent point; et si je vous parle comme à Astrea, je vous aime comme Rosaura.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Je ne comprends point votre altesse, et, par conséquent, il m’est impossible de lui répondre. Je vous dirai seulement que la princesse Estrella m’a commandé de vous attendre en ce lieu, de vous demander de sa part ce portrait, et de le lui porter au plus tôt. C’est la princesse qui l’ordonne, et je dois lui obéir.</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Non, Rosaura, malgré tous vos efforts, vous ne pourrez pas m’abuser. Vous même vous ne savez pas dissimuler, et vous devriez au moins mettre vos regards d’accord avec vos paroles; car comme vos yeux démentent ce que vous dites, il est impossible de vous croire.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Je n’ai qu’un seul mot à vous dire, prince: c’est que j’attends le portrait.</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Puisque vous voulez continuer cette fiction, je vous répondrai en conséquence. Vous direz à l’infante, Astrea, que j’ai trop d’estime et de respect pour elle pour lui envoyer un simple portrait, et que je trouve plus gracieux et plus convenable de lui envoyer l’original. Vous n’avez donc qu’à vous présenter devant elle, et elle verra ce qu’elle veut voir.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Quand on désire vivement une chose, on ne consent jamais volontiers à en accepter à la place une autre qui, même, aurait plus de valeur. J’attendais de vous un portrait, et l’original a beau valoir davantage, je n’en veux pas. Que votre altesse me donne donc ce portrait, car je ne puis m’en aller sans cela.</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Je ne vous le donnerai pas.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Alors je le prendrai.</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Vous ne réussirez pas.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Vive Dieu! il ne tombera pas aux mains d’une autre femme.</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Vous êtes bien impérieuse.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Et vous, bien perfide.</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Assez, ma Rosaura.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Je ne suis point à vous! vous mentez!</p>
+          </sp>
+          <stage>Ils luttent en se disputant le portrait.</stage>
+          <stage>Entre ESTRELLA.</stage>
+          <sp who="#est">
+            <speaker>ESTRELLA.</speaker>
+            <p>Astrea? Astolfe? qu’est ceci?</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>
+              <seg type="aside">Ciel! la princesse!</seg>
+            </p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>
+              <seg type="aside">O amour! inspire-moi pour que je puisse avoir ce portrait.</seg>
+            </p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE</speaker>
+            <p>
+              <seg type="aside">Que prétendez-vous?</seg>
+            </p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Vous m’aviez ordonné d’attendre ici le prince Astolfe et de lui demander de votre part un portrait. Demeurée seule, et préoccupée de l’ordre que vous m’aviez donné, je me suis rappelé que j’avais par hasard sur moi un portrait. J’ai voulu le voir, pour me distraire un moment par cet enfantillage; il m’est échappé de la main, il est tombé par terre. Le prince qui est entré en ce moment l’a relevé; et comme sans doute il vous apportait l’autre d’assez mauvaise grâce et à contre-coeur, il aurait voulu vous donner celui-ci à la place; mais comme c’est le mien, après avoir vainement employé la prière, je cherchais dans mon dépit à le lui arracher. Vous n’avez qu’a demander au prince ce portrait, vous verrez que c’est le mien.</p>
+          </sp>
+          <sp who="#est">
+            <speaker>ESTRELLA.</speaker>
+            <p>Astolfe, laissez-moi voir ce portrait.</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Madame...</p>
+          </sp>
+          <sp who="#est">
+            <speaker>ESTRELLA.</speaker>
+            <p>En vérité, il est ressemblant.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>N’est-ce pas le mien?</p>
+          </sp>
+          <sp who="#est">
+            <speaker>ESTRELLA.</speaker>
+            <p>Qui en doute?</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Maintenant demandez-lui l’autre.</p>
+          </sp>
+          <sp who="#est">
+            <speaker>ESTRELLA.</speaker>
+            <p>Prenez le vôtre, et allez-vous-en.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>
+              <seg type="aside">Maintenant j’ai mon portrait, advienne que pourra!</seg>
+            </p>
+          </sp>
+          <stage>Elle sort.</stage>
+          <sp who="#est">
+            <speaker>ESTRELLA.</speaker>
+            <p>A cette heure donnez-moi l’autre portrait que je vous ai demandé. Car, bien que je ne compte plus vous revoir ni vous parler jamais, je ne veux pas qu’il reste en votre pouvoir, par cela seul que j’ai eu la sottisc de vous le demander.</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>
+              <seg type="aside">Comment sortir de cette situation embarrassante?</seg>
+            </p>
+          </sp>
+          <sp who="#est">
+            <speaker>ESTRELLA.</speaker>
+            <p>Vous êtes un amant bien mal appris et bien grossier. Eh bien! je n’en veux plus, de ce portrait; car je ne veux plus me souvenir que j’ai pu vous le demander.</p>
+          </sp>
+          <stage>Elle sort.</stage>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Écoutez! arrêtez!... Que Dieu me soit en aide, Rosaura!... Comment donc suis-je venu en Pologne pour me perdre et te perdre en même temps!</p>
+          </sp>
+          <stage>Il sort.</stage>
+        </div2>
+        <div2 type="scene" n="2">
+          <head>SCÈNE II.</head>
+          <stage>Même décoration qu’à la première scène de la première journée.</stage>
+          <stage>On voit de nouveau SIGISMOND enchaîné et couvert de peaux de bête; il dort couché à terre. Entrent CLOTALDO, CLAIRON et DEUX VALETS.</stage>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>C’est bien, laissez-le où il est. Son orgueil est revenu finir au lieu même où il s’est développé.</p>
+          </sp>
+          <sp who="#cri1">
+            <speaker>UN VALET.</speaker>
+            <p>Je vais attacher la chaîne comme elle était.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>O Sigismond! ne vous réveillez pas, pour voir votre sort si différent et votre fortune évanouie; pour voir que votre feinte gloire n’était qu’une ombre de la vie, et qu’une lueur de la mort.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>
+              <seg type="aside">Tenez, saisissez- vous de celui-là, et enfermez-le dans la tour.</seg>
+            </p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Moi, monseigneur? Pourquoi?</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Parce qu’il faut enfermer soigneusement un Clairon qui sait des secrets de cette importance et qui pourrait faire du bruit.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Est-ce que j’ai par hasard, moi, voulu donner la mort à mon père?... Est-ce que j’ai jeté d’un balcon, moi, un pauvre Icare sans défense? Est-ce que, moi, je rêve et dors?... Pourquoi donc m’enfermer?</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>C’est que vous êtes Clairon.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>En ce cas, je ne veux plus être désormais que le plus ignoble des instruments à vent; je ne suis plus qu’un cornet à bouquin, et je promets de me taire.</p>
+          </sp>
+          <stage>Les valets emportent Clairon, et Clotaldo reste seul.</stage>
+          <stage>Entre LE ROI, enveloppé dans son manteau.</stage>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Clotaldo?</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Quoi! sire, c’est ainsi que vient votre majesté?</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Une folle curiosité de voir comment se comporte Sigismond m’a, hélas! conduit jusqu’ici.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Vous le voyez de nouveau réduit à son premier et misérable état.</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Ah! prince malheureux et né dans un fatal moment! (A Clotaldo.) Approchez pour l’éveiller, maintenant que l’opium qu’il a pris a perdu sa force.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Sire, il est tout agité et il parle.</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Il rêve sans doute... A quoi peut-il rêver? Écoutons.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>rêvant. Le meilleur prince est celui qui punit les méchants. Que Clotaldo meure de ma main, et que mon père me baise les pieds!</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Il me menace de me tuer.</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Il voudrait m’infliger un traitement ignominieux.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Il pense à m’ôter la vie.</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Il se propose de me fouler aux pieds.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>rêvant. Que mi valeur sans égale se déploie enfin sur le vaste théâtre du monde, et que l’on voie le prince Sigismond se venger et triompher de son père. (Il s’éveille.) Mais, hélas! où suis-je?</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>
+              <seg type="aside">Il ne faut pas qu’il me voie.</seg>
+            </p>
+            <p>
+              <seg type="aside">Vous savez ce que vous avez à faire; je m’éloigne et vous écoute.</seg>
+            </p>
+          </sp>
+          <stage>Il s’éloigne.</stage>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Est-ce moi? est-ce bien moi? Me voilà donc prisonnier et enchaîné? Cette tour sera donc mon tombeau?... Sans doute. — Dieu me soit en aide! Que de choses j’ai rêvées!</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>
+              <seg type="aside">Il me faut lui parler et lui ôter tout soupçon...</seg>
+            </p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Oui, c’est l’heure et le moment.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Vous dormirez donc toute la journée!... Depuis que nous avons suivi lentement des yeux l’aigle qui fendait le ciel d’un vol rapide, vous n’avez donc pas changé de place? et vous ne vous êtes pas éveillé?</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Non, Clotaldo; et même en ce moment il me semble que je sommeille. Et je n’en suis pas étonné; car si je rêvais lorsque je voyais des corps réels et palpables, ce que je vois maintenant doit être faux et incertain; et si je voyais en dormant, il est tout simple qu’éveillé je rêve.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Dites-moi donc ce que vous avez rêvé.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>En supposant que tout cela n’ait été qu’un rêve, voici, Clotaldo, ce que j’ai vu dans mon rêve. Je me suis éveillé, et, par une illusion cruelle, je me suis vu dans un lit brodé de fleurs si brillantes et si fraîches qu’on les eût dites tissées par le printemps. Là, une foule de nobles prosternés devant moi m’appelaient leur prince, et me présentaient les vêtements les plus somptueux et les plus riches. Et vous, vous avez changé en allégresse le calme de mon âme en m’apprenant mon bonheur: je n’étais pas un prisonnier comme à présent, j’étais prince de Pologne.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Et m’avez-vous bien récompensé pour la nouvelle?</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>C’était une singulière récompense! Vous me paraissiez un traître, et par deux fois, furieux contre vous, j’ai voulu vous donner la mort.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Quoi! vous me traitiez avec tant de rigueur?</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>De tous j’étais le maître, et je me vengeais de tous. Seulement j’aimais une femme, et, pour ceci, ce n’était pas un songe; car si tout le reste a disparu, ce sentiment est encore dans mon coeur.</p>
+          </sp>
+          <stage>Le roi sort.</stage>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>
+              <seg type="aside">Le roi a été ému de l’entendre.</seg>
+            </p>
+          </sp>
+          <stage>Il sort.</stage>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Il dit vrai. — Réprimons donc ce naturel farouche, ces emportements, cette ambition, pour le cas où je viendrais encore à rêver. Il le faut et je le ferai; puisque je suis dans un monde si étrange que vivre c’est rêver, et que je sais par expérience que l’homme qui vit rêve ce qu’il est, jusqu’au réveil. — Le roi rêve qu’il est roi, et il vit dans cette illusion, commandant, disposant et gouvernant; et ces louanges menteuses qu’il reçoit, la mort les trace sur le sable et d’un souffle les emporte. Qui donc peut désirer de régner, en voyant qu’il lui faudra se réveiller dans la mort?... Il rêve, le riche, en sa richesse qui lui donne tant de soucis; — il rêve, le pauvre, sa pauvreté, ses misères, ses souffrances; — il rêve, celui qui s’agrandit et prospère; — il rêve, celui qui s’inquiète et sollicite; — il rêve, celui qui offense et outrage; — et dans le monde, enfin, bien que personne ne s’en rende compte, tous rêvent ce qu’ils sont. Moi-même, je rêve que je suis ici chargé de fers, comme je rêvais naguère que je me voyais libre et puissant. Qu’est-ce que la vie? Une illusion. Qu’est-ce que la vie? Une ombre, une fiction. Et c’est pourquoi le plus grand bien est peu de chose, puisque la vie n’est qu’un rêve et que les rêves ne sont que des rêves.</p>
+          </sp>
+        </div2>
+      </div1>
+      <div1 type="act" n="3">
+        <head>Journée III</head>
+        <div2 type="scene" n="1">
+          <head>SCÈNE I.</head>
+          <stage>Une prison.</stage>
+          <stage>Entre CLAIRON.</stage>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>On m’a renfermé, pour ce que je sais, dans une tour enchantée. Que me fera-t-on pour ce que j’ignore, si pour ce que je sais l’on me tue?... Se peut-il qu’un homme plein de vie, et qui mangerait si volontiers, en soit réduit à mourir de faim!... C’est au point que j’ai pitié de moi... Chacun dira: «je le crois bien,» et en effet cela est facile à croire; car pour moi ce silence est en désaccord avec mon nom — de Clairon, et je ne puis me taire... Ma seule compagnie en ce lieu, — je frémis de le dire, — ce sont les araignées et les rats: ne voilà-t-il pas de jolis moineaux!... Par suite de mes rêves de cette nuit, j’ai ma pauvre tête pleine de visions fantastiques, de trompettes, de ruses, de processions, de croix, de flagellants; et de ceux-ci les uns montent, les autres descendent, et plusieurs se trouvent mal en voyant leurs compagnons couverts de sang... Pour moi, à vrai dire, si je me trouve mal, c’est de ne pas manger; et de plus, il est assez dur de se voir en une prison où l’on n’a, le jour, pour tout régal que le philosophe Nicomède, et, la nuit, que le concile de Nicée... Si le silence est saint, j’aurai du moins pour moi, dans le nouveau calendrier, saint Secret, puisque je jeûne à son intention; et, cependant, il faut avouer que j’ai bien mérité mon châtiment, puisque j’ai gardé le silence étant valet, ce qui est un horrible sacrilège.</p>
+          </sp>
+          <stage>Bruit de tambours et de clairons, et cris au dehors.</stage>
+          <sp who="#sol1">
+            <speaker>UN SOLDAT.</speaker>
+            <p>du dehors. Voici la tour où il est enfermé. Enfoncez la porte et entrez.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Vive Dieu! c’est moi que l’on cherche, car on dit que je suis enfermé ici. Qu’est-ce donc qu’on me veut?</p>
+          </sp>
+          <sp who="#sol1">
+            <speaker>UN SOLDAT.</speaker>
+            <p>du dehors. Entrez! entrez!</p>
+          </sp>
+          <stage>Entrent un grand nombre de soldats.</stage>
+          <sp who="#sol2">
+            <speaker>UN AUTRE SOLDAT.</speaker>
+            <p>Il est ici.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Il n’y est pas.</p>
+          </sp>
+          <sp who="#sol1 #sol2 #otrsol">
+            <speaker>TOUS.</speaker>
+            <p>Seigneur?</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Ils sont ivres, je crois.</p>
+          </sp>
+          <sp who="#sol1">
+            <speaker>PREMIER SOLDAT.</speaker>
+            <p>
+              Vous êtes notre prince. Nous ne voulons pas de prince étranger; nous nevoulons obéir qu’à notre seigneur légitime. Permettez-nous de baiser vos pieds. 
+              <emph>&quot;Vous êtes notre prince. Nous ne voulons pas de prince étranger; nous nevoulons obéir qu’à notre seigneur légitime. Permettez-nous de baiser vos pieds.&quot;</emph>
+               En el resto de versiones de la obra esta intervención pertenece al Soldado 2º
+            </p>
+          </sp>
+          <sp who="#sol1 #sol2 #otrsol">
+            <speaker>TOUS.</speaker>
+            <p>Vive notre grand prince!</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Vive Dieu! c’est pour de bon... Ne serait-ce pas la coutume en ce pays de prendre chaque jour un homme, de l’élire prince, et puis de l’emprisonner?... Il faut bien que cela soit, car je ne vois pas autre chose. Eh bien! je vais jouer mon rôle.</p>
+          </sp>
+          <sp who="#sol1 #sol2 #otrsol">
+            <speaker>TOUS.</speaker>
+            <p>Donnez-nous vos pieds.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Cela m’est impossible; car j’en ai besoin pour mon usage personnel, et il ne serait pas convenable de voir un prince sans pieds.</p>
+          </sp>
+          <sp who="#sol2">
+            <speaker>DEUXIÈME SOLDAT.</speaker>
+            <p>Tous nous l’avons dit à votre père lui-même: nous ne reconnaissons que vous seul pour notre prince, et nous ne voulons pas de celui de Moscovie.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Vous avez donc manqué de respect à mon père ? Je vous reconnais là.</p>
+          </sp>
+          <sp who="#sol1">
+            <speaker>PREMIER SOLDAT.</speaker>
+            <p>Ç’a été loyauté de notre part.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Oui, vous êtes de braves gens, et je vous pardonne.</p>
+          </sp>
+          <sp who="#sol2">
+            <speaker>DEUXIÈME SOLDAT.</speaker>
+            <p>Venez rétablir votre pouvoir. Vive Sigismond!</p>
+          </sp>
+          <sp who="#sol1 #sol2 #otrsol">
+            <speaker>TOUS.</speaker>
+            <p>Vive! vive Sigismond!</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>
+              <seg type="aside">Ils m’ appellent Sigismond? Ce n’est pas mauvais. Ou appelle ainsi tous les princes de contrebande.</seg>
+            </p>
+          </sp>
+          <stage>Entre SIGISMOND.</stage>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Qui donc a prononcé le nom de Sigismond?</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>
+              <seg type="aside">Seulement il est triste d’être un prince affamé!</seg>
+            </p>
+          </sp>
+          <sp who="#sol1">
+            <speaker>PREMIER SOLDAT.</speaker>
+            <p>Qui est Sigismond?</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>C’est moi.</p>
+          </sp>
+          <sp who="#sol2">
+            <speaker>DEUXIÈME SOLDAT.</speaker>
+            <p>
+              <seg type="aside">Comment donc, misérable imposteur, te faisais-tu passer pour Sigismond?</seg>
+            </p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Je le nie! Ce n’est pas moi qui me suis dit Sigismond, c’est vous qui m’avez ensigismondé; et par conséquent la faute en est à vous, non à moi.</p>
+          </sp>
+          <sp who="#sol1">
+            <speaker>PREMIER SOLDAT.</speaker>
+            <p>Noble prince Sigismond, la bannière que vous voyez est la vôtre, et nous venons vous acclamer comme notre seigneur légitime. Votre père le grand roi Basilio, craignant que le ciel n’accomplisse une prédiction qui le menace de se voir vaincu et humilié par vous, prétend vous ôter le droit de lui succéder et le transmettre au prince Astolfe, duc de Moscovie. Il a dans ce but assemblé ses états. Mais le peuple, qui sait fort bien qu’il a un roi légitime, ne veut pas qu’un étranger le gouverne; et c’est pourquoi, dédaignant noblement un horoscope funeste, il est venu vous chercher dans cette prison, vous délivrer, et vous offrir son aide pour que vous repreniez à un tyran votre couronne et votre sceptre. Venez donc: une armée nombreuse de bannis et de plébéiens assemblée dans ce désert vous attend et vous appelle. N’entendez-vous pas leurs cris et leurs acclamations?</p>
+          </sp>
+          <sp who="#sol1 #sol2 #otrsol">
+            <speaker>SOLDATS</speaker>
+            <p>
+              du dehors. Vive, vive Sigismond! 
+              <emph>&quot;Vive, vive Sigismond!&quot;</emph>
+               en el resto de versiones esta intervención pertenece realmente a la “gente leal a Segismundo”, pues son los que esperan fuera (”du dehors”) mientras que los soldados, que son los que lo dicen en esta edición francesa, están en escena
+            </p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Qu’est-ce donc, grand Dieu!... Vous voulez qu’une fois encore je rêve des grandeurs qui s’évanouiront le lendemain! Vous voulez qu’une fois encore mes yeux aperçoivent je ne sais quelle vaine apparence de majesté et de pompe qui va disparaître au moindre souffle! Vous voulez qu’une fois encore je m’expose à un pareil désenchantement, et que je coure ces dangers inséparables du pouvoir! non, cela ne peut pas être, cela ne sera pas... Regardez-moi désormais comme un homme soumis à sa fortune; et puisque je sais maintenant que la vie n’est qu’un rêve, disparaissez, vains fantômes, qui, pour m’abuser, avez pris une voix et un corps, et qui n’avez en réalité ni corps ni voix! Je ne veux point d’une majesté fantastique, je ne veux point d’une pompe menteuse, je ne veux point de ces illusions qui tombent au premier souffle, — semblables à la fleur délicate de l’amandier, que le plus léger souffle emporte au loin, et qui laisse alors tristement dépouillées ces branches dont ses couleurs charmantes faisaient le gracieux ornement. — Je vous connais à présent, je vous connais, et je sais que vous abusez de même tout homme qui vient à s’endormir. Vos mensonges ne peuvent plus m’égarer, et je me tiens sur mes gardes, — sachant bien que la vie n’est qu’un songe.</p>
+          </sp>
+          <sp who="#sol2">
+            <speaker>DEUXIÈME SOLDAT.</speaker>
+            <p>Si vous croyez que nous voulons vous tromper, tournez les yeux vers ces hautes montagnes, et voyez-les couvertes d’un peuple qui vous attend, prêt à vous obéir.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Déjà, l’autre fois, j’ai vu cela aussi distinctement que je le vois à cette heure, et cependant ce n’était qu’un songe.</p>
+          </sp>
+          <sp who="#sol2">
+            <speaker>DEUXIÈME SOLDAT.</speaker>
+            <p>Toujours, noble seigneur, les grands événements sont annoncés à l’avance, et c’est pour cela sans doute que vous avez rêvé ce que vous voyez en ce moment.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>
+              <seg type="aside">Maisquoi ! si je m’éveille auparavant, pourquoi parler d’une chose qui ne sera point réalisée ?</seg>
+            </p>
+          </sp>
+          <sp who="#sol1 #sol2 #otrsol">
+            <speaker>TOUS.</speaker>
+            <p>Vive, vive Sigismond!</p>
+          </sp>
+          <stage>Entre CLOTALDO.</stage>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>D’où vient tout ce bruit?</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Clotaldo!</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>
+              <seg type="aside">Je redoute sa colère.</seg>
+            </p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>
+              <seg type="aside">Je parie qu’il va le jeter du haut en bas de la montagne.</seg>
+            </p>
+          </sp>
+          <stage>Il sort.</stage>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Je me prosterne devant vous, monseigneur, résigné à mourir.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Levez-vous ! — levez-vous, ô mon père ! Veuillez être mon guide, mon confident, mon conseil, vous qui, depuis ma naissance, m’avez élevé si fidèlement ! Embrassez-moi.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Que dites-vous?</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Que je rêve et que je veux faire le bien, car on ne perd jamais le prix du bien que l’on a fait, même en rêve.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Puisque vous vous êtes promis de bien faire, seigneur, je ne vous offenserai certainement pas en vous montrant que c’est là aussi mon intention... Vous voulez déclarer la guerre à votre père? Je ne puis vous conseiller ni vous seconder contre mon roi. Me voilà à vos pieds, tuez-moi!</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>
+              <seg type="aside">Mais non, ô ciel! calmons- nous; car je ne sais pas encore si je suis éveillé ou si je rêve. Vous, sonnez l’alarme.</seg>
+            </p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Je vous baise les pieds mille fois.</p>
+          </sp>
+          <stage>Il sort.</stage>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Allons, Fortune, marchons vers le trône; et si je dors, ne me réveille pas, et si je veille, ne me replonge pas dans le sommeil — Mais que tout cela soit une vérité ou un rêve, l’essentiel est de se bien conduire: si c’est la vérité, à cause de cela même; et si c’est un rêve, afin de se faire des amis pour le moment du réveil.</p>
+          </sp>
+          <stage>Tous sortent au bruit du tambour.</stage>
+        </div2>
+        <div2 type="scene" n="2">
+          <head>SCÈNE II.</head>
+          <stage>La cour du palais.</stage>
+          <stage>Entrent LE ROI BASILIO et ASTOLFE.</stage>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Peut-on, Astolfe, arrêter un cheval emporté? Peut-on retenir un fleuve qui coule avec rapidité vers la mer? Peut-on maintenir un rocher qui va rouler du haut d’une montagne?... Eh bien! tout cela serait plus facile que d’apaiser le vulgaire une fois sorti de la modération et du devoir. Rien ne le prouve mieux que ce peuple partagé en deux partis contraires, et qui fait retentir les échos des montagnes des noms répétés d’Astolfe et de Sigismond. Ces lieux affreux, rendus plus affreux encore par la présence de ce peuple en fureur, seront le théâtre de quelque sanglante tragédie dont nous menace la fortune.</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Seigneur, que toute fête soit remise à un autre jour; renvoyons à un moment plus favorable le bonheur que vous m’aviez promis. Si la Pologne, que j’espère plus tard gouverner, se refuse à mon autorité, c’est sans doute afin que je commence par mériter cet honneur. Donnez- moi un cheval, et je descends parmi les insurgés, aussi prompt que l’éclair qui précède le tonnerre.</p>
+          </sp>
+          <stage>Il sort.</stage>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Il n’y a aucun moyen d’empêcher ce que veulent les destins, et ce qu’ils ont annoncé doit s’accomplir. Il est impossible d’éviter ce qui doit être, et vouloir s’opposer à son malheur ne sert qu’à le hâter. Quelle affreuse loi! quel sort funeste! quelle déplorable disgrâce que de tomber dans le péril en voulant le fuir! Et moi, hélas! avec mes précautions, je me suis perdu et j’ai causé la ruine de mon pays!</p>
+          </sp>
+          <stage>Entre ESTRELLA.</stage>
+          <sp who="#est">
+            <speaker>ESTRELLA.</speaker>
+            <p>Si par votre présence, noble seigneur, vous n’essayez d’arrêter le tumulte que causent dans la ville les deux partis qui la divisent, vous verrez bientôt tout votre royaume à feu et à sang. Déjà les maux qu’ils ont causés sont immenses, et l’on ne voit et n’entend partout que lamentables malheurs et tragédies horribles. Encore quelque temps, et tous les plus beaux monuments de ce royaume désolé ne pourront plus servir à un peuple détruit, que de tombeaux.</p>
+          </sp>
+          <stage>Entre CLOTALDO.</stage>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Grâce a Dieu! j’arrive vivant à vos pieds.</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>C’est vous, Clotaldo! Qu’est devenu Sigismond?</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Un peuple déchaîné et furieux a pénétré dans la tour et en a fait sortir le prince, qui, se voyant libre, a annoncé fièrement que la prédiction des astres allait s’accomplir.</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Qu’on me donne un cheval! Je veux en personne réduire un fils ingrat; je veux, en personne, défendre mon trône, et mon épée va réparer l’erreur de ma science.</p>
+          </sp>
+          <stage>Il sort.</stage>
+          <sp who="#est">
+            <speaker>ESTRELLA.</speaker>
+            <p>Eh bien! moi aussi, je marche au combat à vos côtés; je prétends illustrer mon nom dans les batailles et rivaliser avec la déesse Pallas.</p>
+          </sp>
+          <stage>Elle sort, et l’on sonne l’alarme.</stage>
+          <stage>Clotaldo va pour sortir, mais entre ROSAURA, qui le retient.</stage>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Bien que votre valeur murmure de ce retardement, écoutez-moi. — Vous savez que je suis venue pauvre et abandonnée en Pologne, et que j’ai trouvé auprès de vous protection et pitié. Vous m’avez commandé de vivre dans le palais sous ces vêtements, qui ne sont pas les miens, de ne pas laisser voir ma jalousie, et de me cacher du prince Astolfe. Il m’a vue, à la fin, et cependant, épris de la princesse, il doit, cette nuit, lui parler dans le jardin. Je m’en suis procuré la clef, vous pourrez y pénétrer; et si votre courage vous le permet, il vous sera facile de venger mon honneur par la mort du perfide.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Il n’est que trop vrai, Rosaura; dès que je vous ai vue, je ne sais quel instinct m’a porté à faire pour vous tout ce qui était en mon pouvoir. Mon premier soin a été de vous engager à changer d’habits, afin qu’il fût moins facile au prince Astolfe de vous reconnaître. En même temps, je pensais aux moyens de rétablir votre honneur; et cet honneur m’est si cher, que je ne craignais pas de penser à la mort du prince. Mais voyez le jeu du sort! Tandis que je méditais sa mort, Sigismond a voulu me tuer moi-même; sur quoi le prince est accouru, et sans s’occuper de son propre péril, il a pris ma défense avec une rare générosité. Dites-moi donc, comment pourrais- je à présent donner la mort à qui je dois la vie? Comment me conduire, partagé entre vous deux? Lequel des deux dois-je seconder? A l’un j’ai donné la vie; je l’ai reçue de l’autre. Si je suis engagé par ce que j’ai donné, je ne le suis pas moins par ce que j’ai reçu. Et c’est pourquoi, en de telles circonstances, mon affection ne sait à quel parti s’arrêter, et je me sens neutralisé par deux forces contraires.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Pour un homme tel que vous, je n’ai pas besoin de vous le dire, autant il est noble de donner, autant il est indigne de recevoir. Ce principe posé, c’est à moi que vous devez de la reconnaissance, et non au prince Astolfe; car à moi vous avez donné, et de lui vous avez reçu; et tandis que moi, je vous ai fourni l’occasion de vous conduire noblement, lui, il est cause que vous avez commis un acte indigne de vous. Donc, puisque vous m’avez donné à moi ce que vous avez reçu de lui, vous avez à vous plaindre de lui et vous êtes mon obligé, et c’est pourquoi, dans cette situation, vous me devez votre reconnaissance et vous devez défendre mon honneur.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Il est noble de donner, mais la reconnaissance est le devoir de celui qui reçoit. Or, si, en donnant, je me suis montré généreux, je dois me montrer reconnaissant de ce que j’ai reçu. Laissez-moi donc mériter tout à la fois la réputation d’homme généreux et celle d’homme reconnaissant.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>De vous j’ai reçu la vie, et en me la donnant, vous m’avez dit vous-même qu’une vie déshonorée n’était point la vie. Donc, vous ne m’avez rien donné, puisque ce que vous m’avez donné n’était point la vie; et si, comme vous en êtes convenu tout à l’heure, la générosité passe avant la reconnaissance, commencez par vous montrer généreux; vous serez ensuite reconnaissant.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Eh bien ! je serai généreux avant tout. Je vous donne toute ma fortune, Rosaura; retirez-vous dans un couvent. Par ce moyen, qui me semble heureusement trouvé, nous évitons un crime, et vous avez un asile sûr et paisible. Lorsque le royaume est déjà si divisé, et si malheureux par ses divisions, un homme noble ne doit pas les augmenter; et en vous proposant ce parti, en même temps que je demeure fidèle à mon roi, je me montre généreux envers vous et reconnaissant envers le prince. Décidez-vous donc, je vous prie, à l’accepter; car je ne ferais pas plus pour vous, vive Dieu ! alors même que je serais votre père.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Quand bien même vous seriez mon père, j’aurais peine à souffrir cette injure; et puisque vous n’êtes pas mon père, je ne la souffrirai pas.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Que comptez-vous donc faire?</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Tuer le duc.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Eh quoi! une femme qui ne connaît point son père aurait tant de courage?</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Certainement.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Qui peut vous l’inspirer?</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Le soin de ma réputation.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Songez donc que bientôt...</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Mon honneur brave tout.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Le prince Astolphe sera votre roi et le mari d’Estrella.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Vive Dieu! cela ne sera pas.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Vous ne pourrez pas l’empêcher.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Peut-être!</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Renoncez à ces projets.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Jamais!</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Vous succomberez.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Cela est possible.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Et vous risquez de vous y perdre.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Je le crois comme vous.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Que cherchez-vous donc?</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Ma mort.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>C’est dépit.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>C’est honneur.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>C’est folie.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>C’est valeur.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>C’est colère.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>C’est fureur.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Comment! votre passion ne peut rien entendre?</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Non.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Qui vous secondera?</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Moi.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Rien ne peut vous détourner?</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Rien.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Voyons donc s’il n’y aurait pas d’autre moyen...</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>C’est le seul moyen de me perdre.</p>
+          </sp>
+          <stage>Elle sort.</stage>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Eh bien ! si tu veux absolument ta perte, — attends-moi, ma fille; nous nous perdrons ensemble.</p>
+          </sp>
+          <stage>Il sort.</stage>
+        </div2>
+        <div2 type="scene" n="3">
+          <head>SCÈNE III.</head>
+          <stage>Un lieu retiré dans la campagne.</stage>
+          <stage>On bat le tambour, des Soldats défilent dans le lointain. Entrent SIGISMOND, couvert de peaux de bête, et CLAIRON.</stage>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Si Rome triomphante, comme à son premier âge, me voyait en ce jour, comme elle saisirait avec joie l’occasion de mettre à la tête de ses armées une bête sauvage dont le courage irrésistible aurait bientôt conquis le monde!... Mais ne laissons pas s’élever si haut nos pensées orgueilleuses, et ne désirons pas tant la gloire humaine, si nous devons regretter de l’avoir obtenue quand elle se sera évanouie. Moins cette gloire sera grande, moins nous la regretterons, quand nous l’aurons perdue.</p>
+          </sp>
+          <stage>On entend le bruit du clairon.</stage>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Sur un cheval rapide et fougueux, qui, à lui seul, représente les quatre éléments, — car son corps, c’est la terre; son âme, c’est le feu; son écume, c’est l’eau, et son souffle, c’est l’air; — donc, sur ce monstre composé, qui a la forme d’un cheval, et qui vole plutôt qu’il ne court, arrive vers nous une femme guerrière.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Elle a un éclat qui m’éblouit.</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Vive Dieu! c’est Rosaura.</p>
+          </sp>
+          <stage>Il sort.</stage>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>C’est le ciel qui me l’envoie.</p>
+          </sp>
+          <stage>Entre ROSAURA, portant une épée et une dague.</stage>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Généreux Sigismond, de qui la majesté héroïque sort enfin des ténèbres où elle était ensevelie, et qui, semblable à cet astre dont les rayons brillants éclairent au loin les monts et les mers, vous levez enfin sur la Pologne, dont vous êtes le bienfaisant soleil; je viens vous prier d’accorder votre protection à une femme malheureuse, qui, par cela même, a, pour l’obtenir, deux titres, dont un seul suffit pour lui mériter l’assistance de tout homme de coeur. Voilà trois fois que je me présente à vos yeux, et cependant vous ne pouvez pas savoir qui je suis, car chaque fois, je me suis présentée à vous sous un costume différent. La première, vous avez pu penser que j’étais un homme, dans la prison où vous étiez enfermé, et où j’oubliai mes chagrins en voyant votre malheur; la seconde, vous m’avez parlé comme à une femme, à cette époque où votre grandeur ne fut qu’une ombre et passa comme un rêve; enfin, vous me voyez aujourd’hui, pour la troisième fois, dans un équipage qui participe de celui des deux sexes, car je porte les habits d’une femme et les armes d’un homme... Et pour que votre pitié m’accorde une protection plus complète et plus efficace, veuillez entendre, je vous prie, le récit de mes tragiques infortunes. — Je suis née, à la cour de Moscovie, d’une mère noble, qui devait être fort belle, car elle fut bien malheureuse. Elle attira l’attention d’un perfide que je ne nomme point, parce qu’il m’est inconnu. Ma mère, persuadée par ses propos galants, et croyant à la parole qu’il lui donnait de l’épouser, eut la faiblesse de céder, faiblesse qu’elle pleure encore aujourd’hui, car il ne tarda pas à l’abandonner, en lui laissant son épée que je porte à mon côté, et qui ne tardera pas à sortir du fourreau... O mariage!... ô mystère profond, impénétrable!... Je naquis, et je fus la vivante image de ma mère, non pas sans doute pour la beauté, mais pour l’infortune et le malheur. Il est inutile, après cela, que je vous raconte avec détail ma disgrâce. Tout ce que je puis vous dire, c’est que celui qui m’a enlevé l’honneur et qui en triomphe aujourd’hui avec orgueil, c’est le prince Astolfe... Hélas! en prononçant ce nom, je sens mon coeur se soulever de colère et d’indignation... Oui, c’est lui qui, oubliant et ma confiance et les joies qu’il avait trouvées près de moi (car lorsqu’on n’aime plus, on perd jusqu’à la mémoire de l’amour), c’est lui qui m’a délaissée, pour venir en Pologne, où il prétend à l’empire et à la main d’Estrella... Trompée, offensée, jouée ainsi par un homme, je demeurai triste, désolée, morte et livrée, pour ainsi dire, à toute la confusion de l’enfer. Je ne parlais à personne de ce qui m’était arrivé; mais mon silence parla plus haut que je n’aurais voulu; et ce fut au point qu’un jour ma mère, me prenant à l’écart, crut devoir me parler seule à seule. Je ne vous dirai point que je lui confiai mon aventure: non, mon secret sortit de mon coeur impétueusement et à la hâte, comme si je l’eusse délivré de la prison où je le renfermais. Je vous avouerai même que je n’eus pas trop de honte avec elle; je savais qu’elle avait passé par une semblable disgrâce, et cela m’encourageait à lui conter la mienne. Bref, ma mère m’écouta avec une indulgente bonté, et me consola par la confidence de ses propres chagrins; mais elle ne voulut pas qu’à son exemple, j’attendisse du temps la réparation à laquelle j’avais droit, pensant que, comme elle, je l’aurais attendue vainement; elle me conseilla de chercher par moi-même à rétablir mon honneur, en venant à la poursuite de celui qui m’avait abandonnée. Donc, après m’avoir fait revêtir des habits d’homme, lesquels lui semblaient mieux convenir à mon entreprise, elle dépendit de la muraille une vieille épée... (elle tire son épée) c’est cette épée dont je vous parlais tout à l’heure et qu’il est temps de sortir du fourreau... elle me la donna en me disant: «Rends-toi en Pologne, et fais en sorte que les seigneurs les plus nobles te voient cette épée; quelqu’un d’eux, en la voyant, t’accordera sa bienveillance et sa protection.» Je vins donc en Pologne; et je n’ai pas besoin de vous dire qu’à peine y fus-je arrivée, mon cheval, qui avait pris le mors aux dents, m’emporta jusque près de l’endroit où vous étiez enfermé et où vous fûtes si étonné de me voir. Mais ce que vous ne savez pas, c’est que Clotaldo, qui d’abord s’était passionné pour ma cause, qui avait demandé ma grâce au roi, et qui m’avait placée comme dame auprès d’Estrella pour qu’il me fût plus facile d’empêcher son mariage, — Clotaldo, persuadé maintenant qu’il importe au bien du royaume qu’Astolfe épouse la princesse, me conseille de renoncer à mes prétentions, ce qui est contre mon honneur. Pour moi, noble et vaillant Sigismond, joyeuse de ce qu’enfin sorti de cette horrible prison où s’écoulait tristement votre existence, vous avez pris les armes contre un père tyrannique et cruel, je viens vous offrir mon concours; je viens, nouvelle Pallas, offrir à un nouveau Mars mon bras et mon épée. Marchons donc, noble et vaillant héros, marchons sans retard; car il nous importe à tous deux d’empêcher ce mariage: à moi, pour que le prince n’épouse pas une autre femme; à vous, parce que la réunion de leurs royaumes et de leurs forces vous rendrait plus difficile la victoire... Femme, je viens vous prier de m’aider à recouvrer mon honneur; homme, je viens vous exciter à recouvrer votre couronne... femme, je viens attendrir un coeur qui ne peut pas être insensible à ma prière; homme, je viens vous servir de mon courage et de mes armes. Et c’est pourquoi, pensez-y bien, si vous veniez à m’inspirer de l’amour comme à une femme, pour défendre mon honneur, comme un homme, je vous donnerais la mort; car si, pour la faiblesse et la plainte, je suis une femme, je suis un homme pour venger mon honneur.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>
+              <seg type="aside">O ciel! si tout cela n’est qu’un rêve, donne-moi le pouvoir d’en conserver le souvenir, car j’aurais peine à me rappeler tout ce que j’ai entendu dans ce rêve!... Que Dieu me soit en aide! Comment sortir de toutes ces difficultés qui m’assiègent, ou comment en distraire ma pensée?... Quelle peine! quel doute! Si cette grandeur où je me suis vu un moment n’a été qu’un rêve, comment se fait-il que cette femme m’en donne des renseignements si précis? Ç’a donc été la vérité et non pas un rêve... Et si cela est la vérité, — autre embarras non moins grand, — comment donc ma vie l’appelle-t-elle un rêve? Est-ce donc à dire que la gloire de ce monde ressemble tant à un rêve, que la plus véritable n’est qu’un mensonge, et que la plus fausse a quelque chose de vrai? Y a-t-il de l’une à l’autre si peu de différence que l’on puisse se demander si ce que l’on voit est vérité ou mensonge? sont-elles si semblables que l’on puisse hésiter entre les deux? Eh bien! s’il en est ainsi, et si la grandeur, si le pouvoir et la majesté doivent s’évanouir comme des ombres, sachons mettre à profit le moment qui nous est donné, et jouissons de ce rêve... Rosaura est en mon pouvoir, mon âme adore sa beauté; profitons de l’occasion; que mon amour n’écoute que les désirs qui le transportent. Ceci est un rêve; eh bien! rêvons du bonheur, le malheur viendra assez tôt... Mais quoi! mes paroles mêmes m’entraînent dans des idées bien différentes!... Si tout cela n’est qu’un rêve, si tout cela n’est que vaine gloire, quel homme, pour la vaine gloire de ce monde, perdra ainsi follement une gloire divine? Est-ce que le bonheur passé n’est pas un rêve? est-ce qu’en se rappelant les plaisirs qu’on a goûtés, on ne finit pas toujours par se dire à soi-même: j’ai rêvé tout cela?... Eh bien! puisque voilà mes illusions tombées, et puisque je suis désormais convaincu que le désir n’est chez l’homme qu’une flamme brillante qui convertit en cendres tout ce qu’elle a touché, — poussière légère qui se dissipe au moindre vent, — ne pensons donc qu’à ce qui est éternel, et à cette gloire durable où le bonheur et la grandeur n’ont ni fin, ni repos, ni sommeil... Rosaura a souffert dans son honneur, il est de mon devoir de le lui rendre et non pas de le lui ôter; et, vive Dieu! je veux le recouvrer plutôt encore que ma couronne... Fuyons une occasion pour moi si dangereuse. Sonnez l’alarme. Il faut que je livre bataille avant que le soleil éteigne ses rayons de flammes dans les eaux de l’Océan.</seg>
+            </p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Eh quoi! seigneur, vous vous éloignez, et ma douleur n’a pas encore obtenu de vous une seule parole! Pourquoi ne laissez-vous pas tomber sur moi un seul regard? pourquoi détournez-vous le visage?</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Rosaura, le devoir m’ordonne de vous traiter ainsi, afin que je puisse plus tard vous montrer toute ma compassion. Ma voix ne vous répond pas pour que mon honneur vous réponde; je ne vous parle pas pour que mes actions vous parlent en ma place, et je ne vous regarde pas, parce qu’on est obligé de ne point s’occuper de votre beauté lorsqu’on veut s’occuper de votre honneur.</p>
+          </sp>
+          <stage>Il sort.</stage>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Que signifie cette énigme, ô ciel? N’avais-je pas assez de mes chagrins? et devait-il y ajouter avec ses paroles équivoques?</p>
+          </sp>
+          <stage>Entre CLAIRON.</stage>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Ah! madame, je vous retrouve enfin!</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Eh bien! d’où viens-tu, Clairon?</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>J’ai été enfermé dans une tour, où ma mort a été sur le tapis; on l’a jouée aux cartes, et j’ai été assez heureux pour avoir quinola. Je puis, grâce à cela, vous apprendre une nouvelle.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Laquelle?</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Je sais le secret de votre naissance; et, en effet, le seigneur Clotaldo... (On entend un bruit de tambours.) Mais quel est ce bruit?</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Qu’est-ce que cela peut être?</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Une armée sort de la ville pour combattre celle du fier Sigismond.</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Pourquoi ne suis-je pas à ses côtés? Ne serait-ce pas une indigne lâcheté? Marchons, et ne donnons pas au monde un scandale de plus!...</p>
+          </sp>
+          <stage>Elle sort.</stage>
+          <sp who="#genr">
+            <speaker>VOIX.</speaker>
+            <p>du dehors. Vive notre roi!</p>
+          </sp>
+          <sp who="#gens">
+            <speaker>D’AUTRES VOIX.</speaker>
+            <p>Vive notre liberté!</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Oui, vive le roi et la liberté en même temps! et qu’ils vivent contents tous deux! Pour moi, quelque chose qui arrive, j’ai résolu de ne pas m’en affliger; et me mettant à l’écart au milieu de tout ce tapage, je veux aujourd’hui, comme Néron, me moquer de tout et ne prendre nul souci... Si fait, je me soucie encore d’une chose, c’est de moi; et, caché ici, je veux voir toute la fête; l’endroit est favorable, la mort ne viendra pas me chercher derrière ces rochers; je fais la figue à la mort.</p>
+          </sp>
+          <stage>On entend le bruit des tambours, le cliquetis des armes, et entrent LE ROI, CLOTALDO et ASTOLFE, fuyant.</stage>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Fut-il jamais un roi plus malheureux? fut-il jamais un père aussi persécuté?</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Votre armée, de toutes parts vaincue, fuit au loin en désordre.</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Et les traîtres sont maîtres du champ de bataille.</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Dans les luttes de ce genre, ce sont les vainqueurs qui ont le droit pour eux, et les traîtres, ce sont les vaincus. Fuyons donc, Clotaldo, fuyons le traitement cruel que nous réserve un fils inhumain.</p>
+          </sp>
+          <stage>On entend une décharge d’armes a feu, Clairon tombe blessé.</stage>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Que le ciel me soit en aide!</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Quel est ce malheureux soldat qui vient de tomber tout sanglant à nos pieds?</p>
+          </sp>
+          <sp who="#cla">
+            <speaker>CLAIRON.</speaker>
+            <p>Je suis un pauvre malheureux qui, pour avoir voulu me préserver de la mort, suis allé la chercher; je la fuyais et elle m’a atteint, car il n’y a pas d’endroit où elle ne pénètre; d’où il se peut conclure que plus on veut éviter ses coups, plus on s’expose à les recevoir. Aussi, retournez, retournez au combat; on est plus en sûreté au milieu du feu et des armes que derrière la plus haute montagne, puisque le destin est si puissant et si irrésistible qu’il se fait partout un chemin. C’est pourquoi, vainement vous espérez par la fuite vous soustraire à la mort. Songez-y bien, vous mourrez si Dieu a décidé que vous devez mourir.</p>
+          </sp>
+          <stage>Il tombe hors de la scène.</stage>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Songez-y bien, vous mourrez si Dieu a décidé que vous devez mourir!... Hélas! ô ciel! comme il établit bien l’ignorance et la faiblesse de l’homme, ce cadavre qui parle ainsi par la bouche d’une blessure dont le sang qui s’en échappe, comme un langage plein d’éloquence, nous enseigne si bien que toutes les dispositions de l’homme sont impuissantes contre une force et une volonté supérieure. En effet, moi qui voulais épargner d’affreux désastres à mon pays, ne t’ai-je pas moi-même remis aux mains de ceux dont je le voulais délivrer?</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Bien que la destinée connaisse tous les chemins, seigneur, et qu’elle trouve derrière les plus épais rochers celui qu’elle cherche, il n’est pas chrétien de dire qu’on ne peut pas se préserver de sa rigueur. On le peut, croyez-moi, et l’homme sage triomphe souvent de la destinée. Si donc vous n’avez pas ici toute la sécurité nécessaire, faites tout ce qu’il faut pour vous sauver.</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Sire, Clotaldo vous parle tout à la fois avec la prudence de l’âge mûr et avec la résoL a V i e E s t Un S o n g e lution de la jeunesse. Dans le bois épais qui couvre cette partie de la montagne, est un cheval plus rapide que le vent; montez-le et fuyez; moi, pendant ce temps, je protégerai votre fuite.</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Si Dieu a décidé que je devais mourir aujourd’hui, et si la mort me cherche, je veux l’attendre ici et la voir face à face.</p>
+          </sp>
+          <stage>On sonne l’alarme, et entre SIGISMOND, à la tête de ses troupes.</stage>
+          <sp who="#sol2">
+            <speaker>UN SOLDAT.</speaker>
+            <p>
+              C’est dans les détours de la montagne et parmi les hautes bruyères que le roi s’est caché. 
+              <emph>&quot;C’est dans les détours de la montagne et parmi les hautes bruyères que le roi s’est caché.&quot;</emph>
+               Esta intervención no es igual en las otras ediciones. En la española pertenece a Segismundo; en la italiana a los Soldados, en la inglesa a “un soldado” y en la francesa también a “un soldado”. Nosotros en el XML-TEI hemos identificado a este soldado con el Soldado 2º por razones argumentales.
+            </p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Suivez-le, et fouillez le bois avec soin, en regardant tous les arbres.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Fuyez, seigneur!</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Pourquoi?</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Quelle est votre intention?</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Laissez-moi, Astolfe.</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Que voulez-vous?</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Je veux recourir au seul moyen de salut qui me reste. (Il s’avance vers Sigismond et s’agenouille.) Me voilà, prince, à vos pieds, que je couvre de mes cheveux blancs. Prenez ma couronne, prenez mon rang et mes titres, traitez-moi en captif; qu’enfin, par ma disgrâce, la prédiction du destin et la volonté du ciel s’accomplisse.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>
+              <seg type="aside">Levez-vous, seigneur, donnez-moi votre main; vous devez être convaincu maintenant que vous n’avez pas interprété comme il fallait la volonté du ciel... Pour moi, je m’humilie devant vous, et, sans essayer de me défendre, j’attends votre vengeance.</seg>
+            </p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Mon fils, une conduite si généreuse vous donne à mes yeux une nouvelle existence, et vous êtes désormais l’enfant de mon coeur. A vous, mon fils, le titre que je portais, à vous mon sceptre et ma couronne; vos beaux faits vous établissent roi.</p>
+          </sp>
+          <sp who="#ros #clot #est #ast #sol1 #sol2 #otrsol #genr #gens">
+            <speaker>TOUS.</speaker>
+            <p>Vive, vive Sigismond!</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Puisqu’il m’est permis aujourd’hui de songer à des victoires, il en est une que je dois chercher avant tout: c’est celle que je remporterai sur moi-même. — Astolfe, donnez sans retard la main à Rosaura; vous savez que cette réparation est due à son honneur, et je l’attends de vous.</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Seigneur, j’ai contracté, je l’avoue, des obligations à son égard; considérez, cependant, qu’elle-même ignore qui elle est, et qu’il serait indigne de moi d’épouser une femme qui...</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>Arrêtez, n’achevez pas... Rosaura est aussi noble que vous, Astolfe, et mon épée le soutiendra dans le champ. Elle est ma fille: c’est tout dire.</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Que dites-vous?</p>
+          </sp>
+          <sp who="#clot">
+            <speaker>CLOTALDO.</speaker>
+            <p>J’attendais, pour découvrir ce secret, que je l’eusse vue honorablement établie. Je ne puis entrer en ce moment dans de plus longs détails; mais enfin, elle est ma fille.</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Puisqu’il en est ainsi, je ne me refuse plus à tenir ma parole.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Maintenant, pour qu’Estrella ne regrette pas tant la perte d’un si noble prince, je veux lui donner de ma main un mari qui ne le cède en rien à Astolfe, soit par la fortune soit par le mérite. (A Estrella.) Donnez-moi la main.</p>
+          </sp>
+          <sp who="#est">
+            <speaker>ESTRELLA.</speaker>
+            <p>Je ne m’attendais pas à tant de bonheur.</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Quant à Clotaldo, qui a servi mon père si fidèlement, j’espère l’avoir toujours pour ami, et je lui accorde d’avance toutes les grâces qu’il peut souhaiter.</p>
+          </sp>
+          <sp who="#sol1">
+            <speaker>UN DES PERSONNAGES.</speaker>
+            <p>Si vous récompensez ainsi un homme qui ne vous a point servi, — à moi qui ai causé le soulèvement du royaume et qui vous ai tiré de prison, — que me donnerez-vous?</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>La prison; et afin que tu n’en sortes qu’à ta mort, je t’y ferai soigneusement garder. Une fois la trahison accomplie, on n’a plus besoin du traître.</p>
+          </sp>
+          <sp who="#bas">
+            <speaker>LE ROI.</speaker>
+            <p>Nous sommes tous dans l’admiration.</p>
+          </sp>
+          <sp who="#ast">
+            <speaker>ASTOLFE.</speaker>
+            <p>Quel changement s’est opéré en lui!</p>
+          </sp>
+          <sp who="#ros">
+            <speaker>ROSAURA.</speaker>
+            <p>Quelle sagesse et quelle prudence!</p>
+          </sp>
+          <sp who="#seg">
+            <speaker>SIGISMOND.</speaker>
+            <p>Pourquoi donc montrez-vous cet étonnement?... Puisque c’est un songe qui m’a réformé, je crains de me réveiller et de me voir une seconde fois dans ma triste prison. Autrement, je ne me plaindrais pas du rêve que j’ai fait; car j’ai appris par là que tout bonheur en ce monde passe comme un songe, et je veux profiter du mien pendant qu’il en est temps... (Au public.) En vous demandant pour nos fautes l’indulgence et le pardon que l’on doit attendre des nobles coeurs.</p>
+          </sp>
+        </div2>
+      </div1>
+    </body>
+    <back/>
+  </text>
+</TEI>

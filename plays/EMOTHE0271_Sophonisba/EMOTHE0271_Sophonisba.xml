@@ -1,0 +1,1576 @@
+<?xml version="1.0" ?>
+<TEI xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="original">Sofonisba</title>
+        <title type="traduccion">Sophonisba</title>
+        <title key="orden">Sophonisba</title>
+        <title key="archivo">EMOTHE0271_Sophonisba</title>
+        <author ana="fiable">Gian Giorgio Trissino</author>
+        <author key="orden">Trissino, Gian Giorgio</author>
+        <editor role="translator">
+          <persName>Mellin de Sant-Gelais.</persName>
+        </editor>
+        <sponsor>
+          <orgName>Plan Nacional de Investigación Científica, Desarrollo e Innovación Tecnológica (Plan Nacional de I+D+i)</orgName>
+        </sponsor>
+        <funder>
+          <orgName>Dirección General de Investigación y Gestión del Plan Nacional de I+D+I (DGI). http://www.idi.mineco.gob.es</orgName>
+        </funder>
+        <principal>Joan Oleza Simó</principal>
+      </titleStmt>
+      <editionStmt>
+        <edition>Edición electrónica de &apos;Sophonisba&apos;</edition>
+        <respStmt>
+          <resp>Edición</resp>
+          <persName>Burgos Segarra, Gemma</persName>
+          <orgName>Artelope</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent ana="verso">340 versos</extent>
+      <publicationStmt>
+        <publisher>
+          <orgName>Proyecto ARTELOPE. Base de datos, argumentos y textos del teatro clásico español (FFI 2009 -12730) http://artelope.uv.es</orgName>
+        </publisher>
+        <idno type="code">EMOTHE0271_Sophonisba</idno>
+        <pubPlace>Valencia</pubPlace>
+        <date>2012</date>
+        <authority>
+          <orgName>Universitat de València - Estudi General. http://www.uv.es</orgName>
+        </authority>
+        <availability>
+          <p>La Colección de Teatro Clasico Europeo (CTCE) pertenece al proyecto Artelope y ofrece en la web textos completos sin ánimo de lucro y libres de derechos de lectura y de reproducción. En este último caso se ruega citar la procedencia: &quot;Oleza, Joan et al. Base de Datos y Argumentos del teatro de Lope de Vega. ARTELOPE. Publicación en web: http://artelope.uv.es&quot;</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Sophonisba.</title>
+          <author>Gian Giorno Trissino.</author>
+          <editor>Gilles Corrozet</editor>
+          <lang>Francés</lang>
+          <note>Trissino, G. G.: «Sophonisba.» Trad. De Mellin de Saint-Gelais. Ed. De Gilles Corrozet. París, Philippe Danfrie et Richard Breton, 1659.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>La Colección de Textos Clásicos Europeos (CTCE) supone la creación de una base de datos de Teatro canónico clásico europeo en diferentes idiomas, versiones y refundiciones, todas ellas hipervinculadas.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Las presentes ediciones digitales están basadas, en su mayor parte, en ediciones científicas de reconocido prestigio y se ha tratado, en la mayoría de ocasiones, de respetar sus criterios de edición. Solo en casos muy puntuales el editor digital ha introducido leves cambios de los que da cumplida cuenta en el apartado de &quot;Notas&quot;.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fr-FR">Français</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>
+            <title>Sophonisba</title>
+          </titlePart>
+        </docTitle>
+        <docAuthor>Gian Giorgio Trissino</docAuthor>
+      </titlePage>
+      <div type="nota">
+        <head>Gilles Corrozet au Lecteur</head>
+        <p>Il n&apos;est besoin, lecteur, que je te recommande beaucoup le petit œuvre present, par ce que l&apos;authorité, sçavoir, noblesse, et experience de ceulx qui l&apos;ont mis en François (et avec grande pompe et digne appareil ont representé les mesmes personnages de la tragedie, devant la majesté Roialle, en sa ville de Blois) sont tressuffisans tesmoignages de la beauté et elegance de la matiere: laquelle de soymesme se descœuvre ornée des parties de bien parler, parer des affections, et passions tragiques, et enrichie de sentences graves et moralles, demonstrantes l&apos;instabilité de fortune, et la varieté de la vie humaine: sur l&apos;exemple de la Royne Sophonisba laquelle pour ne venir captive en la puissance des Romains eleut plustost la mort par poison que la conservation de sa vie.</p>
+      </div>
+      <div type="nota">
+        <head>Advertissement.</head>
+        <p>Intermedie, signifie pause, à la manierre de France: ou Scene selon les Latins.</p>
+      </div>
+      <div type="elenco">
+        <castList>
+          <castItem>
+            <role xml:id="SOP">Sophonisba Royne</role>
+            <roleDesc>Fille d’Asdrubal.</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="HER">Herminia.</role>
+            <roleDesc>dame de chambre.</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="DAM">Assemblee de Dames, que les Latinns nomment Chorus.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="PRE">Premier Soldat.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="SEC">Second Soldat.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="MAS">Masinissa Roy des Massiliens.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="LEL">Lelius</role>
+            <roleDesc>Capitaine Romain.</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="CAT">Caton</role>
+            <roleDesc>Consul Romain.</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="SCI">Scipion</role>
+            <roleDesc>chef, ou lieutenant general des Romains en Afrique.</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="SIP">Siphax</role>
+            <roleDesc>Roy de Numidie.</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="GEN1">Premier Gentil homme de la Royne.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="GEN2">Second Gentil homme.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="FEM1">Femme premiere de la Royne.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="FEM2">Femme seconde.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="FEM3">Femme troisiesme.</role>
+          </castItem>
+        </castList>
+      </div>
+    </front>
+    <body>
+      <div1 type="acto">
+        <sp who="#SOP">
+          <speaker>Sophonisba.</speaker>
+          <p>Dequoy puis-je la [un mot illisible] tenir propoz sinon de ce que jour et nuict tourmente ma pensée? et quel moyen ay-je de donner à mon triste cueur aucun alegement de l&apos;infinie douleur qui le tient opprimé, Si ce n&apos;est en la manifestant? Et si je la doy dire, a qui puis-je avec plus de fiance descouvrir qu&apos;a vous Herminia?</p>
+        </sp>
+        <sp who="#HER">
+          <speaker>Herminia.</speaker>
+          <p>Madame vous ne vous sauriez adresser à personne qui plus que moy vous porte d&apos;obeissance et d&apos;amour, ny qui plus vivement sente voz ennuiz. Qui par dignité m&apos;estes royne et maistresse, Et par affection et bonté m&apos;avez tousjours tenue en lieu de sœur: De sorte que vous povez seurement descharger vostre cueur, et me dire ce qu&apos;il vous plaira.</p>
+        </sp>
+        <sp who="#SOP">
+          <speaker>Sopho.</speaker>
+          <p>Je ne fay point de doubte, et vous ay tousjours trouvée fidelle des que vous feustes contante en noz premiers ans de venir avec moy, en nostre Cité de Cirte, plus pour l&apos;amour que vous me portiez, que pour consideration de parenté, ne d&apos;affinité que vous eussiez. Et pource Herminia je veulx librement et au long parler à vous comme à moymesmes. Et vous souvient bien du temps que Hasdrubal mon pere passa en Hespaigne pour faire teste aux Romains qui la travailloient: et de la prosperité qu&apos;il y eut au commancement. Et comme la fortune se tournant bien tost apres, le contraignit de s&apos;en retirer avec sept gaillaires seullement. Et venir trouver Siphax Roy de Numidie.</p>
+        </sp>
+        <sp who="#HER">
+          <speaker>Herminia.</speaker>
+          <p>Il me souvient, ma dame, que le jour mesmes qu&apos;il revint, arriva aussy Scipion chef de larmée des Romains, lequel l&apos;avoit vaincu. Et diligenta de praticquer le Roy Siphax qui tost apres entra en ligue avec luy.</p>
+        </sp>
+        <sp who="#SOP">
+          <speaker>Sophonisba.</speaker>
+          <p>Il est ainsy. Or ceste ligue despleut beaucoup aux nostres. Et pour la rompre, et regaigner Siphax, Ilz me donnerent à luy en mariaige, sans avoir esgard à l&apos;accord que mon pere avoit faict de moy à Masinisa Roy des Massiliens, lequel s&apos;offença tellement de ce change, Qu&apos;onques puis il ne cessa d&apos;estre de Siphax. Et de tout le pais, mortel ennemy.</p>
+        </sp>
+        <sp who="#HER">
+          <speaker>Herminia.</speaker>
+          <p>Et ce fut ma dame, lors que vous vintes, et je vous accompaignay en ce Roiaulme, et en ceste vostre ville de Cirte.</p>
+        </sp>
+        <sp who="#SOP">
+          <speaker>Sophonisba.</speaker>
+          <p>Mais bien tost se tourna la douceur de tant d&apos;honneur et de grandeur en tres amere vie pour moy. Car peu de jours apres, Scipion retournant en Africque et trouvant mon pere Hasdrubal, et mon mary en armes, les rompit. La fut le commancement de noz travaulx, pour lesquelz accroistre, la fortune voulut que l&apos;armee qu&apos;ilz avoient assez promptement remis sus, fust de nouveau deffaicte. Qui a esté cause que Massinissa avec l&apos;ayde des Romains, ait recouvert son roiaulme que nous tenions, dequoy le Roy mon mary grandement indigné assemblant ses forces, est allé essaier de le reconquerir, et ay esté advertie par le courrier qui est venu ceste nuict, que aujourdhuy se doibt donner une bataille, dont je suis en passion, qui ne se peult dire, craignant une ruyne telle que nous ne puissions plus lever la teste. Car si les vieulx Soldatz fraiz et entiers ne peuvent resister a l&apos;effort de telz ennemys, Que feront les nouveaulx desja las et rompuz? Et ce qui m&apos;espouvente encores plus, est un songe que j&apos;ay faict un peu avant le jour. Il me semble que j&apos;estois en une forest obscure entournee de chiens et de paysans qui tenoient le Roy prins, et le mal menoient, dont craignant qu&apos;il ne me feissent de mesme, me tournay devers un bergier, luy priant qu&apos;il me deffendist d&apos;eulx. Et me sembla qu&apos;il eut pitié de moy: Et qu&apos;il entreprint de me garder. Mais voians les chiens comme enragez l&apos;abbaier de tous costez, et craignant qu&apos;ilz ne me dechirassent entre ses braz, il me monstra une caverne, et me dit que puis qu&apos;il ne me pouvoit sauver je me sauvasse moymesme la dedans. Et que lon ne m&apos;y sçauroit mal faire. J&apos;y entray: et lors disparut le songe, qui m&apos;a laissée toute pensive et confuse.</p>
+        </sp>
+        <sp who="#HER">
+          <speaker>Herminia.</speaker>
+          <p>L&apos;occasion de vostre soucy certainement n&apos;est pas petite, mais il me semble que vous imaginez une trop grande ruine. La fortune est inconstante: Et ne peult si longuement durer favorable à un party: doncq, ma dame, esperez mieulx, et laissez ceste aprehension, qui vous aflige avant le temps.</p>
+        </sp>
+        <sp who="#SOP">
+          <speaker>Sophonisba.</speaker>
+          <p>O que vous estes heureuse, Herminia, heureuse en ceste tranquilité d&apos;estat, sans aulcune grandeur? Combien a moins de felicité la condition de ceulx a qui il n&apos;est permis de faire sinon ce qui est convenable a leur supreme degré?</p>
+        </sp>
+        <sp who="#HER">
+          <speaker>Herminia.</speaker>
+          <p>Si consiste toutesfois la gloire et reputation que le monde estime le plus, en la haulteur de ceste fortune.</p>
+        </sp>
+        <sp who="#SOP">
+          <speaker>Sophonisba.</speaker>
+          <p>Oy bien, mais elle est incertaine et doubteuse, et tousjours acompaignée d&apos;ennuiz, importunitez, souspeçons, trahisons, guerres, et peines qui ne se peuvent estimer.</p>
+        </sp>
+        <sp who="#HER">
+          <speaker>Herminia.</speaker>
+          <p>Oh ceste vie presente ne peult passer sans quelque incommodité, et en a l&apos;un plus et l&apos;autre moins, selon qu&apos;il plaist à Dieu distribuer les biens et les maulx: mais si vous devéz vous r&apos;amentevoir que cest euvre de magnanime de courage, d&apos;entreprendre les grandes choses, et en esperer bien, et puis supporter vertueusement ce qui en peult advenir.</p>
+        </sp>
+        <sp who="#SOP">
+          <speaker>Sophonisba.</speaker>
+          <p>Je congnois assez qu&apos;il se debvroit ainsy faire comme vous dites, mais la force de ma douleur lie mes sens de telle sorte qu&apos;ilz ne peuvent obeyr à raison: Tellement que si le ciel pitoiable ne prent mon affaire en protection, je me veoy conduicte au but, oultre lequel les corps n&apos;ont plus de vie.</p>
+        </sp>
+        <sp who="#HER">
+          <speaker>Herminia.</speaker>
+          <p>Retournons doncques, ma dame, du tout noz esperitz vers celuy qui le tout gouverne. Et le supplions de nous conserver, et faire tourner sur noz ennemys le mal present, et la peur de l&apos;avenir.</p>
+        </sp>
+        <sp who="#SOP">
+          <speaker>Sophonisba.</speaker>
+          <p>Ce conseil me plaist bien, car Dieu seul nous peult donner la paix sur tous biens desirée.</p>
+        </sp>
+        <div2 type="scene" n="1">
+          <head>Premiere intermedie.</head>
+          <sp who="#DAM">
+            <speaker>Assemblee de dames.</speaker>
+            <lg>
+              <l n="0001" xml:id="fr-0016">Que doy-je dire ou faire? Oseray-je appeller</l>
+              <l n="0002" xml:id="fr-0017">Quelqu&apos;une de leans, pour soudain s&apos;en aller</l>
+              <l n="0003" xml:id="fr-0018">Advertir Sophonisba, en ceste extremité</l>
+              <l n="0004" xml:id="fr-0019">De leffroy qui sespend par toute la cité?</l>
+              <l n="0005" xml:id="fr-0020">Pource qu&apos;on veoit desja les bandes et cohortes,</l>
+              <l n="0006" xml:id="fr-0021">Des ennemys, courir jusques devant les portes?</l>
+              <l n="0007" xml:id="fr-0022">Attendray-je plustost qu&apos;autre le luy revelle</l>
+              <l n="0008" xml:id="fr-0023">Que de l&apos;importuner de si dure nouvelle</l>
+              <l n="0009" xml:id="fr-0024">Veu que ce qui desplaist ne se peult tant suspendre</l>
+              <l n="0010" xml:id="fr-0025">Qu&apos;on ne panse venir assez tost a l&apos;entendre?</l>
+              <l n="0011" xml:id="fr-0026">Ha, il vault mieulx laisser ses respectz, et ne craindre,</l>
+              <l n="0012" xml:id="fr-0027">Car pour estre ignoré un malheur n&apos;est pas moindre.</l>
+              <l n="0013" xml:id="fr-0028">Et bien que pour un temps l&apos;esprit ait quelque treve,</l>
+              <l n="0014" xml:id="fr-0029">Si en sent il apres impression plus grieve:</l>
+              <l n="0015" xml:id="fr-0030">Ayant nourry le mal, et tardé le secours,</l>
+              <l n="0016" xml:id="fr-0031">Dont les biens prolongez semblent apres plus cours:</l>
+              <l n="0017" xml:id="fr-0032">Car comme oisiveté, peine et travail aporte,</l>
+              <l n="0018" xml:id="fr-0033">Ce plaisir donne apres ennuy de mesme sorte.</l>
+              <l n="0019" xml:id="fr-0034">O decevant espoir, illusion, et songe,</l>
+              <l n="0020" xml:id="fr-0035">Qui nous vient en veillant, et nous paist de mensonge,</l>
+              <l n="0021" xml:id="fr-0036">Combien fasche aux mortelz de vous l&apos;esloignement,</l>
+              <l n="0022" xml:id="fr-0037">Qui sans vous vivroient mieulx, et plus heureusement.</l>
+              <l n="0023" xml:id="fr-0038">Sans vous, O vain espoir, nostre jeune princesse</l>
+              <l n="0024" xml:id="fr-0039">Seroit, peult estre, encor ches son pere en liesse,</l>
+              <l n="0025" xml:id="fr-0040">Quite d&apos;ambition, de sceptre, et de couronne,</l>
+              <l n="0026" xml:id="fr-0041">Et du mal qui desja de bien pres l&apos;environne.</l>
+              <l n="0027" xml:id="fr-0042">O pauvre Sophonisba, O divine beaulté,</l>
+              <l n="0028" xml:id="fr-0043">O doulceur assemblée à haulte roiaulté,</l>
+              <l n="0029" xml:id="fr-0044">Combien luy seroit grief servir estrange prince,</l>
+              <l n="0030" xml:id="fr-0045">Venant de donner loix à si grande province?</l>
+              <l n="0031" xml:id="fr-0046">O Dieu, ne permectz poinct que ce malheur advienne,</l>
+              <l n="0032" xml:id="fr-0047">Et de bonte si rare et vertu te souvienne,</l>
+              <l n="0033" xml:id="fr-0048">Qui te doibt estre chere, et l&apos;est comme je croy,</l>
+              <l n="0034" xml:id="fr-0049">Si chose de ce monde eut oncq faveur de toy.</l>
+              <l n="0035" xml:id="fr-0050">Mais voicy arriver un courrier, qui à peine</l>
+              <l n="0036" xml:id="fr-0051">Pour avoir travaillé, peult avoir son alleine.</l>
+            </lg>
+          </sp>
+          <sp who="#PRE">
+            <speaker>Premier Soldat.</speaker>
+            <p>Mes Dames.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <p>Que cherches-tu? quoy? ne sonnes tu mot?</p>
+          </sp>
+          <sp who="#PRE">
+            <speaker>Premier Sol.</speaker>
+            <p>O mon Dieu l&apos;aleine me fault, je ne puis parler.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <lg>
+              <l n="0037" xml:id="fr-0055">Cestuy cy me remplit d&apos;une crainte nouvelle.</l>
+            </lg>
+          </sp>
+          <sp who="#PRE">
+            <speaker>Premier Sol.</speaker>
+            <p>Dites moy ou trouueray-je la Royne?</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <lg>
+              <l n="0038" xml:id="fr-0057">Je la veoy sortir hors du chasteau bien a point.</l>
+              <l n="0039" xml:id="fr-0058">Mais dys nous d&apos;ou tu viens s&apos;il ne te fasche point.</l>
+              <l n="0040" xml:id="fr-0059">Et d&apos;ou vient cest effroy, que tu sembles avoir.</l>
+            </lg>
+          </sp>
+          <sp who="#PRE">
+            <speaker>Premier Sol.</speaker>
+            <p>Du camp helas, non plus camp, mais desconfiture.</p>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>Aiez de m&apos;appeller soing, si tost que Herminia aura achevé ce qu&apos;elle appareille pour offrir au temple, peult estre auray-je ce pendant quelque nouvelles du Roy.</p>
+          </sp>
+          <sp who="#PRE">
+            <speaker>Premier Sol.</speaker>
+            <p>He Dieu, de trop mauvaises en entendrez vous.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <lg>
+              <l n="0041" xml:id="fr-0063">Escoutons le propos de ce nouveau venu,</l>
+              <l n="0042" xml:id="fr-0064">Car il doibt mieulx sçavoir le tout par le menu,</l>
+              <l n="0043" xml:id="fr-0065">Que nous, qui n&apos;entendons les choses que confuses</l>
+            </lg>
+          </sp>
+          <sp who="#PRE">
+            <speaker>Premier Sol.</speaker>
+            <p>Ma dame, je vous aporte à mon grant regret, de tres mauvaises nouvelles.</p>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>O triste commencement, le Roy est il vif?</p>
+          </sp>
+          <sp who="#PRE">
+            <speaker>Premier Sol.</speaker>
+            <p>Il n&apos;est point mort, et si ne le puis dire estre vivant.</p>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>Comment est il blessé? Ou le camp est il rompu?</p>
+          </sp>
+          <sp who="#PRE">
+            <speaker>Premier Sol.</speaker>
+            <p>Le camp est rompu, et luy n&apos;est point blessé, mais pris.</p>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>Il est pris? o malencontre! o moy defortunée! Cestuy cy est le jour, le jour qui m&apos;a ruinée de fond en comble. Mais comme alla le tout? et comment fut la prinse.</p>
+          </sp>
+          <stage>(Esvanouissement.)</stage>
+          <sp who="#PRE">
+            <speaker>Premier Sol.</speaker>
+            <p>Ce matin à l&apos;aube du jour aucuns des nostres estoient allez dresser une escarmouche, lesquelz mis en fuitte par les Romains, et puis soustenus des nostres, vindrent si bien aux mains, que se renforceant les trouppes d&apos;une part et d&apos;aultre, la bataille s&apos;en est ensuivie. Et avoyent noz gens de cheval d&apos;entrée si bien faict, que les ennemys s&apos;en alloient en route, n&apos;eust esté que quelques enseignes de leurs gens de pied se vindrent mesler parmy noz gens d&apos;armes, qui en furent un peu arrestez. Et ce pendant marcherent leurs legions, et les vindrent charger, de sorte qu&apos;ilz prindrent la fuitte. Ce que voiant le Roy s&apos;avança et donna dans les Romains pour veoir, si ou de honte, de le veoir mieulx faire qu&apos;eulx, ou de peur de le laisser en danger, les siens retourneroient au combat. Mais ce fut en vain, car il demoura si chargé et environné des ennemys, que son cheval fut tué soubz luy, dont à vive force il fut amené prisonnier, avec aucuns des siens: et la reste n&apos;à tasché qu&apos;a se sauver, en tel effroy, que nous avons eu prou d&apos;affaire à gaigner la ville, sentant les Romains nous chasser de pres, tant qu&apos;a peine avons eu loisir de lever le pont, et fermer les portes.</p>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>O moy desolée! Je voy la fin de cest Empire.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <lg>
+              <l n="0044" xml:id="fr-0074">Las combien de pitié me fais tu, doulce dame.</l>
+            </lg>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>O fortuné Syphax, ou es tu maintenant? et es mains de qui suis-je demourée?</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <lg>
+              <l n="0045" xml:id="fr-0076">Quel cueur est si cruel qui voyant en telz termes</l>
+              <l n="0046" xml:id="fr-0077">Ceste princesse cy, peust contenir les larmes?</l>
+            </lg>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>O malheureuse haultesse, a quel abisme m&apos;as tu conduicte?</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <lg>
+              <l n="0047" xml:id="fr-0079">Trop juste occasion vous meut à larmoyer.</l>
+            </lg>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>Las à qui appartient-il de pleurer, qu&apos;a moy? qui en peu de temps veoy toute ma felicité tumbée en extreme decadence, et ma joie en perpetuelle douleur, O fussé-je morte au berceau? Car il renaist qui peult mourir à temps.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <lg>
+              <l n="0048" xml:id="fr-0081">Bien devriez vous pleurer, ma dame, incessament,</l>
+              <l n="0049" xml:id="fr-0082">Si le pleur vous pouvoit donner allegement:</l>
+              <l n="0050" xml:id="fr-0083">Mais si la peine en croist, il vault mieulx le laisser.</l>
+            </lg>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>O Hasdrubal? O cher pere? quelle vous semblera la perte que je fay de cest estat, auquel contre vostre jugement et volonté je fuz eslevée. Comme m&apos;a deceu la flateresse esperance. La joye que je m&apos;estois promise en fin de vous donner de cest avantageux mariage, sera que vous me verrez en continuel tourment: sera que je seray desnuée de toute grandeur, et esloignée du pays de ma naissance: Qu&apos;il me fauldra passer la mer, devenir esclave: et servir à la superbe nation, naturelle ennemye de la mienne, non, non, vous n&apos;entendrez point telles nouvelles de moy, vous orrez plus tost dire que je seray morte que serve.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <p>Mon Dieu, madame, helas qu&apos;avez vous dict?</p>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>Que plus tost je me determine de mourir que vivre esclave des Romains.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <lg>
+              <l n="0051" xml:id="fr-0087">Il faict bon s&apos;exempter de si cruelles mains.</l>
+              <l n="0052" xml:id="fr-0088">Mais non point par la mort, car la mort est le mal</l>
+              <l n="0053" xml:id="fr-0089">Extreme, et le dernier de tous les autres maulx.</l>
+            </lg>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>Nostre vie est comme un beau tresor, lequel ne se doibt despendre en choses de petite importance: ny aussi espargner aux grandes, et vertueuses entreprinses.</p>
+          </sp>
+          <sp who="#PRE">
+            <speaker>Premier Sol.</speaker>
+            <p>Fuiez mes dames, fuiez, retirez vous en quelque lieu plus seur, les ennemys sont dans la ville.</p>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>En quel lieu de seureté nous sçaurions nous retirer qui nous puisse deffendre, d&apos;eux, si Dieu seul ne nous conserve? Mais dy moy, comment sont ilz entrez? à ce esté par composition, par force, ou par surprinse?</p>
+          </sp>
+          <sp who="#PRE">
+            <speaker>Premier Sol.</speaker>
+            <p>Il se peult dire que par composition, et par force.</p>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>Comment cela? parle que je t&apos;entende.</p>
+          </sp>
+          <sp who="#PRE">
+            <speaker>Premier Sol.</speaker>
+            <p>Ma dame, je vous conteray comment la chose est passée. Si tost que les ennemys ont esté devant la ville, ilz ont envoyé un trompette la sommer de se rendre, auquel on à respondu qu&apos;il se retirast: ny pour menasses qu&apos;ilz ayent sceu redoubler de brusler le plat pays et la ville, ilz n&apos;ont tiré de nous responce aprochante de se rendre, jusques à tant que Masinissa venu en personne sur le bort du fossé, et parlant aux principaulx, leur a remonstré le grant nombre qu&apos;ilz estoient, le peu de munition que nous avions, la prinse du Roy, la deffaicte des nostres, le desir qu&apos;il avoit de conserver nous et les pays, dont il seroit bien tost seigneur: Et sur cela faisant amener à la veue de tous le Roy prisonnier, à sceu tant dire et promectre, que les portes luy ont esté ouvertes.</p>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>O douloureux accident! Comme est mal conseillé qui se fie en l&apos;amour des peuples: à tout le moins s&apos;ilz eussent voulu tenir un seul jour: et puis qu&apos;ilz se feussent renduz avec quelque meilleure et plus seure composition je ne serois point si surprinse et despourveue comme je suis.</p>
+          </sp>
+          <sp who="#PRE">
+            <speaker>Premier Sol.</speaker>
+            <p>Voicy les ennemys pres de la place.</p>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>Lequel est Masinissa?</p>
+          </sp>
+          <sp who="#PRE">
+            <speaker>Premier Sol.</speaker>
+            <p>C&apos;est ce premier, celuy qui à sur son armet un panache rouge.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <lg>
+              <l n="0054" xml:id="fr-0100">Las je me sens au cueur</l>
+              <l n="0055" xml:id="fr-0101">Une si grande peur,</l>
+              <l n="0056" xml:id="fr-0102">Que je ne sçay que taire, ou que parler:</l>
+              <l n="0057" xml:id="fr-0103">Je me sens toute telleComme la coulombelle,</l>
+              <l n="0058" xml:id="fr-0104">Qui sur son chef voit un aigle voller.</l>
+            </lg>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>Monseigneur, je sçay bien que le ciel, et la fortune, et voz vertuz, vous ont donné la puissance de faire de moy ce qu&apos;il vous plaira: Mais si à une prisonniere estant à la discretion d&apos;autruy est permis de parler, et de supplier, je vous requiers une seule grace, C&apos;est qu&apos;il vous plaise ordonner à ma personne condition telle que bon vous semblera: Pourveu que vous ne souffriez que je vienne à la puissance et servitude d&apos;aucun Romain. Vous seul au monde, Seigneur, me pouvez delivrer de ce joug. Et de cela seulement je vous supplie, par la hauteur de vostre fortune, et de ce degré Royal, ou bien peu devant je me suis veue aussi. Et pour l&apos;honneur des Dieux protecteurs de ce pays, lesquelz je prie vous recevoir avec meilleure fortune que n&apos;a este celle de Siphax. Car quand je n&apos;aurois autre consideration que du lieu auquel j&apos;ay esté mariée, encores aymeroi-je mieux me commettre à la foy d&apos;un des nostres, et nay en Affricque comme je suis: que tumber en celle d&apos;un estranger. Pensez donc seigneur, ce que je doy faire, estant Carthaginoise, et fille de Hasdrubal. Et si j&apos;ay raison de craindre la superbe maistrise des Romains, vous esmeuve à compassion la misere et calamité ou je suis ores, et la felicité de ma vie passée.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <lg>
+              <l n="0059" xml:id="fr-0106">Refuser ne se doit à dame si honneste</l>
+              <l n="0060" xml:id="fr-0107">Une si raisonnable et si juste requeste.</l>
+            </lg>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Ma dame je ne veux point rememorer les oultrages et desplaisirs que Syphax m&apos;a faictz, de long temps, de peur de renouveller mes anciens ennuiz: et vous en donner de nouveaux. Soit ce qui en à esté: ma coustume est de persecuter mes ennemis jusques ad ce que je les aye vaincus: Et puis d&apos;oublier toutes leurs offences. Et quand bien j&apos;aurois deliberé de m&apos;en ressentir, et d&apos;en prendre vengence, si ne sçaurois-je pourtant avec vous, si non user de courtoisie: car il n&apos;est chose plus vile que d&apos;oultrager femmes, et courir sus à ceux qui sont opprimez: et sont sans aide et resistance. Et puis la jeunesse ou vous estes, les bonnes graces, et beauté dont vous estes pleine, voz doulces parolles et prieres, meritent trouver non seullement pitié, mais faveur. Et pour ce ostez toute craincte de vostre entendement, Car vous ne recevrez de moy que tout honneur, Bien me faict il mal que je ne vous puisse prometre ce, dont vous m&apos;avez requis, de ne vous laisser tumber au pouvoir des Romains, Car je me treuve si soubzmis à eux, que je n&apos;ay aucun moyen de le faire. Toutesfois je vous promez de les prier bien fort de vous mettre en liberté: Combien qu&apos;ilz soient de si bonne affaire que vous ne devez esperer d&apos;eux si non bon traictement.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <lg>
+              <l n="0061" xml:id="fr-0109">Renforcez le prier, tant qu&apos;il soit combatu,</l>
+              <l n="0062" xml:id="fr-0110">Un arbre au premier coup n&apos;est jamais abbatu.</l>
+            </lg>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>Mon seigneur vostre gracieux langage qui vous montre avoir quelque compassion de moy ressuscite dans mon cueur beaucoup d&apos;esperance, et de la je prendray la hardiesse de parler avec plus de confiance à vous, Combien que j&apos;aye honte et regret à parmoy de ne pouvoir en ceste tribulation parler si non de mes ennuiz: qui peult estre me feront trouver importune. Mais je me reconforte, en pensant que la nature d&apos;un gentil cueur, est de donner volontiers audience et aide aux affligez: Et de se complaire en si bonne euvre, et pource suivant mon premier propoz, je vous supplie Monsieur avoir pitié de moy: et de ne me laisser venir en la servitude d&apos;aucun Romain. Ja ne sçauroit-il tumber en mon entendement que vous ne le puissiez faire. Car qui ausera debatre qu&apos;il ne vous appartienne bien, oultre le principal du buttin, avoir une femme en vostre disposition? Et ne me dictes point, s&apos;il vous plaist, que d&apos;eulx je ne puis avoir traictement que raisonnable: l&apos;inimité que de tous temps ilz ont porté à ma patrie, et particulierement à ceulx dont je suis descendue, me faict inevitablement attendre de leur domination toutes les sortes d&apos;injures, d&apos;outraiges, Et de desplaisirs qui se peuvent imaginer: chose à fuir plus que la mort. Qui me faict de rechef vous demander ceste grace de m&apos;en delivrer, par ces genoulx que j&apos;embrasse, et par ceste victorieuse main, pleine de valleur, et de foy, que je vous baise. Autre refuge ne m&apos;est demeuré en ce monde, si non vous Monsieur, à qui j&apos;ay recours comme au port de ma sauveté. Que si toute voie m&apos;est interdicte, et est force que vive je vienne en la discretion de ces gens la, veuillez m&apos;en aumoins delivrer, en m&apos;e donnant la mort. Je vous demande ceste derniere grace, laquelle vous ne povez dire n&apos;estre en vostre puissance. Pourtant, Monsieur, ne me le refusez point, et adjoustez ceste promesse au louable commancement que vous avez donné à mon esperance.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <lg>
+              <l n="0063" xml:id="fr-0112">Grande force devroit avoir un beau langage,</l>
+              <l n="0064" xml:id="fr-0113">Prononcé doucement, et sortant du couraige,</l>
+              <l n="0065" xml:id="fr-0114">D&apos;une si acomplie et aymable personne.</l>
+            </lg>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Il faict bon quelque fois user de gracieuseté, et quelque fois estre audacieux: mais si jamais l&apos;audace est de saison, elle l&apos;est quand on en use pour choses honnestes et euvres pitoiables. Car il n&apos;est rien qui tant rende l&apos;homme semblable à Dieu, que s&apos;emploier pour les hommes, et metre autruy en seureté. Or pour faire donc nouvelle responce à voz ardentes et trop gracieuses requestes pour estre refusees, je vous asseure et promectz, ma dame, de faire pour vous ce que vous me demandez. Et s&apos;il se trouve homme si hardy qui ause seulement vous toucher la robbe je luy feray sentir qu&apos;il m&apos;aura offensé: et en deusse je abandonner mes pays et pour plus grande seureté je vous veulx donner ma foy, et la jurer en vostre main, avecque le Dieu qui m&apos;a donné faveur au recouvrement de mon Roiaulme que vous n&apos;yrez en puissance d&apos;aucun Romain tant que la vie me soustiendra.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <lg>
+              <l n="0066" xml:id="fr-0116">O courtoise responce, O acte memorable.</l>
+            </lg>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>Avec quelles parolles pourray-je assez dignement vous rendre graces de ceste liberalle et magnanime promesse, laquelle veritablement vous monstres bien meriter les victoires, le nom et la hauteur en quoy vous estes? Et pourtant si je me trouve doubteuse et confuse, et ne sçay bien ordonner mes propoz je ne suis point indigne d&apos;excuse. Car il me semble chose impossible de pouvoir parler d&apos;un cueur si genereulx comme est le vostre, en la façon qu&apos;il appartient, ne donner assez de louange à un si glorieulx et louable fait comme cestuy cy. Et quant bien j&apos;aurois quelque suffisance de l&apos;exalter et approcher de son merite, je ne l&apos;entreprendray point, sachant bien que je ne satisferois jamais à mon desir n&apos;y à l&apos;obligation que j&apos;y ay, Seulement diray-je bien que mon esprit n&apos;est jamais pour metre en oubly une si grande et si estimee grace, tant qu&apos;il aura memoire de moymesmes, mais autant que ma rigoreuse fortune ne m&apos;a laissé de toutes choses rien que la vie, laquelle je recongnois de vous seul, et que je n&apos;ay moien de vous faire aultre retribution je prieray le grant Dieu qui au ciel regarde les euvres de nous mortelz Qu&apos;en lieu de moy il vous recompense de celle cy, aussi haultement comme je la recongnois et l&apos;estime.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Je ne veulx aultre recompense du bien si non le plaisir de le metre en effect, Car le bien se doit faire pour ce qu&apos;il est bien, et qu&apos;il est la vraye retribution de soymesme, et le seul but de toutes noz actions.</p>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>Si voit on beaucoup de gens conviez à de glorieuses entreprinses par l&apos;esperance de retribution.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Ouy ceulx à qui la doulceur de vertueusement et bien faire n&apos;est pas assez congneue.</p>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>Or soit ainsi, et plaise neantmoins à Dieu vous guerdonner de cest euvre pour honorer si pitoyable aide.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Assez bon loier ay-je eu de Dieu de m&apos;avoir donné le vouloir de dire comme j&apos;espere le pouvoir d&apos;executer chose qui vous est si agreable.</p>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>Grande modestie et vertu, mais Monsieur que dois-je faire? Car je n&apos;ay, ny veulx avoir volonté ny conseil que le vostre.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Mon advis est, si bon vous semble, que vous vous devez retirer au Chasteau et la nous delibererons du moyen qu&apos;il faudra tenir pour vous tenir ma promesse.</p>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>Je vous en supplie Monsieur, et ne m&apos;abandonnez ny oubliez point.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Comment oublier? avez vous si peu de foy en moy que vous soiez en doubte.</p>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>Non, mais si grand desir de liberté me transporte, qu&apos;il faict sembler que je deubte.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Ne doubtez nullement, car c&apos;est ma coustume de garder ce que je promectz comme ma vie: et ne siet bien à nul d&apos;avoir une chose au cueur et une autre en la bouche.</p>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>Entrez donc Monsieur, si la fortune n&apos;est perpetuellement contraire aux bonnes entreprises, Je puis esperer qu&apos;en ceste cy elle me sera aydante: Mais je ne sçay comment en mon cueur ne peult entrer asseurance de rien.</p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="2">
+          <head>Seconde Intermedie.</head>
+          <sp who="#DAM">
+            <speaker>Dames</speaker>
+            <lg>
+              <l n="0067" xml:id="fr-0130">Haulte celeste invisible lumiere</l>
+              <l n="0068" xml:id="fr-0131">Qui estes source et naissance premiere</l>
+              <l n="0069" xml:id="fr-0132">Des corps luisans qui restorent le monde</l>
+              <l n="0070" xml:id="fr-0133">Par le retour de leur clarté feconde</l>
+              <l n="0071" xml:id="fr-0134">Qui ordonnez que leur course eternelle</l>
+              <l n="0072" xml:id="fr-0135">Ans mois, et jours, et saisons renouvelle,</l>
+              <l n="0073" xml:id="fr-0136">Permettez leur nous amener un jour</l>
+              <l n="0074" xml:id="fr-0137">Qui nous remette en l&apos;ancien sejour</l>
+              <l n="0075" xml:id="fr-0138">Dont joissoit ceste heureuse contrée</l>
+              <l n="0076" xml:id="fr-0139">Avant qu&apos;enseigne estrange y fust entrée.</l>
+              <l n="0077" xml:id="fr-0140">Lors qu&apos;en ces champs n&apos;y avoit un seul homme.</l>
+              <l n="0078" xml:id="fr-0141">Qui sceut le nom du Tibre ny de Rome.</l>
+              <l n="0079" xml:id="fr-0142">Et nous contans des fruictz de nostre terre,</l>
+              <l n="0080" xml:id="fr-0143">Aux fiers lyons seulement faisions guerre.</l>
+              <l n="0081" xml:id="fr-0144">Helas seigneur, depuis que ceste Affrique,</l>
+              <l n="0082" xml:id="fr-0145">Eut à desdain son ouvrage rustique,</l>
+              <l n="0083" xml:id="fr-0146">Et naviga pour ailleurs dominer</l>
+              <l n="0084" xml:id="fr-0147">Elle, à peu pres, s&apos;est veue dominer.</l>
+              <l n="0085" xml:id="fr-0148">Elle à tant faict cherchant les estrangiers.</l>
+              <l n="0086" xml:id="fr-0149">Qu&apos;elle les veoit ores en ses vergiers.</l>
+              <l n="0087" xml:id="fr-0150">Siphax est pris, et Sophonisbe aussi,</l>
+              <l n="0088" xml:id="fr-0151">Masinisse est luy mesme en la mercy.</l>
+              <l n="0089" xml:id="fr-0152">Des fiers Romains, car assez est lié</l>
+              <l n="0090" xml:id="fr-0153">Qui a plus grand que soy s&apos;est allié.</l>
+              <l n="0091" xml:id="fr-0154">Les ennemys sont depuis le matin</l>
+              <l n="0092" xml:id="fr-0155">Dans le chasteau, qui est de leur butin.</l>
+              <l n="0093" xml:id="fr-0156">Brief, il n&apos;est mal publicque ne privé</l>
+              <l n="0094" xml:id="fr-0157">Que nous n&apos;ayons mille fois esprouvé.</l>
+              <l n="0095" xml:id="fr-0158">Et ne sçauroit la fortune inventer</l>
+              <l n="0096" xml:id="fr-0159">Nouveau moyen de plus nous tourmenter.</l>
+              <l n="0097" xml:id="fr-0160">Un seul espoir d&apos;assez loing nous regarde</l>
+              <l n="0098" xml:id="fr-0161">C&apos;est que le Roy qui à pris en sa garde</l>
+              <l n="0099" xml:id="fr-0162">Nostre maistresse, aura sollicitude</l>
+              <l n="0100" xml:id="fr-0163">De ne souffrir qu&apos;elle aille en servitude.</l>
+              <l n="0101" xml:id="fr-0164">Et s&apos;il le faict et tient sa foy promise</l>
+              <l n="0102" xml:id="fr-0165">Nous resterons avec elle en franchise</l>
+              <l n="0103" xml:id="fr-0166">Et luy ferons service en liberté</l>
+              <l n="0104" xml:id="fr-0167">Changeans noz nuictz en lumiere et clarté.</l>
+            </lg>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>A chacun pas que je fay, j&apos;entre en merveille de la grandeur de la beauté et de la force de ceste ville, et me tiens presque pour mal conseillé d&apos;y estre entré avec si petite trouppe, que celle qui m&apos;a servi: craignant quelque stratageme et surprinse des ennemys: desquelz la desperation est quelque fois plus a doubter, que la victoire. Et ce qui plus m&apos;y faict penser est que je ne voy nulz de tant de soldatz, qui y sont entrez avec Masinissa. Et pource j&apos;en veulx demander nouvelles à ces femmes. Femmes quelle part à tiré le Roy, qui est entré n&apos;aguieres en ceste ville avec ses gens?</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <lg>
+              <l n="0105" xml:id="fr-0169">Il entra au chasteau, et pensons qu&apos;il y est</l>
+              <l n="0106" xml:id="fr-0170">Encor avec la Royne, mais Seigneur s&apos;il vous plaist</l>
+              <l n="0107" xml:id="fr-0171">Dites nous vostre nom, car vos façons honnestes</l>
+              <l n="0108" xml:id="fr-0172">Nous donnent grand desir de sçavoir qui vous estes.</l>
+            </lg>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>On m&apos;appelle Lelius.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <lg>
+              <l n="0109" xml:id="fr-0174">Point ne nous à trompé vostre grave presence,</l>
+              <l n="0110" xml:id="fr-0175">Manifestant le bien que souvent en absence</l>
+              <l n="0111" xml:id="fr-0176">Du Romain Lelius nous avions entendu,</l>
+              <l n="0112" xml:id="fr-0177">Dont par tout l&apos;univers le nom est espandu</l>
+              <l n="0113" xml:id="fr-0178">Mais je voy mon seigneur un des vostres sortir</l>
+              <l n="0114" xml:id="fr-0179">Qui de ceulx de leans vous pourra advertir.</l>
+            </lg>
+          </sp>
+          <sp who="#SEC">
+            <speaker>Second Soldat.</speaker>
+            <p>Voicy bien à propoz Lelius, lequel j&apos;allois trouver, Mon seigneur, jay à vous dire aucunes choses s&apos;il vous plaist les entendre.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Parle, n&apos;oublie pas me conter du grant buttin qui est faict dans le chasteau.</p>
+          </sp>
+          <sp who="#SEC">
+            <speaker>Second Soldat.</speaker>
+            <p>Je ne vous parleray point de buttin, Ayant este occupé par le Roy à aultre chose.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Quelle occupation a-il leans si non de faire assembler les richesses qui y sont?</p>
+          </sp>
+          <sp who="#SEC">
+            <speaker>Second Soldat.</speaker>
+            <p>Occuppation de festoier sa nouvelle espouse.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Quelle espouse?</p>
+          </sp>
+          <sp who="#SEC">
+            <speaker>Second Sol.</speaker>
+            <p>Sophonisba fille de Hasdrubal.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Sophonisba femme de Siphax?</p>
+          </sp>
+          <sp who="#SEC">
+            <speaker>Second Sol.</speaker>
+            <p>Celle mesmes, dy-je, qui estoit Royne.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Masinissa la il espousée?</p>
+          </sp>
+          <sp who="#SEC">
+            <speaker>Second Sol.</speaker>
+            <p>Je vous asseure, je ne parle point en vain.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>O estrange cas, O audace insuportable!</p>
+          </sp>
+          <sp who="#SEC">
+            <speaker>Second Sol.</speaker>
+            <p>La chose est comme je dy.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Mais ou estoit elle? ou la veid-il premierement?</p>
+          </sp>
+          <sp who="#SEC">
+            <speaker>Second Sol.</speaker>
+            <p>En la place devant le chasteau.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Que luy dist-il d&apos;entree?</p>
+          </sp>
+          <sp who="#SEC">
+            <speaker>Second Sol.</speaker>
+            <p>Elle parla à luy la premiere.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Comment, de l&apos;espouser?</p>
+          </sp>
+          <sp who="#SEC">
+            <speaker>Second Sol.</speaker>
+            <p>Ha non, mais elle luy requist seulement un don.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Et quoy? la liberté?</p>
+          </sp>
+          <sp who="#SEC">
+            <speaker>Second Sol.</speaker>
+            <p>Ouy de ne tumber en povoir d&apos;aucun Romain.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Et il la luy promist franchement.</p>
+          </sp>
+          <sp who="#SEC">
+            <speaker>Second Sol.</speaker>
+            <p>Mais bien la refusa-il quant à cela.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Que feist elle lors estant refusee?</p>
+          </sp>
+          <sp who="#SEC">
+            <speaker>Second Sol.</speaker>
+            <p>Elle se mist à l&apos;en requerir avec plus grande instance.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Et luy se laissa vaincre.</p>
+          </sp>
+          <sp who="#SEC">
+            <speaker>Second Sol.</speaker>
+            <p>Il luy accorda tout ce qu&apos;elle sceut demander.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>O temerite! et comment le povoit il faire?</p>
+          </sp>
+          <sp who="#SEC">
+            <speaker>Second Sol.</speaker>
+            <p>Je ne sçay respondre de son intention.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Qui peult induire à faire si folle promesse?</p>
+          </sp>
+          <sp who="#SEC">
+            <speaker>Second Sol.</speaker>
+            <p>Amour, grande beauté, Et douces parolles.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Il estoit bien saison de faire l&apos;amour parmy les armes.</p>
+          </sp>
+          <sp who="#SEC">
+            <speaker>Second Sol.</speaker>
+            <p>Mon seigneur, il n&apos;est saison ny exercice sur qui amour n&apos;ait commandement.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Apres ceste promesse que devindrent ilz?</p>
+          </sp>
+          <sp who="#SEC">
+            <speaker>Second Sol.</speaker>
+            <p>Nous nous en allasmes les accompaigner dans le chasteau.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Et la il l&apos;espousa.</p>
+          </sp>
+          <sp who="#SEC">
+            <speaker>Second Sol.</speaker>
+            <p>Non pas promptement, car elle feist des remonstrances de son mary vivant et d&apos;un petit enfant de deux ans, qu&apos;elle à de luy, pour tousjours retarder comme, je croy, l&apos;affaire: Mais en fin la necessité de la presente fortune feist qu&apos;elle se accorda à luy auquel son pere l&apos;avoit aultres fois accordee.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>L&apos;entendement est la plus belle chose que Dieu ait conceddee aux hommes, mais bien souvent la grande prosperité l&apos;aveugle, cestuy cy qui tousjours avoit este tenu pour homme prudent s&apos;est laissé cheoir en une grande erreur pour se trouver victorieulx: et luy à esté sa felicité plus dommageable en le rendant insoleent, Que ne furent oncques ses pertes en Espaigne.</p>
+          </sp>
+          <sp who="#SEC">
+            <speaker>Second Sol.</speaker>
+            <p>Monsieur voiez masinissa qui sort du chasteau.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Je l&apos;avois bien apperceu, mais va t&apos;en qu&apos;il ne te voie avec moy, car je ne veulx qu&apos;il pense que j&apos;aie rien entendu de son faict.</p>
+          </sp>
+          <sp who="#SEC">
+            <speaker>Second Sol.</speaker>
+            <p>Bien Monsieur.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Tenez vous prestz trestous pour m&apos;acompaigner, tantost au temple à la sollennité. Et toy, va t&apos;en au camp et fay diligence de m&apos;advertir de ce qu&apos;on y faict.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Il ne fault aultre advertisseur que moy, qui vient tout maintenant de la.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>O Lelius, je n&apos;avois pas encores tourné ma veue de ce costé pour vous voir. Dites moy je vous prie Scipion est il arrivé avec le reste des forces?</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Il n&apos;y à guieres qu&apos;il est arrivé pres d&apos;icy, et ma mandé que je luy envoye Siphax et les aultres prisonniers que nous avons.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Ce sera bien faict.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>C&apos;est ce qui m&apos;a faict un peu tarder, mais voila Caton qui les à en sa compaignie, dictes luy qu&apos;il attende un peu, affin qu&apos;il y puisse mener ensamble Sophonisba.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Eh il n&apos;est point besoing d&apos;y mener la Royne.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Pourquoy n&apos;i va elle avec les autres?</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Pour-ce qu&apos;elle est femme, et ne seroit pas chose honneste qu&apos;elle allast en la trouppe des soldatz.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Ce respect ne doit point avoir de lieu la ou est son mary.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Envoiez ce pendant les autres: car il ne serviroit de rien de haster tant la Royne, et l&apos;homme saige ne doit jamais faire chose qui ne serve.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Serve ou non serve je l&apos;y veux resoluement envoyer.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Lelius, ne me faictes point un si grand desplaisir, car le tort et desplaisir desplaist mesmes à Dieu.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Quel tort et quel desplaisir vous fais-je faisant ce qui est raisonnable de faire des prisonniers?</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Ceste cy ne se doit nullement mettre au rang des prisonniers, car elle est ma femme.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Comment vostre femme, ne l&apos;est elle pas de Siphax.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Elle estoit premierement à moy, mais Siphax me l&apos;osta: et maintenant avec vostre aide je l&apos;ay recouverte.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Je n&apos;ay point à m&apos;enquerir de ce qui s&apos;est faict parcidevant: elle s&apos;est trouvée femme de Siphax, lequel, son Royaume, sa femme, ses enfans, et ses tresors appartiennent au Senat et peuple de Rome.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Elle n&apos;est plus à Siphax, mais à moy qui l&apos;ay espousée comme chacun l&apos;à veu.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Vous l&apos;avez espousée, et en quel lieu?</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>En ce pallais, dont je viens de sortir.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>En ce Chasteau? en maison ennemye? sans nostre sceu? ha vous avez faict chose indigne de vous.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Je l&apos;ay faict avec bonne raison, et meilleure esperance.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>L&apos;esperance de ce qui n&apos;est point raisonnable est bien souvent la ruine des hommes.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Je choisiray plus tost avoir mal pour bien faire, qu&apos;avoir du bien pour avoir mal faict.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Je sçay bien que vous n&apos;ignorez point qu&apos;il n&apos;est rien si utille aux hommes que le sçavoir, et que celuy ne se doit tenir pour sçavant ny saige qui ne l&apos;est pour soy. Considerez doncq apart vous maintenant ce que vous avez faict, metant apart la passion qui bien souvent trouble le jugement, et vous congnoistrez avec combien mauvais conseil vous avez prinse à femme Sophonisba, laquelle en premier lieu vous est mortelle ennemye, et puis esclave du peuple Romain. Pour lequel recompenser du Roiaume ou il vous à remis, et de cestuy cy qu&apos;il vous à octroié, vous le voulez frauder d&apos;une prisonniere, et l&apos;espouser estant encores en armes contre le debvoir, et sans en demander nostre advis. Ha n&apos;avez vous point de honte seullement de l&apos;oir racompter? laissez la je vous prie, Car ce n&apos;est pas peu de gaing d&apos;abandonner une mauvaise entreprise. Cecy pourroit estre un brandon qui enflammeroit vostre maison et vostre pays. Si l&apos;affection vous esblouit, supportez la un peu, et puis vous verrez clair: car en ceste vie le doux quelque fois devient amer, et puis revient apres en la doulceur.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <lg>
+              <l n="0115" xml:id="fr-0247">O que j&apos;ay peur qu&apos;un vain espoir nous trompe.</l>
+              <l n="0116" xml:id="fr-0248">Et qu&apos;un malheur le desseing interrompe</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene" n="3">
+          <head>Histoire servant d&apos;argument à ceste Tragedie.</head>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Ainsi comme sans quelque grande occasion on ne doit point estimer homme de bien un qui ait esté mal vivant: ainsi ne doit on legerement tenir pour meschant un qui ait accoustumé de bien faire. Or puis qu&apos;ainsi va que je suis blasmé d&apos;une œuure dont je m&apos;atendois avoir louange, qui est d&apos;avoir aidé à une pauvre affligée, et ma femme. Je veulx avec quelque raison monstrer que j&apos;en suis reprins à tort. Il est congneu à tout le monde que Hasdrubal filz de Gisgon, me donna Sophonisba sa fille en mariage, et puis me mena avec luy en Espaigne, me traictant et favorisant comme son gendre: Durant lequel temps Syphax à qui ceste femme plaisoit grandement, et la desiroit avoir, se feist ennemy des Carthaginois, et s&apos;alia de vous autres: Dont le Senat à Carthage qui le vouloit fort gaigner en sa devotion, pour le gratifier, luy permit espouser Sophonisba, sans le sceu de son pere ny de moy: qui à mon retour luy en fey la guerre, combien que la fortune ne m&apos;y feust pas si bonne comme estoit ma querelle: et qu&apos;en lieu de recouvrer ma femme, j&apos;y perdy mon Royaume, et presque la vie. Ores je l&apos;ay reconquise avec vostre faveur, dont je confesse vous estre eternellement obligé, et delibere vous faire veoir par bons offices que qui faict plaisir, plaisir en doit attendre. Quel mal fay-je doncq de reprendre celle qui m&apos;appartient? et que j&apos;avois tousjours cherché de r&apos;avoir. Si cela ne m&apos;estoit concedé, je serois de bien pire condition que ne fut Siphax auquel leur senat l&apos;octroia bien, sans qu&apos;il y eust droict: Et vous m&apos;en dessaisirez la tenant à juste raison? Et si en la prenant je n&apos;ay observé le temps, le lieu, ny la mode que vous y requerez, cela peult estre erreur, mais non pas coulpe. Vous dictes qu&apos;elle m&apos;est ennemye, il est impossible, car onc je ne luy pourchassay desplaisir, ouy bien à Siphax. Et encores à elle ay-je faict plaisir. Je ne veulx point entrer en consideration de mon portement avec vous, ne de combien moy et mes gens avons servy à voz affaires. Il me suffit de ne vous estre point inutille amy, et de meriter que lon me porte quelque respect meileur que de me refuser, ou pour mieux dire, m&apos;oster ma femme, mesmement apres m&apos;avoir liberallement donné un Royaume: Car qui refuse le moins apres avoir donné le plus, semble vouloir perdre le gré du premier fruict: De sorte que je vous prie ne m&apos;exorter point de la laisser, mais plus tost m&apos;aidez à la conserver.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <lg>
+              <l n="0117" xml:id="fr-0250">Ayez, seigneur, de ce bon Roy pitié</l>
+              <l n="0118" xml:id="fr-0251">De foy si rare, et si juste amytié.</l>
+            </lg>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Quand un homme se r&apos;avise d&apos;une faulte qu&apos;il à faicte, et à par-soy s&apos;en repent, il merite qu&apos;on luy pardonne, et en peult on bien esperer: mais de celuy qui la soustient et l&apos;excuse, on ne peult penser aultre chose si non qu&apos;il est habandonné et incorrigible. Je ne veulx plus consommer de parolles avec vous Car il n&apos;est pas bon Medecin qui voit que le mal requiert le feu, et ferrement, et y use de charmes. Sus soldatz entrez leans, et comment que ce soit amenez moy la Royne en bonne et seure garde.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>S&apos;il y a homme si hardy que d&apos;y mettre le pied, je luy feray arrouser ceste porte de son sang.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>O quelle braeté, et quoy cuidez vous venir au dessus de toute nostre armée?</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Je ne puis supporter que lon m&apos;oste ce qui m&apos;est plus cher que la vie.</p>
+          </sp>
+          <sp who="#CAT">
+            <speaker>Caton.</speaker>
+            <p>Gardez bien leans tous ces prisonniers: je voy icy s&apos;aprester un debat duquel pourroit bien sortir une grande ruyne et pource je veulx metre peine de l&apos;appaiser.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Caton, avez vous veu l&apos;arrogance de Masinissa, et comme il nous menasse.</p>
+          </sp>
+          <sp who="#CAT">
+            <speaker>Caton.</speaker>
+            <p>J&apos;ay veu tout vostre different.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Je suis fort aise que vous laiez entendu, pour sçavoir de qui vient le tort.</p>
+          </sp>
+          <sp who="#CAT">
+            <speaker>Caton.</speaker>
+            <p>Ce seroit bien faict de rompre le chemin à ceste vostre querelle sans plus fort en attirer le feu et y metre du bois: Pource que l&apos;inimitie qui se met entre amys est plus aspre que nulle autre. Et quasi jamais ne se peult arracher si on luy laisse prendre racine. Quant à moy, je vous diray ce qui m&apos;en semble et soit pris comme on vouldra. Car on doibt porter honneur à la verité. L&apos;un et l&apos;autre me semblez hors de vous mesmes, et que vous cherchez donner ennuy à tous voz amys et faire plaisir à voz ennemis: Ou vous laissez vous transporter de la colere? ne considerez vous point en quelle ville vous estes? Et parmy quelle nation? Je parle à vous premier, Lelius, pource que vous avez icy plus de puissance, et ou il est question de debattre pour la raison. Le plus fort pour son honneur, doibt pourvoir à ce que le plus foible ne soit de faict oultrogé. Ne vous obstinez doncq point je vous prie, à vouloir tout promptement emmener d&apos;icy par force Sophonisba, ains la laissez en ce chasteau, pour cy apres en estre faict ce que Scipion en ordonnera. Mais vous aussy Roy Masinissa, qu&apos;avez vous en pensee de faire? Seriez vous bien si mal conseillé de vouloir la guerre contre les Romains, pour l&apos;amour d&apos;une femme? O ha pour dieu ne leur vueillez rendre si mauvaise recompense, de la grace qu&apos;ilz vous ont faicte, en vous reconquerant vostre pays. Il n&apos;est rien pire au monde, ne qui tant merite d&apos;estre hay, que celluy qui ne recongnoist, ou il peult, le bien qu&apos;il à receu. Car tant qu&apos;en luy est, il estainct la source de liberalité: Et pour son exemple degouste ceulx qui ont moyen de secourir la necessité, mais oultre cela, ne vous advisez vous pas que telle guerre ne peult tourner si non à vostre toute evidente ruine. Ce consideré je vous prie et admoneste l&apos;un et lautre que toute collere mise en arriere, vous vous rapportiez à ce que Scipion en ordonnera.</p>
+          </sp>
+          <sp who="#LEL">
+            <speaker>Lelius.</speaker>
+            <p>Caton, vostre parler est si saige, que j&apos;aurois honte d&apos;y contredire n&apos;y contrevenir: mais ce jeune Roy icy me semble un peu avantageulx, et veult par trop, tout ce qu&apos;il veult: Toutesfois je feray en cela tout ce qu&apos;il vous semble pour le mieulx.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Je serois bien de lasche cueur et homme de nulle valleur, si je me laissois emmener ma femme devant mes yeulx: ce neantmoins je suis trescontent de m&apos;en tenir à ce que Scipion en arrestera.</p>
+          </sp>
+          <sp who="#CAT">
+            <speaker>Caton.</speaker>
+            <p>C&apos;est assez, puis que tous deux estes d&apos;accord de vous raporter à la sentence de Scipion, il n&apos;en fault plus contester. Ce pendant je m&apos;en vais devant au camp luy mener les prisonniers, et vous viendrez apres ensemble le plus tost que vous pourrez.</p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="4">
+          <head>Troisiesme Intermedie</head>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <lg>
+              <l n="0119" xml:id="fr-0264">Las je pensois estre venue</l>
+              <l n="0120" xml:id="fr-0265">Au bout de ma convenue</l>
+              <l n="0121" xml:id="fr-0266">Qui plus ne pourroit empirer.</l>
+              <l n="0122" xml:id="fr-0267">Mais voyant or, se retirer</l>
+              <l n="0123" xml:id="fr-0268">Et si facillement se rendre</l>
+              <l n="0124" xml:id="fr-0269">Celluy qui ausa entreprendre</l>
+              <l n="0125" xml:id="fr-0270">De nous sauvegarde nouvelle,</l>
+              <l n="0126" xml:id="fr-0271">Neufve peur de rechef me gele</l>
+              <l n="0127" xml:id="fr-0272">Le cueur, opressé de martyre:</l>
+              <l n="0128" xml:id="fr-0273">Si ne sçay plus ou me retire,</l>
+              <l n="0129" xml:id="fr-0274">N&apos;y de quel costé me tourner,</l>
+              <l n="0130" xml:id="fr-0275">Me voiant ainsy mal mener,</l>
+              <l n="0131" xml:id="fr-0276">De l&apos;esperance tromperesse,</l>
+              <l n="0132" xml:id="fr-0277">Pasture des nays à destresse.</l>
+              <l n="0133" xml:id="fr-0278">Si c&apos;est fatable destinee</l>
+              <l n="0134" xml:id="fr-0279">Qui m&apos;ait à ces maulx condannee,</l>
+              <l n="0135" xml:id="fr-0280">Je sçay bien à la fin que vaine</l>
+              <l n="0136" xml:id="fr-0281">Sera toute prudence humaine</l>
+              <l n="0137" xml:id="fr-0282">Et qu&apos;apres tout nous tumberons</l>
+              <l n="0138" xml:id="fr-0283">Soubz le faiz, et succomberons</l>
+              <l n="0139" xml:id="fr-0284">Si Dieu qui tout peult et tout veoit</l>
+              <l n="0140" xml:id="fr-0285">Par sa clemence n&apos;y pourveoit.</l>
+              <l n="0141" xml:id="fr-0286">N&apos;aiant donc plus d&apos;autre recours</l>
+              <l n="0142" xml:id="fr-0287">Seigner, qu&apos;a ton divin secours,</l>
+              <l n="0143" xml:id="fr-0288">Nous te supplions humblement</l>
+              <l n="0144" xml:id="fr-0289">De vouloir pitoyablement</l>
+              <l n="0145" xml:id="fr-0290">Garder de viollant oultrage</l>
+              <l n="0146" xml:id="fr-0291">Cestuy nostre jeune et tendre eage:</l>
+              <l n="0147" xml:id="fr-0292">Et sauver celle honnesteté</l>
+              <l n="0148" xml:id="fr-0293">Qui jusques icy à esté</l>
+              <l n="0149" xml:id="fr-0294">Par nous deffendue a l&apos;encontre.</l>
+              <l n="0150" xml:id="fr-0295">De mille aguetz que lon recontre,</l>
+              <l n="0151" xml:id="fr-0296">Passant ceste vie traistresse</l>
+              <l n="0152" xml:id="fr-0297">Mais ores je voy qu&apos;on luy dresse</l>
+              <l n="0153" xml:id="fr-0298">Tout à l&apos;environ un assault,</l>
+              <l n="0154" xml:id="fr-0299">Si aspre, que sy Dieu d&apos;enhault</l>
+              <l n="0155" xml:id="fr-0300">N&apos;a pitie n&apos;y estant sa main</l>
+              <l n="0156" xml:id="fr-0301">Rien n&apos;y vauldra secours humain.</l>
+              <l n="0157" xml:id="fr-0302">Ottroye donc Seigneur piteux</l>
+              <l n="0158" xml:id="fr-0303">A ce peuple calamiteux</l>
+              <l n="0159" xml:id="fr-0304">Ta paix, et dispose le cueur</l>
+              <l n="0160" xml:id="fr-0305">Du vaillant Scipion vaincueur,</l>
+              <l n="0161" xml:id="fr-0306">A souffrir que par son ottroy</l>
+              <l n="0162" xml:id="fr-0307">Sophonisba la Royne au Roy</l>
+              <l n="0163" xml:id="fr-0308">Masinissa soit concede</l>
+              <l n="0164" xml:id="fr-0309">Non point au triomphe gardee.</l>
+            </lg>
+          </sp>
+          <sp who="#SCI">
+            <speaker>Scipion.</speaker>
+            <p>Voicy les prisonniers que lon m&apos;ameine et celluy qui marche le premier devant tous les autres est le miserable Roy Siphax qui me faict grande pitié: Et en effect le voyant en si pitoyable estat je resoubz en moymesme que tous tant que nous sommes de vivans sur la terre ne sommes qu&apos;umbres et songe de fumée. O Dieux en quelle Majesté, et en quelle hautesse je le vy lors que Hasdrubal et moy arrivasmes tous deux à un mesme jour en sa maison! Cela nous monstre bien que la fortune ressemble proprement à verre, qui plus est clair, plus est dangereux à rompre: et n&apos;y a jamais homme tant aymé des Dieux qui se puisse promettre asseurance de sa fortune et de son estat pour un seul jour.</p>
+          </sp>
+          <sp who="#CAT">
+            <speaker>Caton.</speaker>
+            <p>Scipion, les prisonniers sont arrivez, ordonnez ce qu&apos;il vous plaist en estre faict.</p>
+          </sp>
+          <sp who="#SCI">
+            <speaker>Scipion.</speaker>
+            <p>Que tous les autres soient serrez en ces tantes la, et tenus bien seurement: Le Roy Siphax demourera icy avec moy.</p>
+          </sp>
+          <sp who="#CAT">
+            <speaker>Caton.</speaker>
+            <p>Il y a grande foulle de peuple accourue de toutes pars pour les voir, nous aurons beaucoup à faire à les conduire jusques la.</p>
+          </sp>
+          <sp who="#SCI">
+            <speaker>Scipion.</speaker>
+            <p>Quelle malheureuse fortune Siphax vous à conduit à faire accord avec noz ennemys sans avoir satisfaict à la ligue et à la foy premierement jurée avec nous? Et vous à davantaige esmeu à prendre les armes contre le peuple Romain qui les avoit prinses pour vous contre ceux de Carthage.</p>
+          </sp>
+          <sp who="#SIP">
+            <speaker>Siphax.</speaker>
+            <p>La seule cause, Scipion, en à esté l&apos;amour de Sophonisba, laquelle estant affectionée envers son pays, autant ou plus que dame le sçauroit estre, et m&apos;ayant tellement enflammé le cueur de l&apos;amour de sa bonne grace, et de son incomparable beauté, qu&apos;elle avoit toute puissance de disposer de moy à sa volonte, sceut si tresbien dire que finablement elle me retira de vostre alliance, et me tourna du tout à celle de son pays. Ainsi m&apos;a elle consequemment reduit du comble de la felicité ou vous m&apos;avez autresfois veu, en l&apos;abisme de misere, ou vous me voiez maintenant, En laquelle toutesfois encores ay-je reconfort que le plus grand ennemy que j&apos;aye en ce monde l&apos;a prinse pour sa femme, Car j&apos;ay bonne esperance qu&apos;il ne sera point plus constant que j&apos;ay esté, ains à l&apos;adventure pour la jeunesse en laquelle il se treuve, plus esblouy de l&apos;amour, et plus leger: dont finablement s&apos;en ensuyvra sa ruyne, laquelle me sera reconfort et vengeance tresagreable de la mienne. Au reste s&apos;il est vray que la prosperité acquiere les amys, et l&apos;adversité les espreuve, vous n&apos;aurez jamais occasion plus grande de faire congnoistre au monde, combien vous estes digne de l&apos;amytié de tous ceux qui estiment la vertu, si sans avoir esgard ny à la faulte que j&apos;ay commise, ny à la calamité en quoy je suis encouru, vous vous monstrez en ce mien extreme besoing souvenant de l&apos;amitié privée que nous avons autresfois contractée ensemble.</p>
+          </sp>
+          <sp who="#SCI">
+            <speaker>Scipion.</speaker>
+            <p>
+              <seg type="aside">(le desirant)</seg>
+            </p>
+          </sp>
+          <sp who="#SIP">
+            <speaker>Siphax.</speaker>
+            <p>Je ne vous demande point liberté, sachant tresbien qu&apos;il n&apos;est point en vous de la me donner n&apos;y ne crains point à mourir: Car qui se treuve en l&apos;estat ou je suis ne peult si non gaigner, en perdant bien tost la vie. Mais je desirerois que l&apos;on executast promptement ce qui doibt estre faict de moy sans me faire languir en tourment.</p>
+          </sp>
+          <sp who="#SCI">
+            <speaker>Scipion.</speaker>
+            <p>N&apos;aiez doubte de telle chose: Car de ma part vous sera faict tout le bon traictement qu&apos;il m&apos;est permis de faire à un prisonnier ennemy: Qu&apos;il soit conduict en mon logis et songneusement gardé. Au demeurant traicté non comme prisonnier de guerre, mais comme mien amy.</p>
+          </sp>
+          <sp who="#SIP">
+            <speaker>Siphax.</speaker>
+            <p>Dieu vous doint heureuse yssue de ceste vostre entreprinse, et de toute autre aussy. Puis que vous estes tel que non seulement voz gens, mais encores voz ennemys, sont contrainctz de vous aymer.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <p>He Dieux tant j&apos;ay de douleur et de pitié au cueur, quand je considere le piteux estat ou ce miserable prince est reduict, Qui n&apos;agueres estoit si grand, si riche, et si puissant Roy, et ores tout à coup se trouve esclave prisonnier et indigent de toutes choses.</p>
+          </sp>
+          <sp who="#SCI">
+            <speaker>Scipion.</speaker>
+            <p>Avez vous point noté les parolles de Siphax? quand il m&apos;a dict que les persuasions de Sophonisba ont esté les poingnans aiguillons qui l&apos;ont incité contre nous: Cela me faict penser qu&apos;il sera bon de pourveoir à ce que ses doulx attraiz ne nous soustraient encores ceste aultre icy.</p>
+          </sp>
+          <sp who="#CAT">
+            <speaker>Caton.</speaker>
+            <p>J&apos;ay entré dedans la ville, et ay parlé à Masinissa lequel m&apos;a dict qu&apos;il estoit contant de s&apos;en remetre et rapporter à vostre ordonnance.</p>
+          </sp>
+          <sp who="#SCI">
+            <speaker>Scipion.</speaker>
+            <p>Estimez vous qu&apos;il soit pour se contenter que lon la luy oste?</p>
+          </sp>
+          <sp who="#CAT">
+            <speaker>Caton.</speaker>
+            <p>Je pense qu&apos;il le fera bien à regret.</p>
+          </sp>
+          <sp who="#SCI">
+            <speaker>Scipion.</speaker>
+            <p>C&apos;est tout un pourveu qu&apos;il le face: car des remeddes que lon applicque aux blesseures il n&apos;y en a point qui soient si douloureux que ceux qui sont ordinairement les plus salutaires.</p>
+          </sp>
+          <sp who="#CAT">
+            <speaker>Caton.</speaker>
+            <p>Voile-cy venir en personne, parles en vous mesmes avecques luy.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <p>Helas seigneur quelle batterie s&apos;appareille contre vostre amour et desir.</p>
+          </sp>
+          <sp who="#SCI">
+            <speaker>Scipion.</speaker>
+            <p>Vous soyez le bien venu Roy Masinissa, Car à la verité vostre valeur merite toute louange. J&apos;oy tant de personnes qui s&apos;accordent à exalter les haulx exploictz de prouesse et de prudence, que vous avez faictz en la bataille, que je vous en seray en mon particulier obligé eternellement, mais oultre cela le Senat et Peuple Romain vous en rendront le loyer que vous meritez: car ilz n&apos;ont jamais accoustumé de laisser un bon service sans le remunerer.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <p>Ce propoz me donne quelque esperance.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Je ne veulx point nier que je ne sois bien aise d&apos;entendre que je vous aye approuve mon devoir, car aussy à la verité y ay-je faict entierement ce que j&apos;ay peu, sans aultrement en esperer recompense. Car le plus grand loier que j&apos;en sçaurois recevoir à mon gré, est que mon service soit agreable à un peuple sy honorable.</p>
+          </sp>
+          <sp who="#SCI">
+            <speaker>Scipion.</speaker>
+            <p>Retirez vous un peu à part vous aultres, et nous laissez icy Masinissa et moy tous seulz.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <p>Tirons nous un peu à l&apos;escart jusques à ce que nous saichons ce qui devra estre de Sophonisba.</p>
+          </sp>
+          <sp who="#SCI">
+            <speaker>Scipion.</speaker>
+            <p>
+              <seg type="aside">(avec ce seul vice d&apos;incontinence)</seg>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="5">
+          <head>Autre partie de l&apos;argument de ceste Tragedie.</head>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Je vous respondray en peu de parolles, seigneur Scipion, à fin que vous ne me condamniez ainsi sans avoir ouy mes raisons. Ce n&apos;a point esté appetit desordonné qui m&apos;a induit à contracter ce que j&apos;ay faict avec Sophonisba: ains à esté genereuse pitié, et l&apos;estimez en cela ne faire point de faulte, mesmement contre le peuple Romain. Je sçay bien que vous estes assez adverty comme le pere d&apos;elle me la promit en mariage premierement: mais Siphax qui depuis en devint amoureux feit tant par ses menaces qu&apos;elle me fut ostée par les seigneurs du Senat de Carthage pour la luy donner: Dont je conceu en moy un tel despit que tousjours depuis je luy en ay faict la guerre: Et à la fin me suis joinct pour cest effect avec vous, la ou vous sçavez comme je me suis porté: et comme j&apos;ay prins prisonnier Hanno: et fuz cause de rompre la gendarmerie de Carthage pres la tour que feit edifier le Roy de Syracine Agathocles. Et depuis quand vous defeistes Hasdrubal en bataille vous sçavez comment j&apos;ay trouvé moyen de vous descouvrir tous les conseilz des ennemys, et comme seul avec mes gens je feis teste à l&apos;armée de Siphax. Mais quel besoing est il de vous raconter par le menu en combien de lieux je vous ay faict service, entendu que nul aultre ne le sçait mieux que vous. Pourtant vous diray-je seulement que sur la confiance d&apos;iceux j&apos;ay prins ma femme qu&apos;un autre m&apos;avoit emblée, à quoy faire m&apos;a encores donné hardiesse ce que par plusieus fois vous m&apos;avez faict promesse de me rendre tout ce que Siphax occupoit du mien. Et si ma propre femme ne m&apos;est restituée que puis-je esperer que lon me rende plus? Toute l&apos;Europe anciennement print les armes, et passa la mer avec plus de mille vaisseaux, et demoura plus de dix ans au siege devant Troye la grande Jusques à ce qu&apos;elle feut prinse, arse, et bruslée: pour faire rendre à Menelaus sa femme Heleine, Qui volontairement s&apos;en estoit fuye avec Paris Alexandre, en la compaignie du quel elle avoit ja bien esté l&apos;espace de vingt ans: et vous ne me voulez pas rendre ceste cy que Siphax m&apos;a ostée par force, et par tromperie il n&apos;y a que trois ans: et qui point n&apos;a esté reconquise avec tant de travaux. Je vous prie au nom des Dieux ne me refusez point un don qui si peu vous couste, et à moy est si cher. Et ne s&apos;estende le courroux et la haine que vous portez à Carthage jusques aux femmes: Ains aient mes services tant de pouvoir envers vous qu&apos;ilz luy Impetrent grace et pardon de son offence, pour tascher de bien faire à son pays: car il est bien raisonnable que pour l&apos;amour d&apos;un bon lon face grace à un mauvais: mais c&apos;est contre tout droict et toute raison, punir un Innocent pour le mesfaict d&apos;autruy.</p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="6">
+          <head>Raisons de Scipion contre Masinissa.</head>
+          <sp who="#SCI">
+            <speaker>Scipion.</speaker>
+            <p>
+              <seg type="aside">(en eschange de luy)</seg>
+            </p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>
+              <seg type="aside">(comment que ce soit)</seg>
+            </p>
+          </sp>
+          <sp who="#SCI">
+            <speaker>Scipion.</speaker>
+            <p>Ceste responce est digne de vous, si en faictes comme mieulx vous semblera, pourveu que nous l&apos;ayons.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Je me retireray doncques en mon logis, pour à part moy penser comment je pourray ensemble satisfaire à vostre voulonté, et à ma foy.</p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="7">
+          <head>Quatriesme Intermedie.</head>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <lg>
+              <l n="0165" xml:id="fr-0339">Amour qui des plus haultains</l>
+              <l n="0166" xml:id="fr-0340">Voluntiers les cueurs attains,</l>
+              <l n="0167" xml:id="fr-0341">Et non guieres jamais hors</l>
+              <l n="0168" xml:id="fr-0342">Des gentilz espritz ne sors,</l>
+              <l n="0169" xml:id="fr-0343">Il n&apos;y à au monde forcé</l>
+              <l n="0170" xml:id="fr-0344">Qui la tienne, rechape, ou force:</l>
+              <l n="0171" xml:id="fr-0345">Et sont tes lacz et fillez</l>
+              <l n="0172" xml:id="fr-0346">D&apos;attraiz doulx emmiellez</l>
+              <l n="0173" xml:id="fr-0347">Si subtillement tendus,</l>
+              <l n="0174" xml:id="fr-0348">Que tous les mieux entendus</l>
+              <l n="0175" xml:id="fr-0349">Ja chenuz et chargez d&apos;ans</l>
+              <l n="0176" xml:id="fr-0350">Encores donnent dedans.</l>
+              <l n="0177" xml:id="fr-0351">Les plus fiers et plus farouches</l>
+              <l n="0178" xml:id="fr-0352">Souffrent voulontiers les touches</l>
+              <l n="0179" xml:id="fr-0353">De tes poignantes sagettes,</l>
+              <l n="0180" xml:id="fr-0354">Que non seullement tu gettes</l>
+              <l n="0181" xml:id="fr-0355">Ça bas, aux pauvres mortelz,</l>
+              <l n="0182" xml:id="fr-0356">Ains la fus aux immortelz</l>
+              <l n="0183" xml:id="fr-0357">Les fais aussi bien sentir,</l>
+              <l n="0184" xml:id="fr-0358">Et ne s&apos;en peult garantir</l>
+              <l n="0185" xml:id="fr-0359">Au ciel mesmes, la hautesse</l>
+              <l n="0186" xml:id="fr-0360">De pas un Dieu ny Deesse:</l>
+              <l n="0187" xml:id="fr-0361">Non plus que dessoubz la Lune</l>
+              <l n="0188" xml:id="fr-0362">N&apos;a plante, ny herbe aucune,</l>
+              <l n="0189" xml:id="fr-0363">Beste, ny chose aiant vie,</l>
+              <l n="0190" xml:id="fr-0364">Qui ne te soit asservie.</l>
+              <l n="0191" xml:id="fr-0365">Mais le servir gracieux</l>
+              <l n="0192" xml:id="fr-0366">Auquel tu t&apos;aimes le mieux</l>
+              <l n="0193" xml:id="fr-0367">Sont les yeulx des belles dames,</l>
+              <l n="0194" xml:id="fr-0368">Au feu desquelz tu enflammes</l>
+              <l n="0195" xml:id="fr-0369">Tes brandons, et d&apos;ou depart</l>
+              <l n="0196" xml:id="fr-0370">Ceste flame qui tout art:</l>
+              <l n="0197" xml:id="fr-0371">Car comme les mathelotz</l>
+              <l n="0198" xml:id="fr-0372">Voyageant dessus les flotz</l>
+              <l n="0199" xml:id="fr-0373">De la mer ont esperance</l>
+              <l n="0200" xml:id="fr-0374">Qu&apos;en fin à port d&apos;assurance</l>
+              <l n="0201" xml:id="fr-0375">Les conduira la certaine</l>
+              <l n="0202" xml:id="fr-0376">Guide de la tramontaine:</l>
+              <l n="0203" xml:id="fr-0377">Ainsi les pauvres forsaires</l>
+              <l n="0204" xml:id="fr-0378">Enferrez sur les gallaires</l>
+              <l n="0205" xml:id="fr-0379">D&apos;amour, n&apos;ont autres estoiles</l>
+              <l n="0206" xml:id="fr-0380">Ne guide à regir leurs voilles</l>
+              <l n="0207" xml:id="fr-0381">Si non les Astres luysans</l>
+              <l n="0208" xml:id="fr-0382">Des yeulx, qui leurs feuz cuisans</l>
+              <l n="0209" xml:id="fr-0383">Ont allumé, c&apos;est le vent</l>
+              <l n="0210" xml:id="fr-0384">Qui tourne et change souvvent</l>
+              <l n="0211" xml:id="fr-0385">Leurs diverses passions,</l>
+              <l n="0212" xml:id="fr-0386">Selon les mutations</l>
+              <l n="0213" xml:id="fr-0387">Des vouloirs de leurs maistresses,</l>
+              <l n="0214" xml:id="fr-0388">Leurs donnant ores detresses,</l>
+              <l n="0215" xml:id="fr-0389">Ores plaisir, ores pleur,</l>
+              <l n="0216" xml:id="fr-0390">Et ores espoir trompeur.</l>
+              <l n="0217" xml:id="fr-0391">Mais quand de ceste ruyne</l>
+              <l n="0218" xml:id="fr-0392">On leur oste l&apos;origine</l>
+              <l n="0219" xml:id="fr-0393">Encores à leur malheur</l>
+              <l n="0220" xml:id="fr-0394">En fondent ilz de douleur.</l>
+              <l n="0221" xml:id="fr-0395">Ainsi leur perte leur plaist,</l>
+              <l n="0222" xml:id="fr-0396">Et leur salut leur desplaist.</l>
+              <l n="0223" xml:id="fr-0397">Je qui n&apos;euz onc la pensé</l>
+              <l n="0224" xml:id="fr-0398">Amour, de tes dards faussée,</l>
+              <l n="0225" xml:id="fr-0399">Sens neantmoins en moymesme</l>
+              <l n="0226" xml:id="fr-0400">Une passion extreme,</l>
+              <l n="0227" xml:id="fr-0401">Oyant les souspirs ardens,</l>
+              <l n="0228" xml:id="fr-0402">Et les sanglotz evidens,</l>
+              <l n="0229" xml:id="fr-0403">Dont ce pauvre Roy aymant</l>
+              <l n="0230" xml:id="fr-0404">Va l&apos;air autour allumant,</l>
+              <l n="0231" xml:id="fr-0405">De façon si vehemente</l>
+              <l n="0232" xml:id="fr-0406">Qu&apos;on l&apos;oyt jusques hors sa tente:</l>
+              <l n="0233" xml:id="fr-0407">C&apos;est signe que la priere</l>
+              <l n="0234" xml:id="fr-0408">Est rejectée en arriere.</l>
+              <l n="0235" xml:id="fr-0409">Helas que nostre Princesse</l>
+              <l n="0236" xml:id="fr-0410">Aura au cueur de tristesse</l>
+              <l n="0237" xml:id="fr-0411">S&apos;il est vray, O que celuy</l>
+              <l n="0238" xml:id="fr-0412">Qui regne au vouloir d&apos;autruy</l>
+              <l n="0239" xml:id="fr-0413">A d&apos;angoisses est soubmis:</l>
+              <l n="0240" xml:id="fr-0414">Las tant je crains ce que mis</l>
+              <l n="0241" xml:id="fr-0415">Il à en un vase d&apos;or</l>
+              <l n="0242" xml:id="fr-0416">Et qu&apos;il à envoyé or&apos;</l>
+              <l n="0243" xml:id="fr-0417">A la Royne. O puissans Dieux:</l>
+              <l n="0244" xml:id="fr-0418">Que ce soit un precieux</l>
+              <l n="0245" xml:id="fr-0419">Joyau, qui la reconforte,</l>
+              <l n="0246" xml:id="fr-0420">Non qui douleur luy apporte.</l>
+            </lg>
+          </sp>
+          <sp who="#GEN1">
+            <speaker>Premier gentilhomme de la Royne.</speaker>
+            <p>Dames esplorées et dolentes, ne demourez plus icy dehors, ains entrez dedans, la ou vous trouverez la Royne qui s&apos;est toute vestue de blanc, et s&apos;appareille pour aller faire ses offrandes au Temple, ou elle desire que vous luy faciez compaignie.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <p>Tu ne sçais donques pas la nouvelle, qui nous tient le cueur en tristesse ny à l&apos;adventure la Royne mesmes, à qui plus il touche de l&apos;entendre. Alons devers elle pour luy aider de noz prieres à pacifier l&apos;ire des Dieux: mais, Helas, j&apos;ay grand peur que ce ne soit trop tard.</p>
+          </sp>
+          <sp who="#GEN1">
+            <speaker>Pre. gentilhomme.</speaker>
+            <p>Nous avons le jour esté occupez à donner ordre à la maison, par le commandement de la Royne, qui à esté cause que nous n&apos;avons peu entendre ce qui s&apos;est faict dehors: mais vous, mes dames, qui le sçavez, puis qu&apos;ainsi est que vous estez en peine, je vous prie nous le faire entendre.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <p>Ha pauvre dame: Helas, tant j&apos;ay de doubte que tu ne nous sois enlevée, Et ne sois emmenée esclave et prisonniere en terre estrange.</p>
+          </sp>
+          <sp who="#GEN2">
+            <speaker>Sec. gentilhomme.</speaker>
+            <p>Comment les nopces accordees, ne viendront elles point à effect? que dictes vous?</p>
+          </sp>
+          <sp who="#GEN1">
+            <speaker>Pre. gentilhomme.</speaker>
+            <p>Le Roy Masinissa ne tiendra il point sa promesse? c&apos;est bien chose estrange qu&apos;il ait le cueur de si tost habandonner une si belle et si vertueuse dame, car il aura assez moyen de la sauver pourveu qu&apos;il le vueille.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <p>Qui n&apos;est le plus fort, il fault qu&apos;il besse la teste: et qu&apos;il ait patience. Malaisement peult le subjet gaigner sa cause à l&apos;encontre de son seigneur. Le Roy ne feroit pas si triste chere s&apos;il ne veioit les choses aller au rebours de sa volonté. Ceste pauvre dame n&apos;a homme qui parle pour elle: Et ne sçauroit avoir si non mavaise nouvelle.</p>
+          </sp>
+          <sp who="#GEN1">
+            <speaker>Pre. gentilhomme.</speaker>
+            <p>O Dieux! qui n&apos;a donc faveur de la fortune, ne fault pas qu&apos;il espere avoir des amys: Les nopces à ce que je voy sont rompues.</p>
+          </sp>
+          <sp who="#GEN2">
+            <speaker>Sec. gentilhomme.</speaker>
+            <p>Je vay devant, pour advertir la Royne que vous estes arrivees.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <p>Rien ne nous est encores asseuré, mais nous sommes tant agravées de mal, que tout signe, moins que bon, nous faict tousjours imaginer le pis, qui nous sçauroit advenir. Ce que le Roy se tient ainsi r&apos;enfermé dedans sa tante, sans sortir dehors, et que nous l&apos;avons entendu gemir et souspirer si fort, faict que nous perdons toute esperance de bien. O pauvre Royne desolée! pendant que tu t&apos;aprestes pour cuider faire honneur à ton nouvel espoux, tu recevras en eschange quelque nouvelle douleur. O combien te sera dure l&apos;ambassade de celuy qui te viendra dire qu&apos;il fault que tu t&apos;en ailles prisonniere au camp des ennemys, pour desormais vivre tousjours esclave des Romains. Helas à y penser seulement le cueur me fend de destresse, qu&apos;il faille qu&apos;une beauté si excellente tumbe en servage de si cruelles mains. O Seigneur Dieu, je te supplie fais que ce soit une crainte vaine. Helas voicy l&apos;une des femmes de la Royne qui sort du Chasteau toute esplorée, et se tourmente merveilleusement.</p>
+          </sp>
+          <sp who="#FEM1">
+            <speaker>Femme premiere, de la Royne.</speaker>
+            <p>O moy malheureuse! o mienne vie miserable!</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <p>Helas, que veult dire ceste lamentation si douloureuse?</p>
+          </sp>
+          <sp who="#FEM1">
+            <speaker>Femme pre.</speaker>
+            <p>Las qui seroit le cueur si dur qui se pourroit tenir de lamenter voyant ce que j&apos;ay veu?</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <p>Quelle chose avez vous veue? O Dieux! tant vostre parler m&apos;estrainct le cueur de nouvelle fraieur.</p>
+          </sp>
+          <sp who="#FEM1">
+            <speaker>Femme pre.</speaker>
+            <p>Vous le verrez vous mesmes tantost.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <p>Dictes le nous vistement, sans nous tenir plus en suspens.</p>
+          </sp>
+          <sp who="#FEM1">
+            <speaker>Femme pre.</speaker>
+            <p>Nous perdons la Royne tout presentement.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <p>Nous la perdons? helas, et ou doibt elle aller?</p>
+          </sp>
+          <sp who="#FEM1">
+            <speaker>Femme pre.</speaker>
+            <p>Au lieu dont jamais on ne retourne.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <p>Comment? jamais ne retourne celluy qui meurt.</p>
+          </sp>
+          <sp who="#FEM1">
+            <speaker>Femme pre.</speaker>
+            <p>Aussi mourra elle.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <p>Elle mourra? o griefve perte! o douleur encores plus angoisseuse que je ne pensay oncques! Helas, dictes moy je vous prie tout au long comme la chose va.</p>
+          </sp>
+          <sp who="#FEM1">
+            <speaker>Femme pre.</speaker>
+            <p>Apres que le Roy Masinissa est sorty du Chasteau, la Royne incontinant à faict parer tous les Autelz de Festons, de Lierre et de Meurte. Et elle mesme aussi s&apos;est parée de ses plus beaulx et plus riches habitz blancs. Auquel accoustrement il la faisoit si bon voir, que je ne pense pas que le Soleil ait oncq veu rien de plus beau, mais sur le point qu&apos;elle mettoit à part certains Joiaulx pour aller presenter à la deesse Juno, a ce que luy pleust estre favorable à ses nouvelles espousailles, voicy arriver un escuier de Masinissa, portant en sa main une couppe pleine de poyson, lequel s&apos;estonna un peu d&apos;arrivee. Mais apres s&apos;estre revenu, il dit ces parolles, ma dame, le Roy mon maistre m&apos;envoie devers vous, et vous mande par moy que voullontiers il vous eust tenu sa premiere promesse: Mais puis qu&apos;un autre plus puissant luy en à osté le moien, à tout le moins vous tient il sa seconde. C&apos;est que si vous voulez, vous ne tumberez point vivante en la puissance des Romains: vous conseillant en cest endroit, acte digne de noble sang, dont vous estes yssue. Ces parolles ouytes, la Royne à tendu la main, et prins la couppe, avec un visaige constant et asseuré. Puis à respondu au porteur, vous direz à vostre maistre, que sa nouvelle espouse accepte de bon cueur le premier present qu&apos;il Luy envoye, qu&apos;ainsy est qu&apos;il ne luy en peult envoyer de meilleur. Vray, que moins luy greveroit le mourir, si elle ne se fust point remariee en ses funerailles. Cela dit, elle à fait un peu de pause, tenant tousjours la couppe en sa main: Puis à recommencé à dire, l&apos;on ne doibt jamais laisser de faire honneur aux dieux pour quelque inconvenient qui advienne. Ainsy à posé la couppe, puis elle à prins le coffret, ou elle avoit mis les joiaulx dont elle vouloit faire offrande à Juno. Et s&apos;en est allee au temple, la ou devant l&apos;autel à genoulx elle à devotement prononcé ces parolles: O Royne du ciel avant que de mourir, qui sera premier que le Soleil se couche au jourd&apos;huy, je vous viens offrir ces oblations, premieres et dernieres, bien differentes de celles que j&apos;esperois n&apos;agueres vous presenter vous suppliant que si jamais l&apos;humble service de ma devotion, vous à esté agreable: Et si jamais vostre bonté à eu compassion de ceste pauvre province d&apos;Africque, il vous plaise ores regarder en pitié ce petit enfant, lequel s&apos;en va demourer privé de pere et de mere, avant que d&apos;arriver au deuxiesme an de son aage: Et le preserver de l&apos;ignominie de servitude. Non ja en la maniere que je m&apos;en garantiray maintenant ains plus heureusement, de sorte que les ans qui par mort precipitee seront sustraitz à ma vie, soient adjoustez à la sienne: à fin qu&apos;a l&apos;advenir il puisse estre resource de son infortuné lignaige. En apres vous plaise aussy avoir pitie de ces pauvres miennes femmes, que je laisse comme brebiettes au milieu des loups affamez. Prenez en protection s&apos;il vous plaist, leur honneur leur vie. Ces parolles dictes elle s&apos;en est retournee en sa chambre, la ou sans delaier elle à prins et beu constamment tout le poison entierement, sans en rien laisser.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <p>O pauvre Dame! Le cueur me disoit bien que ce present d&apos;une couppe que je vey envoier, n&apos;apporteroit qui nous deust plaire: mais achevez je vous prie de nous compter le demeurant.</p>
+          </sp>
+          <sp who="#FEM2">
+            <speaker>Femme seconde.</speaker>
+            <p>Mais ce qui m&apos;a semblé en ce cas plus esmerveillable, c&apos;est qu&apos;elle à fait et dict toutes choses, sans jeter une seulle larme d&apos;œil, n&apos;y tirer un seul souspir: et sans changer seulement de voix n&apos;y de couleur. Cela fait elle à commandé tirer hors de ses coffres un beau et riche drap de soye, et un aultre de lin. Et se tournant devers nous aultres, nous à dict, Mes bonnes amyes, je vous prie que quand je seray passee de ceste vie, vous ensevelissiez mon corps dedans ces draps, pour le metre en sepulture. Puis elle s&apos;est assise dessus son lict: Et prenant son petit filz entre ses bras, à tiré adonc un souspir trenchant du plus parfond de son estomac, en disant, Ha pauvre enfant, tu ne sçais pas en quelle misere tu demeures, Qui est le mieulx que je voie en tout malheur. Dieu te face plus heureux que ton pere et moy n&apos;avons esté. En disant ces parolles, elle le serre estroictement contre son sein, et baise si affectueusement, que deux ruisseaux de larmes luy sont tout à un coup sortiz des yeux en grande abondance. Quoy voiant chascune de nous est aussy incontinent fondue en pleurs, si chauldement que nous ne pouvions former une seule parolle jusques à ce qu&apos;elle mesmes s&apos;est tournee pardevers nous, et nous à toutes baisees l&apos;une apres l&apos;autre, en nous disant, Mes bonnes amies, voicy le dernier jour que vous me verrez jamais, Adieu vous dis. Et vous demande pardon, si jamais j&apos;ay offencé aucune de vous. Or jugez maintenant si en telle amertume de douleur j&apos;ay occasion suffisante de plorer plaindre gemir et lamenter.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <p>O tromperesse esperance! O pauvres humains aveuglez! helas, comme toutes choses ressortissent au rebours du vostre pensee. Mais pourquoy estez vous yssue d&apos;avec la Royne?</p>
+          </sp>
+          <sp who="#FEM2">
+            <speaker>Femme seconde.</speaker>
+            <p>Pource qu&apos;elle s&apos;est retiree en son cabinet, ou elle veult faire à part un sacrifice aux dieux, pour les prier de donner facille passaige à sa mort. Et ce pendant m&apos;envoié vous querir afin de vous voir, et vous dire aussi le dernier Adieu avant que d&apos;expirer.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <p>Helas, allons devers elle, mais dictes nous, que faisoit durant ces piteulx Adieux Herminia qui l&apos;ayme si cherement?</p>
+          </sp>
+          <sp who="#FEM1">
+            <speaker>Femme pre.</speaker>
+            <p>La pauvrette n&apos;a rien sceu de ceste douloreuse nouvelle, si non que bien tart, estant ailleurs empeschée, à preparer les bagues de la Royne, pour la solemnité des nopces infortunée. Mais soudain qu&apos;elle en à senty le vent, elle est accourue criant commme femme hors du sens, en s&apos;arrachant les cheveux, destordant les mains, et se deschirant le visaige, plorant, et l&apos;amentant, si deseperement qu&apos;elle eust faict fendre les Rochers de pitié.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <p>Helas, quand sera ceste malheureuse maison en repoz? qui tous les jours se va plus avant abismant de malheur en malheur: et si n&apos;en peult encores arriver au fond. Qu&apos;elle esperance luy est plus demeurée entre tant de maulx? Helas, c&apos;est bien maintenant qu&apos;il nous fault laisser tous habitz de joye, pour faire ce peu que nous povons d&apos;honneur aux vertus de la plus accomplie et plus excellente princesse qui fut oncq.</p>
+          </sp>
+          <sp who="#FEM1">
+            <speaker>Femme pre.</speaker>
+            <p>He Dieu! ce sont bien aspres et cuisantes pointures de la fortune indignée, que celles cy, mes dames, Helas combien de malheurs, combien d&apos;angoisses et de douleurs sont tumbées coup à coup sur ceste pauvre dame. O Estoilles du Ciel: O Soleil: O Lune: O Dieu Eternel! qui en dispenses à ta volonté: et de qui la puissance peult changer le cours de la fatalle destinée, te plaise retourner tes yeux de pitié vers nostre pauvre maistresse, à tout le moins ores qu&apos;elle est prochaine de sa mort.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <p>Infortuné Hasdrubal que feras tu? quand tu entendras la mort de ta chere fille, Helas, il m&apos;est advis que le piteux cry de tes lamentations m&apos;en sonne desja aux oreilles. O pauvre vieille mere: qui n&apos;agueres avois dequoy te reputer l&apos;une des heureuses du monde, Comment pourras tu en ta vieillesse porter une si grande surcharge de douleur? Rien ne sera le reste de ta vie, aumoins si tu peulx survivre un continuel torrent de pleurs, qui sans fin tumbera de tes pauvres yeux: mais voicy la Royne. O qu&apos;elle destresse me saisist le cueur en la voiant.</p>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>
+              <seg type="aside">(s&apos;il plaist à Dieu)</seg>
+            </p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <p>
+              <seg type="aside">(avec nostre infiny regret)</seg>
+            </p>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>
+              <seg type="aside">(de cela suis-je toute asseurée)</seg>
+            </p>
+          </sp>
+          <sp who="#HER">
+            <speaker>Herminia.</speaker>
+            <p>
+              <seg type="aside">(par manierre de dire)</seg>
+            </p>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>
+              <seg type="aside">(par aucune rigueur d&apos;ennemye fortune)</seg>
+            </p>
+          </sp>
+          <sp who="#HER">
+            <speaker>Herminia.</speaker>
+            <p>Dieu luy doint la grace de venger un jour noz pertes et publiques et privees sur ceux qui nous les ont procurees.</p>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>Davantaige, vous estes pour en peu de jours retourner à Carthage, la ou vous exposeres à mes parens l&apos;occasion et la maniere de ma mort: laquelle recitee par vous, portera avec soy tout reconfort, quand vous leurs declareres comme pour eviter l&apos;ignominie de servitude, et ne faire honte à mon lignaige, j&apos;ay voluntairement esleu de boire du mortel poison en la fleur de ma jeunesse. Et si ferez compaignie à ma mere, qui vous à de long temps éleve pour femme de mon frere. Ainsi tiendres vous au pres d&apos;elle lieu de fille et d&apos;espouse de son filz. Pourtant ma chere sœur et amye je vous requiers et vous conjure par l&apos;amityé que vous me portes, Que vous aies pacience de demeurer encores quelques annees en ce monde: Car assez tost aurons nous moien d&apos;estre en l&apos;autre eternellement ensemble. Ne me prives de ce reconfort en telle extremité, à ce que je m&apos;en puisse aller avec l&apos;espoir de vostre survivance. Cela m&apos;adoucira l&apos;aigreur du passage: Pource que vous survivante je ne mourray pas toute, ains demourera en ce monde la meilleur partie de moy.</p>
+          </sp>
+          <sp who="#HER">
+            <speaker>Herminia.</speaker>
+            <p>Lasse moy je ne sçay comment vous desdire n&apos;y comment vous obeyr: Car si ce n&apos;est qu&apos;une personne puisse vivre de douleur, je ne voy pas qu&apos;il soit possible qu&apos;en telle angoisse je vous survive.</p>
+          </sp>
+          <sp who="#SOP">
+            <speaker>Sophonisba.</speaker>
+            <p>Si feres, quand il vous souviendra que c&apos;est à la conjuration de ma derniere priere: Et qu&apos;en ce faisant vous vous acquiteres d&apos;un devoir de pitié. Et feres envers moy office d&apos;amitié. Mais avant que l&apos;ennemy mortel que voluntairement J&apos;ay receu en mon corps commence à faire ses efforts, pour en chasser mon ame et ma vie, il fault pour le mieulx que je me retire en ma chambre, pour me preparer à mourir.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <lg>
+              <l n="0247" xml:id="fr-0462">Las trop s&apos;abuse qui fonde</l>
+              <l n="0248" xml:id="fr-0463">En chose de ce bas monde</l>
+              <l n="0249" xml:id="fr-0464">Le but de son esperance:</l>
+              <l n="0250" xml:id="fr-0465">Au ciel fait sa demeurance</l>
+              <l n="0251" xml:id="fr-0466">La vraie felicité</l>
+              <l n="0252" xml:id="fr-0467">Sans peril d&apos;aversité:</l>
+              <l n="0253" xml:id="fr-0468">Car c&apos;est la ou point ne regne</l>
+              <l n="0254" xml:id="fr-0469">C&apos;este inevitable chayne</l>
+              <l n="0255" xml:id="fr-0470">Des contraires, qui se cedent</l>
+              <l n="0256" xml:id="fr-0471">L&apos;un à l&apos;autre, et se succedent,</l>
+              <l n="0257" xml:id="fr-0472">Comme le jour à la nuict.</l>
+              <l n="0258" xml:id="fr-0473">Et paix qui la guerre suit,</l>
+              <l n="0259" xml:id="fr-0474">Le plorer est joint au rire,</l>
+              <l n="0260" xml:id="fr-0475">Et joye douleur atire,</l>
+              <l n="0261" xml:id="fr-0476">Et brief, icy bas par tout,</l>
+              <l n="0262" xml:id="fr-0477">Si le bien est à un bout,</l>
+              <l n="0263" xml:id="fr-0478">Le mal son alternatif,</l>
+              <l n="0264" xml:id="fr-0479">Vient tost apres plus hastif</l>
+              <l n="0265" xml:id="fr-0480">C&apos;est la au dessus du temps</l>
+              <l n="0266" xml:id="fr-0481">Ou sont les espritz contans,</l>
+              <l n="0267" xml:id="fr-0482">Qui plus ne peuvent vieillir</l>
+              <l n="0268" xml:id="fr-0483">N&apos;y leur rigueur defaillir:</l>
+              <l n="0269" xml:id="fr-0484">Car tousjours y dure un estre,</l>
+              <l n="0270" xml:id="fr-0485">Sans diminuer n&apos;y croistre:</l>
+              <l n="0271" xml:id="fr-0486">Au contraire n&apos;y à chose</l>
+              <l n="0272" xml:id="fr-0487">Soubz la Lune qui repose</l>
+              <l n="0273" xml:id="fr-0488">En un estat longuement,</l>
+              <l n="0274" xml:id="fr-0489">Et ne souffre changement:</l>
+              <l n="0275" xml:id="fr-0490">Il n&apos;y a rien qui demeure</l>
+              <l n="0276" xml:id="fr-0491">Long temps vif et qui ne meure</l>
+              <l n="0277" xml:id="fr-0492">A la fin. Or quand ce sont</l>
+              <l n="0278" xml:id="fr-0493">Mutations, qui se font</l>
+              <l n="0279" xml:id="fr-0494">Peu à peu sans violence,</l>
+              <l n="0280" xml:id="fr-0495">Nature moins s&apos;en offense:</l>
+              <l n="0281" xml:id="fr-0496">Et sont de nous telles pertes</l>
+              <l n="0282" xml:id="fr-0497">Plus facillement souffertes.</l>
+              <l n="0283" xml:id="fr-0498">Mais quand d&apos;une haute cime.</l>
+              <l n="0284" xml:id="fr-0499">D&apos;honneur, on tumbe en l&apos;abisme</l>
+              <l n="0285" xml:id="fr-0500">De toute calamité,</l>
+              <l n="0286" xml:id="fr-0501">En si griefve extremité,</l>
+              <l n="0287" xml:id="fr-0502">Il n&apos;est si ferme couraige</l>
+              <l n="0288" xml:id="fr-0503">Qui n&apos;esbransle un tel orage.</l>
+              <l n="0289" xml:id="fr-0504">Si est-ce que les grands Princes,</l>
+              <l n="0290" xml:id="fr-0505">Roys et seigneurs des provinces,</l>
+              <l n="0291" xml:id="fr-0506">Sont plus subgetz à telz saulx</l>
+              <l n="0292" xml:id="fr-0507">Que leurs plus petitz vassaux.</l>
+              <l n="0293" xml:id="fr-0508">Comme la fouldre tousjours</l>
+              <l n="0294" xml:id="fr-0509">Presque donne aux hautes tours:</l>
+              <l n="0295" xml:id="fr-0510">Et des plus grandes montaignes</l>
+              <l n="0296" xml:id="fr-0511">Tousjours ez plaines campaignes</l>
+              <l n="0297" xml:id="fr-0512">Tumbent les grosses rivieres:</l>
+              <l n="0298" xml:id="fr-0513">Aussi larmes coustumieres.</l>
+              <l n="0299" xml:id="fr-0514">Et regretz les plus perceans</l>
+              <l n="0300" xml:id="fr-0515">Sont propres aux plus puissans.</l>
+              <l n="0301" xml:id="fr-0516">Siphax le malheureux Roy</l>
+              <l n="0302" xml:id="fr-0517">De numidie, en faict foy,</l>
+              <l n="0303" xml:id="fr-0518">Qui n&apos;agueres loy donnoyt</l>
+              <l n="0304" xml:id="fr-0519">A tant d&apos;hommes qu&apos;il tenoit</l>
+              <l n="0305" xml:id="fr-0520">Dessoubz son obeissance,</l>
+              <l n="0306" xml:id="fr-0521">Et avoit en sa puissance</l>
+              <l n="0307" xml:id="fr-0522">Tant de beaulx et grands pays,</l>
+              <l n="0308" xml:id="fr-0523">Qui sont ores envahys,</l>
+              <l n="0309" xml:id="fr-0524">Et luy prisonnier es mains</l>
+              <l n="0310" xml:id="fr-0525">Des victorieux Romains.</l>
+              <l n="0311" xml:id="fr-0526">Mais plus d&apos;angoisse me donne</l>
+              <l n="0312" xml:id="fr-0527">Sophonisba, noste bonne</l>
+              <l n="0313" xml:id="fr-0528">Princesse, que tant j&apos;ay veue</l>
+              <l n="0314" xml:id="fr-0529">De toutes graces pourveue</l>
+              <l n="0315" xml:id="fr-0530">Dont le ciel embellir peult</l>
+              <l n="0316" xml:id="fr-0531">Ceux qui mieux douer il veult.</l>
+              <l n="0317" xml:id="fr-0532">Que j&apos;ay veue tant aymée</l>
+              <l n="0318" xml:id="fr-0533">Tant haultement sublimée,</l>
+              <l n="0319" xml:id="fr-0534">En tout triomphe mondain:</l>
+              <l n="0320" xml:id="fr-0535">Et ores la voy soudain</l>
+              <l n="0321" xml:id="fr-0536">En la fleur de son bel aage</l>
+              <l n="0322" xml:id="fr-0537">Pour s&apos;exempter de servage,</l>
+              <l n="0323" xml:id="fr-0538">Estre contraincte de boire</l>
+              <l n="0324" xml:id="fr-0539">Du poison. Ainsi la gloire,</l>
+              <l n="0325" xml:id="fr-0540">Et toute autre chose passe,</l>
+              <l n="0326" xml:id="fr-0541">En ceste region basse.</l>
+              <l n="0327" xml:id="fr-0542">Mais que veult Masinissa</l>
+              <l n="0328" xml:id="fr-0543">Qui vient si grand pas en ça</l>
+              <l n="0329" xml:id="fr-0544">Viendroit il point pour cuider</l>
+              <l n="0330" xml:id="fr-0545">La royne de mort garder,</l>
+              <l n="0331" xml:id="fr-0546">Trop est loing le secourable</l>
+              <l n="0332" xml:id="fr-0547">Quand le mal est incurable.</l>
+            </lg>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>J&apos;ay grand peur à voir la triste chere et les visages esplorez de ses dames de Cirte, que je ne sois tart arrivé, car j&apos;ay resolu en moymesme, comment que ce soit, voyre jusques à mettre ma vie en peril, de n&apos;abandonner point la Royne Sophonisba: ains plus tost secrettement la faire enlever, quand la nuict sera venue, et conduire par une trouppe de mes chevaux legers, qui s&apos;iront rendre à ceux de Carthage. Toutesfois celuy que j&apos;y avois envoyé m&apos;a raporté qu&apos;elle avoit posé la couppe ou estoit le poison: et s&apos;en estoit allée visiter quelques temples pour faire ses prieres aux Dieux.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <p>Ha, Sire, si tost qu&apos;elle à eu achevé ses prieres, elle l&apos;a reprinse, et avant que personne survint qui l&apos;en peut destourner, à beu tout ce qui estoit dedans. Puis comme estant certaine de sa mort, nous à dit le dernier Adieu, à toutes, et s&apos;est retirée en sa chambre, avec sa chere Herminia et ses femmes.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Ha Dieu y auroit il point encores de remede en luy donnant du contrepoison?</p>
+          </sp>
+          <sp who="#FEM3">
+            <speaker>Femme troisies.</speaker>
+            <p>He Dieux! Helas! comment n&apos;esclate ce pauvre corps de la douleur qu&apos;il sent? Que ne s&apos;en vont tous mes espritz espendus en souspirs? Que ne sont mes yeux tournez en deux fontaines, pour eternellement plorer ceste perte irrecouvrable.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Ha Dieu, c&apos;est faict, je voy bien qu&apos;il n&apos;y a plus d&apos;esperance.</p>
+          </sp>
+          <sp who="#FEM3">
+            <speaker>Femme troisies.</speaker>
+            <p>O monde obscur et tenebreux, ton Soleil est estaint, tu ne verras plus sa lumiere.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Dictes moy, dame, la cause de vostre dueil.</p>
+          </sp>
+          <sp who="#FEM3">
+            <speaker>Femme iii.</speaker>
+            <p>Ha Sire!</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Qui à il? dictes le moy.</p>
+          </sp>
+          <sp who="#FEM2">
+            <speaker>Femme secon.</speaker>
+            <p>Nous sommes perdues.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Comment?</p>
+          </sp>
+          <sp who="#FEM2">
+            <speaker>Femme secon.</speaker>
+            <p>La Royne est morte.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Morte! ha pauvre Dame! si tost? O malheureulx que je suis! pourquoy ay-je tant arresté? Qui à vouloir de faire euvre bonne ne doibt jamais differer. O faulte irreparable que j&apos;ay commise! Je vous prie revenez un peu à vous, et m&apos;exposez un peu au long comment elle est passee.</p>
+          </sp>
+          <sp who="#FEM2">
+            <speaker>Femme seconde.</speaker>
+            <p>
+              <seg type="aside">(Quand on n&apos;est plus en honneur)</seg>
+            </p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>O gentil cueur de dame! de tant plus estois tu digne de longue vie que moins tu as redoubté la mort.</p>
+          </sp>
+          <sp who="#FEM2">
+            <speaker>Femme secon.</speaker>
+            <p>Jusques icy, elle à tousjours parlé fermement, mais quand elle à voulu particulierement adresser sa parolle à Herminia, alors la voix luy à commencé à changer, mesmement quand luy à livré son petit filz entre ses mains, en luy disant: Chere Herminia, ce qui plus me reconforte au partir de ce monde c&apos;est que je vous y laisse apres moy, pour avoir soing de ce petit orfelin, qui pert son pere et sa mere en l&apos;aage qu&apos;il en à plus de besoing. Je le deporte entre vos mains, comme joyau que j&apos;ay plus cher que ma vie: comme gaige de nostre amitié, comme image vive de ma personne, laquelle ayant tousjours aupres de vous ne vous pourrez plaindre que je vous aye abandonnee. Ces parolles estoient coup à coup entrerompues de groz sanglotz, et de larmes, tumbantes avec telle impetuosité quelles sembloient un torrent qui rompt à force tout ce qu&apos;on luy mect audevant. Ja luy commençoient les membres fort à trembler, et pource l&apos;avons nous couchee sur un lict, la ou tendant les deux braz à Herminia, qui estoit plus morte que vive, luy à dict, ma chere amye que je vous embrasse pour la derniere fois: vous m&apos;estes icy au lieu de mere, de frere, et de toute ma parenté. Si vous prie de faire envers moy ce dernier office de pitié, Quand je seray tantost passee, de me clorre les yeulx. Adieu vous dy car plus n&apos;en puis. Sur ce point elle à commencé à perdre la parolle, et est entrée en l&apos;agonie des traitz de la mort: ou elle n&apos;a jamais monstré signe quelconque d&apos;entendement aliene de soy: ains contre la detresse de la douleur, la vigueur de son couraige à esté si grande, qu&apos;elle à tousjours surmonté, sans faire aultre demonstration d&apos;impatience, que de souspirer, jusques à ce que finablement, l&apos;esprit est sorty du corps, emportant, quant et soy, toute nostre esperance. Et estaignant tout ce qu&apos;il y avoit de parfaite beauté, douceur, courtoisie, et bonté en ce monde.</p>
+          </sp>
+          <sp who="#MAS">
+            <speaker>Masinissa.</speaker>
+            <p>Or t&apos;en va doncques noble et gentille ame au repoz des bien heurez espritz, qui ont tousjours eu l&apos;honneur plus cher que la vie. Que maudit soit celuy qui premierement me garda de l&apos;espouser. Et maintenant à esté cause de ta mort si precipitee. Si la fortune m&apos;a osté les moiens de te sauver la vie, ja ne mostera elle la volunté n&apos;y la puissance de faire à ton corps l&apos;honneur de sepulture Royal: Et de tout ce que lon peult faire pour consacrer la memoire d&apos;une si vertueuse Princesse.</p>
+          </sp>
+          <sp who="#DAM">
+            <speaker>Dames.</speaker>
+            <lg>
+              <l n="0333" xml:id="fr-0566">Ce qui de nous tous doit estre</l>
+              <l n="0334" xml:id="fr-0567">Est escript au grand volumen</l>
+              <l n="0335" xml:id="fr-0568">Des cieulx, avant nostre naistre,</l>
+              <l n="0336" xml:id="fr-0569">Qui de la premier s&apos;allume.</l>
+              <l n="0337" xml:id="fr-0570">Trop de soymesme presume</l>
+              <l n="0338" xml:id="fr-0571">Qui cuide s&apos;en exempter,</l>
+              <l n="0339" xml:id="fr-0572">Soit doulceur ou amertume</l>
+              <l n="0340" xml:id="fr-0573">Force est de s&apos;en contenter.</l>
+            </lg>
+          </sp>
+          <trailer>Fin.</trailer>
+        </div2>
+      </div1>
+    </body>
+    <back/>
+  </text>
+</TEI>

@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0724_MartaLaPieuse/34",{"lines":[["act-3","l3041","III, 3041",0,"v","se termine mon malheur,"],["act-3","l3042","III, 3042",0,"v","mais il reste nos erreurs!"]],"speakers":["Don Felipe"]});

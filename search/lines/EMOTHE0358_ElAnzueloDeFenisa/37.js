@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0358_ElAnzueloDeFenisa/37",{"lines":[["act-3","l3229","III, 3229",0,"v","Aquí se acaba, senado,"],["act-3","l3230","III, 3230",0,"v","El anzuelo de Fenisa."]],"speakers":["Camilo"]});

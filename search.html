@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Search — EMOTHE</title>
+    <link rel="preload" href="assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/site.js" defer>
+    </script>
+  </head>
+  <body data-ln="5">
+    <header class="bar">
+      <a class="wordmark" href="index.html">EMOTHE</a>
+      <nav aria-label="Site">
+        <a href="index.html">
+          catalogue
+        </a>
+        <a href="search.html" aria-current="page">search</a>
+        <a href="about.html">about</a>
+      </nav>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary>Filters</summary>
+        
+    <div data-search-facets></div>
+  
+      </details>
+      <main id="main">
+  <h1>Search</h1>
+  <noscript>
+    <p>Search needs JavaScript. <a href="index.html">Browse the catalogue</a> instead.</p>
+  </noscript>
+  <form data-search-form role="search" hidden>
+    <label for="q" class="sr-only">Search the texts</label>
+    <input id="q" name="q" type="search" autocomplete="off" placeholder="Search every line of every play">
+    <fieldset class="mode">
+      <legend class="sr-only">Match</legend>
+      <label><input type="radio" name="mode" value="word"> Whole word</label>
+      <label><input type="radio" name="mode" value="prefix" checked> Starts with</label>
+    </fieldset>
+    <button type="submit">Search</button>
+  </form>
+  <p class="lede" data-search-count aria-live="polite"></p>
+  <div data-search-results></div>
+  <script src="assets/search.js" defer>
+  </script>
+</main>
+    </div>
+    <footer class="foot">
+      
+      <p>EMOTHE · version 0.1.0 · built 2026-10-08</p>
+      <p>
+        A static edition following the <a href="https://endings.uvic.ca/principles.html">Endings principles</a>; every play's TEI-XML source is published beside it.
+      </p>
+    </footer>
+  </body>
+</html>

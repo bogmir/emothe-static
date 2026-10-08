@@ -1,0 +1,2354 @@
+<?xml version="1.0" ?>
+<TEI xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Coriolan</title>
+        <title type="edicion">&quot;Coriolan&quot; de Alexandre Hardy: Edición TEI para EMOTHE</title>
+        <title key="orden">Coriolan</title>
+        <title key="archivo">EMOTHE0638_Coriolan</title>
+        <author ana="fiable">Alexandre Hardy</author>
+        <author key="orden">Hardy, Alexandre</author>
+        <sponsor>
+          <orgName>Plan Nacional de Investigación Científica, Desarrollo e Innovación Tecnológica (Plan Nacional de I+D+i)</orgName>
+        </sponsor>
+        <funder>
+          <orgName>Ministerio de Ciencia, Innovación y Universidades, Ministerio de Economía y Competitividad – Agencia Estatal de Investigación -FEDER/ERDF: &quot;Teatro europeo de los siglos XVI y XVII: patrimonio y bases de datos&quot; (EMOTHE) ref. FFI2016-80314-P (2016-12-30 /2019-12-31); Programa Estatal Redes de Excelencia, &quot;Red del Patrimonio Teatral Clásico Español&quot;, ref. FFI2015-71441-REDC (2015-12-01 / 2017-11-30); Ministerio de Ciencia e Innovación, &quot;Base de datos, argumentos y textos del teatro clásico español&quot;, ref. FFI2012-34347 (2013-02-01 / 2016-12-31); Ministerio de Ciencia e Innovación, &quot;Patrimonio teatral clásico español: textos e instrumentos de investigación&quot;, ref. CSD 2009-00033 (2009-12-17 / 2014-12-13); Ministerio de Ciencia e Innovación, &quot;ARTELOPE. Base de datos, argumentos y textos del teatro clásico español&quot;, ref. FFI2009-12730 (2010-01-01 / 2012-12-31)</orgName>
+        </funder>
+        <principal>Joan Oleza Simó</principal>
+      </titleStmt>
+      <editionStmt>
+        <edition>Edición electrónica de &apos;Coriolan&apos;</edition>
+        <respStmt>
+          <resp>Edición</resp>
+          <persName>Tronch Pérez, Jesus</persName>
+        </respStmt>
+      </editionStmt>
+      <extent ana="verso">1353 versos</extent>
+      <publicationStmt>
+        <publisher>
+          <orgName>ARTELOPE Universitat de València</orgName>
+        </publisher>
+        <idno type="code">EMOTHE0638_Coriolan</idno>
+        <idno type="EMOTHE">0638</idno>
+        <pubPlace>Valencia</pubPlace>
+        <date></date>
+        <authority>
+          <orgName>Universitat de València - Estudi General. http://www.uv.es</orgName>
+        </authority>
+        <availability>
+          <p>La Colección EMOTHE: The Classics of Early Modern European Theatre pertenece al proyecto ARTELOPE y ofrece en la web textos completos en acceso abierto, según la licencia que se indique. Se ruega citar la procedencia: &quot;Oleza, Joan et al. EMOTHE: The Classics of Early Modern European Theatre. Valencia: ARTELOPE Universitat de València, 2010-. https://emothe.uv.es/biblioteca/&quot;</p>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr">Ce(tte) œuvre est mise à disposition selon les termes de la Licence Creative Commons Attribution - Pas d&apos;Utilisation Commerciale - Pas de Modification 4.0 International (CC BY-NC-ND 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Coriolan</title>
+          <author>Hardy, Alexandre</author>
+          <editor>García Calderón, Ángeles</editor>
+          <lang>Francés</lang>
+          <note>Hardy, Alexandre. &lt;&lt;Coriolan&gt;&gt; . Édité et annoté par Ángeles García Calderón, pour la collection EMOTHE. Valencia: ARTELOPE Universitat de València, 2019</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>La Colección de Textos Clásicos Europeos (CTCE) supone la creación de una base de datos de Teatro canónico clásico europeo en diferentes idiomas, versiones y refundiciones, todas ellas hipervinculadas.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Las presentes ediciones digitales están basadas, en su mayor parte, en ediciones científicas de reconocido prestigio y se ha tratado, en la mayoría de ocasiones, de respetar sus criterios de edición. Solo en casos muy puntuales el editor digital ha introducido leves cambios de los que da cumplida cuenta en el apartado de &quot;Notas&quot;.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fr-FR">Français</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>
+            <title>Coriolan</title>
+          </titlePart>
+        </docTitle>
+        <docAuthor>Alexandre Hardy</docAuthor>
+      </titlePage>
+      <div type="argumento">
+        <head>ARGUMENT</head>
+        <p>Trois mots abrégeront ce sujet si bien traité et déduit en toutes ses particularités par Plutarque, en la vie de ce grand Personnage, que j’y renverrai librement puiser le Lecteur, comme à sa vraie source; et suffira de dire, que Coriolan après plusieurs signalés services rendus à sa patrie, est en fin contraint de céder à l’envie du peuple Romain, qui sur des crimes supposés le condamne à un exil perpétuel. Injure tellement sensible et incompatible à ce grand courage, qu’il se résout à la vengeance, à tel prix que ce fût. Se retire à ce dessein vers Amfidie, Capitaine de la Communauté des Volsques, nation puissante, et capitale ennemie des Romains, qui leur avoient soustrait beaucoup de villes. Amfidie le reçoit avec toute sorte de courtoisie, le fait élire en pleine assemblée leur Capitaine général contre les Romains, qu’avec une puissante armée il réduit à se défendre dans la ville de Rome assiégée de toutes parts. Les Romains après quelque résistance, combattus de famine, et de dissensions au dedans, comme d’ennemis par dehors, députent vers Coriolan Ambassadeurs sur Ambassadeurs. Mais sa haine irréconciliable leur propose des conditions de paix tant iniques, honteuses, et hors d’apparence, qu’eux retournez sans rien faire, on lui renvoie les Prêtres en pompe solennelle, afin que la piété l’émût à plus de commisération vers sa misérable patrie, de laquelle son exil avait emporté la bonne fortune ; labeur infructueux en son endroit, comme de celui qui ne respirait que la totale destruction des siens. En ce commun désespoir, à la persuasion et du seul mouvement de Valérie, vertueuse Dame Romaine, de la race de Publicole, sa mère, sa femme et ses enfants l’allèrent trouver en son camp, si bien que leurs prières portèrent coup, et que l’instinct naturel ayant prévalu sur ceste inflexible constance, il fait lever le siège aux Volsques, qui le tuèrent au retour, à la suscitation d’Amfidie, son Corival de gloire, comme traitre à leur communauté, et qui pouvant prendre Rome, en avait fui l’occasion pour gratifier à une mère. Peu de sujets se trouveront dans l’histoire Romaine qui soient plus dignes du Théâtre que celui-ci.</p>
+      </div>
+      <div type="elenco">
+        <castList>
+          <castItem>
+            <role xml:id="Coriolan">Coriolan</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Volomnie">Volomnie</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Ediles">Les Édiles</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Licinie">Licinie</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Chœur_Romains">Chœur de Romains</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Senat">Le Sénat</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Amfidie">Amfidie</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Page">Page</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Ambassadeurs">Ambassadeurs</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Conseil_Volsques">Conseil des Volsques</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Valerie">Valérie</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Dames_Romaines">Troupe de Dames Romaines</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Verginie">Verginie</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Chœur_Volsques">Chœur de Volsques</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Messager">Messager</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Fils_Coriolan">[Le Fils de Coriolan]</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="Edile">Édile</role>
+          </castItem>
+        </castList>
+      </div>
+    </front>
+    <body>
+      <div1 type="act" n="1">
+        <head>ACT I</head>
+        <stage>CORIOLAN, VOLOMNIE, LES ÉDILES, LICINIE, LE CHŒUR, LE SÉNAT.</stage>
+        <div2 type="scene">
+          <head>SCÈNE I</head>
+          <stage>CORIOLAN, VOLOMNIE</stage>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0001" xml:id="em0638-fr-0001">S’il est vrai, Jupiter, que ta dextre équitable</l>
+              <l n="0002" xml:id="em0638-fr-0002">Soit aux actes méchants sévère, et redoutable,</l>
+              <l n="0003" xml:id="em0638-fr-0003">Si tu portes un foudre à venger les méfaits,</l>
+              <l n="0004" xml:id="em0638-fr-0004">Par une tourbe ingrate à l’innocence faits,</l>
+              <l n="0005" xml:id="em0638-fr-0005">Et si des vertueux tu pris onc la querelle,</l>
+              <l n="0006" xml:id="em0638-fr-0006">Ne puniras-tu point l’audace criminelle ?</l>
+              <l n="0007" xml:id="em0638-fr-0007">Et si des vertueux tu pris onc la querelle,</l>
+              <l n="0008" xml:id="em0638-fr-0008">L’irréparable tort, l’affront, l’énorme affront,</l>
+              <l n="0009" xml:id="em0638-fr-0009">Qui me demeure empreint au cœur, et sur le front ?</l>
+              <l n="0010" xml:id="em0638-fr-0010">Ceux que j’ai préservés au péril de ma vie,</l>
+              <l n="0011" xml:id="em0638-fr-0011">Un amas révolté de commune asservie,</l>
+              <l n="0012" xml:id="em0638-fr-0012">Un limon de la terre, une confusion,</l>
+              <l n="0013" xml:id="em0638-fr-0013">Que la licence anime à la rébellion,</l>
+              <l n="0014" xml:id="em0638-fr-0014">À qui j’ai commandé, conducteur des armées,</l>
+              <l n="0015" xml:id="em0638-fr-0015">Qui sait par l’univers mes victoires semées,</l>
+              <l n="0016" xml:id="em0638-fr-0016">Qui ne tient que de moi sa paisible grandeur ;</l>
+              <l n="0017" xml:id="em0638-fr-0017">Conjure mon trépas d’une animeuse ardeur,</l>
+              <l n="0018" xml:id="em0638-fr-0018">Ose m&apos;injurier d’effet et de paroles,</l>
+              <l n="0019" xml:id="em0638-fr-0019">Sans respect de ce nom, qu’aux murs de Corioles</l>
+              <l n="0020" xml:id="em0638-fr-0020">Ma vaillance s’acquit, lorsqu’en un même jour</l>
+              <l n="0021" xml:id="em0638-fr-0021">Cette ville forcée, au camp je fis retour,</l>
+              <l n="0022" xml:id="em0638-fr-0022">Au camp, qui séparé de la ville assiégée</l>
+              <l n="0023" xml:id="em0638-fr-0023">Devançait son secours en bataille rangée,</l>
+              <l n="0024" xml:id="em0638-fr-0024">Où ma dextre invincible aux fatigues de Mars</l>
+              <l n="0025" xml:id="em0638-fr-0025">Ne voulut point tenter de vulgaires hasards,</l>
+              <l n="0026" xml:id="em0638-fr-0026">Ains du Consul obtint la charge de combattre.</l>
+              <l n="0027" xml:id="em0638-fr-0027">Celui qui pensait mieux sa victoire débattre,</l>
+              <l n="0028" xml:id="em0638-fr-0028">L’Antialte vaillant qu&apos;elle rompit soudain,</l>
+              <l n="0029" xml:id="em0638-fr-0029">Arrachant du trépas un Citoyen Romain</l>
+              <l n="0030" xml:id="em0638-fr-0030">En présence de tous, qui ravis de merveille</l>
+              <l n="0031" xml:id="em0638-fr-0031">Jugèrent ma vaillance à l’heure non pareille,</l>
+              <l n="0032" xml:id="em0638-fr-0032">Me virent hors d’haleine, et de plaies couvert,</l>
+              <l n="0033" xml:id="em0638-fr-0033">Tant d&apos;ennemis domptés, tant de travail souffert</l>
+              <l n="0034" xml:id="em0638-fr-0034">Poursuivre néanmoins leur flotte déconfite,</l>
+              <l n="0035" xml:id="em0638-fr-0035">Qu’une couarde peur dispersait à la fuite,</l>
+              <l n="0036" xml:id="em0638-fr-0036">Poursuivre ainsi que fait le Taureau furieux</l>
+              <l n="0037" xml:id="em0638-fr-0037">Dans un pâtis herbu son rival malheureux;</l>
+              <l n="0038" xml:id="em0638-fr-0038">Tel je me comportai, n’affectant que la gloire</l>
+              <l n="0039" xml:id="em0638-fr-0039">D’un salaire public, par ma vertu notoire,</l>
+              <l n="0040" xml:id="em0638-fr-0040">Plus content de me voir le chef environné</l>
+              <l n="0041" xml:id="em0638-fr-0041">De l’arbre de Dodone aux Oracles donné,</l>
+              <l n="0042" xml:id="em0638-fr-0042">D’ouïr chanter mon los par la bouche commune,</l>
+              <l n="0043" xml:id="em0638-fr-0043">Que des trésors enclos sous le rond de la Lune,</l>
+              <l n="0044" xml:id="em0638-fr-0044">Plus content d’apporter à ma mère vainqueur,</l>
+              <l n="0045" xml:id="em0638-fr-0045">Une joie muette, une liesse au cœur,</l>
+              <l n="0046" xml:id="em0638-fr-0046">Recevoir sa louange, et sa douce embrassée,</l>
+              <l n="0047" xml:id="em0638-fr-0047">Qu’avare m’enrichir d’une proie entassée.</l>
+              <l n="0048" xml:id="em0638-fr-0048">Mais que m’aura servi tout ce sang épanché ?</l>
+              <l n="0049" xml:id="em0638-fr-0049">Pourquoi d’un vain honneur fus-je tant alléché ?</l>
+              <l n="0050" xml:id="em0638-fr-0050">Le Serpent de l’envie a de là pris naissance,</l>
+              <l n="0051" xml:id="em0638-fr-0051">Et de mon los croissant reçu son accroissance,</l>
+              <l n="0052" xml:id="em0638-fr-0052">L’envie m’a depuis la haine suscité</l>
+              <l n="0053" xml:id="em0638-fr-0053">D’une commune oisive, en notre grand’ Cité ;</l>
+              <l n="0054" xml:id="em0638-fr-0054">Haine jusqu’à ce point d’insolence venue,</l>
+              <l n="0055" xml:id="em0638-fr-0055">Que n’ayant le Sénat sa rage contenue,</l>
+              <l n="0056" xml:id="em0638-fr-0056">À la mort condamné sans forme de procès,</l>
+              <l n="0057" xml:id="em0638-fr-0057">Tout espoir m’était clos, de repousser l’excès,</l>
+              <l n="0058" xml:id="em0638-fr-0058">Du roc Tarpéien ma tête précipite,</l>
+              <l n="0059" xml:id="em0638-fr-0059">Contentait sa fureur carnassière et dépite ;</l>
+              <l n="0060" xml:id="em0638-fr-0060">Voire encores il faut derechef m’exposer</l>
+              <l n="0061" xml:id="em0638-fr-0061">Aux mensonges brassés qu’il voudra proposer,</l>
+              <l n="0062" xml:id="em0638-fr-0062">Il me convient subir, moi d’une telle race,</l>
+              <l n="0063" xml:id="em0638-fr-0063">L&apos;examen des Tribuns, de cette populace,</l>
+              <l n="0064" xml:id="em0638-fr-0064">Son jugement attendre ? Ô Cieux ! à ce penser</l>
+              <l n="0065" xml:id="em0638-fr-0065">Je rougis, je me dusse en la presse élancer,</l>
+              <l n="0066" xml:id="em0638-fr-0066">Mourant l’épée au poing, en homme magnanime,</l>
+              <l n="0067" xml:id="em0638-fr-0067">Et lavant de son sang un si coupable crime.</l>
+              <l n="0068" xml:id="em0638-fr-0068">Assure, assure-toi hydre cent fois têtu,</l>
+              <l n="0069" xml:id="em0638-fr-0069">Vaisseau toujours d’un vent d’inconstance battu,</l>
+              <l n="0070" xml:id="em0638-fr-0070">Que comme je le vois franc de la Calomnie,</l>
+              <l n="0071" xml:id="em0638-fr-0071">L’injure ne sera longuement impunie.</l>
+              <l n="0072" xml:id="em0638-fr-0072">Ton pouvoir usurpé je réduirai si bas,</l>
+              <l n="0073" xml:id="em0638-fr-0073">Qu’il ne surviendra plus entre nous de débats,</l>
+              <l n="0074" xml:id="em0638-fr-0074">Que j’éteindrai du tout ta rage furieuse ;</l>
+              <l n="0075" xml:id="em0638-fr-0075">Mais ma mère me vient accoster soucieuse.</l>
+            </lg>
+          </sp>
+          <sp who="#Volomnie">
+            <speaker>VOLOMNIE</speaker>
+            <lg type="free" part="M">
+              <l n="0076" xml:id="em0638-fr-0076">Voici le jour fatal qui te donne (mon fils)</l>
+              <l n="0077" xml:id="em0638-fr-0077">Par une humilité tes haineurs déconfits,</l>
+              <l n="0078" xml:id="em0638-fr-0078">Tu vaincras endurant, la fière ingratitude,</l>
+              <l n="0079" xml:id="em0638-fr-0079">Et le rancœur malin de cette multitude.</l>
+              <l n="0080" xml:id="em0638-fr-0080">Tu charmes son courroux d’une soumission ;</l>
+              <l n="0081" xml:id="em0638-fr-0081">Hélas ! ne veuille donc croire à ta passion.</l>
+              <l n="0082" xml:id="em0638-fr-0082">Cède pour un moment, et la voilà contente,</l>
+              <l n="0083" xml:id="em0638-fr-0083">Et tu accoiseras une horrible tourmente,</l>
+              <l n="0084" xml:id="em0638-fr-0084">Qui Rome divisée ébranle à ton sujet :</l>
+              <l n="0085" xml:id="em0638-fr-0085">La piété ne peut avoir plus bel objet,</l>
+              <l n="0086" xml:id="em0638-fr-0086">Et faire mieux paraître à l’endroit d’une mère,</l>
+              <l n="0087" xml:id="em0638-fr-0087">À l’endroit du pays qu’écoutant ma prière.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0088" xml:id="em0638-fr-0088">Madame, on me verrait mille morts endurer,</l>
+              <l n="0089" xml:id="em0638-fr-0089">Plutôt que suppliant sa grâce procurer,</l>
+              <l n="0090" xml:id="em0638-fr-0090">Plutôt qu’un peuple vil à bon titre se vante</l>
+              <l n="0091" xml:id="em0638-fr-0091">D’avoir en mon courage imprimé l’épouvante,</l>
+              <l n="0092" xml:id="em0638-fr-0092">Que ceux qui me devraient reconnaître seigneur,</l>
+              <l n="0093" xml:id="em0638-fr-0093">Se prévalent sur moi du plus petit honneur ;</l>
+              <l n="0094" xml:id="em0638-fr-0094">Moi, fléchir le genou devant une commune ?</l>
+              <l n="0095" xml:id="em0638-fr-0095">Non, je ne le veux faire, et ne crains sa rancune.</l>
+            </lg>
+          </sp>
+          <sp who="#Volomnie">
+            <speaker>VOLOMNIE</speaker>
+            <lg type="free" part="M">
+              <l n="0096" xml:id="em0638-fr-0096">Si est-ce qu’accusé tu réponds devant lui.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0097" xml:id="em0638-fr-0097">J’ai pour moi l’innocence, et le Sénat d’appui.</l>
+            </lg>
+          </sp>
+          <sp who="#Volomnie">
+            <speaker>VOLOMNIE</speaker>
+            <lg type="free" part="M">
+              <l n="0098" xml:id="em0638-fr-0098">« L’innocence souvent cède à la calomnie, »</l>
+              <l n="0099" xml:id="em0638-fr-0099">Ces Tribuns t’ont rendu suspect de tyrannie,</l>
+              <l n="0100" xml:id="em0638-fr-0100">Crime de qui le nom entre tous les humains</l>
+              <l n="0101" xml:id="em0638-fr-0101">Fut, et sera toujours exécrable aux Romains,</l>
+              <l n="0102" xml:id="em0638-fr-0102">Capable d’opprimer, sans forme de justice,</l>
+              <l n="0103" xml:id="em0638-fr-0103">Quiconque du soupçon se trouvera complice.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0104" xml:id="em0638-fr-0104">Le soupçon volontaire aisé de réfuter,</l>
+              <l n="0105" xml:id="em0638-fr-0105">Détriment quel qu’il soit ne me peut apporter.</l>
+            </lg>
+          </sp>
+          <sp who="#Volomnie">
+            <speaker>VOLOMNIE</speaker>
+            <lg type="free" part="M">
+              <l n="0106" xml:id="em0638-fr-0106">Pourvu qu’humilié, je ne fais point de doute,</l>
+              <l n="0107" xml:id="em0638-fr-0107">Qu’absous patiemment le peuple ne t’écoute.sus</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0108" xml:id="em0638-fr-0108">Il n’adviendra jamais que mon humilité</l>
+              <l n="0109" xml:id="em0638-fr-0109">Augmente son crédit, et sa témérité.</l>
+            </lg>
+          </sp>
+          <sp who="#Volomnie">
+            <speaker>VOLOMNIE</speaker>
+            <lg type="free" part="M">
+              <l n="0110" xml:id="em0638-fr-0110">Ô pauvre Volomnie ! ô mère infortunée !</l>
+              <l n="0111" xml:id="em0638-fr-0111">Tu te vois le mépris de ta race obstinée,</l>
+              <l n="0112" xml:id="em0638-fr-0112">Ton conseil, tes raisons, tes prières, tes pleurs</l>
+              <l n="0113" xml:id="em0638-fr-0113">Ne peuvent amortir ces colères chaleurs,</l>
+              <l n="0114" xml:id="em0638-fr-0114">Ni retirer son chef d’une orageuse nue,</l>
+              <l n="0115" xml:id="em0638-fr-0115">Dont tu lui fais de loin découvrir la venue ;</l>
+              <l n="0116" xml:id="em0638-fr-0116">Derechef, mon enfant, mon unique support,</l>
+              <l n="0117" xml:id="em0638-fr-0117">Par les Mânes sacrés de ton géniteur mort,</l>
+              <l n="0118" xml:id="em0638-fr-0118">Par ces mains que j’enlace en ta face guerrière,</l>
+              <l n="0119" xml:id="em0638-fr-0119">Par une piété qui te fut familière</l>
+              <l n="0120" xml:id="em0638-fr-0120">Par ces cheveux grisons, ces mamelles qui t’ont</l>
+              <l n="0121" xml:id="em0638-fr-0121">Autrefois allaité, par ce souci profond,</l>
+              <l n="0122" xml:id="em0638-fr-0122">Qui dévore pour toi mon âme timidée,</l>
+              <l n="0123" xml:id="em0638-fr-0123">Refrène en ce péril ton ire débordée,</l>
+              <l n="0124" xml:id="em0638-fr-0124">Laisse-toi pitoyable à ma plainte fléchir,</l>
+              <l n="0125" xml:id="em0638-fr-0125">Laisse-moi ton esquif à ce gouffre gauchir,</l>
+              <l n="0126" xml:id="em0638-fr-0126">Examine à part toi mon avis salutaire.</l>
+              <l n="0127" xml:id="em0638-fr-0127">Repense que l’orgueil demeure solitaire,</l>
+              <l n="0128" xml:id="em0638-fr-0128">Qui loin de toi qui vis parmi ce peuple franc,</l>
+              <l n="0129" xml:id="em0638-fr-0129">(Aucune fois un Roi démarche de son rang)</l>
+              <l n="0130" xml:id="em0638-fr-0130">Ploie à la volonté de celui qui domine,</l>
+              <l n="0131" xml:id="em0638-fr-0131">Ses forfaits dissimule, et prudent ne s’obstine,</l>
+              <l n="0132" xml:id="em0638-fr-0132">« La patience vainc, elle surmonte tout,</l>
+              <l n="0133" xml:id="em0638-fr-0133">Rien n’est si malaisé qu’elle n’en vienne à bout ».</l>
+              <l n="0134" xml:id="em0638-fr-0134">Témoigne encore un point des plus considérable,</l>
+              <l n="0135" xml:id="em0638-fr-0135">Quand ce pays jouit d’une paix désirable ;</l>
+              <l n="0136" xml:id="em0638-fr-0136">Les hommes comme toi sont les plus négligés,</l>
+              <l n="0137" xml:id="em0638-fr-0137">Les plus d’une commune insolente outragés ;</l>
+              <l n="0138" xml:id="em0638-fr-0138">Elle use de ses chefs ainsi que du Platane,</l>
+              <l n="0139" xml:id="em0638-fr-0139">Que par un temps serein le voyageur profane,</l>
+              <l n="0140" xml:id="em0638-fr-0140">Ébranche ses rameaux, regrettables alors</l>
+              <l n="0141" xml:id="em0638-fr-0141">Qu’un nuage vengeur lui mouille tout le corps :</l>
+              <l n="0142" xml:id="em0638-fr-0142">De même nous voyons à sec sur le rivage</l>
+              <l n="0143" xml:id="em0638-fr-0143">Un vaisseau dépecé par l’injure de l’âge,</l>
+              <l n="0144" xml:id="em0638-fr-0144">Où le Marchant ingrat a dépouillé cent fois</l>
+              <l n="0145" xml:id="em0638-fr-0145">Les avares trésors de l’un et l’autre Indois,</l>
+              <l n="0146" xml:id="em0638-fr-0146">Qui bâtit sa fortune, et préserva sa vie,</l>
+              <l n="0147" xml:id="em0638-fr-0147">Tels, tels sont les effets journaliers de l’envie,</l>
+              <l n="0148" xml:id="em0638-fr-0148">Exemplaires à toi, pour plier adouci,</l>
+              <l n="0149" xml:id="em0638-fr-0149">Pour te tirer de peine, et m’ôter de souci.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0150" xml:id="em0638-fr-0150">Madame, je ferai, (l’honneur sauf) toute chose.</l>
+            </lg>
+          </sp>
+          <sp who="#Volomnie">
+            <speaker>VOLOMNIE</speaker>
+            <lg type="free" part="M">
+              <l n="0151" xml:id="em0638-fr-0151">Écoutons, car quelqu’un a la porte déclose,</l>
+              <l n="0152" xml:id="em0638-fr-0152">Bons Dieux ! c’est un Édile. Ah ! que mes sens troublés.</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene">
+          <head>SCÈNE II</head>
+          <stage>ÉDILE, CORIOLAN, VOLOMNIE, LICINIE, CHŒUR DES ROMAINS, LE SÉNAT.</stage>
+          <sp who="#Edile">
+            <speaker>ÉDILE</speaker>
+            <lg type="free" part="M">
+              <l n="0153" xml:id="em0638-fr-0153">Le Sénat, les Tribuns, et le peuple assemblés</l>
+              <l n="0154" xml:id="em0638-fr-0154">Te mandent, résolus de vider ton affaire,</l>
+              <l n="0155" xml:id="em0638-fr-0155">Donc à leur mandement d’obéir ne diffère.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0156" xml:id="em0638-fr-0156">Allons, puisque le cours d’un inique destin</l>
+              <l n="0157" xml:id="em0638-fr-0157">Nous soumet au pouvoir de cet hydre mutin,</l>
+              <l n="0158" xml:id="em0638-fr-0158">Allons vérifier sa perverse imposture,</l>
+              <l n="0159" xml:id="em0638-fr-0159">Et les Dieux attester contre lui de l’injure.</l>
+            </lg>
+          </sp>
+          <sp who="#Volomnie">
+            <speaker>VOLOMNIE</speaker>
+            <lg type="free" part="M">
+              <l n="0160" xml:id="em0638-fr-0160">Jupiter ! protecteur de notre nation,</l>
+              <l n="0161" xml:id="em0638-fr-0161">Prends mon fils, je te prie, en ta protection,</l>
+              <l n="0162" xml:id="em0638-fr-0162">Inspire son courage, et remets en concorde</l>
+              <l n="0163" xml:id="em0638-fr-0163">Ce pays divisé, par ta miséricorde.</l>
+            </lg>
+          </sp>
+          <sp who="#Licinie">
+            <speaker>LICINIE</speaker>
+            <lg type="free" part="M">
+              <l n="0164" xml:id="em0638-fr-0164">Afin de te purger des crimes imputés,</l>
+              <l n="0165" xml:id="em0638-fr-0165">Crimes contre le bien du public attentés,</l>
+              <l n="0166" xml:id="em0638-fr-0166">Le peuple de par moi (son Tribun) te commande,</l>
+              <l n="0167" xml:id="em0638-fr-0167">Suivant le jour nommé répondre à ma demande.</l>
+              <l n="0168" xml:id="em0638-fr-0168">Pourquoi premièrement, as-tu dissuadé</l>
+              <l n="0169" xml:id="em0638-fr-0169">Au reste du Sénat, le présent accordé</l>
+              <l n="0170" xml:id="em0638-fr-0170">Des blés Siciliens, la donnée en partie,</l>
+              <l n="0171" xml:id="em0638-fr-0171">L’autre en un prix d’argent licité convertie,</l>
+              <l n="0172" xml:id="em0638-fr-0172">Récompense trop due à nos pauvres bourgeois,</l>
+              <l n="0173" xml:id="em0638-fr-0173">Après tant de fatigues, et de braves exploits,</l>
+              <l n="0174" xml:id="em0638-fr-0174">Après avoir porté le faix de mainte guerre,</l>
+              <l n="0175" xml:id="em0638-fr-0175">Ne retournant chargés que de coups en leur terre ?</l>
+              <l n="0176" xml:id="em0638-fr-0176">Tu ne peux la nier, une méchanceté</l>
+              <l n="0177" xml:id="em0638-fr-0177">Extrême d’injustice, et plus d’impiété,</l>
+              <l n="0178" xml:id="em0638-fr-0178">Tu ne peux la nier, que ton âme rebourse</l>
+              <l n="0179" xml:id="em0638-fr-0179">Aux fureurs d’Ényon n’ait débondé la course.</l>
+              <l n="0180" xml:id="em0638-fr-0180">Qu’ainsi perturbateur du publique repos,</l>
+              <l n="0181" xml:id="em0638-fr-0181">Une sédition semant hors de propos,</l>
+              <l n="0182" xml:id="em0638-fr-0182">Tu n’aies mérité la peine capitale.</l>
+              <l n="0183" xml:id="em0638-fr-0183">Outre nous connaissons ton humeur déloyale,</l>
+              <l n="0184" xml:id="em0638-fr-0184">Briguer la tyrannie, ardemment l’affecter,</l>
+              <l n="0185" xml:id="em0638-fr-0185">Que le frein de nos lois ne saurait arrêter,</l>
+              <l n="0186" xml:id="em0638-fr-0186">Qui du peuple (ennemi) affaiblit sa puissance,</l>
+              <l n="0187" xml:id="em0638-fr-0187">Désirant le courber sous ton obéissance,</l>
+              <l n="0188" xml:id="em0638-fr-0188">Superbe en tes façons, difficile d’abord,</l>
+              <l n="0189" xml:id="em0638-fr-0189">Pour ces cas je conclus devant tous à la mort.</l>
+              <l n="0190" xml:id="em0638-fr-0190">Si (comme il est à croire) aux charges proposées</l>
+              <l n="0191" xml:id="em0638-fr-0191">Tes défenses ne sont valables opposées.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0192" xml:id="em0638-fr-0192">Bien qu’à juste raison je me serais vengé,</l>
+              <l n="0193" xml:id="em0638-fr-0193">D’un office mauvais en un autre échangé,</l>
+              <l n="0194" xml:id="em0638-fr-0194">Moi, que l’ingrat refus d’une voix populaire,</l>
+              <l n="0195" xml:id="em0638-fr-0195">Frustra honteusement de l’honneur Consulaire,</l>
+              <l n="0196" xml:id="em0638-fr-0196">Moi, qui ne peux fléchir un courage malin,</l>
+              <l n="0197" xml:id="em0638-fr-0197">Pour lui montrer ce corps de cicatrices plein,</l>
+              <l n="0198" xml:id="em0638-fr-0198">Pour lui remémorer en combien de batailles,</l>
+              <l n="0199" xml:id="em0638-fr-0199">J’ai les camps ennemis comblés de funérailles.</l>
+              <l n="0200" xml:id="em0638-fr-0200">Invincible agrandi la Romaine grandeur,</l>
+              <l n="0201" xml:id="em0638-fr-0201">Muni d’expérience, et suivi de bonheur ;</l>
+              <l n="0202" xml:id="em0638-fr-0202">Repoussé, néanmoins ce ne fut par vindicte,</l>
+              <l n="0203" xml:id="em0638-fr-0203">Que je dissuadai la donnée Interdite,</l>
+              <l n="0204" xml:id="em0638-fr-0204">Ains de peur seulement, qu’un vulgaire flatté</l>
+              <l n="0205" xml:id="em0638-fr-0205">Ne poussât plus avant son orgueil dilaté ;</l>
+              <l n="0206" xml:id="em0638-fr-0206">En loi ne convertit une coutume prise</l>
+              <l n="0207" xml:id="em0638-fr-0207">De forcer le Sénat, à ce dont il s’avise :</l>
+              <l n="0208" xml:id="em0638-fr-0208">Quant au crime dernier de l’Empire affecté,</l>
+              <l n="0209" xml:id="em0638-fr-0209">Si jamais telle peste a mon âme infecté,</l>
+              <l n="0210" xml:id="em0638-fr-0210">Si on le peut prouver contre mon innocence,</l>
+              <l n="0211" xml:id="em0638-fr-0211">Prenne sur moi le peuple une entière vengeance,</l>
+              <l n="0212" xml:id="em0638-fr-0212">Qu’il ne m’épargne point aux plus sensibles morts,</l>
+              <l n="0213" xml:id="em0638-fr-0213">Qu’on brûle, qu’on tenaille, qu’on démembre mon corps ;</l>
+              <l n="0214" xml:id="em0638-fr-0214">Vous le savez grands Dieux ! Spectateurs des pensées.</l>
+              <l n="0215" xml:id="em0638-fr-0215">Mais, qui ne connaîtrait ses embûches dressées,</l>
+              <l n="0216" xml:id="em0638-fr-0216">Loin de toute apparence, et loin de vérité,</l>
+              <l n="0217" xml:id="em0638-fr-0217">Par vous autres flambeaux du commun irrité ?</l>
+            </lg>
+          </sp>
+          <sp who="#Licinie">
+            <speaker>LICINIE</speaker>
+            <lg type="free" part="M">
+              <l n="0218" xml:id="em0638-fr-0218">Tu ne saurais nier, chose que tu débattes,</l>
+              <l n="0219" xml:id="em0638-fr-0219">Que du butin gagné dessus les Antiates,</l>
+              <l n="0220" xml:id="em0638-fr-0220">Distributeur inique, économe indiscret,</l>
+              <l n="0221" xml:id="em0638-fr-0221">De ton mouvement propre, et selon ton décret,</l>
+              <l n="0222" xml:id="em0638-fr-0222">Ceux qui étaient restés gardiens de la ville,</l>
+              <l n="0223" xml:id="em0638-fr-0223">Qui pendant cet exploit vaquaient au plus utile,</l>
+              <l n="0224" xml:id="em0638-fr-0224">N’aient été frustrés de leur part néanmoins.</l>
+              <l n="0225" xml:id="em0638-fr-0225">Crime, vérifié par infinis témoins,</l>
+              <l n="0226" xml:id="em0638-fr-0226">Présents à ton malheur, prêts à prendre vengeance,</l>
+              <l n="0227" xml:id="em0638-fr-0227">Ou de ta tyrannie, ou de ta négligence.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0228" xml:id="em0638-fr-0228">Ô perverse imposture ! ô méchants ! ô méchants !</l>
+              <l n="0229" xml:id="em0638-fr-0229">Jusques où allez-vous ma ruine cherchant ?</l>
+              <l n="0230" xml:id="em0638-fr-0230">De quoi vous souvient-il ? et quelle perfidie</l>
+              <l n="0231" xml:id="em0638-fr-0231">Fut oncques plus maudite, et plus damnable ourdie ?</l>
+              <l n="0232" xml:id="em0638-fr-0232">Faussaires, vous m’aviez promis auparavant</l>
+              <l n="0233" xml:id="em0638-fr-0233">De ne me rechercher, ni m’aller poursuivant</l>
+              <l n="0234" xml:id="em0638-fr-0234">du nom de tyrannie, et ores infidèles</l>
+              <l n="0235" xml:id="em0638-fr-0235">Vous me chargez surpris d’impostures nouvelles.</l>
+              <l n="0236" xml:id="em0638-fr-0236">Je t’atteste Quirin, et toi mon géniteur ;</l>
+              <l n="0237" xml:id="em0638-fr-0237">Toi Mars, que j’ai toujours réclamé protecteur ;</l>
+              <l n="0238" xml:id="em0638-fr-0238">Je vous atteste aussi, ô troupe aventureuse !</l>
+              <l n="0239" xml:id="em0638-fr-0239">Qu’enrichit le hasard de ma conduite heureuse,</l>
+              <l n="0240" xml:id="em0638-fr-0240">Vous généreuse fleur de l’Empire Latin,</l>
+              <l n="0241" xml:id="em0638-fr-0241">Plutôt digne du Ciel, que d’un pareil butin,</l>
+              <l n="0242" xml:id="em0638-fr-0242">Voyez, voyez comment votre chef on outrage,</l>
+              <l n="0243" xml:id="em0638-fr-0243">Et comment la vertu procure mon dommage,</l>
+              <l n="0244" xml:id="em0638-fr-0244">Voyez qu’on vous préfère un repos casanier,</l>
+              <l n="0245" xml:id="em0638-fr-0245">Que l’on vous veut à tort un salaire nier,</l>
+              <l n="0246" xml:id="em0638-fr-0246">Acquis l’épée au poing, votre vie exposée,</l>
+              <l n="0247" xml:id="em0638-fr-0247">Considérez d’un rapt ma justice accusée,</l>
+              <l n="0248" xml:id="em0638-fr-0248">Ne départant qu’à vous qui suivîtes mes pas,</l>
+              <l n="0249" xml:id="em0638-fr-0249">La proie des vaincus envoyés au trépas.</l>
+              <l n="0250" xml:id="em0638-fr-0250">Ha ! ce nombre excessif vous glace la parole,</l>
+              <l n="0251" xml:id="em0638-fr-0251">Ma prière envers vous, et ma plainte est frivole.</l>
+            </lg>
+          </sp>
+          <sp who="#Chœur_Romains">
+            <speaker>LE CHŒUR DES ROMAINS</speaker>
+            <lg type="free" part="M">
+              <l n="0252" xml:id="em0638-fr-0252">Notre rogue Lion commence à s’abaisser,</l>
+              <l n="0253" xml:id="em0638-fr-0253">Gardons-le de pouvoir jamais se redresser,</l>
+              <l n="0254" xml:id="em0638-fr-0254">Que sa soumission ne nous touche forcée,</l>
+              <l n="0255" xml:id="em0638-fr-0255">Car aussi bien à nous elle n’est adressée ;</l>
+              <l n="0256" xml:id="em0638-fr-0256">Reste de colliger les suffrages de tous,</l>
+              <l n="0257" xml:id="em0638-fr-0257">Afin qu’on le condamne, ou qu’on le laisse absous.</l>
+              <l n="0258" xml:id="em0638-fr-0258">Édile dépêchez, par chacune lignée</l>
+              <l n="0259" xml:id="em0638-fr-0259">Allez de l’arrogant querir la destinée.</l>
+            </lg>
+          </sp>
+          <sp who="#Senat">
+            <speaker>LE SÉNAT</speaker>
+            <lg type="free" part="M">
+              <l n="0260" xml:id="em0638-fr-0260">Lâches souffrirons-nous un chaos déréglé ?</l>
+              <l n="0261" xml:id="em0638-fr-0261">Un peuple de fureur, envieux, aveuglé,</l>
+              <l n="0262" xml:id="em0638-fr-0262">Du premier du Sénat balancer la fortune ?</l>
+              <l n="0263" xml:id="em0638-fr-0263">Nous lairrons-nous en lui fouler en sa rancune ?</l>
+              <l n="0264" xml:id="em0638-fr-0264">Il faut, s’il est besoin, unanimes mourir,</l>
+              <l n="0265" xml:id="em0638-fr-0265">Mourir tous à ses pieds, ou bien le secourir.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0266" xml:id="em0638-fr-0266">Chétif Coriolan ! te voilà donc la butte</l>
+              <l n="0267" xml:id="em0638-fr-0267">D’un populaire amas, proche de ta rechute ;</l>
+              <l n="0268" xml:id="em0638-fr-0268">Voilà ta vie en branle, à sa fière merci.</l>
+              <l n="0269" xml:id="em0638-fr-0269">Ô Clothon ! que n’as-tu ma fusée accompli ?</l>
+              <l n="0270" xml:id="em0638-fr-0270">Que n’as-tu prévenu en retranchant ma trame,</l>
+              <l n="0271" xml:id="em0638-fr-0271">Le sort injurieux de ce second diffame ?</l>
+            </lg>
+          </sp>
+          <sp who="#Licinie">
+            <speaker>LICINIE</speaker>
+            <lg type="free" part="M">
+              <l n="0272" xml:id="em0638-fr-0272">Suivant l’ordre ancien, par le récit des lois,</l>
+              <l n="0273" xml:id="em0638-fr-0273">Ta condamnation ne passe que de trois,</l>
+              <l n="0274" xml:id="em0638-fr-0274">Le peuple Romulide a modéré ta peine</l>
+              <l n="0275" xml:id="em0638-fr-0275">D’exil perpétuel, sentence trop humaine ;</l>
+              <l n="0276" xml:id="em0638-fr-0276">Tu seras pour jamais de la ville banni,</l>
+              <l n="0277" xml:id="em0638-fr-0277">Et trouvé dans demain de la tête puni ;</l>
+              <l n="0278" xml:id="em0638-fr-0278">Avise d’obéir autant comme il t’importe,</l>
+              <l n="0279" xml:id="em0638-fr-0279">À ce que la teneur de la sentence porte.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0280" xml:id="em0638-fr-0280">Je lui obéirai, oui, oui, je mettrai soin</l>
+              <l n="0281" xml:id="em0638-fr-0281">De quitter ces ingrats plus tôt qu’ils n’ont besoin.</l>
+            </lg>
+          </sp>
+          <sp who="#Chœur_Romains">
+            <speaker>LE CHŒUR DES ROMAINS</speaker>
+            <lg type="free" part="M">
+              <l n="0282" xml:id="em0638-fr-0282">Va, Va, Monstre orgueilleux, chercher autre demeure,</l>
+              <l n="0283" xml:id="em0638-fr-0283">Trouve un peuple couard que ta menace apeure !</l>
+              <l n="0284" xml:id="em0638-fr-0284">Hé ! quel peuple, sinon des obscures forêts,</l>
+              <l n="0285" xml:id="em0638-fr-0285">De ceux que tient l’Afrique en ses sables dorés,</l>
+              <l n="0286" xml:id="em0638-fr-0286">Que l’Hydaspes recèle en ses déserts rivages,</l>
+              <l n="0287" xml:id="em0638-fr-0287">Conviendrait à tes mœurs brutalement sauvages ?</l>
+              <l n="0288" xml:id="em0638-fr-0288">Jamais Rome ne vit un plus heureux Soleil</l>
+              <l n="0289" xml:id="em0638-fr-0289">Que celui qui la doit séparer de ton œil ;</l>
+              <l n="0290" xml:id="em0638-fr-0290">Et jamais nous n’avons remporté d’adversaire</l>
+              <l n="0291" xml:id="em0638-fr-0291">Plus glorieux trophée, utile, et salutaire.</l>
+            </lg>
+          </sp>
+          <sp who="#Senat">
+            <speaker>LE SÉNAT</speaker>
+            <lg type="free" part="F">
+              <l n="0292" xml:id="em0638-fr-0292">Ha Dieux ! qui l’eût pensé ? l’indulgence nous perd,</l>
+              <l n="0293" xml:id="em0638-fr-0293">Elle a de ce mépris la trace découvert,</l>
+              <l n="0294" xml:id="em0638-fr-0294">Enhardi la commune à l’acte téméraire,</l>
+              <l n="0295" xml:id="em0638-fr-0295">À l’outrage commun qu’elle nous vient de faire ;</l>
+              <l n="0296" xml:id="em0638-fr-0296">Désormais, désormais n’y convient espérer,</l>
+              <l n="0297" xml:id="em0638-fr-0297">Que notre autorité la puisse rembarrer.</l>
+              <l n="0298" xml:id="em0638-fr-0298">Désormais nous portons au col la servitude,</l>
+              <l n="0299" xml:id="em0638-fr-0299">Puis que l’on a permis (couarde ingratitude,)</l>
+              <l n="0300" xml:id="em0638-fr-0300">Le lustre du Sénat, sa gloire, son support,</l>
+              <l n="0301" xml:id="em0638-fr-0301">S’exiler par un peuple en suffrage plus fort.</l>
+            </lg>
+          </sp>
+        </div2>
+      </div1>
+      <div1 type="act" n="2">
+        <head>ACTE II</head>
+        <stage>CORIOLAN, PAGE, AMFIDIE.</stage>
+        <div2 type="scene">
+          <head>SCÈNE I</head>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0302" xml:id="em0638-fr-0302">Dévoré de pensers, et outré dedans l’âme,</l>
+              <l n="0303" xml:id="em0638-fr-0303">Un conseil incertain, puis un autre je trame,</l>
+              <l n="0304" xml:id="em0638-fr-0304">Dissous par la fureur qui me bout au cerveau ;</l>
+              <l n="0305" xml:id="em0638-fr-0305">Ainsi que qui voudrait écrire dessus l’eau,</l>
+              <l n="0306" xml:id="em0638-fr-0306">Rompre des tourbillons la subite carrière,</l>
+              <l n="0307" xml:id="em0638-fr-0307">Et contraindre le flot de rebrousser arrière.</l>
+              <l n="0308" xml:id="em0638-fr-0308">Or sus, arrêtons-nous en un ferme dessein,</l>
+              <l n="0309" xml:id="em0638-fr-0309">À un projet qui tienne au sortir de ce sein,</l>
+              <l n="0310" xml:id="em0638-fr-0310">Suffisant de raser l’insolence Romaine,</l>
+              <l n="0311" xml:id="em0638-fr-0311">Encor sera-ce peu, lui comparant ma haine ;</l>
+              <l n="0312" xml:id="em0638-fr-0312">Ce sera peu de faire un désert funéreux,</l>
+              <l n="0313" xml:id="em0638-fr-0313">Habitacle Éternel des Esprits malheureux,</l>
+              <l n="0314" xml:id="em0638-fr-0314">De rendre (me vengeant) cette ville superbe,</l>
+              <l n="0315" xml:id="em0638-fr-0315">Un sépulcre couvert et de pierres, et d’herbe,</l>
+              <l n="0316" xml:id="em0638-fr-0316">De perdre sans égard l’un et l’autre parti,</l>
+              <l n="0317" xml:id="em0638-fr-0317">Telle perte n’est rien, mon outrage assorti.</l>
+              <l n="0318" xml:id="em0638-fr-0318">Le limon d’un ignoble et vile populace</l>
+              <l n="0319" xml:id="em0638-fr-0319">A eu de m’exiler la puissance et l’audace,</l>
+              <l n="0320" xml:id="em0638-fr-0320">Aux yeux des Sénateurs, mon refuge dernier ;</l>
+              <l n="0321" xml:id="em0638-fr-0321">Refuge mal conçu, d’un troupeau casanier,</l>
+              <l n="0322" xml:id="em0638-fr-0322">Qui ne m’a secouru que de plaintes de femmes,</l>
+              <l n="0323" xml:id="em0638-fr-0323">Qui muet a semblé consentir mon diffame.</l>
+              <l n="0324" xml:id="em0638-fr-0324">« L’amitié se connaît ès affaires douteux ».</l>
+              <l n="0325" xml:id="em0638-fr-0325">Ce n’est pas tant de fondre en des regrets piteux,</l>
+              <l n="0326" xml:id="em0638-fr-0326">Plaindre celui qu’on dit affecter de parole,</l>
+              <l n="0327" xml:id="em0638-fr-0327">Et souffrir cependant que l’honneur on lui vole,</l>
+              <l n="0328" xml:id="em0638-fr-0328">Qu’on le chasse exilé de son ciel naturel,</l>
+              <l n="0329" xml:id="em0638-fr-0329">L’un seulement est plus, l’autre moins criminel,</l>
+              <l n="0330" xml:id="em0638-fr-0330">Indifférent pourtant à ma colère éprise.</l>
+              <l n="0331" xml:id="em0638-fr-0331">Dieux vengeurs ! inspirez, inspirez l’entreprise ;</l>
+              <l n="0332" xml:id="em0638-fr-0332">Donnez-moi que je puisse à tel prix que ce soit,</l>
+              <l n="0333" xml:id="em0638-fr-0333">(« Jamais l’homme vengé de malheur ne reçoit »)</l>
+              <l n="0334" xml:id="em0638-fr-0334">Que je puisse embraser une guerre fatale</l>
+              <l n="0335" xml:id="em0638-fr-0335">Aux ennemis enclos dans ma ville natale,</l>
+              <l n="0336" xml:id="em0638-fr-0336">Un discord plus cruel que des frères Thébains,</l>
+              <l n="0337" xml:id="em0638-fr-0337">Qui du sang mutuel empourprèrent leurs mains.</l>
+              <l n="0338" xml:id="em0638-fr-0338">Donnez-moi, qu’accablé de sa même ruine,</l>
+              <l n="0339" xml:id="em0638-fr-0339">Nous délivrions de peur toute la gent Latine.</l>
+              <l n="0340" xml:id="em0638-fr-0340">L’équité le demande, il ne faut, il ne faut</l>
+              <l n="0341" xml:id="em0638-fr-0341">Qu’un si bas fondement se maintienne si haut,</l>
+              <l n="0342" xml:id="em0638-fr-0342">Que de simples bergers, qui furent nos ancêtres,</l>
+              <l n="0343" xml:id="em0638-fr-0343">Foulent en leurs neveux l’orgueil des plus grands maîtres ;</l>
+              <l n="0344" xml:id="em0638-fr-0344">La violence augure à nos gestes mortels</l>
+              <l n="0345" xml:id="em0638-fr-0345">Une fin précipite, on les remarque tels :</l>
+              <l n="0346" xml:id="em0638-fr-0346">Doncques élisez-moi l’instrument de votre ire,</l>
+              <l n="0347" xml:id="em0638-fr-0347">Que comme il fut éclos j’étouffe leur Empire.</l>
+              <l n="0348" xml:id="em0638-fr-0348">Entre un nombre infini de voisins belliqueux,</l>
+              <l n="0349" xml:id="em0638-fr-0349">Les Volsques sont puissants, je ne reconnais qu’eux</l>
+              <l n="0350" xml:id="em0638-fr-0350">Capables d’affronter mon ingrate patrie,</l>
+              <l n="0351" xml:id="em0638-fr-0351">Ma vaillance conjointe avec leur industrie,</l>
+              <l n="0352" xml:id="em0638-fr-0352">Avec un chef de marque à qui des ennemis</l>
+              <l n="0353" xml:id="em0638-fr-0353">Les principaux secrets jadis furent commis,</l>
+              <l n="0354" xml:id="em0638-fr-0354">En leur ruses versé par mainte expérience,</l>
+              <l n="0355" xml:id="em0638-fr-0355">De qui Mars fut l’étude, et la seule science ;</l>
+              <l n="0356" xml:id="em0638-fr-0356">Alors certes, alors ne douterai-je point</l>
+              <l n="0357" xml:id="em0638-fr-0357">De ruiner l’État de Rome de tout point.</l>
+              <l n="0358" xml:id="em0638-fr-0358">Il est vrai que ce peuple a reçu quelques pertes,</l>
+              <l n="0359" xml:id="em0638-fr-0359">Mais légères, peut-être en un clin recouvertes ;</l>
+              <l n="0360" xml:id="em0638-fr-0360">Pertes, qui lui ont plus de haines redoublé,</l>
+              <l n="0361" xml:id="em0638-fr-0361">Qu’empli de désespoir le courage troublé.</l>
+              <l n="0362" xml:id="em0638-fr-0362">Bref, pertes qui n’ont qu’augmenté sa rancune,</l>
+              <l n="0363" xml:id="em0638-fr-0363">Réservant sa vengeance à une heure opportune,</l>
+              <l n="0364" xml:id="em0638-fr-0364">Telle que je lui porte en me donnant à lui.</l>
+              <l n="0365" xml:id="em0638-fr-0365">Comment je n’ai rival de gloire que celui,</l>
+              <l n="0366" xml:id="em0638-fr-0366">Celui qui tient le frein de leur grand’ République,</l>
+              <l n="0367" xml:id="em0638-fr-0367">Et celui qu’il convient que premier je pratique,</l>
+              <l n="0368" xml:id="em0638-fr-0368">Un éperon d’honneur cent fois nous a conduits,</l>
+              <l n="0369" xml:id="em0638-fr-0369">Aveugles de fureur, à ces termes réduits</l>
+              <l n="0370" xml:id="em0638-fr-0370">De s’entre-défier au front de chaque armée,</l>
+              <l n="0371" xml:id="em0638-fr-0371">Vouloir mourir, ou seul vaincre de renommée.</l>
+              <l n="0372" xml:id="em0638-fr-0372">Tu t’abuses, son cœur magnanime, soudain</l>
+              <l n="0373" xml:id="em0638-fr-0373">Mû de compassion, te prêtera la main,</l>
+              <l n="0374" xml:id="em0638-fr-0374">Se laissera plier à ta douce prière,</l>
+              <l n="0375" xml:id="em0638-fr-0375">Usant de la plus sainte et pressente manière.</l>
+              <l n="0376" xml:id="em0638-fr-0376">Je me veux d’une robe inconnue déguiser,</l>
+              <l n="0377" xml:id="em0638-fr-0377">Par laquelle mon deuil soit aisé d’aviser,</l>
+              <l n="0378" xml:id="em0638-fr-0378">Et en tel équipage entrer jusqu’à ces lares,</l>
+              <l n="0379" xml:id="em0638-fr-0379">Franchise inviolable entre les plus barbares ;</l>
+              <l n="0380" xml:id="em0638-fr-0380">Allons, il ne nous peut rien de pis arriver.</l>
+              <l n="0381" xml:id="em0638-fr-0381">« Et en un mal extrême on doit tout éprouver ».</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene">
+          <head>SCÈNE II</head>
+          <stage>AMFIDIE, PAGE.</stage>
+          <sp who="#Amfidie">
+            <speaker>AMFIDIE</speaker>
+            <lg type="free" part="M">
+              <l n="0382" xml:id="em0638-fr-0382">Donc à ce que je vois, vous voulez ô Célestes,</l>
+              <l n="0383" xml:id="em0638-fr-0383">Ne borner autrement les Romaines conquêtes</l>
+              <l n="0384" xml:id="em0638-fr-0384">Que de la fin du monde ; il est jugé des Sœurs</l>
+              <l n="0385" xml:id="em0638-fr-0385">Qu’ils soient de l’univers paisibles possesseurs,</l>
+              <l n="0386" xml:id="em0638-fr-0386">Que leurs âmes toujours invincibles poussées</l>
+              <l n="0387" xml:id="em0638-fr-0387">Viennent de l’Occident jusqu’aux plages glacées,</l>
+              <l n="0388" xml:id="em0638-fr-0388">Du Levant au Midi, malgré tous les efforts,</l>
+              <l n="0389" xml:id="em0638-fr-0389">Tous les empêchements de leurs voisins plus forts,</l>
+              <l n="0390" xml:id="em0638-fr-0390">Dont un arrêt fatal à leur victoire donne</l>
+              <l n="0391" xml:id="em0638-fr-0391">Cette entière rondeur que Neptune environne ;</l>
+              <l n="0392" xml:id="em0638-fr-0392">Et vous ne craignez point qu’ils ne veuillent après</l>
+              <l n="0393" xml:id="em0638-fr-0393">Redresser des Titans les monstrueux apprêts,</l>
+              <l n="0394" xml:id="em0638-fr-0394">Qu’eux enfants inconnus avortés de la terre,</l>
+              <l n="0395" xml:id="em0638-fr-0395">Renvoient jusqu’au Ciel vous dénoncer la guerre,</l>
+              <l n="0396" xml:id="em0638-fr-0396">Qu’eux ne trouvant ici qui puisse résister,</l>
+              <l n="0397" xml:id="em0638-fr-0397">Ne veuillent de son trône arracher Jupiter.</l>
+              <l n="0398" xml:id="em0638-fr-0398">Non, non, vous faites tort à votre prescience,</l>
+              <l n="0399" xml:id="em0638-fr-0399">De n’entrer là-dessus en quelque défiance,</l>
+              <l n="0400" xml:id="em0638-fr-0400">De croire que ce peuple à conquérir ardant,</l>
+              <l n="0401" xml:id="em0638-fr-0401">Le monde subjugué n’aille plus prétendant.</l>
+              <l n="0402" xml:id="em0638-fr-0402">Vous-vous faites grand tort, et à nous déplorables,</l>
+              <l n="0403" xml:id="em0638-fr-0403">Qui sommes le butin de ses serfs misérables,</l>
+              <l n="0404" xml:id="em0638-fr-0404">Serfs d’un troupeau brigand, sous Romule amassé,</l>
+              <l n="0405" xml:id="em0638-fr-0405">Qui du sang fraternel souilla son mur tracé,</l>
+              <l n="0406" xml:id="em0638-fr-0406">Établit son Empire avec un parricide,</l>
+              <l n="0407" xml:id="em0638-fr-0407">Capable de tourner la roue Ixionnide.</l>
+              <l n="0408" xml:id="em0638-fr-0408">L’impieux cependant s’est accru peu à peu,</l>
+              <l n="0409" xml:id="em0638-fr-0409">Comme d’une étincelle on voit croître un grand feu ;</l>
+              <l n="0410" xml:id="em0638-fr-0410">Ou comme d’un vent faible un orage s’excite,</l>
+              <l n="0411" xml:id="em0638-fr-0411">Qui étonne de peur les hôtes d’Amphitrite.</l>
+              <l n="0412" xml:id="em0638-fr-0412">Accident, sans mentir étrange et merveilleux,</l>
+              <l n="0413" xml:id="em0638-fr-0413">Accident qui ressemble un songe frauduleux,</l>
+              <l n="0414" xml:id="em0638-fr-0414">Et qui me contraindrait à la parfin de croire</l>
+              <l n="0415" xml:id="em0638-fr-0415">Que du monde régi fortune aurait la gloire,</l>
+              <l n="0416" xml:id="em0638-fr-0416">Qu’injuste les grandeurs elle seule départ,</l>
+              <l n="0417" xml:id="em0638-fr-0417">Du méchant, ni du bon ne prenant point d’égard.</l>
+              <l n="0418" xml:id="em0638-fr-0418">Ha ! ce doute me tue, et sans cesse me ronge,</l>
+              <l n="0419" xml:id="em0638-fr-0419">En un gouffre d’ennuis et de soucis me plonge,</l>
+              <l n="0420" xml:id="em0638-fr-0420">Je meurs de n’avoir peu rembarrer jusqu’ici ;</l>
+              <l n="0421" xml:id="em0638-fr-0421">Mais, un des miens accourt, qui te transporte ainsi ?</l>
+            </lg>
+          </sp>
+          <sp who="#Page">
+            <speaker>PAGE</speaker>
+            <lg type="free" part="M">
+              <l n="0422" xml:id="em0638-fr-0422">Un étranger coulé dans la maison naguère,</l>
+              <l n="0423" xml:id="em0638-fr-0423">Au déçu de chacun par subtile manière,</l>
+              <l n="0424" xml:id="em0638-fr-0424">Grave de contenance, et suppliant à voir,</l>
+              <l n="0425" xml:id="em0638-fr-0425">Car de le déchasser on a fait tout devoir,</l>
+              <l n="0426" xml:id="em0638-fr-0426">Désire (mon Seigneur) vous parler, et lui-même</l>
+              <l n="0427" xml:id="em0638-fr-0427">S’avance me suivant d’une assurance extrême.</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene">
+          <head>SCÈNE III</head>
+          <stage>AMFIDIE, CORIOLAN.</stage>
+          <sp who="#Amfidie">
+            <speaker>AMFIDIE</speaker>
+            <lg type="free" part="M">
+              <l n="0428" xml:id="em0638-fr-0428">Qui es-tu ? qui t’amène ? à quelle intention</l>
+              <l n="0429" xml:id="em0638-fr-0429">As-tu de m’aborder trouvé l’invention</l>
+              <l n="0430" xml:id="em0638-fr-0430">Par une voie oblique, une audace craintive,</l>
+              <l n="0431" xml:id="em0638-fr-0431">Ainsi qu’une âme triste, suppliante, et chétive ?</l>
+              <l n="0432" xml:id="em0638-fr-0432">Parle donc librement, ne me déguise rien,</l>
+              <l n="0433" xml:id="em0638-fr-0433">Mon secours est ouvert à tous les gens de bien.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0434" xml:id="em0638-fr-0434">Dessus cette assurance à toi je me décèle,</l>
+              <l n="0435" xml:id="em0638-fr-0435">Moi, qui porte le nom d’une haine mortelle</l>
+              <l n="0436" xml:id="em0638-fr-0436">Vers les Volsques jadis exercée aux combats,</l>
+              <l n="0437" xml:id="em0638-fr-0437">(Coriole le sait) que ma vertu mit bas,</l>
+              <l n="0438" xml:id="em0638-fr-0438">D’elle je fus nommé, c’est moi-même Amfidie,</l>
+              <l n="0439" xml:id="em0638-fr-0439">Que les miens possédés d’ingrate perfidie</l>
+              <l n="0440" xml:id="em0638-fr-0440">Récompensent félons d’un exil vergogneux.</l>
+              <l n="0441" xml:id="em0638-fr-0441">Use donc de l’outrage et le tourne contre eux,</l>
+              <l n="0442" xml:id="em0638-fr-0442">Reçois des ennemis une honorable usure,</l>
+              <l n="0443" xml:id="em0638-fr-0443">M’employant à venger notre commune injure,</l>
+              <l n="0444" xml:id="em0638-fr-0444">À distraire l’orgueil forcené des Romains ;</l>
+              <l n="0445" xml:id="em0638-fr-0445">J’ai le même courage, avec les mêmes mains,</l>
+              <l n="0446" xml:id="em0638-fr-0446">Le courage, que dis-je ? il est bien d’autre sorte,</l>
+              <l n="0447" xml:id="em0638-fr-0447">Mon esprit plus subtil, et ma dextre plus forte</l>
+              <l n="0448" xml:id="em0638-fr-0448">Animé de rancœur s’immortaliseront,</l>
+              <l n="0449" xml:id="em0638-fr-0449">Plus qu’ils n’ont fait pour eux à l’encontre feront :</l>
+              <l n="0450" xml:id="em0638-fr-0450">Au contraire éconduit par votre Seigneurie,</l>
+              <l n="0451" xml:id="em0638-fr-0451">Je m’offre de bon cœur victime à sa furie,</l>
+              <l n="0452" xml:id="em0638-fr-0452">Et heureux, et content de ne résister plus,</l>
+              <l n="0453" xml:id="em0638-fr-0453">Mes jours du doux espoir d’une vengeance exclus,</l>
+              <l n="0454" xml:id="em0638-fr-0454">Espoir en elle assis qui me faillant en elle,</l>
+              <l n="0455" xml:id="em0638-fr-0455">La vie me rendrait ennuyeuse et cruelle,</l>
+              <l n="0456" xml:id="em0638-fr-0456">Me contraindrait d’avoir à ma dextre recours,</l>
+              <l n="0457" xml:id="em0638-fr-0457">Et fléchir l’Achéron, les hommes n’étant sourds.</l>
+            </lg>
+          </sp>
+          <sp who="#Amfidie">
+            <speaker>AMFIDIE</speaker>
+            <lg type="free" part="M">
+              <l n="0458" xml:id="em0638-fr-0458">Relève ton courage, indompté Capitaine !</l>
+              <l n="0459" xml:id="em0638-fr-0459">La bonne volonté des Volsques t’est certaine,</l>
+              <l n="0460" xml:id="em0638-fr-0460">En leur protection je te pleige reçu.</l>
+              <l n="0461" xml:id="em0638-fr-0461">Quant au rancœur jaloux d’une gloire conçu,</l>
+              <l n="0462" xml:id="em0638-fr-0462">Réciproque entre nous chefs de partis contraires,</l>
+              <l n="0463" xml:id="em0638-fr-0463">Des ores, je l’abjure, atteint de tes misères,</l>
+              <l n="0464" xml:id="em0638-fr-0464">Exemplaires à moi, qui d’un peuple inconstant,</l>
+              <l n="0465" xml:id="em0638-fr-0465">D’un peuple injurieux suis pour souffrir autant.</l>
+              <l n="0466" xml:id="em0638-fr-0466">Que donc il sache en toi, qu’un homme lui peut nuire,</l>
+              <l n="0467" xml:id="em0638-fr-0467">Combien le déjetant est à craindre son ire ;</l>
+              <l n="0468" xml:id="em0638-fr-0468">Qu’il apprenne à garder, et mieux récompenser</l>
+              <l n="0469" xml:id="em0638-fr-0469">Un qui peut sa fortune élevée abaisser,</l>
+              <l n="0470" xml:id="em0638-fr-0470">Un (je ne feindrai point devant toi de le dire)</l>
+              <l n="0471" xml:id="em0638-fr-0471">Dont la dextre servait de nerfs à son Empire,</l>
+              <l n="0472" xml:id="em0638-fr-0472">De bouclier, de rempart, de matière d’orgueil.</l>
+              <l n="0473" xml:id="em0638-fr-0473">Mais quel mauvais Démon lui a tant cillé l’œil ?</l>
+              <l n="0474" xml:id="em0638-fr-0474">Tant favorable à nous ébloui sa prudence,</l>
+              <l n="0475" xml:id="em0638-fr-0475">D’oser jusques à toi étendre sa licence ?</l>
+              <l n="0476" xml:id="em0638-fr-0476">S’attaquer à ta gloire, et inique outrager</l>
+              <l n="0477" xml:id="em0638-fr-0477">Un, à qui des Autels elle dût ériger ?</l>
+              <l n="0478" xml:id="em0638-fr-0478">L’énormité du fait, la grandeur de l’injure,</l>
+              <l n="0479" xml:id="em0638-fr-0479">Me retiennent suspens d’une telle aventure.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0480" xml:id="em0638-fr-0480">Hélas ! demandes-tu si l’envieuse dent</l>
+              <l n="0481" xml:id="em0638-fr-0481">D’un vulgaire ennemi cause cet accident ?</l>
+              <l n="0482" xml:id="em0638-fr-0482">Es-tu de sa morsure exempt jusques à l’heure ?</l>
+              <l n="0483" xml:id="em0638-fr-0483">Oui, né dessous l’aspect de fortune meilleure,</l>
+              <l n="0484" xml:id="em0638-fr-0484">Ayant à gouverner des agneaux innocents,</l>
+              <l n="0485" xml:id="em0638-fr-0485">Au prix de moi chétif, ces lions rugissants,</l>
+              <l n="0486" xml:id="em0638-fr-0486">Ces barbares confits en fraude, en félonie,</l>
+              <l n="0487" xml:id="em0638-fr-0487">Qui m’ont voulu tenir suspect de tyrannie,</l>
+              <l n="0488" xml:id="em0638-fr-0488">(Faussement imputé, j’en atteste les Dieux !</l>
+              <l n="0489" xml:id="em0638-fr-0489">Le crime d’entre tous, qui m’est plus odieux)</l>
+              <l n="0490" xml:id="em0638-fr-0490">Et Juges, et témoins, à la fin misérable,</l>
+              <l n="0491" xml:id="em0638-fr-0491">Contraint de te venir implorer secourable.</l>
+            </lg>
+          </sp>
+          <sp who="#Amfidie">
+            <speaker>AMFIDIE</speaker>
+            <lg type="free" part="M">
+              <l n="0492" xml:id="em0638-fr-0492">Pourquoi les Sénateurs rangés de ton parti</l>
+              <l n="0493" xml:id="em0638-fr-0493">N’ont-ils d’autorité l’outrage diverti ?</l>
+              <l n="0494" xml:id="em0638-fr-0494">Réprimé les fureurs d’une tourbe confuse,</l>
+              <l n="0495" xml:id="em0638-fr-0495">Qui plus a de pouvoir, et plus elle en abuse,</l>
+              <l n="0496" xml:id="em0638-fr-0496">Tâche de s’emparer peu à peu d’un crédit,</l>
+              <l n="0497" xml:id="em0638-fr-0497">Du rang de la nature, et du Ciel interdit ?</l>
+              <l n="0498" xml:id="em0638-fr-0498">Pouvaient-ils pas hardis, avec une apparence</l>
+              <l n="0499" xml:id="em0638-fr-0499">Rétracter résolus ta cruelle sentence ?</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0500" xml:id="em0638-fr-0500">Le timide Sénat au besoin m’a manqué,</l>
+              <l n="0501" xml:id="em0638-fr-0501">Un vain espoir qu’en lui je fondais, m’a moqué,</l>
+              <l n="0502" xml:id="em0638-fr-0502">Il a vu (déshonneur !) une commune armée</l>
+              <l n="0503" xml:id="em0638-fr-0503">Attenter sur ma vie, et sur ma renommée,</l>
+              <l n="0504" xml:id="em0638-fr-0504">Content de s’opposer de paroles, content</l>
+              <l n="0505" xml:id="em0638-fr-0505">De souffrir un exil à la Parque m’ôtant,</l>
+              <l n="0506" xml:id="em0638-fr-0506">Qui pense m’obliger d’une honteuse vie,</l>
+              <l n="0507" xml:id="em0638-fr-0507">D’une vie au pouvoir du premier asservie.</l>
+              <l n="0508" xml:id="em0638-fr-0508">Ils sont indifférents de coulpe en mon endroit,</l>
+              <l n="0509" xml:id="em0638-fr-0509">Et mon âme déjà furieuse voudrait</l>
+              <l n="0510" xml:id="em0638-fr-0510">L’un et l’autre assemblés tenir en la campagne,</l>
+              <l n="0511" xml:id="em0638-fr-0511">Ensemble châtier ceux qu’un crime accompagne ;</l>
+              <l n="0512" xml:id="em0638-fr-0512">Je le ferai, pourvu que sur ma loyauté</l>
+              <l n="0513" xml:id="em0638-fr-0513">Se veuille reposer votre Communauté.</l>
+            </lg>
+          </sp>
+          <sp who="#Amfidie">
+            <speaker>AMFIDIE</speaker>
+            <lg type="free" part="M">
+              <l n="0514" xml:id="em0638-fr-0514">Tu n’as de ce côté que révoquer en doute,</l>
+              <l n="0515" xml:id="em0638-fr-0515">Seulement je voudrais notre trêve dissoute,</l>
+              <l n="0516" xml:id="em0638-fr-0516">Qu’équitables on pût les Romains quereller,</l>
+              <l n="0517" xml:id="em0638-fr-0517">Et dans un rets nouveau de guerre embrouiller ;</l>
+              <l n="0518" xml:id="em0638-fr-0518">Rumine en ton esprit quelque ruse ennemie,</l>
+              <l n="0519" xml:id="em0638-fr-0519">Qu’une honnête couleur dispense d’infamie.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0520" xml:id="em0638-fr-0520">À l’extrême désir peu de temps suffira,</l>
+              <l n="0521" xml:id="em0638-fr-0521">D’appas et d’hameçons assez me fournira,</l>
+              <l n="0522" xml:id="em0638-fr-0522">Je les attirerai malgré eux en la lice ;</l>
+              <l n="0523" xml:id="em0638-fr-0523">« Vers les malicieux il n’est point de malice,</l>
+              <l n="0524" xml:id="em0638-fr-0524">Et contre le perfide user de trahison,</l>
+              <l n="0525" xml:id="em0638-fr-0525">Lui dresser des aguets nous enjoint la raison ».</l>
+              <l n="0526" xml:id="em0638-fr-0526">Allons, soit qu’au timon de la chose publique,</l>
+              <l n="0527" xml:id="em0638-fr-0527">Ou qu’à tenter de Mars la fortune on m’applique,</l>
+              <l n="0528" xml:id="em0638-fr-0528">J’espère de ma charge en sorte m’acquitter,</l>
+              <l n="0529" xml:id="em0638-fr-0529">Qu’à tous je donnerai de quoi se contenter.</l>
+            </lg>
+          </sp>
+          <sp who="#Amfidie">
+            <speaker>AMFIDIE</speaker>
+            <lg type="free" part="F">
+              <l n="0530" xml:id="em0638-fr-0530">Un foudre paravant éclaté de la nue</l>
+              <l n="0531" xml:id="em0638-fr-0531">Convertisse mon chef en poussière menue,</l>
+              <l n="0532" xml:id="em0638-fr-0532">Avant qu’ambitieux je brigue dessus toi</l>
+              <l n="0533" xml:id="em0638-fr-0533">La conduite d’un camp ; l’épreuve m’a fait foi,</l>
+              <l n="0534" xml:id="em0638-fr-0534">Que de vaillance égal, en bonheur tu me passes,</l>
+              <l n="0535" xml:id="em0638-fr-0535">Mieux assisté du sort, et des Célestes grâces,</l>
+              <l n="0536" xml:id="em0638-fr-0536">En l’heur victorieux, aux batailles requis ;</l>
+              <l n="0537" xml:id="em0638-fr-0537">Crois que de Général le grade t’est acquis,</l>
+              <l n="0538" xml:id="em0638-fr-0538">Advenant qu’aux Romains la guerre on renouvelle,</l>
+              <l n="0539" xml:id="em0638-fr-0539">Et tandis du public je prendrai la tutelle.</l>
+              <l n="0540" xml:id="em0638-fr-0540">Réservons à demain au Conseil ce discours,</l>
+              <l n="0541" xml:id="em0638-fr-0541">Et pour le premier point qui pend de mon secours,</l>
+              <l n="0542" xml:id="em0638-fr-0542">Dépouille-moi ce deuil, que transporté de joie</l>
+              <l n="0543" xml:id="em0638-fr-0543">Ta venue agréable à ce soir je festoie,</l>
+              <l n="0544" xml:id="em0638-fr-0544">Présage avant-coureur du sincère désir</l>
+              <l n="0545" xml:id="em0638-fr-0545">Que j’ai (Coriolan) de te faire plaisir.</l>
+            </lg>
+          </sp>
+        </div2>
+      </div1>
+      <div1 type="act" n="3">
+        <head>ACTE III</head>
+        <stage>CHŒUR DES ROMAINS, LE SÉNAT, AMBASSADEURS, CONSEIL DES VOLSQUES.</stage>
+        <div2 type="scene">
+          <head>SCÈNE I</head>
+          <stage>CHŒUR DES ROMAINS, LE SÉNAT, AMBASSADEURS.</stage>
+          <sp who="#Chœur_Romains">
+            <speaker>CHŒUR DES ROMAINS</speaker>
+            <lg type="free" part="M">
+              <l n="0546" xml:id="em0638-fr-0546">Permettez-vous, Grands Dieux ! que l’absence d’un homme</l>
+              <l n="0547" xml:id="em0638-fr-0547">Emporte la fortune, et le bonheur de Rome ?</l>
+              <l n="0548" xml:id="em0638-fr-0548">Glace le cœur d’un monde en ses murs enfermé</l>
+              <l n="0549" xml:id="em0638-fr-0549">D’un monde qui soulait épouvanter armé</l>
+              <l n="0550" xml:id="em0638-fr-0550">Le reste conjuré des peuples d’Hespérie,</l>
+              <l n="0551" xml:id="em0638-fr-0551">Qui de l’horrible aspect de la flotte aguerrie</l>
+              <l n="0552" xml:id="em0638-fr-0552">Subjuguant ses Cités, leur imposait le joug,</l>
+              <l n="0553" xml:id="em0638-fr-0553">Au lieu qu’ores sa gloire elle perd tout à coup,</l>
+              <l n="0554" xml:id="em0638-fr-0554">Des Volsques déconfits en mainte et mainte guerre,</l>
+              <l n="0555" xml:id="em0638-fr-0555">Des Volsques autrefois relégués en leur terre</l>
+              <l n="0556" xml:id="em0638-fr-0556">La puissance elle craint, assiégée en ses murs.</l>
+              <l n="0557" xml:id="em0638-fr-0557">Ha ! que vos jugements nous déçoivent obscurs.</l>
+              <l n="0558" xml:id="em0638-fr-0558">Combien souvent, hélas ! il nous est difficile</l>
+              <l n="0559" xml:id="em0638-fr-0559">De savoir préférer au nuisible l’utile,</l>
+              <l n="0560" xml:id="em0638-fr-0560">Reconnaître d’où vient notre prospérité,</l>
+              <l n="0561" xml:id="em0638-fr-0561">Et lors la conserver en son intégrité !</l>
+              <l n="0562" xml:id="em0638-fr-0562">Celui que méprisé nous bannîmes naguère,</l>
+              <l n="0563" xml:id="em0638-fr-0563">Consomme notre ville au feu de sa colère,</l>
+              <l n="0564" xml:id="em0638-fr-0564">Il n’a fait que changer de parti, et soudain</l>
+              <l n="0565" xml:id="em0638-fr-0565">Le sort nous a montré son visage inhumain ;</l>
+              <l n="0566" xml:id="em0638-fr-0566">Le sort combat pour lui, ses armes favorise,</l>
+              <l n="0567" xml:id="em0638-fr-0567">Menace de ses fers notre antique franchise.</l>
+              <l n="0568" xml:id="em0638-fr-0568">Incroyable prodige ! étrange et dur effet</l>
+              <l n="0569" xml:id="em0638-fr-0569">De celle qui si tôt détruit ce qu’elle a fait !</l>
+              <l n="0570" xml:id="em0638-fr-0570">Muable se délecte à brasser de l’encombre</l>
+              <l n="0571" xml:id="em0638-fr-0571">À ceux qu’elle couvrait maintenant de son ombre,</l>
+              <l n="0572" xml:id="em0638-fr-0572">Hélas ! nous le sentons, de courage abattus,</l>
+              <l n="0573" xml:id="em0638-fr-0573">Ne retenant plus rien des aïeules vertus,</l>
+              <l n="0574" xml:id="em0638-fr-0574">Dépourvus de conseil, d’aussi peu de défense</l>
+              <l n="0575" xml:id="em0638-fr-0575">Qu’au berceau nous voyons une débile enfance ;</l>
+              <l n="0576" xml:id="em0638-fr-0576">Nous sommes arrêtés en la même façon</l>
+              <l n="0577" xml:id="em0638-fr-0577">Qu’au charme naturel la Nef est du poisson ;</l>
+              <l n="0578" xml:id="em0638-fr-0578">Contraints de lui crier merci de notre faute.</l>
+              <l n="0579" xml:id="em0638-fr-0579">Las ! et pour tous au sein de frayeur je tressaute,</l>
+              <l n="0580" xml:id="em0638-fr-0580">Que l’arrogant prié n’en devienne plus fier,</l>
+              <l n="0581" xml:id="em0638-fr-0581">Par nos Ambassadeurs ne se laisse plier,</l>
+              <l n="0582" xml:id="em0638-fr-0582">Qu’il ne veuille, obstiné, sa vengeance poursuivre,</l>
+              <l n="0583" xml:id="em0638-fr-0583">Et que notre Cité d’un siège il ne délivre,</l>
+              <l n="0584" xml:id="em0638-fr-0584">D’un siège aussi fatal, que celui de dix ans</l>
+              <l n="0585" xml:id="em0638-fr-0585">Le fut dans Ilion, jadis à nos parents.</l>
+            </lg>
+          </sp>
+          <sp who="#Senat">
+            <speaker>LE SÉNAT</speaker>
+            <lg type="free" part="M">
+              <l n="0586" xml:id="em0638-fr-0586">« L’insensé rarement se modère plus sage</l>
+              <l n="0587" xml:id="em0638-fr-0587">Qu’après avoir reçu quelque insigne dommage,</l>
+              <l n="0588" xml:id="em0638-fr-0588">Il persiste en l’erreur de son opinion,</l>
+              <l n="0589" xml:id="em0638-fr-0589">Tant qu’elle réussisse à sa confusion » ;</l>
+              <l n="0590" xml:id="em0638-fr-0590">De même, furieux vous ne voulûtes oncques</l>
+              <l n="0591" xml:id="em0638-fr-0591">Prendre de bonne part remontrance quelconques,</l>
+              <l n="0592" xml:id="em0638-fr-0592">Digérer un conseil salutaire en son temps,</l>
+              <l n="0593" xml:id="em0638-fr-0593">Sur ce dont (mais trop tard) vous êtes repentants,</l>
+              <l n="0594" xml:id="em0638-fr-0594">Le Sénat pour néant vous remontrait la perte</l>
+              <l n="0595" xml:id="em0638-fr-0595">Qu’apportait un tel homme à sa ville déserte,</l>
+              <l n="0596" xml:id="em0638-fr-0596">Qu’un jour il se pourrait de l’outrage venger,</l>
+              <l n="0597" xml:id="em0638-fr-0597">Au public intérêt, et au commun danger ;</l>
+              <l n="0598" xml:id="em0638-fr-0598">Nous n’en fûmes pas crus, ains lors vous fîtes gloire</l>
+              <l n="0599" xml:id="em0638-fr-0599">D’obtenir (l’exilant) sur le Sénat victoire.</l>
+              <l n="0600" xml:id="em0638-fr-0600">Victoire ridicule, et qui ressent encor</l>
+              <l n="0601" xml:id="em0638-fr-0601">Celle qu’obtint le camp de l’enfant d’Agénor,</l>
+              <l n="0602" xml:id="em0638-fr-0602">Victoire qui demeure aux vainqueurs plus funeste,</l>
+              <l n="0603" xml:id="em0638-fr-0603">Et au lieu d’un laurier, un remord leur apprête ;</l>
+              <l n="0604" xml:id="em0638-fr-0604">Mais, que peuvent gagner par contraires efforts,</l>
+              <l n="0605" xml:id="em0638-fr-0605">Les membres divisés qu’anime un même corps ?</l>
+            </lg>
+          </sp>
+          <sp who="#Chœur_Romains">
+            <speaker>LE CHŒUR</speaker>
+            <lg type="free" part="M">
+              <l n="0606" xml:id="em0638-fr-0606">De notre affliction vous discourez à l’aise,</l>
+              <l n="0607" xml:id="em0638-fr-0607">Vos biens en sauveté de son hostile braise,</l>
+              <l n="0608" xml:id="em0638-fr-0608">Qu’endommager aux champs le traître n’a permis,</l>
+              <l n="0609" xml:id="em0638-fr-0609">Ses soldats gardiens exprès ayant commis.</l>
+              <l n="0610" xml:id="em0638-fr-0610">Si nous faillîmes seuls, seuls nous portons la peine,</l>
+              <l n="0611" xml:id="em0638-fr-0611">Seuls nous sommes butin de sa rage inhumaine.</l>
+              <l n="0612" xml:id="em0638-fr-0612">Que nous venez-vous donc, importuns, reprocher</l>
+              <l n="0613" xml:id="em0638-fr-0613">D’un mal qui ne vous touche, et ne vous peut toucher ?</l>
+              <l n="0614" xml:id="em0638-fr-0614">Pourquoi défendez-vous que d’angoisseuses plaintes</l>
+              <l n="0615" xml:id="em0638-fr-0615">Nous tâchions d’adoucir nos mortelles atteintes ?</l>
+            </lg>
+          </sp>
+          <sp who="#Senat">
+            <speaker>LE SÉNAT</speaker>
+            <lg type="free" part="M">
+              <l n="0616" xml:id="em0638-fr-0616">Ô la simplicité, l’impudence, l’erreur</l>
+              <l n="0617" xml:id="em0638-fr-0617">De croire qu’il n’ait point contre nous de fureur,</l>
+              <l n="0618" xml:id="em0638-fr-0618">De maltalent caché, de fiel, et de rancune,</l>
+              <l n="0619" xml:id="em0638-fr-0619">Qu’il épargne nos biens plus que d’une Commune,</l>
+              <l n="0620" xml:id="em0638-fr-0620">Sinon que cauteleux il désire semer</l>
+              <l n="0621" xml:id="em0638-fr-0621">La discorde entre nous, plus forte rallumer :</l>
+              <l n="0622" xml:id="em0638-fr-0622">Ores que menacés de pareille ruine,</l>
+              <l n="0623" xml:id="em0638-fr-0623">Nous en extirperons jusques à la racine,</l>
+              <l n="0624" xml:id="em0638-fr-0624">Ores que nous avons plus besoin d’une paix</l>
+              <l n="0625" xml:id="em0638-fr-0625">Pour s’entre-secourir, que nous n’eûmes jamais ;</l>
+              <l n="0626" xml:id="em0638-fr-0626">Vous souvienne aveuglés quel est le personnage,</l>
+              <l n="0627" xml:id="em0638-fr-0627">Qu’il guerroie de ruse autant que de courage,</l>
+              <l n="0628" xml:id="em0638-fr-0628">Qu’où la force d’Achille il prévoit lui manquer,</l>
+              <l n="0629" xml:id="em0638-fr-0629">L’artifice d’Ulysse il sait trop appliquer.</l>
+              <l n="0630" xml:id="em0638-fr-0630">Tel, tel je vous le pleige, et ne veux que ses gestes</l>
+              <l n="0631" xml:id="em0638-fr-0631">Exploités avec nous d’exemple manifestes.</l>
+              <l n="0632" xml:id="em0638-fr-0632">Je ne veux qu’au présent le passé conférer ;</l>
+              <l n="0633" xml:id="em0638-fr-0633">Mais, hélas ! on nous vient son vouloir déclarer,</l>
+              <l n="0634" xml:id="em0638-fr-0634">Voici nos Députés, de qui la face morne</l>
+              <l n="0635" xml:id="em0638-fr-0635">Montre que sa rancœur implacable est sans borne.</l>
+              <l n="0636" xml:id="em0638-fr-0636">Amis qu’avez-vous fait ? de quelle affection</l>
+              <l n="0637" xml:id="em0638-fr-0637">A reçu ce cruel notre légation ?</l>
+            </lg>
+          </sp>
+          <sp who="#Ambassadeurs">
+            <speaker>AMBASSADEURS</speaker>
+            <lg type="free" part="M">
+              <l n="0638" xml:id="em0638-fr-0638">Pire cent et cent fois que n’est le plus barbare,</l>
+              <l n="0639" xml:id="em0638-fr-0639">Qui hormis l’ornement du Sceptre et du Tiare,</l>
+              <l n="0640" xml:id="em0638-fr-0640">Ne sent plus que son Roy, dédaigne d’écouter</l>
+              <l n="0641" xml:id="em0638-fr-0641">Ceux qu’il soulait ici compagnons accepter,</l>
+              <l n="0642" xml:id="em0638-fr-0642">Résolu d’abolir le nom de sa patrie,</l>
+              <l n="0643" xml:id="em0638-fr-0643">Et plutôt n’amortir l’ardeur de sa furie.</l>
+            </lg>
+          </sp>
+          <sp who="#Chœur_Romains">
+            <speaker>LE CHŒUR</speaker>
+            <lg type="free" part="M">
+              <l n="0644" xml:id="em0638-fr-0644">Ô misérable ville ! ô pauvres Citoyens !</l>
+            </lg>
+          </sp>
+          <sp who="#Ambassadeurs">
+            <speaker>AMBASSADEURS</speaker>
+            <lg type="free" part="M">
+              <l n="0645" xml:id="em0638-fr-0645">Nos tombeaux de la paix sont uniques moyens.</l>
+            </lg>
+          </sp>
+          <sp who="#Senat">
+            <speaker>LE SÉNAT</speaker>
+            <lg type="free" part="M">
+              <l n="0646" xml:id="em0638-fr-0646">Qu’à tout appointement il a fermé l’oreille ?</l>
+            </lg>
+          </sp>
+          <sp who="#Ambassadeurs">
+            <speaker>AMBASSADEURS</speaker>
+            <lg type="free" part="M">
+              <l n="0647" xml:id="em0638-fr-0647">La forme qu’il en donne à la guerre est pareille.</l>
+            </lg>
+          </sp>
+          <sp who="#Chœur_Romains">
+            <speaker>LE CHŒUR</speaker>
+            <lg type="free" part="M">
+              <l part="I" n="0648" xml:id="em0638-fr-0648">Ah ! Cieux, tout est perdu.</l>
+            </lg>
+          </sp>
+          <sp who="#Senat">
+            <speaker>LE SÉNAT</speaker>
+            <lg type="free" part="M">
+              <l part="F" xml:id="em0638-fr-0649">En somme dites nous</l>
+              <l n="0649" xml:id="em0638-fr-0650">Que l’amande contient prescrite à son courroux.</l>
+            </lg>
+          </sp>
+          <sp who="#Ambassadeurs">
+            <speaker>AMBASSADEURS</speaker>
+            <lg type="free" part="M">
+              <l n="0650" xml:id="em0638-fr-0651">Ainsi que chacun sait, la trêve consommée,</l>
+              <l n="0651" xml:id="em0638-fr-0652">Pour la seconde fois revoyant son armée,</l>
+              <l n="0652" xml:id="em0638-fr-0653">Nous l’avons, en faveur du peuple, et du Sénat,</l>
+              <l n="0653" xml:id="em0638-fr-0654">Supplié que son camp encor il remenât</l>
+              <l n="0654" xml:id="em0638-fr-0655">Hors des confins de Rome, et qu’alors, toute chose</l>
+              <l n="0655" xml:id="em0638-fr-0656">Sous l’équitable part de la raison enclose,</l>
+              <l n="0656" xml:id="em0638-fr-0657">On lui concéderait de franche volonté.</l>
+              <l n="0657" xml:id="em0638-fr-0658">Mais d’une passion colère surmonté,</l>
+              <l n="0658" xml:id="em0638-fr-0659">Respirant la rancœur en sa vue égarée,</l>
+              <l n="0659" xml:id="em0638-fr-0660">Subit votre demande à hautain rembarrée,</l>
+              <l n="0660" xml:id="em0638-fr-0661">Réplique qu’il n’avait en qualité de chef,</l>
+              <l n="0661" xml:id="em0638-fr-0662">Remède ni soulas propre à notre méchef,</l>
+              <l n="0662" xml:id="em0638-fr-0663">Mais, comme Citoyen de Rome et Patriote,</l>
+              <l n="0663" xml:id="em0638-fr-0664">Sa gloire prévoyant au sépulcre dévote,</l>
+              <l n="0664" xml:id="em0638-fr-0665">Les destins irrités de trop d’ambition,</l>
+              <l n="0665" xml:id="em0638-fr-0666">Qu’il nous conseillait bien vidé de passion,</l>
+              <l n="0666" xml:id="em0638-fr-0667">Rendre aux Volsques plus forts leurs villes usurpées</l>
+              <l n="0667" xml:id="em0638-fr-0668">De richesses par nous, et d’honneur dissipées ;</l>
+              <l n="0668" xml:id="em0638-fr-0669">Promettre ne jamais la guerre encommencer,</l>
+              <l n="0669" xml:id="em0638-fr-0670">Et à tous droits contre eux prétendus renoncer ;</l>
+              <l n="0670" xml:id="em0638-fr-0671">Qu’ainsi nous jouirons de la paix désirée,</l>
+              <l n="0671" xml:id="em0638-fr-0672">Qu’ainsi nous obtiendrons sa faveur assurée ;</l>
+              <l n="0672" xml:id="em0638-fr-0673">Qu’ainsi nous évitons le naufrage prochain,</l>
+              <l n="0673" xml:id="em0638-fr-0674">Et que son camp ainsi lairrait le mur Romain,</l>
+              <l n="0674" xml:id="em0638-fr-0675">Ne donnant que trois jours de temps à se résoudre.</l>
+              <l n="0675" xml:id="em0638-fr-0676">Jupiter, (à ces mots) quand il lâche son foudre,</l>
+              <l n="0676" xml:id="em0638-fr-0677">Moins sévère paraît, ajoutant au surplus,</l>
+              <l n="0677" xml:id="em0638-fr-0678">Que ce terme expiré de conférence exclus</l>
+              <l n="0678" xml:id="em0638-fr-0679">Il nous ferait punir entrant en son armée.</l>
+            </lg>
+          </sp>
+          <sp who="#Chœur_Romains">
+            <speaker>LE CHŒUR</speaker>
+            <lg type="free" part="M">
+              <l n="0679" xml:id="em0638-fr-0680">Ô Cité désastreuse, où est ta renommée ?</l>
+            </lg>
+          </sp>
+          <sp who="#Senat">
+            <speaker>LE SÉNAT</speaker>
+            <lg type="free" part="M">
+              <l n="0680" xml:id="em0638-fr-0681">Vous deviez en secret le sonder avisés,</l>
+              <l n="0681" xml:id="em0638-fr-0682">Les Volsques repaissant de propos déguisés.</l>
+            </lg>
+          </sp>
+          <sp who="#Ambassadeurs">
+            <speaker>AMBASSADEURS</speaker>
+            <lg type="free" part="M">
+              <l n="0682" xml:id="em0638-fr-0683">Oui, s’il n’eût prévenu la ruse projetée,</l>
+              <l n="0683" xml:id="em0638-fr-0684">Mandé de leurs primats la troupe consultée,</l>
+              <l n="0684" xml:id="em0638-fr-0685">Pour ouïr l’ambassade, et sur le champ enjoint</l>
+              <l n="0685" xml:id="em0638-fr-0686">Que l’on la déclarât tout haut de point en point.</l>
+            </lg>
+          </sp>
+          <sp who="#Chœur_Romains">
+            <speaker>LE CHŒUR</speaker>
+            <lg type="free" part="M">
+              <l n="0686" xml:id="em0638-fr-0687">Allons de notre sang sa cruauté repaître,</l>
+              <l n="0687" xml:id="em0638-fr-0688">Plutôt qu’à sa merci derechef nous soumettre,</l>
+              <l n="0688" xml:id="em0638-fr-0689">Allons l’épée au poing ses scadrons enfoncer,</l>
+              <l n="0689" xml:id="em0638-fr-0690">Un trépas généreux n’est point à renoncer.</l>
+            </lg>
+          </sp>
+          <sp who="#Senat">
+            <speaker>LE SÉNAT</speaker>
+            <lg type="free" part="M">
+              <l n="0690" xml:id="em0638-fr-0691">Non, retournez vers lui répéter nos prières,</l>
+              <l n="0691" xml:id="em0638-fr-0692">Le Soleil en un jour différent de lumière</l>
+              <l n="0692" xml:id="em0638-fr-0693">Montre que l’homme peut d’opinion changer,</l>
+              <l n="0693" xml:id="em0638-fr-0694">Se peut de la rigueur à la pitié ranger.</l>
+              <l n="0694" xml:id="em0638-fr-0695">Repoussez, il nous reste un remède à l’extrême,</l>
+              <l n="0695" xml:id="em0638-fr-0696">D’envoyer suppliant vers lui nos Prêtres même,</l>
+              <l n="0696" xml:id="em0638-fr-0697">Qui pour la piété le pourront émouvoir,</l>
+              <l n="0697" xml:id="em0638-fr-0698">Dépêchez au péril compassant le devoir.</l>
+            </lg>
+          </sp>
+          <sp who="#Ambassadeurs">
+            <speaker>AMBASSADEURS</speaker>
+            <lg type="free" part="M">
+              <l n="0698" xml:id="em0638-fr-0699">Encore que ce soit toute peine perdue,</l>
+              <l n="0699" xml:id="em0638-fr-0700">Nous vous allons querir sa réponse attendue.</l>
+            </lg>
+          </sp>
+          <sp who="#Chœur_Romains">
+            <speaker>LE CHŒUR</speaker>
+            <lg type="free" part="M">
+              <l n="0700" xml:id="em0638-fr-0701">Ô sévères destins ! Faut-il que notre deuil</l>
+              <l n="0701" xml:id="em0638-fr-0702">Accroisse d’un tyran l’insupportable orgueil ?</l>
+              <l n="0702" xml:id="em0638-fr-0703">Faut-il de la pitié d’un Busire dépendre,</l>
+              <l n="0703" xml:id="em0638-fr-0704">Tombés (pour le sauver) en si piteux esclandre ?</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene">
+          <head>SCÈNE II</head>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0704" xml:id="em0638-fr-0705">Ma vengeance tantôt accomplie à demi,</l>
+              <l n="0705" xml:id="em0638-fr-0706">Ce peuple injurieux de mon los ennemi,</l>
+              <l n="0706" xml:id="em0638-fr-0707">Qui se targuait du nombre, et du nom de sa ville,</l>
+              <l n="0707" xml:id="em0638-fr-0708">À ma discrétion ploie son joug servile,</l>
+              <l n="0708" xml:id="em0638-fr-0709">Deux fois par ambassade a souffert le refus</l>
+              <l n="0709" xml:id="em0638-fr-0710">D’un accord demandé repentant, et confus,</l>
+              <l n="0710" xml:id="em0638-fr-0711">Et n’en doit espérer quelque chose qu’il fasse ;</l>
+              <l n="0711" xml:id="em0638-fr-0712">Tâchant humilié de rentrer en ma grâce,</l>
+              <l n="0712" xml:id="em0638-fr-0713">De me tirer à part, corrompre ma faveur,</l>
+              <l n="0713" xml:id="em0638-fr-0714">Cela de mon courroux n’amortit la ferveur,</l>
+              <l n="0714" xml:id="em0638-fr-0715">Ne l’éteindra premier que sa gloire foulée</l>
+              <l n="0715" xml:id="em0638-fr-0716">Aux moindres nations se ternisse égalée,</l>
+              <l n="0716" xml:id="em0638-fr-0717">Tant qu’assouvi j’aurai mis son pouvoir si bas,</l>
+              <l n="0717" xml:id="em0638-fr-0718">Son bonheur élevé du bonheur des combats,</l>
+              <l n="0718" xml:id="em0638-fr-0719">Que chacun sans péril des peuples qu’il opprime,</l>
+              <l n="0719" xml:id="em0638-fr-0720">Réparera sa perte en réparant son crime.</l>
+              <l n="0720" xml:id="em0638-fr-0721">« Rien ne se fait sans cause, et les Dieux providents</l>
+              <l n="0721" xml:id="em0638-fr-0722">De qui, pauvres mortels nous sommes dépendants,</l>
+              <l n="0722" xml:id="em0638-fr-0723">Savent notre arrogance à la raison réduire,</l>
+              <l n="0723" xml:id="em0638-fr-0724">Pourvus quand il leur plaît d’instrument de leur ire,</l>
+              <l n="0724" xml:id="em0638-fr-0725">D’instrument comme moi pour la rogue fierté</l>
+              <l n="0725" xml:id="em0638-fr-0726">Des Romains, abusant de trop de liberté ».</l>
+              <l n="0726" xml:id="em0638-fr-0727">Ô sainte ! ô équitable ! ô terrible justice !</l>
+              <l n="0727" xml:id="em0638-fr-0728">Heureux Coriolan d’appliquer ce supplice,</l>
+              <l n="0728" xml:id="em0638-fr-0729">Vengé, tu as atteint le comble de tes vœux,</l>
+              <l n="0729" xml:id="em0638-fr-0730">Vengé, tu traceras l’exemple à nos neveux,</l>
+              <l n="0730" xml:id="em0638-fr-0731">Vengé, tu as acquis plus d’honneur, plus de gloire,</l>
+              <l n="0731" xml:id="em0638-fr-0732">Que ce bras ne l’avait de toute autre victoire,</l>
+              <l n="0732" xml:id="em0638-fr-0733">Étouffe désormais le souci dévorant ;</l>
+              <l n="0733" xml:id="em0638-fr-0734">Mais, où vais-je d’esprit et de pensers errant ?</l>
+              <l n="0734" xml:id="em0638-fr-0735">Je me trompe, ou voici leur Ambassade encore,</l>
+              <l n="0735" xml:id="em0638-fr-0736">Que la honteuse fin d’une paix viendra clore.</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene">
+          <head>SCÈNE III</head>
+          <stage>AMBASSADEURS, CORIOLAN, LE CONSEIL.</stage>
+          <sp who="#Ambassadeurs">
+            <speaker>AMBASSADEURS</speaker>
+            <lg type="free" part="M">
+              <l n="0736" xml:id="em0638-fr-0737">Une dernière fois ta plorable Cité</l>
+              <l n="0737" xml:id="em0638-fr-0738">Réclame ta clémence en son adversité,</l>
+              <l n="0738" xml:id="em0638-fr-0739">Une dernière fois ta pitié conjurée,</l>
+              <l n="0739" xml:id="em0638-fr-0740">Du peuple nous offrons une grâce assurée,</l>
+              <l n="0740" xml:id="em0638-fr-0741">Un rappel consenti de tous en général,</l>
+              <l n="0741" xml:id="em0638-fr-0742">Rappel de ton exil, qui nous fut si fatal ;</l>
+              <l n="0742" xml:id="em0638-fr-0743">Te priant au surplus nous donner audience</l>
+              <l n="0743" xml:id="em0638-fr-0744">En privé quelque part, avecques patience.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0744" xml:id="em0638-fr-0745">Soldats, appelez-moi les seigneurs du Conseil !</l>
+            </lg>
+          </sp>
+          <sp who="#Ambassadeurs">
+            <speaker>AMBASSADEURS</speaker>
+            <lg type="free" part="M">
+              <l n="0745" xml:id="em0638-fr-0746">Je frissonne au regard que décoche son œil.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0746" xml:id="em0638-fr-0747">Me conférer à part en affaire publique !</l>
+              <l n="0747" xml:id="em0638-fr-0748">Si vous ne désistez d’une sourde pratique,</l>
+              <l n="0748" xml:id="em0638-fr-0749">Punis en qualité de traîtres suborneurs,</l>
+              <l n="0749" xml:id="em0638-fr-0750">Qui voulez m’allécher d’appas empoisonneurs,</l>
+              <l n="0750" xml:id="em0638-fr-0751">Tous on vous apprendra. Sus, en pleine assistance,</l>
+              <l n="0751" xml:id="em0638-fr-0752">Dites, si les Romains (induits à repentance)</l>
+              <l n="0752" xml:id="em0638-fr-0753">Ce qu’ils ont usurpé veulent rétribuer,</l>
+              <l n="0753" xml:id="em0638-fr-0754">Faisant cesser le siège, ou le continuer.</l>
+              <l n="0754" xml:id="em0638-fr-0755">Au défaut de la paix en ces bornes prescrite,</l>
+              <l n="0755" xml:id="em0638-fr-0756">Ne vous avais-je pas notre armée interdite ?</l>
+            </lg>
+          </sp>
+          <sp who="#Ambassadeurs">
+            <speaker>AMBASSADEURS</speaker>
+            <lg type="free" part="M">
+              <l n="0756" xml:id="em0638-fr-0757">Moyennant que ton camp il te plaise adouci,</l>
+              <l n="0757" xml:id="em0638-fr-0758">Tirer de nos confins en l’emmenant d’ici,</l>
+              <l n="0758" xml:id="em0638-fr-0759">Autant que l’équité permet que l’on t’accorde,</l>
+              <l n="0759" xml:id="em0638-fr-0760">Ils te l’accorderont désireux de concorde.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0760" xml:id="em0638-fr-0761">N’avez-vous impudents charge que de cela ?</l>
+            </lg>
+          </sp>
+          <sp who="#Ambassadeurs">
+            <speaker>AMBASSADEURS</speaker>
+            <lg type="free" part="M">
+              <l n="0761" xml:id="em0638-fr-0762">Notre commission ne va que jusque là.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0762" xml:id="em0638-fr-0763">Qui donc votre retour maintenant autorise ?</l>
+            </lg>
+          </sp>
+          <sp who="#Ambassadeurs">
+            <speaker>AMBASSADEURS</speaker>
+            <lg type="free" part="M">
+              <l n="0763" xml:id="em0638-fr-0764">« Pour le bien du pays toute chose est permise ».</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0764" xml:id="em0638-fr-0765">Le bien que vous cherchez est votre détriment.</l>
+            </lg>
+          </sp>
+          <sp who="#Ambassadeurs">
+            <speaker>AMBASSADEURS</speaker>
+            <lg type="free" part="M">
+              <l n="0765" xml:id="em0638-fr-0766">Sans passion tu peux en parler autrement.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0766" xml:id="em0638-fr-0767">Aucune passion mon âme ne transporte.</l>
+            </lg>
+          </sp>
+          <sp who="#Ambassadeurs">
+            <speaker>AMBASSADEURS</speaker>
+            <lg type="free" part="M">
+              <l n="0767" xml:id="em0638-fr-0768">Du Temple de Janus ferme doncques la porte.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0768" xml:id="em0638-fr-0769">Trahissant mon parti pour vous gratifier ?</l>
+            </lg>
+          </sp>
+          <sp who="#Ambassadeurs">
+            <speaker>AMBASSADEURS</speaker>
+            <lg type="free" part="M">
+              <l n="0769" xml:id="em0638-fr-0770">Ains d’une paix daignant les deux peuples lier.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0770" xml:id="em0638-fr-0771">Je le désire ainsi, les pactions égales.</l>
+            </lg>
+          </sp>
+          <sp who="#Ambassadeurs">
+            <speaker>AMBASSADEURS</speaker>
+            <lg type="free" part="M">
+              <l n="0771" xml:id="em0638-fr-0772">Égales, où des tiens la gloire tu ravales.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0772" xml:id="em0638-fr-0773">Des assassins (ingrats) vous appelez les miens ?</l>
+            </lg>
+          </sp>
+          <sp who="#Ambassadeurs">
+            <speaker>AMBASSADEURS</speaker>
+            <lg type="free" part="M">
+              <l n="0773" xml:id="em0638-fr-0774">Toujours le bon côté fut et sera des tiens.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0774" xml:id="em0638-fr-0775">Ils sont coupables tous, et tous je les renonce.</l>
+            </lg>
+          </sp>
+          <sp who="#Ambassadeurs">
+            <speaker>AMBASSADEURS</speaker>
+            <lg type="free" part="M">
+              <l n="0775" xml:id="em0638-fr-0776">Console au moins nos maux d’une humaine réponse,</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0776" xml:id="em0638-fr-0777">La première donnée emporte son destin.</l>
+            </lg>
+          </sp>
+          <sp who="#Ambassadeurs">
+            <speaker>AMBASSADEURS</speaker>
+            <lg type="free" part="M">
+              <l n="0777" xml:id="em0638-fr-0778">L’honneur de ton pays veux-tu mettre en butin ?</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0778" xml:id="em0638-fr-0779">Je n’ai point de pays qu’où ma fortune est bonne.</l>
+            </lg>
+          </sp>
+          <sp who="#Ambassadeurs">
+            <speaker>AMBASSADEURS</speaker>
+            <lg type="free" part="M">
+              <l n="0779" xml:id="em0638-fr-0780">Rome est celle pourtant qui ton être te donne.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0780" xml:id="em0638-fr-0781">Rome est celle qui m’a voulu priver du jour.</l>
+            </lg>
+          </sp>
+          <sp who="#Ambassadeurs">
+            <speaker>AMBASSADEURS</speaker>
+            <lg type="free" part="M">
+              <l n="0781" xml:id="em0638-fr-0782">À son ingratitude oppose ton amour.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0782" xml:id="em0638-fr-0783">Ne m’importunez plus d’une prière vaine.</l>
+            </lg>
+          </sp>
+          <sp who="#Ambassadeurs">
+            <speaker>AMBASSADEURS</speaker>
+            <lg type="free" part="M">
+              <l n="0783" xml:id="em0638-fr-0784">À d’autres mieux venus nous résignons la peine.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0784" xml:id="em0638-fr-0785">À quiconque ce soit je défens revenir,</l>
+              <l n="0785" xml:id="em0638-fr-0786">Si à la paix offerte il veut contrevenir.</l>
+            </lg>
+          </sp>
+          <sp who="#Ambassadeurs">
+            <speaker>AMBASSADEURS</speaker>
+            <lg type="free" part="M">
+              <l n="0786" xml:id="em0638-fr-0787">Nous allons rapporter cette triste nouvelle.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0787" xml:id="em0638-fr-0788">Et moi de plus en plus continuer fidèle,</l>
+              <l n="0788" xml:id="em0638-fr-0789">Employer mon courage, et ma dextérité,</l>
+              <l n="0789" xml:id="em0638-fr-0790">Pour ceux qui m’ont reçu en ma calamité.</l>
+            </lg>
+          </sp>
+          <sp who="#Conseil_Volsques">
+            <speaker>LE CONSEIL</speaker>
+            <lg type="free" part="F">
+              <l n="0790" xml:id="em0638-fr-0791">Ô des plus valeureux, Soleil incomparable !</l>
+              <l n="0791" xml:id="em0638-fr-0792">Que ton malheur nous fut propice et favorable !</l>
+              <l n="0792" xml:id="em0638-fr-0793">Que nous avions besoin d’un tel chef, et combien</l>
+              <l n="0793" xml:id="em0638-fr-0794">Ta vertu doit chérie en ce val terrien,</l>
+              <l n="0794" xml:id="em0638-fr-0795">Obliger qui la tient de conserver sa grâce !</l>
+              <l n="0795" xml:id="em0638-fr-0796">Des plus audacieux elle brise l’audace,</l>
+              <l n="0796" xml:id="em0638-fr-0797">La fortune la suit, la fortune ne peut</l>
+              <l n="0797" xml:id="em0638-fr-0798">Tollir à ces desseins rien de ce qu’elle veut.</l>
+            </lg>
+          </sp>
+        </div2>
+      </div1>
+      <div1 type="act" n="4">
+        <head>ACT IV</head>
+        <stage>VALÉRIE, TROUPE DE DAMES ROMAINES, AMFIDIE, CORIOLAN, VOLOMNIE, VERGINIE, LE CONSEIL, [LE FILS DE CORIOLAN].</stage>
+        <div2 type="scene">
+          <head>SCÈNE I</head>
+          <stage>VALÉRIE, TROUPE DE DAMES ROMAINES.</stage>
+          <sp who="#Valerie">
+            <speaker>VALÉRIE</speaker>
+            <lg type="free" part="M">
+              <l n="0798" xml:id="em0638-fr-0799">Doutez vous que les Dieux inspirent mon courage ?</l>
+              <l n="0799" xml:id="em0638-fr-0800">Les bons Dieux qu’en l’effroi de ce commun naufrage</l>
+              <l n="0800" xml:id="em0638-fr-0801">Chacun va prosterné supplier aux Autels,</l>
+              <l n="0801" xml:id="em0638-fr-0802">Leurs miracles souvent d’origine sont tels,</l>
+              <l n="0802" xml:id="em0638-fr-0803">Ils choisissent un cœur humilié de crainte,</l>
+              <l n="0803" xml:id="em0638-fr-0804">Pour y germer la foi d’une assistance sainte,</l>
+              <l n="0804" xml:id="em0638-fr-0805">Pour rendre son conseil organe d’un bien fait,</l>
+              <l n="0805" xml:id="em0638-fr-0806">Outre que je croirais un signalé forfait ;</l>
+              <l n="0806" xml:id="em0638-fr-0807">Outre que je croirais tenir plus d’une Idole,</l>
+              <l n="0807" xml:id="em0638-fr-0808">Que du sang généreux de ce grand Publicole,</l>
+              <l n="0808" xml:id="em0638-fr-0809">Laissant aucun moyen à part moi pourpensé,</l>
+              <l n="0809" xml:id="em0638-fr-0810">Utile à mon pays de misère oppressé,</l>
+              <l n="0810" xml:id="em0638-fr-0811">Prêt à faire une paix pleine d’ignominie,</l>
+              <l n="0811" xml:id="em0638-fr-0812">Paix qui ne vaut pas mieux qu’un joug de tyrannie,</l>
+              <l n="0812" xml:id="em0638-fr-0813">Paix de qui nos Majeurs hérisseraient d’horreur</l>
+              <l n="0813" xml:id="em0638-fr-0814">S’ils entendaient là-bas notre timide erreur.</l>
+              <l n="0814" xml:id="em0638-fr-0815">Les Célestes exprès ont voulu, débonnaires,</l>
+              <l n="0815" xml:id="em0638-fr-0816">Que tinssions en dépôt du chef des adversaires,</l>
+              <l n="0816" xml:id="em0638-fr-0817">Un gage plus prégnant d’amour, et de pitié,</l>
+              <l n="0817" xml:id="em0638-fr-0818">Sa mère, et ses enfants, et sa chère moitié.</l>
+              <l n="0818" xml:id="em0638-fr-0819">Implorant leurs secours, implorant leur puissance,</l>
+              <l n="0819" xml:id="em0638-fr-0820">Pour toutes de parler je prendrai la licence,</l>
+              <l part="I" n="0820" xml:id="em0638-fr-0821">Allons donc les trouver.</l>
+            </lg>
+          </sp>
+          <sp who="#Dames_Romaines">
+            <speaker>TROUPE DE DAMES</speaker>
+            <lg type="free" part="M">
+              <l part="F" xml:id="em0638-fr-0822">Allons, puis qu’il te plaît,</l>
+              <l n="0821" xml:id="em0638-fr-0823">Puis que d’un bon espoir l’augure te repaît,</l>
+              <l n="0822" xml:id="em0638-fr-0824">Jaçoit que nous dussions auparavant ensemble</l>
+              <l n="0823" xml:id="em0638-fr-0825">Consulter le vouloir du Sénat, ce me semble.</l>
+            </lg>
+          </sp>
+          <sp who="#Valerie">
+            <speaker>VALÉRIE</speaker>
+            <lg type="free" part="M">
+              <l n="0824" xml:id="em0638-fr-0826">Nullement, en désirs si vertueux conçus</l>
+              <l n="0825" xml:id="em0638-fr-0827">L’autorité suffit des grands Dieux de là sus.</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene">
+          <head>SCÈNE II</head>
+          <stage>AMFIDIE (seul)</stage>
+          <sp who="#Amfidie">
+            <speaker>AMFIDIE</speaker>
+            <lg type="free" part="M">
+              <l n="0826" xml:id="em0638-fr-0828">Qu’as-tu fait insensé ? quelle manie étrange</l>
+              <l n="0827" xml:id="em0638-fr-0829">Une brèche éternelle imprime à ta louange ?</l>
+              <l n="0828" xml:id="em0638-fr-0830">Ennemi de l’honneur acquis par le passé,</l>
+              <l n="0829" xml:id="em0638-fr-0831">Tu consens un rival au premier lieu placé ;</l>
+              <l n="0830" xml:id="em0638-fr-0832">Un rival étranger perfide à sa patrie,</l>
+              <l n="0831" xml:id="em0638-fr-0833">Aujourd’hui de ton gré les Volsques seigneurie,</l>
+              <l n="0832" xml:id="em0638-fr-0834">Commande absolument, leurs batailles conduit,</l>
+              <l n="0833" xml:id="em0638-fr-0835">Ton los est obscurci auprès du sien qui luit,</l>
+              <l n="0834" xml:id="em0638-fr-0836">Ton crédit aboli, ta renommée éteinte,</l>
+              <l n="0835" xml:id="em0638-fr-0837">Si qu’ores pénétré d’une jalouse atteinte</l>
+              <l n="0836" xml:id="em0638-fr-0838">À peine pourras-tu les ailes lui rogner,</l>
+              <l n="0837" xml:id="em0638-fr-0839">À peine du commun la croyance éloigner,</l>
+              <l n="0838" xml:id="em0638-fr-0840">Qui dédaigne marcher sous autre Capitaine,</l>
+              <l n="0839" xml:id="em0638-fr-0841">Veut que l’autorité en ses mains souveraine</l>
+              <l n="0840" xml:id="em0638-fr-0842">Demeure irrévocable, et aux autres enjoint</l>
+              <l n="0841" xml:id="em0638-fr-0843">S’il ne leur dispersait de n’en prétendre point.</l>
+              <l n="0842" xml:id="em0638-fr-0844">Que j’endure l’affront ? ô gouffres de Ténare</l>
+              <l n="0843" xml:id="em0638-fr-0845">Ravissez-moi plutôt à votre Prince avare :</l>
+              <l n="0844" xml:id="em0638-fr-0846">Je n’affecte le jour qu’à cause de l’honneur,</l>
+              <l n="0845" xml:id="em0638-fr-0847">Et ne saurais souffrir compagnon, ni Seigneur :</l>
+              <l n="0846" xml:id="em0638-fr-0848">Au surplus, dessus lui il m’a jà donné prise,</l>
+              <l n="0847" xml:id="em0638-fr-0849">Perdant l’Occasion d’une haute entreprise,</l>
+              <l n="0848" xml:id="em0638-fr-0850">L’Occasion qui n’a des cheveux que devant,</l>
+              <l n="0849" xml:id="em0638-fr-0851">Et, glissée une fois, remplit les mains de vent.</l>
+              <l n="0850" xml:id="em0638-fr-0852">Mais il la voulait perdre octroyant une trêve</l>
+              <l n="0851" xml:id="em0638-fr-0853">De trente jours aux siens, en leur crainte plus griève ;</l>
+              <l n="0852" xml:id="em0638-fr-0854">Bien pris d’avoir pendant son siège transporté,</l>
+              <l n="0853" xml:id="em0638-fr-0855">Permis Rome reprendre en toute liberté</l>
+              <l n="0854" xml:id="em0638-fr-0856">Ses esprits, son courage, et de vivre munie,</l>
+              <l n="0855" xml:id="em0638-fr-0857">Moquer notre imprudence à juste droit punie :</l>
+              <l n="0856" xml:id="em0638-fr-0858">La foi d’un traître est nulle, il n’y a point d’arrêt,</l>
+              <l n="0857" xml:id="em0638-fr-0859">De faire à tous le même il sera toujours prêt,</l>
+              <l n="0858" xml:id="em0638-fr-0860">Amorcé du rappel de son ban, c’est sans doute</l>
+              <l n="0859" xml:id="em0638-fr-0861">Que des Volsques bientôt nous oirons la déroute,</l>
+              <l n="0860" xml:id="em0638-fr-0862">Qu’auteur de ce dommage on viendra m’accuser,</l>
+              <l n="0861" xml:id="em0638-fr-0863">Me meurtrir dans mon lit, mes lares embraser,</l>
+              <l n="0862" xml:id="em0638-fr-0864">Déloyal ! Hâte-toi, si tu en as l’envie,</l>
+              <l n="0863" xml:id="em0638-fr-0865">Car je ferai de près examiner ta vie ;</l>
+              <l n="0864" xml:id="em0638-fr-0866">Je te donnerai tant d’espions désormais,</l>
+              <l n="0865" xml:id="em0638-fr-0867">Et tes gestes seront de tant d’yeux enfermés,</l>
+              <l n="0866" xml:id="em0638-fr-0868">Que difficilement tu ourdiras de trame,</l>
+              <l n="0867" xml:id="em0638-fr-0869">Qu’à ta confusion, qu’à ton sanglant diffame :</l>
+              <l n="0868" xml:id="em0638-fr-0870">Sinon je te prépare un tel piège au retour,</l>
+              <l n="0869" xml:id="em0638-fr-0871">Que tu perdras ensemble et la gloire et le jour.</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene">
+          <head>SCÈNE III</head>
+          <stage>VOLOMNIE, VALÉRIE, TROUPE DE DAMES, VERGINIE.</stage>
+          <sp who="#Volomnie">
+            <speaker>VOLOMNIE</speaker>
+            <lg type="free" part="M">
+              <l n="0870" xml:id="em0638-fr-0872">Mes Dames, plût au Ciel qu’il fût aussi facile</l>
+              <l n="0871" xml:id="em0638-fr-0873">D’accomplir ce projet que je le sens utile.</l>
+              <l n="0872" xml:id="em0638-fr-0874">Las ! je n’épargnerai ni prières ni pleurs,</l>
+              <l n="0873" xml:id="em0638-fr-0875">Je lui peindrai plus grands encore les malheurs,</l>
+              <l n="0874" xml:id="em0638-fr-0876">Plus grands il ne se peut, Rome désespérée</l>
+              <l n="0875" xml:id="em0638-fr-0877">Une telle secousse onc n’avait endurée,</l>
+              <l n="0876" xml:id="em0638-fr-0878">Depuis que deux jumeaux la fondèrent au bord</l>
+              <l n="0877" xml:id="em0638-fr-0879">Où un heureux destin les préserva de mort.</l>
+              <l n="0878" xml:id="em0638-fr-0880">De mon fils courroucé n’étant point éconduite,</l>
+              <l n="0879" xml:id="em0638-fr-0881">Je croirai rebâtir une ville détruite.</l>
+              <l n="0880" xml:id="em0638-fr-0882">Hélas ! ce sont propos, propos jetés en l’air,</l>
+              <l n="0881" xml:id="em0638-fr-0883">Perdus, infructueux, qui ne font que couler.</l>
+              <l n="0882" xml:id="em0638-fr-0884">Fléchirai-je (sa mère) un Héros magnanime,</l>
+              <l n="0883" xml:id="em0638-fr-0885">Qui toujours a plus fait de son pays estime,</l>
+              <l n="0884" xml:id="em0638-fr-0886">A préféré sa gloire à l’amour des parents,</l>
+              <l n="0885" xml:id="em0638-fr-0887">Ains au jour que mortels nous sommes respirant ;</l>
+              <l n="0886" xml:id="em0638-fr-0888">Bref, qui d’affection vers sa patrie extrême,</l>
+              <l n="0887" xml:id="em0638-fr-0889">Maintenant la poursuit d’une haine de même,</l>
+              <l n="0888" xml:id="em0638-fr-0890">Témoin l’âpre rebut de nos Ambassadeurs,</l>
+              <l n="0889" xml:id="em0638-fr-0891">D’une paix coup sur coup pour néant demandeurs</l>
+              <l n="0890" xml:id="em0638-fr-0892">Et pire témoignage arguant sa colère,</l>
+              <l n="0891" xml:id="em0638-fr-0893">De nos Prêtres sacrés l’inutile prière.</l>
+            </lg>
+          </sp>
+          <sp who="#Valerie">
+            <speaker>VALÉRIE</speaker>
+            <lg type="free" part="M">
+              <l n="0892" xml:id="em0638-fr-0894">Le pouvoir maternel surpasse tout pouvoir,</l>
+              <l n="0893" xml:id="em0638-fr-0895">Il ne vous a jamais manqué de son devoir ;</l>
+              <l n="0894" xml:id="em0638-fr-0896">Humble, respectueux, enfant si débonnaire,</l>
+              <l n="0895" xml:id="em0638-fr-0897">Que la piété même il prenait d’exemplaire,</l>
+              <l n="0896" xml:id="em0638-fr-0898">Que vos pleurs molliront son courage d’acier,</l>
+              <l n="0897" xml:id="em0638-fr-0899">Que Rome aura de quoi plus vous remercier,</l>
+              <l n="0898" xml:id="em0638-fr-0900">Vous savoir plus de gré qu’aux Matrones Sabines,</l>
+              <l n="0899" xml:id="em0638-fr-0901">Se jetant au travers des batailles Latines,</l>
+              <l n="0900" xml:id="em0638-fr-0902">Leurs pères appointant avecque leurs époux,</l>
+              <l n="0901" xml:id="em0638-fr-0903">Que Mars déjà bouillant appareillait aux coups ;</l>
+              <l n="0902" xml:id="em0638-fr-0904">Prenez seulement cœur d’éprouver la fortune,</l>
+              <l n="0903" xml:id="em0638-fr-0905">Que vous accompagnant nous désirons commune,</l>
+              <l n="0904" xml:id="em0638-fr-0906">Soit de honte, ou d’honneur, de salut, ou de mort,</l>
+              <l n="0905" xml:id="em0638-fr-0907">Selon la volonté de l’immuable sort.</l>
+            </lg>
+          </sp>
+          <sp who="#Volomnie">
+            <speaker>VOLOMNIE</speaker>
+            <lg type="free" part="M">
+              <l n="0906" xml:id="em0638-fr-0908">Éprouver un hasard sans espoir c’est folie.</l>
+            </lg>
+          </sp>
+          <sp who="#Valerie">
+            <speaker>VALÉRIE</speaker>
+            <lg type="free" part="M">
+              <l n="0907" xml:id="em0638-fr-0909">Au contraire l’espoir vous rit, et vous supplie.</l>
+            </lg>
+          </sp>
+          <sp who="#Volomnie">
+            <speaker>VOLOMNIE</speaker>
+            <lg type="free" part="M">
+              <l n="0908" xml:id="em0638-fr-0910">Tant d’autres éconduits devant moi me font peur.</l>
+            </lg>
+          </sp>
+          <sp who="#Valerie">
+            <speaker>VALERIE</speaker>
+            <lg type="free" part="M">
+              <l n="0909" xml:id="em0638-fr-0911">Leur crédit près du votre était une vapeur.</l>
+            </lg>
+          </sp>
+          <sp who="#Volomnie">
+            <speaker>VOLOMNIE</speaker>
+            <lg type="free" part="M">
+              <l n="0910" xml:id="em0638-fr-0912">Leur crédit embrassait celui de la patrie.</l>
+            </lg>
+          </sp>
+          <sp who="#Valerie">
+            <speaker>VALÉRIE</speaker>
+            <lg type="free" part="M">
+              <l n="0911" xml:id="em0638-fr-0913">Et qui refuserait une mère qui prie ?</l>
+            </lg>
+          </sp>
+          <sp who="#Volomnie">
+            <speaker>VOLOMNIE</speaker>
+            <lg type="free" part="M">
+              <l n="0912" xml:id="em0638-fr-0914">Pensez que son pouvoir dépend de l’étranger.</l>
+            </lg>
+          </sp>
+          <sp who="#Valerie">
+            <speaker>VALÉRIE</speaker>
+            <lg type="free" part="M">
+              <l n="0913" xml:id="em0638-fr-0915">Le Volsque n’est ici qu’afin de le venger.</l>
+            </lg>
+          </sp>
+          <sp who="#Volomnie">
+            <speaker>VOLOMNIE</speaker>
+            <lg type="free" part="M">
+              <l n="0914" xml:id="em0638-fr-0916">Le Volsque qui dispute avec nous de l’Empire,</l>
+              <l n="0915" xml:id="em0638-fr-0917">Notre ennemi mortel plus haut certes respire,</l>
+              <l n="0916" xml:id="em0638-fr-0918">Il ne déploie point pour un particulier</l>
+              <l n="0917" xml:id="em0638-fr-0919">Sa puissance totale en ce peuple guerrier.</l>
+            </lg>
+          </sp>
+          <sp who="#Valerie">
+            <speaker>VALÉRIE</speaker>
+            <lg type="free" part="M">
+              <l n="0918" xml:id="em0638-fr-0920">J’aimerais mieux nous voir tout au coup refusées,</l>
+              <l n="0919" xml:id="em0638-fr-0921">Qu’en excuses ainsi, sans excuse amusées.</l>
+              <l n="0920" xml:id="em0638-fr-0922">« La fortune souvent apporte le bonheur,</l>
+              <l n="0921" xml:id="em0638-fr-0923">Se munissant d’espoir, et non point de malheur ».</l>
+            </lg>
+          </sp>
+          <sp who="#Volomnie">
+            <speaker>VOLOMNIE</speaker>
+            <lg type="free" part="M">
+              <l n="0922" xml:id="em0638-fr-0924">Je périsse plutôt que refuser ingrate</l>
+              <l n="0923" xml:id="em0638-fr-0925">Au pays affligé ma prière Avocate,</l>
+              <l n="0924" xml:id="em0638-fr-0926">Je refuse sans plus, craintive du refus,</l>
+              <l n="0925" xml:id="em0638-fr-0927">Craintive à bon sujet, si jamais je le fus,</l>
+              <l n="0926" xml:id="em0638-fr-0928">Parfait à ma requête, éconduite et reçue,</l>
+              <l n="0927" xml:id="em0638-fr-0929">Ou la fin d’une guerre, ou sa douteuse issue.</l>
+              <l n="0928" xml:id="em0638-fr-0930">Ô pitoyables Dieux ! auteurs des bons desseins,</l>
+              <l n="0929" xml:id="em0638-fr-0931">Tant justes, tant cléments, tous puissants, et tous saints,</l>
+              <l n="0930" xml:id="em0638-fr-0932">Accompagnez ma voix d’un charme qui pénètre</l>
+              <l n="0931" xml:id="em0638-fr-0933">Le roc de son courage, et pénétrant j’impètre,</l>
+              <l n="0932" xml:id="em0638-fr-0934">J’impètre le pardon des torts qu’on lui a faits,</l>
+              <l n="0933" xml:id="em0638-fr-0935">Conjoints à la faveur d’une agréable paix.</l>
+              <l n="0934" xml:id="em0638-fr-0936">Allons, ma chère Bru, viens d’un baiser modeste</l>
+              <l n="0935" xml:id="em0638-fr-0937">Apaiser de ce Mars la rancune funeste,</l>
+              <l n="0936" xml:id="em0638-fr-0938">Et toi son doux espoir, son germe généreux</l>
+              <l n="0937" xml:id="em0638-fr-0939">Oblige dès le bers ton pays malheureux.</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene">
+          <head>SCÈNE IV</head>
+          <stage>CORIOLAN, LE CONSEIL, VOLOMNIE, TROUPE DE DAMES, [LE FILS DE CORIOLAN]</stage>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="0938" xml:id="em0638-fr-0940">Seigneurs Volsques, honneur de votre République,</l>
+              <l n="0939" xml:id="em0638-fr-0941">Dignes d’être ajoutés à la troupe Olympique,</l>
+              <l n="0940" xml:id="em0638-fr-0942">Le Conseil nous appelle en ce siège important,</l>
+              <l n="0941" xml:id="em0638-fr-0943">À la perte de l’un des deux partis battant,</l>
+              <l n="0942" xml:id="em0638-fr-0944">Des Romains, ou de nous, l’un obstiné de prendre</l>
+              <l n="0943" xml:id="em0638-fr-0945">Un monde enclos de murs, l’autre de se défendre,</l>
+              <l n="0944" xml:id="em0638-fr-0946">Doute qui ne se peut bien résoudre au certain,</l>
+              <l n="0945" xml:id="em0638-fr-0947">Savoir l’événement, si ce n’est du destin ;</l>
+              <l n="0946" xml:id="em0638-fr-0948">Quant à ce qui concerne une apparence humaine</l>
+              <l n="0947" xml:id="em0638-fr-0949">Sa prise ne nous doit balancer incertaine,</l>
+              <l n="0948" xml:id="em0638-fr-0950">D’ouverte et vive force, ou du temps ménagers</l>
+              <l n="0949" xml:id="em0638-fr-0951">Avec moins de hasards, de perte et de dangers ;</l>
+              <l n="0950" xml:id="em0638-fr-0952">Moins prodigues de sang, et plus mûrs de prudence</l>
+              <l n="0951" xml:id="em0638-fr-0953">Faut que l’ennemi prenne un joug en patience,</l>
+              <l n="0952" xml:id="em0638-fr-0954">Conviendra qu’il se rende à composition,</l>
+              <l n="0953" xml:id="em0638-fr-0955">Malgré sa résistance et son ambition.</l>
+              <l n="0954" xml:id="em0638-fr-0956">Prétendre le forcer, vu la grandeur du nombre,</l>
+              <l n="0955" xml:id="em0638-fr-0957">J’estime que ce soit lutter contre son ombre,</l>
+              <l n="0956" xml:id="em0638-fr-0958">Se reculer du but au lieu de s’approcher.</l>
+              <l n="0957" xml:id="em0638-fr-0959">Pour conserver un bien que l’on prise si cher,</l>
+              <l n="0958" xml:id="em0638-fr-0960">Garder sa liberté, sa fortune, et sa race,</l>
+              <l n="0959" xml:id="em0638-fr-0961">Il n’est rien d’impossible, il n’est rien qu’on ne fasse,</l>
+              <l n="0960" xml:id="em0638-fr-0962">Jusqu’au dernier soupir on combat hardiment,</l>
+              <l n="0961" xml:id="em0638-fr-0963">Même alors que le corps ne manque d’aliment,</l>
+              <l n="0962" xml:id="em0638-fr-0964">Que le sang vigoureux bouillonne dans les veines,</l>
+              <l n="0963" xml:id="em0638-fr-0965">Et que d’esprit encor elles sont toutes pleines,</l>
+              <l n="0964" xml:id="em0638-fr-0966">Loin d’avoir à dompter des hommes affamés,</l>
+              <l n="0965" xml:id="em0638-fr-0967">Des vaincus impuissants en leurs murs enfermés,</l>
+              <l n="0966" xml:id="em0638-fr-0968">Parmi les corps plaintifs des enfants et des femmes,</l>
+              <l n="0967" xml:id="em0638-fr-0969">De monceaux charogneux délaissés de leurs âmes,</l>
+              <l n="0968" xml:id="em0638-fr-0970">Parmi l’air pestilent, la frayeur des assauts,</l>
+              <l n="0969" xml:id="em0638-fr-0971">Talonnés de la Parque, opprimés des travaux :</l>
+              <l n="0970" xml:id="em0638-fr-0972">Pour moi, c’est mon avis, je trouve que ce siège</l>
+              <l n="0971" xml:id="em0638-fr-0973">En longueur les accable autant qu’il nous allège,</l>
+              <l n="0972" xml:id="em0638-fr-0974">Sauf l’opposition des meilleures raisons</l>
+              <l n="0973" xml:id="em0638-fr-0975">Permises à chacun en ce que nous faisons,</l>
+              <l n="0974" xml:id="em0638-fr-0976">Ainsi que le Printemps ne fait une hirondelle,</l>
+              <l n="0975" xml:id="em0638-fr-0977">Tous les esprits ne sont captifs d’une cervelle :</l>
+              <l n="0976" xml:id="em0638-fr-0978">Et comme le cheval plus adextre, souvent</l>
+              <l n="0977" xml:id="em0638-fr-0979">Ne laisse de chopper, on se va décevant.</l>
+              <l n="0978" xml:id="em0638-fr-0980">Humaine infirmité ! Mais, ô Bonté Divine !</l>
+              <l n="0979" xml:id="em0638-fr-0981">Quelle troupe vers nous de Dames s’achemine ?</l>
+              <l n="0980" xml:id="em0638-fr-0982">Je reconnais ma Mère, et ma Femme. Sus donc,</l>
+              <l n="0981" xml:id="em0638-fr-0983">Arme-toi de constance inflexible, si onc</l>
+              <l n="0982" xml:id="em0638-fr-0984">Contre elle de constance. Ha ! l’amitié plus forte</l>
+              <l n="0983" xml:id="em0638-fr-0985">Que tout autre respect me surmonte et m’emporte ;</l>
+              <l n="0984" xml:id="em0638-fr-0986">Je les vois larmoyant. Ô pudique moitié !</l>
+              <l n="0985" xml:id="em0638-fr-0987">Ne me provoque plus par tes pleurs à pitié,</l>
+              <l n="0986" xml:id="em0638-fr-0988">Conforte-toi d’espoir, et vous aussi ma mère,</l>
+              <l n="0987" xml:id="em0638-fr-0989">Vous de qui j’ai reçu la vitale lumière,</l>
+              <l n="0988" xml:id="em0638-fr-0990">Vous que sur tous j’honore, et à qui tout je dois,</l>
+              <l n="0989" xml:id="em0638-fr-0991">¿Qui vous amène ici maintenant, dites-moi ?</l>
+            </lg>
+          </sp>
+          <sp who="#Volomnie">
+            <speaker>VOLOMNIE</speaker>
+            <lg type="free" part="M">
+              <l n="0990" xml:id="em0638-fr-0992">Le motif, mon enfant, de ma triste venue,</l>
+              <l n="0991" xml:id="em0638-fr-0993">Se lit assez empreint en ma face chenue ;</l>
+              <l n="0992" xml:id="em0638-fr-0994">Coupable tu le sais, Hélas ! Hélas ! je viens</l>
+              <l n="0993" xml:id="em0638-fr-0995">Pour faire résulter du mal un plus grand bien,</l>
+              <l n="0994" xml:id="em0638-fr-0996">De la guerre une paix moyennant qu’il te plaise</l>
+              <l n="0995" xml:id="em0638-fr-0997">Tempérer de raisons ta coléreuse braise,</l>
+              <l n="0996" xml:id="em0638-fr-0998">Qu’il te plaise oublier l’outrage injurieux,</l>
+              <l n="0997" xml:id="em0638-fr-0999">Vers ta valeur commis d’un peuple furieux,</l>
+              <l n="0998" xml:id="em0638-fr-1000">Commis d’un peuple ingrat, d’une Commune ignare</l>
+              <l n="0999" xml:id="em0638-fr-1001">Envers son bienfaiteur, son asile, et son phare.</l>
+              <l n="1000" xml:id="em0638-fr-1002">Ores il se repent, il te crie merci,</l>
+              <l n="1001" xml:id="em0638-fr-1003">Ores il émouvrait le cœur plus endurci,</l>
+              <l n="1002" xml:id="em0638-fr-1004">De ses calamités, de ses lugubres plaintes,</l>
+              <l n="1003" xml:id="em0638-fr-1005">Ores tu tiens vengé ses murailles enceintes,</l>
+              <l n="1004" xml:id="em0638-fr-1006">Tu lui peux comme un père après l’avoir puni,</l>
+              <l n="1005" xml:id="em0638-fr-1007">L’oubliance impétrer des Volsques réuni.</l>
+              <l n="1006" xml:id="em0638-fr-1008">Tu le peux, et le dois, pieux et magnanime ;</l>
+              <l n="1007" xml:id="em0638-fr-1009">Afin de t’acquérir une gloire sublime,</l>
+              <l n="1008" xml:id="em0638-fr-1010">Afin de mériter de ces deux nations,</l>
+              <l n="1009" xml:id="em0638-fr-1011">Équitable censeur de nos dissensions,</l>
+              <l n="1010" xml:id="em0638-fr-1012">Je ne te voudrais pas conseiller (malapprise)</l>
+              <l n="1011" xml:id="em0638-fr-1013">De trahir ceux qui t’ont leur puissance commise ;</l>
+              <l n="1012" xml:id="em0638-fr-1014">Non plus que de vouloir ton pays ruiner,</l>
+              <l n="1013" xml:id="em0638-fr-1015">Tu dois fidèle à l’un, à l’autre pardonner,</l>
+              <l n="1014" xml:id="em0638-fr-1016">De deux extrémités moyennant un remède,</l>
+              <l n="1015" xml:id="em0638-fr-1017">Au regard des vertus la clémence précède.</l>
+              <l n="1016" xml:id="em0638-fr-1018">Hé ! combien penses-tu que le sort plus cruel</l>
+              <l n="1017" xml:id="em0638-fr-1019">Afflige nos cerveaux d’un soin continuel,</l>
+              <l n="1018" xml:id="em0638-fr-1020">Travaille plus ta mère, et ta femme dolente,</l>
+              <l n="1019" xml:id="em0638-fr-1021">Si ce mortel brasier de discord ne s’allente,</l>
+              <l n="1020" xml:id="em0638-fr-1022">Si (ce que les bons Dieux empêchent d’avenir)</l>
+              <l n="1021" xml:id="em0638-fr-1023">Ma prière ne peut qu’une honte obtenir ?</l>
+              <l n="1022" xml:id="em0638-fr-1024">Désirer qu’à ton camp arrive la victoire,</l>
+              <l n="1023" xml:id="em0638-fr-1025">Que le pays érige un trophée à ta gloire,</l>
+              <l n="1024" xml:id="em0638-fr-1026">C’est une impiété, c’est une trahison,</l>
+              <l n="1025" xml:id="em0638-fr-1027">Souhaiter le contraire ? Hélas ! quelle raison ?</l>
+              <l n="1026" xml:id="em0638-fr-1028">Tu es mon sang, ma chair, mes os, ma géniture,</l>
+              <l n="1027" xml:id="em0638-fr-1029">Que j’affecte le plus par devoir de nature,</l>
+              <l n="1028" xml:id="em0638-fr-1030">Aussi l’espoir ôté d’appointer, n’ai-je pas</l>
+              <l n="1029" xml:id="em0638-fr-1031">Résolu d’allonger jusque-là mon trépas,</l>
+              <l n="1030" xml:id="em0638-fr-1032">Sur mon corps trépassé tu passeras en armes,</l>
+              <l n="1031" xml:id="em0638-fr-1033">Conduisant à l’assaut la fleur de tes gens d’armes,</l>
+              <l n="1032" xml:id="em0638-fr-1034">Mon fils, ne te résous à tant d’impiété !</l>
+              <l n="1033" xml:id="em0638-fr-1035">Par ce sein qui ta bouche a petite allaité,</l>
+              <l n="1034" xml:id="em0638-fr-1036">Par ces yeux éplorés de larmes continues,</l>
+              <l n="1035" xml:id="em0638-fr-1037">Par les douleurs que j’ai mortelles soutenues,</l>
+              <l n="1036" xml:id="em0638-fr-1038">En te mettant au jour par le chaste lien</l>
+              <l n="1037" xml:id="em0638-fr-1039">D’un amour conjugal, et par cet enfant tien,</l>
+              <l n="1038" xml:id="em0638-fr-1040">Exauce je te prie, exauce ma requête,</l>
+              <l n="1039" xml:id="em0638-fr-1041">Et promets garantir notre peureuse tête.</l>
+              <l n="1040" xml:id="em0638-fr-1042">Tu ne me répons mot, tu pâlis du remords,</l>
+              <l n="1041" xml:id="em0638-fr-1043">Ton cœur souffre agité de merveilleux efforts ;</l>
+              <l n="1042" xml:id="em0638-fr-1044">Hé ! mon fils. Ah ! mon fils de grâce considère</l>
+              <l n="1043" xml:id="em0638-fr-1045">Qu’il ne faut pas toujours céder à sa colère,</l>
+              <l n="1044" xml:id="em0638-fr-1046">Ce que j’ai fait pour toi. Venez et l’embrassons,</l>
+              <l n="1045" xml:id="em0638-fr-1047">Et s’il nous éconduit, à ses pieds trépassons,</l>
+              <l n="1046" xml:id="em0638-fr-1048">Que sa rigueur ensemble implacable nous tue,</l>
+              <l n="1047" xml:id="em0638-fr-1049">Que sur nous sa vengeance entière s’effectue.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="1048" xml:id="em0638-fr-1050">Ah ! Mère, qu’as-tu fait pour sauver ton pays ?</l>
+              <l n="1049" xml:id="em0638-fr-1051">Ma vie et mon honneur, cruelle, tu trahis,</l>
+              <l n="1050" xml:id="em0638-fr-1052">Pour lui tu as vaincu une victoire heureuse,</l>
+              <l n="1051" xml:id="em0638-fr-1053">Mais à ton sang dompté fatale, et funéreuse,</l>
+              <l n="1052" xml:id="em0638-fr-1054">Suivez-moi, je vous veux en secret conférer,</l>
+              <l n="1053" xml:id="em0638-fr-1055">Quand, et comment le camp je ferai retirer.</l>
+            </lg>
+          </sp>
+          <sp who="#Volomnie">
+            <speaker>VOLOMNIE</speaker>
+            <lg type="free" part="M">
+              <l n="1054" xml:id="em0638-fr-1056">Ô parole pieuse et du Ciel inspirée !</l>
+              <l n="1055" xml:id="em0638-fr-1057">Tu nous es secourable autant qu’inespérée.</l>
+            </lg>
+          </sp>
+          <sp who="#Conseil_Volsques">
+            <speaker>LE CONSEIL</speaker>
+            <lg type="free" part="M">
+              <l n="1056" xml:id="em0638-fr-1058">Vaincu d’affection ce murmure à l’écart</l>
+              <l n="1057" xml:id="em0638-fr-1059">Ne nous présage rien de meilleur qu’un départ,</l>
+              <l n="1058" xml:id="em0638-fr-1060">Que de lever moquez le siège d’une ville</l>
+              <l n="1059" xml:id="em0638-fr-1061">À l’extrême réduite, et peu s’en faut servile,</l>
+              <l n="1060" xml:id="em0638-fr-1062">Ville qui n’avait plus d’espoir de se sauver,</l>
+              <l n="1061" xml:id="em0638-fr-1063">Comme nous désormais de pouvoir captiver,</l>
+              <l n="1062" xml:id="em0638-fr-1064">Souffrir qu’un étranger nous trahisse en la sorte :</l>
+              <l n="1063" xml:id="em0638-fr-1065">Mais qui résisterait la contrainte si forte ?</l>
+              <l n="1064" xml:id="em0638-fr-1066">Il y a plus en lui de piété beaucoup</l>
+              <l n="1065" xml:id="em0638-fr-1067">Que de mauvais vouloir exécutant ce coup.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="1066" xml:id="em0638-fr-1068">Ma Mère, tenez-vous de la chose assurée,</l>
+              <l n="1067" xml:id="em0638-fr-1069">Bien que vous la jurant ma perte est conjurée,</l>
+              <l n="1068" xml:id="em0638-fr-1070">Retournez délivrer ces ingrats de souci,</l>
+              <l n="1069" xml:id="em0638-fr-1071">Puis qu’à votre départ l’avez remis ainsi.</l>
+            </lg>
+          </sp>
+          <sp who="#Volomnie">
+            <speaker>VOLOMNIE</speaker>
+            <lg type="free" part="M">
+              <l n="1070" xml:id="em0638-fr-1072">Ils ne croiraient (mon fils) d’un autre la nouvelle,</l>
+              <l n="1071" xml:id="em0638-fr-1073">Mon séjour en ton camp les tiendrait en cervelle.</l>
+              <l n="1072" xml:id="em0638-fr-1074">Jupiter protecteur te conserve, attendant</l>
+              <l n="1073" xml:id="em0638-fr-1075">Que nous te reverrons, te garde d’accident.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="1074" xml:id="em0638-fr-1076">Ne l’espérez plutôt qu’en l’Hérébique salle,</l>
+              <l n="1075" xml:id="em0638-fr-1077">Adieu ma Mère, Adieu ma Compagne loyale.</l>
+            </lg>
+          </sp>
+          <sp who="#Volomnie">
+            <speaker>VOLOMNIE</speaker>
+            <lg type="free" part="F">
+              <l n="1076" xml:id="em0638-fr-1078">Hélas ! de ce soupçon tu me navres le cœur,</l>
+              <l n="1077" xml:id="em0638-fr-1079">Ô Dieux ! Grands Dieux du Ciel ! faites qu’il soit moqueur.</l>
+            </lg>
+          </sp>
+        </div2>
+      </div1>
+      <div1 type="act" n="5">
+        <head>ACTE V</head>
+        <stage>CORIOLAN, PAGE [AMFIDIE, CONSEIL, CHŒUR DES VOLSQUES, VOLOMNIE, MESSAGER].</stage>
+        <div2 type="scene">
+          <head>SCÈNE I</head>
+          <stage>CORIOLAN, PAGE.</stage>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="1078" xml:id="em0638-fr-1080">Glacé, pâle, tremblant d’une crainte inconnue,</l>
+              <l n="1079" xml:id="em0638-fr-1081">Ma résistance est vaine, et ma constance est nue,</l>
+              <l n="1080" xml:id="em0638-fr-1082">Cent présages mortels m’environnent les yeux</l>
+              <l n="1081" xml:id="em0638-fr-1083">Fermés toute la nuit aux sommes gracieux,</l>
+              <l n="1082" xml:id="em0638-fr-1084">De spectres agités, de larvales figures,</l>
+              <l n="1083" xml:id="em0638-fr-1085">De gémissements longs, effroyables augures ;</l>
+              <l n="1084" xml:id="em0638-fr-1086">Tantôt d’un peuple ému je sentais le couteau</l>
+              <l n="1085" xml:id="em0638-fr-1087">Mes entrailles percer, imployable bourreau ;</l>
+              <l n="1086" xml:id="em0638-fr-1088">Maintenant il semblait en mon âme égarée,</l>
+              <l n="1087" xml:id="em0638-fr-1089">Conjointe au nombre épais d’une troupe aérée,</l>
+              <l n="1088" xml:id="em0638-fr-1090">Pour néant réclamer la peine de Charon,</l>
+              <l n="1089" xml:id="em0638-fr-1091">Lui offrir le passage et passer l’Achéron,</l>
+              <l n="1090" xml:id="em0638-fr-1092">Sur ce bord négligée errante et forcenée,</l>
+              <l n="1091" xml:id="em0638-fr-1093">Comme celles qui ont forcé leur destinée.</l>
+              <l n="1092" xml:id="em0638-fr-1094">Un cri de ces oiseaux prophètes de malheurs,</l>
+              <l n="1093" xml:id="em0638-fr-1095">Traîné jusques au jour augmentait mes douleurs,</l>
+              <l n="1094" xml:id="em0638-fr-1096">Et le jour paraissant, Phébus comme malade</l>
+              <l n="1095" xml:id="em0638-fr-1097">Semble me décocher une sinistre œillade.</l>
+              <l n="1096" xml:id="em0638-fr-1098">La terre sous mes pieds mugit à chaque pas,</l>
+              <l n="1097" xml:id="em0638-fr-1099">Scrupuleux arguments à qui craint le trépas,</l>
+              <l n="1098" xml:id="em0638-fr-1100">Celui-même, celui qui darde son orage,</l>
+              <l n="1099" xml:id="em0638-fr-1101">Ne saurait m’étonner d’un si faible présage,</l>
+              <l n="1100" xml:id="em0638-fr-1102">Hormis un ennemi de mes gestes passés,</l>
+              <l n="1101" xml:id="em0638-fr-1103">De mes Lauriers vainqueurs l’un sur l’autre entassés,</l>
+              <l n="1102" xml:id="em0638-fr-1104">Qui souffle la fureur au sein d’une commune,</l>
+              <l n="1103" xml:id="em0638-fr-1105">Réveillant les tisons d’une vieille rancune ;</l>
+              <l n="1104" xml:id="em0638-fr-1106">Il ne me peut plus voir des Volsques préféré,</l>
+              <l n="1105" xml:id="em0638-fr-1107">Reprochable d’un crime à leurs yeux avéré,</l>
+              <l n="1106" xml:id="em0638-fr-1108">Contenir néanmoins le frein de ma vaillance,</l>
+              <l n="1107" xml:id="em0638-fr-1109">Ce qu’il a contre moi conçu de malveillance,</l>
+              <l n="1108" xml:id="em0638-fr-1110">Imputer mon offense à une piété,</l>
+              <l n="1109" xml:id="em0638-fr-1111">Plus à me pardonner, qu’aux rigueurs apprêté ;</l>
+              <l n="1110" xml:id="em0638-fr-1112">Lui seul époinçonné d’une jalouse envie,</l>
+              <l n="1111" xml:id="em0638-fr-1113">À tel prix que ce soit me veut ôter la vie.</l>
+              <l n="1112" xml:id="em0638-fr-1114">Qu’il le fasse ! toujours il nous convient mourir,</l>
+              <l n="1113" xml:id="em0638-fr-1115">Laisser les lois sur nous de la Parque courir,</l>
+              <l n="1114" xml:id="em0638-fr-1116">Ou de l’âge assommés, ou d’une mort contrainte.</l>
+              <l n="1115" xml:id="em0638-fr-1117">Mais cet homme hâté me regèle de crainte.</l>
+            </lg>
+          </sp>
+          <sp who="#Page">
+            <speaker>PAGE</speaker>
+            <lg type="free" part="M">
+              <l n="1116" xml:id="em0638-fr-1118">Les Seigneurs du Conseil vous mandent assemblés.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="1117" xml:id="em0638-fr-1119">Rassérène, couard, ores tes sens troublés,</l>
+              <l n="1118" xml:id="em0638-fr-1120">Va trouver résolu ton salut, ou ta perte,</l>
+              <l n="1119" xml:id="em0638-fr-1121">Certes toujours d’un los immortel recouverte.</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene">
+          <head>SCÈNE II</head>
+          <stage>AMFIDIE, CORIOLAN, CONSEIL, LE CHŒUR DES VOLSQUES.</stage>
+          <sp who="#Amfidie">
+            <speaker>AMFIDIE</speaker>
+            <lg type="free" part="M">
+              <l n="1120" xml:id="em0638-fr-1122">Je prends les Cieux témoins et la lampe du jour,</l>
+              <l n="1121" xml:id="em0638-fr-1123">Qu’à l’endroit du pays un charitable amour,</l>
+              <l n="1122" xml:id="em0638-fr-1124">Mon honneur outragé, qui semblerait complice</l>
+              <l n="1123" xml:id="em0638-fr-1125">De cet incomparable, et traître maléfice,</l>
+              <l n="1124" xml:id="em0638-fr-1126">M’induisent malgré moi d’accuser ce méchant</l>
+              <l n="1125" xml:id="em0638-fr-1127">De notre nation la ruine cherchant,</l>
+              <l n="1126" xml:id="em0638-fr-1128">Fardé dans le courage, hypocrite, infidèle,</l>
+              <l n="1127" xml:id="em0638-fr-1129">Qui faisait notre erreur servir à sa querelle,</l>
+              <l n="1128" xml:id="em0638-fr-1130">N’attendant qu’un rappel de son bannissement,</l>
+              <l n="1129" xml:id="em0638-fr-1131">Par quelque trahison commise impunément,</l>
+              <l n="1130" xml:id="em0638-fr-1132">Quelque dommage insigne, au peuple qui crédule</l>
+              <l n="1131" xml:id="em0638-fr-1133">Recevait ce serpent avorté de Romule.</l>
+              <l n="1132" xml:id="em0638-fr-1134">Le premier abusé, j’ai rencontré l’écueil,</l>
+              <l n="1133" xml:id="em0638-fr-1135">Fait confirmer sa charge à ce même Conseil,</l>
+              <l n="1134" xml:id="em0638-fr-1136">Cédé ma prééminence, estimé sa parole,</l>
+              <l n="1135" xml:id="em0638-fr-1137">(L’homme de bien aussi jamais ne la viole)</l>
+              <l n="1136" xml:id="em0638-fr-1138">Un Oracle, plutôt qu’un témoignage humain,</l>
+              <l n="1137" xml:id="em0638-fr-1139">Qu’il serait ennemi mortel du nom Romain,</l>
+              <l n="1138" xml:id="em0638-fr-1140">Irréconciliable, ardent à la vengeance,</l>
+              <l n="1139" xml:id="em0638-fr-1141">D’un grand cœur offensé merveilleuse allégeance :</l>
+              <l n="1140" xml:id="em0638-fr-1142">Ce perfide au rebours, aise de nos malheurs,</l>
+              <l n="1141" xml:id="em0638-fr-1143">Lâchement suborné de féminines pleurs,</l>
+              <l n="1142" xml:id="em0638-fr-1144">Pour la deuxième fois a levé notre siège,</l>
+              <l n="1143" xml:id="em0638-fr-1145">Exécrable forfait, pire que sacrilège,</l>
+              <l n="1144" xml:id="em0638-fr-1146">Forfait que dût la flamme avoir jà châtié,</l>
+              <l n="1145" xml:id="em0638-fr-1147">Sans ouïr ses raisons, sans aucune pitié.</l>
+              <l n="1146" xml:id="em0638-fr-1148">Que n’attenterait-il dorénavant de faire ?</l>
+              <l n="1147" xml:id="em0638-fr-1149">Nous livrer pieds et poings liés à l’adversaire,</l>
+              <l n="1148" xml:id="em0638-fr-1150">Tout ce que j’en ai dit, Ha ! le voici venir,</l>
+              <l n="1149" xml:id="em0638-fr-1151">À peine de fureur me puis-je contenir.</l>
+            </lg>
+          </sp>
+          <sp who="#Conseil_Volsques">
+            <speaker>LE CONSEIL</speaker>
+            <lg type="free" part="M">
+              <l n="1150" xml:id="em0638-fr-1152">Écoutons informé qu’il aura de défense</l>
+              <l n="1151" xml:id="em0638-fr-1153">Contre l’objection d’une si grande offense.</l>
+            </lg>
+          </sp>
+          <sp who="#Amfidie">
+            <speaker>AMFIDIE</speaker>
+            <lg type="free" part="M">
+              <l n="1152" xml:id="em0638-fr-1154">Notre Communauté te fait commandement</l>
+              <l n="1153" xml:id="em0638-fr-1155">De déposer ta charge en ses mains promptement,</l>
+              <l n="1154" xml:id="em0638-fr-1156">Afin du tort, ou droit maintenant rendre conte</l>
+              <l n="1155" xml:id="em0638-fr-1157">De chose dont pour toi le Ciel rougit de honte,</l>
+              <l n="1156" xml:id="em0638-fr-1158">D’excès pendant icelle infinis perpétrés,</l>
+              <l n="1157" xml:id="em0638-fr-1159">Nos desseins, nos labeurs par ton moyen frustrés :</l>
+              <l n="1158" xml:id="em0638-fr-1160">Regarde (obéissant) doncques de te démettre</l>
+              <l n="1159" xml:id="em0638-fr-1161">D’un pouvoir absolu, qui ne veut point de traître.</l>
+              <l n="1160" xml:id="em0638-fr-1162">Après il conviendra me répondre accusé,</l>
+              <l n="1161" xml:id="em0638-fr-1163">D’un pouvoir dont tu as lourdement abusé.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="1162" xml:id="em0638-fr-1164">Comme du gré de tous j’ai la charge acceptée,</l>
+              <l n="1163" xml:id="em0638-fr-1165">Je la rendrai m’étant du gré de tous ôtée.</l>
+              <l n="1164" xml:id="em0638-fr-1166">Je ne diffère point de dire hautement,</l>
+              <l n="1165" xml:id="em0638-fr-1167">Tout ce qui s’est passé sous mon gouvernement,</l>
+              <l n="1166" xml:id="em0638-fr-1168">En rendre conte à vous, et à ceux de la ville,</l>
+              <l n="1167" xml:id="em0638-fr-1169">Qui savent s’il leur fut dommageable ou utile.</l>
+            </lg>
+          </sp>
+          <sp who="#Amfidie">
+            <speaker>AMFIDIE</speaker>
+            <lg type="free" part="M">
+              <l n="1168" xml:id="em0638-fr-1170">Homme double de cœur, ingrat cent et cent fois,</l>
+              <l n="1169" xml:id="em0638-fr-1171">Inventeur de ruines, et réfractaire aux lois,</l>
+              <l n="1170" xml:id="em0638-fr-1172">Qui t’a mû d’arrêter le cours de nos trophées ?</l>
+              <l n="1171" xml:id="em0638-fr-1173">De nous entretenir des guerres étouffées ?</l>
+              <l n="1172" xml:id="em0638-fr-1174">Qui la première fois te permit d’accorder</l>
+              <l n="1173" xml:id="em0638-fr-1175">Une trêve aux Romains, sans nous le demander ?</l>
+              <l n="1174" xml:id="em0638-fr-1176">Levant le siège alors que de crainte éperdue</l>
+              <l n="1175" xml:id="em0638-fr-1177">Leur ville s’en allait en peu de jours rendue.</l>
+              <l n="1176" xml:id="em0638-fr-1178">Pourquoi depuis as-tu de pouvoir absolu,</l>
+              <l n="1177" xml:id="em0638-fr-1179">Avec eux une paix honteuse résolu ?</l>
+              <l n="1178" xml:id="em0638-fr-1180">Notre siège levé, abusant d’une armée</l>
+              <l n="1179" xml:id="em0638-fr-1181">Capable de courber dessous la Renommée</l>
+              <l n="1180" xml:id="em0638-fr-1182">L’univers effrayé, non pas une Cité ;</l>
+              <l n="1181" xml:id="em0638-fr-1183">Dis-nous traître, qui t’a de ce faire incité ?</l>
+              <l n="1182" xml:id="em0638-fr-1184">Si c’est reconnaissant l’honneur que nous te fîmes</l>
+              <l n="1183" xml:id="em0638-fr-1185">Quand une telle flotte en tes mains nous te mîmes,</l>
+              <l n="1184" xml:id="em0638-fr-1186">Que moi-même portai la parole pour toi ?</l>
+              <l n="1185" xml:id="em0638-fr-1187">Dépêche, sans forger des ruses, répons-moi !</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="1186" xml:id="em0638-fr-1188">Vous plaise mes raisons ouïr en patience ;</l>
+              <l n="1187" xml:id="em0638-fr-1189">Il ne se trouvera de certaine science,</l>
+              <l n="1188" xml:id="em0638-fr-1190">Que j’aie rien mépris, que de déloyauté</l>
+              <l n="1189" xml:id="em0638-fr-1191">Reprochable je sois vers la Communauté.</l>
+              <l n="1190" xml:id="em0638-fr-1192">Rome au commencement de la guerre entreprise,</l>
+              <l n="1191" xml:id="em0638-fr-1193">Prendre onc je n’espérai, ni vous qu’elle fût prise,</l>
+              <l n="1192" xml:id="em0638-fr-1194">Notre but n’y tendait, nous n’avions volonté,</l>
+              <l n="1193" xml:id="em0638-fr-1195">Leur puissance affaiblie, et leur orgueil dompté,</l>
+              <l n="1194" xml:id="em0638-fr-1196">Sinon de retirer vos places détenues,</l>
+              <l n="1195" xml:id="em0638-fr-1197">Pactions avec eux de ma part convenues,</l>
+              <l n="1196" xml:id="em0638-fr-1198">Promesse exécutée avant que retourner.</l>
+            </lg>
+          </sp>
+          <sp who="#Amfidie">
+            <speaker>AMFIDIE</speaker>
+            <lg type="free" part="M">
+              <l n="1197" xml:id="em0638-fr-1199">Tu as donc là voulu nos victoires borner ?</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="1198" xml:id="em0638-fr-1200">J’ai douté le hasard des armes journalières.</l>
+            </lg>
+          </sp>
+          <sp who="#Amfidie">
+            <speaker>AMFIDIE</speaker>
+            <lg type="free" part="M">
+              <l n="1199" xml:id="em0638-fr-1201">Quel hasard en des murs leurs forces prisonnières ?</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="1200" xml:id="em0638-fr-1202">L’extrême désespoir d’un ennemi vaillant,</l>
+              <l n="1201" xml:id="em0638-fr-1203">A produit de grands maux au vainqueur insolent.</l>
+            </lg>
+          </sp>
+          <sp who="#Amfidie">
+            <speaker>AMFIDIE</speaker>
+            <lg type="free" part="M">
+              <l n="1202" xml:id="em0638-fr-1204">La trahison d’un chef étranger plus à craindre,</l>
+              <l n="1203" xml:id="em0638-fr-1205">Aux crédules souvent apporte de quoi plaindre.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="1204" xml:id="em0638-fr-1206">Veuillent les Dieux bénins, que vous n’ayez jamais</l>
+              <l n="1205" xml:id="em0638-fr-1207">De quoi vous plaindre plus que d’une telle paix.</l>
+            </lg>
+          </sp>
+          <sp who="#Amfidie">
+            <speaker>AMFIDIE</speaker>
+            <lg type="free" part="M">
+              <l n="1206" xml:id="em0638-fr-1208">N’as tu (sollicité de prières de femmes)</l>
+              <l n="1207" xml:id="em0638-fr-1209">À notre armée enjoint une retraite infâme ?</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="1208" xml:id="em0638-fr-1210">Las ! je ne sache aucun de vous qui n’eût fléchi,</l>
+              <l n="1209" xml:id="em0638-fr-1211">Et par la piété de son devoir gauchi.</l>
+            </lg>
+          </sp>
+          <sp who="#Amfidie">
+            <speaker>AMFIDIE</speaker>
+            <lg type="free" part="M">
+              <l n="1210" xml:id="em0638-fr-1212">Vous voyez qu’il confesse à plain sa perfidie.</l>
+            </lg>
+          </sp>
+          <sp who="#Chœur_Volsques">
+            <speaker>LE CHŒUR</speaker>
+            <lg type="free" part="M">
+              <l n="1211" xml:id="em0638-fr-1213">Le traître n’a que trop notre tête étourdie</l>
+              <l n="1212" xml:id="em0638-fr-1214">D’inutiles discours, trop mérité la mort,</l>
+              <l n="1213" xml:id="em0638-fr-1215">Que nous lui donnerons sur le champ d’un accord.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="1214" xml:id="em0638-fr-1216">Au secours mes amis, à l’aide, on m’homicide.</l>
+            </lg>
+          </sp>
+          <sp who="#Chœur_Volsques">
+            <speaker>LE CHŒUR</speaker>
+            <lg type="free" part="M">
+              <l n="1215" xml:id="em0638-fr-1217">Trébuche déloyal au fleuve Achérontide,</l>
+              <l n="1216" xml:id="em0638-fr-1218">Va trahir de Pluton les Mânes si tu peux.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolan">
+            <speaker>CORIOLAN</speaker>
+            <lg type="free" part="M">
+              <l n="1217" xml:id="em0638-fr-1219">Arrêtez Citoyens, où avez-vous les yeux ?</l>
+            </lg>
+          </sp>
+          <sp who="#Chœur_Volsques">
+            <speaker>LE CHŒUR</speaker>
+            <lg type="free" part="M">
+              <l n="1218" xml:id="em0638-fr-1220">Te voilà guerdonné d’un mérité salaire,</l>
+              <l n="1219" xml:id="em0638-fr-1221">Et qui voudra t’ensuivre effroyable exemplaire ?</l>
+            </lg>
+          </sp>
+          <sp who="#Amfidie">
+            <speaker>AMFIDIE</speaker>
+            <lg type="free" part="M">
+              <l n="1220" xml:id="em0638-fr-1222">Le peuple n’a rien fait, justement mutiné,</l>
+              <l n="1221" xml:id="em0638-fr-1223">Qu’exécuter du Ciel un Arrêt destiné,</l>
+              <l n="1222" xml:id="em0638-fr-1224">Ne se voulant Tyran déposer de l’Office,</l>
+              <l n="1223" xml:id="em0638-fr-1225">Il l’y devait contraindre avec ce sacrifice.</l>
+              <l n="1224" xml:id="em0638-fr-1226">Louez-le donc de l’acte, au lieu de le blâmer,</l>
+              <l n="1225" xml:id="em0638-fr-1227">Au lieu de le cuider de propos réprimer.</l>
+            </lg>
+          </sp>
+          <sp who="#Conseil_Volsques">
+            <speaker>LE CONSEIL</speaker>
+            <lg type="free" part="M">
+              <l n="1226" xml:id="em0638-fr-1228">La forme de justice à loisir observée,</l>
+              <l n="1227" xml:id="em0638-fr-1229">Tous sa punition eussent lors approuvée.</l>
+            </lg>
+          </sp>
+          <sp who="#Amfidie">
+            <speaker>AMFIDIE</speaker>
+            <lg type="free" part="M">
+              <l n="1228" xml:id="em0638-fr-1230">Au contraire, on lui eût permis en ce loisir</l>
+              <l n="1229" xml:id="em0638-fr-1231">D’attenter quelque fraude en son méchant désir,</l>
+              <l n="1230" xml:id="em0638-fr-1232">Esquiver du supplice, et ses armes tournées,</l>
+              <l n="1231" xml:id="em0638-fr-1233">Nous faire désister nos poursuites trainées ;</l>
+              <l n="1232" xml:id="em0638-fr-1234">Il n’est que d’appliquer au chancre commencé,</l>
+              <l n="1233" xml:id="em0638-fr-1235">Le cautère, premier qu’il soit plus avancé.</l>
+            </lg>
+          </sp>
+          <sp who="#Conseil_Volsques">
+            <speaker>LE CONSEIL</speaker>
+            <lg type="free" part="M">
+              <l n="1234" xml:id="em0638-fr-1236">Que sert le repentir en une chose faite ?</l>
+              <l n="1235" xml:id="em0638-fr-1237">Mais pour rendre sa faute encore plus suspecte,</l>
+              <l n="1236" xml:id="em0638-fr-1238">Procurons un cercueil honorable à son corps,</l>
+              <l n="1237" xml:id="em0638-fr-1239">Des vertus qu’il avait, non des vices recors.</l>
+            </lg>
+          </sp>
+          <sp who="#Amfidie">
+            <speaker>AMFIDIE</speaker>
+            <lg type="free" part="M">
+              <l n="1238" xml:id="em0638-fr-1240">J’approuve volontiers cet avis magnanime,</l>
+              <l n="1239" xml:id="em0638-fr-1241">L’injure aux trépassés est un énorme crime.</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene">
+          <head>SCÈNE III</head>
+          <stage>VOLOMNIE, MESSAGER.</stage>
+          <sp who="#Volomnie">
+            <speaker>VOLOMNIE</speaker>
+            <lg type="free" part="M">
+              <l n="1240" xml:id="em0638-fr-1242">Comme du vent la feuille, et le flot des autans,</l>
+              <l n="1241" xml:id="em0638-fr-1243">Mes pensers d’un effroi s’agitent inconstants,</l>
+              <l n="1242" xml:id="em0638-fr-1244">Mon chef dressé d’horreur, et mon sang pris de crainte,</l>
+              <l n="1243" xml:id="em0638-fr-1245">Ouvre les yeux aux pleurs, et la bouche à la plainte.</l>
+              <l n="1244" xml:id="em0638-fr-1246">Je ne puis, je ne puis d’espoir me rassurer,</l>
+              <l n="1245" xml:id="em0638-fr-1247">Je ne puis rien de bon pour mon fils augurer ;</l>
+              <l n="1246" xml:id="em0638-fr-1248">Développé d’un banc, un gouffre le menace,</l>
+              <l n="1247" xml:id="em0638-fr-1249">Sujet ainsi qu’il fut à une populace,</l>
+              <l n="1248" xml:id="em0638-fr-1250">Sujet à rendre compte à un peuple estranger</l>
+              <l n="1249" xml:id="em0638-fr-1251">(En quoi plus périlleux je prévois son danger)</l>
+              <l n="1250" xml:id="em0638-fr-1252">De ce qui s’est omis en sa charge passée,</l>
+              <l n="1251" xml:id="em0638-fr-1253">D’une paix à quoi l’a ma prière forcée,</l>
+              <l n="1252" xml:id="em0638-fr-1254">Aux Volsques dommageable, aux Volsques qui pouvaient</l>
+              <l n="1253" xml:id="em0638-fr-1255">Mieux user contre nous des armes qu’ils avaient :</l>
+              <l n="1254" xml:id="em0638-fr-1256">Nous prescrire assiégés, et faillis de courage,</l>
+              <l n="1255" xml:id="em0638-fr-1257">Telles lois qu’un vainqueur donne à son avantage.</l>
+              <l n="1256" xml:id="em0638-fr-1258">Hélas ! mon cher enfant, ta grande piété</l>
+              <l n="1257" xml:id="em0638-fr-1259">Sera (je le crains bien si elle ne l’a été)</l>
+              <l n="1258" xml:id="em0638-fr-1260">Cause de ton désastre, et auras débonnaire</l>
+              <l n="1259" xml:id="em0638-fr-1261">Mieux aimé le trépas certain que me déplaire,</l>
+              <l n="1260" xml:id="em0638-fr-1262">Tu auras mieux aimé à la Parque courir,</l>
+              <l n="1261" xml:id="em0638-fr-1263">Que le blâme impieux de ma bouche encourir.</l>
+              <l n="1262" xml:id="em0638-fr-1264">Il me souvient, hélas ! il me souvient encore,</l>
+              <l n="1263" xml:id="em0638-fr-1265">Une frayeur toujours depuis me remémore</l>
+              <l n="1264" xml:id="em0638-fr-1266">Cette prédiction, qu’à l’Adieu tu nous fis,</l>
+              <l n="1265" xml:id="em0638-fr-1267">Prophète malheureux de ta perte (mon fils)</l>
+              <l n="1266" xml:id="em0638-fr-1268">Le front pâle, la voix en sanglots élancée,</l>
+              <l n="1267" xml:id="em0638-fr-1269">Tu nous dis découvrant le fond de ta pensée,</l>
+              <l n="1268" xml:id="em0638-fr-1270">Oui, fermant notre Adieu de larmes, tu nous dis</l>
+              <l n="1269" xml:id="em0638-fr-1271">N’espérer nous revoir qu’au Royaume de Dis.</l>
+              <l n="1270" xml:id="em0638-fr-1272">Ô Filandières sœurs, je vous prie à mains jointes,</l>
+              <l n="1271" xml:id="em0638-fr-1273">Si son cœur a senti vos funéreuses pointes,</l>
+              <l n="1272" xml:id="em0638-fr-1274">Premier que de souffrir une plus dure mort,</l>
+              <l n="1273" xml:id="em0638-fr-1275">Par quiconque voudra me faire ce rapport,</l>
+              <l n="1274" xml:id="em0638-fr-1276">Outre-percez le mien, ministres infernales,</l>
+              <l n="1275" xml:id="em0638-fr-1277">Avec le même effort de vos flèches fatales,</l>
+              <l n="1276" xml:id="em0638-fr-1278">Favorisez-moi tant ; mais, que vois-je avancer ?</l>
+              <l n="1277" xml:id="em0638-fr-1279">Et ses yeux égarés deçà, delà lancer ?</l>
+              <l n="1278" xml:id="em0638-fr-1280">Ha ! c’est fait, il m’a vue, et d’une sombre œillade</l>
+              <l n="1279" xml:id="em0638-fr-1281">L’esclandre confirmé que je me persuade.</l>
+              <l n="1280" xml:id="em0638-fr-1282">Approche Messager, approche, c’est à moi</l>
+              <l n="1281" xml:id="em0638-fr-1283">Que ton front se pâlit savant de mon émoi.</l>
+            </lg>
+          </sp>
+          <sp who="#Messager">
+            <speaker>MESSAGER</speaker>
+            <lg type="free" part="M">
+              <l n="1282" xml:id="em0638-fr-1284">Madame, c’est à vous que Fortune cruelle</l>
+              <l n="1283" xml:id="em0638-fr-1285">Adresse par ma bouche une horrible nouvelle.</l>
+            </lg>
+          </sp>
+          <sp who="#Volomnie">
+            <speaker>VOLOMNIE</speaker>
+            <lg type="free" part="M">
+              <l n="1284" xml:id="em0638-fr-1286">Raconte hardiment un mal imaginé ;</l>
+              <l n="1285" xml:id="em0638-fr-1287">Le Ciel n’est d’aujourd’hui à me nuire obstiné.</l>
+            </lg>
+          </sp>
+          <sp who="#Messager">
+            <speaker>MESSAGER</speaker>
+            <lg type="free" part="M">
+              <l n="1286" xml:id="em0638-fr-1288">Votre fils massacré, autrefois notre Alcide,</l>
+              <l n="1287" xml:id="em0638-fr-1289">A d’un peuple saoulé la fureur homicide.</l>
+            </lg>
+          </sp>
+          <sp who="#Volomnie">
+            <speaker>VOLOMNIE</speaker>
+            <lg type="free" part="M">
+              <l n="1288" xml:id="em0638-fr-1290">Ô peur trop véritable ! ô trop cruels destins !</l>
+              <l n="1289" xml:id="em0638-fr-1291">Ô malheurs oppressants de fortune incertains !</l>
+              <l n="1290" xml:id="em0638-fr-1292">Frêle, faible faveur d’un vulgaire muable !</l>
+              <l n="1291" xml:id="em0638-fr-1293">Mais au discours fais-moi ce méchef plus croyable.</l>
+            </lg>
+          </sp>
+          <sp who="#Messager">
+            <speaker>MESSAGER</speaker>
+            <lg type="free" part="M">
+              <l n="1292" xml:id="em0638-fr-1294">Les Volsques assemblés, mal contents de l’accord,</l>
+              <l n="1293" xml:id="em0638-fr-1295">Avaient de ce Héros jà conspiré la mort,</l>
+              <l n="1294" xml:id="em0638-fr-1296">Une partie au moins par celui suscitée,</l>
+              <l n="1295" xml:id="em0638-fr-1297">Qui voyait envieux sa gloire supplantée,</l>
+              <l n="1296" xml:id="em0638-fr-1298">Son crédit amorti, comme près le Soleil</l>
+              <l n="1297" xml:id="em0638-fr-1299">Du firmament voûté les Astres n’ont point d’œil,</l>
+              <l n="1298" xml:id="em0638-fr-1300">Amfidie est le nom de ce jaloux d’Empire,</l>
+              <l n="1299" xml:id="em0638-fr-1301">Qui traître dès longtemps cherchait à le détruire,</l>
+              <l n="1300" xml:id="em0638-fr-1302">L’accuse en plein Conseil, et le cite accusé,</l>
+              <l n="1301" xml:id="em0638-fr-1303">Que de l’autorité suprême déposé,</l>
+              <l n="1302" xml:id="em0638-fr-1304">Il eût à rendre conte à l’instant de la charge,</l>
+              <l n="1303" xml:id="em0638-fr-1305">Des crimes se purger dont le peuple le charge.</l>
+              <l n="1304" xml:id="em0638-fr-1306">Coriolan craignant, d’autorité privé,</l>
+              <l n="1305" xml:id="em0638-fr-1307">Dessous lui se trouver ainsi qu’homme privé,</l>
+              <l n="1306" xml:id="em0638-fr-1308">Proteste que du gré de tous la charge prise,</l>
+              <l n="1307" xml:id="em0638-fr-1309">Il ne s’en démettrait étant de tous commise ;</l>
+              <l n="1308" xml:id="em0638-fr-1310">S’efforce néanmoins d’apaiser leur courroux,</l>
+              <l n="1309" xml:id="em0638-fr-1311">Par le miel distillé de sa langue plus doux ;</l>
+              <l n="1310" xml:id="em0638-fr-1312">De fait les principaux démontraient au silence</l>
+              <l n="1311" xml:id="em0638-fr-1313">N’être point envers lui portés de malveillance,</l>
+              <l n="1312" xml:id="em0638-fr-1314">Que le respect gravé de ses rares vertus</l>
+              <l n="1313" xml:id="em0638-fr-1315">Obtiendrait un oubli des crimes ramentus,</l>
+              <l n="1314" xml:id="em0638-fr-1316">Faveur de l’ennemi connue et redoutée,</l>
+              <l n="1315" xml:id="em0638-fr-1317">Qui soudain à sa troupe assassine apostée,</l>
+              <l n="1316" xml:id="em0638-fr-1318">Recourant mutiné l’encourage au délit,</l>
+              <l n="1317" xml:id="em0638-fr-1319">D’audace, de fureur, et d’ire la remplit,</l>
+              <l n="1318" xml:id="em0638-fr-1320">Hélas ! défendez-moi de dire ce qui reste.</l>
+            </lg>
+          </sp>
+          <sp who="#Volomnie">
+            <speaker>VOLOMNIE</speaker>
+            <lg type="free" part="F">
+              <l n="1319" xml:id="em0638-fr-1321">Je n’ai que trop compris de ton discours funeste,</l>
+              <l n="1320" xml:id="em0638-fr-1322">Il est mort, je le vois sous un peuple atterré</l>
+              <l n="1321" xml:id="em0638-fr-1323">L’estomac de cent coups, et de cent enferré,</l>
+              <l n="1322" xml:id="em0638-fr-1324">Ores environné d’une mortelle glace,</l>
+              <l n="1323" xml:id="em0638-fr-1325">Je vois ce corps guerrier étendu sur la place,</l>
+              <l n="1324" xml:id="em0638-fr-1326">Dépouillé de son âme, et privé de couleur.</l>
+              <l n="1325" xml:id="em0638-fr-1327">Ô deuil insupportable ! ô rage de douleur !</l>
+              <l n="1326" xml:id="em0638-fr-1328">Ô Mère parricide ! ô Mère criminelle !</l>
+              <l n="1327" xml:id="em0638-fr-1329">De ton sang innocent, exécrable bourrelle.</l>
+              <l n="1328" xml:id="em0638-fr-1330">Ô Dieux ! ô Dieux cruels ! que vous avez produit</l>
+              <l n="1329" xml:id="em0638-fr-1331">De ma peine pieuse un détestable fruit !</l>
+              <l n="1330" xml:id="em0638-fr-1332">Chétive ! pour sauver le sac de ma patrie,</l>
+              <l n="1331" xml:id="em0638-fr-1333">J’immole mon enfant, j’ai ma race meurtrie ;</l>
+              <l n="1332" xml:id="em0638-fr-1334">Au moins que je le visse, et qu’il me fût permis</l>
+              <l n="1333" xml:id="em0638-fr-1335">De pleurer sur son corps captif des ennemis,</l>
+              <l n="1334" xml:id="em0638-fr-1336">De composer ses yeux, et lui baiser sa bouche,</l>
+              <l n="1335" xml:id="em0638-fr-1337">Puis le lit lui donner, où les défunts on couche,</l>
+              <l n="1336" xml:id="em0638-fr-1338">Et qu’il me fût permis tout mort de lui parler,</l>
+              <l n="1337" xml:id="em0638-fr-1339">De fantasques regrets ma perte consoler ;</l>
+              <l n="1338" xml:id="em0638-fr-1340">Aucun autre que moi ne lui promet des larmes,</l>
+              <l n="1339" xml:id="em0638-fr-1341">Son pays sent encor le tranchant de ses armes,</l>
+              <l n="1340" xml:id="em0638-fr-1342">Se souvient de n’avoir pu sa haine plier,</l>
+              <l n="1341" xml:id="em0638-fr-1343">Et qu’à moi seule il doit le bienfait singulier.</l>
+              <l n="1342" xml:id="em0638-fr-1344">Il me doit ce bienfait, et je lui dois la vie,</l>
+              <l n="1343" xml:id="em0638-fr-1345">Que je l’ai fléchissant pitoyable ravie.</l>
+              <l n="1344" xml:id="em0638-fr-1346">Ô chère géniture ! ô unique soulas !</l>
+              <l n="1345" xml:id="em0638-fr-1347">Crois que le Styx ne peut de ses neuf entrelacs</l>
+              <l n="1346" xml:id="em0638-fr-1348">Empêcher que bientôt je ne te sois rejointe,</l>
+              <l n="1347" xml:id="em0638-fr-1349">Des regrets de ta mort jusques à l’âme épointe,</l>
+              <l n="1348" xml:id="em0638-fr-1350">Courbante sous le faix d’un âge langoureux,</l>
+              <l n="1349" xml:id="em0638-fr-1351">À qui la terre nuit, et le Ciel rigoureux,</l>
+              <l n="1350" xml:id="em0638-fr-1352">Qui n’espère apaiser de complaintes tes Mânes,</l>
+              <l n="1351" xml:id="em0638-fr-1353">Mais bien de ma présence aux rives Stygianes,</l>
+              <l n="1352" xml:id="em0638-fr-1354">Et que mon deuil n’étant pour ce faire assez fort,</l>
+              <l n="1353" xml:id="em0638-fr-1355">En un coup généreux je trouverai la mort.</l>
+            </lg>
+          </sp>
+          <trailer>FIN</trailer>
+        </div2>
+      </div1>
+    </body>
+    <back>
+      <div type="bibliografia">
+        <listBibl type="ediciones_modernas">
+          <biblStruct type="libro" xml:lang="fr">
+            <monogr>
+              <author>Hardy, Alexandre</author>
+              <editor>Cavaillé, Fabien; Hillman, Richard</editor>
+              <editor role="translator">Hillman, Richard</editor>
+              <title level="m">Coriolan</title>
+              <imprint>
+                <pubPlace>Tours</pubPlace>
+                <publisher>Presses Universitaires François-Rabelais</publisher>
+                <date when="2019">2019</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

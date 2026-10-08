@@ -1,0 +1,3161 @@
+<?xml version="1.0" ?>
+<TEI xml:lang="es" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="original">The Tempest</title>
+        <title type="traduccion">La tempestad</title>
+        <title key="orden">tempestad La</title>
+        <title key="archivo">EMOTHE0253_LaTempestad</title>
+        <author ana="fiable">William Shakespeare</author>
+        <author key="orden">Shakespeare, William</author>
+        <editor role="translator">
+          <persName>Celso García Morán</persName>
+        </editor>
+        <sponsor>
+          <orgName>Plan Nacional de Investigación Científica, Desarrollo e Innovación Tecnológica (Plan Nacional de I+D+i)</orgName>
+        </sponsor>
+        <funder>
+          <orgName>Dirección General de Investigación y Gestión del Plan Nacional de I+D+I (DGI). http://www.idi.mineco.gob.es</orgName>
+        </funder>
+        <principal>Joan Oleza Simó</principal>
+      </titleStmt>
+      <editionStmt>
+        <edition>Edición electrónica de &apos;La tempestad&apos;</edition>
+        <respStmt>
+          <resp>Edición</resp>
+          <persName>Sebastià Velló, Elena</persName>
+        </respStmt>
+      </editionStmt>
+      <extent ana="verso">193 versos</extent>
+      <publicationStmt>
+        <publisher>
+          <orgName>Proyecto ARTELOPE. Base de datos, argumentos y textos del teatro clásico español (FFI 2009 -12730) http://artelope.uv.es</orgName>
+        </publisher>
+        <idno type="code">EMOTHE0253_LaTempestad</idno>
+        <pubPlace>Valencia</pubPlace>
+        <date>2012</date>
+        <authority>
+          <orgName>Universitat de València - Estudi General. http://www.uv.es</orgName>
+        </authority>
+        <availability>
+          <p>La Colección de Teatro Clasico Europeo (CTCE) pertenece al proyecto Artelope y ofrece en la web textos completos sin ánimo de lucro y libres de derechos de lectura y de reproducción. En este último caso se ruega citar la procedencia: &quot;Oleza, Joan et al. Base de Datos y Argumentos del teatro de Lope de Vega. ARTELOPE. Publicación en web: http://artelope.uv.es&quot;</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La tempestad</title>
+          <author>William Shakespeare</author>
+          <editor role="traductor">Celso García Morán</editor>
+          <lang>Español</lang>
+          <note>Shakespeare, William. &lt;&lt;La tempestad&gt;&gt; . Traducido por Celso García Morán.” En: &lt;&lt;Tres comedias escogidas de Guillermo Shakespeare.&gt;&gt; Madrid: Imp. del Asilo de Huérfanos del S. C. de Jesús, 1925, pp. 187-270.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>La Colección de Textos Clásicos Europeos (CTCE) supone la creación de una base de datos de Teatro canónico clásico europeo en diferentes idiomas, versiones y refundiciones, todas ellas hipervinculadas.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Las presentes ediciones digitales están basadas, en su mayor parte, en ediciones científicas de reconocido prestigio y se ha tratado, en la mayoría de ocasiones, de respetar sus criterios de edición. Solo en casos muy puntuales el editor digital ha introducido leves cambios de los que da cumplida cuenta en el apartado de &quot;Notas&quot;.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="es-ES">Español</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>
+            <title>La tempestad</title>
+          </titlePart>
+        </docTitle>
+        <docAuthor>William Shakespeare</docAuthor>
+      </titlePage>
+      <div type="elenco">
+        <castList>
+          <castItem>
+            <role xml:id="Alfonso">ALFONSO</role>
+            <roleDesc>Rey de Nápoles</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="Sebastian">SEBASTIÁN</role>
+            <roleDesc>su hijo</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="Prospero">PRÓSPERO</role>
+            <roleDesc>el legítimo Duque de Milán</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="Gonzalo">GONZALO</role>
+            <roleDesc>anciano y digno consejero</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="Antonio">ANTONIO</role>
+            <roleDesc>su hermano y usurpador del ducado de Milán</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="Adrian">ADRIANO}</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Francisco">FRANCISCO}</role>
+            <roleDesc>caballeros</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="Caliban">CÁLIBAN</role>
+            <roleDesc>esclavo salvaje y deforme</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="Stephano">ESTEBAN</role>
+            <roleDesc>despensero bebedor</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="Master">UN CAPITÁN DE BUQUE</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Boatswain">UN CONTRAMAESTRE</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Mariners">MARINEROS</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Miranda">MIRANDA</role>
+            <roleDesc>hija de Próspero</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="Ariel">ARIEL</role>
+            <roleDesc>genio aéreo</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="Iris">IRIS}</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Ceres">CERES}</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Juno">JUNO}</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Nymphs">NINFAS}</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Reapers">SENADORES}</role>
+            <roleDesc>otros genios a las órdenes de Próspero</roleDesc>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="Trinculo">TRÍNCULO</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="Ferdinand">FERNANDO</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="Spirits">GENIOS</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="JunoAndCeres">JUNO Y CERES</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="FerdinandAndMiranda">FERNANDO Y MIRANDA</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="Burden">CORO 1.º</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="Burden2">CORO 2.º</role>
+          </castItem>
+        </castList>
+      </div>
+    </front>
+    <body>
+      <div1 type="act" n="1">
+        <head>Acto I</head>
+        <div2 type="scene" n="1">
+          <head>ESCENA PRIMERA</head>
+          <stage type="location">A bordo de un barco en el mar.−Tormenta desencadenada.</stage>
+          <stage type="entrance">(Entran un Capitán y un Contramaestre.)</stage>
+          <sp who="#Master">
+            <speaker>CAPITÁN</speaker>
+            <p>¡Contramaestre!</p>
+          </sp>
+          <sp who="#Boatswain">
+            <speaker>CONTRAMAESTRE</speaker>
+            <p>Aquí estoy. ¿Qué ocurre?</p>
+          </sp>
+          <sp who="#Master">
+            <speaker>CAPITÁN</speaker>
+            <p>Bien; habla a los marineros. A trabajar con brío, o sino embarrancamos. ¡Listo, listo!</p>
+          </sp>
+          <stage>(Sale el capitán y entran algunos marineros.)</stage>
+          <sp who="#Boatswain">
+            <speaker>CONTRAMAESTRE</speaker>
+            <p>¡Animo, muchachos! ¡Actividad, actividad, muchachos! ¡Con brío, con brío! ¡Viento, sopla hasta que revientes, como haya espacio bastante!</p>
+          </sp>
+          <stage>(Entran Alfonso, Sebastián, Antonio, Fernando y otros.)</stage>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>Buen contramaestre, con cuidado. ¿Dónde está el Capitán? ¡Haced que trabajen esos hombres!</p>
+          </sp>
+          <sp who="#Boatswain">
+            <speaker>CONTRAMAESTRE</speaker>
+            <p>Mejor haríais en quedaros abajo.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Contramaestre, ¿dónde está el Capitán?</p>
+          </sp>
+          <sp who="#Boatswain">
+            <speaker>CONTRAMAESTRE</speaker>
+            <p>¿No le oyes? Aquí no hacéis más que entorpecer nuestras maniobras; idos a los camarotes; no ayudéis a la tormenta.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Buen amigo, ten calma.</p>
+          </sp>
+          <sp who="#Boatswain">
+            <speaker>CONTRAMAESTRE</speaker>
+            <p>Cuando la tenga el mar. ¡Salid de aquí! ¿Qué les importa a estas alborotadoras el nombre de Rey? Al camarote; callad y no nos perturbéis.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Bien; pero no olvides a quién llevas a bordo.</p>
+          </sp>
+          <sp who="#Boatswain">
+            <speaker>CONTRAMAESTRE</speaker>
+            <p>A nadie a quién ame más que a mí mismo. Vos sois un consejero; si lográis acallar los elementos y calmarlos inmediatamente, nosotros no asistiremos ni un cabo más; si no podéis, dad gracias por haber vivido tanto e idos al camarote a disponeros para la hora fatal, por si acaso llega. ¡Animo, muchachos! Fuera de aquí, digo.</p>
+          </sp>
+          <stage>(Salen.)</stage>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Este bergante le tranquiliza. No tiene el sello de morir ahogado; su complexión está dispuesta para la horca. Mantén tu palabra de ahorcarle, bondadoso destino, y haz que la cuerda que le prepares sea el cable en que nos salvemos, ya que el nuestro nos va a servir de poco. Si este hombre no nació para ser ahorcado, desgraciada es nuestra suerte.</p>
+          </sp>
+          <stage>(Salen, y vuelve el Contramaestre.)</stage>
+          <sp who="#Boatswain">
+            <speaker>CONTRAMAESTRE</speaker>
+            <p>Arría el mastelero de gavia. ¡Pronto! ¡Arría, arría! Probemos con la vela mayor. ¿Mala peste confunda esos aullidos! Dominan la tormenta y las voces de mando.</p>
+          </sp>
+          <stage>(Gritos dentro.)</stage>
+          <stage>(Vuelven Sebastián, Alfonso y Gonzalo)</stage>
+          <sp who="#Boatswain">
+            <speaker>CONTRAMAESTRE</speaker>
+            <p>¡Otra vez! ¿Qué hacéis aquí? ¿Abandonamos la maniobra y vamos a fondo? ¿Deseáis hundiros?</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>¿Mala peste para tu garganta, alborotador, blasfemo, perro y despiadado!</p>
+          </sp>
+          <sp who="#Boatswain">
+            <speaker>CONTRAMAESTRE</speaker>
+            <p>Entonces, trabajad vosotros.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Ahorcado seas perro de mala casta. Ahorcado seas, vocinglero insolente. No tenemos tanto miedo de ahogarnos como tú.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Garantizo que no se ha de ahogar, aunque el buque no fuera más consciente que una cáscara de nuez.</p>
+          </sp>
+          <sp who="#Boatswain">
+            <speaker>CONTRAMAESTRE</speaker>
+            <p>¡Virar en redondo, ceñir! ¡Amura mayor y triquete! ¡Largo!</p>
+          </sp>
+          <stage>(Entran varios marineros mojados.)</stage>
+          <sp who="#Mariners">
+            <speaker>MARINEROS</speaker>
+            <p>Todo está perdido. A rezar, a rezar. ¡Perdidos sin remedio!</p>
+          </sp>
+          <sp who="#Boatswain">
+            <speaker>CONTRAMAESTRE</speaker>
+            <p>¿Qué? ¿Es necesario que se nos enfríen ya las bocas?</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>El rey y el Príncipe oran. Acompañémoslos, pues nos hallamos en igual peligro.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Estoy desesperado.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Perecemos por causas d estos beodos. Infame bocón… ¡Así te estuvieras ahogando duramente diez mareas!</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Tiene que morir ahorcado, aunque protestes todas y cada una de las gotas del mar, y aunque ésta abra sus fauces para tragarlos. (Voces y ruido confuso dentro) [VOCES] ¡Misericordia! ¡Naufragamos, naufragamos! ¡Adiós, esposa e hijos!... ¡Adiós, hermano! ¡Naufragamos, naufragamos!</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Hundámonos todos con el Rey.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Vamos a despedirnos de él.</p>
+          </sp>
+          <stage>(Salen Antonio y Sebastián.)</stage>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Daría yo ahora mil estados de mar por un acre de tierra estéril, o de brezos, o inculta, o de cualquier cosa. ¡Cúmplase la voluntad de lo alto! Pero yo preferiría morir de muerte enjuta.</p>
+          </sp>
+          <stage>(Salen.)</stage>
+        </div2>
+        <div2 type="scene" n="2">
+          <head>ESCENA II</head>
+          <stage>LA ISLA.−Delante de la gruta de Próspero.</stage>
+          <stage>(Entran Próspero y Miranda.)</stage>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>Si con vuestra ciencia provocastéis, querido padre mío, ese fragor de las mugientes olas, aplacadlas. Creo que si el irritado mar no se remontase hasta las nubes y apagase su ardor, éstas verterían pestífero alquitrán. ¡Oh, cuánto he sufrido con los que vi sufrir! ¡Hecho pedazos un gallardo bajel que sin duda tenía dentro nobles criaturas! ¡Oh, sus lamentos repercutieron en lo íntimo de mi corazón! ¡Pobres gentes, perecieron! Si yo hubiera sido un dios potente, hubiera sepultado al mar dentro de la tierra antes que permitirle engullir tan airosa nave con los infortunados que iban dentro.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Cálmate; pon fin a tu asombro; di a tu piadoso corazón que no ha sucedido mal alguno.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>¡Oh, que día tan aciago!</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Ningún mal sobrevino. Nada hice sino por tu bien, por tí, querida mía, por tí, hija mía, que no sabes quién eres ni quién soy yo, e ignoras que sea otra cosa sino Próspero, dueño de una pobre gruta y humilde padre tuyo.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>Ni mis pensamientos trataron de averiguar otra cosa.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Ya llegó el tiempo en que debes saber más. Ayúdame a quitar la toga mágica. Bien. (Deja la toga.) Descansa ahí, arte mío. Enjuga tus ojos, cobra aliento. El terrible naufragio que tan viva compasión levantó en tu alma fué ordenado y dirigido por mí con tal arte, que no se perdió ni una existencia, ni aun un cabello de las criaturas que oíste gritar en el barco y que viste luego hundirse. Siéntate, porque ahora es preciso que sepas algo más.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>Varias veces comenzasteis a decirme quién soy; pero dejándome perpleja y cavilosa, cortasteis el relato diciendo: «Espera; todavía no.»</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Mas ya llegó la hora, el preciso momento en que debes abrir tus oídos: obedece y escucha. ¿Recuerdas alguna cosa del tiempo pasado antes de venir a esa gruta? Creo que no lo recordarás, porque entonces sólo contabas tres años.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>Ciertamente, señor, recuerdo algo.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>¿Qué? ¿Quizá otra casa u persona? Dime qué es lo que ha podido dejar en ti algún recuerdo.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>Vislumbro una lejana reminiscencia que más bien parece sueño que realidad. ¿No tenía yo entonces cuatro o cinco criadas a mi servicio?</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Sí, y más aún, Miranda. Pero ¿cómo vive todavía eso en tu mente? ¿Qué más recuerdas en el pasado obscuro y en el abismo del tiempo? Si recuerdas algo antes de haber venido aquí, también recordarás cómo viniste.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>Eso lo recuerdo.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Doce años ha, Miranda, doce años ha que tu padre era Duque de Milán y Príncipe poderoso.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>Señor, ¿no sois vos mi padre? Tu madre, dechado de virtud, afirmaba que tú eras mi hija; y tu padre era Duque de Milán, y tú su única heredera y Princesa de elevada alcurnia.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>¡Oh cielos! ¿Qué traición nos condujo a este lugar? ¿O fue acaso la buena suerte?</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Las dos, las dos, niña mía. Por traición, como dices, fuimos lanzados de allí, y la buena suerte nos condujo a este sitio.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>¡Oh, sangra mi corazón al considerar las molestias que os ocasioné y que ni siquiera recuerdo! Seguid, padre mío.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>A mi hermano y tu tío, que se llama Antonio, escucha bien, te lo suplico –parece mentira que tu hermano pueda ser tan pérfido−; a él, que era lo que después de ti más quería en el mundo, encomendé el gobierno de mi Estado, que entonces era el primero entre todos los señoríos, y Próspero el Duque más preeminente y más honrado por su dignidad y conocimientos en las artes, que era todo mi afán; a este hermano, digo, encomendé la carga del gobierno, y, absorto yo en los estudios, me hice extraño a mis gentes. Tu falso tío… ¿Escuchas?</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>Señor, con atención profunda. Tan pronto como se perfeccionó en la manera de conceder favores y de negarlos, ascendiendo a unos y dificultando las pretensiones de otros, removió las gentes que eran mías o las atrajo o creó otras nuevas; y disponiendo de las dos llaves, la de los empleos y la de los empleados, hizo que todos los corazones del pueblo sonasen acordes en el tono que más agradaba a sus oídos; y desde este momento fue la hiedra que encubrió mi noble tronco y absorbió mi savia. Tú no escuchas.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>¡Oh, buen padre, sí escucho!</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Fíjate bien, te lo ruego. Yo, extraño a los negocios del mundo, consagrado enteramente a perfeccionar mi inteligencia con lo que aún siendo tan escondido sobrepuja al pareció de mi público, di ocasión a que se despertase en mi falaz hermano un perverso designio, y mi grande y absoluta confianza, cual madre solícita, engendró en él una falsía no menos grande e ilimitada. Viéndose así enseñoreado, y teniendo a su disposición mis rentas y todo mi poder, como quien a fuerza de repetir una mentira acaba él mismo por darle crédito, así le sucedió a él, que terminó por creerse verdadero Duque porque era el substituto y ercía patentemente las funciones de la autoridad y todas sus prerrogativas. Creciendo con esto su ambición… ¿Me escuchas?</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>Vuestro relato, señor, curaría la sordera.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Para que no hubiese velo alguno entre el papel que hacía y la persona a quien representaba, necesito gobernar solo en Milán. Para mí, pobre hombre, se juzgó bastante Ducado mi biblioteca, se me desechó por inepto para la soberanía temporal, y él, tan grande sed de poderío abrigaba, que llegó hasta ligarse con el Rey de Nápoles, se obligó a un tributo anual, le prestó homenaje, sometió su diadema a la corona y doblegó un ducado siempre altivo −¡pobre Milán!− al más humillante yugo.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>¡Oh, cielos!</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Fíjate en las condiciones y en sus consecuencias, y dime si tal hombre puede llamarse hermano.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>Pecaría si no juzgase noblemente de mi abuela: de entrañas buenas nacen malos hijos.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Pasemos ahora a las condiciones. El Rey de Nápoles, inveterado enemigo mío, escuchó la propuesta de mi hermano, que consistía en que él a cambio del homenaje y no sé qué más tributos, me desterraría con los míos y daría con toda la pompa la bella Milán a mi hermano. Aprestaron luego traidores fuerzas, y la noche destinada para la ejecución, Antonio abrió las puertas de Milán, y en medio de las tinieblas, sus gentes, ya prevenidas, me expulsaron de allí contigo, que ibas llorando.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>¡Ay, triste de mí! Ya que no recuerdo cómo lloraba entonces, lloraré ahora otra vez. Vuestra narración hace a mis ojos anegarse en lágrimas.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Sigue prestando atención, que ya llego al caso que ahora nos preocupa, y si no fuera por él esta historia sería impertinente.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>¿Y por qué no nos mataron?</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Preguntas con acierto, hija mía, y esa pregunta brota de mi narración. No se atrevieron, querida niña, por causa del gran amor que el pueblo me tenía y por no manchar con sangre unos propósitos que trataban de velar con plausibles colores. En resumen, nos sacaron a bordo de un buque y nos internaron algunas leguas en el mar, donde tenían dispuesto el casco podrido de un bote sin aparejo, sin jarcias, sin velas ni mástil, del que hasta las ratas habían huido instintivamente; allí nos metieron, dejándonos mezclar nuestro llanto con los mugidos de las olas, y nuestros suspiros con el viento, que parecía compadecernos.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>¡Ay de mí! ¡Qué carga tan molesta os fui yo entonces!</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>¡Oh, fuiste mi ángel salvador! Tú te sonreías, animada de celestial fortaleza, en tanto que yo, gimiendo bajo el peso de mi angustia, cubría la superficie del mar con abundantes lágrimas. Tu compañía me dio ánimo y fuerza para afrontar el incierto porvenir.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>¿Cómo llegamos a tierra?</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Por obra de la providencia divina. Teníamos algunos víveres y agua dulce, gracias a la caridad de Gonzalo, un noble de Nápoles a quien se encomendó la ejecución de esta medida, que nos surtió además de valiosos vestidos, lino, telas y otros objetos necesarios que tan útiles nos fueron después- sabiendo é mi afición a los libros, me entregó de mi propia biblioteca algunos volúmenes que aprecio en más que mi ducado.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>¡Cuánto quisiera ver algún día a ese hombre!</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Me levanto. (Se viste la toga.) Tú continúa sentada y oye el fin de nuestros infortunios sobre las ondas. Llegamos a esta isla y aquí he sido yo tu maestro, haciéndote aprovechar con mis lecciones bastante más que otras princesas a quienes sobra tiempo que emplear en frivolidades, pero que no tienen tan esmerados tutores.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>¡El cielo os recompense! Y ahora os ruego me expliquéis, pues aun me sigue preocupando, por qué razón forjásteis la borrasca.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Por extraña casualidad, la bondadosa Fortuna, que ahora me es propia, condujo mis enemigos a esta playa, y por ciencia propia sé que mi cénit depende de un astro benéfico, y si no me aprovecho de su influjo, mi fortuna decaerá para siempre. No me preguntes más; veo que el sueño te domina; entrégate a él, que es reparador; sé que no puedes resistirlo. (Miranda se duerme.) ¡Acude siervo, ven!</p>
+          </sp>
+          <stage>(Entra Ariel.)</stage>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>¡Salud, amo excelso! ¡Salud, venerando señor” Vengo a cumplir vuestras órdenes; a volar, a nadar, a hundirme en el fuego, a cabalgar sobre las riazas nubes. Ariel, con cuanto vale, se somete a vuestro poderoso mandato.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Genio, ¿forjaste punto por punto la tempestad que te ordené?</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Sin omitir ni un ápice. Abordé el buque del Rey, y mis llamas hicieron maravillas a proa, en el castillo, sobre cubierta y en los camarotes. Algunas veces me divido y ardo en varios puntos: en el mastelero, en las vergas y en el bauprés flameo con viva luz; después me vuelvo a replegar. Los rayos de Júpiter, precursores del trueno, no eran más intensos y fulgurantes. Las llamas y el fragor parecían estremecer a las audaces olas y asediar al potente Neptuno; hasta su mismo tridente retemblaba.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>¡Oh, mi animoso Genio! ¿Hubo alguien tan firme y constante que pudiera soportar la confusión con ánimo sereno?</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Ni un alma hubo que no sintiese la fiebre de la locura o no manifestara signos de desesperación. Excepto los marineros, todos los demás se precipitaron en el espumoso abismo. Fernando, el hijo del Rey, con los cabellos erizados, que entonces más bien parecían mimbres, fue el primero que se sumergió, gritando: «El infierno está vacío y todos los demonios se hallan aquí.»</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>¡Bien! ¡Te has portado como quien eres! ¿Pero esto no sucedió junto a la costa?</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Muy cerca, señor.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>¿Y están ya en salvo, Ariel?</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Ni un cabello pereció. Sus vestidos, que los mantuvieron a flote, están sin mancha alguna y por la isla en grupos, según me ordenásteis. Hice que el hijo del Rey ganase la tierra solo y le dejé sentado en un rincón de la isla, con gemidos.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Dime ahora qué has hecho de la tripulación del buque real y de los demás barcos de la flota.</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>El buque del Rey está seguro e la bahía, resguardado en la profunda cala donde una vez me llamasteis a media noche para que os fuera a buscar rocío fresco en las siempre agitadas Bermudas. La tripulación está bajo las escotillas, entregada a profundo sueño producido por un encanto y por la fatiga. El resto de la flota que dispersé ha vuelto a reunirse y se encuentra en el Mediterráneo con rumbo a Nápoles, hacia donde navega tristemente, suponiendo que han visto hundirse al buque del Rey y perecer a Su Majestad.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Ariel, cumpliste puntualmente tu obra; pero aún hay más que hacer. ¿Qué hora tenemos?</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Pasa del mediodía.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Dos horas por lo menos. Necesitamos aprovechar con usura el tiempo que media hasta las seis.</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>¿Hay más que trabajar? Ya que tanto me atareáis, permitidme os recuerde la promesa que me hicisteis y aun no habéis cumplido.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>¿Cómo? ¿Caprichos tenemos? ¿Qué es lo que pides?</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Mi libertad.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>¿Antes del tiempo convenido? ¡Ni una palabra más!</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Os suplico recordéis que os he prestado valiosa ayuda, que nunca dije mentira ni cometí bajezas, que os he servido sin murmurar ni quejarme, y que prometisteis rebajarme un año.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>¿Has olvidado la tortura de que te libré?</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>No señor.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Parece que sí; y que te es muy penoso hollar el limo del mar profundo, cabalgar sobre el cierzo frío y servirme en los entrañas de la tierra cuando está endurecida por el hielo.</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>No me quejo, señor.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>¡Mientes, criatura maligna! ¿Has olvidado a la odiosa bruja Sícorax, encorvada por los años y la envidia? ¿La has olvidado?</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>No señor.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Sí. ¿Dónde nació? Habla, dime.</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Señor, en Argel.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>¡Oh! ¿Es cierto? Necesito recordarte periódicamente lo que has sido, porque tú lo olvidas. Esa condenada bruja Sícorax sabes que fue desterrada en Argel por sus perniciosos maleficios y terribles sortilegios que no son para narrar a oídos humanos; pero saló la vida por una obra buena que hizo. ¿No es cierto?</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Sí, señor.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Esa bruja de ojos de besugo fué sacada de allí cuando estaba en cinta, y abandonada aquí por los marineros. Tú, mi esclavo, como tú mismo te llamas, eras entonces siervo suyo, y porque rehusaste cumplir sus órdenes terminantes –pues eras un espíritu muy delicado para que te decidieras a ejecutar perversas y aborrecibles obras−, ella misma, ayudada de genios más potentes y en un acceso de implacable rabia, e encerró en la hendidura de un pino, y en ella estuviste doce años sufriendo cruel tortura. En este tiempo murió ella y allí te dejó, y allí estuviste lanzando al aire dolorosos lamentos, con tanta rapidez como dan vueltas las aspas de un molino. Ninguna faz humana ennoblecía entonces la isla con su presencia, excepto el repugnante engendro de vil bruja que ella expulsó aquí.</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Sí, Cáliban, su hijo.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>A él aludo, genio ignorante; a él, a Cáliban, que tengo ahora en mi servicio. Tú sabes mejor que nadie en medio de qué tortura te hallé. Tus lamentaciones hacían aullar a los lobos y ablandaban el corazón de los hambrientos osos: era una tortura propia de un condenado y que Sícorax ya no podía anular. Cuando yo llegué y te oí, fue mi ciencia la que hizo bostezar al pino y liberarte.</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Os doy gracias por ello, señor.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Si vuelves a murmurar he de abrir una encina y clavarte en sus nudosas entrañas, donde estarás aullando doce inviernos seguido.</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Perdonad, señor; cumpliré vuestros mandatos con el celo de un espíritu dócil.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Hazlo así y dentro de dos días te otorgaré la libertad.</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>¡Oh, cuán noble sois, señor! ¿Qué debo hacer? Decid, ¿qué hago?</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Ve y transfórmate en ninfa de la mar; hazte invisible a todos menos a tus ojos y a los míos. Marcha, adopta esa apariencia y vuelve luego. Vete y obra con diligencia. (Sale Ariel.) Despierta, corazón mío, despierta. Ya has dormido bastante, despierta.</p>
+          </sp>
+          <stage>(Despierta Miranda.)</stage>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>Lo extraño de vuestra historia me produjo sopor.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Sacúdele. Ven, vamos a visitar a mi esclavo Cáliban, que jamás nos da una agradable respuesta.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>Señor, es un villano; me repugna verlo.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Pro tal y como es no podemos prescindir de él; nos atiza la lumbre, nos trae la leña y nos presta otros servicios útiles. ¡Hola esclavo! ¡Cáliban! ¡Pedazo de tierra! Habla.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>(dentro.) Hay dentro suficiente leña.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Sal afuera, te digo. Tengo otra cosa en que ocuparte. ¡Sal, tortuga! ¿Sabes? (Vuelve Ariel transformado en ninfa marina.) ¡Bella aparición! Lindo Ariel, escucha al oído.</p>
+          </sp>
+          <stage>(Le habla.)</stage>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>(Vase.) Así lo haré, señor.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>¡Esclavo ponzoñoso, engendro del mismo diablo en las entrañas de tu bruja madre, sal afuera!</p>
+          </sp>
+          <stage>(Sale Cáliban.)</stage>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>Caiga sobre vosotros dos maléfico rocío, como el recogía mi madre con la pluma de un cuervo en las inmundas charcas! ¡Que el cálido Sur os abrase y cubra de tumores!</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Por lo que acabas de decir te aseguro que padecerás calambres esta noche y dolores de costado que te dificulten la respiración. Los erizos se cebarán en ti durante la noche, que es cuando se les permite su labor; te dejarán la piel como un panal, a fuerza de pinchazos más punzantes que los de las abejas.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>Debo comer lo que es mío, y esta isla que tú me arrebataste es mía, la heredé de Sícorax mi madre. Cuando llegaste aquí me acariciabas y estimabas en mucho, me diste agua de bayas y me enseñaste el nombre de la luz grande y de la pequeña, que arden por el día y por la noche. Entonces yo te quise y te enseñé las propiedades de la isla, las cristalinas fuentes, los pozos salobres, el terreno estéril y el fecundo. ¡Maldito sea yo, que tal hice! ¡Todos los maleficios de Sícorax, los escuerzos, escarabajos y murciélagos caigan sobre ti! Soy el único vasallo que tienes, cuando antes era yo mi propio rey. Me confinas en esta dura roca y me usurpas e resto de la isla.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>¡Pérfido esclavo, a quien no mueve el cariño, sino los golpes! A pesar de ser tan inmundo como eres, te traté como a un hombre, acomodándote en mi propia gruta hasta que trataste de violar el honor de mi niña.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>¡Jo, jo, jo! ¡Ojalá hubiera sido un hecho! ¡Tú lo evitaste, sino ya hubiera poblado yo la isla de Cálibanes!</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PROSPERO</speaker>
+            <p>¡Aborrecible esclavo, incapaz de la más mínima tintura de virtud y capaz de todo lo peor! Me compadecí de ti, me tomé la molestia de enseñarte a hablar y no desperdicié ocasión de instruirte. Salvaje, cuando como un bruto no articulabas más que sonidos confusos e ininteligibles, yo revestí de palabras tus pensamientos para que los dieses a conocer. Mas a despecho de mis enseñanzas tienes tan vil naturaleza, que ningún ser humano la puede tolerar; por eso estás confinado en esta roca, aunque bien merecías un calabozo.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>Me enseñaste a hablar, y el provecho que saco es el de poderte maldecir. ¡Que te dé la peste roja por haberme enseñado tu lengua!</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>¡Aborto de bruja, vete de aquí! Trae provisión de leña y vuelve pronto, que te resultará mejor; tengo que emplearte en otros menesteres. ¿Te encojes de hombros, pícaro? Si regañas o no lo haces lo que te mando te atormentaré con calambres de viejo; torturaré tus huesos con dolores que te harán dar bramidos hasta que las mismas fieras tiemblen al oírte.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>
+              <seg type="aside">Es preciso obedecer. Tan poderoso es su arte que dominaría y haría si vasallo al mismo Sétebos, dios de mi madre.</seg>
+            </p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>¡Anda, esclavo; vete de aquí!</p>
+          </sp>
+          <stage>(Sale Cáliban.)</stage>
+          <stage>(Vuelve Ariel invisible, tocando y cantando. Le sigue Fernando.)</stage>
+          <stage>CANTO DE ARIEL</stage>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <lg>
+              <l n="0001" xml:id="es-0131">Venid a esta orilla</l>
+              <l n="0002" xml:id="es-0132">de arenas doradas;</l>
+              <l n="0003" xml:id="es-0133">juntad vuestras manos</l>
+              <l n="0004" xml:id="es-0134">en alegre danza;</l>
+              <l n="0005" xml:id="es-0135">saludad gentiles,</l>
+              <l n="0006" xml:id="es-0136">besaos con gracia,</l>
+              <l n="0007" xml:id="es-0137">que al veros las ondas</l>
+              <l n="0008" xml:id="es-0138">inquietas se callan.</l>
+              <l n="0009" xml:id="es-0139">Con los pies ligeros</l>
+              <l n="0010" xml:id="es-0140">Triscad en la playa,</l>
+              <l n="0011" xml:id="es-0141">Y a coro, mis genios,</l>
+              <l n="0012" xml:id="es-0142">Cantad como hadas.</l>
+            </lg>
+          </sp>
+          <sp who="#Burden">
+            <speaker>CORO 1.º</speaker>
+            <p>¡Escuchad, escuchad!</p>
+          </sp>
+          <sp who="#Burden2">
+            <speaker>CORO 2.º</speaker>
+            <p>¡Guau, guau, guau!</p>
+          </sp>
+          <sp who="#Burden">
+            <speaker>CORO 1.º</speaker>
+            <lg>
+              <l n="0013" xml:id="es-0145">El can vigilante</l>
+              <l n="0014" xml:id="es-0146">ya empieza a ladrar.</l>
+            </lg>
+          </sp>
+          <sp who="#Burden2">
+            <speaker>CORO 2.º</speaker>
+            <p>¡Guau, guau, guau!</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <lg>
+              <l n="0015" xml:id="es-0148">¡Escuchad, escuchad!</l>
+              <l n="0016" xml:id="es-0149">Me parece ya oir</l>
+              <l n="0017" xml:id="es-0150">al gallo arrogante que entona</l>
+              <l n="0018" xml:id="es-0151">su quiquiriquí.</l>
+            </lg>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>¿De dónde procederá esta música? ¿Del aire o de la tierra? Ya cesó. Seguramente que acompaña a alguna deidad de la isla. Sentado yo en la ribera, llorando de nuevo el triste naufragio del Rey mi padre, está música se deslizó hacia mí sobre las ondas, templando la furia de éstas y mi dolor con su encantadora armonía. Desde allí la he seguido, o más bien, me ha guiado. Pero ya cesó; no, comienza de nuevo.</p>
+          </sp>
+          <stage>(Ariel canta.)</stage>
+          <sp who="#Ariel">
+            <speaker>[ARIEL]</speaker>
+            <lg>
+              <l n="0019" xml:id="es-0153">A más de cinco brazas</l>
+              <l n="0020" xml:id="es-0154">Tu padre hundido está;</l>
+              <l n="0021" xml:id="es-0155">sus ojos son ya perlas</l>
+              <l n="0022" xml:id="es-0156">y sus huesos coral;</l>
+              <l n="0023" xml:id="es-0157">la arcilla de su cuerpo</l>
+              <l n="0024" xml:id="es-0158">los olas cambiarán</l>
+              <l n="0025" xml:id="es-0159">en objetos preciosos</l>
+              <l n="0026" xml:id="es-0160">de riqueza sin par.</l>
+              <l n="0027" xml:id="es-0161">Las ondinas le cantan</l>
+              <l n="0028" xml:id="es-0162">su doble funeral!</l>
+            </lg>
+          </sp>
+          <sp who="#Burden">
+            <speaker>CORO</speaker>
+            <lg>
+              <l n="0029" xml:id="es-0163">¡Don, din, don!</l>
+              <l n="0030" xml:id="es-0164">¡Dan, din, dan!</l>
+            </lg>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <lg>
+              <l n="0031" xml:id="es-0165">Ya oigo las campanas</l>
+              <l n="0032" xml:id="es-0166">Que doblan sin cesar.</l>
+            </lg>
+          </sp>
+          <sp who="#Burden">
+            <speaker>CORO</speaker>
+            <lg>
+              <l n="0033" xml:id="es-0167">¡Don, din, don!</l>
+              <l n="0034" xml:id="es-0168">¡Dan, din, dan!</l>
+            </lg>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>Estas canciones me recuerdan a mi ahogado padre. Esto no es cosa mortal, no; ni música terrena. Ahora la oigo sobre mí.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>(A Miranda.) Levanta las franjadas cortinas de tus ojos y dime lo que ves allí.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>¿Qué es ello? ¿Un espíritu? ¡Señor, cuál mira en torno suyo! Creedme, tiene una donosa presencia, pero es un espíritu.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>No hija; come, duerme y tiene iguales sentidos que nosotros, iguales. Ese galán que ves, es uno de los náufragos, y si no estuviese un poco alterado por el dolor, que es cáncer de la hermosura, podrías llamarle con razón una elegante persona. Perdió a sus compañeros y vaga buscándolos.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>Yo le hubiera tomado por una criatura divina, pues nunca he visto en la naturaleza cosa tan noble.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>
+              <seg type="aside">Veo que todo se desenvuelve como desea mi alma. ¡Oh, genio, noble genio! Te libertaré dentro de dos días.</seg>
+            </p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>Esa es sin duda la divinidad a quien se honra con tan delicada música. Dignaos decirme si vos residís en esta isla y si queréis dar alguna instrucción acerca del modo cómo debo conducirme en ella, mas lo que ante todo quisiera saber, aunque es lo último que pregunto, ¡oh, maravilla! es si sois una doncella o no.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>No soy ninguna maravilla, señor; pero sí soy una doncella.</p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>¡Mi idioma! ¡Cielos! Si yo estuviera en el país en que se habla ese idioma, fuera yo allí el primero.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>¡Cómo! ¿El primero? ¿Qué serias tú, si te oyese el Rey de Nápoles?</p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>Lo que soy ahora, un simple mortal que se admira al oirte hablar de Nápoles. El Rey me oye y por eso lloro; yo soy el rey de Nápoles; que con mis ojos, inundados desde entonces por la marea del llanto, vi naufragar al mismo rey mi padre.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>¡Ay de mí! ¡Qué desdicha!</p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>Sí, es cierto; y el Duque de Milán y su noble hijo.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>
+              <seg type="aside">El Duque de Milán y su noble hijo te pudieran contradecir si fuese necesario. Nada más verse ya cambiaron miradas; por esto te daré la libertad, delicado Ariel.</seg>
+            </p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>
+              <seg type="aside">¿Por qué usará mi padre un tono tan duro? Este es el tercer hombre que he visto en mi vida y el primero por quien suspiro. ¡Que la piedad incline a mi padre hacia donde se inclina mi corazón!</seg>
+            </p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>¡Oh, si sois una doncella y no habéis comprometido ya vuestro amor, yo os haré Reina de Nápoles.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>
+              <seg type="aside">Se han prendado el uno del otro, y esto marcha demasiado aprisa, por lo que debo poner algún obstáculo para que la facilidad de la victoria no haga más; es preciso que me oigas; aquí usurpas un título que no te pertenece, y has venido de espía a esta isla para arrebatarla a su dueño, que soy yo.</seg>
+            </p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>¡Como soy hombre, que no!</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>Es imposible que mal alguno viva en ese templo. Si el espíritu del mal poseyese tan bella mansión, se esforzarían por habitarla los espíritus buenos.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Sígueme. Tú no abogues por él, que es un traidor. Ven, voy a aherrojar tu cuello y tus pies. Tu bebida será agua del mar, tu alimento moluscos del arroyo, raíces secas y cáscaras que sirvieron de cuna a las bellotas. Sígueme.</p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>No; resistiré ese trato mientras no vea más poder en mi enemigo.</p>
+          </sp>
+          <stage>(Desenvaina la espada, pero queda sin movimiento.)</stage>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>¡Oh, querido padre, no le expongáis a tan dura prueba, pues es gallardo y nada cobarde!</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>¿Cómo? ¡Mi pie querrá ser mi tutor! Tú, envaina traidor, que te haces el caliente y no te decides a herir, porque estás bajo el peso de una conciencia pecadora. Deja esa actitud agresiva, pues con esta vara puedo desarmarte y echar tu espada por tierra.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>¡Padre, por favor!</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>¡Aparta! ¡No te cuelgues de mis vestidos!</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>¡Señor, por compasión; yo respondo de él!</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>¡Silencio! Si dices una palabra más, te reñiré ásperamente, si es que no llego a odiarte. ¡Qué dices es eso! ¡Abogas por un impostor! Calla. Te crees que no hay personas hermosas que él porque sólo le has visto a él y a Cáliban. ¡Joven inexperta! Comparado con la mayor parte de los hombres, éste es un Cáliban, y ellos junto a él son ángeles.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>En ese caso mis pretensiones son bien humildes; no ambiciono ver un hombre más gallardo.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Sígueme, obedece; tus nervios han vuelto a la infancia y no tienen vigor alguno.</p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>Así es, y mis potencias están aletargadas como en un sopor. La pérdida de mi padre, la debilidad que siento, el naufragio de todos mis amigos y las amenazas de este hombre a quien me hallo sometido, todo me será soportable si una vez al día pudiera contemplar desde mi prisión a tan hermosa doncella. Que la libertad disponga de los otros rincones de la isla, pues en tal calabozo tengo yo espacio bastante.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>
+              <seg type="aside">Esto marcha.</seg>
+            </p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>Tened ánimo, señor; mi padre tiene mejor natural del que ahora muestra; este mal humor no es ordinario en él.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>(A Ariel.) Serás tan libre como el aire de la montaña; mas es preciso que cumplas con esmero mis órdenes.</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Al pie de la letra.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>(A Fernando.) Vamos, sígueme. (A Miranda.) No abogues por él.</p>
+          </sp>
+          <stage>(Salen.)</stage>
+        </div2>
+      </div1>
+      <div1 type="act" n="2">
+        <head>Acto II</head>
+        <div2 type="scene" n="1">
+          <head>ESCENA PRIMERA</head>
+          <stage type="location">Una parte de la isla.</stage>
+          <stage type="entrance">(Entran Alfonso, Sebastián, Antonio, Gonzalo, Adriano, Francisco y otros.)</stage>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Señor, desterrad la tristeza, animaos; tenéis motivo para alegraros como el tenemos todos, pues nuestra salvación excede con mucho a nuestro desastre. La causa de nuestra pena es muy ordinaria; es la que tienen todos los días la esposa del marinero, el propietario de cualquier buque y el comerciante que le fletó; mas por milagro –aludo a nuestra salvación−, pocos entre millones podrían decir lo que nosotros. Por lo tanto, bondadoso señor, contrapesad nuestro infortunio con nuestros motivos de consuelo.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>Te suplico que calles.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Recibe los consuelos como si fueran un caldo frío.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>El consolador no le dejará por eso.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Mirad, está dando cuerda al reloj de su ingenio: pronto dará la hora.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Señor…</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Una, contad.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Cuando uno acaricia las desventuras que le sobrevienen este tal recibe…</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Un dólar.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Un dolor recibe sin duda. Hablaste con más ingenio de lo que tú mismo esperabas.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Lo tomaste con más agudeza de lo que me proponía.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Por lo tanto, señor…</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>¡Uf! ¡Qué derrochador de su lengua!</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>Déjame en paz; te lo ruego.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Bien; he terminado. No obstante…</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Él ha de charlar.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Apostemos alguna cosa buena sobre quién ha de cacarear primero, él o Adriano.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>El gallo viejo.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>El pollo.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Hecho, ¿Qué apostamos?</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Una carcajada.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Convenido.</p>
+          </sp>
+          <sp who="#Adrian">
+            <speaker>ADRIANO</speaker>
+            <p>Inhabitable y casi inaccesible…</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>No obstante…</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>No obstante…</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>¡No faltaba más!</p>
+          </sp>
+          <sp who="#Adrian">
+            <speaker>ADRIANO</speaker>
+            <p>Debe de tener una sutil, suave y delicada templanza.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>La Templanza era una señora muy delicada.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Sí, y muy sutil, como el acaba de afirmar discretamente.</p>
+          </sp>
+          <sp who="#Adrian">
+            <speaker>ADRIANO</speaker>
+            <p>Un aire balsámico respira aquí sobre nosotros.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Como si tuviera pulmones, y podridos.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Aquí se encuentra todo lo necesario para la vida.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Ciertamente; excepto los medios de vivir.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>De eso no hay nada o poco.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>¡Qué compacta y vigorosa crece la hierba! ¡Qué verde!</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>El terreno es árido de veras.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Con algunas manchas de verdor.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>No la yerra grandemente.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>No, pero se engaña de medio a medio.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Lo más raro de todo es… lo que apenas es creíble.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Como lo son nuestras rarezas patentes.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Que nuestras ropas, siendo como fueron sumergidas en agua salada, conserven no obstante su frescura y brillo, y más bien parecen recién teñidas que empañadas con agua del océano.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>¿Si alguno de sus bolsillos pudiera hablar no le diría que miente?</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Sí, o de un modo muy ladino se embolsaría la mentira.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Me parece que nuestros vestidos se conservan tan nuevos como cuando los estrenamos en Africa, con ocasión de la boda de Claribel, la hermosa hija del Monarca, con el rey de Túnez.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Fué una boda feliz, y bien que nos va de retorno.</p>
+          </sp>
+          <sp who="#Adrian">
+            <speaker>ADRIANO</speaker>
+            <p>Jamás fué Túnez agraciado con Reina semejante.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>No, desde el tiempo de la viuda Dido.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>¡Viuda! ¡Mala peste! ¿A qué viene aquí esa viuda? ¡La viuda Dido!</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>¿Qué tal si hubiera añadido el viuda Eneas? ¡Santo Dios, desde dónde lo toma!</p>
+          </sp>
+          <sp who="#Adrian">
+            <speaker>ADRIANO</speaker>
+            <p>¿La viuda de Dido, decís? Me hacéis cavilar; era de Cartago, no de Túnez.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Ese Túnez, señor, era Cartago</p>
+          </sp>
+          <sp who="#Adrian">
+            <speaker>ADRIANO</speaker>
+            <p>¿Cartago?</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Lo aseguro, Cartago.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Su palabra es más potente que el arpa milagrosa; ha levantado muros y casas también.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>¿Qué cosa imposible no hará él fácil?</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Creo que se llevará a casa esta isla en un bolsillo para dársela a sus hijos como si fuera una manzana.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Y sembrando pepitas en el mal, hará que broten nuevas islas.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>Sí.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>A su debido tiempo.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Señor, decíamos que nuestros vestidos parecen ahora tan nuevos como el día que los estrenamos en Túnez con motivo de la boda de vuestra hija, que es ahora Reina.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Y la más hermosa que jamás reinó allí.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Dispensa, exceptuando a la viuda Dido.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>¡Oh, la viuda Dido! Naturalmente, la viuda Dido.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Señor, ¿no está mi jubón tan nuevo como el primer día que le vestí? Es decir, hasta cierto punto.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Ese punto ha estado muy bien puesto.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>¿Cuándo le estrené sino en la boda de vuestra hija?</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>Atestáis mis oídos con palabras que les repugnan como repugna la comida al estómago satisfecho. ¡Ojalá nunca hubiera casado a mi hija! Pues a la vuelta he perdido a mi hijo, y para mí a ella también, que estando tan distante de Italia no la veré más. ¡Oh, mi heredero de Nápoles y de Milán ¿a qué monstruoso pez habrás servido de pasto?</p>
+          </sp>
+          <sp who="#Francisco">
+            <speaker>FRANCISCO</speaker>
+            <p>Señor, acaso viva. Yo le vi humillar las hondas con sus golpes y cabalgar sobre sus lomos, pisar las aguas, dominar su furia y presentar si pecho a las hinchadas olas que les embestían; mantuvo su arrogante cabeza sobre las amenazadoras aguas y remó con robusto brazo y poderoso empuje hasta la orilla, que parecía inclinarse sobre sus carcomidos cimientos como acudiendo en su ayuda; no dudo que llegó vivo a tierra.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>No, no; no existe.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Señor, agradeceros a vos mismo tan gran pérdida, ya que no quisisteis bendecir a Europa con la posesión de vuestra hija, sino entregarla a un africano, desterrándola de vuestros ojos, que tienen sobrada razón para lamentar tanta desdicha.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>Calla, te lo ruego.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Todos nos arrodillamos ante vos y os importunamos de mil modos; y el alma noble de ella misma dudó algún tiempo entre sacrificio y la obediencia, no sabiendo hacia qué lado inclinar la balanza. Perdimos a vuestro hijo, y me temo que para siempre; esta expedición ha ocasionado a Milán y a Nápoles más viudas que hombres llevamos para consolarlas: la falta es solo vuestra.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>Por eso soy quien más ha perdido.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Mi señor Sebastián, no es este el tiempo oportuno ni es muy delicado el decir ahora esas verdades: restregáis la herida cuando debierais aplicarle el remedio.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Bien dicho.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Y muy quirúrgico.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Señor, si vuestra frente se nubla, para todos hace mal tiempo.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>¿Mal tiempo?</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Muy malo.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Si yo fuese el cargado de colonizar esta isla, señor…</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>La sembraría de ortigas-</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>O de espinos o de malvas.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Y fuera yo aquí el rey, ¿sabéis qué haría?</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Huir de la embriaguez por falta de vino.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Haría en esta república todas las cosas al revés; no admitiría trafico alguno, ni título de magistrado; no se conocerían las letras; no habría ni ricos ni pobres, ni sirvientes no contratos, herencias, cercos de fincas, cultivos ni viñedos; no se usaría la moneda, trigo, vino ni aceite; no habría tanto trabajo alguno; todos los hombres holgarían, todos; y las mujeres también, pero inocentes y puras; ni soberanía…</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Pero él sería rey.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>El fin de su república se olvida del principio.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>La naturaleza produciría sin esfuerzo ni sudor todas la traición, la felonía, le espada, pica, cuchillo, arcabuz, ni necesitaría máquina alguna de guerra, sino que la naturaleza, sin ser forzada, ofrecería por todas las partes de su fértil y espacioso seno lo que pudiese hartar sustentar y deleitar a mi inocente pueblo.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>¿Nada de casamientos entre súbditos?</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Hombre, ni uno; todos libres.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Gobernaría, señor, tan perfectamente que había de eclipsar a la edad de oro.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>¡Viva su majestad!</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Viva Gonzalo!</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Y… ¿Me escucháis, señor?</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>Basta, te lo ruego: como si nada dijeras.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Así lo creo; y lo hice por causa de estos caballeros de pulmones tan sensibles y ágiles que acostumbran reírse de nada.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Nos reíamos de tí.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Que en esta clase de alegres chocarrerías nada soy comparado contigo. Podéis continuar y seguir riéndoos de nada.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>¡Vaya un golpe!</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Pero ha dado en falso.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Sois caballeros de animoso corazón; sacaríais la luna de su esfera si permaneciese sin cambiar cinco semanas.</p>
+          </sp>
+          <stage type="entrance">(Entra Ariel invisible, tocando solemne música.)</stage>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Sí tal, y después iríamos a cazar murciégalos.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>No os enojéis por eso, señor.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>No, os o aseguro; no aventuro mi discreción por cosa tan baladí. ¿Queréis conciliarme el sueño con vuestra risa? Me embarga un gran sopor.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Duerme y escúchanos.</p>
+          </sp>
+          <stage type="modifier">(Todos se duermen, menos Alfonso, Sebastián y Antonio.)</stage>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>Pero, ¿ya se han dormido todos? Quisiera que mis ojos, al cerrarse encerrasen también mis pensamientos: siento ya que se inclinan mis pensamientos: siento ya que se inclinan a ello.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Señor, aprovechaos ahora del sueño que se os ofrece; rara vez visita al desdichado, y cuando lo hace es un gran consolador.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Nosotros dos custodiaremos vuestra persona y velaremos por vuestra seguridad mientas dormís.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>Gracias. ¡Qué somnolencia más extraña!</p>
+          </sp>
+          <stage type="mixed">(Se duerme. Vase Ariel.)</stage>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>¡Qué sopor más raro los domina!</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Es efecto del ambiente.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Entonces, ¿por qué no cierra también nuestros párpados? Yo mismo no siento necesidad alguna de dormir.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Ni yo; mis potencias están despejadas. Todos se acosaron como si se hubieran convenido; cayeron como heridos por el rayo. ¿No se podría, noble Sebastián…? ¡Oh! ¿No se podría…? No digo más y, sin embargo, me parece ver en tu semblante lo que debieras ser. La ocasión te es favorable y mi desbordada fantasía ve una corona que se ciñe sobre tu frente.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>¿Pero tú estás despierto?</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>¿No me oyes hablar?</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Te oigo y sin duda que tus palabras son de dormido y que hablas en sueños. ¿Qué es lo que has dicho? Es una extraña manera de dormir el tener los ojos completamente abiertos, estar de pie, hablando, moviéndose y, sin embargo, profundamente dormido.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Noble Sebastián, tú sí que deja a la fortuna dormir… más bien morirse: cierras los ojos cuando estás despierto.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Roncas muy claramente; hay sentido en tu modo de roncar.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Estoy más serio que de costumbre. Tú también debes de estarlo si me escuchas, con lo cual triplicarías tu ser.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Soy agua mansa.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Yo te enseñaré a correr.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Hazlo; un reflujo hereditario me domina.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>¡Oh! ¡Si supieras cómo acaricias el designo cuando así te burlas de él! ¡Cómo al desnudarlo le adornas más! Los hombres que refluyen, sin duda que casi siempre corren cerca del fondo por causa de su miedo o su indolencia.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Te ruego que continúes; la expresión de tus ojos y de tu rostro anuncia que algo importante guardas, y un parto que sin duda se te presenta laborioso.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Así es, señor; aunque este caballero de memoria tan frágil como será su recuerdo cuando le entierren, éste que es el espíritu de la persuasión y que sólo a persuadir se dedica, casi a persuadido al Rey de que su hijo vive; pero yo creo que es tan imposible que no se haya ahogado como que esté nadando aquel que allí duerme.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Ninguna esperanza tengo de que se haya salvado.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>¡Oh! Sobre esa «ninguna esperanza», ¡qué gran esperanza podéis fundar! El no tener esperanza alguna por ese lado es tenerla tan grande por otro, que ni la ambición misma tendió nunca la vista más allá, y aun duda si la descubre ¿Me concedes que Fernando se ahogó?</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Es un hecho.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Entonces dime, ¿quién es el heredero inmediato del reino de Nápoles?</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Claribel.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>La que es reina de Túnez, la que vive a cien leguas de toda humana comunicación, la que si el sol no le sirve de correo –pues sería tardo el habitante de la luna−, no puede recibir noticias de Nápoles sino en el tiempo en que a un recién nacido le tarde en crecer una barba que merezca afeitarse; aquella por cuya causa todos hemos sido tragados por el océano, aunque algunos salimos salvos y la suerte nos destina a representar una obra cuyo prólogo ya se terminó, y lo que falta, a ti y a mí se nos confía.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>¡Pero qué enredo! ¿Qué quieres decir? No cabe duda de que la hija de mi hermano es reina de Túnez, y que es heredera de Nápoles; entre estos dos países cierto es que media alguna distancia.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Una distancia en que cada palmo parece que grita: «¿Cómo podrá Claribel franquear esta distancia hasta Nápoles? Que sea Reina de Túnez y que sea Sebastián despierte.» Supone que la muerte se hubiera apoderado de éstos; no estarían peor que están ahora. Existe quien pueda gobernar a Nápoles tan bien como aquel que está allí dormido, y señores que charlen tan difusa e inútilmente como este Gonzalo; yo mismo podría ser una corneja igual y de tanta cháchara. Si levantases el pensamiento tan alto como yo, ¡qué sueño sería éste para tu elevación! ¿Me comprender?</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Creo que sí.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>¿Y qué semblante pone tu contento a tu buena suerte?</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Recuerdo que suplantaste a tu hermano Próspero.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Así fue, y mira qué bien me sientan los vestidos: con más elegancia que antes. Los servidores de mi hermano eran entonces mis iguales, ahora están bajo mi mano.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Pero, ¿y tu conciencia?</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Sí, señor; ¿dónde se aloja? Si fuera una rozadura en el pie, me haría calzar chinelas; pero no siento a esta deidad dentro de mí; pueden calcinarse y derretirse veinte conciencias que se interpongan entre Milán y yo sin que me molesten. Aquí yace tu hermano, y no sería de mejor condición que la tierra sobre que yace si estuviera, como parece estar, difunto. Yo le enviaré al descanso eterno con sólo tres pulgadas de este dócil puñal; mientras tú, haciendo lo mismo, podrías cerrar los ojos para siempre a este cargante vejestorio, a este señor Prudencio, para que luego no reproche nuestra decisión. En cuanto a los restantes, acogerán el hecho como el gato lame la leche, ajustarán su reloj según la hora que dé nuestro capricho.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Tu ejemplo, querido amigo, me servirá de precedente: como tú ganaste a Milán, ganaré yo a Nápoles. Desenvaina; un golpe te liberará del tributo que pagas, y yo, el Rey, seré tu amigo.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Desenvainemos, y al tiempo que yo levante el brazo haz tú lo mismo y hiere a Gonzalo.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>¡Ah! Escucha una palabra.</p>
+          </sp>
+          <stage type="modifier">(Hablan aparte. Vuelve Ariel invisible).</stage>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Mi señor, por medio de su ciencia, sabe el peligro en que te hallas tú, amigo suyo, y me envía para conservar a todos la vida, porque de lo contrario fracasa su proyecto.</p>
+            <stage type="delivery_">(Canta al oído de Gonzalo)</stage>
+            <lg>
+              <l n="0035" xml:id="es-0349">Mientras tu rocas tendido</l>
+              <l n="0036" xml:id="es-0350">la conspiración acecha,</l>
+              <l n="0037" xml:id="es-0351">del momento se aprovecha</l>
+              <l n="0038" xml:id="es-0352">y el crimen fraguado está.</l>
+              <l n="0039" xml:id="es-0353">Levántate y ponte en guardia</l>
+              <l n="0040" xml:id="es-0354">si en algo aprecias la vida,</l>
+              <l n="0041" xml:id="es-0355">si no dala por perdida.</l>
+              <l n="0042" xml:id="es-0356">¡Despierta, despierta ya!</l>
+            </lg>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Entonces obremos con rapidez.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>¡Ángeles benditos, preservad al Rey! (Se despierta.) ¿Qué sucede?¡Hola, despertad! (Despiertan todos.) ¿Por qué empuñáis las espadas? ¿Cuál es la causa de ese mirar siniestro?</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>¿Qué ocurre?</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Mientras estábamos aquí velándoos el sueño, hace unos instantes oímos temerosos mugidos como de toro o más bien de león. ¿No es esto lo que os ha despertado? A mí me asustó terriblemente.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>Yo nada oí.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>¡Oh! Fue un estrépito capaz de aterrar los oídos de un monstruo o de producir un cataclismo. Seguramente rugieron muchos leones a la vez.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>¿Tú lo oíste, Gonzalo?</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Por mi honra, señor, yo recibí un extraño zumbido que me desperté, os moví y grité, abrí los ojos y vi las espadas desnudas; que hubo ruido, no hay duda. Es preferible que nos pongamos en guardia o que abandonemos este sitio. Desenvainemos.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>Guíanos fuera de aquí, y continuemos las pesquisas en busca de mi infortunado hijo.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>¡El cielo le guarde de esas fieras! Porque seguramente que está en la isla.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>Guía.</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Mi señor Próspero sabrá lo que acabo de hacer. ¡Oh Rey, marcha sin cuidado en busca de tu hijo!</p>
+          </sp>
+          <stage type="exit">(Salen.)</stage>
+        </div2>
+        <div2 type="scene" n="2">
+          <head>ESCENA II</head>
+          <stage type="location">Otra parte de la isla.</stage>
+          <stage type="entrance">(Entra Cáliban con una carga de leña. Ruido de truenos.)</stage>
+          <sp who="#Caliban">
+            <speaker>CALIBÁN</speaker>
+            <p>Todas las pestes que recoge el sol de los pantanos, charcas y marismas caigan sobre Próspero y le conviertan en una viva llaga! Sus genios me oyen y, sin embargo, no puede menos de maldecirle. Si él no se lo ordenara, no me pincharían ellos ni me aterrorizarían con visiones de puercoespines ni me arrojarían en el fango; ni, guiándome como teas encendidas, me dejarían entre las tinieblas haciéndome errar el camino. Por cualquier bagatela ya se arrojan todos sobre mí, unas veces cual monos que hacen visajes, charlan y luego me muerden; otras como erizos que dan vueltas sobre mis pies descalzos y erizan sus púas cuando piso; y otras veces me ciñen las culebras que con sus hendidas lengüetas me silban hasta enloquecerme. (Entra Trínculo.) ¡Oh, oh! ¡Allí está! Allí viene uno de sus genios para atormentarme porque llevo la leña con mucha parsimonia. Me voy a echar la cara al suelo y así acaso no me vea.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>No se halla por aquí arbusto ni matorral que cobije a uno de la tormenta, y el caso es que ya se prepara otra; la oigo cantar en el viento. Aquella parda nube, aquel denso nubarrón parece un odre inmundo, próximo a vaciar su líquido. Si llega a tronar como antes no sé donde resguardar la cabeza; aquel nubarrón no podré menos de verter agua a cantaros. ¿Qué tenemos aquí? ¿Un hombre o un pez? ¿Muerto o vivo? Un pez; huele a pescado y a pescado rancio como a gobio y no muy fresco. ¡Que pez más raro! Si yo estuviese ahora en Inglaterra como estuve en algún tiempo y tuviese este pez, aunque fuera pintado, no habría necio dominguero que no me diese una moneda de plata; allí este monstruo haría la fortuna de un hombre; cualquier bestia rara enriquece allí a un hombre; no dan un céntimo para socorrer; un pobre cojo y darán diez por ver a un indio muerto. ¡Tiene piernas como un hombre! ¡Y aletas como brazos! ¡Está caliente a fe mía! Doy rienda suelta a mi opinión; no la contengo más; esto no es un pez, sino un isleño que acaba de ser herido por una centella. (Truena.) ¡Ay de mí, vuelve la tormenta! Lo mejor será meterme bajo su capote, no hay otro abrigo por aquí: la necesidad hace al hombre compartir el lecho con bien extraños camaradas. Me encogeré aquí hasta que pasen las heces de la tormenta.</p>
+          </sp>
+          <stage type="modifier">(Se esconde.)</stage>
+          <stage type="entrance">(Entra Esteban cantando y con una botella en la mano.)</stage>
+          <stage type="delivery_">(Canta.)</stage>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <lg>
+              <l n="0043" xml:id="es-0372">No voy más a la mar; a la mar,</l>
+              <l n="0044" xml:id="es-0373">Aquí en tierra me quiero morir…</l>
+            </lg>
+            <p>Esta es una canción villana e impropia de un funeral. Bien; aquí está mi consuelo,</p>
+            <stage type="delivery_">(Bebe y luego canta)</stage>
+            <lg>
+              <l n="0045" xml:id="es-0375">El capitán y el grumete,</l>
+              <l n="0046" xml:id="es-0376">el contramaestre y yo,</l>
+              <l n="0047" xml:id="es-0377">el artillero y su cabo,</l>
+              <l n="0048" xml:id="es-0378">teníamos ciego amor</l>
+              <l n="0049" xml:id="es-0379">a Marujilla y Mariana</l>
+              <l n="0050" xml:id="es-0380">Margarita y Asunción.</l>
+              <l n="0051" xml:id="es-0381">pero a la Catalinilla</l>
+              <l n="0052" xml:id="es-0382">la miramos con horror</l>
+              <l n="0053" xml:id="es-0383">porque a todos contestaba</l>
+              <l n="0054" xml:id="es-0384">con su lengua de dragón:</l>
+              <l n="0055" xml:id="es-0385">«¡Que te ahorquen, marinero!»</l>
+              <l n="0056" xml:id="es-0386">y porque odiaba el olor</l>
+              <l n="0057" xml:id="es-0387">del alquitrán y la brea;</l>
+              <l n="0058" xml:id="es-0388">y era de mal corazón.</l>
+              <l n="0059" xml:id="es-0389">Así, pues, muchachos,</l>
+              <l n="0060" xml:id="es-0390">vamos a la mar</l>
+              <l n="0061" xml:id="es-0391">dejémosla sola</l>
+              <l n="0062" xml:id="es-0392">¡Bien se puede ahorcar!</l>
+            </lg>
+            <p>Esta es una canción villana; pero aquí está mi consuelo.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>No me atormentes. ¡Oh!</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>¿Qué es esto? ¿Tenemos diablos por aquí? ¿Queréis burlaros de nosotros con salvajes y hombres de la India? ¡Ah! No escapé del naufragio para asustarme de vuestras cuatro patas; pues, como dijo el otro: No le hará retroceder ni el hombre más valiente que jamás anduvo en cuatro patas; y lo mismo se continuará diciendo mientras Esteban respire por las narices-</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CALIBAN</speaker>
+            <p>El genio me atormenta. ¡Oh!</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Este es algún monstruo cuadrúpedo de la isla que, según parece, ha acogido unas tercianas. ¿Dónde diablos aprendió nuestro idioma? Aunque no sea más que por esta razón, voy a socorrerlo. Si puedo curarlo y amansarlo y volver a Nápoles con él, es un gran obsequio para cualquier emperador que jamás pisó cuero vacuno.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>¡Por favor, no me atormentes más! Iré aprisa con la leña.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Ahora está en un acceso y no sabe lo que dice. Le haré gustar de mi botella. Si es que nunca bebí vino, acaso éste le resuelva la crisis. Si lo puedo curar y lo domestico, no pediré mucho por él; el que quiera poseerlo lo pagará bien pagado.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CALIBÁN</speaker>
+            <p>No me has hecho todavía mucho daño; lo harás después, lo conozco por tus temblores. Próspero te domina.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Vamos, vamos, abre tu boca. Lo que hay aquí, gato mío, te hará hablar a derechas. Abre la boca; esto curará tus estremecimientos, te lo aseguro, y de raíz; no conoces a tu amigo; abre esas mandíbulas.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>Me parece conocer esta voz, creo que es la de… pero está ahogado. Estos son los diablos. ¡Oh, socorro!</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Cuatro patas y dos voces. ¡Qué monstruo más raro! La voz delantera es para hablar bien de sus amigos, y la de atrás para decir villanías y para difamar. Procuraré aliviarle sus terciarias, aunque consuma todo el vino de mi botella. Vamos, basta por aquí, voy a echar un poco en la otra boca.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>¡Esteban!</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>¿Me llama tu otra boca? ¡Misericordia, misericordia! Este es el diablo, y no un monstruo; voy a dejarle, pues no traigo cucharón.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>¡Esteban! Si eres Esteban, tócame y háblame. Yo soy Trínculo, no temas, a tu buen amigo Trínculo.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBÁN</speaker>
+            <p>Si eres Trínculo, sal afuera; te tiraré de las piernas más chicas; si algunas son las piernas de Trínculo, de seguro son éstas. ¡Eres el mismo Trínculo en persona! ¿Cómo viniste a ser emanación de ese monstruo? ¿Por ventura arroja Trínculos al mundo?</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>Le creí muerto por un rayo. Pero, ¡tú no te ahogaste, Esteban? Ahora creo que no estás ahogado. ¿Pasó ya la tormenta? Por miedo a ella me guarecí bajo el capote de este monstruo, que parecía muerto. ¿Y tú estás vivo, Esteban? ¡Oh, Esteban, sobrevivimos dos napolitanos!</p>
+          </sp>
+          <stage type="modifier">(Le da vueltas para cerciorarse de que está vivo.)</stage>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Te suplico que no me hagas dar vueltas; no tengo el estómago firme.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>
+              <seg type="aside">Si no son genios, son hermosas criaturas. Este es un gran dios y tiene un licor celestial. Voy a arrodillarme ante él.</seg>
+            </p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>¿Cómo te salvaste? ¿Cómo viniste aquí? Jura por esta botella, cómo viniste aquí. Yo me salvé sobre un tonel de jerez seco que los marineros arrojaron por la borda; lo juro por esta botella, que hice yo mismo de la corteza de un árbol después que gané la playa.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>Juro por esta botella ser tu fiel esclavo, pues su licor no es terreno.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBÁN</speaker>
+            <p>Aquí, jura como escapaste.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>Hombre, nadando hacia la orilla como un pato: sé nadar como un pato, lo juro.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Aquí besa el libro. Aunque sepas nadar como un pato tienes facha de ganso.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>¡Oh, Esteban! ¿Tienes más de esto?</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Hombre, todo el tonel. Mi bodega está en una roca a la orilla del mar: allí está guardad mu vino. ¡Hola, monstruo! ¿Cómo va la fiebre?</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>¿No has bajado del cielo?</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>De la luna, te lo aseguro; fuí en otro tiempo habitante de la luna,</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>Yo te ví y en ella te adoré. Mi ama me hizo verte a tí, a tu perro y a tu arbusto.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Vamos, jura eso; besa el libro; le fortaleceré más tarde con nuevo contenido. Jura.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>¡Por la luz del sol que este es un monstruo bien singular! ¡Y tenerle yo miedo! ¡Vaya un monstruo más miserable! ¡Un habitante de la luna! ¡Pobre y crédulo monstruo! (Cáliban bebe.) ¡Buen trago, monstruo, por mi vida!</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>Te enseñaré palmo a palmo los sitios fértiles de la isla. Déjame besar tus pies; te lo ruego que seas mi dios.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>¡Por la luz del sol, vaya un monstruo pérfido y embriagado! Le robará la botella a su dios cuando le vea dormido.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>Permíteme que bese tus pies; juro ser tu humilde súbdito.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Acércate, pues; arrodíllate y jura.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>Este monstruo con cara de perro me hará estallar de risa. Siento tentaciones de pegarle.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Vamos, besa.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>Si este pobre monstruo no estuviera bebido, sería un monstruo abominable.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>Te enseñaré las fuentes más cristalinas, te cogeré bayas, pescaré para ti y te traeré leña bastante. ¡Mala peste para el tirano a quien sirvo! No le volveré a llevar astillas, te seguiré a ti, hombre prodigioso.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>¡Vaya un monstruo más necio, que llama prodigioso a un pobre borracho!</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>Permite que te conduzca adonde crecen las manzanas silvestres; yo te desenterraré con mis largas uñas criadillas de tierra, te mostraré el nido de arrendajo, te enseñaré cómo se caza el ágil mono, te traeré racimos de avellanas, y otras veces te cogeré entre los acantilados los pollos de gaviota. ¿Quieres ir conmigo?</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Te digo que guíes sin hablar más, Trínculo, habiéndose ahogado el Rey con todo su séquito, nosotros heredamos aquí, aquí. Llévame la botella; amigo Trínculo, la volveremos a llenar después.</p>
+          </sp>
+          <stage type="delivery_">(Canta tambaleándose.)</stage>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <lg>
+              <l n="0063" xml:id="es-0434">¡Adiós, mi amo</l>
+              <l n="0064" xml:id="es-0435">adiós, adiós!</l>
+            </lg>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>¡Vaya un monstruo aullando! ¡Oh, monstruo bebido!</p>
+          </sp>
+          <stage type="delivery_">(Sigue cantando.)</stage>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <lg>
+              <l n="0065" xml:id="es-0437">Ya no cogeré peces</l>
+              <l n="0066" xml:id="es-0438">para ti, no;</l>
+              <l n="0067" xml:id="es-0439">ni he de traer más leña</l>
+              <l n="0068" xml:id="es-0440">para he de traer más leña</l>
+              <l n="0069" xml:id="es-0441">para el fogón,</l>
+              <l n="0070" xml:id="es-0442">ni limpiarte los platos</l>
+              <l n="0071" xml:id="es-0443">ni el comedor.</l>
+              <l n="0072" xml:id="es-0444">Ban, ban, Cacalibán</l>
+              <l n="0073" xml:id="es-0445">tiene otro amo,</l>
+              <l n="0074" xml:id="es-0446">sirve a otro ya.</l>
+              <l n="0075" xml:id="es-0447">¡Qué viva, viva,</l>
+              <l n="0076" xml:id="es-0448">la libertad, la libertad!</l>
+            </lg>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>¡Oh, bravo monstruo! Guía.</p>
+          </sp>
+          <stage type="exit">(Salen)</stage>
+        </div2>
+        <div2 type="scene" n="3">
+          <head>FIN DEL ACTO SEGUNDO</head>
+        </div2>
+      </div1>
+      <div1 type="act" n="3">
+        <head>Acto III</head>
+        <div2 type="scene" n="1">
+          <head>ESCENA PRIMERA</head>
+          <stage type="location">Delante de la gruta de Próspero.</stage>
+          <stage type="entrance">(Entra Fernando llevando un tronco de leña.)</stage>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>Hay algunos pasatiempos que son penosos, pero su fatiga les da nuevo atractivo; cierta clase de humillaciones se pueden soportar con nobleza, y las cosas más fútiles pueden alcanzar brillantes resultados. Esta servil ocupación me sería tan pesada como odiosa si la beldad a quien sirvo no reanimase lo que es muerte y no convirtiese mi trabajo en placer. ¡Oh! Es ella diez veces más dulce que duro es su padre, y eso que es la dureza misma. Cumpliendo una penosa orden debo traer y apilar algunos miles de estos troncos; mi tierra dama llora cuando ve mis fatigas y dice que jamás tan vil tarea tuvo igual ejecutor. Tan amorosos pensamientos endulzan y suavizan mi trabajo, y hasta hacen que me olvide de él, pues cuanto más me entrego a ellos menos me agobia mi tarea.</p>
+          </sp>
+          <stage type="entrance">(Entra Miranda. Próspero se queda al paño por otro lado.)</stage>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>¡Ay de mí! Te suplico que no te afanes de esa manera. ¡Cuánto me alegraría que el rayo aniquilara esos troncos que debes apilar! Siéntate y descansa; cuando se queme esta leña llorará por haber ocasionado tu fatiga. Mi padre está absorto en sus estudios; te ruego que descanses; estamos libres de él por espacio de tres horas.</p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>¡Oh duelo mío! Deja que me esfuerce en acabar mi tarea antes que se oculte el sol.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>Si te sientas, yo acarrearé entretanto los leños; te ruego que me des ese, yo le llevaré a la pila.</p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>No preciosa criatura; prefiero que mis músculos se quiebren y mis espaldas se hundan antes que tú soportes ocupación tan vil mientras yo descanso ocioso.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>Soportaría el trabajo tan bien como tú, y me sería mucho más leve, porque mi voluntad está inclinada a hacerlo, y la tuya lo repugna.</p>
+          </sp>
+          <stage>(Al paño.)</stage>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>¡Pobre gusano, te contagia el veneno! Esta visita lo demuestra.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>Parece que estás fatigado.</p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>No, dueño mío; aunque sea por la tarde, siento la fresca brisa de la aurora cuando tú estás junto a mí. Te ruego, con el fin principal de nombrarte en mis oraciones, que me digas cómo te llamas.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>
+              <seg type="aside">¡Oh, padre mío, al decir esto quebranto tus órdenes!</seg>
+            </p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>¡Adorable Miranda! ¿Eres digna de la más sublime admiración y de todo lo que hay de más precioso en el mundo! He mirado con gran afecto a muchas otras jóvenes y más de una vez su armoniosa vox ha cautivado mi oído; he amado distintas virtudes en distintas mujeres, pero ninguna llenó completamente mi alma, porque siempre algún defecto oscurecía al más noble atractivo; pero tú. ¡Oh! tú eres tan perfecta y sin par que has sido formada de lo mejor que hay en las criaturas.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>No conozco a ningún otro ser de mi sexo: no recuerdo faz alguna de mujer sino la mía que reproduce el espejo; ni he visto a nadie más que pueda llamarse hombre sino a ti, buen amigo y a mi amado padre; ignoro por completo como son los demás semblantes, pero te lo juro por mi virginidad –la joya más preciada de mi dote−, que no desearía tener en el mundo a otro compañero sino a ti; ni la fantasía puede forjar otra forma que me agrade, sino es la tuya. Mas estoy charlando inconsideradamente y con esto infrinjo las órdenes de mi padre.</p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>Miranda, yo soy Príncipe por nacimiento, y creo que también soy Rey. ¡Ojala así no fuera! Y tan mal soportaría esta esclavitud de leñador como el ser picado en los labios por una carnívora mosca. Te hablo con toda el alma; desde el momento en que te vi, coló mi corazón a tu servicio; ahí reside para hacerme esclavo, y sólo por tú soy tan paciente leñador.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>¿Me amas?</p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>¡Oh, cielos! Oh, tierra! Sed testigos de mis palabras; y si son sinceras, coronad mis votos de ventura; si son vacías, tornad en mal el bien que me está destinado! Yo te amo, estimo y honro más que a todo lo que en el mundo existe.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>Soy una infeliz, pues lloro con lo que debe alegrarme.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>
+              <seg type="aside">¡Hermoso encuentro de dos raros amores! ¡El cielo rocíe con su gracia lo que entre ambos germina!</seg>
+            </p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>¡Por qué lloras?</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>Por causa de mi flaqueza, que no se atreve a ofrecer lo que desea dar, y mucho menos aceptar aquello cuya falta me ocasionaría la muerte. Mas es una niñería; cuando con más ahínco me esfuerzo en ocultar mi sentimiento, tanto más se descubre. ¡Tímida astucia, aléjate de mí y deja libre paso a la expresión de la santa inocencia! Soy tu esposa, si te quieres casar conmigo; si no quieres, moriré virgen por tu amor; pueden negarme el ser tu compañera, pero quieras o no seré tu esclava.</p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>Mi más querido dueño, yo siempre seré tu servidor humilde.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>¿Es decir, mi marido?</p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>Sí, con tan regocijado corazón como el esclavo recibe la libertad. He aquí mi mano.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>Esta es la mía, con el corazón en ella. Ahora adiós, hasta dentro de media hora.</p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>¡Qué equivale a una eternidad!</p>
+          </sp>
+          <stage type="exit">(Salen por distintos puntos.)</stage>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>No soy capaz de sentir tanta alegría como ellos, a quienes todo les parece nuevo, mas nada puede causarme regocijo mayor. Vuelvo a mis libros, porque necesito ultimar graves negocios antes de la cena.</p>
+          </sp>
+          <stage type="exit">(Sale.)</stage>
+        </div2>
+        <div2 type="scene" n="2">
+          <head>ESCENA II</head>
+          <stage type="location">Otra parte de la isla.</stage>
+          <stage type="entrance">(Entran Cáliban, Esteban y Trínculo).</stage>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>No digas más: cuando se vacíe el tonel beberemos agua; antes, ni una gota. Ánimo, pues, y al abordaje. Siervo monstruo, bebe a mi salud.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>¡Siervo monstruo! ¡A la salud d esta isla de locos! Dicen que viven como en ella; nosotros somos tres de ellos; si los dos restantes tienen la cabeza como nosotros, el estado se tambalea.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Siervo monstruo, bebe cuando yo te lo mande. Parece que tienes los ojos incrustados en la cabeza.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCLUO</speaker>
+            <p>¿En qué otro sitio los ha de tener? Sería más célebre monstruo si los tuviese fijos en la cola.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Mi hombre monstruo tiene ya anegada la lengua en jerez. A mí no puede ahogarme ni el océano. Antes de ganar la playa nadé unas treinta y cinco lenguas. Por la luz del sol, monstruo, que serás mi teniente o mi abanderado.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>Tu teniente si te place, pero nunca tu abanderado.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Nosotros nunca huiremos, señor monstruo.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>Ni avanzaréis, quedaréis agazapados como perros y sin chistar.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Monstruo, habla de una vez en tu vida si es que eres verdadero monstruo.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>¿Cómo éstas, Alteza? Permíteme que lama tus zapatos; a él no le serviré, él no es valiente.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>Mientes, monstruo ignorantísimo. Soy capaz de habérmelas con cualquier polizonte. Oye tú, pez depravado, ¡puede ser cobarde un hombre que ha bebido tanto jerez como he bebido yo? ¿Te atreves a decir tan monstruosa mentira, siendo medio pez y medio monstruo?</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>¡Mira cómo se burla de mí, señor! ¿Se lo puedes tolerar?</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>¡Señor, dice! ¡Qué monstruo más bobalicón!</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>¡Mira, mira; otra vez! Despedázate a mordiscos, te lo ruego.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Trínculo, ten a raya esa lengua. Si tratas de amotinarte… ¡al primer árbol! ¡Este pobre monstruo es mi súbdito y no sufrirá indignidades.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>Gracias, noble señor. ¿Te agradaría escuchar de nuevo la demanda que antes te hice?</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Con mucho gusto; arrodíllate y repítela; yo estaré de pie y Trínculo también.</p>
+          </sp>
+          <stage type="entrance">(Entra Ariel invisible).</stage>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>Como te dije antes, soy súbdito de un tirano, de un brujo que con su astucia me ha usurpado la isla.</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>¡Mientes!</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>El que mientes eres tú, mono burlón, tú. ¡Me alegraría de que mi noble amo te destruyese! Yo no miento!</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Trínculo, si le vuelves a interrumpir su historia, juro por esa mano que te romperé las mueles.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>Yo no chisté ni una palabra.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Silencio, pues, y a callar. Sigue tú.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>Como dije, ganó la isla con su magia: me la arrebató. Si tu grandeza quiere vengarse de él, pues sé que tienes sobrado valor para hacerlo, este otro no se atreve…</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Es muy cierto.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>Serás señor de ella y yo te serviré-</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBÁN</speaker>
+            <p>¿Y cómo podemos lograr eso? ¿Puedes guiarme adonde está él?</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>Sí, sí, mi señor; te lo entregaré cuando se halle dormido, y entonces podrás meterle un calvo en la cabeza.</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>¡Mientes, no puedes!</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>¡Qué charro arlequín! ¡Qué despreciable andrajo! Ruego a tu grandeza que le pegues y le quites la botella: cuando hayas hecho esto no podrá beber más que agua salada, porque yo no le mostraré los frescos manantiales.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBÁN</speaker>
+            <p>Trínculo, no te expongas a ulteriores riesgos; interrumpe al monstruo con una palabra más y, por estos cinco, que hecho a rodar la clemencia y te golpeo como a un bacalao.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>¿Pero, qué he hecho? Yo nada hice. Me apartaré a distancia.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>¿No le dijiste que mentía?</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Mientes tú.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>¿Qué miento yo? Toma eso. (Le golpea.) Si te agrada vuelve a repetir que miento.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>Yo no dije que mientes. ¿Perdiste el juicio y también el oído? ¡Maldita peste para tu monstruo y que el diablo cargue con tus dedos!</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>¡Ja, ja, ja!</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Vamos, sigue con tu historia. (A Trínculo.) Te suplico que mantengas a distancia.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>Pégale más; dentro de poco le pegaré yo también.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Tú a respetuosa distancia, y tú continúa.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>Pues, como te dije, tiene costumbre de dormir la siesta; entonces, después de quitarle los libros, puedes saltarle los sesos o machacarle el cráneo con un madero o reventarlo con una estaca o degollarlo con tu cuchillo. No te olvides de quitarle primero los libros, pues sin ellos es tan necio como yo, y no hay un genio que le obedezca: todos le aborrecen tan cordialmente como yo. Es necesario quemar sus libros. Tiene utensilios excelentes –así los llama él, con los cuales adornará su casa cuando la tenga. Lo que más detenidamente debes considerar es la hermosura de su hija; él mismo la llama sin par. Yo nunca vi más mujer que ella y a Sícorax mi madre; pero ella aventaja a Sícorax tanto como lo mayor a lo más pequeño.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBÁN</speaker>
+            <p>¿Con que es tan elegante muchacha?</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>Sí, señor.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Monstruo, mataré a ese hombre: su hija y yo seremos rey y reina. ¡Vivan nuestras majestades! Trínculo y tú seréis virreyes. ¿Te gusta el plan, Trínculo?</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>Excelente.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Dame la mano; siento haberte pegado, pero mientras viva reprime tu lengua.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>Dentro de media hora estará dormido, ¿quieres acabar entonces con él?</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Sí, por mi honor.</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Voy a comunicar esto a mi amo.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>Me llenas de alegría; reboso satisfacción; mostremos regocijo. ¿Quieres repetir el canto que me enseñaste hace?</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBÁN</speaker>
+            <p>Monstruo, a tu súplica accedo con gusto con mucho gusto. Vamos Trínculo, cantemos.</p>
+            <stage type="business">(Cantan.)</stage>
+            <lg>
+              <l n="0077" xml:id="es-0526">Befémonos, burlémonos</l>
+              <l n="0078" xml:id="es-0527">burlémonos, befémonos;</l>
+              <l n="0079" xml:id="es-0528">el pensamiento es libre</l>
+            </lg>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>No es el tono.</p>
+          </sp>
+          <stage type="modifier">(Ariel toca el debido tono acompañado de tambor y flauta).</stage>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>¿Qué es eso?</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>Es la música de nuestra canción, tocada por la pintura del tío Nadie.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Si eres hombre, muéstrate como eres en realidad; si eres el diablo, tómalo como gustes.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>¡Oh, perdona mis pecados!</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>El que muere paga todas sus deudas; yo te desafío. ¡Compadécete de nosotros!</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>¿Tienes miedo?</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>No, monstruo, yo no.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>No temas; la isla está llena de ruidos, armonías y suaves cantos que alegran v no dañan. Algunas veces mil sonoros instrumentos vibran en mis oídos; otras veces me hacen volver a dormir, aunque despierte entonces de un largo sueño; y después, en sueños, me parece ver a las nubes entreabrirse y mostrarme preciosas riquezas prontas a llover sobre mí de suerte que cuando despierto ansiaría volver a dormir.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Este seré para mí un admirable reino, donde tendré música de balde.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>Cuando hayas destruido a Próspero.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Eso no tardará en ejecutarse; no he olvidado lo que dijiste.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>La Música se aleja; sigámosla y después ejecutaremos nuestros designios.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Guía, monstruo; te seguiremos. ¡Cuánto quisiera ver a este tamborilero! Toca primorosamente.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>(A Cáliban.) ¿Vienes? – Ya te digo, Esteban.</p>
+          </sp>
+          <stage type="exit">(Salen.)</stage>
+        </div2>
+        <div2 type="scene" n="3">
+          <head>ESCENA III</head>
+          <stage type="location">Otra pare de la isla.</stage>
+          <stage type="entrance">(Entran Alfonso, Sebastián, Antonio, Gonzalo, Adriano, Francisco y otros.)</stage>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Por la Virgen, me es imposible continuar, señor; me duelen mis vetustos huesos. ¡Vaya un laberinto de atajos y revueltas! Con vuestro permiso voy a descansar.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>Anciano señor, no os censuro; también yo estoy tan rendido por la fatiga que tengo mis facultades embargadas; siéntate y descansa. Desde ahora me despojo de todas mis esperanzas y no permitiré que me sigan halagando. Se ahogó aquel a quien buscamos con tanto ahínco; la mar se burla de las inútiles pesquisas que hacemos en tierra ¡Qué vamos a hacer! Resignación.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>
+              <seg type="aside">Me alegro de que así desespere. No abandones, sólo porque nos fallé antes, el proyecto que decidirnos efectuar.</seg>
+            </p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBANTIÁN</speaker>
+            <p>
+              <seg type="aside">Lo realizaremos en la primera ocasión.</seg>
+            </p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>
+              <seg type="aside">Cuando llegue la noche, pues entonces, como estén fatigados de andar, no querrán ni les será posible permanecer alerta, como cuando están descansados.</seg>
+            </p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>
+              <seg type="aside">Lo dicho, esta noche. Ni una palabra más.</seg>
+            </p>
+          </sp>
+          <stage type="setting">(Se oye una música extraña y solemne.)</stage>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>¿Qué armonía es ésta? Escuchad, mus buenos amigos.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>¡Es una música extraordinariamente suave!</p>
+          </sp>
+          <stage type="novelistic">(Aparece Próspero en lo alto, invisible. Entran diversas y caprichosas figuras trayendo un banquete. Bailan en torno de la mesa con gentiles ademanes y corteses saludos; e, invitando al Rey y a los demás a comer, desaparecen.)</stage>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>¡Ángeles del cielo, protegednos! ¿Qué criaturas son éstas?</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Un cuadro vivo. Ahora ya creo que existen los unicornios, que en la Arabia hay un árbol que sirve de trono al ave fénix y que un verdadero fénix reina aquí.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Creeré las dos cosas; y si alguno necesita crédito, que acuda a mi; yo juraré que esto es verdad; nunca dijeron mentira los viajeros, aunque los ignorantes los condenen en sus pláticas al amor de la lumbre.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Si yo dijera esto en Nápoles, ¿quién me lo creería? Ninguno me prestaría fe si les hablase de unos isleños −porque secularmente son habitantes de esta isla− que si bien tienen figura de monstruos, sin embargo, fijaos bien, tienen modales más finos y correctos que muchos del linaje humano; mejor dicho, que casi todos.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>
+              <seg type="aside">Honrado caballero; has dicho la verdad, pues algunos de los ahí presentes son peores que demonios.</seg>
+            </p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>No puedo menos do admirar tales formas, gestos y sonidos; y aunque carecen del don de la palabra, se expresan perfectamente en su mudo lenguaje.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Guarda las alabanzas para el final.</p>
+          </sp>
+          <sp who="#Francisco">
+            <speaker>FRANCISCO</speaker>
+            <p>Se desvanecieron de un modo extraño.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>No importa, puesto que no dejaron sus viandas, también nosotros tenemos estómago. ¿Queréis gustar de lo que ahí dejaron?</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>Yo no.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>A fe mía, señor, no temáis. Cuando éramos niños, ¿quién de nosotros hubiera creído que había montañeses con papada como los toros, y que les colgasen del cuello bolsas de carne? ¿Quién, que hubiese hombres con la cabeza en el pecho? Y ahora podemos garantizarlo con cinco contra uno.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>Me aproximaré a comer, aunque sea mi último alimento; no importa, pues para mí la mejor época ya pasó. Hermano, mi querido Duque, acercaos e imitadme.</p>
+          </sp>
+          <stage type="novelistic">(Truenos y relámpagos. Entra Ariel en figura de arpía; bate sus alas sobre la mesa y desaparece el banquete.)</stage>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Sois tres hombres perversos a quienes el destino, que rige este bajo mundo y cuanto en él se encierra, ordenó que el irascible mar arrojase de su seno en esta deshabitada isla: sois los más indignos de vivir entre los hombres. Os he irritado, pero el valor que mostráis es el propio de los que se cuelgan o ahorcan a sí mismos. (Alfonso, Sebastián, etc., desenvainan sus espadas.) ¡Necios! Yo y mis cómplices somos los ministros del hado, los elementos que templaron vuestras espadas no podrán ajar ni una de mis plumas, como no pueden herir a los vientos mugidores ni a las ondas del océano que se cierran sobre vuestros mandobles, Mis compañeros son igualmente invulnerables, y aunque pudierais herirnos, no podríais levantar los aceros, demasiado pesados para vuestras débiles fuerzas. Pero recordad, pues me es el motivo que me trae, que vosotros tres despojasteis al virtuoso Próspero del Ducado de Milán, y con su inocente hija le expusisteis a las ondas, que le devolvieron a tierra. Por acción tan infame, los altos dioses que difieren el castigo, pero que no le olvidan, han conjurado contra vuestra paz el océano, la tierra y todas las criaturas. A ti, Alfonso, te han privado de tu hijo, y por mi voz te anuncian que desgracias continuas, peores que cualquier género de muerte repentina, te seguirán constantemente a ti y a tus actos. Para evitar su furor, que va a caer en esta desolad isla sobre vuestras cabezas, sólo os queda el recurso de un corazón contrito y una enmienda radical del vida.</p>
+          </sp>
+          <stage>(Se desvanece entre truenos. Después, a los suaves acordes de la música, vuelven los Genios, bailan, y con burlas y muevas se llevan la mesa.)</stage>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Ariel mío, has cumplido maravillosamente tu papel de arpía; lo has hecho con gracia hasta en tu voracidad; no has omitido en tu discurso nada de cuanto te encargué; también mis otras gentes subalternas cumplieron bien y con perfecta exactitud. Mis potentes hechizos hacen su efecto y estos enemigos míos están sujetos en las redes de su delirio; ahora se hallan bajo mi poder; los dejo en su frenesí mientras voy a visitar al joven Fernando, a quien juzgan ahogado, y a la que es de él y de mi tan adorada.</p>
+          </sp>
+          <stage type="exit">(Desaparece.)</stage>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>En nombre de todo lo santo, señor, ¿por qué os sumergís en tan profundo éxtasis?</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>¡Oh! ¡Es monstruoso, monstruoso! Me pareció que las olas hablaban y me referían el caso; que el viento me lo contaba al oído y que el trueno con la voz de su órgano, inmensa y terrible, pronunciaba el nombre de Próspero y hacía de bajo en tan horrible concierto. No dudo de que mi hijo yace entre el lodo, y yo le voy a buscar más debajo de donde calzan las sondas para sepultarme allí con él.</p>
+          </sp>
+          <stage type="exit">(Sale.)</stage>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Me atrevo a luchar con todos los demonios, como vengan uno a uno.</p>
+          </sp>
+          <sp who="#Antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Yo te secundaré.</p>
+          </sp>
+          <stage type="exit">(Salen Sebastián y Antonio.)</stage>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Los tres están desesperados; su gran crimen comienza a torturarles el espíritu, como el veneno que obra largo tiempo. Os ruego, ya que tenéis los músculos más ágiles, que los sigáis y evitéis los fatales extremos a que puede conducirlos la locura.</p>
+          </sp>
+          <sp who="#Adrian">
+            <speaker>ADRIANO</speaker>
+            <p>Seguidme, os lo ruego.</p>
+          </sp>
+          <stage type="exit">(Salen.)</stage>
+        </div2>
+        <div2 type="scene" n="4">
+          <head>FIN DEL ACTO TERCERO.</head>
+        </div2>
+      </div1>
+      <div1 type="act" n="4">
+        <head>Acto IV</head>
+        <div2 type="scene" n="1">
+          <head>ESCENA PRIMERA</head>
+          <stage type="location">Delante de la gruta de Próspero.</stage>
+          <stage type="entrance">(Entran Próspero, Fernando y Miranda.)</stage>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Si te he tratado con gran severidad, también consigues una recompensa que lo subsana con creces, pues te doy un tercio de mi propia; vida; aquel por quien existo y que de nuevo pongo en tus manos. Las pruebas a que me sometí no tenían más objeto que examinar tu amor, y ni las soportaste victoriosamente. Aquí, a la faz de los cielos, te ratifico mi preciosa ofrenda. ¡Oh, Fernando! No te sonrías de mí porque la encomio, pues tú mismo verás que excede a todas las alabanzas y que las deja muy atrás.</p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>Lo creo, aunque un oráculo me dijese lo contrario.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Así, pues, como ofrenda mía y ganancia tuya que dignamente has merecido, toma a mi hija; pero si rasgas su sello virginal antes que se cumplan todas las Santas ceremonias, y se celebre el sagrado rito, nunca el celeste rocío bendecirá esta unión, sino que el odio estéril, el desdén soberano y la discordia esparcirán en vuestro lecho la semilla de tan perniciosas hierbas que os llegaréis a odiar mutuamente; espera, por lo tanto, a que se encienda para ti la antorcha del himeneo.</p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>Tan seguro como deseo que este amor me proporcione días de paz, hermosa descendencia y larga vida, que ni la mis lóbrega caverna, ni el sitio más apropiado, ni la más fuerte sugestión del espíritu maligno derretirán mi honra en impurezas que mancillen la santidad de este día en el que me figuro que los corceles de Febo estén despeados o que la noche yace encadenada en lo profundo.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Te expresas dignamente. Siéntate, pues, y habla con ella; es tuya. ¡Hola! ¡Ariel! Mi inteligente servidor Ariel!</p>
+          </sp>
+          <stage type="entrance">(Entra Ariel.)</stage>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>¿Qué desea mi poderoso señor? Aquí me tiene.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Tú y tus subalternos habéis cumplido bien mis últimas órdenes; ahora necesito emplearos en otra empresa parecida. Vete y trae a este sitio a la turba de espíritus sobre la que te he dado potestad; recomiéndales que estén prontos, pues necesito desplegar a la vista de esta joven pareja algunos encantos de mi arte: se lo he prometido Y así lo esperan de mí.</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>¿Ahora mismo?</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Sí: en un abrir y cerrar de ojos.</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Antes que podáis pronunciar ven y vete y respirar dos veces y decir bien, bien, aquí estaremos todos dando brincos, gesticulando y con mil disfraces. Amo, me queréis, ¿no es así?</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Tiernamente, mi Ariel encantador. No te aproximes hasta que yo te llame.</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Bien, entendido.</p>
+          </sp>
+          <stage type="exit">(Sale.)</stage>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Procura mantener tu palabra; no des rienda suelta a tu ternura; los más fuertes juramentos no son más que paja en el fuego de la sangre; sé más cauto, sino ¡adiós tus votos!</p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>Os lo garantizo, señor. El frío de la cándida nieve virginal templa el ardor de mis entrañas.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Bien. ¡Ven, Ariel mío! Trae la multitud de espíritus; que sobren más bien que falten. ¡Aparece, y pronto! ¡Calle las lenguas! ¡Sed todo ojos! ¡Silencio!</p>
+          </sp>
+          <stage type="setting">(Música suave. Aparecen una multitud de Genios que representan un drama alegórico.)</stage>
+          <stage type="entrance">(Entra Iris)</stage>
+          <sp who="#Iris">
+            <speaker>IRIS</speaker>
+            <lg>
+              <l n="0080" xml:id="es-0587">¡Oh, Ceres generosa y admirada!</l>
+              <l n="0081" xml:id="es-0588">Tus riquísimos llanos rebosantes,</l>
+              <l n="0082" xml:id="es-0589">De trigo, de centeno y de guisantes,</l>
+              <l n="0083" xml:id="es-0590">De algarrobas, de avena y de cebada;</l>
+              <l n="0084" xml:id="es-0591">Tus verdes montes do oveja pace,</l>
+              <l n="0085" xml:id="es-0592">Tus hondos valles y ribera umbría</l>
+              <l n="0086" xml:id="es-0593">Que orla el lirio, la rosa y peonía,</l>
+              <l n="0087" xml:id="es-0594">Entre el heno frondoso que allí nace,</l>
+              <l n="0088" xml:id="es-0595">Y riega abril a tu incesante ruego,</l>
+              <l n="0089" xml:id="es-0596">Para que esbeltas ninfas, pudorosas,</l>
+              <l n="0090" xml:id="es-0597">Tejan guirnaldas de fragantes rosas</l>
+              <l n="0091" xml:id="es-0598">Y el galán desdeñado halle sosiego;</l>
+              <l n="0092" xml:id="es-0599">Los emparrados, el fecundo llano</l>
+              <l n="0093" xml:id="es-0600">Y la playa rocosa y escarpada,</l>
+              <l n="0094" xml:id="es-0601">Donde aspiras la brisa embalsamada,</l>
+              <l n="0095" xml:id="es-0602">Deja un momento, no te llame en vano.</l>
+              <l n="0096" xml:id="es-0603">Yo que soy de la diosa mensajera,</l>
+              <l n="0097" xml:id="es-0604">El arco iris del brillante cielo,</l>
+              <l n="0098" xml:id="es-0605">Y te invito a que acudas en un vuelo,</l>
+              <l n="0099" xml:id="es-0606">Y corras a gozar de esta pradera.</l>
+              <l n="0100" xml:id="es-0607">Los pavones olvidan la floresta</l>
+              <l n="0101" xml:id="es-0608">Y ya acuden en busca de placeres,</l>
+              <l n="0102" xml:id="es-0609">Ven al festín, hermosa reina Ceres,</l>
+              <l n="0103" xml:id="es-0610">Que tu concurso alegrará la fiesta.</l>
+            </lg>
+          </sp>
+          <stage type="entrance">(Entra Ceres)</stage>
+          <sp who="#Ceres">
+            <speaker>CERES</speaker>
+            <lg>
+              <l n="0104" xml:id="es-0611">Salve, multicolor mensajero,</l>
+              <l n="0105" xml:id="es-0612">Que a la esposa de Júpiter tonante</l>
+              <l n="0106" xml:id="es-0613">Obedeces humilde y placentero,</l>
+              <l n="0107" xml:id="es-0614">Y con tus alas de oro rutilante</l>
+              <l n="0108" xml:id="es-0615">Esparces aguamiel sobre mis flores;</l>
+              <l n="0109" xml:id="es-0616">Que la lluvia benéfica me envías,</l>
+              <l n="0110" xml:id="es-0617">Y abarcas con tu cerco de colores</l>
+              <l n="0111" xml:id="es-0618">Mis tierras, ya frondosas, ya baldías,</l>
+              <l n="0112" xml:id="es-0619">Que con tu fino manto se envanecen.</l>
+              <l n="0113" xml:id="es-0620">¿Por qué causa tu reina me convida</l>
+              <l n="0114" xml:id="es-0621">A este lugar donde las hierbas crecen,</l>
+              <l n="0115" xml:id="es-0622">Donde todo rebosa amor y vida?</l>
+            </lg>
+          </sp>
+          <sp who="#Iris">
+            <speaker>IRIS</speaker>
+            <lg>
+              <l n="0116" xml:id="es-0623">Hay gentil boda, y la pareja hermosa.</l>
+              <l n="0117" xml:id="es-0624">De ti fecunda bendición ansía.</l>
+            </lg>
+          </sp>
+          <sp who="#Ceres">
+            <speaker>CERES</speaker>
+            <lg>
+              <l n="0118" xml:id="es-0625">¿Sabes, arco celeste, si a la diosa</l>
+              <l n="0119" xml:id="es-0626">Venus y el hijo prestan compañía?</l>
+              <l n="0120" xml:id="es-0627">De los dos huyo y a los dos evito</l>
+              <l n="0121" xml:id="es-0628">Desde que supe que Plutón un día</l>
+              <l n="0122" xml:id="es-0629">Por arte suyo y con ardid maldito,</l>
+              <l n="0123" xml:id="es-0630">Consiguió arrebatar a la hija mía.</l>
+            </lg>
+          </sp>
+          <sp who="#Iris">
+            <speaker>IRIS</speaker>
+            <lg>
+              <l n="0124" xml:id="es-0631">No te turbes ni pierdas el sosiego;</l>
+              <l n="0125" xml:id="es-0632">Yo vi cortar las nubes e ir volando</l>
+              <l n="0126" xml:id="es-0633">Hacia Pafos a Venus y a su ciego:</l>
+              <l n="0127" xml:id="es-0634">Dos tórtolas de coche iban tirando.</l>
+              <l n="0128" xml:id="es-0635">Con hechizos impuros pretendieron</l>
+              <l n="0129" xml:id="es-0636">Vencer al joven y a la hermosa dama;</l>
+              <l n="0130" xml:id="es-0637">mas fue en vano, porque ellos prometieron</l>
+              <l n="0131" xml:id="es-0638">Nunca encender del himeneo la llama</l>
+              <l n="0132" xml:id="es-0639">Sin los sagrados ritos.</l>
+              <l n="0133" xml:id="es-0640">Huyó la favorita del dios Marte;</l>
+              <l n="0134" xml:id="es-0641">Su hijo con la ira concentrada</l>
+              <l n="0135" xml:id="es-0642">Dice que es sólo un niño, el arco parte,</l>
+              <l n="0136" xml:id="es-0643">Y jura ha de vivir siempre entregado</l>
+              <l n="0137" xml:id="es-0644">A cazar gorriones.</l>
+            </lg>
+          </sp>
+          <sp who="#Ceres">
+            <speaker>CERES</speaker>
+            <lg>
+              <l n="0138" xml:id="es-0645">Aquí viene</l>
+              <l n="0139" xml:id="es-0646">Juno, la hermosa reina del Estado.</l>
+              <l n="0140" xml:id="es-0647">La reconozco en el andar que tiene.</l>
+            </lg>
+          </sp>
+          <stage type="entrance">(Entra Juno.)</stage>
+          <sp who="#Juno">
+            <speaker>JUNO</speaker>
+            <lg>
+              <l n="0141" xml:id="es-0648">¿Cómo estás, generosa hermana mía?</l>
+              <l n="0142" xml:id="es-0649">Ven, voy a bendecir a esos dos seres</l>
+              <l n="0143" xml:id="es-0650">Y a otorgarles mis dones este día,</l>
+              <l n="0144" xml:id="es-0651">Para que gocen de hijos y placeres.</l>
+            </lg>
+          </sp>
+          <stage type="delivery_">Canto de Juno.</stage>
+          <sp who="#Juno">
+            <speaker>JUNO</speaker>
+            <lg>
+              <l n="0145" xml:id="es-0652">Disfrutad siempre dicha y grandeza,</l>
+              <l n="0146" xml:id="es-0653">Hijos que os amen de corazón,</l>
+              <l n="0147" xml:id="es-0654">Felices bodas, honra y riqueza,</l>
+              <l n="0148" xml:id="es-0655">Que Juno os canta su bendición.</l>
+            </lg>
+          </sp>
+          <stage type="delivery_">Canto de Ceres.</stage>
+          <sp who="#Ceres">
+            <speaker>CERES</speaker>
+            <lg>
+              <l n="0149" xml:id="es-0656">La tierra fecunda sus ricos presentes</l>
+              <l n="0150" xml:id="es-0657">Otorgue cual madre; las trojes llenad.</l>
+              <l n="0151" xml:id="es-0658">Racimos sabrosos coronen las vides,</l>
+              <l n="0152" xml:id="es-0659">Humille sus ramas cargado el frutal.</l>
+              <l n="0153" xml:id="es-0660">Primavera larga, dichosa y fecunda,</l>
+              <l n="0154" xml:id="es-0661">Ceres os desea, pareja sin par.</l>
+            </lg>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>¡Qué espectáculo más sublime es éste y qué armonía más encantadora! ¡Son genios acaso?</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Sí; son genios a quienes con mi arte obligo a salir de sus confines para que representen fantasías.</p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>Aquí desearía yo vivir siempre, con un padre tan sabio y poderoso que hace de este lugar un paraíso.</p>
+          </sp>
+          <stage type="novelistic">(Juno y Ceres hablan en secreto y envían a Iris a un encargo. Iris vuelve pronto.)</stage>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>¡Silencio, querido mío, silencio! Juno y Ceres cuchichean acerca de alguna cosa importante; algo falta; callemos y ni una palabra más; de lo contrario se anulará el conjuro.</p>
+          </sp>
+          <sp who="#Iris">
+            <speaker>IRIS</speaker>
+            <lg>
+              <l n="0155" xml:id="es-0666">¡Oh, Nápoles y Ninfas</l>
+              <l n="0156" xml:id="es-0667">del tortuoso arroyuelo,</l>
+              <l n="0157" xml:id="es-0668">coronadas de juncos,</l>
+              <l n="0158" xml:id="es-0669">de ojos dulces, serenos!</l>
+              <l n="0159" xml:id="es-0670">Dejad las aguas frías,</l>
+              <l n="0160" xml:id="es-0671">acudid a mi ruego,</l>
+              <l n="0161" xml:id="es-0672">que aquí Juno os convoca</l>
+              <l n="0162" xml:id="es-0673">para que celebremos</l>
+              <l n="0163" xml:id="es-0674">de dos puros amantes</l>
+              <l n="0164" xml:id="es-0675">el gozoso himeneo.</l>
+              <stage type="entrance">(Entran varias Ninfas.)</stage>
+              <l n="0165" xml:id="es-0676">Tostados segadores</l>
+              <l n="0166" xml:id="es-0677">curtidos agosteros,</l>
+              <l n="0167" xml:id="es-0678">suspended las faenas,</l>
+              <l n="0168" xml:id="es-0679">que hoy es día de asueto.</l>
+              <l n="0169" xml:id="es-0680">Acudid y alegraos;</l>
+              <l n="0170" xml:id="es-0681">traed vuestros sombreros</l>
+              <l n="0171" xml:id="es-0682">de paja, y con las Ninfas</l>
+              <l n="0172" xml:id="es-0683">formad coros honestos.</l>
+            </lg>
+          </sp>
+          <stage type="entrance">(Entran unos cuantos segadores, vestidos como tales, y bailan graciosamente con las Ninfas. Al fin del baile, próspero se levanta bruscamente y habla. Después de lo cual, con un extraño y confuso rumor, desaparecen lentamente los genios.)</stage>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>
+              <seg type="aside">Había olvidado la abominable conspiración contra mi vida del monstruo Cáliban y sus cómplices. Es éste casi el momento de ejecutar su designio.</seg>
+            </p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>Esto es extraño; a tu padre le agita alguna emoción violenta.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>Nunca hasta hoy le he visto con tan destemplada ira.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Parece que estés inquieto, hijo mío y que te domina la agitación como si temieras algo: recobra la alegría, la agradable fiesta ya terminó. Nuestros actores, como antes te dije, eran espíritus y se han transformado en aire dentro del aire sutil. Como se desvaneció esta fantástica visión, falta de base real, así las soberbias torres, los suntuosos palacios, los solemnes templos y la misma intensidad del globo con cuanto existe, se disolverá sin dejar el más leve residuo. Nosotros somos la estofa de que se fabrican los sueños, y nuestra corta vida se redondea con un sueño. Estoy de mal humor: soporta mi flaqueza; mi viejo cerebro se halla turbado; no te afecte mi debilidad; si te parece retírate a mi habitación y descansa allí. Voy a dar unos pasos con el fin de serenar mi espíritu.</p>
+          </sp>
+          <sp who="#FerdinandAndMiranda">
+            <speaker>FERNANDO Y MIRANDA</speaker>
+            <p>Nos alegraremos de que así sea.</p>
+          </sp>
+          <stage type="exit">(Salen.)</stage>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>(A Ariel.) Ven como el pensamiento. (A Fernando y Miranda.) Gracias. (A Ariel.) Ven, Ariel.</p>
+          </sp>
+          <stage type="entrance">(Entra Ariel.)</stage>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Me ajusto a vuestros pensamientos ¿Qué deseáis?</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Genio, es necesario prepararnos para luchar con Cáliban.</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Sí, señor; cuando hice el papel de Ceres pensé hablaros de ello, mas temí irritaros.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Dime, ¿dónde dejaste a esos pícaros?</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Enardecidos por el vino, como te dije; tan envalentonados que golpeaban el aire porque les soplaba en el rostro y herían el suelo porque les besaba los pies; pero siempre cavilando sobre su plan. Después redoblé mi tambor, a cuyo ruido irguieron las orejas como cerriles potros, levantaron los párpados y olfatearon el aire cual si pretendieran oler la música. De tal modo hechicé sus oídos que como terneros seguían mis cariñosos mugidos a través de las espinosas zarzas, punzantes tojos y desgarradores escaramujos que rasguñaban sus débiles piernas. Por fin los dejé metidos hasta el cuello en la inmunda charca que está junto a vuestra gruta, cuyo fondo revuelco por sus pies exhala mefíticos vapores.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Has cumplido a satisfacción, pájaro mío. Continúa manteniendo tu invisible forma. Trae aquí cuantas baratijas halles en mi casa; será un buen cebo para coger a esos bandidos.</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Voy, voy.</p>
+          </sp>
+          <stage type="exit">(Sale.)</stage>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Es un demonio, un engendro del demonio, cuya naturaleza no admite educación alguna; en el que he perdido todos los afanes que por humanidad he desplegado, todos se han perdido, todos por completo; y lo mismo que su cuerpo se afea cada día más con los años, así su alma se vuelve cada vez más corrompida. Voy a torturarlos hasta que los haga rugir de dolor. (Vuelve Ariel cargado con lujosos trajes) Ven; cuélgalos de esta cuerda.</p>
+          </sp>
+          <stage type="mixed">(Próspero y Ariel permanecen invisibles. Entran Cáliban. Esteban y Trínculo chorreando agua.)</stage>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>Os ruego que andéis suavemente, que ni el ciego topo oiga las pisadas; ya estamos cerca de su gruta.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Monstruo, tu duende, a quien llamas duende inofensivo, ha hecho poco menos que tratarnos como a imbéciles. ¿Lo oyes, monstruo? Si llegas a caer en mi desgracia ten por seguro...</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>Que eres monstruo perdido.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>Mi buen señor, consérvame en tu gracia. Ten paciencia, pues el galardón que te ofrezco te indemnizará de este infortunio; por lo tanto, hablad quedo, todo está callado como si fuera media noche.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>Sí, mas el haber perdido las botellas en la charca...</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Eso, monstruo, no es solamente desgracia y deshonra, sino también pérdida infinita.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>Eso me afecta más que la mojadura. ¿Y es ese tu duende inofensivo, monstruo?</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Iré por mi botella, aunque; me cueste el sumergirme hasta las orejas.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>Te suplico, rey mío, que no te muevas. Mira, esta es la boca de la gruta; chitón y adentro. Realiza el dichoso crimen que por siempre te hará señor de esta isla; y yo tu Cáliban, siempre te lameré los pies.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Dame la mano; comienzo a tener ideas sanguinarias.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>¡Oh, rey Esteban! ¡Oh, noble y digno Esteban! ¡Contempla qué magnífico guardarropa hay aquí para tu uso!</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>Déjalo, imbécil; no es más que oropel.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>¡Oh, oh, monstruo! Ya sabemos lo que es una prendería. ¡Oh, rey Esteban!</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Alcánzame esa toga, Trínculo; por esta mano, yo quiero poseer esa toga.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>La tendrá su alteza.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>¡Ahogue la hidropesía a ese necio! ¿Qué pretendéis al apropiaros tales bagatelas? Dejadlas y matadle primero; si despierta nos abrasará a pellizcos de pies a cabeza; nos pondrá como nuevos.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Silencio, monstruo. Señora cuerda, ¿no es este mi jubón? Ahora ya está el jubón debajo de la cuerda; ahora, jubón, es muy posible que pierdas el pelo y te conviertas en un jubón calvo.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>Cógelo, cógelo; esto es robar por debajo de cuerda, y esto agrada a su Alteza.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Gracias por el chiste; toma este vestido por él: mientras yo sea rey de este país no quedará el ingenio sin galardón. Robar por debajo de cuerda es una salida ingeniosa; toma otro vestido por ella.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>Ven, monstruo, úntate los dedos con liga y varga con lo restante.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>No quiero hacer tal cosa; estamos perdiendo el tiempo, y todos vamos a quedar convertidos en patos o en monos de achatadas fuentes.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Monstruo, echa aquí mano y ayuda a llevar esto adonde está mi bocoy de vino, o si no te desterraré de mi reino. Vamos, lleva esto.</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>Y esto.</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Sí, y esto.</p>
+          </sp>
+          <stage type="novelistic">(Se oye un ruido de cazadores. Entran diversos Genios en forma de lebreles que dan caza a los rateros: Próspero y Ariel azuzan a la jauría.)</stage>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>¡Sus, Montés, sus!</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>¡Lucero, a ellos! ¡ÇA ellos, Lucero!</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>¡Furia! ¡Furia, ahí! ¡Sus, Tirano! ¡Sus, sus!</p>
+          </sp>
+          <stage type="exit">(Cáliban, Esteban y Trínculo salen de estampía.)</stage>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Ve y ordena a mis duendes que les muelan las coyunturas con dolorosas convulsiones; que les encojan los músculos con calambres y que les cubran el cuerpo con más mordiscos que manchas tiene el leopardo o el gato montés.</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>¡Escuchad cómo braman!</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Deja que los acosen sin piedad. Tengo ya a todos mis enemigos en un puño: dentro de poco habré ultimado mis tareas y tú podrás gozar libremente del aire. Sígueme y continúa prestando tus servicios unos instantes más.</p>
+          </sp>
+          <stage type="exit">(Salen.)</stage>
+        </div2>
+        <div2 type="scene" n="2">
+          <head>FIN DEL ACTO CUARTO</head>
+        </div2>
+      </div1>
+      <div1 type="act" n="5">
+        <head>Acto V</head>
+        <div2 type="scene" n="1">
+          <head>ESCENA ÚNICA</head>
+          <stage type="location">Delante de la gruta de Próspero</stage>
+          <stage type="entrance">(Entra Próspero revestido de su mágica toga, y Ariel)</stage>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Ya se avecina el desenlace de mi proyecto; mis encantos no fallan; mis genios obedecen, y el tiempo se desliza erguido con su carga. ¿Qué hora es?</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Las seis, en cuya hora dijisteis que cesarían nuestras tareas.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Así dije cuando desencadené la tempestad. Dime, espíritu, ¿cómo están el Rey y su sequito?</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Confinados juntos del mismo modo que me ordenasteis e igual que los habéis dejado. Todos, señor están presos en la alameda que protege a vuestra gruta; no pueden salir de allí hasta que los soltéis. El Rey, su hermano y el vuestro se hallan entregados a la locura, y los restantes, embargados por la tristeza y el desaliento, sufren por su causa, principalmente el que llamáis «virtuoso y noble Viejo Gonzalo», cuyas lágrimas se deslizan por su barba como la lluvia de invierno sobre los cobertizos de junco. Vuestros encantos operan en ellos con tal fuerza que si los vieseis ahora os enteraríais.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>¿Así lo crees tú, espíritu?</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>El mío se enternecería, si yo fuese hombre.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Y el mío también. A ti, que eres aire, te conmueve y emociona el espectáculo de su aflicción, ¿y no ha de conmoverme a mí que soy de su especie y me afecto y apasiono tan vivamente como ellos? Aunque me hirieron en lo más vivo sus crueles injurias, lucho no obstante del lado de mi razón contra mi cabeza: hay más nobleza en la virtud que en la venganza. Si estén arrepentidos, mi propósito no camina ni un punto más allá. Vete, Ariel, y libértalos; anularé mis encantos, les restituiré la razón y volverán a ser lo que antes.</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Voy a buscarlos, señor.</p>
+          </sp>
+          <stage type="exit">(Sale.)</stage>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>(Música solemne. Vuelve Ariel; después Alfonso, haciendo gestos de frenético; le acompaña Gonzalo; de igual manera vienen Sebastián y Antonio, seguidos de Adriano y Francisco; todos entran en el círculo que ha hecho Próspero y permanecen allí encantados. Próspero los contempla y dice:) Silfos de las Colinas, de los arroyos, de los plácidos lagos y los bosques: los que sin dejar huellas pisáis la playa, perseguís el descenso de Neptuno y corréis cuando ascienden sus ondas; vosotros geniecillos, que a los rayos de la luna formáis ásperos setos de plantas que la oveja evita; vosotros, cuyo alegre pasatiempo es hacer brotar hongos en la media noche y os regocijáis al oír el solemne toque de queda; con vuestro auxilio, aunque sois tan débiles, he obscurecido yo al sol de mediodía evocado de sus cavernas a los vientos tempestuosos y desencadenado una tumultuosa guerra entre el verde mar y el azul firmamento; he dado llamas al fragoroso trueno y hendido la robusta encina de Júpiter con su propia centella; hice temblar al firme y estable promontorio, desarraigando los pinos y los cedros; y a mi voz las tumbas se abrieron, despertaron a sus durmientes y los lanzaron fuera a impulso de mi arte poderoso; a pesar de eso, aquí mismo abdico de mi austera magia; sólo me resta pedir algunos acordes de celeste música para obrar según mis proyectos sobre los sentidos de estos hombres. Después romperé mi vara, sepultándola profundamente en tierra, y sumergiré mi libro a mayor profundidad que alcanzó nunca la sonda. (A Alfonso.) ¡Los solemnes acordes, que son el mejor alivio de una turbada mente, curen vuestro cerebro que ahora inútil hierve dentro del cráneo! Permaneced inmóvil, que os sostiene el conjuro. (A Gonzalo.) Virtuoso Gonzalo, hombre digno, mis ojos simpatizan con los tuyos y derraman lágrimas fraternas. El encanto se desvanece poco a poco; y lo mismo que el alba invade las tinieblas de la noche y lucha por disiparlas, así despiertan tus sentidos y pugnan por desvanecer el humo de la ignorancia que oscurece tu inteligencia. ¡Oh, buen Gonzalo, mi verdadero salvador, y súbdito leal de aquel a quien sigues! Cuando yo vuelva a mi hogar pagaré tus servicios con palabras y con obras. Alfonso, cruelmente nos trataste a mi hija y a mí; cómplice fue tu hermano de esta obra. Bien castigado te vos ahora por ello. Sebastián. Y tú, carne y sangre mía; tú, hermano mío, que diste entrada a la ambición soberbia y expulsaste los remordimientos y los afectos naturales; tú, que junto con Sebastián, que ahora padece mayores y más punzantes torturas internas, has querido inmolar a tu Rey, aunque eres tan desnaturalizado, también alcanzas mi indulgencia. La marea de su razón empieza ya a subir y el flujo cubrirá pronto las playas de su entendimiento, ahora inmundas y fangosas. Ninguno de ellos me ha mirado ni conocido aún Ariel, ve a buscar el sombrero y el florete a mi habitación. (Sale Ariel.) Voy a cambiar mis vestidos y a mostrarme lo mismo que cuando era Duque de Milán. Pronto, Genio, que no tardarás mucho en verte libre.</p>
+          </sp>
+          <stage type="delivery_">(Vuelve Ariel y canta, mientras ayuda a vestirse a Próspero.)</stage>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <lg>
+              <l n="0173" xml:id="es-0737">Yo libo en las flores</l>
+              <l n="0174" xml:id="es-0738">Do liba la abeja</l>
+              <l n="0175" xml:id="es-0739">y vivo en el cáliz</l>
+              <l n="0176" xml:id="es-0740">de las primaveras;</l>
+              <l n="0177" xml:id="es-0741">allí oigo del búho</l>
+              <l n="0178" xml:id="es-0742">las voces siniestras.</l>
+              <l n="0179" xml:id="es-0743">Cuando el sol del estío</l>
+              <l n="0180" xml:id="es-0744">Transpone las cuestas</l>
+              <l n="0181" xml:id="es-0745">el hosco murciélago</l>
+              <l n="0182" xml:id="es-0746">en hombros me lleva.</l>
+              <l n="0183" xml:id="es-0747">Ya libre y gozoso</l>
+              <l n="0184" xml:id="es-0748">haré vida nueva;</l>
+              <l n="0185" xml:id="es-0749">moraré escondido</l>
+              <l n="0186" xml:id="es-0750">en las flores tiernas</l>
+              <l n="0187" xml:id="es-0751">que el árbol adornan.</l>
+              <l n="0188" xml:id="es-0752">¡Qué dicha e espera!</l>
+            </lg>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>¡Eres encantador, Ariel mío! Te echaré muy de menos; sin embargo, he de otorgarte la apetecida libertad; si, tenlo seguro. Vete en forma invisible al barco del Rey, allí encontrarás a los marineros dormidos bajo las escotillas; despierta al Capitán y al Contramaestre y tráelos aquí pronto, le lo ruego.</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>Voy bebiéndome los vientos, y vuelvo antes que vuestro pulso dé dos latidos.</p>
+          </sp>
+          <stage type="exit">(Sale.)</stage>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Aquí habita el tormento, la turbación, el asombro, la sorpresa. ¡Que un poder celestial nos ayude a salir de tan terrible isla!</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Contemplad ¡oh Rey! al agraviado Duque de Milán, a Próspero. Para que os cercioréis de que es un Príncipe vivo quien os habla, a vos me abrazo y os doy la más cordial bienvenida, e igualmente a todos los que os acompañan.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>No sé decir si eres él o no; o eres una ilusión engañadora que, como otras que hay en esta isla, se burla de mí. Siento los latidos de tu pulso como si fueras de carne y sangre, y desde que te he visto disminuye la turbación de mi mente, que creo fomentaba mi locura. Si todo lo que acaba de suceder es cierto, necesita la más extraña explicación. Renuncio a tu Ducado y te suplico perdones mis ofensas. Pero, ¿cómo se explica que Próspero esté vivo y esté aquí?</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>(A Gonzalo.) Primero, noble amigo, permite que abrace tu ancianidad, cuya honradez es inmensa e ilimitada.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>No me atrevería a jurar si todo lo que pasa es o no cierto.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>
+              <seg type="aside">A vosotros dos, buenas piezas, podría haceros caer en la desgracia del Rey como a traidores; pero no es esta la ocasión para tales enredos.</seg>
+            </p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>
+              <seg type="aside">El diablo habla en él.</seg>
+            </p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>No hay tal cosa. A tí, señor perverso, a quien llamar hermano sería inficcionar mi boca, te perdono tu enorme falta; te las perdono todas, y te exijo mi Ducado, que forzosamente me has de restituir.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>Si eres Próspero, cuéntanos cómo te salvaste, cómo ha sido el encontrarnos aquí donde hace tres horas naufragamos y donde yo − ¡cuán doloroso me es este recuerdo!− he perdido a mi hijo Fernando.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Señor, os acompaño en el sentimiento.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>Es un pérdida irreparable, y la paciencia me dice que no puedo curarla.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PROSPERO</speaker>
+            <p>Más bien creo que no solicitáis su ayuda, pues en un pérdida igual he alcanzado yo su benigna gracias un gran auxilio y vivo consolado.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>¡Tú, una pérdida igual!</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PROSPERO</speaker>
+            <p>Tan grande para mí y tan reciente como la vuestra; y para soportar pérdida tan sensible tengo recursos más débiles que los que vos podéis invocar: he perdido a mi hija.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>¿A tu hija? ¡Oh cielos, que no vivieran ambos en Nápoles para ser allí rey y reina! Porque lo fueran estaría yo sepultado, con gusto, en el cenagoso lecho donde yace mi hijo. ¿Cuándo perdiste a tu hija?</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>En la última tempestad. Estoy observando que todos estos señores se maravillan de este encuentro, no dan crédito a su razón no osan creer el testimonio de sus ojos ni que sus palabras son cosa natural. Mas cualquiera que sea la ilusión que ha fascinado vuestros sentidos, estad seguros de que yo soy Próspero, el mismo Duque expulsado par vosotros de Milán, que por azar extraño Vino a estas playas donde naufragasteis, y en ellas desembarcó para ser señor de esta isla. Pero basta por ahora de esto, que merece contarse día por día y no es propio de una sobremesa ni mucho menos de la ocasión presente. Bien venido, señor; esta celda es mi corte; tengo pocos sirvientes y ningún súbdito; ruégoos que entréis. Ya que me restituís el Ducado, yo os recompensaré con una cosa igual; por lo menos presentaré a vuestros ojos una maravilla que os proporcione tanto júbilo como a mí la restitución de mi Ducado.</p>
+          </sp>
+          <stage type="business">(Próspero abre la gruta y aparecen Fernando y Miranda jugando al ajedrez.)</stage>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>Dueño querido, me estás engañando.</p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>No, amor mío, no lo haría por todo el mundo.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>Aunque discutieras por veinte reinos, siempre creería que jugabas lealmente.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>Si esto resulta una ilusión más de la isla, pierdo dos veces a mi amado hijo.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>¡Este es uno de los más grandes milagros!</p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>Aunque los océanos amenazan, son piadosos (Sale de la gruta y se arrodilla), los maldije sin razón.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>¡Que te inunden todas las bendiciones de un padre dichoso! Levántate y dime cómo has llegado aquí.</p>
+          </sp>
+          <sp who="#Miranda">
+            <speaker>MIRANDA</speaker>
+            <p>¡Oh, prodigio! ‘Qué hermosísimas son todas estas criaturas! ¡Qué bella es la humanidad! ¡Oh, admirable mundo nuevo que tales gentes contiene!</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Es nuevo para ti.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>¿Quién es esta doncella con quien estabas jugando? No puede hacer más de tres horas que la conoces. ¡Es acaso la diosa que nos separó antes y nos ha vuelto a reunir aquí?</p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>FERNANDO</speaker>
+            <p>Señor, es mortal; pero es mía por la inmortal Providencia; la escogí cuando no pude aconsejarme de mi padre ni creí que le tenía. Es la hija de este renombrado Duque de Milán, de cuya fama tanto oí decir, pero a quien no había visto. De él recibí una segunda vida, y esta dama hace de él mi segundo padre.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>Yo lo soy de ella. Mas ¡cuán extraño es que yo necesite reclamar el perdón de la hija mía!</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>No prosigáis, señor; no recarguemos la memoria con recuerdos de un doloroso pasado.</p>
+          </sp>
+          <sp who="#Ferdinand">
+            <speaker>GONZALO</speaker>
+            <p>Estuve llorando interiormente, sino ya hubiera hablados antes. ¡Oh dioses, mirad al suelo y otorgad a esta pareja una corona de bendición! Pues vosotros sois los que trazasteis la senda que aquí nos guió.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>Yo digo amén, Gonzalo.</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>¿Fue el Duque de Milán expulsado de allí para que su descendencia reine en Nápoles? ¡Oh! Regocijaos extraordinariamente y perpetuad esto con letras de oro en columnas eternas. En un viaje halló en Túnez marido Claribel; su hermano Fernando halló esposa donde se encontraba ya perdido; Próspero su Ducado en una isla desierta, y todos nosotros nos encontramos a nosotros mismos no siendo antes dueños de la propia razón.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>(A Fernando y a Miranda.) Dadme las manos. ¡Que la tristeza y el dolor embarguen a todo el que no desee vuestra dicha!</p>
+          </sp>
+          <sp who="#Gonzalo">
+            <speaker>GONZALO</speaker>
+            <p>Así sea, amén. (Llega Ariel con el Capitán y el Contramaestre que le siguen asombrados.) ¡Oh, mirad, señor, mirad! Aquí vienen más de los nuestros. Bien predije yo que mientras hubiese una horca en tierra, no se podría ahogar este bergante. Oye, blasfemo, que con juramentos arrojas la gracia divina por la borda. ¿No sabes jurar en tierra? ¿No tienes lengua aquí? ¿Qué nuevas traes?</p>
+          </sp>
+          <sp who="#Boatswain">
+            <speaker>CONTRAMAESTRE</speaker>
+            <p>La primera y mejor noticia es que vemos sanos y salvos al Rey y a su séquito; la segunda, que nuestro barco –al cual creíamos hecho pedazos hace ya tres horas−, está íntegro, pronto a darse a la mar y tan bien aparejado como el primer día que se botó al agua.</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>
+              <seg type="aside">Señor, hice todo esto desde que salí de aquí.</seg>
+            </p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>¡Oh, mi hábil genio!</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>Estas cosas no son naturales, y se suceden más extrañas cada vez. Decidme ¿cómo vinisteis, aquí?</p>
+          </sp>
+          <sp who="#Boatswain">
+            <speaker>CONTRAMAESTRE</speaker>
+            <p>Si yo creyese, señor, que estaba bien despierto, trataría de contároslo. Todos estábamos profundamente dormidos y, sin saber cómo, agrupados bajo cubierta, cuando de repente el más extraño y variado estrépito de rugidos, aullidos, arrastrar de cadenas y mil rumores y estruendos, nos despertó e inmediatamente nos vimos libres. Al contemplar nuestra regia, hermosa y gallarda nave completamente aparejada y pronta, el capitán brincó de júbilo. En un instante, como si fuese un sueño, nos vimos separados de los demás y conducidos aquí como tontos.</p>
+          </sp>
+          <sp who="#Ariel">
+            <speaker>ARIEL</speaker>
+            <p>
+              <seg type="aside">¿Estuvo bien hecho?</seg>
+            </p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>
+              <seg type="aside">Muy bien, mi diligente servidor; serás libre.</seg>
+            </p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>Este es el más extraño laberinto que pisó jamás el hombre; guía este negocio alguna mano que sobrepuja a la naturaleza; es preciso que lo descifre algún oráculo.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>
+              <seg type="aside">Ven aquí, espíritu. Liberta a Cáliban y a sus compañeros; anula el hechizo.</seg>
+            </p>
+          </sp>
+          <stage type="entrance">(Vuelve Ariel conduciendo a Cáliban, Esteban y Trínculo, vestidos con las ropas que hurtaron.)</stage>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Que cada cual trabaje para los demás y que ninguno se cuide de sí mismo; todo depende de la fortuna. ¡Coragio, monstruo fanfarrón, coragio!</p>
+          </sp>
+          <sp who="#Trinculo">
+            <speaker>TRÍNCULO</speaker>
+            <p>Si dice verdad los espías que llevo debajo de la frente, aquí hay un buen espectáculo.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>¡Oh, Sétebos, qué hermosos espíritus! ¡Qué elegante está mi amo! Ya temo su castigo.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Seguramente que uno de ellos es un verdadero pez y sin duda es comparable.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Señores, fijaos en los distintivos de estos hombres y decidme si son auténticos. La madre de ese pícaro deforme fue una bruja tan poderosa que influía en el flujo y reflujo de la marea y en la misma luna, con quien compartía el mando sin que ésta le otorgase sus poderes. Los tres me han robado, y este semidemonio –es un demonio bastardo−, se conchabo con ellos para asesinare. Debéis reconocer a dos de estos pícaros como a gentes vuestras; yo reconozco a este engendro de las tinieblas como a cosa mía.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>¡Aquí me pellizcarán hasta matarme!</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>¿No es éste Esteban mi despensero borrachín?</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Ahora está ebrio; ¡de dónde sacó el vino?</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>También Trínculo está hecho una uva. ¿Dónde encontrarían este maravilloso licor que así los ha coloreado? ¿Cómo os metisteis en semejante adobo desde que os vi la última vez, y me creo que ya no saldrá de mis huesos; así ya no temeré las picaduras de las moscas.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>¡Hola, tu aquí, Esteban!</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>¡Oh! No me toquéis, no soy Esteban, sino un puro calambre.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>¿Querías ser rey de esta isla, perillán?</p>
+          </sp>
+          <sp who="#Stephano">
+            <speaker>ESTEBAN</speaker>
+            <p>Hubiera sido en ella una calamidad, según estoy de maltrecho.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>(Señalando a Cáliban.) Es la cosa más rara que jamás he visto.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Es tan deforme en su conducta como en su estampa. Tunante, vete a mi habitación con tus camaradas y pon todas las cosas en orden, si pretendes alcanzar mi venia.</p>
+          </sp>
+          <sp who="#Caliban">
+            <speaker>CÁLIBAN</speaker>
+            <p>Sí, lo haré; seré más avisado en adelante y procuraré obtener tu gracia. ¡Qué tres veces doble asno he sido en tomar a este beodo por un dios y en dirar a este imbécil!</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Vete, largo de aquí.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>Idos y colocad esas ropas en donde las encontrasteis.</p>
+          </sp>
+          <sp who="#Sebastian">
+            <speaker>SEBASTIÁN</speaker>
+            <p>Mejor dicho, en donde las robasteis.</p>
+          </sp>
+          <stage type="exit">(Salen Cáliban, Esteban y Trínculo.)</stage>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Señor, invito a Vuestra Majestad y a su séquito a mi pobre gruta, donde podrán descansar esta noche, y emplearemos parte de ella, que se pasará pronto, en contar las aventuras de mi vida y todo lo que me sucedió desde que arribé a este sitio. Por la mañana os conduciré a vuestra embarcación, en la que saldremos para Nápoles, y allí espero ver solemnes nupcias de estos hijos amados. Desde allí me retiraré a Milán, donde, de tres pensamientos que broten en mi alma, uno será siempre el de la tumba.</p>
+          </sp>
+          <sp who="#Alfonso">
+            <speaker>ALFONSO</speaker>
+            <p>Ya estoy deseando oír la historia de tu vida, que ha de interesarme vivamente.</p>
+          </sp>
+          <sp who="#Prospero">
+            <speaker>PRÓSPERO</speaker>
+            <p>Toda la contaré. También os prometo tranquila mar, viento favorable y una rápida travesía, de suerte que podáis alcanzar pronto la regia flota. (A Ariel.) Ariel mío querido, de ello te encargo; después vuelve a tu elemento, sé libre y dichoso. Haced el favor de entrar.</p>
+            <stage type="exit">(Salen.)</stage>
+            <lg>
+              <l n="0189" xml:id="es-0823">Y mi fin será cruel, desesperado,</l>
+              <l n="0190" xml:id="es-0824">Si el perdón de vosotros no consigo</l>
+              <l n="0191" xml:id="es-0825">Y no me dejáis de estos lazos.</l>
+              <l n="0192" xml:id="es-0826">Como todos gustáis de que os perdonen,</l>
+              <l n="0193" xml:id="es-0827">También me gusta a mí ser perdonado.</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene" n="2">
+          <head>FIN DE LA «TEMPESTAD»</head>
+        </div2>
+      </div1>
+    </body>
+    <back/>
+  </text>
+</TEI>

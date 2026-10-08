@@ -1,0 +1,3584 @@
+<?xml version="1.0" ?>
+<TEI xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="original">La verdad sospechosa</title>
+        <title type="traduccion">La vérité suspecte</title>
+        <title key="orden">vérité suspecte</title>
+        <title key="archivo">EMOTHE0130_LaVeriteSuspecte</title>
+        <author ana="fiable">Juan Ruiz de Alarcón y Mendoza</author>
+        <author key="orden">Ruiz de Alarcón y Mendoza, Juan</author>
+        <editor role="translator">
+          <persName>Alphonse Royer</persName>
+        </editor>
+        <sponsor>
+          <orgName>Plan Nacional de Investigación Científica, Desarrollo e Innovación Tecnológica (Plan Nacional de I+D+i)</orgName>
+        </sponsor>
+        <funder>
+          <orgName>Dirección General de Investigación y Gestión del Plan Nacional de I+D+I (DGI). http://www.idi.mineco.gob.es</orgName>
+        </funder>
+        <principal>Joan Oleza Simó</principal>
+      </titleStmt>
+      <editionStmt>
+        <edition>Edición electrónica de &apos;La vérité suspecte&apos;</edition>
+        <respStmt>
+          <resp>Edición</resp>
+          <persName>Guinart Palomares, David</persName>
+          <orgName>Artelope</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent ana="verso">0 versos</extent>
+      <publicationStmt>
+        <publisher>
+          <orgName>Proyecto ARTELOPE. Base de datos, argumentos y textos del teatro clásico español (FFI 2009 -12730) http://artelope.uv.es</orgName>
+        </publisher>
+        <idno type="code">EMOTHE0130_LaVeriteSuspecte</idno>
+        <pubPlace>Valencia</pubPlace>
+        <date>2012</date>
+        <authority>
+          <orgName>Universitat de València - Estudi General. http://www.uv.es</orgName>
+        </authority>
+        <availability>
+          <p>La Colección de Teatro Clasico Europeo (CTCE) pertenece al proyecto Artelope y ofrece en la web textos completos sin ánimo de lucro y libres de derechos de lectura y de reproducción. En este último caso se ruega citar la procedencia: &quot;Oleza, Joan et al. Base de Datos y Argumentos del teatro de Lope de Vega. ARTELOPE. Publicación en web: http://artelope.uv.es&quot;</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La vérité suspecte</title>
+          <author>Juan Ruiz de Alarcón</author>
+          <editor role="traductor">Alphonse Royer</editor>
+          <lang>Francés</lang>
+          <note>La vérité suspecte, en Théâtre d’Alarcon traduit pour la première fois d’espagnol en français, par Alphonse Royer. Paris: Michel Lévy frères, 1865.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>La Colección de Textos Clásicos Europeos (CTCE) supone la creación de una base de datos de Teatro canónico clásico europeo en diferentes idiomas, versiones y refundiciones, todas ellas hipervinculadas.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Las presentes ediciones digitales están basadas, en su mayor parte, en ediciones científicas de reconocido prestigio y se ha tratado, en la mayoría de ocasiones, de respetar sus criterios de edición. Solo en casos muy puntuales el editor digital ha introducido leves cambios de los que da cumplida cuenta en el apartado de &quot;Notas&quot;.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fr-FR">Français</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>
+            <title>La vérité suspecte</title>
+          </titlePart>
+        </docTitle>
+        <docAuthor>Juan Ruiz de Alarcón y Mendoza</docAuthor>
+      </titlePage>
+      <div type="elenco">
+        <castList>
+          <castItem>
+            <role xml:id="gar">Don Garcia</role>
+          </castItem>
+          <castItem>
+            <role xml:id="juv">Don Juan de Luna</role>
+          </castItem>
+          <castItem>
+            <role xml:id="fel">Don Felix</role>
+          </castItem>
+          <castItem>
+            <role xml:id="bel">Don Beltran</role>
+          </castItem>
+          <castItem>
+            <role xml:id="san">Don Sancho</role>
+          </castItem>
+          <castItem>
+            <role xml:id="jua">Don Juan</role>
+          </castItem>
+          <castItem>
+            <role xml:id="tri">Tristan</role>
+            <roleDesc>gracioso</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="let">Un licencié</role>
+          </castItem>
+          <castItem>
+            <role xml:id="cam">Camino</role>
+            <roleDesc>écuyer</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="paj">Un page</role>
+          </castItem>
+          <castItem>
+            <role xml:id="jac">Jacinta</role>
+          </castItem>
+          <castItem>
+            <role xml:id="luc">Lucrecia</role>
+          </castItem>
+          <castItem>
+            <role xml:id="isa">Isabel</role>
+            <roleDesc>suivante</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="cri">Un domestique</role>
+          </castItem>
+          <castItem>
+            <role xml:id="jun">Don Garcia et Don Juan</role>
+          </castItem>
+        </castList>
+      </div>
+    </front>
+    <body>
+      <div1 type="act" n="1">
+        <head>Acte I</head>
+        <div2 type="scene" n="1">
+          <head>SCÈNE PREMIÈRE</head>
+          <stage>Une salle dans la maison de don Beltran.</stage>
+          <stage>DON GARCIA, en costume d’étudiant, un LICENCIÉ, DON BELTRAN et TRISTAN.</stage>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Sois le bienvenu, mon fils.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Donne-moi la main, seigneur.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Comment te trouves-tu ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>La chaleur de cet été brûlant et desséché ma indisposé de telle sorte que je n’aurais pu la supporter si elle n’eût été tempérée par l’espérance de te voir.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Viens donc te reposer, Dieu te garde. Quel homme nous reviens-tu ? — Tristan !</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Seigneur...</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Voici un nouveau maître dont tu vas avoir soin. Dès ce moment, sois à Garcia. Tu connais à fond la ville et la manière d’y vivre.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Je lui servirai de guide dans les choses importantes.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Ce n’est pas un valet que je te donne, mais un conseiller et un ami.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Il tiendra cet emploi auprès de moi.</p>
+          </sp>
+          <stage>Il sort.</stage>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Je suis votre humble esclave.</p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="2">
+          <head>SCÈNE II</head>
+          <stage>DON BELTRAN, LE LICENCIÉ.</stage>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Seigneur licencié, venez dans mes bras.</p>
+          </sp>
+          <sp who="#let">
+            <speaker>LE LICENCIÉ.</speaker>
+            <p>Je vous baise les pieds.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Levez-vous donc. Comment êtes-vous ?</p>
+          </sp>
+          <sp who="#let">
+            <speaker>LE LICENCIÉ.</speaker>
+            <p>Bien, satisfait et honoré de mon seigneur don Garcia que j’aime à ce point que j’ignore comment je pourrais vivre sans sa compagnie.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Dieu vous garde ! Toujours en effet le seigneur licencié m’a prouvé qu’il était reconnaissant et sage. Je me félicite de l’exactitude de Garcia à remplir son devoir et suis heureux qu’il ait suivi comme il le devail vos raisonnables avis. C’est pourquoi, je vous l’assure, ma reconnaissance est telle que de même que j’ai obtenu pour vous une place de recteur (c’est peu pour l’amitié que je vous porte), je vous aurais donné, si je l’avais pu, une place dans le conseil du roi.</p>
+          </sp>
+          <sp who="#let">
+            <speaker>LE LICENCIÉ.</speaker>
+            <p>Je m’en rapporte à votre bonté.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Oui, vous pouvez bien le croire. Mais j&apos;aime à penser que si avec mon aide vous avez su franchir ce premier échelon votre mérite atteindra, sans moi, le dernier.</p>
+          </sp>
+          <sp who="#let">
+            <speaker>LE LICENCIÉ.</speaker>
+            <p>En tout temps et en tout lieu je serai votre valet.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Puisque, seigneur licencié, vous allez abandonner le gouvernail de la barque de Garcia et que c’est à moi de la diriger, je voudrais seulement que vous fissiez une chose pour moi et pour lui.</p>
+          </sp>
+          <sp who="#let">
+            <speaker>LE LICENCIÉ.</speaker>
+            <p>Seigneur, j’attends vos ordres avec joie.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Vous devez d’abord me promettre de les exécuter.</p>
+          </sp>
+          <sp who="#let">
+            <speaker>LE LICENCIÉ.</speaker>
+            <p>Je jure Dieu, seigneur, d’accomplir votre volonté.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Je vous prie seulement de me dire une vérité. Je voulus, vous le savez, que le chemin des lettres que suivait Garcia le conduisit à la fortune, car pour un fils cadet comme lui il est certain que c’est la meilleure porte qui mène aux honneurs dans ce monde. Mais Dieu ayant rappelé vers lui don Gabriel, mon fils aîné, qui lui laisse son majorat, je déterminai qu’abandonnant cette professión, il viendrait à Madrid pour y résider, ainsi que c’est l’usage parmi les gentilshommes en Espagne, car il est bien que les maisons nobles consacrent leurs héritiers au service du roi. Comme don Garcia est déjà un homme qui peut se passer de précepteur et que je suis son guide naturel, comme mon amour paternel désire, avec juste raison, que s’il n’est pas le meilleur on ne le tienne pas pour le pire, je veux, seigneur licencié, que vous me disiez clairement, sans flatterie, ce que vous pensez (puisque vous l’avez élevé), de sa manière d’être et de son caractère, de sa vie et de ses occupations, et à quel genre de défauts il semble le plus incliner. S’il en a que je puisse amender, ne craignez, en me les dévoilant, de me causer du souci. Il doit avoir quelque vice; que cela me déplaise, c’est évident, mais il me sera utile de le savoir quelle que puisse ètre ma contrariété. Vous ne sauriez me donner une plus grande satisfaction ou me prouver mieux votre amitié pour Garcia, que par cette désillusion profitable, si je dois l’éprouver plus tard quand le dommage sera venu.</p>
+          </sp>
+          <sp who="#let">
+            <speaker>LE LICENCIÉ.</speaker>
+            <p>Une si stricte précaution, seigneur, n’était pas nécessaire pour m’amener à accomplir ce que je regarde comme un devoir. Il est reconnu que lorsqu’un écuyer livre à un acheteur un cheval qu’il a instruit et dressé, s’il ne l’avertit pas de ses habitudes et de ses tics il prépare des accidents au cheval et au maître. Je dois vous dire la vérité, car en outre de ce que je vous ai promis, je vais vous offrir un breuvage que vous ne goûterez guère mais qui vous fera du bien. — Chez mon seigneur Don Garcia toutes les actions ont la grandeur qui convient à sa haute naissance. Il est magnanime et brave, il est sagace et plein d’esprit, il est libéral et humain; quelquefois impatient. Je ne parle pas des passions propres à la jeunesse parce que leurs conditions changent avec l’âge. Mais il est un défaut, un seul, que j’ai découvert en lui et que malgré tous mes efforts je n’ai jamais pu corriger.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Est-ce un défaut qui pourra lui nuire à Madrid ?</p>
+          </sp>
+          <sp who="#let">
+            <speaker>LE LICENCIÉ.</speaker>
+            <p>Peut être.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Quel est-il ? Parlez.</p>
+          </sp>
+          <sp who="#let">
+            <speaker>LE LICENCIÉ.</speaker>
+            <p>Ne pas dire toujours la vérité !</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Jésus ! quel vice affreux dans un homme que sa naissance oblige !</p>
+          </sp>
+          <sp who="#let">
+            <speaker>LE LICENCIÉ.</speaker>
+            <p>Qu’il soit dans sa nature ou le résultat d’une mauvaise habitude, je pense, qu’avec la grande influence que vous avez sur votre fils, seigneur, et joignez à cela que l’âge l’a déjà rendu plus sage, ce vice se perdra.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Si la branche n’a pu, quand elle était tendre encore, se redresser, qu’adviendra-t-il lorsqu’elle sera devenue un tronc robuste ?</p>
+          </sp>
+          <sp who="#let">
+            <speaker>LE LICENCIÉ.</speaker>
+            <p>A Salamanque, seigneur, ils sont jeunes, ils dépensent leur bonne humeur; chacun suit son penchant; ils font bon marché du vice, et parade des actions légères; ils se vantent de leurs folies; enfin l’âge accomplit son office. Mais nous pouvons espérer qu’il se corrigera à la cour où nous voyons en si grand crédit les écoles de l’honneur.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Je me sens prêt à rire quand je vois combien vous ignorez ce qu’est la cour, N’y trouvera-t-il pas son maître dans l’art de mentir ? A la cour fût-il le plus grand menteur, don Garcia recontrera des gens qui lui feront mille mensonges chaque jour. Si celui qui ment occupe un rang élevé et s’il s’agit de choses oú il va de l’honneur ou de la fortune de celui qu’il trompe, la faute n’est elle pas plus blâmable encore dans l’homme que son nom obligue à servir d’exemple au royaume ? Laissons cela, car voilà que je deviens médisant... Comme le taureau à qui une habile main a lancé le trait se jette sur le plus proche voisin sans reconnaître qui l’a frappé, ainsi moi dans la douleur que m’a causé cette nouvelle, j’ai passé ma fureur sur le premier que j’ai rencontré. Croyez-moi, si Garcia dissipait mon bien dans les folies de l’amour, ou s’il usait dans le jeu ses jours et ses nuits, s’il était d’un esprit remuant, enclin aux querelles, s’il s’était mal marié, s’il venait à mourir, il ne serait pas aussi condamnable qu’avec ce vice de mentir. Quelle vilaine chose ! comme elle répugne à ma nature ! c’est bien; ce que j’ai à faire c’est de le marier promptement avant que ce défaut vienne à être connu. – Je demeure très satisfait de votre bon zèle et de vos bons soins, et vous suis obligé du service que m’a rendu votre aveu. Quand partez-vous ?</p>
+          </sp>
+          <sp who="#let">
+            <speaker>LE LICENCIÉ.</speaker>
+            <p>Tout de suite si je le puis.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Vous ne vous reposerez pas un peu ? vous ne chercherez pas quelque distraction dans la ville ?</p>
+          </sp>
+          <sp who="#let">
+            <speaker>LE LICENCIÉ.</speaker>
+            <p>Mon bonheur serait de rester auprès de vous, mais mon devoir me rappelle.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Oui, je comprends : vous avez hâte de reprendre votre autorité. Adieu.</p>
+          </sp>
+          <stage>Il sort.</stage>
+          <sp who="#let">
+            <speaker>LE LICENCIÉ.</speaker>
+            <p>
+              <seg type="aside">La nouvelle a causé une douleur étrange au bon vieillard. Enfin le plus sage supporte aigrement une vérité qui le désabuse.</seg>
+            </p>
+          </sp>
+          <stage>Il sort</stage>
+        </div2>
+        <div2 type="scene" n="3">
+          <head>SCÈNE III</head>
+          <stage>La Plateria ou la rue des Orfèvres.</stage>
+          <stage>Don Garcia, Tristan.</stage>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Cet habit me sied-il bien ?</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Divinement, seigneur. Honneur à l’inventeur de ce feuillage hollandais. Avec une fraise empesée quelle difformité ne cache-t-on pas ? Je sais une dame à qui certain ami donna grand souci tant qu’elle le vit avec sa fraise, et un jour qu’elle l’aperçut sans elle, il perdit toute son affection, parce que certaines coutures, sur un cou jauni, annonçaient les restes d’anciennes écrouelles. Le nez s’était allongé, on voyait des oreilles longues d’une palme; la mâchoire semblait celle d’une vieille femme. Enfin le galant demeura si différent de ce qu’il avait coutume de paraître que celle qui l’engendra ne l’aurait pas reconnu.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Pour cette raison et pour d’autres, je voudrais qu’une ordonnance interdit ces sots « canjilones ». Outre qu’ils trompent leur monde, l’étranger avec sa toile de Hollande soutire l’argent de l’Espagne à notre détriment. Un petit col étroit, une « calona » siérait bien mieux au sage et plairait davantage à meilleur compte, et l’on ne verrait pas un galant tellement esclave de sa fraise, que pour n’en pas déranger les plis, il marche comme s’il était empalé.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>J’en sais un qui ayant l’occasion d’obtenir les bonnes grâces de sa bien-aimée n’osa pas aller la trouver de peur de chiffonner sa « cruche ». Ceci me confusionne; chacun dit qu’on devrait en revenir aux « valonas », et personne n’ose commencer.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Ne nous mêlons pas de gouverner le monde. Quoi de nouveau parmi les femmes ?</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Vous abandonnez le monde et vous voulez régir la chair ! celà est-il plus facile ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>C’est plus agréable.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Vous êtes tendre.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Je suis jeune.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Enfin, vous mettez aujourd’hui le pied dans un lieu où l’amour ne vit pas oisif. Les belles dames resplendissent sur le sol de Madrid, comme dans le ciel brillent les ardentes étoiles. Elles diffèrent pas le vice et la vertu, par la condition, de même que leur influence, leur splendeur et leur grandeur varient. Je n’ai pas l’intention de ranger les señoras dans ce nombre; ce sont des anges vers lesquels la pensée n’ose point s’aventurer. Je vous dirai seulement qu’elles sont, avec des âmes légères, humaines quoique divines, corruptiles quoiqu’étoiles. Vous verrez de belles mariées fort traitables et discrètes, que j’appellerai les planètes, parce qu’elles jettent plus de feu. Celles-ci, avec la conjonction de maris de bonne humeur communiquent aux étrangers une influence qui les rend généreux. Il en cest d’autres dont les époux vont en commission ou qui sont surnuméraires dans les Indes ou en Italie. Sur ce chapitre toutes ne disent pas la vérité; mille rusées feignent d’être mariées pour vivre librement. Vous verrez de belles jeunes filles, dont les mères prudentes ne quittent pas les promenades. Ce sont des étoiles fixes et les mères des étoiles errantes. Il y a une grande quantité de dames de la Toison qui parmi les courtisanes sont de la première grandeur. Elles sont suivies d’autres qui désirent les imiter; quoiqu’elles ne vaillent pas grand’chose, elles sont cependant préférables aux chercheuses d’aventures. Ce sont les étoiles qui donnent le moins de clarté; mais dans la nécessité vous devrez vous borner à leur lumiére. La chercheuse d’aventures je ne la compte pas pour étoile; c’est une comète, pourtant sa lumière n’est point parfaite, et on ne sait oú elle habite. Elle apparaît le matin faisant la chasse à l’argent, et après avoir atteint son but, elle s’efface tout-à-coup. Il y a des jeunes filles qui cherchent toutes les occassions pour se divertir, ce sont des feux follets qui ne durent que le temps qu’ils brûlent. Il est bon pourtant de remarquer, si vous allez vers ces étoiles, qu’elles sont peu stables, leur donna-t-on plus qu’un Pérou. Vous savez, comme moi, que la Vierge est un signe, et que trois autres signes sont cornus, le bélier, le capricorne et le taureau. Ainsi, sans trop vous y fier, apprenez seulement une chose, c’est que toutes ces étoiles se tournent vers le même pôle : l’argent.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Tu es astrologue.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>J’ouïs parler de l’astrologie quand je sollicitais une place au palais.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Tu as été solliciteur ?</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Oui, pour mon mal.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Comment es-tu arrivé à servir ?</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Seigneur, parce qu’il m’a manqué la chance et l’argent. Celui qui vous sert ne peut pourtant désirer un meilleur sort.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Laisse les folies et regarde le marbre de cette main, le feu divin de ces yeux qui lancent des flèches de mort et d’amour.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Vous parlez de cette dame qui passe dans ce coche ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Quelle autre mérite une telle louange ?</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>C’est vraiment le coche du soleil avec tout son entourage de rayons de feu et d’éblouissant écarlate.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>La première femme que j’ai vue à Madrid m’a charmé.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>La première sur la terre !</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Non, la première dans le ciel, car cette femme est divine.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>A chaque instant, vous en découvrirez de si belles que vous ne pourrez garder une opinion fixe. En ce pays je n’ais jamais été constant dans un amour ni dans un désir; toujours celle que je vois me fait oublier celle que j’ai vue.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Quelles splendeurs peuvent éclipser celles de ces yeux ?</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Vous les regardez avec des lunettes qui font paraître les objets plus grands.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>La connais-tu, Tristan ?</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Ne rabaissez pas ce que vous adorez pour divin. De si grandes dames ne sont pas pour les Tristan.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Enfin, quelle qu’elle soit, je l’aime et je la veux courtiser. Tu peux la suivre, Tristan.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Contenez-vous, elle s’arrête à la boutique voisine.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>J’y vais aller. Est-ce l’usage ?</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Oui, ainsi que la règle que je vous ai dite que le pôle c’est l’argent.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>J’ai de l’or.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Cierra Espana ! Vous portez César avec vous, mais voyez si je me trompe en ce que j’ai dit, voyez, seigneur, si cette autre qui marche derrière elle n’est pas le soleil de son aurore ou l’aurore de son étoile.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Elle est belle aussi.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>La suivante n’est pas pire.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Ce coche est l’arc de l’amour; ce sont des flèches qu’il nous envoie. — J’y vais.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Songez à mes avis.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Et c’est…</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Prière et argent.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Que mon sort dépende de cela !</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>El moi, pendant que vous causerez, je veux que le cocher me dise qui elles sont.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Parlera-t-il ?</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Oui, puisqu’il est cocher.</p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="4">
+          <head>SCÈNE IV</head>
+          <stage>JACINTA, LUCRECIA et ISABEL.</stage>
+          <stage>JACINTA tombe, Don Garcia accourt et lui offre la main.</stage>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Dieu me protége !</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Permettez que cette main vous relève, si je mérite d’être l’Atlas d’un tel ciel.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Vous devez être Atlas, puisque ce ciel vous l’avez touché !</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Autre chose est d’y atteindre, autre chose est de le mériter. De quel prix est cette victoire d’atteindre à la beauté pour qui je brûle, si c’est une faveur que je dois au hasard el non à votre volonté ? J’ai touché le ciel, mais, par malheur c’est parce qu’il est tombé et non parce que j’ai monté jusqu&apos;à lui.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>A quelle fin veut-on mériter ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Pour réussir.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Réussir sans obstacles n’est-ce pas du bonheur ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Oui.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Pourquoi donc vous plaindre du bien qui vous arrive si votre bonheur est double, ne l’ayant pas mérité ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Parceque, comme l’affront et la faveur reçoivent toute leur valeur de la seule intention, vous ne m’avez rien accordé en me laissant toucher votre main malgré vous. Ainsi donc laissez-moi regretter au milieu de ma félicité d’avoir conquis la main sans l’âme et la faveur sans le consentement.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Si vous ignoriez alors ce que vous m’apprenez en ce moment,vous m’adressez un injuste reproche.</p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="5">
+          <head>SCÈNE V</head>
+          <stage>TRISTAN, LES MÊMES.</stage>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>
+              <seg type="aside">Le cocher a fait son office. Je sais qui elles sont.</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>(A Jacinta) N’avez-vous jamais soupçonné mon amour ?</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Comment, puisque je ne vous ai jamais vu.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>C’est donc en vain, mon Dieu, que depuis plus d’un an je suis fou de vous ?</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>
+              <seg type="aside">Un an ! et il n’est arrivé que d’hier à Madrid !</seg>
+            </p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Vraiment ? plus d’un an ! Je jurerais que je ne vous ai jamais vu de ma vie.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Quand, pour mon bonheur, j’arrivai ici des Indes, la première chose que je vis ce fut votre ciel éblouissant, et quoique sur l’heure, je vous aie donné mon âme, vous l’avez ignoré parce que l’occasion m’a manqué de vous dire qui je suis.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Vous êtes indien ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Et telles sont mes richesses, en vous voyant que j’éclipse le Potose.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>
+              <seg type="aside">Indien ?</seg>
+            </p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Et êtes-vous aussi économe que les gens de votre pays ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Du plus avare l’amour fait un prodigue.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Si vous dites vrai, nous allons voir de belles fêtes.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Si l’argent peut prêter crédit à l’affection, ce sera peu, pour montrer mon amour, de vous donner un monde d’or comme vous me donnez un monde de désirs. Mais puisque mon pouvoir ne peut s’égaler à votre divine beauté ni à mon ardeur infinie, permettez au moins que ce magasin vous offre une preuve de ma galanterie.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>
+              <seg type="aside">Je ne vis jamais un tel homme à Madrid. Lucrecia, que te semble de cet Indien généreux?</seg>
+            </p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>
+              <seg type="aside">Qu’il est de ton goût, Jacinta, et qu’il le méríte.</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>(S’approchant d’une boutique d’orfèvre.) Prenez dans cette montre le bijou qui vous plaira.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>
+              <seg type="aside">Vous vous lancez beaucoup, seigneur.</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>
+              <seg type="aside">J’ai la tête perdue, Tristan.</seg>
+            </p>
+          </sp>
+          <sp who="#isa">
+            <speaker>ISABEL.</speaker>
+            <p>
+              <seg type="aside">Don Juan vient.</seg>
+            </p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Je vous remercie, seigneur, de vos offres.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Songez que vous m’offenseriez en me refusant.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Vous vous trompez, cavalier, en pensant que je puisse accepter autre chose que vos prévenances.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Qu’ai-je gagné à vous donner mon cœur ?</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Que je vous ai écouté.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>C’est beaucoup.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Adieu.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Adieu. Permettez-moi de vous aimer.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>On peut aimer sans permission.</p>
+          </sp>
+          <stage>Les femmes sortent.</stage>
+        </div2>
+        <div2 type="scene" n="6">
+          <head>SCÈNE VI</head>
+          <stage>DON GARCIA, TRISTAN.</stage>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Suis-les.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Si vous regrettez, seigneur, de ne pas connaître l’adresse de la femme qui vous incendie, je la sais.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Alors ne les suis pas, une telle insistance pourrait la fâcher.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>« La plus belle se nomme Lucrecia de Luna : c’est celle que je sers; l’autre dame qui l’accompagne, je connais aussi sa demeure, mais j’ignore son nom. » Telle fut la réponse du cocher.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Si Lucrecia est la plus belle, je ne veux pas en savoir davantage, puisque c’est celle à qui j’ai parlé et puisque c’est elle que j’aime. Comme l’astre du jour éclipse les étoiles, à celle qui m’aveugla je donne la victoire.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Et à moi, celle qui a gardé le silence m’a paru la plus belle.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Quel bon goût !</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Il est certain que je n’ai pas voix au chapitre, mais j’apprécie tellement une femme qui se tait que cela suffit pour qu’elle me paraisse la plus belle. Ne partageant pas votre avis, j’espère que le cocher m’apprendra où elle habite.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Et Lucrecia ?</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Si j’ai bonne mémoire, il m’a dit à la Vitoria.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Ce nom va bien à l’heureuse sphère qui est l’ecliptique d’une telle lune.</p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="7">
+          <head>SCÈNE VII</head>
+          <stage>DON JUAN, DON FELIX, LES MÊMES.</stage>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>(A don Félix.) Musique et souper ! Ah ! fortune !</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>
+              <seg type="aside">N’est-ce pas là don Juan de Sosa ?</seg>
+            </p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>
+              <seg type="aside">Lui-même.</seg>
+            </p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>(A don Félix.) Quel peut être l’heureux amant qui me cause tant de jalousie ?</p>
+          </sp>
+          <sp who="#fel">
+            <speaker>DON FÉLIX.</speaker>
+            <p>Je crois que vous le saurez bientôt.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Qu’un autre ait donné à ma maîtresse concert et souper sur l’eau !</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>(S’avançant) Don Juan de Sosa !</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Qui êtes-vous ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Avez-vous donc oublié don Garcia ?</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Vous retrouver à Madrid et sous ce nouveau costume ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Depuis que vous m’avez vu à Salamanque je suis tout autre.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Vous avez meilleur air en cavalier qu’en étudiant. Vous venez vous fixer à Madrid ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Oui.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Soyez le bien venu.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Et vous, don Félix, comment êtes-vous ?</p>
+          </sp>
+          <sp who="#fel">
+            <speaker>DON FÉLIX.</speaker>
+            <p>Content de vous voir, par Dien ! vous arrivez bien.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Pour vous servir. Que faites-vous ? De quoi parliez-vous ?</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>De certain concert et de certain souper que la nuit dernière un galant donna sur la rivière à une dame.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Concert et souper, don Juan ? et la nuit dernière ?</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Oui.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Un grand luxe ? une grande fête ?</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>La renommée le dit.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Et la dame est trés belle ?</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>On m’affirme qu’elle est charmante !</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Bien !</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Quels sont ces airs mystérieux ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>C’est qu’en vantant ainsi la dame et le concert vous prodiguez vos louanges à ma musique et à ma maîtresse.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Vous aussi, vous avez donné une fête cette nuit sur la rivière ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Je l’ai passée tout entière à cela.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>
+              <seg type="aside">Quelle dame ? quelle fête ? puisqu’il arriva hier à Madrid.</seg>
+            </p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Si récemment à Madrid vous savez déjà à qui donner une fête ? L’amour vous a vite favorisé.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Il n’y a pas si peu de temps que je suis arrivé qu’un mois n’ait suffi pour me délasser.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>
+              <seg type="aside">Je jure Dieu qu’il arriva hier ! Il a quelque projet.</seg>
+            </p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Par ma loi ! je l’ignorais, sans cela je serais accouru vous rendre visite.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Jusqu’aujourd’hui je me suis tenu célé.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>C’est puor cela que je n’aurai rien su. Mais cette fête fut donc en effet magnifique ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Pour mon bonheur, jamais le Manzanarès n’en vit une plus belle !</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>
+              <seg type="aside">La jalousie me trouble déjà.</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Vous précisez de tels détails, don Juan, que je soupçonne que vous les connaissez comme moi.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>
+              <seg type="aside">Et un amant est jaloux.</seg>
+            </p>
+          </sp>
+          <sp who="#fel">
+            <speaker>DON FÉLIX.</speaker>
+            <p>
+              <seg type="aside">Voyez comme, sans que vous y songiez, le ciel vient vous dévoiler votre rival.</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Écoutez donc le récit de la fête, je vous la conterai puisque c’est votre désir.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Vous nous ferez una grande faveur.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Dans l’ombre épaisse que formaient les ormes du bosquet mêlée aux ténèbres de la nuit, on avait dressé une table carrée, bien nette et odorante, élégamment servie à l’italienne avec l’opulence espagnole. Les nappes et les serviettes façonnées en mille figures diverses, n’avaient à envier que la vie aux oiseaux et aux bêtes qu’elles représentaient. Quatre buffets, placés en regard de la table, portaient la vaisselle d’argent et de vermeil, les verres et les carafes. Dans tout le pré un seul arbre avait gardé ses feuilles, les autres avaient servi à construire six tentes de divers côtés. Quatre de ces tentes abritaient quatre chœurs; une autre les hors-d’œuvres et le dessert; la sixième les mets du diner. Ma maîtresse arriva dans son coche, donnant de l’envie aux étoiles, de la suavité à l’air, et à la rivière de la joie. A peine le pied que j’adore eut-il transformé l´herbe en émeraudes, l’onde en cristal, le sable en perles, qu’éclatèrent en nombre les fusées, les bombes et les roues; toute la région du feu descendit en un moment sur la terre. Ces lumières sulfureuses n’avaient pas encore cessé quand vingt-quatre flambeaux viennent obscurcir les étoiles. L’ensemble de hautbois joua le premier, après lui celui des violes à archet se fit entendre dans la seconde tente; les accordds des flûtes sortirent délicieusement de la troisième, et dans la quatrième résonnèrent les vois accompagnées par les guitares et les harpes. Pendant ce temps l’on servit trente-deux plats au souper, sans compter les hors d’œuvres et le dessert qui étaient presqu’en pareil nombre. Les fruits el les boissons contenus dans des plats et dans des coupes faits du cristal que donne l’hiver et que l’industrie conserve, sont couverts de tant de neige que le Manzanarès, en traversant le pré, croit qu’il chemine à travers la « Sierra ». L’odorat ne reste pas oisif pendant que le goût se récrée. Les suaves essences, les flacons et les cassolettes, les esprits distillés des aromates, des fleurs et des herbes font du pré de Madrid une région sabéenne, délicates flèches d’or de ce pré de diamants, et plus flexibles que le saule, le jonc et l’osier, lesquelles rappelaient à ma maîtresse ma constance et sa cruauté. Il faut, de l’or pour encadrer des dents de perle. Les quatre chœurs réunis commencent alors, sans quitter leurs places, à frapper la voûte du ciel, si bien qu’Apollon envieux, avança sa carrière pour que le commencement du jour mit fin à la fête.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Par Dieu ! vous avez peint cette fête avec de si parfaites couleurs, que j’aime mieux vous a voir entendu que m’y être trouvé.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>
+              <seg type="aside">Diable soit de l’homme ! Comment peut-il improviser le récit de ce festin de manière à vaincre la vérité elle-même !</seg>
+            </p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>
+              <seg type="aside">J’enrage de jalousie !</seg>
+            </p>
+          </sp>
+          <sp who="#fel">
+            <speaker>DON FÉLIX.</speaker>
+            <p>
+              <seg type="aside">On ne vous donna pas tant de détails sur ce souper.</seg>
+            </p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>
+              <seg type="aside">Qu’importe, si en somne le temps et le lieu concordent.</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Que dites-vous ?</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Que le festin fut digne d’Alexandre le Grand.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Oh ! ce sont là des enfantillages improvisés. Donnez-moi un jour d’avance, je veux effacer dans l’admiration de l’univers les splendeurs des Grecs et des Romains.</p>
+          </sp>
+          <stage>Il regarde au dehors.</stage>
+          <sp who="#fel">
+            <speaker>DON FÉLIX.</speaker>
+            <p>
+              <seg type="aside">Voici là bas Jacinta qui monte dans le coche de Lucrecia.</seg>
+            </p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>
+              <seg type="aside">Pardieu ! les yeux de don García la suivent.</seg>
+            </p>
+          </sp>
+          <sp who="#fel">
+            <speaker>DON FÉLIX.</speaker>
+            <p>
+              <seg type="aside">Il est inquiet et préoccupé.</seg>
+            </p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>
+              <seg type="aside">Mes soupçons sont déjà vérifiés.</seg>
+            </p>
+          </sp>
+          <sp who="#gar #jua">
+            <speaker>DON GARCIA et DON JUAN.</speaker>
+            <p>Adieu !</p>
+          </sp>
+          <sp who="#fel">
+            <speaker>DON FÉLIX.</speaker>
+            <p>Voux avez eu tous deux la même pensée.</p>
+          </sp>
+          <stage>Don Juan et don Félix sortent.</stage>
+        </div2>
+        <div2 type="scene" n="8">
+          <head>SCÈNE VIII</head>
+          <stage>DON GARCIA, TRISTAN.</stage>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Je ne vis jamais prendre congé d’une façon plus égale et plus résolue.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Ce ciel, premier mobile de mes actions, emporte ma raison après lui.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Dissimulez et ayez patience. Se montrer trop amoureux est plus nuisible que profitable, et j’ai toujours vu que la tiédeur réussit. Les femmes et le diable cheminent par le même sentier; les âmes damnées ils ne les suivent ni ne les tentent; la certitude de les posséder fait qu’ils n’y songent point, et ils n’ont souci que de celles qui peuvent leur échapper.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>C’est vrai, mais je ne suis pas maître de moi.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Jusqu&apos;à ce que vous connaissiez précisément la condition de la dame ne vous enflammez pas ainsi; celui qui se fie aux apparences tombe souvent dans une mare en croyant fouler l’herbe trompeuse.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Puisqu’aujourd’hui tu sauras tout.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Ceci est mon affaire. Et maintenant, avant d’aller plus loin, dites-moi, pardieu ! quel est le but de cette finction que j’ai entendue, et en quoi elle peut vous aider ? Elle nous déshonore en nous obligeant à mentir. Vous avez dit à ces dames que vous étiez du Pérou.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>C’est chose certaine, Tristan, que les étrangers sont les mieux venus auprès des femmes; surtout s’ils sont des Indes, signe de richesse.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>C’est vrai, mais je crois le moyen mal trouvé, parce que finalement elles sauront qui vous êtes.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Avant qu’elles le sachent j’aurai ouvert la porte de leur maison ou celle de leur cœur, et ensuite je m’expliquerai avec elles.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Vous m’avez convaincu, seigneur. Reste maintenant cette allégation que vous êtes à Madrid depuis un mois. Que prétendez-vous, puisque vous y arrivâtes hier ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Tu ne sais donc pas qu’il est de bon ton de se faire céler et de se reposer chez soi à la ville ou à la campagne.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>A la bonne heure, mais maintenant ce festin ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>J’ai feint de l’avoir donné, pour que personne ne crut que mon cœur fut susceptible d’envie ou d’admiration, passions qui déshonorent un homme. L’admiration c’est de l’ignorance comme l’envie est de la bassesse. Tu ne sais pas, lorsqu’arrive un colporteur de nouvelles, tout fier de pouvoir conter un exploit ou une fête, comme je lui ferme la bouche avec un conte tout pareil, et il est contraint de s’en retourner avec ses nouvelles dans le corps ou d’en crever.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Bizarre invention, et stratagème périlleux ! Vous serez la fable de la ville si votre jeu se découvre.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Celui qui vit sans passion, celui qui se contente de figurer comme un chiffre, et qui fait ce que font tous les autres, en quoi diffère-t-il de la bête ? La grande affaire c’est d’ ètre remarqué, peu importe le moyen. Que l’on vante partout mon nom et que quelques-uns médisent de moi. Pour gagner une renommée ne brûla-t-on pas le temple d’Ephèse ? Enfin tel est mon goût, ce qui est la meilleure des raisons.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Vous obéissez aux instincts de la jennesse; mais à Madrid il faut plus de discernement.</p>
+          </sp>
+          <stage>Ils sortent.</stage>
+        </div2>
+        <div2 type="scene" n="9">
+          <head>SCÈNE IX</head>
+          <stage>Une salle dans la maison de don Sancho.</stage>
+          <stage>JACINTA, et ISABEL avec leurs mantes, DON BELTRAN, DON SANCHO.</stage>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Une si grande faveur !</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>L’amitié de nos familles ne date pas d’un jour, si vous vous en souvenez, il n’est donc pas juste que vous blâmiez ma visite.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Si je m’étonne, seigneur, c’est que la grâce que vous nous faites passe ce que nous méritons. Pardonnez-moi; ignorant le bonheur qui m’attendait chez moi, je me suis attardée à la « Plateria » en choisissant quelques bijoux.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Vous donnez un heureux pronostic à ma pensée puisque vous achetez des bijoux, quand je viens pour vous proposer un mariage.— Don Sancho votre oncle et moi, nous avons imaginé, señora, de changer notre amitié en parenté, et j’espére (puisque le sage don Sancho dit qu’il s’en rapporte à votre décision), que ce projet se réalisera. Mon bien et ma noblesse étant connus, il suffit que la personne de Garcia vous plaise; quoique le jeune homme soit arrivé hier de Salamanque à Madrid et que le brûlant Phébus l’ait incendié en chemin, j’oserai le présenter à vos beaux yeux, persuadé qu’il vous plaira de la tête aux pieds si vous lui accordez la faveur de vous baiser la main.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Ne prenez pas la peine de vanter devant moi l’alliance que vous m’offrez; je vous estime à tel point que j’accorderais à l’instant mon consentement si je ne craignais de paraitre (à raison du cadeau que vous me faites), une femme qui se décide trop facilement; un consentement trop brusque dans un cas de cette importance, indique peu de sens ou grande hâte de se marier. Il se me semble, si vous n’approuvez qu’afin de ne rien compromettre, il faut pour que je le voie d’abord le faire passer là dans la rue. Si comme il peut arriver et comme cela se rencontre tous les jours, après en avoir causé, cet arrangement venait à se défaire, à quoi m’auraient servi ou quelle opinion donneraient de moi les visites d’un galant prenant les libertés d’un mari ?</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Si mon fils devient votre époux, je le tiendrai pour aussi heureux de posséder votre sagesse que votre beauté.</p>
+          </sp>
+          <sp who="#san">
+            <speaker>DON SANCHO.</speaker>
+            <p>Celle que vous écoutez est un miroir de prudence.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Vous avez raison de vous en rapporter à son jugement, don Sancho, Ce soir je passerai à cheval dans votre rue avec Garcia.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Je serai derrière cette jalousie.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Je vous prie de le bien examiner. Ce soir, belle Jacinta, je reviendrai savoir comment vous l’avez trouvé.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Tant d’impatience ?</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Ne vous atennez pas de mon empressement, il est naturel puisque je suis venu avec le désir et que je m’en retourne tout séduit. Et adieu.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Adieu.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Où allez-vous ?</p>
+          </sp>
+          <sp who="#san">
+            <speaker>DON SANCHO.</speaker>
+            <p>Nous vous accompagnons.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Je ne sortirai pas.</p>
+          </sp>
+          <sp who="#san">
+            <speaker>DON SANCHO.</speaker>
+            <p>J’irai avec vous jusqu’à la galerie, si vous m’en donnez la licence.</p>
+          </sp>
+          <stage>Don Sancho et don Beltran sortent.</stage>
+        </div2>
+        <div2 type="scene" n="10">
+          <head>SCÈNE X</head>
+          <stage>JACINTA, ISABEL.</stage>
+          <sp who="#isa">
+            <speaker>ISABEL.</speaker>
+            <p>Ce vieillard vous presse bien.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>J’irais moi-même au-devant de ses vœux, puisque cette affaire importe tant à mon honneur, si l’amour ne me donnait un autre conseil. Quoique les empêchements que je prévois, puisque don Juan attend toujours l’habit, me forcent à admettre d’autres prétendants, comme je n’ai pas rompu avec lui malgré mon désir et que je l’aime encore, je tremble, Isabel, quand je crois qu’un autre va devenir mon mari.</p>
+          </sp>
+          <sp who="#isa">
+            <speaker>ISABEL.</speaker>
+            <p>J’ai pensé que vous oubliez déjà don Juan, voyant que vous admettiez d’autres hommages.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>C’est la faute des circonstances : tu ne te trompais pas. Comme il attend l’habit depuis si longtemps et que s’il ne l’obtient pas il ne peut-être mon mari, je regarde ce projet comme abandonné. Ainsi pour n’en pas mourir je veux causer et me divertir puisque je me tourmente en vain; je ne suis pas d’avis de m’opiniâtrer dans une pensée impossible. Peut être par aventure rencontrerai-je quelqu’un qui mérite que je lui donne ma main et mon âme.</p>
+          </sp>
+          <sp who="#isa">
+            <speaker>ISABEL.</speaker>
+            <p>Je ne doute pas qu’avec le temps il ne se présente un cœur digne de vous; et si je ne me trompe, aujourd’hui le galant indien ne vous a pas déplu.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Amie, veux-tu que je te dise vrai ? Il m’a paru très-bien, tellement bien, que je te promets que si le fils de don Beltranr était aussi spirituel, aussi gentilhomme et galant, je l’épouserais volontiers.</p>
+          </sp>
+          <sp who="#isa">
+            <speaker>ISABEL.</speaker>
+            <p>Ce soir vous le verrez avec son père.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Je verrai seulement ses trait et sa tournure. Son âme, ce qui importe le plus, il faudrait lui parler pour la connaître.</p>
+          </sp>
+          <sp who="#isa">
+            <speaker>ISABEL.</speaker>
+            <p>Parlez-lui.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Don Juan s’offensera s’il vient à en être instruit, et je ne me résigne pas à le perdre avant de savoir si je dois être l’épouse d’un autre.</p>
+          </sp>
+          <sp who="#isa">
+            <speaker>ISABEL.</speaker>
+            <p>Trouvez un moyen et songez que le temps presse et qu’il vous faut prendre una résolution. Don Juan joue ici le rôle du « Chien du jardinier ». Sans que don Juan l’apprenne, vous pouvez si vous le voulez, parler au fils de don Beltran; la ruse fleurit chez la femme comme dans son centre naturel.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>J’imagine un moyen qui pourrait être utile pour le cas. Lucecia est mon amie. Elle peut faire appeler don Garcia; je serai secrètement auprès d’elle à son balcon, et j’arriverai à mon but.</p>
+          </sp>
+          <sp who="#isa">
+            <speaker>ISABEL.</speaker>
+            <p>Votre esprit pouvait seul inventer ce moyen merveilleux.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Pars sur l’heure et dis mon projet à Lucrecia, Isabel.</p>
+          </sp>
+          <sp who="#isa">
+            <speaker>ISABEL.</speaker>
+            <p>J’y cours sur les ailes de vent.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Je ne lui donne qu’un moment, et ce moment est un siècle.</p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="11">
+          <head>SCÈNE XI</head>
+          <stage>DON JUAN, qui rencontre Isabel en entrant, JACINTA.</stage>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Puis-je parler à ta maîtresse ?</p>
+          </sp>
+          <sp who="#isa">
+            <speaker>ISABEL.</speaker>
+            <p>Un seul instant. C’est l’heure où mon maître don Sancho va venir diner.</p>
+          </sp>
+          <stage>Elle sort.</stage>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Jacinta, puisque je te perds et que je me perds aussi, puisque...</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Êtes-vous fou ?</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Qui pourrait demeurer dans son bon sens quand il s’agit de vous.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Contenez-vous et parlez bas, mon oncle est dans sa chambre.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Vous ne pensez guère à lui quand vous allez souper au bord de l’eau.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Que dites-vous, avez-vous perdu l’esprit ?</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Quand vous trouvez le moyen de courir la nuit avec un autre, pour moi vous avez un oncle !</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Courir la nuit, avec un autre ? Songez que, cela fut-il vrai , c’est une grande audace de me parler ainsi; à plus forte raison, si c’est un rêve de votre imagination.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Je sais que c’est don Garcia qui donna cette fête sur l’eau. Les feux qui éclairèrent l’arrivée de votre coche, Jacinta, et les flambeaux qui à minuit s’allumèrent dans le pré comme un soleil, et les quatre buffets garnis de vaisselle variée, et les quatre tentes peuplées d’instrumenta et de chanteurs, je connais tout et je sais traîtresse, que le jour te trouva sur la rivière. Dis aussi que c’est un rêve de ma folle imagination; dis aussi que tu es libre de vivre de la sorte quand mon affront et la légéreté m’obligent à te reprocher…</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>J’atteste le ciel !</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Trêve de mensonges… Tais-toi; les excuses ne peuvent rien quand l’offense est avérée. Hypocrite, je connais mon malheur; ne nie pas que tu ne sois perdue pour moi; la trahison m’a blessè, mais je suis heureux d’être désabusé. Si tu nies ce que j’ai entendu, tu avoueras au moins ce que j’ai vu; ce que tu nies je l’ai lu aujourd’hui dans les yeux. Et son père ? que venait-il faire ici ? que t’a-t-il dit ? La nuit te trouver avec le fils, le jour avec le père ? Je l’ai vu; tu te disposes en vain à me tromper. Je sais que tes hésitations sont nées de ton inconstance. Mais cruelle ! par le ciel ! tu ne vivras pas heureuse. Que le volcan de ma jalousie te brûle et qu’il éclate, et que celui à qui je dois mon malheur te perde comme je te perds !</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Es-tu dans ton bon sens ?</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Je suis un amant au désespoir.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Reviens. Écoute; si la vérité vaut quelque chose, tu reconnaîtras tout de suite combien tu es mal informé.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Je m’en vais. Ton oncle vient.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Il ne vient pas. Écoute , je veux te convaincre.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>C’est en vain, si tu ne m’accordes la main.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Ma main ? Voici mon oncle qui entre.</p>
+          </sp>
+        </div2>
+      </div1>
+      <div1 type="act" n="2">
+        <head>Acte II</head>
+        <stage>Une salle chez don Beltran.</stage>
+        <div2 type="scene" n="1">
+          <head>SCÈNE PREMIÈRE.</head>
+          <stage>DON GARCIA, en pourpoint, lisant un papier. TRISTAN et CAMINO.</stage>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>(Il lit.) « La gravité de la circonstance me force à sortir de la règle que m’impose ma condition. Votre Grâce saura tout cette nuit à un balcon que lui indiquera le porteur, avec d’autres choses qui ne se peuvent écrire. Que Notre-Seigneur vous garde, etc. » (Parlé.) Qui m’écrit ce billet ?</p>
+          </sp>
+          <sp who="#cam">
+            <speaker>CAMINO.</speaker>
+            <p>Doña Lucrecia de Luna.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>
+              <seg type="aside">Sans doute l’ange qui vit dans mon coeur.</seg>
+            </p>
+          </sp>
+          <sp who="#cam">
+            <speaker>CAMINO.</speaker>
+            <p>Oui, seigneur.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Heureuse destinée ! Par ma vie ! renseignez-moi sur cette dame.</p>
+          </sp>
+          <sp who="#cam">
+            <speaker>CAMINO.</speaker>
+            <p>Je m’étonne fort que sa renommée ne soit pas venue jusqu’à vous. Puisque vous l’avez vue, je m’abstiens de dire qu’elle est belle : elle est spirituelle et vertueuse; son père est veuf et âgé. Elle héritera de deux mille ducats de rente.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Tu entends, Tristan ?</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>J’entends, et cela ne me fâche point.</p>
+          </sp>
+          <sp who="#cam">
+            <speaker>CAMINO.</speaker>
+            <p>Quant à être bien née, il n’y a qu’à dire son nom : son père est Luna, sa mère fut une Mendoza, aussi purs qu’un corail. Doña Lucrecia mérite en effet un roi pour mari.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Amour, je te demande les ailes pour m’élever jusqu’à un tel objet ! Où habite-t-elle ?</p>
+          </sp>
+          <sp who="#cam">
+            <speaker>CAMINO.</speaker>
+            <p>A la Vitoria.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Mon bonheur est certain. Dites-moi si c’est vous qui me guiderez vers ce ciel si plein de gloire?</p>
+          </sp>
+          <sp who="#cam">
+            <speaker>CAMINO.</speaker>
+            <p>Je pense à vous servir tous deux.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Je vous en serai reconnaissant.</p>
+          </sp>
+          <sp who="#cam">
+            <speaker>CAMINO.</speaker>
+            <p>Je reviendrai ce soir pour vous chercher, quand sonneront dix heures.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Portez cette réponse à Lucrecia.</p>
+          </sp>
+          <sp who="#cam">
+            <speaker>CAMINO.</speaker>
+            <p>Reposez en Dieu !</p>
+          </sp>
+          <stage>Il sort.</stage>
+        </div2>
+        <div2 type="scene" n="2">
+          <head>SCÈNE II</head>
+          <stage>DON GARCIA, TRISTAN.</stage>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Ciel, quelle félicité ! Amour, quel est ce bonheur ? Vois, Tristan, comme ce cocher a bien appelé la plus belle cette Lucrecia que j’aime. Il est certain que c’est celle à qui j’ai parlé qui m’envoie ce billet.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Évidente présomption.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Pourquoi l’autre m’aurait-elle écrit ?</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>En fin de compte, vous sortirez bientôt de doute; puisque cette nuit vous la pourrez reconnaître en lui parlant.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Il est sûr que je ne m’y tromperai pas, car mon âme à gardé le doux son de la voix qui m’a tué.</p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="3">
+          <head>SCÈNE III</head>
+          <stage>UN PAGE, avec un billet. LES MÊMES.</stage>
+          <sp who="#paj">
+            <speaker>LE PAGE.</speaker>
+            <p>Ceci, seigneur don Garcia, est pour vous.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Ne restez pas ainsi.</p>
+          </sp>
+          <sp who="#paj">
+            <speaker>LE PAGE.</speaker>
+            <p>Je suis votre serviteur.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>
+              <seg type="aside">« Je veux vérifier certaine chose importante, seul avec vous. J’attendrai à sept heures, à San Blas.— Don Juan de Sosa. »</seg>
+            </p>
+          </sp>
+          <stage>Le page sort.</stage>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Seigneur, vous changez de couleur, que s’est-il passé ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Bien, Tristan.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Je ne puis le savoir ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Non.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>
+              <seg type="aside">C’est sans doute une nouvelle fâcheuse.</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Apporte-moi mon manteau et mon épée. (Tristan sort.) Quel prétexte ai-je pu lui donner ?</p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="4">
+          <head>SCÈNE IV</head>
+          <stage>DON BELTRAN, DON GARCIA, ensuite TRISTAN.</stage>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Garcia…</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Seigneur.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Nous sortirons aujourd’hui tous les deux à cheval, j’ai une affaire à traiter avec vous.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Avez-vous d’autres ordres ?</p>
+          </sp>
+          <stage>Tristan revient et met à don Garcia son manteau.</stage>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Où allez-vous par ce soleil brûlant ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Je vais jouer chez le comte notre voisin.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Je n’aime pas, qu’arrivé d’hier, vous vous alliez jeter à la tête de mille gens que vous ne connaissez pas, à moins que vous n’observiez avec beaucoup de soin deux conditions, jouer argent comptant et compter vos paroles. Voilà mon avis, faites à votre guise.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Il est juste que je suive votre conseil.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Faites seller un cheval à votre choix.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>J’en vais donner l’ordre.</p>
+          </sp>
+          <stage>Il sort.</stage>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Adieu.</p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="5">
+          <head>SCÈNE V</head>
+          <stage>DON BELTRAN, TRISTAN.</stage>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>
+              <seg type="aside">Ce que son précepteur m’a dit m’a fort contrairé.</seg>
+            </p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Seigneur, toute la journée.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Sans tenir compte de ce qu’il est mon fils, si tu es toujours ce cœur fidèle que j’ai connu, dis-moi quelle impression il a produit sur toi ?</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Quelle impression a-t-il pu me laisser en un temps si court ?</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Tu es une langue prudente. Pour un esprit comme le tien, ce temps a suffi et au delà. Dis-le moi, par ma vie, sans flatterie.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Don Garcia, mon seigneur, quoi, vraiment ? Je dois parler puisque vous avez juré par votre vie…</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>De cette façon tu acquiers des droits éternels à ma reconnaissance.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Il a un excellent esprit et des pensées ingénieuses, mais des caprices de jeune homme et una arrogance imprudente. Il est encore plein du lait de Salamanque, et ses lèvres ont gardé l’odeur contagieuse de cette troupe écervelée; aujourd’hui, dans l’espace d’une heure, il a fait cinq ou six mensonges.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Est-il possible !</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Pourquoi vous étonner. Il est capable de faire pis. Ses mensonges sont si nombreux que quiconque peut l’y surprendre.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Ah ! Dieu !</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Je ne vous dirais pas des choses si chagrinantes si vous ne m’y contraigniez.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Je connais ta fidélité et ton dévoûment.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Votre prudence, seigneur, saura me protéger si don Garcia apprend tout ceci.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Fie-toi à moi : perds, Tristan, toute crainte. Cours à l’instant faire préparer les chevaux.</p>
+          </sp>
+          <stage>Tristan sort.</stage>
+        </div2>
+        <div2 type="scene" n="6">
+          <head>SCÈNE VI</head>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Dieu saint ! si vous permettez une telle chose c’est qu’il en doit être ainsi. Un fils unique, la consolation que le ciel donna sur cette terre à ma triste vieillesse, tout perdre en un jour ! C’est bien; les pères eurent toujours de pareils chagrins; ceux qui ont beaucoup vécu ont vu beaucoup de malheurs. Patience, il faut aujourd’hui, si je le puis, conclure son mariage. Je veux sur-le-champ remédier à ce dommage avant que sa légèreté connue de toute la ville, n’empèche les alliances que sa naissance peut me faire espérer. Par bonheur, les soucis de ce nouvel état le corrigeront d’un si vilain défaut. On se trompe si l’on pense que les querelles et les remontrances puissent jamais guérir un tel penchant.</p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="7">
+          <head>SCÈNE VII</head>
+          <stage>TRISTAN, DON BELTRAN.</stage>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Sentant qu’ils vont sortir, les chevaux battent de leurs fers les cailloux de l’allée. Dans l’espoir d’une si grande fête, le « Fleur-de-Pêcher » s’amuse à essayer tout seul ses changements de pied, et le bai, qui veut être l’emule du maître qu’il porte, étudie avec une ardeur nouvelle son mouvement et son allure.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Avise don Garcia.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Il vous attend dans un si galant costume que toute la ville va croire que c’est le jour qui se lève.</p>
+          </sp>
+          <stage>Ils sortent.</stage>
+          <stage>Une salle chez don Sancho.</stage>
+        </div2>
+        <div2 type="scene" n="8">
+          <head>SCÈNE VIII</head>
+          <stage>ISABEL, JACINTA.</stage>
+          <sp who="#isa">
+            <speaker>ISABEL.</speaker>
+            <p>Lucrecia a pris aussitôt la plume pour mettre à exécution votre project ingénieux, et elle lui a écrit qu’elle l’attendrait cette nuit à son balcon pour traiter certaine affaire, afin que vous puissiez parler à don Garcia.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Lucrecia me rend un grand service.</p>
+          </sp>
+          <sp who="#isa">
+            <speaker>ISABEL.</speaker>
+            <p>Elle montre en toute occasion qu’elle est votre véritable amie.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Est-il tard ?</p>
+          </sp>
+          <sp who="#isa">
+            <speaker>ISABEL.</speaker>
+            <p>Il est cinq heures.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Même en dormant, l’image de Don Juan me poursuit. Dans ma sieste d’aujourd’hui, j’ai rêvé qu’il était jaloux d’un autre galant.</p>
+          </sp>
+          <sp who="#isa">
+            <speaker>ISABEL.</speaker>
+            <p>Ah ! madame, voici don Beltran, et avec lui le Péruvien !</p>
+          </sp>
+          <stage>Elle regarde par la fenêtre.</stage>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Que dis-tu ?</p>
+          </sp>
+          <sp who="#isa">
+            <speaker>ISABEL.</speaker>
+            <p>Je dis que celui qui vous parla aujourd’hui dans la Plateria vient à cheval avec lui. Voyez-le.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>(Regardant par la fenêtre.) Par ma vie, tu dis vrai, c’est lui. Comprend-t-on cela ?... Comment ce fourbe s’est-il donné pour Péruvien, s’il est fils de don Beltran ?</p>
+          </sp>
+          <sp who="#isa">
+            <speaker>ISABEL.</speaker>
+            <p>Les prétendants attribuent toujours une grande influence à l’argent et par ce moyen il aura voulu trouver la porte de votre cœur. Il a dû s’imaginer qu’il lui serait ici plus profitable d’être Midas que Narcisse.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>En disant qu’il m’a vue il y a un an, il a aussi menti puisque don Beltran assure que son fils arriva hier de Salamanque à Madrid.</p>
+          </sp>
+          <sp who="#isa">
+            <speaker>ISABEL.</speaker>
+            <p>A bien regarder, madame, tout cela peut être vrai. Il a pu vous voir alors, quitter Madrid et à présent revenir de Salamanque. Et quand il n’en serait rien pourquoi vous étonner que celui qui aspire à se faire aimer d’un objet de tant de valeur, s’appuie sur un mensonge pour donner du crédit à son amour ? En outre je tiens pour avéré, si mon instinct ne me trompe pas, qu’il n’exagère point l’ardeur de sa passion; la visite que vous fit le père est une flèche partie de sa main. Ce n’est pas par hasard, madame, que le jour même où il vous voit et où il montre qu’il vous aime, son père vient demander votre main pour don Garcia.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Fort bien, mais, me semble-t-il, le temps qui s’est écoulé depuis que le fils m’a parlé jusqu’à la visite du père, est fort court.</p>
+          </sp>
+          <sp who="#isa">
+            <speaker>ISABEL.</speaker>
+            <p>Il a su qui vous étiez. Il a rencontré son père dans la Plateria, il lui a dit un mot, et le vieillard qui n’ignore pas votre condition et qui adore justement don Garcia, est accouru aussitôt.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Enfin, advienne que pourra. Je me contente de ce qu’il m’offre. Le père me veut, le fils me désire. Prends le mariage pour fait.</p>
+          </sp>
+          <stage>La promenade d&apos;Atocha.</stage>
+        </div2>
+        <div2 type="scene" n="9">
+          <head>SCÈNE IX</head>
+          <stage>DON BELTRAN, DON GARCIA.</stage>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Que vous en semble ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>De ma vie je ne vis un meilleur animal.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Belle bête !</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Bien dressée, quelle gaieté ! quelle ardeur !</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Votre frère don Gabriel, que Dieu lui pardonne, mettait toute sa joie en lui.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Puisque la solitude d’Atocha nous y invite, déclarez, seigneur, votre volonté.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Vous diriez mieux mon chagrin. Etes-vous gentilhomme, Garcia ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Je me tiens pour votre fils.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Et suffit-il d’être mon fils pour être gentilhomme ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Je le pense, seigneur.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Quelle erreur ! Celui-là seul qui agit en gentilhomme l’est. Qui donna naissance aux maisons nobles ? Les illustres actions de leurs premiers auteurs. Sans tenir compte de la naissance, des hommes humbles dont les actions furent grandes ont illustré leurs héritiers. C’est la bonne et la mauvaise conduite qui fait les mauvais et les bons. En est-il ainsi ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Que les grandes actions donnent la noblesse, je ne le nie pas; mais vous ne niez pas que sans elles la naissance la donne aussi.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Si celui qui est né sans l’honneur peut l’acquérir n’est-il pas certain que par contre celui qui naquit en le possédant peut le perdre ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Il est vrai.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Donc si vous commettez de honteuses actions, quoique vous soyez mon fils vous cessez d’être gentilhomme; donc si vos vices vous déshonorent publiquement, le blason paternel importe peu, les illustres ayeux ne servent pas. Comment se fait-il que la renommée vienne apporter jusqu’à mes oreilles vos mensonges et vos fourberies dont s’étonnait Salamanque ? Quel gentilhommeet quel néant ! Noble ou plébéien, si la seule accusation de mentir déshonore un homme que sera-ce donc de mentir réellement et de vivre sans honneur selon les lois humaines et sans me venger de celui que m’a dit que je mentais ? Avez-vous l’épée si longue, avez-vous la poitrine si dure que vous croyiez pouvoir vous venger quand une ville tout entière vous le dit ? Se peut-il qu’un homme ait de si viles pensées qu’il devienne l’esclave de ce vice sans plaisir et sans profit ? La jouissance retient les voluptueux; le pouvoir de l’or domine les avares, la gourmandise les gloutons, l’oisiveté et l’appat du gain les joueurs; la vengeance l’homicide, la gloriole et la présomption le spadassin; le besoin guide le voleur; tous les vices enfin portent avec eux plaisir ou profit, mais que tire-t-on du mensonge si ce n’est l’infamie et le mépris ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Qui dit que je mens a menti.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Ceci est encore un mensonge. Vous ne savez démentir qu’en mentant.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Si vous ne voulez pas me croire…</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Ne serais-je pas un sot de croire que vous seul dites la vérité et que toute une ville a menti ? Ce qui importe c’est de démentir cette réputation par vos actes, de penser que vous entrez dans un autre monde, de parler peu et vrai. Songez que vous êtes sous les yeux d’un roi si saint et si parfait que vos fautes ne peuvent trouver d’excuse dans les siennes; que vous vivez ici parmi les grands, titres et chevaliers, que s’ils connaissent votre vice ils ne vous garderont plus de respect, que vous avez une barbe au visage, une épée au côté, que vous naquîtes noble enfin et que je suis votre père. Je n’ai plus rien à vous dire. Cette réprimande, je l’espère, suffira pour qui a de la noblesse et de l’intelligence. Et maintenant, pour que vous sachiez que je veux votre bien, apprenez que je vous ai, Garcia, préparé un beau mariage.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>
+              <seg type="aside">Ah ! ma Lucrecia !</seg>
+            </p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Jamais mon fils, les cieux ne placèrent tant de qualités divines dans un objet humain, comme dans Jacinta, la fille de don Fernando Pacheco, de qui ma vieillesse atend de charmants petits-fils.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>
+              <seg type="aside">Oh ! Lucrecia ! s’il est possible, je n’appartiendrai qu’à toi !</seg>
+            </p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Qu’est cela ? Vous ne répondez pas ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>
+              <seg type="aside">Je serai à toi, vive le ciel !</seg>
+            </p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Vous devenez triste ? Parlez. Ne me tenez pas davantage en suspens.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Je m’afflige de ne pouvoir vous obéir.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Pourquoi ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Parce que je suis marié.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Marié ? Ciel ! qu’est-cela ? Comment ? Sans que je le sache ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>J’y fus contrait et c’est un secret.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Ah ! malheureux père !</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Ne vous affligez pas. Quand vous connaîtrez la cause, vous tiendrez l’effet pour heureux.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Achevez donc; ma vie pend à un cheveu.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>
+              <seg type="aside">C’est en ce moment que j’ai besoin de vous, subtilités de mon esprit !</seg>
+            </p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Les circonstances de l’affaire sont telles qu’il m’y faut reconnaître la force de la destinée qui t’a donné cette compagne. Je ne te blâme que d’une chose c’est de m’avoir tu tout ceci.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Je craignais de te causer du chagrin.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Si elle est de si bonne maison qu’importe qu’elle soit pauvre. Ce qu’il y a de pis c’est que je n’aie rien su; ayant engagé ma parole comment m’y prendre maintenant avec doña Jacinta ! vois dans quel embarras tu me mets ! remonte à cheval et rentre sur-le-champ afin que cette nuit nous causions de tes affaires.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Je serai à tes ordres quand sonnera l’Angelus.</p>
+          </sp>
+          <stage>DON BELTRAN sort.</stage>
+        </div2>
+        <div2 type="scene" n="10">
+          <head>SCÈNE X</head>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Tout s’est passé heureusement. Le vieillard s’en va persuadé. Il ne dira plus que le mensonge est sans plaisir et sans profit, car je suis ravi qu’il m’ait cru et le profit c’est d’éviter un mariage contre mon gré. Il est plaisant qu’il me querelle pour mes mensonges et qu’il croie tous les mensonges que je lui débite ! comme on persuade facilement celui qui aime ! et comme un homme qui ne sait pas mentir est facile à duper. Mais don Juan m’attend déjà. (A quelqu’un au dehors.) Holà ! amenez mon cheval. Il me tombe tant d’aventures que je crois devenir fou. J’arrivai hier et dans un même instant me voici avec un amour, un marriage et un duel.</p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="11">
+          <head>SCÈNE XI</head>
+          <stage>DON JUAN, DON GARCIA.</stage>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Vous avez agi en gentilhomme, don Garcia.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Qui pourrait, sachant ma naissance, soupçonner mon cœur ? Mais allons au fait pour lequel vous m’avez appelé. Dites, quel motif avez-vous eu, je brûle de le connaître, pour m’envoyer cette provocation ?</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>La dame à qui, d’après votre aveu vous donnâtes la nuit dernière une fête sur l’eau est la cause de mon mécontentement, et il y a deux ans que mon mariage avec elle, quoique différé, est arrêté. Vous êtes à Madrid depuis un mois. De ce fait, ainsi que de vous être caché de moi pendant tout ce temps, je conclus que ma contrariété ayant été si publique vous ne l’avez pas ignorée et qu’ainsi vous m’avez offensé. Je dis tout ce que j’ai à dire; vous ne devez plus poursuivre la femme que j’aime depuis si longtemps, ou si par hazard ma demande vous paraissait mal fondée, remettons-nous en à nos épées et que la dame reste au vainqueur.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Je regrette que sans être mieux informé du cas vous vous soyez déterminé à m’amener ici. La dame de ma fête, don Juan de Sosa, vive Dieu ! vous ne l’avez pas vue et vous ne pouvez l’épouser; c’est une femme mariée et elle est à Madrid depuis si peu de temps, que moi seul je sais que je l’ai pu voir. Et quand ce serait elle je vous donne ma parole de gentilhomme de ne pas la revoir ou de m’avouer un imposteur.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Vous avez ainsi dissipé mes soupçons et je demeure satisfait.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Et moi je ne le suis pas. Vous m’avez provoqué, cela ne peut se passer ainsi. Vous étiez libre de me faire venir en ce lieu, mais m’y ayant amené il est nécessaire, pour agir comme je le dois, que je n’en sorte que mort ou vainqueur.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Songez que malgré la satisfaction que m’ont pu donner vos paroles, la colère laisse encore en moi la mémoire de mes soupçons.</p>
+          </sp>
+          <stage>Ils dégainent et se battent.</stage>
+        </div2>
+        <div2 type="scene" n="12">
+          <head>SCÈNE XII</head>
+          <stage>DON FÉLIX, LES MÊMES.</stage>
+          <sp who="#fel">
+            <speaker>DON FÉLIX.</speaker>
+            <p>Halte-là, cavaliers ! je suis ici.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Qui vient arrêter mon bras ?</p>
+          </sp>
+          <sp who="#fel">
+            <speaker>DON FÉLIX.</speaker>
+            <p>Retenez vous vaillantes épées. Le motif de votre querelle n’existe pas.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Je l’avais dit à don Garcia mais s’y croyant obligé par mon cartel il a tiré l’épée.</p>
+          </sp>
+          <sp who="#fel">
+            <speaker>DON FÉLIX.</speaker>
+            <p>Il a agi en gentilhomme plein de valeur et de résolution; mais puisque vous voici arrêtés, faites moi la faveur de tendre la main et d’accorder votre pardon à un homme que la jalousie égara.</p>
+          </sp>
+          <stage>Don Juan et don Garcia se donnent la main.</stage>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>C’est justice. Mais à l’avenir, don Juan, dans un cas aussi grave, retenez vos emportements. Essayez tous les moyens avant d’envoyer un cartel; c’est folie de commencer par où l’on doit finir.</p>
+          </sp>
+          <stage>(Il sort.)</stage>
+        </div2>
+        <div2 type="scene" n="13">
+          <head>SCÈNE XIII</head>
+          <stage>DON JUAN, DON FÉLIX.</stage>
+          <sp who="#fel">
+            <speaker>DON FÉLIX.</speaker>
+            <p>Il est heureux que je sois arrivé a temps.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Me suis-je donc en effet trompé ?</p>
+          </sp>
+          <sp who="#fel">
+            <speaker>DON FÉLIX.</speaker>
+            <p>Oui.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>De qui l’avez-vous su ?</p>
+          </sp>
+          <sp who="#fel">
+            <speaker>DON FÉLIX.</speaker>
+            <p>D’un écuyer de Lucrecia.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Dites donc comment ?</p>
+          </sp>
+          <sp who="#fel">
+            <speaker>DON FÉLIX.</speaker>
+            <p>La vérité est que le coche et le cocher de doña Jacinta allèrent la nuit passée au bosquet du Pré, et qu’il y avait là une grand fête; mais le coche avait été prêté. Le hasard voulut qu’a l’heure où la belle Jacinta alla rendre visite à Lucrecia, se trouvassent auprès d’elle deux « matadoras », les premières de la quinte.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Celles qui habitaient le Carmen ?</p>
+          </sp>
+          <sp who="#fel">
+            <speaker>DON FÉLIX.</speaker>
+            <p>Elles mêmes. Elles emprutèrent le coche de doña Jacinta et sous le voile de la nuit elles s’en furent à la riviere. Votre page, que vous aviez chargé de suivre le coche, voyant deux dames s’y placer dans l’obscurité et ne sachant pas qu’il y avait des visiteuses dans la maison, crut que c’étaient Jacinta et Lucrecia qui sortaient.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>C’est naturel.</p>
+          </sp>
+          <sp who="#fel">
+            <speaker>DON FÉLIX.</speaker>
+            <p>Il suivit le coche prestement et quand il le vit dans le Pré, au milieu de la musique et d’un souper, il le quitta et revint vous chercher à Madrid; votre absence fut la cause de votre colère; si vous vous étiez trouvé là l’erreur se serait dissipée.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>En effet de là vient tout le mal; mais je suis si content de savoir que je m&apos;abusais que j’accepte la souffrance passée.</p>
+          </sp>
+          <sp who="#fel">
+            <speaker>DON FÉLIX.</speaker>
+            <p>J’ai fait une autre découverte qui est ma foi bien plaisante.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Parlez.</p>
+          </sp>
+          <sp who="#fel">
+            <speaker>DON FÉLIX.</speaker>
+            <p>C’est que ledit don Garcia débarqua hier de Salamanque à Madrid, qu’il se mit au lit en arrivant, qu’il dormit toute la nuit et que la fête et le festin qu’il nous a contés sont une pure invention.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Que dites-vous ?</p>
+          </sp>
+          <sp who="#fel">
+            <speaker>DON FÉLIX.</speaker>
+            <p>La vérité.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Don Garcia serait un imposteur ?</p>
+          </sp>
+          <sp who="#fel">
+            <speaker>DON FÉLIX.</speaker>
+            <p>Un aveugle le verrait. Une si grande variété de tentes, de buffets, de vaisselle d’or et d’argent, tant de plats, tant de chœurs d’instruments et de chanteurs, n’était-ce pas un mensonge patent ?</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Ce qui me fait douter encore, c’est de trouver un menteur dans un homme si vaillant dont l’épée donnerait du souci à Hercule lui-même.</p>
+          </sp>
+          <sp who="#fel">
+            <speaker>DON FÉLIX.</speaker>
+            <p>Il tient probablement de l’habitude le mensonge et de la naissance le courage.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Allons, je vais demander, Félix, mon pardon à Jacinta, et lui raconter comment ce menteur m’a pu rendre jaloux.</p>
+          </sp>
+          <sp who="#fel">
+            <speaker>DON FÉLIX.</speaker>
+            <p>A compter d’aujourd’hui ne le croyez plus, don Juan.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Ses vérités même seront à l’avenir des fables pour moi.</p>
+          </sp>
+          <stage>Ils sortent.</stage>
+        </div2>
+        <div2 type="scene" n="14">
+          <head>SCÈNE XIV</head>
+          <stage>Une rue. Il fait nuit.</stage>
+          <stage>TRISTAN, DON GARCIA, CAMINO.</stage>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Que mon père me pardonne; j&apos;ai été contraint à le tromper.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>L’excuse fut ingénieuse. Mais dites-moi qu’allez vous inventer à présent pour qu’il n’apprenne pas que vous avez inventé ce mariage ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>J’intercepterai les lettres qu’il écrira à Salamanque, et j’y répondrai moi-même de façon à entretenir le roman tant que je pourrai.</p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="15">
+          <head>SCÈNE XV</head>
+          <stage>JACINTA, LUCRECIA, ISABEL, à la fenêtre. DON GARCIA, TRISAN et CAMINO, dans la rue.</stage>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>(A Lucrecia.) Don Beltran est revenu avec cette nouvelle et bien désappointé, quand je commençais à me faire à l’idée de ce mariage.</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>Le fils de don Beltran est le faux indien !</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Oui, amie.</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>De qui tiens-tu l’historie du banquet ?</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>De don Juan.</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>Quand l’as-tu vu ?</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Ce soir, et en me la contant il m’a fort contrariée.</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>Sa fourberie est grande ! il mérite que tu le punisses sévèrement.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Il me semble que ces trois hommes s’approchent du balcon.</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>Ce sera don Garcia qui vient au rendez-vous; voici l´heure.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Toi, Isabel, pendant que nous lui parlons, épie nos vieillards.</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>Mon père est en train de conter une longue historie à ton oncle.</p>
+          </sp>
+          <sp who="#isa">
+            <speaker>ISABEL.</speaker>
+            <p>Je me charge de revenir pour vous aviser.</p>
+          </sp>
+          <stage>Elle sort.</stage>
+          <sp who="#cam">
+            <speaker>CAMINO.</speaker>
+            <p>(A don Garcia.) Voici le balcon où tant de bonheur vous attend.</p>
+          </sp>
+          <stage>Il sort.</stage>
+        </div2>
+        <div2 type="scene" n="16">
+          <head>SCÈNE XVI</head>
+          <stage>DON GARCIA et TRISTAN, dans la rue, JACINTA et LUCRECIA, au balcon.</stage>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>
+              <seg type="aside">Tu es l’héroïne de l’histoire, réponds en mon nom.</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Êtes-vous Lucrecia ?</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Vous êtes don Garcia ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Je suis celui qui trouva aujourd’hui dans la rue des Orfèvres le joyau le plus précieux que fabriqua le ciel; celui qui, en vous épousant, vous estime un tel prix, qu’enflammé d’amour, il vous donne sa vie et son âme. Je suis enfin celui qui s’enorgueillit d’être à vous, et qui commence à vivre aujourd’hui parce qu’il est l’esclave de Lucrecia.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>
+              <seg type="aside">Amie, ce cavalier adore toutes les femmes.</seg>
+            </p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>
+              <seg type="aside">L’homme est enclin à tromper.</seg>
+            </p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>
+              <seg type="aside">Celui-ci est un grand fourbe.</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>J’attends, madame, les ordres qu’ill vous plaira de me donner.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Ce que je voulais vous dire ne peut avoir lieu…</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>
+              <seg type="aside">Est-ce elle ?</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>
+              <seg type="aside">Oui.</seg>
+            </p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Je vous avais préparé un beau mariage, mais je sais maintenant que vous ne pouvez vous marier.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Pourquoi ?</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Parce que vous êtes marié.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Moi, marié ?</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Vous.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Je suis garçon, vie Dieu ! Celui qui vous a dit cela, vous a trompée.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>
+              <seg type="aside">Vit-on un plus grand imposteur ?</seg>
+            </p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>
+              <seg type="aside">Il ne sait que mentir.</seg>
+            </p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Vous voulez me persuader une telle chose ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Vive Dieu ! Je suis garçon !</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>
+              <seg type="aside">Et il le jure !</seg>
+            </p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>
+              <seg type="aside">Toujours ce fut la coutume du menteur; doutant de son crédit, il jure pour être cru.</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Si c’était votre blanche main que le ciel destinât à combler mon bonheur, faites en sorte que je ne perde pas ce bien souverain, car je puis prouver facilement la fausseté de ce bruit.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>
+              <seg type="aside">Avec quelle aisance il ment ! Ne semble-t-il pas qu’il dise la vérité ?</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Je vous épouserai, madame, et ainsi vous me croirez.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Vous êtes homme à vous marier trois cents fois dans une heure.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Vous avez de moi bien mauvaise opinion.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>C’est un juste châtiment. Je ne puis croire un seul instant celui qui m’a dit ce matin, qu’il était Péruvien, quand il est né à Madrid, celui qui étant arrivè d’hier, m’a affirmé qu’il était ici depuis une année, qui ayant avoué ce soir qu’il est marié à Salamanque, vient se dédire en ce moment, et qui, après avoir dormi toute la nuit dans son lit, raconte qu’il l’a passée sur la rivière donnant une fête à une dame.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>
+              <seg type="aside">Elle sait tout !</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Ma glorie ! écoutez-moi !...et je vous dirai la vérité pure; je sais par où le récit pêche : je passe sur les autres détails qui sont de peu d’importance pour arriver au mariage, qui est la grande affaire. Si vous étiez la cause de cette affirmation que j’ai faite que j’étais marié, Lucrecia, serait-ce une faute d’avoir menti ?</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Moi, la cause ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Oui, madame.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Comment ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Je veux vous le dire.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>
+              <seg type="aside">Écoute, le fourbe va raconter de jolies histoires.</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Mon père a voulu aujourd’hui me donner une autre femme. Mais moi, qui suis tout à vous, j’ai imaginé de trouver une excuse; comme j’espère obtenir votre main, pour toutes les autres femmes je suis marié, pour vous seul je suis garçon; et comme votre billet est venu m’encourager, j’ai placé en lui ma résistance à toute autre union. Tout s’est passé ainsi; ce mensonge ne doit pas vous étonner puisqu’il prouve la vérité de mon affection.</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>
+              <seg type="aside">Mais s’il était vrai…</seg>
+            </p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>
+              <seg type="aside">Quelle bonne histoire et comme il l’a improvisée !</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Aujourd’hui, pour la première fois, madame, votre grande beauté me frappa; encore en ce moment, l’amour me force à vous dire la vérité. Si la cause est divine, l’effet a dû être un miracle, le dieu enfant ne chemine pas avec des pieds mais avec des ailes. Dire qu’il vous faut du temps pour réduire une âme, ce serait, Lucrecia, nier votre divin pouvoir. Vous prétendez que sans vous connaître, je suis hors de moi. Plaise à Dieu, que je ne vous eusse pas connue, pour faire plus encore en vous aimant ! Mais, je vous connais bien, je sais quelles sont vos qualités, que vous êtes une Lune sans éclipse, que vous êtes une pure Mendoza, que vous avez perdu votre mère, que vous êtes fille unique de votre père, dont le revenu passe mille doublons. Voyez si je suis mal informé ! Plaise à Dieu ! que vous fussiez aussi bien instruite sur mon compte !</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>
+              <seg type="aside">Il me donne presque du souci.</seg>
+            </p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Enfin Jacinta n’est-elle pas belle, n’est-elle pas sage, riche et telle que l’homme le mieux né souhaiterait l’avoir pour épouse ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Elle est sage, riche et belle, mais… mais, elle ne me plaît pas.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Enfin, parlez, quel est son défaut ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Le plus grand de tous : je ne l’aime point.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Je voulais pourtant vous marier ensemble, c’est le seul motif du rendez-vous que je vous ai donné.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Ce sera donc un vain désir. Don Beltran, mon père, m’ayant fait aujourd’hui la même proposition, je lui répondis que j’étais marié. Et si vous, madame, vous avez l’intention de me tenir le même langage, pardonnez-moi, pour ne vous point céder, j’irais me marier en Turquie. C’est la vérité, vrai Dieu ! Mon amour est ainsi fait, que j’abhore, ma Lucrecia, tout ce qui n’est pas vous.</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>
+              <seg type="aside">Hélas !</seg>
+            </p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Me traiter avec une duplicité si évidente ! Répondez, manquez-vous de mémoire, ou avez-vous perdu toute honte ? Comment, aprés avoir dit aujourd’hui à Jacinta que vous l’aimiez, le niez-vous à présent ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>(A Jacinta) Moi ? vive Dieu ! je n’ai parlé qu’a vous depuis une année, dans cette ville.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Le mensonge effronté peut-il aller jusque-là ? Si vous osez mentir à propos des choses que j’ai vues, quelle vérité puis-je attendre de vous ? Allez avec Dieu, et de moi, vous pouvez, dès à présent, penser que si je vous écoute une autre fois, ce sera pour me divertir, comme celui qui passerait l’ennuit de ses loisirs à lire les fables d’Ovide.</p>
+          </sp>
+          <stage>Elle disparaît du balcon.</stage>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Écoutez, belle Lucrecia.</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>
+              <seg type="aside">Je reste confondue.</seg>
+            </p>
+          </sp>
+          <stage>Elle disparaît.</stage>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Je perds la tête. La vérité a-t-elle si peu de crédit ?</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Oui, dans une bouche qui ment.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Elle ne croit pas un mot de ce que je dis !</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Pourquoi vous étonner après lui avoir débité quatre ou cinq mensonges… Dorénavant, persuadez-vous que celui qui ment dans les petites choses perd tout crédit quand il dit vrai dans les grandes.</p>
+          </sp>
+        </div2>
+      </div1>
+      <div1 type="act" n="3">
+        <head>Acte III</head>
+        <stage>Une salle chez don Sancho.</stage>
+        <div2 type="scene" n="1">
+          <head>SCÉNE PREMIÈRE</head>
+          <stage>CAMINO, tenant une lettre, LUCRECIA.</stage>
+          <sp who="#cam">
+            <speaker>CAMINO.</speaker>
+            <p>Ce billet m’a été remis pour vous par Tristan, le confident de don Garcia, comme je suis le vôtre. Quoique son peu de bonheur l’ait réduit à la condition de valet, c’est un homme bien né; il vous supplie de donner une réponse, et il jure que don Garcia est fou.</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>Chose étrange ! est-il possible qu’un homme aussi constant me trompe ? Le plus fidèle amant se lasse s’il n’est pas aimé, et celui-ci qui fait semblant d’aimer, persiste, quoique dédaigné !</p>
+          </sp>
+          <sp who="#cam">
+            <speaker>CAMINO.</speaker>
+            <p>Si l’on en peut juger par l’apparence, je jurerais que ses maux sont réels, puisque je les ai vus. Celui qui rôde nuit et jour dans votre rue avec tant de constance, celui qui épie avec tant d’attention vos jalousies fermées, celui qui vous voit vous retirer de votre balcon à son arrivée, sans jeter sur lui un coup d’œil, et qui pourtant demeure constant dans son amour, celui qui pleure, qui se désespère, qui me donne de l’argent parce que je suis à vous, ce qui est de nos jours le signe le plus concluant, je n’hésite pas à affirmer que c’est folie de prétendre qu’il ment.</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>On voit bien, Camino, que tu ne l’as pas entendu mentir. Plût à Dieu qu’il m’aimât ! S’il disait vrai, ses souffrances auraient bientôt trouvé un port. Ses exagérations, quoique je n’y aie point cru, ont pu, au moins éveiller mes pensées, mais il est insensé de croire un menteur; comme le mensonge n’est pas forcé et que chacun peut dire la vérité, l’espérance et mon propre amour m’obligent à croire que pour moi il peut changer ses habitudes. Et ainsi, par souci de mon honneur, s’il me trompe en me flattant et si son amour est vrai, je le croirai digne de mon affection, et tu me verras si clairvoyante sur le bien et le mal, que je ne me laisserai pas duper par ses fourberies, et que je rendrai justice aux vérités qu’il dira.</p>
+          </sp>
+          <sp who="#cam">
+            <speaker>CAMINO.</speaker>
+            <p>Je partage votre sentiment.</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>Tu lui confieras donc que dans ma cruauté j’ai déchiré son billet sans le lire; et que c’est là toute ma réponse. Et aussitôt, tu ajouteras, comme de toi-même, qu’il ne doit pas désespérer, et que s’il tient à me voir, il aille ce soir à l’octave de la Magdalena.</p>
+          </sp>
+          <sp who="#cam">
+            <speaker>CAMINO.</speaker>
+            <p>Je cours.</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>Je mets mon espoir en toi.</p>
+          </sp>
+          <sp who="#cam">
+            <speaker>CAMINO.</speaker>
+            <p>Elle ne se perdra pas avec moi. Elle est sur le chemin.</p>
+          </sp>
+          <stage>Ils sortent.</stage>
+        </div2>
+        <div2 type="scene" n="2">
+          <head>SCÉNE II</head>
+          <stage>Une salle chez don Beltran.</stage>
+          <stage>DON BELTRAN, DON GARCIA, TRISTAN.</stage>
+          <stage>Don Beltran présente une lettre ouverte à don Garcia.</stage>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Avez-vous écrit, Garcia ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>J’écrirai cette nuit.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Je vous donne ma lettre ouverte afin qu’après l’avoir lue, vous écriviez dans le même sens à votre beau-père. J’ai résolu que vous iriez en personne chercher votre femme; c’est convenable; car pouvant l’amener vous-même ce serait lui témoigner peu d’estime que de l’envoyer chercher.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Il est vrai; mais à présent mon voyage serait sans effet.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Pourquoi ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Parce qu’elle est grosse, et jusqu’au moment où elle te donnera un heureux petit fils, il n’est pas prudent de compromettre sa santé sur un grand chemin.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Je sais; dans cet état ce serait une folie de voyager. Mais comment ne m’as-tu pas dit cela, Garcia ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Parce que je l’ignorais. Dans le billet que je reçus hier doña Sancha m’apprend que sa grossesse vient d’être declarée.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Si elle me donne un héritier de mon nom, elle rendra un vieillard heureux. (Il lui reprend sa lettre.) Il faut que j’ajoute que je me rejouis de cet événement. Mais dis-moi, comment s’appelle ton beau-père ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Qui ?</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Ton beau-père.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>
+              <seg type="aside">Ici je m’embrouille.</seg>
+            </p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Ou je me suis trompé, ou une autre fois tu l’as nommé don Pédro.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Je me souviens de cela; mais, seigneur, il porte les deux noms.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Diégo et Pédro ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Que cela ne vous surprenne pas. Le chef de la maison doit porter le nom de don Diégo; avant d’hériter, mon beau-père se nommait don Pédro. Depuis on l’appelle tantôt don Pédro et tantôt don Diégo.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Cela se voit en effet dans beaucoup de familles en Espagne. Je vais lui écrire.</p>
+          </sp>
+          <stage>Il sort.</stage>
+        </div2>
+        <div2 type="scene" n="3">
+          <head>SCÉNE III</head>
+          <stage>DON GARCIA, TRISTAN.</stage>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Cette fois il vous a mis dans un bel embarras.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Tu as entendu l’histoire ?</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Elle méritait d’être entendue. Celui qui ment a besoin de beaucop d’esprit et d’une grande mémoire.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Je me suis vu pris.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Tout cela aura une fin, seigneur.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Quand je connaîtrai le bon ou le mauvais résultat de mon amour. Quelles nouvelles de Lucrecia ?</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>J’imagine, quoiqu’elle se donne pour cruelle, que vous triompherez de Lucrecia sans la violence de Tarquin !</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Elle a reçu mon billet ?</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Oui, quoiqu’elle ait recommandé à Camino de dire qu’elle l’avait déchiré; il m’a fait celle confidence. Et puisqu’elle a accepté votre message, vos affaires ne vont pas mal, si je m’en rapporte à celle épigramme qu’ecrivait Martial à Nevia : « J’ai écrit, Nevia n’a pas répondu; pour le moment elle est cruelle, mais elle s’adoucira puisqu’elle a lu ce que je lui ai écrit. »</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Je crois que Martial a raison.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Camino est pour vous, et il promet de vous révéler les secrets du cœur de sa maîtresse; il tiendra sa parole si vous tenez la vôtre; pour provoquer des aveux il n’y a pas de corde comme l’argent; et il ne serait pas mal de conquérir avec des présents cette ingrate, puisque l’amour tue avec des flèches d’or.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Je ne t’ai jamais vu si grossier dans les jugements. Est-ce là une femme qui se puisse conquérir avec de l’argent ?</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Virgile dit que Didon s’énamoura du Troyen autant à cause de ses présents que par l’aide de Cupidon. Et c’était une reine !... Que mes grossiers jugements ne vous étonnent point : les écus triomphent des écus ! les diamants combattent les diamants !</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>N’as-tu pas vu que l’offre que je lui fins dans la Plateria l’a offensée !</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Votre offre a pu l’offenser, seigneur, mais vos cadeaux non. Réglez-vous sur l’usage : dans ce pays on ne cassa jamais les bras ni les jambes à personne pour l’offre d’un cadeau.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Fais qu’elle consente et je veux lui donner un monde.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Camino vous acheminera; car c’est là le pôle de cette sphère. Et pour que vous sachiez que votre amour est en bonne situation, elle lui a recommandé de vous dire, comme venant de lui, que Lucrecia allait aujourd’hui à la Magdalena, à la fête de l’octave.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Doux allégement de ma peine !... Tu me donnes là des nouvelles qui vont me rendre fou !</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Je vous les donne peu à peu pour que le goût vous en reste plus longtemps.</p>
+          </sp>
+          <stage>Ils sortent.</stage>
+        </div2>
+        <div2 type="scene" n="4">
+          <head>SCÉNE IV</head>
+          <stage>Cloître du couvent de la Magdalena, avec une porte communiquant à l’église.</stage>
+          <stage>JACINTA, LUCRECIA, avec leurs mantes.</stage>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Don Garcia poursuit-il son dessein ?</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>Quoique je connaisse son habitude de tromper, je demeure pourtant dans le doute devant sa constance.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Peut-être ne te trompe-t-il pas; il n’est pas interdit au menteur de dire vrai. Peut-être t’aime-t-il réellement; ta beauté mérite que chacun lui rende cet hommage.</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>Tu me flattes toujours; je pourrais le croire s’il ne t’avait pas vue, toi, qui ferais pâlir le soleil.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Tu sais bien ce que tu vaux et que dans ce procès la scatence est toujours restée suspendue. Ce n’est pas seulement la beauté qui fait naître l’amour; lui aussi il a ses petits caprices. Je me félicite vraiment qu’il t’ait choisie à ma place, et que tu aies remporté la victoire qui m’était destinée, parce qu’il n’y a pas de ta faute et que je reste hors de cause; mais prends bien garde, tu serais inexcusable si tu te prenais à l’aimer, car enfin tu sais que tu as affaire à un menteur.</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>Je te remercie, Jacinta, mais sois moins défiante; dis que je suis disposée à le croire, mais non pas à l’aimer !</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Si tu le crois, il te persuadera, et tu l’aimeras étant persuadée; le chemin est court de la persuasion à l’amour…</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>Eh bien, que diras-tu si je t’apprends qu’il m’a écrit !...</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Je dirai que tu l’as cru, et je dirai aussi que tu l’aimes déjà !</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>Tu te tromperas. Songe que parfois l’on fait par curiosité ce qu’on ne ferait pas par amour. N’as-tu pas été charmée par sa conversation à la « Plateria » ?</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Sans doute.</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>L’as-tu écouté par amour ou par curiosité ?</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Par curiosité.</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>Eh bien, c’est comme toi par curiosité que je l’ai écouté et que j’ai reçu son billet.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Tu reconnaîtras ton erreur, si tu veux songer qu’écouter est une politesse et que recevoir une lettre est une faveur évidente.</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>Ce serait vrai, s’il savait que j’ai accepté sa lettre, mais il croit que je l’ai déchirée sans la lire.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Il est ainsi prouvé que tu n’as pas été curieuse.</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>De ma vie la curiosité ne me fut aussi agréable. Et pour que tu connaisses bien sa fausseté, écoute, et dis-moi si le mensonge qui ressemble le plus à la vérité n’est pas un mensonge.</p>
+          </sp>
+          <stage>Elle ouvre une lettre.</stage>
+        </div2>
+        <div2 type="scene" n="5">
+          <head>SCÉNE V</head>
+          <stage>CAMINO, DON GARCIA, TRISTAN, au fond, LES MÊMES.</stage>
+          <sp who="#cam">
+            <speaker>CAMINO.</speaker>
+            <p>
+              <seg type="aside">Voyez-vous celle qui tient une lettre à la main ?</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>
+              <seg type="aside">Oui.</seg>
+            </p>
+          </sp>
+          <sp who="#cam">
+            <speaker>CAMINO.</speaker>
+            <p>
+              <seg type="aside">C’est celle-là qui est Lucrecia.</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>
+              <seg type="aside">Ah ! belle cause de mes tourments ! Je sens s’éveiller ma jalousie. Oh ! Camino combien je te suis reconnaissant !</seg>
+            </p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>
+              <seg type="aside">Demain vous aurez un habit neuf.</seg>
+            </p>
+          </sp>
+          <sp who="#cam">
+            <speaker>CAMINO.</speaker>
+            <p>
+              <seg type="aside">Vous me portez bonheur.</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>
+              <seg type="aside">Je veux, Tristan, me cacher quelque part d’où je puisse lire, sans qu’elle me voie, le papier qu’elle a sous les yeux.</seg>
+            </p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>
+              <seg type="aside">C’est facile si vous passez par la chapelle, vous arriverez derrière elle sans qu’elle vous aperçoive.</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>
+              <seg type="aside">Bien parlé ! Viens !...</seg>
+            </p>
+          </sp>
+          <stage>Don Garcia, Tristan et Camino disparaissent.</stage>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Lis tout bas, de peur de surprise.</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>Tu ne m’entendras pas. Prends et lis toi-même.</p>
+          </sp>
+          <stage>Elle donne la lettre à Jacinta.</stage>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Cela me semble mieux.</p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="6">
+          <head>SCÉNE VI</head>
+          <stage>DON GARCIA et TRISTAN.</stage>
+          <stage>Entrant par une autre porte et se trouvant derrière Jacinta et Lucrecia.</stage>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Nous voilà bien arrivés.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Toi, Tristan, tu as de meilleurs yeux que les miens, tâche de lire.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>(Lisant.) « Puisque mes paroles d’amour n’ont point de crédit auprès de vous, dites-moi si les œuvres qui ne peuvent mentir obtiendront plus de créance. Si pour me faire croire, il faut, madame, être votre mari, et si c’est ainsi que j’obtiendrai vos bonnes grâces, je vous écris ici, ma Lucrecia, et je signe : « votre époux, don Garcia. »</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>
+              <seg type="aside">Vivre Dieu ! c’est ma lettre !</seg>
+            </p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>
+              <seg type="aside">Comment ! ne l’a-t-elle pas lue chez elle ?</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>
+              <seg type="aside">Elle la relit pour mon bonheur et elle y trouve du charme.</seg>
+            </p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>
+              <seg type="aside">Vous êtes content de vous voir aimé.</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>
+              <seg type="aside">Je suis heureux parce que je l’aime.</seg>
+            </p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>La lettre est brève et succincte. Ou il aime bien, ou il ment bien.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>(A Jacinta sans voir son visage.) Tournez vers moi, madame, ces yeux dont les rayons me tuent.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>
+              <seg type="aside">Voile-toi puisqu’il ne t’a pas vue et qu’il va te désabuser.</seg>
+            </p>
+          </sp>
+          <stage>Les deux femmes se voilent.</stage>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>
+              <seg type="aside">Dissimule et ne me nomme pas.</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Couvrez d’un voile transparent ce miracle des cieux, ce ciel des hommes. Ne puis-je arriver à vous voir, homicide de ma vie !... C’est donc comme homicide que vous cherchez asile dans cette église ? Si c’est mon trépas qui vous contraint à vous retirer ici, ne craignez rien; la confusion des lois d’amour est telle que c’est le mort qui reste prisonier et le meurtrier qui est libre. J’espère, mon bien, que vous compatissez à ma peine, si c’est le repentir qui vous a conduite à la Magdalena. Voyez comme l’amour me récompense mal de ce que j’ai souffert; à moi, qui ai subi le tourment de votre cruauté, il m’enlève à cette heure la gloire de votre repentir. Ne me parlerez-vous pas, ma reine chérie ? Mes peines ne mériteront-elles pas votre pitié ? Vous repentez-vous par hasard de vous être repentie ? Remarquez, je vous prie, que vous m’allez tuer une seconde fois; si c’est parce que vous êtes dans le saint lieu que vous voulez me frapper, songez qu’il ne protège pas le crime commis dans ses murs.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>(Ecartant son voile.) Me connaissez-vous ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Très-bien, par Dieu ! et si bien que depuis que je vous ai rencontrée à la « Plateria », je ne me connais plus moi-même; je vis plus en vous qu’en moi; depuis notre entrevue, je suis tellement transformé par vous que je ne sais plus qui je suis ni qui je fus.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>On s’aperçoit que vous avez oublié qui vous étiez puisque ne vous souvenant plus que vous êtes marié, vous courtisez une autre femme.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Moi marié ? Vous croyez cela ?</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Pourquoi nier ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Quelle folie ! Ce fut pardieu une invention de mon esprit pour devenir votre mari.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Ou pour ne l’être pas; et si l’on vous reparle de cette union, vous vous marierez en Turquie.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Je jure Dieu de nouveau, qu’avec l’amour que vous m’avez inspiré, je serai marié pour toute autre femme et garçon pour vous.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>
+              <seg type="aside">Vois le désenchantement.</seg>
+            </p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>
+              <seg type="aside">O ciel ! à peine ai-je dans le cœur une étincelle d’amour, et déjà elle y fait éclater des volcans de jalousie.</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>La nuit où je vous parlai à votre balcon, madame, ne vous ai-je pas tout raconté ?</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>A mon balcon ?</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>
+              <seg type="aside">Ah! Elle me trahit!</seg>
+            </p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Vous vous trompez. Vous m’avez parle ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Sans doute.</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>
+              <seg type="aside">Vous lui accordez la nuit des rendez-vous et vous me donnez des conseils…</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Et la lettre que je vous envoyai, la nierez- vous ?</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>A moi une lettre ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Et je sais que vous l’avez lue.</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>
+              <seg type="aside">Voyez la fidèle amie !</seg>
+            </p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Le mensonge peut passer pour une gentillesse quand il ne nuit pas; mais on ne saurait le souffrir quand il franchit cette limite.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Je ne vous ai point parlé à votre balcon, Lucrecia, il y a trois nuits ?</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>
+              <seg type="aside">Moi, Lucrecia ? Bien. Taureau nouveau, autre ruse. Il a reconnu Lucrecia, et il la courtise, c’est certain, mais il feint de m’avoir prise pour elle afin de ne la point chagriner.</seg>
+            </p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>
+              <seg type="aside">J’ai tout compris. Ah ! traitresse ! elle l’a sans doute prévenu que la femme voilée c’était moi et elle veut me donner le change à présent en me faisant croire que s’il lui parle, c’est qu’il la prend pour moi.</seg>
+            </p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>
+              <seg type="aside">A cause de celle qui est lÀ près d’elle, elle doit nier qu’elle est Lucrecia.</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>
+              <seg type="aside">J’ai compris, si c’était à moi qu’elle voulut se cacher, elle aurait déjà voilé son visage. Mais comment, si elles ne se connaissent pas, parlent-elles ensemble ?</seg>
+            </p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>
+              <seg type="aside">On voit souvent dans les églises des gens que le hasard rassemble et qui se parlent sans se connaître.</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>
+              <seg type="aside">Tu as raison.</seg>
+            </p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>
+              <seg type="aside">Vous remédierez à tout en ayant l’air de vous être mépris.</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>(A Jacinta.) L’ardent amour qui me possède, madame, m’aveugle tellement que je vous ai prise pour une autre. Pardonnez; ce voile a causé mon erreur : comme le désir nous abuse facilement, chaque femme que je vois je me figure que c’est celle que j’aime.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>
+              <seg type="aside">Il a compris mon intention.</seg>
+            </p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>
+              <seg type="aside">La rusée l’a prévenu.</seg>
+            </p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Ainsi celle que vous adorez c’est Lucrecia ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Mon cœur, du moment oú je la vis, fut en sa puissance ?</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>
+              <seg type="aside">Très bien.</seg>
+            </p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>
+              <seg type="aside">Se moque-t-elle de moi ? N’ayons pas l’air de comprendre afin d’éviter un éclat.</seg>
+            </p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Je pense que si Lucrecia était assurée de ce que vous dites, elle vous en serait reconnaissante.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>La connaissez-vous ?</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Oui, c’est mon amie, à ce point que j’oserai dire que nos deux cœurs n’en font qu’un.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>
+              <seg type="aside">Il est bien clair que c’est toi ! Comme elle me dévoile finement son secret et son intention.</seg>
+            </p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>
+              <seg type="aside">C’est un service que rendent aujourd’hui volontiers les femmes de Madrid.</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Priez la de ne pas être ingrate pour un si grand amour.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Faites qu’elle y croie et moi j’adoucirai sa rigueur.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Pourquoi ne croirait-elle pas que je meurs pour elle, puisque j’ai admiré sa beauté.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Parce que, si je dois parler vrai, elle ne vous tient pas pour véridique.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>C’est pourtant la vérité, vive Dieu ! tâchez de le lui persuader.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Qu’importe que ce soit la vérité si c’est vous qui la dites. La bouche qui ment est si blâmable que seulement en passant par elle, « la vérité devient suspecte ».</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Madame…</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>Il suffit. Prenez garde qu’on ne nous remarque.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>J’obéis.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>
+              <seg type="aside">Es-tu contente ?</seg>
+            </p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>
+              <seg type="aside">Je te remercie de la bienveillance.</seg>
+            </p>
+          </sp>
+          <stage>Les deux femmes sortent.</stage>
+        </div2>
+        <div2 type="scene" n="7">
+          <head>SCÉNE VII</head>
+          <stage>DON GARCIA, TRISTAN.</stage>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Lucrecia n’a-t-elle pas fait preuve de finesse ? Avec quelle astuce elle a donné à entendre qu’elle ne voulait point être reconnue pour Lucrecia !</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Ma foi elle n’est point sotte.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Assurément, elle voulait se cacher de celle qui parlait avec elle.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Il est clair qu’une autre cause ne pouvait l’obliger à nier une chose aussi évidente; elle n’a pas eu l’intention de nier que ce fut elle qui vous avait parlé à son balcon puisqu’elle-même a rappelé les points que vous aviez abordés dans votre conversation.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Elle a bien prouvé ainsi que ce n’était pas de moi qu’elle se cachait.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>C’est pour cela qu’elle a fait allusion à vos paroles en disant : « Si l’on vient à reparler de cette union, vous serez marié en Turquie. » Et cette conjecture est accréditée mieux encore par sa persistance à nier qu’elle soit Lucrecia, et à vous exposer ses propres sentiments sous le couvert d’une tierce personne en vous disant que Lucrecia vous paierait de votre amour si vous pouviez faire qu’elle y crut.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Ah ! Tristan ! comment puis-je l’amener à croire à mon amour ?</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Voulez-vous l’épouser ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Oui</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Eh bien, demandez-la en mariage.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Et si elle me refuse ?</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>N’avez-vous donc pas entendu ce qu’elle vient de dire : « Faites qu’elle vous croie et moi j’adoucirai sa rigueur. » Quelle plus grande preuve pouvez-vous attendre de son désir d’être à vous ? Une femme qui reçoit vos lettres, qui vous parle à sa fenêtre a donné ce me semble assez de gages de l’affection qu’elle vous garde. La pensée que vous êtes marié est le seul obstacle qui l’arrête, et cet obstacle vous l’ecartez en lui donnant votre main; c’est la meilleure réponse d’un gentilhomme comme vous; et quant aux preuves qu’elle vous demanderait dans sa frayeur d’être trompée, Salamanque n’est pas au Japon.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Il l’est pour celui qui aime. Les minutes sont des siècles pour moi.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Ne trouverions-nous pas de témoins à Madrid ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Peut-être.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>C’est chose facile.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Je les vais chercher de ce pas.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Je vous en fournirai un.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Et qui donc ?</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Don Juan de Sosa.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Qui? Don Juan de Sosa?</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Oui.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Il sait bien ce qui en est.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Depuis le jour où il vous parla à la Plateria vous ne vous êtes pas rencontrés. Quoique j’aie toujours désiré savoir quel souci vous causa le billet qu’il vous fit remettre, je ne vous l’ai jamais demandé depuis que je vous ai vu vous fâcher et pâlir en refusant de me le confier; mais maintenant qu’elle se présente si naturellement, je crois, seigneur, que je puis renouveler ma question, puisque vous m’avez fait le secrétaire des archives de votre cœur et que cette fureur est évaporée.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Je veux te conter l’affaire. Je le puis, car je sais, pour l’avoir éprouvé, que tu gardes bien un secret et que tu es un homme prudent. A sept heures du soir, don Juan de Sosa m’écrivit qu’il m’attendait à San Blas pour un cas d’importance. Je ne dis rien car c’était un cartel : celui qui ne garde pas le silence sur ces affaires veut être empêché ou aidé, deux choses également honteuses. J’arrivai à l’endroit désigné où don Juan m’attendait avec son épée et sa jalousie, arme qui lui donnait l’avantage. Il me dit ce qu’il avait sur le cœur, je satisfis à sa demande et pour en finir nous tirâmes les épées. J’arrêtai mon moyen sur le champ et prenant l’avantage en gagnant sur son épée, je lui poussai une forte estocade. Un « agnus Dei » qu’il portait lui sauva l’existence, la pointe l’ayant touché, mon épée se brisa en deux morceaux. Il fit retraite sur ce grand coup, puis avec une rage terrible il me riposta par un coup de pointe, mais moi je l’arrêtai par la partie faible de son épée. Aussitôt, comme un si court espace l’essouffle, car il ne me restait plus qu’un tiers de mon infidèle épée, il se dégage en glissant le long du fer, et comme il se trouve rapproché de moi parce que je cherchais à gagner à cause de l’infériorité de mon arme, il me tire furieux un coup de taille à la tête. Je le parai à son départ et bas en l’amortissant avec mon fer. Ici fut le beau du jeu ! lui lançai un revers d’une telle vigueur que l’infériorité de mon épée me fit peu faute en ce moment, je lui ouvris sur la tête une palme d’estafilade, il tomba sans connaissance sur le sol et sans vie à ce qu’il me parut. Je le quittai ainsi.Voilà ce qui s’est passé, et c’est pourquoi, Tristan, tu ne l’as pas vu ces jours derniers.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Quel événement étrange ! et s’il était mort ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>C’est certain, car sa cervelle s’est répandue sur la terre.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Pauvre don Juan !</p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="8">
+          <head>SCÉNE VIII</head>
+          <stage>DON JUAN et DON BELTRAN, causant bas ensemble, sans apercevoir don Garcia, LES MÊMES.</stage>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Mais n’est-ce pas lui qui vient ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>C’est incroyable.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>
+              <seg type="aside">Pourquoi l’ai-je cru ? connaissant toutes ses ruses ? Mais qui ne tromperait-t-on pas avec des mensonges si bien trouvés ?</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>On l’aura sans doute guéri avec des prières.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Un coup d’épée qui lui rompit la cervelle ? guéri en si peu de temps ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Tu es étonné ? J’ai vu, moi, à Salamanque, des prières guérir un homme à qui on avait coupé un bras au ras de l’épaule et à qui on le recolla. En moins d’une semaine il redevint aussi sain et aussi entier qu’auparavant.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>C’est trop fort !</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Celà on ne me l’a pas conté, je l’ai moi-même vu.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>En voilà assez.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Sur ma vie, je ne retrancherai pas un mot de la vérité !</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>
+              <seg type="aside">Comme personne ne se connaît !</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Ce sont des mots hébreux et comme tu ignores la langue tu ne saurais les prononcer.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Et vous, vous la savez ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Parbleu ! mieux que le castillan, je parle dix langues.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>
+              <seg type="aside">Et toutes ensemble ne suffisent pas à tes mensonges. Tu es plein de vérités mais il n’en sort pas une.</seg>
+            </p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>(A don Juan.) Que dites-vous ?</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Il n’y a, si je ne me trompe, ni dame, ni gentilhomme de ce nom à Salamanque.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>
+              <seg type="aside">Ce fut sans doute une invention de Garcia, ne disons rien.</seg>
+            </p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Croyez que je n’en suis pas moins votre serviteur. Veuillez m’excuser, si ayant à parler avec quelques personnes je ne vous reconduis pas jusque chez vous.</p>
+          </sp>
+          <stage>Il sort.</stage>
+        </div2>
+        <div2 type="scene" n="9">
+          <head>SCÉNE IX</head>
+          <stage>DON BELTRAN, DON GARCIA, TRISTAN.</stage>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Mon Dieu ! est-il possible que la nature de ce jeune fou ne m’épargne pas moi-même ! Quoi il me mentait pendant que je lui reprochais sa conduite ? Et que je l’aie cru si vite, en une aussi grave matière, connaîssant sa réputation ? Mais qui aurait pu penser qu’il mentirait à l’instant même où je le blâmais de ce vice ! quel juge pourrait s’attendre à être volé par le larron dont il va prononcer la sentence ?</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>(A don Garcia.) Vous déterminez-vous à l’aborder?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Oui Tristan.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Dieu vous assiste !</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Père…</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Ne m’apelle pas ton père; infâme; appelle-moi ton ennemi. Celui qui ne me ressemble en rien n’est pas de mon sang, ôte-toi de mes yeux. Par Dieu, si je ne considérais…</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>
+              <seg type="aside">Le flot monte jusqu’aux nues. Attendez une meilleure occasion.</seg>
+            </p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Ciel ! quel est ce châtiment ? Est-il possible qu’à un homme qui aime comme moi la vérité, vous ayez donné un fils de nature si opposée ? Est-il possible que celui qui garde son honneur comme je le fais, ait engendré un fils d’inclinations si basses; que vous m’ayez enlevé dans sa fleur mon Gabriel, l’honneur et la vie de mon sang et de ma vieillesse ? Ces choses, si on ne les considérait pas en chrétien...</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>
+              <seg type="aside">Qu’est-ce là ?</seg>
+            </p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>
+              <seg type="aside">Quittez la place. Qu’attendez-vous ?</seg>
+            </p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Laisse-nous seuls, Tristan. Non, reviens, ne t’en vas pas; peut-être la honte de voir son infamie dévoilée devant toi, pourra-t-elle plus sur lui que le respect de mes cheveux blancs. Et quand cette honte ne le contraindrait pas à corriger ses fautes, leur divulgation du moins lui servira de châtiment. Dis, malheureux, quelle fin te proposes-tu ? dis, insensé, que te revient-il de mentir ainsi sans pudeur ? Et si tu obéis ainsi pour les autres à ton inclination, pourquoi ne te contiens-tu pas auprès de moi ? Dans quel but as-tu feint ce mariage de Salamanque si ce n’est pour ôter tout crédit à mes paroles ? Comment oserai-je revoir ceux à qui j’ai annoncé que tu avais épousé dona Sancha de Herrera, puisque sachant que cette doña Sancha n’a jamais existé, ils me croiront complice de ton mensonge ? Comment me laverai-je de cette tache, puisque le mieux qui puisse arriver si je veux m’en défaire c’est de la rejeter sur mon fils; et en proclamant que tu en fus la cause, il me faut publier moi-même ton infamie ? Si quelque souci d’amour t’obligeait à me tromper, quel ennemi craignais-tu, quel poignard étair levé sur toi ? Tu n’avais à redouter qu’un père, qui est ton père enfin ! ce nom seul suffit pour t’apprendre que tes prières l’auraient attendri. Ce vieillard fut jeune aussi et il connaît la puissance de l’amour sur un jeune cœur !</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Si tu connais cette puissance, elle sera mon excuse; qu’elle m’aide à obtenir de toi mon pardon. J’ai cru que c’était montrer peu de respect que de ne pas l’obéir quand je le pouvais, c’est ce qui m’a poussé à te tromper. Ce fut une erreur, non, un délit; ce ne fut pas une faute mais un effet de mon ignorance; la cause ce fut l’amour, et toi, mon père tu as dit toi-même que cela suffit. Et puisque tu as connu le mal, sache la cause du mal par la bouche de celle-là même qui l’a causé. Doña Lucrecia la fille de don Juan de Luna est l’âme de ma vie; c’est une femme bien née, héritière de sa maison; pour qu’elle comble mon bonheur en me donnant sa belle main, il manque seulement ton consentement et le démenti de ce faux bruit de mon prétendu mariage.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Non, non, Jésus ! tais-toi ! Veus-tu me tromper encore ? C’en est assez. Si tu disais que voici une lumière je croirais encore que tu me trompes.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Non, seigneur. Les actions sont la vérité pure, et Tristan en qui vous avez confiance témoignera pour moi.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Oui seigneur, vous dites la vérité.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Ne rougis-tu pas de celà ? Dis, n’as-tu pas honte d’en être réduit à invoquer le témoignage de ton valet ? C’est bien; je vais parler à don Juan de Luna et le ciel fasse qu’il te donne à Lucrecia; tu es un tel homme que c’est elle qui sera trompée. Mais d’abord je dois prendre mes informations à Salamanque; je crains d’avance qu’en me disant que tu m’as abusé, tu ne m’abuse encore. Quoique je susse la vérité avant de t’avoir vu, tu me l’as rendue suspecte rien qu’en la disant.</p>
+          </sp>
+          <stage>Il sort.</stage>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Cela s’est bien passé !</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Comment bien ? J’ai cru un instant qu’on allait éprouver sur vous ces prières hébraïques avec lesquelles on guérit les bras coupés.</p>
+          </sp>
+          <stage>Il sortent.</stage>
+        </div2>
+        <div2 type="scene" n="10">
+          <head>SCÉNE X</head>
+          <stage>Une salle donnant sur un jardin chez don Juan de Luna. Il fait nuit. La salle est éclairée.</stage>
+          <stage>DON JUAN DE LUNA, DON SANCHO.</stage>
+          <sp who="#juv">
+            <speaker>DON JUAN DE LUNA.</speaker>
+            <p>Il me semble que la nuit s’est rafraichie.</p>
+          </sp>
+          <sp who="#san">
+            <speaker>DON SANCHO.</speaker>
+            <p>Seigneur don Juan de Luna, à cause du voisinage de la rivière, il fait trop frais ici pour mon âge.</p>
+          </sp>
+          <sp who="#juv">
+            <speaker>DON JUAN DE LUNA.</speaker>
+            <p>Il sera mieux qu’on nous mette la table dans mon jardin et que nous soupions là à l’abri du vent.</p>
+          </sp>
+          <sp who="#san">
+            <speaker>DON SANCHO.</speaker>
+            <p>C’est une bonne idée. Nous donnerons au Manzanarès une nuit plus tempérée; ces variations sont nuisibles à la santé.</p>
+          </sp>
+          <sp who="#juv">
+            <speaker>DON JUAN DE LUNA.</speaker>
+            <p>(Au dehors.) Votre belle convive Lucrecia, soupera aujourd’hui au jardin.</p>
+          </sp>
+          <sp who="#san">
+            <speaker>DON SANCHO.</speaker>
+            <p>Dieu veuille qu’elle soit heureuse, c’est un ange.</p>
+          </sp>
+          <sp who="#juv">
+            <speaker>DON JUAN DE LUNA.</speaker>
+            <p>Outre qu’elle n’est point sotte, et pour être aussi belle que vous la voyez, don Sancho, elle estime mois la vie que la vertu.</p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="11">
+          <head>SCÉNE XI</head>
+          <stage>UN VALET, LES MÊMES.</stage>
+          <sp who="#cri">
+            <speaker>LE VALET.</speaker>
+            <p>(A don Sancho.) Don Juan de Sosa est à la porte qui vous demande.</p>
+          </sp>
+          <sp who="#san">
+            <speaker>DON SANCHO.</speaker>
+            <p>A une telle heure ?</p>
+          </sp>
+          <sp who="#juv">
+            <speaker>DON JUAN DE LUNA.</speaker>
+            <p>Ce sera une affaire urgente.</p>
+          </sp>
+          <sp who="#san">
+            <speaker>DON SANCHO.</speaker>
+            <p>Faites entrer le seigneur don Juan.</p>
+          </sp>
+          <stage>Le valet sort.</stage>
+        </div2>
+        <div2 type="scene" n="12">
+          <head>SCÉNE XII</head>
+          <stage>DON JUAN DE SOSA, avec une lettre, DON JUAN DE LUNA, DON SANCHO.</stage>
+          <sp who="#jua">
+            <speaker>DON JUAN DE SOSA.</speaker>
+            <p>(A don Sancho.) Sans cette lettre je ne me serais jamais présenté devant vous; mais j’ai perdu patience, mon amour ne m’a pas permis de vous cacher un instant la nouvelle qui me permet d’aspirer enfin à la possession de mon trésor. J’ai obtenu ma commanderie; si vous vous souvenez de la parole que vous m’avez donnée, vous compléterez ma victoire en me faisant justice.</p>
+          </sp>
+          <sp who="#san">
+            <speaker>DON SANCHO.</speaker>
+            <p>Vous avez récompensé ma foi, seigneur don Juan, en ne perdant pas un moment pour m’annoncer une si heureuse nouvelle. Je vais la porter à ma belle Jacinta. Pardonnez si elle ne paraît pas elle-même, mais elle n’est pas en toilette.</p>
+          </sp>
+          <stage>Il sort.</stage>
+          <sp who="#juv">
+            <speaker>DON JUAN DE LUNA.</speaker>
+            <p>Le ciel vient en aide au mérite modeste, qui triomphe toujours. Il a pu y avoir retard mais non doute.</p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="13">
+          <head>SCÉNE XIII</head>
+          <stage>DON GARCIA, DON BELTRAN, TRISTAN, DON JUAN DE SOSA, DON JUAN DE LUNA.</stage>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>L’occasion n’est pas favorable pour lui parler; il a du monde et une affaire aussi grave veut être traitée seul à seul.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Avant tout, don Juan de Sosa nous servira de témoin pour ce qui concerne Salamanque.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Pourquoi ? Pendant que je dirai notre intention à don Juan de Luna, vous pouvez parler à don Juan de Sosa.</p>
+          </sp>
+          <sp who="#juv">
+            <speaker>DON JUAN DE LUNA.</speaker>
+            <p>Ami don Beltran !...</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Don Juan, mon ami !...</p>
+          </sp>
+          <sp who="#juv">
+            <speaker>DON JUAN DE LUNA.</speaker>
+            <p>A une pareille heure ! Quelle visite inattendue !</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Elle vous dira que c’est l’amour qui m’amène.</p>
+          </sp>
+          <sp who="#juv">
+            <speaker>DON JUAN DE LUNA.</speaker>
+            <p>Heureuse celle qui a pu le mériter.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Il faut me pardonner. Votre porte restée ouverte et l’amitié que j’ai pour vous, m’ont encouragé à entrer sans votre licence.</p>
+          </sp>
+          <sp who="#juv">
+            <speaker>DON JUAN DE LUNA.</speaker>
+            <p>Laissez les compliments, et dites moi le sujet de votre venue.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Je vais le faire.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>(A don Juan de Sosa.) Un mérite si évident, seigneur don Juan, a pu être obscurci par l’envie, mais non vaincu. Croyez, pardieu ! que votre victorie m’a réjoui.</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Je crois votre noble cœur.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Jouissez de votre commanderie comme vous le méritez et comme je le désire.</p>
+          </sp>
+          <sp who="#juv">
+            <speaker>DON JUAN DE LUNA.</speaker>
+            <p>Lucrecia est si heureuse de cet événement que je pense avoir rêvé ce bonheur. Avec la permission du seigneur don Juan de Sosa, écoutez une parole, don Garcia. Don Beltran m’a dit que vous vouliez épouser Lucrecia ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Mon âme, mon bonheur, mon honneur et ma vie sont dans sa main.</p>
+          </sp>
+          <sp who="#juv">
+            <speaker>DON JUAN DE LUNA.</speaker>
+            <p>Je vous l’accorde. Ma fille sait comme moi ce qu’elle acquiert, d’après ce qu’elle m’a dit de vous.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Pour vous remercier d’une telle faveur, je baise vos pieds, seigneur don Juan de Luna.</p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="14">
+          <head>SCÉNE XIV</head>
+          <stage>DON SANCHO, JACINTA, LUCRECIA, LES MÊMES.</stage>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>
+              <seg type="aside">Enfin, après tant de traverses, tu vois s’accomplir ton espoir.</seg>
+            </p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>
+              <seg type="aside">Si tu réussis comme moi, je serai tout à fait heureuse.</seg>
+            </p>
+          </sp>
+          <sp who="#juv">
+            <speaker>DON JUAN DE LUNA.</speaker>
+            <p>Lucrecia s’avance avec Jacinta; elle ignore son bonheur auquel elle ne s’attend pas. Laissez-moi lui en donner la nouvelle.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>
+              <seg type="aside">Voici don Sancho. Vois dans quelle situation je me trouve.</seg>
+            </p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>
+              <seg type="aside">Un sage pardonne les erreurs de l’amour.</seg>
+            </p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>
+              <seg type="aside">N’est-il donc pas marié à Salamanque ?</seg>
+            </p>
+          </sp>
+          <sp who="#juv">
+            <speaker>DON JUAN DE LUNA.</speaker>
+            <p>
+              <seg type="aside">Il inventa cette histoire pour que son père ne le contraignit pas à en épouser une autre.</seg>
+            </p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>
+              <seg type="aside">S’il en est ainsi, ma volonté est la tienne; et je suis heureuse.</seg>
+            </p>
+          </sp>
+          <sp who="#san">
+            <speaker>DON SANCHO.</speaker>
+            <p>Venez, nobles jeunes gens, présentez la main à vos joyeuses fiancées qui avouent leur bonheur en vous regardant tendrement.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>
+              <seg type="aside">Dorénavant mes actions témoigneront de ma véracité.</seg>
+            </p>
+          </sp>
+          <stage>Don Garcia et don Juan s’approchent de Jacinta.</stage>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Où allez-vous don Garcia ? Voyez donc là bas la belle Lucrecia.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Comment ? Lucrecia ?</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Qu’est-ce que cela ?</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>(A Jacinta.) Vous êtes mon trésor, madame.</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>En voici bien d’une autre.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Si je me suis trompé sur le nom, je ne me suis pas mépris sur la personne. C’est vous que j’ai demandée en mariage, et c’est vous que mon cœur adore.</p>
+          </sp>
+          <sp who="#luc">
+            <speaker>LUCRECIA.</speaker>
+            <p>Et cette lettre, traître, écrite de votre propre main, ne dément-elle pas vos paroles ?</p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Me faire un tel affront !</p>
+          </sp>
+          <sp who="#jua">
+            <speaker>DON JUAN.</speaker>
+            <p>Donnez-moi votre main, Jacinta, pour mettre fin à tout ceci.</p>
+          </sp>
+          <sp who="#san">
+            <speaker>DON SANCHO.</speaker>
+            <p>Donne la main à don Juan.</p>
+          </sp>
+          <sp who="#jac">
+            <speaker>JACINTA.</speaker>
+            <p>(A don Juan.) Je suis à vous.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>
+              <seg type="aside">J’ai perdu mon bonheur.</seg>
+            </p>
+          </sp>
+          <sp who="#bel">
+            <speaker>DON BELTRAN.</speaker>
+            <p>Vive Dieu ! Si tu n’épouses pas Lucrecia je t’arrache la vie !</p>
+          </sp>
+          <sp who="#juv">
+            <speaker>DON JUAN DE LUNA.</speaker>
+            <p>Je vous ai accordé Lucrecia et vous l’avez acceptée. Si votre folle inconstance vous a fait changer d’avis en un instant, je laverai mon déshonneur dans le sang de vos veines.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Vous êtes le seul coupable. Si en commençant vous aviez dit la vérité, Jacinta serait à vous. Mais il n’y a plus de remède; pardonnez-moi et donnez la main à Lucrecia qui est aussi une charmante femme.</p>
+          </sp>
+          <sp who="#gar">
+            <speaker>DON GARCIA.</speaker>
+            <p>Je la lui donne puisqu’il le faut.</p>
+          </sp>
+          <sp who="#tri">
+            <speaker>TRISTAN.</speaker>
+            <p>Vous comprenez maintenant combien le mensonge est nuisible, et l’assemblée comprendra que dans la bouche du menteur la « vérité est suspecte ».</p>
+          </sp>
+          <stage>Fin de La vérité suspecte.</stage>
+        </div2>
+      </div1>
+    </body>
+    <back/>
+  </text>
+</TEI>

@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0735_LeMeilleurAlcadeEstLeRoi/9",{"lines":[["act-3","p901","III",0,"p","au public Ainsi finit la comédie: Le meilleur alcade est le roi… histoire qui est donnée pour véritable dans la quatrième partie de la Chronique d’Espagne."]],"speakers":["SANCHE"]});

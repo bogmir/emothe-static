@@ -1,0 +1,1950 @@
+<?xml version="1.0" ?>
+<TEI xml:lang="it" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="original">The Old Wife’s Tale</title>
+        <title type="traduccion">La Novella della Vecchia</title>
+        <title key="orden">Novella della Vecchia La</title>
+        <title key="archivo">EMOTHE0302_LaNovellaDellaVecchia</title>
+        <author ana="fiable">George Peele</author>
+        <author key="orden">Peele, George</author>
+        <editor role="translator">
+          <persName>Raffaello Piccoli</persName>
+        </editor>
+        <sponsor>
+          <orgName>Plan Nacional de Investigación Científica, Desarrollo e Innovación Tecnológica (Plan Nacional de I+D+i)</orgName>
+        </sponsor>
+        <funder>
+          <orgName>Dirección General de Investigación y Gestión del Plan Nacional de I+D+I (DGI). http://www.idi.mineco.gob.es</orgName>
+        </funder>
+        <principal>Joan Oleza Simó</principal>
+      </titleStmt>
+      <editionStmt>
+        <edition>Edición electrónica de &apos;La Novella della Vecchia&apos;</edition>
+        <respStmt>
+          <resp>Edición</resp>
+          <persName>Tronch Pérez, Jesus</persName>
+        </respStmt>
+      </editionStmt>
+      <extent ana="verso">319 versos</extent>
+      <publicationStmt>
+        <publisher>
+          <orgName>Proyecto ARTELOPE. Base de datos, argumentos y textos del teatro clásico español (FFI 2009 -12730) http://artelope.uv.es</orgName>
+        </publisher>
+        <idno type="code">EMOTHE0302_LaNovellaDellaVecchia</idno>
+        <idno type="EMOTHE">0302</idno>
+        <pubPlace>Valencia</pubPlace>
+        <date>2016</date>
+        <authority>
+          <orgName>Universitat de València - Estudi General. http://www.uv.es</orgName>
+        </authority>
+        <availability>
+          <p>La Colección de Teatro Clasico Europeo (CTCE) pertenece al proyecto Artelope y ofrece en la web textos completos sin ánimo de lucro y libres de derechos de lectura y de reproducción. En este último caso se ruega citar la procedencia: &quot;Oleza, Joan et al. Base de Datos y Argumentos del teatro de Lope de Vega. ARTELOPE. Publicación en web: http://artelope.uv.es&quot;</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La novella de la vecchia</title>
+          <author>George Peele</author>
+          <editor role="traductor">Raffaello Piccoli</editor>
+          <lang>Italiano</lang>
+          <note>Peele, George. &lt;&lt;La novella de la vecchia.&gt;&gt; A cura di Raffaello Piccoli. Tradotto da Raffaello Piccoli. In: Piccoli, Raffaello (eds.) &lt;&lt;Drammi Elisabettiani.&gt;&gt; Bari: Gius. Laterza, 1914, vol. I, pp. 233-265.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>La Colección de Textos Clásicos Europeos (CTCE) supone la creación de una base de datos de Teatro canónico clásico europeo en diferentes idiomas, versiones y refundiciones, todas ellas hipervinculadas.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Las presentes ediciones digitales están basadas, en su mayor parte, en ediciones científicas de reconocido prestigio y se ha tratado, en la mayoría de ocasiones, de respetar sus criterios de edición. Solo en casos muy puntuales el editor digital ha introducido leves cambios de los que da cumplida cuenta en el apartado de &quot;Notas&quot;.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="it-IT">Italiano</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>
+            <title>La Novella della Vecchia</title>
+          </titlePart>
+        </docTitle>
+        <docAuthor>George Peele</docAuthor>
+      </titlePage>
+      <div type="elenco">
+        <castList>
+          <castItem>
+            <role xml:id="sacripante">Sacripante</role>
+          </castItem>
+          <castItem>
+            <role xml:id="calypha">Il primo fratello</role>
+            <roleDesc>chiamato Calypha</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="thelea">Il secondo fratello</role>
+            <roleDesc>chiamato Thelea</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="eumenide">Eumenide</role>
+          </castItem>
+          <castItem>
+            <role xml:id="eresto">Eresto</role>
+          </castItem>
+          <castItem>
+            <role xml:id="lamprisco">Lamprisco</role>
+          </castItem>
+          <castItem>
+            <role xml:id="huanebango">Huanebango</role>
+          </castItem>
+          <castItem>
+            <role xml:id="corebo">Corebo</role>
+          </castItem>
+          <castItem>
+            <role xml:id="wiggen">Wiggen</role>
+          </castItem>
+          <castItem>
+            <role xml:id="santese">Il Santese</role>
+          </castItem>
+          <castItem>
+            <role xml:id="sacrestano">Il Sacrestano</role>
+          </castItem>
+          <castItem>
+            <role xml:id="jack">L’ombre di Jack</role>
+          </castItem>
+          <castItem>
+            <role xml:id="fratemietitorifuriesuonatori">Un frate, Mietitori, Furie, Suonatori di violino, ecc</role>
+          </castItem>
+          <castItem>
+            <role xml:id="delya">Delia</role>
+            <roleDesc>sorella di Calypha e Thelea</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="venelia">Venelia</role>
+            <roleDesc>promessa sposa di Eresto</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="zantippa">Zantippa</role>
+          </castItem>
+          <castItem>
+            <role xml:id="celanta">Celanta</role>
+          </castItem>
+          <castItem>
+            <role xml:id="ostessa">L’ostessa</role>
+          </castItem>
+          <castItem>
+            <role xml:id="grottesco">Grottesco</role>
+          </castItem>
+          <castItem>
+            <role xml:id="gaio">Gaio</role>
+          </castItem>
+          <castItem>
+            <role xml:id="fantastico">Fantastico</role>
+          </castItem>
+          <castItem>
+            <role xml:id="fabbro">Clunch, fabbro</role>
+          </castItem>
+          <castItem>
+            <role xml:id="madge">Madge</role>
+            <roleDesc>sua moglie</roleDesc>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="vecchia">La vecchia</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="vecchio">Vecchio</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="booby">Booby</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="simone">Simone</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="tutti">Tutti</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="tuttiédue">Tutti é due</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="eco">Eco</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="testa">Testa</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="tuttedue">Tutt’e due</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="voce1">La voce</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="voce2">Una voce</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="voce3">Un’altra voce</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Tutti_1_canzone">Tutti</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="mietitori">mietitori</role>
+          </castItem>
+        </castList>
+      </div>
+    </front>
+    <body>
+      <div1 type="play" n="0">
+        <div2 type="scene">
+          <head>Entrano Grottesco, Gaio e Fantastico.</head>
+          <sp who="#grottesco">
+            <speaker>GROTTESCO</speaker>
+            <p>Ebbene, amico Gaio, che tutto avvilito? Conviene questa tristezza alla tua follìa? Benchè noi si sia perduta la strada nei boschi, pure non tenere il capo basso come se tu non avessi più speranza di vivere fino a domani: perchè Fantastico ed io garentiremo la tua vita stanotte per venti contro cento.</p>
+          </sp>
+          <sp who="#gaio">
+            <speaker>GAIO</speaker>
+            <p>
+              Grottesco e Fantastico, com’io sono un gaio burlone, mai in vita mia fui così morto ammazzato. Che? Perder la strada nel bosco, senza fuoco o candela, così sgradevole! 
+              <emph>O caelum! O terra! O maria! O Neptune!</emph>
+            </p>
+          </sp>
+          <sp who="#fantastico">
+            <speaker>FANTASTICO</speaker>
+            <p>Perché ti par la cosa tanto singolare, veduto che Cupido ha condotto il nostro giovine signore alla bella Dama, e ch’ella è la sola santa ch’egli abbia giurato di servire?</p>
+          </sp>
+          <sp who="#gaio">
+            <speaker>GAIO</speaker>
+            <p>
+              Che resta dunque se non che noi lo affidiamo alla sua ragazza, e che ciascuno di noi prenda stanza su d’un albero, e cantiamo la nostra mala fortuna sull’aria di 
+              <emph>O uomo disperato?</emph>
+            </p>
+          </sp>
+          <sp who="#grottesco">
+            <speaker>GROTTESCO</speaker>
+            <p>Parli da disperato, compagno Gaio, costì al buio: ma poichè la cosa prende questa piega, ripetiamo il vecchio proverbio:</p>
+            <lg type="free">
+              <l n="0001" xml:id="em0302-it-0006">
+                <emph>Tre uomini allegri, e tre uomini allegri,</emph>
+              </l>
+              <l n="0002" xml:id="em0302-it-0007">
+                <emph>e tre uomini allegri noi siamo.</emph>
+              </l>
+              <l n="0003" xml:id="em0302-it-0008">
+                <emph>Io nel bosco e tu per terra</emph>
+              </l>
+              <l n="0004" xml:id="em0302-it-0009">
+                <emph>e Jack dorme sopra l’albero.</emph>
+              </l>
+            </lg>
+          </sp>
+          <sp who="#fantastico">
+            <speaker>FANTASTICO</speaker>
+            <p>Zitto! un cane nel bosco, o un cane di legno. O gradevole a udirsi! Tanto mi sarebbe piaciuto che il cameriere del Cavallo Bianco mi avesse accompagnato a letto!</p>
+          </sp>
+          <sp who="#gaio">
+            <speaker>GAIO</speaker>
+            <p>O questo mastino errabondo se n’è ito fuori de’ suoi paraggi, o altrimenti noi siam prossimi a qualche villaggio, che non avrebbe a essere lontano di qui, Entra un fabbro con una lanterna e una candela. perchè io scorgo il luccichio d’una lucciola, una candela, o l’occhio d’un gatto, la mia vita per mezzo penni! In nome di mio padre, sii tu bove o asino che appari, dicci quel che tu sei.</p>
+          </sp>
+          <sp who="#fabbro">
+            <speaker>FABBRO</speaker>
+            <p>Quel ch’io sono? Ebbene, io sono Clunch il Fabbro; che siete voi? che fate voi ne’ miei territori a questa ora di notte?</p>
+          </sp>
+          <sp who="#grottesco">
+            <speaker>GROTTESCO</speaker>
+            <p>Che cosa facciamo, tu chiedi? Ebbene, noi facciamo smorfie per la paura, tali che se i tuoi occhi mortali potessero contemplarle, ti farebbero bagnare le lunghe cuciture delle tue ampie brache, Fabbro!</p>
+          </sp>
+          <sp who="#gaio">
+            <speaker>GAIO</speaker>
+            <p>Ed in fede, signore, a meno che la vostra ospitalità non ci soccorra, probabilmente andremo errando con un dolente oimè, tra i gufi e i folletti della foresta: buon Vulcano, per amor di Cupido, che ci ha guidati tutti, assistici come tu puoi; e comandaci comunque, dovunque, quando e in qualunque mia cosa tu voglia, per sempre e sempre.</p>
+          </sp>
+          <sp who="#fabbro">
+            <speaker>FABBRO</speaker>
+            <p>Bene, signori, mi sembra che voi abbiate perduta la strada nel bosco: in considerazione di che, se voi verrete con Clunch alla sua capanna, voi avrete ricovero, ed un buon fuoco per sedervi accanto, sebbene noi non abbiam letti da mettervici dentro.</p>
+          </sp>
+          <sp who="#tutti">
+            <speaker>TUTTI</speaker>
+            <p>O benedetto Fabbro, o generoso Clunch!</p>
+          </sp>
+          <sp who="#fabbro">
+            <speaker>FABBRO</speaker>
+            <p>Quanto al resto del vostro trattamento, sarà come potrà essere, cosi e cosi. Qui un cane abbaia. Ascoltate! Questo è Palla il mio cane che dà il benvenuto a voi tutti nel suo proprio linguaggio; venite, guardate di non inciampare sulla soglia. Apri la porta, Madge, fa’ entrare gli ospiti.</p>
+          </sp>
+          <stage>Entra la vecchia.</stage>
+          <sp who="#madge">
+            <speaker>MADGE</speaker>
+            <p>Benvenuto Clunch, e voi tutti buona gente, che venite col mio buon uomo; per amore del mio buon uomo, venite innanzi, sedete; ecco un pezzo di cacio e una torta che ho fatto io stessa.</p>
+          </sp>
+          <sp who="#grottesco">
+            <speaker>GROTTESCO</speaker>
+            <p>Grazie, comare, un buon esempio per le donne della nostra città.</p>
+          </sp>
+          <sp who="#gaio">
+            <speaker>GAIO</speaker>
+            <p>Comare, tu e il tuo buon uomo sedete amorevolmente insieme; noi veniamo per chiacchierare e non per mangiare.</p>
+          </sp>
+          <sp who="#fabbro">
+            <speaker>FABBRO</speaker>
+            <p>Bene, signori, se voi non volete mangiar nulla, porta via. Venite, che faremo per far passare il tempo? Porremo sul fuoco una mela selvatica ad arrostire per la lana d’agnello. O faremo una partita a trionfo o a collare, per cacciare il tempo, che ne dite?</p>
+          </sp>
+          <sp who="#fantastico">
+            <speaker>FANTASTICO</speaker>
+            <p>Questo fabbro mena una vita allegra come un re, con la sua moglie Madge. Messer Grottesco, io son sicuro che non ti manca una ballata; non c’è dubbio che Clunch sa tener la sua parte.</p>
+          </sp>
+          <sp who="#grottesco">
+            <speaker>GROTTESCO</speaker>
+            <p>Se non l’avessi, potreste tenermi per male allevato; perciò mettetevici quando volete.</p>
+          </sp>
+          <stage>Cantano.</stage>
+          <stage>Canzone.</stage>
+          <sp who="#grottesco #gaio #fantastico #fabbro #madge">
+            <lg type="free" part="M">
+              <l n="0005" xml:id="em0302-it-0026">Quando la segala giunge al mento,</l>
+              <l n="0006" xml:id="em0302-it-0027">e chiappaciliegia, chiappaciliegia, matura di dentro,</l>
+              <l n="0007" xml:id="em0302-it-0028">le fragole notando nella panna,</l>
+              <l n="0008" xml:id="em0302-it-0029">e i ragazzi di scuola giocando nel ruscello,</l>
+              <l n="0009" xml:id="em0302-it-0030">o allora, o allora, o allora, disse il mio vero amore,</l>
+              <l n="0010" xml:id="em0302-it-0031">finchè quel tempo ritorni,</l>
+              <l n="0011" xml:id="em0302-it-0032">ella non potrebbe vivere fanciulla.</l>
+            </lg>
+          </sp>
+          <sp who="#grottesco">
+            <speaker>GROTTESCO</speaker>
+            <p>Questo divertimento va bene: ma mi sembra, comare, che un’allegra novella d’inverno caccerebbe via il tempo per benino. Andiamo, io son sicuro che n’avete almeno una ventina.</p>
+          </sp>
+          <sp who="#fantastico">
+            <speaker>FANTASTICO</speaker>
+            <p>In fede, Comare, una novella lunga un’ora sarebbe buona da quanto un’ora di sonno.</p>
+          </sp>
+          <sp who="#gaio">
+            <speaker>GAIO</speaker>
+            <p>Guardate, Comare, del gigante e della figlia del re, o che so io. Io mi ricordo di quand’ero piccolino, che voi m’avreste tratto appresso a voi per un miglio con un discorso di questi.</p>
+          </sp>
+          <sp who="#vecchia">
+            <speaker>LA VECCHIA</speaker>
+            <p>Bene, poichè voi n’avete tanta voglia, il mio buon uomo empirà il boccale e si metterà a letto; quelli che attendono al loro lavoro debbono coricarsi di buon’ora. Uno di voi vada a giacere con lui; egli è un uomo dalla pelle pulita, vi dico, senza enfiagioni nè tumori nè gallozze; così io son contenta di scacciare il tempo con una novella d’inverno da vecchia comare.</p>
+          </sp>
+          <sp who="#fantastico">
+            <speaker>FANTASTICO</speaker>
+            <p>Non c’è miglior fieno nel Devonshire; sulla mia parola, Comare, io sarò uno del vostro uditorio.</p>
+          </sp>
+          <sp who="#gaio">
+            <speaker>GAIO</speaker>
+            <p>Ed io un altro: quest’è chiaro.</p>
+          </sp>
+          <sp who="#grottesco">
+            <speaker>GROTTESCO</speaker>
+            <p>
+              Allora io debbo andare a letto col buon uomo. 
+              <emph>Bona nox</emph>
+               , Comare; buona notte, Gaio.
+            </p>
+          </sp>
+          <sp who="#fabbro">
+            <speaker>FABBRO</speaker>
+            <p>Vieni via, ragazzo mio, tu prenderai il tuo riposo innaturale con me.</p>
+          </sp>
+          <stage>Exeunt Grottesco e il Fabbro.</stage>
+          <sp who="#gaio">
+            <speaker>GAIO</speaker>
+            <p>
+              Pure questo vantaggio noi avremo su di loro nel mattino, che sarem pronti a vederlo 
+              <emph>ex tempore</emph>
+               .
+            </p>
+          </sp>
+          <sp who="#vecchia">
+            <speaker>LA VECCHIA</speaker>
+            <p>
+              Ora questo patto, signori miei, bisogna ch’io faccia con voi, che voi direte 
+              <emph>hum e ah</emph>
+               alla mia novella, cosi io saprò che siete desti.
+            </p>
+          </sp>
+          <sp who="#tuttedue">
+            <speaker>TUTT’E DUE</speaker>
+            <p>Sta bene, Comare, così faremo.</p>
+          </sp>
+          <sp who="#vecchia">
+            <speaker>LA VECCHIA</speaker>
+            <p>C’era una volta un Re o Signore o Duca, che aveva una bella figliuola, la più bella che mai fosse; bianca come neve, e rossa come sangue: e una volta la sua figliuola fu rapita, ed egli mandò tutti i suoi uomini a ricercare la sua figliuola; e mandò per tanto tempo, che mandò tutti i suoi uomini fuori della sua terra.</p>
+          </sp>
+          <sp who="#gaio">
+            <speaker>GAIO</speaker>
+            <p>Chi gli cucinava il pranzo, allora?</p>
+          </sp>
+          <sp who="#vecchia">
+            <speaker>LA VECCHIA</speaker>
+            <p>No, o udite la mia novella, o baciate la mia coda.</p>
+          </sp>
+          <sp who="#fantastico">
+            <speaker>FANTASTICO</speaker>
+            <p>Ben detto, va innanzi colla tua novella, Comare.</p>
+          </sp>
+          <sp who="#vecchia">
+            <speaker>LA VECCHIA</speaker>
+            <p>O Signore, io me n’ero proprio dimenticata, c’era un Mago, e questo Mago poteva fare qualunque cosa, ed egli si trasmutò in un gran Dragone, e si portò via in bocca la figlia del Re ad un castello che egli aveva fatto di pietra, e quivi egli la tenne non so quanto, finchè da ultimo tutti gli uomini del Re andarono attorno per tanto tempo, e i suoi due fratelli vennero a cercarla. O, io dimentico: ella (egli voglio dire) trasmutò un bel giovane in un Orso la notte, e uomo il giorno, e questi vive presso una croce che divide tre diverse strade, ed egli fece uscir matta la sua Dama… Per l’ossa di Dio, chi vien qua?</p>
+          </sp>
+          <stage>Entrano i due fratelli.</stage>
+          <sp who="#gaio">
+            <speaker>GAIO</speaker>
+            <p>Adagio, Comare, viene qualcuno a raccontare per voi la vostra novella.</p>
+          </sp>
+          <sp who="#fantastico">
+            <speaker>FANTASTICO</speaker>
+            <p>Lasciateli fare, udiamo quel che diranno.</p>
+          </sp>
+          <sp who="#calypha">
+            <speaker>1º FRATELLO</speaker>
+            <lg type="free" part="M">
+              <l n="0012" xml:id="em0302-it-0051">Su questi dirupi cretosi d’Albione</l>
+              <l n="0013" xml:id="em0302-it-0052">noi siamo giunti ora con penoso travaglio,</l>
+              <l n="0014" xml:id="em0302-it-0053">e avendo fatto il giro di tutto l’ampio mondo</l>
+              <l n="0015" xml:id="em0302-it-0054">per cercare nostra sorella, per trovare la bella Delya,</l>
+              <l n="0016" xml:id="em0302-it-0055">pure non ci vien fatto ancora d’aver novelle di lei.</l>
+            </lg>
+          </sp>
+          <sp who="#thelea">
+            <speaker>2º FRATELLO</speaker>
+            <lg type="free" part="M">
+              <l n="0017" xml:id="em0302-it-0056">O fortuna crudele, crudele e maligna,</l>
+              <l n="0018" xml:id="em0302-it-0057">maligna perchè noi non possiamo trovar nostra sorella;</l>
+              <l n="0019" xml:id="em0302-it-0058">nostra sorella sventurata nella sua crudele sorte!</l>
+              <l n="0020" xml:id="em0302-it-0059">Adagio, chi c’ è qui?</l>
+            </lg>
+          </sp>
+          <stage>Entra Senex alla croce, chinandosi per raccogliere qualcosa.</stage>
+          <sp who="#calypha">
+            <speaker>1º FRATELLO</speaker>
+            <lg type="free" part="M">
+              <l n="0021" xml:id="em0302-it-0060">Ebbene, padre, Iddio v’aiuti!</l>
+              <l n="0022" xml:id="em0302-it-0061">che cosa raccogliete costà?</l>
+            </lg>
+          </sp>
+          <sp who="#vecchio">
+            <speaker>VECCHIO</speaker>
+            <p>Còccole e bacche, e stecchi e paglie, e cose che raccolgo per terra, figlio mio.</p>
+          </sp>
+          <sp who="#calypha">
+            <speaker>1º FRATELLO</speaker>
+            <p>Còccole e bacche, e stecchi e paglie! Ebbene, è questo tutto il vostro cibo, padre?</p>
+          </sp>
+          <sp who="#vecchio">
+            <speaker>VECCHIO</speaker>
+            <p>Si, figliuolo.</p>
+          </sp>
+          <sp who="#thelea">
+            <speaker>2º FRATELLO</speaker>
+            <p>Padre, ecco un soldo d’elemosina per me, e s’io mi sbrigo nella faccenda per cui vo’, ti darò una così buona veste di bigello, come mai non n’hai portare.</p>
+          </sp>
+          <sp who="#calypha">
+            <speaker>1o FRATELLO</speaker>
+            <p>E, padre, ecco un altro soldo d’elemosina per me, e s’io mi sbrigo nel mio viaggio, ti darò un bordone da pellegrino d’avorio e un nicchio d’oro battuto.</p>
+          </sp>
+          <sp who="#vecchio">
+            <speaker>VECCHIO</speaker>
+            <p>Era bella?</p>
+          </sp>
+          <sp who="#thelea">
+            <speaker>2o FRATELLO</speaker>
+            <p>Si, la più bella per il bianco, e la più pura per il rosso, come il sangue del cervo e la neve al vento.</p>
+          </sp>
+          <sp who="#vecchio">
+            <speaker>VECCHIO</speaker>
+            <lg type="free" part="M">
+              <l n="0023" xml:id="em0302-it-0069">Allora ascoltate bene e notate bene, il mio vecchio incanto:</l>
+              <l n="0024" xml:id="em0302-it-0070">Non temere ogni straniero,</l>
+              <l n="0025" xml:id="em0302-it-0071">non saltar da una banda a ogni pericolo:</l>
+              <l n="0026" xml:id="em0302-it-0072">non sempre è, quello che sembra;</l>
+              <l n="0027" xml:id="em0302-it-0073">soffia sopra ogni fiamma:</l>
+              <l n="0028" xml:id="em0302-it-0074">perchè quando una fiamma di fuoco va su,</l>
+              <l n="0029" xml:id="em0302-it-0075">allora hanno buon fine i vostri desiderî:</l>
+              <l n="0030" xml:id="em0302-it-0076">se alcuno chiede chi vi disse questo bene,</l>
+              <l n="0031" xml:id="em0302-it-0077">dite, l’Orso Bianco del bosco d’Inghilterra.</l>
+            </lg>
+          </sp>
+          <sp who="#calypha">
+            <speaker>1o FRATELLO</speaker>
+            <lg type="free" part="M">
+              <l n="0032" xml:id="em0302-it-0078">Fratello, non avete udito voi quel che il vecchio ha detto?</l>
+              <l n="0033" xml:id="em0302-it-0079">Non temere ogni straniero,</l>
+              <l n="0034" xml:id="em0302-it-0080">non saltar da una banda a ogni pericolo:</l>
+              <l n="0035" xml:id="em0302-it-0081">non sempre è quello che sembra,</l>
+              <l n="0036" xml:id="em0302-it-0082">soffia sopra ogni fiamma:</l>
+              <l n="0037" xml:id="em0302-it-0083">se alcuno chiede chi vi disse questo bene,</l>
+              <l n="0038" xml:id="em0302-it-0084">dite, l’Orso Bianco del bosco d’Inghilterra.</l>
+            </lg>
+          </sp>
+          <sp who="#thelea">
+            <speaker>2o FRATELLO</speaker>
+            <lg type="free" part="M">
+              <l n="0039" xml:id="em0302-it-0085">Ebbene, se ciò ci farà qualche bene,</l>
+              <l n="0040" xml:id="em0302-it-0086">ben abbia l’Orso Bianco del bosco d’Inghilterra.</l>
+            </lg>
+          </sp>
+          <stage>Exeunt.</stage>
+          <sp who="#vecchio">
+            <speaker>VECCHIO</speaker>
+            <lg type="free" part="M">
+              <l n="0041" xml:id="em0302-it-0087">Ora siediti qui e conta una grave novella.</l>
+              <l n="0042" xml:id="em0302-it-0088">Triste d’umore e serio nell’aspetto,</l>
+              <l n="0043" xml:id="em0302-it-0089">qui siediti ora e a te stesso racconta</l>
+              <l n="0044" xml:id="em0302-it-0090">la dura sventura del tuo infelicissimo stato.</l>
+              <l n="0045" xml:id="em0302-it-0091">In Tessalia io viveva in dolce contentezza,</l>
+              <l n="0046" xml:id="em0302-it-0092">finchè la fortuna operò la mia rovina;</l>
+              <l n="0047" xml:id="em0302-it-0093">perchè quivi io era sposato a una dama,</l>
+              <l n="0048" xml:id="em0302-it-0094">che viveva in onore, virtù, amore e fama;</l>
+              <l n="0049" xml:id="em0302-it-0095">ma Sacripante, quel maledetto Stregone,</l>
+              <l n="0050" xml:id="em0302-it-0096">infatuatosi del mio bello amore,</l>
+              <l n="0051" xml:id="em0302-it-0097">del io carissimo amore, della mia fedele promessa sposa,</l>
+              <l n="0052" xml:id="em0302-it-0098">cercò come potesse privarmi della mia vita.</l>
+              <l n="0053" xml:id="em0302-it-0099">Ma, peggio di questo egli co’ suoi incantesimi</l>
+              <l n="0054" xml:id="em0302-it-0100">mi trasmutò senz’altro in un brutto Orso;</l>
+              <l n="0055" xml:id="em0302-it-0101">e quando il sole si posa a occidente,</l>
+              <l n="0056" xml:id="em0302-it-0102">allora io comincio a indossare la mia brutta pelle:</l>
+              <l n="0057" xml:id="em0302-it-0103">e tutto il giorno io sego, come ora vedete,</l>
+              <l n="0058" xml:id="em0302-it-0104">e parlo per enimmi, tutto inspirato di furore,</l>
+              <l n="0059" xml:id="em0302-it-0105">assomigliando a un miserevole vecchio:</l>
+              <l n="0060" xml:id="em0302-it-0106">e pure io sono nell’Aprile de’ miei anni.</l>
+              <stage>Entra Venelia, la sua dama, folle; e di nuovo esce.</stage>
+              <l n="0061" xml:id="em0302-it-0107">Vedete Venelia, il mio promesso amore,</l>
+              <l n="0062" xml:id="em0302-it-0108">che corre impazzando, tutta infuriata, per i boschi,</l>
+              <l n="0063" xml:id="em0302-it-0109">tutto pe’ suoi maledetti incantesimi.</l>
+            </lg>
+            <stage>Entra Lamprisco con un vaso di miele.</stage>
+            <p>Ma ecco Lamprisco, il mio tristo vicino. Ebbene, vicino, voi guardate a terra come fo io; voi state ruminando qualcosa.</p>
+          </sp>
+          <sp who="#lamprisco">
+            <speaker>LAMPRISCO</speaker>
+            <p>Null’altro, vicino, che quella cosa che tante volte vi chiesi: se voi fate nulla per carità, aiutatemi; se per vicinato o fraternità, aiutatemi: non vi fu mai nessuno tanto in imbarazzo come il povero Lamprisco: e per cominciare, vi prego d’accettar questo vaso di miele per ristorare la vostra mensa.</p>
+          </sp>
+          <sp who="#vecchio">
+            <speaker>VECCHIO</speaker>
+            <lg type="free" part="M">
+              <l n="0064" xml:id="em0302-it-0112">Grazie, vicino, ponetelo giù;</l>
+              <l n="0065" xml:id="em0302-it-0113">il miele è sempre benvenuto per l’Orso.</l>
+              <l n="0066" xml:id="em0302-it-0114">Ed ora, amico, udiamo la cagione della vostra venuta.</l>
+            </lg>
+          </sp>
+          <sp who="#lamprisco">
+            <speaker>LAMPRISCO</speaker>
+            <p>Io sono (come voi sapete, vicino) un uomo vedovo, e vissi così poco in pace le mie due mogli, che ogni anno io festeggio il giorno in cui le seppellii tutte e due: la prima fu il giorno de Sant’Andrea, l’altra di San Luca.</p>
+          </sp>
+          <sp who="#vecchio">
+            <speaker>VECCHIO</speaker>
+            <p>Ed ora, vicino, come voi di queste paeso dite, la vostra condizione è manifesta: ma andate innanzi col vostro racconto, vicino.</p>
+          </sp>
+          <sp who="#lamprisco">
+            <speaker>LAMPRISCO</speaker>
+            <p>Dalla mia prima moglie, la cui lingua mi affiggeva a morte, emi sonava nelle orecchie come il battaglio d’una grande campana, la cui chiacchiera fu un continuo tormento per tutti coloro che le abitavan vicino, o vivevano accanto a lei, m’avete udito dire ch’io ebbi una bella figliuola.</p>
+          </sp>
+          <sp who="#vecchio">
+            <speaker>VECCHIO</speaker>
+            <p>Vero, vicino.</p>
+          </sp>
+          <sp who="#lamprisco">
+            <speaker>LAMPRISCO</speaker>
+            <p>Questa è che m’affligge co’ suoi continui strepiti, e mi s’attacca come una làppola: povera ella è, ed è superba; povera come una pecora appena tosata, e così superba delle sue speranze come un pavone della sua coda ben cresciuta.</p>
+          </sp>
+          <sp who="#vecchio">
+            <speaker>VECCHIO</speaker>
+            <p>Ben detto, Lamprisco, voi parlate da inglese.</p>
+          </sp>
+          <sp who="#lamprisco">
+            <speaker>LAMPRISCO</speaker>
+            <p>Maligna come una vespa, e caparbia come un infante appena tolto dal capezzolo della mamma; ella è per la mia vecchiaia quel che il fumo negli occhi o l’aceto sui denti.</p>
+          </sp>
+          <sp who="#vecchio">
+            <speaker>VECCHIO</speaker>
+            <p>Santamente lodata, vicino. Veniamo all’altra.</p>
+          </sp>
+          <sp who="#lamprisco">
+            <speaker>LAMPRISCO</speaker>
+            <p>Dall’altra mia moglie io ebbi una figliuola così arcigna e schifa e brutta di viso, ch’io credo che un boschetto tutto d’alberi d’oro, e le foglie di rubini e diamanti, non sarebbe una dote bastevole per la sua deformità.</p>
+          </sp>
+          <sp who="#vecchio">
+            <speaker>VECCHIO</speaker>
+            <p>Bene, vicino, ora che avete parlato, ascoltatemi; mandatele alla fontana per l’acqua di vita: colà esse troveranno le loro inattese fortune. Vicino, salute.</p>
+          </sp>
+          <stage>Exit.</stage>
+          <sp who="#lamprisco">
+            <speaker>LAMPRISCO</speaker>
+            <p>Mille volte salute; ed ora il povero Lamprisco va a mettere in esecuzione questo eccellente consiglio.</p>
+          </sp>
+          <stage>Exeunt.</stage>
+          <sp who="#gaio">
+            <speaker>GAIO</speaker>
+            <p>Ve’, questi va attorno senza l’archetto. Ma udite, Comare, era questi l’uomo ch’era orso la notte e uomo il giorno?</p>
+          </sp>
+          <sp who="#vecchia">
+            <speaker>LA VECCHIA</speaker>
+            <p>Sì, questi è lui; e quest’uomo che è venuto a lui era un mendicante, e viveva su un prato. Ma adagio, chi viene? O, questi sono i mietitori; dieci contr’uno, essi cantano una canzone della falce.</p>
+          </sp>
+          <stage>Entrano i mietitori cantando, con questa Canzone due volte ripetuta.</stage>
+          <sp who="#mietitori">
+            <lg type="free" part="M">
+              <l n="0067" xml:id="em0302-it-0128">Tutti voi che amabili amanti siete, pregate per me.</l>
+              <l n="0068" xml:id="em0302-it-0129">Ecco qui noi veniamo seminando, seminando,</l>
+              <l n="0069" xml:id="em0302-it-0130">e seminando dolci frutti d’amore;</l>
+              <l n="0070" xml:id="em0302-it-0131">con le vostre belle abbiate fortuna.</l>
+            </lg>
+          </sp>
+          <stage>Exeunt.</stage>
+          <stage>Entra Huanebango con la sua spada a due mani, e Booby rustico.</stage>
+          <sp who="#fantastico">
+            <speaker>FANTASTICO</speaker>
+            <p>Comare, chi è costui?</p>
+          </sp>
+          <sp who="#vecchia">
+            <speaker>LA VECCHIA</speaker>
+            <p>O, egli è uno che va dallo Stregone; lasciatelo fare; udite quel che dice.</p>
+          </sp>
+          <sp who="#huanebango">
+            <speaker>HUANEBANGO</speaker>
+            <p>Ora per Marte e Mercurio, Giove e Giano, Sole e Saturno, Venere e Vesta, Pallade e Proserpina, e per l’onore della mia casa Polimacheroplacidi, è una maraviglia a vedere che cosa quest’amore farà arrischiare agli sciocchi, pure nello scemo del loro senno e nell’infanzia del loro giudizio. Oimè, amico mio, qual sorte ti spinge a cercar la tua fortuna tra porte di bronzo, torri incantate, fuoco e zolfo, tuoni e lampi? La bellezza, ti dico, è incomparabile, e preziosa la donna che tu adori: scaccia questi desiderî, buon campagnuolo; buon amico, fuggi da te stesso, e più presto che puoi, dimentica colei, che sarà retaggio soltanto di chi può domare i mostri, compier le fatiche, scioglier gli enimmi, spezzar gli incanti, ammazzare i maghi e uccider gli stregoni: e questi è il grande e potente Huanebango.</p>
+          </sp>
+          <sp who="#booby">
+            <speaker>BOOBY</speaker>
+            <p>Ascoltate, signore, ascoltate. Prima sappiate ch’io ho qui la penna ondeggiante, e io sono stato il primo nella parrocchia a usar la calza lunga. Ora, signore, se non si tratterà che di correre un po’ fra tuoni e lampi, e, indovinala, dimmi che è?, io avrò la ragazza dallo Stregone, foss’egli dieci Stregoni.</p>
+          </sp>
+          <sp who="#huanebango">
+            <speaker>HUANEBANGO</speaker>
+            <p>
+              Io ho abbandonata la corte e una onorata compagnia, per fare il mio dovere contro questo crudele stregone a potente mago: se questa Dama è così bella come dicono che sia, ella è mia, ella è mia. 
+              <emph>Meus, mea, meum, in contemptu omnium grammaticorum!</emph>
+            </p>
+          </sp>
+          <sp who="#booby">
+            <speaker>BOOBY</speaker>
+            <p>
+              <emph>O falsum Latinum!</emph>
+               la bella fanciulla è mia, 
+              <emph>cum apurtinantibus gibletes</emph>
+               , e tutto.
+            </p>
+          </sp>
+          <sp who="#huanebango">
+            <speaker>HUANEBANGO</speaker>
+            <p>S’ella sarà mia, com’io m’assicuro che i cieli faràn qualcosa per guiderdone del mio valore, ella non sarà imparentata con alcuno degli dèi minori, ma allogata nella famosissima schiatta di Huanebango Polimacheroplacidi, mio nonno, mio padre Pergopolyneo, mia madre Dyonora de Sardynya, di famoso lignaggio.</p>
+          </sp>
+          <sp who="#booby">
+            <speaker>BOOBY</speaker>
+            <p>Udite, signore, non avevate voi un cugino, che si chiamava Gustecerydis?</p>
+          </sp>
+          <sp who="#huanebango">
+            <speaker>HUANEBANGO</speaker>
+            <p>Infatti io ebbi un cugino, che un tempo seguì la corte con mala fortuna, e il suo nome era Bustegustecerydis.</p>
+          </sp>
+          <sp who="#booby">
+            <speaker>BOOBY</speaker>
+            <p>O signore, io lo conosco bene! egli è il cavaliere dai piè di bue.</p>
+          </sp>
+          <sp who="#huanebango">
+            <speaker>HUANEBANGO</speaker>
+            <p>O, egli non amava di più il cappone! Egli ha spesso truffato il suo ragazzo del suo pranzo; quest’era il suo difetto, buon Bustegustecerydis!</p>
+          </sp>
+          <sp who="#booby">
+            <speaker>BOOBY</speaker>
+            <p>Venite, vogliamo andar innanzi! Adagio, ecco un vecchio presso la Croce; chiediamogli la via per giungere là. O, Compare, vi prego di dire dov’abita il sapiente Stregone.</p>
+          </sp>
+          <sp who="#huanebango">
+            <speaker>HUANEBANGO</speaker>
+            <p>Dove quella terrestre Dea tien la sua dimora, la governatrice de’ miei pensieri, e bella signora del mio cuore.</p>
+          </sp>
+          <sp who="#vecchio">
+            <speaker>VECCHIO</speaker>
+            <p>Bella assai, e assai lontana dalle tue dita, figliuolo!</p>
+          </sp>
+          <sp who="#huanebango">
+            <speaker>HUANEBANGO</speaker>
+            <p>Io seguirò la mia fortuna secondo la mia propria fantasia, e farò secondo il mio proprio giudizio.</p>
+          </sp>
+          <sp who="#vecchio">
+            <speaker>VECCHIO</speaker>
+            <p>Pure date qualcosa a un vecchio prima d’andarvene.</p>
+          </sp>
+          <sp who="#huanebango">
+            <speaker>HUANEBANGO</speaker>
+            <p>Padre, mi par che un pezzo di questa focaccia sarebbe quel che ci vuole per voi.</p>
+          </sp>
+          <sp who="#vecchio">
+            <speaker>VECCHIO</speaker>
+            <p>Si, figliuolo.</p>
+          </sp>
+          <sp who="#huanebango">
+            <speaker>HUANEBANGO</speaker>
+            <p>Huanebango non dà focacce in elemosina; chiedi a quelli che fan donazioni pei poveri mendicanti. Bella dama, una volta che tu fossi nel tempio di questo cuore, io ti farei scudo, haratàntara!</p>
+          </sp>
+          <stage>Exit.</stage>
+          <sp who="#booby">
+            <speaker>BOOBY</speaker>
+            <p>Padre, vedete voi quest’uomo? Voi non credereste che egli correrebbe un miglio o due per una simile focaccia, o si curerebbe d’una torta. Vi dico, Padre, ch’egli ha mendicato da me un pezzo di questa focaccia in un certo modo! Uh! egli mi viene addosso con ‘una sostanza superfanziale, e l’abbondanza della terra’, ch’io non so che cosa voglia dire. S’egli venisse da me così, e mi dicesse ‘amico Booby’, o qualcosa di simile, ebbene, io gliene potrei cedere un pezzo con tutto il cuore; ma quando mi dice come Dio m’ha arricchito sugli altri uomini d’una focaccia, via, mi rende cieco e sordo a una volta. Pure, padre, ecco un pezzo di focaccia per voi, per male che vada il mondo.</p>
+          </sp>
+          <sp who="#vecchio">
+            <speaker>VECCHIO</speaker>
+            <lg type="free" part="M">
+              <l n="0071" xml:id="em0302-it-0152">Grazie, figliuolo; ma ascoltami:</l>
+              <l n="0072" xml:id="em0302-it-0153">egli sarà sordo quando tu non vedrai.</l>
+              <l n="0073" xml:id="em0302-it-0154">Salute, figliuolo mio; possan le cose andar così,</l>
+              <l n="0074" xml:id="em0302-it-0155">che tu abbia ricchezza da ristorarti il senno.</l>
+            </lg>
+          </sp>
+          <sp who="#booby">
+            <speaker>BOOBY</speaker>
+            <p>Salute, padre, salute; perchè mi bisogna affrettarmi dietro alla mia spada a due mani, che è andata innanzi.</p>
+          </sp>
+          <stage>Exeunt omnes.</stage>
+          <stage>Entra Sacripante nel suo studio.</stage>
+          <sp who="#sacripante">
+            <speaker>SACRIPANTE</speaker>
+            <lg type="free" part="M">
+              <l n="0075" xml:id="em0302-it-0157">Il giorno è chiaro, la volta celeste lucida e cerulea;</l>
+              <l n="0076" xml:id="em0302-it-0158">l’allodola è allegra e canta le sue note;</l>
+              <l n="0077" xml:id="em0302-it-0159">ogni cosa prende gioia sotto il cielo,</l>
+              <l n="0078" xml:id="em0302-it-0160">fuor ch’io solo, cui il cielo ha in odio</l>
+              <l n="0079" xml:id="em0302-it-0161">sventurato e miserevole Sacripante.</l>
+              <l n="0080" xml:id="em0302-it-0162">In Tessalia io nacqui e fui allevato.</l>
+              <l n="0081" xml:id="em0302-it-0163">Mia madre si chiamava Meroe, famosa maga,</l>
+              <l n="0082" xml:id="em0302-it-0164">e per la sua sapienza io da lei appresi,</l>
+              <l n="0083" xml:id="em0302-it-0165">a cambiare e alterare le forme degli uomini mortali.</l>
+              <l n="0084" xml:id="em0302-it-0166">Colà io trasmutai me stesso in un dragone,</l>
+              <l n="0085" xml:id="em0302-it-0167">e involai la figliuola del re,</l>
+              <l n="0086" xml:id="em0302-it-0168">la bella Delya, la signora del mio cuore,</l>
+              <l n="0087" xml:id="em0302-it-0169">e la portai qui per ravvivare quest’uomo,</l>
+              <l n="0088" xml:id="em0302-it-0170">che sembra giovine e piacente a guardarsi,</l>
+              <l n="0089" xml:id="em0302-it-0171">e invece è vecchio, curvo, debole e torpido.</l>
+              <l n="0090" xml:id="em0302-it-0172">Così per forza d’incantesimi io inganno</l>
+              <l n="0091" xml:id="em0302-it-0173">coloro che mirano e guardano il mio volto;</l>
+              <l part="I" n="0092" xml:id="em0302-it-0174">ma io potrei bene dire addio agli anni giovanil</l>
+              <stage>Entra Delya con una brocca in mano.</stage>
+              <l part="F" xml:id="em0302-it-0175">Ecco viene colei, da cui hanno origine i miei dolori.</l>
+              <l n="0093" xml:id="em0302-it-0176">Ebbene, bella Delya, dove siete stata?</l>
+            </lg>
+          </sp>
+          <sp who="#delya">
+            <speaker>DELYA</speaker>
+            <lg type="free" part="M">
+              <l n="0094" xml:id="em0302-it-0177">A piè della roccia per acqua corrente,</l>
+              <l n="0095" xml:id="em0302-it-0178">ed a raccogliere radici pel vostro pranzo, signore.</l>
+            </lg>
+          </sp>
+          <sp who="#sacripante">
+            <speaker>SACRIPANTE</speaker>
+            <lg type="free" part="M">
+              <l n="0096" xml:id="em0302-it-0179">Ah! Delya, tu sei più bella che acqua corrente,</l>
+              <l n="0097" xml:id="em0302-it-0180">e pure più dura assai che acciaio o adamante.</l>
+            </lg>
+          </sp>
+          <sp who="#delya">
+            <speaker>DELYA</speaker>
+            <lg type="free" part="M">
+              <l n="0098" xml:id="em0302-it-0181">Vi piacerebbe sedere, signore?</l>
+            </lg>
+          </sp>
+          <sp who="#sacripante">
+            <speaker>SACRIPANTE</speaker>
+            <lg type="free" part="M">
+              <l n="0099" xml:id="em0302-it-0182">Sì, Delya, siede e chiedi quel che tu vuoi;</l>
+              <l n="0100" xml:id="em0302-it-0183">tu l’avrai, portatonel tuo grembo.</l>
+            </lg>
+          </sp>
+          <sp who="#delya">
+            <speaker>DELYA</speaker>
+            <p>Allora vi prego, signore, fatemi avere la miglior vivanda dalla tavola del re d’Inghilterra, e il miglior vino di tutta la Francia, portati qui dal più pretto furfante di tutta la Spagna.</p>
+          </sp>
+          <sp who="#sacripante">
+            <speaker>SACRIPANTE</speaker>
+            <lg type="free" part="M">
+              <l n="0101" xml:id="em0302-it-0185">Delya, io sono felice di vedervi così faceta.</l>
+              <l n="0102" xml:id="em0302-it-0186">Bene, siediti.</l>
+              <l n="0103" xml:id="em0302-it-0187">Apparecchiati, tavola, apparecchiati; cibo, bevanda e pane.</l>
+              <l n="0104" xml:id="em0302-it-0188">Sempre possa avere io quel ch’io chieggo,</l>
+              <l n="0105" xml:id="em0302-it-0189">quando sono apparecchiato, cibo pel mio gallo nero,</l>
+              <l n="0106" xml:id="em0302-it-0190">e cibo pel mio rosso.</l>
+              <stage>Entra un frate con una schiena di bue e un boccale di vino.</stage>
+              <l n="0107" xml:id="em0302-it-0191">Ecco, Delya, volete incominciare?</l>
+            </lg>
+          </sp>
+          <sp who="#delya">
+            <speaker>DELYA</speaker>
+            <lg type="free" part="M">
+              <l n="0108" xml:id="em0302-it-0192">È questa la miglior vivanda d’Inghilterra?</l>
+            </lg>
+          </sp>
+          <sp who="#sacripante">
+            <speaker>SACRIPANTE</speaker>
+            <lg type="free" part="M">
+              <l n="0109" xml:id="em0302-it-0193">Sì.</l>
+            </lg>
+          </sp>
+          <sp who="#delya">
+            <speaker>DELYA</speaker>
+            <lg type="free" part="M">
+              <l n="0110" xml:id="em0302-it-0194">Che cosa è?</l>
+            </lg>
+          </sp>
+          <sp who="#sacripante">
+            <speaker>SACRIPANTE</speaker>
+            <lg type="free" part="M">
+              <l n="0111" xml:id="em0302-it-0195">Una schiena di bue inglese, vivanda da re</l>
+              <l n="0112" xml:id="em0302-it-0196">e da seguaci di re.</l>
+            </lg>
+          </sp>
+          <sp who="#delya">
+            <speaker>DELYA</speaker>
+            <lg type="free" part="M">
+              <l n="0113" xml:id="em0302-it-0197">È questo il miglior vino di Francia?</l>
+            </lg>
+          </sp>
+          <sp who="#sacripante">
+            <speaker>SACRIPANTE</speaker>
+            <lg type="free" part="M">
+              <l n="0114" xml:id="em0302-it-0198">Sì.</l>
+            </lg>
+          </sp>
+          <sp who="#delya">
+            <speaker>DELYA</speaker>
+            <lg type="free" part="M">
+              <l n="0115" xml:id="em0302-it-0199">Che vino è?</l>
+            </lg>
+          </sp>
+          <sp who="#sacripante">
+            <speaker>SACRIPANTE</speaker>
+            <lg type="free" part="M">
+              <l n="0116" xml:id="em0302-it-0200">Una coppa di schietto vino d’Orléans,</l>
+              <l n="0117" xml:id="em0302-it-0201">che mai s’accostò ai birrai d’Inghilterra.</l>
+            </lg>
+          </sp>
+          <sp who="#delya">
+            <speaker>DELYA</speaker>
+            <lg type="free" part="M">
+              <l n="0118" xml:id="em0302-it-0202">È questo il più pretto furfante di tutta la Spagna?</l>
+            </lg>
+          </sp>
+          <sp who="#sacripante">
+            <speaker>SACRIPANTE</speaker>
+            <lg type="free" part="M">
+              <l n="0119" xml:id="em0302-it-0203">Sì.</l>
+            </lg>
+          </sp>
+          <sp who="#delya">
+            <speaker>DELYA</speaker>
+            <lg type="free" part="M">
+              <l n="0120" xml:id="em0302-it-0204">Che, è egli un frate?</l>
+            </lg>
+          </sp>
+          <sp who="#sacripante">
+            <speaker>SACRIPANTE</speaker>
+            <lg type="free" part="M">
+              <l n="0121" xml:id="em0302-it-0205">Sì, un frate indefinito, e un furfante infinito.</l>
+            </lg>
+          </sp>
+          <sp who="#delya">
+            <speaker>DELYA</speaker>
+            <p>Allora vi prego, signor frate, ditemi prima d’andarvene, qual’è l’inglese più ingordo?</p>
+          </sp>
+          <sp who="#fratemietitorifuriesuonatori">
+            <speaker>FRATE</speaker>
+            <p>Il miserabile e cupidissimo usuraio.</p>
+          </sp>
+          <sp who="#sacripante">
+            <speaker>SACRIPANTE</speaker>
+            <lg type="free" part="M">
+              <l part="I" n="0122" xml:id="em0302-it-0208">Tienti costà, frate.</l>
+              <stage>Exit il frate.</stage>
+              <l part="M" xml:id="em0302-it-0209">Ma adagio, chi abbiamo qui? Delya, via, va, via!</l>
+              <stage>Entrano i due fratelli.</stage>
+              <l part="F" xml:id="em0302-it-0210">Delya, via, perché noi siamo circondati.</l>
+              <l n="0123" xml:id="em0302-it-0211">Ma cielo o inferno la scamperanno per me.</l>
+            </lg>
+          </sp>
+          <sp who="#calypha">
+            <speaker>1o FRATELLO</speaker>
+            <lg type="free" part="M">
+              <l n="0124" xml:id="em0302-it-0212">Fratello, non fu che Delya apparve?</l>
+              <l n="0125" xml:id="em0302-it-0213">o soltanto la sua ombra era qui?</l>
+            </lg>
+          </sp>
+          <sp who="#thelea">
+            <speaker>2o FRATELLO</speaker>
+            <lg type="free" part="M">
+              <l n="0126" xml:id="em0302-it-0214">Sorella, dove sei tu? Delya, ritorna;</l>
+              <l n="0127" xml:id="em0302-it-0215">quegli chiama, che della tua assenza si lamenta.</l>
+              <l n="0128" xml:id="em0302-it-0216">Chiama, Calypha, ch’ella possa udire,</l>
+              <l n="0129" xml:id="em0302-it-0217">e grida forte, perchè Delya è vicina.</l>
+            </lg>
+          </sp>
+          <sp who="#eco">
+            <speaker>ECO</speaker>
+            <lg type="free" part="M">
+              <l n="0130" xml:id="em0302-it-0218">Vicina.</l>
+            </lg>
+          </sp>
+          <sp who="#calypha">
+            <speaker>1o FRATELLO</speaker>
+            <lg type="free" part="M">
+              <l n="0131" xml:id="em0302-it-0219">Vicina? O dove? Ne hai tu qualche notizia?</l>
+            </lg>
+          </sp>
+          <sp who="#eco">
+            <speaker>ECO</speaker>
+            <lg type="free" part="M">
+              <l n="0132" xml:id="em0302-it-0220">Notizia.</l>
+            </lg>
+          </sp>
+          <sp who="#thelea">
+            <speaker>2o FRATELLO</speaker>
+            <lg type="free" part="M">
+              <l n="0133" xml:id="em0302-it-0221">Da che parte è Delya, allora, da quella a da questa?</l>
+            </lg>
+          </sp>
+          <sp who="#eco">
+            <speaker>ECO</speaker>
+            <lg type="free" part="M">
+              <l n="0134" xml:id="em0302-it-0222">Questa.</l>
+            </lg>
+          </sp>
+          <sp who="#calypha">
+            <speaker>1o FRATELLO</speaker>
+            <lg type="free" part="M">
+              <l n="0135" xml:id="em0302-it-0223">E potremo noi giunger salvi dov’è Delya? (Sì?)</l>
+            </lg>
+          </sp>
+          <sp who="#eco">
+            <speaker>ECO</speaker>
+            <lg type="free" part="M">
+              <l n="0136" xml:id="em0302-it-0224">Sì.</l>
+            </lg>
+          </sp>
+          <sp who="#thelea">
+            <speaker>2o FRATELLO</speaker>
+            <lg type="free" part="M">
+              <l n="0137" xml:id="em0302-it-0225">Fratello, vi ricordate dell’Orso bianco del bosco d’Inghilterra?</l>
+              <l n="0138" xml:id="em0302-it-0226">Non saltar da una banda a ogni pericolo;</l>
+              <l n="0139" xml:id="em0302-it-0227">non temere ogni straniero;</l>
+              <l n="0140" xml:id="em0302-it-0228">non sempre è quello che sembra.</l>
+            </lg>
+          </sp>
+          <sp who="#calypha">
+            <speaker>1o FRATELLO</speaker>
+            <lg type="free" part="M">
+              <l n="0141" xml:id="em0302-it-0229">Fratello, allora perchè non entriamo coraggiosamente?</l>
+            </lg>
+          </sp>
+          <sp who="#thelea">
+            <speaker>2o FRATELLO</speaker>
+            <lg type="free" part="M">
+              <l n="0142" xml:id="em0302-it-0230">Allora, fratello, trai la tua spada e seguimi.</l>
+            </lg>
+          </sp>
+          <stage>Entra lo Stregone. Tuona e lampeggia.</stage>
+          <stage>Il 2o fratello cade a terra.</stage>
+          <sp who="#calypha">
+            <speaker>1o FRATELLO</speaker>
+            <lg type="free" part="M">
+              <l n="0143" xml:id="em0302-it-0231">Che, fratello, tu cadi?</l>
+            </lg>
+          </sp>
+          <sp who="#sacripante">
+            <speaker>SACRIPANTE</speaker>
+            <lg type="free" part="M">
+              <l part="I" n="0144" xml:id="em0302-it-0232">Sì, e tu pure, Calypha.</l>
+              <stage>Cade il 1o fratello. Entrano due Furie.</stage>
+              <l part="F" xml:id="em0302-it-0233">
+                <emph>Adeste Daemones</emph>
+                 : via con essi;
+              </l>
+              <l n="0145" xml:id="em0302-it-0234">portateli subito alla cella di Sacripante,</l>
+              <l n="0146" xml:id="em0302-it-0235">perchè quivi dimorino in disperazione e tormento.</l>
+              <l n="0147" xml:id="em0302-it-0236">Questi sono i figli di Thenore di Tessalia,</l>
+              <l n="0148" xml:id="em0302-it-0237">che vengono per ricercare la loro sorella Delya;</l>
+              <l n="0149" xml:id="em0302-it-0238">ma, con una pozione ch’io le ho data,</l>
+              <l part="I" n="0150" xml:id="em0302-it-0239">le mie arti le han fatto dimenticar se stessa.</l>
+              <stage>Rimuove una zolla e mostra una luce in un vetro.</stage>
+              <l part="F" xml:id="em0302-it-0240">Vedete qui ciò che prolunga la mia vita;</l>
+              <l n="0151" xml:id="em0302-it-0241">con questo incantamento io faccio qualunque cosa.</l>
+              <l n="0152" xml:id="em0302-it-0242">E finchè questo non venga meno, la mia sapienza sempre durerà,</l>
+              <l n="0153" xml:id="em0302-it-0243">e nessuno mai romperà questo piccolo vetro</l>
+              <l n="0154" xml:id="em0302-it-0244">se non colei che non sia nè moglie, nè vedova nè fanciulla.</l>
+              <l n="0155" xml:id="em0302-it-0245">Dunque sta di buon animo; questo è il tuo destino,</l>
+              <l n="0156" xml:id="em0302-it-0246">non morir mai, se non per mano d’un morto.</l>
+            </lg>
+          </sp>
+          <stage>Exeunt.</stage>
+          <stage>Entrano Eumenide, il cavaliere errante, e il Vecchio presso la Croce.</stage>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <lg type="free" part="M">
+              <l n="0157" xml:id="em0302-it-0247">Dimmi, Tempo, dimmi, giusto Tempo,</l>
+              <l n="0158" xml:id="em0302-it-0248">quando vedrò io Delya?</l>
+              <l n="0159" xml:id="em0302-it-0249">quando vedrò io la stella polare della mia vita?</l>
+              <l n="0160" xml:id="em0302-it-0250">quando il mio corso errante finirà con la sua vista,</l>
+              <l n="0161" xml:id="em0302-it-0251">o io pur mirerò la mia speranza, la gioia del mio cuore?</l>
+              <l n="0162" xml:id="em0302-it-0252">Padre, Iddio v’assista; se voi dete la fortuna, prego,</l>
+              <l n="0163" xml:id="em0302-it-0253">buon padre, ditemi la mia.</l>
+            </lg>
+          </sp>
+          <sp who="#vecchio">
+            <speaker>VECCHIO</speaker>
+            <lg type="free" part="M">
+              <l n="0164" xml:id="em0302-it-0254">Fingliuolo, io veggo nel tuo volto,</l>
+              <l n="0165" xml:id="em0302-it-0255">che la tua benedetta fortuna opera velocemente;</l>
+              <l n="0166" xml:id="em0302-it-0256">io scorgo che tu hai senno,</l>
+              <l n="0167" xml:id="em0302-it-0257">chiedi al tuo fato che lo governi;</l>
+              <l n="0168" xml:id="em0302-it-0258">perchè la saggezza governata dal buon consiglio,</l>
+              <l n="0169" xml:id="em0302-it-0259">rende molti fortunati e saggi.</l>
+              <l n="0170" xml:id="em0302-it-0260">Fa le tue elemosine, dà più che tutto,</l>
+              <l n="0171" xml:id="em0302-it-0261">finchè l’ossa dei morti vengano al tuo richiamo.</l>
+              <l n="0172" xml:id="em0302-it-0262">Salute, figlio mio, non sognare nessun riposo,</l>
+              <l n="0173" xml:id="em0302-it-0263">finchè tu non ti penta d’aver fatto il meglio.</l>
+            </lg>
+          </sp>
+          <stage>Exit il Vecchio.</stage>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <lg type="free" part="M">
+              <l n="0174" xml:id="em0302-it-0264">Quest’uomo mi ha lasciato in un laberinto:</l>
+              <l n="0175" xml:id="em0302-it-0265">egli mi dice di dare più che tutto,</l>
+              <l n="0176" xml:id="em0302-it-0266">finchè l’ossa dei morti vengano al mio richiamo;</l>
+              <l n="0177" xml:id="em0302-it-0267">egli mi dice di non sognare nessun riposo,</l>
+              <l n="0178" xml:id="em0302-it-0268">finchè non mi penta di fare il meglio.</l>
+            </lg>
+          </sp>
+          <stage>Entrano Wiggen, Corebo, il Santesse e il Sacrestano.</stage>
+          <sp who="#wiggen">
+            <speaker>WIGGEN</speaker>
+            <p>Voi dovreste vergognarvi, bastardi tignosi Sacrestano e Santese, se poteste provar vergogna su quelle vostre facce svergognate, di lasciare un pover uomo giacer così a lungo sopra terra insepolto. Peste a voi tutti, che non avete più compassione d’un buon diavolo, quand’egli se n’è ito!</p>
+          </sp>
+          <sp who="#simone">
+            <speaker>SIMONE</speaker>
+            <p>Che, voi vorreste che noi io seppellissimo, e che ne rispondessimo noi alla parrocchia?</p>
+          </sp>
+          <sp who="#sacrestano">
+            <speaker>SACRESTANO</speaker>
+            <p>Che parrocchie e non parrocchie! pagatemi i miei diritti e lasciate correre il resto ne’ conti del trimestre, e mettetela giù come una delle vostre buone azioni, al nome di Dio! perchè io non sono uno di quelli che guardano ai meriti tanto pel sottile.</p>
+          </sp>
+          <sp who="#corebo">
+            <speaker>COREBO</speaker>
+            <p>Bastardo, faccia di pecora dalla testa bollita, un buon uomo farà alla parrocchia meno di servigi e più d’onestà, e voi, quand’è morto, non gli darete sepoltura cristale?</p>
+          </sp>
+          <sp who="#wiggen">
+            <speaker>WIGGEN</speaker>
+            <p>Taci, Corebo, com’è vero che Jack era Jack, il più gaio burlone tra voi, ed io Wiggen il suo dolce fratello giurato, Jack avrà i suoi funerali o qualcuno di loro giacerà per questo sulla cara terra di Dio, una buona volta!</p>
+          </sp>
+          <sp who="#santese">
+            <speaker>SANTESE</speaker>
+            <p>Wiggen, io spero che tu non farai più di quello per cui tu osi rispondere.</p>
+          </sp>
+          <sp who="#wiggen">
+            <speaker>WIGGEN</speaker>
+            <p>Signore, signore, osare o non osare, più o meno, rispondere o non rispondere, fa questo, o piglia questo.</p>
+          </sp>
+          <sp who="#sacrestano">
+            <speaker>SACRESTANO</speaker>
+            <p>Aiuto, aiuto, aiuto!</p>
+          </sp>
+          <stage>Wiggen s’avventa contro la parrocchia con un’asta di picca. Eumenide si sveglia e viene a loro.</stage>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Le mani a posto, buon uomo!</p>
+          </sp>
+          <sp who="#corebo">
+            <speaker>COREBO</speaker>
+            <p>Potete voi biasimarlo, signore, s’egli piglia le parti di Jack contro questa schifosa parrocchia che non vuol seppellire Jack?</p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Bene, che era questo Jack?</p>
+          </sp>
+          <sp who="#corebo">
+            <speaker>COREBO</speaker>
+            <p>Chi Jack, signore, chi era il nostro Jack? il miglior uomo che mai camminasse su pelle di bue.</p>
+          </sp>
+          <sp who="#wiggen">
+            <speaker>WIGGEN</speaker>
+            <p>Guardate, signore, egli diede novantanove vesti da lutto alla parrocchia, quando morì, e perchè non volle compire il centinaio, non l’han voluto seppellire; non fu questo un buon trattamento?</p>
+          </sp>
+          <sp who="#santese">
+            <speaker>SANTESE</speaker>
+            <p>O Dio, signore, com’egli mente; ei non valeva un mezzo soldo, e si beveva tutti i suoi soldi: ed ora i suoi compagni ubbriaconi vorrebbero che noi lo seppellissimo a spesa della parrocchia. Se noi facciam molti di questi affari, possiamo abbattere il campa nile, vendere le campane, e coprir di paglia il coro. Egli giacerà sopra terra finchè non danzi una gagliarda sul sagrato, per Stefano Ghiozzo.</p>
+          </sp>
+          <sp who="#wiggen">
+            <speaker>WIGGEN</speaker>
+            <p>
+              <emph>Sic argumentaris, Domine</emph>
+               Ghiozzo; — se noi facciam molti di questi affari, possiamo abbattere il campanile, vendere le campane, e coprir di paglia il coro: alla buon’ora, signori, e appiccarvi alle corde delle campane, quando avete finito. 
+              <emph>Domine oponens, praepono tibi hanc questionem</emph>
+               , se voi romperete la terra, o avrete prima la testa rotta? Perchè una delle due cose sarà fatta sul momento, e per cominciar dalla mia, io ve la suggello sulla vostra cresta di gaio.
+            </p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>A posto le mani, ti prego, buon uomo; non aver troppa fretta.</p>
+          </sp>
+          <sp who="#corebo">
+            <speaker>COREBO</speaker>
+            <p>Voi faccia di cappone, noi vi cacceremo uno di questi giorni dalla parrocchia, senza nemmeno uno straccio sul culo; allora siete in peggior condizione di Jack.</p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>In fede, ch’egli è cattivo assai. Questo buon uomo fa soltanto la parte dell’amico, per cercare di seppellire il suo amico; quanto ci vuole per seppellirlo?</p>
+          </sp>
+          <sp who="#wiggen">
+            <speaker>WIGGEN</speaker>
+            <p>In fede, qualche quindici o sedici scellini circa basteranno per allogarlo onestamente.</p>
+          </sp>
+          <sp who="#sacrestano">
+            <speaker>SACRESTANO</speaker>
+            <p>Sì, appunto a un dipresso, signore.</p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Qui, tienili, e non mi restano che tre poveri mezzi soldi: ora mi ricordo le parole che il vecchio disse presso la croce: ‘ dà tutto quello che hai ’, — e questo è tutto, — ‘finchè l’ossa dei morti vengano al tuo richiamo’. Qui, tieni, e così addio.</p>
+          </sp>
+          <sp who="#wiggen">
+            <speaker>WIGGEN</speaker>
+            <p>Dio, e ogni bene, sia con voi, signore. Anzi, cormorani, io voglio dedicare una scampanata a Jack a tutto mio costo e carico.</p>
+          </sp>
+          <sp who="#corebo">
+            <speaker>COREBO</speaker>
+            <p>Potete ringraziar Dio che la lunga asta e la lama della spada non v’abbiano trapassato le creste di gallo. Bene, andiamo al sagrato della chiesa, a bere un boccale, per stare allegri.</p>
+          </sp>
+          <sp who="#tuttiédue">
+            <speaker>TUTTI É DUE.</speaker>
+            <p>Vieni, andiamo.</p>
+          </sp>
+          <stage>Exeunt.</stage>
+          <sp who="#fantastico">
+            <speaker>FANTASTICO</speaker>
+            <p>Ma ascoltate, Comare, mi pare che questo Jack fosse un pezzo grosso nella parrocchia.</p>
+          </sp>
+          <sp who="#vecchia">
+            <speaker>LA VECCHIA</speaker>
+            <p>Oh, questo Jack era un uomo maraviglioso; egli non era che un povero, ma molto amato: vedrete fra poco a che giungerà questo Jack.</p>
+          </sp>
+          <stage>Entrano i mietitori cantando, con donne per mano.</stage>
+          <sp who="#gaio">
+            <speaker>GAIO</speaker>
+            <p>Adagio, chi abbiamo qui? i nostri amorosi mietitori.</p>
+          </sp>
+          <sp who="#fantastico">
+            <speaker>FANTASTICO</speaker>
+            <lg type="free" part="M">
+              <l part="I" n="0179" xml:id="em0302-it-0296">Sì, sì, sediamo tranquilli e lasciamoli fare.</l>
+              <stage>Qui essi cominciano a cantare, la canzone ripetuta due volte.</stage>
+              <l part="F" xml:id="em0302-it-0297">Ecco qui noi veniamo mietendo, mietendo,</l>
+              <l n="0180" xml:id="em0302-it-0298">per mietere la nostra messe,</l>
+              <l n="0181" xml:id="em0302-it-0299">e così trascorriamo l’anno quant’è lungo.</l>
+              <l n="0182" xml:id="em0302-it-0300">e non mai stiamo in silenzio.</l>
+            </lg>
+          </sp>
+          <stage>Exeunt i mietitori.</stage>
+          <stage>Entrano Huanebango e Corebo rustico.</stage>
+          <sp who="#gaio">
+            <speaker>GAIO</speaker>
+            <p>Adagio, chi abbiamo qui?</p>
+          </sp>
+          <sp who="#vecchia">
+            <speaker>LA VECCHIA</speaker>
+            <p>O, questo è un collerico gentiluomo; tutti voi che amate la vostra vita, tenetevi lontani dall’odore della sua spada a due mani: ora si reca egli dallo Stregone.</p>
+          </sp>
+          <sp who="#fantastico">
+            <speaker>FANTASTICO</speaker>
+            <p>Mi par che lo Stregone dovrebbe mettere il pazzo dentro una scatola magica.</p>
+          </sp>
+          <sp who="#huanebango">
+            <speaker>HUANEBANGO</speaker>
+            <lg type="free" part="M">
+              <l n="0183" xml:id="em0302-it-0304">Fi, fa, fum! ecco l’ Inglese!</l>
+              <l n="0184" xml:id="em0302-it-0305">Vincetelo se potete. — Viene per la sua dama splendente,</l>
+              <l n="0185" xml:id="em0302-it-0306">per dimostrarsi cavaliere,</l>
+              <l n="0186" xml:id="em0302-it-0307">e guadagnarsi il suo amore in battaglia.</l>
+            </lg>
+          </sp>
+          <sp who="#corebo">
+            <speaker>COREBO</speaker>
+            <p>Olà, signor Bango, siete voi qui? sentite, fareste meglio a sedervi qui e a chieder l’elemosina con me.</p>
+          </sp>
+          <sp who="#huanebango">
+            <speaker>HUANEBANGO</speaker>
+            <p>Via di qui, vil minchione! Ecco quegli che comanda con la sua spada l’entrata e l’uscita, ed entrerà a suo talento, chiunque sia che dica no.</p>
+          </sp>
+          <stage>Una voce e una fiamma di fuoco. Huanebango cade a terra.</stage>
+          <sp who="#voce1">
+            <speaker>LA VOCE</speaker>
+            <p>No.</p>
+          </sp>
+          <sp who="#vecchia">
+            <speaker>LA VECCHIA</speaker>
+            <p>Così con questo han baciato e guasto il filo della migliore spada a due mani in cui mai Dio ponesse vita; ora va dentro Corebo a dispetto dello Stregone.</p>
+          </sp>
+          <stage>Entra lo Stregone e acceca Corebo.</stage>
+          <sp who="#sacripante">
+            <speaker>SACRIPANTE</speaker>
+            <lg type="free" part="M">
+              <l n="0187" xml:id="em0302-it-0312">Via con costui negli aperti campi,</l>
+              <l n="0188" xml:id="em0302-it-0313">che sia preda alla voracità dei corvi e degli avvoltoi.</l>
+              <l n="0189" xml:id="em0302-it-0314">Quanto a questo bifolco, lasciatelo errare su e giù</l>
+              <l n="0190" xml:id="em0302-it-0315">sempre nella tenebra a nella notte eterna.</l>
+            </lg>
+          </sp>
+          <sp who="#corebo">
+            <speaker>COREBO</speaker>
+            <lg type="free" part="M">
+              <l n="0191" xml:id="em0302-it-0316">Ecco che tu hai ammazzato Huan, cavaliere di ventura,</l>
+              <l n="0192" xml:id="em0302-it-0317">e privato della sua vista il povero Corebo.</l>
+            </lg>
+          </sp>
+          <stage>Exit.</stage>
+          <sp who="#sacripante">
+            <speaker>SACRIPANTE</speaker>
+            <lg type="free" part="M">
+              <l n="0193" xml:id="em0302-it-0318">Via di qua, bifolco, via! — Ora a Delya io ho</l>
+              <l n="0194" xml:id="em0302-it-0319">data una pozione di dimenticanza,</l>
+              <l n="0195" xml:id="em0302-it-0320">che quando ella viene, non conoscerà i suoi fratelli.</l>
+              <l n="0196" xml:id="em0302-it-0321">Ve’ dov’essi lavorano, come servi della gleba,</l>
+              <l n="0197" xml:id="em0302-it-0322">con vanga e zappa su questo suolo incantato!</l>
+              <l n="0198" xml:id="em0302-it-0323">Ora io la chiamerò con un altro nome,</l>
+              <l n="0199" xml:id="em0302-it-0324">perchè mai ella non conoscerà se stessa un’altra volta,</l>
+              <l n="0200" xml:id="em0302-it-0325">finchè Sacripante non abbia tratto l’ultimo respiro.</l>
+              <l part="I" n="0201" xml:id="em0302-it-0326">Vedete, ella giunge.</l>
+              <stage>Entra Delya.</stage>
+              <l part="F" xml:id="em0302-it-0327">Vieni qui, Delya, prendi questo pungetto.</l>
+              <l n="0202" xml:id="em0302-it-0328">Qui presso due schiavi lavorano e scavano oro.</l>
+              <l n="0203" xml:id="em0302-it-0329">Punzecchiali con questo, e tu n’avrai assai.</l>
+            </lg>
+          </sp>
+          <stage>Egli le dà un pungetto.</stage>
+          <sp who="#delya">
+            <speaker>DELYA</speaker>
+            <lg type="free" part="M">
+              <l n="0204" xml:id="em0302-it-0330">Buon signore, io non so che vogliate dire.</l>
+            </lg>
+          </sp>
+          <sp who="#sacripante">
+            <speaker>SACRIPANTE</speaker>
+            <lg type="free" part="M">
+              <l n="0205" xml:id="em0302-it-0331">Ella ha dimenticato d’esser Delya,</l>
+              <l n="0206" xml:id="em0302-it-0332">ma io le cambierò il nome.</l>
+              <l n="0207" xml:id="em0302-it-0333">Bella Berecinthia, cosi questo paese ti chiama,</l>
+              <l n="0208" xml:id="em0302-it-0334">va a stimolare questi stranieri. Fanciulla, essi scavano oro.</l>
+            </lg>
+          </sp>
+          <sp who="#delya">
+            <speaker>DELYA</speaker>
+            <lg type="free" part="M">
+              <l n="0209" xml:id="em0302-it-0335">O cieli! come son io obbigata a questo bel giovine!</l>
+              <l n="0210" xml:id="em0302-it-0336">ma io debbo stimolare questi stranieri al loro lavoro.</l>
+              <l n="0211" xml:id="em0302-it-0337">Ecco che vengono.</l>
+            </lg>
+          </sp>
+          <stage>Entrano i due fratelli in camicia, con vanghe, scavando.</stage>
+          <sp who="#calypha">
+            <speaker>1o FRATELLO</speaker>
+            <lg type="free" part="M">
+              <l n="0212" xml:id="em0302-it-0338">O fratello, vedi dov’è Delya!</l>
+            </lg>
+          </sp>
+          <sp who="#thelea">
+            <speaker>2o FRATELLO</speaker>
+            <lg type="free" part="M">
+              <l n="0213" xml:id="em0302-it-0339">O Delya, noi siam felici di vederti qui.</l>
+            </lg>
+          </sp>
+          <sp who="#delya">
+            <speaker>DELYA</speaker>
+            <lg type="free" part="M">
+              <l n="0214" xml:id="em0302-it-0340">Che m’andate dicendo voi di Delya, bifolchi ciarloni?</l>
+              <l n="0215" xml:id="em0302-it-0341">Io non conosco nessuna Delya, né so che cosa vogliate dire;</l>
+              <l n="0216" xml:id="em0302-it-0342">attendete al vostro lavoro, o andate a rischio di sentirvi pungere.</l>
+            </lg>
+          </sp>
+          <sp who="#calypha">
+            <speaker>1o FRATELLO</speaker>
+            <lg type="free" part="M">
+              <l n="0217" xml:id="em0302-it-0343">Come, Delya, tu non conosci qui i tuoi fratelli?</l>
+              <l n="0218" xml:id="em0302-it-0344">noi veniamo dalla Tessalia a ricercarti,</l>
+              <l n="0219" xml:id="em0302-it-0345">e tu inganni te stessa, perchè tu sei Delya.</l>
+            </lg>
+          </sp>
+          <sp who="#delya">
+            <speaker>DELYA</speaker>
+            <lg type="free" part="M">
+              <l n="0220" xml:id="em0302-it-0346">Ancora di Delya? allora piglia questo, che ti frizza:</l>
+              <l n="0221" xml:id="em0302-it-0347">che, inventate espediente per differire il vostro lavoro?</l>
+              <l n="0222" xml:id="em0302-it-0348">lavorate, bifolchi, lavorate; oro voi scavate.</l>
+            </lg>
+          </sp>
+          <sp who="#thelea">
+            <speaker>2o FRATELLO</speaker>
+            <lg type="free" part="M">
+              <l n="0223" xml:id="em0302-it-0349">Taci, fratello, taci, questo vile incantatore</l>
+              <l n="0224" xml:id="em0302-it-0350">ha tratto Delya di senno compiutamente,</l>
+              <l n="0225" xml:id="em0302-it-0351">ed ella dimentica d’esser Delya.</l>
+            </lg>
+          </sp>
+          <sp who="#calypha">
+            <speaker>1o FRATELLO</speaker>
+            <lg type="free" part="M">
+              <l n="0226" xml:id="em0302-it-0352">Lascia, crudele, di far male al disgraziato;</l>
+              <l n="0227" xml:id="em0302-it-0353">scava, fratello, scava, perch’ella è dura come acciaio.</l>
+            </lg>
+          </sp>
+          <stage>Qui essi scavano e scopron la luce sotto un monticello.</stage>
+          <sp who="#thelea">
+            <speaker>2o FRATELLO</speaker>
+            <lg type="free" part="M">
+              <l n="0228" xml:id="em0302-it-0354">Fermati, fratello, che cosa hai scoperto?</l>
+            </lg>
+          </sp>
+          <sp who="#delya">
+            <speaker>DELYA</speaker>
+            <p>Via, e non la toccate; è una cosa che il mio signore ha celato lì.</p>
+          </sp>
+          <stage>Essa la copre di nuovo. Entra Sacripante.</stage>
+          <sp who="#sacripante">
+            <speaker>SACRIPANTE</speaker>
+            <p>Ben detto, tu sproni bene questi scavatori. Andate, ritiratevi, schiavi da lavoro.</p>
+            <lg type="free">
+              <l n="0229" xml:id="em0302-it-0357">Vieni, Berecynthia, ritiriamoci anche noi,</l>
+              <l n="0230" xml:id="em0302-it-0358">a udire l’usignuolo cantar le sue note,</l>
+            </lg>
+          </sp>
+          <stage>Exeunt omnes.</stage>
+          <stage>Entra Zantippa, la figliuola maledetta, alla Fontana con una brocca in mano.</stage>
+          <sp who="#zantippa">
+            <speaker>ZANTIPPA</speaker>
+            <p>Eccomi qui per un marito e una casa; Dio ne mandi uno buono, o nessuno, prego Dio. Mio padre m’ha mandata alla fontana per l’acqua di vita, e mi dice che s’io dò belle parole, avrò un marito. Entra la ragazza brutta, alla Fontana per acqua, con una brocca in mano. Ma ecco Celanta, la mia dolce sorella; io starò qui a udire quel che dice.</p>
+          </sp>
+          <sp who="#celanta">
+            <speaker>CELANTA</speaker>
+            <p>Mio padre m’ha mandata alla fontana per acqua, e mi dice che s’io parlo bellamente, avrò un marito e non de’ peggiori. Bene, benchè io sia nera, son sicura che non tutto il mondo mi lascerà; e come dice il vecchio proverbio, bench’io sia nera, non sono il diavolo.</p>
+          </sp>
+          <sp who="#zantippa">
+            <speaker>ZANTIPPA</speaker>
+            <p>Ti colga la peste! io so perchè tu parli così; ma vattene per la tua strada a casa, saggia come ne sei venuta, o ti metto io in casa alla malora.</p>
+          </sp>
+          <stage>Qui ella sbatte la sua brocca contro quella di sua sorella, e le rompe tutt’e due e se ne va via.</stage>
+          <sp who="#celanta">
+            <speaker>CELANTA</speaker>
+            <p>Io credo che questa sia la più maledetta pettegola del mondo. Voi vedete quel ch’ell’è, un po’ bella, ma superba come il diavolo, e la più gran brontolona che viva sulla terra di Dio. Pure, io la lascerò stare, e andrò a casa a prendermi un’altra brocca, e con tutto ciò me ne verrò alla fontana per acqua.</p>
+          </sp>
+          <stage>Exit.</stage>
+          <stage>Entran due Furie dalla cella dello Stregone e depongono Huanebango presso la Fontana di Vita.</stage>
+          <stage>Entra Zantippa con una brocca alla fontana.</stage>
+          <sp who="#zantippa">
+            <speaker>ZANTIPPA</speaker>
+            <p>Ancor una volta per un marito, e in fede, Celanta, io ho il vantaggio su di voi. Forse i mariti crescono accanto alla fontana. Ora mio padre dice ch’io debbo frenar la mia lingua: ma, oimè, che son io allora? Una donna senza lingua è come un soldato senz’arme. Ma io prenderò la mia acqua e me n’andrò.</p>
+          </sp>
+          <stage>Qui ella si prova a calar giù la sua secchia, e una testa parla nella fontana.</stage>
+          <sp who="#testa">
+            <speaker>TESTA</speaker>
+            <lg type="free" part="M">
+              <l n="0231" xml:id="em0302-it-0365">Immergete pian piano, ma non troppo profondo,</l>
+              <l n="0232" xml:id="em0302-it-0366">per timore che non facciate piangere la barba d’oro:</l>
+              <l n="0233" xml:id="em0302-it-0367">bella fanciulla, bianca e rossa,</l>
+              <l n="0234" xml:id="em0302-it-0368">carezzami, lisciami, pettinami la testa,</l>
+              <l n="0235" xml:id="em0302-it-0369">e tu avrai un po’ di pane di loglio.</l>
+            </lg>
+          </sp>
+          <sp who="#zantippa">
+            <speaker>ZANTIPPA</speaker>
+            <lg type="free" part="M">
+              <l n="0236" xml:id="em0302-it-0370">Che è questo? — Bella fanciulla, bianca e rossa,</l>
+              <l n="0237" xml:id="em0302-it-0371">carrezzami, lisciami, pettinami la testa,</l>
+              <l n="0238" xml:id="em0302-it-0372">e tu avrai un po’ di pane di loglio.</l>
+              <l n="0239" xml:id="em0302-it-0373">Tu lo chiami loglio, ragazzo? — Affè, ti darò io pane di loglio.</l>
+            </lg>
+          </sp>
+          <stage>Ella rompe la sua brocca sopra la testa: allora tuona e lampeggia, e Huanebango si leva: Huanebango è sordo e non può udire.</stage>
+          <sp who="#huanebango">
+            <speaker>HUANEBANGO</speaker>
+            <p>Phylida phyleridos, Pamphylida floryda flortos, pum pum pum! Scopia, dissero i cannoni, con un sulfureo sbuffo. Svegliato da una ragazza, vezzosa cara, vezzoso amore e mio dolce vezzoso occhio di porco; proprio al tuo lato siederà il soprannominato grande Huanebango. Secura fra le mie braccia io ti terrò, minacci Marte o tuoni l’Olimpo.</p>
+          </sp>
+          <sp who="#zantippa">
+            <speaker>ZANTIPPA</speaker>
+            <p>Oibò, che sconcio essere è questo? Par ch’egli sia strisciato fuor di dietro alla fontana; e parla come un tamburo.</p>
+          </sp>
+          <sp who="#huanebango">
+            <speaker>HUANEBANGO</speaker>
+            <p>Oh s’io potessi, (ma non posso — e perciò sia maledetto il mio destino!) baciare quello che abbraccio; ma non posso. Dimmi, mio destino, perchè?</p>
+          </sp>
+          <sp who="#zantippa">
+            <speaker>ZANTIPPA</speaker>
+            <p>Olà! ora io ho quel che ho sognato: vedete mai una maraviglia grande come questa? Tre fave azzurre in una vescica azzurra fanno strepito, strepito in una vescica.</p>
+          </sp>
+          <sp who="#huanebango">
+            <speaker>HUANEBANGO</speaker>
+            <p>
+              Ora io comporrò il mio aspetto e le parlerò in prosa; forse questo 
+              <emph>rim ram ruff</emph>
+               è un assalto troppo violento. — Lasciatemi, bella dama, se v’è a grado, sollazzarmi con la vostra dolcezza, e far onta a quel vigliacco stregone, che mi ha gettato, o piuttosto congelato, in un sogno maligno, ed ha contaminato la mia carcassa.
+            </p>
+          </sp>
+          <sp who="#zantippa">
+            <speaker>ZANTIPPA</speaker>
+            <p>Ridi, ridi, Zantippa, tu hai la tua fortuna, un pazzo e un marito in un sol uomo.</p>
+          </sp>
+          <sp who="#huanebango">
+            <speaker>HUANEBANGO</speaker>
+            <p>Veramente, amor mio, com’io sembro, di circa vent’anni, proprio nell’aprile dell’età mia.</p>
+          </sp>
+          <sp who="#zantippa">
+            <speaker>ZANTIPPA</speaker>
+            <p>Ebbene, che asino ciarlone è questo?</p>
+          </sp>
+          <sp who="#huanebango">
+            <speaker>HUANEBANGO</speaker>
+            <lg type="free" part="M">
+              <l n="0240" xml:id="em0302-it-0392">Le sue labbra di corallo, il suo mento chermisino,</l>
+              <l n="0241" xml:id="em0302-it-0393">i suoi denti d’argento così bianchi là entro:</l>
+              <l n="0242" xml:id="em0302-it-0394">i suoi riccioli d’oro, il suo volubile occhio,</l>
+              <l n="0243" xml:id="em0302-it-0395">le sue vezzose membra, lasciamo andare!</l>
+              <l n="0244" xml:id="em0302-it-0396">oimè, m’hanno ferito,</l>
+              <l n="0245" xml:id="em0302-it-0397">ch’io debbo morire per veder questo giorno.</l>
+            </lg>
+          </sp>
+          <sp who="#zantippa">
+            <speaker>ZANTIPPA</speaker>
+            <p>Per l’ossa di Dio, tu se’ un ribaldo burlone! «Le sue labbra di corallo, il suo mento chermisino», dice.</p>
+          </sp>
+          <sp who="#huanebango">
+            <speaker>HUANEBANGO</speaker>
+            <p>Vero, proprio mia, e proprio mia perchè mia, ah! ah! Più di mille sterline in possibilità, e cose convenienti al tuo desiderio, in possesso!</p>
+          </sp>
+          <sp who="#zantippa">
+            <speaker>ZANTIPPA</speaker>
+            <p>Il balordo| crede ch’io domandi delle sue terre. Esser menato pel naso sia il tuo conforto; e cornuto, il tuo destino. Udite, signore; e se voi volete averci, fareste meglio a dirlo in tempo.</p>
+          </sp>
+          <sp who="#huanebango">
+            <speaker>HUANEBANGO</speaker>
+            <p>Vero, amor mio, e farò regale la tua progenie con la mia nobiltà.</p>
+          </sp>
+          <stage>Exeunt omnes.</stage>
+          <stage>Entra Eumenide il cavaliere errante.</stage>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <lg type="free" part="M">
+              <l n="0246" xml:id="em0302-it-0402">Misero Eumenide, sempre sfortunato,</l>
+              <l n="0247" xml:id="em0302-it-0403">invidiato dalla fortuna e derelitto dal fato;</l>
+              <l n="0248" xml:id="em0302-it-0404">qui languisci e muori, misero Eumenide.</l>
+              <l n="0249" xml:id="em0302-it-0405">Morire nella primavera, nell’aprile dei miei anni?</l>
+              <l n="0250" xml:id="em0302-it-0406">qui siediti, e pentiti di quel che hai fatto:</l>
+              <l n="0251" xml:id="em0302-it-0407">volesse Iddio che mai non avessi incominciato.</l>
+            </lg>
+          </sp>
+          <stage>Entra Jack.</stage>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <lg type="free" part="M">
+              <l n="0252" xml:id="em0302-it-0408">Ben trovato, signore!</l>
+            </lg>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <lg type="free" part="M">
+              <l n="0253" xml:id="em0302-it-0409">Chi è questi?</l>
+            </lg>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <lg type="free" part="M">
+              <l n="0254" xml:id="em0302-it-0410">Di gran cuore ben incontrato, signore.</l>
+            </lg>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <lg type="free" part="M">
+              <l n="0255" xml:id="em0302-it-0411">Cessate, vi dico: chi è costui che si fa gioco di me?</l>
+            </lg>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>Grazi’ a Dio, buon signore Eumenide, che siete in così buona salute come tutti i vostri amici, al momento presente; Dio vi dia il buon giorno, signore, non vi bisogna un destro, piacente e polito garzone, circa dell’età di quindici o sedici anni, che può correre allato al vostro cavallo, e al bisogno far gli stivali di vostra signoria neri come inchiostro, — che ne dite, signore?</p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Oimè, grazioso garzone, io non so come mantener me stesso, e assai meno un servo, mio grazioso ragazzo; la mia condizione è tanto cattiva.</p>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>State tranquillo, voi non sareste un padrone tanto cattivo, ch’io non sia un servo cattivo altrettanto. Oibò, signore, io vi conosco, benchè voi non conosciate me. Non siete voi, signore, (negatelo se potete, signore), colui che venne da uno strano luogo nella terra di Catita, dove comare scimmia vola con la sua coda in bocca, alla ricerca d’una dama bianca come neve e rossa come sangue; ah, ah, v’ho toccato, ora?</p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <lg type="free" part="M">
+              <l n="0256" xml:id="em0302-it-0415">Io penso che questo ragazzo sia uno spirito.</l>
+              <l n="0257" xml:id="em0302-it-0416">Come sai tu tutto questo?</l>
+            </lg>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>Orsù, non siete voi, signore, (negatelo se potete, signore), colui che diede tutto il danaro che aveva per far seppellire un pover uomo, e non gli restarono nella borsa che tre mezzi soldi? State tranquillo, signore, io vi servirò, quest’è chiaro.</p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Bene, ragazzo mio, poichè tu sei così insistente, io son contento di tenerti, non come servo, ma come compagno nel mio viaggio. Ma dove andremo noi? perchè io non ho altro danaro che tre nudi mezzi soldi.</p>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>Bene, padrone, state tranquillo, perchè se la mia divinazione non è finita, questi saranno spesi alla prossima locanda o birreria a cui verremo; perchè, padrone, io so che voi avete una gran fame; pertanto io andrò innanzi e provvederò il pranzo finchè voi non veniate: non v’ha dubbio che voi mi seguirete pian piano.</p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Sì, va innanzi, io ti seguirò.</p>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>Ma sentite, padrone, sapete voi il mio nome?</p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>No, t’assicuro, non ancora.</p>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>Ebbene, io sono Jack.</p>
+          </sp>
+          <stage>Exit.</stage>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Jack! ebbene, così sia, allora.</p>
+          </sp>
+          <stage>Entrano l’ostessa e Jack, ponendo i cibi tavola, e vengono suonatori di violino a suonare. Eumenide cammina su e giù, e non vuole toccar cibo.</stage>
+          <sp who="#ostessa">
+            <speaker>OSTESSA</speaker>
+            <p>Dite, signore, volete accomodarvi?</p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Ostessa, vi ringrazio, non ho grande appetito.</p>
+          </sp>
+          <sp who="#ostessa">
+            <speaker>OSTESSA</speaker>
+            <p>Vi prego, signore, per quale ragione il vostro padrone è così strano? Questo cibo non gli piace?</p>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>Sì, ostessa, ma è usanza del mio padrone di pagare prima di mangiare; dunque, il conto, buona ostessa!</p>
+          </sp>
+          <sp who="#ostessa">
+            <speaker>OSTESSA</speaker>
+            <p>Perdio, signore, l’avrete subito.</p>
+          </sp>
+          <stage>Exit.</stage>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Ebbene, Jack, che cosa intendi? Tu sai ch’ io non ho danaro: perciò, dolce Jack, dimmi che cosa farò.</p>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>Bene, padrone, guardate nella vostra borsa.</p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Via, affè, è una folia, perchè non ho danaro.</p>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>Via, guardate, padrone, fatelo per me.</p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Oimè, Jack, la mia borsa è piena di danaro.</p>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>‘ Oimè ’? padrone! conviene questa parola a un simile caso? Via, mi pare che v’avrei dovuto vedere gittar via il vostro mantello e allegramente ballare una gagliarda tutt’intorno alla stanza; ebbene, padrone, il vostr’uomo vi può insegnare maggior senno di questo. Venite, ostessa, confortate il mio padrone.</p>
+          </sp>
+          <sp who="#ostessa">
+            <speaker>OSTESSA</speaker>
+            <p>Voi siete cordialmente il benvenuto; e se vi piace mangiare un grosso cappone, vossignoria non ha mai mangiato un uccello più bello, un uccello più squisito, un uccello più dolce, un uccello più morbido.</p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Grazie, mia vaga ed eloquente ostessa.</p>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>Ma udite, padrone, una parola tra via; siete voi contento ch’io sia per la metà in tutto ciò che voi otterrete nel viaggio?</p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Sì, Jack, ecco la mano.</p>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>Basta, padrone, più non chiedo.</p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Venite, ostessa, prendete il vostro danaro, e vi ringrazio pel mio buon trattamento.</p>
+          </sp>
+          <sp who="#ostessa">
+            <speaker>OSTESSA</speaker>
+            <p>Voi siete di cuore il benvenuto, signore.</p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Vieni, Jack, dove andiamo ora?</p>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>Perdio, padrone, subito dallo Stregone.</p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Sta bene, Jack; ostessa, salute!</p>
+          </sp>
+          <stage>Exeunt omnes.</stage>
+          <stage>Entrano Corebo e Celanta, la ragazza brutta,alla Fontana per acqua.</stage>
+          <sp who="#corebo">
+            <speaker>COREBO</speaker>
+            <p>Vieni, anitra mia, vieni. Ora io ho una moglie; tu sei bella, non è vero?</p>
+          </sp>
+          <sp who="#celanta">
+            <speaker>CELANTA</speaker>
+            <p>Corebo mio, la più bella del mondo, non ne dubitare.</p>
+          </sp>
+          <sp who="#corebo">
+            <speaker>COREBO</speaker>
+            <p>Vieni, ragazza, siamo noi quasi alla Fontana?</p>
+          </sp>
+          <sp who="#celanta">
+            <speaker>CELANTA</speaker>
+            <p>Sì, Corebo, noi siamo ora quasi alla Fontana; io andrò ad attingere un po’ d’acqua: siediti mentr’io calo giù la mia brocca.</p>
+          </sp>
+          <sp who="#voce2">
+            <speaker>UNA VOCE</speaker>
+            <lg type="free" part="M">
+              <l part="I" n="0258" xml:id="em0302-it-0450">Immergete pian piano, ma non troppo profondo; per timore che non facciate piangere la barba d’oro.</l>
+              <stage>Vien su una teste con spiche di grano, ed ella le pettina nel suo grembo.</stage>
+              <l part="F" xml:id="em0302-it-0451">Bella fanciulla, bianca e rossa,</l>
+              <l n="0259" xml:id="em0302-it-0452">pettinami, lisciami, carezzami la testa,</l>
+              <l n="0260" xml:id="em0302-it-0453">e tu avrai un po’ di pane di loglio.</l>
+            </lg>
+          </sp>
+          <sp who="#voce3">
+            <speaker>[UN’ALTRA VOCE]</speaker>
+            <lg type="free" part="M">
+              <l n="0261" xml:id="em0302-it-0454">Immergete pian piano, ma non troppo profondo;</l>
+              <l n="0262" xml:id="em0302-it-0455">per timore che non facciate piangere la barba d’oro.</l>
+              <l n="0263" xml:id="em0302-it-0456">Bella fanciulla, bianca e rossa,</l>
+              <l n="0264" xml:id="em0302-it-0457">pettinami, lisciami, carezzami la testa;</l>
+              <l n="0265" xml:id="em0302-it-0458">e ogni capello sarà un covone,</l>
+              <l n="0266" xml:id="em0302-it-0459">e ogni covone un albero d’oro.</l>
+            </lg>
+          </sp>
+          <stage>Vien su una testa piena d’oro, ella la pettina nel suo grembo.</stage>
+          <sp who="#celanta">
+            <speaker>CELANTA</speaker>
+            <lg type="free" part="M">
+              <l n="0267" xml:id="em0302-it-0460">Oh vedi, Corebo, io ho pettinato una gran quantità d’oro nel mio grembo, e una gran quantità di grano.</l>
+            </lg>
+          </sp>
+          <sp who="#corebo">
+            <speaker>COREBO</speaker>
+            <lg type="free" part="M">
+              <l n="0268" xml:id="em0302-it-0461">Ben detto, ragazza; ora noi n’avremo quanto basta.</l>
+              <l n="0269" xml:id="em0302-it-0462">Dio ci mandi i coniatori per coniare il nostro oro.</l>
+              <l n="0270" xml:id="em0302-it-0463">Ma vieni, andiamo a casa, amore mio?</l>
+            </lg>
+          </sp>
+          <sp who="#celanta">
+            <speaker>CELANTA</speaker>
+            <lg type="free" part="M">
+              <l n="0271" xml:id="em0302-it-0464">Sì, venite, Corebo, io vi guiderò.</l>
+            </lg>
+          </sp>
+          <sp who="#corebo">
+            <speaker>COREBO</speaker>
+            <lg type="free" part="M">
+              <l n="0272" xml:id="em0302-it-0465">Così, Corebo, le cose sono andate bene:</l>
+              <l n="0273" xml:id="em0302-it-0466">tu hai acquistato ricchezza da ristorarti il senno.</l>
+            </lg>
+          </sp>
+          <stage>Exeunt.</stage>
+          <stage>Entrano Jack e il cavaliere errante.</stage>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>Venite via, padrone, venite.</p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Va innanzi, Jack, io ti seguirò. Jack, dicono che sia bene andar con le gambe di traverso e dir le proprie preghiere all’indietro: che ne dici tu?</p>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>Oibò, non abbiate mai paura, padrone; lasciatemi fare; sedetevi qui tranquillo, non dite una parola. E perchè non siate allettato da questi discorsi incantatori, con questa lana io vi turerò le orecchie: e così, padrone, sedete tranquillo perchè io debbo andar dallo Stregone.</p>
+          </sp>
+          <stage>Exit Jack.</stage>
+          <stage>Entra lo Stregone presso il cavaliere errante.</stage>
+          <sp who="#sacripante">
+            <speaker>SACRIPANTE</speaker>
+            <lg type="free" part="M">
+              <l n="0274" xml:id="em0302-it-0470">Orsù, chi sei tu che siedi così triste?</l>
+              <l n="0275" xml:id="em0302-it-0471">Perchè miri tu questi alberi maestosi,</l>
+              <l n="0276" xml:id="em0302-it-0472">senza la licenza e la volontà di Sacripante?</l>
+              <l n="0277" xml:id="em0302-it-0473">Come, non una parola, ma zitto?</l>
+              <l n="0278" xml:id="em0302-it-0474">Allora, Sacripante, tu sei tradito.</l>
+            </lg>
+          </sp>
+          <stage>Entra Jack invisibile, e toglie la corona di Sacripante dal capo di lui, e la sua spada fuor dalle sue mani.</stage>
+          <sp who="#sacripante">
+            <speaker>SACRIPANTE</speaker>
+            <lg type="free" part="M">
+              <l n="0279" xml:id="em0302-it-0475">Qual mano assale il capo di Sacripante?</l>
+              <l n="0280" xml:id="em0302-it-0476">Quale odiosa furia invidia il mio felice stato?</l>
+              <l n="0281" xml:id="em0302-it-0477">Dunque, Sacripante, questi sono i tuoi ultimi giorni.</l>
+              <l n="0282" xml:id="em0302-it-0478">Oimè, le mie vene sono assiderate, i miei nervi si contraggono,</l>
+              <l n="0283" xml:id="em0302-it-0479">il mio sangue zampilla, il mio respiro s’invola,</l>
+              <l n="0284" xml:id="em0302-it-0480">ed ora la mia vita innanzi tempo è giunta al fine:</l>
+              <l n="0285" xml:id="em0302-it-0481">colui nella cui vita le sue azioni furono tanto sozze,</l>
+              <l n="0286" xml:id="em0302-it-0482">ora, nella sua morte, all’inferno discende la sua anima.</l>
+            </lg>
+          </sp>
+          <stage>Egli muore.</stage>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>Oh, signore, ve ne siete ito? Ora io spero che avremo qualche altro trambusto. — Ora, padrone, come vi piace questo? lo Stregone, egli è morto, e ci promette di non darci più noia. Ora recatevi dalla vostra bella Dama, e vedete che cosa potete fare con lei. Oimè, egli non m’ode intanto; ma io rimedierò a ciò.</p>
+          </sp>
+          <stage>Egli gli cava la lana dalle orecchie.</stage>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Ebbene, Jack, quali nuove?</p>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>Qui, padrone, prendete questa spada e scavate con essa a piè di questo colle.</p>
+          </sp>
+          <stage>Egli scava e scorge la luce.</stage>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Ebbene, Jack, che è questo?</p>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>Padrone, senza di questa lo Stregone non poteva far nulla, e fin quando questa luce sussiste, fin tanto dura la sua arte; e come questa è spenta, allora la sua arte decade.</p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Ebbene, Jack, io spegnerò subito questa luce.</p>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>Sì, padrone, e come?</p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Ma, con una pietra io romperò il vetro, e poi la soffierò.</p>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>No, padrone, voi potreste così rompere l’incudine del fabbro, come questa piccola fiala; nè il più grosso soffio che mai Borea soffiasse, può spegnere questa piccola luce; ma solo colei che non è nè fanciulla, nè moglie, nè vedova. Padrone, suona questo corno; e vedi che cosa succederà.</p>
+          </sp>
+          <stage>Egli suona il corno. Entra Venelia e rompe il vetro e spegne col soffio la luce, e di nuovo esce.</stage>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>Così, padrone, come vi piace ciò? Questa è colei che correva pazza pei boschi, il promesso amore di colui che sta alla croce; ed ora, questa luce essendo spenta, tutti sono restituiti alla loro antica libertà. Ed ora, padrone, dalla Dama, che voi avete così a lungo cercata.</p>
+          </sp>
+          <stage>Egli solleva una cortina, e quivi Delya siede addormentata.</stage>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <lg type="free" part="M">
+              <l n="0287" xml:id="em0302-it-0493">Iddio t’accompagni, bella fanciulla che siedi sola — e una volta!</l>
+              <l n="0288" xml:id="em0302-it-0494">Iddio t’accompagni, bella fanciulla — e due volte</l>
+              <l n="0289" xml:id="em0302-it-0495">Iddio t’accompagni, bella fanciulla — e sono tre!</l>
+            </lg>
+          </sp>
+          <sp who="#delya">
+            <speaker>DELYA</speaker>
+            <lg type="free" part="M">
+              <l n="0290" xml:id="em0302-it-0496">No, buon signore, poichè voi siete vicino.</l>
+            </lg>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <lg type="free" part="M">
+              <l n="0291" xml:id="em0302-it-0497">Basta, padrone, ella ha parlato; ora io la lascerò con voi.</l>
+            </lg>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <lg type="free" part="M">
+              <l n="0292" xml:id="em0302-it-0498">Tu, bellissimo fiore di queste contrade occidentali,</l>
+              <l n="0293" xml:id="em0302-it-0499">la cui bellezza così si riflette nel mio sguardo,</l>
+              <l n="0294" xml:id="em0302-it-0500">come uno specchio di cristallo nel sole:</l>
+              <l n="0295" xml:id="em0302-it-0501">per il tuo dolce amore io ho traversato il Reno gelato;</l>
+              <l n="0296" xml:id="em0302-it-0502">lasciando il vago Po, io navigai su pel Danubio</l>
+              <l n="0297" xml:id="em0302-it-0503">fino al Saba, le cui rigonfie correnti</l>
+              <l n="0298" xml:id="em0302-it-0504">dividono i Tartari dai Russi, —</l>
+              <l n="0299" xml:id="em0302-it-0505">questi ho io traversato per te, bella Delya:</l>
+              <l n="0300" xml:id="em0302-it-0506">concedimi dunque ciò ch’io così a lungo ho perseguito.</l>
+            </lg>
+          </sp>
+          <sp who="#delya">
+            <speaker>DELYA</speaker>
+            <lg type="free" part="M">
+              <l n="0301" xml:id="em0302-it-0507">Tu gentil cavaliere, la cui fortuna è così buona,</l>
+              <l n="0302" xml:id="em0302-it-0508">da ritrovar me e liberare i miei fratelli,</l>
+              <l n="0303" xml:id="em0302-it-0509">la mia fede, il mio cuore, la mia mano io ti dò.</l>
+            </lg>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <lg type="free" part="M">
+              <l n="0304" xml:id="em0302-it-0510">Grazie, gentile madonna: ma ecco Jack; ringrazialo,</l>
+              <l n="0305" xml:id="em0302-it-0511">perch’egli è il migliore amico che noi abbiamo.</l>
+            </lg>
+          </sp>
+          <stage>Entra Jack con una testa in mano.</stage>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Ebbene, Jack, che hai costà?</p>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>Perdio, padrone, la testa dello Stregone.</p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Via, Jack, questo è impossibile; egli era un giovine.</p>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>Ah, padrone, così egli ingannava coloro che lo guardavano: ma egli era un vecchio miserevole e curvo; benchè all’occhio d’ogni uomo apparisse giovine e fresco. Perchè, padrone, lo Stregone aveva preso la forma del vecchio che stava presso la croce: e quel vecchio aveva le fattezze dello Stregone. Ma pra, padrone, sonate il vostro corno.</p>
+          </sp>
+          <stage>Egli suona il corno; entrano Venelia, i due fratelli, e colui ch’era presso la Croce.</stage>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <lg type="free" part="M">
+              <l n="0306" xml:id="em0302-it-0516">Benvenuto, Eresto, benvenuta, bella Venelia!</l>
+              <l n="0307" xml:id="em0302-it-0517">Benvenuti tutt’e due, Thelea e Calypha!</l>
+              <l n="0308" xml:id="em0302-it-0518">Ora io ho colei che ho così a lungo cercata;</l>
+              <l n="0309" xml:id="em0302-it-0519">così dice la bella Delya, se abbiamo il vostro consenso.</l>
+            </lg>
+          </sp>
+          <sp who="#calypha">
+            <speaker>1o FRATELLO</speaker>
+            <lg type="free" part="M">
+              <l n="0310" xml:id="em0302-it-0520">Valoroso Eumenide, tu meriti bene</l>
+              <l n="0311" xml:id="em0302-it-0521">d’avere il nostro favore: rallegriamoci dunque</l>
+              <l n="0312" xml:id="em0302-it-0522">d’essere per tuo mezzo in libertà.</l>
+              <l n="0313" xml:id="em0302-it-0523">Qui possiamo godere ciascuno alla vista dell’altro,</l>
+              <l n="0314" xml:id="em0302-it-0524">e questa bella Dama avere il suo cavaliere errante.</l>
+            </lg>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>Così, padrone, ora voi credete d’aver finito; ma io debbo dirvi una cosa. Voi sapete che voi ed io eravam compagni, ed io doveva aver la metà di tutto ciò che voi otteneste.</p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>E tu l’avrai, Jack.</p>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>Allora, padrone, traete la vostra spada, dividete la vostra Dama, e datemene subito la metà.</p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Ma io spero, Jack, che tu scherzi; io ti promisi la metà di quel che ottenessi, ma non la metà della mia Dama.</p>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>Ma che altro, padrone? non l’avete voi ottenuta? Pertanto subito dividetela, perchè io ne voglio la metà: non c’è scampo.</p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Bene, prima ch’io manchi alla mia parola verso il mio amico, prendila tutta; ecco, Jack, io te la dò.</p>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>No, nè più nè meno, padrone, proprio la metà giusta.</p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Innanzi ch’io manchi alla mia fede verso il mio amico, io la dividerò; Jack, tu n’avrai mezza.</p>
+          </sp>
+          <sp who="#calypha">
+            <speaker>1o FRATELLO</speaker>
+            <p>Non esser così crudele verso la nostra sorella, gentil cavaliere!</p>
+          </sp>
+          <sp who="#thelea">
+            <speaker>2o FRATELLO</speaker>
+            <p>O, risparmia la bella Delya; ella non merita la morte.</p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>State tranquilli; gli ho data la mia parola; pertanto prepàrati, Delya, perchè tu devi morire.</p>
+          </sp>
+          <sp who="#delya">
+            <speaker>DELYA</speaker>
+            <p>Allora addio, mondo! Addio, Eumenide!</p>
+          </sp>
+          <stage>Egli fa per colpire e Jack lo arresta.</stage>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>Fermatevi, padrone; è sufficiente ch’io abbia provata la vostra costanza. Vi ricordate voi ora di quando pagaste per la sepoltura d’un pover uomo?</p>
+          </sp>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <p>Sì, benissimo, Jack.</p>
+          </sp>
+          <sp who="#jack">
+            <speaker>JACK</speaker>
+            <p>Allora, padrone, ringraziate quella buona azione per questo buon servizio, e così Dio sia con voi tutti.</p>
+          </sp>
+          <stage>Jack salta giù nella terra.</stage>
+          <sp who="#eumenide">
+            <speaker>EUMENIDE</speaker>
+            <lg type="free" part="M">
+              <l n="0315" xml:id="em0302-it-0540">Jack! che, te ne sei andato?</l>
+              <l n="0316" xml:id="em0302-it-0541">Allora addio, Jack!</l>
+              <l n="0317" xml:id="em0302-it-0542">Venite, fratelli e la mia vaga Delya,</l>
+              <l n="0318" xml:id="em0302-it-0543">Eresto, e la tua cara Venelia:</l>
+              <l n="0319" xml:id="em0302-it-0544">andremo in Tessalia con cuori giocondi.</l>
+            </lg>
+          </sp>
+          <sp who="#tutti">
+            <speaker>TUTTI</speaker>
+            <p>D’accordo, noi seguiamo te e Delya.</p>
+          </sp>
+          <stage>Exeunt omnes.</stage>
+          <sp who="#fantastico">
+            <speaker>FANTASTICO</speaker>
+            <p>Che, comare, dormi?</p>
+          </sp>
+          <sp who="#vecchia">
+            <speaker>LA VECCHIA</speaker>
+            <p>Per la messa, figliuolo, è quasi giorno, e le mie finestre son chiuse al canto del gallo.</p>
+          </sp>
+          <sp who="#gaio">
+            <speaker>GAIO</speaker>
+            <p>Sentite, comare, mi pare che questo Jack avesse un gran potere tra di loro.</p>
+          </sp>
+          <sp who="#vecchia">
+            <speaker>LA VECCHIA</speaker>
+            <p>O, uomo, questa era l’ombra di quel pover uomo, che ci fu così gran trambusto per seppellirlo, e questo fa ch’egli aiuti tanto il cavaliere errante. Ma venite, entriamo: prenderemo una tazza di birra e una fetta di pane abbrustolito, stamattina, e così ci separeremo.</p>
+          </sp>
+          <sp who="#fantastico">
+            <speaker>FANTASTICO</speaker>
+            <p>Alllora, voi avete finita la vostra novella, comare?</p>
+          </sp>
+          <sp who="#vecchia">
+            <speaker>LA VECCHIA</speaker>
+            <p>Sì, affè! Quando questo finì, io presi un pezzo di pane e formaggio, e me ne venni per la mia via; e lo stesso avrete voi, anche, prima d’andarvene, per la vostra colazione.</p>
+          </sp>
+        </div2>
+        <div2 type="scene">
+          <head>FINIS.</head>
+        </div2>
+      </div1>
+    </body>
+    <back/>
+  </text>
+</TEI>

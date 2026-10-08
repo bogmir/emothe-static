@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0631_ElPradoDeValencia/41",{"lines":[["act-3","l3878","III, 3878",0,"v","Mi bendición y licencia"],["act-3","l3879","III, 3879",0,"v","os alcancen, mis amores."],["act-3","l3880","III, 3880",1,"v","Aquí se acaba, señores,"],["act-3","l3881","III, 3881",1,"v","nuestro Prado de Valencia."]],"speakers":["FELICIA","BEATRIZ"]});
