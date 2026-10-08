@@ -1,1 +1,1 @@
-EMOTHE.search.load("index","nc",{"ncanto":[54,1,770],"nce":[238,2,2730,16],"ncia":[266,1,4382],"ncontra":[12,2,1588,594,268,1,8544],"ncontro":[12,1,3144],"ncorso":[63,1,1654],"ncredibile":[120,1,4910],"ncresce":[217,1,1078],"ncrescesse":[120,1,2890],"ncrudelire":[120,1,3290]});
+EMOTHE.search.load("index","nc",{"ncanto":[53,1,770],"nce":[239,2,2730,16],"ncia":[267,1,4382],"ncontra":[12,2,1588,594,269,1,8544],"ncontro":[12,1,3144],"ncorso":[63,1,1654],"ncredibile":[120,1,4910],"ncresce":[218,1,1078],"ncrescesse":[120,1,2890],"ncrudelire":[120,1,3290]});
