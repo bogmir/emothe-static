@@ -1,1 +1,1 @@
-EMOTHE.search.load("index","nf",{"nfelice":[120,4,378,2618,924,936],"nfelici":[120,1,1660],"nferno":[12,1,580,120,1,2006],"nfiamma":[261,1,756],"nfine":[90,1,42],"nfiora":[269,2,288,2232],"nforma":[269,1,2182]});
+EMOTHE.search.load("index","nf",{"nfelice":[120,4,378,2618,924,936],"nfelici":[120,1,1660],"nferno":[12,1,580,120,1,2006],"nfiamma":[260,1,756],"nfine":[90,1,42],"nfiora":[268,2,288,2232],"nforma":[268,1,2182]});

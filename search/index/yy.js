@@ -1,1 +1,1 @@
-EMOTHE.search.load("index","yy",{"yyo":[344,1,4136]});
+EMOTHE.search.load("index","yy",{"yyo":[343,1,4136]});
