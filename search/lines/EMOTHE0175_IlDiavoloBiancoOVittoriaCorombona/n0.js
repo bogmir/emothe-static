@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0175_IlDiavoloBiancoOVittoriaCorombona/n0",{"lines":[["act-1-s21","nref-1","I, 2760",0,"n","En el texto aparece el personaje de Vittoria sin parlamento, llevando a cabo la acotación que sigue. Eliminamos el nombre del personaje porque no interviene"]],"speakers":["FIAMINIO"]});

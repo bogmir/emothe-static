@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0443_IlCavaliereDelPestelloArdente/n0",{"lines":[["act-4","nref-1","IV",0,"n","Non presente nell'edizione del 1951."]],"speakers":["Il Vecchio Mastro Merrythought [Allegria] / Secondo Ragazzo / Primo Ragazzo"]});

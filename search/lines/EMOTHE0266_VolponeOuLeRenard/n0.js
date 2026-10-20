@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0266_VolponeOuLeRenard/n0",{"lines":[["act-1","nref-1","I",0,"n","Les deux interventions suivantes du text original original (CORBACCIO Ha? How? not from his brain? / MOSCA Yes, sir, and from his brain–) ne sont pas présentes dans la traduction de Duval (1920, p. 16)."]],"speakers":["MOSCA"]});

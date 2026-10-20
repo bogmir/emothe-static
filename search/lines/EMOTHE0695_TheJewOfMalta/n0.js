@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0695_TheJewOfMalta/n0",{"lines":[["prologue-2","nref-1","The Prologue to the Stage, at the Cock-pit, 14",0,"n","Marlowe"],["prologue-2","nref-2","The Prologue to the Stage, at the Cock-pit, 16",0,"n","Alleyn"],["prologue-2","nref-3","The Prologue to the Stage, at the Cock-pit, 24",0,"n","Perkins"]],"speakers":["Prologue to the Stage"]});

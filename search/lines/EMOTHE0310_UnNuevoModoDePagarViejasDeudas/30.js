@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0310_UnNuevoModoDePagarViejasDeudas/30",{"lines":[["act-5","l5-3-9","V.3, 9",null,"v","de enseñarnos a actuar y, a él, a bien componer."],["act-5","p719","V.3",null,"s","[Salen.]"]],"speakers":[]});

@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0630_LasMunecasDeMarcela/n0",{"lines":[["act-2","nref-1","II, 1485",0,"n","La redondilla que da comienzo en este verso contiene un verso de más."]],"speakers":["BELTRÁN"]});

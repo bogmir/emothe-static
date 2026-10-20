@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0476_LeSongeDuneNuitDete/n0",{"lines":[["play-s4","nref-1","Play, 135",0,"n","Attribution de réplique del folio de 1623; “Première Fée” dans le in-quarto de 1600 (”1 Fai.”)."]],"speakers":["SECONDE FÉE"]});

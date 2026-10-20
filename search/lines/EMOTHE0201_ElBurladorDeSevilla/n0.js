@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0201_ElBurladorDeSevilla/n0",{"lines":[["act-1","nref-1","I, 499",0,"n","\"ALGUIEN\" En la edición original no figura el personaje"],["act-2","nref-2","II, 1613",1,"n","\"ALGUIEN\" «En la edición original no especifica quién habla»"]],"speakers":["Alguien","ALGUIEN"]});

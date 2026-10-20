@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0282_UnaJovenCasta/13",{"lines":[["act-5","l109","V, 109",0,"v","A la que, señores, os invito a todos."],["act-5","p1193","V",null,"s","[Salen todos.]"]],"speakers":["Sr. Orero"]});

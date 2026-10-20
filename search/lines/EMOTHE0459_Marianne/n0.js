@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0459_Marianne/n0",{"lines":[["act-5","nref-1","V",null,"n","Comme dans le premier acte, le text de 1637 écrit ici “Tharé”, pour faire référence au Capitaine des Gardes, et aussi dans toutes les didascalies de cette troisième scène."]],"speakers":[]});

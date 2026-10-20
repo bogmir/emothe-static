@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0527_ElMayordomoDeLaDuquesaDeAmalfi/36",{"lines":[["act-3","l3283","III, 3283",0,"v","Aquí dio fin la tragedia,"],["act-3","l3284","III, 3284",0,"v","senado, del mayordomo,"],["act-3","l3285","III, 3285",0,"v","que como pasó en Italia,"],["act-3","l3286","III, 3286",0,"v","hoy la han visto vuestros ojos."]],"speakers":["URBINO"]});

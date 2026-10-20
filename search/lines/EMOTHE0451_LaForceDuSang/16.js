@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0451_LaForceDuSang/16",{"lines":[["act-5","l1550","V, 1550",0,"v","Une pompe publique à notre joie égale,"],["act-5","l1551","V, 1551",0,"v","Et à notre grandeur, qui porte ces amants"],["act-5","l1552","V, 1552",0,"v","Au trône désiré de leurs contentements."]],"speakers":["DOM INIGUE"]});

@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0163_OrbeccheTragedia/n0",{"lines":[["act-2","nref-1","Atto I, [CORO]",null,"n","\"[CORO]\" Introducimos esta anotación de referencia estructural ya que tiene una valor “de escena” y se distingue, de este modo, del “CORO” entendido como personaje colectivo"]],"speakers":[]});

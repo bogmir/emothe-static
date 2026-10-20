@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0559_LaGranSemiramis/n0",{"lines":[["act-3","nref-1","III, 1507",0,"n","Enmiendo el participio “tenido” por “tenida”, ya que se refiere a la propia Semíramis. Se recupera de este modo la rima en -ida exigida por el terceto."]],"speakers":["SEMÍRAMIS"]});

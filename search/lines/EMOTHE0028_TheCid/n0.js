@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0028_TheCid/n0",{"lines":[["act-4","nref-1","IV",0,"n","\"Don Diego.\" En el texto base de la traducción este parlamento estaba atribuido a «Chimène», atribución que no se correspondía ni con la del texto francés original ni desde luego con el sentido de la intervención."]],"speakers":["DON DIEGO"]});
