@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0415_TimonDathenes/n0",{"lines":[["act-1-s13","nref-1","I",0,"n","Cette intervention de Timon (”Dost thou or dost thou not, heavens' curse upon thee!“) n'est pas présente dans la traduction publiée en 1872."]],"speakers":["TIMON D’ATHÈNES"]});

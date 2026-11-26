@@ -1,0 +1,1591 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Atto I — Amleto — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">Interlocutori</a></li>
+      
+  
+    
+        <li>
+          <a href="act-1.html" aria-current="page">
+            Atto I
+          </a>
+          <ul>
+            <li>
+              
+                  <a href="act-1.html#act-1-s1">
+                    Scena I
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-1.html#act-1-s2">
+                    Scena II.
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-1.html#act-1-s3">
+                    Scena III
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-1.html#act-1-s4">
+                    Scena IV.
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-1.html#act-1-s5">
+                    Scena V
+                  </a>
+              
+            </li>
+          </ul>
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html">
+            Atto II
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            Atto III
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-4.html">
+            Atto IV
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-5.html">
+            Atto V
+          </a>
+          
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  <li>
+    <a href="notes.html"><x-es>Notas</x-es><x-en>Notes</x-en></a>
+  </li>
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="king">
+        Claudio
+      </option><option value="hamlet">
+        Amleto
+      </option><option value="polonius">
+        Polonio
+      </option><option value="laertes">
+        Laerte
+      </option><option value="voltemand">
+        Voltimando
+      </option><option value="cornelius">
+        Cornelio
+      </option><option value="rosencrantz">
+        Rosencrantz
+      </option><option value="guildenstern">
+        Guildensterno
+      </option><option value="osric">
+        Osrico
+      </option><option value="doctor-priest">
+        Un Sacerdote
+      </option><option value="marcellus">
+        Marcello
+      </option><option value="barnardo">
+        Bernardo
+      </option><option value="francisco">
+        Francisco
+      </option><option value="reynaldo">
+        Reynaldo
+      </option><option value="captain">
+        Un Capitano
+      </option><option value="ambassador">
+        Un Ambasciatore
+      </option><option value="ghost">
+        L’ombra del padre di Amleto
+      </option><option value="fortinbras">
+        Fortebraccio
+      </option><option value="queen">
+        Gertrude
+      </option><option value="ophelia">
+        Ofelia
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="asm" aria-label="Resaltar apartes" data-en-aria-label="Highlight asides" data-tr>
+        <x-es>Apartes</x-es><x-en>Asides</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .aparte, .text .pr.as, .text .pr:not(.as) span.as" data-for="asm">
+  <button type="button" data-step="-1" aria-label="Aparte anterior" data-en-aria-label="Previous aside" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente aparte" data-en-aria-label="Next aside" data-tr>›</button>
+</div>
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">William Shakespeare</p>
+  <h1><a href="index.html">Amleto</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  
+  <a href="act-2.html" rel="next">Atto II →</a>
+</nav>
+  <div class="text" lang="it" data-cite="William Shakespeare, Amleto, Atto I" data-cite-verse="int." data-cite-prose="int.">
+    
+    <section class="division" id="act-1">
+  <h2 class="act-head">
+    Atto I
+  </h2>
+  
+  
+  
+    
+      <section id="act-1-s1">
+        <h3 class="scene-head">
+          Scena I
+        </h3>
+        <p class="sd " id="sd1">Elsinoro. Plattaforma innanzi alla fortezza.</p><p class="sd " id="sd2">Francisco di scolta. Entra Bernardo.</p><div class="sp " data-who="barnardo">
+  <p class="spk ">
+    Bernardo
+  </p>
+  <p class="pr " id="l1"><a class="pn " href="#l1">1</a>Chi è là?</p>
+</div><div class="sp ">
+  <p class="spk ">
+    Francisco
+  </p>
+  <p class="pr " id="l2"><a class="pn " href="#l2">2</a>Rispondi tu prima, e datti a conoscere.</p>
+</div><div class="sp ">
+  <p class="spk ">
+    Bernardo
+  </p>
+  <p class="pr " id="l3"><a class="pn " href="#l3">3</a>Viva il re!</p>
+</div><div class="sp ">
+  <p class="spk ">
+    Francisco
+  </p>
+  <p class="pr " id="l4"><a class="pn " href="#l4">4</a>Bernardo?</p>
+</div><div class="sp ">
+  <p class="spk ">
+    Bernardo
+  </p>
+  <p class="pr " id="l5"><a class="pn m5" href="#l5">5</a>Quello.</p>
+</div><div class="sp ">
+  <p class="spk ">
+    Francisco
+  </p>
+  <p class="pr " id="l6"><a class="pn " href="#l6">6</a>Venite esattamente alla vostr&#39;ora.</p>
+</div><div class="sp ">
+  <p class="spk ">
+    Bernardo
+  </p>
+  <p class="pr " id="l7"><a class="pn " href="#l7">7</a>Suonarono adesso le dodici; va a dormire, Francesco.</p>
+</div><div class="sp ">
+  <p class="spk ">
+    Francisco
+  </p>
+  <p class="pr " id="l8"><a class="pn " href="#l8">8</a>Grazie del sollievo; è freddo assai, e il cuore mi trema.</p>
+</div><div class="sp ">
+  <p class="spk ">
+    Bernardo
+  </p>
+  <p class="pr " id="l9"><a class="pn " href="#l9">9</a>Aveste buona veglia?</p>
+</div><div class="sp ">
+  <p class="spk ">
+    Francisco
+  </p>
+  <p class="pr " id="l10"><a class="pn m5" href="#l10">10</a>Non un topo mi turbò.</p>
+</div><div class="sp ">
+  <p class="spk ">
+    Bernardo
+  </p>
+  <p class="pr " id="l11"><a class="pn " href="#l11">11</a>Buona notte. Se vedete Orazio e Marcello, miei compagni di guardia, dite loro di affrettarsi.</p>
+</div><div class="sp ">
+  <p class="spk ">
+    Francisco
+  </p>
+  <p class="pr " id="l12"><a class="pn " href="#l12">12</a>Parmi udirli. <span class="sdi">Entrano Orazio e Marcello</span><br>Fermatevi; chi è là?</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l13"><a class="pn " href="#l13">13</a>Amici di questa terra.</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l14"><a class="pn " href="#l14">14</a>E sudditi di Danimarca.</p>
+</div><div class="sp ">
+  <p class="spk ">
+    Francisco
+  </p>
+  <p class="pr " id="l15"><a class="pn m5" href="#l15">15</a>Vi do la buona notte.</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l16"><a class="pn " href="#l16">16</a>Addio, onesto soldato: chi prese il vostro posto?</p>
+</div><div class="sp " data-who="francisco">
+  <p class="spk ">
+    Francisco
+  </p>
+  <p class="pr " id="l17"><a class="pn " href="#l17">17</a>Bernardo. Buona notte.</p>
+</div><p class="sd " id="l17-sd1">(esce)</p><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l18"><a class="pn " href="#l18">18</a>Olà, Bernardo!</p>
+</div><div class="sp " data-who="barnardo">
+  <p class="spk ">
+    Bernardo
+  </p>
+  <p class="pr " id="l19"><a class="pn " href="#l19">19</a>Di&#39;: è quivi Orazio?</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l20"><a class="pn m5" href="#l20">20</a>Un brano di lui.</p>
+</div><div class="sp ">
+  <p class="spk ">
+    Bernardo
+  </p>
+  <p class="pr " id="l21"><a class="pn " href="#l21">21</a>Benvenuto, Orazio; benvenuto, buon Marcello.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l22"><a class="pn " href="#l22">22</a>Ebbene, la visione è comparsa anche questa notte?</p>
+</div><div class="sp ">
+  <p class="spk ">
+    Bernardo
+  </p>
+  <p class="pr " id="l23"><a class="pn " href="#l23">23</a>Nulla ho veduto.</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l24"><a class="pn " href="#l24">24</a>Orazio dice che è un errore soltanto della nostra imaginativa; nè vuole accordar fede alla esistenza dello spaventoso spettro, che abbiam visto due volte. Perciò, dopo molte preghiere, l&#39;ho indotto a venir nosco perchè vigilasse la notte, onde se l&#39;apparizione ritorna, possa render giustizia a&#39;nostri occhi, e favellarne.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l25"><a class="pn m5" href="#l25">25</a>Prestigio, prestigio! non apparirà nulla.</p>
+</div><div class="sp ">
+  <p class="spk ">
+    Bernardo
+  </p>
+  <p class="pr " id="l26"><a class="pn " href="#l26">26</a>Assidiamoci un istante; daremo novello assalto al tuo orecchio che si mostra incredulo al nostro racconto; incredulo di ciò che due notti abbiamo veduto.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l27"><a class="pn " href="#l27">27</a>Ebbene, sediamo, e udiam, Bernardo, la tua storia.</p>
+</div><div class="sp ">
+  <p class="spk ">
+    Bernardo
+  </p>
+  <p class="pr " id="l28"><a class="pn " href="#l28">28</a>La scorsa notte, nell&#39;ora in cui quella stessa stella, che vedi laggiù risplendere all&#39;occasso, avea descritto il suo circolo e illuminava quella parte di cielo in cui adesso scintilla, Marcello ed io, suonando un tocco l&#39;orologio...</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l29"><a class="pn " href="#l29">29</a>Taci, interrompi; mira, essa ritorna!</p>
+</div><p class="sd " id="l29-sd1">(apparisce l’ombra)</p><div class="sp ">
+  <p class="spk ">
+    Bernardo
+  </p>
+  <p class="pr " id="l30"><a class="pn m5" href="#l30">30</a>Nella forma istessa del re morto!</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l31"><a class="pn " href="#l31">31</a>Tu sei dotto, Orazio; parlagli.</p>
+</div><div class="sp ">
+  <p class="spk ">
+    Bernardo
+  </p>
+  <p class="pr " id="l32"><a class="pn " href="#l32">32</a>Non somiglia il re? Miralo, Orazio.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l33"><a class="pn " href="#l33">33</a>Somiglia troppo...e mi empie di tema e di stupore.</p>
+</div><div class="sp ">
+  <p class="spk ">
+    Bernardo
+  </p>
+  <p class="pr " id="l34"><a class="pn " href="#l34">34</a>Ei vuole gli si favelli.</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l35"><a class="pn m5" href="#l35">35</a>Parlagli, Orazio.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l36"><a class="pn " href="#l36">36</a>Chi sei tu chi ususrpi a quest&#39;ora di notte la forma nobile e guerriera di cui vedemmo rivestita la maestà del re sepolto? In nome del Cielo, favella.</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l37"><a class="pn " href="#l37">37</a>È offeso.</p>
+</div><div class="sp ">
+  <p class="spk ">
+    Bernardo
+  </p>
+  <p class="pr " id="l38"><a class="pn " href="#l38">38</a>Vedi! S&#39;allontana.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l39"><a class="pn " href="#l39">39</a>Fermati, parla; parla, te l&#39;impogno, parla.</p>
+</div><p class="sd " id="l39-sd1">(l&#39;ombra svanisce)</p><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l40"><a class="pn m5" href="#l40">40</a>Partito, partito, e senza darci risposta.</p>
+</div><div class="sp ">
+  <p class="spk ">
+    Bernardo
+  </p>
+  <p class="pr " id="l41"><a class="pn " href="#l41">41</a>Ebbene, Orazio? Eccoti allibito e trepido! Fu nostra imaginazione, e nulla più? Che ne di&#39; tu?</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l42"><a class="pn " href="#l42">42</a>Per Idoio, non l&#39;avrei potuto credere senza la testimonianza sensibile de&#39;miei occhi.</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l43"><a class="pn " href="#l43">43</a>Non somiglia il re?</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l44"><a class="pn " href="#l44">44</a>Come tu somigli a te stesso. Tale era l&#39;armatura che quello portava allorchè combattè l&#39;ambizioso re di Norvegia; tale il volto minaccioso che mostrò quel dì in cui atterrò sul ghiaccio il guerriero polacco. Strano in verità.</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l45"><a class="pn m5" href="#l45">45</a>Ed ecco come per due volte durante la nostra guardia, appunto in quest&#39;ora, fra le tenebre della notte, con passo marziale, c&#39;è passato dinanzi.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l46"><a class="pn " href="#l46">46</a>Quale intento avrà? Nol so; ma seguendo il filo delle mie congetture, questa cosa minaccia allo Stato alti disastri.</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l47"><a class="pn " href="#l47">47</a>Amici, sediamo, e dicami quegli di voi che lo sa, perchè guardie si esatte e severe affatichino nel più fitto delle tenebre i sudditi del re danese? Perchè tal fusione giornaliera di cannoni di bronzo, e tal creazione di macchine da guerra? Perchè la costruzione di tanti vascelli, a cui s&#39;intende sempre, senza che il riposo separi la domenica dagli altri di? Quali disegni si fecero perchè convenga all&#39;artefice sudante unir nelle sue opere le notti ai giorni? Chi di voi me lo potrà dire?</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l48"><a class="pn " href="#l48">48</a>Io: o almeno ti rapporterò le voci segrete che corrono. Il nostro ultimo re, di cui l&#39;imagine dianzi ci apparve, fu, lo sai, sfidato in tenzone singolare da Fortebraccio di Norvegia, cui geloso orgoglio animava. In quel combattimento, el prodenostro Amleto (chè tale lo giudicò questa parte del nostro mondo conosciuto) uccise Fortebraccio. Per patto suggellato, stretto con tutte le formule, e confermato dalla legge delle armi, Fortebraccio cedeva al vincitore, colla vita, tutti i dominii di cui disponeva; avendo contr&#39;essi il re nostro posto egual misura di terre, che sarebbero entrate nel retaggio del suo avversario, se ei fosse rimasto vincente. Oggi il giovine Fortebraccio, senza esperienza, d&#39;un carattere vivo e pieno di sè, ha raggranellati in fretta sulle frontiere di Norvegia alquanti avventuriere, avidi, pel bisogno di pane, di ogni impresa disperata. Qui non può essere (come ognuno n&#39;è convinto) che il divisamento di riprendere su di noi a mano armata e con aperta forza i perduti dominii. Ecco, secondo me, l&#39;oggetto principale di questi grandi apparecchi, la cagione di queste notturne guardie, e di tutti gli armamenti che si fanno in Danimarca.</p>
+</div><div class="sp ">
+  <p class="spk ">
+    Bernardo
+  </p>
+  <p class="pr " id="l49"><a class="pn " href="#l49">49</a>Credo, come voi, che non può esservi altra ragione; e ciò si concilia col prodigio di questa visione minacciosa, che viene tutta armata ad atterrirci, sotto la forma del defunto sovrano, autore di queste guerre.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l50"><a class="pn m5" href="#l50">50</a>È Visione atta a turbar l&#39;occhio della mente. Ne&#39;tempi più floridi di Roma, pochi giorni prima della caduta del gran Cesare, le tombe vedovate rimasero senza ospiti; i morti co&#39;loro lenzuoli vagolarono per le vie, mandando urli lamentevoli; le stelle dardeggiarono code fiammanti; una pioggia di sangui cadde delle nubi; segni funesti velarono il sole; e l&#39;umido pianeta, sotto l&#39;influenza del quale è posto l&#39;imperio di Nettuno, andò soggetto ad una ecclisse simile a quella che oscurerà l&#39;ultimo di del mondo. I medesimi precursori delle sventure della terra, araldi che precedono sempre i destini, preludi fatali dei terribili avvenimenti che ci pendono sopra, tali presagi si sono tutti veduti nella terra e nel cielo per avvertire il nostro popolo. Ma; taciamo : mirate!...eccolo...già ritorna! Vuò attraversagli la via...sebben m&#39;agghiacci d&#39;orrore. Fermati, apparizione!...e se hai una voce, se puoi render qualche suono, favella. -Ove abbi una inchiesta a fare; ove sia qualche servigio che possa sollevarti, e procacciarmi qualche grazia celeste, parlami. Se a parte sei delle sorti future <span class="sdi">(ricomparisce lo spettro)</span><br>Ma; taciamo: mirate!...eccolo...già ritorna! Vuo&#39;attraversargli la via...sebben m&#39;aghiacci d&#39;orrore. Fermati, apparizione! E se hai una voce, se puoi render qualche suono, favella. Ove abbi una inchiesta a fare; ove sia qualche servigio che possa sollevarti, e procacciarmi qualche grazia celeste, parlami. Se a parte sei delle sorti future del tuo paese e di qualche sinistro avvenimento che con felice prescienza possa impedirsi...oh! favella!... Se durante la vita hai sepolto nel seno della terra un mal acquiatato tesoro, perocchè dicesi esser questa una delle cagioni per cui voi, spiriti, errate cosí dopo morte, fammelo palese... <span class="sdi">(il gallo canta)</span><br>Oh fermati, parla...Fermalo, Marcello.</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l51"><a class="pn " href="#l51">51</a>Gli darò io della mia partigiana in sulla testa?</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l52"><a class="pn " href="#l52">52</a>Fallo, se non vuol fermarsi.</p>
+</div><div class="sp ">
+  <p class="spk ">
+    Bernardo
+  </p>
+  <p class="pr " id="l53"><a class="pn " href="#l53">53</a>Eccolo!</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l54"><a class="pn " href="#l54">54</a>Eccolo!</p>
+</div><p class="sd " id="l54-sd1">(l’ombra svanisce)</p><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l55"><a class="pn m5" href="#l55">55</a>È scomparso! Gli facciamo oltraggio, avendo aspetto si nobile e maestoso, a volerlo violentare. Egli è come l&#39;aere invulnerabile, e i nostri colpi e le nostre vane minaccie non sono che una malignità impotente e risibile.</p>
+</div><div class="sp ">
+  <p class="spk ">
+    Bernardo
+  </p>
+  <p class="pr " id="l56"><a class="pn " href="#l56">56</a>Voleva parlare, allorchè il gallo cantò-</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l57"><a class="pn " href="#l57">57</a>E in quel punto trasalì come un reo chiamato dalla voce di araldo formidabile. Udii dire che il gallo, annunziator del mattino, co&#39;suoni acuti della sua voce roca e sonora sveglia il Dio del giorno, e avverte gli spiriti, che erranti o sul mare, o pel fuoco, o per la terra, o per l&#39;aere, precipitano tosto nelle loro dimore. Il fantasma da noi veduto ci fa fede di ciò.</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l58"><a class="pn " href="#l58">58</a>Al canto del gallo scomparve. Alcuni affermano che nel tempo di quella stagione solenne, in cui è celebrata la nascita del Redentore, l&#39;uccello dell&#39;alba canta tutta la notte; e dicesi che allora nessuno spirito possa mostrarsi; che le notti son salubri; che verun pianeta ha influssi maligni; che ogni sortilegio torna vano; che l&#39;arte del mago è senza potere; tanto quel sacro tempo è pieno di grazia celeste!</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l59"><a class="pn " href="#l59">59</a>Così io pure ho udito e in parte credo; ma, vedete? il matino, vestito con manto di porpora, calpesta la rugiada di quell&#39;alto colle, là verso oriente. Terminiamo la nostra guardia, e , se vi piace di seguir il mio avviso, facciamo parte di quanto abbiam visto stanotte al giovine Amleto: perchè, sulla mia vita, lo spirito che fu muto per noi parlerà con esso. Acconsentite che ne l&#39;istruiamo? È una confidenza che il nostro zelo per lui c&#39;impone, e che il nostro dovere ci prescrive.</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l60"><a class="pn m5" href="#l60">60</a>Facciamolo, ve ne prego. Io so dove trovarlo questa mattina, e come parlagli in libertà.</p>
+</div><p class="sd " id="l60-sd1">(escono)</p>
+      </section>
+    
+  
+    
+      <section id="act-1-s2">
+        <h3 class="scene-head">
+          Scena II.
+        </h3>
+        <p class="sd " id="l60-sd2">La sala del Consiglio.</p><p class="sd " id="l60-sd3">Entra il Re, la Regina, Amleto, Polonio, Laerte, Voltimando, Cornelio, Grandi e seguito.</p><div class="sp " data-who="king">
+  <p class="spk ">
+    Re
+  </p>
+  <p class="pr " id="l61"><a class="pn " href="#l61">61</a>Sebbene la ricordanza della morte di Amleto, nostro amato fratello, sia si recente ancora, che non possiamo sbandire la tristezza da&#39;nostri cuori, e una benda di duolo cuopre la fronte di tutto il nostro regno; pure la ragione di Stato ha combattuta la natura, ed esige che, serbando per lui un dolor saggio e mite, non obbliamo la memoria di noi stessi. Perciò, regina, compagna nostra e un tempo nostra sorella, sovrana augusta di questo impero bellicoso, noi vi abbiamo scelta per consorte, compresi d&#39;una gioia che sopprime il dolore, col sorriso della felicità sulle labbra, e le lagrime negli occhi, disposando le feste dell&#39;imeneo al duolo de&#39;funerali, l&#39;imene dell&#39;amore a quello della morte, e pesando su egual bilancia il piacere e l&#39;affanno. Nèdi voi, o signori, abbiamo negletto i savi consigli, che dati liberamente, meritano le nostri grazie. Ora ci rimane a dirvi che il giovine Fortebraccio, portando di noi debole opinione, o imaginando che la recente morte del nostro fratello sciolti abbia tutti i legami dello Stato, e scossolo fin dalle fondamenta, sedotto forse dal sogno di sua superiorità, non s&#39;è ristato dall&#39;insultare il nostro paese con un messaggio intimante che gli si restituiscano le terre perdute da suo padre, e acquistate con tutte le solennità della legge dal nostro prode fratello. Questo basti di lui. Quanto a noi e all&#39;oggetto che qui ci raduna: eccovelo. Abbiamo vergati dispacci pel re di Norvegia, zio del giovine Fortebraccio, che, infermo e prigioniero nel suo letto, appena ha udito parlare delle mire del suo nipote. Con essi noi l&#39;invitiamo a porre argine a quelle, conoscendo esattamente dove e quali siano le schiere ordinate all&#39;impresa. Voi, saggio Cornelio, e voi, Volti mando, deputiamo per recare il nostro saluto al vecchio sovrano, non concedendovi poteri personali per istringer trattati con esso, più di quelli che stan qui registrati. Partite, e la vostra diligenza ne faccia fede della vostra sommissione.</p>
+</div><div class="sp " data-who="voltemand">
+  <p class="spk ">
+    Voltimando
+  </p>
+  <p class="pr " id="l62"><a class="pn " href="#l62">62</a>In questa e in ogni altra cosa mostreremo la nostra obbedienza a Vostra Maestà.</p>
+</div><div class="sp " data-who="king">
+  <p class="spk ">
+    Re
+  </p>
+  <p class="pr " id="l63"><a class="pn " href="#l63">63</a>Punto non ne dubitiamo; partite e abbiatevi il nostro sincero addio. <span class="sdi">(Voltimando e Cornelio escono)</span><br>Ora, Laerte, qual&#39;è la vostra inchiesta? Una dimanda accennaste, di che avete brama? Voi non potete fare al re dei Danesi una inchiesta ragionevole e sperdere le parole. Che potete chieder, Laerte, che non vi sia afferto dal vostro re, piuttostochè da voi sollecitato? La mano non è più pronta a servir la bocca, la testa non è più sottomessa al cuore, che il trono di Danimarca nol sia a vostro padre: che desiderate, Laerte?</p>
+</div><div class="sp " data-who="laertes">
+  <p class="spk ">
+    Laerte
+  </p>
+  <p class="pr " id="l64"><a class="pn " href="#l64">64</a>Formidabile sovrano, il favor del vostro consenso per tornare in Francia. Io mi sono affrettato a venir qui per porgervi omaggio nel vostro coronamento; riempito questo debito, il dirò pure, i miei voti richiamanmi verso la Francia. Essi con umiltà sottometto all&#39;indulgenza di Vostra Altezza, la di cui grazia imploro.</p>
+</div><div class="sp " data-who="king">
+  <p class="spk ">
+    Re
+  </p>
+  <p class="pr " id="l65"><a class="pn m5" href="#l65">65</a>Avete quella di vostro padre? Che dice Polonio?</p>
+</div><div class="sp " data-who="polonius">
+  <p class="spk ">
+    Polonio
+  </p>
+  <p class="pr " id="l66"><a class="pn " href="#l66">66</a>Ei tanto fece, signore, collle sue inchieste, che alfine mi ha estorto l&#39;assentimento e la sanzione al suo voto. Vi prego di concedergli la facoltà di partire.</p>
+</div><div class="sp " data-who="king">
+  <p class="spk ">
+    Re
+  </p>
+  <p class="pr " id="l67"><a class="pn " href="#l67">67</a>Scegliete ora propizia alla partenza, e disponete di tutto ciò che può padecervi e rendervi pago. Ebbene, Amleto, mio parente e figlio...</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr as" id="l68"><a class="pn " href="#l68">68</a><span class="sdi">(a parte)</span> Parente troppo, figlio non tanto.</p>
+</div><div class="sp " data-who="king">
+  <p class="spk ">
+    Re
+  </p>
+  <p class="pr " id="l69"><a class="pn " href="#l69">69</a>Perchè quelle nubi sulla vostra fronte?</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l70"><a class="pn m5" href="#l70">70</a>Oh no, signore, non son che troppo alla luce.</p>
+</div><div class="sp " data-who="queen">
+  <p class="spk ">
+    Regina
+  </p>
+  <p class="pr " id="l71"><a class="pn " href="#l71">71</a>Caro Amleto, dirada quelle fosche, e l&#39;occhio tuo giri sguardi amici sulla Danimarca. Non persistere a cercar sempre con quelle luci abbassate il nobile tuo padre nella polvere della tomba. Tu sai che è una legge comune che tutto ciò che vive, muore: e traversando questo mondo, passa all&#39;eternità.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l72"><a class="pn " href="#l72">72</a>Sí, signora, è una legge comune.</p>
+</div><div class="sp " data-who="queen">
+  <p class="spk ">
+    Regina
+  </p>
+  <p class="pr " id="l73"><a class="pn " href="#l73">73</a>Se questo è, perchè ne sembri tanto mesto?</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l74"><a class="pn " href="#l74">74</a>Sembro, signora? No, sono; ignoro i finti sembianti. Non è solamente il nero colore di questo mantello, buona madre, queste gramaglie indossate per costume di solenne duolo, questi caldi sospiri d&#39;alitar singhiozzante, questo rivo di lacrime, questa fronte squallida e abbatutta, e tante altre apparenze che possono manifestare il mio dolore; apparenze che ognuno può simulare; ma è qui, dentro di me, ch&#39;esso s&#39;asconde; nè il resto è altro che forma e pompa.</p>
+</div><div class="sp " data-who="king">
+  <p class="spk ">
+    Re
+  </p>
+  <p class="pr " id="l75"><a class="pn m5" href="#l75">75</a>Sensibilità e virtù lodevole in voi, l&#39;accordar così a vostro padre ricordanze tanto sante; ma dovete sapere che il vostro genitore perdè un genitore, e che quel genitore un altro ne avea perduto: il figlio che sopravvive al padre è legato da dovere di tenerezza a mostrar per un tempo l&#39;affezion sua verso le di lui ceneri: ma il perseverare in continuo dolore è segno d&#39;empia tenacità, d&#39;affanno sconvenevole all&#39;uomo, di volontà ribelle ai decreti del cielo, di cuor senza forza, d&#39;anima senza pazienza, di giudizio limitato e inesperto. Imperocchè per una cosa che sappiamo essere inevitabile, che comune è come ogni altra cosa più comune che il senso ferisca, perchè persisteremmo in disperato abbattimento? No, saria un delitto contro il Cielo, un&#39;offesa contro l&#39;estinto, un fallo contro natura, un&#39;assurda ingiuria alla ragione, il cui più volgar precetto è la morte de&#39;nostri padri, e che dal primo feretro in fino a quello dell&#39;uomo spento oggi ci ha sempre gridato &quot;tal&#39;è l&#39;inevitabile legge&quot;. Non vi preghiamo dunque di obbliare dolor sì volgare, e di averne in conto di padre; imperocchè sappia ognuno e rammenti che voi toccate più dappresso d&#39;ogni altro al nostro trono, e che tutto l&#39;amore virtuoso che il più tenero dei padri porta al figlio suo, noi lo sentiamo per voi. Quando al disegno vostro di tornarvene agli studi di Vittemberga, nulla è più contrario ai nostri desideri; e vi scongiuriamo di risolvervi a restar qui sotto ai nostri occhi, dove il nostro amore vi consolerà, voi primo di questa corte, parente nostro, e figliuolo.</p>
+</div><div class="sp " data-who="queen">
+  <p class="spk ">
+    Regina
+  </p>
+  <p class="pr " id="l76"><a class="pn " href="#l76">76</a>Amleto, non far che tua madre preghi invano, rimanti con noi, non tornare a Vittemberga.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l77"><a class="pn " href="#l77">77</a>Farò sempre ogni sforzo per obbedirvi in tutto, signora.</p>
+</div><div class="sp " data-who="king">
+  <p class="spk ">
+    Re
+  </p>
+  <p class="pr " id="l78"><a class="pn " href="#l78">78</a>Ecco una nobile risposta e dettata dal cuore. Siatevi tutto quello che noi stessi siamo in Danimarca. Signora, venite. Questo consentimento d&#39;Amleto partito dal cuore, e dato sì affettuosamente, m&#39;empie di dolce allegrezza; in ricompensa, non sarà fatto oggi in Danimarca gioioso brindisi, che la tuonante voce del cannone non l&#39;annunzi alle nubi. Voglio che la volta del cielo,ripetendo gli scoppi dei folgori della terra, risuoni del plauso di tazze vuotate alla salute del re. Andiamo.</p>
+</div><p class="sd " id="l78-sd1">(escono tutti, tranne Amleto)</p><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l79"><a class="pn " href="#l79">79</a>Oh perchè questa massa di terra troppo indurita non può ella ammollirsi per dolore, e fondersi in flutti di lagrime? O perchè l&#39;Eterno vibra egli le sue folgori contro coloro che si tolgono la vita? Dio! Dio! Come vane, incresciose e pallide mi sembrano tutte le gioie di questo mondo; come io le disprezzo e quanto nevo fastidito! Un campo è questo incolto che non si cuopre che di amari frutti di natura aspra e selvaggia... A tanto si è giunti!...Due mesi dopo la sua morte!...No, non ancora due mesi!!!... Re si virtuoso, ch&#39;era appo questo quel che è un Dio presso un satiro; sì affettuoso per mia madre, che non permetteva neppure ai venti del cielo di molestarle il viso...Cielo! Oh Cielo! Eterna dunque mi resterà la memoria!...Ed ella a lui aderiva come se la sua passione si fosse accresciuta col possedimento, e nullameno nel lasso di trenta di... Non vuo&#39; pensarci! Oh fragilità, a te e alla donna non si compete che un nome stesso!... Un mese appena!...Prima ancora che logorata avesse la calzatura con sui segui il corpo del mio povero padre, tutta in lagrime...Sì, ella, ella medesima!...Ah il bruto, privo d&#39;idee e di ragione, avrebbe sentito più a lungo il suo dolore...Accoppiata a mio zio, fratello di mio padre, che a mio padre somiglia men di quello ch&#39;io mi faccia ad Ercole... Nel lasso d&#39;un mese...Prima che il rossore, di cui le sue perfide lagrime avevano infiammato i suoi occhi, si fosse disperse, ella s&#39;è maritata!... Oh! Foga rea! Abbandono turpe e incestuoso!... Empio fu ciò, e andrà rivolto in cobardia. Ma spezzati, mio cuore, poichè sono costretto, poichè sono costretto d&#39;imbrigliar la mia lingua!</p>
+</div><p class="sd " id="l79-sd1">(entrano Orazio, BErnardo e Marcello)</p><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l80"><a class="pn m5" href="#l80">80</a>Salute a Vostra Altezza!</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l81"><a class="pn " href="#l81">81</a>Godo di vederti in buono stato; Orazio?...Se non erro.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l82"><a class="pn " href="#l82">82</a>Quello, principe, e debole vostro servo per sempre.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l83"><a class="pn " href="#l83">83</a>Mio buon amico, questo titolo cambierò con voi. Qual motivo vi richiamò da Vittemberga?...Ah! Marcello?</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l84"><a class="pn " href="#l84">84</a>Mio buon signore...</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l85"><a class="pn m5" href="#l85">85</a>Son lieto di rivedervi; salute. Ma parlate, qual motivo vi fe&#39;tornare da Vittemberga?</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l86"><a class="pn " href="#l86">86</a>La poca volontà di applicarmi, mio buon signore.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l87"><a class="pn " href="#l87">87</a>Non vorrei che un vostro nemico lo dicesse, ne vorrete far violenza al mio orecchio costrigendolo a creder cosa detta in biasimo vostro. So che in voi non è ritrosia per la scienza; che dunque vi conduce in Elsinoro? Prima che di qui partiate v&#39;insegneremo come si beve.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l88"><a class="pn " href="#l88">88</a>Principe, venni per assistere ai funerali di vostro padre.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l89"><a class="pn " href="#l89">89</a>Ti prego, non ischermirni, tu diletto compagno de&#39;miei studi. Credo che fu piuttosto per assistere alle nozze della mia genitrice.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l90"><a class="pn m5" href="#l90">90</a>È vero, signore, che in breve sono accadute.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l91"><a class="pn " href="#l91">91</a>Parsimonia, parsimonia, Orazio: le vivande del banchetto funebre eran tepide ancora, e imbandite si sono a quello degli sponsali. Vorrei aver raggiunto in cielo il mio nemico più abborrito, prima che vedere un tal dì, Orazio!...Mio padre...È parmi ch&#39;io lo vegga ancora.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l92"><a class="pn " href="#l92">92</a>Dove, signore?</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l93"><a class="pn " href="#l93">93</a>Cogli occhi della mente, Orazio.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l94"><a class="pn " href="#l94">94</a>Io l&#39;ho veduto una volta, ed era generoso quel re.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l95"><a class="pn m5" href="#l95">95</a>Generoso? Ah di tali la natura non ne produrrà più!</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l96"><a class="pn " href="#l96">96</a>Signore, credo d&#39;averlo veduto ier notte.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l97"><a class="pn " href="#l97">97</a>Chi?</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l98"><a class="pn " href="#l98">98</a>Principe, il re vostro padre.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l99"><a class="pn " href="#l99">99</a>Mio padre?</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l100"><a class="pn m5" href="#l100">100</a>Calmate la vostra sorpresa un istante, e porgetemi ascolto, mentr&#39;io, con la testimonianza di questi valenti amici, vi narrerò il prodigio.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l101"><a class="pn " href="#l101">101</a>Per l&#39;amor di Dio, ch&#39;io t&#39;oda.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l102"><a class="pn " href="#l102">102</a>Due notti di seguito questi gentiluomini, Marcello e Bernardo, durante la loro guardia, nel più fitto delle tenebre, nell&#39;ora più silenziosa, viddero fra il buio una figura somigliante a vostro padre, armata da capo a piedi, che con passo augusto e grave si fea loro maestosamente innanzi. Tre volte ella è passata sotto i loro occhi atterriti alla distanza del suo scettro; ed essi, irrigati di sudor gelido spremuto loro dall&#39;altezza dello spavento, muti e inorriditi, la vedevano passare. In segreto mi fecero la terribile confidenza di ciò; ed io la seguente notte stetti con loro alla guardia. All&#39;ora indicata, con tutte le circostanze di cui m&#39;aveano posto a parte, lo spettro ritorna...ho conosciuto vostro padre; queste due mani non s&#39;assomigliano di più.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l103"><a class="pn " href="#l103">103</a>Ma dove accadde questo?</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l104"><a class="pn " href="#l104">104</a>Sulla piattaforma ove eravamo di guardia, mio principe.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l105"><a class="pn m5" href="#l105">105</a>Ne vi provaste a parlargli?</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l106"><a class="pn " href="#l106">106</a>Si, gli parlai; ma nulla m&#39;ha risposto. Nondimeno mi parve che sollevasse la testa, e s&#39;accingesse a discorrere, quando l&#39;uccello del mattino fe&#39;intendere il suo grido, e al suono di quello la visione scomparve.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l107"><a class="pn " href="#l107">107</a>Strana cosa questa!</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l108"><a class="pn " href="#l108">108</a>Come è vero che vivo, mio onorato principe, vi ho detta la verità, e credemmo che la nostra affezione per voi c&#39;imponesse il carico di palesarvela.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l109"><a class="pn " href="#l109">109</a>Oh! Si, miei amici, ma ciò mi empie di turbamento. Spetta a voi la guardia, stanotte?</p>
+</div><div class="sp " data-who="horatio marcellus barnardo">
+  <p class="spk ">
+    Tutti
+  </p>
+  <p class="pr " id="l110"><a class="pn m5" href="#l110">110</a>Spetta, signore.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l111"><a class="pn " href="#l111">111</a>Armato, dite?</p>
+</div><div class="sp " data-who="horatio marcellus barnardo">
+  <p class="spk ">
+    Tutti
+  </p>
+  <p class="pr " id="l112"><a class="pn " href="#l112">112</a>Armato.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l113"><a class="pn " href="#l113">113</a>Dal capo ai piedi?</p>
+</div><div class="sp " data-who="horatio marcellus barnardo">
+  <p class="spk ">
+    Tutti
+  </p>
+  <p class="pr " id="l114"><a class="pn " href="#l114">114</a>Principe, dal capo ai piedi.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l115"><a class="pn m5" href="#l115">115</a>Ne avete veduto il suo volto?</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l116"><a class="pn " href="#l116">116</a>Oh si, ch&#39;ei portava la visiera alzata.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l117"><a class="pn " href="#l117">117</a>Ed era minaccioso?</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l118"><a class="pn " href="#l118">118</a>Più assolorato che minaccioso.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l119"><a class="pn " href="#l119">119</a>Pallido, o acceso?</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l120"><a class="pn m5" href="#l120">120</a>Pallido pallidissimo.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l121"><a class="pn " href="#l121">121</a>E fissò i suoi occhi su di voi?</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l122"><a class="pn " href="#l122">122</a>Intentamente.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l123"><a class="pn " href="#l123">123</a>Vorrei esserci stato.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l124"><a class="pn " href="#l124">124</a>Ne sareste rimasto sorpreso.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l125"><a class="pn m5" href="#l125">125</a>Può essere. Si fermò lungo tempo?</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l126"><a class="pn " href="#l126">126</a>Quanto ne occorreva per contare lentamente dall&#39;uno al cento.</p>
+</div><div class="sp " data-who="marcellus barnardo">
+  <p class="spk ">
+    Marcello e Bernardo
+  </p>
+  <p class="pr " id="l127"><a class="pn " href="#l127">127</a>Più ancora, più.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l128"><a class="pn " href="#l128">128</a>Non quando io lo vidi.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l129"><a class="pn " href="#l129">129</a>Avea la barba grigia? No?</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l130"><a class="pn m5" href="#l130">130</a>Qual l&#39;avea in vita: nera, screziata d&#39;argento.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l131"><a class="pn " href="#l131">131</a>Veglierò con voi stanotte; forse ritornerà.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l132"><a class="pn " href="#l132">132</a>Tornerà, ve ne assicuro.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l133"><a class="pn " href="#l133">133</a>Se si presenta a me sotto l&#39;aspetto del mio augusto padre, gli parlerò, dovesse l&#39;inferno, spalancando le sue voragini, impormi silenzio. Vi scongiuto tutti, se finora avete conservato il segreto su questa apparizione, conservatelo ancora, e checchè possa avvenire questa notte confidatelo al vostro pensiero ma non alla vostra lingua; da ciò conoscerò la vostra amicizia per me. Addio tutti; fra undici ore e mezzanotte vi raggiungerò al castello.</p>
+</div><div class="sp " data-who="horatio marcellus barnardo">
+  <p class="spk ">
+    Tutti
+  </p>
+  <p class="pr " id="l134"><a class="pn " href="#l134">134</a>Siamo devoti a Vostro Onore.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l135"><a class="pn m5" href="#l135">135</a>La vostra amicizia, come voi avete la mia. Addio. <span class="sdi">(escono Orazio, Marcello e Bernardo)</span><br>L&#39;ombra di mio padre armata! Qualche nera colpa si nasconde. Vorrei fosse notte; anima mia, aspettala in pace. I delitti atroci, quand&#39;anche l&#39;intera terra li coprisse, si rivelerebbono agli occhi degli uomini.</p>
+</div><p class="sd " id="l135-sd1">(esce)</p>
+      </section>
+    
+  
+    
+      <section id="act-1-s3">
+        <h3 class="scene-head">
+          Scena III
+        </h3>
+        <p class="sd " id="l135-sd2">Una stanza nella casa di Polonio.</p><p class="sd " id="l135-sd3">Entrano Laerte e Ofelia.</p><div class="sp " data-who="laertes">
+  <p class="spk ">
+    Laerte
+  </p>
+  <p class="pr " id="l136"><a class="pn " href="#l136">136</a>Le mie bagaglie sono imbarcate; addio, sorella. Finchè i venti lo concederanno e il tragitto potrà operarsi, non siate negligente nel darmi vostre novelle.</p>
+</div><div class="sp " data-who="ophelia">
+  <p class="spk ">
+    Ofelia
+  </p>
+  <p class="pr " id="l137"><a class="pn " href="#l137">137</a>Potete di ciò dubitare?</p>
+</div><div class="sp " data-who="laertes">
+  <p class="spk ">
+    Laerte
+  </p>
+  <p class="pr " id="l138"><a class="pn " href="#l138">138</a>Quando ad Amleto e a’ suoi frivoli amori, riguardateli come una moda effimera, una follía di bollente giovinezza, una primavera precoce ma passeggiera; uno splendore amabile che non ha durata; il profumo e il piacere di un istante e nulla più.</p>
+</div><div class="sp " data-who="ophelia">
+  <p class="spk ">
+    Ofelia
+  </p>
+  <p class="pr " id="l139"><a class="pn " href="#l139">139</a>E nulla più?</p>
+</div><div class="sp " data-who="laertes">
+  <p class="spk ">
+    Laerte
+  </p>
+  <p class="pr " id="l140"><a class="pn m5" href="#l140">140</a>Null&#39;altro, siatene sicura: imperocchè durante la nostra adolescenza non è soltanto il corpo che cresce in forza e in volume, il cuore si sviluppa con lui, e gli uffici interni dell&#39;anima si estendono e si ampliano col tempio in cui essa risiede. Forse ei vi ama oggi; forse niuna frode ora, niuna macchia oscura i sentimenti suoi puri e virtuosi; ma voi dovete temere, risguardando all&#39;altezza del suo grado, che la sua volontà non gli appartenga. Egli stesso è soggetto della sua nascita; ne può, come gli uomini del volgo, scegliere da sè la sua donna; perciocchè dalla sua scelta dipendono l&#39;onore e la vita di tutto il regno, onde questa debbe esser guidata dal consentimento di tutto il corpo di cui è capo. Se dice quindi che vi ama, è proprio della vostra saviezza il non credere delle sue parole più di quello che ei stesso ne possa effettuare, nel luogo e colla dignità con cui è stato educato; e il suo potere, a questo proposito, non può mostrarsi senza il suffragio e la sanzione della più nobile parte di Danimarca. Vedete dunque e pesate quale sventura sarebbe la vostra se vi accadesse d&#39;udire con orecchio troppo credulo i suoi discorsi allettatori, e di perdere il vostro cuore, o d&#39;aprire il casto tesoro del vostro seno all&#39;ascendente delle sue focose importunità. Temete una tale sventura, diletta sorella, temetela; mantenete sempre la vostra ragione dietro alla vostra inclinazione per vegliare su di lei: e rimanetevi fuori di tiro del pericoloso dardo del desiderio. La vergine circospetta è abbastanza liberale se svela la sua beltà ai raggi dell&#39;astro della notte. La vistù stessa non isfugge ai colpi della calunnia; l&#39;insetto rode le giovani rose di primavera, sovente ancora prima che l&#39;odorota loro boccia siasi dischiusa; ed è nel mattino della giovinezza, all&#39;ora delle dolci rugiade, che i soffi contagiosi sono più frequenti. Vegliate su di voi; la sicurezza migliore è posta in un timor prudente; la gioventù diviene spesso la nemica di se medesima quando pure non ha altri nemici dintorno.</p>
+</div><div class="sp " data-who="ophelia">
+  <p class="spk ">
+    Ofelia
+  </p>
+  <p class="pr " id="l141"><a class="pn " href="#l141">141</a>Farò tesoro di queste savie massime, come d&#39;altrettanti angeli salvatori. Ma, mio buon fratello, non siate come alcuni sacerdoti austeri e duri, non mi mostrate la strada aspra e spinosa che guida al cielo, mentre che, come abbri senza fede e senza pensier dell&#39;avvenire, camminano essi stessi nella via fiorita del diletto, ne alcun conto tengono delle loro proprie ammonizioni.</p>
+</div><div class="sp " data-who="laertes">
+  <p class="spk ">
+    Laerte
+  </p>
+  <p class="pr " id="l142"><a class="pn " href="#l142">142</a>Non temiate ciò di me. Ma io m&#39;intrattengo troppo. Ecco mio padre; <span class="sdi">(entra Polonio)</span><br>una doppia benedizione è una doppia grazia. L&#39;occasione mi arride per chiedergli un secondo congedo.</p>
+</div><div class="sp " data-who="polonius">
+  <p class="spk ">
+    Polonio
+  </p>
+  <p class="pr " id="l143"><a class="pn " href="#l143">143</a>Ancor qui stai, Laerte! Vergogna; al mare, al mare. Il vento gonfia i fianchi delle tue vele e tu solo sei aspettato. Ricevi la mia benedizione: e pensa a consolidar nella tua memoria questi precetti.&quot;Non dar lingua a&#39;tuoi pensieri, nè esecuzione ad alcuna idea mal maturata. Sii cortese e civile, ma non mai bassamente familiare. Gli amici che hai adottati dopo sperimento, avvincili all&#39;anima tua con legami di ferro; ma non prodigar la tua mano e le sue frivole carezze ad ogni conoscenza novizia e di fresca data. Evita con cura d&#39;entrar in contestazioni; ma una volta entrato in esse comportati in modo che il tuo avversario ti schivi a sua volta. Porgi orecchio a tutti gli uomini, ma conserva la tua voce per un piccol numero; accogli tutte le censure, ma sii riservato ne&#39;tuoi giudizii. L&#39;abito tuo sia bello quando la tua borsa lo può pagare, ma non mai strano o ricercato; ricco e non fastoso, avvegnachè l&#39;abbigliamento indichi spesso l&#39;uomo, e i signori di Francia più distinti per nobiltà e per cariche abbiano in ciò gusto squisitissimo. Non prendere a prestito nè prestare ad altrui; chè sovente il prestatore perde il prestito e l&#39;amico; e il togliere a prestito spegne l&#39;amor della parsimonia. Ma a questo sopratutto bada: sii sincero con te stesso, e per la necessità mercè cui la notte segue il giorno, non potrai mai esser falso cogli altri uomini.&quot; Addio; la mia benedizione faccia fruttificare questi precetti nella tua anima!</p>
+</div><div class="sp " data-who="laertes">
+  <p class="spk ">
+    Laerte
+  </p>
+  <p class="pr " id="l144"><a class="pn " href="#l144">144</a>Umilmente mi accomiato da voi, signore.</p>
+</div><div class="sp " data-who="polonius">
+  <p class="spk ">
+    Polonio
+  </p>
+  <p class="pr " id="l145"><a class="pn m5" href="#l145">145</a>Il tempo ti invita; va, i tuoi servi ti aspettano.</p>
+</div><div class="sp " data-who="laertes">
+  <p class="spk ">
+    Laerte
+  </p>
+  <p class="pr " id="l146"><a class="pn " href="#l146">146</a>Addio, Ofelia; ricordate quel che vi ho detto.</p>
+</div><div class="sp " data-who="ophelia">
+  <p class="spk ">
+    Ofelia
+  </p>
+  <p class="pr " id="l147"><a class="pn " href="#l147">147</a>L&#39;ho serrato nel cuore e voi ne avrete la chiave.</p>
+</div><div class="sp " data-who="laertes">
+  <p class="spk ">
+    Laerte
+  </p>
+  <p class="pr " id="l148"><a class="pn " href="#l148">148</a>Addio.</p>
+</div><p class="sd " id="l148-sd1">(esce)</p><div class="sp " data-who="polonius">
+  <p class="spk ">
+    Polonio
+  </p>
+  <p class="pr " id="l149"><a class="pn " href="#l149">149</a>Che è ciò, Ofelia? che v’ha egli detto?</p>
+</div><div class="sp " data-who="ophelia">
+  <p class="spk ">
+    Ofelia
+  </p>
+  <p class="pr " id="l150"><a class="pn m5" href="#l150">150</a>Non vi spiaccia, signore, qualche cosa che riguardava Amleto.</p>
+</div><div class="sp " data-who="polonius">
+  <p class="spk ">
+    Polonio
+  </p>
+  <p class="pr " id="l151"><a class="pn " href="#l151">151</a>In verità è a proposito. M&#39;è stato narrato che da qualche tempo ei v&#39;accorda in particolare i momenti del suo ozio, e che voi liberale, prodiga anzi, siete stata nel concedergli udienza. Se questo è vero, come mi si assicura, conviene, per cautela e per premunirvi, che vi rimostri come voi non mettiate nella vostra condotta tutta quella delicatezza che si addice ad una mia figlia e al vostro onore. Di che favellate voi insieme? Ditemi la verità.</p>
+</div><div class="sp " data-who="ophelia">
+  <p class="spk ">
+    Ofelia
+  </p>
+  <p class="pr " id="l152"><a class="pn " href="#l152">152</a>Non ha molto, signore, ei mi fece mille proteste dell&#39;affetto suo per me.</p>
+</div><div class="sp " data-who="polonius">
+  <p class="spk ">
+    Polonio
+  </p>
+  <p class="pr " id="l153"><a class="pn " href="#l153">153</a>Affetto? Follia? Voi parlate come una fanciulla senza cervello e senza sperienza in circostanza sì grave. Prestate forse fede alle sue proteste, come vi piace di chiamarle?</p>
+</div><div class="sp " data-who="ophelia">
+  <p class="spk ">
+    Ofelia
+  </p>
+  <p class="pr " id="l154"><a class="pn " href="#l154">154</a>Non so, signore, quel ch&#39;io debba pensarne.</p>
+</div><div class="sp " data-who="polonius">
+  <p class="spk ">
+    Polonio
+  </p>
+  <p class="pr " id="l155"><a class="pn m5" href="#l155">155</a>Io ve l&#39;insegnerò. Rammentate che non siete che una giovine; che le sue dichirazioni son monete che non han corso; che voi valete più di esse, o, per seguire il corso d&#39;una meschina allusione, io vi <em>protesto</em> che facendo ingiuria a voi mi rendereste insensato.</p>
+</div><div class="sp " data-who="ophelia">
+  <p class="spk ">
+    Ofelia
+  </p>
+  <p class="pr " id="l156"><a class="pn " href="#l156">156</a>Mio signore, ei m&#39;ha parlato del suo amore con modi pieni d&#39;onestà.</p>
+</div><div class="sp " data-who="polonius">
+  <p class="spk ">
+    Polonio
+  </p>
+  <p class="pr " id="l157"><a class="pn " href="#l157">157</a>Modi, sì, modi, così potete chiamarli; ite, ite.</p>
+</div><div class="sp " data-who="ophelia">
+  <p class="spk ">
+    Ofelia
+  </p>
+  <p class="pr " id="l158"><a class="pn " href="#l158">158</a>Ed ha afforzati i suoi voti, signore, con tutte le invocazioni che possono indirizzarsi al Cielo.</p>
+</div><div class="sp " data-who="polonius">
+  <p class="spk ">
+    Polonio
+  </p>
+  <p class="pr " id="l159"><a class="pn " href="#l159">159</a>Appunto, reti valevoli a prender le beccaccie. So quanto il cuore, allorchè il sangue bolle, prodiga voti alla lingua; tali voti son lampi, mia figlia, che diffondono più luce che calore; in breve l&#39;una e l&#39;altro s&#39;estinguono, nè convien averli in conto di fiamma, neppure nel momento della promessa che sembrano voler compiere. Da questo istante siate più economa della vostra vergine presenza; ponete i vostri colloqui a maggior prezzo, nè vi arrendete sì facilmente alla sua volontà di favellarvi. Intorno ad Amleto dovete credere soltanto, ch&#39;egli è giovine e può allentare le sue redini, e correre con maggior libertà che a voi non ne sia concessa. In breve, Ofelia, non prestate fede ai suoi giuramenti, perocchè sono spergiuri; del colore non sono di cui sembrano; vani intercessori d&#39;inutili e profani desiderii e null&#39;altro; e sebben vestano le apparenze e assumano il linguaggio più puro e santo, questo non fanno che per meglio ingannare. Per concludere e dichiararvi il mio pensiero intero, non vuò che all&#39;avvenire abusiate più di alcun momento d&#39;ozio per isperderlo a prodigar parole e a intrattenervi col principe. Pensate a ciò, chè espressamente ve l&#39;impongo; ora rientrate.</p>
+</div><div class="sp " data-who="ophelia">
+  <p class="spk ">
+    Ofelia
+  </p>
+  <p class="pr " id="l160"><a class="pn m5" href="#l160">160</a>Obbedirò, signore.</p>
+</div><p class="sd " id="l160-sd1">(escono)</p>
+      </section>
+    
+  
+    
+      <section id="act-1-s4">
+        <h3 class="scene-head">
+          Scena IV.
+        </h3>
+        <p class="sd " id="l160-sd2">La piattaforma.</p><p class="sd " id="l160-sd3">Entrano Amleto, Orazio e Marcello.</p><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l161"><a class="pn " href="#l161">161</a>L&#39;aria punge aspramente; è assai freddo.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l162"><a class="pn " href="#l162">162</a>È vero; la brezza è acuta e penetrante.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l163"><a class="pn " href="#l163">163</a>Che ora è?</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l164"><a class="pn " href="#l164">164</a>Non ancor mezzanotte.</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l165"><a class="pn m5" href="#l165">165</a>Oh è suonata.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l166"><a class="pn " href="#l166">166</a>Non l&#39;ho intesa. In breve dunque sarà l&#39;ora in cui l&#39;ombra suol apparire. <span class="sdi">(s&#39;odono al di dentro squilli di tromba e una salva d&#39;artiglieria)</span><br>Che significa ciò, signore?</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l167"><a class="pn " href="#l167">167</a>Il re passa la notte in orgie, e a ciò accennano questi strumenti; ogni volta ch&#39;ei tracanna flutti di Reno, i timballi e le trombe suonano ed acclamano la rigogliosa salute di Sua Maestà.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l168"><a class="pn " href="#l168">168</a>È tale il costume?</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l169"><a class="pn " href="#l169">169</a>Sì, in verità, è tale; ma, secondo me, quantunque nato io sia in questo paese ed educato fra le sue usanze, è questo un costume che sarebbe più onorevole di infrangere che di seguire. Codesta crapula che abbrustisce l&#39;uomo, ci fa notare e disprezzare dalle altre nazioni, dall&#39;oriente all&#39;occidente, che ne tassano di scostumatezza e ne assomigliano a maiali. Un tal rimprovero scema il pregio delle nostre virtù, per quanto grandi siano, e oscura lo splendore del nostro nome. E ciò che accade anche agli uomini, che per qualche vizio, per qualche macchia in essi naturale, come quella della nascita di cui non si può far loro un debito, avvegnachè la nascita sceglier non possa la propria origine; per qualche difetto sopravvenuto col tempo nel loro carattere, e che forzato avrà i limiti della ragione, o per qualche abito che s&#39;allontana di troppo dalla forma ricevuta degli antichi costumi; perchè portano l&#39;impronta d&#39;un vizio unico contratto fin dal loro nascere, o impresso come segno accidentale dalla fortuna, malgrado tutte le loro altre virtù fossero così belle come la è la grazia del Cielo, così estese quanto un uomo può possederle, vanno soggetti alla censura pubblica per quall&#39;unica e sciagurata imperfezione.</p>
+</div><p class="sd " id="l169-sd1">(entra lo Spettro)</p><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l170"><a class="pn m5" href="#l170">170</a>Guardate, signore, esso viene!</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l171"><a class="pn " href="#l171">171</a>Angeli e Ministri di grazia, difendeteci! Sii tu uno spirito benefico o uno spettro infernale, esalino intorno a te profumi celesti o vapori d&#39;inferno; siano i disegni tuoi malvagi o pii, tu vieni sotto forma sì sacra per me, ch&#39;io vuò parlarti!...Amleto ti chiamerò, re, padre, monarca danese. Oh rispondimi! Non far che il mio cuore si franga d&#39;impazienza. Dimmi perchè le venerande tue ossa, sepolte nella terra, squarciarono il loro funebre lenzuolo? Perchè la tomba, dove pacificamente ti vedemmo deposto, sollevò il peso de&#39;suoi marmi massicci per rigettarti nel turbine di questo mondo? Qual può essere l&#39;oggetto di siffatto prodigio, che tu, corpo trapassato, di nuovo rivestito di ferro, rivegga ancora il pallido raggio della luna doppiando l&#39;orrore della notte? E noi, trastulli di natura, perchè siam noi per te commossi da si orrenda agitazione, e contristati da pensieri che avanzano la latitudine delle nostre anime? Dì, perchè ciò? A quale oggetto? Che dobbiam fare?</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l172"><a class="pn " href="#l172">172</a>Ei vi accenna di seguirlo come se avesse qualche segreto da comunicare a voi solo.</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l173"><a class="pn " href="#l173">173</a>Vedete come col gesto vi incalza e vi invita in disparte: ah! Non andate con lui.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l174"><a class="pn " href="#l174">174</a>No, non andate.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l175"><a class="pn m5" href="#l175">175</a>Non vuole rispondere, onde lo seguirò.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l176"><a class="pn " href="#l176">176</a>Nol fate, signore.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l177"><a class="pn " href="#l177">177</a>Perchè? Qual timore me lo impedirebbe? Non do alla mia vita il prezzo d&#39;un obolo, e alla mia anima qual male potrà venire essendo immortale come lui? Ei m&#39;accenna e mi invita...Lo seguirò.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l178"><a class="pn " href="#l178">178</a>Che! S&#39;ei vi trascina verso il mare, signore, o sulla cima spaventosa della montagna che sporge sui flutti, e là, prendendo qualch&#39;altra forma orribile, vi priva della ragione, e immerge gli spiriti vostri nel caos? Pensateci; il luogo solo, senza altra cagione, ispira il delirio della disperazione in una testa, la di cui vista, attraversando tanti stadii, s&#39;inabissa nelle profondità del mare che mugge al disotto.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l179"><a class="pn " href="#l179">179</a>Ei continua ad accernnarmi...Avanzati; ti seguirò.</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l180"><a class="pn m5" href="#l180">180</a>No, non v&#39;andrete, principe.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l181"><a class="pn " href="#l181">181</a>Lasciatemi.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l182"><a class="pn " href="#l182">182</a>Restate; nol seguite.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l183"><a class="pn " href="#l183">183</a>Il destino mi chiama e rende ogni più piccola fibra del mio corpo robusta come i muscoli d&#39;un lione. Ei continua a chiamarmi...Lasciatemi, signori... Pel Cielo! Diverrò uno spettro per quello che vorrà fermarmi... Va, dico, va, ti seguirò.</p>
+</div><p class="sd " id="l183-sd1">(escono lo Spettro e Amleto)</p><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l184"><a class="pn " href="#l184">184</a>La sua imaginazione l&#39;ha renduto disperato.</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l185"><a class="pn m5" href="#l185">185</a>Seguiamolo; non dobbiamo abbedirgli in questo.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l186"><a class="pn " href="#l186">186</a>Andiamo. A che riescirà tutto ciò?</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l187"><a class="pn " href="#l187">187</a>V&#39;è qualche molla corrotta nello Stato di Danimarca.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l188"><a class="pn " href="#l188">188</a>Il Cielo lo guiderà.</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l189"><a class="pn " href="#l189">189</a>Seguiamolo dappresso.</p>
+</div><p class="sd " id="l189-sd1">(escono)</p>
+      </section>
+    
+  
+    
+      <section id="act-1-s5">
+        <h3 class="scene-head">
+          Scena V
+        </h3>
+        <p class="sd " id="l189-sd2">Una parte remota della fortezza.</p><p class="sd " id="l189-sd3">Rientra lo Spettro e Amleto.</p><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l190"><a class="pn m5" href="#l190">190</a>Dove vuoi condurmi? Parla; non verrò più lungi.</p>
+</div><div class="sp " data-who="ghost">
+  <p class="spk ">
+    Spettro
+  </p>
+  <p class="pr " id="l191"><a class="pn " href="#l191">191</a>Guardami.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l192"><a class="pn " href="#l192">192</a>Ti veggo.</p>
+</div><div class="sp " data-who="ghost">
+  <p class="spk ">
+    Spettro
+  </p>
+  <p class="pr " id="l193"><a class="pn " href="#l193">193</a>L&#39;ora è quasi venuta, in cui conviene ch&#39;io piombi fra fiamme di zolfo divoratrici.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l194"><a class="pn " href="#l194">194</a>Oimè, povera anima!</p>
+</div><div class="sp " data-who="ghost">
+  <p class="spk ">
+    Spettro
+  </p>
+  <p class="pr " id="l195"><a class="pn m5" href="#l195">195</a>Non commiserarmi, ma porgi attento ascolto a ciò che ti dirò.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l196"><a class="pn " href="#l196">196</a>Parla, tenuto sono ad udirti.</p>
+</div><div class="sp " data-who="ghost">
+  <p class="spk ">
+    Spettro
+  </p>
+  <p class="pr " id="l197"><a class="pn " href="#l197">197</a>Tenuto del pari sarai alla vendetta quando m&#39;avrai ascoltato.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l198"><a class="pn " href="#l198">198</a>Che?</p>
+</div><div class="sp " data-who="ghost">
+  <p class="spk ">
+    Spettro
+  </p>
+  <p class="pr " id="l199"><a class="pn " href="#l199">199</a>Io sono l&#39;anima di tuo padre, condannata per un tempo fisso ad errar la notte, e ad essere imprigionata il giorno fra fiamme, finché le impure colpe, che lordarono i miei dì nella vita mortale, consumate non siano e deterse dal fuoco. Oh! Se vietato non mi fosse di rivelarti i segreti del luogo della mia prigione, potrei farti un racconto, di cui ogni parola sconvolgerebbe la tua anima, agghiaccierebbe il tuo giovine sangue, farebbe scintillar gli occhi tuoi come due stelle; e la tua chioma, che que&#39;nodi tengono costretta, si separerebbe rendendo ogni tuo capello irto al pari di uno spino! Ma quegli eterni misteri non son fatti per orecchie di carne e sangue! Ascolta, ascolta, oh ascolta!...Se mai tu amastiu il tuo tenero padre...</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l200"><a class="pn m5" href="#l200">200</a>Oh Cielo!</p>
+</div><div class="sp " data-who="ghost">
+  <p class="spk ">
+    Spettro
+  </p>
+  <p class="pr " id="l201"><a class="pn " href="#l201">201</a>Vendica il suo crudele, snaturato assassinio.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l202"><a class="pn " href="#l202">202</a>Assassinio?</p>
+</div><div class="sp " data-who="ghost">
+  <p class="spk ">
+    Spettro
+  </p>
+  <p class="pr " id="l203"><a class="pn " href="#l203">203</a>Assassinio orribile, inaudito, feroce!</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l204"><a class="pn " href="#l204">204</a>Affrettati a palesarmelo, onde con ali rapide, quanto il concepimento, o i pensieri dell&#39;amore, io possa volare alla vendetta.</p>
+</div><div class="sp " data-who="ghost">
+  <p class="spk ">
+    Spettro
+  </p>
+  <p class="pr " id="l205"><a class="pn m5" href="#l205">205</a>Parato ti trovo alle opere; ma fossi anche di natura si insensibile come lo è la pianta che putridisce sulle rive dello Stige, rimarresti commosso da quel ch&#39;io ti dirò. Ascoltami, Amleto. È corsa voce che dormendo nel mio giardino un serpe mi pungesse. Le orecchie dei Danesi sono indegnamente schernite da questa favola. Sappi, nobile giovine, che il serpe che tolse la vita a tuo padre, ne porta oggi la corona!</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l206"><a class="pn " href="#l206">206</a>Oh mia profetica anima!... Mio zio!</p>
+</div><div class="sp " data-who="ghost">
+  <p class="spk ">
+    Spettro
+  </p>
+  <p class="pr " id="l207"><a class="pn " href="#l207">207</a>Sì, quell&#39;incestuoso, quel mostro adultero, col prestigio infernale del suo spirito, e con doni traditori (oh spirito e doni nefandi che avete così potenza di sedurre!) seppe cattivarsi alla sua infame passione il cuore della mia adorata regina, di cui tutti i sembianti esterni mostravano la virtù. Ah Amleto, in quale abisso ella cadde allora, da me, il cui puro amore era sempre stato fedele al voto profferito nell&#39;ora dell&#39;imeneo, fino all&#39;iniquo, le cui doti eran nulle accanto alle mie! Però in quella guisa che la virtù non soccomberebbe mai, quand&#39;anche la lascivia venisse a tentarla con forme celesti; così la libidine, accoppiata foss&#39;ella a un angelo splendente di bellezza, profanerebbe la sua divina dimora e si cuoprirebbe di obbrobrio. Ma è mi pare sentir già l&#39;aria del mattino...Abbreviamo il colloquio. Addormentato nel mio giardino (era mio costume giornaliero), fra pacifico sonno tuo zio mi sorprese, munito d&#39;una fiala di veleno ch&#39;ei mi versò in un orecchio. Quel liquore è si nemico dell&#39;uomo, che, sottile come l&#39;argento vivo, corre e s&#39;insinua per tutti i canali, per tutte le vene del corpo, e con attiva operosità condensa e agghiaccia il sangue più puro e più scorrevole. Fu così ch&#39;egli assiderò il mio; così ch&#39;io venni dormendo spogliato dalla mano di un fratello della vita, della corona, della mia sposa, e tolto dal mondo nella pienezza de&#39;miei peccati, senza la grazia del Cielo; senza gli ultimi soccorsi della religione; senza le preghiere implorate dalla squilla dei moribondi; senza conto reso al Giudice Supremo; e al di Lui cospetto io mi trovai con tutti i miei falli cumulati sulla mia testa! Oh orribile, orribile, fieramente orribile! Se il sentimento della natura in te vive, non patirlo: il real letto della Danimarca non divenga quello dell&#39;impurità e dell&#39;incesto. Ma in qualunque modo tu voglia a ciò addivenire, non lordare il tuo cuore, non ordir nulla contro la madre tua!...Abbandonala al Cielo; lascia alle pungenti spine, che s&#39;ascondono nel di lei seno, la cura di punirla!...Addio. Il lucido verme m&#39;annunzia che il mattino è vicino, e lo splendor de&#39;suoi fuochi comincia a impallidire. Addio, addio, addio! Ricordati di me!</p>
+</div><p class="sd " id="l207-sd1">(scomparisce)</p><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l208"><a class="pn " href="#l208">208</a>Oh voi tutte, legioni dei cieli! Oh terra!...Chi accoppierò vosco?...L&#39;inferno?...Anima mia, raffrenati... E voi, muscoli del mio corpo, non invecchiate in questo istante; francheggiatemi e sostenete il mio peso sopra la terra. Ricordami di te! Sì, ombra adorata, finchè esisterà memoria in questo reo mondo. Ricordami di te!Sì, e dal deposito della mia mente cancellerò tutte quelle frivole e insensate ricordanze, tutte le sentenze de&#39;libri, tutti i vestigi e le impressioni del passato, che la gioventù e la meditazione vi aveano scolpite; e il tuo comando solo sopravvivrà nel registro de&#39;miei pensieri, puro e intemerato d&#39;ogni altra vile mistura. Sì, il Cielo ne attesto! Oh donna colpevole! Scellerato, ipocrita e perverso scellerato! Le mie carte... Ben è ch&#39;io vi scriva, che un uomo può piaggiare, sorridere, ed essere un malandrino. Almeno un tal uomo <span class="sdi">(scrivendo)</span> può trovarsi in Danimarca...Buon zio, tu stai qui. Ora la mia parola sarà &quot;addio, ricordati di me&quot;. L&#39;ho giurato.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l209"><a class="pn " href="#l209">209</a><span class="sdi">(dal di dentro)</span> Signore, signore...</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l210"><a class="pn m5" href="#l210">210</a><span class="sdi">(egualmente)</span> Principe Amleto...</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l211"><a class="pn " href="#l211">211</a>Lo protegga il Cielo!</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l212"><a class="pn " href="#l212">212</a>Il Cielo lo protegga!</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l213"><a class="pn " href="#l213">213</a>Così sia!</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l214"><a class="pn " href="#l214">214</a>Principe, principe!</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l215"><a class="pn m5" href="#l215">215</a>Vieni, amico, vieni</p>
+</div><p class="sd " id="l215-sd1">(entrano Orazio e Marcello)</p><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l216"><a class="pn " href="#l216">216</a>Ebbene, mio nobile Signore?</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l217"><a class="pn " href="#l217">217</a>Signore, quali novelle?</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l218"><a class="pn " href="#l218">218</a>Ah le più strane!</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l219"><a class="pn " href="#l219">219</a>Degno Principe; diteci...</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l220"><a class="pn m5" href="#l220">220</a>No; le rivelereste.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l221"><a class="pn " href="#l221">221</a>Non io, signore, pel Cielo!</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l222"><a class="pn " href="#l222">222</a>Nè io, mio principe.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l223"><a class="pn " href="#l223">223</a>Come dite voi dunque che il cuor dell&#39;uomo avesse potuto pensarlo?...Ma sarete segreti?...</p>
+</div><div class="sp " data-who="horatio marcellus">
+  <p class="spk ">
+    Orazio e Marcello
+  </p>
+  <p class="pr " id="l224"><a class="pn " href="#l224">224</a>Sì, pel Cielo, signore.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l225"><a class="pn m5" href="#l225">225</a>Non fu mai scellerato in tutta la Danimarca...Che malvagio non fosse.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l226"><a class="pn " href="#l226">226</a>Non occorreva, principe, che uno spettro sorgesse dal sepolcro per dirne ciò.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l227"><a class="pn " href="#l227">227</a>Avete ragione, avete ragione, e senza entrare in altri particolari, credo conveniente che ci diam la mano e ci separiamo, voi, per irvene dove i vostri negozi e le vostre inclinazioni vi chiamano (imperocchè ognuno ha negozi e inclinazioni, quali che siano), ed io per accudire alla mia trista parte. Ora andrò a pregare.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l228"><a class="pn " href="#l228">228</a>Principe, queste sono parole scucite e senza ordine.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l229"><a class="pn " href="#l229">229</a>Duolmi che vi offendano; sinceramente; sì, dal fondo del cuore.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l230"><a class="pn m5" href="#l230">230</a>Non è in ciò offesa, signore.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l231"><a class="pn " href="#l231">231</a>Sì, per san Patrizio, vi è offesa, e grave ancora, Orazio. Intorno alla visione... Fu un&#39;ombra virtuosa; permettete che ve ne assicuri; questo posso dirvi. Pel desiderio che nutrite di saper quel che accadde fra lei e me, reprimetelo finchè potrete, e accordatemi, miei degni amici (chè amici mi siete, e uomini instrutti e guerrieri), accordatemi, dico, una debole grazia.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l232"><a class="pn " href="#l232">232</a>Qual è, signore?</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l233"><a class="pn " href="#l233">233</a>Di non rivelar mai quel che vedeste stanotte.</p>
+</div><div class="sp " data-who="horatio marcellus">
+  <p class="spk ">
+    Orazio e Marcello
+  </p>
+  <p class="pr " id="l234"><a class="pn " href="#l234">234</a>Non mai, signore.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l235"><a class="pn m5" href="#l235">235</a>Giuratelo.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l236"><a class="pn " href="#l236">236</a>In nome della fede.</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l237"><a class="pn " href="#l237">237</a>In nome dell&#39;onore, non mai, non mai.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l238"><a class="pn " href="#l238">238</a>Giuratelo sulla mia spada.</p>
+</div><div class="sp " data-who="marcellus">
+  <p class="spk ">
+    Marcello
+  </p>
+  <p class="pr " id="l239"><a class="pn " href="#l239">239</a>Abbiamo giurato.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l240"><a class="pn m5" href="#l240">240</a>Sulla mia spada, sulla mia spada.</p>
+</div><div class="sp " data-who="ghost">
+  <p class="spk ">
+    Spettro
+  </p>
+  <p class="pr " id="l241"><a class="pn " href="#l241">241</a><span class="sdi">(dal dissotto della terra con voce lugubre)</span> Giurate!</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l242"><a class="pn " href="#l242">242</a>Ah, ah, ombra! Tu ancora? Sei là, regale spirito?...L&#39;udiste dalle viscere della terra...Acconsentite a giurare.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l243"><a class="pn " href="#l243">243</a>Proponete il giuramento, signore.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l244"><a class="pn " href="#l244">244</a>Di non mai parlar di ciò che avete visto: giuratelo sulla mia spada.</p>
+</div><div class="sp " data-who="ghost">
+  <p class="spk ">
+    Spettro
+  </p>
+  <p class="pr " id="l245"><a class="pn m5" href="#l245">245</a><span class="sdi">(come prima)</span> Giurate!</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l246"><a class="pn " href="#l246">246</a><em>Hic et ubique</em>? Via, mutiam terreno. Avvicinatevi, onesti amici, e ponete la mano su questo ferro. Fate sacramento di non mai parlare di quanto intendeste.</p>
+</div><div class="sp " data-who="ghost">
+  <p class="spk ">
+    Spettro
+  </p>
+  <p class="pr " id="l247"><a class="pn " href="#l247">247</a><span class="sdi">(come prima)</span> Per la sua spada, fatene sacramento.</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l248"><a class="pn " href="#l248">248</a>Ben detto, invisibil fantasma! E puoi tu sì presto, valente minatore, forar la terra e aprirti nelle sue viscere la strada? Mutiam loco anche una volta, miei buoni amici.</p>
+</div><div class="sp " data-who="horatio">
+  <p class="spk ">
+    Orazio
+  </p>
+  <p class="pr " id="l249"><a class="pn " href="#l249">249</a>Oh luce e tenebre! Il prodigio è meraviglioso!</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l250"><a class="pn m5" href="#l250">250</a>E perciò tenetelo nascosto come uno straniero che rifuggito si fosse sotto il vostro tetto. Sonovi, Orazio, nel Cielo e nella terra più cose che non ne imaginino i sogni di vostra filosofia. Ma venite. Qui, come prima, non mai, così il Cielo vi aiuti! per quanto strana o bizzarra possa parervi la mis condotta, non mai, dico, vi sfugga... <em>noi sappiamo</em> ... <em>potremmo se volessimo</em> ... <em>se desiderio di parlare in noi fosse</em> ... o simili altre frasi dubbie che valessero a far credere che v&#39;è nota qualcosa di me. Giuratelo, e allora la grazia e la clemenza del Cielo vi soccorrano ne&#39; vostri bisogni!</p>
+</div><div class="sp " data-who="ghost">
+  <p class="spk ">
+    Spettro
+  </p>
+  <p class="pr " id="l251"><a class="pn " href="#l251">251</a><span class="sdi">(come prima)</span> Giurate!</p>
+</div><div class="sp " data-who="hamlet">
+  <p class="spk ">
+    Amleto
+  </p>
+  <p class="pr " id="l252"><a class="pn " href="#l252">252</a>Calmati, calmati, spirito fiero! Onde, onesti amici, mi accomando a voi dal fondo del cuore; e per auqnto impotente sia lo sfortunato Amleto ad attestarvi la sua affezione, Dio non vorrà che vi manchi una ricompensa. Rientriamo insieme, e sempre col dito sulle labbra, ve ne scongiuro. La natura è sconvolta...Maledizione su te, disordine!...Dovrò io essere nato per riformarti!...Venite, andiamo insieme.</p>
+</div><p class="sd " id="l252-sd1">(escono)</p>
+      </section>
+    
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  
+  <a href="act-2.html" rel="next">Atto II →</a>
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

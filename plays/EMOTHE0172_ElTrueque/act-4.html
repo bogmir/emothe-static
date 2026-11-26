@@ -1,0 +1,1416 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Act IV — El Trueque — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco"><x-es>Elenco</x-es><x-en>Cast list</x-en></a></li>
+      
+  
+    
+        <li>
+          <a href="act-1.html">
+            Act I
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html">
+            Act II
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            Act III
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-4.html" aria-current="page">
+            Act IV
+          </a>
+          <ul>
+            <li>
+              
+                  <a href="act-4.html#act-4-s1">
+                    ESCENA I
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-4.html#act-4-s2">
+                    ESCENA II
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-4.html#act-4-s3">
+                    ESCENA III
+                  </a>
+              
+            </li>
+          </ul>
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-5.html">
+            Act V
+          </a>
+          
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="ALSEMERO">
+        ALSEMERO
+      </option><option value="VERMANDERO">
+        VERMANDERO
+      </option><option value="Beatrice-Joanna">
+        BEATRIZ-JUANA
+      </option><option value="DE_FLORES">
+        DE FLORES
+      </option><option value="ALONZO_DE_PIRACQUO">
+        ALONSO DE PIRAQUO
+      </option><option value="TOMAZO_DE_PIRACQUO">
+        TOMÁS DE PIRAQUO
+      </option><option value="JASPERINO">
+        JASPERINO
+      </option><option value="DIAPHANTA">
+        DIAFANTA
+      </option><option value="ALIBIUS">
+        ALIBIO
+      </option><option value="LOLLIO">
+        LOLIO
+      </option><option value="ISABELLA-CHANGELING">
+        ISABEL
+      </option><option value="ANTONIO-CHANGELING">
+        ANTONIO
+      </option><option value="PEDRO-CHANGELING">
+        PEDRO
+      </option><option value="FRANCISCUS-CHANGELING">
+        FRANCISCO
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="asm" aria-label="Resaltar apartes" data-en-aria-label="Highlight asides" data-tr>
+        <x-es>Apartes</x-es><x-en>Asides</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .aparte, .text .pr.as, .text .pr:not(.as) span.as" data-for="asm">
+  <button type="button" data-step="-1" aria-label="Aparte anterior" data-en-aria-label="Previous aside" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente aparte" data-en-aria-label="Next aside" data-tr>›</button>
+</div>
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">Thomas Middleton</p>
+  <h1><a href="index.html">El Trueque</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-3.html" rel="prev">← Act III</a>
+  <a href="act-5.html" rel="next">Act V →</a>
+</nav>
+  <div class="text" lang="es" data-cite="Thomas Middleton, El Trueque, Act IV" data-cite-verse="v." data-cite-prose="l.">
+    
+    <section class="division" id="act-4">
+  
+  
+  
+  
+    
+      <section id="act-4-s1">
+        <h3 class="scene-head">
+          ESCENA I
+        </h3>
+        <p class="sd " id="l22-sd1">(Escena muda en una iglesia del castillo de Alicante.)</p><p class="sd " id="l22-sd2">(Entran CABALLEROS, VERMANDERO se reúne con ellos y muestra signos de sorpresa por la desaparición de Piracquo. Entran ALSEMERO y JASPERINO, con NOBLES. Vermandero señala a Alsemero y los caballeros asienten. Salen en procesión Alsemero, Jasperino y caballeros. BEATRIZ-JUANA, la novia, les sigue con gran boato acompañada por DIAFANTA y otras MUJERES. DE FLORES va al final, sonriendo. El FANTASMA DE ALONSO se le aparece por sorpresa a De Flores y le enseña la mano a la que le falta un dedo. Toda la comitiva pasa de un extremo a otro con gran solemnidad.)</p><p class="sd " id="l22-sd3">(Entra BEATRIZ-JUANA.)</p><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p1">Ese tipo me ha deshecho para siempre. Jamás hubo novia tan temerosa y desolada. Cuanto más pienso en esta noche, y en quien me va a cubrir entre abrazos, tan noble de sangre y espíritu, tan inteligente - esa es ahora mi maldición - ante cuyo buen juicio mi engaño quedará tan evidente e imposible de ocultar, como los crímenes de los malhechores ante el tribunal, más me hundo en la desolación. ¿Cómo un hombre tan sabio no va a descubrir mi desgracia? No puedo meterme en su cama, haga lo que haga, sin sentir una vergüenza que crecerá hasta tornarse peligrosa. Podría estrangularme mientras yazgo a su lado con toda justicia, por timadora. Es un riesgo jugar con dados falsos ante un contrincante tan astuto. Este es su estudio, y se ha dejado la llave puesta. Está paseando por el parque, seguro que se le olvidó. Me atreveré a mirar. <span class="sdi">(Abre el estudio.)</span> ¡Dios me bendiga! Parece el estudio de un médico, rodeado de frascos etiquetados. Seguro que estudia medicina para su propia protección, el mejor uso para el conocimiento de un gran hombre. ¿Qué manuscrito es este? “El libro de los experimentos, conocido como los secretos de la naturaleza”. Eso es, es eso. “Cómo saber si una mujer espera un hijo”. ¡Espero que no! ¡Como lo intente! Veamos: folio cuarenta y cinco. Aquí está. Tiene la punta de la hoja plegada. ¡Qué sospechoso! “Si queréis saber si una mujer espera un hijo, dadle dos cucharadas del frasco H! ¿Dónde está el frasco H? ¡Ah! Ahí. Ya lo veo. “Si espera un hijo se quedará dormida doce horas seguidas; si no, no.” ¡Este líquido no entrará en mi vientre! ¡Sabré distinguirte entre cien! Podría romperte o transformarte en leche y engañar al inventor del secreto, pero me conformo con tenerte echado el ojo. ¡Uff! ¡Este es diez veces peor! “Como saber si una mujer es doncella.” ¿Si me hacen esta prueba, qué será de mí? Él confía totalmente en mi pureza, aunque no le he dado fe de ella todavía. Aquí pone: “Un divertido y ligero experimento de Antonio Mizaldo. Dadle a la sospechosa una cucharada del frasco D, y si es doncella tendrá tres reacciones: primero quedará boquiabierta, después empezará a estornudar, y por último reirá incontrolablemente. En caso contrario, se mostrará sosa, torpe y apesadumbrada. ¿Que habría sido de mí si no lo llego a encontrar? Tengo miedo, faltan siete horas para meterse en la cama.</p>
+</div><p class="sd " id="l22-sd4">(Entra DIAFANTA.)</p><div class="sp " data-who="DIAPHANTA">
+  <p class="spk ">
+    DIAFANTA
+  </p>
+  <p class="pr " id="l22-p2">¡Dios! ¿Señora, estáis ahí?</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p3"><span class="sdi">(Aparte.)</span> <span class="as">Ahora que veo a esta mozuela, me viene un truco a la cabeza. Todo se compra con oro, salvo las muy buenas piezas.</span> <span class="sdi">(A Diafanta.)</span> Ya voy, mozuela, a buscar a mi señor.</p>
+</div><div class="sp " data-who="DIAPHANTA">
+  <p class="spk ">
+    DIAFANTA
+  </p>
+  <p class="pr " id="l22-p4"><span class="sdi">(Aparte.)</span> <span class="as">¡Ojalá tuviera derecho a buscarlo yo también!</span> <span class="sdi">(A Beatriz.)</span> Pues está en el parque, señora.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p5">Allí está bien</p>
+</div><div class="sp " data-who="DIAPHANTA">
+  <p class="spk ">
+    DIAFANTA
+  </p>
+  <p class="pr " id="l22-p6">Dejadle que recorra parques y bosques como hacen los grandes soldados. A la hora de comer siempre encuentran algún pequeño hueco donde meterse. Hasta Alejandro el conquistador, a quien el mundo se le quedaba pequeño, encontró su agujero.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p7">No tienes ningún pudor, Diafanta.</p>
+</div><div class="sp " data-who="DIAPHANTA">
+  <p class="spk ">
+    DIAFANTA
+  </p>
+  <p class="pr " id="l22-p8">No queréis que se sepa lo que pensáis, señora. Es costumbre de la novia, cuando se acerca la hora de acostarse, hablar de sus alegrías como si no fueran con ella.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p9">¿Alegrías? Dirás miedos.</p>
+</div><div class="sp " data-who="DIAPHANTA">
+  <p class="spk ">
+    DIAFANTA
+  </p>
+  <p class="pr " id="l22-p10">¿Miedos, de qué?</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p11">¿Sois doncella y le habláis a una doncella? ¿No le dais importancia a un asunto tan embarazoso? ¡Maldito sea vuestro corazón!</p>
+</div><div class="sp " data-who="DIAPHANTA">
+  <p class="spk ">
+    DIAFANTA
+  </p>
+  <p class="pr " id="l22-p12">¿Habláis de veras?</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p13">Pues si hubiera pensado antes en el miedo que iba a tener, preferiría no conocer hombre.</p>
+</div><div class="sp " data-who="DIAPHANTA">
+  <p class="spk ">
+    DIAFANTA
+  </p>
+  <p class="pr " id="l22-p14">¿Es posible?</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p15">Le daré mil ducados a la mujer que pruebe lo que a mí me da pavor para que me cuente la verdad. Y mañana, cuando haya pasado por ello, si le gustó quizás me atreva.</p>
+</div><div class="sp " data-who="DIAPHANTA">
+  <p class="spk ">
+    DIAFANTA
+  </p>
+  <p class="pr " id="l22-p16">¿Lo decís de verdad?</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p17">Consigue primero a la mujer y después encárate conmigo a ver si me echo atrás. Pero, por cierto, insisto en que debe ser doncella de verdad o no hay trato, pues no tendría los mismos miedos que yo.</p>
+</div><div class="sp " data-who="DIAPHANTA">
+  <p class="spk ">
+    DIAFANTA
+  </p>
+  <p class="pr " id="l22-p18">La que yo ponga en vuestra manos será doncella, señora.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p19">Sino sería mi vergüenza, pues yacerá en mi lugar.</p>
+</div><div class="sp " data-who="DIAPHANTA">
+  <p class="spk ">
+    DIAFANTA
+  </p>
+  <p class="pr " id="l22-p20">¡Qué capricho más raro! ¿Todavía vais en serio? ¿Sois capaz de perderos vuestra primera noche de placer, y encima pagar por ello?</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p21">Tan deseosa como viva que estoy. <span class="sdi">(Aparte.)</span> <span class="as">El oro es secundario comparado con la reputación.</span></p>
+</div><div class="sp " data-who="DIAPHANTA">
+  <p class="spk ">
+    DIAFANTA
+  </p>
+  <p class="pr " id="l22-p22">Yo no sé como está el mundo en cuanto a la fidelidad y el honor que este asunto necesita, pero señora, en cuanto a lo que habéis dicho, no le deis más vueltas. Yo estoy dispuesta a ganarme vuestro dinero.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p23">Me temo que sois muy lanzada para ser aún doncella.</p>
+</div><div class="sp " data-who="DIAPHANTA">
+  <p class="spk ">
+    DIAFANTA
+  </p>
+  <p class="pr " id="l22-p24">¡Cómo! ¡Que no soy doncella! ¡Me insultáis, señora! Vuestra persona es tan sincera con vuestros miedos...</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr as" id="l22-p25"><span class="sdi">(Aparte.)</span> Mal asunto.</p>
+</div><div class="sp " data-who="DIAPHANTA">
+  <p class="spk ">
+    DIAFANTA
+  </p>
+  <p class="pr " id="l22-p26">... como yo con mis chascarrillos ligeros.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p27">Me alegra oír eso. ¿Te atreverías entonces a hacer pasar tu honestidad por una sencilla prueba?</p>
+</div><div class="sp " data-who="DIAPHANTA">
+  <p class="spk ">
+    DIAFANTA
+  </p>
+  <p class="pr " id="l22-p28">¿Sencilla? Lo que sea.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p29">Pues iré directa al grano.</p>
+</div><p class="sd " id="l22-sd5">(Se va al estudio.)</p><div class="sp " data-who="DIAPHANTA">
+  <p class="spk ">
+    DIAFANTA
+  </p>
+  <p class="pr as" id="l22-p30"><span class="sdi">(Aparte.)</span> ¿No me irá a hurgar como la comadrona de un jurado?</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p31">El frasco D; este es. Mira, Diafanta, harás lo mismo que yo.</p>
+</div><p class="sd " id="l22-sd6">(Lo bebe.)</p><div class="sp " data-who="DIAPHANTA">
+  <p class="spk ">
+    DIAFANTA
+  </p>
+  <p class="pr " id="l22-p32">Y lo haré sin preguntar qué es. Lo tomaré.</p>
+</div><p class="sd " id="l22-sd7">(Lo bebe.)</p><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p33"><span class="sdi">(Aparte.)</span> <span class="as">Si el experimento fuera cierto, sería digno de alabanza y yo quedaría tranquila. ¡Ya empieza!</span> <span class="sdi">(Diafanta queda boquiabierta.)</span> ¡El primer síntoma, y pasa al segundo a toda prisa! <span class="sdi">(Diafanta estornuda.)</span> ¡Qué prueba más admirable! Y a mí, que debería ser quien la pasara, ni me inmuta.</p>
+</div><div class="sp " data-who="DIAPHANTA">
+  <p class="spk ">
+    DIAFANTA
+  </p>
+  <p class="pr " id="l22-p34">¡Ja, ja, ja!</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p35">Todo, y en el mismo orden específico. Un síntoma da paso al siguiente.</p>
+</div><div class="sp " data-who="DIAPHANTA">
+  <p class="spk ">
+    DIAFANTA
+  </p>
+  <p class="pr " id="l22-p36">¡Ja, ja, ja!</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p37">¿Qué sucede, mozuela?</p>
+</div><div class="sp " data-who="DIAPHANTA">
+  <p class="spk ">
+    DIAFANTA
+  </p>
+  <p class="pr " id="l22-p38">¡Ja, ja, ja! ¡Siento una tranquilidad de corazón! ¡Ja, ja! ¡Una alegría! ¡Dejadme echarle otro tiento, señora!</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p39">Mañana tendremos tiempo para sentarnos a disfrutar.</p>
+</div><div class="sp " data-who="DIAPHANTA">
+  <p class="spk ">
+    DIAFANTA
+  </p>
+  <p class="pr " id="l22-p40">Ahora me pongo triste.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p41"><span class="sdi">(Aparte.)</span> <span class="as">¡Con qué suavidad termina el efecto!</span> <span class="sdi">(A Diafanta.)</span> Ven, mozuela, o mi muy honesta Diafanta, como me atrevo a llamarte ahora.</p>
+</div><div class="sp " data-who="DIAPHANTA">
+  <p class="spk ">
+    DIAFANTA
+  </p>
+  <p class="pr " id="l22-p42">Os lo ruego, decidme, señora, ¿qué nombre le dais a esta treta?</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p43">Te lo contaré todo después. Debemos estudiar el asunto que llevamos entre manos.</p>
+</div><div class="sp " data-who="DIAPHANTA">
+  <p class="spk ">
+    DIAFANTA
+  </p>
+  <p class="pr " id="l22-p44">Yo lo llevaré bien, porque me gusta la carga.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p45">A medianoche no olvides venir sigilosamente mientras yo abandono el lugar.</p>
+</div><div class="sp " data-who="DIAPHANTA">
+  <p class="spk ">
+    DIAFANTA
+  </p>
+  <p class="pr " id="l22-p46">No temáis, señora. Llegaré a buena hora. <span class="sdi">(Aparte.)</span> <span class="as">¡Ocupo el lugar de la novia y, encima, con mil ducados! Ahora podré aspirar más alto. Con una buena dote, despreciaré a los pequeños ignorantes.</span></p>
+</div><p class="sd " id="l22-sd8">(Salen.)</p>
+      </section>
+    
+  
+    
+      <section id="act-4-s2">
+        <h3 class="scene-head">
+          ESCENA II
+        </h3>
+        <p class="sd " id="l22-sd9">(Entran VERMANDERO y CRIADO.)</p><div class="sp " data-who="VERMANDERO">
+  <p class="spk ">
+    VERMANDERO
+  </p>
+  <p class="pr " id="l22-p47">Te digo, bribón, que mi honor, hasta ahora libre de toda sospecha por no haber motivo para ella, ha sido cuestionado. Una acusación de asesinato llama a las puertas de mi castillo, el asesinato de Piraquo. ¿Qué caballeros míos están ausentes?</p>
+</div><div class="sp " data-who="SERVANT-CHANGELING">
+  <p class="spk ">
+    CRIADO
+  </p>
+  <p class="pr " id="l22-p48">Antonio, señor, y Francisco.</p>
+</div><div class="sp " data-who="VERMANDERO">
+  <p class="spk ">
+    VERMANDERO
+  </p>
+  <p class="pr " id="l22-p49">¿Cuándo se marcharon del castillo?</p>
+</div><div class="sp " data-who="SERVANT-CHANGELING">
+  <p class="spk ">
+    CRIADO
+  </p>
+  <p class="pr " id="l22-p50">Hace diez días, señor. Uno hacia Briamata, el otro hacia Valencia.</p>
+</div><div class="sp " data-who="VERMANDERO">
+  <p class="spk ">
+    VERMANDERO
+  </p>
+  <p class="pr " id="l22-p51">El tiempo que ha pasado les acusa. No puedo dar fe de su ausencia. Una orden de arresto inmediato les perseguirá. He de borrar el estigma o descubrirlo abiertamente. Traedme pruebas aladas con ese propósito.</p>
+</div><p class="sd " id="l22-sd10">(Sale criado.) Ya lo veo venir, se me vuelve a atosigar.</p><p class="sd " id="l22-sd11">(Entra TOMÁS.)</p><div class="sp " data-who="TOMAZO_DE_PIRACQUO">
+  <p class="spk ">
+    TOMÁS
+  </p>
+  <p class="pr " id="l22-p52">Os reclamo un hermano.</p>
+</div><div class="sp " data-who="VERMANDERO">
+  <p class="spk ">
+    VERMANDERO
+  </p>
+  <p class="pr " id="l22-p53">Estáis muy caliente. No le busquéis aquí.</p>
+</div><div class="sp " data-who="TOMAZO_DE_PIRACQUO">
+  <p class="spk ">
+    TOMÁS
+  </p>
+  <p class="pr " id="l22-p54">¡Sí le busco, entre la más querida sangre de vuestra sangre! Si mi tranquilidad no encuentra mayor satisfacción, aquí se me rendirán cuentas por él, pues aquí le dejé, y la premura de esta boda arrebatada da crudo testimonio de su certera destrucción.</p>
+</div><div class="sp " data-who="VERMANDERO">
+  <p class="spk ">
+    VERMANDERO
+  </p>
+  <p class="pr " id="l22-p55">¡Certera falsedad! La pérdida de su lealtad tiznó mi humillado amor, el honesto amor que le tenía reservado, y burló la felicidad de mi hija. Aquella mañana de preparativos amaneció sonrojada ante su infidelidad. Nos dejó su desprecio y escarnio, arrojado sobre los dolidos amigos que creían en él. ¡Qué innoble, volar inesperadamente de aquí y agraviar a cuantos le querían!</p>
+</div><div class="sp " data-who="TOMAZO_DE_PIRACQUO">
+  <p class="spk ">
+    TOMÁS
+  </p>
+  <p class="pr " id="l22-p56">¿Es esa toda vuestra respuesta?</p>
+</div><div class="sp " data-who="VERMANDERO">
+  <p class="spk ">
+    VERMANDERO
+  </p>
+  <p class="pr " id="l22-p57">Demasiado bondadosa para alguien de su ralea. Y os advierto que no se os quiere ver más por aquí.</p>
+</div><p class="sd " id="l22-sd12">(Sale.)</p><p class="sd " id="l22-sd13">(Entra DE FLORES.)</p><div class="sp " data-who="TOMAZO_DE_PIRACQUO">
+  <p class="spk ">
+    TOMÁS
+  </p>
+  <p class="pr " id="l22-p58">¡Bien está que haya muchas maneras de tomarse venganza! ¡Honesto De Flores!</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l22-p59">Ese es mi nombre. ¿Habéis visto a la novia? Dulce señor, ¿qué camino ha tomado?</p>
+</div><div class="sp " data-who="TOMAZO_DE_PIRACQUO">
+  <p class="spk ">
+    TOMÁS
+  </p>
+  <p class="pr " id="l22-p60">¡Dios bendiga mis ojos para no ver a alguien tan falsa!</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr as" id="l22-p61"><span class="sdi">(Aparte.)</span> Mejor me marcho, este hombre no me es grata compañía. Cuanto más me acerco a él, más huelo la sangre de su hermano.</p>
+</div><div class="sp " data-who="TOMAZO_DE_PIRACQUO">
+  <p class="spk ">
+    TOMÁS
+  </p>
+  <p class="pr " id="l22-p62">Acércate, amable y sincero De Flores. Recuerdo que mi hermano bien te quería.</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l22-p63">¡De todo corazón, mi querido señor! <span class="sdi">(Aparte.)</span> <span class="as">Me siento como si le estuviera matando otra vez, de lo mucho que refresca mi memoria.</span></p>
+</div><div class="sp " data-who="TOMAZO_DE_PIRACQUO">
+  <p class="spk ">
+    TOMÁS
+  </p>
+  <p class="pr " id="l22-p64">¿Tenéis idea, compañero, pues un amigo honesto tiene instinto para la sospecha, de quién puede ser el culpable?</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l22-p65">Soy tan bondadoso, señor, que jamás pienso de nadie peor que de mí mismo. ¿No habéis visto a la novia entonces?</p>
+</div><div class="sp " data-who="TOMAZO_DE_PIRACQUO">
+  <p class="spk ">
+    TOMÁS
+  </p>
+  <p class="pr " id="l22-p66">Te ruego que no la nombres. ¿Verdad que es una malvada?</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l22-p67">No, mi señor. Una pecadora bonita, accesible y de formas redondas, como tantas otras mujeres vuestras. ¡No vayáis a creer que la estoy alabando! Pero malvadas no, señor, hasta que se hagan tan viejas que la nariz les toque la barbilla y se ganen el título de brujas. Creo que me llaman, señor. <span class="sdi">(Aparte.)</span> <span class="as">Su compañía me oprime la conciencia.</span></p>
+</div><p class="sd " id="l22-sd14">(Sale.)</p><div class="sp " data-who="TOMAZO_DE_PIRACQUO">
+  <p class="spk ">
+    TOMÁS
+  </p>
+  <p class="pr " id="l22-p68">Este De Flores es de corazón honesto. Seguro estoy de que lo sacará a la luz en su debido momento. ¡Oh! Aquí está el glorioso patrón de la fiesta de hoy. No pasará mucho tiempo hasta que nos enfrentemos. <span class="sdi">(Entra ALSEMERO.)</span><br>¡Señor!</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l22-p69">¡Sed muy bienvenido!</p>
+</div><div class="sp " data-who="TOMAZO_DE_PIRACQUO">
+  <p class="spk ">
+    TOMÁS
+  </p>
+  <p class="pr " id="l22-p70">Podéis retirar ese saludo. Ni creo que lo sea ni quiero serlo.</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l22-p71">¡Pues qué extraño que os hayáis abierto camino hasta esta casa!</p>
+</div><div class="sp " data-who="TOMAZO_DE_PIRACQUO">
+  <p class="spk ">
+    TOMÁS
+  </p>
+  <p class="pr " id="l22-p72">¡Ojalá no tuviera motivo para ello! No soy de esos que vienen a daros la enhorabuena y a beberse vuestro vino. ¡Sólo un líquido más preciado aplacará mi sed!</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l22-p73">Vos y vuestras palabras me resultáis desconocidos.</p>
+</div><div class="sp " data-who="TOMAZO_DE_PIRACQUO">
+  <p class="spk ">
+    TOMÁS
+  </p>
+  <p class="pr " id="l22-p74">Con el tiempo y nuestras espadas nos conoceremos mejor. Esta es la cuestión: yo debería tener a mi hermano ocupando vuestro lugar. He de preguntar a quien hace uso de sus derechos, seguro que injustamente, cómo la traición y la maldad han logrado librarse de él.</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l22-p75">Responderéis por esas palabras.</p>
+</div><div class="sp " data-who="TOMAZO_DE_PIRACQUO">
+  <p class="spk ">
+    TOMÁS
+  </p>
+  <p class="pr " id="l22-p76">No temáis, mi respuesta estará lista para nuestro próximo encuentro. Que vuestro día siga solemne. ¡Adiós, no os molesto más! Soportaré el dolor con paciencia por un tiempo.</p>
+</div><p class="sd " id="l22-sd15">(Sale.)</p><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l22-p77">Un conflicto así da mal fario en un día tan señalado. Mi inocencia me consuela; <span class="sdi">(Entra JASPERINO)</span><br>si no, estaría muy triste. Jasperino, tengo una noticia que darte, una extraña noticia.</p>
+</div><div class="sp " data-who="JASPERINO">
+  <p class="spk ">
+    JASPERINO
+  </p>
+  <p class="pr " id="l22-p78">Yo tengo una también, quizás tan extraña como la vuestra. Podría guardármela, para salvaguardar mi fidelidad y amistad con vos. Perdonad un poco mi celo, y permitid que me enfríe.</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l22-p79">Esto me incita a escucharte y me hace sentirme culpable de tu lentitud.</p>
+</div><div class="sp " data-who="JASPERINO">
+  <p class="spk ">
+    JASPERINO
+  </p>
+  <p class="pr " id="l22-p80">A lo mejor todo queda en nada y es sólo un temor de amigo que me asalta, señor.</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l22-p81">Seguro que todo queda en nada pero, así y todo, compartámoslo.</p>
+</div><div class="sp " data-who="JASPERINO">
+  <p class="spk ">
+    JASPERINO
+  </p>
+  <p class="pr " id="l22-p82">Fue Diafanta, mozuela a la que profeso el amor sincero que se merece, quien me dijo que me quedara en la parte trasera de la casa, lugar que elegimos para encontrarnos a solas. Marchó ella un instante y oí la voz de vuestra novia en la habitación de al lado. Y al prestar más atención, reconocí a De Flores hablando más alto que ella.</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l22-p83">¿De Flores? ¡Te equivocas!</p>
+</div><div class="sp " data-who="JASPERINO">
+  <p class="spk ">
+    JASPERINO
+  </p>
+  <p class="pr " id="l22-p84">Pronto cambiaréis de opinión.</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l22-p85">Te adelanto que su mera presencia es veneno para ella.</p>
+</div><div class="sp " data-who="JASPERINO">
+  <p class="spk ">
+    JASPERINO
+  </p>
+  <p class="pr " id="l22-p86">Yo también lo dudaba, pero Diafanta me lo confirmó a su vuelta.</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l22-p87">¡Diafanta!</p>
+</div><div class="sp " data-who="JASPERINO">
+  <p class="spk ">
+    JASPERINO
+  </p>
+  <p class="pr " id="l22-p88">Nos pusimos a escuchar los dos, y oímos palabras que reclamaban favores de una dama.</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l22-p89">¡Tranquilo, frena tu celo, pues corre peligro tu pecho!</p>
+</div><div class="sp " data-who="JASPERINO">
+  <p class="spk ">
+    JASPERINO
+  </p>
+  <p class="pr " id="l22-p90">La verdad está llena de peligros.</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l22-p91">Estas verdades lo están. ¡Oh, aunque ella fuera la única gloria de la tierra y sus ojos dispararan fuego en el pecho de los reyes, si fuera impura no dormiría aquí! Aunque la noche esté próxima, todavía me queda tiempo para descubrirlo. Y te ruego que no me juzgues por mis arrebatos.</p>
+</div><div class="sp " data-who="JASPERINO">
+  <p class="spk ">
+    JASPERINO
+  </p>
+  <p class="pr " id="l22-p92">Nunca se los he tenido en cuenta a un amigo.</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l22-p93">Bien hecho. Esta llave te conducirá a un misterio admirable. <span class="sdi">(Le da la llave.)</span> Un astrólogo me dio clases, y yo investigué también. Trae de mi estudio un frasco que lleva la letra D, y no me hagas preguntas.</p>
+</div><div class="sp " data-who="JASPERINO">
+  <p class="spk ">
+    JASPERINO
+  </p>
+  <p class="pr " id="l22-p94">¡Allá voy, señor!</p>
+</div><p class="sd " id="l22-sd16">(Sale.)</p><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l22-p95">¿Cómo encaja todo esto? No hace ni una hora que vino su criada contando los miedos de su señora, la virgen más temerosa que jamás se encogió ante un hombre, y tan pudorosa que me ha pedido entre lágrimas venir a mi lecho totalmente a oscuras.</p>
+</div><p class="sd " id="l22-sd17">(Entra BEATRIZ-JUANA.)</p><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr as" id="l22-p96"><span class="sdi">(Aparte.)</span> Todo va bien. Mi criada ya se prepara para su dulce viaje, que me entristece perderme, por necesidad imperiosa. Si no, pierdo todo lo demás.</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l22-p97"><span class="sdi">(Aparte.)</span> <span class="as">Su pudor peregrina hasta su frente, aunque no lo puedo asegurar.</span> <span class="sdi">(A ella.)</span> ¡Mi Juana!</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p98">Señor, me he atrevido a lloraros un mensaje. Disculpad mis pudorosos temores.</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l22-p99"><span class="sdi">(Aparte.)</span> <span class="as">La paloma no está dócil. La calumnian, sin duda.</span> <span class="sdi">(Entra JASPERINO con el tarro.)</span><br>¡Ah, ya habéis venido, señor!</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr as" id="l22-p100"><span class="sdi">(Aparte.)</span> ¡El tarro! ¡Por mi vida! Veo la letra.</p>
+</div><div class="sp " data-who="JASPERINO">
+  <p class="spk ">
+    JASPERINO
+  </p>
+  <p class="pr " id="l22-p101">Es la D.</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l22-p102">Lo es.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr as" id="l22-p103"><span class="sdi">(Aparte.)</span> De mi sospecha.</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l22-p104">¡Qué bien que haya venido la novia a departir con nosotros!</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p105">¿Qué es eso, mi señor?</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l22-p106">Nada que haga daño.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p107">Lo siento, mi señor, pero no suelo probar brebajes.</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l22-p108">Este lo podéis tomar bajo mi total garantía.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p109">Temo que me haga enfermar.</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l22-p110">¡Que Dios lo impida!</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr as" id="l22-p111"><span class="sdi">(Aparte.)</span> Utilizaré mi astucia. Conozco los efectos, así que puedo fingirlos.</p>
+</div><p class="sd " id="l22-sd18">(Bebe.)</p><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr as" id="l22-p112"><span class="sdi">(Aparte.)</span> Esto tiene la virtud secreta de que nunca falla... con una virgen.</p>
+</div><div class="sp " data-who="JASPERINO">
+  <p class="spk ">
+    JASPERINO
+  </p>
+  <p class="pr " id="l22-p113">¿Y tiene tres efectos?</p>
+</div><p class="sd " id="l22-sd19">(Beatriz-Juana se queda boquiabierta, luego estornuda.)</p><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l22-p114">¡Por todas las virtudes! ¡Surte efecto! ¡Funciona!</p>
+</div><div class="sp " data-who="JASPERINO">
+  <p class="spk ">
+    JASPERINO
+  </p>
+  <p class="pr " id="l22-p115">¡Qué método más raro para conocer doncella!</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p116">¡Ja, ja, ja! Me dais una alegría al corazón con la bebida, mi señor.</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l22-p117">¡No! ¡Tú sí me das una alegría al corazón que jamás se romperá!</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l22-p118">¿Qué pasa, señor?</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l22-p119"><span class="sdi">(A Jasperino.)</span> ¡Ves como ahora regresa la melancolía, siguiendo su orden metódico! <span class="sdi">(A ella.)</span> ¡Mi Juana! Casta como el aliento del cielo, o como el vientre de la mañana que alumbra un nuevo día. Mi amor, por tanto, te envuelve.</p>
+</div><p class="sd " id="l22-sd20">(La abraza. Salen.)</p>
+      </section>
+    
+  
+    
+      <section id="act-4-s3">
+        <h3 class="scene-head">
+          ESCENA III
+        </h3>
+        <p class="sd " id="l22-sd21">(Entra ISABEL con una carta y LOLIO)</p><div class="sp " data-who="ISABELLA-CHANGELING">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l22-p120">¡Cielos! ¿Hay luna creciente? ¿El amor se pone tonto y se vuelve loco a la vez? Oye, aquí hay un loco que parece tonto también, un lunático enamorado.</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l22-p121">¡No, no el que escribió la carta que traje!</p>
+</div><div class="sp " data-who="ISABELLA-CHANGELING">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l22-p122">Compara lo de dentro con lo de fuera y cuéntame.</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l22-p123">¡Por fuera está loco, ya lo sé, pues lo he probado! (Lee.) “A la reluciente Andrómeda, asistenta jefe del Caballero del Sol, bajo el signo de Escorpio, en las partes bajas de la región, enviado por quien le reparó el clarín a Eolo. Páguese al portador”. ¡Es la locura absoluta!</p>
+</div><div class="sp " data-who="ISABELLA-CHANGELING">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l22-p124">Ahora fijaos por dentro. (Coge la carta y la lee.) “Dulce señora, habiéndome quitado este engañoso disfraz de loco, me presento ante vuestro mejor juicio como un sincero y fiel enamorado de vuestra belleza.”</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l22-p125">¡Más loco aún!</p>
+</div><div class="sp " data-who="ISABELLA-CHANGELING">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l22-p126">“Si encontráis alguna falta, achacadlo a vuestra perfección, la cual me hace imperfecto. El propio sol a la vez nos ayuda a crecer y nos marchita...”</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l22-p127">¡Bribón!</p>
+</div><div class="sp " data-who="ISABELLA-CHANGELING">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l22-p128">“... forma y deforma, tira abajo y levanta. Llego a vos en invierno desprovisto de todo adorno apropiado. Pero por el dulce esplendor de vuestra alegre sonrisa florezco y vivo enamorado.”</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l22-p129">¡Loco granuja!</p>
+</div><div class="sp " data-who="ISABELLA-CHANGELING">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l22-p130">“No pisoteéis a quien rendirá honores a vuestra generosidad. Afectuosamente... loco, hasta que hable con vos, de quien espero una cura. Vuestro enamorado Francisco.”</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l22-p131">Parece que vais a tener para rato. Mi amo y yo podríamos dejarnos el trabajo, pero no creo que podáis curar a tontos y a locos con más rapidez y menor esfuerzo que nosotros</p>
+</div><div class="sp " data-who="ISABELLA-CHANGELING">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l22-p132">Probablemente no.</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l22-p133">Una cosa os diré, señora. Ya veis que conozco vuestras aptitudes. Si me entero de que abrís vuestro negocio para sanar a los enfermos, para mí la tercera parte. Me volveré loco yo también.</p>
+</div><div class="sp " data-who="ISABELLA-CHANGELING">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l22-p134">El primero serías tú, créelo, Lolio. Si yo caigo...</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l22-p135">Yo caigo encima de ti.</p>
+</div><div class="sp " data-who="ISABELLA-CHANGELING">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l22-p136">Así es.</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l22-p137">Pues esperaré de pie a que me toque.</p>
+</div><div class="sp " data-who="ISABELLA-CHANGELING">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l22-p138">Ahora quiero que me des consejo. ¿Como me las arreglo con ellos?</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l22-p139">¿Cuál es el significado de arreglarse con ellos?</p>
+</div><div class="sp " data-who="ISABELLA-CHANGELING">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l22-p140">Un significado decente. ¿Cómo les trato?</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l22-p141">¡Maltrátalos! Así se atonta a los locos y se aloca a los tontos. Y después trátalos con cariño.</p>
+</div><div class="sp " data-who="ISABELLA-CHANGELING">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l22-p142">¡Qué fácil, así lo haré! ¡Ya verás! La llave de tu armario.</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l22-p143">¡Aquí está! Preparaos para ellos, y yo os los dejaré preparados.</p>
+</div><p class="sd " id="l22-sd22">(Le da la llave.)</p><div class="sp " data-who="ISABELLA-CHANGELING">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l22-p144"><span class="sdi">(Sale.)</span> No le prestéis atención más que a la parte de fuera.</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l22-p145">Ninguna atención. Os dejo ahí metida a vuestra entera libertad.</p>
+</div><p class="sd " id="l22-sd23">(Entra ALIBIO).</p><div class="sp " data-who="ALIBIUS">
+  <p class="spk ">
+    ALIBIO
+  </p>
+  <p class="pr " id="l22-p146">¿Lolio, estás ahí? ¿Crees que saldrá todo perfecto? Mañana por la noche Vermandero nos espera para la solemne clausura.</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l22-p147">Sobre todo desconfío de los locos. A los tontos les he dedicado mucho esfuerzo y les saldrá bien.</p>
+</div><div class="sp " data-who="ALIBIUS">
+  <p class="spk ">
+    ALIBIO
+  </p>
+  <p class="pr " id="l22-p148">No pueden fallar. Cuanto más absurdo es todo, más dedicación hace falta. Así que nada de actitudes bruscas que asusten a las damas. Son muy delicadas, como sabes.</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l22-p149">¡No temáis, señor! Mientras estemos allí pendientes con nuestras vergas de toro, ellos serán tan mansos como las señoras.</p>
+</div><div class="sp " data-who="ALIBIUS">
+  <p class="spk ">
+    ALIBIO
+  </p>
+  <p class="pr " id="l22-p150">Quiero verles ensayar una vez más antes de irme.</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l22-p151">Estoy en ello, señor. Vigilad el baile folclórico de los locos y dejadme solo con los otros. No me fío de la tontería de uno o dos que hay por ahí. Les enseñaré, y después ensayarán el baile entero.</p>
+</div><div class="sp " data-who="ALIBIUS">
+  <p class="spk ">
+    ALIBIO
+  </p>
+  <p class="pr " id="l22-p152">Hacedlo. Yo veré si la música está lista. Por cierto, Lolio. ¿Cómo lleva mi mujer tanta restricción? ¿No se queja?</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l22-p153">Así, así. Le gusta estar en casa, pues si no se escaparía. Deberíais darle un poco más de cuerda. La tenéis muy corta.</p>
+</div><div class="sp " data-who="ALIBIUS">
+  <p class="spk ">
+    ALIBIO
+  </p>
+  <p class="pr " id="l22-p154">¡Que se venga al castillo de Vermandero con nosotros! Eso le valdrá por un mes de libertad.</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l22-p155">¿Qué lleváis en la cabeza, señor?</p>
+</div><div class="sp " data-who="ALIBIUS">
+  <p class="spk ">
+    ALIBIO
+  </p>
+  <p class="pr " id="l22-p156">¿Dónde, Lolio? Yo no veo nada.</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l22-p157">Os pido disculpas, señor. Es el pelo. Parecía el asta de un toro joven.</p>
+</div><div class="sp " data-who="ALIBIUS">
+  <p class="spk ">
+    ALIBIO
+  </p>
+  <p class="pr " id="l22-p158">¡Márchate, granuja! Dejaré la música lista, Lolio.</p>
+</div><p class="sd " id="l22-sd24">(Sale Alibio.)</p><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l22-p159">Hacedlo, señor, y yo la bailaré. ¿Tono, dónde estás?</p>
+</div><p class="sd " id="l22-sd25">(Entra Antonio.)</p><div class="sp " data-who="ANTONIO-CHANGELING">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l22-p160">¡Aquí, primo! ¿Dónde estás?</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l22-p161">¡Ven, Tono! Los pasos que te enseñé.</p>
+</div><div class="sp " data-who="ANTONIO-CHANGELING">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l22-p162">Prefiero cabalgar, primo.</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l22-p163">¡A que saco el látigo! ¡No te vas a salir con la tuya! ¡Ponte, presta atención, Tono! ¡Fa, la, la, la, la!</p>
+</div><p class="sd " id="l22-sd26">(Baila.)</p><div class="sp " data-who="ANTONIO-CHANGELING">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l22-p164">¡Fa, la, la, la, la!</p>
+</div><p class="sd " id="l22-sd27">(Baila.)</p><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l22-p165">Y ahora haced el honor.</p>
+</div><div class="sp " data-who="ANTONIO-CHANGELING">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l22-p166">¿Es esto un honor, primo?</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l22-p167">Sí, y complace a vuestra señoría.</p>
+</div><div class="sp " data-who="ANTONIO-CHANGELING">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l22-p168">¿El honor se agacha hasta la cintura?</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l22-p169">Así lo hace, lo más bajo posible para gente importante como los escuderos y los pequeños terratenientes, pues a ellos les costó mucho ascender. Ahora, de un salto, a bailar.</p>
+</div><div class="sp " data-who="ANTONIO-CHANGELING">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l22-p170">¿Un salto después del honor?</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l22-p171">Muy apropiado, pues qué es el honor sino un salto, ascender lo más alto y rápido posible, aguantar un palmo o dos, y volver a caer. ¿Te acuerdas de tu figura, Tono?</p>
+</div><div class="sp " data-who="ANTONIO-CHANGELING">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l22-p172">¡Sí, cuando veo tu figura me acuerdo de la mía!</p>
+</div><p class="sd " id="l22-sd28">(Entra ISABEL vestida de loca.)</p><div class="sp " data-who="ISABELLA-CHANGELING">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l22-p173">¡Hey! ¡Como pisa el aire! ¡Tch, tch, por el otro lado, o se quemará las alas! Aquí abajo hay suficiente cera, Ícaro, para aguantar las dieciocho lunas. ¡Ha ido al suelo, ha ido al suelo! ¡Qué terrible caída! ¡Levántate, hijo de Dédalo de Creta, y caminemos por el laberinto inferior. Yo te daré la pista.</p>
+</div><div class="sp " data-who="ANTONIO-CHANGELING">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l22-p174"><span class="sdi">(A Isabel.)</span> ¡Por favor, prima, déjame en paz!</p>
+</div><div class="sp " data-who="ISABELLA-CHANGELING">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l22-p175">¿No te has ahogado? Vi que llevabas alrededor de la cabeza un montón de nubes envueltas como un turbante turco. De la espalda te colgaba hasta la cadera un torcido arco-iris camaleónico como una tiara papal. ¡Déjame chuparte el mar de la barriga! ¡Escucha como ruge y retumba en el estrecho! ¡Dios te proteja de los piratas!</p>
+</div><div class="sp " data-who="ANTONIO-CHANGELING">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l22-p176">¡Que te parta un rayo! ¡Déjame en paz!</p>
+</div><div class="sp " data-who="ISABELLA-CHANGELING">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l22-p177">¿Por qué has subido tan alto como Mercurio? ¿Te han prometido que serás su sucesor? ¡Quédate en la luna conmigo, Endimión, y gobernaremos las salvajes y rebeldes olas que querían ahogar mi amor!</p>
+</div><div class="sp " data-who="ANTONIO-CHANGELING">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l22-p178">¡Te voy a dar una patada si me vuelves a tocar, payasa deforme! ¡No soy tonto, lunática!</p>
+</div><div class="sp " data-who="ISABELLA-CHANGELING">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l22-p179">Pero seguro que estáis loco, como yo. Me he puesto este disfraz de demente con un amor tan lleno de furia para engatusar al ojo diestro de la celosía vigilante. ¿Y así se me recompensa?</p>
+</div><p class="sd " id="l22-sd29">(Se quita el disfraz.)</p><div class="sp " data-who="ANTONIO-CHANGELING">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l22-p180">¡Oh! ¡Mi más querida belleza!</p>
+</div><div class="sp " data-who="ISABELLA-CHANGELING">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l22-p181">¡No! Ahora no soy ninguna belleza, ni jamás lo he sido, salvo por la ropa que llevaba puesta. ¿Enamorado a primera vista? ¡No os acerquéis a mí!</p><div class="lg ">
+  
+  <div class="l " id="l23"><a class="n " href="#l23">23</a><span class="t">Dejaos puesto el disfraz. No os sienta nada mal.</span></div><div class="l " id="l24"><a class="n " href="#l24">24</a><span class="t">Vine fingiendo estar loca, y loca estoy de verdad.</span></div>
+</div>
+</div><p class="sd " id="l24-sd1">(Sale.)</p><p class="sd " id="l24-sd2">(Entra LOLIO)</p><div class="sp " data-who="ANTONIO-CHANGELING">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l24-p1">¡Deteneos, o cambiaré de estado y me volveré loco también!</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l24-p2">¿Qué pasa, Tono? ¿Qué pasa, tonto?</p>
+</div><div class="sp " data-who="ANTONIO-CHANGELING">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l24-p3">¡Qué tonto, guardián de idiotas! ¡Lechuguino! Demasiado he hecho el tonto.</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l24-p4">Pues más te conviene hacerte el loco un rato más.</p>
+</div><div class="sp " data-who="ANTONIO-CHANGELING">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l24-p5">¡Ya lo estoy, loco de atar! Motivos tengo, y te podrían caer las consecuencias encima. ¡Te pegaría una paliza!</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l24-p6">¡No lo hagáis, no lo hagáis! No se lo tolero ni al caballero que hay detrás del tonto. Pude ver a través de vuestra piel de zorro. ¡Vamos, os consolaré! Mi señora os ama, y hay un loco redomado en esta casa, vuestro rival, a quien ella no quiere. Si después del espectáculo la ayudamos a librarse de él, ella dice que os ganaréis su amor, y así el tonto podrá cabalgar con ella.</p>
+</div><div class="sp " data-who="ANTONIO-CHANGELING">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l24-p7">¿Puedo creerte?</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l24-p8">¡Claro! Pero podéis elegir si hacerlo o no.</p>
+</div><div class="sp " data-who="ANTONIO-CHANGELING">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l24-p9">Yo la libraré de él, tengo motivos para pelearme</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l24-p10">Pues manteneos en vuestro antiguo estado, y callad.</p>
+</div><div class="sp " data-who="ANTONIO-CHANGELING">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l24-p11"><span class="sdi">(Sale.)</span> Dile que me haré merecedor de su amor.</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l24-p12">Y es muy posible que tengáis lo que queréis.</p>
+</div><div class="sp " data-who="FRANCISCUS-CHANGELING">
+  <p class="spk ">
+    FRANCISCO
+  </p>
+  <p class="pr " id="l24-p13">(Canta.) “¡La, la, la, la, la, la, la! Y una coz en la frente de Diana, que le rompe el arco.”</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l24-p14">Este es otro falso. Le voy a hacer cambiar de humor. <span class="sdi">(Saca una carta y lee.)</span><br>“Dulce señora, habiéndome quitado este engañoso disfraz de loco, me presento ante vuestro mejor juicio como un sincero y fiel enamorado de vuestra belleza.” ¡Esto está muy bien para ser un loco!</p>
+</div><div class="sp " data-who="FRANCISCUS-CHANGELING">
+  <p class="spk ">
+    FRANCISCO
+  </p>
+  <p class="pr " id="l24-p15">¡Ja! ¿Eso qué es?</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l24-p16">“Achacadlo a vuestra perfección, que me hace imperfecto”.</p>
+</div><div class="sp " data-who="FRANCISCUS-CHANGELING">
+  <p class="spk ">
+    FRANCISCO
+  </p>
+  <p class="pr " id="l24-p17">Me ha descubierto el loco.</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l24-p18">Y espero descubrir toda la locura que lleváis dentro antes de acabar con vos. “Vuestro enamorado Francisco”. Este loco se curará, seguro.</p>
+</div><div class="sp " data-who="FRANCISCUS-CHANGELING">
+  <p class="spk ">
+    FRANCISCO
+  </p>
+  <p class="pr " id="l24-p19">¿Qué lees, hombre?</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l24-p20">Vuestro destino, señor. Os colgarán por esta trampa, y por otra que yo me sé.</p>
+</div><div class="sp " data-who="FRANCISCUS-CHANGELING">
+  <p class="spk ">
+    FRANCISCO
+  </p>
+  <p class="pr " id="l24-p21">¿Tu ama confía en ti?</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l24-p22">Más que en su delantal.</p>
+</div><div class="sp " data-who="FRANCISCUS-CHANGELING">
+  <p class="spk ">
+    FRANCISCO
+  </p>
+  <p class="pr " id="l24-p23">Dame la mano.</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l24-p24">¡Esperad! Dejadme que meta lo vuestro en el bolsillo primero. <span class="sdi">(Se guarda la carta.)</span> Vuestra mano es honesta, ¿verdad? ¿No robará? Le tengo un poco de miedo, pues creo que es mentirosa.</p>
+</div><div class="sp " data-who="FRANCISCUS-CHANGELING">
+  <p class="spk ">
+    FRANCISCO
+  </p>
+  <p class="pr " id="l24-p25">Ni una sílaba.</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l24-p26">Bien. Si tanto queréis a mi ama para haber llegado hasta aquí, es probable que se os cure la locura.</p>
+</div><div class="sp " data-who="FRANCISCUS-CHANGELING">
+  <p class="spk ">
+    FRANCISCO
+  </p>
+  <p class="pr " id="l24-p27">Sólo ella puede curarla.</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l24-p28">Pues yo ya no lo intentaré, y que sea ella quien os haga la prueba de orina.</p>
+</div><div class="sp " data-who="FRANCISCUS-CHANGELING">
+  <p class="spk ">
+    FRANCISCO
+  </p>
+  <p class="pr " id="l24-p29">Esto por vuestros esfuerzos.</p>
+</div><p class="sd " id="l24-sd3">(Le da dinero.)</p><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l24-p30">Espero merecerme más, señor. Mi ama os quiere, pero solicita una prueba de vuestro amor por ella.</p>
+</div><div class="sp " data-who="FRANCISCUS-CHANGELING">
+  <p class="spk ">
+    FRANCISCO
+  </p>
+  <p class="pr " id="l24-p31">Eso es lo que más deseo probar.</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l24-p32">Eso no sirve. Debéis enfrentaros con su enemigo, que es el vuestro.</p>
+</div><div class="sp " data-who="FRANCISCUS-CHANGELING">
+  <p class="spk ">
+    FRANCISCO
+  </p>
+  <p class="pr " id="l24-p33">¡Ya está muerto!</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l24-p34">¿Cómo decís eso, si acabo de despedirme de él?</p>
+</div><div class="sp " data-who="FRANCISCUS-CHANGELING">
+  <p class="spk ">
+    FRANCISCO
+  </p>
+  <p class="pr " id="l24-p35">¡Mostradme quién es!</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l24-p36">Ahora vamos por el buen camino. Primero hay que verle antes de matarle, y no hay que ir muy lejos tampoco. Es un tonto con pinta de idiota que ronda a la casa y a mi ama. Dadle una buena tunda a su traje de tonto y quedaréis muy bien.</p>
+</div><div class="sp " data-who="FRANCISCUS-CHANGELING">
+  <p class="spk ">
+    FRANCISCO
+  </p>
+  <p class="pr " id="l24-p37">¡Paliza, paliza!</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l24-p38">Pero esperad hasta que acabe el espectáculo, y si no le veis en el baile, yo os mostraré quien es. ¡Entrad, entrad! ¡Mi amo!</p>
+</div><div class="sp " data-who="FRANCISCUS-CHANGELING">
+  <p class="spk ">
+    FRANCISCO
+  </p>
+  <p class="pr " id="l24-p39">Lo maneja como a una pluma. ¡Ah!</p>
+</div><p class="sd " id="l24-sd4">(Sale bailando.)</p><p class="sd " id="l24-sd5">(Entra Alibio.)</p><div class="sp " data-who="ALIBIUS">
+  <p class="spk ">
+    ALIBIO
+  </p>
+  <p class="pr " id="l24-p40">¡Bien hecho! ¿Estás listo, Lolio?</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l24-p41">¡Sí, señor!</p>
+</div><div class="sp " data-who="ALIBIUS">
+  <p class="spk ">
+    ALIBIO
+  </p>
+  <p class="pr " id="l24-p42">¡Vamos, entonces! Tráelos aquí dentro, Lolio. Suplícale a tu ama que venga a verlo. <span class="sdi">(Sale Lolio.)</span><br>¿No hay manera de hacerse cargo del patrimonio de un tonto incurable? Tengo amigos influyentes.</p>
+</div><div class="sp " data-who="LOLLIO">
+  <p class="spk ">
+    LOLIO
+  </p>
+  <p class="pr " id="l24-p43"><span class="sdi">(Desde dentro.)</span> Ya os tengo uno que se lo merece también.</p>
+</div><div class="sp " data-who="ALIBIUS">
+  <p class="spk ">
+    ALIBIO
+  </p>
+  <p class="pr " id="l24-p44">¡Buen chico, Lolio! <span class="sdi">(Entra ISABEL, después LOLIO con los locos y los tontos que, a continuación, se ponen a bailar.)</span><br>¡Perfecto!</p><div class="lg ">
+  
+  <div class="l " id="l25"><a class="n m5" href="#l25">25</a><span class="t">Sólo falta que ellos bailen al ritmo de la canción</span></div><div class="l " id="l26"><a class="n " href="#l26">26</a><span class="t">y obtendremos un buen premio a nuestra dedicación.</span></div>
+</div>
+</div><p class="sd " id="l26-sd1">(Salen.)</p>
+      </section>
+    
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-3.html" rel="prev">← Act III</a>
+  <a href="act-5.html" rel="next">Act V →</a>
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

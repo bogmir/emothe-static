@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0491_SaulLeFurieux/n0",{"lines":[["act-3","nref-1","III, 880",0,"n","Balaam (note de La Taille dans l’édition de 1572)."]],"speakers":["LE CHŒUR, OU L’ASSEMBLÉE DES PRÊTRES LÉVITES"]});

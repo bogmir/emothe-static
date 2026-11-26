@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0685_AdonisEtVenus/24",{"lines":[["act-3","l2243","III, 2243",0,"v","et mes regrets commencent."],["act-3","l2244","III, 2244",1,"v","Voilà la tragicomédie"],["act-3","l2245","III, 2245",1,"v","du bel Adonis."]],"speakers":["Vénus","Thymbre"]});

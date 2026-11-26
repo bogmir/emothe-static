@@ -1,0 +1,2487 @@
+<?xml version="1.0" ?>
+<TEI xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="original">Tis Pity She&apos;s a Whore</title>
+        <title type="adaptacion">Annabella (’Tis pity she’s a whore)</title>
+        <title key="orden">Annabella (’Tis pity she’s a whore)</title>
+        <title key="archivo">EMOTHE0317_AnnabellaTisPityShesAWhore</title>
+        <author ana="fiable">Maurice Maeterlinck</author>
+        <author key="orden">Maeterlinck, Maurice</author>
+        <sponsor>
+          <orgName>Plan Nacional de Investigación Científica, Desarrollo e Innovación Tecnológica (Plan Nacional de I+D+i)</orgName>
+        </sponsor>
+        <funder>
+          <orgName>Dirección General de Investigación y Gestión del Plan Nacional de I+D+I (DGI). http://www.idi.mineco.gob.es</orgName>
+        </funder>
+        <editor role="translator">
+          <persName>Maurice Maeterlinck</persName>
+        </editor>
+        <principal>Joan Oleza Simó</principal>
+      </titleStmt>
+      <editionStmt>
+        <edition>Edición electrónica de &apos;Annabella (’Tis pity she’s a whore)&apos;</edition>
+        <respStmt>
+          <resp>Electronic edition: text adapted, edited for XML and encoded by</resp>
+          <persName>Perelló Pigazos, Sonia</persName>
+          <orgName>Artelope</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent ana="prosaverso">2 versos</extent>
+      <publicationStmt>
+        <publisher>
+          <orgName>Proyecto ARTELOPE. Base de datos, argumentos y textos del teatro clásico español (FFI 2009 -12730) http://artelope.uv.es</orgName>
+        </publisher>
+        <idno type="code">EMOTHE0317_AnnabellaTisPityShesAWhore</idno>
+        <idno type="EMOTHE">0317</idno>
+        <pubPlace>Valencia</pubPlace>
+        <date>2012</date>
+        <authority>
+          <orgName>Universitat de València - Estudi General. http://www.uv.es</orgName>
+        </authority>
+        <availability>
+          <p>La Colección de Teatro Clasico Europeo (CTCE) pertenece al proyecto Artelope y ofrece en la web textos completos sin ánimo de lucro y libres de derechos de lectura y de reproducción. En este último caso se ruega citar la procedencia: &quot;Oleza, Joan et al. Base de Datos y Argumentos del teatro de Lope de Vega. ARTELOPE. Publicación en web: http://artelope.uv.es&quot;</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem target="EMOTHE0283" type="original"/>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Annabella (’Tis pity she’s a whore)</title>
+          <author>John Ford</author>
+          <editor>Paul Ollendorff</editor>
+          <lang>Francés</lang>
+<note>Maeterlinck, Maurice. <emph>Annabella (’Tis pity she’s a whore). Drame en cinq actes de John Ford. Traduit et adapté pour le théatre de l’OEuvre par Maurice Maeterlinck</emph> Paris: Paul Ollendorff, 1895.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>La Colección de Textos Clásicos Europeos (CTCE) supone la creación de una base de datos de Teatro canónico clásico europeo en diferentes idiomas, versiones y refundiciones, todas ellas hipervinculadas.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Las presentes ediciones digitales están basadas, en su mayor parte, en ediciones científicas de reconocido prestigio y se ha tratado, en la mayoría de ocasiones, de respetar sus criterios de edición. Solo en casos muy puntuales el editor digital ha introducido leves cambios de los que da cumplida cuenta en el apartado de &quot;Notas&quot;.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="CDU">
+          <bibl>Clasificación Decimal Universal</bibl>
+        </taxonomy>
+      </classDecl>
+      <refsDecl>
+        <citeStructure match="/TEI/text/body//sp[(.//l | .//p)[1][@n]]" unit="speech" use="(.//l | .//p)[1]/@n"/>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fr-FR">Français</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#CDU">821.133-2</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+<change><date>2016</date> <persName>Muñoz Pons, Carlos</persName> Revisión de la obra en formato TEI-XML</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>
+            <title>Annabella (’Tis pity she’s a whore)</title>
+          </titlePart>
+        </docTitle>
+        <docAuthor>Maurice Maeterlinck</docAuthor>
+      </titlePage>
+      <div type="elenco">
+        <head>PERSONNAGES</head>
+        <castList>
+          <castItem>
+            <role xml:id="P-">FRÈRE BONAVENTURE</role>
+          </castItem>
+          <castItem>
+            <role xml:id="CARDI">LE CARDINAL</role>
+          </castItem>
+          <castItem>
+            <role xml:id="SORAN">SORANZO</role>
+          </castItem>
+          <castItem>
+            <role xml:id="FLORI">FLORIO</role>
+            <roleDesc>citoyens de Parme.</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="DONAT">DONADO</role>
+            <roleDesc>citoyens de Parme.</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="GIOVA">GIOVANNI</role>
+            <roleDesc>(fils de Florio)</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="GRIMA">GRIMALDI</role>
+          </castItem>
+          <castItem>
+            <role xml:id="RICTT">RICHARDETTO</role>
+            <roleDesc>(médicin)</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="VASQU">VASQUES</role>
+            <roleDesc>(valet de Soranzo)</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="ANNAB">ANNABELLA</role>
+            <roleDesc>(fille de Florio)</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="GOVERNANTE">PUTANA</role>
+            <roleDesc>(gouvernante d’Annabella)</roleDesc>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="BANDI">LES BANDITS</role>
+          </castItem>
+        </castList>
+        <note>
+          <p>La scène à Parme.</p>
+        </note>
+      </div>
+    </front>
+    <body>
+      <div1 n="1" type="act">
+        <div2 n="1" type="scene" xml:id="em0317-fr-sc-1">
+          <head>ACTE PREMIER</head>
+        </div2>
+        <div2 n="2" type="scene" xml:id="em0317-fr-sc-2">
+          <head>SCÈNE PREMIÈRE</head>
+          <stage type="setting" xml:id="em0317-fr-st-1">La cellule de frère Bonaventure.</stage>
+          <stage type="entrance" xml:id="em0317-fr-st-2">Entrent frère Bonaventure et Giovanni.</stage>
+          <sp who="#P-" xml:id="em0317-fr-sp-1">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="1" xml:id="em0317-fr-1">Ne discute pas davantage: car sache-le, mon enfant, il ne s’agit point ici des subtilités de l’ècole. La douce philosophie peut tolérer des arguments invraisemblables, mais le ciel ne plaisante pas; et l’esprit qui présuma trop de l’esprit en essayant de prouver par de folles raisons que Dieu n’existe pas, découvrit le chemin le plus court vers l’enfer et remplit le monde d’un diabolique athéisme. De telles questions sont vaines, mon enfant, et il vaut mieux bénir le soleil, que de se demander pourquoi il resplendit; et cependant celui dont tu parles est au-dessus du soleil. Mais en voilà assez; je ne puis plus t’entendre.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-2">
+            <speaker>GIOVANNI.</speaker>
+            <p n="2" xml:id="em0317-fr-2">Mon père, je vous ai ouvert mon âme accablée. J’ai vidé les réservoirs de mes pensées et de mon cœur, je n’ai plus de secrets. Je n’ai pas retenu un seul mot qui eût pu vous cacher quelque chose de ce que j’ai vu, de ce que j’ai pensé ou de ce que j’ai su... et cependant, est-ce là toute la consolation qui m’attend?... Ne puis-je faire ce que tous les autres hommes peuvent faire... aimer?</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-3">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="3" xml:id="em0317-fr-3">Certes, mon fils, tu peux aimer.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-4">
+            <speaker>GIOVANNI.</speaker>
+            <p n="4" xml:id="em0317-fr-4">Ne puis-je adorer cette beauté, dont les dieux feraient un dieu s’ils la voyaient ici, et devant laquelle ils s’agenouilleraient comme je m’agenouille devant eux?</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-5">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="5" xml:id="em0317-fr-5">Insensé...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-6">
+            <speaker>GIOVANNI.</speaker>
+            <p n="6" xml:id="em0317-fr-6">Est-ce qu’un vain mot, une forme banale, le nom d’un frère opposé au nom d’une sœur, va devenir une barrière entre mon bonheur éternel et moi-même? Soit, nous n’avons eu qu’un père, soit, les mêmes entrailles – maudites pour mes joies! – nous ont donné la vie à tous les deux. Ne sommes-nous pas, à cause de cela même, unis d’autant plus étroitement par la nature, par les liens du sang et ceux de la raison?... Et si vous le voulez, par ceux même de la religión, afin d’être à jamais uneâme, une chair, un amour, un cœur, et un tout?</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-7">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="7" xml:id="em0317-fr-7">Tais-toi, malheureux enfant, tu es perdu...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-8">
+            <speaker>GIOVANNI.</speaker>
+            <p n="8" xml:id="em0317-fr-8">Est-ce que, parce que je suis né son frère, mes joies seront à jamais bannies de son lit? Non, mon père, je vois passer dans vos yeux, la compassion et la pitié. Du fond de vos années, comme du fond d’un oracle sacré, distillez la vie d’un bon conseil. Et dites-moi, mon père, quel remède pourra me guérir en cette extrémité?</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-9">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="9" xml:id="em0317-fr-9">Le repentir, mon fils, et la douleur de ce péché, car tu as fair tressaillir une Majesté là-haut, par un blasphème presque sans précédent...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-10">
+            <speaker>GIOVANNI.</speaker>
+            <p n="10" xml:id="em0317-fr-10">Oh! ne parlez pas de cela, mon père.</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-11">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="11" xml:id="em0317-fr-11">Est-cetoi, mon fils, cemiracle d’intelligence, qu’autrefois, il y a trois mois à peine, on tenait pour le prodige de son âge, à Bologne? Comme l’université applaudissait à ta conduite, à ta vie, à ta science, à ton éloquence, à ta douceur, à tout ce qui peut rendre un homme accompli. J’étais fier de ma tutelle, et j’ai abandonné mes chers libres, plutôt que de me séparer de toi. Je l’ai fait. Mais les fruits de toutes mes esperances se sont perdus en toi comme tu t’es perdu en toi-même! O Giovanni! as-tu abandoné l’école de la science pour te mêler à la luxure et à la mort, car la mort veille sur ton péché. Regarde par le monde, et tu verras mille visages plus glorieux que celui de l’idole adorée. Laisse-la, choisis-en d’autres, le péché será moins grand, bien qu’à ces jeux, ce sont ceux qui perdent qui gagnent...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-12">
+            <speaker>GIOVANNI.</speaker>
+            <p n="12" xml:id="em0317-fr-12">Il serait plus facile d’arrèter le flux et le reflux de l’océan, que de faire que je ne l’aime plus.</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-13">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="13" xml:id="em0317-fr-13">Alors, j’ai fini. Et dans tes flammes volontaires je vois déjà ta ruine. Le ciel est juste. Cependant écoute mon conseil.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-14">
+            <speaker>GIOVANNI.</speaker>
+            <p n="14" xml:id="em0317-fr-14">Comme une voix de vie.</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-15">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="15" xml:id="em0317-fr-15">Va-t’en vers la maison de ton père, et là, enferme-toi seul dans ta chambre. Alors, tombe à genoux, rampe sur le sol, crie à plein cœur, et lave chacun de tes cris dans les larmes, et si tu peux, dans des larmes de sang... Prie le ciel de purifier la lèpre du désir qui ronge ta pauvre âme. Reconnais que tu es un miserable, un ver, un rien, pleure, soupire, prie, trois fois par jour et trois fois chaque nuit, fais cela durant sept jours, et alors, si tu ne trouvers aucun changement dans tes désirs, reviens vers moi. Je songerai à un remède. Prie pour toi-même, enta maison, tandis qu’ici, je vais prier pour toi... va-t’en. Ma bénédiction sur toi. Nous avons besoin de prier.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-16">
+            <speaker>GIOVANNI.</speaker>
+            <p n="16" xml:id="em0317-fr-16">Je ferai tout ceci, pour échapper aux verges de la vengeance, sinon, je pourrai dire que ma destinée est mon Dieu.</p>
+          </sp>
+          <stage type="exit" xml:id="em0317-fr-st-3">Ils sortent.</stage>
+        </div2>
+        <div2 n="3" type="scene" xml:id="em0317-fr-sc-3">
+          <head>SCÈNE II</head>
+          <stage type="setting" xml:id="em0317-fr-st-4">Une rue devant la maison de Florio.</stage>
+          <stage type="entrance" xml:id="em0317-fr-st-5">Entrent Grimaldi et Vasques l’éppe à la main.</stage>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-17">
+            <speaker>VASQUES.</speaker>
+            <p n="17" xml:id="em0317-fr-17">Allons, monsieur, en garde, et si vous êtes un lâche, je vous ferai fuir promptement.</p>
+          </sp>
+          <sp who="#GRIMA" xml:id="em0317-fr-sp-18">
+            <speaker>GRIMALDI.</speaker>
+            <p n="18" xml:id="em0317-fr-18">Tu n’es pas un adversaire digne de moi.</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-19">
+            <speaker>VASQUES.</speaker>
+            <p n="19" xml:id="em0317-fr-19">En effet, je ne suis jamais allé à la guerre pour en rapporter des nouvelles. Je ne puis faire le charlatan pour un bon repas, et jurer que j’ai gagné mes blessures sur le champ de bataille. Voyez-vous ces cheveux gris?... Ils ne reculeront pas devant un nezrouge... En voulez-vous à cet habit?</p>
+          </sp>
+          <sp who="#GRIMA" xml:id="em0317-fr-sp-20">
+            <speaker>GRIMALDI.</speaker>
+            <p n="20" xml:id="em0317-fr-20">Ne me provoque pas, car si tu l’oses...</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-21">
+            <speaker>VASQUES.</speaker>
+            <p n="21" xml:id="em0317-fr-21">A vous!...</p>
+          </sp>
+          <stage type="novelistic" xml:id="em0317-fr-st-6">Ils se battent; Grimaldi a le dessous. Entrent, de côtés differents, Florio, Donado et Soranzo.</stage>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-22">
+            <speaker>FLORIO.</speaker>
+            <p n="22" xml:id="em0317-fr-22">Qu’est-ce que ces querelles soudaines près de ma porte? N’y a-t-il pas d’autre endroit que ma maison, pour y donner de l’air à vos sangs échauffés? Faut-il qu’on yienne me tourmenter toujours et m’empêcher de manger et de dormir en paix dans ma demeure? Est-ce là vostre amour, Grimaldi? Fi donc! ce n’est pas bien.</p>
+          </sp>
+          <sp who="#DONAT" xml:id="em0317-fr-sp-23">
+            <speaker>DONADO.</speaker>
+            <p n="23" xml:id="em0317-fr-23">Et quant à moi, Vasques, je puis vous dire que c’est mal de faire naître ces querelles. Vous êtes toujours le premier à prendre part aux rixes.</p>
+          </sp>
+          <stage type="entrance" xml:id="em0317-fr-st-7">Entrent, dans une galerie du premier étage Annabella et Putana.</stage>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-24">
+            <speaker>FLORIO.</speaker>
+            <p n="24" xml:id="em0317-fr-24">Quelle est la cause?...</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-25">
+            <speaker>SORANZO.</speaker>
+            <p n="25" xml:id="em0317-fr-25">C’est ce que je vais vous dire, messieurs, si vous le permettez. Cet homme, qu’on dit être soldat – car je n’en sais rien – est mon rival auprès de la fille de Florio. Il lui fait sa cour en me ravalant auprès d’elle, s’imaginant que le meilleur moyen de se faire valoir est de me rabaisser dans ses propos... Mais sache-le, Grimaldi, quoiqu’il se puisse faire que tu sois mon égal par le sang, ceci trahit une bassesse d’âme, que, si tu étais noble, tu mépriserais autant que je te méprise pour cette infamie... Et c’est pourquoi j’ai ordonné à mon valet de corregir sa langue, ne tenant pas un ètre aussi vil, pour un adversaire digne de moi.</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-26">
+            <speaker>VASQUES.</speaker>
+            <p n="26" xml:id="em0317-fr-26">Et si votre arrivée soudaine ne nous avait pas arrêtés, j’eusse fait saigner mon gentilhomme sous les abajoues. Je vous eusse arraché le ver sous la langue, comme aux chiens afin de vous préserver de la folie.</p>
+          </sp>
+          <sp who="#GRIMA" xml:id="em0317-fr-sp-27">
+            <speaker>GRIMALDI.</speaker>
+            <p n="27" xml:id="em0317-fr-27">J’aurai ma revanche, Soranzo.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-28">
+            <speaker>SORANZO.</speaker>
+            <p n="28" xml:id="em0317-fr-28">Je ne vous crains pas, Grimaldi.</p>
+          </sp>
+          <stage type="exit" xml:id="em0317-fr-st-8">Sort Grimaldi.</stage>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-29">
+            <speaker>FLORIO.</speaker>
+            <p n="29" xml:id="em0317-fr-29">Monsieur Soranzo, ceci me semble étrange. Comment! vous vous tourmentez lorsque vous avez ma parole?... Lorsque vous possédez son cœur, que vous inquiétez-vous de son oreille? A tous les jeux, ceux qui perdent ont le droit de se plaindre.</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-30">
+            <speaker>VASQUES.</speaker>
+            <p n="30" xml:id="em0317-fr-30">Oui, mais il y a des mots qui mettraient en colère les plus douces colombes. Seigneur Florio, ne m’en veuillez pas.</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-31">
+            <speaker>FLORIO.</speaker>
+            <p n="31" xml:id="em0317-fr-31">Parlez moins. Je ne voudrais pas, pour tout ce que je possède, que l’amour de ma fille fìt répandre une goutte de sang. Rengaînez, Vasques, et noyons cette querelle dan le vin.</p>
+          </sp>
+          <stage type="exit" xml:id="em0317-fr-st-9">Ils sortent.</stage>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-32">
+            <speaker>PUTANA.</speaker>
+            <p n="32" xml:id="em0317-fr-32">Qu’en dites-vous, mon enfant, on menace, on provoque, on se querelle, on se bat de tous côtés, et tout cela c’est à cause de vous seule. Ma chère, il faudra veiller sur vous-même, sans quoi l’on vous enlèvera pendant votre sommeil.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-33">
+            <speaker>ANNABELLA.</speaker>
+            <p n="33" xml:id="em0317-fr-33">Une telle vie ne me satisfait pas et j’ai d’autres desseins. Laisse-moi.</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-34">
+            <speaker>PUTANA.</speaker>
+            <p n="34" xml:id="em0317-fr-34">Vous laisser! En voilà de l’amour! Enfin, je ne vous blâme pas. Vous avez plus de chance que la plus noble fille d’Italie.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-35">
+            <speaker>ANNABELLA.</speaker>
+            <p n="35" xml:id="em0317-fr-35">Je t’en prie, ne bavarde pas tant...</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-36">
+            <speaker>PUTANA.</speaker>
+            <p n="36" xml:id="em0317-fr-36">Examinons un peu... Vous avez Grimaldi le soldat, un gaillard bien bâti. On dit que c’est un Romain, neveu du duc de Montferrat. On dit qu’il fit bon service dans les guerres contre les Milanais; mais en verité, ma petite, je ne l’aime pas, quand ce ne serait que parce que’il est soldat. Il n’y en a pas un sur vingt de nos capitaines ferrailleurs que n’ait l’une ou l’autre infirmité secrète qui l’empêche de se tenir droit. Je l’aime d’autant moins qu’il zigzague trop des jambes, et bien qu’il pùt servir s’il n’y avait pas d’autre homme, ce n’est pas l’homme que je choisirais...</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-37">
+            <speaker>ANNABELLA.</speaker>
+            <p n="37" xml:id="em0317-fr-37">Fi! comme tu parles.</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-38">
+            <speaker>PUTANA.</speaker>
+            <p n="38" xml:id="em0317-fr-38">Si je suis una vraie femme, j’aime bien le seigneur Soranzo. Il est sage, et ce qui vaut mieux, riche, et ce qui vaut mieux encore, il est doux, et ce qui vaut mieux que tout, gentilhomme. Un pareil homme, fussé-je la belle Annabella elle-même, je soupirerais et je prierais pour l’avoir. Puis il est bon, il est beau garçon, et ma foi, je pensé, il est sain, et voilà qui est neuf dans un galant de vingt-trois ans. Il est libéral, je le sais, tendre, vous le savez, et un homme à coup sûr, sans quoi, il n’aurait jamais acquis une réputation aussi bonne, avec Hippolita, la veuve enflammée, au temps de son époux, et quand il n’y aurait que cela, ma chère, je voudrais que’il fût vôtre. Louez un homme pour ses qualités, mais prenez un mari tel qu’il est, un homme simple, capable et nu, voilà ce qu’il faut pour votre lit, et voilà ce qu’est bien, j’en mettrais ma main au feu, le seigneur Soranzo.</p>
+          </sp>
+          <stage type="novelistic" xml:id="em0317-fr-st-10">Giovanni traverse la scène.</stage>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-39">
+            <speaker>ANNABELLA.</speaker>
+            <p n="39" xml:id="em0317-fr-39">Regarde, Putana, quelle forme bénie de quelque créature céleste, apparaît à présent! Quel est cet homme qui passe si tristement sans souci de lui-même!</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-40">
+            <speaker>PUTANA.</speaker>
+            <p n="40" xml:id="em0317-fr-40">Où donc?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-41">
+            <speaker>ANNABELLA.</speaker>
+            <p n="41" xml:id="em0317-fr-41">En bas, regarde.</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-42">
+            <speaker>PUTANA.</speaker>
+            <p n="42" xml:id="em0317-fr-42">C’est votre frère, ma chère.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-43">
+            <speaker>ANNABELLA.</speaker>
+            <p n="43" xml:id="em0317-fr-43">Ha!</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-44">
+            <speaker>PUTANA.</speaker>
+            <p n="44" xml:id="em0317-fr-44">C’est votre frère.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-45">
+            <speaker>ANNABELLA.</speaker>
+            <p n="45" xml:id="em0317-fr-45">Ce ne peut être lui. C’est une chose accablée de tristesse et c’est l’ombre d’un homme. Hélas, il se frappe la poitrine et il essuie ses yeux baignés de larmes. Il me semble que je l’entends soupirer. Descendons, nourrice, je veux savoir ce qui l’afflige. Je sais que dans l’amour qu’il a pour moi, mon frère ne refusera pas de partager sa tristesse avec moi.</p>
+          </sp>
+          <stage type="exit" xml:id="em0317-fr-st-11">Elle sort de la galerie avec Putana.</stage>
+        </div2>
+        <div2 n="4" type="scene" xml:id="em0317-fr-sc-4">
+          <head>SCÈNE III</head>
+          <stage type="setting" xml:id="em0317-fr-st-12">Une salle dans la maison de Florio.</stage>
+          <stage type="entrance" xml:id="em0317-fr-st-13">Entre Giovanni.</stage>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-46">
+            <speaker>GIOVANNI.</speaker>
+            <p n="46" xml:id="em0317-fr-46">Perdu!... Je suis perdu! et mon destin m’a condamné à mort! Plus je lutte et plus j’aime, plus j’aime et moins j’espère, et ma perte est certaine. J’ai essayé en vain tout ce qui eût pu guérir mes incurables et infatigables blessures. Oh! si l’Eglise ne nous défendait pas de faire un Dieu de notre amour et de nous prosterner devant lui! J’ai fatigué le ciel de mes prières, et j’ai tari la source de mes larmes. J’ai desséché mon sang dans mes jeûnes sans fin. J’ai tenté tout ce que la sagesse et la science pouvaient me conseiller. Mais hélas! tout est songe et fables de vieillards inventés pour effrayer les jeunes cœurs. Je suis toujours le même. Il faut que je parle ou que j’éclate. Ce n’est pas mon désir, je le sais, mais mon destin qui me pousse désormais. Aux esclaves la crainte et la honte au cœur flasque!... Je veux lui dire combien je l’aime, dût mon cœur!... Oh! elle vient!...</p>
+          </sp>
+          <stage type="entrance" xml:id="em0317-fr-st-14">Entrent Annabella et Putana.</stage>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-47">
+            <speaker>ANNABELLA.</speaker>
+            <p n="47" xml:id="em0317-fr-47">Frère!</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-48">
+            <speaker>GIOVANNI.</speaker>
+<p n="48" xml:id="em0317-fr-48"><stage type="delivery" xml:id="em0317-fr-st-15">À part.</stage> <seg type="aside" xml:id="em0317-fr-48-seg1">Si quelque chose qui ressemble au courage habite en l’homme, ô célestes pouvoirs, redoublez, maintenant, cette forcé dans ma langue!</seg></p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-49">
+            <speaker>ANNABELLA.</speaker>
+            <p n="49" xml:id="em0317-fr-49">Mon frère, ne voulez-vous pas me parler?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-50">
+            <speaker>GIOVANNI.</speaker>
+            <p n="50" xml:id="em0317-fr-50">Oui; comment allez-vous, ma sœur?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-51">
+            <speaker>ANNABELLA.</speaker>
+            <p n="51" xml:id="em0317-fr-51">Bien, bien. Il me semble que vous êtes souffrant?</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-52">
+            <speaker>PUTANA.</speaker>
+            <p n="52" xml:id="em0317-fr-52">Le ciel nous bénisse! Pourquoi êtes-vous si triste, monsieur?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-53">
+            <speaker>GIOVANNI.</speaker>
+<p n="53" xml:id="em0317-fr-53">Je vous en prie, Putana, laissez-nous un instant.<lb xml:id="em0317-fr-54"/>J’aurais à vous parler, ma sœur.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-54">
+            <speaker>ANNABELLA.</speaker>
+            <p n="54" xml:id="em0317-fr-55">Retire-toi, Putana.</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-55">
+            <speaker>PUTANA.</speaker>
+<p n="55" xml:id="em0317-fr-56"><stage type="delivery" xml:id="em0317-fr-st-16">À part.</stage> <seg type="aside" xml:id="em0317-fr-56-seg1">Je m’en vais... Si cet homme n’était pas son frère, je crois que mon absence serait une fonction importante... Mais je les laisse.</seg></p>
+          </sp>
+          <stage type="exit" xml:id="em0317-fr-st-17">Elle sort.</stage>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-56">
+            <speaker>GIOVANNI.</speaker>
+            <p n="56" xml:id="em0317-fr-57">Viens, ma sœur, donne-moi ta main, promenons-nous ensemble... Je crois que tu n’as pas à rougir de te promener avec moi... Il n’y a personne ici que toi et moi...</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-57">
+            <speaker>ANNABELLA.</speaker>
+            <p n="57" xml:id="em0317-fr-58">Qu’est-ce?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-58">
+            <speaker>GIOVANNI.</speaker>
+            <p n="58" xml:id="em0317-fr-59">En vérité je n’ai pas de mauvais desseins.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-59">
+            <speaker>ANNABELLA.</speaker>
+            <p n="59" xml:id="em0317-fr-60">De mauvais desseins?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-60">
+            <speaker>GIOVANNI.</speaker>
+            <p n="60" xml:id="em0317-fr-61">Non, en vérité. – Comment te portes-tu?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-61">
+            <speaker>ANNABELLA.</speaker>
+<p n="61" xml:id="em0317-fr-62"><stage type="delivery" xml:id="em0317-fr-st-18">À part.</stage> <seg type="aside" xml:id="em0317-fr-62-seg1">J’espère qu’il n’est pas fou.</seg> <stage type="delivery" xml:id="em0317-fr-st-19">(Haut.)</stage> Fort bien, mon frère.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-62">
+            <speaker>GIOVANNI.</speaker>
+            <p n="62" xml:id="em0317-fr-63">Crois-moi, je suis malade. Et je crois que ce mal va me coûter la vie.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-63">
+            <speaker>ANNABELLA.</speaker>
+            <p n="63" xml:id="em0317-fr-64">Le ciel nous en préserve!... J’espère qu’il n’en est rien...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-64">
+            <speaker>GIOVANNI.</speaker>
+            <p n="64" xml:id="em0317-fr-65">Je crois que tu m’aimes, ma sœur.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-65">
+            <speaker>ANNABELLA.</speaker>
+            <p n="65" xml:id="em0317-fr-66">Mais oui; tu le sais bien.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-66">
+            <speaker>GIOVANNI.</speaker>
+            <p n="66" xml:id="em0317-fr-67">Oui, je le sais... Tu es très belle.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-67">
+            <speaker>ANNABELLA.</speaker>
+            <p n="67" xml:id="em0317-fr-68">Je vois que ton mal n’est pas grave.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-68">
+            <speaker>GIOVANNI.</speaker>
+            <p n="68" xml:id="em0317-fr-69">C’est selon. J’ai lu que les poètes prétendent que Junon dépassait de la tête toutes les autres déesses... Mais je jure que ton front dépasse le sien comme le sien dépassait le leur.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-69">
+            <speaker>ANNABELLA.</speaker>
+            <p n="69" xml:id="em0317-fr-70">En vérité, ceci est joli...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-70">
+            <speaker>GIOVANNI.</speaker>
+            <p n="70" xml:id="em0317-fr-71">Les deux étoiles de tes yeux eussent donné comme le feu ravi par Prométhée, la vie aux pierres insensibles.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-71">
+            <speaker>ANNABELLA.</speaker>
+            <p n="71" xml:id="em0317-fr-72">Fi donc!</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-72">
+            <speaker>GIOVANNI.</speaker>
+            <p n="72" xml:id="em0317-fr-73">Les roses et les lis, doux et étranges, luttent et passent sur les fossettes de tes joues... De telles lèvres tenteraient un saint, et ces mains rendraient lascif l’anachorète...</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-73">
+            <speaker>ANNABELLA.</speaker>
+            <p n="73" xml:id="em0317-fr-74">Est-ce moquerie ou flatterie?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-74">
+            <speaker>GIOVANNI.</speaker>
+            <p n="74" xml:id="em0317-fr-75">Si tu veux voir une beauté plus parfaite que celle que l’art peut imiter ou que la nature peut créer, regarde-toi dans ton miroir et contemple ton être.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-75">
+            <speaker>ANNABELLA.</speaker>
+            <p n="75" xml:id="em0317-fr-76">Ah! tu es un jeune homme bien galant...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-76">
+            <speaker>GIOVANNI.</speaker>
+            <p n="76" xml:id="em0317-fr-77">Voilà...</p>
+          </sp>
+          <stage type="novelistic" xml:id="em0317-fr-st-20">Il lui offre sa dague.</stage>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-77">
+            <speaker>ANNABELLA.</speaker>
+            <p n="77" xml:id="em0317-fr-78">Pourquoi faire?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-78">
+            <speaker>GIOVANNI.</speaker>
+            <p n="78" xml:id="em0317-fr-79">Et voici ma poitrine... frappe! ouvre mon sein... tu verras là un cœur sur lequel est écrite la vérité que j’ai dite... Pourquoi hésites-tu?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-79">
+            <speaker>ANNABELLA.</speaker>
+            <p n="79" xml:id="em0317-fr-80">Est-ce sérieux?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-80">
+            <speaker>GIOVANNI.</speaker>
+<p n="80" xml:id="em0317-fr-81">Oui... tu ne peux pas aimer? <stage type="delivery" xml:id="em0317-fr-st-21">(À part.)</stage> <seg type="aside" xml:id="em0317-fr-81-seg1">Mon àme est lourde de crainte et de douleur.</seg></p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-81">
+            <speaker>ANNABELLA.</speaker>
+            <p n="81" xml:id="em0317-fr-82">Qui?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-82">
+            <speaker>GIOVANNI.</speaker>
+            <p n="82" xml:id="em0317-fr-83">Moi. Mon âme torturée eût pu souffrir encoré dans les sueurs de l’agonie. O Annabella, je suis perdu! Mon amour pour toi, ma sœur, et la vue de ton immortelle beauté ont brisé l’harmonie de mon repos et de ma vie... Pourquoi ne pas frapper?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-83">
+            <speaker>ANNABELLA.</speaker>
+            <p n="83" xml:id="em0317-fr-84">M’en préservent mes justes craintes! Si c’était vrai, il vaudrait mieux que je fusse sous terre...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-84">
+            <speaker>GIOVANNI.</speaker>
+            <p n="84" xml:id="em0317-fr-85">Vrai, Annabella?... Il n’est plus temps de rire... J’ai trop longtemps étouffé les flammes secrètes qui m’ont presque consumé... J’ai passé plus d’une nuit silencieuse dans les soupirs et dans les hurlements... J’ai parcouru toutes mes pensées, j’ai exécré mon destin et j’ai raisonné contre les raisons de mon amour. J’ai fait tout ce que la pâle vertu pouvait me conseiller... Mais j’ai trouvé que tout était inutile. Et c’est ma destinée que tu doives m’aimer, ou qu’il faille que je meure...</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-85">
+            <speaker>ANNABELLA.</speaker>
+            <p n="85" xml:id="em0317-fr-86">Est-ce vrai tout ce que tu dis?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-86">
+            <speaker>GIOVANNI.</speaker>
+            <p n="86" xml:id="em0317-fr-87">Qu’un malheur me frappe à l’instant si je dissimule quelque chose.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-87">
+            <speaker>ANNABELLA.</speaker>
+            <p n="87" xml:id="em0317-fr-88">Tu es mon frère, Giovanni.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-88">
+            <speaker>GIOVANNI.</speaker>
+            <p n="88" xml:id="em0317-fr-89">Tu es ma sœur, Annabella. Je le sais, et je pourrais te prouver que c’est une raison de plus de nous aimer... Et c’est pourquoi la sage nature en te créant a voulu te créer pour moi. Sans cela, c’eût été un crime de n’accorder qu’une seule beauté à deux âmes. Les liens de la naissance et les liens du sang resserrent les liens de l’amour. J’ai demandé conseil à la sainte Eglise, qui me dit qu’il m’est permis de t’aimer... Et il est juste que, puisque je le puis, je le fasse, et je le ferai... Je le ferai. Faut-il maintenant vivre ou mourir?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-89">
+            <speaker>ANNABELLA.</speaker>
+            <p n="89" xml:id="em0317-fr-90">Vivre... Tu as vaincu sans avoir combattu... Ce que tu as demandé, mon cœur captif l’avait depuis bien longtemps résolu... Je rougis de le dire... Mais il faut te le dire à présent... Pour chaque soupir que tu as poussé, moi j’en ai poussé dix, et pour une larme, j’en ai répandu vingt... Et non pas tant parce que j’aimais, que parce que je n’osais pas dire que j’aimais, et que je n’osais même pas le penser...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-90">
+            <speaker>GIOVANNI.</speaker>
+            <p n="90" xml:id="em0317-fr-91">Que cette musique ne soit pas un vain rêve... O mon Dieu! Par pitié! nous vous en conjurons!</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-91">
+            <speaker>ANNABELLA.</speaker>
+<p n="91" xml:id="em0317-fr-92"><stage type="novelistic" xml:id="em0317-fr-st-22">S’agenouillant.</stage> A genoux, mon frère, et au nom de ma mère, je t’en conjure ne me trahis pas dans la joie ou la haine, aime-moi, mon frère, ou tue-moi...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-92">
+            <speaker>GIOVANNI.</speaker>
+<p n="92" xml:id="em0317-fr-93"><stage type="novelistic" xml:id="em0317-fr-st-23">S’agenouillant.</stage> A genoux, ma sœur, et au nom de ma mère, je t’en conjure, ne me trahis pas dans la joie ou la haine... Aime-moi, ma sœur, ou tue-moi...</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-93">
+            <speaker>ANNABELLA.</speaker>
+            <p n="93" xml:id="em0317-fr-94">Cest vrai?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-94">
+            <speaker>GIOVANNI.</speaker>
+            <p n="94" xml:id="em0317-fr-95">C’est vrai pour moi, et pour toi aussi, je l’espère... J’ai dit la vérité.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-95">
+            <speaker>ANNABELLA.</speaker>
+            <p n="95" xml:id="em0317-fr-96">Et moi je jure que je l’ai dite.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-96">
+            <speaker>GIOVANNI.</speaker>
+<p n="96" xml:id="em0317-fr-97">Et moi aussi, parce baiser. <stage type="novelistic" xml:id="em0317-fr-st-24">(Il l’embrasse.)</stage> Encore, encore, et maintenant, revelons-nous... Je ne voudrais pas échanger cette minute contre le paradis... Qu’allons-nous faire à present?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-97">
+            <speaker>ANNABELLA.</speaker>
+            <p n="97" xml:id="em0317-fr-98">Ce que tu veux...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-98">
+            <speaker>GIOVANNI.</speaker>
+            <p n="98" xml:id="em0317-fr-99">Viens, alors. Après avoir versé tant de larmes... apprenons à nous aimer dans les sourires, dans les baisers et le sommeil...</p>
+          </sp>
+          <stage type="exit" xml:id="em0317-fr-st-25">Ils sortent.</stage>
+          <stage xml:id="em0317-fr-st-26">Rideau.</stage>
+        </div2>
+      </div1>
+      <div1 n="2" type="act">
+        <div2 n="1" type="scene" xml:id="em0317-fr-sc-5">
+          <head>ACTE DEUXIÈME</head>
+        </div2>
+        <div2 n="2" type="scene" xml:id="em0317-fr-sc-6">
+          <head>SCÈNE PREMIÈRE</head>
+          <stage type="setting" xml:id="em0317-fr-st-27">Un appartement dans la maison de Florio.</stage>
+          <stage type="entrance" xml:id="em0317-fr-st-28">Entrent Giovanni et Annabella.</stage>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-99">
+            <speaker>GIOVANNI.</speaker>
+            <p n="99" xml:id="em0317-fr-100">Viens, Annabella... Non plus ma sœur, mais mon amour, un nom plus doux... Ne rougis pas, cher miracle de beauté, mais sois fière de savoir que tu as conquis en défaillant et que tu as enflammé un cœur dont le tribu est la vie de ton frère...</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-100">
+            <speaker>ANNABELLA.</speaker>
+            <p n="100" xml:id="em0317-fr-101">Comme ma vie est à lui... Oh! quelle rougeur ces joies dérobées eussent répandue sur mon visage... si quelque chose avait pu prévaloir contre les délices de mon cœur!</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-101">
+            <speaker>GIOVANNI.</speaker>
+            <p n="101" xml:id="em0317-fr-102">Je m’etonne que les plus chastes de ton sexe, puissent croire que ce joli joyau qu’on appelle la virginité soit si pénibe à perdre, car lorsqu’on l’a pris ce n’est rien, et la femme demeure la même.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-102">
+            <speaker>ANNABELLA.</speaker>
+            <p n="102" xml:id="em0317-fr-103">C’est facile à dire, et maintenant tu sais parler.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-103">
+            <speaker>GIOVANNI.</speaker>
+            <p n="103" xml:id="em0317-fr-104">La musique résidedans l’oreille autant que dans le jeu...</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-104">
+            <speaker>ANNABELLA.</speaker>
+            <p n="104" xml:id="em0317-fr-105">Oh! tu es un enfant... va toujours, cela vaudra mieux, va...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-105">
+            <speaker>GIOVANNI.</speaker>
+            <p n="105" xml:id="em0317-fr-106">Tu vas me gronder... Embrasse-moi, ma bien-aimée. C’est ainsi que Jupiter était suspendu au cou de Léda et buvait l’ambroisie divine sur ses lèvres... Je n’envie pas le plus puissant des hommes. Je me contente d’être ton roi, un roi plus grand que tout l’univers. Mais je vais te perdre ma bien-aimée...</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-106">
+            <speaker>ANNABELLA.</speaker>
+            <p n="106" xml:id="em0317-fr-107">Tu ne me perdras pas...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-107">
+            <speaker>GIOVANNI.</speaker>
+            <p n="107" xml:id="em0317-fr-108">On va te marier, mon amante.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-108">
+            <speaker>ANNABELLA.</speaker>
+            <p n="108" xml:id="em0317-fr-109">Avec qui?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-109">
+            <speaker>GIOVANNI.</speaker>
+            <p n="109" xml:id="em0317-fr-110">Il faut que quelqu’un te possède.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-110">
+            <speaker>ANNABELLA.</speaker>
+            <p n="110" xml:id="em0317-fr-111">Toi.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-111">
+            <speaker>GIOVANNI.</speaker>
+            <p n="111" xml:id="em0317-fr-112">Non... quelque autre.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-112">
+            <speaker>ANNABELLA.</speaker>
+            <p n="112" xml:id="em0317-fr-113">Je t’en prie, ne parle pas ainsi... Jete le dis sans rire, tu me ferais pleurer...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-113">
+            <speaker>GIOVANNI.</speaker>
+            <p n="113" xml:id="em0317-fr-114">Quoi? tu ne veux pas?... Dis-moi, mon aimée, oses-tu jurer que tu vivras pour moi et pour nul autre que pour moi?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-114">
+            <speaker>ANNABELLA.</speaker>
+            <p n="114" xml:id="em0317-fr-115">Par notre doublé amour je te le jure, car si tu savais, ô mon Giovanni, combien je hais ceux qui me font la cour, tu ne douterais plus.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-115">
+            <speaker>GIOVANNI.</speaker>
+            <p n="115" xml:id="em0317-fr-116">Assez. J’ai ta parole. Ma bien-aimée, il faut nous séparer. Souviens-toi de tes voeux et garde bien mon cœur.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-116">
+            <speaker>ANNABELLA.</speaker>
+            <p n="116" xml:id="em0317-fr-117">Tu t’en vas?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-117">
+            <speaker>GIOVANNI.</speaker>
+            <p n="117" xml:id="em0317-fr-118">Il le faut...</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-118">
+            <speaker>ANNABELLA.</speaker>
+            <p n="118" xml:id="em0317-fr-119">Quand reviens-tu?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-119">
+            <speaker>GIOVANNI.</speaker>
+            <p n="119" xml:id="em0317-fr-120">Bientôt.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-120">
+            <speaker>ANNABELLA.</speaker>
+            <p n="120" xml:id="em0317-fr-121">Ne l’oublie pas.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-121">
+            <speaker>GIOVANNI.</speaker>
+            <p n="121" xml:id="em0317-fr-122">Adieu!</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-122">
+            <speaker>ANNABELLA.</speaker>
+            <p n="122" xml:id="em0317-fr-123">Va où tu veux. Mon àme te garde ici, et où tu es, je sais que j’y serai...</p>
+          </sp>
+        </div2>
+        <div2 n="3" type="scene" xml:id="em0317-fr-sc-7">
+          <head>SCÈNE II</head>
+          <stage type="setting" xml:id="em0317-fr-st-29">La cellule de frère Bonaventure.</stage>
+          <stage type="entrance" xml:id="em0317-fr-st-30">Entrent frère Bonaventure et Giovanni.</stage>
+          <sp who="#P-" xml:id="em0317-fr-sp-123">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="123" xml:id="em0317-fr-124">Silence. Tu m’as fait un récit dont chaque mot menace ton âme d’une mort éternelle... Je regrette de l’avoir écouté... Plût à Dieu que mes oreilles eussent été sourdes avant le jour de ta venue! O mon enfant, jour et nuit j’ai épuisé mes pauvres yeux à pleurer sur ton sort. Mais le ciel es irrité, et si tu ne t’arrêtes pas, tu es marqué pour le malheur. Songes-y bien, s’il vient tardivement il viendra malgré tout.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-124">
+            <speaker>GIOVANNI.</speaker>
+            <p n="124" xml:id="em0317-fr-125">Mon père, vous n’avez pas pitié... Je vais vous prouver que ce que j’ai fait est bon et nécessaire. Lorsque j’étais votre disciple, vous m’avez enseigné que la forme et la nature de l’esprit correspondent à la forme et à la nature du corps. De sorte que là où le corps est beau, l’esprit doit être vertueux. Et si vous l’admettez, la vertu elle-même n’est plus que la raison raffinée, et l’amour en est la quintessence... Ce qui prouve que la beauté de ma sœur étant extraordinaire, sa vertu l’est aussi, surtout en son amour, et surtout en l’amour qu’elle a pour moi... Et s’il en est ainsi de son amour pour moi il en est de même de mon amour pour elle, car les mêmes causes ont les mêmes effets.</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-125">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="125" xml:id="em0317-fr-126">O l’ignorance dans la science! Combien de fois ne t’ai-je pas prémuni contre elle! Si nous étions bien sûrs qu’il n’y a pas de Dieu, ni de ciel ni d’enfer, alors peut-être, pourrions-nous nous laisser guider comme les philosophes anciens, par les clartés de la nature... Il n’en est pas ainsi et tu verras, pauvre incensé, que la nature est aveugle quand il s’agit du ciel...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-126">
+            <speaker>GIOVANNI.</speaker>
+            <p n="126" xml:id="em0317-fr-127">Ce sont les années qui vous pèsent. Si vous étiez jeune comme moi, vous feriez votre ciel de son amour, et d’elle-même vous feriez votre Dieu.</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-127">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="127" xml:id="em0317-fr-128">Je vois que tu es vendu à l’enfer. Il n’est pas au pouvoir de mes prières de te rappeler. Mais écoute mon conseil... persuade à ta sœur de se marier au plus tôt...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-128">
+            <speaker>GIOVANNI.</speaker>
+            <p n="128" xml:id="em0317-fr-129">Se marier! Mais c’est la dammer... et c’est montrer l’âpreté de ses désirs...</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-129">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="129" xml:id="em0317-fr-130">Si tu n’y consens pas, consens au moins à ce que j’entende sa confession de crainte qu’elle ne meure sans l’absolution...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-130">
+            <speaker>GIOVANNI.</speaker>
+            <p n="130" xml:id="em0317-fr-131">Comme vous voudrez, mon frère. Elle vous dira comme elle aime mon amour sans égal. Et vous saurez alors quelle cruauté c’eût été de nous arracher aux bras l’un de l’autre. Regardez bien son visage, vous y verrez le monde entier. Les couleurs ce sont ses lèvres, les parfums, son haleine, les joyaux, ses yeux... Les fils de l’or le plus pur, ses cheveux, et les plus belles fleurs, ses deux joues. Il y a un miracle en chacune des parties de son corps. Ecoutez-la parler et vous jurerez que les sphères chantent en elles pour les anges du ciel... Et, mon père, de peur d’offenser vos oreilles, je ne parlerai pas d’autres merveilles créées pour le plaisir...</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-131">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="131" xml:id="em0317-fr-132">Plus je t’entends, plus j’ai pitié de toi, en voyant qu’un être tel que toi se donne tout entier à une seconde mort. Je ne peux que prier, et cependant si tu voulais je pourrais encore te donner un conseil.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-132">
+            <speaker>GIOVANNI.</speaker>
+            <p n="132" xml:id="em0317-fr-133">Lequel?</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-133">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="133" xml:id="em0317-fr-134">Ne va plus auprès d’elle. Le trône de la miséricorde est plus haut que ton crime. Un peu de temps vous reste à tous deux.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-134">
+            <speaker>GIOVANNI.</speaker>
+            <p n="134" xml:id="em0317-fr-135">Pour nous embrasser sans cesse! Sinon que le temps disparaisse. Elle est comme moi et moi comme elle: prêts à tout.</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-135">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="135" xml:id="em0317-fr-136">Assez! J’irai la voir. Deux âmes sont perdues!...</p>
+          </sp>
+          <stage type="exit" xml:id="em0317-fr-st-31">Ils sortent.</stage>
+        </div2>
+        <div2 n="4" type="scene" xml:id="em0317-fr-sc-8">
+          <head>SCÈNE III</head>
+          <stage type="setting" xml:id="em0317-fr-st-32">Une chambre dans la maison de Florio.</stage>
+          <stage type="entrance" xml:id="em0317-fr-st-33">Entrent Florio, Donado, Annabella et Putana.</stage>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-136">
+            <speaker>FLORIO.</speaker>
+            <p n="136" xml:id="em0317-fr-137">Où est Giovanni?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-137">
+            <speaker>ANNABELLA.</speaker>
+            <p n="137" xml:id="em0317-fr-138">Il vient de sortir. Il m’a dit qu’il allait chez son maître, frère Bonaventure.</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-138">
+            <speaker>FLORIO.</speaker>
+            <p n="138" xml:id="em0317-fr-139">C’est un saint homme... un saint homme. J’espère qu’il lui enseignera la voie du ciel.</p>
+          </sp>
+          <sp who="#DONAT" xml:id="em0317-fr-sp-139">
+            <speaker>DONADO.</speaker>
+            <p n="139" xml:id="em0317-fr-140">Belle dame, voici une lettre que vous envoie mon neveu. Je puis dire qu’il vous aime du plus profond de l’âme. Et si vous pouviez entendre par moments ce que j’entends tout le jour, soupirs, larmes, comme si son cœr était captif dans sa poitrine...</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-140">
+            <speaker>FLORIO.</speaker>
+            <p n="140" xml:id="em0317-fr-141">Prends la lettre, Annabella.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-141">
+            <speaker>ANNABELLA.</speaker>
+            <p n="141" xml:id="em0317-fr-142">Pauvre jeune homme!</p>
+          </sp>
+          <stage type="novelistic" xml:id="em0317-fr-st-34">Elle prend la lettre.</stage>
+          <sp who="#DONAT" xml:id="em0317-fr-sp-142">
+            <speaker>DONADO.</speaker>
+            <p n="142" xml:id="em0317-fr-143">Qu’a-t-elle dit?</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-143">
+            <speaker>PUTANA.</speaker>
+            <p n="143" xml:id="em0317-fr-144">Elle a dit, monsieur: «Pauvre jeune homme». Toutes les nuits je lui en parle avant qu’elle s’endorme, afin qu’elle rêve de lui, et elle m’écoute très attentivement.</p>
+          </sp>
+          <sp who="#DONAT" xml:id="em0317-fr-sp-144">
+            <speaker>DONADO.</speaker>
+<p n="144" xml:id="em0317-fr-145">Vraiment? Merci, Putana, voici pour toi, <stage type="novelistic" xml:id="em0317-fr-st-35">(Il lui donne de l’argent.)</stage> et je t’en prie, fais ce que tu peux en sa faveur, tu ne perdras pas ta peine, je te le promets.</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-145">
+            <speaker>PUTANA.</speaker>
+            <p n="145" xml:id="em0317-fr-146">Grand merci, monsieur. Maintenant que je sais ce que vous voulez, laissez-moi agir.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-146">
+            <speaker>ANNABELLA.</speaker>
+            <p n="146" xml:id="em0317-fr-147">Putana!</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-147">
+            <speaker>PUTANA.</speaker>
+            <p n="147" xml:id="em0317-fr-148">M’appelez-vous?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-148">
+            <speaker>ANNABELLA.</speaker>
+            <p n="148" xml:id="em0317-fr-149">Garde cette lettre.</p>
+          </sp>
+          <sp who="#DONAT" xml:id="em0317-fr-sp-149">
+            <speaker>DONADO.</speaker>
+            <p n="149" xml:id="em0317-fr-150">Signor Florio, je vous en prie, dites-lui de la lire tout de suite.</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-150">
+            <speaker>FLORIO.</speaker>
+            <p n="150" xml:id="em0317-fr-151">La garder? pourquoi? Lis-la immédiatement.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-151">
+            <speaker>ANNABELLA.</speaker>
+            <p n="151" xml:id="em0317-fr-152">Comme vous voudrez.</p>
+          </sp>
+          <stage type="novelistic" xml:id="em0317-fr-st-36">Elle lit.</stage>
+          <sp who="#DONAT" xml:id="em0317-fr-sp-152">
+            <speaker>DONADO.</speaker>
+            <p n="152" xml:id="em0317-fr-153">Dans quelles dispositions se trouve-t-elle, monsieur?</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-153">
+            <speaker>FLORIO.</speaker>
+            <p n="153" xml:id="em0317-fr-154">Je ne sais trop... elle semble moins bien disposée qu’il ne faudrait.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-154">
+            <speaker>ANNABELLA.</speaker>
+            <p n="154" xml:id="em0317-fr-155">Monsieur, je suis bien obligé à monsieur votre neveu, je lui renverrai le bijou, car s’il m’aime, son amour m’est déjà un joyau.</p>
+          </sp>
+          <sp who="#DONAT" xml:id="em0317-fr-sp-155">
+            <speaker>DONADO.</speaker>
+            <p n="155" xml:id="em0317-fr-156">Voyez-vous! Non, gardez les deux joyaux, belle vierge.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-156">
+            <speaker>ANNABELLA.</speaker>
+            <p n="156" xml:id="em0317-fr-157">Excusez-moi, je ne puis.</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-157">
+            <speaker>FLORIO.</speaker>
+            <p n="157" xml:id="em0317-fr-158">Où est l’anneau que ta mère t’a confié le jour de sa mort, en t’ordonnant de ne le passer qu’au doigt de ton époux. Donne-le lui.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-158">
+            <speaker>ANNABELLA.</speaker>
+            <p n="158" xml:id="em0317-fr-159">Je ne l’ai pas.</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-159">
+            <speaker>FLORIO.</speaker>
+            <p n="159" xml:id="em0317-fr-160">Tu ne l’as pas? Où est-il?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-160">
+            <speaker>ANNABELLA.</speaker>
+            <p n="160" xml:id="em0317-fr-161">Mon frère me l’a pris ce matin en disant qu’il voulait le porter aujourd’hui.</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-161">
+            <speaker>FLORIO.</speaker>
+            <p n="161" xml:id="em0317-fr-162">Bien, mais que vas-tu répondre au jeune Bergetto? Consens-tu à le prendre pour époux?</p>
+          </sp>
+          <sp who="#DONAT" xml:id="em0317-fr-sp-162">
+            <speaker>DONADO.</speaker>
+            <p n="162" xml:id="em0317-fr-163">Voilà la question, en effet.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-163">
+            <speaker>ANNABELLA.</speaker>
+<p n="163" xml:id="em0317-fr-164"><stage type="delivery" xml:id="em0317-fr-st-37">À part.</stage> <seg type="aside" xml:id="em0317-fr-164-seg1">Que faire? Il faut que je dice quelque chose.</seg></p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-164">
+            <speaker>FLORIO.</speaker>
+            <p n="164" xml:id="em0317-fr-165">Quoi? Pourquoi ne parles-tu pas?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-165">
+            <speaker>ANNABELLA.</speaker>
+            <p n="165" xml:id="em0317-fr-166">Mon père, si vous le permettez... suis-je libre?</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-166">
+            <speaker>FLORIO.</speaker>
+            <p n="166" xml:id="em0317-fr-167">Parfaitement.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-167">
+            <speaker>ANNABELLA.</speaker>
+            <p n="167" xml:id="em0317-fr-168">Seigneur Donado, si votre neveu espère améliorer sa position par son mariage, l’espoir qu’il met en moi, détruira cet espoir. Si vous l’aimez et je sais que vous le faites, cherchez une femme qui plus que moi soit digne de lui. En un mot, je suis sûre que je ne serai pas sa femme.</p>
+          </sp>
+          <sp who="#DONAT" xml:id="em0317-fr-sp-168">
+            <speaker>DONADO.</speaker>
+            <p n="168" xml:id="em0317-fr-169">Voilà qui est loyal. Je vous en félicite, et le pis que je vous souhaite, c’est que le ciel vous ait en sa garde. Votre père et moi resterons bons amis, n’est-ce pas, seigneur Florio?</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-169">
+            <speaker>FLORIO.</speaker>
+<p n="169" xml:id="em0317-fr-170">Pourquoi pas? <stage type="exit" xml:id="em0317-fr-st-38">(Sort Donado.)</stage><lb xml:id="em0317-fr-171"/>Voici ton frère, Annabella. <stage type="entrance" xml:id="em0317-fr-st-39">(Entre Giovanni.)</stage><lb xml:id="em0317-fr-172"/>D’où viens-tu, mon enfant? Quoi? toujours seul, toujours seul. Il faut que cela change, il faut abandonner cette passion pour les livres. Ta sœur vient de donner congé au nigaud.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-170">
+            <speaker>GIOVANNI.</speaker>
+            <p n="170" xml:id="em0317-fr-173">Ce n’était pas un parti sortable.</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-171">
+            <speaker>FLORIO.</speaker>
+            <p n="171" xml:id="em0317-fr-174">Ce n’en était pas un, c’est vrai, et c’était mon idée. Soranzo est l’homme qu’il nous faut. Remarquez-le, Annabella. Venez, il est temps de souper. Il se fait tard.</p>
+          </sp>
+          <stage type="exit" xml:id="em0317-fr-st-40">Il sort.</stage>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-172">
+            <speaker>GIOVANNI.</speaker>
+            <p n="172" xml:id="em0317-fr-175">D’où vient ce bijou?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-173">
+            <speaker>ANNABELLA.</speaker>
+            <p n="173" xml:id="em0317-fr-176">De quelque amant.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-174">
+            <speaker>GIOVANNI.</speaker>
+            <p n="174" xml:id="em0317-fr-177">Ce me semble.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-175">
+            <speaker>ANNABELLA.</speaker>
+            <p n="175" xml:id="em0317-fr-178">Un jeune homme, le seigneur Donado, me l’a donné afin que je le porte au jour de mes noces.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-176">
+            <speaker>GIOVANNI.</speaker>
+            <p n="176" xml:id="em0317-fr-179">Mais tu ne le porteras pas, renvoie-le.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-177">
+            <speaker>ANNABELLA.</speaker>
+            <p n="177" xml:id="em0317-fr-180">Quoi? tu es jaloux?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-178">
+            <speaker>GIOVANNI.</speaker>
+            <p n="178" xml:id="em0317-fr-181">C’est ce que tu apprendras bientôt plus à loisir. Sois la bienvenue, ô douce nuit, le soir vient couronner le jour.</p>
+          </sp>
+          <stage type="exit" xml:id="em0317-fr-st-41">Ils sortent.</stage>
+          <stage xml:id="em0317-fr-st-42">Rideau.</stage>
+        </div2>
+      </div1>
+      <div1 n="3" type="act">
+        <div2 n="1" type="scene" xml:id="em0317-fr-sc-9">
+          <head>ACTE TROISIÈME</head>
+        </div2>
+        <div2 n="2" type="scene" xml:id="em0317-fr-sc-10">
+          <head>SCÈNE PREMIÈRE</head>
+          <stage type="setting" xml:id="em0317-fr-st-43">Une chambre dans la maison de Florio.</stage>
+          <stage type="entrance" xml:id="em0317-fr-st-44">Entrent Florio, Giovanni, Soranzo, Annabella, Putana, et Vasques.</stage>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-179">
+            <speaker>FLORIO.</speaker>
+            <p n="179" xml:id="em0317-fr-182">Monsieur Soranzo, quoique je doive avœur qu’on a proposé de fort beaux partis à ma fille, l’espoir que j’ai en votre avenir a prévalu contre tout le reste. La voilà, elle sait mes intentions. Parlez-lui. Et quant à toi, ma fille, aie soin de le traiter comme il faut. Je vais vous laisser seuls. Venez, mon fils, et les autres, laissez-les. Qu’ils s’accordent comme ils peuvent.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-180">
+            <speaker>SORANZO.</speaker>
+            <p n="180" xml:id="em0317-fr-183">Merci, monsieur.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-181">
+            <speaker>GIOVANNI.</speaker>
+<p n="181" xml:id="em0317-fr-184"><stage type="delivery" xml:id="em0317-fr-st-45">À part, à Annabella.</stage> <seg type="aside" xml:id="em0317-fr-184-seg1">Ma sœur, ne sois pas femme tout entière. Songe à moi.</seg></p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-182">
+            <speaker>SORANZO.</speaker>
+            <p n="182" xml:id="em0317-fr-185">Vasques!</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-183">
+            <speaker>VASQUES.</speaker>
+            <p n="183" xml:id="em0317-fr-186">Monsieur.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-184">
+            <speaker>SORANZO.</speaker>
+            <p n="184" xml:id="em0317-fr-187">Attends-moi dehors.</p>
+          </sp>
+          <stage type="mixed" xml:id="em0317-fr-st-46">Tous sortent excepté Soranzo et Annabella.</stage>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-185">
+            <speaker>ANNABELLA.</speaker>
+            <p n="185" xml:id="em0317-fr-188">Monsieur, que me voulez-vous?</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-186">
+            <speaker>SORANZO.</speaker>
+            <p n="186" xml:id="em0317-fr-189">Ne savez-vous pas ce que je vais vous dire?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-187">
+            <speaker>ANNABELLA.</speaker>
+            <p n="187" xml:id="em0317-fr-190">Oui, vous allez me dire que vous m’aimez.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-188">
+            <speaker>SORANZO.</speaker>
+            <p n="188" xml:id="em0317-fr-191">Et le jurer aussi, voudrez-vous le croire?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-189">
+            <speaker>ANNABELLA.</speaker>
+            <p n="189" xml:id="em0317-fr-192">Ce n’est pas un article de foi.</p>
+          </sp>
+          <stage type="entrance" xml:id="em0317-fr-st-47">Giovanni entre dans la galerie supérieure.</stage>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-190">
+            <speaker>SORANZO.</speaker>
+            <p n="190" xml:id="em0317-fr-193">N’avez-vous point le désir d&apos;aimer?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-191">
+            <speaker>ANNABELLA.</speaker>
+            <p n="191" xml:id="em0317-fr-194">Pas vous.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-192">
+            <speaker>SORANZO.</speaker>
+            <p n="192" xml:id="em0317-fr-195">Qui donc?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-193">
+            <speaker>ANNABELLA.</speaker>
+            <p n="193" xml:id="em0317-fr-196">C’est selon que le destin décidera.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-194">
+            <speaker>GIOVANNI.</speaker>
+<p n="194" xml:id="em0317-fr-197"><stage type="delivery" xml:id="em0317-fr-st-48">À part.</stage> <seg type="aside" xml:id="em0317-fr-197-seg1">C’est moi qui suis le maitre du destin en ce moment.</seg></p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-195">
+            <speaker>SORANZO.</speaker>
+            <p n="195" xml:id="em0317-fr-198">Que comptez-vous faire?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-196">
+            <speaker>ANNABELLA.</speaker>
+            <p n="196" xml:id="em0317-fr-199">Vivre et mourir vierge.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-197">
+            <speaker>SORANZO.</speaker>
+            <p n="197" xml:id="em0317-fr-200">Oh! ce n’est pas raisonnable.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-198">
+            <speaker>GIOVANNI.</speaker>
+<p n="198" xml:id="em0317-fr-201"><stage type="delivery" xml:id="em0317-fr-st-49">À part.</stage> <seg type="aside" xml:id="em0317-fr-201-seg1">Il y a quelqu’un qui peut vous dire que ce n’est qu’un propos de femme.</seg></p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-199">
+            <speaker>SORANZO.</speaker>
+            <p n="199" xml:id="em0317-fr-202">Si vous pouviez voir mon cœur, vous jureriez...</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-200">
+            <speaker>ANNABELLA.</speaker>
+            <p n="200" xml:id="em0317-fr-203">Que vous êtes mort.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-201">
+            <speaker>GIOVANNI.</speaker>
+<p n="201" xml:id="em0317-fr-204"><stage type="delivery" xml:id="em0317-fr-st-50">À part.</stage> <seg type="aside" xml:id="em0317-fr-204-seg1">C’est vrai ou pas loin de la...</seg></p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-202">
+            <speaker>SORANZO.</speaker>
+            <p n="202" xml:id="em0317-fr-205">Voyez-vous ces larmes d&apos;un amour profond?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-203">
+            <speaker>ANNABELLA.</speaker>
+            <p n="203" xml:id="em0317-fr-206">Non.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-204">
+            <speaker>GIOVANNI.</speaker>
+<p n="204" xml:id="em0317-fr-207"><stage type="delivery" xml:id="em0317-fr-st-51">À part.</stage> <seg type="aside" xml:id="em0317-fr-207-seg1">Elle me cligne de l&apos;œil.</seg></p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-205">
+            <speaker>SORANZO.</speaker>
+            <p n="205" xml:id="em0317-fr-208">Elles implorent votre grâce.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-206">
+            <speaker>ANNABELLA.</speaker>
+            <p n="206" xml:id="em0317-fr-209">Mais elles ne parlent pas.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-207">
+            <speaker>SORANZO.</speaker>
+            <p n="207" xml:id="em0317-fr-210">Accordez-moi ce que je vous demande.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-208">
+            <speaker>ANNABELLA.</speaker>
+            <p n="208" xml:id="em0317-fr-211">Qu’est-ce?</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-209">
+            <speaker>SORANZO.</speaker>
+            <p n="209" xml:id="em0317-fr-212">La vie.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-210">
+            <speaker>ANNABELLA.</speaker>
+            <p n="210" xml:id="em0317-fr-213">Prenez-la.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-211">
+            <speaker>SORANZO.</speaker>
+            <p n="211" xml:id="em0317-fr-214">Elle est à vous.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-212">
+            <speaker>ANNABELLA.</speaker>
+            <p n="212" xml:id="em0317-fr-215">Je ne l’ai pas.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-213">
+            <speaker>GIOVANNI.</speaker>
+<p n="213" xml:id="em0317-fr-216"><stage type="delivery" xml:id="em0317-fr-st-52">À part.</stage> <seg type="aside" xml:id="em0317-fr-216-seg1">Encore un mot pareil et son espoir est mort...</seg></p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-214">
+            <speaker>SORANZO.</speaker>
+            <p n="214" xml:id="em0317-fr-217">Mademoiselle, abandonnons ces jeux inutiles, et sachez que je vous ai aimée longtemps et profondément. Et ce n’est pas l&apos;espoir de ce que vous avez, male de ce que vous êtes qui m’attire. Ne me laissez pas souffrir en vain les rigueurs de vos chastes dédains, je suis malade et malade jusqu&apos;au cœur...</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-215">
+            <speaker>ANNABELLA.</speaker>
+            <p n="215" xml:id="em0317-fr-218">Au secours! l’eau-de-vie!</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-216">
+            <speaker>SORANZO.</speaker>
+            <p n="216" xml:id="em0317-fr-219">Qu’avez-vous?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-217">
+            <speaker>ANNABELLA.</speaker>
+            <p n="217" xml:id="em0317-fr-220">Mais je vous croyais malade...</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-218">
+            <speaker>SORANZO.</speaker>
+            <p n="218" xml:id="em0317-fr-221">Vous moquez-vous de mon amour?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-219">
+            <speaker>GIOVANNI.</speaker>
+<p n="219" xml:id="em0317-fr-222"><stage type="delivery" xml:id="em0317-fr-st-53">À part.</stage> <seg type="aside" xml:id="em0317-fr-222-seg1">Ah! elle est trop habile...</seg></p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-220">
+            <speaker>SORANZO.</speaker>
+<p n="220" xml:id="em0317-fr-223"><stage type="delivery" xml:id="em0317-fr-st-54">À part.</stage> <seg type="aside" xml:id="em0317-fr-223-seg1">Elle se moque de moi.</seg> <stage type="delivery" xml:id="em0317-fr-st-55">(Haut.)</stage> Ces railleries font tort à votre caractère et à votre âge.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-221">
+            <speaker>ANNABELLA.</speaker>
+            <p n="221" xml:id="em0317-fr-224">Vous n’êtes pas un miroir; si vous en étiez un, j’y verrais comment il faut que je vous parle.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-222">
+            <speaker>GIOVANNI.</speaker>
+<p n="222" xml:id="em0317-fr-225"><stage type="delivery" xml:id="em0317-fr-st-56">À part.</stage> <seg type="aside" xml:id="em0317-fr-225-seg1">Je ne doute plus.</seg></p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-223">
+            <speaker>ANNABELLA.</speaker>
+            <p n="223" xml:id="em0317-fr-226">Pour en finir, monsieur, il me semble que votre bon sens devrait vous faire comprendre que si je vous aimais ou si je désirais votre amour, je vous aurais mieux accueilli. Mais puisque vous êtes gentilhomme et que je ne voudrais pas vous voir dépenser en espoirs inutiles toute votre jeunesse, je vous conseille de cesser votre cour et croyez que c’est pour votre bien que je vous le conseille.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-224">
+            <speaker>SORANZO.</speaker>
+            <p n="224" xml:id="em0317-fr-227">Est-ce bien vous qui dites cola?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-225">
+            <speaker>ANNABELLA.</speaker>
+            <p n="225" xml:id="em0317-fr-228">Oui, moi-même. Mais sachez ─ je vous donne cette consolation ─ sachez que si mes yeux eussent eu à choisir un époux parmi tous ceux qui demandaient ma main, c’est vous qu’ils eussent choisi. Que cela vous suffise... soyez discret et sage.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-226">
+            <speaker>GIOVANNI.</speaker>
+<p n="226" xml:id="em0317-fr-229"><stage type="delivery" xml:id="em0317-fr-st-57">À part.</stage> <seg type="aside" xml:id="em0317-fr-229-seg1">C’est maintenant que je vois qu’elle m’aime.</seg></p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-227">
+            <speaker>ANNABELLA.</speaker>
+            <p n="227" xml:id="em0317-fr-230">Un mot encore: si jamais la vertu a vécu dans votre âme, si jamais de nobles pensées vous ont servi de guide, si vous voulez jamais que je croie que vous m’avez aimée; que mon père ne sache rien de tout ceci. Si dans la suite il faut que je prenne un époux, ce sera vous et nul autre que vous...</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-228">
+            <speaker>SORANZO.</speaker>
+            <p n="228" xml:id="em0317-fr-231">J’en garde la promesse.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-229">
+            <speaker>ANNABELLA.</speaker>
+            <p n="229" xml:id="em0317-fr-232">Oh! oh! mon front!</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-230">
+            <speaker>SORANZO.</speaker>
+            <p n="230" xml:id="em0317-fr-233">Qu’y a-t-il? Vous souffrez?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-231">
+            <speaker>ANNABELLA.</speaker>
+            <p n="231" xml:id="em0317-fr-234">Je vais me trouver mal...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-232">
+            <speaker>GIOVANNI.</speaker>
+<p n="232" xml:id="em0317-fr-235"><stage type="delivery" xml:id="em0317-fr-st-58">À part.</stage> <seg type="aside" xml:id="em0317-fr-235-seg1">Le ciel vous en préserve...</seg></p>
+          </sp>
+          <stage type="exit" xml:id="em0317-fr-st-59">Il quitte la galerie.</stage>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-233">
+            <speaker>SORANZO.</speaker>
+<p n="233" xml:id="em0317-fr-236">Au secours! au secours! hé là-bas! ho!... <stage type="entrance" xml:id="em0317-fr-st-60">(Rentrent Florio, Giovanni et Putana.)</stage><lb xml:id="em0317-fr-237"/>Prenez soin de votre fille, seigneur Florio.</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-234">
+            <speaker>FLORIO.</speaker>
+            <p n="234" xml:id="em0317-fr-238">Soutenez-la, elle défaille...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-235">
+            <speaker>GIOVANNI.</speaker>
+            <p n="235" xml:id="em0317-fr-239">Ma sœur, comment vas-tu?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-236">
+            <speaker>ANNABELLA.</speaker>
+            <p n="236" xml:id="em0317-fr-240">Mal... mon frère... est-ce toi?</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-237">
+            <speaker>FLORIO.</speaker>
+            <p n="237" xml:id="em0317-fr-241">Portez-la out de site sur son lit, tandis que je vais envoyer quérir le médecin... vite...</p>
+          </sp>
+          <stage type="mixed" xml:id="em0317-fr-st-61">Ils sortent tous excepte Soranzo.</stage>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-238">
+            <speaker>PUTANA.</speaker>
+            <p n="238" xml:id="em0317-fr-242">Pauvre enfant!</p>
+          </sp>
+          <stage type="entrance" xml:id="em0317-fr-st-62">Rentre Vasques.</stage>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-239">
+            <speaker>VASQUES.</speaker>
+            <p n="239" xml:id="em0317-fr-243">Monsieur...</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-240">
+            <speaker>SORANZO.</speaker>
+            <p n="240" xml:id="em0317-fr-244">O Vasques! j’ai perdu a la fois tout espoir dans le présent et dans l’avenir... Elle m’a formellement dit qu’elle ne pouvait aimer... et sur ces mots, s’est trouvée mal... Je crains que sa vie ne soit en grand danger...</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-241">
+            <speaker>VASQUES.</speaker>
+            <p n="241" xml:id="em0317-fr-245">Monsieur, j’en suis bien désolé... Il se peut que ce ne soit qu’un mal de jeune fille... un efflux de jeunesse, et alors, il n’y a pas de meilleur remède qu’un mariage immédiat... Mais vous-a-t-elle opposé un refus formel?</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-242">
+            <speaker>SORANZO.</speaker>
+            <p n="242" xml:id="em0317-fr-246">Oui et non... Je suis triste... Tout en marchant je vous dirai ce qu’elle m’a dit...</p>
+          </sp>
+          <stage type="exit" xml:id="em0317-fr-st-63">Ils sortent.</stage>
+        </div2>
+        <div2 n="3" type="scene" xml:id="em0317-fr-sc-11">
+          <head>SCÈNE IV</head>
+          <stage type="setting" xml:id="em0317-fr-st-64">Une autre chambre dans la même maison.</stage>
+          <stage type="entrance" xml:id="em0317-fr-st-65">Entrant Giovanni et Putana.</stage>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-243">
+            <speaker>PUTANA.</speaker>
+            <p n="243" xml:id="em0317-fr-247">Monsieur... nous sommes perdus, perdus, absolument perdus, et couverts de honte a jamais! Votre sœur, oh! votre sœur!...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-244">
+            <speaker>GIOVANNI.</speaker>
+            <p n="244" xml:id="em0317-fr-248">Eh bien quoi? Pour Dieu parle!... Comment va-t-elle?</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-245">
+            <speaker>PUTANA.</speaker>
+            <p n="245" xml:id="em0317-fr-249">Oh! pourquoi suis-je née s’il fallait voir ce jour!</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-246">
+            <speaker>GIOVANNI.</speaker>
+            <p n="246" xml:id="em0317-fr-250">Elle n’est pas morte?...</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-247">
+            <speaker>PUTANA.</speaker>
+            <p n="247" xml:id="em0317-fr-251">Morte?... Non, c’est bien pis!─ elle est enceinte. Vous savez ce que vous avez fait... Que le ciel vous pardonne... II n’est plus temps de se repentir... Que Dieu lui soit en aide!</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-248">
+            <speaker>GIOVANNI.</speaker>
+            <p n="248" xml:id="em0317-fr-252">Enceinte? Comment sais-tu?</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-249">
+            <speaker>PUTANA.</speaker>
+            <p n="249" xml:id="em0317-fr-253">Comment je sais?...Croyez-vous qu’a mon âge j’ignore encore ce que signifient ces nausées, ces pâleurs soudaines, ces caprices do la faim, ces vomissements et autres choses que je pourrais nommer? Ne perdez pas le temps, je vous en prie, à demander quand et comment cela s’est fait... Elle est enceinte, vous pouvez m’en croire, et si un médecin l’examine vous êtes perdu.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-250">
+            <speaker>GIOVANNI.</speaker>
+            <p n="250" xml:id="em0317-fr-254">Mais comment se trouve-t-elle?</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-251">
+            <speaker>PUTANA.</speaker>
+            <p n="251" xml:id="em0317-fr-255">Mieux... Ce n’était qu&apos;une crise... je l’ai vu tout de suite... Elle peut s’attendre à en avoir bien d’autres.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-252">
+            <speaker>GIOVANNI.</speaker>
+            <p n="252" xml:id="em0317-fr-256">Parle-lui de moi et dis-lui de ne pas s’inquiéter... fais en sorte qu’aucun médecin ne l’examine... imagine quelque prétexte jusqu’à mon retour... Hélas! j’ai un monde de soucis dans la tête!... Ne la décourage pas... Cette nouvelle m’inquiète... Si mon pare vient la voir, dis-lui qu’elle est rétablie... dis-lui que ce n’était qu’une petite indisposition... As-tu compris?... Qu’on y veille...</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-253">
+            <speaker>PUTANA.</speaker>
+            <p n="253" xml:id="em0317-fr-257">J’y veillerai, monsieur...</p>
+          </sp>
+          <stage type="exit" xml:id="em0317-fr-st-66">Ils sortent.</stage>
+        </div2>
+        <div2 n="4" type="scene" xml:id="em0317-fr-sc-12">
+          <head>SCÈNE V</head>
+          <stage type="setting" xml:id="em0317-fr-st-67">Une autre chambre dans la même maison.</stage>
+          <stage type="entrance" xml:id="em0317-fr-st-68">Entrent Florio et Richardetto.</stage>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-254">
+            <speaker>FLORIO.</speaker>
+            <p n="254" xml:id="em0317-fr-258">Comment l’avez-vous trouvée, monsieur?</p>
+          </sp>
+          <sp who="#RICTT" xml:id="em0317-fr-sp-255">
+            <speaker>RICHARDETTO.</speaker>
+            <p n="255" xml:id="em0317-fr-259">Assez Bien... Il n’y a aucun danger... à peine voit-on qu’elle est malade... Elle m’a dit qu’elle avait mangé du melon, et qu’elle croyait que ce fruit ne convenait pas à son estomac...</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-256">
+            <speaker>FLORIO.</speaker>
+            <p n="256" xml:id="em0317-fr-260">Lui avez-vous donne quelque remède?</p>
+          </sp>
+          <sp who="#RICTT" xml:id="em0317-fr-sp-257">
+            <speaker>RICHARDETTO.</speaker>
+            <p n="257" xml:id="em0317-fr-261">Une purgation légère... rien autre... Il ne faut pas vous inquiéter de sa santé... Je crois plutôt que son indisposition provient d’un excès de sang... Vous me comprenez?...</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-258">
+            <speaker>FLORIO.</speaker>
+            <p n="258" xml:id="em0317-fr-262">Parfaitement... Votre conseil est bon... et avant peu il sera suivi... Elle sera mariée avant qu’elle s’en doute.</p>
+          </sp>
+          <sp who="#RICTT" xml:id="em0317-fr-sp-259">
+            <speaker>RICHARDETTO.</speaker>
+            <p n="259" xml:id="em0317-fr-263">Il ne faut pas cependant que trop de hâte vous fasse faire un choix malheureux.</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-260">
+            <speaker>FLORIO.</speaker>
+            <p n="260" xml:id="em0317-fr-264">Non, mon cher docteur, ne craignez rien. Le seigneur Soranzo est l&apos;homme que j’ai en vue.</p>
+          </sp>
+          <sp who="#RICTT" xml:id="em0317-fr-sp-261">
+            <speaker>RICHARDETTO.</speaker>
+            <p n="261" xml:id="em0317-fr-265">Un noble et vertueux gentilhomme.</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-262">
+            <speaker>FLORIO.</speaker>
+            <p n="262" xml:id="em0317-fr-266">Le plus noble de Parme. Non loin d’ici demeure Frère Bonaventure, un saint ermite, autrefois précepteur de mon fils. Ils seront mariés dans sa cellule.</p>
+          </sp>
+          <sp who="#RICTT" xml:id="em0317-fr-sp-263">
+            <speaker>RICHARDETTO.</speaker>
+            <p n="263" xml:id="em0317-fr-267">Vous avez pris de sages mesures.</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-264">
+            <speaker>FLORIO.</speaker>
+            <p n="264" xml:id="em0317-fr-268">J’enverrai quelqu’un afin qu’il vienne me parler cette nuit...</p>
+          </sp>
+          <sp who="#RICTT" xml:id="em0317-fr-sp-265">
+            <speaker>RICHARDETTO.</speaker>
+            <p n="265" xml:id="em0317-fr-269">Soranzo est sage; il ne perdra as de temps.</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-266">
+            <speaker>FLORIO.</speaker>
+            <p n="266" xml:id="em0317-fr-270">C’est décidé...</p>
+          </sp>
+          <stage type="entrance" xml:id="em0317-fr-st-69">Entrent frère Bonaventure et Giovanni.</stage>
+          <sp who="#P-" xml:id="em0317-fr-sp-267">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="267" xml:id="em0317-fr-271">Que la paix et l’amour soient ici.</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-268">
+            <speaker>FLORIO.</speaker>
+            <p n="268" xml:id="em0317-fr-272">Soyez le bienvenu, mon frère, vous apportez les bénédictions du ciel partout où vous entrez.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-269">
+            <speaker>GIOVANNI.</speaker>
+            <p n="269" xml:id="em0317-fr-273">Mon père, j’ai fait ce que j’ai pu pour arracher à sa cellule ce saint homme et l’amener au plus vite au chevet de ma sœur; afin que par ses saintes consolations en ce triste moment, il puisse l’absoudre pour la vie ou la mort.</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-270">
+            <speaker>FLORIO.</speaker>
+            <p n="270" xml:id="em0317-fr-274">C’est bien, Giovanni. Tu as fait preuve d&apos;une chrétienne inquiétude et d’un amour fraternel. Venez, mon père, je vais vous conduire à sa chambre et j’ai à vous parler.</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-271">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="271" xml:id="em0317-fr-275">Dites, monsieur...</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-272">
+            <speaker>FLORIO.</speaker>
+            <p n="272" xml:id="em0317-fr-276">Je voudrais voir ma fille mariée comme il convient avant que je descende dans la tombe... Un mot de vous, mon père, y fera plus que nos meilleures exhortations.</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-273">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="273" xml:id="em0317-fr-277">Monsieur, je ferai tout ce que je puis pour que le ciel lui soit en aide.</p>
+          </sp>
+        </div2>
+        <div2 n="5" type="scene" xml:id="em0317-fr-sc-13">
+          <head>SCÈNE VI</head>
+          <stage type="setting" xml:id="em0317-fr-st-70">La chambre d’Annabella.</stage>
+          <stage type="setting" xml:id="em0317-fr-st-71">Une table avec des cierges.</stage>
+          <stage type="novelistic" xml:id="em0317-fr-st-72">Annabella se confesse au frère Bonaventure, elle pleure et se tord les bras.</stage>
+          <sp who="#P-" xml:id="em0317-fr-sp-274">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="274" xml:id="em0317-fr-278">Je suis heureux de voir ce repentir. Car, croyez-moi, vous m’avez découvert une âme si souillée et si coupable, que je m’étonne que la terre vous ait supportée, mais pleurez, pleurez encore, les larmes vous feront du bien; pleurez encore tandis que je vais dire une prière</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-275">
+            <speaker>ANNABELLA.</speaker>
+            <p n="275" xml:id="em0317-fr-279">Misérable créature!...</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-276">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="276" xml:id="em0317-fr-280">Oui, vous êtes misérable, tristement misérable!.. et presque damnée vive! Il est un lieu, écoutez-moi, ma fille, il est un lieu, sous des voûtes profondes, où le jour ne pénètre jamais; là, jamais de soleil, mais la flamboyante horreur de feux qui consument tout, le soufre qui brûle sans clarté, et les brumes fumeuses de ténèbres empestées. En ce lieu il y a cent mille genres de morts qui ne meurent jamais. Là, les âmes damnées rugissent sans pitié. Là, les gloutons sont nourris de crapauds et de vipères. Là, on verse l’huile bouillante dans la gorge de l’ivrogne. L’usurier doit avaler de pleines rasades d&apos;or fondu. Le meurtrier y est éternellement poignardé et cependant ne peut jamais mourir. Le débauché y est étendu sur des grils d’acier rougi, tandis qu’en son âme il nourrit les tourments de sa luxure ardente...</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-277">
+            <speaker>ANNABELLA.</speaker>
+            <p n="277" xml:id="em0317-fr-281">Pitié! Ayez pitié!</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-278">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="278" xml:id="em0317-fr-282">C’est là qu’on voit, se maudissant l’un l’autre, ces malheureux dont la vie a passé comme un rave dans les lits de l’adultère ou au milieu d’incestes secrets. Alors vous souhaiterez que chacun des baisers de votre frère eût été un poignard; alors vous l’entendrez clamer: «Oh! que n’a-t-elle été damnée, ma misérable sœur, quand elle céda à la luxure!» Mais patience. Il me semble que le repentir agite votre cœur. ─ Dites: qu’éprouvez-vous?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-279">
+            <speaker>ANNABELLA.</speaker>
+            <p n="279" xml:id="em0317-fr-283">N’y a-t-il aucun remède à ma misère?</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-280">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="280" xml:id="em0317-fr-284">Il y en a, ne désespérez pas, le ciel est miséricordieux, et maintenant encore vous offre le pardon. Voici ce qui vous reste á faire: il faut d’abord, pour sauver votre honneur, que vous épousiez le seigneur Soranzo. Ensuite et pour sauver votre âme, abandonnez cette vie pècheresse et ne vivez plus que pour votre mari.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-281">
+            <speaker>ANNABELLA.</speaker>
+            <p n="281" xml:id="em0317-fr-285">Malheur à moi!</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-282">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="282" xml:id="em0317-fr-286">Ne soupirez pas. Je sais qu’on ne renonce pas sans peine aux appas du péché. Mais continuer cette vie, c’est la mort. Songez á ce qui doit venir. Acceptez-vous?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-283">
+            <speaker>ANNABELLA.</speaker>
+            <p n="283" xml:id="em0317-fr-287">J’accepte.</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-284">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="284" xml:id="em0317-fr-288">C’est bien, nous verrons. Qui entre là?</p>
+          </sp>
+          <stage type="entrance" xml:id="em0317-fr-st-73">Entrent Florio et Giovanni.</stage>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-285">
+            <speaker>FLORIO.</speaker>
+            <p n="285" xml:id="em0317-fr-289">Avez-vous appelé, mon père?</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-286">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="286" xml:id="em0317-fr-290">Le seigneur Soranzo est-il venu?</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-287">
+            <speaker>FLORIO.</speaker>
+            <p n="287" xml:id="em0317-fr-291">Il attend en bas.</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-288">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="288" xml:id="em0317-fr-292">Dites-lui qu’elle consent...</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-289">
+            <speaker>FLORIO.</speaker>
+            <p n="289" xml:id="em0317-fr-293">Oh! il sera heureux...</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-290">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="290" xml:id="em0317-fr-294">Et nous aussi. Priez-le d’entrer.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-291">
+            <speaker>GIOVANNI.</speaker>
+<p n="291" xml:id="em0317-fr-295"><stage type="delivery" xml:id="em0317-fr-st-74">À part.</stage> <seg type="aside" xml:id="em0317-fr-295-seg1">Ma sœur on larmes?... Ah! je crains la duplicité de ce frère.</seg> <stage type="delivery" xml:id="em0317-fr-st-75">(Haut.)</stage> Je vais l’appeler.</p>
+          </sp>
+          <stage type="exit" xml:id="em0317-fr-st-76">Il sort.</stage>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-292">
+            <speaker>FLORIO.</speaker>
+            <p n="292" xml:id="em0317-fr-296">Ma fille, to résolution est-elle prise?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-293">
+            <speaker>ANNABELLA.</speaker>
+            <p n="293" xml:id="em0317-fr-297">Oui.</p>
+          </sp>
+          <stage type="entrance" xml:id="em0317-fr-st-77">Rentre Giovanni avec Soranzo et Vasques.</stage>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-294">
+            <speaker>FLORIO.</speaker>
+            <p n="294" xml:id="em0317-fr-298">Seigneur Soranzo, donnez-moi la main. Je vous donne celle-ci on échange.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-295">
+            <speaker>SORANZO.</speaker>
+<p n="295" xml:id="em0317-fr-299"><stage type="novelistic" xml:id="em0317-fr-st-78">Ils se serrent les mains.</stage> Mademoiselle, consentez-vous aussi?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-296">
+            <speaker>ANNABELLA.</speaker>
+            <p n="296" xml:id="em0317-fr-300">Oui, et je promets de vivre avec vous et à vous.</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-297">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="297" xml:id="em0317-fr-301">C’est bien, je vous bénis tous deux, et ce qui reste à faire, nous le ferons demain...</p>
+          </sp>
+          <stage type="exit" xml:id="em0317-fr-st-79">Ils sortent.</stage>
+        </div2>
+      </div1>
+      <div1 n="4" type="act">
+        <div2 n="1" type="scene" xml:id="em0317-fr-sc-14">
+          <head>ACTE QUATRIÈME</head>
+          <stage type="setting" xml:id="em0317-fr-st-80">Une chambre dans la maison de Soranzo.</stage>
+        </div2>
+        <div2 n="2" type="scene" xml:id="em0317-fr-sc-15">
+          <head>SCÈNE PREMIÈRE</head>
+          <stage type="entrance" xml:id="em0317-fr-st-81">Entre Soranzo à moitié dévêtu et traînant Annabella.</stage>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-298">
+            <speaker>SORANZO.</speaker>
+            <p n="298" xml:id="em0317-fr-302">Ici, catin, et illustre p.....!... Quand chaque goutte de sang qui coule dans tes veines adultères contiendrait une vie, cette épée ─ tu la vois? ─ d’un seul coup, elle les détruirait toutes... P...... rare, énorme p....., dont la face de bronze affirme le péché. N’y avait-il pas dans tout Parme un autre homme pour en faire ton... fallait-il que les chatouillements de tes désirs fussent... Et fallait-il me choisir pour masquer tes sales secrets at les jeux de ton ventre? Maintenant, c’est moi qui dois être le père de toute cette galimafrée qui bourre ces entrailles à bàtards pourris. Dis, est-ce moi?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-299">
+            <speaker>ANNABELLA.</speaker>
+            <p n="299" xml:id="em0317-fr-303">Brut! c’est votre destin... Ce n’est pas moi qui vous ai demandé. Si je n’avais pas craint que votre trop amoureuse seigneurie ne fût devenue folle à mon refus et si vous m’aviez laisse quelque temps, je vous aurais dit ce qu’il en était. Mais vous en vouliez faire à votre tête.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-300">
+            <speaker>SORANZO.</speaker>
+            <p n="300" xml:id="em0317-fr-304">P..... des p.....! Oses-tu me dire ça?...</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-301">
+            <speaker>ANNABELLA.</speaker>
+            <p n="301" xml:id="em0317-fr-305">Oui; pourquoi pas?... Vous vous êtes trompé... ce n’est pas par amour que je vous ai pris, mais pour sauver mon honneur. Mais voyez: si vous voulez être patient et cacher votre déception, je pourrais voir si je ne puis pas vous aimer...</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-302">
+            <speaker>SORANZO.</speaker>
+            <p n="302" xml:id="em0317-fr-306">Misérable! Quoi! n’es-tu pas grosse?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-303">
+            <speaker>ANNABELLA.</speaker>
+            <p n="303" xml:id="em0317-fr-307">Pourquoi tout ceci, lorsque c’est inutile. Eh bien! Oui, je suis enceinte.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-304">
+            <speaker>SORANZO.</speaker>
+            <p n="304" xml:id="em0317-fr-308">Qui l’a fait?...</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-305">
+            <speaker>ANNABELLA.</speaker>
+            <p n="305" xml:id="em0317-fr-309">Doucement cela n’est pas dans mon contrat. ─ Cependant, monsieur, pour vous apaiser quelque peu, je veux bien vous dire quelque chose. L’homme, celui qui est plus qu’un homme et qui m’a fait ce garçon, car c’est un garçon, monsieur, et soyez-en heureux, c’est un garçon qui héritera de vous...</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-306">
+            <speaker>SORANZO.</speaker>
+            <p n="306" xml:id="em0317-fr-310">Abominable monstre!</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-307">
+            <speaker>ANNABELLA.</speaker>
+            <p n="307" xml:id="em0317-fr-311">Si vous n&apos;écoutez pas, moi, je ne parle plus.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-308">
+            <speaker>SORANZO.</speaker>
+            <p n="308" xml:id="em0317-fr-312">Oui, parle, et dis tes derniers mots...</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-309">
+            <speaker>ANNABELLA.</speaker>
+            <p n="309" xml:id="em0317-fr-313">Accepté! accepté!... Cet homme était en toutes choses si semblable à un ange, et si beau, qu’une femme, si elle avait été un être supérieur à ce que j&apos;étais, moi, simple femme, fût tombée à genoux devant lui, eût mendié son amour... vous! mais vous n’êtes pas digne de prononcer une seule fois son nom sans le vénérer comme un Dieu, et vous ne pourriez pas l’entendre prononcer sans vous agenouiller!</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-310">
+            <speaker>SORANZO.</speaker>
+            <p n="310" xml:id="em0317-fr-314">Comment se nomme-t-il?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-311">
+            <speaker>ANNABELLA.</speaker>
+            <p n="311" xml:id="em0317-fr-315">Nous n’y sommes pas encore. Qu’il vous suffise d’avoir l’honneur de servir de père à celui qu’un tel père a fait naitre. En un mot, si cela n’était pas arrivé ─ je n’aurais seulement pas remarqué que vous êtes un être vivant et si ce n’était pas que vous êtes mon mari ─ je ne le concevrais pas encore!...</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-312">
+            <speaker>SORANZO.</speaker>
+            <p n="312" xml:id="em0317-fr-316">Son nom!</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-313">
+            <speaker>ANNABELLA.</speaker>
+            <p n="313" xml:id="em0317-fr-317">Hélas! hélas! C’est tout. Voulez-vous m’en croire?</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-314">
+            <speaker>SORANZO.</speaker>
+            <p n="314" xml:id="em0317-fr-318">Quoi?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-315">
+            <speaker>ANNABELLA.</speaker>
+            <p n="315" xml:id="em0317-fr-319">Vous ne le saurez jamais.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-316">
+            <speaker>SORANZO.</speaker>
+            <p n="316" xml:id="em0317-fr-320">Quoi?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-317">
+            <speaker>ANNABELLA.</speaker>
+            <p n="317" xml:id="em0317-fr-321">Jamais. Si je le dis que je sois à jamais damnée!</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-318">
+            <speaker>SORANZO.</speaker>
+            <p n="318" xml:id="em0317-fr-322">Je ne le saurai pas, s...? Je t’ouvrirai le cœur et je l’y trouverai!...</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-319">
+            <speaker>ANNABELLA.</speaker>
+            <p n="319" xml:id="em0317-fr-323">Faites, faites.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-320">
+            <speaker>SORANZO.</speaker>
+            <p n="320" xml:id="em0317-fr-324">Et de mes dents, et membre à membre j’écorcherai l’infâme.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-321">
+            <speaker>ANNABELLA.</speaker>
+            <p n="321" xml:id="em0317-fr-325">Ha! ha! le bonhomme est joyeux!</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-322">
+            <speaker>SORANZO.</speaker>
+            <p n="322" xml:id="em0317-fr-326">Tu ris? tiens, p....., dis-moi le nom de ton amant. Je hacherai to chair. Qui est-ce?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-323">
+            <speaker>ANNABELLA.</speaker>
+            <lg part="M" type="free">
+<l n="323" xml:id="em0317-fr-327"><stage type="delivery" xml:id="em0317-fr-st-82">Chantant.</stage> <emph>Che morte più dolce che morire per amore?</emph></l>
+            </lg>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-324">
+            <speaker>SORANZO.</speaker>
+            <p n="324" xml:id="em0317-fr-328">Je trainerai par les cheveux, je trainerai dans la poussière ton corps couvert de lèpre et de luxure...</p>
+          </sp>
+          <stage type="novelistic" xml:id="em0317-fr-st-83">Il la tire en avant et en arrière.</stage>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-325">
+            <speaker>ANNABELLA.</speaker>
+            <lg part="M" type="free">
+<l n="325" xml:id="em0317-fr-329"><stage type="delivery" xml:id="em0317-fr-st-84">Chantant.</stage> <emph>Morendo in grazia dee morire senza dolore.</emph></l>
+            </lg>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-326">
+            <speaker>SORANZO.</speaker>
+            <p n="326" xml:id="em0317-fr-330">Tu triomphes? Les trésors de la terre ne te rachèteraient pas. Il y aurait des rois agenouilles pour demander to vie, des anges descendraient et me prieraient en lames qu’ils ne prévaudraient pas contre ma rage. Tu ne trembles pas encore?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-327">
+            <speaker>ANNABELLA.</speaker>
+            <p n="327" xml:id="em0317-fr-331">Pourquoi? Mourir! Non, sois un galant bourreau. Je te défie! frappe, frappe au cœur. Je laisse une vengeance après moi et to l’éprouveras...</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-328">
+            <speaker>SORANZO.</speaker>
+            <p n="328" xml:id="em0317-fr-332">Cependant, dis-moi avant de mourir, dis-moi sincèrement, ton vieux père savait-il tout ceci?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-329">
+            <speaker>ANNABELLA.</speaker>
+            <p n="329" xml:id="em0317-fr-333">Non ─ sur ma vie.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-330">
+            <speaker>SORANZO.</speaker>
+            <p n="330" xml:id="em0317-fr-334">Veux-tu avouer? je te laisse la vie...</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-331">
+            <speaker>ANNABELLA.</speaker>
+            <p n="331" xml:id="em0317-fr-335">La vie? Je ne veux pas l&apos;acheter à ce prix.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-332">
+            <speaker>SORANZO.</speaker>
+            <p n="332" xml:id="em0317-fr-336">Alors ma vengeance n’attend plus.</p>
+          </sp>
+          <stage type="novelistic" xml:id="em0317-fr-st-85">Il tire son épée.</stage>
+          <stage type="entrance" xml:id="em0317-fr-st-86">Entre Vasques.</stage>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-333">
+            <speaker>VASQUES.</speaker>
+            <p n="333" xml:id="em0317-fr-337">Que faites-vous, monsieur?</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-334">
+            <speaker>SORANZO.</speaker>
+            <p n="334" xml:id="em0317-fr-338">Laisse-moi, Vasques, une pareille p..... ne mérite pas de pitié.</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-335">
+            <speaker>VASQUES.</speaker>
+            <p n="335" xml:id="em0317-fr-339">Pour Dieu! Voulez-vous être son bourreau et la tuer dans votre rage? Ce ne serait pas digne d’un homme. Elle est votre femme. Ce qu’elle a fait avant son mariage elle ne l’a pas fait contre vous. Hélas! la pauvre dame! qu’a-t-elle fait que n’eût fait à sa place toute autre femme en Italie? Monsieur, il faut vous laisser guider par votre raison et non par votre colère. Ce serait inhumain.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-336">
+            <speaker>SORANZO.</speaker>
+            <p n="336" xml:id="em0317-fr-340">Elle ne vivra pas.</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-337">
+            <speaker>VASQUES.</speaker>
+            <p n="337" xml:id="em0317-fr-341">Si, si, il le faut. Vous voudriez qu’elle vous dise qui l’a mise dans cet état? Je vous jure que c’est une question indiscrète. Et elle perdrait toute mon estime si elle vous répondait. Mais, monsieur, c’est vous surtout, qui devez l’ignorer!... Mon bon monsieur, faites votre paix avec elle, hélas! la pauvre femme!</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-338">
+            <speaker>ANNABELLA.</speaker>
+            <p n="338" xml:id="em0317-fr-342">Je vous en prie, n’implorez pas pour moi. Je ne tiens pas à la vie. ─ S’il veut faire une folie, qu’il la fasse.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-339">
+            <speaker>SORANZO.</speaker>
+            <p n="339" xml:id="em0317-fr-343">Tu l’entends, Vasques?</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-340">
+            <speaker>VASQUES.</speaker>
+<p n="340" xml:id="em0317-fr-344">Oui, et je l’approuve. Elle montre la noblesse d’une belle âme. Et, dites-en ce que vous voudrez ─ cela lui va bien. ─ <stage type="delivery" xml:id="em0317-fr-st-87">(Bas à Soranzo.)</stage> Monsieur, en tout cas retardez un peu votre vengeance, laissez-moi découvrir la piste, laissez-moi faire, si vous tenez à votre honneur, sinon vous gâterez tout. <stage type="delivery" xml:id="em0317-fr-st-88">(Haut.)</stage> Monsieur, si jamais j’ai pu vous rendre quelque service, je vous en prie, ne soyez pas si violent dans vos emportements. Vous êtes marié. Quel triomphe, s’ils apprenaient la chose. Quel triomphe pour les prétendants évincés! Il faut supporter ces malheurs comme un homme ou les pardonner comme un Dieu.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-341">
+            <speaker>SORANZO.</speaker>
+            <p n="341" xml:id="em0317-fr-345">O Vasques, Vasques! En cette chair, en ce visage sans foi, j’avais mis tous les frissons de mon cœur! Si tu avais été fidèle, belle et coupable femme, les joies sans égales du ciel même, ne m&apos;eussent pas fait souhaiter de vivre avec une autre sainte que toi! Perfide créature! Comme tu as bafoué mon espoir, et comme tu m’as enseveli vivant dans la honte de ton sexe impudique! Je t&apos;ai trop tendrement aimée!...</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-342">
+            <speaker>VASQUES.</speaker>
+<p n="342" xml:id="em0317-fr-346"><stage type="delivery" xml:id="em0317-fr-st-89">Bas à Soranzo.</stage> Voilà qui est bien. Continuez dans ce genre, soyez bref et troublant, c’est ce qu’il faut.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-343">
+            <speaker>SORANZO.</speaker>
+            <p n="343" xml:id="em0317-fr-347">Que ton âme et tes pensées soient témoins de mes paroles, et dis-moi, si dans ton cœur tu n’as pas cru que je t’adorais trop dévotieusement?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-344">
+            <speaker>ANNABELLA.</speaker>
+            <p n="344" xml:id="em0317-fr-348">Je dois avouer que je sais que vous m’avez profondément aimée.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-345">
+            <speaker>SORANZO.</speaker>
+            <p n="345" xml:id="em0317-fr-349">Et tu m’as traité de la sorte! O Annabella, sache bien, que quel que soit le misérable qui t’a fait descendre où tu es, il a pu te désirer, mais il ne t’a jamais aimée comme je t’ai aimée. Il a aimé ce qu’il a vu sur ton visage, mais il n’a pas aimé ce que j&apos;ai adore, ton cœur, et ce que j’ai cru tes vertus...</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-346">
+            <speaker>ANNABELLA.</speaker>
+            <p n="346" xml:id="em0317-fr-350">Seigneur, ces paroles font saigner plus que votre épée...</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-347">
+            <speaker>VASQUES.</speaker>
+            <p n="347" xml:id="em0317-fr-351">Le diable m’emporte, mais moi-même je commence à pleurer tant j’ai pitié de lui. Voilà, madame, je savais bien que sa colère passée nous en viendrions là...</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-348">
+            <speaker>SORANZO.</speaker>
+            <p n="348" xml:id="em0317-fr-352">Pardonne-moi, Annabella. ─ Bien que ta jeunesse tentée au-dessus de ses forces t’ait fait faire cette folie, je ne veux pas oublier ce que je dois être et ce que je suis, ─un époux. Il y a quelque chose de divin dans ce nom. Si je vois que dorénavant tu veux m’être fidèle, je te pardonne toutes tes fautes, et te demande de venir dans mes bras...</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-349">
+            <speaker>VASQUES.</speaker>
+            <p n="349" xml:id="em0317-fr-353">Voilà qui est d’une noble charité.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-350">
+            <speaker>ANNABELLA.</speaker>
+            <p n="350" xml:id="em0317-fr-354">Seigneur, sur mes genoux...</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-351">
+            <speaker>SORANZO.</speaker>
+            <p n="351" xml:id="em0317-fr-355">Lève-toi, ne t’agenouille pas. Rentre dans ta chambre. Qu’on ne s’aperçoive de rien. J’irai t’y rejoindre a l’instant. Je sais que la femme est bien faible. Rentre dans ta chambre...</p>
+          </sp>
+          <stage type="exit" xml:id="em0317-fr-st-90">Annabella sort.</stage>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-352">
+            <speaker>VASQUES.</speaker>
+            <p n="352" xml:id="em0317-fr-356">Voilà qui est bien. ─ Monsieur, que dites-vous maintenant de votre paradis de joie?</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-353">
+            <speaker>SORANZO.</speaker>
+            <p n="353" xml:id="em0317-fr-357">J’ai l&apos;enfer dans le cœur, et la vengeance bouillonne dans mon sang.</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-354">
+            <speaker>VASQUES.</speaker>
+            <p n="354" xml:id="em0317-fr-358">C’est possible, mais savez-vous comment la satisfaire et sur qui elle tombera?</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-355">
+            <speaker>SORANZO.</speaker>
+            <p n="355" xml:id="em0317-fr-359">Je le lui ferai avouer, ou bien...</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-356">
+            <speaker>VASQUES.</speaker>
+            <p n="356" xml:id="em0317-fr-360">Ou bien quoi? Ce n’est pas cela ─ laissez-moi vous prêcher la patience. Allez la retrouver ─ prêchez-la doucement. Amenez-la, si c’est possible à la soumission et aux larmes. Quant au reste, si tout va bien, je m’en charge. Je vous en prie, allez-y. Je ne tarderai pas à vous annoncer des miracles.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-357">
+            <speaker>SORANZO.</speaker>
+            <p n="357" xml:id="em0317-fr-361">Une vengeance retardée n’en est que plus cruelle.</p>
+          </sp>
+          <stage type="exit" xml:id="em0317-fr-st-91">II sort.</stage>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-358">
+            <speaker>VASQUES.</speaker>
+<p n="358" xml:id="em0317-fr-362">Ah! coquine, voilà de la besogne! ─ J’avais déjà des soupçons, il y a quelque temps. Mais après avoir vu les regards dédaigneux de ma maitresse, son irritabilité et ses hauts cris de mécontentement à tout ce qu’elle voyait ici, je me suis rappelé le proverbe qui dit que « les maisons où les poules chantent et les coqs se taisent, sont de tristes maisons ». Doucement!... Si l’art d’une tailleuse peut cacher ces choses, je ne blâmerai jamais... Si vite!... l’art serait de découvrir qui l’a fait. J’y ai songé... <stage type="entrance" xml:id="em0317-fr-st-92">(Entre Putana.)</stage><lb xml:id="em0317-fr-363"/>et voici la voie s’il en est une. Quoi, des cris ma bonne vieille? ─ Hélas! hélas! Je ne vous le reproche pas ─ nous avons un maitre, ─ le ciel nous aide ─ qui est aussi fou que le diable lui-même. Tant pis pour lui...</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-359">
+            <speaker>PUTANA.</speaker>
+            <p n="359" xml:id="em0317-fr-364">O Vasques, être née pour voir ces choses! ─Te traite-t-il aussi de la sorte, Vasques?</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-360">
+            <speaker>VASQUES.</speaker>
+            <p n="360" xml:id="em0317-fr-365">Moi? Il me traite comme un chien. Mais si quelqu’un était de mon avis, je sais bien ce que je ferais. Aussi vrai que je suis un honnête homme, il va tuer un de ces jours notre maitresse. Admettons qu’elle soit grosse. Est-ce là un crime qu’il faille reprocher ainsi à une femme de son âge?</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-361">
+            <speaker>PUTANA.</speaker>
+            <p n="361" xml:id="em0317-fr-366">Hélas! mon brave ami, c’est sans qu’elle l’ait voulu, bien sûr.</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-362">
+            <speaker>VASQUES.</speaker>
+            <p n="362" xml:id="em0317-fr-367">Je parie que toute sa rage vient de ce qu’elle ne veut pas dire qui a fait la chose. Il le veut savoir et quand il le saura, je le connais assez pour savoir qu’il l&apos;oubliera tout de suite, je voudrais qu’elle le lui avouât simplement, voilà le moyen.</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-363">
+            <speaker>VASQUES.</speaker>
+            <p n="363" xml:id="em0317-fr-368">J’en suis sûr. Pourvu qu’il n’ait pas dû lui arracher l’aveu. Il s’est imaginé un moment que vous pouviez tout dire et il voulait vous y forcer. Mais je suis parvenu à to calmer un peu. Cependant, je suis sûr que vous on savez long...</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-364">
+            <speaker>PUTANA.</speaker>
+            <p n="364" xml:id="em0317-fr-369">Que le ciel nous pardonne! Je sais quelque chose, Vasques.</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-365">
+            <speaker>VASQUES.</speaker>
+            <p n="365" xml:id="em0317-fr-370">Pourquoi pas. Quel autre le saurait? Elle vous aime tendrement et je suis sûr que vous ne voudriez pas lui causer le moindre chagrin.</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-366">
+            <speaker>PUTANA.</speaker>
+            <p n="366" xml:id="em0317-fr-371">Pas pour tout l’or du monde, Vasques.</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-367">
+            <speaker>VASQUES.</speaker>
+            <p n="367" xml:id="em0317-fr-372">Ce serait bien mal. Mais ici, vous pourriez soulager sa douleur, apaiser mon maître et en même temps y trouver plus d’un avantage pour vous-même.</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-368">
+            <speaker>PUTANA.</speaker>
+            <p n="368" xml:id="em0317-fr-373">Vous croyez, Vasques?</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-369">
+            <speaker>VASQUES.</speaker>
+            <p n="369" xml:id="em0317-fr-374">J’en suis sûr. C’était évidemment quelque ami intime?</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-370">
+            <speaker>PUTANA.</speaker>
+            <p n="370" xml:id="em0317-fr-375">Un ami très intime en effet.</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-371">
+            <speaker>VASQUES.</speaker>
+            <p n="371" xml:id="em0317-fr-376">Mais qui? ne craignez pas de le nommer. Je mets ma vie entre vous et tout ce qui pourrait vous arriver. Je crois que ce n’était pas le premier venu.</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-372">
+            <speaker>PUTANA.</speaker>
+            <p n="372" xml:id="em0317-fr-377">Vous prenez tout sur vous?</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-373">
+            <speaker>VASQUES.</speaker>
+            <p n="373" xml:id="em0317-fr-378">Comment donc! Vous serez récompensée par dessus le marché.</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-374">
+            <speaker>PUTANA.</speaker>
+            <p n="374" xml:id="em0317-fr-379">C’est tout simplement son frère.</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-375">
+            <speaker>VASQUES.</speaker>
+            <p n="375" xml:id="em0317-fr-380">Son frère Giovanni, je parie?</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-376">
+            <speaker>PUTANA.</speaker>
+            <p n="376" xml:id="em0317-fr-381">Lui-même, Vasques. Le plus galant gentilhomme qu’une dame ait jamais embrassé. Oh! ils s’aiment pour l&apos;éternité.</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-377">
+            <speaker>VASQUES.</speaker>
+<p n="377" xml:id="em0317-fr-382">Un galant gentilhomme en effet! ─ Oh! mais elle a bon goût. <stage type="delivery" xml:id="em0317-fr-st-93">(À part.)</stage> <seg type="aside" xml:id="em0317-fr-382-seg1">De mieux en mieux.</seg> Vous êtes sûre que c’est lui?<lb xml:id="em0317-fr-383"/>Tout à fait sûre. Vous verrez qu’il ne restera pas longtemps sans la voir.</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-378">
+            <speaker>VASQUES.</speaker>
+            <p n="378" xml:id="em0317-fr-384">Il aurait tort d’ailleurs. Mais je puis vous en croire?</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-379">
+            <speaker>PUTANA.</speaker>
+            <p n="379" xml:id="em0317-fr-385">M’en croire? Me prenez-vous pour un Turc ou un Juif. Je les ai vus à l’œuvre trop longtemps pour en douter...</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-380">
+            <speaker>VASQUES.</speaker>
+<p n="380" xml:id="em0317-fr-386"><stage type="novelistic" xml:id="em0317-fr-st-94">Appelant à la porte.</stage> Où êtes-vous, vous autres, entrez!</p>
+          </sp>
+          <stage type="entrance" xml:id="em0317-fr-st-95">Entrent des domestiques.</stage>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-381">
+            <speaker>PUTANA.</speaker>
+            <p n="381" xml:id="em0317-fr-387">Ah! qu’est-ce que c’est?</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-382">
+            <speaker>VASQUES.</speaker>
+            <p n="382" xml:id="em0317-fr-388">Vous le saurez tout de suite. Entrez, messieurs, empoignez-moi cette vieille sorcière, bâillonnez-la à l’instant et crevez-lui les yeux. Vite, vite.</p>
+          </sp>
+          <sp who="#GOVERNANTE" xml:id="em0317-fr-sp-383">
+            <speaker>PUTANA.</speaker>
+            <p n="383" xml:id="em0317-fr-389">Vasques! Vasques!</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-384">
+            <speaker>VASQUES.</speaker>
+<p n="384" xml:id="em0317-fr-390">Bâillonez-la, je vous dis. Voulez-vous qu’elle piaille? Que cherchez-vous? Je vais moi-même... Je vais aider vos vieilles gencives, ma biche au ventre de crapaud. <stage type="novelistic" xml:id="em0317-fr-st-96">(Ils la bâillonnent.)</stage> Messieurs, descendez-la à la cave aux charbons, crevez-lui les yeux et si elle crie, fendez-lui le nez. Avez-vous compris? Faites vite at bien. <stage type="exit" xml:id="em0317-fr-st-97">(Sortent les domestiques emportant Putana.)</stage><lb xml:id="em0317-fr-391"/>Voilà qui est excellent at inattendu. Son propre frère! Abominable! A quels crimes extraordinaires le diable n’a-t-il pas entrainé notre siècle! Son frère! c’est bien. Ceci n’est qu&apos;un commencement. Il faut que j’aille trouver mon maître et lui donne de meilleurs conseils au sujet de sa vengeance. Mais doucement. Qui est-ce qui vient? ─ Giovanni! ─ A souhait. Ma conviction est faits et aussi inébranlable que l’hiver ou l’été.</p>
+          </sp>
+          <stage type="entrance" xml:id="em0317-fr-st-98">Entre Giovanni.</stage>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-385">
+            <speaker>GIOVANNI.</speaker>
+            <p n="385" xml:id="em0317-fr-392">Où est ma sœur?</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-386">
+            <speaker>VASQUES.</speaker>
+            <p n="386" xml:id="em0317-fr-393">Elle a eu une nouvelle crise, monsieur, elle est quelque peu malade.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-387">
+            <speaker>GIOVANNI.</speaker>
+            <p n="387" xml:id="em0317-fr-394">Elle a mangé trop de viande, je suppose.</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-388">
+            <speaker>VASQUES.</speaker>
+            <p n="388" xml:id="em0317-fr-395">En effet, monsieur, je crois que vous le savez, mais ma vertueuse maîtresse...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-389">
+            <speaker>GIOVANNI.</speaker>
+            <p n="389" xml:id="em0317-fr-396">Où est-elle?</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-390">
+            <speaker>VASQUES.</speaker>
+<p n="390" xml:id="em0317-fr-397">Dans sa chambre. Allez la voir. Elle est seule. <stage type="novelistic" xml:id="em0317-fr-st-99">(Giovanni lui donne de l’argent.)</stage> Votre générosité m’a fait deux fois votre serviteur at je le serai toujours, toujours. <stage type="exit" xml:id="em0317-fr-st-100">(Giovanni sort.)</stage> <stage type="entrance" xml:id="em0317-fr-st-101">(Rentre Soranzo.)</stage><lb xml:id="em0317-fr-398"/>Monsieur, j’ai mérité d’être appelé un homme et j’ai bien dirige ma barque. Je voudrais vous parler en secret.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-391">
+            <speaker>SORANZO.</speaker>
+            <p n="391" xml:id="em0317-fr-399">Le frère de ma femme est venu. Il saura tout.</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-392">
+            <speaker>VASQUES.</speaker>
+            <p n="392" xml:id="em0317-fr-400">Il peut savoir... J’ai mis quelqu’un en lieu sûr. Comment avez-vous traits ma maîtresse?</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-393">
+            <speaker>SORANZO.</speaker>
+            <p n="393" xml:id="em0317-fr-401">Doucement, comme to me l’avais conseillé. Oh! mon âme rôde en cercle dans sa douleur à la recherche de sa vengeance, mais Vasques, tu sauras...</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-394">
+            <speaker>VASQUES.</speaker>
+            <p n="394" xml:id="em0317-fr-402">Non, je n’en veux pas savoir davantage. C’est à vous de savoir maintenant, mais je ne veux pas vous an parler ici.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-395">
+            <speaker>SORANZO.</speaker>
+            <p n="395" xml:id="em0317-fr-403">Rien ne pourra se vanter de m’avoir fait trembler.</p>
+          </sp>
+          <stage type="exit" xml:id="em0317-fr-st-102">Ils sortent.</stage>
+          <stage xml:id="em0317-fr-st-103">Rideau.</stage>
+        </div2>
+      </div1>
+      <div1 n="5" type="act">
+        <div2 n="1" type="scene" xml:id="em0317-fr-sc-16">
+          <head>ACTE CINQUIÈME</head>
+          <stage type="location" xml:id="em0317-fr-st-104">La rue devant la maison de Soranzo.</stage>
+        </div2>
+        <div2 n="2" type="scene" xml:id="em0317-fr-sc-17">
+          <head>SCÈNE PREMIÈRE</head>
+          <stage type="setting" xml:id="em0317-fr-st-105">Annabella paraît à une fenêtre de l’étage.</stage>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-396">
+            <speaker>ANNABELLA.</speaker>
+<p n="396" xml:id="em0317-fr-404">Adieu plaisirs, et vous toutes, minutes inutiles où de fausses joies ont dévidé les fils d’une vie lasse! ─ Je dis adieu à mon bonheur. ─ Et toi, temps précieux, qui passe sur le monde, arrête ici tes pas infatigables, afin de terminer le cours de ma destinée et d’apporter aux âges qui ne sont pas encore, la tragédie d’une pauvre et misérable femme! Ma conscience se dresse maintenant devant mon désir et m’accuse impitoyablement. <stage type="entrance" xml:id="em0317-fr-st-106">Frère Bonaventure entre dans la rue.</stage><lb xml:id="em0317-fr-405"/>Elle me dit que je suis perdue, j’en conviens à présent, la beauté qui couvre le visage est maudite si la grâce ne l’accompagne pas. Ici, emprisonnée comme une colombe dans sa cage, je parle sans compagne au vent et aux murailles, et je m’appesantis sur mon triste malheur. O Giovanni, to as eu les dépouilles de tes propres vertus et de mon pauvre honneur! Plût à Dieu que tu eusses été moins soumis aux étoiles désolées sous lesquelles je suis née! Plût à Dieu que le châtiment de mon crime se détournât de toi, et que moi seule j’éprouvasse les tourments des feux inextinguibles!</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-397">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+<p n="397" xml:id="em0317-fr-406"><stage type="delivery" xml:id="em0317-fr-st-107">À part.</stage> <seg type="aside" xml:id="em0317-fr-406-seg1">Qu’est-ce que j’entends?...</seg></p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-398">
+            <speaker>ANNABELLA.</speaker>
+            <p n="398" xml:id="em0317-fr-407">Cet homme, le saint ermite, qui mit ma main dans celle de mon époux, m’a dit souvent que je marchais dans les sentiers de la mort. Mais ceux qui dormant dans la léthargie du péché, embrassent leur propre ruine et accusent le ciel d’injustice. Et je l’ai fait aussi...</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-399">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+<p n="399" xml:id="em0317-fr-408"><stage type="delivery" xml:id="em0317-fr-st-108">À part.</stage> <seg type="aside" xml:id="em0317-fr-408-seg1">Voici une musique douce à mon âme!</seg></p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-400">
+            <speaker>ANNABELLA.</speaker>
+            <p n="400" xml:id="em0317-fr-409">Pardonnez-moi, mon bon ange, et cette fois veuillez m’aider. Faites que quelque homme de bien passe par ici, à qui je puisse confier ce papier trempé de larmes et de sang, et si vous me l’accordez, je promets de me repentir et de vivre loin de cette vie en laquelle j’ai trop longtemps trouve la mort...</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-401">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="401" xml:id="em0317-fr-410">Madame, le ciel vous a entendue, at la Sainte Providence a voulu que je sois l’instrument de votre salut.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-402">
+            <speaker>ANNABELLA.</speaker>
+            <p n="402" xml:id="em0317-fr-411">Ah! qui êtes-vous?</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-403">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="403" xml:id="em0317-fr-412">L’ami de votre frère; l’ermite, heureux jusqu’au fond de l’âme d&apos;’avoir appris le désir qui trouble encore votre repos. Que voulez-vous? A qui faut-il envoyer ce papier? Ne craignez pas de me le dire.</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-404">
+            <speaker>ANNABELLA.</speaker>
+<p n="404" xml:id="em0317-fr-413">Le ciel est donc plein de bonté?... J’ai obtenu plus que je n’avais espéré. Voici saint vieillard. Rappelez-moi au souvenir <stage type="novelistic" xml:id="em0317-fr-st-109">(Elle jette la lettre.)</stage> de mon frère, donnez-lui cette lettre, priez-le de la lire et de se repentir. Dites-lui qu’emprisonnée dans ma chambre, isolée de tous, même de ma gouvernante, ce qui me fait craindre bien des choses, j’ai le temps de rougir de ce qui s’est passé; priez-le d’être prudent et de ne pas croire à l’amitié de mon époux. Je crains plus que je ne puis dire... Bon père, la place est dangereuse et les espions sont à leur poste. Il faut que je m’en aille. Vous le ferez?</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-405">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="405" xml:id="em0317-fr-414">Je vous le promets, et sans perdre de temps. Je vous bénis, ma fille, vivez afin de mourir saintement.</p>
+          </sp>
+          <stage type="exit" xml:id="em0317-fr-st-110">Il sort.</stage>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-406">
+            <speaker>ANNABELLA.</speaker>
+            <p n="406" xml:id="em0317-fr-415">Merci au ciel d’avoir prolongé ma vie jusque-là, maintenant je puis attendre la mort.</p>
+          </sp>
+          <stage type="exit" xml:id="em0317-fr-st-111">Elle quitte la fenêtre.</stage>
+        </div2>
+        <div2 n="3" type="scene" xml:id="em0317-fr-sc-18">
+          <head>SCÈNE II</head>
+          <stage type="setting" xml:id="em0317-fr-st-112">Une chambre dans la maison de Soranzo.</stage>
+          <stage type="entrance" xml:id="em0317-fr-st-113">Entrent Soranzo et Vasques.</stage>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-407">
+            <speaker>VASQUES.</speaker>
+            <p n="407" xml:id="em0317-fr-416">M’en croyez-vous à présent? Vous épousez d’abord une catin qui ne se jette dans vos bras que pour se moquer de vos cornes, et s’amuser de votre disgrâce, qui triomphe dans vos misères, vous cocufie dans le lit nuptial, distribue votre bien aux maquereaux et aux entremetteurs...</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-408">
+            <speaker>SORANZO.</speaker>
+            <p n="408" xml:id="em0317-fr-417">Assez, te dis-je, assez!</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-409">
+            <speaker>VASQUES.</speaker>
+            <p n="409" xml:id="em0317-fr-418">Le coucou, est un fort bel oiseau, monsieur.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-410">
+            <speaker>SORANZO.</speaker>
+            <p n="410" xml:id="em0317-fr-419">Ma résolution est prise; pas un mot de plus. J’ai de grands projets, aussi impitoyables que la foudre. En attendant, je vais engager ma femme à se vêtir de sa robe nuptiale, je vais la caresser et la serrer dans mes bras, va-t’en... Mais, dis-moi, les bandits sont-ils à leur poste?</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-411">
+            <speaker>VASQUES.</speaker>
+            <p n="411" xml:id="em0317-fr-420">Monsieur, ne vous inquiétez que de votre projet, et rappelez-vous que le temps perdu ne se retrouve plus.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-412">
+            <speaker>SORANZO.</speaker>
+            <p n="412" xml:id="em0317-fr-421">Par tous les moyens possibles, invite toute la noblesse de Parme á la fête qui doit célébrer l’anniversaire de ma naissance, va-t’en vite chez mon frère rival et chez son père, invite-les gentiment et prie-les de venir. Fais vite et reviens.</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-413">
+            <speaker>VASQUES.</speaker>
+            <p n="413" xml:id="em0317-fr-422">Que votre pitié ne vous trahisse pas jusqu’à mon retour. ─ Songez à l’adultère et à l’inceste.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-414">
+            <speaker>SORANZO.</speaker>
+            <p n="414" xml:id="em0317-fr-423">Tout ce que je demande, c’est la vengeance. J’y arriverai ou bien je tomberai. ─ Mon sang est en feu.</p>
+          </sp>
+          <stage type="exit" xml:id="em0317-fr-st-114">Il sort.</stage>
+        </div2>
+        <div2 n="4" type="scene" xml:id="em0317-fr-sc-19">
+          <head>SCÈNE III</head>
+          <stage type="setting" xml:id="em0317-fr-st-115">Une chambre dans la maison de Florio.</stage>
+          <stage type="entrance" xml:id="em0317-fr-st-116">Entre Giovanni.</stage>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-415">
+            <speaker>GIOVANNI.</speaker>
+<p n="415" xml:id="em0317-fr-424">Les préjugés sont de pauvres fous qui comme les verges, effroi de l’enfant, épouvantent les âmes sans expérience. ─ Ainsi, avant le mariage de ma sœur, je m’imaginais que toutes les délices de notre amour se seraient évanouies le jour de ses noces, mais je ne trouve aucun changement dans mes plaisirs. Elle est toujours à moi, et chacun de ses baisers est aussi doux et aussi délicieux que le premier que j’ai cueilli, lorsque sa jeunesse était encore vierge. O la gloire de deux cœurs unis comme le sien et le mien! Que les savants absorbés dans leurs livres rêvent d’autres univers, mon univers et toutes ses joies sont ici... et je ne voudrais pas l&apos;échanger contre le meilleur des mondes à venir. Une vie de plaisir est seule le Paradis. <stage type="entrance" xml:id="em0317-fr-st-117">(Entre frère Bonaventure.)</stage><lb xml:id="em0317-fr-425"/>Mon père, vous entrez au moment de ma plus grande joie, je puis vous dire maintenant que l’enfer dont vous m’avez bien souvent menacé n’est autre chose qu’une crainte superstitieuse et servile, et je pourrais prouver...</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-416">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="416" xml:id="em0317-fr-426">Ton aveuglement to frappe de mort. Regarde ceci que l’on t’écrit.</p>
+          </sp>
+          <stage type="novelistic" xml:id="em0317-fr-st-118">Il lui donne la lettre.</stage>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-417">
+            <speaker>GIOVANNI.</speaker>
+            <p n="417" xml:id="em0317-fr-427">Qui?</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-418">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="418" xml:id="em0317-fr-428">Brise le sceau et vois. Le sang bouillonne encore qui bientôt sera d’une glace plus dure que le corail. Pourquoi changes-tu de visage, mon fils?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-419">
+            <speaker>GIOVANNI.</speaker>
+            <p n="419" xml:id="em0317-fr-429">Par le ciel, vous voulez jouer le rôle d’un messager diabolique entre mon amour et vos sorcelleries soi-disant religieuses. Qui vous a donné ça?</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-420">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="420" xml:id="em0317-fr-430">Ta conscience s’est desséchée, sans quoi to écouterais l’avertissement.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-421">
+            <speaker>GIOVANNI.</speaker>
+<p n="421" xml:id="em0317-fr-431">C’est de sa main. Je le vois, at c’est écrit avec son sang. Elle dit je ne sais quoi... Mort! Je ne craindrais pas la foudre lancée contra mon cœur. Elle écrit que tout est découvert. Que la peste emporte les rêves de la couardise au cœur bas! Découvert? Du diable si nous le sommes. Est-ce possible? Avons-nous été traîtres à nos propres plaisirs? Au diable tous les bavardages. Ce sont des inventions, ce sont vos propres commérages, mon pauvre vieillard. <stage type="entrance" xml:id="em0317-fr-st-119">Entre Vasques.</stage><lb xml:id="em0317-fr-432"/>Eh Bien, mon ami, quelles nouvelles?</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-422">
+            <speaker>VASQUES.</speaker>
+            <p n="422" xml:id="em0317-fr-433">Mon maître, fidèle à ce qu’il fait tous les ans, célèbre aujourd’hui l’anniversaire de sa naissance et m’a chargé de vous prier à cette fête. Votre vénéré père, le nonce du pape, et d’autres personnes illustres dans Parme ont promis d&apos;y être présents. Vous plairait-il de vous joindre à eux?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-423">
+            <speaker>GIOVANNI.</speaker>
+            <p n="423" xml:id="em0317-fr-434">Oui, dites-lui que je n’ai pas peur de venir.</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-424">
+            <speaker>VASQUES.</speaker>
+            <p n="424" xml:id="em0317-fr-435">Que vous n’avez pas peur de venir?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-425">
+            <speaker>GIOVANNI.</speaker>
+            <p n="425" xml:id="em0317-fr-436">Comme je l’ai dit. Ajoutez-y que je viendrai.</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-426">
+            <speaker>VASQUES.</speaker>
+            <p n="426" xml:id="em0317-fr-437">Ce que vous dites me semble étrange.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-427">
+            <speaker>GIOVANNI.</speaker>
+            <p n="427" xml:id="em0317-fr-438">Dites-lui que je viendrai.</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-428">
+            <speaker>VASQUES.</speaker>
+            <p n="428" xml:id="em0317-fr-439">Vous n’y manquerez pas?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-429">
+            <speaker>GIOVANNI.</speaker>
+            <p n="429" xml:id="em0317-fr-440">Encore! Je viendrai, monsieur. Avez-vous votre réponse?</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-430">
+            <speaker>VASQUES.</speaker>
+            <p n="430" xml:id="em0317-fr-441">Je le dirai. Je suis votre serviteur.</p>
+          </sp>
+          <stage xml:id="em0317-fr-st-120">Il sort.</stage>
+          <sp who="#P-" xml:id="em0317-fr-sp-431">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="431" xml:id="em0317-fr-442">J’espère que vous n’irez pas.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-432">
+            <speaker>GIOVANNI.</speaker>
+            <p n="432" xml:id="em0317-fr-443">Pourquoi pas?</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-433">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="433" xml:id="em0317-fr-444">Oh! n’y allez pas! Je suis sûr que cette fête n’est qu’un complot préparé contre vous. N’y allez pas!...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-434">
+            <speaker>GIOVANNI.</speaker>
+            <p n="434" xml:id="em0317-fr-445">N&apos;y pas aller! Quand la mort avec ses armées de fléaux et de dangers en flammes comma des comètes, se tiendrait devant moi, j’irai là-bas!... N&apos;y pas aller! Oui, et je plongerai dans le massacre aussi profondément qu’eux tous... car j’irai la!</p>
+          </sp>
+          <sp who="#P-" xml:id="em0317-fr-sp-435">
+            <speaker>FRÈRE BONAVENTURE.</speaker>
+            <p n="435" xml:id="em0317-fr-446">Allez où vous voulez. Je vois que votre destinée farouche touche à sa fin. Je n’attendrai pas votre chute. Je m’en retourne à Bologne en toute hâte et je veux éviter le coup qui se prépare. Adieu, Parme, plût au ciel que je ne t’eusse jamais connu, et rien de ce qui t’appartient... Bien, mon enfant, puisque aucune prière ne peut te sauver, je t’abandonne à ton désespoir...</p>
+          </sp>
+          <stage type="exit" xml:id="em0317-fr-st-121">Il sort.</stage>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-436">
+            <speaker>GIOVANNI.</speaker>
+            <p n="436" xml:id="em0317-fr-447">Le désespoir ou les tortures de millions d’enfers, tout m’est égal et ma résolution est prise!... Maintenant, maintenant, travaillez mes pensées, et songez aux complots... et toi, mon âme, deviens une âme d’homme! et que le souvenir d’anciennes craintes n’abatte pas ton courage qui vent sine belle mort... S’il faut que je tombe comme un chêne, bien des broussailles seront écrasées dans ma chute. Ils périront tous avec moi!...</p>
+          </sp>
+          <stage xml:id="em0317-fr-st-122">Il sort.</stage>
+        </div2>
+        <div2 n="5" type="scene" xml:id="em0317-fr-sc-20">
+          <head>SCÈNE IV</head>
+          <stage type="setting" xml:id="em0317-fr-st-123">Une salle dans la maison de Soranzo.</stage>
+          <stage type="entrance" xml:id="em0317-fr-st-124">Entrent Soranzo, Vasques avec des masques et les bandits.</stage>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-437">
+            <speaker>SORANZO.</speaker>
+            <p n="437" xml:id="em0317-fr-448">Vous ne le manquerez pas? Vous n’hésiterez pas?</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-438">
+            <speaker>VASQUES.</speaker>
+            <p n="438" xml:id="em0317-fr-449">Je réponds d’eux. Tâchez, mes amis, d’être aussi sanguinaires qu’il le faut, et aussi dépourvus de pitié!, que si vous guettiez quelque riche butin du haut des montagnes de la Ligurie.. Quant au pardon, fiez-vous-en à mon maître... Mais pour la récompense vous n’en croirez que ce qu’il y aura dans vos poches.</p>
+          </sp>
+          <sp who="#BANDI" xml:id="em0317-fr-sp-439">
+            <speaker>LES BANDITS.</speaker>
+            <p n="439" xml:id="em0317-fr-450">Nous le tuerons...</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-440">
+            <speaker>SORANZO.</speaker>
+<p n="440" xml:id="em0317-fr-451">Voici de l’or. <stage type="novelistic" xml:id="em0317-fr-st-125">(Il leur en donne.)</stage> En voici encore. Ne craignez rien... Ce que vous faites est noble, un acte de bonne vengeance. Je vous ferai tous riches, mes amis, libres et riches.</p>
+          </sp>
+          <sp who="#BANDI" xml:id="em0317-fr-sp-441">
+            <speaker>LES BANDITS.</speaker>
+            <p n="441" xml:id="em0317-fr-452">Liberté! Liberté!</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-442">
+            <speaker>VASQUES.</speaker>
+            <p n="442" xml:id="em0317-fr-453">Voici... Que chacun prenne un masque. Quand nous serons partis, taisez-vous autant que possible. Vous savez le mot d’ordre. Ne bougez pas avant de l’avoir entendu. Mais quand il sera prononcé, précipitez-vous consume un torrent. Je n’ai pas besoin de vous apprendre votre métier...</p>
+          </sp>
+          <sp who="#BANDI" xml:id="em0317-fr-sp-443">
+            <speaker>LES BANDITS.</speaker>
+            <p n="443" xml:id="em0317-fr-454">Non, non, non.</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-444">
+            <speaker>VASQUES.</speaker>
+            <p n="444" xml:id="em0317-fr-455">Entrez, vous serez bien récompenses, entrez.</p>
+          </sp>
+          <stage type="exit" xml:id="em0317-fr-st-126">Sortent les bandits.</stage>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-445">
+            <speaker>SORANZO.</speaker>
+            <p n="445" xml:id="em0317-fr-456">Les invites viendront tous, Vasques?</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-446">
+            <speaker>VASQUES.</speaker>
+            <p n="446" xml:id="em0317-fr-457">Oui, monsieur. Et maintenant permettez que je remonte un peu votre courage... Vous voyez que tout est prêt, excepté votre résolution. Rappelez-vous vos disgrâces, la perte de votre honneur et armez votre courage pour venger os malheurs car la vengeance est tout ce qui vous reste.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-447">
+            <speaker>SORANZO.</speaker>
+            <p n="447" xml:id="em0317-fr-458">C’est bien. Moins je parle et plus je brûle et le sang éteindra cette flamme...</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-448">
+            <speaker>VASQUES.</speaker>
+            <p n="448" xml:id="em0317-fr-459">Maintenant, vous devenez vraiment Italien. Quand notre incestueux jeune homme arrivera, il voudra recommencer ses travaux. Donnez-lui le loisir nécessaire. Qu’il ait à sa disposition votre chambre et votre lit, et que le lièvre en chaleur ait toute liberté avant d’être chaise à mort, afin que si la chose peut se faire, il soit envoyé aux enfers dans l’acte même de sa damnation.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-449">
+            <speaker>SORANZO.</speaker>
+<p n="449" xml:id="em0317-fr-460">Cela sera, et vois, il arrive à souhait. <stage type="entrance" xml:id="em0317-fr-st-127">(Entre Giovanni.)</stage><lb xml:id="em0317-fr-461"/>Sois le bienvenu, mon frère bien-aimé. Je vois à présent que tu me veux du bien, sois donc le bienvenu... Mais où donc est mon père?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-450">
+            <speaker>GIOVANNI.</speaker>
+            <p n="450" xml:id="em0317-fr-462">Avec les autres gentilshommes... Ils attendent le nonce du pape pour lui présenter leurs hommages... Comment ma sœur se porte-t-elle?</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-451">
+            <speaker>SORANZO.</speaker>
+            <p n="451" xml:id="em0317-fr-463">Comme une bonne ménagère, elle est à peine prête... Veux-tu l’aller trouver dans sa chambre?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-452">
+            <speaker>GIOVANNI.</speaker>
+            <p n="452" xml:id="em0317-fr-464">Si tu le veux bien.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-453">
+            <speaker>SORANZO.</speaker>
+            <p n="453" xml:id="em0317-fr-465">Il faut que j’attende mes amis. Mon bon frère, pressez-la...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-454">
+            <speaker>GIOVANNI.</speaker>
+            <p n="454" xml:id="em0317-fr-466">Tu es bien occupé...</p>
+          </sp>
+          <stage type="exit" xml:id="em0317-fr-st-128">Il sort.</stage>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-455">
+            <speaker>VASQUES.</speaker>
+<p n="455" xml:id="em0317-fr-467">Cela marche comme le prince des démons pourrait le désirer!... Qu’il s’en aille, et se rassasie de sa ruine!... <stage xml:id="em0317-fr-st-129">(Sonnerie de clairons)...</stage> Ecoutez, le Nonce s’approche... Monsieur, soyez prêt à le recevoir.</p>
+          </sp>
+          <stage type="entrance" xml:id="em0317-fr-st-130">Entrent le Cardinal, Florio Donado, des gens de la suite.</stage>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-456">
+            <speaker>SORANZO.</speaker>
+            <p n="456" xml:id="em0317-fr-468">Très révérend seigneur, cette faveur que vous faites a ma maison me remplit d’orgueil, je vous en serai reconnaissant a jamais.</p>
+          </sp>
+          <sp who="#CARDI" xml:id="em0317-fr-sp-457">
+            <speaker>LE CARDINAL.</speaker>
+            <p n="457" xml:id="em0317-fr-469">Vous êtes notre ami, monsieur... Sa Sainteté saura avec quel zèle vous honorez le vicaire de saint Pierre en la personne de son représentant... Nous vous aimons d’une façon particulière...</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-458">
+            <speaker>SORANZO.</speaker>
+            <p n="458" xml:id="em0317-fr-470">Messeigneurs, soyez les bienvenus... et tous mes remerciements pour votre courtoisie... Votre Grâce veut-elle entrer?</p>
+          </sp>
+          <sp who="#CARDI" xml:id="em0317-fr-sp-459">
+            <speaker>LE CARDINAL.</speaker>
+            <p n="459" xml:id="em0317-fr-471">Monsieur, nous venons pour célébrer votre fête avec une joie permise, selon les anciennes coutumes. Nous vous suivons.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-460">
+            <speaker>SORANZO.</speaker>
+            <p n="460" xml:id="em0317-fr-472">Que l’on soit aux ordres de Sa Grâce... Messieurs, veuillez venir...</p>
+          </sp>
+          <stage type="exit" xml:id="em0317-fr-st-131">Ils sortent.</stage>
+        </div2>
+        <div2 n="6" type="scene" xml:id="em0317-fr-sc-21">
+          <head>SCÈNE V</head>
+          <stage type="setting" xml:id="em0317-fr-st-132">La chambre à coucher d’Annabella.</stage>
+          <stage type="novelistic" xml:id="em0317-fr-st-133">On découvre Annabella, en vêtements somptueux, et Giovanni étendus sur un lit.</stage>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-461">
+            <speaker>GIOVANNI.</speaker>
+            <p n="461" xml:id="em0317-fr-473">Quoi! changée si vite!... Est-ce que votre nouveau maître a trouvé aux jeux nocturnes quelque plaisir que nous ignorions dans notre simplicité? Ha? est-ce cela?... ou bien le moment est-il venu où tu dois to montrer parjure à tes vœux et à tes serments d’autrefois?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-462">
+            <speaker>ANNABELLA.</speaker>
+            <p n="462" xml:id="em0317-fr-474">Pourquoi venez-vous rire de mon malheur sans vous douter du danger qui s’approche?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-463">
+            <speaker>GIOVANNI.</speaker>
+            <p n="463" xml:id="em0317-fr-475">Quel danger est aussi dangereux que ta révolte?... Tu es une sœur infidèle, sans cela tu saurais que toute leur malice et toutes leurs trahisons s’arrêteraient au froncement de mes sourcils: je tenais le destin dans ma main, et j’aurais pu être le maître de l’éternel mouvement du temps, si tu avais été un peu plus ferme que les vagues de la mer!... Eh bien quoi? tu veux être honnête à présent, est-ce décidé?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-464">
+            <speaker>ANNABELLA.</speaker>
+            <p n="464" xml:id="em0317-fr-476">Mon frère, mon bon frère, sache ce que j’ai été, et sache qu’il n’y a plus que le temps d’un festin entre nous-mêmes et notre mort. Ne perdons pas ces heures précieuses en propos inutiles. Hélas! ce n’est pas sans raison qu’on m’a couverte de ces vêtements, et cette fête soudaine et solennelle, ce n’est pas pour s’y divertir qu’on la donne... Moi qui étais emprisonnée, privée de ma suivante et séparée de tous, ce n’est pas sans raison que d’un moment à l’autre on me permet de t’introduire ici... Ne t’y trompe pas, mon frère, cette fête nous annonce la mort a tous deux; n’en doute plus, mon frère, at prépare-toi a la bien recevoir...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-465">
+            <speaker>GIOVANNI.</speaker>
+            <p n="465" xml:id="em0317-fr-477">C’est bien: le sage nous apprend que cette terre sera réduite en cendre, en un instant...</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-466">
+            <speaker>ANNABELLA.</speaker>
+            <p n="466" xml:id="em0317-fr-478">Je l’ai lu aussi.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-467">
+            <speaker>GIOVANNI.</speaker>
+            <p n="467" xml:id="em0317-fr-479">Mais il serait assez étrange de voir brûler les eaux... Si je pouvais croire que ces choses puissent être vraies, je pourrais croire aussi qu’il y a un enfer ou un ciel...</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-468">
+            <speaker>ANNABELLA.</speaker>
+            <p n="468" xml:id="em0317-fr-480">Il est sûr qu’ils existent...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-469">
+            <speaker>GIOVANNI.</speaker>
+            <p n="469" xml:id="em0317-fr-481">Un rêve, un rêve! sans cela, dans cet autre monde nous nous connaitrions l’un l’autre...</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-470">
+            <speaker>ANNABELLA.</speaker>
+            <p n="470" xml:id="em0317-fr-482">Nous nous y connaitrons...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-471">
+            <speaker>GIOVANNI.</speaker>
+            <p n="471" xml:id="em0317-fr-483">Tu le sais?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-472">
+            <speaker>ANNABELLA.</speaker>
+            <p n="472" xml:id="em0317-fr-484">J’en suis sûre.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-473">
+            <speaker>GIOVANNI.</speaker>
+            <p n="473" xml:id="em0317-fr-485">Crois-tu que je te verrai là?... Tu me regardes... Pourrons-nous nous y embrasser, parler et rire, et y faire ce que nous faisons ici?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-474">
+            <speaker>ANNABELLA.</speaker>
+            <p n="474" xml:id="em0317-fr-486">Je ne sais pas; mais mon frère, pour le moment de quelle façon espères-tu nous tirer du danger?... songe à quelque moyen. Je suis sûre que les invités sont arrivés...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-475">
+            <speaker>GIOVANNI.</speaker>
+            <p n="475" xml:id="em0317-fr-487">Regarde, regarde ici, que vois-tu sur ma face?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-476">
+            <speaker>ANNABELLA.</speaker>
+            <p n="476" xml:id="em0317-fr-488">De l’égarement et le trouble d’une mauvaise conscience...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-477">
+            <speaker>GIOVANNI.</speaker>
+            <p n="477" xml:id="em0317-fr-489">La mort et une colère qui sera prompte aux larmes!... Mais regarde, que vois-tu dans mes yeux?</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-478">
+            <speaker>ANNABELLA.</speaker>
+            <p n="478" xml:id="em0317-fr-490">Je crois voir que tu pleures...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-479">
+            <speaker>GIOVANNI.</speaker>
+            <p n="479" xml:id="em0317-fr-491">C’est vrai, je pleure, ce sont les larmes funéraires que je verse sur ta tombe. Elles ont sillonné mes joues, le jour on je t’aimai sans pouvoir te le dire... Ma belle Annabelle, si je te répétais ici l’histoire de ma vie, ce serait perdre notre temps. O vous, tous les esprits de l’air et tout ce qui existe par delà, souvenez-vous que nuit et jour, le matin et le soir, le tribut que paya mon cœur à l’amour sacré d’Annabella, ce furent ces mêmes larmes qui la pleurent a présent! Jamais, jusqu’à ce jour, la nature n’avait fait tout ce qu’elle peut faire pour montrer au monde une beauté sans rivale, qu’a l’instant même où elle fut entrevue, les destinées jalouses sont venues réclamer! Prie, Annabella. Prie! Puisqu’il faut nous séparer, va-t’en, l’âme toute blanche, va-t’en occuper dans le ciel, un trône d’innocence et de sainteté, prie, ma sœur, va prier...</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-480">
+            <speaker>ANNABELLA.</speaker>
+            <p n="480" xml:id="em0317-fr-492">Je vois ce que vous allez faire... o mes anges bénis, venez me protéger!</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-481">
+            <speaker>GIOVANNI.</speaker>
+            <p n="481" xml:id="em0317-fr-493">Je dis de même. Embrasse-moi. Si jamais ceux qui viendront après nous apprennent notre amour, bien que les lois de la conscience et les autres, puissent nous blâmer justement: lorsqu’ils sauront ce que fut notre amour, cet amour lavera tout ce qui dans un inceste ordinaire n’eût inspire que de l’horreur... Donne-moi ta main. Oh! que la vie coule doucement en ces veines colorées! Et quelle belle santé elles promettent ces paumes... Je voudrais chercher querelle à la nature ironique! Embrasse-moi encore! Pardonne-moi!</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-482">
+            <speaker>ANNABELLA.</speaker>
+            <p n="482" xml:id="em0317-fr-494">De tout mon cœur.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-483">
+            <speaker>GIOVANNI.</speaker>
+            <p n="483" xml:id="em0317-fr-495">Adieu!</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-484">
+            <speaker>ANNABELLA.</speaker>
+            <p n="484" xml:id="em0317-fr-496">Tu t’en vas?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-485">
+            <speaker>GIOVANNI.</speaker>
+            <p n="485" xml:id="em0317-fr-497">Obscurcis-toi, soleil éblouissant et de cet après-midi fais 1a nuit, afin quo tes rayons dorés voient pas un acte qui rendra leur splendeur plus sombre que le Styx des poètes! Encore un baiser, ma sœur...</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-486">
+            <speaker>ANNABELLA.</speaker>
+            <p n="486" xml:id="em0317-fr-498">Quelle intention as-tu?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-487">
+            <speaker>GIOVANNI.</speaker>
+<p n="487" xml:id="em0317-fr-499">De sauver ton honneur et de te tuer dans un baiser. <stage type="novelistic" xml:id="em0317-fr-st-134">(Il la poignarde.)</stage> Meurs et meurs par moi et par ma main!... Laisse-moi la vengeance, l’honneur donne des ordres a l’amour...</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-488">
+            <speaker>ANNABELLA.</speaker>
+            <p n="488" xml:id="em0317-fr-500">O mon frère, par ta main!</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-489">
+            <speaker>GIOVANNI.</speaker>
+            <p n="489" xml:id="em0317-fr-501">Lorsque tu seras morte, je dirai mes raisons... Car s’il fallait te contredire fût-ce même dans ta mort, ô ma beauté suprême! je tremblerais de faire ce dont je suis si fier!</p>
+          </sp>
+          <sp who="#ANNAB" xml:id="em0317-fr-sp-490">
+            <speaker>ANNABELLA.</speaker>
+            <p n="490" xml:id="em0317-fr-502">Pardonnez-lui, mon Dieu! et pardonnez-moi mes péchés. Adieu, mon frère... tu n’es pas doux. .. tu n’es pas doux... Pitié, Seigneur!... Oh! oh!</p>
+          </sp>
+          <stage type="novelistic" xml:id="em0317-fr-st-135">Elle meurt.</stage>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-491">
+            <speaker>GIOVANNI.</speaker>
+            <p n="491" xml:id="em0317-fr-503">Elle est morte, hélas! pauvre âme! et le fruit malheureux, que j’ai fait naitre dans son sein, a reçu de moi le berceau et la tombe. I1 ne faut plus attendre. Ce triste lit nuptial l’a eue vivante et morte dans sa-gloire. Soranzo, tu as manqué ton but. J’ai prévenu ce que tu voulais faire et tué un amour pour chaque goutte sanglante duquel j’eusse mis mon cœur en gage. Ma belle Annabella, que tu es indiciblement glorieuse en tes blessures et comme tu triomphes de l’infamie et de la haine! N’hésite pas, main courageuse, lève-toi, mon cœur, et va jouer sans crainte le plus grand et le dernier de tes rôles...</p>
+          </sp>
+        </div2>
+        <div2 n="7" type="scene" xml:id="em0317-fr-sc-22">
+          <head>SCÈNE VI</head>
+          <stage type="setting" xml:id="em0317-fr-st-136">Une salle dans la même maison. ─ Un festin préparé.</stage>
+          <stage type="entrance" xml:id="em0317-fr-st-137">Entrent le Cardinal, Florio, Donado, Soranzo, Richardetto, Vasques et des domestiques.</stage>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-492">
+            <speaker>VASQUES.</speaker>
+<p n="492" xml:id="em0317-fr-504"><stage type="novelistic" xml:id="em0317-fr-st-138">À Soranzo.</stage> Souvenez-vous, monsieur, de ce qu’il vous faut faire. Soyez prudent et résolu.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-493">
+            <speaker>SORANZO.</speaker>
+<p n="493" xml:id="em0317-fr-505"><stage type="novelistic" xml:id="em0317-fr-st-139">À Vasques.</stage> Assez. Mon cœur est décidé... <stage type="novelistic" xml:id="em0317-fr-st-140">(Aux convives.)</stage> Je vous en prie, goûtez ces médiocres confitures. Vous savez que ce genre de fêtes n’a pas d’autre raison d’être que l’usage, mais je vous suis obligé d’y avoir bien voulu venir...</p>
+          </sp>
+          <sp who="#CARDI" xml:id="em0317-fr-sp-494">
+            <speaker>LE CARDINAL.</speaker>
+            <p n="494" xml:id="em0317-fr-506">C’est nous qui sommes vos obligés et vos amis.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-495">
+            <speaker>SORANZO.</speaker>
+            <p n="495" xml:id="em0317-fr-507">Mais où donc est mon frère Giovanni?</p>
+          </sp>
+          <stage type="novelistic" xml:id="em0317-fr-st-141">Entre Giovanni agitant un cœur transpercé au bout de son poignard.</stage>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-496">
+            <speaker>GIOVANNI.</speaker>
+            <p n="496" xml:id="em0317-fr-508">Il est ici, il est ici, Soranzo! Vêtu de sang qui fume, qui triomphe de la mort, et s’enorgueillit dans les dépouilles de la vengeance et de l’amour. Ni le Destin, ni aucune des puissances qui guident les mouvements des âmes immortelles n’ont pu me retenir..</p>
+          </sp>
+          <sp who="#CARDI" xml:id="em0317-fr-sp-497">
+            <speaker>LE CARDINAL.</speaker>
+            <p n="497" xml:id="em0317-fr-509">Que signifie?...</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-498">
+            <speaker>FLORIO.</speaker>
+            <p n="498" xml:id="em0317-fr-510">Mon fils Giovanni!...</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-499">
+            <speaker>SORANZO.</speaker>
+<p n="499" xml:id="em0317-fr-511"><stage type="delivery" xml:id="em0317-fr-st-142">À part.</stage> <seg type="aside" xml:id="em0317-fr-511-seg1">Ai-je été prévenu?...</seg></p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-500">
+            <speaker>GIOVANNI.</speaker>
+            <p n="500" xml:id="em0317-fr-512">Ne vous étonnez pas, si vos cœurs pleins de craintes se crispent à cette vaine vue. Quelle épouvante pâle aurait saisi vos sens si vous aviez été témoin du grand vol de beauté et de vie que j’ai fait!... Oh ma sœur! oh ma sœur!</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-501">
+            <speaker>FLORIO.</speaker>
+            <p n="501" xml:id="em0317-fr-513">Quoi? qu’y a-t-il?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-502">
+            <speaker>GIOVANNI.</speaker>
+            <p n="502" xml:id="em0317-fr-514">La splendeur de mon acte a noirci le soleil de midi! vous veniez au festin, vous veniez faire grand chère, messeigneurs! Moi aussi, j’assistais a une fête! ─ Mais j’ai cherché une nourriture plus précieuse que l’or ou toutes les pierreries!... C’est un cœur, c’est un cœur, Messeigneurs, dans lequel le mien se trouve enseveli... Regardez-le! Le reconnaissez-vous?</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-503">
+            <speaker>VASQUES.</speaker>
+<p n="503" xml:id="em0317-fr-515"><stage type="delivery" xml:id="em0317-fr-st-143">À part.</stage> <seg type="aside" xml:id="em0317-fr-515-seg1">Quelle étrange énigme est ceci?</seg></p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-504">
+            <speaker>GIOVANNI.</speaker>
+            <p n="504" xml:id="em0317-fr-516">C’est le cœur d’Annabella, c’est son cœur ─ Pourquoi tressaillez-vous? ─ Je vous jure que c’est lui. Ce poignard a labouré son sein fécond at me vaudra la gloire due aux bourreaux insignes!</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-505">
+            <speaker>FLORIO.</speaker>
+            <p n="505" xml:id="em0317-fr-517">Insensé, est-ce toi?...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-506">
+            <speaker>GIOVANNI.</speaker>
+            <p n="506" xml:id="em0317-fr-518">Oui, mon père, et afin que les temps â venir sachent bien que j’ai fait honneur à ma vengeance ainsi qu’à mon destin, écoutez-moi, mon père, je vais vous dire combien j’ai mérité d’être appelé votre fils...</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-507">
+            <speaker>FLORIO.</speaker>
+            <p n="507" xml:id="em0317-fr-519">Que dis-tu?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-508">
+            <speaker>GIOVANNI.</speaker>
+            <p n="508" xml:id="em0317-fr-520">Voici neuf mois que j’ai connu et aimé pour la première fois, votre fille et ma sœur.</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-509">
+            <speaker>FLORIO.</speaker>
+            <p n="509" xml:id="em0317-fr-521">Oh! ─ Hélas, messieurs, il est devenu fou!</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-510">
+            <speaker>GIOVANNI.</speaker>
+            <p n="510" xml:id="em0317-fr-522">Non, mon père. Durant neuf mois, j’ai joui en secret du lit de la très douce Annabella. Durant neuf mois j’ai été l’heureux roi de son cœur et d’elle toute... Soranzo, tu le sais, ta face pâle atteste ton malheur, car son sein trop fécond a trop tôt révélé nos secrètes délices et l’a rendue mère d’un enfant qui n’est pas né...</p>
+          </sp>
+          <sp who="#CARDI" xml:id="em0317-fr-sp-511">
+            <speaker>LE CARDINAL.</speaker>
+            <p n="511" xml:id="em0317-fr-523">Incestueux scélérat!</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-512">
+            <speaker>FLORIO.</speaker>
+            <p n="512" xml:id="em0317-fr-524">Sa fureur même dément ce qu’il nous dit...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-513">
+            <speaker>GIOVANNI.</speaker>
+            <p n="513" xml:id="em0317-fr-525">Non, mon père, c’est la vérité pure. Je vous le jure.</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-514">
+            <speaker>SORANZO.</speaker>
+            <p n="514" xml:id="em0317-fr-526">J’éclaterai de rage. ─ Amenez la p.....!</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-515">
+            <speaker>VASQUES.</speaker>
+            <p n="515" xml:id="em0317-fr-527">J’y vais, monsieur.</p>
+          </sp>
+          <stage type="exit" xml:id="em0317-fr-st-144">Il sort.</stage>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-516">
+            <speaker>GIOVANNI.</speaker>
+<p n="516" xml:id="em0317-fr-528">Faites, monsieur. Il ne vous reste donc plus de foi pour croire a mes triomphes? Je vous le jure ici, par tout ce que vous appelez sacré, par l’amour que je portais à mon Annabella tandis qu’elle vivait. Je vous le jure, ces mains ont arraché ce cœur a sa poitrine. <stage type="entrance" xml:id="em0317-fr-st-145">(Rentre Vasques.)</stage><lb xml:id="em0317-fr-529"/>Est-ce vrai ou non?</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-517">
+            <speaker>VASQUES.</speaker>
+            <p n="517" xml:id="em0317-fr-530">C’est étrangement vrai.</p>
+          </sp>
+          <sp who="#FLORI" xml:id="em0317-fr-sp-518">
+            <speaker>FLORIO.</speaker>
+            <p n="518" xml:id="em0317-fr-531">Maudit! ─ Ai-je vécu pour...</p>
+          </sp>
+          <stage type="novelistic" xml:id="em0317-fr-st-146">Il meurt.</stage>
+          <sp who="#CARDI" xml:id="em0317-fr-sp-519">
+            <speaker>LE CARDINAL.</speaker>
+            <p n="519" xml:id="em0317-fr-532">Courage, Florio. ─ Oh monstrueux enfant, voyez ce que vous avez fait! Brisé le cœur de votre vieux père... Aucun de vous n’ose s’emparer de lui?...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-520">
+            <speaker>GIOVANNI.</speaker>
+            <p n="520" xml:id="em0317-fr-533">Laissez-les!... O mon père! que cette mort doit être douce à sa douleur!... Bien... c’est fait avec courage... Et maintenant, de toute notre maison, je suis le seul qui reste, couvert du sang d’une sœur adorable et d’un père malheureux...</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-521">
+            <speaker>SORANZO.</speaker>
+            <p n="521" xml:id="em0317-fr-534">O le dernier des êtres! Tu t’imagines donc que tu vas survivre à tes meurtres...</p>
+          </sp>
+          <stage type="novelistic" xml:id="em0317-fr-st-147">Il tire l’épée.</stage>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-522">
+            <speaker>GIOVANNI.</speaker>
+<p n="522" xml:id="em0317-fr-535">Oui, to dis-je, oui!... Car je tiens dans ma main les rênes de la vie!... Soranzo, vois ce cœur, qui fut le cœur de ton épouse... Je l’échange royalement contre le tien... ainsi, ainsi! <stage type="novelistic" xml:id="em0317-fr-st-148">(Ils se battent, Soranzo tombe.)</stage> Et maintenant ma belle vengeance est à moi!</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-523">
+            <speaker>VASQUES.</speaker>
+            <p n="523" xml:id="em0317-fr-536">Je ne puis plus y tenir... Vous, monsieur, vous devenez insolent dans votre boucherie?... Voilà pour vous...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-524">
+            <speaker>GIOVANNI.</speaker>
+            <p n="524" xml:id="em0317-fr-537">Venez donc, je suis prêt...</p>
+          </sp>
+          <stage type="novelistic" xml:id="em0317-fr-st-149">Ils se battent.</stage>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-525">
+            <speaker>VASQUES.</speaker>
+            <p n="525" xml:id="em0317-fr-538">Non!... Sera-ce à ce coup-ci?... si ceci ne va pas, un autre le fera... pas encore?... je vous servirai tôt... Vengeance!...</p>
+          </sp>
+          <stage type="entrance" xml:id="em0317-fr-st-150">Les bandits font irruption dans la salle.</stage>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-526">
+            <speaker>GIOVANNI.</speaker>
+<p n="526" xml:id="em0317-fr-539">Les bienvenus!... Venez tous!... et qui que vous soyez, je vous défie!... <stage type="novelistic" xml:id="em0317-fr-st-151">(Ils l’entourent et le blessent.)</stage>... Oh! je ne puis plus y résister. Mes faibles bras, avez-vous perdu si vite votre force?...</p>
+          </sp>
+          <stage type="novelistic" xml:id="em0317-fr-st-152">Il tombe.</stage>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-527">
+            <speaker>VASQUES.</speaker>
+<p n="527" xml:id="em0317-fr-540">Maintenant, vous êtes le bienvenu, monsieur... <stage xml:id="em0317-fr-st-153">(Aux bandits.)</stage> Allez-vous en, mes amis... vous avez mérité votre salaire... filez... filez...</p>
+          </sp>
+          <sp who="#BANDI" xml:id="em0317-fr-sp-528">
+            <speaker>LES BANDITS.</speaker>
+            <p n="528" xml:id="em0317-fr-541">Allons-nous en, allons-nous en.</p>
+          </sp>
+          <stage type="exit" xml:id="em0317-fr-st-154">Ils sortent.</stage>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-529">
+            <speaker>VASQUES.</speaker>
+<p n="529" xml:id="em0317-fr-542">Comment allez-vous, mon maître? ─ <stage type="novelistic" xml:id="em0317-fr-st-155">(Désignant Giovanni.)</stage> Voyez-vous ceci? Comment vous trouvez-vous?</p>
+          </sp>
+          <sp who="#SORAN" xml:id="em0317-fr-sp-530">
+            <speaker>SORANZO.</speaker>
+            <p n="530" xml:id="em0317-fr-543">Je me meurs. Mais je meure heureux en me voyant vengé de ce démon. O Vasques, laisse-moi rendre mon dernier souffle contre ta poitrine ─ mais que ce monstre ne vive pas! ─ Oh!</p>
+          </sp>
+          <stage type="novelistic" xml:id="em0317-fr-st-156">Il meurt.</stage>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-531">
+            <speaker>VASQUES.</speaker>
+            <p n="531" xml:id="em0317-fr-544">La paix et le repos soient avec toi, mon cher maître et seigneur.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-532">
+            <speaker>GIOVANNI.</speaker>
+            <p n="532" xml:id="em0317-fr-545">Quelle main m’a fait cette blessure?</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-533">
+            <speaker>VASQUES.</speaker>
+            <p n="533" xml:id="em0317-fr-546">La mienne, monsieur. En avez-vous assez?</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-534">
+            <speaker>GIOVANNI.</speaker>
+            <p n="534" xml:id="em0317-fr-547">Je vous remercie. Vous avez fait ce que j’eusse fait moi-même. Etes-vous sûr que votre maître est mort?</p>
+          </sp>
+          <sp who="#VASQU" xml:id="em0317-fr-sp-535">
+            <speaker>VASQUES.</speaker>
+            <p n="535" xml:id="em0317-fr-548">Impudent esclave! Aussi sûr que je suis sûr de te voir mourir.</p>
+          </sp>
+          <sp who="#CARDI" xml:id="em0317-fr-sp-536">
+            <speaker>LE CARDINAL.</speaker>
+            <p n="536" xml:id="em0317-fr-549">Songe à ta vie et à ta mort et demande pardon.</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-537">
+            <speaker>GIOVANNI.</speaker>
+            <p n="537" xml:id="em0317-fr-550">Le pardon? Je l’ai trouvé en faisant justice.</p>
+          </sp>
+          <sp who="#CARDI" xml:id="em0317-fr-sp-538">
+            <speaker>LE CARDINAL.</speaker>
+            <p n="538" xml:id="em0317-fr-551">Essaie de crier vers le ciel...</p>
+          </sp>
+          <sp who="#GIOVA" xml:id="em0317-fr-sp-539">
+            <speaker>GIOVANNI.</speaker>
+            <p n="539" xml:id="em0317-fr-552">Oh! que je saigne! ─ O mort, to es un hôte bien longtemps attendu! ─ Je t’embrasse toi et tes blessures!... Oh! ma dernière minute arrive!... En quelque lieu que j’aille, laissez-moi voir à toute heure, le visage de ma belle Annabella!...</p>
+          </sp>
+          <stage type="novelistic" xml:id="em0317-fr-st-157">Il meurt.</stage>
+          <stage xml:id="em0317-fr-st-158">Rideau.</stage>
+        </div2>
+      </div1>
+    </body>
+    <back/>
+  </text>
+</TEI>

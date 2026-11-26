@@ -1,0 +1,1403 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ACT II — The Shy Courtier — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">Cast of Characters</a></li>
+      
+  
+    
+        <li>
+          <a href="act-1.html">
+            ACT I
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html" aria-current="page">
+            ACT II
+          </a>
+          <ul>
+            <li>
+              
+                  <a href="act-2.html#act-2-s1">
+                    Scene 1
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-2.html#act-2-s2">
+                    Scene 2
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-2.html#act-2-s3">
+                    Scene 3
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-2.html#act-2-s4">
+                    Scene 4
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-2.html#act-2-s5">
+                    Scene 5
+                  </a>
+              
+            </li>
+          </ul>
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            ACT III
+          </a>
+          
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="Duke_Avero">
+        The Duke of Avero
+      </option><option value="Duarte_Count">
+        Don Duarte
+      </option><option value="Hunters">
+        Two Hunters
+      </option><option value="Figueredo">
+        Figueredo
+      </option><option value="Tarso">
+        Tarso
+      </option><option value="Melisa">
+        Melisa
+      </option><option value="Ruy">
+        Ruy Lorenzo
+      </option><option value="Vasco">
+        Vasco
+      </option><option value="Doristo">
+        Doristo
+      </option><option value="Lariso">
+        Lariso
+      </option><option value="Denio">
+        Denio
+      </option><option value="Juana">
+        Doña Juana
+      </option><option value="Antonio">
+        Don Antonio
+      </option><option value="Madalena">
+        Doña Madalena
+      </option><option value="Serafina">
+        Doña Serafina
+      </option><option value="Painter">
+        A Painter
+      </option><option value="Lauro">
+        Lauro
+      </option><option value="Mireno">
+        Mireno
+      </option>
+    </select>
+    
+      <label><input type="checkbox" data-toggle="sh"> <x-es>Versos compartidos</x-es><x-en>Shared lines</x-en></label>
+      <div class="stepper" data-stepper=".text .l[data-part=I]" data-for="sh">
+  <button type="button" data-step="-1" aria-label="Verso compartido anterior" data-en-aria-label="Previous shared line" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente verso compartido" data-en-aria-label="Next shared line" data-tr>›</button>
+</div>
+      <ul class="shared-legend">
+        <li>
+          <i class="sw" data-part="I"></i><x-es>Primera parte</x-es><x-en>First part</x-en>
+        </li><li>
+          <i class="sw" data-part="M"></i><x-es>Parte intermedia</x-es><x-en>Middle part</x-en>
+        </li><li>
+          <i class="sw" data-part="F"></i><x-es>Última parte</x-es><x-en>Last part</x-en>
+        </li>
+      </ul>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="asm" aria-label="Resaltar apartes" data-en-aria-label="Highlight asides" data-tr>
+        <x-es>Apartes</x-es><x-en>Asides</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .aparte, .text .pr.as, .text .pr:not(.as) span.as" data-for="asm">
+  <button type="button" data-step="-1" aria-label="Aparte anterior" data-en-aria-label="Previous aside" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente aparte" data-en-aria-label="Next aside" data-tr>›</button>
+</div>
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">Tirso de Molina</p>
+  <h1><a href="index.html">The Shy Courtier</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-1.html" rel="prev">← ACT I</a>
+  <a href="act-3.html" rel="next">ACT III →</a>
+</nav>
+  <div class="text" lang="en" data-cite="Tirso de Molina, The Shy Courtier, ACT II" data-cite-verse="int." data-cite-prose="int.">
+    
+    <section class="division" id="act-2">
+  <h2 class="act-head">
+    ACT II
+  </h2>
+  
+  
+  
+    
+      <section id="act-2-s1">
+        <h3 class="scene-head">
+          Scene 1
+        </h3>
+        <p class="sd " id="l227-sd3">SETTING: MADALENA’S chamber.</p><p class="sd " id="l227-sd4">AT RISE: MADALENA is alone.</p><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l228"><a class="pn " href="#l228">228</a>Oh proud conceit, what foundationless towers have you erected in the air? Crazed imaginings, how dare you wander so free? Do you wish to expose my few failings to the judgment of gossips and wags? Yesterday the heavens could calm the rough sea of your hopes with ease, but now that very tranquility is disturbed by sleepless. nights. I said yes to the Count of Vasconcelos, or rather to my father in his name, but now a man has entered my heart through my eyes, and my honor, stunned, stood by and let him in. This would be a grievous fault, did I not know that love is a blind and senseless boy. Oh my heart, must you give yourself, in spite of me, to one both strange and a prisoner? Is it not just to love the Count? Ah, but love rides roughshod over the laws of reason. However, since, thanks to my insistence, my father has now set him free, I may begin to recover. He is a stranger, and once he goes, time and absence, those expert doctors of love, will quickly heal my disconcerted mind. But why do I propose so severe a remedy? If the wound may be healed, it is cruelty to remove the arm. Let us give love some room, then, since I do enjoy his presence. No one would deny a sick man a sip of water, even if his is a mere passing fever. I’ll call for him. <span class="sdi">(calling out)</span><br>Doña Juana! Now restrain yourselves, you unbridled yearnings, lest you overwhelm me entirely. Do you wish to broadcast your affront? Shame conquers my mad desire, for, if it is madness to admit it in my soul, to speak it aloud is just as mad, and shameful too.</p>
+</div><p class="sd " id="l228-sd1">(JUANA enters.)</p><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l229"><a class="pn " href="#l229">229</a>Don Dionís, that handsome young prisoner who has now, thanks to your help, been set free, wishes to speak to you.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l230"><a class="pn m5" href="#l230">230</a><span class="sdi">(aside)</span> <span class="as">How quickly love takes the opportunity to bring itself into effect! I suppose that’s only prudent, since love itself is made of opportunities.</span> <span class="sdi">(to JUANA)</span><br>Do you know what he wants?</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l231"><a class="pn " href="#l231">231</a>He wishes to thank you for the favor you have done him.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr as" id="l232"><a class="pn " href="#l232">232</a><span class="sdi">(aside)</span> I sense asps hiding in the roses he sells.</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l233"><a class="pn " href="#l233">233</a>Should I let him in?</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l234"><a class="pn " href="#l234">234</a><span class="sdi">(aside)</span> <span class="as">As a captive he captivated me; mistreated, he mistreated me; with his hands bound, he bound the hands of my affection. If he could kill while absent and a prisoner, what will he do free and in my presence?</span> <span class="sdi">(to JUANA)</span><br>Tell him to come back later; I’m busy now. No, tell him not to come back.</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l235"><a class="pn m5" href="#l235">235</a>Very well.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l236"><a class="pn " href="#l236">236</a>Listen, tell him to wait. But no, he should go, it’s getting late.</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l237"><a class="pn " href="#l237">237</a>Should he come back?</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l238"><a class="pn " href="#l238">238</a>Didn’t I say he should? Now go.</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l239"><a class="pn " href="#l239">239</a>As you wish.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l240"><a class="pn m5" href="#l240">240</a>Wait—I don’t want him to complain.</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l241"><a class="pn " href="#l241">241</a>Well, what should I say?</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l242"><a class="pn " href="#l242">242</a>Tell him to leave <span class="sdi">(aside)</span> <span class="as">…and to take me with him.</span> <span class="sdi">(to JUANA)</span><br>Go on, tell him to come in.</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l243"><a class="pn " href="#l243">243</a>I suppose I’ll go.</p>
+</div><p class="sd " id="l243-sd1">(JUANA exits.)</p><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l244"><a class="pn " href="#l244">244</a>Let him come to me; my Portuguese courage will carry the day. The wish to see with one’s own eyes is as natural a desire in an honorable woman as in a dishonorable one—the difference is that the first one keeps quiet about it. I’ll keep quiet then, and try to hide my disquiet, if a fire can be smothered without smoke. I’ll just take up the time with idle words. Oh, but if I close the door on the flames of love, they’ll just escape through the windows; if I close them up in my mouth, they’ll pour out my eyes. Still, no one will recognize them if I hold my tongue. As long as it is only my eyes talking, I will not invite any forwardness.</p>
+</div><p class="sd " id="l244-sd1">(MIRENO enters, dressed as a courtier, and kneels.)</p><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l245"><a class="pn m5" href="#l245">245</a>Although I have been forward in entering your presence, my lady, my wish is to thank you for the favor you have granted me, since the greatest sin is that of ingratitude. I was imprisoned for helping an unlucky man gain his freedom, but heaven has repaid me in the same coin, for thanks to your help, I am now free as well. But did I say free? I misspoke, for once a nobleman has received a favor, he is obliged, that is to say enslaved, to his benefactor. If only by becoming your slave I could repay my debt to you. Yet my humility is nothing compared to so many who come to offer you their necks, so let me do the same. So great is my debt, that only my life is great enough forfeit to make recompense.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l246"><a class="pn " href="#l246">246</a>Please, get up from the floor.</p>
+</div><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l247"><a class="pn " href="#l247">247</a>I would rather remain here, my lady.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l248"><a class="pn " href="#l248">248</a>Do as I say. <span class="sdi">(MIRENO rises.)</span><br>Are you Portuguese?</p>
+</div><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l249"><a class="pn " href="#l249">249</a>I imagine so.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l250"><a class="pn m5" href="#l250">250</a>You imagine? Do you mean that you do not know who you are?</p>
+</div><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l251"><a class="pn " href="#l251">251</a>I believe I am Portuguese, though my father brought me to the village where he now lives when I was very young. He owns a small piece of land there, but his manner does him more credit than his station.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l252"><a class="pn " href="#l252">252</a>Are you of noble blood?</p>
+</div><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l253"><a class="pn " href="#l253">253</a>I believe so, judging by my natural demeanor, which is not that of the life to which I was born.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l254"><a class="pn " href="#l254">254</a>And would your actions, were it necessary, prove your nobility?</p>
+</div><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l255"><a class="pn m5" href="#l255">255</a>I believe so. I have never shied from a noble act.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l256"><a class="pn " href="#l256">256</a>You answer “I believe so” to everything I ask. Do you think perchance I am interrogating you on articles of faith?</p>
+</div><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l257"><a class="pn " href="#l257">257</a>You may be, my lady, for my life’s faith is that of gratitude to your mercy. My faith is your desire.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l258"><a class="pn " href="#l258">258</a>Your gratitude is overwhelming.</p>
+</div><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l259"><a class="pn " href="#l259">259</a>I owe you my life.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l260"><a class="pn m5" href="#l260">260</a>Well then, now that you are free, what will you do?</p>
+</div><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l261"><a class="pn " href="#l261">261</a>I intend to go where I can achieve renown that exceeds my highest hopes.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l262"><a class="pn " href="#l262">262</a>And where do you think you will be able to find such fortune?</p>
+</div><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l263"><a class="pn " href="#l263">263</a>In war, where by force of arms I may attain the stature to which I aspire.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l264"><a class="pn " href="#l264">264</a>Would it not be safer to attain it in peace?</p>
+</div><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l265"><a class="pn m5" href="#l265">265</a>How so?</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l266"><a class="pn " href="#l266">266</a>You could do so easily if you managed to have my father name you as his new secretary. As you know, the position remains vacant.</p>
+</div><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l267"><a class="pn " href="#l267">267</a>My inclination was not born to serve, but aims rather higher.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l268"><a class="pn " href="#l268">268</a>Well if you wish to fly, feathers would certainly help.</p>
+</div><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l269"><a class="pn " href="#l269">269</a>How am I supposed to fly with just the one feather of my pen?</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l270"><a class="pn m5" href="#l270">270</a>On the wings of favor. With the Duke’s confidence, you may achieve a thousand impossibilities.</p>
+</div><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l271"><a class="pn " href="#l271">271</a>But confidence requires secrecy, and secrecy, they say, leads to fear.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l272"><a class="pn " href="#l272">272</a>Don Dionís, this is my will.</p>
+</div><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l273"><a class="pn " href="#l273">273</a>It is your will that I serve the Duke? Well then, enough said. Let it be done as you wish, for with just one flight I have already risen to the highest heaven. If I may please you in this, I need not rise any higher. If the Duke will receive me, I will gladly be his secretary, since you, my lady, command it.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l274"><a class="pn " href="#l274">274</a>You see that I wish you to advance. Since I gave you your liberty, I would hate to see you lose it in war. I will make sure you are given the post, so that you will be able to stay here with us in this land.</p>
+</div><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l275"><a class="pn m5" href="#l275">275</a>Heaven is sure to remember your greatness.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr as" id="l276"><a class="pn " href="#l276">276</a><span class="sdi">(aside)</span> Honor, flee. My cowardly love is about to burst its bonds.</p>
+</div><p class="sd " id="l276-sd1">(MADALENA exits.)</p><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l277"><a class="pn " href="#l277">277</a>What am I to think of this? Oh thoughts of mine, that float among the clouds, what do you make of all you’ve seen here? Declare yourselves, and tell me whether so much favor can arise simply from a noble inclination, or whether love may be at hand. Oh, what madness! It is foolish to even think such things, much less say them aloud. My humble state chastens my high-flying desire… but is it foolish to imagine that she who advances me harbors some secret love? Was I not set free by her hand? Did I not see her will through the windows of her eyes? Love’s got me now. Be still, mad tongue: it’s wrong to imagine that her favor comes from anything more than her natural nobility. But asking about my state and station, isn’t that love? Why would she care about such things—a woman’s curiosity? Yes, but would she say, “Don Dionís, this is my will,” like that, if she wasn’t in love? I know a peasant like me can hardly aspire to such heavenly beauty, but since when have I ever backed down from a challenge? I’ll wait and see, since time makes doubtful things certain.</p>
+</div><p class="sd " id="l277-sd1">(TARSO enters.)</p><div class="sp " data-who="Tarso">
+  <p class="spk ">
+    TARSO
+  </p>
+  <p class="pr " id="l278"><a class="pn " href="#l278">278</a>They’ve let us out of jail, like Daniel out of the lion’s den, and none too soon—I don’t have his patience. Still, I have a feeling that the worst is yet to come, just like the prophet Habakkuk said, so let’s get out of here! Or has Avero been so good to you, that you still dream about being a gentleman? Well, by God, we came pretty close to getting ourselves dubbed, but with a whip instead of a sword.</p>
+</div><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l279"><a class="pn " href="#l279">279</a>Brito, my friend!</p>
+</div><div class="sp " data-who="Tarso">
+  <p class="spk ">
+    TARSO
+  </p>
+  <p class="pr " id="l280"><a class="pn m5" href="#l280">280</a>I’m not Brito. I’m Tarso.</p>
+</div><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l281"><a class="pn " href="#l281">281</a>Listen, you idiot. I am now nothing less than secretary to the Duke of Avero.</p>
+</div><div class="sp " data-who="Tarso">
+  <p class="spk ">
+    TARSO
+  </p>
+  <p class="pr " id="l282"><a class="pn " href="#l282">282</a>How?</p>
+</div><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l283"><a class="pn " href="#l283">283</a>The lady who gave us our freedom continues to shower us with favors.</p>
+</div><div class="sp " data-who="Tarso">
+  <p class="spk ">
+    TARSO
+  </p>
+  <p class="pr " id="l284"><a class="pn " href="#l284">284</a>Well that’s different; now you’re really somebody.</p>
+</div><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l285"><a class="pn m5" href="#l285">285</a>Just wait till I tell you the details.</p>
+</div><div class="sp " data-who="Tarso">
+  <p class="spk ">
+    TARSO
+  </p>
+  <p class="pr " id="l286"><a class="pn " href="#l286">286</a>Congratulations! And now that you’re the great man, you can grant your faithful servant the small favor of getting me out of these breeches.</p>
+</div><p class="sd " id="l286-sd1">(BLACKOUT)</p>
+      </section>
+    
+  
+    
+      <section id="act-2-s2">
+        <h3 class="scene-head">
+          Scene 2
+        </h3>
+        <p class="sd " id="l286-sd2">SETTING: Another room in the palace.</p><p class="sd " id="l286-sd3">AT RISE: ANTONIO and JUANA enter together.</p><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l287"><a class="pn " href="#l287">287</a>Cousin, my love obliges me to stay, the King of Castile be damned. At this point I serve only one king, my desire. I’m a bird: blind to the snare, I alight on the branch of beauty and am caught. When I try to escape, I only get more tangled up. Don Duarte both serves and deserves doña Serafina, and I know that the Duke has promised to make her his wife, but I also know that if I leave now, I’ll be tortured by jealousy and doubt. If only my beloved seraph knew who I was, and showed me some sign of her favor, I could go with a light heart. Yet she knows nothing of me or of my great torment, and so my only relief is to stay. Whether I go now or later to the King doesn’t matter. My cousin, my lady, unless you wish me to waste away in exile from my beloved, do not ask me to leave Avero.</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l288"><a class="pn " href="#l288">288</a>Antonio, as my cousin you know that I care about you. If I reproach you for staying, it’s only because in a town this size you’re sure to be noticed.</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l289"><a class="pn " href="#l289">289</a>Never fear, I’ve found a way to do so safely and incognito. The Duke has never met me, and I happen to know that he is looking for an expert secretary.</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l290"><a class="pn m5" href="#l290">290</a>I’ve a feeling I know where this is going.</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l291"><a class="pn " href="#l291">291</a>Don’t you see that by entering the palace in that guise I can advance my hopes— given time, chance, and most importantly, your help?</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l292"><a class="pn " href="#l292">292</a>It’s an audacious plot, but rather beneath your position.</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l293"><a class="pn " href="#l293">293</a>Any position is noble when it comes to love.</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l294"><a class="pn " href="#l294">294</a>Well then, find a way.</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l295"><a class="pn m5" href="#l295">295</a>I’ve already sent a note to the Duke asking him to give me the post.</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l296"><a class="pn " href="#l296">296</a>This is all very clever, but I do wish you had told me.</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l297"><a class="pn " href="#l297">297</a>Prudence rewards. I’ve entrusted my note to Duke’s valet, who they say is one of his favorites.</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l298"><a class="pn " href="#l298">298</a>The Duke trusts him with everything.</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l299"><a class="pn " href="#l299">299</a>Then I have much to hope for, as long as the valet remembers his promise.</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l300"><a class="pn m5" href="#l300">300</a>Look, here comes the Duke.</p>
+</div><p class="sd " id="l300-sd1">(The DUKE and FIGUEREDO enter.)</p><div class="sp " data-who="Duke_Avero">
+  <p class="spk ">
+    DUKE
+  </p>
+  <p class="pr " id="l301"><a class="pn " href="#l301">301</a>As I said, the position calls for one who conjoins nobility, discretion, and grace, not to mention a fine hand.</p>
+</div><div class="sp " data-who="Figueredo">
+  <p class="spk ">
+    FIGUEREDO
+  </p>
+  <p class="pr " id="l302"><a class="pn " href="#l302">302</a>I don’t know about his nobility, but I can assure Your Grace that in all other respects, no man in Portugal is better qualified to occupy the post than this one.</p>
+</div><div class="sp " data-who="Duke_Avero">
+  <p class="spk ">
+    DUKE
+  </p>
+  <p class="pr " id="l303"><a class="pn " href="#l303">303</a>Enough. Since you praise him so, let me meet him.</p>
+</div><div class="sp " data-who="Figueredo">
+  <p class="spk ">
+    FIGUEREDO
+  </p>
+  <p class="pr " id="l304"><a class="pn " href="#l304">304</a>I’ll call for him at once—but here he is now, right before us. <span class="sdi">(to ANTONIO)</span><br>Come forward, sir! My lord the Duke would like to meet you.</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l305"><a class="pn m5" href="#l305">305</a>I place myself at Your Grace’s feet.</p>
+</div><div class="sp " data-who="Duke_Avero">
+  <p class="spk ">
+    DUKE
+  </p>
+  <p class="pr " id="l306"><a class="pn " href="#l306">306</a>Rise. Where are you from?</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l307"><a class="pn " href="#l307">307</a>I was born in Lisbon, sir.</p>
+</div><div class="sp " data-who="Duke_Avero">
+  <p class="spk ">
+    DUKE
+  </p>
+  <p class="pr " id="l308"><a class="pn " href="#l308">308</a>And whom have you served?</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l309"><a class="pn " href="#l309">309</a>I was raised with don Antonio de Barcelo, the Count of Penela, and I bring with me letters of his, in which he favors my aspirations.</p>
+</div><div class="sp " data-who="Duke_Avero">
+  <p class="spk ">
+    DUKE
+  </p>
+  <p class="pr " id="l310"><a class="pn m5" href="#l310">310</a>I care deeply for don Antonio, though we have never met. Why did you not give me these letters before?</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l311"><a class="pn " href="#l311">311</a>I am not accustomed to obtaining through favors what I may obtain in my own right, and so I wanted meet you first, Your Grace.</p>
+</div><div class="sp " data-who="Duke_Avero">
+  <p class="spk ">
+    DUKE
+  </p>
+  <p class="pr " id="l312"><a class="pn " href="#l312">312</a><span class="sdi">(to FIGUEREDO)</span> I am impressed by his good form and style. <span class="sdi">(to ANTONIO)</span><br>Very well, you are now my secretary. May your work prove your worth.</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l313"><a class="pn " href="#l313">313</a>I submit myself, sir, to the proof of experience.</p>
+</div><div class="sp " data-who="Duke_Avero">
+  <p class="spk ">
+    DUKE
+  </p>
+  <p class="pr " id="l314"><a class="pn " href="#l314">314</a>Doña Juana, what are Serafina and Madalena doing now?</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l315"><a class="pn m5" href="#l315">315</a>They were just in the garden together, though I understand that my lady doña Madalena is somewhat out of sorts.</p>
+</div><div class="sp " data-who="Duke_Avero">
+  <p class="spk ">
+    DUKE
+  </p>
+  <p class="pr " id="l316"><a class="pn " href="#l316">316</a>What’s the matter?</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l317"><a class="pn " href="#l317">317</a>She’s been rather melancholy the last two days, but no one knows why.</p>
+</div><div class="sp " data-who="Duke_Avero">
+  <p class="spk ">
+    DUKE
+  </p>
+  <p class="pr " id="l318"><a class="pn " href="#l318">318</a>I know what the problem is. She’s learned that I intend to give her a new state in life, and such changes are always the occasion for sorrow in a noble and honorable woman. It does not surprise me that she should fear a life of captivity. Now, look after this man. He comes from Lisbon and knows the Count of Penela, your cousin, so I’m sure you will have much to talk about.</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l319"><a class="pn " href="#l319">319</a>Yes, my lord.</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l320"><a class="pn m5" href="#l320">320</a>I am Your Grace’s most humble servant.</p>
+</div><p class="sd " id="l320-sd1">(The DUKE exits.)</p><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l321"><a class="pn " href="#l321">321</a>A propitious start, I’d say.</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l322"><a class="pn " href="#l322">322</a>If that’s what you call toadying to your equal, then yes it was.</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l323"><a class="pn " href="#l323">323</a>At least I’ll be here, and there’s a chance I can quell my jealousy of don Duarte.</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l324"><a class="pn " href="#l324">324</a>Oh, your beloved takes little notice of him. At the moment she’s spending all her time with her ladies in waiting, rehearsing for a play that she’s planning to perform for her sister to celebrate Carnival tomorrow.</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l325"><a class="pn m5" href="#l325">325</a>Is she inclined to poetry, then?</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l326"><a class="pn " href="#l326">326</a>She simply loses her head over it. This afternoon she’s set on rehearsing the part with me alone in the garden, dressed as a man.</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l327"><a class="pn " href="#l327">327</a>And you tell me this just like that?</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l328"><a class="pn " href="#l328">328</a>Why, how would you want me to tell you?</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l329"><a class="pn " href="#l329">329</a>How? By asking for my life, my mind, my very soul, in return for allowing me the wondrous chance to gaze on her in this manner. May you live more years than there are stars in the sky. May cruel time never consume the beauty you enjoy. May all your dreams come true, and the King of Portugal, madly in love with you, give you his hand, his scepter, and his life—</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l330"><a class="pn m5" href="#l330">330</a>Enough, before you lose your head and try to marry me off to the Pope! I’m happy to do this for you. Let’s go: I’ll hide you among the jasmines and myrtles that hedge the flowerbeds, and there, as long as you keep quiet, you can gaze to your heart’s content.</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l331"><a class="pn " href="#l331">331</a>Say, is there a painter in Avero?</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l332"><a class="pn " href="#l332">332</a>The Duke employs some quite famous ones. Why do you ask?</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l333"><a class="pn " href="#l333">333</a>I’d like to bring one to paint a portrait of my ravishing seraph. It would be easy enough for him to make a sketch while she’s dressing.</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l334"><a class="pn " href="#l334">334</a>And if doña Serafina notices, or the painter gives you away?</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l335"><a class="pn m5" href="#l335">335</a>Money talks and money silences. Now, either stop holding me up or just kill me.</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l336"><a class="pn " href="#l336">336</a>You neither give me time to speak nor yourself time to listen, you rush me so. But very well, you’ll see how much I care for you. Now go find yourself a painter without a tongue, and be careful, or you may have to abort your plan. You lovers have such odd cravings, I’d swear you were pregnant.</p>
+</div><p class="sd " id="l336-sd1">(BLACKOUT)</p>
+      </section>
+    
+  
+    
+      <section id="act-2-s3">
+        <h3 class="scene-head">
+          Scene 3
+        </h3>
+        <p class="sd " id="l336-sd2">SETTING: The palace garden.</p><p class="sd " id="l336-sd3">AT RISE: The DUKE and MADALENA enter together.</p><div class="sp " data-who="Duke_Avero">
+  <p class="spk ">
+    DUKE
+  </p>
+  <p class="pr " id="l337"><a class="pn " href="#l337">337</a>If you wish to please me, my dear, you’re not doing very well; I’d rather die than see you upset. Fate has given you a husband to make you happy. Now go and reply to the letter his father the Duke of Braganza sent you, and don’t let me see any grief on your face, unless you wish to send me to an early grave.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l338"><a class="pn " href="#l338">338</a>I’ll try not to be sad, sir, for your sake.</p>
+</div><div class="sp " data-who="Duke_Avero">
+  <p class="spk ">
+    DUKE
+  </p>
+  <p class="pr " id="l339"><a class="pn " href="#l339">339</a>What you need is to find some distraction.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l340"><a class="pn m5" href="#l340">340</a>I’ll try. And now, I would ask that you add one small favor to the many you have granted me.</p>
+</div><div class="sp " data-who="Duke_Avero">
+  <p class="spk ">
+    DUKE
+  </p>
+  <p class="pr " id="l341"><a class="pn " href="#l341">341</a>Go ahead, on the condition that you forget all this sadness.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l342"><a class="pn " href="#l342">342</a>The prisoner I asked you to free has now come to me for assistance, and I feel obliged to help him rise in your favor. He is a fine young man, and he has an excellent pen.</p>
+</div><div class="sp " data-who="Duke_Avero">
+  <p class="spk ">
+    DUKE
+  </p>
+  <p class="pr " id="l343"><a class="pn " href="#l343">343</a>Tell me what he wants.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l344"><a class="pn " href="#l344">344</a>He would like to take up the position of secretary.</p>
+</div><div class="sp " data-who="Duke_Avero">
+  <p class="spk ">
+    DUKE
+  </p>
+  <p class="pr " id="l345"><a class="pn m5" href="#l345">345</a>A short time ago I could have given it to him, but as of not a quarter of an hour ago the position has been filled.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l346"><a class="pn " href="#l346">346</a>If it please Your Grace, I gave him my word, and now he expects some favor from me. Since you wish me to write to my fiancé and his father, and my hand at present is so poor, perhaps we could keep him here to teach me. It’s a great fault in a lady not to be able to respond when she receives a letter, or to respond in such a scrawling hand that it can’t be read. With lessons from him, I’d surely improve.</p>
+</div><div class="sp " data-who="Duke_Avero">
+  <p class="spk ">
+    DUKE
+  </p>
+  <p class="pr " id="l347"><a class="pn " href="#l347">347</a>Well then, let him teach you to polish your drafts. Working will distract you from your sadness, which is born from the vice of idleness. He shall be <em>your</em> secretary.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l348"><a class="pn " href="#l348">348</a>Let me kiss your hands.</p>
+</div><p class="sd " id="l348-sd1">(The COUNT enters.)</p><div class="sp " data-who="Duarte_Count">
+  <p class="spk ">
+    COUNT
+  </p>
+  <p class="pr " id="l349"><a class="pn " href="#l349">349</a>Sir, I come before you a very happy man.</p>
+</div><div class="sp " data-who="Duke_Avero">
+  <p class="spk ">
+    DUKE
+  </p>
+  <p class="pr " id="l350"><a class="pn m5" href="#l350">350</a>Why is that?</p>
+</div><div class="sp " data-who="Duarte_Count">
+  <p class="spk ">
+    COUNT
+  </p>
+  <p class="pr " id="l351"><a class="pn " href="#l351">351</a>The King sends word that he approves my marriage to doña Serafina.</p>
+</div><div class="sp " data-who="Duke_Avero">
+  <p class="spk ">
+    DUKE
+  </p>
+  <p class="pr " id="l352"><a class="pn " href="#l352">352</a>That’s splendid news, my son. Still, you’d do well to give her some time to get used to the prospect. You know how heavily the idea of marriage weighs on her at present.</p>
+</div><div class="sp " data-who="Duarte_Count">
+  <p class="spk ">
+    COUNT
+  </p>
+  <p class="pr " id="l353"><a class="pn " href="#l353">353</a>My soul will endure these sufferings as proof of its devotion.</p>
+</div><div class="sp " data-who="Duke_Avero">
+  <p class="spk ">
+    DUKE
+  </p>
+  <p class="pr " id="l354"><a class="pn " href="#l354">354</a>I’ll plead your case with her; you needn’t worry. The Count of Vasconcelos will be here shortly, and we’ll celebrate both weddings in good time. Cheer up, Madalena.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l355"><a class="pn m5" href="#l355">355</a>I’ll be happy if it pleases you, sir. <span class="sdi">(The DUKE and COUNT exit.)</span><br>They’re right in calling love both a sickness and a madness, since like a sick man, the lover always wants what’s worst for him. Honor, you’ve let into your house an adversary who will battle you for my very soul, and now I doubt his victory will be long in coming. Whoever seeks out danger shouldn’t be surprised when he stumbles over it. If Brutus’ wife Portia died from swallowing hot coals, what will become of me, if I must swallow the fire of my passions in silence? I’ll tell him, not with words, but with visible signs, the invisible torments that I suffer by not speaking.</p>
+</div><p class="sd " id="l355-sd1">(BLACKOUT)</p>
+      </section>
+    
+  
+    
+      <section id="act-2-s4">
+        <h3 class="scene-head">
+          Scene 4
+        </h3>
+        <p class="sd " id="l355-sd2">SETTING: The same.</p><p class="sd " id="l355-sd3">AT RISE: JUANA, ANTONIO, and a PAINTER enter together.</p><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l356"><a class="pn " href="#l356">356</a>This green myrtle here could be Cupid’s own hiding place; the jasmines and other shrubs will screen you like lattices.</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l357"><a class="pn " href="#l357">357</a>My seraph is an angel in this Paradise, but if she notices us, I’ll be Adam cast out of it.</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l358"><a class="pn " href="#l358">358</a>I’ll make sure she rehearses the part right here, so that she’s in front of the painter and he can draw her more easily. She’s dressing herself as a man right now—an idea she’s quite taken with. I’ll go and tell her the garden is locked and empty.</p>
+</div><p class="sd " id="l358-sd1">(JUANA exits.)</p><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l359"><a class="pn " href="#l359">359</a>We’re both painters, you and I, but I already possess the portrait that enthralls and consumes me.</p>
+</div><div class="sp " data-who="Painter">
+  <p class="spk ">
+    PAINTER
+  </p>
+  <p class="pr " id="l360"><a class="pn m5" href="#l360">360</a>I don’t understand.</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l361"><a class="pn " href="#l361">361</a>The mind is a canvas, or a <em>tabula rasa</em> as Aristotle calls it, on which may be painted a thousand different images.</p>
+</div><div class="sp " data-who="Painter">
+  <p class="spk ">
+    PAINTER
+  </p>
+  <p class="pr " id="l362"><a class="pn " href="#l362">362</a>Well put.</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l363"><a class="pn " href="#l363">363</a>Colors and shades are aspects of the object, which the eyes convey to the Common Sense. Here Estimation may admire them, but they appear only as rough sketches until Awareness illuminates and paints them with its own light. Once painted, Awareness puts them on sale, and presents them to the Will, that queen of infinitely good taste. She always loves what is fine, but her judgment is subject to what is presented to her. What she doesn’t know, she can never love.</p>
+</div><div class="sp " data-who="Painter">
+  <p class="spk ">
+    PAINTER
+  </p>
+  <p class="pr " id="l364"><a class="pn " href="#l364">364</a>That is what the Philosopher says.</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l365"><a class="pn m5" href="#l365">365</a>She unrolls all the paintings and buys the one she likes, choosing better in some cases than in others. She puts this one in the frame of love and, charmed by the sight, hangs it in Memory, her most intimate chamber. In this same way, when I saw the uncommon beauty of my doña Serafina, I took up the paintbrush and began to paint. My Awareness completed the painting, and my Will bought it and placed it in my Memory. Finally, seeing how well it came out, the painter signed at the bottom, “<em>Amor me fecit</em>” – “Love made me.” Now do you see how the lover paints?</p>
+</div><div class="sp " data-who="Painter">
+  <p class="spk ">
+    PAINTER
+  </p>
+  <p class="pr " id="l366"><a class="pn " href="#l366">366</a>So, if you already have the portrait, what do you need me to paint her for?</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l367"><a class="pn " href="#l367">367</a>What I have is called a spiritual portrait. Sight is corporeal; thus, if I wish to gaze on her beauty in my solitude, I need you to paint me a corporeal portrait.</p>
+</div><div class="sp " data-who="Painter">
+  <p class="spk ">
+    PAINTER
+  </p>
+  <p class="pr " id="l368"><a class="pn " href="#l368">368</a>There’s no philosophy like a lover’s.</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l369"><a class="pn " href="#l369">369</a>I am a connoisseur in the ways of love. But listen, here comes my joy.</p>
+</div><p class="sd " id="l369-sd1">(They hide. SERAFINA enters, dressed in a man’s black tunic, accompanied by JUANA.)</p><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l370"><a class="pn m5" href="#l370">370</a>You’re really going ahead with this? Aren’t you ashamed to see yourself like that?</p>
+</div><div class="sp " data-who="Serafina">
+  <p class="spk ">
+    SERAFINA
+  </p>
+  <p class="pr " id="l371"><a class="pn " href="#l371">371</a>Everyone dresses up for Carnival, so why can’t I? And you shouldn’t be surprised that I’m drawn to men’s garb, since I can’t be one.</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l372"><a class="pn " href="#l372">372</a>You look enough like one that I could fall in love with you. It’s going to be tonight, then?</p>
+</div><div class="sp " data-who="Serafina">
+  <p class="spk ">
+    SERAFINA
+  </p>
+  <p class="pr " id="l373"><a class="pn " href="#l373">373</a>Yes.</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l374"><a class="pn " href="#l374">374</a>I still wish you’d find some other way to entertain yourself, instead of acting.</p>
+</div><div class="sp " data-who="Serafina">
+  <p class="spk ">
+    SERAFINA
+  </p>
+  <p class="pr " id="l375"><a class="pn m5" href="#l375">375</a>You cannot find another kind of entertainment that embraces so many diverse pleasures as the theater.</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l376"><a class="pn " href="#l376">376</a>Oh, spare me.</p>
+</div><div class="sp " data-who="Serafina">
+  <p class="spk ">
+    SERAFINA
+  </p>
+  <p class="pr " id="l377"><a class="pn " href="#l377">377</a>What celebration or pastime is there that calls not for poetry? In the theater, may the eyes not delight in a thousand sights that banish their cares? Does music not beguile the ear and the mind delight in the conceit’s twists and turns? For the happy is there not laughter? For the sad, tears? For the sharp, wit? The fool and the simpleton, may they not learn? Is there not war for the brave, councils for the wise, and authority for the grave? There are Moors if you want Moors. If you prefer tournaments, you can have tournaments; if bulls, they’ll run bulls. Would you like to hear the epithets I’ve collected to describe the theater? It is a translation of life, sustenance for the discreet, a lady of understanding, a banquet for the senses, a bouquet of pleasures, a sphere of thought, an escape from the affronts of life, and a delicacy to match every purse, which starves fools but satisfies sages. Now which side would you rather be on?</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l378"><a class="pn " href="#l378">378</a>I suppose I’ll side with the sages. I admit, I’m looking forward to this little farce.</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l379"><a class="pn " href="#l379">379</a>I’m bewitched by the grace with which she speaks. Start drawing her at once. Oh, if only a mortal hand could capture from life the singular beauty of a seraph.</p>
+</div><div class="sp " data-who="Painter">
+  <p class="spk ">
+    PAINTER
+  </p>
+  <p class="pr " id="l380"><a class="pn m5" href="#l380">380</a>She’s human—I can do it.</p>
+</div><div class="sp " data-who="Serafina">
+  <p class="spk ">
+    SERAFINA
+  </p>
+  <p class="pr " id="l381"><a class="pn " href="#l381">381</a>Doña Juana, bring me the mirror.</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l382"><a class="pn " href="#l382">382</a>If you look into it, my lady, beware you don’t fall in love with yourself.</p>
+</div><div class="sp " data-who="Serafina">
+  <p class="spk ">
+    SERAFINA
+  </p>
+  <p class="pr " id="l383"><a class="pn " href="#l383">383</a>Am I such a handsome man, then?</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l384"><a class="pn " href="#l384">384</a>I’m afraid you’ll be another Narcissus.</p>
+</div><div class="sp " data-who="Serafina">
+  <p class="spk ">
+    SERAFINA
+  </p>
+  <p class="pr " id="l385"><a class="pn m5" href="#l385">385</a>Well! In that case, I’ll gather up my hair, so I won’t look like a woman even when I take my hat off. Why are you holding the mirror way over there?</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l386"><a class="pn " href="#l386">386</a>So that I can block the view of a painter who’s hidden in the garden.</p>
+</div><div class="sp " data-who="Serafina">
+  <p class="spk ">
+    SERAFINA
+  </p>
+  <p class="pr " id="l387"><a class="pn " href="#l387">387</a>What are you talking about?</p>
+</div><div class="sp " data-who="Painter">
+  <p class="spk ">
+    PAINTER
+  </p>
+  <p class="pr " id="l388"><a class="pn " href="#l388">388</a>By God, that woman’s giving us away! If the Duke finds out, we’re in for it.</p>
+</div><div class="sp " data-who="Serafina">
+  <p class="spk ">
+    SERAFINA
+  </p>
+  <p class="pr " id="l389"><a class="pn " href="#l389">389</a>There’s a painter in the garden?</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l390"><a class="pn m5" href="#l390">390</a>Yes, now let him do his work.</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l391"><a class="pn " href="#l391">391</a>Good heavens! Has she gone mad?</p>
+</div><div class="sp " data-who="Serafina">
+  <p class="spk ">
+    SERAFINA
+  </p>
+  <p class="pr " id="l392"><a class="pn " href="#l392">392</a>Who would dare?</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l393"><a class="pn " href="#l393">393</a>Cupid would, my dear, who—smitten with you—has hidden in the bushes to paint your portrait.</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l394"><a class="pn " href="#l394">394</a>That’s too true.</p>
+</div><div class="sp " data-who="Serafina">
+  <p class="spk ">
+    SERAFINA
+  </p>
+  <p class="pr " id="l395"><a class="pn m5" href="#l395">395</a>Let’s go over the part, now that I’m dressed for it.</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l396"><a class="pn " href="#l396">396</a>What’s this comedy called?</p>
+</div><div class="sp " data-who="Serafina">
+  <p class="spk ">
+    SERAFINA
+  </p>
+  <p class="pr " id="l397"><a class="pn " href="#l397">397</a><em>The Cruel Lady of Portugal</em>.</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l398"><a class="pn " href="#l398">398</a>The poet must have had you in mind when he gave it that title.</p>
+</div><div class="sp " data-who="Serafina">
+  <p class="spk ">
+    SERAFINA
+  </p>
+  <p class="pr " id="l399"><a class="pn " href="#l399">399</a>What cruelty have you ever seen in me?</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l400"><a class="pn m5" href="#l400">400</a>To love no one.</p>
+</div><div class="sp " data-who="Serafina">
+  <p class="spk ">
+    SERAFINA
+  </p>
+  <p class="pr " id="l401"><a class="pn " href="#l401">401</a><span class="sdi">(putting on a cape and hat)</span> Would it be fair that, to be kind to others, I should be cruel to myself?</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l402"><a class="pn " href="#l402">402</a>Oh, take pity on the wretch condemned to hear such a thing!</p>
+</div><div class="sp " data-who="Painter">
+  <p class="spk ">
+    PAINTER
+  </p>
+  <p class="pr " id="l403"><a class="pn " href="#l403">403</a>Patience.</p>
+</div><div class="sp " data-who="Serafina">
+  <p class="spk ">
+    SERAFINA
+  </p>
+  <p class="pr " id="l404"><a class="pn " href="#l404">404</a>Enough, let me practice. It’s a superb role: a prince who challenges a count to a duel over a lady they both love. I don’t actually know what it means to be jealous, but watch and I’ll make believe I do.</p><p class="sd " id="l404-sd1">(acting)</p><div class="lg ">
+  
+  <div class="l " id="l404-v1"><span class="t">Oh Count, thy impudence is in th’extreme,</span></div><div class="l " id="l404-v2"><span class="t">And of my patience passes o’er the bound.</span></div><div class="l " id="l404-v3"><span class="t">I am surprised at thee, and Celia too:</span></div><div class="l " id="l404-v4"><span class="t">At thee, that thou wouldst dare to speak to her;</span></div><div class="l " id="l404-v5"><span class="t">At her, that she would hearken to thy words.</span></div><div class="l " id="l404-v6"><span class="t">Moreover, since thou know’st th’advantages</span></div><div class="l " id="l404-v7"><span class="t">That from my higher station couldst expect,</span></div><div class="l " id="l404-v8"><span class="t">‘Twas pure contempt in thee, her to have loved,</span></div><div class="l " id="l404-v9"><span class="t">And in her, to have lent thy love mad ear.</span></div><div class="l " id="l404-v10"><span class="t">Hark now, and do not try to satisfy</span></div><div class="l " id="l404-v11"><span class="t">My rage. All thy intents will be in vain</span></div><div class="l " id="l404-v12"><span class="t">If, lacking arms with which to fight, seekest</span></div><div class="l " id="l404-v13"><span class="t">To conquer me with words. Summon thy strength,</span></div><div class="l " id="l404-v14"><span class="t">That my suspicions may be laid to rest.</span></div><div class="l " id="l404-v15"><span class="t">For ‘tis not proper to be jealous of</span></div><div class="l " id="l404-v16"><span class="t">So cowardly a man. Summon thy might,</span></div><div class="l " id="l404-v17"><span class="t">Thou worm, thou vile enemy – now die!</span></div>
+</div>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l405"><a class="pn m5" href="#l405">405</a>Careful! Your quarrel isn’t with me, my lady.</p>
+</div><div class="sp " data-who="Serafina">
+  <p class="spk ">
+    SERAFINA
+  </p>
+  <p class="pr " id="l406"><a class="pn " href="#l406">406</a>What do you think?</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l407"><a class="pn " href="#l407">407</a>You scared me. If you can act like that, what would you do if you really were jealous?</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l408"><a class="pn " href="#l408">408</a>Have you ever seen such graceful jealousy?</p>
+</div><div class="sp " data-who="Serafina">
+  <p class="spk ">
+    SERAFINA
+  </p>
+  <p class="pr " id="l409"><a class="pn " href="#l409">409</a>Now watch. This time, reassured of my lady and her love, I will tenderly ask her forgiveness for frightening her.</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l410"><a class="pn m5" href="#l410">410</a>Oh, that’ll be good. Go on.</p>
+</div><div class="sp " data-who="Serafina">
+  <p class="spk ">
+    SERAFINA
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l411"><a class="n " href="#l411">411</a><span class="t"><span class="sdi">(acting)</span> As heaven is my witness, reachèd not</span></div><div class="l " id="l411-v1"><span class="t">My ire into my soul. Now, treasure dear,</span></div><div class="l " id="l411-v2"><span class="t">Let us be friends, and quarrel not, for I</span></div><div class="l " id="l411-v3"><span class="t">Myself do castigate. And let those eyes,</span></div><div class="l " id="l411-v4"><span class="t">Those lovely maids, return to sport with me.</span></div><div class="l " id="l411-v5"><span class="t">Remove that frown, my dears, for I would fain</span></div><div class="l " id="l411-v6"><span class="t">Take you for peasants, hooded so. Wherefore</span></div><div class="l " id="l411-v7"><span class="t">This cold disdain, my light, my star, my prize,</span></div><div class="l " id="l411-v8"><span class="t">My solace, dearest treasure, and my peace?</span></div><div class="l " id="l411-v9"><span class="t">Wilt not look on me? Art not satisfied?</span></div><div class="l " id="l411-v10"><span class="t">Why, take this dagger, then, and kill me. Yet</span></div><div class="l " id="l411-v11"><span class="t">Thou wilt not kill me, though thou may’st be wroth,</span></div><div class="l " id="l411-v12"><span class="t">For ‘tis in me that all thy pleasure rests.</span></div><div class="l " id="l411-v13"><span class="t">Now let this be the end, Celia my dear,</span></div><div class="l " data-part="I" id="l411-v14"><span class="t">And do not make me cross.</span></div><p class="sd " id="l411-sd1">(She embraces JUANA.)</p><div class="l part-f" data-part="F" id="l411-v14b"><span class="t"><span class="ghost " aria-hidden="true">And do not make me cross. </span>I dare to hold</span></div><div class="l " id="l411-v15"><span class="t">Thee so, for ‘tis but thee that I adore.</span></div><div class="l " id="l411-v16"><span class="t">Now do not turn away from my embrace,</span></div><div class="l " id="l411-v17"><span class="t">Nor hide from me the beauties of thy face.</span></div>
+</div>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l412"><a class="pn " href="#l412">412</a>You’ve turned from ice to candle-wax. Now that’s the mark of a real Portuguese lover. Say, my lady, is it possible that someone who plays a lover so well can feel no love?</p>
+</div><div class="sp " data-who="Serafina">
+  <p class="spk ">
+    SERAFINA
+  </p>
+  <p class="pr " id="l413"><a class="pn " href="#l413">413</a>Fortunately, I’ve avoided that fate until now. It has so few advantages and causes so much pain. Now, listen to this part. You’ll see how well I can feign madness!</p><p class="sd " id="l413-sd1">(acting)</p><div class="lg ">
+  
+  <div class="l " id="l413-v1"><span class="t">Celia hath me forgot, and weds the Count?</span></div><div class="l " id="l413-v2"><span class="t">Heavens! Woman and fickleness have got</span></div><div class="l " id="l413-v3"><span class="t">The self-same root. What of the favors that,</span></div><div class="l " id="l413-v4"><span class="t">Like flow’rs, the promise held of future fruit?</span></div><div class="l " id="l413-v5"><span class="t">They were but almond blossoms, blasted now</span></div><div class="l " id="l413-v6"><span class="t">By the north wind. Now I am mad, so may</span></div><div class="l " id="l413-v7"><span class="t">Life end. Let life be lost, now sense is gone.</span></div><div class="l " id="l413-v8"><span class="t">But let us to the wedding. Since we’ve paid</span></div><div class="l " id="l413-v9"><span class="t">The cost, dear thoughts, let us be merry at</span></div><div class="l " id="l413-v10"><span class="t">Our own expense. They’ll marry in the town</span></div><div class="l " id="l413-v11"><span class="t">As peasants do, for love hath brought her low.</span></div><div class="l " id="l413-v12"><span class="t">Then let us thither fly, oh jealousy,</span></div><div class="l " id="l413-v13"><span class="t">Since thou hast wings of fire. We’ll soon arrive;</span></div><div class="l " id="l413-v14"><span class="t">E’en here can we them spy. Here come the guests;</span></div><div class="l " id="l413-v15"><span class="t">The drum keeps time for them to dance, and should</span></div><div class="l " id="l413-v16"><span class="t">We not as well? Now: <em>One two three, one two three</em>…</span></div><p class="sd " id="l413-sd2">(She dances a few steps.)</p><div class="l " id="l413-v17"><span class="t">Oh my desires, if Celia changed and did</span></div><div class="l " id="l413-v18"><span class="t">Not keep in place, should you not dance as well?</span></div><div class="l " id="l413-v19"><span class="t">Play on, old Pero Sastre, for the town</span></div><div class="l " id="l413-v20"><span class="t">Will pay thee well enough. They’ve gone inside</span></div><div class="l " id="l413-v21"><span class="t">To feast. And with this cloak of suff’ring now</span></div><div class="l " id="l413-v22"><span class="t">I’ll cover myself o’er, and sit unseen</span></div><div class="l " id="l413-v23"><span class="t">In this dull corner, as is my desert.</span></div><div class="l " id="l413-v24"><span class="t">And now they pass out hazelnuts to all,</span></div><div class="l " id="l413-v25"><span class="t">And toasted chickpeas. Ho, there! Here, you fools!</span></div><div class="l " data-part="I" id="l413-v26"><span class="t">I’ll take a handful.</span></div><div class="l part-f" data-part="F" id="l413-v26b"><span class="t"><span class="ghost " aria-hidden="true">I’ll take a handful. </span>—Me, a fool? Thou liest!</span></div><div class="l " data-part="I" id="l413-v27"><span class="t">I lie? Take that!</span></div><div class="l part-f" data-part="F" id="l413-v27b"><span class="t"><span class="ghost " aria-hidden="true">I lie? Take that! </span>—Wouldst slap me? Die, thou knave!</span></div><p class="sd " id="l413-sd3">(She thrusts with her sword.)</p><div class="l " data-part="I" id="l413-v28"><span class="t">Take that! What’s this?</span></div><div class="l part-m" data-part="M" id="l413-v28b"><span class="t"><span class="ghost " aria-hidden="true">Take that! What’s this? </span>— ‘Twas nothing.</span></div><div class="l part-f" data-part="F" id="l413-v28c"><span class="t"><span class="ghost " aria-hidden="true">Take that! What’s this? — ‘Twas nothing. </span>—Let’s be friends.</span></div><div class="l " data-part="I" id="l413-v29"><span class="t">I’d like to be.</span></div><div class="l part-f" data-part="F" id="l413-v29b"><span class="t"><span class="ghost " aria-hidden="true">I’d like to be. </span>—Now here comes old sir priest:</span></div><div class="l " id="l413-v30"><span class="t">May many a good year this house rejoice</span></div><div class="l " data-part="I" id="l413-v31"><span class="t">With weddings.</span></div><div class="l part-f" data-part="F" id="l413-v31b"><span class="t"><span class="ghost " aria-hidden="true">With weddings. </span>—Father, here’s a seat for you.</span></div><div class="l " data-part="I" id="l413-v32"><span class="t">Oh, no.</span></div><div class="l part-m" data-part="M" id="l413-v32b"><span class="t"><span class="ghost " aria-hidden="true">Oh, no. </span>—Here, take this chair.</span></div><div class="l part-f" data-part="F" id="l413-v32c"><span class="t"><span class="ghost " aria-hidden="true">Oh, no. —Here, take this chair. </span>—No, I could not.</span></div><div class="l " data-part="I" id="l413-v33"><span class="t">But I insist.</span></div><div class="l part-f" data-part="F" id="l413-v33b"><span class="t"><span class="ghost " aria-hidden="true">But I insist. </span>—This bench is fine, still, I</span></div><div class="l " data-part="I" id="l413-v34"><span class="t">Won’t make thee beg.</span></div><div class="l part-f" data-part="F" id="l413-v34b"><span class="t"><span class="ghost " aria-hidden="true">Won’t make thee beg. </span>—The old man’s at his ease.</span></div><div class="l " id="l413-v35"><span class="t">Hernán Alonso, give the priest some wine;</span></div><div class="l " data-part="I" id="l413-v36"><span class="t">Now let him drink.</span></div><div class="l part-f" data-part="F" id="l413-v36b"><span class="t"><span class="ghost " aria-hidden="true">Now let him drink. </span>—But oh, it tastes of brine.</span></div><div class="l " id="l413-v37"><span class="t">So beauteous Celia tastes of jealousy.</span></div><div class="l " id="l413-v38"><span class="t">And now at last the time for vows is come:</span></div><div class="l " id="l413-v39"><span class="t">The guests are on their feet, the pair in front,</span></div><div class="l " data-part="I" id="l413-v40"><span class="t">The priest there in the middle.</span></div><div class="l part-f" data-part="F" id="l413-v40b"><span class="t"><span class="ghost " aria-hidden="true">The priest there in the middle. </span>—Fabio, dost</span></div><div class="l " id="l413-v41"><span class="t">Thou take the beauteous Celia as thy wife?</span></div><div class="l " data-part="I" id="l413-v42"><span class="t">I do.</span></div><div class="l part-f" data-part="F" id="l413-v42b"><span class="t"><span class="ghost " aria-hidden="true">I do. </span>—And Celia, dost thou Fabio take?</span></div><div class="l " data-part="I" id="l413-v43"><span class="t">As husband and as master.</span></div><div class="l part-f" data-part="F" id="l413-v43b"><span class="t"><span class="ghost " aria-hidden="true">As husband and as master. </span>—Oh, you dogs!</span></div><div class="l " id="l413-v44"><span class="t">And in my presence! Hold, I am the prince.</span></div><div class="l " id="l413-v45"><span class="t">Death to the bride and groom, the priest, the guests</span></div><div class="l " data-part="I" id="l413-v46"><span class="t">And the whole town.</span></div><div class="l part-f" data-part="F" id="l413-v46b"><span class="t"><span class="ghost " aria-hidden="true">And the whole town. </span>—Oh, he is killing us!</span></div><div class="l " id="l413-v47"><span class="t">Burn them, oh jealousy, with your wild flames.</span></div><div class="l " id="l413-v48"><span class="t">Samson am I; among the Philistines</span></div><div class="l " id="l413-v49"><span class="t">Come I to die. These flames none may withstand,</span></div><div class="l " id="l413-v50"><span class="t">Kindled by love and by suspicion fanned.</span></div>
+</div>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l414"><a class="pn " href="#l414">414</a>Good heavens, get a hold of yourself! I’m not Celia, or Celio.</p>
+</div><div class="sp " data-who="Serafina">
+  <p class="spk ">
+    SERAFINA
+  </p>
+  <p class="pr " id="l415"><a class="pn m5" href="#l415">415</a>I forgot myself. Now, let’s go. I’ll put my dress on over this until it’s time.</p>
+</div><div class="sp " data-who="Juana">
+  <p class="spk ">
+    JUANA
+  </p>
+  <p class="pr " id="l416"><a class="pn " href="#l416">416</a>That was wonderful. Your gloomy sister is sure to enjoy herself tonight.</p>
+</div><p class="sd " id="l416-sd1">(SERAFINA and JUANA exit.)</p><div class="sp " data-who="Painter">
+  <p class="spk ">
+    PAINTER
+  </p>
+  <p class="pr " id="l417"><a class="pn " href="#l417">417</a>They’ve gone.</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l418"><a class="pn " href="#l418">418</a>Leaving me blinded and sad.</p>
+</div><div class="sp " data-who="Painter">
+  <p class="spk ">
+    PAINTER
+  </p>
+  <p class="pr " id="l419"><a class="pn " href="#l419">419</a>Now, you really want me to paint her as a man?</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l420"><a class="pn m5" href="#l420">420</a>Yes, it will be a memento of what we’ve just seen. But change the suit.</p>
+</div><div class="sp " data-who="Painter">
+  <p class="spk ">
+    PAINTER
+  </p>
+  <p class="pr " id="l421"><a class="pn " href="#l421">421</a>You don’t want it to be black?</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l422"><a class="pn " href="#l422">422</a>It would dress my hope in mourning. Better that it have the color of fresh pastures, flecked with gold. Gold for my love, and green for my envy.</p>
+</div><div class="sp " data-who="Painter">
+  <p class="spk ">
+    PAINTER
+  </p>
+  <p class="pr " id="l423"><a class="pn " href="#l423">423</a>As you wish.</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l424"><a class="pn " href="#l424">424</a>Money is no object. It’s not out of stinginess that Cupid goes naked.</p>
+</div><p class="sd " id="l424-sd1">(BLACKOUT)</p>
+      </section>
+    
+  
+    
+      <section id="act-2-s5">
+        <h3 class="scene-head">
+          Scene 5
+        </h3>
+        <p class="sd " id="l424-sd2">SETTING: MADALENA’S chamber.</p><p class="sd " id="l424-sd3">AT RISE: MADALENA and MIRENO enter together.</p><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l425"><a class="pn m5" href="#l425">425</a>Starting today, you will be my writing tutor.</p>
+</div><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l426"><a class="pn " href="#l426">426</a>What have you seen in me, my lady, that you would ennoble me this way? Surely the student will teach the master.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l427"><a class="pn " href="#l427">427</a>Don Dionís, since my love is so great… for the Count of Vasconcelos, I would like, before he arrives, not only to have good handwriting, but to be able to write to him with words that express the deepest stirrings of my heart. I am inexperienced in the art of love, and so you must instruct me how to declare what I feel in my soul, as love commands. My love is boundless, but my words fall short. You seem to be a man of many skills, and so you must teach me both to write, and to declare my love to the Count.</p>
+</div><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr as" id="l428"><a class="pn " href="#l428">428</a><span class="sdi">(aside)</span> So it wasn’t for my sake, but to serve as a go-between for her and the Count? You see, foolish love, how groundless were the fantastical towers you built, and how they’ve come crashing down? I’m like the mule who bore the holy image on its back for the festival. When the people bowed, the reckless beast thought it was to him. Impatiently, he tried to throw the image off his back, until they flogged him back into place, and he realized his foolish mistake. So, this is how she favors my recklessness? Enough. It’s clear that I’m the ass; the holy image is the Count.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l429"><a class="pn " href="#l429">429</a><span class="sdi">(aside)</span> <span class="as">I had to shock him that way. It would have been too much to speak openly.</span> <span class="sdi">(to MIRENO)</span><br>You will begin my lessons tomorrow.</p>
+</div><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l430"><a class="pn m5" href="#l430">430</a>At your service.</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l431"><a class="pn " href="#l431">431</a>You’re unhappy.</p>
+</div><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l432"><a class="pn " href="#l432">432</a>Me?</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l433"><a class="pn " href="#l433">433</a>What is it?</p>
+</div><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l434"><a class="pn " href="#l434">434</a>Nothing.</p>
+</div><p class="sd " id="l434-sd1">(MADALENA trips; MIRENO gives her his hand.)</p><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l435"><a class="pn m5" href="#l435">435</a>Oh, dear! I stumbled… My shoe turned.</p>
+</div><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l436"><a class="pn " href="#l436">436</a>My lady, are you hurt?</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l437"><a class="pn " href="#l437">437</a>I don’t believe so.</p>
+</div><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l438"><a class="pn " href="#l438">438</a>Was it forward of me to take your hand?</p>
+</div><div class="sp " data-who="Madalena">
+  <p class="spk ">
+    MADALENA
+  </p>
+  <p class="pr " id="l439"><a class="pn " href="#l439">439</a>You should know, for the courtier, a proffered hand is a step toward many things.</p>
+</div><p class="sd " id="l439-sd1">(MADALENA exits.)</p><div class="sp " data-who="Mireno">
+  <p class="spk ">
+    MIRENO
+  </p>
+  <p class="pr " id="l440"><a class="pn m5" href="#l440">440</a><span class="sdi">(reading)</span> “A proffered hand is a step toward many things!” What could that mean? Tell me, vain thoughts, am I losing or winning? What confusion, what suspicion is this? Tell me, for heaven’s sake, is this not love? Or am I just the ass bearing the image of the Count of Vasconcelos. What are these better things toward which, with her hand, I might step? If she only loves the Count, what can I possibly hope for? What do I know? Tell me, hand or foot, why must you keep me up at night? Confusion, love, suspicion: am I loved? Or am I just the ass bearing the image of the Count? Her proffered hand can only mean that I must lend a hand to the passion the Count and her love inspire in her. Oh shame, suffer in silence. No more bold flights—it was folly that lifted my soaring ambition to the stars. I’m just the ass bearing the image of the Count.</p>
+</div><p class="sd " id="l440-sd1">(BLACKOUT)</p><p class="tr">(END OF ACT II)</p>
+      </section>
+    
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-1.html" rel="prev">← ACT I</a>
+  <a href="act-3.html" rel="next">ACT III →</a>
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      <p>
+        This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License
+
+  <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en">https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en</a>
+
+      </p>
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

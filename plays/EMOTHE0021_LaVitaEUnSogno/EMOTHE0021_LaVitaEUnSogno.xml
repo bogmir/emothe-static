@@ -1,0 +1,2231 @@
+<?xml version="1.0" ?>
+<TEI xml:lang="it" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="original">La vida es sueño</title>
+        <title type="traduccion">La vita è un sogno</title>
+        <title key="orden">vita è un sogno</title>
+        <title key="archivo">EMOTHE0021_LaVitaEUnSogno</title>
+        <author ana="fiable">Pedro Calderón de la Barca</author>
+        <author key="orden">Calderón de la Barca, Pedro</author>
+        <sponsor>
+          <orgName>Plan Nacional de Investigación Científica, Desarrollo e Innovación Tecnológica (Plan Nacional de I+D+i)</orgName>
+        </sponsor>
+        <funder>
+          <orgName>Dirección General de Investigación y Gestión del Plan Nacional de I+D+I (DGI). http://www.idi.mineco.gob.es</orgName>
+        </funder>
+        <editor role="translator">
+          <persName>Giovanni La Cecilia</persName>
+        </editor>
+        <principal>Joan Oleza Simó</principal>
+      </titleStmt>
+      <editionStmt>
+        <edition>Edición electrónica de &apos;La vita è un sogno&apos;</edition>
+        <respStmt>
+          <resp>Electronic edition: text adapted, edited for XML and encoded by</resp>
+          <persName>Romeu Guallart, Luis María</persName>
+          <orgName>Artelope</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent ana="prosa"></extent>
+      <publicationStmt>
+        <publisher>
+          <orgName>Proyecto ARTELOPE. Base de datos, argumentos y textos del teatro clásico español (FFI 2009 -12730) http://artelope.uv.es</orgName>
+        </publisher>
+        <idno type="code">EMOTHE0021_LaVitaEUnSogno</idno>
+        <idno type="EMOTHE">0021</idno>
+        <pubPlace>Valencia</pubPlace>
+        <date>2012</date>
+        <authority>
+          <orgName>Universitat de València - Estudi General. http://www.uv.es</orgName>
+        </authority>
+        <availability>
+          <p>La Colección de Teatro Clasico Europeo (CTCE) pertenece al proyecto Artelope y ofrece en la web textos completos sin ánimo de lucro y libres de derechos de lectura y de reproducción. En este último caso se ruega citar la procedencia: &quot;Oleza, Joan et al. Base de Datos y Argumentos del teatro de Lope de Vega. ARTELOPE. Publicación en web: http://artelope.uv.es&quot;</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem target="EMOTHE0020" type="original"/>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La vita è un sogno</title>
+          <author>Pedro Calderón de la Barca</author>
+          <editor>Giovanni La Cecilia</editor>
+          <lang>Italiano</lang>
+          <note>Calderón de la Barca, La vita è un sogno. Versione e traduzione italiana di Giovanni La Cecilia. Nuova Biblioteca Popolare ossia Raccolta di opere classiche di ogni letteratura. Teatro scelto spagnuolo, antico e moderno. Raccolta dei migliori drammi, commedie e tragedie volume terzo, Torino, Società Unione Tipografico-Editrice, 1857, vol. III.</note>
+          <distributor>Texto base</distributor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>La Colección de Textos Clásicos Europeos (CTCE) supone la creación de una base de datos de Teatro canónico clásico europeo en diferentes idiomas, versiones y refundiciones, todas ellas hipervinculadas.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Las presentes ediciones digitales están basadas, en su mayor parte, en ediciones científicas de reconocido prestigio y se ha tratado, en la mayoría de ocasiones, de respetar sus criterios de edición. Solo en casos muy puntuales el editor digital ha introducido leves cambios de los que da cumplida cuenta en el apartado de &quot;Notas&quot;.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="CDU">
+          <bibl>Clasificación Decimal Universal</bibl>
+        </taxonomy>
+      </classDecl>
+      <refsDecl>
+        <citeStructure match="/TEI/text/body//sp[(.//l | .//p)[1][@n]]" unit="speech" use="(.//l | .//p)[1]/@n"/>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="it-IT">Italiano</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#CDU">821.131-2</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+<change><date>2014</date> <persName>Muñoz Pons, Carlos</persName> Revisión de la obra en formato TEI-XML</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>
+            <title>La vita è un sogno</title>
+          </titlePart>
+        </docTitle>
+        <docAuthor>Pedro Calderón de la Barca</docAuthor>
+      </titlePage>
+      <div type="elenco">
+        <head>Personaggi</head>
+        <castList>
+          <castItem ana="oculto">
+            <role xml:id="accr">accompagnamento del re</role>
+          </castItem>
+          <castItem>
+            <role xml:id="cla">Chiarino</role>
+            <roleDesc>grazioso</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="bas">Basilio</role>
+            <roleDesc>re di Polonia</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="seg">Sigismondo</role>
+            <roleDesc>principe</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="ast">Astolfo</role>
+            <roleDesc>duca di Moscovia</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="clot">Clotaldo</role>
+            <roleDesc>vecchio</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="est">Stella</role>
+            <roleDesc>infanta</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="ros">Rosaura</role>
+            <roleDesc>dama</roleDesc>
+          </castItem>
+          <castItem ana="grupo">
+            <role xml:id="sol">Soldati</role>
+          </castItem>
+          <castItem>
+            <role xml:id="gua">Guardie</role>
+          </castItem>
+          <castItem>
+            <role xml:id="mus">Musici</role>
+          </castItem>
+          <castItem ana="grupo">
+            <role xml:id="acomp">Accompagnamento</role>
+          </castItem>
+          <castItem ana="grupo oculto">
+            <role xml:id="tod1">tutti1</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="cri1">1º Servitore</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="cri2">2º Servitore</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="otrcri">Altri servitori</role>
+          </castItem>
+          <castItem ana="grupo oculto">
+            <role xml:id="cri">Servitori</role>
+          </castItem>
+          <castItem ana="grupo oculto">
+            <role xml:id="tod2">Tutti2</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="dam">Dame</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="sol1">1º Soldato</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="sol2">2º Soldato</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="otrsol">Altri soldati</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="genr">fedele al re</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="gens">fedele a Sigismondo</role>
+          </castItem>
+          <castItem ana="grupo oculto">
+            <role xml:id="tod3">tutti3</role>
+          </castItem>
+        </castList>
+        <note>
+          <p>Los GUARDAS (GUARDIE) son los soldados que están en la torre custodiando a Segismundo. El texto presenta ambos grupos en el elenco pero, en el desarrollo de la obra los confunde hablando siempre de SOLDATI, sea el caso que sea. Nosotros respetaremos externamente el texto en el que nos basamos -solo hablaremos de SOLDATI-, pero internamente, en el XML-TEI, asociaremos los soldados de la torre a los GUARDAS y el resto de soldados a los SOLDADOS</p>
+        </note>
+      </div>
+    </front>
+    <body>
+      <div1 n="1" type="act">
+        <head>Atto I</head>
+        <stage xml:id="em0021-it-st-1">Nell&apos;alto di un monte esce Rosaura vestita da uomo, in abito da viaggio, e scende cominciando a dire:</stage>
+        <sp who="#ros" xml:id="em0021-it-sp-1">
+          <speaker>Rosaura</speaker>
+          <p n="1" xml:id="em0021-it-1">Violento Ippogrifo, che camminasti pari con il vento, sbocca, strascinati e precipitati da queste nude rupi, e rimanti nel confuso labirinto di questo monte, acciò i bruti abbiano il suo Fetonte; che io, senz&apos;altra guida che quella che mi dà la legge del destino, cieca e disperata discenderò l&apos;intricata asprezza di quest&apos;erto monte. Male ricevi, o Polonia, uno straniero, allorché scrivi col sangue il suo ingresso nelle tue arene, quando giunge appena. Ben lo dice la mia sorte. Ma dove trovò pietà un infelice?</p>
+        </sp>
+        <stage xml:id="em0021-it-st-2">Scende Chiarino dalla stessa parte, e detta.</stage>
+        <sp who="#cla" xml:id="em0021-it-sp-2">
+          <speaker>Chiarino</speaker>
+          <p n="2" xml:id="em0021-it-2">Di&apos; pur due, e non mi dimenticare quando ti lamenti; che se due fummo che uscimmo dalla nostra patria in cerca di avventure, e due quei che fra miserie e pazzie qui arrivammo, e due quei che abbiamo rotolato, non è ragionevole ch&apos;io mi senta ammettere nel dispiacere, e non già nel conto.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-3">
+          <speaker>Rosaura</speaker>
+          <p n="3" xml:id="em0021-it-3">Non voglio metterti a parte de&apos; miei lamenti, Chiarino, per non toglierti, piangendo il tuo zelo, il diritto che hai ad essere consolato; imperocché un filosofo amava tanto di lamentarsi, che diceva abbisognasse cercar disgrazie per lamentarsi.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-4">
+          <speaker>Chiarino</speaker>
+          <p n="4" xml:id="em0021-it-4">Il filosofo era un ubbriaco barbone. Oh chi gli avesse dato più di mille schiaffi, perché se ne lamentasse dopo di averglieli ben dati! Ma che faremo noi, signora, a piedi, soli, smarriti e a quest&apos;ora, in un monte deserto, quando il sole si parte per un altro orizzonte?</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-5">
+          <speaker>Rosaura</speaker>
+          <p n="5" xml:id="em0021-it-5">Chi vide mai successi così strani! Ma se l&apos;occhio non m&apos;inganna, mi sembra di vedere un edifizio.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-6">
+          <speaker>Chiarino</speaker>
+          <p n="6" xml:id="em0021-it-6">O mente il mio desiderio, o ne determino i segni.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-7">
+          <speaker>Rosaura</speaker>
+          <p n="7" xml:id="em0021-it-7">Nasce rustico fra le nude roccie un palazzo sì picciolo, che appena azzarda di mostrarsi al sole; l&apos;architettura del suo edifizio è di così rustico artificio, che somiglia alle piante di tante rocce e rupi tante, che del sole toccano il fuoco, sembra un sasso che sia rotolato dalla cima.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-8">
+          <speaker>Chiarino</speaker>
+          <p n="8" xml:id="em0021-it-8">Avviciniamoci, signora, che questo è troppo mirare, quando è meglio che le persone che colà abitano, generosamente ci accolgano.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-9">
+          <speaker>Rosaura</speaker>
+<p n="9" xml:id="em0021-it-9">La porta (o meglio dirò la bocca) è aperta, e dal suo centro ne nasce la notte. <stage xml:id="em0021-it-st-3">(Si ode romor di catene)</stage>.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-10">
+          <speaker>Chiarino</speaker>
+          <p n="10" xml:id="em0021-it-10">Cosa ascolto? cielo!</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-11">
+          <speaker>Rosaura</speaker>
+          <p n="11" xml:id="em0021-it-11">Immobile io rimango, sono di fuoco e gelo.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-12">
+          <speaker>Chiarino</speaker>
+          <p n="12" xml:id="em0021-it-12">Vi son catenelle che suonano? Mi uccidano se non è un galeotto in castigo; il mio timor ben me l&apos;insegna.</p>
+        </sp>
+        <stage xml:id="em0021-it-st-4">Sigismondo di dentro, e detti.</stage>
+        <sp who="#seg" xml:id="em0021-it-sp-13">
+          <speaker>Sigismondo</speaker>
+          <p n="13" xml:id="em0021-it-13">Ahi, misero me! me infelice!</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-14">
+          <speaker>Rosaura</speaker>
+          <p n="14" xml:id="em0021-it-14">Qual trista voce ascolto! Lotto con nuove pene e tormenti.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-15">
+          <speaker>Chiarino</speaker>
+          <p n="15" xml:id="em0021-it-15">Ed io con nuovi timori.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-16">
+          <speaker>Rosaura</speaker>
+          <p n="16" xml:id="em0021-it-16">Chiarino?</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-17">
+          <speaker>Chiarino</speaker>
+          <p n="17" xml:id="em0021-it-17">Signora.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-18">
+          <speaker>Rosaura</speaker>
+          <p n="18" xml:id="em0021-it-18">Fuggiamo i rigori di questa incantata torre.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-19">
+          <speaker>Chiarino</speaker>
+          <p n="19" xml:id="em0021-it-19">Non ho nemmen più l&apos;animo da poter fuggire.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-20">
+          <speaker>Rosaura</speaker>
+          <p n="20" xml:id="em0021-it-20">Non è piccola luce quella caduca esalazione; pallida stella, che con tremoli deliquii pulsando ardori e palpitando raggi, rende più tenebrosa l&apos;oscura abitazione con luce dubbiosa? Sì, a&apos; suoi riflessi posso determinare (quantunque di lontano) un oscuro carcere, ch&apos;è d&apos;un vivo cadavere la sepoltura; e perché più mi spaventi, addobbato a fiera vi giace un uomo, carico di ferri e soltanto accompagnato da un debole lume. Fuggir non possiamo; ascoltiamo dunque di qua le sue sventure, sappiamo ciò che dice.</p>
+        </sp>
+        <stage xml:id="em0021-it-st-5">Esce Sigismondo con una catena e lume, vestito di pelli.</stage>
+        <sp who="#seg" xml:id="em0021-it-sp-21">
+          <speaker>Sigismondo</speaker>
+          <p n="21" xml:id="em0021-it-21">Ah, misero me! me infelice! pretendo impietosire i cieli; giacché così mi trattate, qual delitto ho commesso, nascendo, contro di voi? Conosco che se son nato, ho commesso un delitto, e che sufficiente cagione ebbe la vostra giustizia e rigore, imperocché il più grande delitto dell&apos;uomo è d&apos;esser nato. Solo vorrei sapere per esaurire le mie voglie (lasciando a parte, cieli, il delitto di nascere). Che vi potè più offendere, per castigarmi di più? Non nacquero gli altri? Dunque, se nacquero gli altri, qual privilegio ebbero, che io non ho mai goduto? Nasce l&apos;augel, e con la somma bellezza che gli danno le sue piume, appena gli spuntano, che con velocità taglia subito le eteree sale, negandosi alla pietà del nido che abbandona con calma. Ed io, che ho più anima, ho meno libertà? Nasce il bruto colla pelle disegnata da belle macchie (grazie al dotto pennello), ed appena segno è delle stelle, che ardito e crudele, l&apos;umana necessità gl&apos;insegna ad essere feroce e mostro del suo labirinto. Ed io, con maggior istinto, ho meno libertà? Nasce il pesce, che non respira, aborto di alghe e limo, e appena si vede sopra le onde vascello di squame, che subito da tutte le parti si gira, misurando l&apos;immensità di tanta capacità datagli dal freddo centro. Ed io, con più libero arbitrio, sono meno libero? Nasce il ruscello, e serpeggiando fra i fiori, qual serpe d&apos;argento si rompe fra essi, quando il musico celebra de&apos; fiori la pietà che gli dà la maestà il campo aperto alla fuga. Ed avendo io più vita, ho meno libertà? Arrivando a questa passione, sentomi fatto un vulcano, un&apos;Etna; vorrei arrancarmi dal petto il cuore a pezzi. Qual legge, giustizia o ragione può negar agli uomini privilegio così soave, eccezione così principale, che diede Dio a un ruscello cristallino, a un pesce, a un bruto e ad un uccello?</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-22">
+          <speaker>Rosaura</speaker>
+          <p n="22" xml:id="em0021-it-22">I suoi detti cagionaronmi timore e pietà.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-23">
+          <speaker>Sigismondo</speaker>
+          <p n="23" xml:id="em0021-it-23">Chi ascoltò le mie voci? È Clotaldo?</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-24">
+          <speaker>Chiarino</speaker>
+          <p n="24" xml:id="em0021-it-24">Di&apos; di sì.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-25">
+          <speaker>Rosaura</speaker>
+          <p n="25" xml:id="em0021-it-25">Non è che uno sventurato (oh me misera!) che in queste fredde volte udì le tue melanconie.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-26">
+          <speaker>Sigismondo</speaker>
+<p n="26" xml:id="em0021-it-26">Dunque io ti darò la morte, acciocché tu non sappi ch&apos;io so che tu conosci i miei affanni e la mia debolezza <stage xml:id="em0021-it-st-6">(l&apos;afferra).</stage> Solamente perchè mi hai inteso, fra le mie nerborute braccia io devo farti a pezzi.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-27">
+          <speaker>Chiarino</speaker>
+          <p n="27" xml:id="em0021-it-27">Io sono sordo, e non ho potuto intenderti.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-28">
+          <speaker>Rosaura</speaker>
+          <p n="28" xml:id="em0021-it-28">Se sei nato umano, basti il prostrarmi a&apos; tuoi piedi per liberarmi.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-29">
+          <speaker>Sigismondo</speaker>
+          <p n="29" xml:id="em0021-it-29">La tua voce potè intenerirmi, la tua presenza sospendere il castigo, e il tuo rispetto turbarmi. Chi sei? che, quantunque io chi sappia così poco dil mondo, per essermi questa torre servita de culla e di sepolcro; e quantunque da dopo che nacqui (se questo è nascere) io non abbia veduto che questo rustico deserto, dove vivo miserabile, essendo uno scheletro vivo, essendro un morto animato; e quantunque non abbia mai veduto, nè parlato che con un sol uomo, que chi ascolta le mie sventure, e dal quale ho notizia del cielo e della terra; e quantunque qui, perchè maggiormente ti spaventi e mostro umano tu mi chami, fra maraviglie e chimere, sono un uomo per le fiere, e una fiera per gli uomini; e quantunque fra così grave sventure ho studiato la politica, ammaestrato dai bruti, ed avvertito degli uccelli, e de’ soavi astri ho misurato i circoli. Tu solo, tu hai sospeso la passione de’ miei trasporti, la sospensione a’ miei occhi, l’ammirazione al mio udito. Ogni qualvolta ti vedo, mi cagioni una nuova ammirazione,, e quanto più ti osservo, più di mirarti desidero. Credo che i miei occhi devono essere occhi idropici, poichè quando il bevere è morte, essi bevono sempre più, di maniera che vedendo che l’osservare mi dà la morte, muoio per vederti. Però che ti veda, e poi muoia, perchè non so se il vederti mi dà la morte, e il non vederti che cosa mi darebbe. Sarebbe più che morte fiera, ira, rabbia e dolor possente; sarebbe morte di questa specie, e ponderato ne ho il suo rigore, giacchè dar vita a uno sciagurato, è dar morte a un fortunato.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-30">
+          <speaker>Rosaura</speaker>
+<p n="30" xml:id="em0021-it-30">Ho stupore di vederti, ho ammirazione di udirti, nè so cosa possa dirti, nè cosa dimandarti. Dirò soltanto che il cielo oggi mi ha guidato qua per consolarmi, se consolazione può esser, per qui è infelice, quella di veder altri più infelici ancora. narrano di un savio che un giorno fosse tanto misero e povero, che si sostentava solamente di erbe ch’egli stesso coglieba. <emph>Saravvi un altro (egli diceva tra sè) che sia più povero e afflitto di me?</emph> E quando si voltò, trov`la risposta, vedendo che un altro savio raccoglieva le foglie che lui aveva gettate. Io vivevo in questo mondo, lamentandomi della fortuna, e fra di me dicevo: <emph>Vi sarà qualcun’altra persona di sorte più infausta?</emph> Pietoso mi hai risposto; e ritornando ne’ miei sensi, trovo che le mie pene avresti raccolte per farne la tua allegria. E se per caso esse possono alleggerire le tue, ascoltale attento e prendi quelle che mi avanzano. Io sono...</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-31">
+          <speaker>Clotaldo</speaker>
+<p n="31" xml:id="em0021-it-31"><stage xml:id="em0021-it-st-7">Clotaldo di dentro, e detti.</stage> Guardie di questa torre, che addormentate, o codardi, deste passo a due persone, che infransero l&apos;ordine del carcere...</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-32">
+          <speaker>Rosaura</speaker>
+          <p n="32" xml:id="em0021-it-32">Nuova confusione io soffro.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-33">
+          <speaker>Sigismondo</speaker>
+          <p n="33" xml:id="em0021-it-33">È Clotaldo, mio carceriere. Le mie sventure non terminarono ancora?</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-34">
+          <speaker>Clotaldo</speaker>
+<p n="34" xml:id="em0021-it-34"><stage xml:id="em0021-it-st-8">(Di dentro).</stage> Accudite, e vigili, senza che possano difendersi, prendeteli o uccideteli.</p>
+        </sp>
+        <sp who="#clot #gua" xml:id="em0021-it-sp-35">
+          <speaker>Tutti</speaker>
+<p n="35" xml:id="em0021-it-35"><stage xml:id="em0021-it-st-9">(Di dentro).</stage> Tradimento!</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-36">
+          <speaker>Chiarino</speaker>
+          <p n="36" xml:id="em0021-it-36">Guardie di questa torre, che ci lasciaste entrare, poiché ci permettete di scegliere, il prenderci è più facile.</p>
+        </sp>
+        <stage xml:id="em0021-it-st-10">Esce Clotaldo con una pistola, e soldati con il viso coperto.</stage>
+        <sp who="#clot" xml:id="em0021-it-sp-37">
+          <speaker>Clotaldo</speaker>
+          <p n="37" xml:id="em0021-it-37">Copritevi tutti il volto, che mentre stiamo qui, è della massima importanza che nessuno vi conosca.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-38">
+          <speaker>Chiarino</speaker>
+          <p n="38" xml:id="em0021-it-38">Vi sono mascherine?</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-39">
+          <speaker>Clotaldo</speaker>
+          <p n="39" xml:id="em0021-it-39">O voi che, ignoranti di questo vietato luogo, termine e limite ne passaste, contro il decreto del re, che ordina non osi nessuno d&apos;esaminare il prodigio che fra queste rupi si rinchiude, rendete le armi e le vite, o questa pistola, aspide di metallo, sputerà il penetrante veleno di due palle, il cui fuoco sarà lo scandalo dell&apos;aria.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-40">
+          <speaker>Sigismondo</speaker>
+          <p n="40" xml:id="em0021-it-40">Prima che tu gli offenda, tiranno padrone, o che gli ingiurii, la mia vita sarà spoglia di questi lacci; in essi, viva Dio! mi farò a pezzi colle mani e co&apos; denti, prima di acconsentire alla lor disgrazia, o di piangerne gli oltraggi.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-41">
+          <speaker>Clotaldo</speaker>
+<p n="41" xml:id="em0021-it-41">Se sai, Sigismondo, che le tue sventure sono tanto grandi, che per legge del cielo moristi pria d&apos;esser nato; se sai che que&apos; ferri sono un freno alle tue arroganti furie, od una ruota che le ferma, perchè fai lo smargiasso? La porta <stage xml:id="em0021-it-st-11">(ai soldati)</stage> chiudete di questo angusto carcere, e nascondetelo.</p>
+        </sp>
+        <stage xml:id="em0021-it-st-12">(chiudono la porta).</stage>
+        <sp who="#seg" xml:id="em0021-it-sp-42">
+          <speaker>Sigismondo</speaker>
+<p n="42" xml:id="em0021-it-42"><stage xml:id="em0021-it-st-13">(di dentro).</stage> Ah cieli, come fate bene a togliermi la libertà! Contro di voi io sarei gigante, che per rompere le porte di cristalli del sole, alzerei montagne di duro diaspro su fondamenta di pietra.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-43">
+          <speaker>Clotaldo</speaker>
+          <p n="43" xml:id="em0021-it-43">Forse perchè tu non lo facci, soffri tanti mali.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-44">
+          <speaker>Rosaura</speaker>
+          <p n="44" xml:id="em0021-it-44">Poiché ho veduto che la superbia ti ha offeso straordinariamente, sarei troppo ignorante se umile non ti chiedessi una vita che è a&apos; tuoi piedi. E sarà troppo notevole rigore se in te non trovano favore nè la superbia nè la umiltà.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-45">
+          <speaker>Chiarino</speaker>
+          <p n="45" xml:id="em0021-it-45">E se nè umiltà nè superbia t&apos;impietosiscono, quando hanno mosso e rimosso mille atti sacramentali, io, nè umile nè superbo, ma fra le due metà frapposto, ti chiedo che ci rimedii e ci aiuti.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-46">
+          <speaker>Clotaldo</speaker>
+          <p n="46" xml:id="em0021-it-46">Olà!</p>
+        </sp>
+        <sp who="#gua" xml:id="em0021-it-sp-47">
+          <speaker>Soldati</speaker>
+          <p n="47" xml:id="em0021-it-47">Signore.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-48">
+          <speaker>Clotaldo</speaker>
+          <p n="48" xml:id="em0021-it-48">Togliete ad ambi le armi, bendategli gli occhi, acciocché non vedano nè come nè dove entrino.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-49">
+          <speaker>Rosaura</speaker>
+          <p n="49" xml:id="em0021-it-49">La mia spada è questa, che si deve consegnare a te solamente, perchè sei il principale di tutti, e non sa arrendersi a minor valore.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-50">
+          <speaker>Chiarino</speaker>
+          <p n="50" xml:id="em0021-it-50">La mia è tale che si può consegnare al più vile; prendetela voi</p>
+        </sp>
+        <stage xml:id="em0021-it-st-14">(ai soldati).</stage>
+        <sp who="#ros" xml:id="em0021-it-sp-51">
+          <speaker>Rosaura</speaker>
+          <p n="51" xml:id="em0021-it-51">E se devo morire, voglio lasciarti, in compenso di questa pietà, un pegno che fu stimato un giorno da chi la cinse; t&apos;incarico di conservarla, perchè quantunque io non sappia qual segreto serbi una spada, pure grandi misteri vi sono celati, giacché fiducioso soltanto in essa, vengo in Polonia a vendicarmi d&apos;un&apos;offesa.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-52">
+          <speaker>Clotaldo</speaker>
+<p n="52" xml:id="em0021-it-52"><stage type="delivery" xml:id="em0021-it-st-15">(a parte).</stage> <seg type="aside" xml:id="em0021-it-52-seg1">Santi cieli! Che cos&apos;è mai questo? Già sono più gravi le mie pene, le mie angoscie, la confusione e i miei affanni.</seg> — Chi te la diè?</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-53">
+          <speaker>Rosaura</speaker>
+          <p n="53" xml:id="em0021-it-53">Una donna.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-54">
+          <speaker>Clotaldo</speaker>
+          <p n="54" xml:id="em0021-it-54">Come si chiama?</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-55">
+          <speaker>Rosaura</speaker>
+          <p n="55" xml:id="em0021-it-55">Sono costretta a tacere il suo nome.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-56">
+          <speaker>Clotaldo</speaker>
+          <p n="56" xml:id="em0021-it-56">Da cosa arguisci, o sai, che vi sono segreti in questa spada?</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-57">
+          <speaker>Rosaura</speaker>
+          <p n="57" xml:id="em0021-it-57">Chi me la diede disse: «Parti per Polonia, e procura con ingegno, studio o arte, che ti vedano questa spada i nobili ed i principali, che io so che qualcun di loro ti favorirà e ti assisterà ». Credo che allora non me lo volle nominare per il caso che fosse morto.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-58">
+          <speaker>Clotaldo</speaker>
+<p n="58" xml:id="em0021-it-58"><stage type="delivery" xml:id="em0021-it-st-16">(a parte):</stage> <seg type="aside" xml:id="em0021-it-58-seg1">Dio! che ascolto? Non so ancora determinare se questi successi sono veri o illusioni. Questa è la spada che io lasciai a Violante, per segnale che chi l&apos;avesse cinta, m&apos;avrebbe trovato amoroso come un figlio e pietoso come un padre. Ohimè! che devo fare in simile confusione, se chi la porta per ottener favore, per la sua morte invece la presenta, giacché sentenziato a morte giunge a&apos; miei piedi? Che notevole confusione! Che tristo fato! Che sorte incostante! Questo è mio figlio, e ben lo dicono i segni del cuore. Che cosa devo fare? Cieli, aiutatemi! Che cosa devo fare? Condurlo dal re (oh me misero!) sarebbe spingerlo alla morte; occultarlo al re non posso; me lo vieta, conforme alla legge dell&apos;omaggio, da una parte l&apos;amor proprio, e dall&apos;altra la lealtà. Ma che esito? La lealtà al re non è prima della vita e dell&apos;onore? Viva dunque essa, e lui muoia, tanto più che disse venire per vendicarsi d&apos;un oltraggio. Uomo oltraggiato è infame. Non è mio figlio, no, non lo è, nè ha il mio nobil sangue. Però se già cade in un pericolo del quale non se ne sia liberato nessuno. L&apos;onore, materia così fragile, che di un nulla si rompe e l&apos;aria lo macchia. Ma che altro può fare di più, chi è nobile, che venire a cercarlo, anche a costo di tanti rischi? È mio figlio, ha il mio sangue, per cui è cotanto valente. Dunque fra l&apos;uno e l&apos;altro dubbio, il miglior partito da scegliere è quello di andarmene dal re e dirgli che è mio figlio e che l&apos;uccida. Forse la pietà del mio onore lo potrà commuovere; e se mi vien ridato vivo, io l&apos;aiuterò a vendicarsi della sua offesa; ma se il re, costante ne&apos; suoi rigori, gli dà la morte, morirà senza sapere ch&apos;io sono suo padre.</seg> — Stranieri, venite con me; no, non temete che vi manchi compagnia nelle sventure, giacché in simile dubbio di vivere o di morire, non so quali sieno maggiori</p>
+        </sp>
+        <stage xml:id="em0021-it-st-17">(partono).</stage>
+        <stage xml:id="em0021-it-st-18">Suono di tamburi; da un lato esce Astolfo con soldati, e dall&apos;altro l&apos;infanta Stella e le sue dame.</stage>
+        <sp who="#ast" xml:id="em0021-it-sp-59">
+          <speaker>Astolfo</speaker>
+          <p n="59" xml:id="em0021-it-59">Oh come si uniscono bene agli eccelsi raggi che furon comete, le differenti salve, i tamburi e le trombe, gli uccelli e le fonti, confondendosi alla tua celeste vista, con somma meraviglia e con egual musica, gli strumenti di piuma, e gli altri di metallo. E così pure vi salutano, signora, come sua reina, gli uccelli come Aurora, le trombe come Pallade, ed i fiori come Flora; perchè celiando siete il giorno che la notte esiglia, l&apos;Aurora in allegria, Flora in pace, Pallade in guerra, e regina dell&apos;alma mia.</p>
+        </sp>
+        <sp who="#est" xml:id="em0021-it-sp-60">
+          <speaker>Stella</speaker>
+          <p n="60" xml:id="em0021-it-60">Se si deve misurare la voce colle umane azioni, faceste male di dir tante cortigiane adulazioni, da cui vi possa smentire questo marzial trofeo, col quale comincio a lottare ardita. Credo che non si confanno molto le vostre lusinghe che ascolto, con i rigori che vedo. Avvertite che è una bassa azione, e che spetta solo a una fiera, madre d&apos;inganno e di tradimento, di lodar con la bocca e uccidere con l&apos;intenzione.</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-61">
+          <speaker>Astolfo</speaker>
+          <p n="61" xml:id="em0021-it-61">Siete male informata, Stella, se dubitate della fede dei miei sensi; e vi supplico che mi ascoltiate, per veder se ne so la cagione. Morì Eustachio III, re di Polonia, e rimase erede Basilio e due figli da cui io e voi nascemmo: non voglio stancare con ciò che qui non ha luogo. Clorilene, vostra madre e mia signora, che in un miglior impero adesso ha un baldacchino di splendore, fu la maggiore; fu la seconda Recisonda, che maritossi in Moscovia, dalla quale io nacqui e che ci fu zia ad entrambi. Ma ritorniamo al principio. Basilio, che già si arrende al comune sdegno del tempo, inclinato più agli studii, che non portato per le donne, rimase vedovo senza prole, per cui io e voi aspiriamo a questo trono. Voi allegate che siete figlia della sorella maggiore: ed io che sono nato maschio, quantunque nato dalla sorella minore, pretendo di esservi preferito. Narrammo le nostre intenzioni allo zio, il quale ci rispose che voleva accomodarci, per cui mandammo lo nostre pretese a questo giorno. Partii di Moscovia, e venni qui con l&apos;intenzione, che invece di farvi io guerra, voi me la facciate. E voglia Amor, nume savio, che il vulgo, sicuro astrologo, oggi lo sia d&apos;entrambi, e che quest&apos;accordo termini con essere voi regina, però del mio arbitrio, dandovi per maggior onore nostro zio la sua corona, i suoi trionfi, il vostro valore, ed il suo impero il mio amore.</p>
+        </sp>
+        <sp who="#est" xml:id="em0021-it-sp-62">
+          <speaker>Stella</speaker>
+          <p n="62" xml:id="em0021-it-62">A così cortese generosità il mio petto non si mostra da meno; vorrei perciò che l&apos;imperiale monarchia mi appartenesse per farla vostra: quantunque il mio amore non sia soddisfatto di vedervi ingrato, perchè di quanto dite, sospetto che vi smentisce quel ritratto pendente dal vostro petto.</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-63">
+          <speaker>Astolfo</speaker>
+          <p n="63" xml:id="em0021-it-63">Intendo di soddisfarvi a suo riguardo; ma non me ne dà luogo questo clamoroso strepito che avvisa escire di già il re col suo Parlamento.</p>
+        </sp>
+        <stage xml:id="em0021-it-st-19">Battono i tamburi, esce il vecchio re Basilio con accompagnamento.</stage>
+        <sp who="#est" xml:id="em0021-it-sp-64">
+          <speaker>Stella</speaker>
+          <p n="64" xml:id="em0021-it-64">Saggio Talete...</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-65">
+          <speaker>Astolfo</speaker>
+          <p n="65" xml:id="em0021-it-65">Dotto Euclide...</p>
+        </sp>
+        <sp who="#est" xml:id="em0021-it-sp-66">
+          <speaker>Stella</speaker>
+          <p n="66" xml:id="em0021-it-66">Che fra segni...</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-67">
+          <speaker>Astolfo</speaker>
+          <p n="67" xml:id="em0021-it-67">Che fra stelle...</p>
+        </sp>
+        <sp who="#est" xml:id="em0021-it-sp-68">
+          <speaker>Stella</speaker>
+          <p n="68" xml:id="em0021-it-68">Oggi governi...</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-69">
+          <speaker>Astolfo</speaker>
+          <p n="69" xml:id="em0021-it-69">Oggi risiedi...</p>
+        </sp>
+        <sp who="#est" xml:id="em0021-it-sp-70">
+          <speaker>Stella</speaker>
+          <p n="70" xml:id="em0021-it-70">Ed i suoi corsi...</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-71">
+          <speaker>Astolfo</speaker>
+          <p n="71" xml:id="em0021-it-71">Ed i suoi circoli...</p>
+        </sp>
+        <sp who="#est" xml:id="em0021-it-sp-72">
+          <speaker>Stella</speaker>
+          <p n="72" xml:id="em0021-it-72">Descrivi.</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-73">
+          <speaker>Astolfo</speaker>
+          <p n="73" xml:id="em0021-it-73">Noti e misuri.</p>
+        </sp>
+        <sp who="#est" xml:id="em0021-it-sp-74">
+          <speaker>Stella</speaker>
+          <p n="74" xml:id="em0021-it-74">Permetti che in umili lacci...</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-75">
+          <speaker>Astolfo</speaker>
+          <p n="75" xml:id="em0021-it-75">Lascia che con teneri abbracci...</p>
+        </sp>
+        <sp who="#est" xml:id="em0021-it-sp-76">
+          <speaker>Stella</speaker>
+          <p n="76" xml:id="em0021-it-76">Edera di questo tronco io sia.</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-77">
+          <speaker>Astolfo</speaker>
+          <p n="77" xml:id="em0021-it-77">Prostrato a&apos; tuoi piedi mi veda.</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-78">
+          <speaker>Basilio</speaker>
+          <p n="78" xml:id="em0021-it-78">Nepoti, datemi le braccia, e giacché leali al mio precetto amoroso venite con questi affetti, credete che io non voglio lasciare nessun di voi scontento, e desidero che rimaniate eguali. E mentre mi confesso sottoposto al prolisso peso, vi chiedo in quest&apos;occasione silenzio, che ammirazione ha da chiudere il successo. Già sapete, statemi attenti, amati nipoti miei, illustre [corte] di Polonia, vassalli, parenti e amici, già sapete che nel mondo, per la mia scienza, ho meritato il sopranome di dotto, poiché contro il tempo e l&apos;oblio i pennelli di Timante, i marmi di Lisippo nel circuito dell&apos;orbe mi proclamano per il gran Basilio. Già sapete che le scienze che più curo e stimo sono le sottili matematiche, colle quali tolgo al tempo e alla fama la giurisdizione e l&apos;officio d&apos;insegnare più ogni giorno. Quando nelle mie tavole vedo presenti gli avvenimenti dei secoli futuri, guadagno al tempo le grazie di narrare quel ch&apos;io ho detto. Quei circoli di [neve], que&apos; baldacchini di vetro, che il sole illumina a raggi, che divide la luna a circoli, codest&apos;orbita di diamanti, codesti globi cristallini che adornano le stelle e che campeggiano i segni, sono il maggior studio degli anni miei, sono i libri dove in carta di diamante, in quaderni di zaffiri, scrive il cielo in linee d&apos;oro con caratteri distinti i nostri successi, quando avversi e quando benigni. E questi leggo con tal velocità, che col mio spirito ne seguo i rapidi movimenti. Piacesse al cielo che il mio ingegno fosse stato prima commento de&apos; suoi margini, e registro dei suoi fogli; la mia vita sarebbe stata il primo disperdimento delle sue ire, nelle quali ci sarebbe stata la mia tragedia; imperocché anche il merito è mannaia degl&apos;infelici, a&apos; quali danneggia il sapere, omicida di loro stessi. Io lo posso dire, quantunque lo diranno meglio i miei successi, per la cui ammirazione torno a domandare silenzio. — Ebbi da Clorilene, mia sposa, un infelice figlio, parto nel quale i cieli esaurirono i prodigi. Prima che lo rendesse alla bella luce il vivo sepolcro d&apos;un ventre, perchè il nascere ed il morire sono simili, sua madre fra le idee ed i delirii del sognare vide infinite volte che un mostro in forma d&apos;uomo rompeva audacemente i suoi visceri, e tinto del suo sangue davale morte, nascendo vipera umana del secolo. Giunse il giorno del parto, ed i presagi furono compiuti, imperocché gli empi non mentiscono mai. Nacque in tal oroscopo, che il sole, tinto nel suo sangue, entrava furiosamente in lizza colla luna. E questo fu il maggiore ed il più orrendo eclisse che patisse il sole, dopo che col suo sangue pianse la morte di Cristo, e questo fu tale, che annegato l&apos;orbe in vivi incendi, presunse che soffriva l&apos;ultimo parossismo. Si oscurarono i cieli, tremarono gli edifizii, caddero pietre dalle nubi, ed i fiumi corsero tinti di sangue. In questa frenesia o delirio del sole, nacque Sigismondo, dando indizio della sua condizione, poiché diede morte a sua madre, per la cui fierezza disse: « Sono uomo, giacché comincio a pagar male i benefìzii ». Io, accorrendo a&apos; miei studii, in essi e in tutto osservo che Sigismondo sarebbe l&apos;uomo il più audace, il principe il più crudele, e il monarca il più empio, per cui il suo regno verrebbe ad essere crudele e diviso, scuola di tradimenti e accademia di vizii; ed esso, trasportato da&apos; suoi bestiali furori, doveva calpestarmi; ed io dovevo vedermi reso a&apos; suoi piedi (con qual vergogna lo dico!) servir la canizie del mio volto di tappeto alle sue piante. Chi non presta fede al danno, a quel danno che ha veduto nel suo studio, dove l&apos;amor proprio fa il suo ufficio? Dunque, dando credito ai fati, che indovini mi pronosticavano danni con fatali vaticinii, determinai di rinchiudere la belva ch&apos;era nata, per vedere se il saggio aveva dominio nelle stelle. Si pubblicò che l&apos;Infante era nato morto, e prevenuto feci fabbricare una torre fra le erte rupi di questi monti, dove appena la luce ha potuto trovarvi la strada, difendendogliene l&apos;entrata i suoi rustici obelischi. Le gravi leggi e pene che con pubblici editti dichiararono che nessuno entrasse in un vietato luogo del monte, ebbero origine dalla causa che vi ho detto. Là vive Sigismondo, misero, povero e prigioniero, dove Clotaldo solo gli ha parlato e lo ha veduto. Costui gli ha insegnato le scienze, lo ha instruito nella legge cattolica, essendo il solo testimonio delle sue miserie. Ed ora vi sono tre cose da osservarsi. La prima è che io ti stimo tanto, o Polonia, che ti voglio liberare dall&apos;oppressione e servaggio d&apos;un re tiranno , conciossiachè non sarebbe benigno signore chi mettesse la sua patria ed il suo impero in tanto pericolo. La seconda è di considerare che, se io tolgo al mio sangue il diritto che gli hanno dato il fóro umano ed il divino, non è carità cristiana, avvegnaché nessuna legge ha mai detto che per salvare gli altri da un tiranno e da un audace, io stesso possa esserlo; e che nella supposizione che mio figlio sia tiranno, onde non commetta delitti, io li commetta. La terza ed ultima è di vedere qual errore commisi di dar facilmente credito agli avvenimenti preveduti; perchè, quantunque la sua inclinazione gli consigli i suoi precipizii, il fato più schivo, l&apos;inclinazione la più violenta, il pianeta più empio inclinano soltanto il libero arbitrio, ma non lo sforzano. Per cui vacillante fra una e l&apos;altra cagione, immaginai un tal rimedio che vi offuscherà i sensi. Io metterò domani Sigismondo (che tale fu il suo nome), senza che sappia che è mio figlio e re vostro, sotto il mio baldacchino, nella mia sedia, e infine nel mio luogo, dove vi governi e vi comandi, e dove tutti gli giurerete obbedienza. Con ciò conseguiste tre cose, colle quali rispondo alle altre tre di cui vi ho parlato. Una è, che essendo prudente, vigile e benigno, smentendo in tutto il fato, che di lui disse tante cose, godrete il vostro principe naturale, che fu abitatore di monti e vicino delle lor fiere; l&apos;altra è, che se egli, superbo, inconsiderato, audace e crudele , corre con briglia sciolta al campo dei suoi vizii, allora io avrò adempiuto pietosamente alla mia obbligazione, e deponendolo farò qual invitto rege, ei ritornerà al carcere, essendo non crudeltà, ma castigo; e l&apos;ultima, che il principe essendo come vi dico, per quanto io vi amo, o vassalli, vi darò re più degni della corona e scettro. Saranno i miei due nipoti, in uno de&apos; quali congiunto il diritto dei due, e convenuti con la fè del matrimonio, si avranno ciò che hanno meritato. E ciò come re vi comando, come padre vi chiedo, come savio vi prego, e come anziano vi dico.</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-79">
+          <speaker>Astolfo</speaker>
+          <p n="79" xml:id="em0021-it-79">Se a me spetta rispondere, per essere in effetto il più interessato, dico in nome di tutti, che appaia Sigismondo, imperocché gli basta di essere tuo figlio.</p>
+        </sp>
+        <sp who="#ast #est #sol1 #sol2 #otrsol #dam" xml:id="em0021-it-sp-80">
+          <speaker>Tutti</speaker>
+          <p n="80" xml:id="em0021-it-80">Dacci il nostro prìncipe, che già lo dimandiamo per re.</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-81">
+          <speaker>Basilio</speaker>
+          <p n="81" xml:id="em0021-it-81">Vassalli, di questa gentilezza vi sono grato, e la pregio. Accompagnate alle sue stanze i miei due atlanti, che domani lo vedrete.</p>
+        </sp>
+        <sp who="#ast #est #sol1 #sol2 #otrsol #dam" xml:id="em0021-it-sp-82">
+          <speaker>Tutti</speaker>
+<p n="82" xml:id="em0021-it-82">Viva il gran re Basilio! <stage xml:id="em0021-it-st-20">(partono tutti, accompagnando Stella e Astolfo).</stage>.</p>
+        </sp>
+        <stage xml:id="em0021-it-st-21">Basilio, Clotaldo con Rosaura e Chiarino.</stage>
+        <sp who="#clot" xml:id="em0021-it-sp-83">
+          <speaker>Clotaldo</speaker>
+          <p n="83" xml:id="em0021-it-83">Posso parlarti?</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-84">
+          <speaker>Basilio</speaker>
+          <p n="84" xml:id="em0021-it-84">O Clotaldo, sii il benvenuto.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-85">
+          <speaker>Clotaldo</speaker>
+          <p n="85" xml:id="em0021-it-85">Quantunque venendo a&apos; tuoi piedi è dovere di doverlo essere, questa volta, signore, il triste fato rompe il privilegio alla legge ed al costume lo stile.</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-86">
+          <speaker>Basilio</speaker>
+          <p n="86" xml:id="em0021-it-86">Cos&apos;hai?</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-87">
+          <speaker>Clotaldo</speaker>
+          <p n="87" xml:id="em0021-it-87">Mi successe, o signore, una sventura, allorquando potevo ritenerla per una grandissima allegria.</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-88">
+          <speaker>Basilio</speaker>
+          <p n="88" xml:id="em0021-it-88">Prosegui.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-89">
+          <speaker>Clotaldo</speaker>
+          <p n="89" xml:id="em0021-it-89">Questo bel giovane azzardoso inavvedutamente entrò nella torre, ove vide il principe, epperò è...</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-90">
+          <speaker>Basilio</speaker>
+          <p n="90" xml:id="em0021-it-90">Non ti affliggere, Clotaldo; se fosse stato in altr&apos;epoca, confesso che l&apos;avrei sentito; ma ora che ho svelato il secreto non importa che anche lui lo sappia. Vieni a vedermi più tardi, perchè ho molte cose da dirti, e molte che devi fare per me, e ti avviso che devi essere il principale strumento del più grande avvenimento che si sia veduto nel mondo. Ed a questi prigionieri, perchè vediate che non voglio castigare la vostra trascuratezza, ci perdono</p>
+        </sp>
+        <stage xml:id="em0021-it-st-22">(parte).</stage>
+        <sp who="#clot" xml:id="em0021-it-sp-91">
+          <speaker>Clotaldo</speaker>
+<p n="91" xml:id="em0021-it-91">Vivi, gran signore, molti secoli! <stage type="delivery" xml:id="em0021-it-st-23">(a parte)</stage> <seg type="aside" xml:id="em0021-it-91-seg1">Il cielo migliorò le sorti; non dirò più ch&apos;è mio figlio, giacché lo posso evitare.</seg> — Pellegrini stranieri, siete liberi.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-92">
+          <speaker>Rosaura</speaker>
+          <p n="92" xml:id="em0021-it-92">Bacio le mille volte i tuoi piedi.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-93">
+          <speaker>Chiarino</speaker>
+          <p n="93" xml:id="em0021-it-93">Ed io li calpesto, una lettera più o meno è lo stesso, e gli amici non si guardano.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-94">
+          <speaker>Rosaura</speaker>
+          <p n="94" xml:id="em0021-it-94">La vita, o signore, mi hai dato, e siccome per te io vivo, sarò eternamente schiavo tuo.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-95">
+          <speaker>Clotaldo</speaker>
+<p n="95" xml:id="em0021-it-95">Quella ch&apos;io ti diedi non è vita, imperocché un uomo ben nato se è aggravato non vive; e supposto che sei venuto a vendicarti, come mi dicesti, del ricevuto oltraggio, io non ti ho potuto dar vita, quando tu non ne portasti, vita infame non essendo vita. — <stage type="delivery" xml:id="em0021-it-st-24">(a parte.)</stage> <seg type="aside" xml:id="em0021-it-95-seg1">Con questo lo animo bene.</seg></p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-96">
+          <speaker>Rosaura</speaker>
+          <p n="96" xml:id="em0021-it-96">Confesso che non l&apos;ho, quantunque da te la ricevo; però con la vendetta lascierò il mio onore così limpido, che possa la mia vita, tormentata in seguito dai pericoli, sembrare tuo dono.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-97">
+          <speaker>Clotaldo</speaker>
+          <p n="97" xml:id="em0021-it-97">Prendi il brunito acciaro che portasti, che io so bastare a vendicarti del tuo nemico; imperocché acciaro che fu mio (dico per quest&apos;istante, questo momento che l&apos;ho avuto in mio potere) saprà ben vendicarti.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-98">
+          <speaker>Rosaura</speaker>
+          <p n="98" xml:id="em0021-it-98">In tuo nome, per la seconda volta, me lo cingo, e sopra d&apos;esso giuro la mia vendetta, quantunque il mio nemico fosse più poderoso.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-99">
+          <speaker>Clotaldo</speaker>
+          <p n="99" xml:id="em0021-it-99">Lo è molto?</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-100">
+          <speaker>Rosaura</speaker>
+          <p n="100" xml:id="em0021-it-100">Tanto che non te lo dico, non perch&apos;io diffidi della tua prudenza, ma perchè non si volga contro di me quel favore che ammiro nella tua pietà.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-101">
+          <speaker>Clotaldo</speaker>
+<p n="101" xml:id="em0021-it-101">Invece ci guadagneresti svelandomelo; imperocché mi chiuderesti la strada di poter aiutare il tuo nemico. — <stage type="delivery" xml:id="em0021-it-st-25">(a parte)</stage> <seg type="aside" xml:id="em0021-it-101-seg1">O se sapesse chi è!</seg></p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-102">
+          <speaker>Rosaura</speaker>
+          <p n="102" xml:id="em0021-it-102">Acciocché tu non pensi ch&apos;io apprezzi poco questa confidenza, sappi che il mio avversario non è niente meno che Astolfo duca di Moscovia.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-103">
+          <speaker>Clotaldo</speaker>
+<p n="103" xml:id="em0021-it-103"><stage type="delivery" xml:id="em0021-it-st-26">(a parte).</stage> <seg type="aside" xml:id="em0021-it-103-seg1">Malamente resisto al dolore, perchè più grave dell&apos;immaginato; verifichiamo ben la cosa.</seg> —Se sei nato Moscovita, colui che ne è il naturale signore, non ti ha potuto mai offendere. Ritorna dunque alla tua patria, e lascia quell&apos;ardente brama di vendetta che ti precipita.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-104">
+          <speaker>Rosaura</speaker>
+          <p n="104" xml:id="em0021-it-104">Io so che, quantunque sia mio principe, ben potè offendermi.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-105">
+          <speaker>Clotaldo</speaker>
+          <p n="105" xml:id="em0021-it-105">Non lo potè, anche se audacemente avesse posto le i mani sul tuo viso. (Ah cieli!)</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-106">
+          <speaker>Rosaura</speaker>
+          <p n="106" xml:id="em0021-it-106">Il mio aggravio fu ben maggiore.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-107">
+          <speaker>Clotaldo</speaker>
+          <p n="107" xml:id="em0021-it-107">Parla pure, imperocché dir non puoi più di quello che m&apos;immagino.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-108">
+          <speaker>Rosaura</speaker>
+          <p n="108" xml:id="em0021-it-108">Sì che lo direi, ma non so con qual rispetto ti miro, con qual affetto ti venero, con qual stima ti servo, che non mi azzardo di dirti che quest&apos;abito esterno è un enigma, non addicendosi a chi lo veste; avverti e giudica poi, se tutt&apos;altro essendo di quel che sembro, non abbia a reputar offesa il disegno di Astolfo d&apos;impalmare Stella? Abbastanza ti ho detto</p>
+        </sp>
+        <stage xml:id="em0021-it-st-27">(Rosaura e Chiarino partono).</stage>
+        <sp who="#clot" xml:id="em0021-it-sp-109">
+          <speaker>Clotaldo</speaker>
+          <p n="109" xml:id="em0021-it-109">Ascolta, aspetta, ferma. Che confuso labirinto è questo in cui la ragione non può trovare il filo? Il mio onore è oltraggiato, potente è il nemico, io vassallo, lei donna; il cielo ci scuopra una strada, quantunque non so se lo potrà, allorché in tanto confuso abisso tutto il cielo è un presagio, tutto il mondo è un prodigio.</p>
+        </sp>
+      </div1>
+      <div1 n="2" type="act">
+        <head>Atto II</head>
+        <stage xml:id="em0021-it-st-28">Basilio e Clotaldo.</stage>
+        <sp who="#clot" xml:id="em0021-it-sp-110">
+          <speaker>Clotaldo</speaker>
+          <p n="110" xml:id="em0021-it-110">Tutto fu eseguito come hai ordinato.</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-111">
+          <speaker>Basilio</speaker>
+          <p n="111" xml:id="em0021-it-111">Narrami, Clotaldo, come passò la cosa.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-112">
+          <speaker>Clotaldo</speaker>
+          <p n="112" xml:id="em0021-it-112">Signore, fu in questo modo. Con l&apos;aggradevole bevanda che ordinasti di fare piena di giulebbe, mischiandoci la virtù di alcune erbe, e di cui il tiranno potere e segreta forza, priva dell&apos;umano discorso, che assopisce e lascia l&apos;uomo vivo, cadavere addormentato con tanta violenza, che gli toglie i sensi e la potenza. Nè dobbiamo arguire che ciò non sia possibile, quando è certo che la medicina è piena di secreti naturali, e che non v&apos;è animale, pianta, nè pietra che non abbia una qualità determinata; e se la nostra umana malizia giunge a servirsi di mille veleni che danno morte, sarà forse difficile di temperare la loro violenza e adoperarli perchè addormentino? Lasciando a parte il dubitare se è possibile che succeda, quando è già provato con evidenti ragioni; con la bevanda che l&apos;oppio, il papavero, il giusquiamo composero, scesi all&apos;angusto carcere di Sigismondo; parlai un tratto con lui delle umane cose che gl&apos;insegnò la muta natura dei monti e de&apos; cieli, nella cui divina scuola apprese la rettorica degli uccelli e delle belve. E per innalzargli maggiormente lo spirito all&apos;impresa che solleciti, presi per tema la prestezza di un&apos;aquila superba, che sprezzando la sfera del vento, passava ad essere nelle supreme regioni del fuoco, fulmine di piuma, o errante cometa. Esagerai il volo altiero dicendo: Infine sei regina degli uccelli, e perciò devi essere preferita a tutti gli altri. E non abbisognò di più, che, toccandogli questa materia della maestà, discorre con ambizione e superbia; perchè effettivamente il sangue lo incita, lo muove e lo spinge a grandi cose, e disse : «Che vi sia nell&apos;irrequieta repubblica degli uccelli chi gli giuri ubbidienza! Arrivando a questo discorso, le mie sventure mi consolano, giacché se io sono soggetto, almeno lo sono per forza; perchè volontariamente non mi assoggetterei a nessun uomo ». — Vedendolo di già furioso con questo tema, che fu quello del suo dolore, lo calmai colla pozione, la quale, passata appena che fu dal bicchiere nel petto, rese le forze al sonno, scorrendo per le sue membra e vene un sudor freddo, tale che se non avessi saputo esser quella una morte finta, avrei dubitato della sua vita. In questo mentre giunsero le persone cui affidi l&apos;importanza di quest&apos;esperienza, e mettendolo in una carrozza, lo portarono fino nella sua stanza , addobbata con la grandezza di cui è degna la sua persona. Là lo accomodarono nel suo letto, dove perduto che avrà il letargo la sua forza, sarà servito come te stesso, secondo hai ordinato. E se l&apos;averti ubbidito merita da te qualche compenso (perdona la mia inavvertenza), solo ti prego che tu mi dica qual è il tuo intento, conducendo di questa maniera Sigismondo alla reggia.</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-113">
+          <speaker>Basilio</speaker>
+          <p n="113" xml:id="em0021-it-113">Clotaldo, questo tuo dubbio è troppo giusto, e ti voglio soddisfare. A mio figlio Sigismondo, [l’]influsso della sua stella (lo sai) minaccia mille sventure e tragedie; voglio esaminare se il cielo, il quale non è possibile che mentisca, avendoci dato tanti segni del suo rigore nella sua crudele condizione, si mitighi o almeno si tempri, e vinto dal valore e dalla prudenza si disdica: perchè l&apos;uomo predomina ne&apos; pianeti. Voglio provar questo, portandolo dove sappia che è mio figlio, e dove faccia pruova del suo talento. Se magnanimo vince, ei regnerà ; ma se mostra di essere crudele e tiranno, lo rimanderò alla sua catena. Domanderai adesso, per quest&apos;esperienza , cosa importò di portarlo addormentato in questo modo? E voglio appagarti, rispondendoti a tutto. Se sapesse che è mio figlio, e che oggi o domani si vedesse di nuovo ridotto in carcere e alla miseria, è cosa certa che la sua condizione lo farebbe disperare; perchè sapendo chi è, qual consolazione per lui ci potrebbe mai essere? Cosicché volli lasciar la porta aperta al danno, di poter dire che quanto vide fu un sogno. E con ciò si perviene ad esaminare due cose. La sua condizione per la prima; poiché sveglio procede in quanto immagina o pensa: e la consolazione per la seconda; avvegnaché, quantunque si veda presentemente obbedito, e dopo ritorni alle sue catene, potrà credere d&apos;aver sognato. E farà bene se così l&apos;intenderà ; imperocché nel mondo, Clotaldo, tutti quei che ci vivono sognano.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-114">
+          <speaker>Clotaldo</speaker>
+          <p n="114" xml:id="em0021-it-114">Non mi mancherebbero ragioni per provarti che non colpisci nel segno; ma ormai è tutto inutile, e già sembra che siasi risvegliato e si avvicini a noi.</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-115">
+          <speaker>Basilio</speaker>
+          <p n="115" xml:id="em0021-it-115">Io voglio ritirarmi, e tu, come suo aio, avvicinati, e quando strane confusioni il suo discorso accerchieranno, tu ne lo cavi colla verità.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-116">
+          <speaker>Clotaldo</speaker>
+          <p n="116" xml:id="em0021-it-116">Infine mi dai licenza che dica tutto?</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-117">
+          <speaker>Basilio</speaker>
+          <p n="117" xml:id="em0021-it-117">Sì, e potrà essere che, sapendolo e conosciuto il pericolo, più facilmente si vinca</p>
+        </sp>
+        <stage xml:id="em0021-it-st-29">(parte).</stage>
+        <stage xml:id="em0021-it-st-30">Chiarino e Clotaldo.</stage>
+        <sp who="#cla" xml:id="em0021-it-sp-118">
+          <speaker>Chiarino</speaker>
+<p n="118" xml:id="em0021-it-118"><stage type="delivery" xml:id="em0021-it-st-31">(a parte).</stage> <seg type="aside" xml:id="em0021-it-118-seg1">Anche col regalo di quattro legnate che mi costa il venir qua, datemi da un alabardiere rosso, ho da vedere quel che succede; non essendovi finestra più sicura di quella che, senza supplicare un ministro di bollette, l&apos;uomo porta con sè.</seg></p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-119">
+          <speaker>Clotaldo</speaker>
+<p n="119" xml:id="em0021-it-119"><stage type="delivery" xml:id="em0021-it-st-32">(a parte).</stage> <seg type="aside" xml:id="em0021-it-119-seg1">Costui è Chiarino, il servo di quella (ah cieli!) di quella che, fra tante sventure, narrò in Polonia il mio affronto.</seg> — Chiarino, che c&apos;è di nuovo?</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-120">
+          <speaker>Chiarino</speaker>
+          <p n="120" xml:id="em0021-it-120">C&apos;è, signore, che la tua grande bontà, disposta a vendicar le offese di Rosaura, la consigliò di prendere il suo proprio abito.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-121">
+          <speaker>Clotaldo</speaker>
+          <p n="121" xml:id="em0021-it-121">Ed è bene, acciocché non sembri impudicizia.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-122">
+          <speaker>Chiarino</speaker>
+          <p n="122" xml:id="em0021-it-122">C&apos;è che, mutando il suo nome, e prendendo saggiamente quello di tua nepote, oggi è già tanto onorata in palazzo, che è dama della singolare Stella.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-123">
+          <speaker>Clotaldo</speaker>
+          <p n="123" xml:id="em0021-it-123">È bene che d&apos;una volta prenda il suo onore per conto mio.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-124">
+          <speaker>Chiarino</speaker>
+          <p n="124" xml:id="em0021-it-124">C&apos;è ch&apos;essa aspetta che giunga il tempo che tu ritorni per l&apos;onor suo.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-125">
+          <speaker>Clotaldo</speaker>
+          <p n="125" xml:id="em0021-it-125">Questa è prevenzione sicura, perchè alfine il tempo dev&apos;essere a chi ne faccia diligenza.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-126">
+          <speaker>Chiarino</speaker>
+          <p n="126" xml:id="em0021-it-126">Ci è ch&apos;essa è regalata e servita come una regina , sulla fede di tua nepote. E c&apos;è che, venendo io con essa, io mi muoio di fame, e nessuno si ricorda di me, senza badare che sono Clarino, e che se il tal Clarino suona, potrà dire quel che passa al re, ad Astolfo ed a Stella ; perchè Clarino e servo sono due cose che si confanno assai male con il secreto; e potrà succedere, se mi lascia il silenzio, che si cantino da me certe parole: Clarino che rompe l&apos;alba, non suona meglio.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-127">
+          <speaker>Clotaldo</speaker>
+          <p n="127" xml:id="em0021-it-127">Ti lamenti con fondamento; soddisferò alle tue querele, e frattanto servimi.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-128">
+          <speaker>Chiarino</speaker>
+          <p n="128" xml:id="em0021-it-128">Ecco che viene Sigismondo.</p>
+        </sp>
+        <stage xml:id="em0021-it-st-33">Musici che cantano; Servitori che aiutano Sigismondo a vestirsi, il quale esce sbalordito.</stage>
+        <sp who="#seg" xml:id="em0021-it-sp-129">
+          <speaker>Sigismondo</speaker>
+          <p n="129" xml:id="em0021-it-129">Dio mio, che vedo? Mio Dio, che osservo? Con poco spavento l&apos;ammiro, con molto dubbio lo credo. Io in sontuosi palazzi? Io fra tele e broccati? Io circondato da servi tanto galanti e briosi? Svegliarmi io in un letto così eccellente? Io in mezzo a tanta gente che mi serve da vestire? Dire che sogno è un inganno, perchè so bene che sono svegliato. Non son io Sigismondo? Disingannatemi, o cieli! Ditemi ciò che ha potuto allucinare la mia fantasia mentre dormivo, e che pervenni a vedermi qui. Però sia ciò che si voglia. Cosa me ne importa? Bramo lasciarmi servire, e avvenga ciò che puole.</p>
+        </sp>
+        <sp who="#cri1" xml:id="em0021-it-sp-130">
+          <speaker>1º Servitore</speaker>
+<p n="130" xml:id="em0021-it-130"><stage type="delivery" xml:id="em0021-it-st-34">(sottovoce al 1°).</stage> <seg type="aside" xml:id="em0021-it-130-seg1">Come è melanconico!</seg></p>
+        </sp>
+        <sp who="#cri2" xml:id="em0021-it-sp-131">
+          <speaker>2º Servitore</speaker>
+<p n="131" xml:id="em0021-it-131"><stage type="delivery" xml:id="em0021-it-st-35">(sottovoce al 2°).</stage> <seg type="aside" xml:id="em0021-it-131-seg1">Chi non lo sarebbe, succedendogli queste cose?</seg></p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-132">
+          <speaker>Chiarino</speaker>
+          <p n="132" xml:id="em0021-it-132">Io.</p>
+        </sp>
+        <sp who="#cri2" xml:id="em0021-it-sp-133">
+          <speaker>2º Servitore</speaker>
+          <p n="133" xml:id="em0021-it-133">Accostati a parlarci.</p>
+        </sp>
+        <sp who="#cri1" xml:id="em0021-it-sp-134">
+          <speaker>1º Servitore</speaker>
+<p n="134" xml:id="em0021-it-134"><stage type="delivery" xml:id="em0021-it-st-36">(a Sigism.).</stage> <seg type="aside" xml:id="em0021-it-134-seg1">Che ritornino a cantare?</seg></p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-135">
+          <speaker>Sigismondo</speaker>
+          <p n="135" xml:id="em0021-it-135">No, non voglio più che cantino.</p>
+        </sp>
+        <sp who="#cri2" xml:id="em0021-it-sp-136">
+          <speaker>2º Servitore</speaker>
+          <p n="136" xml:id="em0021-it-136">Come sei così burbero; volli divertirti.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-137">
+          <speaker>Sigismondo</speaker>
+          <p n="137" xml:id="em0021-it-137">Io non devo divertire con le lor voci i miei affanni, mi è piaciuta solamente la musica militare.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-138">
+          <speaker>Clotaldo</speaker>
+          <p n="138" xml:id="em0021-it-138">Vostr&apos;Altezza, gran signore, mi dia la sua mano a baciare, che per il primo il mio onore le deve rendere questa ubbidienza.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-139">
+          <speaker>Sigismondo</speaker>
+          <p n="139" xml:id="em0021-it-139">È Clotaldo; ma come va, che colui che in prigione mi maltrattava, ora mi tratta con tanto rispetto? Che cos&apos;è quel che mi accade?</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-140">
+          <speaker>Clotaldo</speaker>
+          <p n="140" xml:id="em0021-it-140">Per la gran confusione in cui t&apos;immerge il tuo nuovo stato, mille dubbi involgeranno il tuo discorso e la tua ragione; ma ti voglio già liberare da tutti (se è possibile), perchè devi sapere, signore, che tu sei il principe ereditario di Polonia. Se sei stato ritirato e nascosto, fu per ubbidire all&apos;inclemente fato, che promette mille tragedie a questo impero, quando in esso il sovrano lauro coroni la tua fronte. Ma confidando che la tua attenzione vincerà le stelle, essendo possibile a un magnanimo garzone vincerle, dalla torre in cui vivevi, ti condussero alla reggia, mentre avevi reso lo spirito al sonno. Tuo padre, il re mio signore, verrà a vederti, e da lui saprai il resto.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-141">
+          <speaker>Sigismondo</speaker>
+          <p n="141" xml:id="em0021-it-141">Vile, infame, traditore; cos&apos;ho più da sapere, dopo di aver appreso chi sono, per dimostrar fin d&apos;oggi il mio orgoglio ed il mio potere? Come facesti alla tua patria questo tradimento di tenermi fra catene, giacché contro la ragione ed il dritto mi negasti questo stato?</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-142">
+          <speaker>Clotaldo</speaker>
+          <p n="142" xml:id="em0021-it-142">Oh me tristo !</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-143">
+          <speaker>Sigismondo</speaker>
+          <p n="143" xml:id="em0021-it-143">Fosti traditore con la legge, adulatore con il re, e crudele con me fosti; cosicché il re, la legge ed io, fra così fiere sventure, ti condanniamo a morire per le mie mani.</p>
+        </sp>
+        <sp who="#cri2" xml:id="em0021-it-sp-144">
+          <speaker>2º Servitore</speaker>
+          <p n="144" xml:id="em0021-it-144">Signore...</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-145">
+          <speaker>Sigismondo</speaker>
+          <p n="145" xml:id="em0021-it-145">Non mi disturbi nessuno ; sarebbe vana diligenza ; e, Viva Dio! se voi vi mettete dinanzi, vi getto dalla finestra.</p>
+        </sp>
+        <sp who="#cri2" xml:id="em0021-it-sp-146">
+          <speaker>2º Servitore</speaker>
+          <p n="146" xml:id="em0021-it-146">Fuggi, Clotaldo.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-147">
+          <speaker>Clotaldo</speaker>
+          <p n="147" xml:id="em0021-it-147">Ahi di te, che tanta superbia vai dimostrando, senza sapere che sogni!</p>
+        </sp>
+        <stage xml:id="em0021-it-st-37">(parte).</stage>
+        <sp who="#cri2" xml:id="em0021-it-sp-148">
+          <speaker>2º Servitore</speaker>
+          <p n="148" xml:id="em0021-it-148">Avverti...</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-149">
+          <speaker>Sigismondo</speaker>
+          <p n="149" xml:id="em0021-it-149">Fammi luogo.</p>
+        </sp>
+        <sp who="#cri2" xml:id="em0021-it-sp-150">
+          <speaker>2º Servitore</speaker>
+          <p n="150" xml:id="em0021-it-150">Che ubbidì al suo re.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-151">
+          <speaker>Sigismondo</speaker>
+          <p n="151" xml:id="em0021-it-151">Non deve ubbidire al re, ove la legge non è giusta ; ed io era il suo principe.</p>
+        </sp>
+        <sp who="#cri2" xml:id="em0021-it-sp-152">
+          <speaker>2º Servitore</speaker>
+          <p n="152" xml:id="em0021-it-152">Ei non doveva esaminare se era ben fatto o mal fatto.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-153">
+          <speaker>Sigismondo</speaker>
+          <p n="153" xml:id="em0021-it-153">Sospetto che stiate mal con voi stesso, quando mi date tanto da replicare.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-154">
+          <speaker>Chiarino</speaker>
+          <p n="154" xml:id="em0021-it-154">Il principe dice benissimo, e voi faceste malissimo.</p>
+        </sp>
+        <sp who="#cri2" xml:id="em0021-it-sp-155">
+          <speaker>2º Servitore</speaker>
+          <p n="155" xml:id="em0021-it-155">Chi vi ha dato tal licenza?</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-156">
+          <speaker>Chiarino</speaker>
+          <p n="156" xml:id="em0021-it-156">Io me l&apos;ho presa.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-157">
+          <speaker>Sigismondo</speaker>
+          <p n="157" xml:id="em0021-it-157">Chi sei tu, dimmi?</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-158">
+          <speaker>Chiarino</speaker>
+          <p n="158" xml:id="em0021-it-158">Faccendiere, e capo di quest&apos;uffizio; perchè sono il maggior ciaccione che si sia mai conosciuto.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-159">
+          <speaker>Sigismondo</speaker>
+          <p n="159" xml:id="em0021-it-159">Tu solo in questi nuovi mondi mi sei grato.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-160">
+          <speaker>Chiarino</speaker>
+          <p n="160" xml:id="em0021-it-160">Signore, sono un grande apprezzatore di tutti i Sigismondi.</p>
+        </sp>
+        <stage xml:id="em0021-it-st-38">Astolfo e detti.</stage>
+        <sp who="#ast" xml:id="em0021-it-sp-161">
+          <speaker>Astolfo</speaker>
+          <p n="161" xml:id="em0021-it-161">Mille volte felice il giorno, o principe, che vi mostrate il sole di Polonia, e riempite di splendore e di allegria tutti questi orizzonti, con cosi divino abbellimento; giacché uscite come il sole dal seno delle montagne ; uscite adunque, quantunque tardi si coroni la vostra fronte del risplendente lauro, tardi pure essa muoia.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-162">
+          <speaker>Sigismondo</speaker>
+          <p n="162" xml:id="em0021-it-162">Dio vi guardi.</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-163">
+          <speaker>Astolfo</speaker>
+          <p n="163" xml:id="em0021-it-163">Dò per discolpa, di non esser onorato molto più da voi, il non conoscermi. Sono Astolfo, duca di Moscovia e cugino vostro; ci sia fra noi uguaglianza.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-164">
+          <speaker>Sigismondo</speaker>
+          <p n="164" xml:id="em0021-it-164">Se dico che Iddio vi guardi, non vi dimostro sufficiente gradimento? Ma giacché andate facendo mostra di chi siete, un&apos;altra volta che mi vediate, dirò a Dio che non vi guardi.</p>
+        </sp>
+        <sp who="#cri2" xml:id="em0021-it-sp-165">
+          <speaker>2º Servitore</speaker>
+          <p n="165" xml:id="em0021-it-165">Vostr&apos;Altezza consideri che, come nato ne&apos; monti, ha proceduto con tutti come con Astolfo, che dev&apos;essere preferito.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-166">
+          <speaker>Sigismondo</speaker>
+          <p n="166" xml:id="em0021-it-166">Mi stancò subito che mi venne a parlare grave, e la prima cosa che fece si mise il cappello.</p>
+        </sp>
+        <sp who="#cri2" xml:id="em0021-it-sp-167">
+          <speaker>2º Servitore</speaker>
+          <p n="167" xml:id="em0021-it-167">È grande.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-168">
+          <speaker>Sigismondo</speaker>
+          <p n="168" xml:id="em0021-it-168">Io sono maggiore.</p>
+        </sp>
+        <sp who="#cri2" xml:id="em0021-it-sp-169">
+          <speaker>2º Servitore</speaker>
+          <p n="169" xml:id="em0021-it-169">Contuttociò è bene che fra i due ci sia più rispetto che fra gli altri.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-170">
+          <speaker>Sigismondo</speaker>
+          <p n="170" xml:id="em0021-it-170">E chi vi dice di mettervi con me?</p>
+        </sp>
+        <stage xml:id="em0021-it-st-39">Stella e detti.</stage>
+        <sp who="#est" xml:id="em0021-it-sp-171">
+          <speaker>Stella</speaker>
+          <p n="171" xml:id="em0021-it-171">Vostr&apos;Altezza sia mille volte il ben venuto al soglio che grato lo riceve e lo desidera, ove, a malgrado degli inganni, viva augusto ed eminente, dove si conti la sua vita per secoli e non per anni.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-172">
+          <speaker>Sigismondo</speaker>
+<p n="172" xml:id="em0021-it-172"><stage type="delivery" xml:id="em0021-it-st-40">(a Chiar.).</stage> <seg type="aside" xml:id="em0021-it-172-seg1">Dimmi tu ora, chi è questa bellezza sovrana? Chi è questa dea umana, ai piedi divini della quale prostra il cielo il suo splendore? Chi è questa bella donna?</seg></p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-173">
+          <speaker>Chiarino</speaker>
+          <p n="173" xml:id="em0021-it-173">Signor, è tua cugina Stella.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-174">
+          <speaker>Sigismondo</speaker>
+<p n="174" xml:id="em0021-it-174">Diresti meglio il Sole. <stage type="delivery" xml:id="em0021-it-st-41">(a Stella)</stage> <seg type="aside" xml:id="em0021-it-174-seg1">Quantunque sia ottimo congratularsi meco per la riavuta corona; io trovo sublime di congratularmi vosco per avervi vista, Stella, che potete offuscare ogni luce nel comparire. Cosa lasciate far al sole, se vi alzate quando è giorno? Datemi da baciar la vostra mano, nella cui coppa di neve l&apos;aura beve il candore.</seg></p>
+        </sp>
+        <sp who="#est" xml:id="em0021-it-sp-175">
+          <speaker>Stella</speaker>
+          <p n="175" xml:id="em0021-it-175">Siete il più galante cortigiano.</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-176">
+          <speaker>Astolfo</speaker>
+<p n="176" xml:id="em0021-it-176"><stage type="delivery" xml:id="em0021-it-st-42">(a parte).</stage> <seg type="aside" xml:id="em0021-it-176-seg1">S&apos;ei prende la mano io son perduto.</seg></p>
+        </sp>
+        <sp who="#cri2" xml:id="em0021-it-sp-177">
+          <speaker>2º Servitore</speaker>
+<p n="177" xml:id="em0021-it-177"><stage type="delivery" xml:id="em0021-it-st-43">(a parte).</stage> <seg type="aside" xml:id="em0021-it-177-seg1">Conosco la pena di Astolfo, ed io lo disturberò.</seg> <stage xml:id="em0021-it-st-44">(A Sigism.)</stage> Avverti, signore, che non sta bene che tu ti azzardi così, particolarmente essendoci Astolfo.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-178">
+          <speaker>Sigismondo</speaker>
+          <p n="178" xml:id="em0021-it-178">Non dissi che non vi mischiate ne&apos; miei affari?</p>
+        </sp>
+        <sp who="#cri2" xml:id="em0021-it-sp-179">
+          <speaker>2º Servitore</speaker>
+          <p n="179" xml:id="em0021-it-179">Osservo quel che è giusto.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-180">
+          <speaker>Sigismondo</speaker>
+          <p n="180" xml:id="em0021-it-180">Ma tutto questo mi cagiona noia. Nulla mi sembra giusto, allorquando è contra il mio desiderio.</p>
+        </sp>
+        <sp who="#cri2" xml:id="em0021-it-sp-181">
+          <speaker>2º Servitore</speaker>
+          <p n="181" xml:id="em0021-it-181">Io però, o signore, ho inteso da te, che è bene di servire ed ubbidire nelle cose giuste.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-182">
+          <speaker>Sigismondo</speaker>
+          <p n="182" xml:id="em0021-it-182">Avrai anche inteso da me, che saprò lanciar da una finestra chiunque mi stanchi.</p>
+        </sp>
+        <sp who="#cri2" xml:id="em0021-it-sp-183">
+          <speaker>2º Servitore</speaker>
+          <p n="183" xml:id="em0021-it-183">Cogli uomini come me, ciò non si può fare.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-184">
+          <speaker>Sigismondo</speaker>
+          <p n="184" xml:id="em0021-it-184">No? Per Dio! voglio provare</p>
+        </sp>
+        <stage xml:id="em0021-it-st-45">(lo afferra nelle sue braccia , ed entra; tutti gli corrono dietro; indi escono di nuovo).</stage>
+        <sp who="#ast" xml:id="em0021-it-sp-185">
+          <speaker>Astolfo</speaker>
+          <p n="185" xml:id="em0021-it-185">Che osservo?</p>
+        </sp>
+        <sp who="#est" xml:id="em0021-it-sp-186">
+          <speaker>Stella</speaker>
+          <p n="186" xml:id="em0021-it-186">Andate tutti ad impedirlo</p>
+        </sp>
+        <stage xml:id="em0021-it-st-46">(parte).</stage>
+        <sp who="#seg" xml:id="em0021-it-sp-187">
+          <speaker>Sigismondo</speaker>
+          <p n="187" xml:id="em0021-it-187">Cadde dalla finestra in mare. Viva Dio ! che potè ben essere.</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-188">
+          <speaker>Astolfo</speaker>
+          <p n="188" xml:id="em0021-it-188">Misurate con più maturo consiglio le vostre strane azioni; che la differenza che passa fra un uomo e una fiera, passa anche fra un monte e un palazzo.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-189">
+          <speaker>Sigismondo</speaker>
+          <p n="189" xml:id="em0021-it-189">Vi avverto che, parlando così severamente , può essere che non troviate più testa per mettere il vostro cappello</p>
+        </sp>
+        <stage xml:id="em0021-it-st-47">(Astolfo parte).</stage>
+        <stage xml:id="em0021-it-st-48">Basilio e detti.</stage>
+        <sp who="#bas" xml:id="em0021-it-sp-190">
+          <speaker>Basilio</speaker>
+          <p n="190" xml:id="em0021-it-190">Che cos&apos;è stato?</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-191">
+          <speaker>Sigismondo</speaker>
+          <p n="191" xml:id="em0021-it-191">Non fu nulla; gettai da questa finestra un uomo che mi aveva stancato.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-192">
+          <speaker>Chiarino</speaker>
+<p n="192" xml:id="em0021-it-192"><stage xml:id="em0021-it-st-49">(a Sigism.).</stage> Ti avverto che è il re.</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-193">
+          <speaker>Basilio</speaker>
+          <p n="193" xml:id="em0021-it-193">Così la tua venuta costa una vita il primo giorno?</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-194">
+          <speaker>Sigismondo</speaker>
+          <p n="194" xml:id="em0021-it-194">Mi disse che non si poteva fare, ed io ho guadagnato la scommessa.</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-195">
+          <speaker>Basilio</speaker>
+          <p n="195" xml:id="em0021-it-195">Mi pesa moltissimo che, quando venni a vederti come principe, pensando di trovarti guardingo da&apos; fati e trionfante delle stelle, io ti veda invece con tanto rigore, e che la prima azione da te fatta in questa solenne occasione sia un grave omicidio. Con qual amore potrò avvicinarmi per darti le mie braccia, quando so che i tuoi superbi lacci sono usi a dar la morte? Chi potè mai vedere il pugnale che diede grave ferita, senza temerne? Chi vide mai l&apos;insanguinato luogo ove dieron morte ad un altr&apos;uomo, senza rabbrividire? Io adunque, che vedo nelle tue braccia lo strumento di questa morte, e vedo il luogo insanguinato, mi ritiro dalle tue braccia; e quantunque io pensai di stringerti in amorosi legami, me ne ritornerò senza, perchè pavento delle tue braccia.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-196">
+          <speaker>Sigismondo</speaker>
+          <p n="196" xml:id="em0021-it-196">Me ne potrò passare senza di essi, come me ne passai fin ora, che un padre il quale contra di me usa tanto rigore, e che la sua ingratitudine mi allontana dal suo lato, e che mi educa come una fiera, mi tratta come un mostro, e sollecita la mia morte ; è di poca importanza se non mi porge le sue braccia, massime quando mi toglie l&apos;essere di uomo.</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-197">
+          <speaker>Basilio</speaker>
+          <p n="197" xml:id="em0021-it-197">Dio volesse che io non te l&apos;avessi mai dato, perchè non ascolterei la tua voce, e la tua audacia non vedrei.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-198">
+          <speaker>Sigismondo</speaker>
+          <p n="198" xml:id="em0021-it-198">Se non me l&apos;avessi dato, di te non mi lamenterei, mentre una volta dato, sì che mi lamento di avermelo tolto; poiché se l&apos;azione di dare è la più nobile e singolare, maggior bassezza è poi quella di dare per togliere in seguito.</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-199">
+          <speaker>Basilio</speaker>
+          <p n="199" xml:id="em0021-it-199">Mi sei ben grato di vederti cambiato, di umile e povero prigioniero, in principe.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-200">
+          <speaker>Sigismondo</speaker>
+          <p n="200" xml:id="em0021-it-200">Perchè te ne devo esser grato? Tiranno della mia volontà, se vecchio e caduco sei, morendoti che mi dai? Mi dai forse più di quel ch&apos;è mio? Sei mio padre, e re; dunque tutta questa grandezza mi è data dalla natura per diritto della sua legge; dunque se sono in questo stato non te ne sono punto obbligato, e posso dimandarti conto del tempo che mi hai tolto libertà, vita e onore. Dunque devi essermi grato, s&apos;io non riscuoto da te, essendomi debitore.</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-201">
+          <speaker>Basilio</speaker>
+          <p n="201" xml:id="em0021-it-201">Barbaro sei e audace. Il cielo ha compito il suo presagio; epperciò per lui stesso ne appello, superbo e vano ; e quantunque tu sappia già chi sei, e sii disingannato e ti vedi in un luogo dove ti preferisco a tutt&apos;altro, ascolta bene di ciò che ti avverto, sii umile e blando; perchè chi sa che tu sogni, mentre vedi che sei svegliato</p>
+        </sp>
+        <stage xml:id="em0021-it-st-50">(parte).</stage>
+        <sp who="#seg" xml:id="em0021-it-sp-202">
+          <speaker>Sigismondo</speaker>
+          <p n="202" xml:id="em0021-it-202">Che io sogni, mentre sono sveglio? Non sogno, no; imperocché tocco e credo ciò che fui e quel che sono ; e malgrado adesso ti penti, poco potrai rimediare. So chi sono, e non potrai, quantunque sospiri e ti affligga, togliermi d&apos;esser nato l&apos;erede di questa corona ; e se dapprima mi vedesti sopportare le catene, fu perchè ignoravo chi ero; però sono già informato chi sono, e so che sono un composto di fiera e d&apos;uomo.</p>
+        </sp>
+        <stage xml:id="em0021-it-st-51">Rosaura in abito da donna, e detti.</stage>
+        <sp who="#ros" xml:id="em0021-it-sp-203">
+          <speaker>Rosaura</speaker>
+          <p n="203" xml:id="em0021-it-203">Seguo Stella, e temo immensamente di trovar Astolfo; Clotaldo esige ch&apos;ei non sappia chi io mi sia, e che non mi veda, e dice che ciò importa all&apos;onor mio.. E di Clotaldo me ne fido ; infatti io gli son debitrice del favore d&apos;aver protetto la mia vita ed il mio onore.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-204">
+          <speaker>Chiarino</speaker>
+<p n="204" xml:id="em0021-it-204"><stage xml:id="em0021-it-st-52">(a Sigism.).</stage> Di tutto quanto hai veduto ed ammirato, cos&apos;è che ti è più piaciuto?</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-205">
+          <speaker>Sigismondo</speaker>
+          <p n="205" xml:id="em0021-it-205">Nulla mi ha sorpreso, perchè avevo tutto previsto. Ma se nel mondo mi dovessi maravigliare di qualche cosa, questa sarebbe la bellezza della donna. Una volta leggevo ne&apos; miei libri, che chi deve a Dio più studio è l&apos;uomo, per esser un picciol mondo; ma temo invece che lo sia la donna, essendo essa un piccolo cielo ; e racchiude più bellezza dell&apos;uomo quanto v&apos;ha dal cielo alla terra ; e maggiormente poi se è quella che osservo.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-206">
+          <speaker>Rosaura</speaker>
+<p n="206" xml:id="em0021-it-206"><stage type="delivery" xml:id="em0021-it-st-53">(a parte).</stage> <seg type="aside" xml:id="em0021-it-206-seg1">È qui il principe ; io mi ritiro.</seg></p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-207">
+          <speaker>Sigismondo</speaker>
+          <p n="207" xml:id="em0021-it-207">Ascolta, donna, trattienti; non riunire l&apos;occaso e l&apos;oriente, fuggendo al primo passo. Ma che vedo?</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-208">
+          <speaker>Rosaura</speaker>
+          <p n="208" xml:id="em0021-it-208">Lo stesso che sto vedendo, dubito e credo.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-209">
+          <speaker>Sigismondo</speaker>
+          <p n="209" xml:id="em0021-it-209">Io ho veduto questa bellezza un&apos;altra volta.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-210">
+          <speaker>Rosaura</speaker>
+          <p n="210" xml:id="em0021-it-210">Io questa pompa e questa grandezza l&apos;ho veduta ridotta a uno stretto carcere.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-211">
+          <speaker>Sigismondo</speaker>
+          <p n="211" xml:id="em0021-it-211">Già trovai la mia vita. Donna, che questo nome è la più bella parola che possa proferir un uomo, chi sei, che senza vederti mi spingi ad adorarti? in modo che ti conquisto per la fede, e mi persuado d&apos;averti veduto un&apos;altra volta. Chi sei, donna garbata?</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-212">
+          <speaker>Rosaura</speaker>
+<p n="212" xml:id="em0021-it-212"><stage type="delivery" xml:id="em0021-it-st-54">(a parte).</stage> <seg type="aside" xml:id="em0021-it-212-seg1">Convien dissimulare.</seg> — Sono un&apos;infelice dama di Stella.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-213">
+          <speaker>Sigismondo</speaker>
+          <p n="213" xml:id="em0021-it-213">Non dir così ; ma di&apos; il Sole, alle cui fiamme arde quella stella che riceve dai tuoi raggi lo splendore. Ho veduto nel regno degli odori, che fra tutt&apos;i fiori presiedeva la divinità della rosa, che per esser la più bella ne era l&apos;imperatrice. Vidi fra le pietre fine preferire il diamante, ed esserne l&apos;imperatore, perchè il più brillante. Io, in queste belle corti dell&apos;inquieta repubblica delle stelle , ho veduto in primo luogo per loro re il sole. Io nelle perfette sfere, chiamando il sole a corte tutti gli altri pianeti, l&apos;ho veduto che presiedeva come il maggior oracolo del giorno. Perchè dunque se tra fiori, tra stelle, segni e pianeti si preferiscono i più belli, tu hai servito quelli di minor beltà, essendo come più bella, sole, luce, diamante, rosa e stella?</p>
+        </sp>
+        <stage xml:id="em0021-it-st-55">Clotaldo rimane sull&apos;uscio, e detti.</stage>
+        <sp who="#clot" xml:id="em0021-it-sp-214">
+          <speaker>Clotaldo</speaker>
+<p n="214" xml:id="em0021-it-214"><stage type="delivery" xml:id="em0021-it-st-56">(a parte).</stage> <seg type="aside" xml:id="em0021-it-214-seg1">Desidero di poter ridurre sulla buona via Sigismondo, perchè alla fine l&apos;ho allevato. Ma che vedo!</seg></p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-215">
+          <speaker>Rosaura</speaker>
+          <p n="215" xml:id="em0021-it-215">Il suo favore Venere ti dia, ed alla tua rettorica risponda il silenzio , che quando si trova la ragione così lontana, parla meglio, signor, chi meglio tace.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-216">
+          <speaker>Sigismondo</speaker>
+          <p n="216" xml:id="em0021-it-216">Non ti assentare, attendi. Come, vuoi lasciar in questo modo il mio senso così all&apos;oscuro ?</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-217">
+          <speaker>Rosaura</speaker>
+          <p n="217" xml:id="em0021-it-217">Questa licenza a vostr&apos;altezza chiedo.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-218">
+          <speaker>Sigismondo</speaker>
+          <p n="218" xml:id="em0021-it-218">Andartene con tal violenza non è chiederla, ma prendertela.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-219">
+          <speaker>Rosaura</speaker>
+          <p n="219" xml:id="em0021-it-219">Giacché se tu non la dai, prendermela spero.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-220">
+          <speaker>Sigismondo</speaker>
+          <p n="220" xml:id="em0021-it-220">Tu farai che, di cortese, mi muti in grossolano ; perchè la resistenza è veleno crudel della mia pazienza.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-221">
+          <speaker>Rosaura</speaker>
+          <p n="221" xml:id="em0021-it-221">Quando questo veleno pieno di furia, di rigore e di collera vincesse la pazienza, non oltraggierebbe il mio decoro e nol potrebbe.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-222">
+          <speaker>Sigismondo</speaker>
+          <p n="222" xml:id="em0021-it-222">Solamente per veder se posso, farai ch’io perda l’amore alla tua bellezza, perchè sono molto inclinato a vincere l&apos;impossibile. Oggi lanciai da questa finestra un uomo che diceva che era impossibile e che non si poteva fare ; e così, per veder se posso, è cosa chiara che getterò anche il tuo onor dalla finestra.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-223">
+          <speaker>Clotaldo</speaker>
+<p n="223" xml:id="em0021-it-223"><stage type="delivery" xml:id="em0021-it-st-57">(a parte).</stage> <seg type="aside" xml:id="em0021-it-223-seg1">S&apos;impegna molto. Che deggio fare, cieli, quando dopo un pazzo desiderio, vedo a rischio il mio onore per la seconda volta?</seg></p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-224">
+          <speaker>Rosaura</speaker>
+          <p n="224" xml:id="em0021-it-224">Non invano [prevedeva] a questo regno infelice la tua tirannia, scandali così gravi di delitti, tradimenti, ire e morti! Ma che può fare un uomo che d&apos;umano non ha che il nome, un uomo audace, inumano, crudele, superbo, barbaro e tiranno, nato fra le belve?</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-225">
+          <speaker>Sigismondo</speaker>
+          <p n="225" xml:id="em0021-it-225">Perchè tu non mi facessi questo rimprovero, mi mostravo con te così cortese, pensando con ciò d&apos;obbligarti; ma se lo sono parlando in questo modo, devi dirlo, viva Dio! per tutto.— Olà, lasciateci soli, si serri questa porta, e non entri nessuno</p>
+        </sp>
+        <stage xml:id="em0021-it-st-58">(Chiarino parte).</stage>
+        <sp who="#ros" xml:id="em0021-it-sp-226">
+          <speaker>Rosaura</speaker>
+          <p n="226" xml:id="em0021-it-226">Io son morta. Avverti...</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-227">
+          <speaker>Sigismondo</speaker>
+          <p n="227" xml:id="em0021-it-227">Sono tiranno, ed ormai invano pretendi di placarmi.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-228">
+          <speaker>Clotaldo</speaker>
+<p n="228" xml:id="em0021-it-228"><stage type="delivery" xml:id="em0021-it-st-59">(a parte):</stage> <seg type="aside" xml:id="em0021-it-228-seg1">Oh che terribile avvenimento! Escirò a disturbarlo, quantunque mi dia la morte.</seg> — Signore, attendi, osserva.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-229">
+          <speaker>Sigismondo</speaker>
+          <p n="229" xml:id="em0021-it-229">Ritorni per la seconda volta a provocarmi all&apos;ira, vecchio caduco e pazzo? La mia collera ed il mio rigore tieni in così poco pregio? Come arrivasti fin qui?</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-230">
+          <speaker>Clotaldo</speaker>
+          <p n="230" xml:id="em0021-it-230">Gli accenti di questa voce mi chiamarono a dirti che tu sii più mansueto se desideri regnare ; e non sii crudele per cagion di vederti padrone di tutto, avvegnaché può essere che tutto sia un sogno.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-231">
+          <speaker>Sigismondo</speaker>
+          <p n="231" xml:id="em0021-it-231">Mi provochi all&apos;ira, quando tu stesso tocchi la luce del disinganno. Vedrò, dandoti morte, se è sogno o verità</p>
+        </sp>
+        <stage xml:id="em0021-it-st-60">(volendo sguainare la daga, gliela ritiene Clotaldo, il quale s&apos;inginocchia)</stage>
+        <sp who="#clot" xml:id="em0021-it-sp-232">
+          <speaker>Clotaldo</speaker>
+          <p n="232" xml:id="em0021-it-232">Io spero in questo modo di salvare la mia vita.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-233">
+          <speaker>Sigismondo</speaker>
+          <p n="233" xml:id="em0021-it-233">Togli l&apos;audace mano dall&apos;acciaro.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-234">
+          <speaker>Clotaldo</speaker>
+          <p n="234" xml:id="em0021-it-234">Non t&apos;abbandono finché non giunga gente che ritenga la tua collera e il tuo rigore.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-235">
+          <speaker>Rosaura</speaker>
+          <p n="235" xml:id="em0021-it-235">Ah cieli !</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-236">
+          <speaker>Sigismondo</speaker>
+<p n="236" xml:id="em0021-it-236"><stage xml:id="em0021-it-st-61">(si dibattono).</stage> Lascia, ti dico, caduco, pazzo, barbaro inimico, o ti darò in quest&apos;altro modo la morte fra le mie braccia.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-237">
+          <speaker>Rosaura</speaker>
+          <p n="237" xml:id="em0021-it-237">Presto, accorrete lutti, che uccidono Clotaldo.</p>
+        </sp>
+        <stage xml:id="em0021-it-st-62">Esce in tempo Astolfo; Clotaldo cade a&apos; suoi piedi, ed egli si pone frammezzo, e detti.</stage>
+        <sp who="#ast" xml:id="em0021-it-sp-238">
+          <speaker>Astolfo</speaker>
+          <p n="238" xml:id="em0021-it-238">Che cos&apos;è mai questo, generoso principe? Si macchia così un acciaro brillante in gelato sangue? Riponi nel fodero la tua gemmata spada.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-239">
+          <speaker>Sigismondo</speaker>
+          <p n="239" xml:id="em0021-it-239">Vedendola pria tinta in quell&apos;infame sangue.</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-240">
+          <speaker>Astolfo</speaker>
+          <p n="240" xml:id="em0021-it-240">Già riprese la sua vita a&apos; miei sacri piedi, e di qualcosa gli deve servire la mia venuta.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-241">
+          <speaker>Sigismondo</speaker>
+          <p n="241" xml:id="em0021-it-241">Servirà a te per morire; ed in tal modo saprò anche vendicarmi, colla tua morte, di qualche passata offesa.</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-242">
+          <speaker>Astolfo</speaker>
+          <p n="242" xml:id="em0021-it-242">Io difendo la mia vita, e però non offendo la maestà</p>
+        </sp>
+        <stage xml:id="em0021-it-st-63">(Astolfo sguaina la spada e combattono)</stage>
+        <stage xml:id="em0021-it-st-64">Basilio, Stella, accompagnamento e detti.</stage>
+        <sp who="#clot" xml:id="em0021-it-sp-243">
+          <speaker>Clotaldo</speaker>
+          <p n="243" xml:id="em0021-it-243">Signore, non offenderlo.</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-244">
+          <speaker>Basilio</speaker>
+          <p n="244" xml:id="em0021-it-244">Qui spade?</p>
+        </sp>
+        <sp who="#est" xml:id="em0021-it-sp-245">
+          <speaker>Stella</speaker>
+          <p n="245" xml:id="em0021-it-245">È Astolfo, ohimè !</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-246">
+          <speaker>Basilio</speaker>
+          <p n="246" xml:id="em0021-it-246">Cos&apos;è successo?</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-247">
+          <speaker>Astolfo</speaker>
+          <p n="247" xml:id="em0021-it-247">Nulla, signore, essendo tu arrivato</p>
+        </sp>
+        <stage xml:id="em0021-it-st-65">(ripongono le spade)</stage>
+        <sp who="#seg" xml:id="em0021-it-sp-248">
+          <speaker>Sigismondo</speaker>
+          <p n="248" xml:id="em0021-it-248">Molto, signore, quantunque tu sii venuto; volli uccidere quel vecchio.</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-249">
+          <speaker>Basilio</speaker>
+          <p n="249" xml:id="em0021-it-249">Non avevi rispetto per la canizie?</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-250">
+          <speaker>Clotaldo</speaker>
+          <p n="250" xml:id="em0021-it-250">Signore, osservate che si tratta della mia, e che poco importa.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-251">
+          <speaker>Sigismondo</speaker>
+          <p n="251" xml:id="em0021-it-251">Opera vana, il voler ch&apos;io abbia riguardo alla canizie, quando potrebbe darsi che qualche giorno vedessi a&apos; miei piedi anche codesta, non essendo ancora vendicato del modo con cui mi hanno allevato</p>
+        </sp>
+        <stage xml:id="em0021-it-st-66">(parte)</stage>
+        <sp who="#bas" xml:id="em0021-it-sp-252">
+          <speaker>Basilio</speaker>
+          <p n="252" xml:id="em0021-it-252">Ebbene, prima che tu lo veda, ritornerai a dormire, acciocché tu creda che quanto si è passato, essendo bene del mondo, fu un sogno</p>
+        </sp>
+        <stage xml:id="em0021-it-st-67">(il re e Clotaldo partono; rimangono Astolfo e Stella)</stage>
+        <sp who="#ast" xml:id="em0021-it-sp-253">
+          <speaker>Astolfo</speaker>
+          <p n="253" xml:id="em0021-it-253">Come mentisce raramente il fato quando predice sventure! Egli è tanto sicuro nel male, quanto dubbioso nel bene. Che buon astrologo sarebbe, se annunziasse sempre casi crudeli; imperocché non v&apos;è dubbio alcuno ch&apos;essi non fossero sempre veri ! Si può conoscere questa verità in me e in Sigismondo: giacché in noi due fa differente mostra. In lui predisse rigori, superbia, sventure e morti, e disse il vero in tutto, perchè tutto succede appunto ; però in me, che al veder, signora, questi bei raggi, de&apos; quali il sole fu un&apos;ombra, mi predisse venture, trofei, applausi e beni, disse male, e disse bene; dunque è vero che solo accerta quando amareggia con favori ed uccide con sdegni.</p>
+        </sp>
+        <sp who="#est" xml:id="em0021-it-sp-254">
+          <speaker>Stella</speaker>
+          <p n="254" xml:id="em0021-it-254">Non dubito che queste gentilezze sieno verità evidenti ; ma lo saranno per altra dama, il di cui pendente ritratto portasti al collo quando arrivasti; ed essendo così, questi bei detti essa sola li merita. Attendete a che essa vi paghi, che non sono buone gesta ne&apos; consigli d&apos;amore , le finezze, nè i giuramenti che si fecero in servigio d&apos;un&apos;altra dama e d&apos;altri re.</p>
+        </sp>
+        <stage xml:id="em0021-it-st-68">Rosaura, che si nasconde dietro la portiera, e detti.</stage>
+        <sp who="#ros" xml:id="em0021-it-sp-255">
+          <speaker>Rosaura</speaker>
+<p n="255" xml:id="em0021-it-255"><stage type="delivery" xml:id="em0021-it-st-69">(a parte).</stage> <seg type="aside" xml:id="em0021-it-255-seg1">Grazie al cielo, finalmente giunsero al suo termine le mie crudeli sventure, perchè chi vede quanto succede di nulla teme.</seg></p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-256">
+          <speaker>Astolfo</speaker>
+<p n="256" xml:id="em0021-it-256">Io farò che il ritratto esca dal petto, acciocché vi entri l&apos;immagine della tua bellezza; dove entra una stella non v&apos;ha luogo l&apos;ombra, nè la stella dove il sole; vado a prenderlo. — <stage type="delivery" xml:id="em0021-it-st-70">(a parte)</stage> <seg type="aside" xml:id="em0021-it-256-seg1">Perdonami, bella Rosaura, quest&apos;offesa; perchè assenti, gli uomini e le donne non conservano altra fede che questa</seg></p>
+        </sp>
+        <stage xml:id="em0021-it-st-71">(parte. Esce Rosaura)</stage>
+        <sp who="#ros" xml:id="em0021-it-sp-257">
+          <speaker>Rosaura</speaker>
+<p n="257" xml:id="em0021-it-257"><stage type="delivery" xml:id="em0021-it-st-72">(a parte).</stage> <seg type="aside" xml:id="em0021-it-257-seg1">Non ho potuto ascoltare nulla per il timore che mi vedesse.</seg></p>
+        </sp>
+        <sp who="#est" xml:id="em0021-it-sp-258">
+          <speaker>Stella</speaker>
+          <p n="258" xml:id="em0021-it-258">Astrea!</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-259">
+          <speaker>Rosaura</speaker>
+          <p n="259" xml:id="em0021-it-259">Mia signora.</p>
+        </sp>
+        <sp who="#est" xml:id="em0021-it-sp-260">
+          <speaker>Stella</speaker>
+          <p n="260" xml:id="em0021-it-260">Mi sono rallegrata nel vederti, perchè a te sola voglio confidare un segreto.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-261">
+          <speaker>Rosaura</speaker>
+          <p n="261" xml:id="em0021-it-261">Onori, signora, chi ti ubbidisce.</p>
+        </sp>
+        <sp who="#est" xml:id="em0021-it-sp-262">
+          <speaker>Stella</speaker>
+          <p n="262" xml:id="em0021-it-262">In questo poco tempo che ti conosco, Astrea, hai già le chiavi della mia volontà ; per ciò , e per essere tu chi sei, mi azzardo a confidare a te quello che molte volte nascosi a me stessa.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-263">
+          <speaker>Rosaura</speaker>
+          <p n="263" xml:id="em0021-it-263">Sono la tua schiava.</p>
+        </sp>
+        <sp who="#est" xml:id="em0021-it-sp-264">
+          <speaker>Stella</speaker>
+          <p n="264" xml:id="em0021-it-264">Dunque, per dirtelo in breve, mio cugino Astolfo (e bastava che ti dicessi mio cugino, perchè vi sono cose che si dicono con pensarle soltanto) si deve maritare con me, se è che la fortuna voglia che con una sola ventura sconti tante disgrazie. Mi spiacque che il primo giorno portasse appeso al collo il ritratto d&apos;una dama; parlai con lui cortesemente, è galante, e mi ama molto; andò a prenderlo, e deve portarlo qui; m&apos;imbarazza molto ch&apos;ei arrivi a darmelo; rimanti qui, e quando viene, gli dirai che te lo consegni. Non ti dico di più; sei discreta e bella; saprai bene che cosa sia amore</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-265">
+          <speaker>Rosaura</speaker>
+          <p n="265" xml:id="em0021-it-265">Così non lo sapessi ! M&apos;assista il cielo! Chi sarebbe tanto attenta e tanto prudente, da sapersi consigliare oggi in occasione così tremenda? Vi sarà nel mondo persona che il cielo inclemente combatta con più sventure, ed accerchi con più afflizioni? Che farò in tanta confusione, dove sembra impossibile che possa trovar ragione che mi sollievi, e sollievo che mi consoli? Dalla prima sventura in poi non v&apos;è successo, nè caso che un&apos;altra disgrazia non sia; imperocché le une all&apos;altre succedono, eredi di se stesse. Ad imitazione della Fenice, le une dalle altre nascono, vivendo di ciò che muoiono, e sempre delle sue ceneri è caldo il sepolcro. Diceva un savio che erano codarde, per sembrargli che mai ne andava una sola; io dico che sono coraggiose, perchè vanno sempre innanzi e non girano giammai le spalle, e chi le portasse con sè potrebbe azzardarsi a tutto, giacché in nessuna occasione non v&apos;è da temere che l&apos;abbandonino. Che lo dica io, che in tante come ne succedono alla mia vita, non mi sono mai trovata senza di esse, nè si stancarono fino a vedermi ferita dalla fortuna, in braccio della morte. Ohimè! cosa deggio fare oggi, nella presente occasione? Se dico chi sono, Clotaldo, a cui la mia vita gli deve questo rifugio e questo onore, se ne puole offendere, avendomi detto che tacendo, onore e rimedio attenda. Se non devo dire chi sono ad Astolfo, ed egli arriv[a] a vedermi, come potrò dissimulare, e quantunque volessi fingere , la voce , la lingua e gli occhi, l&apos;anima gli dirà che mentono? Cosa farò? Ma perchè studio ciò che dirò? se è evidente che per più ch&apos;io lo prevenga, che lo studii e che lo pensi, arrivando l&apos;occasione, il dolore deve fare ciò che vorrà, perchè nessuno ha imperio sulle sue pene. E poiché l&apos;anima non si azzarda a determinare quel che devo fare, arrivi pure il dolore al suo termine, arrivi la pena al suo estremo, ed esca una volta dai dubbi e dai pareri; però fino a quel punto assistetemi, cieli, assistetemi.</p>
+        </sp>
+        <stage xml:id="em0021-it-st-73">(parte).</stage>
+        <stage xml:id="em0021-it-st-74">Astolfo col ritratto, e detta.</stage>
+        <sp who="#ast" xml:id="em0021-it-sp-266">
+          <speaker>Astolfo</speaker>
+          <p n="266" xml:id="em0021-it-266">Quest&apos;è, signora, il ritratto. Ma, oh Dio!</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-267">
+          <speaker>Rosaura</speaker>
+          <p n="267" xml:id="em0021-it-267">Vostr&apos;altezza è sorpresa ? Di che si meraviglia?</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-268">
+          <speaker>Astolfo</speaker>
+          <p n="268" xml:id="em0021-it-268">D&apos;udirti, Rosaura, e di vederti.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-269">
+          <speaker>Rosaura</speaker>
+          <p n="269" xml:id="em0021-it-269">Io Rosaura? Si è ingannata l&apos;altezza vostra, se mi ritiene per un&apos;altra dama; io sono Astrea, e la mia umiltà non merita tanta fortuna da costargli tanto turbamento.</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-270">
+          <speaker>Astolfo</speaker>
+          <p n="270" xml:id="em0021-it-270">Basta, Rosaura, l&apos;inganno; l&apos;anima non mente giammai; e quantunque ti osservi come Astrea, come Rosaura ti amo.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-271">
+          <speaker>Rosaura</speaker>
+          <p n="271" xml:id="em0021-it-271">Non ho compreso vostra altezza, epperò non le posso rispondere. Dirò soltanto che Stella mi comandò d&apos;aspettarlo in questo luogo per dirgli da parte sua che mi consegni quel ritratto , e ch&apos;io medesima glielo porti. Cosi vuole Stella ; perchè le più piccole cose, purché siano a mio danno, è Stella che le vuole.</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-272">
+          <speaker>Astolfo</speaker>
+          <p n="272" xml:id="em0021-it-272">A malgrado di tutti i tuoi sforzi, o Rosaura, come mai dissimuli male! Di&apos; agli occhi che concertino la loro musica colla voce: essendo necessario che disdica e che dissuoni così stemprato instrumento, che vuole aggiustare e misurare la falsità che dice, con la verità che sente.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-273">
+          <speaker>Rosaura</speaker>
+          <p n="273" xml:id="em0021-it-273">Io dico che attendo soltanto il ritratto.</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-274">
+          <speaker>Astolfo</speaker>
+          <p n="274" xml:id="em0021-it-274">Poiché vuoi portare al termine l&apos;inganno, voglio risponderti anch&apos;io con esso. Dirai, Astrea, all&apos;Infanta che io la stimo di maniera tale, che chiedendomi un ritratto, non mi sembra finezza l&apos;inviarcelo; perchè lo stimi e l&apos;apprezzi, le mando l&apos;originale; e tu glielo puoi portare, giacché con te lo porti, se te stessa le presenti.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-275">
+          <speaker>Rosaura</speaker>
+          <p n="275" xml:id="em0021-it-275">Allorquando un uomo si dispone fermo, altiero e valente di uscire da un&apos;impresa, ritorna stolto e sdegnato, se non la compì, quand&apos;anche per un momento gli sia stato consegnato cosa di più valore. Io venni per un ritratto, e quantunque porti un originale di maggior valore, pure ritornerei sdegnata: perciò mi dia vostra altezza il ritratto, senza del quale io non ritornerò.</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-276">
+          <speaker>Astolfo</speaker>
+          <p n="276" xml:id="em0021-it-276">Ma come lo potrai portare, quand&apos;io non te lo do per certo?</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-277">
+          <speaker>Rosaura</speaker>
+          <p n="277" xml:id="em0021-it-277">In questo modo; lascialo, ingrato.</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-278">
+          <speaker>Astolfo</speaker>
+          <p n="278" xml:id="em0021-it-278">Invano lo pretendi.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-279">
+          <speaker>Rosaura</speaker>
+          <p n="279" xml:id="em0021-it-279">Viva Dio, che non si deve vedere in mano di nessun&apos;altra donna.</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-280">
+          <speaker>Astolfo</speaker>
+          <p n="280" xml:id="em0021-it-280">Sei terribile.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-281">
+          <speaker>Rosaura</speaker>
+          <p n="281" xml:id="em0021-it-281">E tu disleale.</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-282">
+          <speaker>Astolfo</speaker>
+          <p n="282" xml:id="em0021-it-282">Già basta, mia Rosaura.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-283">
+          <speaker>Rosaura</speaker>
+          <p n="283" xml:id="em0021-it-283">Io tua? villano, menti</p>
+        </sp>
+        <stage xml:id="em0021-it-st-75">(son entrambi afferrati al ritratto).</stage>
+        <stage xml:id="em0021-it-st-76">Stella e detti.</stage>
+        <sp who="#est" xml:id="em0021-it-sp-284">
+          <speaker>Stella</speaker>
+          <p n="284" xml:id="em0021-it-284">Astrea, Astolfo, che cos&apos;è questo?</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-285">
+          <speaker>Astolfo</speaker>
+          <p n="285" xml:id="em0021-it-285">È Stella.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-286">
+          <speaker>Rosaura</speaker>
+<p n="286" xml:id="em0021-it-286"><stage type="delivery" xml:id="em0021-it-st-77">(a parte).</stage> <seg type="aside" xml:id="em0021-it-286-seg1">Mi dia amore ingegno tanto da poler ricuperare il mio ritratto.</seg> — Se vuoi sapere quel che c&apos;è, signora, io te lo dirò.</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-287">
+          <speaker>Astolfo</speaker>
+<p n="287" xml:id="em0021-it-287"><stage type="delivery" xml:id="em0021-it-st-78">(a parte a Rosaura).</stage> <seg type="aside" xml:id="em0021-it-287-seg1">Cosa pretendi?</seg></p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-288">
+          <speaker>Rosaura</speaker>
+          <p n="288" xml:id="em0021-it-288">Mi hai comandato che aspettassi qui Astolfo, e gli domandassi da parte tua un ritratto. Rimasi sola, e siccome da un pensiere facilmente si passa ad un altro, nell&apos;occasione di avermi tu parlato di ritratti, mi sovvenni cho io aveva il mio nella manica. Lo volli vedere ; divertendosi una persona sola con pazzie, mi cadde dalle mani al suolo, mentre Astolfo venia a consegnarti quello d&apos;un&apos;altra dama, ei lo raccolse, ed è così ribelle nel dar quello che gli chiedi, che invece di darlo, vuol darti in sua vece il mio , che non mi fu più possibile d&apos;avere, nè con prieghi, nò con minacce. Collerica ed impaziente glielo volli togliere. E quello che ha nelle mani è il mio; tu lo vedrai col vedere se mi somiglia.</p>
+        </sp>
+        <sp who="#est" xml:id="em0021-it-sp-289">
+          <speaker>Stella</speaker>
+          <p n="289" xml:id="em0021-it-289">Lasciate, Astolfo, il ritratto</p>
+        </sp>
+        <stage xml:id="em0021-it-st-79">(glielo togli di mano).</stage>
+        <sp who="#ast" xml:id="em0021-it-sp-290">
+          <speaker>Astolfo</speaker>
+          <p n="290" xml:id="em0021-it-290">Signora...</p>
+        </sp>
+        <sp who="#est" xml:id="em0021-it-sp-291">
+          <speaker>Stella</speaker>
+          <p n="291" xml:id="em0021-it-291">Non sono crudeli, in verità, i colori,</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-292">
+          <speaker>Rosaura</speaker>
+          <p n="292" xml:id="em0021-it-292">Non è il mio?</p>
+        </sp>
+        <sp who="#est" xml:id="em0021-it-sp-293">
+          <speaker>Stella</speaker>
+          <p n="293" xml:id="em0021-it-293">Che dubbio c&apos;è?</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-294">
+          <speaker>Rosaura</speaker>
+          <p n="294" xml:id="em0021-it-294">Ora digli che ti dia l&apos;altro.</p>
+        </sp>
+        <sp who="#est" xml:id="em0021-it-sp-295">
+          <speaker>Stella</speaker>
+          <p n="295" xml:id="em0021-it-295">Prendi il tuo ritratto e vattene.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-296">
+          <speaker>Rosaura</speaker>
+<p n="296" xml:id="em0021-it-296"><stage type="delivery" xml:id="em0021-it-st-80">(a parte)</stage> <seg type="aside" xml:id="em0021-it-296-seg1">Io ho riacquistato il mio ritratto, succeda ora quel che si voglia</seg></p>
+        </sp>
+        <stage xml:id="em0021-it-st-81">(parte).</stage>
+        <sp who="#est" xml:id="em0021-it-sp-297">
+          <speaker>Stella</speaker>
+          <p n="297" xml:id="em0021-it-297">Ora datemi voi il ritratto che vi ho dimandato ; e malgrado io non pensi nè vedervi nè parlarvi mai più, non voglio però che rimanga in vostro potere, almeno perchè così stoltamente ve l&apos;ho chiesto.</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-298">
+          <speaker>Astolfo</speaker>
+          <p n="298" xml:id="em0021-it-298">Come posso uscire da impegno così forte? Quantunque io volessi, bella Stella, servirti ed ubbidirti, non potrei darti il ritratto che mi chiedi, perchè...</p>
+        </sp>
+        <sp who="#est" xml:id="em0021-it-sp-299">
+          <speaker>Stella</speaker>
+          <p n="299" xml:id="em0021-it-299">Sei villano e grossolano amante. Non voglio più che me lo dii; perchè io non voglio nemmeno che tu me lo conceda, per avertelo io chiesto</p>
+        </sp>
+        <stage xml:id="em0021-it-st-82">(parte).</stage>
+        <sp who="#ast" xml:id="em0021-it-sp-300">
+          <speaker>Astolfo</speaker>
+          <p n="300" xml:id="em0021-it-300">Odi, ascolta, mira, avverti. —Dio mio, in quali angustie sono per te, Rosaura! Dove, come, o di qual maniera oggi venisti in Polonia a perdermi, e perderti?</p>
+        </sp>
+        <stage xml:id="em0021-it-st-83">(parte).</stage>
+        <stage xml:id="em0021-it-st-84">Sigismondo, coperto di pelli ed incatenato come prima, dorme steso al suolo. Escono Clotaldo, due Servi e Chiarino.</stage>
+        <sp who="#clot" xml:id="em0021-it-sp-301">
+          <speaker>Clotaldo</speaker>
+          <p n="301" xml:id="em0021-it-301">Lo dovete lasciar qui; oggi termina la sua superbia dove ebbe principio.</p>
+        </sp>
+        <sp who="#cri1" xml:id="em0021-it-sp-302">
+          <speaker>1º Servitore</speaker>
+          <p n="302" xml:id="em0021-it-302">Ritorno ad assicurar la catena come era.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-303">
+          <speaker>Chiarino</speaker>
+          <p n="303" xml:id="em0021-it-303">Non terminare di svegliarti, Sigismondo, per vederti perdere e cambiare la tua sorte, la tua gloria essendo un&apos;ombra della vita ed una fiamma della morte.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-304">
+          <speaker>Clotaldo</speaker>
+<p n="304" xml:id="em0021-it-304"><stage xml:id="em0021-it-st-85">(ai servitori)</stage> A chi sa così ben discorrere, è bene che gli si dia una stanza, dove tenga tempo e luogo sufficiente da poter arguire. — Costui è quello che dovete afferrare e rinchiudere in quella stanza.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-305">
+          <speaker>Chiarino</speaker>
+          <p n="305" xml:id="em0021-it-305">Perchè mi si fa quest&apos;oltraggio?</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-306">
+          <speaker>Clotaldo</speaker>
+          <p n="306" xml:id="em0021-it-306">Perchè Chiarino, che sa secreti, deve stare in carcere da non poter suonare.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-307">
+          <speaker>Chiarino</speaker>
+          <p n="307" xml:id="em0021-it-307">Io per fortuna procuro di dar morte al padre mio? No. Sbalzai dalla finestra il piccolo Icaro? Sogno o dormo? A che fine mi si rinchiude?</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-308">
+          <speaker>Clotaldo</speaker>
+          <p n="308" xml:id="em0021-it-308">Sei Chiarino.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-309">
+          <speaker>Chiarino</speaker>
+          <p n="309" xml:id="em0021-it-309">Ma ora dico che sono cornetta, e che tacerò, essendo questo un istrumento di poco conto</p>
+        </sp>
+        <stage xml:id="em0021-it-st-86">(i Servi lo portano via; rimane Clotaldo solo).</stage>
+        <stage xml:id="em0021-it-st-87">Basilio avvolto nel ferraiuolo, e Clotaldo.</stage>
+        <sp who="#bas" xml:id="em0021-it-sp-310">
+          <speaker>Basilio</speaker>
+          <p n="310" xml:id="em0021-it-310">Clotaldo?</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-311">
+          <speaker>Clotaldo</speaker>
+          <p n="311" xml:id="em0021-it-311">Signore, così viene vostra maestà?</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-312">
+          <speaker>Basilio</speaker>
+          <p n="312" xml:id="em0021-it-312">La stolta curiosità in questo modo qui mi conduce, per veder quel che accade a Sigismondo. Ohimè!</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-313">
+          <speaker>Clotaldo</speaker>
+          <p n="313" xml:id="em0021-it-313">Osservalo là, ridotto al suo misero stato.</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-314">
+          <speaker>Basilio</speaker>
+          <p n="314" xml:id="em0021-it-314">Ah sventurato principe, nato in troppo mal punto! Avvicinati a svegliarlo, giacché con l&apos;oppio perdette la forza ed il vigore.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-315">
+          <speaker>Clotaldo</speaker>
+          <p n="315" xml:id="em0021-it-315">Inquieto, signore, sta, e parlando.</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-316">
+          <speaker>Basilio</speaker>
+          <p n="316" xml:id="em0021-it-316">Cosa sognerà adesso? Ascoltiamo.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-317">
+          <speaker>Sigismondo</speaker>
+<p n="317" xml:id="em0021-it-317"><stage xml:id="em0021-it-st-88">(sognando).</stage> È principe pietoso quello che castiga i tiranni. Muoia Clotaldo per le mie mani; e mio padre baci i miei piedi.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-318">
+          <speaker>Clotaldo</speaker>
+          <p n="318" xml:id="em0021-it-318">Mi minaccia di morte.</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-319">
+          <speaker>Basilio</speaker>
+          <p n="319" xml:id="em0021-it-319">E me di rigore e affronto.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-320">
+          <speaker>Clotaldo</speaker>
+          <p n="320" xml:id="em0021-it-320">Tenta di togliermi la vita.</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-321">
+          <speaker>Basilio</speaker>
+          <p n="321" xml:id="em0021-it-321">Progetta di rendermi alle sue piante.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-322">
+          <speaker>Sigismondo</speaker>
+<p n="322" xml:id="em0021-it-322"><stage xml:id="em0021-it-st-89">(come sopra).</stage> Esca nella vasta piazza del gran teatro del mondo questo valore senza eguale ; e perchè questa mia vendetta sia esemplare, vedasi il principe Sigismondo trionfare di suo padre.— <stage xml:id="em0021-it-st-90">(si sveglia).</stage> Ma ohimè ! Dove sono?</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-323">
+          <speaker>Basilio</speaker>
+<p n="323" xml:id="em0021-it-323"><stage xml:id="em0021-it-st-91">(a Clotaldo).</stage> Non mi deve vedere; già sai quello che devi fare. Io di là vado ad ascoltare</p>
+        </sp>
+        <stage xml:id="em0021-it-st-92">(si ritira).</stage>
+        <sp who="#seg" xml:id="em0021-it-sp-324">
+          <speaker>Sigismondo</speaker>
+          <p n="324" xml:id="em0021-it-324">Son io per ventura? Sono quello che prigioniero e messo ai ferri, giungo a vedermi in questo stato? Non sei tu, torre, il mio sepolcro? Sì. Quante cose ho sognate!</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-325">
+          <speaker>Clotaldo</speaker>
+<p n="325" xml:id="em0021-it-325"><stage type="delivery" xml:id="em0021-it-st-93">(a parte).</stage> <seg type="aside" xml:id="em0021-it-325-seg1">Mi tocca di avvicinarmi, e di disfare quel che si fece.</seg> — È già ora di svegliarsi?</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-326">
+          <speaker>Sigismondo</speaker>
+          <p n="326" xml:id="em0021-it-326">Sì, è già ora di svegliarsi.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-327">
+          <speaker>Clotaldo</speaker>
+          <p n="327" xml:id="em0021-it-327">Tutto il giorno dormirai? Da dopo che volò l&apos;aquila, e che ne seguitai il suo lento volo, dormisti sempre per tutto il tempo che qui ti lasciai ?</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-328">
+          <speaker>Sigismondo</speaker>
+          <p n="328" xml:id="em0021-it-328">Sì, e non sono ancora sveglio; che da quel che intendo, tuttavia dormo. E non m&apos;inganno troppo; se le cose che vidi palpabili e certe furono sognate, ciò che vedo sarà incerto ; epperò non è molto se vedo dormendo, e sogni essendo sveglio.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-329">
+          <speaker>Clotaldo</speaker>
+          <p n="329" xml:id="em0021-it-329">Mi dici ciò che sognasti?</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-330">
+          <speaker>Sigismondo</speaker>
+          <p n="330" xml:id="em0021-it-330">Supposto che fu un sogno, non dirò ciò che sognai, Clotaldo , ma sì quel che ho veduto. Svegliandomi io mi vidi (che crudeltà troppo lusinghiera!) in un letto, che si potrebbe dipingere per quello de&apos; fiori tessuto dalla primavera, ove mille nobili prostrati a&apos; miei piedi mi diedero il nome di loro principe, e mi servirono di gioie e abiti sontuosi. La calma de&apos; miei sensi tu cambiasti in allegria, dicendo la mia fortuna; perchè, quantunque sia in questo stato, ero principe di Polonia.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-331">
+          <speaker>Clotaldo</speaker>
+          <p n="331" xml:id="em0021-it-331">Avrò avuti buoni regali?</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-332">
+          <speaker>Sigismondo</speaker>
+          <p n="332" xml:id="em0021-it-332">Non troppo buoni; per traditore con [petto] audace e forte, per ben due volte ti davo la morte.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-333">
+          <speaker>Clotaldo</speaker>
+          <p n="333" xml:id="em0021-it-333">Per me tanto rigore ?</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-334">
+          <speaker>Sigismondo</speaker>
+          <p n="334" xml:id="em0021-it-334">Ero signore di tutti, e di tutti mi vendicavo ; amavo solo una donna, che credo fu cosa vera, ed in cui terminò tutto, mentre solo questo mio stato non termina</p>
+        </sp>
+        <stage xml:id="em0021-it-st-94">(Basilio esce).</stage>
+        <sp who="#clot" xml:id="em0021-it-sp-335">
+          <speaker>Clotaldo</speaker>
+<p n="335" xml:id="em0021-it-335"><stage type="delivery" xml:id="em0021-it-st-95">(a parte)</stage> <seg type="aside" xml:id="em0021-it-335-seg1">Il re se ne andò intenerito d&apos;averlo udito.</seg> — Siccome avevamo parlato di quell&apos;aquila, il tuo sonno fu d&apos;imperii; ma anche in sogno sarebbe bene d&apos;onorare allora chi ti ha allevato in tant&apos;impegni; imperocché anche ne&apos; sogni non si perde il far bene</p>
+        </sp>
+        <stage xml:id="em0021-it-st-96">(parte).</stage>
+        <sp who="#seg" xml:id="em0021-it-sp-336">
+          <speaker>Sigismondo</speaker>
+          <p n="336" xml:id="em0021-it-336">È vero; reprimiamo dunque questa fiera condizione, questa furia, quest&apos;ambizione, per il caso che qualche volta sogniamo ancora. E così faremo. Siamo in un mondo tanto singolare, che il vivere non è [che] sognare, e l&apos;esperienza m&apos;insegna che l&apos;uomo vivendo sogna ciò che è fino al risveglio. Sogna il re che è re, e vive con quest&apos;inganno comandando, disponendo e governando; e quell&apos;applauso prestato che riceve, scrive nel vento e in cenere lo converte la morte (grande sventura!). Che ci sia chi pensi a governare, sapendo che deve svegliarsi nel sogno della morte? Sogna il ricco quella sua ricchezza che più cura gli dà ; sogna il povero che patisce la sua miseria e la sua povertà; sogna colui che comincia a crescere ; sogna colui che si affanna e pretende; sogna colui che aggravia ed offende; e nel mondo, in conclusione, sognano tutti ciò che sono, quantunque nessuno lo intenda. Io sogno che son qui carico di questi ferri, e sognai che mi vidi in altro stato assai lusinghiero. Cos&apos;è la vita? una frenesia; cos&apos;è lavita? una illusione, un&apos;ombra, una [finzione], ed il più gran bene è piccolo ; per cui tutta la vita è un sogno, e sogni sono le opere dell&apos;uomo.</p>
+        </sp>
+      </div1>
+      <div1 n="3" type="act">
+        <head>Atto III</head>
+        <stage xml:id="em0021-it-st-97">Chiarino solo.</stage>
+        <sp who="#cla" xml:id="em0021-it-sp-337">
+          <speaker>Chiarino</speaker>
+<p n="337" xml:id="em0021-it-337">Da quanto vedo, io sono prigioniero in un&apos;incantata torre. Cosa mi faranno in appresso non lo so ; ma per quel che sono mi hanno ucciso? Che un uomo con tanta fame dovesse morir vivendo! Pietà ho di me stesso; tutti diranno, e io pur lo credo , che questo silenzio non si addice punto al mio nome Clarino , ed infatti tacer non posso. Chi mi fa compagnia qua, se non sbaglio, sono i ragni e i topi; vedete un po&apos; che dolci cardellini! Ho pieno il triste capo dei sogni di questa notte, pieno l&apos;ho di mille oboè, di trombette e di salmi, di processioni, di croci, di disciplinanti; e di questi taluni saliscono, altri scendono e alcuni altri svengono vedendo il sangue di cui sono intrisi gli altri. Ma io, dicendo la verità, vengo meno dal non mangiare; perchè in questa prigione vedo che leggo tutti i giorni nel filosofo Nicomede, e tutte le notti nel concilio Niceno. Se chiamano santo il tacere, nel nuovo calendario per me ci è già san Secreto, per il quale fo già de&apos; digiuni, senza rallegrarmene; quantunque mi abbia meritato il castigo per aver taciuto, essendo servo ; sacrilegio che maggiormente non dovevo commettere mai <stage xml:id="em0021-it-st-98">(rumori di tamburi e pifferi: di dentro dicono :)</stage>.</p>
+        </sp>
+        <sp who="#sol1" xml:id="em0021-it-sp-338">
+          <speaker>1º Soldato</speaker>
+          <p n="338" xml:id="em0021-it-338">Questa è la torre in cui è rinchiuso. Atterrate la porta ; entrate tutti.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-339">
+          <speaker>Chiarino</speaker>
+          <p n="339" xml:id="em0021-it-339">Viva Dio! che mi cercano, è certo, giacché dicono che sono qua. Da me cosa vorranno?</p>
+        </sp>
+        <sp who="#sol1" xml:id="em0021-it-sp-340">
+          <speaker>1º Soldato</speaker>
+          <p n="340" xml:id="em0021-it-340">Entrate tutti.</p>
+        </sp>
+        <stage xml:id="em0021-it-st-99">Escono quanti Soldati si puole.</stage>
+        <sp who="#sol2" xml:id="em0021-it-sp-341">
+          <speaker>2º Soldato</speaker>
+          <p n="341" xml:id="em0021-it-341">È qui.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-342">
+          <speaker>Chiarino</speaker>
+          <p n="342" xml:id="em0021-it-342">Non c&apos;è.</p>
+        </sp>
+        <sp who="#sol1 #sol2 #otrsol" xml:id="em0021-it-sp-343">
+          <speaker>Tutti</speaker>
+          <p n="343" xml:id="em0021-it-343">Signore.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-344">
+          <speaker>Chiarino</speaker>
+<p n="344" xml:id="em0021-it-344"><stage type="delivery" xml:id="em0021-it-st-100">(a parte).</stage> <seg type="aside" xml:id="em0021-it-344-seg1">Se costoro sono ubbriachi?</seg></p>
+        </sp>
+        <sp who="#sol1" xml:id="em0021-it-sp-345">
+          <speaker>1º Soldato</speaker>
+          <p n="345" xml:id="em0021-it-345">Tu sei nostro principe; non ammettiamo e non voglìamo nessun altro che il nostro principe naturale, e non un principe straniero. Dacci a tutti i piedi.</p>
+        </sp>
+        <sp who="#sol1 #sol2 #otrsol" xml:id="em0021-it-sp-346">
+          <speaker>Tutti</speaker>
+          <p n="346" xml:id="em0021-it-346">Viva il nostro gran principe!</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-347">
+          <speaker>Chiarino</speaker>
+<p n="347" xml:id="em0021-it-347"><stage type="delivery" xml:id="em0021-it-st-101">(a parte)</stage> <seg type="aside" xml:id="em0021-it-347-seg1">Viva Dio, che fanno davvero! Sarebbe mai costume di questo paese d&apos;incarcerare ogni giorno uno e farlo principe, e dopo ritornarlo in torre? Sì, e lo vedo tutti i giorni. M&apos;è forza che facci la mia parte.</seg></p>
+        </sp>
+        <sp who="#sol1 #sol2 #otrsol" xml:id="em0021-it-sp-348">
+          <speaker>Tutti</speaker>
+          <p n="348" xml:id="em0021-it-348">Dacci le tue piante.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-349">
+          <speaker>Chiarino</speaker>
+          <p n="349" xml:id="em0021-it-349">Non posso, perchè mi servono per me, oltrecchè sarebbe un grave difetto l&apos;esser un principe spiantato.</p>
+        </sp>
+        <sp who="#sol2" xml:id="em0021-it-sp-350">
+          <speaker>2º Soldato</speaker>
+          <p n="350" xml:id="em0021-it-350">Lo dicemmo tutti allo stesso padre tuo, che riconosciamo te solo per principe, e non quello di Moscovia.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-351">
+          <speaker>Chiarino</speaker>
+          <p n="351" xml:id="em0021-it-351">Perdeste il rispetto al padre mio? Siete certi tali per quali.</p>
+        </sp>
+        <sp who="#sol1" xml:id="em0021-it-sp-352">
+          <speaker>1º Soldato</speaker>
+          <p n="352" xml:id="em0021-it-352">Fu lealtà de&apos; petti nostri.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-353">
+          <speaker>Chiarino</speaker>
+          <p n="353" xml:id="em0021-it-353">Se fu lealtà, io vi perdono.</p>
+        </sp>
+        <sp who="#sol2" xml:id="em0021-it-sp-354">
+          <speaker>2º Soldato</speaker>
+          <p n="354" xml:id="em0021-it-354">Esci a ristaurare il tuo impero. Viva Sigismondo!</p>
+        </sp>
+        <sp who="#sol1 #sol2 #otrsol" xml:id="em0021-it-sp-355">
+          <speaker>Tutti</speaker>
+          <p n="355" xml:id="em0021-it-355">Evviva!</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-356">
+          <speaker>Chiarino</speaker>
+<p n="356" xml:id="em0021-it-356"><stage type="delivery" xml:id="em0021-it-st-102">(a parte)</stage> <seg type="aside" xml:id="em0021-it-356-seg1">Sigismondo, dicono? Ebbene, Sigismondo chiamano tutti i principi di occasione.</seg></p>
+        </sp>
+        <stage xml:id="em0021-it-st-103">Sigismondo e detti.</stage>
+        <sp who="#seg" xml:id="em0021-it-sp-357">
+          <speaker>Sigismondo</speaker>
+          <p n="357" xml:id="em0021-it-357">Chi è che qui nomina Sigismondo?</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-358">
+          <speaker>Chiarino</speaker>
+<p n="358" xml:id="em0021-it-358"><stage type="delivery" xml:id="em0021-it-st-104">(a parte)</stage> <seg type="aside" xml:id="em0021-it-358-seg1">Ma che sia principe?</seg></p>
+        </sp>
+        <sp who="#sol1" xml:id="em0021-it-sp-359">
+          <speaker>1º Soldato</speaker>
+          <p n="359" xml:id="em0021-it-359">Chi è Sigismondo?</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-360">
+          <speaker>Sigismondo</speaker>
+          <p n="360" xml:id="em0021-it-360">Io.</p>
+        </sp>
+        <sp who="#sol2" xml:id="em0021-it-sp-361">
+          <speaker>2º Soldato</speaker>
+          <p n="361" xml:id="em0021-it-361">Perchè, stolto e audace, fingevi d&apos;essere Sigismondo?</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-362">
+          <speaker>Chiarino</speaker>
+          <p n="362" xml:id="em0021-it-362">Io Sigismondo ? lo nego ; siete voi che mi avete sigismondizzato. Dunque fu vostra soltanto la stoltezza e l&apos;audacia.</p>
+        </sp>
+        <sp who="#sol1" xml:id="em0021-it-sp-363">
+          <speaker>1º Soldato</speaker>
+          <p n="363" xml:id="em0021-it-363">Gran principe Sigismondo, che dai segni che abbiamo tu sei desso, noi ti acclamiamo nostro re. Tuo padre , il gran re Basilio, timoroso che i cieli compino un fato, che predice dover lui vedersi vinto e prostrato a&apos; tuoi piedi, pretende toglierti la corona ed il diritto, e darli ad Astolfo duca di Moscovia. Convocò a tal uopo la sua Corte; ma il volgo, penetrando e conoscendo già che tiene il suo re naturale, non vuole che uno straniero venga a comandarlo. Epperciò, disprezzando nobilmente l&apos;inclemenza del fato, ti cerca dove vivi incarcerato, per assisterti colle sue armi, uscendo da questa torre, a ristaurare la tua imperiale corona ed il tuo scettro , che devi togliere ad un tiranno. Esci adunque, che in questo deserto vedrai raccolto un numeroso esercito di soldati e di plebei che ti acclama ; la libertà ti aspetta ; ascolta le lor voci.</p>
+        </sp>
+        <sp who="#sol1 #sol2 #otrsol" xml:id="em0021-it-sp-364">
+          <speaker>Voci di dentro.</speaker>
+          <p n="364" xml:id="em0021-it-364">Viva Sigismondo! evviva!</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-365">
+          <speaker>Sigismondo</speaker>
+          <p n="365" xml:id="em0021-it-365">Un&apos;altra volta (che cos&apos;è questa, o cieli!) volete che sogni grandezza, che il tempo deve in seguito disfare? Vo¬lete un&apos;altra volta ch&apos;io veda fra le ombre e gli abbozzi la maestà e la pompa svanire col tempo? Un&apos;altra volta volete ch&apos;io tocchi il disinganno, o il rischio con cui l&apos;umano potere nasce umile, [e]d attento viv[e]? No, ciò non può più essere; no, non può più essere; osservatemi soggetto di nuovo all&apos;avversa mia fortuna ; e poiché so che tutta questa vita è un sogno, fuggite, ombre vane, che oggi fingete a&apos; miei sensi estinti d&apos;aver corpo e voce, mentre la verità è che non avete nè voce nè corpo. Non voglio finte maestadi, pompe fantastiche non voglio, nè illusioni, che al più leg¬giero soffio dell&apos;aura deggiono sfarsi, come il fiorito man¬dorlo allorquando è per maturare i suoi fiori, senza avviso nè consiglio, al primo soffio svaniscono, appassendo ed offuscando i suoi rosati bottoni, bellezza, luce ed ornamento suo. Già vi conosco, e so che usate lo stesso con chiunque si addormenta. Per me non vi sono più finzioni, ma disin¬ganni, imperocché so che la vita è un sogno.</p>
+        </sp>
+        <sp who="#sol2" xml:id="em0021-it-sp-366">
+          <speaker>2º Soldato</speaker>
+          <p n="366" xml:id="em0021-it-366">Se credi che t&apos;inganniamo, volgi gli occhi a questo superbo monte, e vedrai la gente che ti aspetta per ubbidirti.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-367">
+          <speaker>Sigismondo</speaker>
+          <p n="367" xml:id="em0021-it-367">Già vidi un&apos;altra volta lo stesso così chiaro e distintamente come ora vedo, eppure fu un sogno.</p>
+        </sp>
+        <sp who="#sol2" xml:id="em0021-it-sp-368">
+          <speaker>2º Soldato</speaker>
+          <p n="368" xml:id="em0021-it-368">Le grandi cose sogliono, signore, essere annunziate da qualche presagio; per cui è facile che tu l&apos;abbi sognato prima.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-369">
+          <speaker>Sigismondo</speaker>
+<p n="369" xml:id="em0021-it-369">Dici bene, fu un annunzio; ed in caso che fosse certezza, poiché la vita è così certa, sogniamo, alma mia, sogniamo un&apos;altra volta, ma con maggiore attenzione e consiglio, onde svegliarci da questo incanto nel miglior tempo. Conciossiachè quando una cosa si conosce, il suo disinganno è lieve, e nello stesso tempo è uno scherzo che si fa al danno, anticipandogli il consiglio. E colla prevenzione che, quando fosse certezza, il potere è tutto prestato, e si deve restituire al suo padrone, avventuriamoci a tutto. — Vassalli, io vi sono grato della vostra lealtà; in me avete chi vi liberi ardito e destro dalla schiavitù straniera. Suonate all&apos;armi, e presto vedrete il mio immenso valore. Contro mio padre pretendo impugnare le armi, acciocché i cieli sieno veridici, e lo veda prostrato alle mie piante.— <stage type="delivery" xml:id="em0021-it-st-105">(a parte)</stage> <seg type="aside" xml:id="em0021-it-369-seg1">Ma se prima io mi risveglio, non sarebbe meglio di non dirlo, supposto che non lo devo fare?</seg></p>
+        </sp>
+        <sp who="#sol1 #sol2 #otrsol" xml:id="em0021-it-sp-370">
+          <speaker>Tutti.</speaker>
+          <p n="370" xml:id="em0021-it-370">Viva Sigismondo! evviva !</p>
+        </sp>
+        <stage xml:id="em0021-it-st-106">Clotaldo e detti.</stage>
+        <sp who="#clot" xml:id="em0021-it-sp-371">
+          <speaker>Clotaldo</speaker>
+          <p n="371" xml:id="em0021-it-371">Qual tumulto è mai questo?</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-372">
+          <speaker>Sigismondo</speaker>
+          <p n="372" xml:id="em0021-it-372">Clotaldo?</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-373">
+          <speaker>Clotaldo</speaker>
+<p n="373" xml:id="em0021-it-373">Signore? — <stage type="delivery" xml:id="em0021-it-st-107">(a parte)</stage> <seg type="aside" xml:id="em0021-it-373-seg1">In me del suo rigor fa pruova.</seg></p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-374">
+          <speaker>Chiarino</speaker>
+<p n="374" xml:id="em0021-it-374"><stage type="delivery" xml:id="em0021-it-st-108">(a parte)</stage> <seg type="aside" xml:id="em0021-it-374-seg1">Io scommetto che lo precipita giù dal monte.</seg></p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-375">
+          <speaker>Clotaldo</speaker>
+          <p n="375" xml:id="em0021-it-375">Mi appresso alle tue reali piante, già so che devo morire.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-376">
+          <speaker>Sigismondo</speaker>
+          <p n="376" xml:id="em0021-it-376">Alzati, alzati, padre, dal suolo; tu devi essere il norte e la guida a cui devo confidare i miei successi; imperocchè so che sono debitore alla tua estrema lealtà della mia educazione. Dammi le braccia.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-377">
+          <speaker>Clotaldo</speaker>
+          <p n="377" xml:id="em0021-it-377">Che dici?</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-378">
+          <speaker>Sigismondo</speaker>
+          <p n="378" xml:id="em0021-it-378">Che sto sognando, e che voglio far bene , giacché l&apos;operar bene non si perde neppur sognando.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-379">
+          <speaker>Clotaldo</speaker>
+          <p n="379" xml:id="em0021-it-379">Giacché, signore, l&apos;operar bene è già il tuo stemma, posso essere sicuro che non ti offenderai che anch&apos;io da te solleciti in questo momento di poter far lo stesso. Devi far guerra a tuo padre? Contro il mio re non posso consigliarti; né aiutarti. Sono a&apos; tuoi piedi, dammi la morte.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-380">
+          <speaker>Sigismondo</speaker>
+<p n="380" xml:id="em0021-it-380">Villano, traditore, ingrato! — <stage type="delivery" xml:id="em0021-it-st-109">(a parte)</stage> <seg type="aside" xml:id="em0021-it-380-seg1">Ma, cieli! Mi conviene di non trasportarmi troppo, non sapendo ancora se sono sveglio.</seg> — Clotaldo, invidio il vostro valore e lo gradisco. Andatevene a servire il re, che ci vedremo in campo. — Voi altri suonate all&apos;armi.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-381">
+          <speaker>Clotaldo</speaker>
+<p n="381" xml:id="em0021-it-381">Mille volle bacio i tuoi piedi <stage xml:id="em0021-it-st-110">(parte)</stage>.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-382">
+          <speaker>Sigismondo</speaker>
+<p n="382" xml:id="em0021-it-382">A regnar, fortuna, andiamo; non mi svegliare se dormo, e se è verità non mi addormentare. Ma sia pur verità o sogno, ciò che importa è di operar bene; se fosse verità, per esserlo; e se no, per guadagnar amici quando ci sveglieremo <stage xml:id="em0021-it-st-111">(battono i tamburi. Partono)</stage>.</p>
+        </sp>
+        <stage xml:id="em0021-it-st-112">Basilio e Astolfo</stage>
+        <sp who="#bas" xml:id="em0021-it-sp-383">
+          <speaker>Basilio</speaker>
+          <p n="383" xml:id="em0021-it-383">Astolfo, chi potrà affermare prudente la furia di un cavallo sfrenato? Chi d&apos;un fiume che corre al mare superbo e precipitoso, ne potrà trattenere la corrente? Chi sorreggere potrà una rupe che rotola dalla cima d&apos;uno scosceso monte? Ebbene tutto si trova più facile di potersi fermare, che non del volgo la superba ira. E lo dice la fama ripartita in bande, poiché si ode risuonare nelle gole dei monti l&apos;eco con le grida degli, or di viva Astolfo, or di viva Sigismondo. La divisa della giurata fedeltà ridotta a una seconda intenzione, ad un onor secondo, è funesto teatro dove importuna rappresenta tragedie la fortuna.</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-384">
+          <speaker>Astolfo</speaker>
+<p n="384" xml:id="em0021-it-384">Signore, sospendi oggi tanta allegria, cessi l&apos;applauso ed il gusto lusinghiero che la tua felice mano mi prometteva; che se Polonia (alla quale spero comandare) oggi resiste ad ubbidirmi, è perché io la meriti prima. Dammi un cavallo, e di arroganza pieno, qual fulmine discenda chi mugge come tuono <stage xml:id="em0021-it-st-113">(parte)</stage>.</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-385">
+          <speaker>Basilio</speaker>
+          <p n="385" xml:id="em0021-it-385">Poco riparo tiene l&apos;infallibile, e molto rischio ha l&apos;imprevisto previsto; se dev&apos;esser, la difesa è impossibile, che chi più la schiva più la previene. Dura legge! tremendo caso! orror terribile! chi pensa fuggire il rischio, dal rischio è avvolto. Io stesso mi perdei con ciò che conservai, io stesso distrussi la mia patria.</p>
+        </sp>
+        <stage xml:id="em0021-it-st-114">Stella e Basilio.</stage>
+        <sp who="#est" xml:id="em0021-it-sp-386">
+          <speaker>Stella</speaker>
+          <p n="386" xml:id="em0021-it-386">Se la tua presenza, gran signore, non tratta di raffrenare il tumulto che d&apos;una in altra fazione si dilata per le strade e per le piazze, vedrai il tuo regno nuotare in scarlatte onde, fra la porpora del suo sangue tinto; che già in tristo modo tutt&apos;è sventura e tragedia. Tanta è la ruina del tuo imperio, e tanta la forza del duro e sanguinolento rigore, che di vederlo stupisce, e di ascoltarlo spaventa. Il sole si turba, e il vento s&apos;imbarazza; ogni pietra innalza una piramide, ed ogni fiore costruisce un monumento ; ogni edifizio è un sepolcro altrui, ed ogni soldato uno scheletro vivo.</p>
+        </sp>
+        <stage xml:id="em0021-it-st-115">Clotaldo e detti.</stage>
+        <sp who="#clot" xml:id="em0021-it-sp-387">
+          <speaker>Clotaldo</speaker>
+          <p n="387" xml:id="em0021-it-387">Ringrazio Iddio, che vivo giungo a’ tuoi piedi.</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-388">
+          <speaker>Basilio</speaker>
+          <p n="388" xml:id="em0021-it-388">Clotaldo, cosa avvenne di Sigismondo?</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-389">
+          <speaker>Clotaldo</speaker>
+          <p n="389" xml:id="em0021-it-389">Che il volgo, mostro precipitoso e cieco , penetrò nella torre, e dal profondo ne tolse il suo principe, che subito che vide per la seconda volta il suo secondo onore, si mostrò oltre ogni dire valente, dicendo fieramente che deve far dire il vero al cielo.</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-390">
+          <speaker>Basilio</speaker>
+<p n="390" xml:id="em0021-it-390">Datemi un cavallo, che voglio vincere in persona un ingrato figlio, e nella difesa della mia corona, ciò che la scienza errò, vinca l&apos;acciaro <stage xml:id="em0021-it-st-116">(parte)</stage>.</p>
+        </sp>
+        <sp who="#est" xml:id="em0021-it-sp-391">
+          <speaker>Stella</speaker>
+<p n="391" xml:id="em0021-it-391">Io, allato del sole, sarò Bellona, e giunto al suo spero di mettere il mio nome, che voglio volar sopra distese ali, e competere con la divinità di Pallade <stage xml:id="em0021-it-st-117">(parte, e suonano all&apos;armi)</stage>.</p>
+        </sp>
+        <stage xml:id="em0021-it-st-118">Rosaura trattenendo Clotaldo.</stage>
+        <sp who="#ros" xml:id="em0021-it-sp-392">
+          <speaker>Rosaura</speaker>
+          <p n="392" xml:id="em0021-it-392">Quantunque il valore che rinchiude il tuo petto si fa conoscere, ascoltami, imperocché so che tutto è guerra. Non ignori che io arrivai povera, umile ed infelice in Polonia, ove protetta dal tuo valore, in te trovai pietà ; mi ordinasti (ahi cieli!) che vivessi travestita in palazzo, e procurassi (dissimulando il mio risentimento) evitare Astolfo. Ma alla fine ei mi vidde , e nonostante calpesta tanto il mio onore, che anche avendomi veduta, di notte in un giardino parla a Stella. Ne ho presa la chiave, e ti posso dar luogo da potervi entrare, onde por fine alle mie pene. Colà potrai ritornare altiero, ardito e forte, giacché sei risoluto di vendicarmi colla sua morte.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-393">
+          <speaker>Clotaldo</speaker>
+          <p n="393" xml:id="em0021-it-393">E’ vero che dal momento che ti vidi, mi determinai a far per te (testimonio ne fu il tuo pianto) quanto la mia vita potesse. Fu mio primo intento di toglierti quel vestito, acciocché se per caso ti avesse veduto Astolfo vestita delle tue proprie vesti, non giudicasse per impudicizia la pazza temerità che oltraggia l&apos;onore. In questo tempo disegnavo come si potesse riacquistare il tuo onore, quantunque fosse , (tanto il tuo onore mi trascinava) con dar morte ad Astolfo. Osserva che caduco vaneggiamento! perchè non essendo egli mio re, non mi spaventa, nè mi comanda. Pensai di dargli morte quando Sigismondo tentò di darla a me; ma egli fece in mia difesa, calpestando il suo pericolo, mostre tali della sua volontà , che furono temerità, per troppo oltrepassare la valentia. Come posso io (avverti), avendo l&apos;anima grata a chi mi diede la vita, togliergli la sua? E così, fra i due partiti dell&apos;affetto e della pena, vedendo che a te la diedi, e che da esso l&apos;ho ricevuta, non so a qual parte accudire, non so qual parte aiutare. Se a te mi sono obbligato con dare , ad esso lo sono con ricevere. Epperciò, nell&apos;azione che si presenta, nulla soddisfa al mio amore; perchè sono persona che opero, e persona che soffre.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-394">
+          <speaker>Rosaura</speaker>
+          <p n="394" xml:id="em0021-it-394">Non ho da prevenire che in un uomo singolare, quanto è nobile l&apos;azione di dare, altrettanto è bassezza il ricevere. E questo principio stabilito, tu non devi essergli grato, e supposto ch&apos;ei sia quello che ti ha dato la vita, e tu a me, è evidente ch&apos;egli sforzò la tua nobiltà a fare una bassezza, e me un&apos;azione generosa. Dunque sei da lui offeso, e da me sei obbligato, supposto che m&apos;hai dato ciò che da lui hai ricevuto; epperò, in tanto rischio, devi badare al mio onore, giacché ad ogni altro bene lo preferisco.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-395">
+          <speaker>Clotaldo</speaker>
+          <p n="395" xml:id="em0021-it-395">Quantunque la nobiltà stia dalla parte di chi dà, pure l&apos;aggradirla è dalla parte di chi riceve. E siccome ho già saputo dare, già tengo l&apos;onorato nome di generoso. Lasciami anche quello di grato, che posso conseguire con essere grato quanto fui liberale giacché onora tanto il dare come il ricevere.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-396">
+          <speaker>Rosaura</speaker>
+          <p n="396" xml:id="em0021-it-396">Da te ricevei la vita, e tu stesso mi dicesti nel darmela, che quando la vita era offesa, non era più vita. Dunque da te nulla ricevei, perchè non fu vita quella che le tue mani mi dierono. E se tu devi essere prima liberale che non grato (come da te stesso udii) aspetto che mi dii la vita, che non mi hai dato; e siccome il dare ingrandisce di più, sii prima liberale, e sarai grato poi.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-397">
+          <speaker>Clotaldo</speaker>
+          <p n="397" xml:id="em0021-it-397">Vinto dal tuo argomento, voglio essere liberale. Io, Rosaura, ti darò la mia ricchezza, e vattene in un convento; questo mezzo che sollecito è ben pensato, perchè fuggendo da un delitto, ti raccogli in luogo sacro: imperocché quando il regno così diviso è maltrattato da tante sciagure, essendo nato nobile, non sarò quello da aumentarle. Col rimedio proposto, sono leale col regno, sono liberale con te, e riconoscente con Astolfo ; epperò tu puoi scegliere quello che più ti piace, rimanendo tutto celato fra noi due. E far di più non potrei, quantunque fossi tuo padre.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-398">
+          <speaker>Rosaura</speaker>
+          <p n="398" xml:id="em0021-it-398">Se tu fossi mio padre soffrirei quest&apos;ingiuria; ma non essendolo, non la soffro.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-399">
+          <speaker>Clotaldo</speaker>
+          <p n="399" xml:id="em0021-it-399">Dunque cosa speri di poter fare?</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-400">
+          <speaker>Rosaura</speaker>
+          <p n="400" xml:id="em0021-it-400">Uccidere il duca.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-401">
+          <speaker>Clotaldo</speaker>
+          <p n="401" xml:id="em0021-it-401">Una dama che non ha conosciuto il padre, ha ella tanto valore ?</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-402">
+          <speaker>Rosaura</speaker>
+          <p n="402" xml:id="em0021-it-402">Sì.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-403">
+          <speaker>Clotaldo</speaker>
+          <p n="403" xml:id="em0021-it-403">Chi ti spinge?</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-404">
+          <speaker>Rosaura</speaker>
+          <p n="404" xml:id="em0021-it-404">La mia fama.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-405">
+          <speaker>Clotaldo</speaker>
+          <p n="405" xml:id="em0021-it-405">Guarda che in Astolfo hai da [vedere]...</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-406">
+          <speaker>Rosaura</speaker>
+          <p n="406" xml:id="em0021-it-406">Il mio onore tutto calpesta.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-407">
+          <speaker>Clotaldo</speaker>
+          <p n="407" xml:id="em0021-it-407">II tuo re, lo sposo di Stella.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-408">
+          <speaker>Rosaura</speaker>
+          <p n="408" xml:id="em0021-it-408">Viva Dio, non lo dev&apos;essere!</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-409">
+          <speaker>Clotaldo</speaker>
+          <p n="409" xml:id="em0021-it-409">E’ pazzia.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-410">
+          <speaker>Rosaura</speaker>
+          <p n="410" xml:id="em0021-it-410">Lo vedo.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-411">
+          <speaker>Clotaldo</speaker>
+          <p n="411" xml:id="em0021-it-411">Dunque vincila.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-412">
+          <speaker>Rosaura</speaker>
+          <p n="412" xml:id="em0021-it-412">Non posso.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-413">
+          <speaker>Clotaldo</speaker>
+          <p n="413" xml:id="em0021-it-413">Allora perderai...</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-414">
+          <speaker>Rosaura</speaker>
+          <p n="414" xml:id="em0021-it-414">Già lo so.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-415">
+          <speaker>Clotaldo</speaker>
+          <p n="415" xml:id="em0021-it-415">Vita e onore.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-416">
+          <speaker>Rosaura</speaker>
+          <p n="416" xml:id="em0021-it-416">Così credo.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-417">
+          <speaker>Clotaldo</speaker>
+          <p n="417" xml:id="em0021-it-417">Cosa tenti allora?</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-418">
+          <speaker>Rosaura</speaker>
+          <p n="418" xml:id="em0021-it-418">La mia morte.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-419">
+          <speaker>Clotaldo</speaker>
+          <p n="419" xml:id="em0021-it-419">Osserva che è un dispetto.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-420">
+          <speaker>Rosaura</speaker>
+          <p n="420" xml:id="em0021-it-420">È onore.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-421">
+          <speaker>Clotaldo</speaker>
+          <p n="421" xml:id="em0021-it-421">È stravaganza.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-422">
+          <speaker>Rosaura</speaker>
+          <p n="422" xml:id="em0021-it-422">È valore.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-423">
+          <speaker>Clotaldo</speaker>
+          <p n="423" xml:id="em0021-it-423">È frenesia.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-424">
+          <speaker>Rosaura</speaker>
+          <p n="424" xml:id="em0021-it-424">È rabbia, è ira.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-425">
+          <speaker>Clotaldo</speaker>
+          <p n="425" xml:id="em0021-it-425">In fine non v&apos;è mezzo alcuno che calmar possa la tua cieca passione ?</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-426">
+          <speaker>Rosaura</speaker>
+          <p n="426" xml:id="em0021-it-426">No.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-427">
+          <speaker>Clotaldo</speaker>
+          <p n="427" xml:id="em0021-it-427">Chi ti aiuterà?</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-428">
+          <speaker>Rosaura</speaker>
+          <p n="428" xml:id="em0021-it-428">Io.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-429">
+          <speaker>Clotaldo</speaker>
+          <p n="429" xml:id="em0021-it-429">Non c’è rimedio ?</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-430">
+          <speaker>Rosaura</speaker>
+          <p n="430" xml:id="em0021-it-430">No, non v&apos;è.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-431">
+          <speaker>Clotaldo</speaker>
+          <p n="431" xml:id="em0021-it-431">Pensa bene se vi sono altre maniere...</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-432">
+          <speaker>Rosaura</speaker>
+<p n="432" xml:id="em0021-it-432">Perdermi in altra guisa <stage xml:id="em0021-it-st-119">(parte)</stage>.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-433">
+          <speaker>Clotaldo</speaker>
+<p n="433" xml:id="em0021-it-433">Se devi perderti, aspetta , figlia mia , e perdiamoci tutti <stage xml:id="em0021-it-st-120">(parte)</stage>.</p>
+        </sp>
+        <stage xml:id="em0021-it-st-121">Tamburi, Soldati che marciano, Chiarino e Sigismondo vestito di pelli.</stage>
+        <sp who="#seg" xml:id="em0021-it-sp-434">
+          <speaker>Sigismondo</speaker>
+<p n="434" xml:id="em0021-it-434">Se mi vedesse in questo giorno Roma ne&apos; trionfi della sua prima età, oh come si rallegrerebbe di mettere a profitto un&apos;occasione così rara, d&apos;aver una fiera che reggesse i suoi grandi eserciti, ed al cui altiero coraggio sarebbe piccola conquista il firmamento! Ma riteniamo il volo, spirito mio ; non facciamo che svanisca quest&apos;applauso incerto, se mi deve pesare, quando mi sia svegliato, d&apos;averlo conseguito per averlo perduto; perchè quando fosse meno, anche meno si sentirebbe di perderlo <stage xml:id="em0021-it-st-122">(suonano un clarino)</stage>.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-435">
+          <speaker>Chiarino</speaker>
+          <p n="435" xml:id="em0021-it-435">Su d&apos;un veloce cavallo (perdonami che sono costretto a dipingerlo, venendomi a taglio), in cui un mappamondo si disegna, essendo il corpo la terra, il fuoco l&apos;alma che rinchiude in petto, la spuma il mare, ed il sospiro l&apos;aria, nella qual confusione un caos ammiro; giacché nell&apos;anima, spuma, corpo e lena, mostro è di fuoco, terra, mare e vento , di color rappezzato , grigio chiaro, ed a proposito guarnito di chi batte lo sperone, che invece di correre vola; alla tua presenza giunge un&apos;altiera donna.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-436">
+          <speaker>Sigismondo</speaker>
+          <p n="436" xml:id="em0021-it-436">La sua luce mi accieca.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-437">
+          <speaker>Chiarino</speaker>
+<p n="437" xml:id="em0021-it-437">Viva Dio ! è Rosaura <stage xml:id="em0021-it-st-123">(parte)</stage>.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-438">
+          <speaker>Sigismondo</speaker>
+          <p n="438" xml:id="em0021-it-438">Il cielo al mio cospetto la riconduce.</p>
+        </sp>
+        <stage xml:id="em0021-it-st-124">Rosaura armata di spada e daga, e detto.</stage>
+        <sp who="#ros" xml:id="em0021-it-sp-439">
+          <speaker>Rosaura</speaker>
+          <p n="439" xml:id="em0021-it-439">Generoso Sigismondo, la di cui eroica maestà esce colle sue gesta fatti dalla notte delle sue ombre ; e come il maggior pianeta , quando nelle braccia dell&apos;aurora si restituisce lucente alle piante ed alle rose, e sopra i monti e i mari, quando coronato si affaccia, sparge luce e brilla raggi, cime bagna, spume irradia ; così comparisci al mondo lucente sole di Polonia, ed una infelice donna che oggi ai tuoi piedi si prostra, proteggi per esser donna e sventurata , due cose per obbligare un uomo che di valore si vanta. Tre volte son già che mi vedi, e tre quelle che ignori chi io mi sia ; giacché tutte e tre le volte mi vedesti in differente abito e forma. La prima mi credesti uomo nella rigorosa prigione, dove la tua vita fu delle mie sventure una dolce lusinga ; la seconda mi ammirasti donna quando la pompa della tua maestà fu un sogno, un fantasma, un&apos;ombra: la terza è oggi, che essendo mostro d&apos;una e dell&apos;altra specie, fra muliebri vesti, armi virili impugno. E perchè pietoso meglio al proteggermi tu ti disponga, è bene che de&apos; miei successi tu oda le tragiche fortune. Nacqui da nobil madre nella corte di Moscovia, che nel modo che fu sventurata dovè esser molto bella. In essa fisse gli occhi un traditore che la mia voce non nomina per non conoscerlo, e del cui valor informa il mio. Essendo oggetto della sua idea, sento presentemente di non esser nata gentile per persuadermi, pazza, che fosse qualche nume di quelli che furono pioggia d&apos;oro, cigno e toro , in Danae, Leda e Europa. Quando pensavo che allungavo il discorso, citando perfide istorie, trovo che con esso ti dissi in poche parole, che mia madre, persuasa dalle amorose lusinghe, fu come tutte infelice. Quella stolta discolpa di fede e parola di sposa tanto l&apos;intrattenne, che ancora oggi il pensamento l&apos;affligge, essendo stato Enea tanto tiranno della sua Troia, che gli lasciò perfino la sua spada. E qui rimettasi nel fodero la sua lama, che io la snuderò prima che l&apos;istoria sia terminata. Da questo mal dato nodo, che non lega nè imprigiona, o matrimonio, o delitto, quantunque sia una stessa cosa, nacqui io, così somigliante, che fui un ritratto, una copia, se non nella bellezza, nella fortuna e nelle opere. E così non avrò bisogno di dire che, poco felice erede di fortuna, corsi con essa la propria. Il più che posso dirti di me, è che il padrone che ruba i trofei del mio amore, e le spoglie dell&apos;onor mio, è Astolfo (ohimè! che solo al nominarlo il cuore s&apos;incollera e si stizza ; effettto proprio che lo dichiara nemico). Astolfo fu l&apos;ingrato donno che, dimentico delle glorie (perchè di un passato amor perfino si dimentica la memoria), venne in Polonia , chiamato dalla sua famosa conquista a sposarsi con Stella, la quale fu del mio occaso la torcia. Chi crederà che, essendo stata una stella che unisce due amanti, sia una Stella quella che li divide ora? Io offesa, io burlata , rimasi triste, rimasi pazza, rimasi morta, rimasi me, che vuol dire che rimasi con tutta la confusione dell&apos;inferno; e dichiarandomi muta (perchè vi sono pene e angoscie che gli affetti le dicono molto meglio della bocca), dissi le mie pene tacendo, finché una volta , a Violante mia madre (ahi cielo!) le rivelai, ed in truppe dal petto uscirono insieme inciampandosi le une colle altre. Non m&apos;imbarazzai nel dirle , perchè quando una persona sa che a chi narra le sue debolezze fu colpevole di altre , sembra che questa gliene faccia di già gli applausi, e l&apos;aiuti a sfogarsi ; conciossiachè il cattivo esempio molte volte serve ad incoraggiare. Ella, infine, ascoltò pietosa i miei lamenti, e volle consolarmi co&apos; suoi. Giudice che fu delinquente come è facile al perdono ! Provando in sé medesima, e per negare all&apos;oziosa libertà, al tempo facile il rimedio del suo onore, che non ebbe nelle mie sventure, sceglie por miglior consiglio che io lo segua, e che con prodigiosi fatti io l&apos;obblighi al debito del mio onore. E perchè corressi meno pericoli, volle che mi abbigliassi da uomo, dandomi questa spada che cingo, e che ora è tempo ch&apos;io sfoderi (come promisi), imperocché, confidata ne&apos; suoi segni, mi disse : Parti per Polonia , e procura che i più grandi nobili ti vedano quest&apos;acciaro ; che può darsi che in qualcheduno lo tue sventure trovino pietoso accoglimento, e le tue angoscie qualche consolazione. Arrivai in effetto in Polonia, e passiamo oltre, giacché non importa il dirlo, sapendosi già chi mi condusse alla tua grotta , ove ti maravigliasti vedermi. E passiamo ancora sul fatto che Clotaldo di me si appassiona, dimanda al re la mia vita, il quale me la concede; e che poi, informato chi io mi sia, mi persuade a prendere il mio abito e a servire Stella, donde con molto ingegno ho disturbato l&apos;amor di Astolfo, e Stella dall&apos;essere sua sposa. E passiamo sul momento nel quale mi vedesti altra volta dolente e vestita da donna, per cui confondesti la duplice forma, e fermiamoci sulla persuasione in cui è Clolaldo, che Astolfo e la bella Stella si sposino e regnino, consigliandomi anche contro il mio onore, acciocché io rinunzi alla mia pretesa. Ed io vedendo che tu, o valoroso Sigismondo, a cui spetta il vendicarti, giacché il cielo rompe il duro carcere dove la tua persona fu una fiera al sentimento, ed un macigno alle sofferenze, prendi le armi contro tuo padre e la tua patria, vengo ad aiutarti, mischiando ai ricchi ornamenti di donna gli arnesi di Diana e di Pallade, indossando le tele e le armi che congiuntamente mi adornano. Coraggio adunque, forte capitano ; giova ad entrambi di impedire queste nozze ; a me perchè non si sposi chi si chiama mio sposo; a te perchè, unendo i loro Stati, non mettano, con più potere e maggior forza, la nostra vittoria in dubbio. Come donna vengo a persuaderti del rimedio dell&apos;onor mio ; e come uomo vengo ad incoraggiarti perchè tu ricuperi la tua corona. Donna vengo ad intenerirti prostrandomi a&apos; tuoi piedi; ed uomo vengo a servirti con il mio acciaio e la mia persona. Epperò rifletti che se come donna m&apos;innamori, come uomo avrai la mia vita in onorata difesa dell&apos;onor mio ; perchè nella conquista amorosa, bisogna che sia donna per darti querele; e uomo per acquistare onori.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-440">
+          <speaker>Sigismondo</speaker>
+<p n="440" xml:id="em0021-it-440"><stage type="delivery" xml:id="em0021-it-st-125">(a parte)</stage> <seg type="aside" xml:id="em0021-it-440-seg1">Cieli, sarebbe mai vero ch&apos;io sognassi; sospendetemi la memoria, perchè è impossibile che in un sogno si rinchiudino tante cose. Oh Dio ! chi sapesse uscirne da tutte, o non pensare ad alcuna ! Chi vide pene così dubbie? Se sognai quella grandezza in cui mi vidi, come mai questa donna mi riferisce segni così notorii? Dunque fu verità e non sogno; e se fu verità, ciò sarebbe per me una nuova confusione e non minore. Come la mia vita lo chiama un sogno? che le glorie siano tanto simili a&apos; sogni, che le vere siano tenute per mendaci, e le false per vere? Che ci sia così poco dalle une alle altre, che vi possa essere difficoltà nel poter sapere se ciò che si vede e si gode sia verità o menzogna? Che così somigliante sia la copia all&apos;originale , da potervi esser dubbio s&apos;ella è la propria? Ma se è così, e che si deggia vedere svanita fra le ombre la grandezza ed il potere, la maestà e la pompa, sappiamo approfittare almeno di questo momento che ci è concesso, perchè soltanto ci fe&apos; godere quel che fra sogni si gode. Rosaura è in mio potere, e l&apos;anima ne adora la sua bellezza; godiamo adunque dell&apos;occasione ; rompa amore le leggi del valore e della confidenza con cui si prostra a&apos; miei piedi. Quest&apos;è sogno; e giacché lo è, sogniamo adesso fortune, che saranno poi dispiaceri. Ma colle mie proprie ragioni ritorno a convincermi[:] se è sogno, se è vanagloria, chi per umana vanagloria perde una divina gloria? Che? il passato non è forse un sogno? Chi ebbe eroiche fortune, che fra sè non dica, quando gli ritornano alla memoria, senza dubbio quanto vidi non fu che un sogno? Dunque se questo tocca il mio disinganno, se so che il gusto chiama bello ciò che piace e un vento che soffia riduce in cenere, badiamo all&apos;eterno, che la fama vivifica, donde non dormono le venture e non riposano le grandezze. Rosaura è senza onore, ma ad un principe tocca di darlo, e non di toglierlo. Viva Dio! che devo essere il conquistatore del suo onore, prima che della mia corona. Fuggiamo dall&apos;occasione, che è grandissima.</seg> — <stage xml:id="em0021-it-st-126">(ai soldati)</stage> Suonate all&apos;armi; oggi devo dar la battaglia, prima che l&apos;ombra oscura sepellisca i raggi d&apos;oro fra le azzurre onde;</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-441">
+          <speaker>Rosaura</speaker>
+          <p n="441" xml:id="em0021-it-441">Signor, dunque così mi lasci? Non una sola parola indirizzi alle mie pene e alle mie angoscie? Com&apos;è possibile, signore, che non mi guardi, nè mi ascolti? Non mi volgi neppur il volto?</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-442">
+          <speaker>Sigismondo</speaker>
+<p n="442" xml:id="em0021-it-442">Rosaura, importa all&apos;onore che per esser pietoso con te, presentemente io sia crudele ; non ti risponde la mia voce, acciocché il mio onore ti risponda ; non ti parlo, perchè voglio che ti parlino le mie opere ; non ti miro, perchè sono forzato in così rigorosa pena, ch&apos;io non miri la tua bellezza, se mirar devo al tuo onore <stage xml:id="em0021-it-st-127">(parte)</stage>.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-443">
+          <speaker>Rosaura</speaker>
+          <p n="443" xml:id="em0021-it-443">Quali enigmi, cieli, son questi? Dopo tante afflizioni, mi rimane ancor da dubitare con le equivoche risposte?</p>
+        </sp>
+        <stage xml:id="em0021-it-st-128">Chiarino e detta.</stage>
+        <sp who="#cla" xml:id="em0021-it-sp-444">
+          <speaker>Chiarino</speaker>
+          <p n="444" xml:id="em0021-it-444">Signora, è ora di vederti?</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-445">
+          <speaker>Rosaura</speaker>
+          <p n="445" xml:id="em0021-it-445">Ah, Chiarino, dove sei stato?</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-446">
+          <speaker>Chiarino</speaker>
+          <p n="446" xml:id="em0021-it-446">Rinchiuso in una torre, conghietturando la mia morte, se mi si dava, o non mi si dava ; e della mia vita, che stette in punto di dare uno scoppio.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-447">
+          <speaker>Rosaura</speaker>
+          <p n="447" xml:id="em0021-it-447">Perchè?</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-448">
+          <speaker>Chiarino</speaker>
+<p n="448" xml:id="em0021-it-448">Perchè so il secreto che tu sai; infatti Clotaldo... Ma qual rumore è questo ? <stage xml:id="em0021-it-st-129">(tamburi)</stage>.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-449">
+          <speaker>Rosaura</speaker>
+          <p n="449" xml:id="em0021-it-449">Cosa può essere?</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-450">
+          <speaker>Chiarino</speaker>
+          <p n="450" xml:id="em0021-it-450">È che dall&apos;assediato palazzo esce uno squadrone armato per resistere e vincere quello del fiero Sigismondo.</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-451">
+          <speaker>Rosaura</speaker>
+<p n="451" xml:id="em0021-it-451">Ed io me ne sto come codarda, e non sono al suo lato? Sarebbe uno scandalo del mondo. Andiamo <stage xml:id="em0021-it-st-130">(parte; e dicono di dentro:)</stage>.</p>
+        </sp>
+        <sp who="#genr" xml:id="em0021-it-sp-452">
+          <speaker>Gli uni.</speaker>
+          <p n="452" xml:id="em0021-it-452">Viva il nostro invitto re!</p>
+        </sp>
+        <sp who="#gens" xml:id="em0021-it-sp-453">
+          <speaker>Gli altri.</speaker>
+          <p n="453" xml:id="em0021-it-453">Viva la nostra libertà !</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-454">
+          <speaker>Chiarino</speaker>
+<p n="454" xml:id="em0021-it-454">Viva la libertà e il re! vivano pure alla buonora, che a me nulla mi dà pena, purché mi tengano in corte. Penso in questo giorno di così grande confusione starmene ritirato, e farla da Nerone, che di nulla si doleva ; e se di qualche cosa mi voglio curare, dev&apos;essere di me stesso; frattanto qui mi nascondo per veder tutta la festa. Il luogo è occulto e forte, e fra queste rupi la morte non mi troverà. Due fiche alla morte <stage xml:id="em0021-it-st-131">(si nasconde)</stage>.</p>
+        </sp>
+        <stage xml:id="em0021-it-st-132">Si odono suonare i tamburi e rumore di armi. Escono Basilio, Clotaldo e Astolfo fuggendo.</stage>
+        <sp who="#bas" xml:id="em0021-it-sp-455">
+          <speaker>Basilio</speaker>
+          <p n="455" xml:id="em0021-it-455">V&apos;è un re più infelice? v&apos;è un padre più perseguitato?</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-456">
+          <speaker>Clotaldo</speaker>
+          <p n="456" xml:id="em0021-it-456">Già scende il tuo esercito vinto, senza ordine, nè legge.</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-457">
+          <speaker>Astolfo</speaker>
+          <p n="457" xml:id="em0021-it-457">I traditori rimangono vincitori.</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-458">
+          <speaker>Basilio</speaker>
+<p n="458" xml:id="em0021-it-458">In tali battaglie coloro che vincono sono i leali, e quei che perdono i traditori. Fuggiamo, Clotaldo, fuggiamo il rigore d&apos;un crudele, d&apos;un inumano tiranno e figlio <stage xml:id="em0021-it-st-133">(fuggono dentro, e Chiarino cade dov&apos;è ferito)</stage>.</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-459">
+          <speaker>Chiarino</speaker>
+          <p n="459" xml:id="em0021-it-459">Aiuto, cielo!</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-460">
+          <speaker>Astolfo</speaker>
+          <p n="460" xml:id="em0021-it-460">Chi è quest&apos;infelice soldato che a&apos; nostri piedi è cascato così bagnato nel sangue?</p>
+        </sp>
+        <sp who="#cla" xml:id="em0021-it-sp-461">
+          <speaker>Chiarino</speaker>
+<p n="461" xml:id="em0021-it-461">Sono un uomo sventurato, che per volermi guardare dalla morte, ci ho inciampato ; fuggendola, con essa m&apos;imbattei; perciò non v&apos;ha luogo che sia segreto per la morte; per cui chiaro si arguisce, che chi più fugge il suo effetto, più gli si avvicina. Perciò ritornate subito alla sanguinosa battaglia, che fra le armi ed il fuoco v&apos;è più sicurezza che non è nel più intricato monte ; conciossiaché nessuna strada è sicura alla forza del destino e all&apos;inclemenza del fato; per cui, quantunque crediate di liberarvi dalla morte colla fuga, voi correte invece alla morte, se in Dio è che moriate <stage xml:id="em0021-it-st-134">(cade dentro)</stage>.</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-462">
+          <speaker>Basilio</speaker>
+          <p n="462" xml:id="em0021-it-462">Voi correte invece alla morte, se in Dio è che moriate? Come bene (ahi cieli!) persuade il nostro errore, e la nostra ignoranza ad un maggior discernimento, questo cadavere che parla per la bocca d&apos;una ferita , essendo l&apos;umore che scioglie lingua sanguinosa che insegna esser vane tutte le diligenze che l&apos;uomo dispone contro la forza e causa maggiore. Avvegnaché, per liberar la mia patria da sedizioni e da morti, venni a consegnarla a coloro dai quali pretendevo liberarla.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-463">
+          <speaker>Clotaldo</speaker>
+          <p n="463" xml:id="em0021-it-463">Quantunque il fato, signore, conosca tutte le strade, e trovi chi cerca anche fra le fenditure delle rupi, non è cristiana determinazione quella di dire che non v&apos;è riparo alla sua collera. Sì, c&apos;è; e l&apos;uomo prudente arriva a vincere il fato; e se non sei immune dalle pene e dalle disgrazie, fa in modo di preservartene.</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-464">
+          <speaker>Astolfo</speaker>
+          <p n="464" xml:id="em0021-it-464">Clotaldo, signore, ti parla da uomo prudente, che la matura età ha instruito, [io] come giovane valente. Fra le folte siepi di questo monte vi è un cavallo, veloce al paro dell&apos;aura ; fuggi con esso ; frattanto io ti guarderò alle spalle.</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-465">
+          <speaker>Basilio</speaker>
+          <p n="465" xml:id="em0021-it-465">Se sta in Dio ch&apos;io muoia, o se la morte mi attende, qui oggi la voglio incontrare, aspettando il nimico a faccia a faccia.</p>
+        </sp>
+        <stage xml:id="em0021-it-st-135">Suonano all&apos;armi ed esce Sigismondo con tutta la sua gente.</stage>
+        <sp who="#sol1 #sol2 #otrsol" xml:id="em0021-it-sp-466">
+          <speaker>Soldati</speaker>
+          <p n="466" xml:id="em0021-it-466">Nell&apos;intrigato bosco del monte fra i suoi folti rami, il re si nasconde.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-467">
+          <speaker>Sigismondo</speaker>
+          <p n="467" xml:id="em0021-it-467">Inseguitelo! non rimanga pianta che accuratamente non sia visitata; esaminate tronco per tronco, e ramo per ramo.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-468">
+          <speaker>Clotaldo</speaker>
+          <p n="468" xml:id="em0021-it-468">Fuggi, signore!</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-469">
+          <speaker>Basilio</speaker>
+          <p n="469" xml:id="em0021-it-469">Perchè?</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-470">
+          <speaker>Astolfo</speaker>
+          <p n="470" xml:id="em0021-it-470">Che attendi ?</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-471">
+          <speaker>Basilio</speaker>
+          <p n="471" xml:id="em0021-it-471">Allontanati, Astolfo.</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-472">
+          <speaker>Clotaldo</speaker>
+          <p n="472" xml:id="em0021-it-472">Che vuoi?</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-473">
+          <speaker>Basilio</speaker>
+<p n="473" xml:id="em0021-it-473">Impiegare, o Clotaldo, un rimedio che ancor mi manca. <stage xml:id="em0021-it-st-136">(a Sigismondo)</stage> Se vai cercandomi, già sono, o principe, ai tuoi piedi <stage xml:id="em0021-it-st-137">(s&apos;inginocchia).</stage> Di essi, questa neve della mia canizie ne sia il tappeto. Calpesta la mia cervice, umilia la mia corona , prostra , avvilisci il mio decoro e il mio rispetto; prendi vendetta del mio onore, serviti di me cattivo ; e dietro tante prevenzioni, compia il fato il suo presagio, e compia il cielo la sua parola.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-474">
+          <speaker>Sigismondo</speaker>
+<p n="474" xml:id="em0021-it-474">Illustre corte di Polonia, che testimonio siete di tante meraviglie, udite, che il vostro principe vi parla. Ciò che il cielo ha determinato, e che Dio ha scritto col suo dito nelle azzurre tavole del firmamento con lettere d’oro, giammai mentisce, e mai inganna; ma chi mente, ed inganna, è colui che per usarne male cerca di penetrarle. Mio padre, qui presente, fece di me un bruto, una fìera umana: di maniera che quando per la mia gagliarda nobiltà, per il mio generoso sangue, e per la mia bizzarra condizione fossi nato generoso, docile e umile, bastava tal genere di vita e tal metodo di educazione per render fieri i miei costumi. Che bel modo di scongiurare il fato ! Se si dicesse a qualunque uomo: « Una fiera inumana ti deve darla morte», sceglierebbe per rimedio di svegliarla, se dormisse? Se si dicesse: « Questa spada che cingi è quella che deve darti la morte » vana diligenza per evitarla sarebbe lo sguainarla ed appuntarsela al petto. Se si dicesse : « Golfi d&apos;acqua devon essere la tua sepoltura », mal farebbe chi osasse di mettersi in mare quando innalza superbo ricciuti monti di neve ed increspate montagne di cristallo. Gli successe lo stesso che succederebbe a chi svegliasse una fiera, perchè lo minaccia; come a chi temendo una spada, la sguaina; e come a chi solca le onde d&apos;una tempesta. E quantunque fosse (ascoltatemi) la mia collera fiera addormentata, temperata spada la mia furia , ed il mio rigore quieta bonaccia, pure non si vince la fortuna con ingiustizia e vendetta, perchè s&apos;incita maggiormente; per cui chi attenda a vincere la sua fortuna, deve usare saviezza e temperanza. E non prima che arrivi il danno, si evita, nè se ne guarda chi lo previene; che se con umiltà se ne può preservare (ed è cosa chiara) non è che dopo di trovarsi nell&apos;occasione , perchè non v&apos;è strada che la possa disturbare. Serva d&apos;esempio questo raro spettacolo, questa strana vicenda , questo orrore, questo prodigio, di vedere prostrato a&apos; miei piedi, dopo tante varie prevenzioni, un padre, e umiliato un re. Fu del cielo sentenza, che non potè scongiurare per quanto si sia affaticato; potrò io, che sono minor d&apos;età, di valore e di scienza vincerla?— <stage xml:id="em0021-it-st-138">(al re)</stage> Signore , alzati, dammi la mano; che disingannato dal cielo d&apos;aver errato nel modo di vincerlo, il mio collo umile attende che tu ti vendichi; eccomi arreso a&apos; piedi tuoi.</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-475">
+          <speaker>Basilio</speaker>
+          <p n="475" xml:id="em0021-it-475">Figlio, la tua nobile azione ti rigenera una seconda volta ne&apos; miei visceri ; sei principe, a te il lauro e la palma sono dovuti; tu vincesti, i tuoi fasti ti coronino.</p>
+        </sp>
+        <sp who="#ast #clot #est #ros #sol1 #sol2 #otrsol #genr #gens" xml:id="em0021-it-sp-476">
+          <speaker>Tutti.</speaker>
+          <p n="476" xml:id="em0021-it-476">Viva Sigismondo! evviva!</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-477">
+          <speaker>Sigismondo</speaker>
+          <p n="477" xml:id="em0021-it-477">Giacché il mio valore attende a cercar vittorie, il vincermi oggi da me stesso dev&apos;essere la più splendida. — Astolfo dia subito la mano a Rosaura ; ei che sa andarli debitore del suo onore, che io devo ricuperargli.</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-478">
+          <speaker>Astolfo</speaker>
+          <p n="478" xml:id="em0021-it-478">Non niego ch’io non abbia degli obblighi; ma osserva ch&apos;ella non sa chi è; epperò sarebbe bassezza ed infamia s’io sposassi una donna...</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-479">
+          <speaker>Clotaldo</speaker>
+          <p n="479" xml:id="em0021-it-479">Non proseguire , ferma , aspetta ! Rosaura è nobile al pari di te, e la mia spada lo sosterrà in campo ; è mia figlia, e ciò basti.</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-480">
+          <speaker>Astolfo</speaker>
+          <p n="480" xml:id="em0021-it-480">Che dici?</p>
+        </sp>
+        <sp who="#clot" xml:id="em0021-it-sp-481">
+          <speaker>Clotaldo</speaker>
+          <p n="481" xml:id="em0021-it-481">Ch&apos;io non volli scuoprirla finché non la vedessi onoratamente maritata; la storia di questo fatto è lunghissima, ma infine ell&apos;è mia figlia.</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-482">
+          <speaker>Astolfo</speaker>
+          <p n="482" xml:id="em0021-it-482">Essendo così, compirò la mia parola.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-483">
+          <speaker>Sigismondo</speaker>
+          <p n="483" xml:id="em0021-it-483">E perchè Stella non rimanga sconsolata della perdita d&apos;un principe di tanto valore e fama, di mia propria mano voglio accoppiarla con uno sposo, che se in meriti di fama non lo sorpassa, almeno lo eguagli. Dammi la tua mano.</p>
+        </sp>
+        <sp who="#est" xml:id="em0021-it-sp-484">
+          <speaker>Stella</speaker>
+          <p n="484" xml:id="em0021-it-484">Io guadagno nel meritare tanta fortuna.</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-485">
+          <speaker>Sigismondo</speaker>
+          <p n="485" xml:id="em0021-it-485">Clotaldo, che servì lealmente il padre mio, lo aspettano le mie braccia, con tutte quelle grazie ch&apos;ei domandar può ch&apos;io gli accordi.</p>
+        </sp>
+        <sp who="#sol1" xml:id="em0021-it-sp-486">
+          <speaker>1º Soldato</speaker>
+          <p n="486" xml:id="em0021-it-486">Se onori così chi non t&apos;ha servito, a me che fui la cagione del tumulto del regno, e che ti ritirai dalla torre in cui gemevi, cosa mi darai?</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-487">
+          <speaker>Sigismondo</speaker>
+          <p n="487" xml:id="em0021-it-487">La torre; e perchè tu non ne esca più fino alla morte, vi starai con guardie; imperocché il traditore non è più necessario quando il tradimento è passato.</p>
+        </sp>
+        <sp who="#bas" xml:id="em0021-it-sp-488">
+          <speaker>Basilio</speaker>
+          <p n="488" xml:id="em0021-it-488">La tua saggezza è l&apos;ammirazione di tutti.</p>
+        </sp>
+        <sp who="#ast" xml:id="em0021-it-sp-489">
+          <speaker>Astolfo</speaker>
+          <p n="489" xml:id="em0021-it-489">Che condizione mutata !</p>
+        </sp>
+        <sp who="#ros" xml:id="em0021-it-sp-490">
+          <speaker>Rosaura</speaker>
+          <p n="490" xml:id="em0021-it-490">Quanta saggezza, quanta prudenza!</p>
+        </sp>
+        <sp who="#seg" xml:id="em0021-it-sp-491">
+          <speaker>Sigismondo</speaker>
+          <p n="491" xml:id="em0021-it-491">Di che stupite? che vi spaventa? Se il mio maestro fu un sogno, per cui temo di svegliarmi di nuovo, e ritrovarmi nel mio stretto carcere; e quantunque ciò non avvenga, il sognarlo basta; avvegnaché arrivai per tal modo a sapere che tutta l&apos;umana fortuna passa come un sogno, ed oggi voglio approfittarne per tutto quel tempo che mi dura; chiedendo perdono de&apos; nostri falli, essendo proprio degli animi nobili il perdonarli.</p>
+        </sp>
+      </div1>
+    </body>
+    <back/>
+  </text>
+</TEI>

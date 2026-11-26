@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0075_TheTruthCantBeTrusted/n0",{"lines":[["act-1","nref-1","I, 775",0,"n","Esta intervención de don Juan de Sosa no está marcada como aparte por el traductor, pero el sentido nos ha llevado a incluirla en el aparte anterior."]],"speakers":["Don Juan de Sosa"]});

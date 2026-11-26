@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ACTO II — Ricardo III — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">Elenco</a></li>
+      
+  
+    
+        <li>
+          <a href="act-1.html">
+            ACTO I
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html" aria-current="page">
+            ACTO II
+          </a>
+          <ul>
+            <li>
+              
+                  <a href="act-2.html#act-2-s1">
+                    ESCENA I
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-2.html#act-2-s2">
+                    ESCENA II
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-2.html#act-2-s3">
+                    ESCENA III
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-2.html#act-2-s4">
+                    ESCENA IV
+                  </a>
+              
+            </li>
+          </ul>
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            ACTO III
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-4.html">
+            ACTO IV
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-5.html">
+            ACTO V
+          </a>
+          
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="RICARDO">
+        RICARDO
+      </option><option value="CLARENCE">
+        CLARENCE
+      </option><option value="BRAKENBURY">
+        BRAKENBURY
+      </option><option value="HASTINGS">
+        HASTINGS
+      </option><option value="ANA">
+        ANA
+      </option><option value="SOLDADO">
+        SOLDADO
+      </option><option value="RIVERS">
+        RIVERS
+      </option><option value="GREY">
+        GREY
+      </option><option value="ISABEL">
+        ISABEL
+      </option><option value="BUCKINGHAM">
+        BUCKINGHAM
+      </option><option value="MARGARITA">
+        MARGARITA
+      </option><option value="CATESBY">
+        CATESBY
+      </option><option value="REYEDUARDO">
+        REY EDUARDO
+      </option><option value="DORSET">
+        DORSET
+      </option><option value="STANLEY">
+        STANLEY
+      </option><option value="NIÑO">
+        NIÑO
+      </option><option value="NIÑA">
+        NIÑA
+      </option><option value="DUQUESA">
+        DUQUESA
+      </option><option value="ARZOBISPO">
+        ARZOBISPO
+      </option><option value="YORK">
+        YORK
+      </option><option value="PRÍN">
+        PRÍNCIPE
+      </option><option value="CARDE">
+        CARDENAL
+      </option><option value="ALCALDE">
+        ALCALDE
+      </option><option value="RATC">
+        RATCLIFFE
+      </option><option value="VAUGH">
+        VAUGHAN
+      </option><option value="ELY">
+        ELY
+      </option><option value="LOVELL">
+        LOVELL
+      </option><option value="TYRREL">
+        TYRREL
+      </option><option value="CHRISTOPHER">
+        CHRISTOPHER
+      </option><option value="RICHMOND">
+        RICHMOND
+      </option><option value="OXFORD">
+        OXFORD
+      </option><option value="HERBERT">
+        HERBERT
+      </option><option value="BLUNT">
+        BLUNT
+      </option><option value="SURREY">
+        SURREY
+      </option><option value="NORFOLK">
+        NORFOLK
+      </option><option value="ESCR">
+        ESCRIBANO
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">William Shakespeare</p>
+  <h1><a href="index.html">Ricardo III</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-1.html" rel="prev">← ACTO I</a>
+  <a href="act-3.html" rel="next">ACTO III →</a>
+</nav>
+  <div class="text" lang="es" data-cite="William Shakespeare, Ricardo III, ACTO II" data-cite-verse="v." data-cite-prose="l.">
+    
+    <section class="division" id="act-2">
+  <h2 class="act-head">
+    ACTO II
+  </h2>
+  
+  
+  
+    
+      <section id="act-2-s1">
+        <h3 class="scene-head">
+          ESCENA I
+        </h3>
+        <p class="sd " id="l2-1-sd1">(En palacio)</p><p class="sd " id="l2-1-sd2">(Entran el REY EDUARDO, la REINA ISABEL, DORSET, RIVERS, HASTINGS, BUCKINGHAM y GREY.)</p><div class="sp " data-who="REYEDUARDO">
+  <p class="spk ">
+    REY EDUARDO
+  </p>
+  <p class="pr " id="l2-1-1"><a class="pn " href="#l2-1-1">1</a>¡Que así sea! Bien, hoy he completado una buena jornada. Nobles, mantened esta unión, pues pronto recibiré la llamada del Redentor para redimirme de este mundo; y mi alma irá (más) en paz al cielo porque restablezco entre mis amigos la paz en la tierra. ¡Rivers y Hastings, daos la mano sin odio escondido, juraos vuestro amor!</p>
+</div><div class="sp " data-who="RIVERS">
+  <p class="spk ">
+    RIVERS
+  </p>
+  <p class="pr " id="l2-1-2"><a class="pn " href="#l2-1-2">2</a>¡Por el cielo que mi alma está purgada de odio rencoroso y mi mano sella el amor sincero de mi corazón!</p>
+</div><div class="sp " data-who="HASTINGS">
+  <p class="spk ">
+    HASTINGS
+  </p>
+  <p class="pr " id="l2-1-3"><a class="pn " href="#l2-1-3">3</a>¡Que sea yo tan afortunado como soy sincero al jurar lo mismo!</p>
+</div><div class="sp " data-who="REYEDUARDO">
+  <p class="spk ">
+    REY EDUARDO
+  </p>
+  <p class="pr " id="l2-1-4"><a class="pn " href="#l2-1-4">4</a>No finjáis ante vuestro rey, o el supremo Rey de reyes os condenaría a acabar el uno con el otro por vuestra encubierta falsedad.</p>
+</div><div class="sp " data-who="HASTINGS">
+  <p class="spk ">
+    HASTINGS
+  </p>
+  <p class="pr " id="l2-1-5"><a class="pn m5" href="#l2-1-5">5</a>¡Que sea yo tan próspero como perfecto es el amor que juro!</p>
+</div><div class="sp " data-who="RIVERS">
+  <p class="spk ">
+    RIVERS
+  </p>
+  <p class="pr " id="l2-1-6"><a class="pn " href="#l2-1-6">6</a>¡Y yo, pues amo a Hastings de todo corazón!</p>
+</div><div class="sp " data-who="REYEDUARDO">
+  <p class="spk ">
+    REY EDUARDO
+  </p>
+  <p class="pr " id="l2-1-7"><a class="pn " href="#l2-1-7">7</a>Señora, no sois una excepción, ni vos Dorset, ni vos Buckingham; habéis estado divididos. Esposa, amad a Hastings, dejad que os bese la mano; y lo que hagáis, hacedlo con honestidad.</p>
+</div><div class="sp " data-who="ISABEL">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l2-1-8"><a class="pn " href="#l2-1-8">8</a>Hastings, nunca más tendré presente nuestro pasado odio. Así lo queremos yo y los míos.</p>
+</div><div class="sp " data-who="REYEDUARDO">
+  <p class="spk ">
+    REY EDUARDO
+  </p>
+  <p class="pr " id="l2-1-9"><a class="pn " href="#l2-1-9">9</a>¡Dorset, abrazadle! ¡Hastings, amad a Dorset!</p>
+</div><div class="sp " data-who="DORSET">
+  <p class="spk ">
+    DORSET
+  </p>
+  <p class="pr " id="l2-1-10"><a class="pn m5" href="#l2-1-10">10</a>¡Juro ante todos que jamás violaré este intercambio de amor!</p>
+</div><div class="sp " data-who="HASTINGS">
+  <p class="spk ">
+    HASTINGS
+  </p>
+  <p class="pr " id="l2-1-11"><a class="pn " href="#l2-1-11">11</a>¡Así juro yo también!</p>
+</div><p class="sd " id="l2-1-11-sd1">(Se abrazan)</p><div class="sp " data-who="REYEDUARDO">
+  <p class="spk ">
+    REY EDUARDO
+  </p>
+  <p class="pr " id="l2-1-12"><a class="pn " href="#l2-1-12">12</a>Ahora, noble Buckingham, sella esta alianza con un abrazo a la familia de mi esposa y hacedme feliz con vuestra unión.</p>
+</div><div class="sp " data-who="BUCKINGHAM">
+  <p class="spk ">
+    BUCKINGHAM
+  </p>
+  <p class="pr " id="l2-1-13"><a class="pn " href="#l2-1-13">13</a>¡Si Buckingham mostrara odio contra vuestra gracia y no amor sumiso para protegeros, que Dios me castigue con el odio de quienes yo espere más amor! ¡Cuanto más necesite a un amigo y más seguro esté de él, que sea marrullero, falso y traidor conmigo! Eso le pido a Dios si mi amor por vosotros se enfría.</p>
+</div><p class="sd " id="l2-1-13-sd1">(Se abrazan)</p><div class="sp " data-who="REYEDUARDO">
+  <p class="spk ">
+    REY EDUARDO
+  </p>
+  <p class="pr " id="l2-1-14"><a class="pn " href="#l2-1-14">14</a>Noble Buckingham, grato y saludable es tu voto para mi enfermo corazón. Ahora quisiera tener aquí a mi hermano Glóster para poner final feliz a esta alianza.</p>
+</div><p class="sd " id="l2-1-14-sd1">[Entra RICARDO ( Y RATCLIFFE)]</p><div class="sp " data-who="BUCKINGHAM">
+  <p class="spk ">
+    BUCKINGHAM
+  </p>
+  <p class="pr " id="l2-1-15"><a class="pn m5" href="#l2-1-15">15</a>Y a tiempo entra (el noble Richard Ratcliffe y) el duque.</p>
+</div><div class="sp " data-who="RICARDO">
+  <p class="spk ">
+    RICARDO
+  </p>
+  <p class="pr " id="l2-1-16"><a class="pn " href="#l2-1-16">16</a>¡Buen día a mi rey y mi reina soberanos! ¡Nobles, feliz día!</p>
+</div><div class="sp " data-who="REYEDUARDO">
+  <p class="spk ">
+    REY EDUARDO
+  </p>
+  <p class="pr " id="l2-1-17"><a class="pn " href="#l2-1-17">17</a>En verdad que hemos gozado de un día feliz. Glóster, hemos consumado actos de caridad, convirtiendo en paz la enemistad y en amor el odio entre estos orgullosos nobles enfrentados por error.</p>
+</div><div class="sp " data-who="RICARDO">
+  <p class="spk ">
+    RICARDO
+  </p>
+  <p class="pr " id="l2-1-18"><a class="pn " href="#l2-1-18">18</a>¡Bendita labor, mi muy soberano señor! Si hay alguien entre estas nobles hordas que por un malentendido me tenga por enemigo; si yo, involuntariamente o en un momento de ofuscación, he cometido algún acto que pudiera ofender a los aquí presentes, deseo reconciliarme en amistosa paz. Prefiero la muerte a una odiosa enemistad, pues quiero el amor de todos los hombres de buena voluntad. Primero, señora, os pido la paz, que ganaré con sumiso servicio. ¡Y a vos, mi noble primo Buckingham, si alguna vez el rencor se instalara entre nosotros! ¡A vosotros, noble Rivers y noble Grey, quienes, sin yo merecerlo, torcisteis el gesto ante mí! ¡Duques, condes, nobles, caballeros, a todos vosotros! No hay inglés sobre la tierra con quien mi alma mantenga una pizca de enemistad, menos aún que un recién nacido. ¡Doy gracias a Dios por mi humildad!</p>
+</div><div class="sp " data-who="ISABEL">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l2-1-19"><a class="pn " href="#l2-1-19">19</a>¡Que desde hoy se celebre este día! Le pido a Dios que entierre todas nuestras rencillas. Majestad, os ruego ahora que acojáis en vuestra gracia a vuestro hermano Clarence.</p>
+</div><div class="sp " data-who="RICARDO">
+  <p class="spk ">
+    RICARDO
+  </p>
+  <p class="pr " id="l2-1-20"><a class="pn m5" href="#l2-1-20">20</a>¿Cómo, señora? ¿Os entrego mi amor para esto, para que os moféis de él en esta audiencia real? ¿Quién no sabe ya que el buen duque está muerto? ¡Le profanáis burlándoos de su cadáver?</p>
+</div><div class="sp " data-who="RIVERS">
+  <p class="spk ">
+    RIVERS
+  </p>
+  <p class="pr " id="l2-1-21"><a class="pn " href="#l2-1-21">21</a>¡Quién no sabe que está muerto! ¿Quién lo sabe?</p>
+</div><div class="sp " data-who="ISABEL">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l2-1-22"><a class="pn " href="#l2-1-22">22</a>¡Por Dios todopoderoso! ¿Qué mundo es éste?</p>
+</div><div class="sp " data-who="BUCKINGHAM">
+  <p class="spk ">
+    BUCKINGHAM
+  </p>
+  <p class="pr " id="l2-1-23"><a class="pn " href="#l2-1-23">23</a>¿Dorset, estoy yo tan pálido como los demás?</p>
+</div><div class="sp " data-who="DORSET">
+  <p class="spk ">
+    DORSET
+  </p>
+  <p class="pr " id="l2-1-24"><a class="pn " href="#l2-1-24">24</a>¡Sí, mi buen señor! Todos han perdido el color de sus mejillas.</p>
+</div><div class="sp " data-who="REYEDUARDO">
+  <p class="spk ">
+    REY EDUARDO
+  </p>
+  <p class="pr " id="l2-1-25"><a class="pn m5" href="#l2-1-25">25</a>¿Clarence muerto? Esa orden fue revocada.</p>
+</div><div class="sp " data-who="RICARDO">
+  <p class="spk ">
+    RICARDO
+  </p>
+  <p class="pr " id="l2-1-26"><a class="pn " href="#l2-1-26">26</a>Pero el desdichado murió por vuestra primera orden que llevó un alado Mercurio; un perezoso tullido llevó la contraorden a su entierro. Dios quiera que alguien menos real y menos leal, cercano a él en intenciones sanguinarias pero no en sangre, no corra peor suerte que el desdichado Clarence, aunque esté libre de sospecha.</p>
+</div><p class="sd " id="l2-1-26-sd1">(Entra STANLEY)</p><div class="sp " data-who="STANLEY">
+  <p class="spk ">
+    STANLEY
+  </p>
+  <p class="pr " id="l2-1-27"><a class="pn " href="#l2-1-27">27</a>¡Concededme una gracia, mi soberano, por los servicios prestados!</p>
+</div><div class="sp " data-who="REYEDUARDO">
+  <p class="spk ">
+    REY EDUARDO
+  </p>
+  <p class="pr " id="l2-1-28"><a class="pn " href="#l2-1-28">28</a>¡Déjame en paz; mi alma está afligida!</p>
+</div><div class="sp " data-who="STANLEY">
+  <p class="spk ">
+    STANLEY
+  </p>
+  <p class="pr " id="l2-1-29"><a class="pn " href="#l2-1-29">29</a>¡No me levantaré hasta que me escuche vuestra majestad!</p>
+</div><div class="sp " data-who="REYEDUARDO">
+  <p class="spk ">
+    REY EDUARDO
+  </p>
+  <p class="pr " id="l2-1-30"><a class="pn m5" href="#l2-1-30">30</a>¡Pues dime de una vez qué pides!</p>
+</div><div class="sp " data-who="STANLEY">
+  <p class="spk ">
+    STANLEY
+  </p>
+  <p class="pr " id="l2-1-31"><a class="pn " href="#l2-1-31">31</a>Un indulto, soberano, para la vida de mi siervo, que hoy asesinó a un escandaloso caballero ayudante del duque de Norfolk.</p>
+</div><div class="sp " data-who="REYEDUARDO">
+  <p class="spk ">
+    REY EDUARDO
+  </p>
+  <p class="pr " id="l2-1-32"><a class="pn " href="#l2-1-32">32</a>¿Tengo lengua para condenar a muerte a un hermano y perdonar la vida a un esclavo? Mi hermano no mató a nadie, sólo pecó de pensamiento, y aún así su castigo fue la amarga muerte. ¿Por qué nadie intercedió por él ante mí? ¿Por qué, ante mi rabia, nadie se arrodilló y me dio consejo? ¿Quién me habló de amor fraternal? ¿Quién me recordó que esa alma desdichada repudió al poderoso Warwick para combatir por mí; que me salvó en la batalla de Tewkesbury (cuando Oxford me tenía a su merced) y me dijo: &quot;Querido hermano, vivid y sed rey&quot;; (¿quién me dijo que, cuando los dos estábamos tumbados en el campo, casi muertos de frío,) que me abrigó con su ropa, quedándose él desnudo en una noche helada? Mi ira brutal me arrancó malévolamente esos recuerdos, y ninguno de vosotros me los quiso devolver. Pero cuando vuestros recaderos y asistentes cometen un asesinato de borrachos y desfiguran la preciosa imagen de nuestro querido Redentor, en seguida os ponéis de rodillas y rogáis: &quot;¡Perdón, perdón!&quot;. Y yo, injustamente, os lo he de conceder. ¡Nadie rogó por mi hermano! ¡Ni yo mismo, desgraciado, rogué ante mí por él, pobre desdichado! Hasta el más orgulloso de todos vosotros tenía algo que agradecerle en vida, pero ninguno pidió clemencia por esa vida. ¡Oh Dios, temo que tu justicia caiga sobre mí, y sobre vosotros, y sobre los míos y los vuestros! ¡Ven, Hastings, llévame a mis aposentos! ¡Ay, pobre Clarence!</p>
+</div><p class="sd " id="l2-1-32-sd1">(Salen todos excepto Ricardo y Buckingham.)</p><div class="sp " data-who="RICARDO">
+  <p class="spk ">
+    RICARDO
+  </p>
+  <p class="pr " id="l2-1-33"><a class="pn " href="#l2-1-33">33</a>He ahí el fruto de tanta precipitación. ¿Habéis visto lo pálida que se ha puesto esa culpable camada de la reina al conocer la muerte de Clarence? ¡Si suplicaron al rey para que lo hiciera! Dios le vengará. Vayamos a calmar a Eduardo con nuestra compañía.</p>
+</div>
+      </section>
+    
+  
+    
+      <section id="act-2-s2">
+        <h3 class="scene-head">
+          ESCENA II
+        </h3>
+        <p class="sd " id="l2-2-sd1">(Entran la vieja DUQUESA DE YORK, con los dos HIJOS de Clarence.</p><div class="sp " data-who="NIÑO">
+  <p class="spk ">
+    NIÑO
+  </p>
+  <p class="pr " id="l2-2-1"><a class="pn " href="#l2-2-1">1</a>Querida abuela, dinos, ¿está muerto nuestro padre?</p>
+</div><div class="sp " data-who="DUQUESA">
+  <p class="spk ">
+    DUQUESA
+  </p>
+  <p class="pr " id="l2-2-2"><a class="pn " href="#l2-2-2">2</a>No.</p>
+</div><div class="sp " data-who="NIÑA">
+  <p class="spk ">
+    NIÑA
+  </p>
+  <p class="pr " id="l2-2-3"><a class="pn " href="#l2-2-3">3</a>¿Y por qué lloras tanto, te golpeas el pecho, y gritas: “¡Oh, Clarence, mi desdichado hijo!”?</p>
+</div><div class="sp " data-who="NIÑO">
+  <p class="spk ">
+    NIÑO
+  </p>
+  <p class="pr " id="l2-2-4"><a class="pn " href="#l2-2-4">4</a>¿Por qué nos miras, mueves la cabeza y nos llamas huérfanos, infelices náufragos, si nuestro noble padre aún sigue vivo?</p>
+</div><div class="sp " data-who="DUQUESA">
+  <p class="spk ">
+    DUQUESA
+  </p>
+  <p class="pr " id="l2-2-5"><a class="pn m5" href="#l2-2-5">5</a>Mis dulces nietos, no me entendéis: lamento la enfermedad del rey, me angustia perderle, pero no su muerte. Lástima de dolor perdido por alguien que está perdido.</p>
+</div><div class="sp " data-who="NIÑO">
+  <p class="spk ">
+    NIÑO
+  </p>
+  <p class="pr " id="l2-2-6"><a class="pn " href="#l2-2-6">6</a>Entonces, abuela, acabas de decir que está muerto. Y mi tío, el rey, es el culpable. Incordiaré a Dios con mis sinceras oraciones para que se tome cumplida venganza.</p>
+</div><div class="sp " data-who="NIÑA">
+  <p class="spk ">
+    NIÑA
+  </p>
+  <p class="pr " id="l2-2-7"><a class="pn " href="#l2-2-7">7</a>Y yo también.</p>
+</div><div class="sp " data-who="DUQUESA">
+  <p class="spk ">
+    DUQUESA
+  </p>
+  <p class="pr " id="l2-2-8"><a class="pn " href="#l2-2-8">8</a>¡Calma, niños, calma! El rey os ama. Bisoños inocentes, no os podéis imaginar quién causó la muerte de vuestro padre.</p>
+</div><div class="sp " data-who="NIÑO">
+  <p class="spk ">
+    NIÑO
+  </p>
+  <p class="pr " id="l2-2-9"><a class="pn " href="#l2-2-9">9</a>Abuela, sí que podemos. Mi querido tío Ricardo me contó, entre sollozos, que el rey, inducido por la reina, tramó acusaciones para que le encarcelaran. Se apiadó de mí, me dió un beso, y me dijo que podía depender de él como de un padre, pues el me amaría como a un hijo.</p>
+</div><div class="sp " data-who="DUQUESA">
+  <p class="spk ">
+    DUQUESA
+  </p>
+  <p class="pr " id="l2-2-10"><a class="pn m5" href="#l2-2-10">10</a>¡Ay, que el engaño se apodere de una imagen tan gentil, y que el vicio se camufle con vestidos de virtud! ¡Es mi hijo, y por tanto mi vergüenza, aunque este engaño no lo mamó de mí!</p>
+</div><div class="sp " data-who="NIÑO">
+  <p class="spk ">
+    NIÑO
+  </p>
+  <p class="pr " id="l2-2-11"><a class="pn " href="#l2-2-11">11</a>¿Crees, abuela, que mi tío me engañó?</p>
+</div><div class="sp " data-who="DUQUESA">
+  <p class="spk ">
+    DUQUESA
+  </p>
+  <p class="pr " id="l2-2-12"><a class="pn " href="#l2-2-12">12</a>Sí.</p>
+</div><div class="sp " data-who="NIÑO">
+  <p class="spk ">
+    NIÑO
+  </p>
+  <p class="pr " id="l2-2-13"><a class="pn " href="#l2-2-13">13</a>No me lo puedo creer. ¡Escuchad! ¡Qué ruido es ése?)</p>
+</div><p class="sd " id="l2-2-13-sd1">(Entran la REINA ISABEL, RIVERS y DORSET)</p><div class="sp " data-who="ISABEL">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l2-2-14"><a class="pn " href="#l2-2-14">14</a>¡Ah! ¿Quién me impedirá que gima y llore, que lamente mi suerte, que me atormente? Me uniré a la negra desesperación contra mi alma, me convertiré en mi propia enemiga.</p>
+</div><div class="sp " data-who="DUQUESA">
+  <p class="spk ">
+    DUQUESA
+  </p>
+  <p class="pr " id="l2-2-15"><a class="pn m5" href="#l2-2-15">15</a>¿Que significa esta escena de brutal exasperación?</p>
+</div><div class="sp " data-who="ISABEL">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l2-2-16"><a class="pn " href="#l2-2-16">16</a>La representación de un acto de trágica violencia: Eduardo, mi señor, tu hijo, nuestro rey, ha muerto. ¿Cómo pueden crecer las ramas cuando se arranca la raíz? ¿Por qué no se secan las hojas que necesitan su savia? Seguir viva es un lamento, una muerte rápida hará que nuestras almas ligeras alcancen a la del rey o, por lo menos, la sigan como súbditos sumisos a su nuevo reino de la noche eterna.</p>
+</div><div class="sp " data-who="DUQUESA">
+  <p class="spk ">
+    DUQUESA
+  </p>
+  <p class="pr " id="l2-2-17"><a class="pn " href="#l2-2-17">17</a>¡Ay! Tengo derecho a compartir el dolor por tu noble esposo. Ya lloré la muerte de un valeroso marido y seguí viva mirando sus vivos retratos. Pero ahora dos espejos de semblante monárquico se han roto en pedazos (con una muerte maligna), y como consuelo sólo me queda un espejo engañoso que me aflige al reflejarse en él mi vergüenza. Eres viuda pero madre, y aún te queda el consuelo de los hijos. Pero a mí la muerte me arrebató el marido de las manos, y ahora me arranca las dos muletas sobre las que me apoyaba: Clarence y Eduardo. ¡Tengo derecho, al no llegar tu tristeza ni a la mitad de la mía, a superar tu angustia y ahogar tu llanto!</p>
+</div><div class="sp " data-who="NIÑO">
+  <p class="spk ">
+    NIÑO
+  </p>
+  <p class="pr " id="l2-2-18"><a class="pn " href="#l2-2-18">18</a>Tía, no lloraste la muerte de nuestro padre. ¿Cómo quieres que te asistamos con lágrimas de familia?</p>
+</div><div class="sp " data-who="NIÑA">
+  <p class="spk ">
+    NIÑA
+  </p>
+  <p class="pr " id="l2-2-19"><a class="pn " href="#l2-2-19">19</a>Nuestra tristeza huérfana dejaste sin condolencia, por lo que tu viudo dolor se queda sin nuestras lágrimas.)</p>
+</div><div class="sp " data-who="ISABEL">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l2-2-20"><a class="pn m5" href="#l2-2-20">20</a>¡No me ayudéis a sufrir, puedo parir mis propios lamentos! Las corrientes de todos los ríos fluyen en mis ojos y la luna creciente hace brotar suficientes lágrimas para ahogar al mundo. ¡Ay, mi marido, mi querido Eduardo, mi único apoyo se ha ido!</p>
+</div><div class="sp " data-who="DUQUESA">
+  <p class="spk ">
+    DUQUESA
+  </p>
+  <p class="pr " id="l2-2-21"><a class="pn " href="#l2-2-21">21</a>¡Ay, Clarence, ay, Eduardo, mis únicos apoyos se han ido!</p>
+</div><div class="sp " data-who="ISABEL">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l2-2-22"><a class="pn " href="#l2-2-22">22</a>¡Jamás sufrió viuda tan costosa pérdida!</p>
+</div><div class="sp " data-who="DUQUESA">
+  <p class="spk ">
+    DUQUESA
+  </p>
+  <p class="pr " id="l2-2-23"><a class="pn " href="#l2-2-23">23</a>¡Jamás sufrió madre tan costosa pérdida! Yo soy la madre de estas tristezas; su dolor está partido, el mío está entero. Llora por Eduardo, yo también; lloro por Clarence, ella no. (Estos niños lloran por Clarence, yo también; lloro por Eduardo, ellos no. Así que, los tres,) ¡Derrama tus lágrimas sobre mí! Soy la nodriza de tu dolor, y lo mimaré con mis lamentos.</p>
+</div><div class="sp " data-who="DORSET">
+  <p class="spk ">
+    DORSET
+  </p>
+  <p class="pr " id="l2-2-24"><a class="pn " href="#l2-2-24">24</a>¡Tranquilizaos, querida madre! Dios se enojará si no acatáis su voluntad con gratitud. En este mundo terrenal, es de ingratos saldar de mala gana la deuda que una mano generosa nos confía. Y más aún con el cielo, que os reclama el préstamo real que os hizo.</p>
+</div><div class="sp " data-who="RIVERS">
+  <p class="spk ">
+    RIVERS
+  </p>
+  <p class="pr " id="l2-2-25"><a class="pn m5" href="#l2-2-25">25</a>Señora, como buena y cautelosa madre debéis acordaros de vuestro hijo, el joven príncipe. ¡Mandad por él, que le coronen, ahí reside vuestro consuelo! ¡Ahogad ese lamento en la tumba de un Eduardo muerto y sembrad vuestra ilusión en el trono de un Eduardo vivo!</p>
+</div><p class="sd " id="l2-2-25-sd1">[Entran RICARDO, BUCKINGHAM, (STANLEY, RATCLIFFE) Y HASTINGS]</p><div class="sp " data-who="RICARDO">
+  <p class="spk ">
+    RICARDO
+  </p>
+  <p class="pr " id="l2-2-26"><a class="pn " href="#l2-2-26">26</a>Hermana, os acompaño en el sentimiento. Todos tenemos motivo para lamentar el eclipse de nuestro brillante sol pero nadie puede aliviar nuestra pena con quejidos. Señora madre, os ruego me disculpéis, no había reparado en vuestra presencia. Me arrodillo humildemente a pedir vuestra bendición.</p>
+</div><div class="sp " data-who="DUQUESA">
+  <p class="spk ">
+    DUQUESA
+  </p>
+  <p class="pr " id="l2-2-27"><a class="pn " href="#l2-2-27">27</a>Dios te bendiga con un corazón dócil, amoroso, caritativo, obediente y sinceramente sumiso.</p>
+</div><div class="sp " data-who="RICARDO">
+  <p class="spk ">
+    RICARDO
+  </p>
+  <p class="pr " id="l2-2-28"><a class="pn " href="#l2-2-28">28</a>Amén.<br><span class="sdi">(Se levanta; aparte)</span> y potente para morir de viejo, que es la coletilla en toda bendición de madre. ¿Por qué se la habrá comido?</p>
+</div><div class="sp " data-who="BUCKINGHAM">
+  <p class="spk ">
+    BUCKINGHAM
+  </p>
+  <p class="pr " id="l2-2-29"><a class="pn " href="#l2-2-29">29</a>Sombríos príncipes, descorazonados nobles que soportáis esta pesada carga común de tristeza, consolaos uno a otro con amor. Hemos agotado la cosecha de este rey; recojamos el fruto de su hijo. El rencor destructivo de nuestro inflamado odio, recién reventado, curado y cicatrizado, así se debe conservar, cuidar y mantener. Considero oportuno que un reducido séquito conduzca al joven príncipe (de Ludlow) hasta Londres para coronarle rey.</p>
+</div><div class="sp " data-who="RIVERS">
+  <p class="spk ">
+    RIVERS
+  </p>
+  <p class="pr " id="l2-2-30"><a class="pn m5" href="#l2-2-30">30</a>¿Por qué reducido, noble Buckingham?</p>
+</div><div class="sp " data-who="BUCKINGHAM">
+  <p class="spk ">
+    BUCKINGHAM
+  </p>
+  <p class="pr " id="l2-2-31"><a class="pn " href="#l2-2-31">31</a>Para evitar el peligro de que (con una multitud) la herida de rencor recién curada se abra sobre un pueblo inmaduro y falto de gobierno, y que cada caballo se haga con sus propias riendas y emprenda el camino que le plazca.</p>
+</div><div class="sp " data-who="RICARDO">
+  <p class="spk ">
+    RICARDO
+  </p>
+  <p class="pr " id="l2-2-32"><a class="pn " href="#l2-2-32">32</a>Espero que el rey haya hecho la paz con todos nosotros; para mí esa alianza es firme y sincera.</p>
+</div><div class="sp " data-who="RIVERS">
+  <p class="spk ">
+    RIVERS
+  </p>
+  <p class="pr " id="l2-2-33"><a class="pn " href="#l2-2-33">33</a>También lo es para mí, y creo que para todos. Pero como aún está muy tierna no debemos arriesgarnos a que rompa, lo cual sucedería con un séquito más amplio. Por tanto estoy de acuerdo con el noble Buckingham en que sólo unos pocos conduzcan al príncipe.</p>
+</div><div class="sp " data-who="HASTINGS">
+  <p class="spk ">
+    HASTINGS
+  </p>
+  <p class="pr " id="l2-2-34"><a class="pn " href="#l2-2-34">34</a>Y yo también.</p>
+</div><div class="sp " data-who="RICARDO">
+  <p class="spk ">
+    RICARDO
+  </p>
+  <p class="pr " id="l2-2-35"><a class="pn m5" href="#l2-2-35">35</a>¡Así sea! Decidamos ahora quién los recogerá (en Ludlow). Señora, hermana, ¿haréis los preparativos al respecto?</p>
+</div><div class="sp " data-who="ISABEL DUQUESA">
+  <p class="spk ">
+    ISABEL Y DUQUESA
+  </p>
+  <p class="pr " id="l2-2-36"><a class="pn " href="#l2-2-36">36</a>De todo corazón.</p>
+</div><p class="sd " id="l2-2-36-sd1">(Salen todos salvo Buckingham y Ricardo.)</p><div class="sp " data-who="BUCKINGHAM">
+  <p class="spk ">
+    BUCKINGHAM
+  </p>
+  <p class="pr " id="l2-2-37"><a class="pn " href="#l2-2-37">37</a>Mi señor, sea quien sea quien viaje con el príncipe, nosotros no debemos quedarnos en casa. Por el camino encontraré la ocasión para, como preludio a esta historia que estamos componiendo, arrebatarle el joven príncipe a la orgullosa camarilla de la reina.</p>
+</div><div class="sp " data-who="RICARDO">
+  <p class="spk ">
+    RICARDO
+  </p>
+  <p class="pr " id="l2-2-38"><a class="pn " href="#l2-2-38">38</a>Mi otro yo, mi concilio espiritual, mi oráculo, mi profeta, mi querido primo; yo, como niño que soy, me dejo conducir. ¡Vamos, que nos quedamos atrás!</p>
+</div>
+      </section>
+    
+  
+    
+      <section id="act-2-s3">
+        <h3 class="scene-head">
+          ESCENA III
+        </h3>
+        <p class="sd " id="l2-3-sd1">Entra un CIUDADANO por una puerta, y OTRO por la otra.</p><div class="sp " data-who="CIUDADANO1">
+  <p class="spk ">
+    CIUDADANO 1
+  </p>
+  <p class="pr " id="l2-3-1"><a class="pn " href="#l2-3-1">1</a>Buen día, vecino, ¿dónde vais tan deprisa?</p>
+</div><div class="sp " data-who="CIUDADANO2">
+  <p class="spk ">
+    CIUDADANO 2
+  </p>
+  <p class="pr " id="l2-3-2"><a class="pn " href="#l2-3-2">2</a>Os prometo que ni yo mismo lo sé. ¿Habéis oído la noticia?</p>
+</div><div class="sp " data-who="CIUDADANO1">
+  <p class="spk ">
+    CIUDADANO 1
+  </p>
+  <p class="pr " id="l2-3-3"><a class="pn " href="#l2-3-3">3</a>Sí, el rey ha muerto.</p>
+</div><div class="sp " data-who="CIUDADANO2">
+  <p class="spk ">
+    CIUDADANO 2
+  </p>
+  <p class="pr " id="l2-3-4"><a class="pn " href="#l2-3-4">4</a>¡Mala noticia, la virgen! Raras veces conduce a algo bueno. Temo que evidencie cuán inestable es este mundo.</p>
+</div><p class="sd " id="l2-3-4-sd1">(Entra otro CIUDADANO).</p><div class="sp " data-who="CIUDADANO3">
+  <p class="spk ">
+    CIUDADANO 3
+  </p>
+  <p class="pr " id="l2-3-5"><a class="pn m5" href="#l2-3-5">5</a>¡Vecinos, Dios os guarde!</p>
+</div><div class="sp " data-who="CIUDADANO1">
+  <p class="spk ">
+    CIUDADANO 1
+  </p>
+  <p class="pr " id="l2-3-6"><a class="pn " href="#l2-3-6">6</a>¡Y os dé un buen día a vos, señor!</p>
+</div><div class="sp " data-who="CIUDADANO3">
+  <p class="spk ">
+    CIUDADANO 3
+  </p>
+  <p class="pr " id="l2-3-7"><a class="pn " href="#l2-3-7">7</a>¿Es cierta la noticia de la muerte del buen rey Eduardo?</p>
+</div><div class="sp " data-who="CIUDADANO2">
+  <p class="spk ">
+    CIUDADANO 2
+  </p>
+  <p class="pr " id="l2-3-8"><a class="pn " href="#l2-3-8">8</a>¡Ay, señor, muy cierta, que Dios le asista!</p>
+</div><div class="sp " data-who="CIUDADANO3">
+  <p class="spk ">
+    CIUDADANO 3
+  </p>
+  <p class="pr " id="l2-3-9"><a class="pn " href="#l2-3-9">9</a>Entonces, señores, esperen encontrarse con un mundo de problemasa.</p>
+</div><div class="sp " data-who="CIUDADANO1">
+  <p class="spk ">
+    CIUDADANO 1
+  </p>
+  <p class="pr " id="l2-3-10"><a class="pn m5" href="#l2-3-10">10</a>¡No, no, por la gracia de Dios!; su hijo reinará.</p>
+</div><div class="sp " data-who="CIUDADANO3">
+  <p class="spk ">
+    CIUDADANO 3
+  </p>
+  <p class="pr " id="l2-3-11"><a class="pn " href="#l2-3-11">11</a>¡Pobre tierra aquella gobernada por un niño!</p>
+</div><div class="sp " data-who="CIUDADANO2">
+  <p class="spk ">
+    CIUDADANO 2
+  </p>
+  <p class="pr " id="l2-3-12"><a class="pn " href="#l2-3-12">12</a>En él se albergan esperanzas de gobierno, que ejercerá durante su minoría de edad un Consejo regente en su nombre. Cuando maduren sus años, sin duda gobernará bien.</p>
+</div><div class="sp " data-who="CIUDADANO1">
+  <p class="spk ">
+    CIUDADANO 1
+  </p>
+  <p class="pr " id="l2-3-13"><a class="pn " href="#l2-3-13">13</a>Así se mantuvo el estado cuando Enrique VI fue coronado en París a los nueve meses de edad.</p>
+</div><div class="sp " data-who="CIUDADANO3">
+  <p class="spk ">
+    CIUDADANO 3
+  </p>
+  <p class="pr " id="l2-3-14"><a class="pn " href="#l2-3-14">14</a>¿Así se mantuvo el estado? Sabe Dios que no, buenos amigos. Entonces estaba esta tierra dotada de un Consejo político serio. El rey tenía unos tíos virtuosos que le protegían.</p>
+</div><div class="sp " data-who="CIUDADANO1">
+  <p class="spk ">
+    CIUDADANO 1
+  </p>
+  <p class="pr " id="l2-3-15"><a class="pn m5" href="#l2-3-15">15</a>Como éste, tanto por parte del padre como de la madre.</p>
+</div><div class="sp " data-who="CIUDADANO3">
+  <p class="spk ">
+    CIUDADANO 3
+  </p>
+  <p class="pr " id="l2-3-16"><a class="pn " href="#l2-3-16">16</a>Mejor sería que fueran por parte del padre o todos, o ninguno, pues si Dios no lo impide, su ambición por ser los más cercanos nos va a afectar muy de cerca. Lleno de peligro está el duque de Gloster, altivos y orgullosos los hijos y hermanos de la reina. Y si en lugar de gobernar fueran gobernados, esta tierra enferma podría recuperar su salud anterior.</p>
+</div><div class="sp " data-who="CIUDADANO1">
+  <p class="spk ">
+    CIUDADANO 1
+  </p>
+  <p class="pr " id="l2-3-17"><a class="pn " href="#l2-3-17">17</a>Vamos, vamos, siempre nos tememos lo peor. Todo saldrá bien.</p>
+</div><div class="sp " data-who="CIUDADANO3">
+  <p class="spk ">
+    CIUDADANO 3
+  </p>
+  <p class="pr " id="l2-3-18"><a class="pn " href="#l2-3-18">18</a>Cuando se ven nubes, los hombres sabios se abrigan; cuando caen las hojas, el invierno está al caer; cuando se pone el sol, ¿quién no espera la noche? Las tormentas a destiempo anuncian tiempos de penuria. Todo podría salir bien, pero si Dios así lo quiere será más de lo que merecemos. Eso pienso yo.</p>
+</div><div class="sp " data-who="CIUDADANO2">
+  <p class="spk ">
+    CIUDADANO 2
+  </p>
+  <p class="pr " id="l2-3-19"><a class="pn " href="#l2-3-19">19</a>La verdad es que los corazones de los hombres rebosan temor. Es casi imposible encontrar a alguien sin una mirada llena de tristeza y pavor.</p>
+</div><div class="sp " data-who="CIUDADANO3">
+  <p class="spk ">
+    CIUDADANO 3
+  </p>
+  <p class="pr " id="l2-3-20"><a class="pn m5" href="#l2-3-20">20</a>Antes de las épocas de cambio esto siempre es así. Por un instinto divino la mente del hombre desconfía del peligro inmediato, y como prueba basta ver como se hincha el agua antes de una gran tormenta. Pero que sea lo que Dios quiera. ¿Adónde vais?</p>
+</div><div class="sp " data-who="CIUDADANO2">
+  <p class="spk ">
+    CIUDADANO 2
+  </p>
+  <p class="pr " id="l2-3-21"><a class="pn " href="#l2-3-21">21</a>Nos han mandado llamar desde los tribunales.</p>
+</div><div class="sp " data-who="CIUDADANO3">
+  <p class="spk ">
+    CIUDADANO 3
+  </p>
+  <p class="pr " id="l2-3-22"><a class="pn " href="#l2-3-22">22</a>A mí también. Os acompañaré.)</p>
+</div>
+      </section>
+    
+  
+    
+      <section id="act-2-s4">
+        <h3 class="scene-head">
+          ESCENA IV
+        </h3>
+        <p class="sd " id="l2-4-sd1">(Entran el ARZOBISPO DE YORK, el joven DUQUE DE YORK, la REINA ISABEL y la DUQUESA DE YORK.)</p><div class="sp " data-who="ARZOBISPO">
+  <p class="spk ">
+    ARZOBISPO
+  </p>
+  <p class="pr " id="l2-4-1"><a class="pn " href="#l2-4-1">1</a>Tengo noticias de que anoche durmieron en Stratford, esta noche en Northampton y mañana o pasado estarán aquí.</p>
+</div><div class="sp " data-who="DUQUESA">
+  <p class="spk ">
+    DUQUESA
+  </p>
+  <p class="pr " id="l2-4-2"><a class="pn " href="#l2-4-2">2</a>Ansío ver al príncipe de todo corazón; supongo que habrá crecido mucho desde la última vez que le vi.</p>
+</div><div class="sp " data-who="ISABEL">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l2-4-3"><a class="pn " href="#l2-4-3">3</a>Pues yo he oído que no: dicen que mi hijito York casi le supera en altura.</p>
+</div><div class="sp " data-who="YORK">
+  <p class="spk ">
+    YORK
+  </p>
+  <p class="pr " id="l2-4-4"><a class="pn " href="#l2-4-4">4</a>¡Ay, madre, espero que no!</p>
+</div><div class="sp " data-who="DUQUESA">
+  <p class="spk ">
+    DUQUESA
+  </p>
+  <p class="pr " id="l2-4-5"><a class="pn m5" href="#l2-4-5">5</a>¿Por qué, querido nieto? Es sano crecer.</p>
+</div><div class="sp " data-who="YORK">
+  <p class="spk ">
+    YORK
+  </p>
+  <p class="pr " id="l2-4-6"><a class="pn " href="#l2-4-6">6</a>Abuela, el tío Rivers comentó, una noche cenando, que yo era más alto que mi hermano, y el tío Glóster dijo: &quot;La hierba corta es muy bonita; la mala hierba crece deprisa.&quot; Y desde entonces yo no quiero crecer más, porque las flores bonitas tardan en salir pero la mala hierba lo hace rápido.</p>
+</div><div class="sp " data-who="DUQUESA">
+  <p class="spk ">
+    DUQUESA
+  </p>
+  <p class="pr " id="l2-4-7"><a class="pn " href="#l2-4-7">7</a>¡Vamos, vamos! Ese proverbio que te aplica no vale ni para él. ¡De pequeño era la cosa más repugnante! Y tardó tanto en crecer, que si el dicho fuera cierto ahora sería un dechado de virtudes.</p>
+</div><div class="sp " data-who="ARZOBISPO">
+  <p class="spk ">
+    ARZOBISPO
+  </p>
+  <p class="pr " id="l2-4-8"><a class="pn " href="#l2-4-8">8</a>Y lo es, sin duda, mi noble señora.</p>
+</div><div class="sp " data-who="DUQUESA">
+  <p class="spk ">
+    DUQUESA
+  </p>
+  <p class="pr " id="l2-4-9"><a class="pn " href="#l2-4-9">9</a>¡Ojalá lo fuera! Pero dejad que su propia madre sí lo dude.</p>
+</div><div class="sp " data-who="YORK">
+  <p class="spk ">
+    YORK
+  </p>
+  <p class="pr " id="l2-4-10"><a class="pn m5" href="#l2-4-10">10</a>Si lo hubiese sabido, me habría burlado de sus virtudes y me habría reído más alto que él.</p>
+</div><div class="sp " data-who="DUQUESA">
+  <p class="spk ">
+    DUQUESA
+  </p>
+  <p class="pr " id="l2-4-11"><a class="pn " href="#l2-4-11">11</a>¿Cómo, jovencito? Te quiero oír.</p>
+</div><div class="sp " data-who="YORK">
+  <p class="spk ">
+    YORK
+  </p>
+  <p class="pr " id="l2-4-12"><a class="pn " href="#l2-4-12">12</a>Dicen que a mi tío le salieron los dientes tan rápido que a las dos horas de nacer se lió a bocados con un mendrugo de pan. ¡Y yo tardé dos años en tener un solo diente! ¡Ese sí que habría sido un chiste muy mordaz!</p>
+</div><div class="sp " data-who="DUQUESA">
+  <p class="spk ">
+    DUQUESA
+  </p>
+  <p class="pr " id="l2-4-13"><a class="pn " href="#l2-4-13">13</a>¿Y eso quién te lo ha contado?</p>
+</div><div class="sp " data-who="YORK">
+  <p class="spk ">
+    YORK
+  </p>
+  <p class="pr " id="l2-4-14"><a class="pn " href="#l2-4-14">14</a>Su nodriza.</p>
+</div><div class="sp " data-who="DUQUESA">
+  <p class="spk ">
+    DUQUESA
+  </p>
+  <p class="pr " id="l2-4-15"><a class="pn m5" href="#l2-4-15">15</a>¿Su nodriza? ¡No puede ser! Si murió antes de que tú nacieras.</p>
+</div><div class="sp " data-who="YORK">
+  <p class="spk ">
+    YORK
+  </p>
+  <p class="pr " id="l2-4-16"><a class="pn " href="#l2-4-16">16</a>Pues si no fue su nodriza, no caigo en quién lo dijo.</p>
+</div><div class="sp " data-who="ISABEL">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l2-4-17"><a class="pn " href="#l2-4-17">17</a>Eres demasiado incisivo y travieso.</p>
+</div><div class="sp " data-who="DUQUESA">
+  <p class="spk ">
+    DUQUESA
+  </p>
+  <p class="pr " id="l2-4-18"><a class="pn " href="#l2-4-18">18</a>No le riñáis.</p>
+</div><div class="sp " data-who="ISABEL">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l2-4-19"><a class="pn " href="#l2-4-19">19</a>¡Las paredes oyen!</p>
+</div><p class="sd " id="l2-4-19-sd1">(Entra un MENSAJERO.)</p><div class="sp " data-who="ARZOBISPO">
+  <p class="spk ">
+    ARZOBISPO
+  </p>
+  <p class="pr " id="l2-4-20"><a class="pn m5" href="#l2-4-20">20</a>Aquí llega un mensajero. ¿Qué noticias traes?</p>
+</div><div class="sp " data-who="MENS">
+  <p class="spk ">
+    MENSAJERO
+  </p>
+  <p class="pr " id="l2-4-21"><a class="pn " href="#l2-4-21">21</a>Noticias que lamento tener que contar, mi señor.</p>
+</div><div class="sp " data-who="ISABEL">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l2-4-22"><a class="pn " href="#l2-4-22">22</a>¿Cómo está el príncipe?</p>
+</div><div class="sp " data-who="MENS">
+  <p class="spk ">
+    MENSAJERO
+  </p>
+  <p class="pr " id="l2-4-23"><a class="pn " href="#l2-4-23">23</a>Está bien, señora, goza de buena salud.</p>
+</div><div class="sp " data-who="DUQUESA">
+  <p class="spk ">
+    DUQUESA
+  </p>
+  <p class="pr " id="l2-4-24"><a class="pn " href="#l2-4-24">24</a>¿Cuáles son tus noticias entonces?</p>
+</div><div class="sp " data-who="MENS">
+  <p class="spk ">
+    MENSAJERO
+  </p>
+  <p class="pr " id="l2-4-25"><a class="pn m5" href="#l2-4-25">25</a>Los nobles Rivers y Grey (y Vaughan) han sido detenidos y llevados a la prisión de Pomfret.</p>
+</div><div class="sp " data-who="DUQUESA">
+  <p class="spk ">
+    DUQUESA
+  </p>
+  <p class="pr " id="l2-4-26"><a class="pn " href="#l2-4-26">26</a>¿Quién dio la orden?</p>
+</div><div class="sp " data-who="MENS">
+  <p class="spk ">
+    MENSAJERO
+  </p>
+  <p class="pr " id="l2-4-27"><a class="pn " href="#l2-4-27">27</a>Los poderosos duques Glóster y Buckingham.</p>
+</div><div class="sp " data-who="ARZOBISPO">
+  <p class="spk ">
+    ARZOBISPO
+  </p>
+  <p class="pr " id="l2-4-28"><a class="pn " href="#l2-4-28">28</a>¿De qué les acusan?</p>
+</div><div class="sp " data-who="MENS">
+  <p class="spk ">
+    MENSAJERO
+  </p>
+  <p class="pr " id="l2-4-29"><a class="pn " href="#l2-4-29">29</a>Os he informado de cuanto sé; desconozco el motivo de su arresto, mi señor.</p>
+</div><div class="sp " data-who="ISABEL">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l2-4-30"><a class="pn m5" href="#l2-4-30">30</a>¡Ay de mí! Presagio la destrucción de mi casa. Ahora el tigre ha cazado al tierno cervatillo. Su insultante tiranía se cierne sobre un trono ingenuo e impotente. ¡Bienvenidas destrucción, sangre y masacre! Ya distingo claramente el final de todo.</p>
+</div><div class="sp " data-who="DUQUESA">
+  <p class="spk ">
+    DUQUESA
+  </p>
+  <p class="pr " id="l2-4-31"><a class="pn " href="#l2-4-31">31</a>¡Malditos días de agitación y enfrentamiento! ¿Cuántos han pasado ya ante estos ojos? Mi marido perdió la vida por ganar la corona, y mis hijos dieron tumbos de aquí para allá mientras yo reía y lloraba sus éxitos y fracasos. Y una vez alcanzada una sonada victoria en la guerra civil, los vencedores se enzarzan, hermano contra hermano, sangre contra sangre, cada uno contra sí. ¡Oh furia subversiva y frenética, acaba con este odio maldito, o acaba conmigo para no ver más muertes!</p>
+</div><div class="sp " data-who="ISABEL">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l2-4-32"><a class="pn " href="#l2-4-32">32</a>¡Ven, hijo mío! Me refugiaré en el santuario. Adiós, señora.</p>
+</div><div class="sp " data-who="DUQUESA">
+  <p class="spk ">
+    DUQUESA
+  </p>
+  <p class="pr " id="l2-4-33"><a class="pn " href="#l2-4-33">33</a>¡Esperad, os acompaño!</p>
+</div><div class="sp " data-who="ISABEL">
+  <p class="spk ">
+    ISABEL
+  </p>
+  <p class="pr " id="l2-4-34"><a class="pn " href="#l2-4-34">34</a>No tenéis necesidad.</p>
+</div><div class="sp " data-who="ARZOBISPO">
+  <p class="spk ">
+    ARZOBISPO
+  </p>
+  <p class="pr " id="l2-4-35"><a class="pn m5" href="#l2-4-35">35</a>¡Id, señora! Y llevaos vuestros bienes. Por lo que a mí respecta, os hago entrega del Gran Sello de Inglaterra que el rey Eduardo IV me confió. ¡Que mi destino sea acorde con el afecto que os guardo! Yo os guiaré al santuario.</p>
+</div>
+      </section>
+    
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-1.html" rel="prev">← ACTO I</a>
+  <a href="act-3.html" rel="next">ACTO III →</a>
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      <p>
+        Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0)
+
+  <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es">https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es</a>
+
+      </p>
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

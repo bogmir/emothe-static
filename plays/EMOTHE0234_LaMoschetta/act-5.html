@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Atto quarto — La Moschetta — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">Interlocutore</a></li>
+      
+  
+    
+        <li>
+          <a href="act-1.html">
+            PROLOGO
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html">
+            Atto primo
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            Atto secondo
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-4.html">
+            Atto terzo
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-5.html" aria-current="page">
+            Atto quarto
+          </a>
+          <ul>
+            <li>
+              
+                  <a href="act-5.html#act-5-s1">
+                    Scena prima
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-5.html#act-5-s2">
+                    Scena seconda
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-5.html#act-5-s3">
+                    Scena terza
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-5.html#act-5-s4">
+                    Scena quarta
+                  </a>
+              
+            </li>
+          </ul>
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-6.html">
+            Atto quinto
+          </a>
+          
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="index.html#bibliography"><x-es>Bibliografía</x-es><x-en>Bibliography</x-en></a>
+  </li>
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="MENATO">
+        Menato
+      </option><option value="BETTIA">
+        Betía
+      </option><option value="TONIN">
+        Tonin
+      </option><option value="RUZANTE">
+        Ruzante
+      </option><option value="DONNA">
+        Donna
+      </option><option value="PROLOGO">
+        [Un villano, che dice il prologo]
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">Ruzzante (Angelo Beolco)</p>
+  <h1><a href="index.html">La Moschetta</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-4.html" rel="prev">← Atto terzo</a>
+  <a href="act-6.html" rel="next">Atto quinto →</a>
+</nav>
+  <div class="text" lang="it" data-cite="Ruzzante (Angelo Beolco), La Moschetta, Atto quarto" data-cite-verse="int." data-cite-prose="int.">
+    
+    <section class="division" id="act-5">
+  <h2 class="act-head">
+    Atto quarto
+  </h2>
+  
+  
+  
+    
+      <section id="act-5-s1">
+        <h3 class="scene-head">
+          Scena prima
+        </h3>
+        <p class="sd " id="l266-sd1">Tonin solo</p><div class="sp " data-who="TONIN">
+  <p class="spk ">
+    Tonin
+  </p>
+  <p class="pr " id="l267"><a class="pn " href="#l267">267</a>Bergamaschi, ah? A&#39; so&#39; soldat, e sí so&#39; bergamasch, e u vilà traditor a&#39; &#39;m ghe volea fà stà. I bergmamaschi ha bé gross ol co, ma i ha un inzegn che &#39;s fica per ogni bus. Mi, an? Chi diavol saref stà quel, oter che u bergamasch, che se avess saput governà sí bé com ho fat mi? E ho &#39;but i me daner, che m&#39;avea fat trà quel vilà, e sí averò ach la fomna: no passerà trop.<br>Un oter aref volut sbraossà, fà costiò, dà dei frîdi, cortleadi, stocadi, ponti, straponti; e mi so&#39; andat col formai piasentí, tat ch&#39;ho abut i daner; e po a&#39; &#39;m vòi conzà l&#39;ordegn co essa dona Betía, che staghi atenta, che la prima fiada che Ruzant vaghi fo&#39; de cà, ch&#39;a&#39; &#39;m vaghi in casa da lé; e che s&#39;a&#39; no arò otramet mud, che la farà fos che sta sira so compader el condurà fo&#39; de casa... E mi, deter.<br>La saraf bé restada volentera con mi in casa e vegnuda in camp; ma no &#39;m vòi menà drè sti banderi, sti lanzi spezadi...<br>A&#39; no possi stà in la pel d&#39;alegreza, quand a&#39; &#39;m recordi a che mud a&#39; m&#39;ho fat dà i daner de subit.</p>
+</div>
+      </section>
+    
+  
+    
+      <section id="act-5-s2">
+        <h3 class="scene-head">
+          Scena seconda
+        </h3>
+        <p class="sd " id="l267-sd1">Ruzante solo</p><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l268"><a class="pn " href="#l268">268</a>L&#39;è forza, a&#39; no posso pí sofrire: a&#39; son tanto braoso, tanto anemoso, ch&#39;a&#39; no me posso tegnire de no far costion. A&#39; son stò impolò in le arme: quando me pare e me mare m&#39;inzenerà, i gh&#39;aéa una corazina indosso e una spagnuola al lò. El besogna che la natura faghe el so inderto e la so fiereza. A&#39; son uso a far costion co questo e co st&#39;altro, che quando a&#39; no he co chi vegnire ale man, a&#39; vegniré con mi stesso.<br>A&#39; vuò andar a catar sto soldò per dir-ghe che, putana do&#39; &#39;l vene ancuò, che qui dinari che gh&#39;ha dò me compare, è miè&#39;, e che me compare n&#39;ha a dare via i miè&#39; dinari, e che a&#39; i vuò. «O frêlo – dirà-lo – el no se vuò far cossí, el no se fa gnan ben». Ah, putana del cancaro, ch&#39;a&#39; te vuò magnare del cuore, poltron, can, apicò! E dare, e spessegare... L&#39;arà tanta paura, che &#39;l cagherà dapertuto, e sí me darà agno cossa. E mi a&#39; scaperé su.<br>Cancaro, la sarà bela a guagnar dinari senza laorare, con braosarí. E se me compare s&#39;imbatesse a vegnire, a&#39; diré che faghe custion perché el fo elo che me fé arsaltare ai suò&#39; compagni, e che &#39;l me tosse la gonela e la bereta; ch&#39;a&#39; no vuò dire ch&#39;a&#39; faghe costion per i dinari.<br>Che dego-gi fare? Andare a sbatere al so usso? O dego-gi andar spassezanto? S&#39;a&#39; vago a sbatere, el porae saltar fuora che no me n&#39;avederae, e darme de drio via. S&#39;a&#39; vago sgrandezando chí denanzo vio, el porae trarme de qualche balestra in coste.<br>A&#39; vuogio anare a sbatere: a&#39; son valent&#39;omo. On&#39; si&#39;-tu, poltron? Portame i miè&#39; dinari, se no ch&#39;a&#39; te i faré cagare per gi uogi via! Vie&#39; fuora, vie&#39; fuora, ch&#39;a&#39; te vuò far vêre che te n&#39;iè bon per mi. A&#39; te vuò magnare el cuore e desfrizere dela coraela, e darla ai can, e desfrizere del figò, a muò scardoa, sula grêla... Vie&#39; fuora, poltron!</p>
+</div>
+      </section>
+    
+  
+    
+      <section id="act-5-s3">
+        <h3 class="scene-head">
+          Scena terza
+        </h3>
+        <p class="sd " id="l268-sd1">Tonin e Ruzante</p><div class="sp " data-who="TONIN">
+  <p class="spk ">
+    Tonin
+  </p>
+  <p class="pr " id="l269"><a class="pn " href="#l269">269</a>A chi dit, fradel?</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l270"><a class="pn m5" href="#l270">270</a>A chi dighe? Te &#39;l saerè, s&#39;te vien zó; ch&#39;a&#39; faré che le to spale sonerà ale de cantaon!</p>
+</div><div class="sp " data-who="TONIN">
+  <p class="spk ">
+    Tonin
+  </p>
+  <p class="pr " id="l271"><a class="pn " href="#l271">271</a>A mi? Per che rason?</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l272"><a class="pn " href="#l272">272</a>Vie&#39; zó, ch&#39;a&#39; te &#39;l dirè, che te &#39;l saverè. Arecòrdate che, per la putana don&#39; vini ancuò, che qui dinari è miè&#39;, ch&#39;a&#39; i vuò, s&#39;a&#39; t&#39;i diesse far butar fuora per gi uogi via.</p>
+</div><div class="sp " data-who="TONIN">
+  <p class="spk ">
+    Tonin
+  </p>
+  <p class="pr " id="l273"><a class="pn " href="#l273">273</a>Aldi, fradel, guarda s&#39;te &#39;gh n&#39;hê plú, a quel cont, da farmi dà. El m&#39;ha bé dat u cornaciò fals, ch&#39;a&#39; vorò che &#39;l m&#39;ol scambi.</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l274"><a class="pn " href="#l274">274</a>Deh, pota de chi te fé, dasché te me truogni ancora. Che se bute zó st&#39;usso, a&#39; te vegniré a mazare inchina drio l&#39;altaro. Crezi che te l&#39;hê indivinò, che ti è in cà de muro; che s&#39;te foessi cossí in cà de pagia, a&#39; sbregherae i canolò, ch&#39;a&#39; sonerae na spingarda, ch&#39;a&#39; te vegnirae a mazare inchina in leto, ti e tuò&#39; figiuoli, co tuto.</p>
+</div><div class="sp " data-who="TONIN">
+  <p class="spk ">
+    Tonin
+  </p>
+  <p class="pr " id="l275"><a class="pn m5" href="#l275">275</a>Tas, pover&#39;om, che s&#39;tu me vedess col stoch i&#39; mà, tu voltaress i spali a la prima.</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l276"><a class="pn " href="#l276">276</a>Ti? ti? te sarissi bon, ti, a pénzerme zó del truozo? Te no sarissi gnan bon a guardarme quanto te vorissi. Putana del cancaro, se poesse vegnire...</p>
+</div><div class="sp " data-who="TONIN">
+  <p class="spk ">
+    Tonin
+  </p>
+  <p class="pr " id="l277"><a class="pn " href="#l277">277</a>Quant a&#39; so&#39; armat e che &#39;m guardi ind&#39;ol speč, la mia figura e&#39; &#39;m fa paura a mi. Guarda co&#39; &#39;t farís ti! Và con Dè, pover&#39;om...</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l278"><a class="pn " href="#l278">278</a>Mo&#39; vie&#39; zó, ti e du altri, ti e tri, ti e diese, ti e to mogiere e tuò&#39; figiuoli, ti e la cà co tuto, ch&#39;a&#39; no me muoveré de peca. E sí, a&#39; te &#39;l faré vêre inchina in Franza, al sangue del cancaro! Ti ti me faressi paura? Ti a mi? Mo&#39; a&#39; te perdono, che te n&#39;hê mè vezú un om inzeregò e scorozò. Mo&#39; vie&#39; fuora. A&#39; no te vuò lomé polir la schina co st&#39;asta. Sí, ala fé, crí-tu che supia scorozò? Mè sí, a&#39; no te sarae gnan menare... Mo&#39; tuò che arme che te vuò, e vie&#39; fuora.</p>
+</div><div class="sp " data-who="TONIN">
+  <p class="spk ">
+    Tonin
+  </p>
+  <p class="pr " id="l279"><a class="pn " href="#l279">279</a>Quand tu sarè un om d&#39;armi in su caval com&#39;a son mi e che tu &#39;m domandi a combater, a&#39; &#39;gh vegnirò.</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l280"><a class="pn m5" href="#l280">280</a>Al sangue del cancaro, a&#39; son stò miegio soldò che ti n&#39;iè ti, che son stò cao de soldò de squara, ch&#39;aéa diese barele soto de mi; che te no ghe n&#39;hê mè &#39;bú tante, ti. E sí a&#39; son de maor parentò ch&#39;a&#39; ti n&#39;iè ti, che i miè&#39; n&#39;ha mè portò le çeste, co&#39; t&#39;hê fato ti. E sí a&#39; zugarae che ti no sè on&#39; ti è nassú, e chi è to pare; e sí ti no &#39;l sè, e sí ti vuossi dire de parentò.</p>
+</div><div class="sp " data-who="TONIN">
+  <p class="spk ">
+    Tonin
+  </p>
+  <p class="pr " id="l281"><a class="pn " href="#l281">281</a>Tas, contra la fé, martorel, trentacosti, batezat al&#39;albuol d&#39;i porz!</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l282"><a class="pn " href="#l282">282</a>Te m&#39;hê dito porco? Mo&#39; a&#39; me l&#39;arecordaré; che te no sarè d&#39;agn&#39;ora in cà de muro, ch&#39;a&#39; te faré pí menú che no fo mè ravazolo pesto. A&#39; te faré vêre che sto sponton ha buon mànego e miegio soramànego.</p>
+</div><div class="sp " data-who="TONIN">
+  <p class="spk ">
+    Tonin
+  </p>
+  <p class="pr " id="l283"><a class="pn " href="#l283">283</a>Te no m&#39;aspetarè po, s&#39;a&#39; &#39;n vegni po.</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l284"><a class="pn " href="#l284">284</a>A&#39; te vuò pagare la colazion, e vie&#39; via.</p>
+</div><div class="sp " data-who="TONIN">
+  <p class="spk ">
+    Tonin
+  </p>
+  <p class="pr " id="l285"><a class="pn m5" href="#l285">285</a>Se ti è om da bé, no &#39;t partí fiché no vegni.</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l286"><a class="pn " href="#l286">286</a>Vie&#39; via. Inchina da mo&#39; a&#39; no me partiré. A&#39; me vuò tirare indrío, che gh&#39;in vuò dare tante... A&#39; vorae ben vontiera che &#39;l ghe foesse qualcun che stramezasse, ch&#39;a&#39; no vorae ch&#39;a&#39; s&#39;amazèssano. A&#39; vuò fare bon anemo. E pí ca morire una fiè... Vien-tu? Ti è tornò al balcon? Te no vien? Mo&#39; crezi che te l&#39;hê indivinò. Agno muò&#39;, te la può slongare, ma no fuzire.</p>
+</div><div class="sp " data-who="TONIN">
+  <p class="spk ">
+    Tonin
+  </p>
+  <p class="pr " id="l287"><a class="pn " href="#l287">287</a>A&#39; no &#39;m vòi insanguanà i mà in sango de vilà traditor.</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l288"><a class="pn " href="#l288">288</a>Vilan mi? Deh, pota del cancaro, che no sbateré zó st&#39;usso?</p>
+</div><div class="sp " data-who="TONIN">
+  <p class="spk ">
+    Tonin
+  </p>
+  <p class="pr " id="l289"><a class="pn " href="#l289">289</a>Chasí, s&#39;ti sbreghi, ch&#39;a&#39; &#39;t darò d&#39;ol pà de Sa Stefen per ados!</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l290"><a class="pn m5" href="#l290">290</a>Doh, megiolaro, no trar prí.</p>
+</div><div class="sp " data-who="TONIN">
+  <p class="spk ">
+    Tonin
+  </p>
+  <p class="pr " id="l291"><a class="pn " href="#l291">291</a>Doh, vilà, no scarpà lí.</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l292"><a class="pn " href="#l292">292</a>Doh, megiolaro, no trar prí.</p>
+</div><div class="sp " data-who="TONIN">
+  <p class="spk ">
+    Tonin
+  </p>
+  <p class="pr " id="l293"><a class="pn " href="#l293">293</a>Doh, vilà, no scarpà lí.</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l294"><a class="pn " href="#l294">294</a>S&#39;te trê prí...</p>
+</div><div class="sp " data-who="TONIN">
+  <p class="spk ">
+    Tonin
+  </p>
+  <p class="pr " id="l295"><a class="pn m5" href="#l295">295</a>S&#39;te scarpi lí...</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l296"><a class="pn " href="#l296">296</a>Chesí, se &#39;l no me vie&#39; a manco le prí, ch&#39;a&#39; te sborirè de lí. Perché t&#39;è soldò?</p>
+</div><div class="sp " data-who="TONIN">
+  <p class="spk ">
+    Tonin
+  </p>
+  <p class="pr " id="l297"><a class="pn " href="#l297">297</a>Chasí, s&#39;a&#39; &#39;l no &#39;m ve&#39; a manch i sass, ch&#39;a&#39; &#39;t cazerò i pedoč del co.</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l298"><a class="pn " href="#l298">298</a>Orsú, a&#39; no me vuò gnan fare smatare. A&#39; vuò aére pí çelibrio che te n&#39;hê ti. Mo&#39; agno muò&#39; a&#39; te farè, s&#39;a&#39; no guardasse per altri ca per ti...</p>
+</div><div class="sp " data-who="TONIN">
+  <p class="spk ">
+    Tonin
+  </p>
+  <p class="pr " id="l299"><a class="pn " href="#l299">299</a>Te &#39;m guardi ale mà?</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l300"><a class="pn m5" href="#l300">300</a>Ale tuò man mi? Chi m&#39;arae tegnú ch&#39;a&#39; n&#39;aesse sbregò?</p>
+</div><div class="sp " data-who="TONIN">
+  <p class="spk ">
+    Tonin
+  </p>
+  <p class="pr " id="l301"><a class="pn " href="#l301">301</a>Chi m&#39;araf devedat ch&#39;a&#39; no t&#39;avess dat sul co?</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l302"><a class="pn " href="#l302">302</a>Arecòrdate che te m&#39;hê dito porco.</p>
+</div><div class="sp " data-who="TONIN">
+  <p class="spk ">
+    Tonin
+  </p>
+  <p class="pr " id="l303"><a class="pn " href="#l303">303</a>Arecòrdete &#39;l pur ti.</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l304"><a class="pn " href="#l304">304</a>A&#39; me l&#39;arecorderé. Mo&#39; ví, no me far pregare ch&#39;a&#39; faghe la pase, né de guera. Crezi ch&#39;a&#39; &#39;l m&#39;è montò la zamara, ch&#39;a&#39; no farae pase co Rolando.</p>
+</div><div class="sp " data-who="TONIN">
+  <p class="spk ">
+    Tonin
+  </p>
+  <p class="pr " id="l305"><a class="pn m5" href="#l305">305</a>Và con Dè, và co&#39; andé ol pret de Marà. A&#39; vòi dà met s&#39;a&#39; &#39;l se tol vai da cà, ch&#39;a&#39; &#39;m vòi andà in cà dala fomna.</p>
+</div>
+      </section>
+    
+  
+    
+      <section id="act-5-s4">
+        <h3 class="scene-head">
+          Scena quarta
+        </h3>
+        <p class="sd " id="l305-sd1">Ruzante e Menato</p><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l306"><a class="pn " href="#l306">306</a>Né pase né gnente! El m&#39;ha dito porco.</p>
+</div><div class="sp " data-who="MENATO">
+  <p class="spk ">
+    Menato
+  </p>
+  <p class="pr " id="l307"><a class="pn " href="#l307">307</a>Compare, compare! Mo&#39; che noela? Che vuol dire ste arme?</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l308"><a class="pn " href="#l308">308</a>Compare, a&#39; no volea gnan altri ca vu.</p>
+</div><div class="sp " data-who="MENATO">
+  <p class="spk ">
+    Menato
+  </p>
+  <p class="pr " id="l309"><a class="pn " href="#l309">309</a>Mo&#39; son chialò, mi.</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l310"><a class="pn m5" href="#l310">310</a>Quel soldò bergamasco è-lo vostro amigo?</p>
+</div><div class="sp " data-who="MENATO">
+  <p class="spk ">
+    Menato
+  </p>
+  <p class="pr " id="l311"><a class="pn " href="#l311">311</a>L&#39;è me amigo, per çerto.</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l312"><a class="pn " href="#l312">312</a>Fèghe dire le messe de San Griguolo.</p>
+</div><div class="sp " data-who="MENATO">
+  <p class="spk ">
+    Menato
+  </p>
+  <p class="pr " id="l313"><a class="pn " href="#l313">313</a>Perché? È-lo morto?</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l314"><a class="pn " href="#l314">314</a>No. El vuò mazare mi.</p>
+</div><div class="sp " data-who="MENATO">
+  <p class="spk ">
+    Menato
+  </p>
+  <p class="pr " id="l315"><a class="pn m5" href="#l315">315</a>No fè, cancaro! Che ve volí-vu deroinare de sto mondo?</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l316"><a class="pn " href="#l316">316</a>A&#39; vuò combater co elo. Tuogia pure che arme che &#39;l vuole.</p>
+</div><div class="sp " data-who="MENATO">
+  <p class="spk ">
+    Menato
+  </p>
+  <p class="pr " id="l317"><a class="pn " href="#l317">317</a>O compare, le arme n&#39;è per agn&#39;om.</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l318"><a class="pn " href="#l318">318</a>Che, compare? La paura è spartía. A&#39; n&#39;he paura d&#39;elo, mi.</p>
+</div><div class="sp " data-who="MENATO">
+  <p class="spk ">
+    Menato
+  </p>
+  <p class="pr " id="l319"><a class="pn " href="#l319">319</a>No. Mo&#39; no saí-u che le desgrazie è apareciè? El diavolo è sotile, e assè fiè un poltron amaza un valentomo.</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l320"><a class="pn m5" href="#l320">320</a>Mi, compare, a&#39; vuò combatere co elo per el me anore.</p>
+</div><div class="sp " data-who="MENATO">
+  <p class="spk ">
+    Menato
+  </p>
+  <p class="pr " id="l321"><a class="pn " href="#l321">321</a>L&#39;è miegio viver poltron ca morire valentomo. No saí-vu, compare?</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l322"><a class="pn " href="#l322">322</a>Compare, a&#39; vuò combatere. E sí a&#39; he piasere ch&#39;a&#39; ghe sipiè, perché a&#39; stramezarí. Perché, a&#39; ve diré, compare, con a&#39; meno tre o quatro bote, a&#39; me orbo, ch&#39;a&#39; perdo la vista, ch&#39;a&#39; son co&#39; è i cavagi che tira, che se orba. E perzòntena a&#39; vuò ch&#39;a&#39; stramezè.</p>
+</div><div class="sp " data-who="MENATO">
+  <p class="spk ">
+    Menato
+  </p>
+  <p class="pr " id="l323"><a class="pn " href="#l323">323</a>È-la gran deferienza, che la no se posse conzare?</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l324"><a class="pn " href="#l324">324</a>Mo&#39; l&#39;è stò... che l&#39;è stò quelú ch&#39;ha fato vegnire quigi che m&#39;ha arsaltò, che me tuosse la vostra gonela. E mi a&#39; ghe vuò far vêre che gi è poltron tuti, a un a un, a du a du, a tri a tri, a diese a diese.</p>
+</div><div class="sp " data-who="MENATO">
+  <p class="spk ">
+    Menato
+  </p>
+  <p class="pr " id="l325"><a class="pn m5" href="#l325">325</a>Mo&#39;, compare, arecordève che &#39;l gh&#39;è bon stare sul Pavan. A&#39; v&#39;andarí a deroinare del mondo e andar malabianto. E po, compare, a&#39; saí pure ch&#39;a&#39; se cognosson...</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l326"><a class="pn " href="#l326">326</a>A bel pato, a&#39; vuò combater adesso.</p>
+</div><div class="sp " data-who="MENATO">
+  <p class="spk ">
+    Menato
+  </p>
+  <p class="pr " id="l327"><a class="pn " href="#l327">327</a>Aldí, compare: a&#39; saí pure ch&#39;a&#39; v&#39;he sempre consegiò ben. L&#39;è de boto sera. Laghè che &#39;l sipia inscurío, ch&#39;a&#39; toron de le arme, vu e mi, e sí a&#39; &#39;l faron fuora. Andon a cà, inchina che &#39;l sia inscurío.</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l328"><a class="pn " href="#l328">328</a>Andon, ch&#39;a&#39; vuò fare el vostro consegio.</p>
+</div><div class="sp " data-who="MENATO">
+  <p class="spk ">
+    Menato
+  </p>
+  <p class="pr " id="l329"><a class="pn " href="#l329">329</a>Andon.</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l330"><a class="pn m5" href="#l330">330</a>Caro compare, lassème butar zó st&#39;usso!</p>
+</div><div class="sp " data-who="MENATO">
+  <p class="spk ">
+    Menato
+  </p>
+  <p class="pr " id="l331"><a class="pn " href="#l331">331</a>No fè, compare. Andon a cà.</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l332"><a class="pn " href="#l332">332</a>A&#39; vuò fare el vostro consegio.</p>
+</div><div class="sp " data-who="MENATO">
+  <p class="spk ">
+    Menato
+  </p>
+  <p class="pr " id="l333"><a class="pn " href="#l333">333</a>Mo&#39; andon.</p>
+</div><div class="sp " data-who="RUZANTE">
+  <p class="spk ">
+    Ruzante
+  </p>
+  <p class="pr " id="l334"><a class="pn " href="#l334">334</a>Laghème butar zó st&#39;usso, caro compare!</p>
+</div><div class="sp " data-who="MENATO">
+  <p class="spk ">
+    Menato
+  </p>
+  <p class="pr " id="l335"><a class="pn m5" href="#l335">335</a>No fè, compare. Andon a cà.</p>
+</div>
+      </section>
+    
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-4.html" rel="prev">← Atto terzo</a>
+  <a href="act-6.html" rel="next">Atto quinto →</a>
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      <p>
+        Quest&#39;opera è distribuita con Licenza Creative Commons Attribuzione - Non commerciale - Non opere derivate 4.0 Internazionale (CC BY-NC-ND 4.0)
+
+  <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.it">https://creativecommons.org/licenses/by-nc-nd/4.0/deed.it</a>
+
+      </p>
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

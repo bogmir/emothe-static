@@ -1,0 +1,1461 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Act I — As You Like It — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco"><x-es>Elenco</x-es><x-en>Cast list</x-en></a></li>
+      
+  
+    
+        <li>
+          <a href="act-1.html" aria-current="page">
+            Act I
+          </a>
+          <ul>
+            <li>
+              
+                  <a href="act-1.html#act-1-s1">
+                    [1.1]
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-1.html#act-1-s2">
+                    [1.2]
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-1.html#act-1-s3">
+                    [1.3]
+                  </a>
+              
+            </li>
+          </ul>
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html">
+            Act II
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            Act III
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-4.html">
+            Act IV
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-5.html">
+            Act V
+          </a>
+          
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="index.html#witnesses"><x-es>Testimonios</x-es><x-en>Witnesses</x-en></a>
+  </li>
+  <li>
+    <a href="index.html#performances"><x-es>Representaciones</x-es><x-en>Performances</x-en></a>
+  </li>
+  <li>
+    <a href="index.html#bibliography"><x-es>Bibliografía</x-es><x-en>Bibliography</x-en></a>
+  </li>
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="Duke_Senior">
+        Duke Senior
+      </option><option value="Rosalind">
+        Rosalind
+      </option><option value="Duke_Frederick">
+        Duke Frederick
+      </option><option value="Celia">
+        Celia
+      </option><option value="Oliver">
+        Oliver
+      </option><option value="Jaques_de_Boys">
+        Jaques
+      </option><option value="Orlando">
+        Orlando
+      </option><option value="Adam">
+        Adam
+      </option><option value="Dennis">
+        Dennis
+      </option><option value="Le_Beau">
+        Le Beau
+      </option><option value="Charles">
+        Charles
+      </option><option value="Touchstone">
+        Touchstone
+      </option><option value="Amiens">
+        Amiens
+      </option><option value="Jaques">
+        Jaques
+      </option><option value="Corin">
+        Corin
+      </option><option value="Silvius">
+        Silvius
+      </option><option value="Phoebe">
+        Phoebe
+      </option><option value="William">
+        William
+      </option><option value="Audrey">
+        Audrey
+      </option><option value="Mar-text">
+        Sir Oliver Mar-text
+      </option><option value="Hymen">
+        Hymen
+      </option>
+    </select>
+    
+      <label><input type="checkbox" data-toggle="sh"> <x-es>Versos compartidos</x-es><x-en>Shared lines</x-en></label>
+      <div class="stepper" data-stepper=".text .l[data-part=I]" data-for="sh">
+  <button type="button" data-step="-1" aria-label="Verso compartido anterior" data-en-aria-label="Previous shared line" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente verso compartido" data-en-aria-label="Next shared line" data-tr>›</button>
+</div>
+      <ul class="shared-legend">
+        <li>
+          <i class="sw" data-part="I"></i><x-es>Primera parte</x-es><x-en>First part</x-en>
+        </li><li>
+          <i class="sw" data-part="M"></i><x-es>Parte intermedia</x-es><x-en>Middle part</x-en>
+        </li><li>
+          <i class="sw" data-part="F"></i><x-es>Última parte</x-es><x-en>Last part</x-en>
+        </li>
+      </ul>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="asm" aria-label="Resaltar apartes" data-en-aria-label="Highlight asides" data-tr>
+        <x-es>Apartes</x-es><x-en>Asides</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .aparte, .text .pr.as, .text .pr:not(.as) span.as" data-for="asm">
+  <button type="button" data-step="-1" aria-label="Aparte anterior" data-en-aria-label="Previous aside" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente aparte" data-en-aria-label="Next aside" data-tr>›</button>
+</div>
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">William Shakespeare</p>
+  <h1><a href="index.html">As You Like It</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  
+  <a href="act-2.html" rel="next">Act II →</a>
+</nav>
+  <div class="text" lang="en" data-cite="William Shakespeare, As You Like It, Act I" data-cite-verse="v." data-cite-prose="l.">
+    
+    <section class="division" id="act-1">
+  
+  
+  
+  
+    
+      <section id="act-1-s1">
+        <h3 class="scene-head">
+          [1.1]
+        </h3>
+        <p class="sd " id="sd1">Enter Orlando and Adam.</p><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="p1">As I remember, Adam, it was upon this fashion bequeathed me by will but poor a thousand crowns, and, as thou say&#39;st, charged my brother, on his blessing, to breed me well; and there begins my sadness. My brother Jaques he keeps at school, and report speaks goldenly of his profit. For my part, he keeps me rustically at home, or, to speak more properly, stays me here at home unkept; for call you that &quot;keeping&quot; for a gentleman of my birth that differs not from the stalling of an ox? His horses are bred better, for, besides that they are fair with their feeding, they are taught their manège, and to that end riders dearly hired; but I, his brother, gain nothing under him but growth, for the which his animals on his dunghills are as much bound to him as I. Besides this nothing that he so plentifully gives me, the something that nature gave me his countenance seems to take from me. He lets me feed with his hinds, bars me the place of a brother, and as much as in him lies, mines my gentility with my education. This is it, Adam, that grieves me; and the spirit of my father, which I think is within me, begins to mutiny against this servitude. I will no longer endure it, though yet I know no wise remedy how to avoid it.</p>
+</div><p class="sd " id="sd2">Enter Oliver.</p><div class="sp " data-who="Adam">
+  <p class="spk ">
+    ADAM
+  </p>
+  <p class="pr " id="p2">Yonder comes my master, your brother.</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="p3">Go apart, Adam, and thou shalt hear how he will shake me up.</p>
+</div><p class="sd " id="sd3">[Adam stands aside.]</p><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVER
+  </p>
+  <p class="pr " id="p4">Now, sir, what make you here?</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="p5">Nothing. I am not taught to make anything.</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVER
+  </p>
+  <p class="pr " id="p6">What mar you then, sir?</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="p7">Marry, sir, I am helping you to mar that which God made, a poor unworthy brother of yours, with idleness.</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVER
+  </p>
+  <p class="pr " id="p8">Marry, sir, be better employed, and be naught awhile.</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="p9">Shall I keep your hogs, and eat husks with them? What prodigal portion have I spent, that I should come to such penury?</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVER
+  </p>
+  <p class="pr " id="p10">Know you where you are, sir?</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="p11">Oh, sir, very well: here in your orchard.</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVER
+  </p>
+  <p class="pr " id="p12">Know you before whom, sir?</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="p13">Ay, better than him I am before knows me. I know you are my eldest brother, and in the gentle condition of blood you should so know me. The courtesy of nations allows you my better in that you are the first born; but the same tradition takes not away my blood, were there twenty brothers betwixt us. I have as much of my father in me as you, albeit I confess your coming before me is nearer to his reverence.</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVER
+  </p>
+  <p class="pr " id="p14">What, boy!</p>
+</div><p class="sd " id="sd4">[He strikes Orlando.]</p><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="p15">Come, come, elder brother, you are too young in this.</p>
+</div><p class="sd " id="sd5">[He seizes Oliver by the throat.]</p><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVER
+  </p>
+  <p class="pr " id="p16">Wilt thou lay hands on me, villain?</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="p17">I am no villain. I am the youngest son of Sir Rowland de Boys. He was my father, and he is thrice a villain that says such a father begot villains. Wert thou not my brother, I would not take this hand from thy throat till this other had pulled out thy tongue for saying so. Thou hast railed on thyself.</p>
+</div><div class="sp " data-who="Adam">
+  <p class="spk ">
+    ADAM
+  </p>
+  <p class="pr " id="p18"><span class="sdi">[Coming forward]</span> Sweet masters, be patient! For your father&#39;s remembrance, be at accord.</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVER
+  </p>
+  <p class="pr " id="p19"><span class="sdi">[To Orlando]</span> Let me go, I say.</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="p20">I will not, till I please. You shall hear me. My father charged you in his will to give me good education. You have trained me like a peasant, obscuring and hiding from me all gentlemanlike qualities. The spirit of my father grows strong in me, and I will no longer endure it; therefore allow me such exercises as may become a gentleman, or give me the poor allottery my father left me by testament. With that I will go buy my fortunes.</p>
+</div><p class="sd " id="sd6">[He releases Oliver.]</p><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVER
+  </p>
+  <p class="pr " id="p21">And what wilt thou do? Beg, when that is spent? Well, sir, get you in. I will not long be troubled with you; you shall have some part of your will. I pray you leave me.</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="p22">I will no further offend you than becomes me for my good.</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVER
+  </p>
+  <p class="pr " id="p23"><span class="sdi">[To Adam]</span> Get you with him, you old dog.</p>
+</div><div class="sp " data-who="Adam">
+  <p class="spk ">
+    ADAM
+  </p>
+  <p class="pr " id="p24">Is &quot;old dog&quot; my reward? Most true, I have lost my teeth in your service. God be with my old master! He would not have spoke such a word.</p>
+</div><p class="sd " id="sd7">Exeunt Orlando and Adam.</p><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVER
+  </p>
+  <p class="pr " id="p25">Is it even so? Begin you to grow upon me? I will physic your rankness, and yet give no thousand crowns neither. <span class="sdi">[Calling]</span> Holla, Dennis!</p>
+</div><p class="sd " id="sd8">Enter Dennis.</p><div class="sp " data-who="Dennis">
+  <p class="spk ">
+    DENNIS
+  </p>
+  <p class="pr " id="p26">Calls Your Worship?</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVER
+  </p>
+  <p class="pr " id="p27">Was not Charles, the Duke&#39;s wrestler, here to speak with me?</p>
+</div><div class="sp " data-who="Dennis">
+  <p class="spk ">
+    DENNIS
+  </p>
+  <p class="pr " id="p28">So please you, he is here at the door and importunes access to you.</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVER
+  </p>
+  <p class="pr " id="p29">Call him in.<br><span class="sdi">[Exit Dennis.]</span> &#39;Twill be a good way; and tomorrow the wrestling is.</p>
+</div><p class="sd " id="sd9">Enter Charles.</p><div class="sp " data-who="Charles">
+  <p class="spk ">
+    CHARLES
+  </p>
+  <p class="pr " id="p30">Good morrow to Your Worship.</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVER
+  </p>
+  <p class="pr " id="p31">Good Monsieur Charles, what&#39;s the new news at the new court?</p>
+</div><div class="sp " data-who="Charles">
+  <p class="spk ">
+    CHARLES
+  </p>
+  <p class="pr " id="p32">There&#39;s no news at the court, sir, but the old news: that is, the old Duke is banished by his younger brother the new Duke, and three or four loving lords have put themselves into voluntary exile with him, whose lands and revenues enrich the new Duke; therefore he gives them good leave to wander.</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVER
+  </p>
+  <p class="pr " id="p33">Can you tell if Rosalind, the Duke&#39;s daughter, be banished with her father?</p>
+</div><div class="sp " data-who="Charles">
+  <p class="spk ">
+    CHARLES
+  </p>
+  <p class="pr " id="p34">Oh, no; for the Duke&#39;s daughter, her cousin, so loves her, being ever from their cradles bred together, that she would have followed her exile or have died to stay behind her. She is at the court, and no less beloved of her uncle than his own daughter; and never two ladies loved as they do.</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVER
+  </p>
+  <p class="pr " id="p35">Where will the old Duke live?</p>
+</div><div class="sp " data-who="Charles">
+  <p class="spk ">
+    CHARLES
+  </p>
+  <p class="pr " id="p36">They say he is already in the Forest of Arden, and a many merry men with him; and there they live like the old Robin Hood of England. They say many young gentlemen flock to him every day, and fleet the time carelessly, as they did in the golden world.</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVER
+  </p>
+  <p class="pr " id="p37">What, you wrestle tomorrow before the new Duke?</p>
+</div><div class="sp " data-who="Charles">
+  <p class="spk ">
+    CHARLES
+  </p>
+  <p class="pr " id="p38">Marry, do I, sir; and I came to acquaint you with a matter. I am given, sir, secretly to understand that your younger brother, Orlando, hath a disposition to come in disguised against me to try a fall. Tomorrow, sir, I wrestle for my credit; and he that escapes me without some broken limb shall acquit him well. Your brother is but young and tender; and, for your love, I would be loath to foil him, as I must, for my own honor, if he come in. Therefore, out of my love to you, I came hither to acquaint you withal, that either you might stay him from his intendment, or brook such disgrace well as he shall run into, in that it is a thing of his own search and altogether against my will.</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVER
+  </p>
+  <p class="pr " id="p39">Charles, I thank thee for thy love to me, which thou shalt find I will most kindly requite. I had myself notice of my brother&#39;s purpose herein, and have by underhand means labored to dissuade him from it; but he is resolute. I&#39;ll tell thee, Charles, it is the stubbornest young fellow of France, full of ambition, an envious emulator of every man&#39;s good parts, a secret and villainous contriver against me his natural brother. Therefore use thy discretion. I had as lief thou didst break his neck as his finger. And thou wert best look to&#39;t; for if thou dost him any slight disgrace, or if he do not mightily grace himself on thee, he will practice against thee by poison, entrap thee by some treacherous device, and never leave thee till he hath ta&#39;en thy life by some indirect means or other; for, I assure thee, and almost with tears I speak it, there is not one so young and so villainous this day living. I speak but brotherly of him, but should I anatomize him to thee as he is, I must blush and weep, and thou must look pale and wonder.</p>
+</div><div class="sp " data-who="Charles">
+  <p class="spk ">
+    CHARLES
+  </p>
+  <p class="pr " id="p40">I am heartily glad I came hither to you. If he come tomorrow I&#39;ll give him his payment. If ever he go alone again, I&#39;ll never wrestle for prize more. And so, God keep Your Worship!</p>
+</div><p class="sd " id="sd10">Exit.</p><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVER
+  </p>
+  <p class="pr " id="p41">Farewell, good Charles. Now will I stir this gamester. I hope I shall see an end of him; for my soul, yet I know not why, hates nothing more than he. Yet he&#39;s gentle, never schooled and yet learned, full of noble device, of all sorts enchantingly beloved, and indeed so much in the heart of the world, and especially of my own people, who best know him, that I am altogether misprized. But it shall not be so long; this wrestler shall clear all. Nothing remains but that I kindle the boy thither, which now I&#39;ll go about.</p>
+</div><p class="sd " id="sd11">Exit.</p>
+      </section>
+    
+  
+    
+      <section id="act-1-s2">
+        <h3 class="scene-head">
+          [1.2]
+        </h3>
+        <p class="sd " id="sd12">Enter Rosalind and Celia.</p><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p42">I pray thee, Rosalind, sweet my coz, be merry.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="p43">Dear Celia, I show more mirth than I am mistress of; and would you yet I were merrier? Unless you could teach me to forget a banished father, you must not learn me how to remember any extraordinary pleasure.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p44">Herein I see thou lov&#39;st me not with the full weight that I love thee. If my uncle, thy banished father, had banished thy uncle, the Duke my father, so thou hadst been still with me, I could have taught my love to take thy father for mine; so wouldst thou, if the truth of thy love to me were so righteously tempered as mine is to thee.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="p45">Well, I will forget the condition of my estate, to rejoice in yours.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p46">You know my father hath no child but I, nor none is like to have; and, truly, when he dies thou shalt be his heir, for what he hath taken away from thy father perforce I will render thee again in affection. By mine honor, I will; and when I break that oath, let me turn monster. Therefore, my sweet Rose, my dear Rose, be merry.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="p47">From henceforth I will, coz, and devise sports. Let me see, what think you of falling in love?</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p48">Marry, I prithee, do, to make sport withal; but love no man in good earnest, nor no further in sport neither than with safety of a pure blush thou mayst in honor come off again.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="p49">What shall be our sport, then?</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p50">Let us sit and mock the good housewife Fortune from her wheel, that her gifts may henceforth be bestowed equally.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="p51">I would we could do so, for her benefits are mightily misplaced, and the bountiful blind woman doth most mistake in her gifts to women.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p52">&#39;Tis true, for those that she makes fair she scarce makes honest, and those that she makes honest she makes very ill-favoredly.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="p53">Nay, now thou goest from Fortune&#39;s office to Nature&#39;s: Fortune reigns in gifts of the world, not in the lineaments of Nature.</p>
+</div><p class="sd " id="sd13">Enter [Touchstone the] Clown.</p><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p54">No? When Nature hath made a fair creature, may she not by Fortune fall into the fire? Though Nature hath given us wit to flout at Fortune, hath not Fortune sent in this fool to cut off the argument?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="p55">Indeed, there is Fortune too hard for Nature, when Fortune makes Nature&#39;s natural the cutter-off of Nature&#39;s wit.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p56">Peradventure this is not Fortune&#39;s work neither, but Nature&#39;s, who perceiveth our natural wits too dull to reason of such goddesses, and hath sent this natural for our whetstone; for always the dullness of the fool is the whetstone of the wits. — How now, wit, whither wander you?</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    TOUCHSTONE
+  </p>
+  <p class="pr " id="p57">Mistress, you must come away to your father.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p58">Were you made the messenger?</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    TOUCHSTONE
+  </p>
+  <p class="pr " id="p59">No, by mine honor, but I was bid to come for you.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="p60">Where learned you that oath, fool?</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    TOUCHSTONE
+  </p>
+  <p class="pr " id="p61">Of a certain knight that swore by his honor they were good pancakes, and swore by his honor the mustard was naught. Now I&#39;ll stand to it, the pancakes were naught and the mustard was good, and yet was not the knight forsworn.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p62">How prove you that, in the great heap of your knowledge?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="p63">Ay, marry, now unmuzzle your wisdom.</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    TOUCHSTONE
+  </p>
+  <p class="pr " id="p64">Stand you both forth now. Stroke your chins, and swear by your beards that I am a knave.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p65">By our beards, if we had them, thou art.</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    TOUCHSTONE
+  </p>
+  <p class="pr " id="p66">By my knavery, if I had it, then I were; but if you swear by that that is not, you are not forsworn. No more was this knight, swearing by his honor, for he never had any; or if he had, he had sworn it away before ever he saw those pancakes or that mustard.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p67">Prithee, who is&#39;t that thou mean&#39;st?</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    TOUCHSTONE
+  </p>
+  <p class="pr " id="p68">One that old Frederick, your father, loves.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p69">My father&#39;s love is enough to honor him. Enough, speak no more of him; you&#39;ll be whipped for taxation one of these days.</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    TOUCHSTONE
+  </p>
+  <p class="pr " id="p70">The more pity that fools may not speak wiselywhat wise men do foolishly.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p71">By my troth, thou sayest true; for since the little wit that fools have was silenced, the little foolery that wise men have makes a great show. Here comes Monsieur Le Beau.</p>
+</div><p class="sd " id="sd14">Enter Le Beau.</p><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="p72">With his mouth full of news.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p73">Which he will put on us as pigeons feed their young.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="p74">Then shall we be news-crammed.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p75">All the better; we shall be the more marketable. — <em>Bonjour</em> , Monsieur Le Beau. What&#39;s the news?</p>
+</div><div class="sp " data-who="Le_Beau">
+  <p class="spk ">
+    LE BEAU
+  </p>
+  <p class="pr " id="p76">Fair princess, you have lost much good sport.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p77">Sport? Of what color?</p>
+</div><div class="sp " data-who="Le_Beau">
+  <p class="spk ">
+    LE BEAU
+  </p>
+  <p class="pr " id="p78">What color, madam? How shall I answer you?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="p79">As wit and fortune will.</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    TOUCHSTONE
+  </p>
+  <p class="pr " id="p80">Or as the Destinies decrees.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p81">Well said. That was laid on with a trowel.</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    TOUCHSTONE
+  </p>
+  <p class="pr " id="p82">Nay, if I keep not my rank —</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="p83">Thou loosest thy old smell.</p>
+</div><div class="sp " data-who="Le_Beau">
+  <p class="spk ">
+    LE BEAU
+  </p>
+  <p class="pr " id="p84">You amaze me, ladies. I would have told you of good wrestling, which you have lost the sight of.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="p85">Yet tell us the manner of the wrestling.</p>
+</div><div class="sp " data-who="Le_Beau">
+  <p class="spk ">
+    LE BEAU
+  </p>
+  <p class="pr " id="p86">I will tell you the beginning, and, if it please Your Ladyships, you may see the end, for the best is yet to do, and here, where you are, they are coming to perform it.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p87">Well, the beginning, that is dead and buried.</p>
+</div><div class="sp " data-who="Le_Beau">
+  <p class="spk ">
+    LE BEAU
+  </p>
+  <p class="pr " id="p88">There comes an old man and his three sons —</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p89">I could match this beginning with an old tale.</p>
+</div><div class="sp " data-who="Le_Beau">
+  <p class="spk ">
+    LE BEAU
+  </p>
+  <p class="pr " id="p90">Three proper young men, of excellent growth and presence.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="p91">With bills on their necks: &quot;Be it known unto all men by these presents —&quot;</p>
+</div><div class="sp " data-who="Le_Beau">
+  <p class="spk ">
+    LE BEAU
+  </p>
+  <p class="pr " id="p92">The eldest of the three wrestled with Charles, the Duke&#39;s wrestler, which Charles in a moment threw him and broke three of his ribs, that there is little hope of life in him. So he served the second, and so the third. Yonder they lie, the poor old man their father making such pitiful dole over them that all the beholders take his part with weeping.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="p93">Alas!</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    TOUCHSTONE
+  </p>
+  <p class="pr " id="p94">But what is the sport, monsieur, that the ladies have lost?</p>
+</div><div class="sp " data-who="Le_Beau">
+  <p class="spk ">
+    LE BEAU
+  </p>
+  <p class="pr " id="p95">Why, this that I speak of.</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    TOUCHSTONE
+  </p>
+  <p class="pr " id="p96">Thus men may grow wiser every day. It is the first time that ever I heard breaking of ribs was sport for ladies.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p97">Or I, I promise thee.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="p98">But is there any else longs to see this broken music in his sides? Is there yet another dotes upon rib-breaking? — Shall we see this wrestling, cousin?</p>
+</div><div class="sp " data-who="Le_Beau">
+  <p class="spk ">
+    LE BEAU
+  </p>
+  <p class="pr " id="p99">You must, if you stay here, for here is the place appointed for the wrestling, and they are ready to perform it.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p100">Yonder, sure, they are coming. Let us now stay and see it.</p>
+</div><p class="sd " id="sd15">Enter Duke [Frederick], Lords, Orlando, Charles, and Attendants</p><div class="sp " data-who="Duke_Frederick">
+  <p class="spk ">
+    DUKE FREDERICK
+  </p>
+  <p class="pr " id="p101">Come on. Since the youth will not be entreated, his own peril on his forwardness.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="p102"><span class="sdi">[To Le Beau]</span> Is yonder the man?</p>
+</div><div class="sp " data-who="Le_Beau">
+  <p class="spk ">
+    LE BEAU
+  </p>
+  <p class="pr " id="p103">Even he, madam.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p104">Alas, he is too young; yet he looks successfully.</p>
+</div><div class="sp " data-who="Duke_Frederick">
+  <p class="spk ">
+    DUKE FREDERICK
+  </p>
+  <p class="pr " id="p105">How now, daughter and cousin? Are you crept hither to see the wrestling?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="p106">Ay, my liege, so please you give us leave.</p>
+</div><div class="sp " data-who="Duke_Frederick">
+  <p class="spk ">
+    DUKE FREDERICK
+  </p>
+  <p class="pr " id="p107">You will take little delight in it, I can tell you, there is such odds in the man. In pity of the challenger&#39;s youth I would fain dissuade him, but he will not be entreated. Speak to him, ladies; see if you can move him.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p108">Call him hither, good Monsieur Le Beau.</p>
+</div><div class="sp " data-who="Duke_Frederick">
+  <p class="spk ">
+    DUKE FREDERICK
+  </p>
+  <p class="pr " id="p109">Do so. I&#39;ll not be by.</p>
+</div><p class="sd " id="sd16">[Duke Frederick stands aside.]</p><div class="sp " data-who="Le_Beau">
+  <p class="spk ">
+    LE BEAU
+  </p>
+  <p class="pr " id="p110"><span class="sdi">[To Orlando]</span> Monsieur the Challenger, the Princess calls for you.</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="p111"><span class="sdi">[Approaching Rosalind and Celia]</span> I attend them with all respect and duty.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="p112">Young man, have you challenged Charles the wrestler?</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="p113">No, fair princess, he is the general challenger. I come but in, as others do, to try with him the strength of my youth.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p114">Young gentleman, your spirits are too bold for your years. You have seen cruel proof of this man&#39;s strength. If you saw yourself with your eyes, or knew yourself with your judgment, the fear of your adventure would counsel you to a more equal enterprise. We pray you, for your own sake, to embrace your own safety and give over this attempt.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="p115">Do, young sir. Your reputation shall not therefore be misprized. We will make it our suit to the Duke that the wrestling might not go forward.</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="p116">I beseech you, punish me not with your hard thoughts, wherein I confess me much guilty to deny so fair and excellent ladies anything. But let your fair eyes and gentle wishes go with me to my trial, wherein if I be foiled, there is but one shamed that was never gracious; if killed, but one dead that is willing to be so. I shall do my friends no wrong, for I have none to lament me; the world no injury, for in it I have nothing. Only in the world I fill up a place, which may be better supplied when I have made it empty.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="p117">The little strength that I have, I would it were with you.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p118">And mine, to eke out hers.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="p119">Fare you well. Pray heaven I be deceived in you!</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p120">Your heart&#39;s desires be with you!</p>
+</div><div class="sp " data-who="Charles">
+  <p class="spk ">
+    CHARLES
+  </p>
+  <p class="pr " id="p121">Come, where is this young gallant that is so desirous to lie with his mother earth?</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="p122">Ready, sir, but his will hath in it a more modest working.</p>
+</div><div class="sp " data-who="Duke_Frederick">
+  <p class="spk ">
+    DUKE FREDERICK
+  </p>
+  <p class="pr " id="p123">You shall try but one fall.</p>
+</div><div class="sp " data-who="Charles">
+  <p class="spk ">
+    CHARLES
+  </p>
+  <p class="pr " id="p124">No, I warrant Your Grace you shall not entreat him to a second, that have so mightily persuaded him from a first.</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="p125">You mean to mock me after; you should not have mocked me before. But come your ways.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="p126">Now, Hercules be thy speed, young man!</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p127">I would I were invisible, to catch the strong fellow by the leg.</p>
+</div><p class="sd " id="sd17">[Orlando and Charles] wrestle.</p><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="p128">Oh, excellent young man!</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="p129">If I had a thunderbolt in mine eye, I can tell who should down.</p>
+</div><p class="sd " id="sd18">[Charles is thrown.]</p><p class="sd " id="sd19">Shout.</p><div class="sp " data-who="Duke_Frederick">
+  <p class="spk ">
+    DUKE FREDERICK
+  </p>
+  <p class="pr " id="p130">No more, no more.</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="p131">Yes, I beseech Your Grace. I am not yet well breathed.</p>
+</div><div class="sp " data-who="Duke_Frederick">
+  <p class="spk ">
+    DUKE FREDERICK
+  </p>
+  <div class="lg ">
+  
+  <div class="l " data-part="I" id="l1"><a class="n " href="#l1">1</a><span class="t">How dost thou, Charles?</span></div>
+</div>
+</div><div class="sp " data-who="Le_Beau">
+  <p class="spk ">
+    LE BEAU
+  </p>
+  <div class="lg ">
+  
+  <div class="l part-f" data-part="F" id="l1b"><span class="t"><span class="ghost " aria-hidden="true">How dost thou, Charles? </span>He cannot speak, my lord.</span></div>
+</div>
+</div><div class="sp " data-who="Duke_Frederick">
+  <p class="spk ">
+    DUKE FREDERICK
+  </p>
+  <div class="lg ">
+  
+  <div class="l " data-part="I" id="l2"><a class="n " href="#l2">2</a><span class="t">Bear him away.</span></div><div class="l part-f" data-part="F" id="l2b"><span class="t"><span class="ghost " aria-hidden="true">Bear him away. </span><span class="sdi">[Charles is carried out.]</span> What is thy name, young man?</span></div>
+</div>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l2-p1">Orlando, my liege, the youngest son of Sir Rowland de Boys.</p>
+</div><div class="sp " data-who="Duke_Frederick">
+  <p class="spk ">
+    DUKE FREDERICK
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l3"><a class="n " href="#l3">3</a><span class="t">I would thou hadst been son to some man else.</span></div><div class="l " id="l4"><a class="n " href="#l4">4</a><span class="t">The world esteemed thy father honorable,</span></div><div class="l " id="l5"><a class="n m5" href="#l5">5</a><span class="t">But I did find him still mine enemy.</span></div><div class="l " id="l6"><a class="n " href="#l6">6</a><span class="t">Thou shouldst have better pleased me with this deed</span></div><div class="l " id="l7"><a class="n " href="#l7">7</a><span class="t">Hadst thou descended from another house.</span></div><div class="l " id="l8"><a class="n " href="#l8">8</a><span class="t">But fare thee well; thou art a gallant youth.</span></div><div class="l " id="l9"><a class="n " href="#l9">9</a><span class="t">I would thou hadst told me of another father.</span></div>
+</div>
+</div><p class="sd " id="l9-sd1">Exit Duke [with train, and Le Beau. Rosalind and Celia remain, standing apart from Orlando].</p><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l10"><a class="n m5" href="#l10">10</a><span class="t"><span class="sdi">[To Rosalind]</span> Were I my father, coz, would I do this?</span></div>
+</div>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l11"><a class="n " href="#l11">11</a><span class="t"><span class="sdi">[Talking to himself]</span> I am more proud to be Sir Rowland&#39;s son,</span></div><div class="l " id="l12"><a class="n " href="#l12">12</a><span class="t">His youngest son, and would not change that calling</span></div><div class="l " id="l13"><a class="n " href="#l13">13</a><span class="t">To be adopted heir to Frederick.</span></div>
+</div>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l14"><a class="n " href="#l14">14</a><span class="t"><span class="sdi">[To Celia]</span> My father loved Sir Rowland as his soul,</span></div><div class="l " id="l15"><a class="n m5" href="#l15">15</a><span class="t">And all the world was of my father&#39;s mind.</span></div><div class="l " id="l16"><a class="n " href="#l16">16</a><span class="t">Had I before known this young man his son,</span></div><div class="l " id="l17"><a class="n " href="#l17">17</a><span class="t">I should have given him tears unto entreaties</span></div><div class="l " data-part="I" id="l18"><a class="n " href="#l18">18</a><span class="t">Ere he should thus have ventured.</span></div>
+</div>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <div class="lg ">
+  
+  <div class="l part-f" data-part="F" id="l18b"><span class="t"><span class="ghost " aria-hidden="true">Ere he should thus have ventured. </span>Gentle cousin,</span></div><div class="l " id="l19"><a class="n " href="#l19">19</a><span class="t">Let us go thank him, and encourage him.</span></div><div class="l " id="l20"><a class="n m5" href="#l20">20</a><span class="t">My father&#39;s rough and envious disposition</span></div><div class="l " data-part="I" id="l21"><a class="n " href="#l21">21</a><span class="t">Sticks me at heart.</span></div><div class="l part-f" data-part="F" id="l21b"><span class="t"><span class="ghost " aria-hidden="true">Sticks me at heart. </span><span class="sdi">[To Orlando]</span> Sir, you have well deserved.</span></div><div class="l " id="l22"><a class="n " href="#l22">22</a><span class="t">If you do keep your promises in love</span></div><div class="l " id="l23"><a class="n " href="#l23">23</a><span class="t">But justly as you have exceeded all promise,</span></div><div class="l " data-part="I" id="l24"><a class="n " href="#l24">24</a><span class="t">Your mistress shall be happy.</span></div>
+</div>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <div class="lg ">
+  
+  <div class="l part-f" data-part="F" id="l24b"><span class="t"><span class="ghost " aria-hidden="true">Your mistress shall be happy. </span>Gentleman,</span></div><p class="sd " id="l24-sd1">[Giving him a chain from her neck]</p><div class="l " id="l25"><a class="n m5" href="#l25">25</a><span class="t">Wear this for me, one out of suits with fortune,</span></div><div class="l " id="l26"><a class="n " href="#l26">26</a><span class="t">That could give more, but that her hand lacks means.</span></div><div class="l " id="l27"><a class="n " href="#l27">27</a><span class="t"><span class="sdi">[To Celia]</span> Shall we go, coz?</span></div>
+</div>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l28"><a class="n " href="#l28">28</a><span class="t">Ay. Fare you well, fair gentleman.</span></div>
+</div>
+</div><p class="sd " id="l28-sd1">[Rosalind and Celia start to leave.]</p><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <div class="lg ">
+  
+  <div class="l as" id="l29"><a class="n " href="#l29">29</a><span class="t"><span class="sdi">[Aside]</span> Can I not say &quot;I thank you&quot;? My better parts</span><span class="margin"><span class="aparte">aparte</span></span></div><div class="l as" id="l30"><a class="n m5" href="#l30">30</a><span class="t">Are all thrown down, and that which here stands up</span></div><div class="l as" id="l31"><a class="n " href="#l31">31</a><span class="t">Is but a quintain, a mere lifeless block.</span></div>
+</div>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l32"><a class="n " href="#l32">32</a><span class="t"><span class="sdi">[To Celia]</span> He calls us back. My pride fell with my fortunes;</span></div><div class="l " id="l33"><a class="n " href="#l33">33</a><span class="t">I&#39;ll ask him what he would. — Did you call, sir?</span></div><div class="l " id="l34"><a class="n " href="#l34">34</a><span class="t">Sir, you have wrestled well, and overthrown</span></div><div class="l " id="l35"><a class="n m5" href="#l35">35</a><span class="t">More than your enemies.</span></div>
+</div>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l36"><a class="n " href="#l36">36</a><span class="t">Will you go, coz?</span></div>
+</div>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l37"><a class="n " href="#l37">37</a><span class="t">Have with you. — Fare you well.</span></div>
+</div>
+</div><p class="sd " id="l37-sd1">Exit [with Celia].</p><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l38"><a class="n " href="#l38">38</a><span class="t">What passion hangs these weights upon my tongue?</span></div><div class="l " id="l39"><a class="n " href="#l39">39</a><span class="t">I cannot speak to her, yet she urged conference.</span></div><p class="sd " id="l39-sd1">Enter Le Beau.</p><div class="l " id="l40"><a class="n m5" href="#l40">40</a><span class="t">O poor Orlando, thou art overthrown!</span></div><div class="l " id="l41"><a class="n " href="#l41">41</a><span class="t">Or Charles or something weaker masters thee.</span></div>
+</div>
+</div><div class="sp " data-who="Le_Beau">
+  <p class="spk ">
+    LE BEAU
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l42"><a class="n " href="#l42">42</a><span class="t">Good sir, I do in friendship counsel you</span></div><div class="l " id="l43"><a class="n " href="#l43">43</a><span class="t">To leave this place. Albeit you have deserved</span></div><div class="l " id="l44"><a class="n " href="#l44">44</a><span class="t">High commendation, true applause, and love,</span></div><div class="l " id="l45"><a class="n m5" href="#l45">45</a><span class="t">Yet such is now the Duke&#39;s condition</span></div><div class="l " id="l46"><a class="n " href="#l46">46</a><span class="t">That he misconsters all that you have done.</span></div><div class="l " id="l47"><a class="n " href="#l47">47</a><span class="t">The Duke is humorous. What he is indeed</span></div><div class="l " id="l48"><a class="n " href="#l48">48</a><span class="t">More suits you to conceive than I to speak of.</span></div>
+</div>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l49"><a class="n " href="#l49">49</a><span class="t">I thank you, sir. And pray you tell me this:</span></div><div class="l " id="l50"><a class="n m5" href="#l50">50</a><span class="t">Which of the two was daughter of the Duke</span></div><div class="l " id="l51"><a class="n " href="#l51">51</a><span class="t">That here was at the wrestling?</span></div>
+</div>
+</div><div class="sp " data-who="Le_Beau">
+  <p class="spk ">
+    LE BEAU
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l52"><a class="n " href="#l52">52</a><span class="t">Neither his daughter, if we judge by manners,</span></div><div class="l " id="l53"><a class="n " href="#l53">53</a><span class="t">But yet indeed the taller is his daughter.</span></div><div class="l " id="l54"><a class="n " href="#l54">54</a><span class="t">The other is daughter to the banished Duke,</span></div><div class="l " id="l55"><a class="n m5" href="#l55">55</a><span class="t">And here detained by her usurping uncle</span></div><div class="l " id="l56"><a class="n " href="#l56">56</a><span class="t">To keep his daughter company, whose loves</span></div><div class="l " id="l57"><a class="n " href="#l57">57</a><span class="t">Are dearer than the natural bond of sisters.</span></div><div class="l " id="l58"><a class="n " href="#l58">58</a><span class="t">But I can tell you that of late this Duke</span></div><div class="l " id="l59"><a class="n " href="#l59">59</a><span class="t">Hath ta&#39;en displeasure &#39;gainst his gentle niece,</span></div><div class="l " id="l60"><a class="n m5" href="#l60">60</a><span class="t">Grounded upon no other argument</span></div><div class="l " id="l61"><a class="n " href="#l61">61</a><span class="t">But that the people praise her for her virtues</span></div><div class="l " id="l62"><a class="n " href="#l62">62</a><span class="t">And pity her for her good father&#39;s sake;</span></div><div class="l " id="l63"><a class="n " href="#l63">63</a><span class="t">And, on my life, his malice &#39;gainst the lady</span></div><div class="l " id="l64"><a class="n " href="#l64">64</a><span class="t">Will suddenly break forth. Sir, fare you well.</span></div><div class="l " id="l65"><a class="n m5" href="#l65">65</a><span class="t">Hereafter, in a better world than this,</span></div><div class="l " id="l66"><a class="n " href="#l66">66</a><span class="t">I shall desire more love and knowledge of you.</span></div>
+</div>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l67"><a class="n " href="#l67">67</a><span class="t">I rest much bounden to you. Fare you well.</span></div><p class="sd " id="l67-sd1">[Exit Le Beau.]</p><div class="l " id="l68"><a class="n " href="#l68">68</a><span class="t">Thus must I from the smoke into the smother;</span></div><div class="l " id="l69"><a class="n " href="#l69">69</a><span class="t">From tyrant Duke unto a tyrant brother.</span></div><div class="l " id="l70"><a class="n m5" href="#l70">70</a><span class="t">But heavenly Rosalind!</span></div>
+</div>
+</div><p class="sd " id="l70-sd1">Exit.</p>
+      </section>
+    
+  
+    
+      <section id="act-1-s3">
+        <h3 class="scene-head">
+          [1.3]
+        </h3>
+        <p class="sd " id="l70-sd2">Enter Celia and Rosalind.</p><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l70-p1">Why, cousin, why, Rosalind! Cupid have mercy! Not a word?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="l70-p2">Not one to throw at a dog.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l70-p3">No, thy words are too precious to be cast away upon curs. Throw some of them at me. Come, lame me with reasons.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="l70-p4">Then there were two cousins laid up, when the one should be lamed with reasons and the other mad without any.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l70-p5">But is all this for your father?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="l70-p6">No, some of it is for my child&#39;s father. Oh, how full of briers is this working-day world!</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l70-p7">They are but burs, cousin, thrown upon thee in holiday foolery. If we walk not in the trodden paths, our very petticoats will catch them.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="l70-p8">I could shake them off my coat. These burs are in my heart.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l70-p9">Hem them away.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="l70-p10">I would try, if I could cry &quot;hem&quot; and have him.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l70-p11">Come, come, wrestle with thy affections.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="l70-p12">Oh, they take the part of a better wrestler than myself.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l70-p13">Oh, a good wish upon you! You will try in time, in despite of a fall. But, turning these jests out of service, let us talk in good earnest. Is it possible, on such a sudden, you should fall into so strong a liking with old Sir Rowland&#39;s youngest son?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="l70-p14">The Duke my father loved his father dearly.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l70-p15">Doth it therefore ensue that you should love his son dearly? By this kind of chase, I should hate him, for my father hated his father dearly; yet I hate not Orlando.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="l70-p16">No, faith, hate him not, for my sake.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l70-p17">Why should I not? Doth he not deserve well?</p>
+</div><p class="sd " id="l70-sd3">Enter Duke [Frederick], with Lords.</p><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <p class="pr " id="l70-p18">Let me love him for that, and do you love him because I do. Look, here comes the Duke.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l70-p19">With his eyes full of anger.</p>
+</div><div class="sp " data-who="Duke_Frederick">
+  <p class="spk ">
+    DUKE FREDERICK
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l71"><a class="n " href="#l71">71</a><span class="t"><span class="sdi">[To Rosalind]</span> Mistress, dispatch you with your safest haste,</span></div><div class="l " data-part="I" id="l72"><a class="n " href="#l72">72</a><span class="t">And get you from our court.</span></div>
+</div>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <div class="lg ">
+  
+  <div class="l part-m" data-part="M" id="l72b"><span class="t"><span class="ghost " aria-hidden="true">And get you from our court. </span>Me, uncle?</span></div>
+</div>
+</div><div class="sp " data-who="Duke_Frederick">
+  <p class="spk ">
+    DUKE FREDERICK
+  </p>
+  <div class="lg ">
+  
+  <div class="l part-f" data-part="F" id="l72c"><span class="t"><span class="ghost " aria-hidden="true">And get you from our court. Me, uncle? </span>You, cousin.</span></div><div class="l " id="l73"><a class="n " href="#l73">73</a><span class="t">Within these ten days if that thou be&#39;st found</span></div><div class="l " id="l74"><a class="n " href="#l74">74</a><span class="t">So near our public court as twenty miles,</span></div><div class="l " data-part="I" id="l75"><a class="n m5" href="#l75">75</a><span class="t">Thou diest for it.</span></div>
+</div>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <div class="lg ">
+  
+  <div class="l part-f" data-part="F" id="l75b"><span class="t"><span class="ghost " aria-hidden="true">Thou diest for it. </span>I do beseech Your Grace,</span></div><div class="l " id="l76"><a class="n " href="#l76">76</a><span class="t">Let me the knowledge of my fault bear with me.</span></div><div class="l " id="l77"><a class="n " href="#l77">77</a><span class="t">If with myself I hold intelligence</span></div><div class="l " id="l78"><a class="n " href="#l78">78</a><span class="t">Or have acquaintance with mine own desires,</span></div><div class="l " id="l79"><a class="n " href="#l79">79</a><span class="t">If that I do not dream, or be not frantic —</span></div><div class="l " id="l80"><a class="n m5" href="#l80">80</a><span class="t">As I do trust I am not — then, dear uncle,</span></div><div class="l " id="l81"><a class="n " href="#l81">81</a><span class="t">Never so much as in a thought unborn</span></div><div class="l " data-part="I" id="l82"><a class="n " href="#l82">82</a><span class="t">Did I offend Your Highness.</span></div>
+</div>
+</div><div class="sp " data-who="Duke_Frederick">
+  <p class="spk ">
+    DUKE FREDERICK
+  </p>
+  <div class="lg ">
+  
+  <div class="l part-f" data-part="F" id="l82b"><span class="t"><span class="ghost " aria-hidden="true">Did I offend Your Highness. </span>Thus do all traitors.</span></div><div class="l " id="l83"><a class="n " href="#l83">83</a><span class="t">If their purgation did consist in words,</span></div><div class="l " id="l84"><a class="n " href="#l84">84</a><span class="t">They are as innocent as grace itself.</span></div><div class="l " id="l85"><a class="n m5" href="#l85">85</a><span class="t">Let it suffice thee that I trust thee not.</span></div>
+</div>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l86"><a class="n " href="#l86">86</a><span class="t">Yet your mistrust cannot make me a traitor.</span></div><div class="l " id="l87"><a class="n " href="#l87">87</a><span class="t">Tell me whereon the likelihood depends.</span></div>
+</div>
+</div><div class="sp " data-who="Duke_Frederick">
+  <p class="spk ">
+    DUKE FREDERICK
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l88"><a class="n " href="#l88">88</a><span class="t">Thou art thy father&#39;s daughter; there&#39;s enough.</span></div>
+</div>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l89"><a class="n " href="#l89">89</a><span class="t">So was I when Your Highness took his dukedom;</span></div><div class="l " id="l90"><a class="n m5" href="#l90">90</a><span class="t">So was I when Your Highness banished him.</span></div><div class="l " id="l91"><a class="n " href="#l91">91</a><span class="t">Treason is not inherited, my lord;</span></div><div class="l " id="l92"><a class="n " href="#l92">92</a><span class="t">Or, if we did derive it from our friends,</span></div><div class="l " id="l93"><a class="n " href="#l93">93</a><span class="t">What&#39;s that to me? My father was no traitor.</span></div><div class="l " id="l94"><a class="n " href="#l94">94</a><span class="t">Then, good my liege, mistake me not so much</span></div><div class="l " id="l95"><a class="n m5" href="#l95">95</a><span class="t">To think my poverty is treacherous.</span></div>
+</div>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l96"><a class="n " href="#l96">96</a><span class="t">Dear sovereign, hear me speak.</span></div>
+</div>
+</div><div class="sp " data-who="Duke_Frederick">
+  <p class="spk ">
+    DUKE FREDERICK
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l97"><a class="n " href="#l97">97</a><span class="t">Ay, Celia, we stayed her for your sake,</span></div><div class="l " id="l98"><a class="n " href="#l98">98</a><span class="t">Else had she with her father ranged along.</span></div>
+</div>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l99"><a class="n " href="#l99">99</a><span class="t">I did not then entreat to have her stay;</span></div><div class="l " id="l100"><a class="n m5" href="#l100">100</a><span class="t">It was your pleasure, and your own remorse.</span></div><div class="l " id="l101"><a class="n " href="#l101">101</a><span class="t">I was too young that time to value her,</span></div><div class="l " id="l102"><a class="n " href="#l102">102</a><span class="t">But now I know her. If she be a traitor,</span></div><div class="l " id="l103"><a class="n " href="#l103">103</a><span class="t">Why so am I. We still have slept together,</span></div><div class="l " id="l104"><a class="n " href="#l104">104</a><span class="t">Rose at an instant, learned, played, eat together,</span></div><div class="l " id="l105"><a class="n m5" href="#l105">105</a><span class="t">And wheresoe&#39;er we went, like Juno&#39;s swans</span></div><div class="l " id="l106"><a class="n " href="#l106">106</a><span class="t">Still we went coupled and inseparable.</span></div>
+</div>
+</div><div class="sp " data-who="Duke_Frederick">
+  <p class="spk ">
+    DUKE FREDERICK
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l107"><a class="n " href="#l107">107</a><span class="t">She is too subtle for thee; and her smoothness,</span></div><div class="l " id="l108"><a class="n " href="#l108">108</a><span class="t">Her very silence and her patience,</span></div><div class="l " id="l109"><a class="n " href="#l109">109</a><span class="t">Speak to the people, and they pity her.</span></div><div class="l " id="l110"><a class="n m5" href="#l110">110</a><span class="t">Thou art a fool. She robs thee of thy name,</span></div><div class="l " id="l111"><a class="n " href="#l111">111</a><span class="t">And thou wilt show more bright and seem more virtuous</span></div><div class="l " id="l112"><a class="n " href="#l112">112</a><span class="t">When she is gone. Then open not thy lips.</span></div><div class="l " id="l113"><a class="n " href="#l113">113</a><span class="t">Firm and irrevocable is my doom</span></div><div class="l " id="l114"><a class="n " href="#l114">114</a><span class="t">Which I have passed upon her; she is banished.</span></div>
+</div>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l115"><a class="n m5" href="#l115">115</a><span class="t">Pronounce that sentence, then, on me, my liege!</span></div><div class="l " id="l116"><a class="n " href="#l116">116</a><span class="t">I cannot live out of her company.</span></div>
+</div>
+</div><div class="sp " data-who="Duke_Frederick">
+  <p class="spk ">
+    DUKE FREDERICK
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l117"><a class="n " href="#l117">117</a><span class="t">You are a fool. — You, niece, provide yourself.</span></div><div class="l " id="l118"><a class="n " href="#l118">118</a><span class="t">If you outstay the time, upon mine honor,</span></div><div class="l " id="l119"><a class="n " href="#l119">119</a><span class="t">And in the greatness of my word, you die.</span></div>
+</div>
+</div><p class="sd " id="l119-sd1">Exit Duke, &amp;c. [with Lords].</p><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l120"><a class="n m5" href="#l120">120</a><span class="t">O my poor Rosalind, whither wilt thou go?</span></div><div class="l " id="l121"><a class="n " href="#l121">121</a><span class="t">Wilt thou change fathers? I will give thee mine.</span></div><div class="l " id="l122"><a class="n " href="#l122">122</a><span class="t">I charge thee, be not thou more grieved than I am.</span></div>
+</div>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <div class="lg ">
+  
+  <div class="l " data-part="I" id="l123"><a class="n " href="#l123">123</a><span class="t">I have more cause.</span></div>
+</div>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <div class="lg ">
+  
+  <div class="l part-f" data-part="F" id="l123b"><span class="t"><span class="ghost " aria-hidden="true">I have more cause. </span>Thou hast not, cousin.</span></div><div class="l " id="l124"><a class="n " href="#l124">124</a><span class="t">Prithee be cheerful. Know&#39;st thou not the Duke</span></div><div class="l " data-part="I" id="l125"><a class="n m5" href="#l125">125</a><span class="t">Hath banished me, his daughter?</span></div>
+</div>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <div class="lg ">
+  
+  <div class="l part-f" data-part="F" id="l125b"><span class="t"><span class="ghost " aria-hidden="true">Hath banished me, his daughter? </span>That he hath not.</span></div>
+</div>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l126"><a class="n " href="#l126">126</a><span class="t">No? &quot;Hath not&quot;? Rosalind lacks, then, the love</span></div><div class="l " id="l127"><a class="n " href="#l127">127</a><span class="t">Which teacheth thee that thou and I am one.</span></div><div class="l " id="l128"><a class="n " href="#l128">128</a><span class="t">Shall we be sundered? Shall we part, sweet girl?</span></div><div class="l " id="l129"><a class="n " href="#l129">129</a><span class="t">No; let my father seek another heir.</span></div><div class="l " id="l130"><a class="n m5" href="#l130">130</a><span class="t">Therefore devise with me how we may fly,</span></div><div class="l " id="l131"><a class="n " href="#l131">131</a><span class="t">Whither to go, and what to bear with us.</span></div><div class="l " id="l132"><a class="n " href="#l132">132</a><span class="t">And do not seek to take your change upon you,</span></div><div class="l " id="l133"><a class="n " href="#l133">133</a><span class="t">To bear your griefs yourself, and leave me out;</span></div><div class="l " id="l134"><a class="n " href="#l134">134</a><span class="t">For, by this heaven, now at our sorrows pale,</span></div><div class="l " id="l135"><a class="n m5" href="#l135">135</a><span class="t">Say what thou canst, I&#39;ll go along with thee.</span></div>
+</div>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l136"><a class="n " href="#l136">136</a><span class="t">Why, whither shall we go?</span></div>
+</div>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l137"><a class="n " href="#l137">137</a><span class="t">To seek my uncle in the Forest of Arden.</span></div>
+</div>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l138"><a class="n " href="#l138">138</a><span class="t">Alas, what danger will it be to us,</span></div><div class="l " id="l139"><a class="n " href="#l139">139</a><span class="t">Maids as we are, to travel forth so far!</span></div><div class="l " id="l140"><a class="n m5" href="#l140">140</a><span class="t">Beauty provoketh thieves sooner than gold.</span></div>
+</div>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l141"><a class="n " href="#l141">141</a><span class="t">I&#39;ll put myself in poor and mean attire,</span></div><div class="l " id="l142"><a class="n " href="#l142">142</a><span class="t">And with a kind of umber smirch my face;</span></div><div class="l " id="l143"><a class="n " href="#l143">143</a><span class="t">The like do you. So shall we pass along,</span></div><div class="l " data-part="I" id="l144"><a class="n " href="#l144">144</a><span class="t">And never stir assailants.</span></div>
+</div>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <div class="lg ">
+  
+  <div class="l part-f" data-part="F" id="l144b"><span class="t"><span class="ghost " aria-hidden="true">And never stir assailants. </span>Were it not better,</span></div><div class="l " id="l145"><a class="n m5" href="#l145">145</a><span class="t">Because that I am more than common tall,</span></div><div class="l " id="l146"><a class="n " href="#l146">146</a><span class="t">That I did suit me all points like a man?</span></div><div class="l " id="l147"><a class="n " href="#l147">147</a><span class="t">A gallant curtal-ax upon my thigh,</span></div><div class="l " id="l148"><a class="n " href="#l148">148</a><span class="t">A boar-spear in my hand, and — in my heart</span></div><div class="l " id="l149"><a class="n " href="#l149">149</a><span class="t">Lie there what hidden woman&#39;s fear there will —</span></div><div class="l " id="l150"><a class="n m5" href="#l150">150</a><span class="t">We&#39;ll have a swashing and a martial outside,</span></div><div class="l " id="l151"><a class="n " href="#l151">151</a><span class="t">As many other mannish cowards have</span></div><div class="l " id="l152"><a class="n " href="#l152">152</a><span class="t">That do outface it with their semblances.</span></div>
+</div>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l153"><a class="n " href="#l153">153</a><span class="t">What shall I call thee when thou art a man?</span></div>
+</div>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l154"><a class="n " href="#l154">154</a><span class="t">I&#39;ll have no worse a name than Jove&#39;s own page,</span></div><div class="l " id="l155"><a class="n m5" href="#l155">155</a><span class="t">And therefore look you call me Ganymede.</span></div><div class="l " id="l156"><a class="n " href="#l156">156</a><span class="t">But what will you be called?</span></div>
+</div>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l157"><a class="n " href="#l157">157</a><span class="t">Something that hath a reference to my state:</span></div><div class="l " id="l158"><a class="n " href="#l158">158</a><span class="t">No longer Celia, but Aliena.</span></div>
+</div>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALIND
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l159"><a class="n " href="#l159">159</a><span class="t">But, cousin, what if we assayed to steal</span></div><div class="l " id="l160"><a class="n m5" href="#l160">160</a><span class="t">The clownish fool out of your father&#39;s court?</span></div><div class="l " id="l161"><a class="n " href="#l161">161</a><span class="t">Would he not be a comfort to our travel?</span></div>
+</div>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l162"><a class="n " href="#l162">162</a><span class="t">He&#39;ll go along o&#39;er the wide world with me.</span></div><div class="l " id="l163"><a class="n " href="#l163">163</a><span class="t">Leave me alone to woo him. Let&#39;s away,</span></div><div class="l " id="l164"><a class="n " href="#l164">164</a><span class="t">And get our jewels and our wealth together,</span></div><div class="l " id="l165"><a class="n m5" href="#l165">165</a><span class="t">Devise the fittest time and safest way</span></div><div class="l " id="l166"><a class="n " href="#l166">166</a><span class="t">To hide us from pursuit that will be made</span></div><div class="l " id="l167"><a class="n " href="#l167">167</a><span class="t">After my flight. Now go we in content</span></div><div class="l " id="l168"><a class="n " href="#l168">168</a><span class="t">To liberty, and not to banishment.</span></div>
+</div>
+</div><p class="sd " id="l168-sd1">Exeunt.</p>
+      </section>
+    
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  
+  <a href="act-2.html" rel="next">Act II →</a>
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

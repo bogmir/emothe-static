@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ACTE V — Le moyen d&#39;attraper un vieillard — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">PERSONNAGES</a></li>
+      
+  
+    
+        <li>
+          <a href="act-1.html">
+            ACTE PREMIER
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html">
+            ACTE II
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            ACTE III
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-4.html">
+            ACTE IV
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-5.html" aria-current="page">
+            ACTE V
+          </a>
+          <ul>
+            <li>
+              
+                  <a href="act-5.html#act-5-s1">
+                    SCÈNE PREMIÈRE.
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-5.html#act-5-s2">
+                    SCÈNE II.
+                  </a>
+              
+            </li>
+          </ul>
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="WITGOOD">
+        WITGOOD
+      </option><option value="LUCRE">
+        LUCRE
+      </option><option value="HOARD">
+        HOARD
+      </option><option value="ONÉSIPHORUS_HOARD">
+        ONÉSIPHORUS HOARD
+      </option><option value="LIMBER">
+        LIMBER
+      </option><option value="KIX">
+        KIX
+      </option><option value="LAMPREY">
+        LAMPREY
+      </option><option value="SPICHCOCK">
+        SPICHCOCK
+      </option><option value="DAMPIT">
+        DAMPIT
+      </option><option value="GULF">
+        GULF
+      </option><option value="MONEYLOVE">
+        MONEYLOVE
+      </option><option value="SIR_LAUNCELOT">
+        SIR LAUNCELOT
+      </option><option value="CRÉANCIERS">
+        CRÉANCIERS
+      </option><option value="GENTILSHOMMES">
+        GENTILSHOMMES
+      </option><option value="GEORGE">
+        GEORGE
+      </option><option value="COURTISANE">
+        LA COURTISANE
+      </option><option value="MISTRESS_LUCRE">
+        MISTRESS LUCRE
+      </option><option value="JOYCE">
+        JOYCE
+      </option><option value="LADY_FOXTONE">
+        LADY FOXTONE
+      </option><option value="ANDREY">
+        ANDREY
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="asm" aria-label="Resaltar apartes" data-en-aria-label="Highlight asides" data-tr>
+        <x-es>Apartes</x-es><x-en>Asides</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .aparte, .text .pr.as, .text .pr:not(.as) span.as" data-for="asm">
+  <button type="button" data-step="-1" aria-label="Aparte anterior" data-en-aria-label="Previous aside" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente aparte" data-en-aria-label="Next aside" data-tr>›</button>
+</div>
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">Thomas Middleton</p>
+  <h1><a href="index.html">Le moyen d&#39;attraper un vieillard</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-4.html" rel="prev">← ACTE IV</a>
+  
+</nav>
+  <div class="text" lang="fr" data-cite="Thomas Middleton, Le moyen d&#39;attraper un vieillard, ACTE V" data-cite-verse="int." data-cite-prose="int.">
+    
+    <section class="division" id="act-5">
+  <h2 class="act-head">
+    ACTE V
+  </h2>
+  
+  
+  
+    
+      <section id="act-5-s1">
+        <h3 class="scene-head">
+          SCÈNE PREMIÈRE.
+        </h3>
+        <p class="sd " id="l892-sd2">Une chambre dans la maison de Lucre.</p><p class="sd " id="l892-sd3">Entrent LUCRE et WITGOOD.</p><div class="sp " data-who="WITGOOD">
+  <p class="spk ">
+    WITGOOD
+  </p>
+  <p class="pr " id="l893"><a class="pn " href="#l893">893</a>Laissez-moi vous persuader. Il nous a invités.</p>
+</div><div class="sp " data-who="LUCRE">
+  <p class="spk ">
+    LUCRE
+  </p>
+  <p class="pr " id="l894"><a class="pn " href="#l894">894</a>J’eprouverai une grande joie quand il emmènera la veuve.</p>
+</div><div class="sp " data-who="WITGOOD">
+  <p class="spk ">
+    WITGOOD
+  </p>
+  <p class="pr " id="l895"><a class="pn m5" href="#l895">895</a>Vous n’y êtes pas!</p>
+</div><div class="sp " data-who="LUCRE">
+  <p class="spk ">
+    LUCRE
+  </p>
+  <p class="pr " id="l896"><a class="pn " href="#l896">896</a>Ne l’a-t-il pas épousée ?</p>
+</div><div class="sp " data-who="WITGOOD">
+  <p class="spk ">
+    WITGOOD
+  </p>
+  <p class="pr " id="l897"><a class="pn " href="#l897">897</a>Non, mon oncle!</p>
+</div><div class="sp " data-who="LUCRE">
+  <p class="spk ">
+    LUCRE
+  </p>
+  <p class="pr " id="l898"><a class="pn " href="#l898">898</a>Comment!</p>
+</div><div class="sp " data-who="WITGOOD">
+  <p class="spk ">
+    WITGOOD
+  </p>
+  <p class="pr " id="l899"><a class="pn " href="#l899">899</a>Voulez-vous savoir la vérité? Il a épousé une drôlesse!</p>
+</div><div class="sp " data-who="LUCRE">
+  <p class="spk ">
+    LUCRE
+  </p>
+  <p class="pr " id="l900"><a class="pn m5" href="#l900">900</a>Je m’en réjouirais!</p>
+</div><div class="sp " data-who="WITGOOD">
+  <p class="spk ">
+    WITGOOD
+  </p>
+  <p class="pr " id="l901"><a class="pn " href="#l901">901</a>Je veux mourir si je mens.</p>
+</div><div class="sp " data-who="LUCRE">
+  <p class="spk ">
+    LUCRE
+  </p>
+  <p class="pr " id="l902"><a class="pn " href="#l902">902</a>Je ferais dix milles pour assister à un pareil spectacle!</p>
+</div><div class="sp " data-who="WITGOOD">
+  <p class="spk ">
+    WITGOOD
+  </p>
+  <p class="pr " id="l903"><a class="pn " href="#l903">903</a>Vous y assisterez, ou je renonce à vous revoir.</p>
+</div><div class="sp " data-who="LUCRE">
+  <p class="spk ">
+    LUCRE
+  </p>
+  <p class="pr " id="l904"><a class="pn " href="#l904">904</a>Une drôlesse! Ah! ah! ah!</p>
+</div>
+      </section>
+    
+  
+    
+      <section id="act-5-s2">
+        <h3 class="scene-head">
+          SCÈNE II.
+        </h3>
+        <p class="sd " id="l904-sd1">Une chambre dans la maison de Hoard.</p><p class="sd " id="l904-sd2">Entrent HOARD, goutant du vin, et l’HOTELIER le suivant en livrée.</p><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l905"><a class="pn m5" href="#l905">905</a>Je n’aime pas ce vin. N’y en a-t-il pas de meilleur dans la maison?</p>
+</div><div class="sp " data-who="HOTELIER">
+  <p class="spk ">
+    L’HOTELIER
+  </p>
+  <p class="pr " id="l906"><a class="pn " href="#l906">906</a>Si, monsieur. Elle renferme les meilleurs vins de l’Angleterre.</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l907"><a class="pn " href="#l907">907</a>Que votre maîtresse le goûte, elle s’y connaît mieux que vous!</p>
+</div><div class="sp " data-who="HOTELIER">
+  <p class="spk ">
+    L’HOTELIER
+  </p>
+  <p class="pr as" id="l908"><a class="pn " href="#l908">908</a><span class="sdi">(à part)</span> Tant mieux pour elle, et tant pis pour moi!</p>
+</div><p class="sd " id="l908-sd1">(Il sort).</p><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l909"><a class="pn " href="#l909">909</a>Arthur! <span class="sdi">(Entre ARTHUR).</span><br>Avez-vous mis la vaisselle d’argent?</p>
+</div><div class="sp " data-who="ARTHUR">
+  <p class="spk ">
+    ARTHUR
+  </p>
+  <p class="pr " id="l910"><a class="pn m5" href="#l910">910</a>Tout est prêt.</p>
+</div><p class="sd " id="l910-sd1">(Il sort).</p><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l911"><a class="pn " href="#l911">911</a>Je suis enchanté de ma livrée, elle représente bien.</p>
+</div><p class="sd " id="l911-sd1">(Entre JOYCE).</p><div class="sp " data-who="JOYCE">
+  <p class="spk ">
+    JOYCE
+  </p>
+  <p class="pr " id="l912"><a class="pn " href="#l912">912</a>Vous appelez?</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l913"><a class="pn " href="#l913">913</a>Je t’en prie, mets-y un peu d’empressement et surveille les domestiques. Ils me volent et envoient tous les pâtés à leurs femmes. En bonne nièce, ne me laisse pas gruger!</p>
+</div><div class="sp " data-who="JOYCE">
+  <p class="spk ">
+    JOYCE
+  </p>
+  <p class="pr " id="l914"><a class="pn " href="#l914">914</a>Ne craignez rien. Je veille. <span class="sdi">(A part).</span> <span class="as">Quoique la fête soit préparée pour vous, elle servira à mon repas de noces!</span></p>
+</div><p class="sd " id="l914-sd1">(Elle sort).</p><p class="sd " id="l914-sd2">(Entrent LAMPREY et SPICHCOCK).</p><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l915"><a class="pn m5" href="#l915">915</a>Master Lamprey, et master Spichcock! La bienvenue à tous deux. Vos pères et le mien vendaient du poisson.</p>
+</div><div class="sp " data-who="LAMPREY">
+  <p class="spk ">
+    LAMPREY
+  </p>
+  <p class="pr " id="l916"><a class="pn " href="#l916">916</a>En effet, vous avez devant vous de fameux hôtes et qui ne se font pas prier.</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l917"><a class="pn " href="#l917">917</a>Et comme ils ont raison! <span class="sdi">(Entre un SERVITEUR).</span><br>Qu’y a-t-il, coquin ?</p>
+</div><div class="sp " data-who="SERVITEUR">
+  <p class="spk ">
+    LE SERVITEUR
+  </p>
+  <p class="pr " id="l918"><a class="pn " href="#l918">918</a>Une voiture s’arrête à la porte.</p>
+</div><p class="sd " id="l918-sd1">(Il sort)</p><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l919"><a class="pn " href="#l919">919</a>Ma chère Lady Foxtone! Mistress Jane Hoard, ma femme! Par la messe, c’est bien la femme du Chevalier!</p>
+</div><p class="sd " id="l919-sd1">(Entre LADY FOXTONE).</p><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l920"><a class="pn m5" href="#l920">920</a>Madame, soyez la bienvenue dans cette modeste maison, où le repas sera très simple et le service plus ou moins bien fait!</p>
+</div><div class="sp " data-who="LADY_FOXTONE">
+  <p class="spk ">
+    LADY FOXTONE
+  </p>
+  <p class="pr " id="l921"><a class="pn " href="#l921">921</a>Vous vous calomniez!</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l922"><a class="pn " href="#l922">922</a>Femme!</p>
+</div><p class="sd " id="l922-sd1">(Entre LA COURTISANE).</p><div class="sp " data-who="LADY_FOXTONE">
+  <p class="spk ">
+    LADY FOXTONE
+  </p>
+  <p class="pr " id="l923"><a class="pn " href="#l923">923</a>Votre épouse?</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l924"><a class="pn " href="#l924">924</a>Oui, madame. Salue Lady Foxtone.</p>
+</div><div class="sp " data-who="COURTISANE">
+  <p class="spk ">
+    LA COURTISANE
+  </p>
+  <p class="pr " id="l925"><a class="pn m5" href="#l925">925</a>Voulez-vous, Madame, faire un tour de jardin?</p>
+</div><div class="sp " data-who="LADY_FOXTONE">
+  <p class="spk ">
+    LADY FOXTONE
+  </p>
+  <p class="pr " id="l926"><a class="pn " href="#l926">926</a>S’il vous plait.</p>
+</div><p class="sd " id="l926-sd1">(Sortent Lady Foxtone, et la Courtisane).</p><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l927"><a class="pn " href="#l927">927</a>Est-il vie plus agréable que celle d’un homme marié? Une joie comparable à celle que vous procure une épouse?</p>
+</div><div class="sp " data-who="LAMPREY">
+  <p class="spk ">
+    LAMPREY
+  </p>
+  <p class="pr " id="l928"><a class="pn " href="#l928">928</a>Tel est notre avis à nous autres célibataires qui n’en subissons pas les ennuis.</p>
+</div><p class="sd " id="l928-sd1">(Entre le SERVITEUR).</p><div class="sp " data-who="SERVITEUR">
+  <p class="spk ">
+    LE SERVITEUR
+  </p>
+  <p class="pr " id="l929"><a class="pn " href="#l929">929</a>Le frère de votre Seigneurie, accompagné de vieux gentlemen, vient d’arriver.</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l930"><a class="pn m5" href="#l930">930</a>Master Onésiphorus Hoard? Les autres vont suivre. <span class="sdi">(Entrent ONESIPHORUS HOARD, LIMBER et KIX).</span><br>Mon cher et bon frère, soyez le bienvenu!</p>
+</div><div class="sp " data-who="ONÉSIPHORUS_HOARD">
+  <p class="spk ">
+    ONÉSIPHORUS
+  </p>
+  <p class="pr " id="l931"><a class="pn " href="#l931">931</a>Vous voyez que nous sommes des gens exacts?</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l932"><a class="pn " href="#l932">932</a>Je dois en convenir. Quand il s’agit d’arriver à une fête, vous êtes le plus exact de la contrée. Quoi! master Limber et master Kix! Quelle joie de vous voir!</p>
+</div><div class="sp " data-who="ONÉSIPHORUS_HOARD">
+  <p class="spk ">
+    ONÉSIPHORUS
+  </p>
+  <p class="pr " id="l933"><a class="pn " href="#l933">933</a>Alors, mon frère, vous avez mis la main sur la veuve Medler?</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l934"><a class="pn " href="#l934">934</a>Malgré tout; car je dois vous prévenir que j’ai de puissants ennemis qui s’en désolent. Le vieux Lucre est un malin renard, je puis le garantir.</p>
+</div><div class="sp " data-who="ONÉSIPHORUS_HOARD">
+  <p class="spk ">
+    ONÉSIPHORUS
+  </p>
+  <p class="pr " id="l935"><a class="pn m5" href="#l935">935</a>Où est-elle? Je vais la chercher; il me tarde de l’embrasser!</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l936"><a class="pn " href="#l936">936</a>La voilà qui vient! <span class="sdi">(Rentrent la COURTISANE et LADY FOXTONE).</span><br>Embrasse-la!</p>
+</div><div class="sp " data-who="COURTISANE">
+  <p class="spk ">
+    LA COURTISANE
+  </p>
+  <p class="pr as" id="l937"><a class="pn " href="#l937">937</a><span class="sdi">(à part.)</span> Ciel! je suis perdue! Je connais cette figure!</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l938"><a class="pn " href="#l938">938</a>Ah! ah! ah! Ah! ah! Avez-vous honte tous les deux?</p>
+</div><div class="sp " data-who="ONÉSIPHORUS_HOARD">
+  <p class="spk ">
+    ONÉSIPHORUS
+  </p>
+  <p class="pr " id="l939"><a class="pn " href="#l939">939</a>Frère, ecoutez-moi. Vous êtes disposé à rire.</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l940"><a class="pn m5" href="#l940">940</a>C’est le jour, il me semble?</p>
+</div><div class="sp " data-who="ONÉSIPHORUS_HOARD">
+  <p class="spk ">
+    ONÉSIPHORUS
+  </p>
+  <p class="pr " id="l941"><a class="pn " href="#l941">941</a>Ah! ah! c’est différent. Rien ne m’effraye plus que de vous voir triste.</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l942"><a class="pn " href="#l942">942</a>Qu’entendez-vous par là, mon frère?</p>
+</div><div class="sp " data-who="ONÉSIPHORUS_HOARD">
+  <p class="spk ">
+    ONÉSIPHORUS
+  </p>
+  <p class="pr " id="l943"><a class="pn " href="#l943">943</a>Vous dites qu’elle est votre femme?</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l944"><a class="pn " href="#l944">944</a>Parfaitement!</p>
+</div><div class="sp " data-who="ONÉSIPHORUS_HOARD">
+  <p class="spk ">
+    ONÉSIPHORUS
+  </p>
+  <p class="pr " id="l945"><a class="pn m5" href="#l945">945</a>Sans plaisanterie?</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l946"><a class="pn " href="#l946">946</a>Pourquoi mentirais-je à mes amis? Si le mariage peut unir deux êtres, elle est mienne!</p>
+</div><div class="sp " data-who="ONÉSIPHORUS_HOARD">
+  <p class="spk ">
+    ONÉSIPHORUS
+  </p>
+  <p class="pr " id="l947"><a class="pn " href="#l947">947</a>Je ne me sens pas très bien! Excusez-moi, mon frère, je ne pourrai pas profiter de votre diner.</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l948"><a class="pn " href="#l948">948</a>Vous ne me ferez pas cette injure?</p>
+</div><div class="sp " data-who="LAMPREY">
+  <p class="spk ">
+    LAMPREY
+  </p>
+  <p class="pr " id="l949"><a class="pn " href="#l949">949</a>Avec votre permission, master Hoard…</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l950"><a class="pn m5" href="#l950">950</a>Quoi encore? Voyons, Messieurs, montrez-vous plus raisonnables!</p>
+</div><div class="sp " data-who="LAMPREY">
+  <p class="spk ">
+    LAMPREY
+  </p>
+  <p class="pr " id="l951"><a class="pn " href="#l951">951</a>Nous n’avons été que trop fous en venant ici!</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l952"><a class="pn " href="#l952">952</a>Hein!</p>
+</div><div class="sp " data-who="KIX">
+  <p class="spk ">
+    KIX
+  </p>
+  <p class="pr " id="l953"><a class="pn " href="#l953">953</a>Fi! Fi! un homme de votre réputation et de votre rang! Vous prétendez fêter vos amis et vous commencez par leur faire honte!</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l954"><a class="pn " href="#l954">954</a>La plaisanterie commence à dépasser les bornes. Expliquez-vous!</p>
+</div><div class="sp " data-who="LAMPREY">
+  <p class="spk ">
+    LAMPREY
+  </p>
+  <p class="pr " id="l955"><a class="pn m5" href="#l955">955</a>A votre âge ! S’amouracher d’une courtisane!</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l956"><a class="pn " href="#l956">956</a>Hein!</p>
+</div><div class="sp " data-who="KIX">
+  <p class="spk ">
+    KIX
+  </p>
+  <p class="pr " id="l957"><a class="pn " href="#l957">957</a>D’une coquine!</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l958"><a class="pn " href="#l958">958</a>Messieurs!</p>
+</div><div class="sp " data-who="ONÉSIPHORUS_HOARD">
+  <p class="spk ">
+    ONÉSIPHORUS
+  </p>
+  <p class="pr " id="l959"><a class="pn " href="#l959">959</a>De la maîtresse de Witgood!</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l960"><a class="pn m5" href="#l960">960</a>Elle ne possède ni biens, ni moyens d’existence?</p>
+</div><div class="sp " data-who="ONÉSIPHORUS_HOARD">
+  <p class="spk ">
+    ONÉSIPHORUS
+  </p>
+  <p class="pr " id="l961"><a class="pn " href="#l961">961</a>Des moyens d’existence!</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l962"><a class="pn " href="#l962">962</a>Parlez!</p>
+</div><div class="sp " data-who="COURTISANE">
+  <p class="spk ">
+    LA COURTISANE
+  </p>
+  <p class="pr " id="l963"><a class="pn " href="#l963">963</a>Hélas! je vous ai bien prévenu que je ne possédais rien!</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l964"><a class="pn " href="#l964">964</a>Je suis trompé! Absolument dupé!</p>
+</div><div class="sp " data-who="LAMPREY">
+  <p class="spk ">
+    LAMPREY
+  </p>
+  <p class="pr " id="l965"><a class="pn m5" href="#l965">965</a>Master Hoard…</p>
+</div><p class="sd " id="l965-sd1">(Entrent LUCRE, WITGOOD et JOYCE).</p><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l966"><a class="pn " href="#l966">966</a>Une veuve allemande!</p>
+</div><div class="sp " data-who="LUCRE">
+  <p class="spk ">
+    LUCRE
+  </p>
+  <p class="pr " id="l967"><a class="pn " href="#l967">967</a>Eh bien! mon neveu, tu m’as encore menti! Veux-tu me rendre fou? N’est-ce pas là la veuve?</p>
+</div><div class="sp " data-who="WITGOOD">
+  <p class="spk ">
+    WITGOOD
+  </p>
+  <p class="pr " id="l968"><a class="pn " href="#l968">968</a>Que vous êtes difficile à convaincre! C’est une prostituée.</p>
+</div><div class="sp " data-who="LUCRE">
+  <p class="spk ">
+    LUCRE
+  </p>
+  <p class="pr " id="l969"><a class="pn " href="#l969">969</a>En ce cas, tu es un misérable!</p>
+</div><div class="sp " data-who="WITGOOD">
+  <p class="spk ">
+    WITGOOD
+  </p>
+  <p class="pr " id="l970"><a class="pn m5" href="#l970">970</a><em>Negatur argumentum</em>, mon oncle.</p>
+</div><div class="sp " data-who="LUCRE">
+  <p class="spk ">
+    LUCRE
+  </p>
+  <p class="pr " id="l971"><a class="pn " href="#l971">971</a><em>Probo tibi</em>, neveu. Celui qui sait qu’une femme est prostituée doit être évidemment un coquin. Tu sais que celle-ci en est une, donc, si c’est vrai, tu es un drôle!</p>
+</div><div class="sp " data-who="WITGOOD">
+  <p class="spk ">
+    WITGOOD
+  </p>
+  <p class="pr " id="l972"><a class="pn " href="#l972">972</a><em>Negatur sequeta majoris</em>, mon oncle. Je nie qu’un homme soit nécessairement un coquin parce qu’il sait qu’une femme est une prostituée.</p>
+</div><div class="sp " data-who="LUCRE">
+  <p class="spk ">
+    LUCRE
+  </p>
+  <p class="pr " id="l973"><a class="pn " href="#l973">973</a>Pourquoi m’as-tu fait inviter au repas de noces?</p>
+</div><div class="sp " data-who="WITGOOD">
+  <p class="spk ">
+    WITGOOD
+  </p>
+  <p class="pr " id="l974"><a class="pn " href="#l974">974</a>N’avons-nous pas juré devant témoins, et le verre en main, de demeurer perpétuellement amis?</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l975"><a class="pn m5" href="#l975">975</a>Vous m’avez abusé! Vous m’avez mis une drôlesse sur le dos!</p>
+</div><div class="sp " data-who="LUCRE">
+  <p class="spk ">
+    LUCRE
+  </p>
+  <p class="pr " id="l976"><a class="pn " href="#l976">976</a>Ah! ah! ah! ah!</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l977"><a class="pn " href="#l977">977</a>Une fille à tout le monde!</p>
+</div><div class="sp " data-who="WITGOOD">
+  <p class="spk ">
+    WITGOOD
+  </p>
+  <p class="pr " id="l978"><a class="pn " href="#l978">978</a>Vous la calomniez, monsieur. A sa place, je vous intenterais un procès. J’affirme que ses manières et sa façon de voir, ne sont pas celles de tout le monde.</p>
+</div><div class="sp " data-who="COURTISANE">
+  <p class="spk ">
+    LA COURTISANE
+  </p>
+  <p class="pr " id="l979"><a class="pn " href="#l979">979</a>Méprisez-moi, montrez-moi du doigt, je n’en suis pas moins votre femme. Quelle honte puis-je supporter maintenant dont vous n’ayez votre part? Si vous partagez ma disgrace, est-ce ma faute? C’est vous qui m’avez poursuivie, contrainte, enlevée.</p>
+</div><div class="sp " data-who="ONÉSIPHORUS_HOARD">
+  <p class="spk ">
+    ONÉSIPHORUS
+  </p>
+  <p class="pr " id="l980"><a class="pn m5" href="#l980">980</a>Frère !...</p>
+</div><div class="sp " data-who="COURTISANE">
+  <p class="spk ">
+    LA COURTISANE
+  </p>
+  <p class="pr " id="l981"><a class="pn " href="#l981">981</a>Me suis-je jamais vantée devant vous de ma terre, de mes immeubles, de mon argent? J’ai franchement avoué ne posséder rien. Si une erreur a été commise, la faute vous en revient. N’en accusez que votre folie! Et puis suis-je si déformée que je ne puisse plaire à un vieillard de votre espèce? La femme qui n’a pas tâté du péché à vingt ou vingt et un ans, en tâtera après. Beaucoup d’hommes de votre âge, satisfaits d’épouser des jeunes vierges, en subissent les conséquences. En épousant une femme comme moi, vous nous évitez à tous deux un péché, et vous ne courez pas le risque d’être cocu. En un mot, revenez à de meilleurs sentiments; la femme qui connaît le péché est plus qu’une autre portée à le haïr.</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l982"><a class="pn " href="#l982">982</a>Malédiction sur la méchanceté! Les fruits noirs de la haine empoisonnent ceux qui les cultivent! O mes amis! l’unique moyen d’atténuer ma honte est de la subir! Ah! Witgood! Ah! Théodorus!</p>
+</div><div class="sp " data-who="WITGOOD">
+  <p class="spk ">
+    WITGOOD
+  </p>
+  <p class="pr " id="l983"><a class="pn " href="#l983">983</a>En conscience, je me faisais un devoir de la remettre entre bonnes mains. Où pouvait-elle mieux être qu’entre les vôtres, que je sais pitoyables? Je jure avoir été le seul à la posséder. Je l’ai quittée dans le but d’épouser votre nièce.</p>
+</div><div class="sp " data-who="COURTISANE">
+  <p class="spk ">
+    LA COURTISANE
+  </p>
+  <p class="pr " id="l984"><a class="pn " href="#l984">984</a><span class="sdi">(s’agenouillant)</span> Messieurs, devant vous tous, je jure de m’amender. Je défie à jamais les regards pervers, les gestes compromettants, les appels du pied, les signes du doigt, les tremblements des lèvres, les allures folâtres, les promenades séduisantes, les amis secrets, les rendez-vous clandestins, les billets galants et les entremetteuses. Je jure de ne point négliger les travaux féminins qui m’appelleront aux environs, de ne plus me droguer, de ne plus soumettre mon sang à l’influence des planètes, de ne plus changer de lit ou partager avec des amis celui de l’époux, de ne jamais me réjouir à vos dépens, de ne pas dépenser vos économies, ou faire des enfants dont vous ne seriez que le père supposé! Autant de méfaits que j’abhorre.</p>
+</div><div class="sp " data-who="LUCRE">
+  <p class="spk ">
+    LUCRE
+  </p>
+  <p class="pr " id="l985"><a class="pn m5" href="#l985">985</a><span class="sdi">(à Witgood)</span> Voici une leçon méritée, libertin.</p>
+</div><div class="sp " data-who="WITGOOD">
+  <p class="spk ">
+    WITGOOD
+  </p>
+  <p class="pr " id="l986"><a class="pn " href="#l986">986</a>Je veux confesser aussi mes folies. <span class="sdi">(S’agenouillant)</span> Je renonce à ces corrupteurs de la jeunesse, le jeu, les dés, qui font sortir de terre les mendiants, les filous, et les entremetteurs; aux excès de table, aux intempérances, aux mauvaises femmes, aux régimes des docteurs, aux régimes des apothicaires, aux lavements des chirurgiens, aux saignements de bras pour une femme publique, aux échanges de rubans, aux discours libertins, aux pourpoints parfumés, aux flapdragons hollandais, aux toasts à l’urine. Et je me relève comme un homme corrigé qui hait désormais le vice!</p>
+</div><div class="sp " data-who="HOARD">
+  <p class="spk ">
+    HOARD
+  </p>
+  <p class="pr " id="l987"><a class="pn " href="#l987">987</a>Maintenant, mes amis, le dîner refroidit. Les plus malins sont parfois les plus fous!</p>
+</div><p class="sd " id="l987-sd1">(Ils sortent).</p><p class="tr">FIN.</p>
+      </section>
+    
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-4.html" rel="prev">← ACTE IV</a>
+  
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

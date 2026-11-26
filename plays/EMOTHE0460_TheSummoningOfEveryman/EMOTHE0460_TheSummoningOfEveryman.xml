@@ -1,0 +1,3071 @@
+<?xml version="1.0" ?>
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Summoning of Everyman</title>
+        <title type="edicion">&quot;The Summoning of Everyman&quot; de [anonymous]: Edición TEI para EMOTHE</title>
+        <title key="orden">Summoning of Everyman The</title>
+        <title key="archivo">EMOTHE0460_TheSummoningOfEveryman</title>
+        <author ana="fiable">[anonymous]</author>
+        <author key="orden">[anonymous]</author>
+        <sponsor>
+          <orgName>Plan Nacional de Investigación Científica, Desarrollo e Innovación Tecnológica (Plan Nacional de I+D+i)</orgName>
+        </sponsor>
+        <funder>
+          <orgName>Ministerio de Ciencia e Innovación – Agencia Estatal de Investigación -FEDER/ERDF: &quot;Teatro español y europeo de los siglos XVI y XVII: patrimonio y bases de datos&quot; (EMOTHE) ref. PID2019-104045GB-C54 (2020-06-01 / 2023-05-31); Ministerio de Ciencia, Innovación y Universidades, Ministerio de Economía y Competitividad – Agencia Estatal de Investigación -FEDER/ERDF: &quot;Teatro europeo de los siglos XVI y XVII: patrimonio y bases de datos&quot; (EMOTHE) ref. FFI2016-80314-P (2016-12-30 /2019-12-31); Programa Estatal Redes de Excelencia, &quot;Red del Patrimonio Teatral Clásico Español&quot;, ref. FFI2015-71441-REDC (2015-12-01 / 2017-11-30); Ministerio de Ciencia e Innovación, &quot;Base de datos, argumentos y textos del teatro clásico español&quot;, ref. FFI2012-34347 (2013-02-01 / 2016-12-31); Ministerio de Ciencia e Innovación, &quot;Patrimonio teatral clásico español: textos e instrumentos de investigación&quot;, ref. CSD 2009-00033 (2009-12-17 / 2014-12-13); Ministerio de Ciencia e Innovación, &quot;ARTELOPE. Base de datos, argumentos y textos del teatro clásico español&quot;, ref. FFI2009-12730 (2010-01-01 / 2012-12-31)</orgName>
+        </funder>
+        <principal>Joan Oleza Simó</principal>
+      </titleStmt>
+      <editionStmt>
+        <edition>Edición electrónica de &apos;The Summoning of Everyman&apos;</edition>
+        <respStmt>
+          <resp>Electronic edition: text adapted, edited for XML and encoded by</resp>
+          <persName>Tronch Pérez, Jesús</persName>
+        </respStmt>
+      </editionStmt>
+      <extent ana="verso">921 versos</extent>
+      <publicationStmt>
+        <publisher>
+          <orgName>ARTELOPE/EMOTHE Universitat de València</orgName>
+        </publisher>
+        <idno type="code">EMOTHE0460_TheSummoningOfEveryman</idno>
+        <idno type="EMOTHE">0460</idno>
+        <pubPlace>Valencia</pubPlace>
+        <date>2018</date>
+        <authority>
+          <orgName>Universitat de València - Estudi General. http://www.uv.es</orgName>
+        </authority>
+        <availability>
+          <p>La Biblioteca Digital EMOTHE: The Classics of Early Modern European Theatre pertenece al proyecto EMOTHE del grupo de investigación ARTELOPE y ofrece en la web textos completos en acceso abierto, según la licencia que se indique. Se ruega citar la procedencia: &quot;Oleza, Joan et al. EMOTHE: The Classics of Early Modern European Theatre. Valencia: ARTELOPE/EMOTHE Universitat de València, 2010-. https://emothe.uv.es/biblioteca/&quot;</p>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en">The TEI encoding of this work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>The Summoning of Everyman</title>
+          <author>anonymous</author>
+          <editor>Tronch Pérez, Jesús</editor>
+          <lang>Inglés</lang>
+<note><emph>The Summoning of Everyman: A Critical, Modernized Edition Based on the Third Quarto</emph>. Edited by Jesús Tronch Pérez. Valencia: ARTELOPE - EMOTHE Universitat de València, 2019. Text-only edition first published in 2018.</note>
+        </bibl>
+        <listWit>
+          <witness n="Q1" xml:id="Q1">
+            <bibl>
+              <note>anon. [no title page]. London: printed by Richard Pynson, [1518-19?]. STC 10604.</note>
+            </bibl>
+          </witness>
+          <witness n="Q2" xml:id="Q2">
+            <bibl>
+              <note>anon. [no title page]. London: printed by Richard Pynson, [1526-28?]. STC 10604.5</note>
+            </bibl>
+          </witness>
+          <witness n="Q3" xml:id="Q3">
+            <bibl>
+              <note>anon. Here begynneth a treatyse how ye hye fader of heuen sendeth dethe to somon euery creature to come and gyue a counte of theyr lyues in this worlde and is in maner of a morall playe. London: printed by John Skot, [1521-8?]. STC 10606</note>
+            </bibl>
+          </witness>
+          <witness n="Q4" xml:id="Q4">
+            <bibl>
+              <note>anon. Here begynneth a treatyse how the hye fader of heuen sendeth dethe to somon euery creature to come and gyue a counte of theyr lyues in this worlde and is in maner of a morall playe. London: printed by John Skot, [1528-31?]. STC 10606.5.</note>
+            </bibl>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>La Biblioteca Digital EMOTHE (antes denominada Colección de Textos Clásicos Europeos (CTCE)) supone la creación de una base de datos de teatro clásico europeo en diferentes idiomas, versiones y refundiciones, todas ellas hipervinculadas.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Las presentes ediciones digitales están basadas, en su mayor parte, en ediciones científicas de reconocido prestigio y se ha tratado, en la mayoría de ocasiones, de respetar sus criterios de edición. Solo en casos muy puntuales el editor digital ha introducido leves cambios de los que da cumplida cuenta en el apartado de &quot;Notas&quot;.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="CDU">
+          <bibl>Clasificación Decimal Universal</bibl>
+        </taxonomy>
+      </classDecl>
+      <refsDecl>
+        <citeStructure match="/TEI/text/body//l[@n]" unit="verse" use="@n"/>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date>anterior o hasta 1518</date>
+      </creation>
+      <langUsage>
+        <language ident="en-EN">English</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#CDU">821.111-2</classCode>
+      </textClass>
+      <settingDesc>
+        <setting>
+          <time type="tiempo_alegorico"/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc>
+<change><date>2021</date> <persName>Muñoz Pons, Carlos</persName> Revisión de la obra en formato TEI-XML</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>
+            <title>The Summoning of Everyman</title>
+          </titlePart>
+        </docTitle>
+        <docAuthor>[anonymous]</docAuthor>
+      </titlePage>
+      <div type="nota_edicion_digital">
+        <head>Note on this digital edition</head>
+        <p>The editor expresses his heartfelt thanks to Eric Rasmussen and to David Bevington for faciliating materials for this critical edition.</p>
+<p><emph>In memoriam,</emph> David Bevington (1931-2019)</p>
+        <p>With the support of research project GVAICO2016-094, funded by Generalitat Valenciana (2016-2017).</p>
+        <p>TEI-edition DOI: 10.5281/zenodo.3958901</p>
+        <p>__________________________________________________</p>
+      </div>
+      <div type="head_title">
+        <p>[ The Summoning of Everyman ]</p>
+      </div>
+      <div type="title_page">
+        <p>Here beginneth a treatise how the High Father of heaven sendeth Death to summon every creature to come and give account of their lives in this world, and is in manner of a moral play.</p>
+      </div>
+      <div type="elenco">
+        <head>[Dramatis Personae</head>
+        <castList>
+          <castItem>
+            <role xml:id="messenger">Messenger</role>
+          </castItem>
+          <castItem>
+            <role xml:id="god">God</role>
+          </castItem>
+          <castItem>
+            <role xml:id="death">Death</role>
+          </castItem>
+          <castItem>
+            <role xml:id="everyman">Everyman</role>
+          </castItem>
+          <castItem>
+            <role xml:id="fellowship">Fellowship</role>
+          </castItem>
+          <castItem>
+            <role xml:id="kindred">Kindred</role>
+          </castItem>
+          <castItem>
+            <role xml:id="cousin">Cousin</role>
+          </castItem>
+          <castItem>
+            <role xml:id="goods">Goods</role>
+          </castItem>
+          <castItem>
+            <role xml:id="good_deeds">Good Deeds</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Knowledge">Knowledge</role>
+          </castItem>
+          <castItem>
+            <role xml:id="confession">Confession</role>
+          </castItem>
+          <castItem>
+            <role xml:id="beauty">Beauty</role>
+          </castItem>
+          <castItem>
+            <role xml:id="strength">Strength</role>
+          </castItem>
+          <castItem>
+            <role xml:id="discretion">Discretion</role>
+          </castItem>
+          <castItem>
+            <role xml:id="five_wits">Five Wits</role>
+          </castItem>
+          <castItem>
+            <role xml:id="angel">Angel</role>
+          </castItem>
+          <castItem>
+            <role xml:id="doctor">Doctor ]</role>
+          </castItem>
+        </castList>
+      </div>
+    </front>
+    <body>
+      <div1 n="0" type="play">
+<stage xml:id="em0460-en-st-1">[Enter Messenger as prologue.]<app n="1130" type="substantive"><lem wit="#ADA"><emph>[Enter Messenger as prologue.]</emph><note><p>subst.</p></note></lem></app></stage>
+        <sp who="#messenger" xml:id="em0460-en-sp-1">
+          <speaker>Messenger</speaker>
+          <lg part="M" type="free">
+            <l n="1" xml:id="em0460-en-1">I pray you all give your audience</l>
+            <l n="2" xml:id="em0460-en-2">And hear this matter with reverence,</l>
+            <l n="3" xml:id="em0460-en-3">By figure, a moral play:</l>
+<l n="4" xml:id="em0460-en-4"><emph>The Summoning of Everyman</emph> called it is,</l>
+            <l n="5" xml:id="em0460-en-5">That of our lives and ending shows</l>
+            <l n="6" xml:id="em0460-en-6">How transitory we be all day.</l>
+<l n="7" xml:id="em0460-en-7">This matter is wondrous<app n="1131" type="substantive"><lem wit="#Q4">wondrous</lem><rdg wit="#Q3">wonders</rdg></app> precious,</l>
+            <l n="8" xml:id="em0460-en-8">But the intent of it is more gracious</l>
+            <l n="9" xml:id="em0460-en-9">And sweet to bear away.</l>
+            <l n="10" xml:id="em0460-en-10">The story saith: Man, in the beginning</l>
+            <l n="11" xml:id="em0460-en-11">Look well and take good heed to the ending,</l>
+            <l n="12" xml:id="em0460-en-12">Be you never so gay!</l>
+            <l n="13" xml:id="em0460-en-13">Ye think sin in the beginning full sweet,</l>
+            <l n="14" xml:id="em0460-en-14">Which in the end causeth the soul to weep</l>
+            <l n="15" xml:id="em0460-en-15">When the body lieth in clay.</l>
+            <l n="16" xml:id="em0460-en-16">Here shall you see how fellowship and jollity,</l>
+            <l n="17" xml:id="em0460-en-17">Both strength, pleasure, and beauty,</l>
+            <l n="18" xml:id="em0460-en-18">Will fade from thee as flower in May;</l>
+            <l n="19" xml:id="em0460-en-19">For ye shall hear how our Heaven King</l>
+            <l n="20" xml:id="em0460-en-20">Calleth Everyman to a general reckoning.</l>
+            <l n="21" xml:id="em0460-en-21">Give audience and hear what he doth say.</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-2">[Exit.]<app n="1132" type="substantive"><lem wit="#ADA">[Exit.]</lem></app></stage>
+<stage xml:id="em0460-en-st-3">[Enter] God [and] speaketh:<app n="1261" type="substantive"><lem wit="#BRA"><emph>[Enter] God [and] speaketh:</emph><note><p>“[<emph>Enter</emph> God.]”</p></note></lem><rdg wit="#Q3">God speketh</rdg><rdg wit="#ADA"><emph>God speketh</emph> [<emph>from above.</emph>]</rdg></app></stage>
+        <sp who="#god" xml:id="em0460-en-sp-2">
+<speaker>[God]<app n="1262" type="substantive"><lem wit="#ADA">[God]</lem></app></speaker>
+          <lg part="M" type="free">
+            <l n="22" xml:id="em0460-en-22">I perceive, here in my majesty,</l>
+            <l n="23" xml:id="em0460-en-23">How that all creatures be to me unkind,</l>
+            <l n="24" xml:id="em0460-en-24">Living without dread in worldly prosperity.</l>
+            <l n="25" xml:id="em0460-en-25">Of ghostly sight the people be so blind,</l>
+            <l n="26" xml:id="em0460-en-26">Drowned in sin, they know me not for their God.</l>
+            <l n="27" xml:id="em0460-en-27">In worldly riches is all their mind;</l>
+<l n="28" xml:id="em0460-en-28">They fear not my righteousness, the sharp rod<app n="1135" type="substantive"><lem wit="#Q4">rod</lem><rdg wit="#Q3">rood</rdg></app>.</l>
+<l n="29" xml:id="em0460-en-29">My law<app n="1136" type="substantive"><lem wit="#Q3">law</lem><rdg wit="#BEV">love</rdg></app>, that I showed when I for them died,</l>
+            <l n="30" xml:id="em0460-en-30">They forget clean, and shedding of my blood red.</l>
+<l n="31" xml:id="em0460-en-31">I hanged between two<app n="1137" type="substantive"><lem wit="#Q3">two</lem><rdg wit="#Q4">two theues</rdg></app>, it cannot be denied;</l>
+            <l n="32" xml:id="em0460-en-32">To get them life I suffered to be dead;</l>
+            <l n="33" xml:id="em0460-en-33">I healed their feet; with thorns hurt was my head.</l>
+            <l n="34" xml:id="em0460-en-34">I could do no more than I did, truly;</l>
+            <l n="35" xml:id="em0460-en-35">And now I see the people do clean forsake me.</l>
+            <l n="36" xml:id="em0460-en-36">They use the seven deadly sins damnable,</l>
+            <l n="37" xml:id="em0460-en-37">As pride, covetise, wrath, and lechery</l>
+            <l n="38" xml:id="em0460-en-38">Now in the world be made commendable;</l>
+            <l n="39" xml:id="em0460-en-39">And thus they leave of angels the heavenly company.</l>
+            <l n="40" xml:id="em0460-en-40">Every man liveth so after his own pleasure,</l>
+            <l n="41" xml:id="em0460-en-41">And yet of their life they be nothing sure.</l>
+            <l n="42" xml:id="em0460-en-42">I see the more that I them forbear</l>
+            <l n="43" xml:id="em0460-en-43">The worse they be from year to year.</l>
+            <l n="44" xml:id="em0460-en-44">All that liveth appaireth fast.</l>
+            <l n="45" xml:id="em0460-en-45">Therefore I will, in all the haste,</l>
+            <l n="46" xml:id="em0460-en-46">Have a reckoning of every man&apos;s person.</l>
+            <l n="47" xml:id="em0460-en-47">For, an I leave the people thus alone</l>
+            <l n="48" xml:id="em0460-en-48">In their life and wicked tempests,</l>
+            <l n="49" xml:id="em0460-en-49">Verily they will become much worse than beasts,</l>
+            <l n="50" xml:id="em0460-en-50">For now one would by envy another up eat:</l>
+            <l n="51" xml:id="em0460-en-51">Charity they do all clean forget.</l>
+            <l n="52" xml:id="em0460-en-52">I hoped well that every man</l>
+            <l n="53" xml:id="em0460-en-53">In my glory should make his mansion,</l>
+            <l n="54" xml:id="em0460-en-54">And thereto I had them all elect.</l>
+            <l n="55" xml:id="em0460-en-55">But now I see, like traitors deject,</l>
+            <l n="56" xml:id="em0460-en-56">They thank me not for the pleasure that I to them meant,</l>
+            <l n="57" xml:id="em0460-en-57">Nor yet for their being that I them have lent.</l>
+            <l n="58" xml:id="em0460-en-58">I proffered the people great multitude of mercy,</l>
+            <l n="59" xml:id="em0460-en-59">And few there be that asketh it heartily.</l>
+            <l n="60" xml:id="em0460-en-60">They be so cumbered with worldly riches</l>
+            <l n="61" xml:id="em0460-en-61">That needs on them I must do justice,</l>
+            <l n="62" xml:id="em0460-en-62">On every man living without fear. —</l>
+            <l n="63" xml:id="em0460-en-63">Where art thou, Death, thou mighty messenger?</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-4">[Enter]<app n="1138" type="substantive"><lem wit="#ADA"><emph>[Enter]</emph></lem></app> Death.</stage>
+        <sp who="#death" xml:id="em0460-en-sp-3">
+          <speaker>Death</speaker>
+          <lg part="M" type="free">
+            <l n="64" xml:id="em0460-en-64">Almighty God, I am here at your will,</l>
+            <l n="65" xml:id="em0460-en-65">Your commandment to fulfill.</l>
+          </lg>
+        </sp>
+        <sp who="#god" xml:id="em0460-en-sp-4">
+          <speaker>God</speaker>
+          <lg part="M" type="free">
+            <l n="66" xml:id="em0460-en-66">Go thou to Everyman</l>
+            <l n="67" xml:id="em0460-en-67">And show him, in my name,</l>
+            <l n="68" xml:id="em0460-en-68">A pilgrimage he must on him take,</l>
+            <l n="69" xml:id="em0460-en-69">Which he in no wise may escape,</l>
+            <l n="70" xml:id="em0460-en-70">And that he bring with him a sure reckoning</l>
+<l n="71" xml:id="em0460-en-71">Without delay or any tarrying.<app n="1139" type="substantive"><lem wit="#Q3">tarrying.</lem><rdg wit="#BEV">tarrying [<emph>God withdraws.</emph>]</rdg></app></l>
+          </lg>
+        </sp>
+        <sp who="#death" xml:id="em0460-en-sp-5">
+          <speaker>Death</speaker>
+          <lg part="M" type="free">
+            <l n="72" xml:id="em0460-en-72">Lord, I will in the world go run over all</l>
+            <l n="73" xml:id="em0460-en-73">And truly outsearch both great and small.</l>
+<stage xml:id="em0460-en-st-5">[God withdraws.]<app n="1140" type="substantive"><lem wit="#BEV"><emph>[God withdraws.]</emph><note><p>after &apos;taryenge&apos; line 71</p></note></lem></app></stage>
+            <l n="74" xml:id="em0460-en-74">Every man will I beset that liveth beastly</l>
+            <l n="75" xml:id="em0460-en-75">Out of God&apos;s laws, and dreadeth not folly.</l>
+            <l n="76" xml:id="em0460-en-76">He that loveth richesse I will strike with my dart,</l>
+            <l n="77" xml:id="em0460-en-77">His sight to blind, and from heaven to depart</l>
+            <l n="78" xml:id="em0460-en-78">(Except that alms be his good friend)</l>
+            <l n="79" xml:id="em0460-en-79">In hell for to dwell, world without end.</l>
+<stage xml:id="em0460-en-st-6">[Enter Everyman at a distance.]<app n="1141" type="substantive"><lem wit="#ADA"><emph>[Enter Everyman at a distance.]</emph></lem><rdg wit="#LES">[<emph>Exit God.</emph>]<note><p>subst.</p></note></rdg></app></stage>
+            <l n="80" xml:id="em0460-en-80">Lo, yonder I see Everyman walking.</l>
+            <l n="81" xml:id="em0460-en-81">Full little he thinketh on my coming.</l>
+            <l n="82" xml:id="em0460-en-82">His mind is on fleshly lusts and his treasure,</l>
+            <l n="83" xml:id="em0460-en-83">And great pain it shall cause him to endure</l>
+            <l n="84" xml:id="em0460-en-84">Before the Lord Heaven King. —</l>
+            <l n="85" xml:id="em0460-en-85">Everyman, stand still! Whither art thou going</l>
+<l n="86" xml:id="em0460-en-86">Thus gaily? Hast thou thy Maker forget?<app n="1142" type="substantive"><lem wit="#Q3">forget?</lem><rdg wit="#BRA">forget? <emph>[Enter] Everyman</emph></rdg></app></l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-6">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="87" xml:id="em0460-en-87">Why askest thou?</l>
+            <l n="88" xml:id="em0460-en-88">Wouldst thou wit?</l>
+          </lg>
+        </sp>
+        <sp who="#death" xml:id="em0460-en-sp-7">
+          <speaker>Death</speaker>
+          <lg part="M" type="free">
+            <l n="89" xml:id="em0460-en-89">Yea, sir, I will show you:</l>
+            <l n="90" xml:id="em0460-en-90">In great haste I am sent to thee</l>
+            <l n="91" xml:id="em0460-en-91">From God, out of his majesty.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-8">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="92" xml:id="em0460-en-92">What, sent to me?</l>
+          </lg>
+        </sp>
+        <sp who="#death" xml:id="em0460-en-sp-9">
+          <speaker>Death</speaker>
+          <lg part="M" type="free">
+            <l n="93" xml:id="em0460-en-93">Yea, certainly.</l>
+            <l n="94" xml:id="em0460-en-94">Though thou have forget Him here,</l>
+            <l n="95" xml:id="em0460-en-95">He thinketh on thee in the heavenly sphere,</l>
+<l n="96" xml:id="em0460-en-96">As, ere<app n="1143" type="substantive"><lem wit="#Q3">ere<note><p>“or” throughout</p></note></lem></app> we depart, thou shalt know.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-10">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="97" xml:id="em0460-en-97">What desireth God of me?</l>
+          </lg>
+        </sp>
+        <sp who="#death" xml:id="em0460-en-sp-11">
+          <speaker>Death</speaker>
+          <lg part="M" type="free">
+            <l n="98" xml:id="em0460-en-98">That shall I show thee:</l>
+            <l n="99" xml:id="em0460-en-99">A reckoning he will needs have</l>
+            <l n="100" xml:id="em0460-en-100">Without any longer respite.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-12">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="101" xml:id="em0460-en-101">To give a reckoning longer leisure I crave.</l>
+            <l n="102" xml:id="em0460-en-102">This blind matter troubleth my wit.</l>
+          </lg>
+        </sp>
+        <sp who="#death" xml:id="em0460-en-sp-13">
+          <speaker>Death</speaker>
+          <lg part="M" type="free">
+            <l n="103" xml:id="em0460-en-103">On thee thou must take a long journey.</l>
+            <l n="104" xml:id="em0460-en-104">Therefore thy book of count with thee thou bring,</l>
+            <l n="105" xml:id="em0460-en-105">For turn again thou cannot by no way.</l>
+            <l n="106" xml:id="em0460-en-106">And look thou be sure of thy reckoning,</l>
+            <l n="107" xml:id="em0460-en-107">For before God thou shalt answer and show</l>
+            <l n="108" xml:id="em0460-en-108">Thy many bad deeds, and good but a few,</l>
+            <l n="109" xml:id="em0460-en-109">How thou hast spent thy life and in what wise,</l>
+            <l n="110" xml:id="em0460-en-110">Before the chief Lord of paradise.</l>
+            <l n="111" xml:id="em0460-en-111">Have ado that we were in that way,</l>
+            <l n="112" xml:id="em0460-en-112">For, wit thou well, thou shalt make none attorney.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-14">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="113" xml:id="em0460-en-113">Full unready I am such reckoning to give.</l>
+            <l n="114" xml:id="em0460-en-114">I know thee not. What messenger art thou?</l>
+          </lg>
+        </sp>
+        <sp who="#death" xml:id="em0460-en-sp-15">
+          <speaker>Death</speaker>
+          <lg part="M" type="free">
+            <l n="115" xml:id="em0460-en-115">I am Death, that no man dreadeth,</l>
+            <l n="116" xml:id="em0460-en-116">For every man I &apos;rest, and no man spareth;</l>
+            <l n="117" xml:id="em0460-en-117">For it is God&apos;s commandment</l>
+            <l n="118" xml:id="em0460-en-118">That all to me should be obedient.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-16">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="119" xml:id="em0460-en-119">O Death, thou comest when I had thee least in mind!</l>
+            <l n="120" xml:id="em0460-en-120">In thy power it lieth me to save;</l>
+            <l n="121" xml:id="em0460-en-121">Yet of my good will I give thee if thou will be kind</l>
+            <l n="122" xml:id="em0460-en-122">(Yea, a thousand pound shalt thou have)</l>
+<l n="123" xml:id="em0460-en-123">And defer<app n="1144" type="substantive"><lem wit="#Q3">defer</lem><rdg wit="#BEV">[thou] differe</rdg></app> this matter till another day.</l>
+          </lg>
+        </sp>
+        <sp who="#death" xml:id="em0460-en-sp-17">
+          <speaker>Death</speaker>
+          <lg part="M" type="free">
+            <l n="124" xml:id="em0460-en-124">Everyman, it may not be, by no way.</l>
+<l n="125" xml:id="em0460-en-125">I set not by gold, silver, nor richesse<app n="1145" type="substantive"><lem wit="#Q3">richesse</lem><rdg wit="#CAW">riches</rdg></app>,</l>
+            <l n="126" xml:id="em0460-en-126">Ne by pope, emperor, king, duke, ne princes;</l>
+            <l n="127" xml:id="em0460-en-127">For, an I would receive gifts great,</l>
+            <l n="128" xml:id="em0460-en-128">All the world I might get,</l>
+            <l n="129" xml:id="em0460-en-129">But my custom is clean contrary.</l>
+            <l n="130" xml:id="em0460-en-130">I give thee no respite. Come hence and not tarry.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-18">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="131" xml:id="em0460-en-131">Alas! Shall I have no longer respite?</l>
+            <l n="132" xml:id="em0460-en-132">I may say Death giveth no warning!</l>
+            <l n="133" xml:id="em0460-en-133">To think on thee it maketh my heart sick,</l>
+            <l n="134" xml:id="em0460-en-134">For all unready is my book of reckoning.</l>
+            <l n="135" xml:id="em0460-en-135">But twelve year and I might have abiding,</l>
+            <l n="136" xml:id="em0460-en-136">My counting book I would make so clear</l>
+            <l n="137" xml:id="em0460-en-137">That my reckoning I should not need to fear.</l>
+            <l n="138" xml:id="em0460-en-138">Wherefore, Death, I pray thee, for God&apos;s mercy,</l>
+            <l n="139" xml:id="em0460-en-139">Spare me till I be provided of remedy.</l>
+          </lg>
+        </sp>
+        <sp who="#death" xml:id="em0460-en-sp-19">
+          <speaker>Death</speaker>
+          <lg part="M" type="free">
+            <l n="140" xml:id="em0460-en-140">Thee availeth not to cry, weep, and pray,</l>
+            <l n="141" xml:id="em0460-en-141">But haste thee lightly that thou were gone that journey,</l>
+            <l n="142" xml:id="em0460-en-142">And prove thy friends if thou can;</l>
+            <l n="143" xml:id="em0460-en-143">For, wit thou well, the tide abideth no man,</l>
+            <l n="144" xml:id="em0460-en-144">And in the world each living creature</l>
+            <l n="145" xml:id="em0460-en-145">For Adam&apos;s sin must die of nature.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-20">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="146" xml:id="em0460-en-146">Death, if I should this pilgrimage take</l>
+            <l n="147" xml:id="em0460-en-147">And my reckoning surely make,</l>
+            <l n="148" xml:id="em0460-en-148">Show me, for saint charity,</l>
+            <l n="149" xml:id="em0460-en-149">Should I not come again shortly?</l>
+          </lg>
+        </sp>
+        <sp who="#death" xml:id="em0460-en-sp-21">
+          <speaker>Death</speaker>
+          <lg part="M" type="free">
+            <l n="150" xml:id="em0460-en-150">No, Everyman. An thou be once there,</l>
+            <l n="151" xml:id="em0460-en-151">Thou mayst never more come here —</l>
+            <l n="152" xml:id="em0460-en-152">Trust me verily.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-22">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="153" xml:id="em0460-en-153">O gracious God in the high seat celestial,</l>
+            <l n="154" xml:id="em0460-en-154">Have mercy on me in this most need!</l>
+            <l n="155" xml:id="em0460-en-155">Shall I have no company from this vale terrestrial</l>
+<l n="156" xml:id="em0460-en-156">Of mine acquaintance<app n="1146" type="substantive"><lem wit="#Q4">acquaintance</lem><rdg wit="#Q3">acqueynce</rdg></app> that way me to lead?</l>
+          </lg>
+        </sp>
+        <sp who="#death" xml:id="em0460-en-sp-23">
+          <speaker>Death</speaker>
+          <lg part="M" type="free">
+            <l n="157" xml:id="em0460-en-157">Yea, if any be so hardy</l>
+            <l n="158" xml:id="em0460-en-158">That would go with thee and bear thee company.</l>
+            <l n="159" xml:id="em0460-en-159">Hie thee that thou were gone to God&apos;s magnificence,</l>
+            <l n="160" xml:id="em0460-en-160">Thy reckoning to give before his presence.</l>
+            <l n="161" xml:id="em0460-en-161">What, weenest thou thy life is given thee,</l>
+            <l n="162" xml:id="em0460-en-162">And thy worldly goods also?</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-24">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="163" xml:id="em0460-en-163">I had weened so, verily.</l>
+          </lg>
+        </sp>
+        <sp who="#death" xml:id="em0460-en-sp-25">
+          <speaker>Death</speaker>
+          <lg part="M" type="free">
+            <l n="164" xml:id="em0460-en-164">Nay, nay, it was but lent thee.</l>
+            <l n="165" xml:id="em0460-en-165">For, as soon as thou art go,</l>
+            <l n="166" xml:id="em0460-en-166">Another a while shall have it, and then go therefro,</l>
+            <l n="167" xml:id="em0460-en-167">Even as thou hast done.</l>
+<l n="168" xml:id="em0460-en-168">Everyman, thou art mad<app n="1147" type="substantive"><lem wit="#Q4">mad</lem><rdg wit="#Q3">made</rdg></app>. Thou hast thy wits five</l>
+            <l n="169" xml:id="em0460-en-169">And here on earth will not amend thy life,</l>
+            <l n="170" xml:id="em0460-en-170">For suddenly I do come.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-26">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="171" xml:id="em0460-en-171">O wretched caitiff, whither shall I flee,</l>
+            <l n="172" xml:id="em0460-en-172">That I might scape this endless sorrow?</l>
+            <l n="173" xml:id="em0460-en-173">Now, gentle Death, spare me till tomorrow,</l>
+            <l n="174" xml:id="em0460-en-174">That I may amend me</l>
+            <l n="175" xml:id="em0460-en-175">With good advisement.</l>
+          </lg>
+        </sp>
+        <sp who="#death" xml:id="em0460-en-sp-27">
+          <speaker>Death</speaker>
+          <lg part="M" type="free">
+            <l n="176" xml:id="em0460-en-176">Nay, thereto I will not consent,</l>
+            <l n="177" xml:id="em0460-en-177">Nor no man will I respite,</l>
+            <l n="178" xml:id="em0460-en-178">But to the heart suddenly I shall smite</l>
+            <l n="179" xml:id="em0460-en-179">Without any advisement.</l>
+            <l n="180" xml:id="em0460-en-180">And now out of thy sight I will me hie.</l>
+            <l n="181" xml:id="em0460-en-181">See thou make thee ready shortly,</l>
+            <l n="182" xml:id="em0460-en-182">For thou mayst say this is the day</l>
+            <l n="183" xml:id="em0460-en-183">That no man living may scape away.</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-7">[Exit.]<app n="1148" type="substantive"><lem wit="#ADA"><emph>[Exit.]</emph></lem></app></stage>
+        <sp who="#everyman" xml:id="em0460-en-sp-28">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="184" xml:id="em0460-en-184">Alas, I may well weep with sighs deep!</l>
+            <l n="185" xml:id="em0460-en-185">Now have I no manner of company</l>
+            <l n="186" xml:id="em0460-en-186">To help me in my journey, and me to keep;</l>
+            <l n="187" xml:id="em0460-en-187">And also my writing is full unready.</l>
+            <l n="188" xml:id="em0460-en-188">How shall I do now for to excuse me?</l>
+            <l n="189" xml:id="em0460-en-189">I would to God I had never be get!</l>
+            <l n="190" xml:id="em0460-en-190">To my soul a full great profit it had be,</l>
+            <l n="191" xml:id="em0460-en-191">For now I fear pains huge and great.</l>
+            <l n="192" xml:id="em0460-en-192">The time passeth. Lord, help, that all wrought!</l>
+            <l n="193" xml:id="em0460-en-193">For though I mourn, it availeth nought.</l>
+            <l n="194" xml:id="em0460-en-194">The day passeth and is almost ago.</l>
+            <l n="195" xml:id="em0460-en-195">I wot not well what for to do.</l>
+            <l n="196" xml:id="em0460-en-196">To whom were I best my complaint to make?</l>
+            <l n="197" xml:id="em0460-en-197">What an I to Fellowship thereof spake</l>
+            <l n="198" xml:id="em0460-en-198">And showed him of this sudden chance,</l>
+            <l n="199" xml:id="em0460-en-199">For in him is all mine affiance?</l>
+            <l n="200" xml:id="em0460-en-200">We have in the world so many a day</l>
+            <l n="201" xml:id="em0460-en-201">Be good friends in sport and play.</l>
+<stage xml:id="em0460-en-st-8">[Enter Fellowship at a distance.]<app n="1149" type="substantive"><lem wit="#BEV"><emph>[Enter Fellowship at a distance.]</emph></lem></app></stage>
+            <l n="202" xml:id="em0460-en-202">I see him yonder, certainly.</l>
+            <l n="203" xml:id="em0460-en-203">I trust that he will bear me company;</l>
+            <l n="204" xml:id="em0460-en-204">Therefore to him will I speak to ease my sorrow. —</l>
+            <l n="205" xml:id="em0460-en-205">Well met, good Fellowship, and good morrow!</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0460-en-st-9">Fellowship speaketh.</stage>
+        <sp who="#fellowship" xml:id="em0460-en-sp-29">
+          <speaker>[Fellowship]</speaker>
+          <lg part="M" type="free">
+            <l n="206" xml:id="em0460-en-206">Everyman, good morrow, by this day!</l>
+            <l n="207" xml:id="em0460-en-207">Sir, why lookest thou so piteously?</l>
+            <l n="208" xml:id="em0460-en-208">If anything be amiss, I pray thee me say,</l>
+            <l n="209" xml:id="em0460-en-209">That I may help to remedy.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-30">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="210" xml:id="em0460-en-210">Yea, good Fellowship, yea,</l>
+            <l n="211" xml:id="em0460-en-211">I am in great jeopardy.</l>
+          </lg>
+        </sp>
+        <sp who="#fellowship" xml:id="em0460-en-sp-31">
+          <speaker>Fellowship</speaker>
+          <lg part="M" type="free">
+            <l n="212" xml:id="em0460-en-212">My true friend, show to me your mind.</l>
+            <l n="213" xml:id="em0460-en-213">I will not forsake thee to my life&apos;s end</l>
+            <l n="214" xml:id="em0460-en-214">In the way of good company.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-32">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="215" xml:id="em0460-en-215">That was well spoken, and lovingly.</l>
+          </lg>
+        </sp>
+        <sp who="#fellowship" xml:id="em0460-en-sp-33">
+          <speaker>Fellowship</speaker>
+          <lg part="M" type="free">
+            <l n="216" xml:id="em0460-en-216">Sir, I must needs know your heaviness;</l>
+            <l n="217" xml:id="em0460-en-217">I have pity to see you in any distress.</l>
+            <l n="218" xml:id="em0460-en-218">If any have you wronged, ye shall revenged be,</l>
+            <l n="219" xml:id="em0460-en-219">Though I on the ground be slain for thee,</l>
+            <l n="220" xml:id="em0460-en-220">Though that I know before that I should die.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-34">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="221" xml:id="em0460-en-221">Verily, Fellowship, gramercy.</l>
+          </lg>
+        </sp>
+        <sp who="#fellowship" xml:id="em0460-en-sp-35">
+          <speaker>Fellowship</speaker>
+          <lg part="M" type="free">
+            <l n="222" xml:id="em0460-en-222">Tush, by thy thanks I set not a straw!</l>
+            <l n="223" xml:id="em0460-en-223">Show me your grief and say no more.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-36">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="224" xml:id="em0460-en-224">If I my heart should to you break,</l>
+            <l n="225" xml:id="em0460-en-225">And then you to turn your mind from me</l>
+            <l n="226" xml:id="em0460-en-226">And would not me comfort when ye hear me speak,</l>
+            <l n="227" xml:id="em0460-en-227">Then should I ten times sorrier be.</l>
+          </lg>
+        </sp>
+        <sp who="#fellowship" xml:id="em0460-en-sp-37">
+          <speaker>Fellowship</speaker>
+          <lg part="M" type="free">
+            <l n="228" xml:id="em0460-en-228">Sir, I say as I will do, indeed.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-38">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="229" xml:id="em0460-en-229">Then be you a good friend at need.</l>
+            <l n="230" xml:id="em0460-en-230">I have found you true herebefore.</l>
+          </lg>
+        </sp>
+        <sp who="#fellowship" xml:id="em0460-en-sp-39">
+          <speaker>Fellowship</speaker>
+          <lg part="M" type="free">
+            <l n="231" xml:id="em0460-en-231">And so ye shall evermore.</l>
+            <l n="232" xml:id="em0460-en-232">For, in faith, an thou go to hell,</l>
+            <l n="233" xml:id="em0460-en-233">I will not forsake thee by the way.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-40">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="234" xml:id="em0460-en-234">Ye speak like a good friend; I believe you well.</l>
+            <l n="235" xml:id="em0460-en-235">I shall deserve it, an I may.</l>
+          </lg>
+        </sp>
+        <sp who="#fellowship" xml:id="em0460-en-sp-41">
+          <speaker>Fellowship</speaker>
+          <lg part="M" type="free">
+            <l n="236" xml:id="em0460-en-236">I speak of no deserving, by this day!</l>
+            <l n="237" xml:id="em0460-en-237">For he that will say and nothing do</l>
+            <l n="238" xml:id="em0460-en-238">Is not worthy with good company to go.</l>
+            <l n="239" xml:id="em0460-en-239">Therefore show me the grief of your mind</l>
+            <l n="240" xml:id="em0460-en-240">As to your friend most loving and kind.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-42">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="241" xml:id="em0460-en-241">I shall show you how it is:</l>
+            <l n="242" xml:id="em0460-en-242">Commanded I am to go a journey,</l>
+            <l n="243" xml:id="em0460-en-243">A long way, hard, and dangerous,</l>
+            <l n="244" xml:id="em0460-en-244">And give a strait count, without delay,</l>
+            <l n="245" xml:id="em0460-en-245">Before the high Judge, Adonai.</l>
+            <l n="246" xml:id="em0460-en-246">Wherefore, I pray you, bear me company,</l>
+            <l n="247" xml:id="em0460-en-247">As ye have promised, in this journey.</l>
+          </lg>
+        </sp>
+        <sp who="#fellowship" xml:id="em0460-en-sp-43">
+          <speaker>Fellowship</speaker>
+          <lg part="M" type="free">
+            <l n="248" xml:id="em0460-en-248">That is matter indeed! Promise is duty;</l>
+            <l n="249" xml:id="em0460-en-249">But, an I should take such a voyage on me,</l>
+            <l n="250" xml:id="em0460-en-250">I know it well, it should be to my pain.</l>
+<l n="251" xml:id="em0460-en-251">Also it maketh<app n="1150" type="substantive"><lem wit="#Q4">maketh</lem><rdg wit="#Q3">make</rdg></app> me afeard, certain.</l>
+            <l n="252" xml:id="em0460-en-252">But let us take counsel here as well as we can,</l>
+            <l n="253" xml:id="em0460-en-253">For your words would fear a strong man.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-44">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="254" xml:id="em0460-en-254">Why, ye said if I had need</l>
+            <l n="255" xml:id="em0460-en-255">Ye would me never forsake, quick ne dead,</l>
+            <l n="256" xml:id="em0460-en-256">Though it were to hell, truly.</l>
+          </lg>
+        </sp>
+        <sp who="#fellowship" xml:id="em0460-en-sp-45">
+          <speaker>Fellowship</speaker>
+          <lg part="M" type="free">
+            <l n="257" xml:id="em0460-en-257">So I said, certainly,</l>
+            <l n="258" xml:id="em0460-en-258">But such pleasures be set aside, the sooth to say.</l>
+            <l n="259" xml:id="em0460-en-259">And also, if we took such a journey,</l>
+            <l n="260" xml:id="em0460-en-260">When should we come again?</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-46">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="261" xml:id="em0460-en-261">Nay, never again, till the day of doom.</l>
+          </lg>
+        </sp>
+        <sp who="#fellowship" xml:id="em0460-en-sp-47">
+          <speaker>Fellowship</speaker>
+          <lg part="M" type="free">
+            <l n="262" xml:id="em0460-en-262">In faith, then will not I come there!</l>
+            <l n="263" xml:id="em0460-en-263">Who hath you these tidings brought?</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-48">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="264" xml:id="em0460-en-264">Indeed, Death was with me here.</l>
+          </lg>
+        </sp>
+        <sp who="#fellowship" xml:id="em0460-en-sp-49">
+          <speaker>Fellowship</speaker>
+          <lg part="M" type="free">
+            <l n="265" xml:id="em0460-en-265">Now, by God that all hath bought,</l>
+            <l n="266" xml:id="em0460-en-266">If Death were the messenger,</l>
+            <l n="267" xml:id="em0460-en-267">For no man that is living today</l>
+<l n="268" xml:id="em0460-en-268">I will not go that loath<app n="1151" type="substantive"><rdg wit="#Q3">loath</rdg><rdg wit="#Q4">loathsome</rdg></app> journey —</l>
+            <l n="269" xml:id="em0460-en-269">Not for the father that begat me!</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-50">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="270" xml:id="em0460-en-270">Ye promised otherwise, pardie.</l>
+          </lg>
+        </sp>
+        <sp who="#fellowship" xml:id="em0460-en-sp-51">
+          <speaker>Fellowship</speaker>
+          <lg part="M" type="free">
+<l n="271" xml:id="em0460-en-271">I wot well I said<app n="1152" type="substantive"><lem wit="#Q4">said</lem><rdg wit="#Q3">say</rdg></app> so, truly.</l>
+            <l n="272" xml:id="em0460-en-272">And yet, if thou wilt eat and drink and make good cheer,</l>
+            <l n="273" xml:id="em0460-en-273">Or haunt to women the lusty company,</l>
+            <l n="274" xml:id="em0460-en-274">I would not forsake you while the day is clear.</l>
+            <l n="275" xml:id="em0460-en-275">Trust me, verily.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-52">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="276" xml:id="em0460-en-276">Yea, thereto ye would be ready!</l>
+            <l n="277" xml:id="em0460-en-277">To go to mirth, solace, and play</l>
+<l n="278" xml:id="em0460-en-278">Your mind<app n="1153" type="substantive"><lem wit="#Q3">mind</lem><rdg wit="#Q4">mind to folly</rdg></app> will sooner apply,</l>
+            <l n="279" xml:id="em0460-en-279">Than to bear me company in my long journey.</l>
+          </lg>
+        </sp>
+        <sp who="#fellowship" xml:id="em0460-en-sp-53">
+          <speaker>Fellowship</speaker>
+          <lg part="M" type="free">
+<l n="280" xml:id="em0460-en-280">Now<app n="1154" type="substantive"><lem wit="#Q3">Now</lem><rdg wit="#Q4">Nay</rdg></app>, in good faith, I will not that way.</l>
+            <l n="281" xml:id="em0460-en-281">But, an thou will murder or any man kill,</l>
+            <l n="282" xml:id="em0460-en-282">In that I will help thee with a good will.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-54">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="283" xml:id="em0460-en-283">Oh, that is a simple advice, indeed!</l>
+<l n="284" xml:id="em0460-en-284">Gentle fellow<app n="1155" type="substantive"><lem wit="#Q3">fellow<note><p>“felaw”</p></note></lem><rdg wit="#BEV">Felaw[ship]e</rdg></app>, help me in my necessity.</l>
+            <l n="285" xml:id="em0460-en-285">We have loved long, and now I need;</l>
+            <l n="286" xml:id="em0460-en-286">And now, gentle Fellowship, remember me!</l>
+          </lg>
+        </sp>
+        <sp who="#fellowship" xml:id="em0460-en-sp-55">
+          <speaker>Fellowship</speaker>
+          <lg part="M" type="free">
+            <l n="287" xml:id="em0460-en-287">Whether ye have loved me or no,</l>
+            <l n="288" xml:id="em0460-en-288">By Saint Johan, I will not with thee go.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-56">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="289" xml:id="em0460-en-289">Yet, I pray thee, take the labor and do so much for me</l>
+            <l n="290" xml:id="em0460-en-290">To bring me forward, for saint charity,</l>
+            <l n="291" xml:id="em0460-en-291">And comfort me till I come without the town.</l>
+          </lg>
+        </sp>
+        <sp who="#fellowship" xml:id="em0460-en-sp-57">
+          <speaker>Fellowship</speaker>
+          <lg part="M" type="free">
+            <l n="292" xml:id="em0460-en-292">Nay, an thou would give me a new gown,</l>
+            <l n="293" xml:id="em0460-en-293">I will not a foot with thee go.</l>
+            <l n="294" xml:id="em0460-en-294">But, an thou had tarried, I would not have left thee so.</l>
+            <l n="295" xml:id="em0460-en-295">And, as now, God speed thee in thy journey,</l>
+            <l n="296" xml:id="em0460-en-296">For from thee I will depart as fast as I may.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-58">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="297" xml:id="em0460-en-297">Whither away, Fellowship? Will thou forsake me?</l>
+          </lg>
+        </sp>
+        <sp who="#fellowship" xml:id="em0460-en-sp-59">
+          <speaker>Fellowship</speaker>
+          <lg part="M" type="free">
+            <l n="298" xml:id="em0460-en-298">Yea, by my fay! To God I betake thee.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-60">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="299" xml:id="em0460-en-299">Farewell, good Fellowship! For thee my heart is sore.</l>
+<l n="300" xml:id="em0460-en-300">Adieu forever! I shall see thee no more.<app n="1156" type="substantive"><lem wit="#Q3">Adieu ... more</lem><rdg wit="#Q4"><note><p>assigned to Fellowship</p></note></rdg></app></l>
+          </lg>
+        </sp>
+        <sp who="#fellowship" xml:id="em0460-en-sp-61">
+          <speaker>Fellowship</speaker>
+          <lg part="M" type="free">
+<l n="301" xml:id="em0460-en-301">In faith, Everyman, farewell now at the ending<app n="1157" type="substantive"><lem wit="#CAW">ending<note><p>“end[ing]e”</p></note></lem><rdg wit="#Q3">end</rdg></app>.</l>
+            <l n="302" xml:id="em0460-en-302">For you I will remember that parting is mourning.</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-10">[Exit.]<app n="1263" type="substantive"><rdg wit="#ADA"><emph>[Exit.]</emph></rdg></app></stage>
+        <sp who="#everyman" xml:id="em0460-en-sp-62">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+<l n="303" xml:id="em0460-en-303">Alack! Shall we thus<app n="1159" type="substantive"><lem wit="#Q4">thus</lem><rdg wit="#Q3">this</rdg></app> depart indeed</l>
+            <l n="304" xml:id="em0460-en-304">— Ah, Lady, help! — without any more comfort?</l>
+            <l n="305" xml:id="em0460-en-305">Lo, Fellowship forsaketh me in my most need.</l>
+            <l n="306" xml:id="em0460-en-306">For help in this world whither shall I resort?</l>
+            <l n="307" xml:id="em0460-en-307">Fellowship herebefore with me would merry make,</l>
+            <l n="308" xml:id="em0460-en-308">And now little sorrow for me doth he take.</l>
+            <l n="309" xml:id="em0460-en-309">It is said, &quot;In prosperity men friends may find,</l>
+            <l n="310" xml:id="em0460-en-310">Which in adversity be full unkind&quot;.</l>
+            <l n="311" xml:id="em0460-en-311">Now whither for succor shall I flee,</l>
+            <l n="312" xml:id="em0460-en-312">Sith that Fellowship hath forsaken me?</l>
+            <l n="313" xml:id="em0460-en-313">To my kinsmen I will, truly,</l>
+            <l n="314" xml:id="em0460-en-314">Praying them to help me in my necessity.</l>
+            <l n="315" xml:id="em0460-en-315">I believe that they will do so,</l>
+            <l n="316" xml:id="em0460-en-316">For &quot;kind will creep where it may not go&quot;.</l>
+<l n="317" xml:id="em0460-en-317">I will go say, for yonder I see them<app n="1160" type="substantive"><lem wit="#CAW">them</lem><rdg wit="#Q3">them go</rdg></app>.—</l>
+            <l n="318" xml:id="em0460-en-318">Where be ye now, my friends and kinsmen?</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-11">[Enter Kindred and Cousin.]<app n="1264" type="substantive"><lem wit="#ADA">[Enter Kindred and Cousin.]</lem></app></stage>
+        <sp who="#kindred" xml:id="em0460-en-sp-63">
+          <speaker>Kindred</speaker>
+          <lg part="M" type="free">
+            <l n="319" xml:id="em0460-en-319">Here be we now at your commandment.</l>
+            <l n="320" xml:id="em0460-en-320">Cousin, I pray you show us your intent</l>
+            <l n="321" xml:id="em0460-en-321">In any wise, and not spare.</l>
+          </lg>
+        </sp>
+        <sp who="#cousin" xml:id="em0460-en-sp-64">
+          <speaker>Cousin</speaker>
+          <lg part="M" type="free">
+            <l n="322" xml:id="em0460-en-322">Yea, Everyman, and to us declare</l>
+            <l n="323" xml:id="em0460-en-323">If ye be disposed to go any whither;</l>
+<l n="324" xml:id="em0460-en-324">For, wit you well, we will<app n="1268" type="substantive"><lem wit="#Q2">we will</lem><rdg wit="#Q3">will</rdg></app> live and die together.</l>
+          </lg>
+        </sp>
+        <sp who="#kindred" xml:id="em0460-en-sp-65">
+          <speaker>Kindred</speaker>
+          <lg part="M" type="free">
+<l n="325" xml:id="em0460-en-325">In wealth and woe we will with you hold<app n="1163" type="substantive"><lem wit="#Q2">hold</lem><rdg wit="#Q3">bolde</rdg></app>,</l>
+<l n="326" xml:id="em0460-en-326">For over his kin a man may be bold<app n="1164" type="substantive"><lem wit="#Q2">bold</lem><rdg wit="#Q3">holde</rdg></app>.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-66">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="327" xml:id="em0460-en-327">Gramercy, my friends and kinsmen kind.</l>
+            <l n="328" xml:id="em0460-en-328">Now shall I show you the grief of my mind:</l>
+            <l n="329" xml:id="em0460-en-329">I was commanded by a messenger</l>
+            <l n="330" xml:id="em0460-en-330">That is a high king&apos;s chief officer;</l>
+            <l n="331" xml:id="em0460-en-331">He bade me go a pilgrimage, to my pain,</l>
+            <l n="332" xml:id="em0460-en-332">And I know well I shall never come again.</l>
+            <l n="333" xml:id="em0460-en-333">Also I must give a reckoning straight,</l>
+            <l n="334" xml:id="em0460-en-334">For I have a great enemy that hath me in wait,</l>
+            <l n="335" xml:id="em0460-en-335">Which intendeth me for to hinder.</l>
+          </lg>
+        </sp>
+        <sp who="#kindred" xml:id="em0460-en-sp-67">
+          <speaker>Kindred</speaker>
+          <lg part="M" type="free">
+            <l n="336" xml:id="em0460-en-336">What account is that which ye must render?</l>
+            <l n="337" xml:id="em0460-en-337">That would I know.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-68">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="338" xml:id="em0460-en-338">Of all my works I must show</l>
+            <l n="339" xml:id="em0460-en-339">How I have lived, and my days spent;</l>
+            <l n="340" xml:id="em0460-en-340">Also of ill deeds that I have used</l>
+            <l n="341" xml:id="em0460-en-341">In my time, sith life was me lent,</l>
+            <l n="342" xml:id="em0460-en-342">And of all virtues that I have refused.</l>
+            <l n="343" xml:id="em0460-en-343">Therefore, I pray you, go thither with me</l>
+            <l n="344" xml:id="em0460-en-344">To help to make mine account, for saint charity.</l>
+          </lg>
+        </sp>
+        <sp who="#cousin" xml:id="em0460-en-sp-69">
+          <speaker>Cousin</speaker>
+          <lg part="M" type="free">
+            <l n="345" xml:id="em0460-en-345">What, to go thither? Is that the matter?</l>
+            <l n="346" xml:id="em0460-en-346">Nay, Everyman, I had liefer fast bread and water</l>
+            <l n="347" xml:id="em0460-en-347">All this five year and more.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-70">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="348" xml:id="em0460-en-348">Alas, that ever I was bore!</l>
+            <l n="349" xml:id="em0460-en-349">For now shall I never be merry</l>
+            <l n="350" xml:id="em0460-en-350">If that you forsake me.</l>
+          </lg>
+        </sp>
+        <sp who="#kindred" xml:id="em0460-en-sp-71">
+          <speaker>Kindred</speaker>
+          <lg part="M" type="free">
+            <l n="351" xml:id="em0460-en-351">Ah, sir! What, ye be a merry man!</l>
+            <l n="352" xml:id="em0460-en-352">Take good heart to you and make no moan.</l>
+            <l n="353" xml:id="em0460-en-353">But one thing I warn you, by Saint Anne:</l>
+            <l n="354" xml:id="em0460-en-354">As for me, ye shall go alone.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-72">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="355" xml:id="em0460-en-355">My Cousin, will you not with me go?</l>
+          </lg>
+        </sp>
+        <sp who="#cousin" xml:id="em0460-en-sp-73">
+          <speaker>Cousin</speaker>
+          <lg part="M" type="free">
+            <l n="356" xml:id="em0460-en-356">No, by Our Lady, I have the cramp in my toe.</l>
+            <l n="357" xml:id="em0460-en-357">Trust not to me, for, so God me speed,</l>
+            <l n="358" xml:id="em0460-en-358">I will deceive you in your most need.</l>
+          </lg>
+        </sp>
+        <sp who="#kindred" xml:id="em0460-en-sp-74">
+          <speaker>Kindred</speaker>
+          <lg part="M" type="free">
+            <l n="359" xml:id="em0460-en-359">It availeth not us to tice.</l>
+            <l n="360" xml:id="em0460-en-360">Ye shall have my maid with all my heart;</l>
+            <l n="361" xml:id="em0460-en-361">She loveth to go to feasts, there to be nice,</l>
+            <l n="362" xml:id="em0460-en-362">And to dance, and abroad to start.</l>
+            <l n="363" xml:id="em0460-en-363">I will give her leave to help you in that journey</l>
+            <l n="364" xml:id="em0460-en-364">If that you and she may agree.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-75">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="365" xml:id="em0460-en-365">Now, show me the very affect of your mind:</l>
+            <l n="366" xml:id="em0460-en-366">Will you go with me or abide behind?</l>
+          </lg>
+        </sp>
+        <sp who="#kindred" xml:id="em0460-en-sp-76">
+          <speaker>Kindred</speaker>
+          <lg part="M" type="free">
+            <l n="367" xml:id="em0460-en-367">Abide behind? Yea, that will I, an I may!</l>
+            <l n="368" xml:id="em0460-en-368">Therefore farewell till another day.</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-12">[Exit.]<app n="1259" type="substantive"><lem wit="#ADA"><emph>[Exit.]</emph></lem></app></stage>
+        <sp who="#everyman" xml:id="em0460-en-sp-77">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="369" xml:id="em0460-en-369">How should I be merry or glad?</l>
+            <l n="370" xml:id="em0460-en-370">For fair promises men to me make,</l>
+            <l n="371" xml:id="em0460-en-371">But when I have most need they me forsake.</l>
+            <l n="372" xml:id="em0460-en-372">I am deceived; that maketh me sad.</l>
+          </lg>
+        </sp>
+        <sp who="#cousin" xml:id="em0460-en-sp-78">
+          <speaker>Cousin</speaker>
+          <lg part="M" type="free">
+            <l n="373" xml:id="em0460-en-373">Cousin Everyman, farewell now,</l>
+            <l n="374" xml:id="em0460-en-374">For verily I will not go with you.</l>
+<l n="375" xml:id="em0460-en-375">Also of mine own life<app n="1166" type="substantive"><lem wit="#Q2">life</lem><rdg wit="#Q3 #Q4"><note><p>om.</p></note></rdg></app> an unready reckoning</l>
+            <l n="376" xml:id="em0460-en-376">I have to account; therefore I make tarrying.</l>
+            <l n="377" xml:id="em0460-en-377">Now God keep thee, for now I go.</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-13">[Exit.]<app n="1257" type="substantive"><lem wit="#ADA"><emph>[Exit.]</emph></lem></app></stage>
+        <sp who="#everyman" xml:id="em0460-en-sp-79">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="378" xml:id="em0460-en-378">Ah, Jesus, is all come hereto?</l>
+            <l n="379" xml:id="em0460-en-379">Lo, fair words maketh fools fain;</l>
+            <l n="380" xml:id="em0460-en-380">They promise and nothing will do, certain.</l>
+            <l n="381" xml:id="em0460-en-381">My kinsmen promised me faithfully</l>
+            <l n="382" xml:id="em0460-en-382">For to abide with me steadfastly,</l>
+            <l n="383" xml:id="em0460-en-383">And now fast away do they flee;</l>
+            <l n="384" xml:id="em0460-en-384">Even so Fellowship promised me.</l>
+            <l n="385" xml:id="em0460-en-385">What friend were best me of to provide?</l>
+            <l n="386" xml:id="em0460-en-386">I lose my time here longer to abide.</l>
+            <l n="387" xml:id="em0460-en-387">Yet in my mind a thing there is:</l>
+            <l n="388" xml:id="em0460-en-388">All my life I have loved riches;</l>
+            <l n="389" xml:id="em0460-en-389">If that my Good now help me might,</l>
+            <l n="390" xml:id="em0460-en-390">He would make my heart full light.</l>
+            <l n="391" xml:id="em0460-en-391">I will speak to him in this distress. —</l>
+            <l n="392" xml:id="em0460-en-392">Where art thou, my Goods and riches?</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-14">[Goods speaks from a corner<app n="1168" type="substantive"><lem wit="#CAW"><emph>[Goods speaks from a corner.]</emph></lem><rdg wit="#ADA"><emph>within</emph></rdg></app>.]</stage>
+        <sp who="#goods" xml:id="em0460-en-sp-80">
+          <speaker>Goods</speaker>
+          <lg part="M" type="free">
+            <l n="393" xml:id="em0460-en-393">Who calleth me? Everyman? What, hast thou haste?</l>
+            <l n="394" xml:id="em0460-en-394">I lie here in corners, trussed and piled so high,</l>
+            <l n="395" xml:id="em0460-en-395">And in chests I am locked so fast,</l>
+            <l n="396" xml:id="em0460-en-396">Also sacked in bags. Thou mayst see with thine eye</l>
+            <l n="397" xml:id="em0460-en-397">I cannot stir; in packs low I lie.</l>
+            <l n="398" xml:id="em0460-en-398">What would ye have? Lightly me say.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-81">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="399" xml:id="em0460-en-399">Come hither, Good, in all the haste thou may,</l>
+            <l n="400" xml:id="em0460-en-400">For of counsel I must desire thee.</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-15">[Goods approaches.]<app n="1169" type="substantive"><lem wit="#BEV"><emph>[Goods approaches.]</emph></lem></app></stage>
+        <sp who="#goods" xml:id="em0460-en-sp-82">
+          <speaker>Goods</speaker>
+          <lg part="M" type="free">
+            <l n="401" xml:id="em0460-en-401">Sir, an ye i&apos;the world have sorrow or adversity,</l>
+            <l n="402" xml:id="em0460-en-402">That can I help you to remedy shortly.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-83">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="403" xml:id="em0460-en-403">It is another disease that grieveth me;</l>
+            <l n="404" xml:id="em0460-en-404">In this world it is not, I tell thee so.</l>
+            <l n="405" xml:id="em0460-en-405">I am sent for another way to go,</l>
+            <l n="406" xml:id="em0460-en-406">To give a strait count general</l>
+            <l n="407" xml:id="em0460-en-407">Before the highest Jupiter of all;</l>
+            <l n="408" xml:id="em0460-en-408">And all my life I have had joy and pleasure in thee;</l>
+            <l n="409" xml:id="em0460-en-409">Therefore, I pray thee, go with me.</l>
+            <l n="410" xml:id="em0460-en-410">For, peradventure, thou mayst before God almighty</l>
+            <l n="411" xml:id="em0460-en-411">My reckoning help to clean and purify;</l>
+            <l n="412" xml:id="em0460-en-412">For it is said ever among</l>
+            <l n="413" xml:id="em0460-en-413">That &quot;money maketh all right that is wrong&quot;.</l>
+          </lg>
+        </sp>
+        <sp who="#goods" xml:id="em0460-en-sp-84">
+          <speaker>Goods</speaker>
+          <lg part="M" type="free">
+            <l n="414" xml:id="em0460-en-414">Nay, Everyman, I sing another song.</l>
+            <l n="415" xml:id="em0460-en-415">I follow no man in such voyages.</l>
+            <l n="416" xml:id="em0460-en-416">For, an I went with thee,</l>
+<l n="417" xml:id="em0460-en-417">Thou shouldest<app n="1170" type="substantive"><lem wit="#Q2 #Q4">shouldest</lem><rdg wit="#Q3">sholdes</rdg></app> fare much the worse for me.</l>
+<l n="418" xml:id="em0460-en-418">For, because on me thou did<app n="1171" type="substantive"><lem wit="#Q3">did</lem><rdg wit="#Q2">didst</rdg></app> set thy mind,</l>
+            <l n="419" xml:id="em0460-en-419">Thy reckoning I have made blotted and blind,</l>
+            <l n="420" xml:id="em0460-en-420">That thine account thou cannot make truly —</l>
+            <l n="421" xml:id="em0460-en-421">And that hast thou for the love of me!</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-85">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="422" xml:id="em0460-en-422">That would grieve me full sore</l>
+            <l n="423" xml:id="em0460-en-423">When I should come to that fearful answer.</l>
+            <l n="424" xml:id="em0460-en-424">Up, let us go thither together.</l>
+          </lg>
+        </sp>
+        <sp who="#goods" xml:id="em0460-en-sp-86">
+          <speaker>Goods</speaker>
+          <lg part="M" type="free">
+            <l n="425" xml:id="em0460-en-425">Nay, not so. I am too brittle; I may not endure.</l>
+<l n="426" xml:id="em0460-en-426">I will follow no man<app n="1172" type="substantive"><lem wit="#Q2">no man</lem><rdg wit="#Q3">man</rdg></app> one foot, be ye sure.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-87">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="427" xml:id="em0460-en-427">Alas, I have thee loved, and had great pleasure</l>
+            <l n="428" xml:id="em0460-en-428">All my life days on good and treasure!</l>
+          </lg>
+        </sp>
+        <sp who="#goods" xml:id="em0460-en-sp-88">
+          <speaker>Goods</speaker>
+          <lg part="M" type="free">
+            <l n="429" xml:id="em0460-en-429">That is to thy damnation, without leasing,</l>
+            <l n="430" xml:id="em0460-en-430">For my love is contrary to the love everlasting.</l>
+            <l n="431" xml:id="em0460-en-431">But, if thou had me loved moderately during,</l>
+            <l n="432" xml:id="em0460-en-432">As to the poor give part of me,</l>
+            <l n="433" xml:id="em0460-en-433">Then shouldest thou not in this dolor be,</l>
+            <l n="434" xml:id="em0460-en-434">Nor in this great sorrow and care.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-89">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="435" xml:id="em0460-en-435">Lo, now was I deceived ere I was ware,</l>
+<l n="436" xml:id="em0460-en-436">And all I may wite misspending<app n="1173" type="substantive"><lem wit="#Q1">misspending<note><p>“myspendynge”</p></note></lem><rdg wit="#Q3 #Q4">my spendynge</rdg></app> of time!</l>
+          </lg>
+        </sp>
+        <sp who="#goods" xml:id="em0460-en-sp-90">
+          <speaker>Goods</speaker>
+          <lg part="M" type="free">
+            <l n="437" xml:id="em0460-en-437">What, weenest thou that I am thine?</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-91">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="438" xml:id="em0460-en-438">I had weened so.</l>
+          </lg>
+        </sp>
+        <sp who="#goods" xml:id="em0460-en-sp-92">
+          <speaker>Goods</speaker>
+          <lg part="M" type="free">
+            <l n="439" xml:id="em0460-en-439">Nay, Everyman, I say no,</l>
+            <l n="440" xml:id="em0460-en-440">As for a while I was lent thee:</l>
+            <l n="441" xml:id="em0460-en-441">A season thou hast had me in prosperity.</l>
+            <l n="442" xml:id="em0460-en-442">My condition is man&apos;s soul to kill;</l>
+            <l n="443" xml:id="em0460-en-443">If I save one, a thousand I do spill.</l>
+            <l n="444" xml:id="em0460-en-444">Weenest thou that I will follow thee?</l>
+            <l n="445" xml:id="em0460-en-445">Nay, from this world not, verily.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-93">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="446" xml:id="em0460-en-446">I had weened otherwise.</l>
+          </lg>
+        </sp>
+        <sp who="#goods" xml:id="em0460-en-sp-94">
+          <speaker>Goods</speaker>
+          <lg part="M" type="free">
+            <l n="447" xml:id="em0460-en-447">Therefore to thy soul Good is a thief,</l>
+            <l n="448" xml:id="em0460-en-448">For when thou art dead, this is my guise:</l>
+            <l n="449" xml:id="em0460-en-449">Another to deceive in this same wise</l>
+            <l n="450" xml:id="em0460-en-450">As I have done thee, and all to his soul&apos;s reproof.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-95">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="451" xml:id="em0460-en-451">O false Good, cursed thou be,</l>
+            <l n="452" xml:id="em0460-en-452">Thou traitor to God, that hast deceived me</l>
+<l n="453" xml:id="em0460-en-453">And caught<app n="1174" type="substantive"><lem wit="#Q1">caught</lem><rdg wit="#Q3">caugh</rdg></app> me in thy snare!</l>
+          </lg>
+        </sp>
+        <sp who="#goods" xml:id="em0460-en-sp-96">
+          <speaker>Goods</speaker>
+          <lg part="M" type="free">
+            <l n="454" xml:id="em0460-en-454">Marry, thou brought thyself in care,</l>
+            <l n="455" xml:id="em0460-en-455">Whereof I am glad.</l>
+            <l n="456" xml:id="em0460-en-456">I must needs laugh, I cannot be sad.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-97">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="457" xml:id="em0460-en-457">Ah, Good, thou hast had long my heartly love!</l>
+            <l n="458" xml:id="em0460-en-458">I gave thee that which should be the Lord&apos;s above.</l>
+            <l n="459" xml:id="em0460-en-459">But wilt thou not go with me indeed?</l>
+            <l n="460" xml:id="em0460-en-460">I pray thee truth to say.</l>
+          </lg>
+        </sp>
+        <sp who="#goods" xml:id="em0460-en-sp-98">
+          <speaker>Goods</speaker>
+          <lg part="M" type="free">
+            <l n="461" xml:id="em0460-en-461">No, so God me speed!</l>
+            <l n="462" xml:id="em0460-en-462">Therefore farewell, and have good day.</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-16">[Exit.]<app n="1175" type="substantive"><lem wit="#ADA"><emph>[Exit.]</emph></lem></app></stage>
+        <sp who="#everyman" xml:id="em0460-en-sp-99">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="463" xml:id="em0460-en-463">Oh, to whom shall I make my moan</l>
+            <l n="464" xml:id="em0460-en-464">For to go with me in that heavy journey?</l>
+<l n="465" xml:id="em0460-en-465">First Fellowship said he would with me gone<app n="1177" type="orthographical"><lem wit="#Q1 #Q3">gone<note><p>archaic form of the infinitive (OED go v.)</p></note></lem><rdg wit="#BRA">go</rdg></app></l>
+            <l n="466" xml:id="em0460-en-466">(His words were very pleasant and gay),</l>
+            <l n="467" xml:id="em0460-en-467">But afterward he left me alone.</l>
+            <l n="468" xml:id="em0460-en-468">Then spake I to my kinsmen, all in despair,</l>
+<l n="469" xml:id="em0460-en-469">And<app n="1178" type="substantive"><lem wit="#Q1">And</lem><rdg wit="#Q3">An</rdg></app> also they gave me words fair.</l>
+            <l n="470" xml:id="em0460-en-470">They lacked no fair speaking,</l>
+<l n="471" xml:id="em0460-en-471">But all forsook<app n="1179" type="substantive"><lem wit="#Q1">forsook<note><p>“forsoke”</p></note></lem><rdg wit="#Q3">forsake</rdg></app> me in the ending.</l>
+            <l n="472" xml:id="em0460-en-472">Then went I to my Goods, that I loved best,</l>
+            <l n="473" xml:id="em0460-en-473">In hope to have comfort, but there had I least,</l>
+            <l n="474" xml:id="em0460-en-474">For my Goods sharply did me tell</l>
+            <l n="475" xml:id="em0460-en-475">That he bringeth many into hell.</l>
+            <l n="476" xml:id="em0460-en-476">Then of myself I was ashamed,</l>
+            <l n="477" xml:id="em0460-en-477">And so I am worthy to be blamed.</l>
+            <l n="478" xml:id="em0460-en-478">Thus may I well myself hate.</l>
+            <l n="479" xml:id="em0460-en-479">Of whom shall I now counsel take?</l>
+            <l n="480" xml:id="em0460-en-480">I think that I shall never speed</l>
+            <l n="481" xml:id="em0460-en-481">Till that I go to my Good Deed.</l>
+            <l n="482" xml:id="em0460-en-482">But, alas, she is so weak</l>
+            <l n="483" xml:id="em0460-en-483">That she can neither go nor speak.</l>
+            <l n="484" xml:id="em0460-en-484">Yet will I venture on her now. —</l>
+            <l n="485" xml:id="em0460-en-485">My Good Deeds, where be you?</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-17">[Good Deeds speaks from the ground.]<app n="1181" type="substantive"><lem wit="#ADA"><emph>[Good Deeds speaks from the ground.]</emph><note><p>subst.</p></note></lem></app></stage>
+        <sp who="#good_deeds" xml:id="em0460-en-sp-100">
+          <speaker>Good Deeds</speaker>
+          <lg part="M" type="free">
+            <l n="486" xml:id="em0460-en-486">Here I lie, cold in the ground.</l>
+            <l n="487" xml:id="em0460-en-487">Thy sins hath me sore bound,</l>
+            <l n="488" xml:id="em0460-en-488">That I cannot stir.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-101">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="489" xml:id="em0460-en-489">Oh, Good Deeds, I stand in fear!</l>
+            <l n="490" xml:id="em0460-en-490">I must you pray of counsel,</l>
+            <l n="491" xml:id="em0460-en-491">For help now should come right well.</l>
+          </lg>
+        </sp>
+        <sp who="#good_deeds" xml:id="em0460-en-sp-102">
+          <speaker>Good Deeds</speaker>
+          <lg part="M" type="free">
+            <l n="492" xml:id="em0460-en-492">Everyman, I have understanding</l>
+<l n="493" xml:id="em0460-en-493">That ye be summoned a count<app n="1180" type="substantive"><lem wit="#Q3">a count<note><p>“a counte”</p></note></lem><rdg wit="#ADA">account<note><p>“a[c]count”</p></note></rdg></app> to make</l>
+            <l n="494" xml:id="em0460-en-494">Before Messiahs, of Jerusalem King.</l>
+            <l n="495" xml:id="em0460-en-495">An you do by me, that journey with you will I take.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-103">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="496" xml:id="em0460-en-496">Therefore I come to you my moan to make.</l>
+            <l n="497" xml:id="em0460-en-497">I pray you that ye will go with me.</l>
+          </lg>
+        </sp>
+        <sp who="#good_deeds" xml:id="em0460-en-sp-104">
+          <speaker>Good Deeds</speaker>
+          <lg part="M" type="free">
+            <l n="498" xml:id="em0460-en-498">I would full fain, but I cannot stand, verily.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-105">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="499" xml:id="em0460-en-499">Why, is there anything on you fall?</l>
+          </lg>
+        </sp>
+        <sp who="#good_deeds" xml:id="em0460-en-sp-106">
+          <speaker>Good Deeds</speaker>
+          <lg part="M" type="free">
+            <l n="500" xml:id="em0460-en-500">Yea, sir, I may thank you of all!</l>
+            <l n="501" xml:id="em0460-en-501">If ye had perfectly cheered me,</l>
+            <l n="502" xml:id="em0460-en-502">Your Book of Count full ready had be.</l>
+<stage xml:id="em0460-en-st-18">[Good Deeds shows Everyman his Book of Account.]<app n="1182" type="substantive"><lem wit="#ADA">[Good Deeds shows Everyman his Book of Account.]<note><p>subst.</p></note></lem></app></stage>
+            <l n="503" xml:id="em0460-en-503">Look, the books of your works and deeds eke!</l>
+<l n="504" xml:id="em0460-en-504">Ah, see<app n="1183" type="substantive"><lem wit="#BRA">Ah, see</lem><rdg wit="#Q1 #Q2 #Q3">Ase</rdg><rdg wit="#Q4">Beholde</rdg><rdg wit="#LES">As</rdg></app> how they lie under the feet</l>
+            <l n="505" xml:id="em0460-en-505">To your soul&apos;s heaviness!</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-107">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="506" xml:id="em0460-en-506">Our Lord Jesus help me!</l>
+            <l n="507" xml:id="em0460-en-507">For one letter here I cannot see.</l>
+          </lg>
+        </sp>
+        <sp who="#good_deeds" xml:id="em0460-en-sp-108">
+          <speaker>Good Deeds</speaker>
+          <lg part="M" type="free">
+            <l n="508" xml:id="em0460-en-508">There is a blind reckoning in time of distress!</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-109">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="509" xml:id="em0460-en-509">Good Deeds, I pray you help me in this need,</l>
+            <l n="510" xml:id="em0460-en-510">Or else I am forever damned indeed.</l>
+<l n="511" xml:id="em0460-en-511">Therefore help me to make my<app n="1184" type="substantive"><lem wit="#Q1">my</lem><rdg wit="#Q3"><note><p>om.</p></note></rdg></app> reckoning</l>
+            <l n="512" xml:id="em0460-en-512">Before the Redeemer of all thing,</l>
+            <l n="513" xml:id="em0460-en-513">That king is, and was, and ever shall.</l>
+          </lg>
+        </sp>
+        <sp who="#good_deeds" xml:id="em0460-en-sp-110">
+          <speaker>Good Deeds</speaker>
+          <lg part="M" type="free">
+            <l n="514" xml:id="em0460-en-514">Everyman, I am sorry of your fall,</l>
+            <l n="515" xml:id="em0460-en-515">And fain would I help you, an I were able.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-111">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="516" xml:id="em0460-en-516">Good Deeds, your counsel I pray you give me.</l>
+          </lg>
+        </sp>
+        <sp who="#good_deeds" xml:id="em0460-en-sp-112">
+          <speaker>Good Deeds</speaker>
+          <lg part="M" type="free">
+            <l n="517" xml:id="em0460-en-517">That shall I do, verily.</l>
+            <l n="518" xml:id="em0460-en-518">Though that on my feet I may not go,</l>
+            <l n="519" xml:id="em0460-en-519">I have a sister that shall with you also,</l>
+            <l n="520" xml:id="em0460-en-520">Called Knowledge, which shall with you abide</l>
+            <l n="521" xml:id="em0460-en-521">To help you to make that dreadful reckoning.</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-19">[Enter Knowledge.]<app n="1185" type="substantive"><lem wit="#ADA"><emph>[Enter Knowledge.]</emph></lem></app></stage>
+        <sp who="#Knowledge" xml:id="em0460-en-sp-113">
+          <speaker>Knowledge</speaker>
+          <lg part="M" type="free">
+            <l n="522" xml:id="em0460-en-522">Everyman, I will go with thee and be thy guide,</l>
+            <l n="523" xml:id="em0460-en-523">In thy most need to go by thy side.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-114">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="524" xml:id="em0460-en-524">In good condition I am now in everything,</l>
+            <l n="525" xml:id="em0460-en-525">And am whole content with this good thing,</l>
+<l n="526" xml:id="em0460-en-526">Thanked be<app n="1186" type="substantive"><lem wit="#Q1">be</lem><rdg wit="#Q3">by</rdg></app> God my creator<app n="1187" type="orthographical"><lem wit="#Q1 #Q3">creator<note><p>&quot;creature&quot;</p></note></lem></app>!</l>
+          </lg>
+        </sp>
+        <sp who="#good_deeds" xml:id="em0460-en-sp-115">
+          <speaker>Good Deeds</speaker>
+          <lg part="M" type="free">
+<l n="527" xml:id="em0460-en-527">And when she<app n="1188" type="substantive"><lem wit="#BEV">she</lem><rdg wit="#Q1 #Q2 #Q3 #Q4">he</rdg></app> hath brought you there</l>
+            <l n="528" xml:id="em0460-en-528">Where thou shalt heal thee of thy smart,</l>
+            <l n="529" xml:id="em0460-en-529">Then go you with your reckoning and your Good Deeds together</l>
+            <l n="530" xml:id="em0460-en-530">For to make you joyful at heart</l>
+            <l n="531" xml:id="em0460-en-531">Before the blessed Trinity.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-116">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="532" xml:id="em0460-en-532">My Good Deeds, gramercy!</l>
+            <l n="533" xml:id="em0460-en-533">I am well content, certainly,</l>
+            <l n="534" xml:id="em0460-en-534">With your words sweet.</l>
+          </lg>
+        </sp>
+        <sp who="#Knowledge" xml:id="em0460-en-sp-117">
+          <speaker>Knowledge</speaker>
+          <lg part="M" type="free">
+            <l n="535" xml:id="em0460-en-535">Now go we together lovingly</l>
+            <l n="536" xml:id="em0460-en-536">To Confession, that cleansing river.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-118">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="537" xml:id="em0460-en-537">For joy I weep! I would we were there!</l>
+            <l n="538" xml:id="em0460-en-538">But, I pray you, give me cognition</l>
+            <l n="539" xml:id="em0460-en-539">Where dwelleth that holy man, Confession?</l>
+          </lg>
+        </sp>
+        <sp who="#Knowledge" xml:id="em0460-en-sp-119">
+          <speaker>Knowledge</speaker>
+          <lg part="M" type="free">
+            <l n="540" xml:id="em0460-en-540">In the house of salvation.</l>
+            <l n="541" xml:id="em0460-en-541">We shall find him in that place</l>
+            <l n="542" xml:id="em0460-en-542">That shall us comfort, by God&apos;s grace.</l>
+<stage xml:id="em0460-en-st-20">[Confession enters, and Knowledge leads Everyman to him.]<app n="1189" type="substantive"><lem wit="#BEV"><emph>[Confession enters, and Knowledge leads Everyman to him]</emph><note><p>subst.</p></note></lem><rdg wit="#ADA"><emph>[Knowledge leads Everyman to Confession]</emph></rdg></app></stage>
+            <l n="543" xml:id="em0460-en-543">Lo, this is Confession. Kneel down and ask mercy,</l>
+            <l n="544" xml:id="em0460-en-544">For he is in good conceit with God almighty.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-120">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+<l n="545" xml:id="em0460-en-545"><stage xml:id="em0460-en-st-21">[Kneeling]</stage><app n="1190" type="substantive"><lem wit="#ADA"><emph>[Kneeling]</emph></lem></app> O glorious fountain that all uncleanness doth clarify,</l>
+            <l n="546" xml:id="em0460-en-546">Wash from me the spots of vices unclean,</l>
+            <l n="547" xml:id="em0460-en-547">That on me no sin may be seen!</l>
+            <l n="548" xml:id="em0460-en-548">I come with Knowledge for my redemption,</l>
+            <l n="549" xml:id="em0460-en-549">Redeemed with heart and full contrition;</l>
+            <l n="550" xml:id="em0460-en-550">For I am commanded a pilgrimage to take</l>
+            <l n="551" xml:id="em0460-en-551">And great accounts before God to make.</l>
+            <l n="552" xml:id="em0460-en-552">Now I pray you, Shrift, mother of salvation,</l>
+            <l n="553" xml:id="em0460-en-553">Help my Good Deeds for my piteous exclamation.</l>
+          </lg>
+        </sp>
+        <sp who="#confession" xml:id="em0460-en-sp-121">
+          <speaker>Confession</speaker>
+          <lg part="M" type="free">
+            <l n="554" xml:id="em0460-en-554">I know your sorrow well, Everyman.</l>
+            <l n="555" xml:id="em0460-en-555">Because with Knowledge ye come to me,</l>
+            <l n="556" xml:id="em0460-en-556">I will you comfort as well as I can,</l>
+            <l n="557" xml:id="em0460-en-557">And a precious jewel I will give thee</l>
+<l n="558" xml:id="em0460-en-558">Called penance, voider<app n="1191" type="substantive"><lem wit="#Q2">voider</lem><rdg wit="#Q3">voyce voyder</rdg></app> of adversity.</l>
+            <l n="559" xml:id="em0460-en-559">Therewith shall your body chastised be</l>
+            <l n="560" xml:id="em0460-en-560">With abstinence and perseverance in God&apos;s service.</l>
+            <l n="561" xml:id="em0460-en-561">Here shall you receive that scourge of me,</l>
+<stage xml:id="em0460-en-st-22">[Confession shows Everyman a knotted scourge.]<app n="1192" type="substantive"><lem wit="#BEV"><emph>[Confession shows Everyman a knotted scourge]</emph><note><p>subst.</p></note></lem><rdg wit="#ADA"><emph>[Gives Everyman a scourge]</emph></rdg></app></stage>
+            <l n="562" xml:id="em0460-en-562">Which is penance strong that ye must endure,</l>
+            <l n="563" xml:id="em0460-en-563">To remember thy Savior was scourged for thee</l>
+            <l n="564" xml:id="em0460-en-564">With sharp scourges, and suffered it patiently.</l>
+            <l n="565" xml:id="em0460-en-565">So must thou, ere thou &apos;scape that painful pilgrimage. —</l>
+            <l n="566" xml:id="em0460-en-566">Knowledge, keep him in this voyage,</l>
+<stage xml:id="em0460-en-st-23">[Confession gives the knotted scourge to Knowledge.]<app n="1193" type="substantive"><lem wit="#BRA"><emph>[Confession gives the knotted scourge to Knowledge.]</emph><note><p>subst.</p></note></lem></app></stage>
+            <l n="567" xml:id="em0460-en-567">And by that time Good Deeds will be with thee.</l>
+<l n="568" xml:id="em0460-en-568"><stage xml:id="em0460-en-st-24">[to Everyman]</stage><app n="1194" type="substantive"><lem wit="#BRA"><emph>[to Everyman]</emph></lem></app> But, in any wise, be seeker of mercy,</l>
+            <l n="569" xml:id="em0460-en-569">For your time draweth fast. An ye will saved be,</l>
+            <l n="570" xml:id="em0460-en-570">Ask God mercy and He will grant truly.</l>
+            <l n="571" xml:id="em0460-en-571">When with the scourge of penance man doth him bind,</l>
+<l n="572" xml:id="em0460-en-572">The oil of forgiveness then shall he find.<app n="1195" type="substantive"><lem wit="#Q3">find.</lem><rdg wit="#BRA">find. [<emph>Exit.</emph>]</rdg></app></l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-122">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="573" xml:id="em0460-en-573">Thanked be God for His gracious work!</l>
+            <l n="574" xml:id="em0460-en-574">For now I will my penance begin.</l>
+            <l n="575" xml:id="em0460-en-575">This hath rejoiced and lighted my heart,</l>
+            <l n="576" xml:id="em0460-en-576">Though the knots be painful and hard within.</l>
+          </lg>
+        </sp>
+        <sp who="#Knowledge" xml:id="em0460-en-sp-123">
+          <speaker>Knowledge</speaker>
+          <lg part="M" type="free">
+            <l n="577" xml:id="em0460-en-577">Everyman, look your penance that ye fulfill,</l>
+            <l n="578" xml:id="em0460-en-578">What pain that ever it to you be,</l>
+            <l n="579" xml:id="em0460-en-579">And Knowledge shall give you counsel at will</l>
+            <l n="580" xml:id="em0460-en-580">How your account ye shall make clearly.</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-25">[Everyman makes his confession.]<app n="1196" type="substantive"><lem wit="#BEV"><emph>[Everyman makes his confession]</emph></lem><rdg wit="#ADA"><emph>[Everyman kneels in prayer]</emph></rdg></app></stage>
+        <sp who="#everyman" xml:id="em0460-en-sp-124">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="581" xml:id="em0460-en-581">O eternal God, O heavenly figure,</l>
+            <l n="582" xml:id="em0460-en-582">O way of righteousness, O goodly vision,</l>
+            <l n="583" xml:id="em0460-en-583">Which descended down in a virgin pure</l>
+            <l n="584" xml:id="em0460-en-584">Because he would every man redeem,</l>
+            <l n="585" xml:id="em0460-en-585">Which Adam forfeited by his disobedience!</l>
+<l n="586" xml:id="em0460-en-586">O blessed Godhead<app n="1197" type="substantive"><lem wit="#Q4">Godhead<note><p>“godhede”</p></note></lem><rdg wit="#Q3">god heed</rdg><rdg wit="#Q2">godheed</rdg></app> elect and high divine,</l>
+<l n="587" xml:id="em0460-en-587">Forgive me<app n="1198" type="substantive"><lem wit="#Q2">me</lem><rdg wit="#Q3"><note><p>om.</p></note></rdg></app> my grievous offense!</l>
+            <l n="588" xml:id="em0460-en-588">Here I cry thee mercy in this presence.</l>
+            <l n="589" xml:id="em0460-en-589">O ghostly treasure, O ransomer and redeemer,</l>
+<l n="590" xml:id="em0460-en-590">Of all the world hope and conductor<app n="1199" type="orthographical"><lem wit="#Q4">conductor</lem><rdg wit="#Q3">conduyter</rdg><rdg wit="#Q2">conduiter</rdg></app>,</l>
+            <l n="591" xml:id="em0460-en-591">Mirror of joy, foundator of mercy,</l>
+            <l n="592" xml:id="em0460-en-592">Which enlumineth heaven and earth thereby,</l>
+            <l n="593" xml:id="em0460-en-593">Hear my clamorous complaint, though it late be;</l>
+<l n="594" xml:id="em0460-en-594">Receive my prayers unworthy in this heavy life<app n="1200" type="substantive"><lem wit="#Q2 #Q3">unworthy ... life</lem><rdg wit="#Q4">of thy benygnytye</rdg></app>!</l>
+            <l n="595" xml:id="em0460-en-595">Though I be a sinner most abominable,</l>
+<l n="596" xml:id="em0460-en-596">Yet let my name be written<app n="1201" type="substantive"><lem wit="#Q2">be written</lem><rdg wit="#Q3">bewryten</rdg></app> in Moses&apos; table.</l>
+            <l n="597" xml:id="em0460-en-597">O Mary, pray to the Maker of all thing</l>
+            <l n="598" xml:id="em0460-en-598">Me for to help at my ending,</l>
+            <l n="599" xml:id="em0460-en-599">And save me from the power of my enemy,</l>
+            <l n="600" xml:id="em0460-en-600">For Death assaileth me strongly.</l>
+            <l n="601" xml:id="em0460-en-601">And, Lady, that I may by mean of thy prayer</l>
+            <l n="602" xml:id="em0460-en-602">Of your son&apos;s glory to be partner,</l>
+            <l n="603" xml:id="em0460-en-603">By the means of His passion, I it crave.</l>
+<l n="604" xml:id="em0460-en-604">I beseech you help me<app n="1202" type="substantive"><lem wit="#Q2">help me</lem><rdg wit="#Q3">helpe</rdg></app> my soul to save. —</l>
+<stage xml:id="em0460-en-st-26">[He rises.]<app n="1203" type="substantive"><lem wit="#ADA"><emph>[He rises]</emph></lem></app></stage>
+            <l n="605" xml:id="em0460-en-605">Knowledge, give me the scourge of penance.</l>
+<stage xml:id="em0460-en-st-27">[He takes the knotted scourge.]<app n="1204" type="substantive"><lem wit="#LES"><emph>[He takes the knotted scourge.]</emph><note><p>subst.</p></note></lem></app></stage>
+<l n="606" xml:id="em0460-en-606">My flesh therewith shall give a quittance<app n="1205" type="substantive"><lem wit="#Q4">a quittance<note><p>“a quytaunce”</p></note></lem><rdg wit="#Q2">aquaintaunce</rdg><rdg wit="#Q3">acqueyntaunce</rdg><rdg wit="#ADA">aquittance<note><p>“aquytaunce”</p></note></rdg></app>.</l>
+            <l n="607" xml:id="em0460-en-607">I will now begin, if God give me grace.</l>
+          </lg>
+        </sp>
+        <sp who="#Knowledge" xml:id="em0460-en-sp-125">
+          <speaker>Knowledge</speaker>
+          <lg part="M" type="free">
+            <l n="608" xml:id="em0460-en-608">Everyman, God give you time and space.</l>
+            <l n="609" xml:id="em0460-en-609">Thus I bequeath you in the hands of our Savior.</l>
+            <l n="610" xml:id="em0460-en-610">Now may you make your reckoning sure.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-126">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="611" xml:id="em0460-en-611">In the name of the Holy Trinity,</l>
+            <l n="612" xml:id="em0460-en-612">My body sore punished shall be.</l>
+            <l n="613" xml:id="em0460-en-613">Take this, body, for the sin of the flesh!</l>
+<stage xml:id="em0460-en-st-28">[He scourges himself.]<app n="1206" type="substantive"><lem wit="#ADA"><emph>[He scourges himself.]</emph><note><p>subst.</p></note></lem></app></stage>
+            <l n="614" xml:id="em0460-en-614">Also thou delightest to go gay and fresh,</l>
+            <l n="615" xml:id="em0460-en-615">And in the way of damnation thou did me bring;</l>
+            <l n="616" xml:id="em0460-en-616">Therefore suffer now strokes of punishing.</l>
+            <l n="617" xml:id="em0460-en-617">Now of penance I will wade the water clear,</l>
+            <l n="618" xml:id="em0460-en-618">To save me from purgatory, that sharp fire.</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-29">[Good Deeds rises from the ground.]<app n="1207" type="substantive"><lem wit="#ADA"><emph>[Good Deeds rises from the ground.]</emph><note><p>subst.</p></note></lem></app></stage>
+        <sp who="#good_deeds" xml:id="em0460-en-sp-127">
+          <speaker>Good Deeds</speaker>
+          <lg part="M" type="free">
+            <l n="619" xml:id="em0460-en-619">I thank God, now I can walk and go,</l>
+            <l n="620" xml:id="em0460-en-620">And am delivered of my sickness and woe.</l>
+            <l n="621" xml:id="em0460-en-621">Therefore with Everyman I will go and not spare;</l>
+            <l n="622" xml:id="em0460-en-622">His good works I will help him to declare.</l>
+          </lg>
+        </sp>
+        <sp who="#Knowledge" xml:id="em0460-en-sp-128">
+          <speaker>Knowledge</speaker>
+          <lg part="M" type="free">
+            <l n="623" xml:id="em0460-en-623">Now, Everyman, be merry and glad.</l>
+            <l n="624" xml:id="em0460-en-624">Your Good Deeds cometh now; ye may not be sad.</l>
+            <l n="625" xml:id="em0460-en-625">Now is your Good Deeds whole and sound,</l>
+            <l n="626" xml:id="em0460-en-626">Going upright upon the ground.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-129">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="627" xml:id="em0460-en-627">My heart is light and shall be evermore.</l>
+            <l n="628" xml:id="em0460-en-628">Now will I smite faster than I did before.</l>
+          </lg>
+        </sp>
+        <sp who="#good_deeds" xml:id="em0460-en-sp-130">
+          <speaker>Good Deeds</speaker>
+          <lg part="M" type="free">
+            <l n="629" xml:id="em0460-en-629">Everyman, pilgrim, my special friend,</l>
+            <l n="630" xml:id="em0460-en-630">Blessed be thou without end!</l>
+            <l n="631" xml:id="em0460-en-631">For thee is preparate the eternal glory.</l>
+            <l n="632" xml:id="em0460-en-632">Ye have me made whole and sound;</l>
+            <l n="633" xml:id="em0460-en-633">Therefore I will bide by thee in every stound.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-131">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="634" xml:id="em0460-en-634">Welcome, my Good Deeds! Now I hear thy voice,</l>
+            <l n="635" xml:id="em0460-en-635">I weep for very sweetness of love.</l>
+          </lg>
+        </sp>
+        <sp who="#Knowledge" xml:id="em0460-en-sp-132">
+          <speaker>Knowledge</speaker>
+          <lg part="M" type="free">
+            <l n="636" xml:id="em0460-en-636">Be no more sad, but ever rejoice.</l>
+            <l n="637" xml:id="em0460-en-637">God seeth thy living in his throne above.</l>
+            <l n="638" xml:id="em0460-en-638">Put on this garment to thy behoof,</l>
+            <l n="639" xml:id="em0460-en-639">Which is wet with your tears,</l>
+            <l n="640" xml:id="em0460-en-640">Or else before God you may it miss</l>
+            <l n="641" xml:id="em0460-en-641">When ye to your journey&apos;s end come shall.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-133">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="642" xml:id="em0460-en-642">Gentle Knowledge, what do ye it call?</l>
+          </lg>
+        </sp>
+        <sp who="#Knowledge" xml:id="em0460-en-sp-134">
+          <speaker>Knowledge</speaker>
+          <lg part="M" type="free">
+            <l n="643" xml:id="em0460-en-643">It is a garment of sorrow.</l>
+<stage xml:id="em0460-en-st-30">[He offers a garment.]<app n="1208" type="substantive"><lem wit="#BRA"><emph>[He offers a garment.]</emph></lem></app></stage>
+            <l n="644" xml:id="em0460-en-644">From pain it will you borrow.</l>
+            <l n="645" xml:id="em0460-en-645">Contrition it is,</l>
+            <l n="646" xml:id="em0460-en-646">That getteth forgiveness.</l>
+<l n="647" xml:id="em0460-en-647">It<app n="1209" type="substantive"><lem wit="#Q4">It</lem><rdg wit="#Q2 #Q3">He</rdg></app> pleaseth God passing well.</l>
+          </lg>
+        </sp>
+        <sp who="#good_deeds" xml:id="em0460-en-sp-135">
+          <speaker>Good Deeds</speaker>
+          <lg part="M" type="free">
+            <l n="648" xml:id="em0460-en-648">Everyman, will you wear it for your heal?</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-31">[Everyman puts on the robe of contrition.]<app n="1210" type="substantive"><lem wit="#ADA"><emph>[Every man puts on the garment of contrition.]</emph><note><p>subst.</p></note></lem><rdg wit="#BRA"><emph>[Takes the garment.]</emph><note><p>after “Mary&apos;s son” l. 649</p></note></rdg></app></stage>
+        <sp who="#everyman" xml:id="em0460-en-sp-136">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="649" xml:id="em0460-en-649">Now blessed be Jesu, Mary&apos;s son,</l>
+            <l n="650" xml:id="em0460-en-650">For now have I on true contrition.</l>
+            <l n="651" xml:id="em0460-en-651">And let us go now without tarrying.</l>
+            <l n="652" xml:id="em0460-en-652">Good Deeds, have we clear our reckoning?</l>
+          </lg>
+        </sp>
+        <sp who="#good_deeds" xml:id="em0460-en-sp-137">
+          <speaker>Good Deeds</speaker>
+          <lg part="M" type="free">
+<l n="653" xml:id="em0460-en-653">Yea, indeed, I have it<app n="1211" type="substantive"><lem wit="#Q4">have it</lem><rdg wit="#Q2">haue them</rdg><rdg wit="#Q3">haue</rdg></app> here.</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-32">[He points to the account book.]<app n="1212" type="substantive"><lem wit="#BRA"><emph>[He points to the account book.]</emph></lem></app></stage>
+        <sp who="#everyman" xml:id="em0460-en-sp-138">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="654" xml:id="em0460-en-654">Then I trust we need not fear.</l>
+            <l n="655" xml:id="em0460-en-655">Now, friends, let us not part in twain.</l>
+          </lg>
+        </sp>
+        <sp who="#Knowledge" xml:id="em0460-en-sp-139">
+<speaker>Knowledge<app n="1213" type="substantive"><lem wit="#ADA">Knowledge</lem><rdg wit="#Q3">Kynrede</rdg></app></speaker>
+          <lg part="M" type="free">
+            <l n="656" xml:id="em0460-en-656">Nay, Everyman, that will we not, certain.</l>
+          </lg>
+        </sp>
+        <sp who="#good_deeds" xml:id="em0460-en-sp-140">
+          <speaker>Good Deeds</speaker>
+          <lg part="M" type="free">
+            <l n="657" xml:id="em0460-en-657">Yet must thou lead with thee</l>
+            <l n="658" xml:id="em0460-en-658">Three persons of great might.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-141">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="659" xml:id="em0460-en-659">Who should they be?</l>
+          </lg>
+        </sp>
+        <sp who="#good_deeds" xml:id="em0460-en-sp-142">
+          <speaker>Good Deeds</speaker>
+          <lg part="M" type="free">
+            <l n="660" xml:id="em0460-en-660">Discretion and Strength they hight,</l>
+            <l n="661" xml:id="em0460-en-661">And thy Beauty may not abide behind.</l>
+          </lg>
+        </sp>
+        <sp who="#Knowledge" xml:id="em0460-en-sp-143">
+          <speaker>Knowledge</speaker>
+          <lg part="M" type="free">
+            <l n="662" xml:id="em0460-en-662">Also, ye must call to mind</l>
+            <l n="663" xml:id="em0460-en-663">Your Five Wits as for your counselors.</l>
+          </lg>
+        </sp>
+        <sp who="#good_deeds" xml:id="em0460-en-sp-144">
+          <speaker>Good Deeds</speaker>
+          <lg part="M" type="free">
+            <l n="664" xml:id="em0460-en-664">You must have them ready at all hours.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-145">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="665" xml:id="em0460-en-665">How shall I get them hither?</l>
+          </lg>
+        </sp>
+        <sp who="#Knowledge" xml:id="em0460-en-sp-146">
+<speaker>Knowledge<app n="1214" type="substantive"><lem wit="#CAW">Knowledge</lem><rdg wit="#Q3">Kynrede</rdg></app></speaker>
+          <lg part="M" type="free">
+            <l n="666" xml:id="em0460-en-666">You must call them all together,</l>
+            <l n="667" xml:id="em0460-en-667">And they will hear you incontinent.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-147">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="668" xml:id="em0460-en-668">My friends, come hither and be present,</l>
+            <l n="669" xml:id="em0460-en-669">Discretion, Strength, my Five Wits, and Beauty!</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-33">[Enter Discretion, Strength, Five Wits, and Beauty.]<app n="1215" type="substantive"><lem wit="#ADA"><emph>[Enter Discretion, Strength, Five Wits, and Beauty.]</emph></lem></app></stage>
+        <sp who="#beauty" xml:id="em0460-en-sp-148">
+          <speaker>Beauty</speaker>
+          <lg part="M" type="free">
+            <l n="670" xml:id="em0460-en-670">Here at your will we be all ready.</l>
+<l n="671" xml:id="em0460-en-671">What would<app n="1216" type="substantive"><lem wit="#Q2">would</lem><rdg wit="#Q3">wyll</rdg></app> ye that we should do?</l>
+          </lg>
+        </sp>
+        <sp who="#good_deeds" xml:id="em0460-en-sp-149">
+          <speaker>Good Deeds</speaker>
+          <lg part="M" type="free">
+            <l n="672" xml:id="em0460-en-672">That ye would with Everyman go</l>
+            <l n="673" xml:id="em0460-en-673">And help him in his pilgrimage.</l>
+            <l n="674" xml:id="em0460-en-674">Advise you, will ye with him or not in that voyage?</l>
+          </lg>
+        </sp>
+        <sp who="#strength" xml:id="em0460-en-sp-150">
+          <speaker>Strength</speaker>
+          <lg part="M" type="free">
+            <l n="675" xml:id="em0460-en-675">We will bring him all thither</l>
+            <l n="676" xml:id="em0460-en-676">To his help and comfort, ye may believe me.</l>
+          </lg>
+        </sp>
+        <sp who="#discretion" xml:id="em0460-en-sp-151">
+          <speaker>Discretion</speaker>
+          <lg part="M" type="free">
+            <l n="677" xml:id="em0460-en-677">So will we go with him all together.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-152">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="678" xml:id="em0460-en-678">Almighty God, loved might thou be!</l>
+            <l n="679" xml:id="em0460-en-679">I give thee laud that I have hither brought</l>
+            <l n="680" xml:id="em0460-en-680">Strength, Discretion, Beauty, and Five Wits (lack I nought)</l>
+            <l n="681" xml:id="em0460-en-681">And my Good Deeds, with Knowledge clear;</l>
+            <l n="682" xml:id="em0460-en-682">All be in my company at my will here.</l>
+            <l n="683" xml:id="em0460-en-683">I desire no more to my business.</l>
+          </lg>
+        </sp>
+        <sp who="#strength" xml:id="em0460-en-sp-153">
+          <speaker>Strength</speaker>
+          <lg part="M" type="free">
+            <l n="684" xml:id="em0460-en-684">And I, Strength, will by you stand in distress,</l>
+            <l n="685" xml:id="em0460-en-685">Though thou would in battle fight on the ground.</l>
+          </lg>
+        </sp>
+        <sp who="#five_wits" xml:id="em0460-en-sp-154">
+          <speaker>Five Wits</speaker>
+          <lg part="M" type="free">
+            <l n="686" xml:id="em0460-en-686">And though it were through the world round,</l>
+            <l n="687" xml:id="em0460-en-687">We will not depart, for sweet ne sour.</l>
+          </lg>
+        </sp>
+        <sp who="#beauty" xml:id="em0460-en-sp-155">
+          <speaker>Beauty</speaker>
+          <lg part="M" type="free">
+            <l n="688" xml:id="em0460-en-688">No more will I unto Death&apos;s hour,</l>
+            <l n="689" xml:id="em0460-en-689">Whatsoever thereof befall.</l>
+          </lg>
+        </sp>
+        <sp who="#discretion" xml:id="em0460-en-sp-156">
+          <speaker>Discretion</speaker>
+          <lg part="M" type="free">
+            <l n="690" xml:id="em0460-en-690">Everyman, advise you first of all;</l>
+            <l n="691" xml:id="em0460-en-691">Go with a good advisement and deliberation.</l>
+            <l n="692" xml:id="em0460-en-692">We all give you virtuous monition</l>
+            <l n="693" xml:id="em0460-en-693">That all shall be well.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-157">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="694" xml:id="em0460-en-694">My friends, harken what I will tell.</l>
+<l n="695" xml:id="em0460-en-695">I pray God reward you in his heavenly<app n="1217" type="substantive"><lem wit="#Q1">heavenly</lem><rdg wit="#Q3">heuen</rdg></app> sphere.</l>
+            <l n="696" xml:id="em0460-en-696">Now hearken all that be here,</l>
+            <l n="697" xml:id="em0460-en-697">For I will make my testament</l>
+            <l n="698" xml:id="em0460-en-698">Here before you all present.</l>
+            <l n="699" xml:id="em0460-en-699">In alms, half my good I will give with my hands twain</l>
+            <l n="700" xml:id="em0460-en-700">In the way of charity with good intent,</l>
+            <l n="701" xml:id="em0460-en-701">And the other half still shall remain</l>
+<l n="702" xml:id="em0460-en-702">In queath<app n="1218" type="substantive"><lem wit="#Q3">In queath<note><p>“In queth”</p></note></lem><rdg wit="#Q1">I it be quethe</rdg><rdg wit="#Q4">In quyet</rdg></app>, to be returned there it ought to be.</l>
+            <l n="703" xml:id="em0460-en-703">This I do in despite of the fiend of hell,</l>
+            <l n="704" xml:id="em0460-en-704">To go quite out of his peril</l>
+            <l n="705" xml:id="em0460-en-705">Ever after and this day.</l>
+          </lg>
+        </sp>
+        <sp who="#Knowledge" xml:id="em0460-en-sp-158">
+          <speaker>Knowledge</speaker>
+          <lg part="M" type="free">
+            <l n="706" xml:id="em0460-en-706">Everyman, harken what I say:</l>
+            <l n="707" xml:id="em0460-en-707">Go to Priesthood, I you advise,</l>
+            <l n="708" xml:id="em0460-en-708">And receive of him in any wise</l>
+            <l n="709" xml:id="em0460-en-709">The holy sacrament and ointment together.</l>
+            <l n="710" xml:id="em0460-en-710">Then shortly see ye turn again hither.</l>
+            <l n="711" xml:id="em0460-en-711">We will all abide you here.</l>
+          </lg>
+        </sp>
+        <sp who="#five_wits" xml:id="em0460-en-sp-159">
+          <speaker>Five Wits</speaker>
+          <lg part="M" type="free">
+            <l n="712" xml:id="em0460-en-712">Yea, Everyman, hie you that ye ready were.</l>
+            <l n="713" xml:id="em0460-en-713">There is no emperor, king, duke, ne baron,</l>
+            <l n="714" xml:id="em0460-en-714">That of God hath commission</l>
+            <l n="715" xml:id="em0460-en-715">As hath the least priest in the world being.</l>
+            <l n="716" xml:id="em0460-en-716">For of the blessed sacraments pure and benign</l>
+            <l n="717" xml:id="em0460-en-717">He beareth the keys and thereof hath the cure</l>
+            <l n="718" xml:id="em0460-en-718">For man&apos;s redemption (it is ever sure)</l>
+            <l n="719" xml:id="em0460-en-719">Which God, for our soul&apos;s medicine,</l>
+            <l n="720" xml:id="em0460-en-720">Gave us out of his heart with great pain.</l>
+            <l n="721" xml:id="em0460-en-721">Here in this transitory life, for thee and me,</l>
+            <l n="722" xml:id="em0460-en-722">The blessed sacraments seven there be:</l>
+            <l n="723" xml:id="em0460-en-723">Baptism, confirmation, with priesthood good,</l>
+            <l n="724" xml:id="em0460-en-724">And the sacrament of God&apos;s precious flesh and blood,</l>
+            <l n="725" xml:id="em0460-en-725">Marriage, the holy extreme unction, and penance.</l>
+            <l n="726" xml:id="em0460-en-726">These seven be good to have in remembrance,</l>
+            <l n="727" xml:id="em0460-en-727">Gracious sacraments of high divinity.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-160">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="728" xml:id="em0460-en-728">Fain would I receive that holy body,</l>
+            <l n="729" xml:id="em0460-en-729">And meekly to my ghostly father I will go.</l>
+          </lg>
+        </sp>
+        <sp who="#five_wits" xml:id="em0460-en-sp-161">
+          <speaker>Five Wits</speaker>
+          <lg part="M" type="free">
+            <l n="730" xml:id="em0460-en-730">Everyman, that is the best that ye can do.</l>
+            <l n="731" xml:id="em0460-en-731">God will you to salvation bring,</l>
+            <l n="732" xml:id="em0460-en-732">For priesthood exceedeth all other thing.</l>
+            <l n="733" xml:id="em0460-en-733">To us Holy Scripture they do teach,</l>
+            <l n="734" xml:id="em0460-en-734">And converteth man from sin, heaven to reach.</l>
+            <l n="735" xml:id="em0460-en-735">God hath to them more power given</l>
+            <l n="736" xml:id="em0460-en-736">Than to any angel that is in heaven.</l>
+            <l n="737" xml:id="em0460-en-737">With five words he may consecrate,</l>
+<l n="738" xml:id="em0460-en-738">God&apos;s body in flesh and blood to make<app n="1219" type="substantive"><lem wit="#Q3 #Q4">make</lem><rdg wit="#Q1">take</rdg></app>,</l>
+<l n="739" xml:id="em0460-en-739">And handleth his Maker between his hands<app n="1220" type="substantive"><lem wit="#Q2">hands</lem><rdg wit="#Q3">hande</rdg></app>.</l>
+            <l n="740" xml:id="em0460-en-740">The priest bindeth and unbindeth all bands,</l>
+            <l n="741" xml:id="em0460-en-741">Both in earth and in heaven.</l>
+<l n="742" xml:id="em0460-en-742">Thou ministers<app n="1221" type="substantive"><lem wit="#Q3">ministers</lem><rdg wit="#LES">ministers of</rdg></app> all the sacraments seven,</l>
+<l n="743" xml:id="em0460-en-743">Though we kissed<app n="1222" type="substantive"><lem wit="#Q2">kissed<note><p>“kyst”</p></note></lem><rdg wit="#Q3 #Q4">kysse</rdg></app> thy feet, thou were worthy;</l>
+<l n="744" xml:id="em0460-en-744">Thou art the<app n="1223" type="substantive"><lem wit="#Q2">the</lem><rdg wit="#Q3 #Q4"><note><p>om.</p></note></rdg></app> surgeon that cureth sin deadly.</l>
+<l n="745" xml:id="em0460-en-745">No remedy we<app n="1224" type="substantive"><lem wit="#Q3 #Q4">we</lem><rdg wit="#Q1">may we</rdg></app> find under God,</l>
+            <l n="746" xml:id="em0460-en-746">But all only priesthood.</l>
+<l n="747" xml:id="em0460-en-747">Everyman, God gave priests<app n="1225" type="substantive"><lem wit="#BEV">priests<note><p>“preest[s]”</p></note></lem><rdg wit="#Q3">preest</rdg></app> that dignity,</l>
+            <l n="748" xml:id="em0460-en-748">And setteth them in his stead among us to be.</l>
+            <l n="749" xml:id="em0460-en-749">Thus be they above angels in degree.</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-34">[Everyman goes to receive the sacrament and extreme unction from the priest, while the others await his return.]<app n="1226" type="substantive"><lem wit="#ADA"><emph>[Everyman … return.]</emph><note><p>subst.</p></note></lem></app></stage>
+        <sp who="#Knowledge" xml:id="em0460-en-sp-162">
+          <speaker>Knowledge</speaker>
+          <lg part="M" type="free">
+            <l n="750" xml:id="em0460-en-750">If priests be good, it is so, surely.</l>
+            <l n="751" xml:id="em0460-en-751">But when Jesu hanged on the cross with great smart,</l>
+            <l n="752" xml:id="em0460-en-752">There he gave out of his blessed heart</l>
+<l n="753" xml:id="em0460-en-753">The same sacrament<app n="1227" type="substantive"><lem wit="#Q3">same sacrament</lem><rdg wit="#BEV">seven sacraments</rdg></app> in great torment.</l>
+            <l n="754" xml:id="em0460-en-754">He sold them not to us, that Lord omnipotent.</l>
+            <l n="755" xml:id="em0460-en-755">Therefore Saint Peter the Apostle doth say</l>
+            <l n="756" xml:id="em0460-en-756">That Jesu&apos;s curse hath all they</l>
+            <l n="757" xml:id="em0460-en-757">Which God their savior do buy or sell,</l>
+            <l n="758" xml:id="em0460-en-758">Or they for any money do take or tell.</l>
+            <l n="759" xml:id="em0460-en-759">Sinful priests giveth the sinners example bad:</l>
+            <l n="760" xml:id="em0460-en-760">Their children sitteth by other men&apos;s fires, I have heard,</l>
+            <l n="761" xml:id="em0460-en-761">And some haunteth women&apos;s company</l>
+            <l n="762" xml:id="em0460-en-762">With unclean life, as lusts of lechery.</l>
+            <l n="763" xml:id="em0460-en-763">These be with sin made blind.</l>
+          </lg>
+        </sp>
+        <sp who="#five_wits" xml:id="em0460-en-sp-163">
+          <speaker>Five Wits</speaker>
+          <lg part="M" type="free">
+            <l n="764" xml:id="em0460-en-764">I trust to God no such may we find.</l>
+            <l n="765" xml:id="em0460-en-765">Therefore let us priesthood honor</l>
+            <l n="766" xml:id="em0460-en-766">And follow their doctrine for our soul&apos;s succor.</l>
+            <l n="767" xml:id="em0460-en-767">We be their sheep, and they shepherds be,</l>
+            <l n="768" xml:id="em0460-en-768">By whom we all be kept in surety.</l>
+            <l n="769" xml:id="em0460-en-769">Peace, for yonder I see Everyman come,</l>
+            <l n="770" xml:id="em0460-en-770">Which hath made true satisfaction.</l>
+          </lg>
+        </sp>
+        <sp who="#good_deeds" xml:id="em0460-en-sp-164">
+          <speaker>Good Deeds</speaker>
+          <lg part="M" type="free">
+            <l n="771" xml:id="em0460-en-771">Methink it is he indeed.</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-35">[Everyman returns carrying a cross.]<app n="1229" type="substantive"><lem wit="#BRA"><emph>[Everyman returns carrying a cross.]</emph><note><p>subst.</p></note></lem><rdg wit="#ADA"><emph>Re-enter Everyman</emph></rdg></app></stage>
+        <sp who="#everyman" xml:id="em0460-en-sp-165">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+<l n="772" xml:id="em0460-en-772">Now Jesu be your<app n="1228" type="substantive"><lem wit="#Q3 #Q4">your</lem><rdg wit="#Q2">our</rdg></app> alder speed!</l>
+            <l n="773" xml:id="em0460-en-773">I have received the sacrament for my redemption</l>
+            <l n="774" xml:id="em0460-en-774">And then mine extreme unction.</l>
+            <l n="775" xml:id="em0460-en-775">Blessed be all they that counseled me to take it!</l>
+            <l n="776" xml:id="em0460-en-776">And now, friends, let us go without longer respite.</l>
+            <l n="777" xml:id="em0460-en-777">I thank God that ye have tarried so long.</l>
+            <l n="778" xml:id="em0460-en-778">Now set each of you on this rood your hand</l>
+            <l n="779" xml:id="em0460-en-779">And shortly follow me.</l>
+<l n="780" xml:id="em0460-en-780">I go before there I would be. God be our<app n="1230" type="substantive"><lem wit="#Q1">our</lem><rdg wit="#Q3">your</rdg></app> guide.</l>
+          </lg>
+        </sp>
+        <sp who="#strength" xml:id="em0460-en-sp-166">
+          <speaker>Strength</speaker>
+          <lg part="M" type="free">
+            <l n="781" xml:id="em0460-en-781">Everyman, we will not from you go</l>
+            <l n="782" xml:id="em0460-en-782">Till ye have done this voyage long.</l>
+          </lg>
+        </sp>
+        <sp who="#discretion" xml:id="em0460-en-sp-167">
+          <speaker>Discretion</speaker>
+          <lg part="M" type="free">
+            <l n="783" xml:id="em0460-en-783">I, Discretion, will bide by you also.</l>
+          </lg>
+        </sp>
+        <sp who="#Knowledge" xml:id="em0460-en-sp-168">
+          <speaker>Knowledge</speaker>
+          <lg part="M" type="free">
+            <l n="784" xml:id="em0460-en-784">And though this pilgrimage be never so strong,</l>
+            <l n="785" xml:id="em0460-en-785">I will never part you fro.</l>
+<l n="786" xml:id="em0460-en-786">Everyman<app n="1231" type="substantive"><lem wit="#Q1 #Q3 #Q4">Everyman</lem><rdg wit="#Q2"><note><p>adds speech prefix “Strength”</p></note></rdg></app>, I will be as sure by thee</l>
+<l n="787" xml:id="em0460-en-787">As ever I did<app n="1232" type="substantive"><lem wit="#Q1 #Q3 #Q4">did</lem><rdg wit="#Q2">was</rdg></app> by Judas Maccabee.</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-36">[They proceed to Everyman&apos;s grave.]<app n="1233" type="substantive"><lem wit="#ADA"><emph>[They … grave.]</emph></lem></app></stage>
+        <sp who="#everyman" xml:id="em0460-en-sp-169">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="788" xml:id="em0460-en-788">Alas, I am so faint I may not stand.</l>
+<l n="789" xml:id="em0460-en-789">My limbs under me do<app n="1234" type="substantive"><lem wit="#Q1">do</lem><rdg wit="#Q3">doth</rdg></app> fold.</l>
+            <l n="790" xml:id="em0460-en-790">Friends, let us not turn again to this land,</l>
+            <l n="791" xml:id="em0460-en-791">Not for all the world&apos;s gold;</l>
+            <l n="792" xml:id="em0460-en-792">For into this cave must I creep</l>
+            <l n="793" xml:id="em0460-en-793">And turn to earth, and there to sleep.</l>
+          </lg>
+        </sp>
+        <sp who="#beauty" xml:id="em0460-en-sp-170">
+          <speaker>Beauty</speaker>
+          <lg part="M" type="free">
+            <l n="794" xml:id="em0460-en-794">What, into this grave? Alas!</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-171">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+<l n="795" xml:id="em0460-en-795">Yea, there shall ye<app n="1235" type="substantive"><lem wit="#Q1 #Q3">ye</lem><rdg wit="#Q2">we</rdg><rdg wit="#Q4">you</rdg></app> consume, more and less.</l>
+          </lg>
+        </sp>
+        <sp who="#beauty" xml:id="em0460-en-sp-172">
+          <speaker>Beauty</speaker>
+          <lg part="M" type="free">
+            <l n="796" xml:id="em0460-en-796">And what, should I smother here?</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-173">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="797" xml:id="em0460-en-797">Yea, by my faith, and never more appear.</l>
+            <l n="798" xml:id="em0460-en-798">In this world live no more we shall,</l>
+            <l n="799" xml:id="em0460-en-799">But in heaven before the highest Lord of all.</l>
+          </lg>
+        </sp>
+        <sp who="#beauty" xml:id="em0460-en-sp-174">
+          <speaker>Beauty</speaker>
+          <lg part="M" type="free">
+            <l n="800" xml:id="em0460-en-800">I cross out all this. Adieu! By Saint Johan,</l>
+            <l n="801" xml:id="em0460-en-801">I take my tap in my lap and am gone!</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-175">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="802" xml:id="em0460-en-802">What, Beauty? Whither will ye?</l>
+          </lg>
+        </sp>
+        <sp who="#beauty" xml:id="em0460-en-sp-176">
+          <speaker>Beauty</speaker>
+          <lg part="M" type="free">
+            <l n="803" xml:id="em0460-en-803">Peace, I am deaf! I look not behind me,</l>
+            <l n="804" xml:id="em0460-en-804">Not an thou wouldst give me all the gold in thy chest.</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-37">[Exit.]<app n="1236" type="substantive"><lem wit="#ADA">[Exit.]</lem></app></stage>
+        <sp who="#everyman" xml:id="em0460-en-sp-177">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="805" xml:id="em0460-en-805">Alas, whereto may I trust?</l>
+            <l n="806" xml:id="em0460-en-806">Beauty goeth fast away from me.</l>
+            <l n="807" xml:id="em0460-en-807">She promised with me to live and die.</l>
+          </lg>
+        </sp>
+        <sp who="#strength" xml:id="em0460-en-sp-178">
+          <speaker>Strength</speaker>
+          <lg part="M" type="free">
+            <l n="808" xml:id="em0460-en-808">Everyman, I will thee also forsake and deny.</l>
+            <l n="809" xml:id="em0460-en-809">Thy game liketh me not at all.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-179">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="810" xml:id="em0460-en-810">Why, then, ye will forsake me all?</l>
+            <l n="811" xml:id="em0460-en-811">Sweet Strength, tarry a little space.</l>
+          </lg>
+        </sp>
+        <sp who="#strength" xml:id="em0460-en-sp-180">
+          <speaker>Strength</speaker>
+          <lg part="M" type="free">
+            <l n="812" xml:id="em0460-en-812">Nay, sir, by the rood of grace,</l>
+            <l n="813" xml:id="em0460-en-813">I will hie me from thee fast,</l>
+<l n="814" xml:id="em0460-en-814">Though thou weep till<app n="1237" type="substantive"><lem wit="#Q1">till</lem><rdg wit="#Q3">to</rdg></app> thy heart to brast<app n="1238" type="substantive"><lem wit="#Q3">to brast<note><p>&quot;brast&quot;= burst (an English northern variant, <emph>OED v.</emph>)</p></note></lem><rdg wit="#BRA">to-burst</rdg></app>.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-181">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="815" xml:id="em0460-en-815">Ye would ever bide by me, ye said.</l>
+          </lg>
+        </sp>
+        <sp who="#strength" xml:id="em0460-en-sp-182">
+          <speaker>Strength</speaker>
+          <lg part="M" type="free">
+            <l n="816" xml:id="em0460-en-816">Yea, I have you far enough conveyed.</l>
+            <l n="817" xml:id="em0460-en-817">Ye be old enough, I understand,</l>
+            <l n="818" xml:id="em0460-en-818">Your pilgrimage to take on hand.</l>
+            <l n="819" xml:id="em0460-en-819">I repent me that I hither came.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-183">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+<l n="820" xml:id="em0460-en-820">Strength, you to displease I am<app n="1239" type="substantive"><lem wit="#Q3">to displease I am</lem><rdg wit="#BRA">too displease. I am</rdg></app> to blam<app n="1239" type="substantive"><lem wit="#Q3">to displease I am</lem><rdg wit="#BRA">too displease. I am</rdg></app>e.</l>
+<l n="821" xml:id="em0460-en-821">Yet promise is debt: this ye well wot<app n="1240" type="substantive"><lem wit="#Q2">Yet ... wot</lem><rdg wit="#Q1 #Q3">Wyll ye breke promyse that is dette</rdg><rdg wit="#Q4">wyll you breke promyse that is dette</rdg></app>.</l>
+          </lg>
+        </sp>
+        <sp who="#strength" xml:id="em0460-en-sp-184">
+          <speaker>Strength</speaker>
+          <lg part="M" type="free">
+            <l n="822" xml:id="em0460-en-822">In faith, I care not.</l>
+            <l n="823" xml:id="em0460-en-823">Thou art but a fool to complain.</l>
+<l n="824" xml:id="em0460-en-824">You spend your speech and waste<app n="1241" type="substantive"><lem wit="#Q3">waste<note><p>“wast”</p></note></lem><rdg wit="#Q2">wastest</rdg></app> your brain.</l>
+            <l n="825" xml:id="em0460-en-825">Go thrust thee into the ground.</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-38">[Exit.]<app n="1242" type="substantive"><lem wit="#ADA"><emph>[Exit.]</emph></lem></app></stage>
+        <sp who="#everyman" xml:id="em0460-en-sp-185">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="826" xml:id="em0460-en-826">I had weened surer I should you have found.</l>
+            <l n="827" xml:id="em0460-en-827">He that trusteth in his Strength</l>
+            <l n="828" xml:id="em0460-en-828">She him deceiveth at the length.</l>
+            <l n="829" xml:id="em0460-en-829">Both Strength and Beauty forsaketh me,</l>
+            <l n="830" xml:id="em0460-en-830">Yet they promised me fair and lovingly.</l>
+          </lg>
+        </sp>
+        <sp who="#discretion" xml:id="em0460-en-sp-186">
+          <speaker>Discretion</speaker>
+          <lg part="M" type="free">
+            <l n="831" xml:id="em0460-en-831">Everyman, I will after Strength be gone.</l>
+            <l n="832" xml:id="em0460-en-832">As for me, I will leave you alone.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-187">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="833" xml:id="em0460-en-833">Why, Discretion, will ye forsake me?</l>
+          </lg>
+        </sp>
+        <sp who="#discretion" xml:id="em0460-en-sp-188">
+          <speaker>Discretion</speaker>
+          <lg part="M" type="free">
+            <l n="834" xml:id="em0460-en-834">Yea, in faith, I will go from thee.</l>
+            <l n="835" xml:id="em0460-en-835">For when Strength goeth before,</l>
+            <l n="836" xml:id="em0460-en-836">I follow after evermore.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-189">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="837" xml:id="em0460-en-837">Yet, I pray thee, for the love of the Trinity,</l>
+            <l n="838" xml:id="em0460-en-838">Look in my grave once piteously!</l>
+          </lg>
+        </sp>
+        <sp who="#discretion" xml:id="em0460-en-sp-190">
+          <speaker>Discretion</speaker>
+          <lg part="M" type="free">
+            <l n="839" xml:id="em0460-en-839">Nay, so nigh will I not come.</l>
+            <l n="840" xml:id="em0460-en-840">Farewell everyone!</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-39">[Exit.]<app n="1243" type="substantive"><lem wit="#ADA"><emph>[Exit.]</emph></lem></app></stage>
+        <sp who="#everyman" xml:id="em0460-en-sp-191">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="841" xml:id="em0460-en-841">Oh, all thing faileth (save God alone),</l>
+            <l n="842" xml:id="em0460-en-842">Beauty, Strength, and Discretion;</l>
+            <l n="843" xml:id="em0460-en-843">For when Death bloweth his blast,</l>
+            <l n="844" xml:id="em0460-en-844">They all run from me full fast.</l>
+          </lg>
+        </sp>
+        <sp who="#five_wits" xml:id="em0460-en-sp-192">
+          <speaker>Five Wits</speaker>
+          <lg part="M" type="free">
+            <l n="845" xml:id="em0460-en-845">Everyman, my leave now of thee I take;</l>
+            <l n="846" xml:id="em0460-en-846">I will follow the other, for here I thee forsake.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-193">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="847" xml:id="em0460-en-847">Alas, then may I wail and weep,</l>
+            <l n="848" xml:id="em0460-en-848">For I took you for my best friend.</l>
+          </lg>
+        </sp>
+        <sp who="#five_wits" xml:id="em0460-en-sp-194">
+          <speaker>Five Wits</speaker>
+          <lg part="M" type="free">
+            <l n="849" xml:id="em0460-en-849">I will no longer thee keep.</l>
+            <l n="850" xml:id="em0460-en-850">Now farewell and there an end.</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-40">[Exit.]<app n="1244" type="substantive"><lem wit="#ADA"><emph>[Exit.]</emph></lem></app></stage>
+        <sp who="#everyman" xml:id="em0460-en-sp-195">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="851" xml:id="em0460-en-851">O Jesu, help! All hath forsaken me!</l>
+          </lg>
+        </sp>
+        <sp who="#good_deeds" xml:id="em0460-en-sp-196">
+          <speaker>Good Deeds</speaker>
+          <lg part="M" type="free">
+            <l n="852" xml:id="em0460-en-852">Nay, Everyman, I will bide with thee.</l>
+            <l n="853" xml:id="em0460-en-853">I will not forsake thee indeed.</l>
+            <l n="854" xml:id="em0460-en-854">Thou shalt find me a good friend at need.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-197">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="855" xml:id="em0460-en-855">Gramercy, Good Deeds. Now may I true friends see.</l>
+            <l n="856" xml:id="em0460-en-856">They have forsaken me every one.</l>
+            <l n="857" xml:id="em0460-en-857">I loved them better than my Good Deeds alone.</l>
+            <l n="858" xml:id="em0460-en-858">Knowledge, will ye forsake me also?</l>
+          </lg>
+        </sp>
+        <sp who="#Knowledge" xml:id="em0460-en-sp-198">
+          <speaker>Knowledge</speaker>
+          <lg part="M" type="free">
+            <l n="859" xml:id="em0460-en-859">Yea, Everyman, when ye to death shall go,</l>
+            <l n="860" xml:id="em0460-en-860">But not yet, for no manner of danger.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-199">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="861" xml:id="em0460-en-861">Gramercy, Knowledge, with all my heart.</l>
+          </lg>
+        </sp>
+        <sp who="#Knowledge" xml:id="em0460-en-sp-200">
+          <speaker>Knowledge</speaker>
+          <lg part="M" type="free">
+            <l n="862" xml:id="em0460-en-862">Nay, yet I will not from hence depart</l>
+            <l n="863" xml:id="em0460-en-863">Till I see where ye shall be come.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-201">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="864" xml:id="em0460-en-864">Methink, alas, that I must be gone</l>
+            <l n="865" xml:id="em0460-en-865">To make my reckoning and my debts pay,</l>
+            <l n="866" xml:id="em0460-en-866">For I see my time is nigh spent away.</l>
+            <l n="867" xml:id="em0460-en-867">Take example, all ye that this do hear or see,</l>
+<l n="868" xml:id="em0460-en-868">How they that I loved<app n="1245" type="substantive"><lem wit="#Q1">loved</lem><rdg wit="#Q3">loue</rdg></app> best do forsake me,</l>
+            <l n="869" xml:id="em0460-en-869">Except my Good Deeds, that bideth truly.</l>
+          </lg>
+        </sp>
+        <sp who="#good_deeds" xml:id="em0460-en-sp-202">
+          <speaker>Good Deeds</speaker>
+          <lg part="M" type="free">
+            <l n="870" xml:id="em0460-en-870">All earthly things is but vanity:</l>
+            <l n="871" xml:id="em0460-en-871">Beauty, Strength, and Discretion do man forsake,</l>
+            <l n="872" xml:id="em0460-en-872">Foolish friends and kinsmen that fair spake.</l>
+            <l n="873" xml:id="em0460-en-873">All fleeth save Good Deeds, and that am I.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-203">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="874" xml:id="em0460-en-874">Have mercy on me, God most mighty,</l>
+            <l n="875" xml:id="em0460-en-875">And stand by me, thou mother and maid, Holy Mary!</l>
+          </lg>
+        </sp>
+        <sp who="#good_deeds" xml:id="em0460-en-sp-204">
+          <speaker>Good Deeds</speaker>
+          <lg part="M" type="free">
+            <l n="876" xml:id="em0460-en-876">Fear not, I will speak for thee.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-205">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="877" xml:id="em0460-en-877">Here I cry God mercy!</l>
+          </lg>
+        </sp>
+        <sp who="#good_deeds" xml:id="em0460-en-sp-206">
+          <speaker>Good Deeds</speaker>
+          <lg part="M" type="free">
+            <l n="878" xml:id="em0460-en-878">Short our end and minish our pain.</l>
+            <l n="879" xml:id="em0460-en-879">Let us go and never come again.</l>
+          </lg>
+        </sp>
+        <sp who="#everyman" xml:id="em0460-en-sp-207">
+          <speaker>Everyman</speaker>
+          <lg part="M" type="free">
+            <l n="880" xml:id="em0460-en-880">Into thy hands, Lord, my soul I commend.</l>
+            <l n="881" xml:id="em0460-en-881">Receive it, Lord, that it be not lost.</l>
+            <l n="882" xml:id="em0460-en-882">As thou me boughtest, so me defend,</l>
+            <l n="883" xml:id="em0460-en-883">And save me from the fiend&apos;s boast,</l>
+            <l n="884" xml:id="em0460-en-884">That I may appear with that blessed host</l>
+            <l n="885" xml:id="em0460-en-885">That shall be saved at the day of doom.</l>
+<l n="886" xml:id="em0460-en-886"><emph>In manus tuas</emph>, of mights most,</l>
+<l n="887" xml:id="em0460-en-887">Forever <emph>commendo spiritum meum</emph>.</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-41">[Everyman and Good Deeds descend into the grave.]<app n="1246" type="substantive"><lem wit="#ADA"><emph>[Everyman ... grave.]</emph></lem></app></stage>
+        <sp who="#Knowledge" xml:id="em0460-en-sp-208">
+          <speaker>Knowledge</speaker>
+          <lg part="M" type="free">
+            <l n="888" xml:id="em0460-en-888">Now hath he suffered that we all shall endure.</l>
+            <l n="889" xml:id="em0460-en-889">The Good Deeds shall make all sure.</l>
+            <l n="890" xml:id="em0460-en-890">Now hath he made ending.</l>
+            <l n="891" xml:id="em0460-en-891">Methinketh that I hear angels sing</l>
+            <l n="892" xml:id="em0460-en-892">And make great joy and melody</l>
+            <l n="893" xml:id="em0460-en-893">Where Everyman&apos;s soul received shall be.</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-42">[Enter Angel above, or within.]<app n="1247" type="substantive"><lem wit="#COL"><emph>[Enter Angel above, or within.]</emph><note><p>“<emph>Enter Angel</emph>”</p></note></lem><rdg wit="#BEV">“<emph>above, or within</emph>”<note><p>after speech prefix</p></note></rdg><rdg wit="#ADA"><note><p>“<emph>within</emph>”</p></note></rdg></app></stage>
+        <sp who="#angel" xml:id="em0460-en-sp-209">
+          <speaker>Angel</speaker>
+          <lg part="M" type="free">
+            <l n="894" xml:id="em0460-en-894">Come, excellent elect spouse, to Jesu!</l>
+            <l n="895" xml:id="em0460-en-895">Here above thou shalt go</l>
+            <l n="896" xml:id="em0460-en-896">Because of thy singular virtue.</l>
+            <l n="897" xml:id="em0460-en-897">Now the soul is taken the body fro,</l>
+            <l n="898" xml:id="em0460-en-898">Thy reckoning is crystal clear.</l>
+<l n="899" xml:id="em0460-en-899">Now shalt thou into the heavenly sphere<app n="1249" type="orthographical"><lem wit="#Q3">sphere<note><p>“spere”</p></note></lem></app>,</l>
+            <l n="900" xml:id="em0460-en-900">Unto the which all ye shall come</l>
+<l n="901" xml:id="em0460-en-901">That liveth well before<app n="1250" type="substantive"><lem wit="#Q3">before</lem><rdg wit="#Q1 #Q2">after</rdg></app> the day of doom.</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-43">[Exeunt Angel and Knowledge.]<app n="1251" type="substantive"><lem wit="#LES"><emph>[Exeunt Angel and Knowledge.]</emph><note><p>subst.</p></note></lem></app></stage>
+<stage xml:id="em0460-en-st-44">[Enter Doctor as epilogue.]<app n="1252" type="substantive"><lem wit="#ADA"><emph>[Enter … epilogue.]</emph></lem></app></stage>
+        <sp who="#doctor" xml:id="em0460-en-sp-210">
+          <speaker>Doctor</speaker>
+          <lg part="F" type="free">
+<l n="902" xml:id="em0460-en-902">This moral<app n="1269" type="substantive"><lem wit="#Q3">moral</lem><rdg wit="#Q1">memoriall</rdg></app> men may have in mind.</l>
+            <l n="903" xml:id="em0460-en-903">Ye hearers, take it of worth, old and young,</l>
+            <l n="904" xml:id="em0460-en-904">And forsake Pride, for he deceiveth you in the end,</l>
+            <l n="905" xml:id="em0460-en-905">And remember Beauty, Five Wits, Strength, and Discretion:</l>
+<l n="906" xml:id="em0460-en-906">They all at the last do every man<app n="1253" type="substantive"><lem wit="#Q1 #Q3">every man</lem><rdg wit="#COL">Everyman</rdg></app> forsake,</l>
+            <l n="907" xml:id="em0460-en-907">Save his Good Deeds there doth he take.</l>
+<l n="908" xml:id="em0460-en-908">But beware, for, an<app n="1254" type="substantive"><lem wit="#Q1">for, an<note><p>“for and”</p></note></lem><rdg wit="#Q3">and</rdg></app> they be small,</l>
+            <l n="909" xml:id="em0460-en-909">Before God he hath no help at all.</l>
+<l n="910" xml:id="em0460-en-910">None excuse may be there for every man<app n="1255" type="substantive"><lem wit="#Q1 #Q3">every man</lem><rdg wit="#COL">Everyman</rdg></app>.</l>
+            <l n="911" xml:id="em0460-en-911">Alas, how shall he do then?</l>
+            <l n="912" xml:id="em0460-en-912">For, after death, amends may no man make,</l>
+            <l n="913" xml:id="em0460-en-913">For then mercy and pity doth him forsake.</l>
+            <l n="914" xml:id="em0460-en-914">If his reckoning be not clear when he do come,</l>
+<l n="915" xml:id="em0460-en-915">God will say, <emph>&quot;Ite maledicti in ignem eternum!&quot;</emph>.</l>
+            <l n="916" xml:id="em0460-en-916">And he that hath his account whole and sound,</l>
+            <l n="917" xml:id="em0460-en-917">High in heaven he shall be crowned;</l>
+            <l n="918" xml:id="em0460-en-918">Unto which place God bring us all thither,</l>
+            <l n="919" xml:id="em0460-en-919">That we may live body and soul together.</l>
+            <l n="920" xml:id="em0460-en-920">Thereto help the Trinity!</l>
+            <l n="921" xml:id="em0460-en-921">Amen, say ye, for saint Charity.</l>
+          </lg>
+        </sp>
+<stage xml:id="em0460-en-st-45">[Exit.]<app n="1256" type="substantive"><lem wit="#LES"><emph>[Exit.]</emph></lem></app></stage>
+        <trailer xml:id="em0460-en-tr-1">FINIS</trailer>
+      </div1>
+    </body>
+    <back>
+      <div type="apendice">
+        <head>The Early Texts: Analysis</head>
+<p>The anonymous morality play <emph>The Summoning of Everyman</emph> , usually called <emph>Everyman</emph> for short, is probably a translation and not an original composition, its most likely source being the anonymous Dutch play entitled <emph>Den Spyeghel der Salicheit van Elckerlijc</emph>, or <emph>Elckerlijc</emph> for short (back translated as &quot;Everybody&quot;) (Conley et al. 7; CAW xi; BRA 42). This Dutch play was first printed in Delft around 1495 (Conley et al. 10). The date of the English <emph>Everyman</emph> is also conjectural and derived from the scarce evidence of the undated early prints.</p>
+<p>The only witnesses of the text of <emph>Everyman</emph> are four quartos published between 1515 and 1534 approximately and preserved in unique exemplars, two of them incomplete (Greg, <emph>Bibliography</emph>; Blayney 2: 1045). They are identified in this edition, following Bruster and Rasmussen (BRA 76-81), by the abbreviations Q1, Q2, Q3 and Q4 respectively. None bears a publication date, but typographical analysis of pilcrows carried by Bruster and Rasmussen set the limits as follows: Q1, around 1518-19; Q2 between 1525 and 1528; Q3 between 1521 and 1528, so that it may have preceded Q2; and Q4 between 1528 and 1531 (BRA 76-79).</p>
+        <p>The first two quartos, printed by Rycharde Pynson, are preserved in fragments. Q1, with the Short Title Catalogue number 10604, survives in 325 lines in two separate fragments: the four leaves of signature C (corresponding to lines 684-922 in the present edition), now treasured in the Bodleian library, and often called the Douce fragment (in honor of Francis Douce, the antiquary that bequeathed the fragment to the library); and signatures B3 and B4 (lines 429-552) in a fragment recently rediscovered and, by 2009, in the possession of scholars Arthur and Janet Ing Freeman in London (the Bandinel fragment, in honor of the librarian Bulkeley Bandinel) (Freeman 398-9). The Douce fragment has the six top lines of each leaf missing, probably cut off as it was trimmed fro binding (BRA 79). Q2 (STC 1604.5), now in the British Library and known as the Garrick copy, has survived in signatures B and C (lines 305-922), two thirds of the text.</p>
+<p>The Huntington Library holds the only exemplar of Q3 (STC 10606), a complete text printed by John Skot, provided a title-page displaying woodcuts of the figures of Everyamn and of Deah. Also printed by John Skot and also complete is Q4 (STC 10606.5). Its title-page displays the same woodcuts but in its verso page adds six woodcut illustrations of the figures of Fellowship, Everyman, Beauty, Discretion, Strength and Cousin.<lb/>The filiation of these four early texts is far from being a settled matter, given the diversity and odd interconnectedness of the textual variants. In his two works on the texts of <emph>Everyman</emph>, Greg (1909 and 1910) analyzed these variants and concluded that the Pynson quartos and the Skot quartos constituted two branches of the stemma, each derived from a lost text (&quot;Y&quot; for Q1 and Q2, and &quot;X&quot; for Q3 and Q4), which in their turn might have descended from a lost &quot;Z&quot; text (Greg 1910: 67). Many subsequent editors have endorsed Greg&apos;s analysis. In contrast, Freeman (423-7) and Bruster and Rasmussen (BRA 82) propose a simpler transmission in which Q2 derives from Q1 and becomes a textual dead end; Q3 &quot;seems largely to depend upon [Q1], or a close family relation&quot; (Freeman 426); and Q4 is a &quot;modernized, very slightly corrected [...] version of Q3&quot;, with the few concomittances with Q1 or Q2 explicable by coincidence (Freeman 427). For Bruster and Rasmussen, Q2 might have been set in consultation of a variant manuscript (BRA 82). Unique readings in each witness can be explained by deliberate interventions. This view seems the most likely to the present editor.</p>
+      </div>
+      <div type="apendice">
+        <head>Editorial Procedures</head>
+      </div>
+      <div type="apendice">
+        <head>Critical Apparatus</head>
+        <p>The critical apparatus include deviations from the base text (the third quarto, or Q3) and significant variants in other witnesses and modern editions. It is simultaneously presented in TEI-encoded form, using the double-end-point-attached method (TEI 12.2), with each entry anchored to its point in the critical text, and in a lemmatized list in the following collation notes. In the pop-up-windows displaying the TEI-encoded apparatus, the sigal (in italics) precedes the readings in question, and editorial commentaries may follow encloed by parenthesis. In each entry of the lemmatized list, readings precede the sigla of the witnesses and modern editions, and editorial comments (such as &quot;om.&quot; or &quot;subst.&quot;, or &quot;after...&quot;) or variant readings (inserted between inverted commas) follow the siglum.</p>
+        <p>The sigla and abbreviations used are listed in the final Bibliography section.</p>
+        <p>Since the critical edition uses square brackets ( [ ] ) to indicate editorial additions, entries related to these insertions only include the earliest editor to adopt the addition in question.</p>
+<p><emph>Lemmatized list</emph></p>
+<p>0 SD <emph>[Enter Messenger as prologue.]</emph> ] ADA subst.<lb/>7 wondrous ] Q4; wonders Q3<lb/>21 SD <emph>[Exit.]</emph> ] ADA<lb/>21 SD <emph>[Enter] God [and] speaketh:</emph> ] [<emph>Enter</emph> God.] BRA; <emph>God speketh</emph> [<emph>from above.</emph>] ADA<lb/>22 SP [god] ] ADA<lb/>28 rod ] Q4; rood Q3<lb/>29 law ] Q3; love BEV<lb/>31 two ] Q3; two theues Q4<lb/>63 SD <emph>[Enter]</emph> ] ADA<lb/>71 tarrying. ] Q3; tarrying [<emph>God withdraws.</emph>] BEV<lb/>73 SD <emph>[God withdraws.]</emph> ] BEV after &apos;taryenge&apos; line 71<lb/>79 SD <emph>[Enter Everyman at a distance.]</emph> ] ADA; [<emph>Exit God.</emph>] LES subst<lb/>86 forget? ] Q3; forget? <emph>[Enter] Everyman</emph> BRA<lb/>96 ere ] or Q3 throughout<lb/>123 defer ] Q3; [thou] differe BEV<lb/>125 richesse ] Q3; riches CAW<lb/>156 acquaintance ] Q4; acqueynce Q3<lb/>168 mad ] Q4; made Q3<lb/>183 SD <emph>[Exit.]</emph> ] ADA<lb/>201 SD <emph>[Enter Fellowship at a distance.]</emph> ] BEV<lb/>251 maketh ] Q4; make Q3<lb/>268 loath ] Q3; loathsome Q4<lb/>271 said ] Q4; say Q3<lb/>278 mind ] Q3; mind to folly Q4<lb/>280 Now ] Q3; Nay Q4<lb/>284 fellow ] felaw Q3; Felaw[ship]e BEV<lb/>300 Adieu ... more ] Q3; Q4 assigned to Fellowship<lb/>301 ending ] end[ing]e CAW; end Q3<lb/>302 SD <emph>[Exit.]</emph> ] ADA<lb/>303 thus ] Q4; this Q3<lb/>317 them ] CAW; them go Q3<lb/>318 SD <emph>[Enter Kindred and Cousin.]</emph> ] ADA<lb/>324 we ] Q2; Q3 om.<lb/>325 hold ] Q2; bolde Q3<lb/>326 bold ] Q2; holde Q3<lb/>368 SD <emph>[Exit.]</emph> ] ADA<lb/>375 life ] Q2; Q3 Q4 om.<lb/>377 SD <emph>[Exit.]</emph> ] ADA<lb/>392 SD <emph>[Goods speaks from a corner.]</emph> ] CAW subst.; <emph>within</emph> ADA<lb/>400 SD <emph>[Goods approaches.]</emph> ] BEV<lb/>417 shouldest ] Q2 Q4; sholdes Q3<lb/>418 did ] Q3; didst Q2<lb/>426 no man ] Q2; man Q3<lb/>436 misspending ] myspendynge Q1; my spendynge Q3 Q4<lb/>453 caught ] Q1; caugh Q3<lb/>462 SD <emph>[Exit.]</emph> ] ADA<lb/>465 gone ] Q1 Q3; go BRA<lb/>469 And ] Q1; An Q3<lb/>471 forsook ] forsoke Q1; forsake Q3<lb/>493 a count ] a counte Q3; account ADA (&quot;a[c]count&quot;)<lb/>485 SD <emph>[Good Deeds speaks from the ground.]</emph> ] ADA subst.<lb/>502 SD <emph>[Good Deeds shows Everyman his Book of Account.]</emph> ] ADA subst.<lb/>504 Ah, see ] BRA; Ase Q1 Q2 Q3; Beholde Q4; As LES<lb/>511 my ] Q1; Q3 om.<lb/>521 SD <emph>[Enter Knowledge.]</emph> ] ADA<lb/>526 be ] Q1; by Q3<lb/>526 creator ] creature Q1 Q3<lb/>527 she ] BEV; he Q1 Q2 Q3 Q4<lb/>542 SD <emph>[Confession enters, and Knowledge leads Everyman to him]</emph> ] BEV subst.; <emph>[Knowledge leads Everyman to Confession]</emph> ADA<lb/>545 SD <emph>[Kneeling]</emph> ] ADA.<lb/>558 voider ] Q2; voyce voyder Q3<lb/>561 SD <emph>[Confession shows Everyman a knotted scourge]</emph> ] BEV subst; <emph>[Gives Everyman a scourge]</emph> ADA<lb/>566 SD <emph>[Confession gives the knotted scourge to Knowledge.]</emph> ] BRA subst.<lb/>568 SD <emph>[to Everyman]</emph> ] BRA<lb/>572 find. ] Q3; find. [<emph>Exit.</emph>] BRA<lb/>580 SD <emph>[Everyman makes his confession]</emph> ] BEV; <emph>[Everyman kneels in prayer]</emph> ADA<lb/>586 Godhead ] godhede Q4; god heed Q3; godheed Q2<lb/>587 me ] Q2; Q3 om.<lb/>590 conductor ] Q4; conduyter Q3; conduiter Q2<lb/>594 unworthy ... life ] Q2 Q3; of thy benygnytye Q4<lb/>596 be written ] Q2; bewryten Q3<lb/>604 help me ] Q2; helpe Q3<lb/>604 SD <emph>[He rises]</emph> ] ADA.<lb/>605 SD <emph>[He takes the knotted scourge.]</emph> ] LES subst.<lb/>606 a quittance ] a quytaunce Q4; aquaintaunce Q2; acqueyntaunce Q3; aquittance ADA (&quot;aquytaunce&quot;)<lb/>613 SD <emph>[He scourges himself.]</emph> ] ADA subst.<lb/>618 SD <emph>[Good Deeds rises from the ground.]</emph> ] ADA subst.<lb/>643 SD <emph>[He offers a garment.]</emph> ] BRA<lb/>647 It ] Q4; He Q2 Q3<lb/>648 SD <emph>[Every man puts on the garment of contrition.]</emph> ] ADA subst.; <emph>[Takes the garment.]</emph> BRA after &apos;Mary&apos;s son&apos; l. 649<lb/>653 have it ] Q4; haue them Q2; haue Q3<lb/>653 SD <emph>[He points to the account book.]</emph> ] BRA<lb/>656 SP knowledge ] ADA; Kynrede Q3<lb/>666 SP knowledge ] CAW; Kynrede Q3<lb/>669 SD <emph>[Enter Discretion, Strength, Five Wits, and Beauty.]</emph> ] ADA<lb/>671 would ] Q2; wyll Q3<lb/>695 heavenly ] Q1; heuen Q3<lb/>702 In queath ] In queth Q3; I it be quethe Q1; In quyet Q4<lb/>738 make ] Q3 Q4; take Q1<lb/>739 hands ] Q2, hande Q3<lb/>742 ministers ] Q3; ministers of LES<lb/>743 kissed ] kyst Q2; kysse Q3 Q4<lb/>744 the ] Q2; Q3 Q4 om.<lb/>745 we ] Q3 Q4; may we Q1<lb/>747 priests ] preest[s] BEV; preest Q3<lb/>749 SD <emph>[Everyman … return.]</emph> ] ADA subst.<lb/>753 same sacrament ] Q3; seven sacraments BEV<lb/>771 SD <emph>[Everyman returns carrying a cross.]</emph> ] BRA subst.; <emph>Re-enter Everyman</emph> ADA<lb/>772 your ] Q3 Q4; our Q2<lb/>780 our ] Q1; your Q3<lb/>786 Everyman ] Q1 Q3 Q4; Q2 adds speech prefix &quot;Strength&quot;<lb/>787 did ] Q1 Q3 Q4; was Q2<lb/>788 SD <emph>[They … grave.]</emph> ] ADA<lb/>789 do ] Q1, doth Q3<lb/>795 ye ] Q1 Q3; we Q2; you Q4<lb/>805 SD <emph>[Exit.]</emph> ] ADA<lb/>814 till ] Q1; to Q3<lb/>814 to brast ] Q3; to-burst BRA<lb/>820 to displease I am ] Q3; too displease. I am BRA<lb/>821 Yet ... wot ] Q2; Wyll ye breke promyse that is dette Q1 Q3; wyll you breke promyse that is dette Q4<lb/>824 waste ] wast Q3; wastest Q2<lb/>826 SD <emph>[Exit.]</emph> ] ADA<lb/>840 SD <emph>[Exit.]</emph> ] ADA<lb/>850 SD <emph>[Exit.]</emph> ] ADA<lb/>868 loved ] Q1; loue Q3<lb/>888 SD <emph>[Everyman ... grave.]</emph> ] ADA<lb/>893 SD <emph>[Enter Angel above, or within.]</emph> ] <emph>Enter Angel</emph> COL; <emph>within</emph> ADA after SP; <emph>above, or within</emph> BEV after SP<lb/>899 sphere ] spere Q3<lb/>901 before ] Q3; after Q1 Q2<lb/>902 SD <emph>[Exeunt Angel and Knowledge.]</emph> ] LES subst.<lb/>902 SD <emph>[Enter … epilogue.]</emph> ] ADA<lb/>903 moral ] Q3; memoriall Q1<lb/>906 every man ] euery man Q1 Q3; Everyman COL<lb/>908 for, an ] for and Q1; and Q3<lb/>910 every man ] euery man Q1 Q3; Everyman COL<lb/>922 SD <emph>[Exit.]</emph> ] LES</p>
+      </div>
+      <div type="apendice">
+        <head>Bibliography</head>
+        <p>(Abbreviations included)</p>
+<p>ADA : Adams, Joseph Quincy, ed. <emph>Chief Pre-Shakespearean Dramas.</emph> Boston: Houghton Mifflin, 1924.</p>
+<p>BRA : Bruster, Douglas; Rasmussen, Eric, ed. <emph>“Everyman” and “Mankind”</emph>. London: Methuen Drama A &amp; C Black, 2009. Arden Early Modern Drama.</p>
+<p>BEV : Bevington, David, ed. <emph>Medieval Drama</emph>. Boston: Houghton Mifflin, 1975.</p>
+        <p>Blayney, Peter. The Stationers’ Company and the Printers of London, 1501-1557. Cambridge: Cambridge University Press, 2013.</p>
+<p>CAW : Cawley, Arthur C., ed. <emph>Everyman and Medieval Miracle Plays</emph>. New York: Birmingham-Southern Coll, 1959. London: J. M. Dent, 1993. 195-225.</p>
+<p>COL : Coldeway, John C., ed. <emph>Early English Drama: An Anthology</emph>. London and New York: Garland Pub, 1993.</p>
+<p>Conley, John et al. <emph>The Mirror of Everyman’s Salvation: A Prose Translation of the Original “Everyman.”</emph> Amsterdam: Rodopi, 1985.</p>
+<p>Greg, Walter W., ed. <emph>Everyman. Reprinted by W. W. Greg from the edition by John Skot in the possession of Mr. A. H. Huth.</emph> Materialen zur Kunde des älteren englischen Dramas 24. Louvain: A.Uystpruyst, 1909.</p>
+<p>Greg, Walter W., ed. <emph>Everyman. Reprinted by W. W. Greg from the fragments of two editions by Pynson preserved in the Bodleian Library and the British Museum, together with critical apparatus.</emph> Materialen zur Kunde des älteren englischen Dramas 28. Louvain: A.Uystpruyst, 1910.</p>
+<p>Greg, Walter W. <emph>A Bibliography of the English Printed Drama to the Restoration</emph>. London: Bibliographical Society, 1939.</p>
+<p>LES : Lester, G. A., ed. <emph>Three Late Medieval Morality Plays: Mankind, Everyman, Mundus et Infans</emph>. London: A &amp; C Black, 1981. New Mermaids.</p>
+        <p>Q1 : anon. [no title page]. London: printed by Richard Pynson, [1518-19?]. STC 10604. [First Quarto.]</p>
+        <p>Q2 : anon. [no title page]. London: printed by Richard Pynson, [1526-28?]. STC 10604.5 [Second Quarto.]</p>
+<p>Q3 : anon. <emph>Here begynneth a treatyse how ye hye fader of heuen sendeth dethe to somon euery creature to come and gyue a counte of theyr lyues in this worlde and is in maner of a morall playe</emph>. London: printed by John Skot, [1521-8?]. STC 10606 [Third Quarto.]</p>
+<p>Q4 : anon. <emph>Here begynneth a treatyse how the hye fader of heuen sendeth dethe to somon euery creature to come and gyue a counte of theyr lyues in this worlde and is in maner of a morall playe</emph>. London: printed by John Skot, [1528-31?]. STC 10606.5. [Fourth Quarto.]</p>
+        <p>SD : stage direction</p>
+        <p>SP : speech prefix</p>
+        <p>subst. : substantively</p>
+        <p>TEI : Text Encoding Initiative Consortium. P5 Guidelines for Electronic Text Encoding and Exchange. Originally edited by C.M. Sperberg-McQueen and Lou Burnard for the ACH-ALLC-ACL Text Encoding Initiative. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html</p>
+      </div>
+      <div type="bibliografia">
+        <listBibl type="ediciones_modernas">
+          <biblStruct type="libro">
+            <monogr>
+              <editor>Adams, Joseph Quincy</editor>
+              <title level="m">Chief Pre-Shakespearean Dramas.</title>
+              <idno type="siglum">ADA</idno>
+              <imprint>
+                <pubPlace>Boston</pubPlace>
+                <publisher>Houghton Mifflin</publisher>
+                <date when="1924">1924</date>
+              </imprint>
+            </monogr>
+            <note>Supposes, pp. 536-67</note>
+            <citedRange unit="page">423-68</citedRange>
+          </biblStruct>
+          <biblStruct type="libro">
+            <monogr>
+              <editor>Bevington, David</editor>
+              <title level="m">Medieval Drama</title>
+              <idno type="siglum">BEV</idno>
+              <imprint>
+                <pubPlace>Boston</pubPlace>
+                <publisher>Houghton Mifflin</publisher>
+                <date when="1975">1975</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="libro">
+            <monogr>
+              <editor>Bruster, Douglas</editor>
+              <editor>Rasmussen, Eric</editor>
+              <title level="m">“Everyman” and “Mankind”</title>
+              <idno type="siglum">BRA</idno>
+              <imprint>
+                <pubPlace>London</pubPlace>
+                <publisher>Methuen Drama A &amp; C Black</publisher>
+                <date when="2009">2009</date>
+              </imprint>
+            </monogr>
+            <series>
+              <title level="s">Arden Early Modern Drama</title>
+            </series>
+          </biblStruct>
+          <biblStruct type="libro">
+            <monogr>
+              <editor>Cawley, Arthur C.</editor>
+              <title level="m">Everyman and Medieval Miracle Plays</title>
+              <idno type="siglum">CAW</idno>
+              <imprint>
+                <pubPlace>New York</pubPlace>
+                <publisher>Birmingham-Southern Coll</publisher>
+                <date when="1959">1959</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="libro">
+            <monogr>
+              <editor>Coldeway, John C.</editor>
+              <title level="m">Early English Drama: An Anthology</title>
+              <idno type="siglum">COL</idno>
+              <imprint>
+                <pubPlace>London and New York</pubPlace>
+                <publisher>Garland Pub</publisher>
+                <date when="1993">1993</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="libro">
+            <monogr>
+              <editor>Cooper, Geoffrey</editor>
+              <editor>Wortham, Christopher</editor>
+              <title level="m">The Summoning of Everyman</title>
+              <imprint>
+                <pubPlace>Nedlands, W. A.</pubPlace>
+                <date when="1980">1980</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="libro">
+            <monogr>
+              <editor>Davidson, Clifford</editor>
+              <editor>Walsh, Martin W.</editor>
+              <editor>Broos, Ton J.</editor>
+              <title level="m">&apos;Everyman&apos; and Its Dutch Original, &apos;Elckerlijc&apos;</title>
+              <imprint>
+                <pubPlace>Kalamazoo</pubPlace>
+                <publisher>Medieval Institute Publications (University of Rochester)</publisher>
+                <date when="2007">2007</date>
+              </imprint>
+            </monogr>
+            <series>
+              <title level="s">TEAMS Middle English Texts Series</title>
+            </series>
+          </biblStruct>
+          <biblStruct type="seccion_libro">
+            <analytic>
+              <editor>Halsall, Paul</editor>
+              <title level="a">Everyman</title>
+            </analytic>
+            <monogr>
+              <title level="m">Internet Medieval Sourcebook</title>
+              <imprint>
+                <publisher>Fordham University</publisher>
+                <date when="1998">1998</date>
+              </imprint>
+            </monogr>
+            <ptr target="http://www.fordham.edu/halsall/basis/everyman.html"/>
+          </biblStruct>
+          <biblStruct type="libro">
+            <monogr>
+              <editor>Lester, G. A.</editor>
+              <title level="m">Three Late Medieval Morality Plays: Mankind, Everyman, Mundus et Infans</title>
+              <idno type="siglum">LES</idno>
+              <imprint>
+                <pubPlace>London</pubPlace>
+                <publisher>A &amp; C Black</publisher>
+                <date when="1981">1981</date>
+              </imprint>
+            </monogr>
+            <series>
+              <title level="s">New Mermaids</title>
+            </series>
+          </biblStruct>
+          <biblStruct type="libro">
+            <monogr>
+              <editor>Walker, Greg</editor>
+              <title level="m">Medieval Drama: An Anthology</title>
+              <imprint>
+                <pubPlace>Oxford</pubPlace>
+                <publisher>Blackwell</publisher>
+                <date when="2000">2000</date>
+              </imprint>
+            </monogr>
+            <citedRange unit="page">281-297</citedRange>
+          </biblStruct>
+        </listBibl>
+        <listBibl type="critica">
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Adolf, Helen</author>
+              <title level="a">From &apos;Everyman&apos; and &apos;Elckerlijc&apos; to Hofmannsthal and Kafka</title>
+            </analytic>
+            <monogr>
+              <title level="j">Comparative Literature</title>
+              <imprint>
+                <date when="1957">1957</date>
+              </imprint>
+              <biblScope unit="volume">9</biblScope>
+              <biblScope unit="issue">3</biblScope>
+              <biblScope unit="page">204-214</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Bacquet, Paul</author>
+              <title level="a">&apos;Everyman&apos; et l&apos;orthodoxie catholique médiévale</title>
+            </analytic>
+            <monogr>
+              <title level="j">Etudes Anglaises: Grande-Bretagne, Etats-Unis</title>
+              <imprint>
+                <date when="1982">1982</date>
+              </imprint>
+              <biblScope unit="volume">35</biblScope>
+              <biblScope unit="issue">3</biblScope>
+              <biblScope unit="page">296-310</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Best, Thomas W</author>
+              <title level="a">&apos;Everyman&apos; and Protestantism in the Netherlands and Germany</title>
+            </analytic>
+            <monogr>
+              <title level="j">Daphnis: Zeitschrift Fur Mittlere Deutsche Literatur</title>
+              <imprint>
+                <date when="1987">1987</date>
+              </imprint>
+              <biblScope unit="volume">16</biblScope>
+              <biblScope unit="issue">1-2</biblScope>
+              <biblScope unit="page">13-32</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Bloemendal, Jan</author>
+              <title level="a">Transfer and Integration of Latin and Vernacular Drama in the Early Modern Period: The Case of &apos;Everyman&apos;, &apos;Elckerlijc&apos;, &apos;Homulus&apos; and &apos;Hecastus&apos;</title>
+            </analytic>
+            <monogr>
+              <title level="j">Arcadia: Internationale Zeitschrift Für Literaturwissenschaft</title>
+              <imprint>
+                <date when="2009">2009</date>
+              </imprint>
+              <biblScope unit="volume">44</biblScope>
+              <biblScope unit="issue">2</biblScope>
+              <biblScope unit="page">274-288</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Bourgne, Florence</author>
+              <title level="a">Staging &apos;Everyman&apos;. A &apos;Dance of Life,&apos; Or of the Use of Medieval Drama to Re-Energize our Contemporary Stage</title>
+            </analytic>
+            <monogr>
+              <title level="j">Etudes Anglaises: Revue Du Monde Anglophone</title>
+              <imprint>
+                <date when="2013">2013</date>
+              </imprint>
+              <biblScope unit="volume">66</biblScope>
+              <biblScope unit="issue">3</biblScope>
+              <biblScope unit="page">388-401</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Conley, John</author>
+              <title level="a">The Doctrine of Friendship in &apos;Everyman&apos;</title>
+            </analytic>
+            <monogr>
+              <title level="j">Speculum: A Journal of Medieval Studies</title>
+              <imprint>
+                <date when="1969">1969</date>
+              </imprint>
+              <biblScope unit="volume">44</biblScope>
+              <biblScope unit="issue">3</biblScope>
+              <biblScope unit="page">374-382</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="seccion_libro">
+            <analytic>
+              <author>Cunningham, John</author>
+              <title level="a">Comedic and Liturgical Restoration in &apos;Everyman&apos;</title>
+            </analytic>
+            <monogr>
+              <editor>Davidson, Clifford and John H. Stroupe</editor>
+              <title level="m">Drama in the Middle Ages: Comparative and Critical Essays: Second Series</title>
+              <imprint>
+                <publisher>AMS</publisher>
+                <date when="1990">1990</date>
+              </imprint>
+              <biblScope unit="page">368-380</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Freeman, Arthur</author>
+              <title level="a">&apos;Everyman&apos; and Others, Part I: Some Fragments of Early English Printing, and their Preservers</title>
+            </analytic>
+            <monogr>
+              <title level="j">Library: The Transactions of the Bibliographical Society</title>
+              <imprint>
+                <date when="2008">2008</date>
+              </imprint>
+              <biblScope unit="volume">9</biblScope>
+              <biblScope unit="issue">3</biblScope>
+              <biblScope unit="page">267-305</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Freeman, Arthur</author>
+              <title level="a">&apos;Everyman&apos; and Others, Part II: The Bandinel Fragments</title>
+            </analytic>
+            <monogr>
+              <title level="j">Library: The Transactions of the Bibliographical Society</title>
+              <imprint>
+                <date when="2008">2008</date>
+              </imprint>
+              <biblScope unit="volume">9</biblScope>
+              <biblScope unit="issue">4</biblScope>
+              <biblScope unit="page">397-427</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Frost, Cheryl</author>
+              <title level="a">&apos;Everyman&apos; in Performance</title>
+            </analytic>
+            <monogr>
+              <title level="j">LiNQ: (Literature in North Queensland)</title>
+              <imprint>
+                <date when="1978">1978</date>
+              </imprint>
+              <biblScope unit="volume">6</biblScope>
+              <biblScope unit="issue">1</biblScope>
+              <biblScope unit="page">39-48</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Garner,Stanton B., Jr</author>
+              <title level="a">Theatricality in &apos;Mankind&apos; and &apos;Everyman&apos;</title>
+            </analytic>
+            <monogr>
+              <title level="j">Studies in Philology</title>
+              <imprint>
+                <date when="1987">1987</date>
+              </imprint>
+              <biblScope unit="volume">84</biblScope>
+              <biblScope unit="issue">3</biblScope>
+              <biblScope unit="page">272-285</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Godfrey, Bob</author>
+              <title level="a">&apos;Everyman&apos; (Re)Considered</title>
+            </analytic>
+            <monogr>
+              <title level="j">European Medieval Drama</title>
+              <imprint>
+                <date when="2000">2000</date>
+              </imprint>
+              <biblScope unit="volume">4</biblScope>
+              <biblScope unit="page">155-168</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="seccion_libro">
+            <analytic>
+              <author>Hadfield, Andrew</author>
+              <title level="a">The Summoning of Everyman</title>
+            </analytic>
+            <monogr>
+              <editor>edited by Betteridge, Thomas and Greg Walker</editor>
+              <title level="m">The Oxford Handbook of Tudor Drama</title>
+              <imprint>
+                <publisher>Oxford University Press</publisher>
+                <date when="2012">2012</date>
+              </imprint>
+              <biblScope unit="page">9-1083</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Harper, Elizabeth and Britt Mize</author>
+              <title level="a">Material Economy, Spiritual Economy, and Social Critique in &apos;Everyman&apos;</title>
+            </analytic>
+            <monogr>
+              <title level="j">Comparative Drama</title>
+              <imprint>
+                <date when="2006">2006</date>
+              </imprint>
+              <biblScope unit="volume">40</biblScope>
+              <biblScope unit="issue">3</biblScope>
+              <biblScope unit="page">263-311</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Hillman, Richard</author>
+              <title level="a">&apos;Everyman&apos; and the Energies of Stasis</title>
+            </analytic>
+            <monogr>
+              <title level="j">Florilegium: Papers on Late Antiquity and the Middle Ages</title>
+              <imprint>
+                <date when="2016">2016</date>
+              </imprint>
+              <biblScope unit="volume">7</biblScope>
+              <biblScope unit="page">131-149</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Im, Yeeyon</author>
+              <title level="a">The &apos;Scourge of Penance&apos; and a &apos;Garment of Sorrow&apos;: Catholic Reforms and the Spectacle of the Passion in &apos;Everyman&apos;</title>
+            </analytic>
+            <monogr>
+              <title level="j">Medieval and Early Modern English Studies</title>
+              <imprint>
+                <date when="2016">2016</date>
+              </imprint>
+              <biblScope unit="volume">24</biblScope>
+              <biblScope unit="issue">2</biblScope>
+              <biblScope unit="page">131-149</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="seccion_libro">
+            <analytic>
+              <author>Kolve, V. A</author>
+              <title level="a">&apos;Everyman&apos; and the Parable of the Talents</title>
+            </analytic>
+            <monogr>
+              <editor>Sticca, Sandro</editor>
+              <title level="m">The Medieval Drama. Papers of the Third Annual Conference of the Center for Medieval and Early Renaissance Studies</title>
+              <imprint>
+                <publisher>S.U.N.Y. Press</publisher>
+                <date when="1979">1979</date>
+              </imprint>
+              <biblScope unit="page">69-98</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Ladd, Roger A</author>
+              <title level="a">&apos;My Condicion is Mannes Soule to Kill&apos; - Everyman&apos;s Mercantile Salvation</title>
+            </analytic>
+            <monogr>
+              <title level="j">Comparative Drama</title>
+              <imprint>
+                <date when="2007">2007</date>
+              </imprint>
+              <biblScope unit="volume">41</biblScope>
+              <biblScope unit="issue">1</biblScope>
+              <biblScope unit="page">57-78</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="seccion_libro">
+            <analytic>
+              <author>McGerr, Rosemarie</author>
+              <title level="a">Comparing Spiritual and Material Goods: Poverty and Prosperity in &apos;The Pilgrimage of the Soul&apos; and &apos;Everyman&apos;</title>
+            </analytic>
+            <monogr>
+              <editor>Kosso, Cynthia and Anne Scott</editor>
+              <title level="m">Poverty and Prosperity in the Middle Ages and Renaissance</title>
+              <imprint>
+                <publisher>Brepols</publisher>
+                <date when="2012">2012</date>
+              </imprint>
+              <biblScope unit="page">179-195</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="seccion_libro">
+            <analytic>
+              <author>McKinnell, John</author>
+              <title level="a">How might &apos;Everyman&apos; have been Performed?</title>
+            </analytic>
+            <monogr>
+              <editor>Moskowich-Spiegel, Isabel and Begoña Crespo-García</editor>
+              <title level="m">Bells Chiming from the Past: Cultural and Linguistic Studies on Early English</title>
+              <imprint>
+                <publisher>Rodopi</publisher>
+                <date when="2007">2007</date>
+              </imprint>
+              <biblScope unit="page">119-138</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="seccion_libro">
+            <analytic>
+              <author>Meier, Hans H</author>
+              <title level="a">Middle English Styles in Translation: A Note on &apos;Everyman&apos; and Caxton&apos;s &apos;Reynard&apos;</title>
+            </analytic>
+            <monogr>
+              <editor>Alblas, Jacques B. H., Richard Todd and August J. Fry</editor>
+              <title level="m">From Caxton to Beckett: Essays Presented to W.H. Toppen on the Occasion of His Seventieth Birthday</title>
+              <imprint>
+                <publisher>Rodopi</publisher>
+                <date when="1979">1979</date>
+              </imprint>
+              <biblScope unit="page">13-30</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="seccion_libro">
+            <analytic>
+              <author>Mills, David</author>
+              <title level="a">The Theaters of &apos;Everyman&apos;</title>
+            </analytic>
+            <monogr>
+              <editor>Alford, John A.</editor>
+              <title level="m">From Page to Performance: Essays in Early English Drama</title>
+              <imprint>
+                <date when="1995">1995</date>
+              </imprint>
+              <biblScope unit="page">127-149</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Moran, Dennis V</author>
+              <title level="a">The Life of Everyman</title>
+            </analytic>
+            <monogr>
+              <title level="j">Neophilologus</title>
+              <imprint>
+                <date when="1972">1972</date>
+              </imprint>
+              <biblScope unit="volume">56</biblScope>
+              <biblScope unit="page">324-330</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Munson, William</author>
+              <title level="a">Knowing and Doing in &apos;Everyman&apos;</title>
+            </analytic>
+            <monogr>
+              <title level="j">The Chaucer Review: A Journal of Medieval Studies and Literary Criticism</title>
+              <imprint>
+                <date when="1985">1985</date>
+              </imprint>
+              <biblScope unit="volume">19</biblScope>
+              <biblScope unit="issue">3</biblScope>
+              <biblScope unit="page">252-271</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Paulson, Julie</author>
+              <title level="a">Death&apos;s Arrival and Everyman&apos;s Separation</title>
+            </analytic>
+            <monogr>
+              <title level="j">Theatre Survey: The Journal of the American Society for Theatre Research</title>
+              <imprint>
+                <date when="2007">2007</date>
+              </imprint>
+              <biblScope unit="volume">48</biblScope>
+              <biblScope unit="issue">1</biblScope>
+              <biblScope unit="page">121-141</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="libro" xml:lang="en">
+            <monogr>
+              <author>Potter, Robert</author>
+              <title level="m">The English Morality Play: Origins, History, and Influence of a Dramatic Tradition</title>
+              <imprint>
+                <pubPlace>London</pubPlace>
+                <publisher>Routledge</publisher>
+                <date when="1975">1975</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Ryan, Lawrence V</author>
+              <title level="a">Doctrine and Dramatic Structure in &apos;Everyman&apos;</title>
+            </analytic>
+            <monogr>
+              <title level="j">Speculum: A Journal of Medieval Studies</title>
+              <imprint>
+                <date when="1957">1957</date>
+              </imprint>
+              <biblScope unit="volume">32</biblScope>
+              <biblScope unit="issue">4</biblScope>
+              <biblScope unit="page">722-735</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Schreiber, Earl G</author>
+              <title level="a">&apos;Everyman&apos; in America</title>
+            </analytic>
+            <monogr>
+              <title level="j">Comparative Drama</title>
+              <imprint>
+                <date when="1975">1975</date>
+              </imprint>
+              <biblScope unit="volume">9</biblScope>
+              <biblScope unit="page">99-115</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Spinrad, Phoebe S</author>
+              <title level="a">The Last Temptation of &apos;Everyman&apos;</title>
+            </analytic>
+            <monogr>
+              <title level="j">Philological Quarterly</title>
+              <imprint>
+                <date when="1985">1985</date>
+              </imprint>
+              <biblScope unit="volume">64</biblScope>
+              <biblScope unit="issue">2</biblScope>
+              <biblScope unit="page">185-194</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Steenbrugge, Charlotte</author>
+              <title level="a">Books of Accounts in &apos;Everyman&apos; and Elckerlijc</title>
+            </analytic>
+            <monogr>
+              <title level="j">Medieval English Theatre</title>
+              <imprint>
+                <date when="2011">2011</date>
+              </imprint>
+              <biblScope unit="volume">33</biblScope>
+              <biblScope unit="page">19-44</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Stévanovich, Colette</author>
+              <title level="a">La Structure d&apos;&apos;Everyman&apos;</title>
+            </analytic>
+            <monogr>
+              <title level="j">Anglophonia: French Journal of English Studies</title>
+              <imprint>
+                <date when="2011">2011</date>
+              </imprint>
+              <biblScope unit="volume">29</biblScope>
+              <biblScope unit="page">129-141</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Stevens, Martin</author>
+              <title level="a">The Reshaping of &apos;Everyman&apos;: Hofmannsthal at Salzburg</title>
+            </analytic>
+            <monogr>
+              <title level="j">Germanic Review</title>
+              <imprint>
+                <date when="1973">1973</date>
+              </imprint>
+              <biblScope unit="volume">48</biblScope>
+              <biblScope unit="page">117-131</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Strenger, Elisabeth Maria</author>
+              <title level="a">The &apos;Everyman&apos; Morality Plays of Reformation Germany</title>
+            </analytic>
+            <monogr>
+              <author>Strenger, Elisabeth Maria</author>
+              <title level="j">Dissertation Abstracts International</title>
+              <imprint>
+                <date when="1989">1989</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Strietman, Elsa</author>
+              <title level="a">The Middle Dutch Elckerlijc and the English &apos;Everyman&apos;</title>
+            </analytic>
+            <monogr>
+              <title level="j">Medium Ævum</title>
+              <imprint>
+                <date when="1983">1983</date>
+              </imprint>
+              <biblScope unit="volume">52</biblScope>
+              <biblScope unit="issue">1</biblScope>
+              <biblScope unit="page">111-114</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Tanner, Ron</author>
+              <title level="a">Humor in &apos;Everyman&apos; and the Middle English Morality Play</title>
+            </analytic>
+            <monogr>
+              <title level="j">Philological Quarterly</title>
+              <imprint>
+                <date when="1991">1991</date>
+              </imprint>
+              <biblScope unit="volume">70</biblScope>
+              <biblScope unit="issue">2</biblScope>
+              <biblScope unit="page">149-161</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="seccion_libro">
+            <analytic>
+              <author>Van Dyke, Carolynn</author>
+              <title level="a">The Intangible and its Image: Allegorical Discourse and the Cast of &apos;Everyman&apos;</title>
+            </analytic>
+            <monogr>
+              <editor>Carruthers, Mary J. and Elizabeth D. Kirk</editor>
+              <title level="m">Acts of Interpretation: The Text in its Contexts, 700-1600: Essays on Medieval and Renaissance Literature in Honor of E. Talbot Donaldson</title>
+              <imprint>
+                <publisher>Pilgrim</publisher>
+                <date when="1982">1982</date>
+              </imprint>
+              <biblScope unit="page">311-324</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Van Laan, Thomas,F</author>
+              <title level="a">&apos;Everyman&apos;: A Structural Analysis</title>
+            </analytic>
+            <monogr>
+              <title level="j">PMLA: Publications of the Modern Language Association of America</title>
+              <imprint>
+                <date when="1963">1963</date>
+              </imprint>
+              <biblScope unit="volume">78</biblScope>
+              <biblScope unit="issue">5</biblScope>
+              <biblScope unit="page">465-475</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Vanhoutte, Jacqueline</author>
+              <title level="a">When &apos;Elckerlijc&apos; Becomes &apos;Everyman&apos;: Translating Dutch to English, Performance to Print</title>
+            </analytic>
+            <monogr>
+              <title level="j">Studies in the Humanities</title>
+              <imprint>
+                <date when="1995">1995</date>
+              </imprint>
+              <biblScope unit="volume">22</biblScope>
+              <biblScope unit="issue">1-2</biblScope>
+              <biblScope unit="page">100-116</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Vos, R</author>
+              <title level="a">&apos;Elckerlijc&apos; - &apos;Everyman&apos; - &apos;Homulus&apos; - &apos;Der Sunden Loin Ist Der Toid&apos;</title>
+            </analytic>
+            <monogr>
+              <title level="j">Tijdschrift Voor Nederlandse Taal- En Letterkunde</title>
+              <imprint>
+                <date when="1966">1966</date>
+              </imprint>
+              <biblScope unit="volume">82</biblScope>
+              <biblScope unit="page">129-143</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Wood, Francis A</author>
+              <title level="a">&quot;¡Elckerlijc&apos;-&apos;Everyman&apos;: The Question of Priority</title>
+            </analytic>
+            <monogr>
+              <title level="j">Modern Philology: A Journal Devoted to Research in Medieval and Modern Literature</title>
+              <imprint>
+                <date when="1910">1910</date>
+              </imprint>
+              <biblScope unit="volume">8</biblScope>
+              <biblScope unit="issue">2</biblScope>
+              <biblScope unit="page">279-302</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Wortham, C. J</author>
+              <title level="a">&apos;Everyman&apos; and the Reformation</title>
+            </analytic>
+            <monogr>
+              <title level="j">Parergon: Bulletin of the Australian and New Zealand Association for Medieval and Renaissance Studies</title>
+              <imprint>
+                <date when="1981">1981</date>
+              </imprint>
+              <biblScope unit="volume">29</biblScope>
+              <biblScope unit="page">23-31</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista" xml:lang="en">
+            <analytic>
+              <author>Worthan, C. J.</author>
+              <title level="a">‘Everyman’ and the Reformation</title>
+            </analytic>
+            <monogr>
+              <title level="j">Parergon</title>
+              <imprint>
+                <date when="1981">1981</date>
+              </imprint>
+              <biblScope unit="volume">29</biblScope>
+              <biblScope unit="page">23-31</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista">
+            <analytic>
+              <author>Yvernault, Martine</author>
+              <title level="a">La Guérison Dans &apos;Everyman&apos;</title>
+            </analytic>
+            <monogr>
+              <title level="j">Anglophonia: French Journal of English Studies</title>
+              <imprint>
+                <date when="2011">2011</date>
+              </imprint>
+              <biblScope unit="volume">29</biblScope>
+              <biblScope unit="page">143-155</biblScope>
+            </monogr>
+          </biblStruct>
+        </listBibl>
+        <listBibl type="traducciones">
+          <biblStruct type="seccion_libro" xml:lang="fr">
+            <analytic>
+              <editor role="translator">Laroque, François</editor>
+              <title level="a">Everyman. L&apos;homme face á  la mort</title>
+            </analytic>
+            <monogr>
+              <editor>Cottegnies, Line</editor>
+              <editor>François Laroque</editor>
+              <editor>Maguin, Jean-Marie</editor>
+              <title level="m">Théâtre élisabéthain</title>
+              <imprint>
+                <pubPlace>Paris</pubPlace>
+                <publisher>Gallimard</publisher>
+                <date when="2009">2009</date>
+              </imprint>
+              <biblScope unit="volume">1</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="seccion_libro" xml:lang="it">
+            <analytic>
+              <editor role="translator">Foligno, Cesare</editor>
+              <title level="a">La chiamata di ogn’omo</title>
+            </analytic>
+            <monogr>
+              <editor>Obertello, Alfredo</editor>
+              <title level="m">Teatro inglese: I- dalle origini a Shakespeare</title>
+              <imprint>
+                <pubPlace>Parma</pubPlace>
+                <publisher>Nuova Accademia editrice</publisher>
+                <date when="1961">1961</date>
+              </imprint>
+              <biblScope unit="volume">1</biblScope>
+              <biblScope unit="page">63-89</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="libro" xml:lang="de">
+            <monogr>
+              <editor role="translator">Wiemken, Helmut</editor>
+              <title level="m">Everyman / Jedermann</title>
+              <imprint>
+                <pubPlace>Stuttgart</pubPlace>
+                <publisher>Reclam</publisher>
+                <date when="1970">1970</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

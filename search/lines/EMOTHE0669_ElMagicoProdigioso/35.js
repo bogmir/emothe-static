@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0669_ElMagicoProdigioso/35",{"lines":[["act-3","l3142","III, 3142",0,"v","del bien partido amor nuestro,"],["act-3","l3143","III, 3143",0,"v","al Mágico prodigioso"],["act-3","l3144","III, 3144",0,"v","pedid perdón de los yerros."]],"speakers":["MOSCÓN"]});

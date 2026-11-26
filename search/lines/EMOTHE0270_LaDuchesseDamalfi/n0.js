@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0270_LaDuchesseDamalfi/n0",{"lines":[["act-1","nref-1","I",0,"n","\"L\" El nombre del personaje en la edición que manejamos presenta, sin duda por error, el nombre “Bosano” en lugar de “Bosola”."]],"speakers":["DANIEL DE BOSOLA"]});

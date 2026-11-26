@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Acto IV — La tempestad — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">PERSONAJES</a></li>
+      
+  
+    
+        <li>
+          <a href="act-1.html">
+            Acto I
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html">
+            Acto II
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            Acto III
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-4.html" aria-current="page">
+            Acto IV
+          </a>
+          <ul>
+            <li>
+              
+                  <a href="act-4.html#act-4-s1">
+                    ESCENA PRIMERA
+                  </a>
+              
+            </li>
+          </ul>
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-5.html">
+            Acto V
+          </a>
+          
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="Alfonso">
+        ALFONSO
+      </option><option value="Sebastian">
+        SEBASTIÁN
+      </option><option value="Prospero">
+        PRÓSPERO
+      </option><option value="Gonzalo">
+        GONZALO
+      </option><option value="Antonio">
+        ANTONIO
+      </option><option value="Adrian">
+        ADRIANO}
+      </option><option value="Francisco">
+        FRANCISCO}
+      </option><option value="Caliban">
+        CÁLIBAN
+      </option><option value="Stephano">
+        ESTEBAN
+      </option><option value="Master">
+        UN CAPITÁN DE BUQUE
+      </option><option value="Boatswain">
+        UN CONTRAMAESTRE
+      </option><option value="Mariners">
+        MARINEROS
+      </option><option value="Miranda">
+        MIRANDA
+      </option><option value="Ariel">
+        ARIEL
+      </option><option value="Iris">
+        IRIS}
+      </option><option value="Ceres">
+        CERES}
+      </option><option value="Juno">
+        JUNO}
+      </option><option value="Nymphs">
+        NINFAS}
+      </option><option value="Reapers">
+        SENADORES}
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="asm" aria-label="Resaltar apartes" data-en-aria-label="Highlight asides" data-tr>
+        <x-es>Apartes</x-es><x-en>Asides</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .aparte, .text .pr.as, .text .pr:not(.as) span.as" data-for="asm">
+  <button type="button" data-step="-1" aria-label="Aparte anterior" data-en-aria-label="Previous aside" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente aparte" data-en-aria-label="Next aside" data-tr>›</button>
+</div>
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">William Shakespeare</p>
+  <h1><a href="index.html">La tempestad</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-3.html" rel="prev">← Acto III</a>
+  <a href="act-5.html" rel="next">Acto V →</a>
+</nav>
+  <div class="text" lang="es" data-cite="William Shakespeare, La tempestad, Acto IV" data-cite-verse="v." data-cite-prose="l.">
+    
+    <section class="division" id="act-4">
+  <h2 class="act-head">
+    Acto IV
+  </h2>
+  
+  <p class="tr">FIN DEL ACTO CUARTO</p>
+  
+    
+      <section id="act-4-s1">
+        <h3 class="scene-head">
+          ESCENA PRIMERA
+        </h3>
+        <p class="sd " id="l79-sd13">Delante de la gruta de Próspero.</p><p class="sd " id="l79-sd14">(Entran Próspero, Fernando y Miranda.)</p><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l79-p44">Si te he tratado con gran severidad, también consigues una recompensa que lo subsana con creces, pues te doy un tercio de mi propia; vida; aquel por quien existo y que de nuevo pongo en tus manos. Las pruebas a que me sometí no tenían más objeto que examinar tu amor, y ni las soportaste victoriosamente. Aquí, a la faz de los cielos, te ratifico mi preciosa ofrenda. ¡Oh, Fernando! No te sonrías de mí porque la encomio, pues tú mismo verás que excede a todas las alabanzas y que las deja muy atrás.</p>
+</div><div class="sp " data-who="Ferdinand">
+  <p class="spk ">
+    FERNANDO
+  </p>
+  <p class="pr " id="l79-p45">Lo creo, aunque un oráculo me dijese lo contrario.</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l79-p46">Así, pues, como ofrenda mía y ganancia tuya que dignamente has merecido, toma a mi hija; pero si rasgas su sello virginal antes que se cumplan todas las Santas ceremonias, y se celebre el sagrado rito, nunca el celeste rocío bendecirá esta unión, sino que el odio estéril, el desdén soberano y la discordia esparcirán en vuestro lecho la semilla de tan perniciosas hierbas que os llegaréis a odiar mutuamente; espera, por lo tanto, a que se encienda para ti la antorcha del himeneo.</p>
+</div><div class="sp " data-who="Ferdinand">
+  <p class="spk ">
+    FERNANDO
+  </p>
+  <p class="pr " id="l79-p47">Tan seguro como deseo que este amor me proporcione días de paz, hermosa descendencia y larga vida, que ni la mis lóbrega caverna, ni el sitio más apropiado, ni la más fuerte sugestión del espíritu maligno derretirán mi honra en impurezas que mancillen la santidad de este día en el que me figuro que los corceles de Febo estén despeados o que la noche yace encadenada en lo profundo.</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l79-p48">Te expresas dignamente. Siéntate, pues, y habla con ella; es tuya. ¡Hola! ¡Ariel! Mi inteligente servidor Ariel!</p>
+</div><p class="sd " id="l79-sd15">(Entra Ariel.)</p><div class="sp " data-who="Ariel">
+  <p class="spk ">
+    ARIEL
+  </p>
+  <p class="pr " id="l79-p49">¿Qué desea mi poderoso señor? Aquí me tiene.</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l79-p50">Tú y tus subalternos habéis cumplido bien mis últimas órdenes; ahora necesito emplearos en otra empresa parecida. Vete y trae a este sitio a la turba de espíritus sobre la que te he dado potestad; recomiéndales que estén prontos, pues necesito desplegar a la vista de esta joven pareja algunos encantos de mi arte: se lo he prometido Y así lo esperan de mí.</p>
+</div><div class="sp " data-who="Ariel">
+  <p class="spk ">
+    ARIEL
+  </p>
+  <p class="pr " id="l79-p51">¿Ahora mismo?</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l79-p52">Sí: en un abrir y cerrar de ojos.</p>
+</div><div class="sp " data-who="Ariel">
+  <p class="spk ">
+    ARIEL
+  </p>
+  <p class="pr " id="l79-p53">Antes que podáis pronunciar ven y vete y respirar dos veces y decir bien, bien, aquí estaremos todos dando brincos, gesticulando y con mil disfraces. Amo, me queréis, ¿no es así?</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l79-p54">Tiernamente, mi Ariel encantador. No te aproximes hasta que yo te llame.</p>
+</div><div class="sp " data-who="Ariel">
+  <p class="spk ">
+    ARIEL
+  </p>
+  <p class="pr " id="l79-p55">Bien, entendido.</p>
+</div><p class="sd " id="l79-sd16">(Sale.)</p><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l79-p56">Procura mantener tu palabra; no des rienda suelta a tu ternura; los más fuertes juramentos no son más que paja en el fuego de la sangre; sé más cauto, sino ¡adiós tus votos!</p>
+</div><div class="sp " data-who="Ferdinand">
+  <p class="spk ">
+    FERNANDO
+  </p>
+  <p class="pr " id="l79-p57">Os lo garantizo, señor. El frío de la cándida nieve virginal templa el ardor de mis entrañas.</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l79-p58">Bien. ¡Ven, Ariel mío! Trae la multitud de espíritus; que sobren más bien que falten. ¡Aparece, y pronto! ¡Calle las lenguas! ¡Sed todo ojos! ¡Silencio!</p>
+</div><p class="sd " id="l79-sd17">(Música suave. Aparecen una multitud de Genios que representan un drama alegórico.)</p><p class="sd " id="l79-sd18">(Entra Iris)</p><div class="sp " data-who="Iris">
+  <p class="spk ">
+    IRIS
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l80"><a class="n m5" href="#l80">80</a><span class="t">¡Oh, Ceres generosa y admirada!</span></div><div class="l " id="l81"><a class="n " href="#l81">81</a><span class="t">Tus riquísimos llanos rebosantes,</span></div><div class="l " id="l82"><a class="n " href="#l82">82</a><span class="t">De trigo, de centeno y de guisantes,</span></div><div class="l " id="l83"><a class="n " href="#l83">83</a><span class="t">De algarrobas, de avena y de cebada;</span></div><div class="l " id="l84"><a class="n " href="#l84">84</a><span class="t">Tus verdes montes do oveja pace,</span></div><div class="l " id="l85"><a class="n m5" href="#l85">85</a><span class="t">Tus hondos valles y ribera umbría</span></div><div class="l " id="l86"><a class="n " href="#l86">86</a><span class="t">Que orla el lirio, la rosa y peonía,</span></div><div class="l " id="l87"><a class="n " href="#l87">87</a><span class="t">Entre el heno frondoso que allí nace,</span></div><div class="l " id="l88"><a class="n " href="#l88">88</a><span class="t">Y riega abril a tu incesante ruego,</span></div><div class="l " id="l89"><a class="n " href="#l89">89</a><span class="t">Para que esbeltas ninfas, pudorosas,</span></div><div class="l " id="l90"><a class="n m5" href="#l90">90</a><span class="t">Tejan guirnaldas de fragantes rosas</span></div><div class="l " id="l91"><a class="n " href="#l91">91</a><span class="t">Y el galán desdeñado halle sosiego;</span></div><div class="l " id="l92"><a class="n " href="#l92">92</a><span class="t">Los emparrados, el fecundo llano</span></div><div class="l " id="l93"><a class="n " href="#l93">93</a><span class="t">Y la playa rocosa y escarpada,</span></div><div class="l " id="l94"><a class="n " href="#l94">94</a><span class="t">Donde aspiras la brisa embalsamada,</span></div><div class="l " id="l95"><a class="n m5" href="#l95">95</a><span class="t">Deja un momento, no te llame en vano.</span></div><div class="l " id="l96"><a class="n " href="#l96">96</a><span class="t">Yo que soy de la diosa mensajera,</span></div><div class="l " id="l97"><a class="n " href="#l97">97</a><span class="t">El arco iris del brillante cielo,</span></div><div class="l " id="l98"><a class="n " href="#l98">98</a><span class="t">Y te invito a que acudas en un vuelo,</span></div><div class="l " id="l99"><a class="n " href="#l99">99</a><span class="t">Y corras a gozar de esta pradera.</span></div><div class="l " id="l100"><a class="n m5" href="#l100">100</a><span class="t">Los pavones olvidan la floresta</span></div><div class="l " id="l101"><a class="n " href="#l101">101</a><span class="t">Y ya acuden en busca de placeres,</span></div><div class="l " id="l102"><a class="n " href="#l102">102</a><span class="t">Ven al festín, hermosa reina Ceres,</span></div><div class="l " id="l103"><a class="n " href="#l103">103</a><span class="t">Que tu concurso alegrará la fiesta.</span></div>
+</div>
+</div><p class="sd " id="l103-sd1">(Entra Ceres)</p><div class="sp " data-who="Ceres">
+  <p class="spk ">
+    CERES
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l104"><a class="n " href="#l104">104</a><span class="t">Salve, multicolor mensajero,</span></div><div class="l " id="l105"><a class="n m5" href="#l105">105</a><span class="t">Que a la esposa de Júpiter tonante</span></div><div class="l " id="l106"><a class="n " href="#l106">106</a><span class="t">Obedeces humilde y placentero,</span></div><div class="l " id="l107"><a class="n " href="#l107">107</a><span class="t">Y con tus alas de oro rutilante</span></div><div class="l " id="l108"><a class="n " href="#l108">108</a><span class="t">Esparces aguamiel sobre mis flores;</span></div><div class="l " id="l109"><a class="n " href="#l109">109</a><span class="t">Que la lluvia benéfica me envías,</span></div><div class="l " id="l110"><a class="n m5" href="#l110">110</a><span class="t">Y abarcas con tu cerco de colores</span></div><div class="l " id="l111"><a class="n " href="#l111">111</a><span class="t">Mis tierras, ya frondosas, ya baldías,</span></div><div class="l " id="l112"><a class="n " href="#l112">112</a><span class="t">Que con tu fino manto se envanecen.</span></div><div class="l " id="l113"><a class="n " href="#l113">113</a><span class="t">¿Por qué causa tu reina me convida</span></div><div class="l " id="l114"><a class="n " href="#l114">114</a><span class="t">A este lugar donde las hierbas crecen,</span></div><div class="l " id="l115"><a class="n m5" href="#l115">115</a><span class="t">Donde todo rebosa amor y vida?</span></div>
+</div>
+</div><div class="sp " data-who="Iris">
+  <p class="spk ">
+    IRIS
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l116"><a class="n " href="#l116">116</a><span class="t">Hay gentil boda, y la pareja hermosa.</span></div><div class="l " id="l117"><a class="n " href="#l117">117</a><span class="t">De ti fecunda bendición ansía.</span></div>
+</div>
+</div><div class="sp " data-who="Ceres">
+  <p class="spk ">
+    CERES
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l118"><a class="n " href="#l118">118</a><span class="t">¿Sabes, arco celeste, si a la diosa</span></div><div class="l " id="l119"><a class="n " href="#l119">119</a><span class="t">Venus y el hijo prestan compañía?</span></div><div class="l " id="l120"><a class="n m5" href="#l120">120</a><span class="t">De los dos huyo y a los dos evito</span></div><div class="l " id="l121"><a class="n " href="#l121">121</a><span class="t">Desde que supe que Plutón un día</span></div><div class="l " id="l122"><a class="n " href="#l122">122</a><span class="t">Por arte suyo y con ardid maldito,</span></div><div class="l " id="l123"><a class="n " href="#l123">123</a><span class="t">Consiguió arrebatar a la hija mía.</span></div>
+</div>
+</div><div class="sp " data-who="Iris">
+  <p class="spk ">
+    IRIS
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l124"><a class="n " href="#l124">124</a><span class="t">No te turbes ni pierdas el sosiego;</span></div><div class="l " id="l125"><a class="n m5" href="#l125">125</a><span class="t">Yo vi cortar las nubes e ir volando</span></div><div class="l " id="l126"><a class="n " href="#l126">126</a><span class="t">Hacia Pafos a Venus y a su ciego:</span></div><div class="l " id="l127"><a class="n " href="#l127">127</a><span class="t">Dos tórtolas de coche iban tirando.</span></div><div class="l " id="l128"><a class="n " href="#l128">128</a><span class="t">Con hechizos impuros pretendieron</span></div><div class="l " id="l129"><a class="n " href="#l129">129</a><span class="t">Vencer al joven y a la hermosa dama;</span></div><div class="l " id="l130"><a class="n m5" href="#l130">130</a><span class="t">mas fue en vano, porque ellos prometieron</span></div><div class="l " id="l131"><a class="n " href="#l131">131</a><span class="t">Nunca encender del himeneo la llama</span></div><div class="l " id="l132"><a class="n " href="#l132">132</a><span class="t">Sin los sagrados ritos.</span></div><div class="l " id="l133"><a class="n " href="#l133">133</a><span class="t">Huyó la favorita del dios Marte;</span></div><div class="l " id="l134"><a class="n " href="#l134">134</a><span class="t">Su hijo con la ira concentrada</span></div><div class="l " id="l135"><a class="n m5" href="#l135">135</a><span class="t">Dice que es sólo un niño, el arco parte,</span></div><div class="l " id="l136"><a class="n " href="#l136">136</a><span class="t">Y jura ha de vivir siempre entregado</span></div><div class="l " id="l137"><a class="n " href="#l137">137</a><span class="t">A cazar gorriones.</span></div>
+</div>
+</div><div class="sp " data-who="Ceres">
+  <p class="spk ">
+    CERES
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l138"><a class="n " href="#l138">138</a><span class="t">Aquí viene</span></div><div class="l " id="l139"><a class="n " href="#l139">139</a><span class="t">Juno, la hermosa reina del Estado.</span></div><div class="l " id="l140"><a class="n m5" href="#l140">140</a><span class="t">La reconozco en el andar que tiene.</span></div>
+</div>
+</div><p class="sd " id="l140-sd1">(Entra Juno.)</p><div class="sp " data-who="Juno">
+  <p class="spk ">
+    JUNO
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l141"><a class="n " href="#l141">141</a><span class="t">¿Cómo estás, generosa hermana mía?</span></div><div class="l " id="l142"><a class="n " href="#l142">142</a><span class="t">Ven, voy a bendecir a esos dos seres</span></div><div class="l " id="l143"><a class="n " href="#l143">143</a><span class="t">Y a otorgarles mis dones este día,</span></div><div class="l " id="l144"><a class="n " href="#l144">144</a><span class="t">Para que gocen de hijos y placeres.</span></div>
+</div>
+</div><p class="sd " id="l144-sd1">Canto de Juno.</p><div class="sp " data-who="Juno">
+  <p class="spk ">
+    JUNO
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l145"><a class="n m5" href="#l145">145</a><span class="t">Disfrutad siempre dicha y grandeza,</span></div><div class="l " id="l146"><a class="n " href="#l146">146</a><span class="t">Hijos que os amen de corazón,</span></div><div class="l " id="l147"><a class="n " href="#l147">147</a><span class="t">Felices bodas, honra y riqueza,</span></div><div class="l " id="l148"><a class="n " href="#l148">148</a><span class="t">Que Juno os canta su bendición.</span></div>
+</div>
+</div><p class="sd " id="l148-sd1">Canto de Ceres.</p><div class="sp " data-who="Ceres">
+  <p class="spk ">
+    CERES
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l149"><a class="n " href="#l149">149</a><span class="t">La tierra fecunda sus ricos presentes</span></div><div class="l " id="l150"><a class="n m5" href="#l150">150</a><span class="t">Otorgue cual madre; las trojes llenad.</span></div><div class="l " id="l151"><a class="n " href="#l151">151</a><span class="t">Racimos sabrosos coronen las vides,</span></div><div class="l " id="l152"><a class="n " href="#l152">152</a><span class="t">Humille sus ramas cargado el frutal.</span></div><div class="l " id="l153"><a class="n " href="#l153">153</a><span class="t">Primavera larga, dichosa y fecunda,</span></div><div class="l " id="l154"><a class="n " href="#l154">154</a><span class="t">Ceres os desea, pareja sin par.</span></div>
+</div>
+</div><div class="sp " data-who="Ferdinand">
+  <p class="spk ">
+    FERNANDO
+  </p>
+  <p class="pr " id="l154-p1">¡Qué espectáculo más sublime es éste y qué armonía más encantadora! ¡Son genios acaso?</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l154-p2">Sí; son genios a quienes con mi arte obligo a salir de sus confines para que representen fantasías.</p>
+</div><div class="sp " data-who="Ferdinand">
+  <p class="spk ">
+    FERNANDO
+  </p>
+  <p class="pr " id="l154-p3">Aquí desearía yo vivir siempre, con un padre tan sabio y poderoso que hace de este lugar un paraíso.</p>
+</div><p class="sd " id="l154-sd1">(Juno y Ceres hablan en secreto y envían a Iris a un encargo. Iris vuelve pronto.)</p><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l154-p4">¡Silencio, querido mío, silencio! Juno y Ceres cuchichean acerca de alguna cosa importante; algo falta; callemos y ni una palabra más; de lo contrario se anulará el conjuro.</p>
+</div><div class="sp " data-who="Iris">
+  <p class="spk ">
+    IRIS
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l155"><a class="n m5" href="#l155">155</a><span class="t">¡Oh, Nápoles y Ninfas</span></div><div class="l " id="l156"><a class="n " href="#l156">156</a><span class="t">del tortuoso arroyuelo,</span></div><div class="l " id="l157"><a class="n " href="#l157">157</a><span class="t">coronadas de juncos,</span></div><div class="l " id="l158"><a class="n " href="#l158">158</a><span class="t">de ojos dulces, serenos!</span></div><div class="l " id="l159"><a class="n " href="#l159">159</a><span class="t">Dejad las aguas frías,</span></div><div class="l " id="l160"><a class="n m5" href="#l160">160</a><span class="t">acudid a mi ruego,</span></div><div class="l " id="l161"><a class="n " href="#l161">161</a><span class="t">que aquí Juno os convoca</span></div><div class="l " id="l162"><a class="n " href="#l162">162</a><span class="t">para que celebremos</span></div><div class="l " id="l163"><a class="n " href="#l163">163</a><span class="t">de dos puros amantes</span></div><div class="l " id="l164"><a class="n " href="#l164">164</a><span class="t">el gozoso himeneo.</span></div><p class="sd " id="l164-sd1">(Entran varias Ninfas.)</p><div class="l " id="l165"><a class="n m5" href="#l165">165</a><span class="t">Tostados segadores</span></div><div class="l " id="l166"><a class="n " href="#l166">166</a><span class="t">curtidos agosteros,</span></div><div class="l " id="l167"><a class="n " href="#l167">167</a><span class="t">suspended las faenas,</span></div><div class="l " id="l168"><a class="n " href="#l168">168</a><span class="t">que hoy es día de asueto.</span></div><div class="l " id="l169"><a class="n " href="#l169">169</a><span class="t">Acudid y alegraos;</span></div><div class="l " id="l170"><a class="n m5" href="#l170">170</a><span class="t">traed vuestros sombreros</span></div><div class="l " id="l171"><a class="n " href="#l171">171</a><span class="t">de paja, y con las Ninfas</span></div><div class="l " id="l172"><a class="n " href="#l172">172</a><span class="t">formad coros honestos.</span></div>
+</div>
+</div><p class="sd " id="l172-sd1">(Entran unos cuantos segadores, vestidos como tales, y bailan graciosamente con las Ninfas. Al fin del baile, próspero se levanta bruscamente y habla. Después de lo cual, con un extraño y confuso rumor, desaparecen lentamente los genios.)</p><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l172-p1"><span class="sdi">(Ap.)</span> <span class="as">Había olvidado la abominable conspiración contra mi vida del monstruo Cáliban y sus cómplices. Es éste casi el momento de ejecutar su designio.</span> <span class="sdi">(A los genios.)</span> ¡Está muy bien! Idos. ¡Basta!</p>
+</div><div class="sp " data-who="Ferdinand">
+  <p class="spk ">
+    FERNANDO
+  </p>
+  <p class="pr " id="l172-p2">Esto es extraño; a tu padre le agita alguna emoción violenta.</p>
+</div><div class="sp " data-who="Miranda">
+  <p class="spk ">
+    MIRANDA
+  </p>
+  <p class="pr " id="l172-p3">Nunca hasta hoy le he visto con tan destemplada ira.</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l172-p4">Parece que estés inquieto, hijo mío y que te domina la agitación como si temieras algo: recobra la alegría, la agradable fiesta ya terminó. Nuestros actores, como antes te dije, eran espíritus y se han transformado en aire dentro del aire sutil. Como se desvaneció esta fantástica visión, falta de base real, así las soberbias torres, los suntuosos palacios, los solemnes templos y la misma intensidad del globo con cuanto existe, se disolverá sin dejar el más leve residuo. Nosotros somos la estofa de que se fabrican los sueños, y nuestra corta vida se redondea con un sueño. Estoy de mal humor: soporta mi flaqueza; mi viejo cerebro se halla turbado; no te afecte mi debilidad; si te parece retírate a mi habitación y descansa allí. Voy a dar unos pasos con el fin de serenar mi espíritu.</p>
+</div><div class="sp " data-who="FerdinandAndMiranda">
+  <p class="spk ">
+    FERNANDO Y MIRANDA
+  </p>
+  <p class="pr " id="l172-p5">Nos alegraremos de que así sea.</p>
+</div><p class="sd " id="l172-sd2">(Salen.)</p><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l172-p6"><span class="sdi">(A Ariel.)</span> Ven como el pensamiento. <span class="sdi">(A Fernando y Miranda.)</span> Gracias. <span class="sdi">(A Ariel.)</span> Ven, Ariel.</p>
+</div><p class="sd " id="l172-sd3">(Entra Ariel.)</p><div class="sp " data-who="Ariel">
+  <p class="spk ">
+    ARIEL
+  </p>
+  <p class="pr " id="l172-p7">Me ajusto a vuestros pensamientos ¿Qué deseáis?</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l172-p8">Genio, es necesario prepararnos para luchar con Cáliban.</p>
+</div><div class="sp " data-who="Ariel">
+  <p class="spk ">
+    ARIEL
+  </p>
+  <p class="pr " id="l172-p9">Sí, señor; cuando hice el papel de Ceres pensé hablaros de ello, mas temí irritaros.</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l172-p10">Dime, ¿dónde dejaste a esos pícaros?</p>
+</div><div class="sp " data-who="Ariel">
+  <p class="spk ">
+    ARIEL
+  </p>
+  <p class="pr " id="l172-p11">Enardecidos por el vino, como te dije; tan envalentonados que golpeaban el aire porque les soplaba en el rostro y herían el suelo porque les besaba los pies; pero siempre cavilando sobre su plan. Después redoblé mi tambor, a cuyo ruido irguieron las orejas como cerriles potros, levantaron los párpados y olfatearon el aire cual si pretendieran oler la música. De tal modo hechicé sus oídos que como terneros seguían mis cariñosos mugidos a través de las espinosas zarzas, punzantes tojos y desgarradores escaramujos que rasguñaban sus débiles piernas. Por fin los dejé metidos hasta el cuello en la inmunda charca que está junto a vuestra gruta, cuyo fondo revuelco por sus pies exhala mefíticos vapores.</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l172-p12">Has cumplido a satisfacción, pájaro mío. Continúa manteniendo tu invisible forma. Trae aquí cuantas baratijas halles en mi casa; será un buen cebo para coger a esos bandidos.</p>
+</div><div class="sp " data-who="Ariel">
+  <p class="spk ">
+    ARIEL
+  </p>
+  <p class="pr " id="l172-p13">Voy, voy.</p>
+</div><p class="sd " id="l172-sd4">(Sale.)</p><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l172-p14">Es un demonio, un engendro del demonio, cuya naturaleza no admite educación alguna; en el que he perdido todos los afanes que por humanidad he desplegado, todos se han perdido, todos por completo; y lo mismo que su cuerpo se afea cada día más con los años, así su alma se vuelve cada vez más corrompida. Voy a torturarlos hasta que los haga rugir de dolor. <span class="sdi">(Vuelve Ariel cargado con lujosos trajes)</span> Ven; cuélgalos de esta cuerda.</p>
+</div><p class="sd " id="l172-sd5">(Próspero y Ariel permanecen invisibles. Entran Cáliban. Esteban y Trínculo chorreando agua.)</p><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    CÁLIBAN
+  </p>
+  <p class="pr " id="l172-p15">Os ruego que andéis suavemente, que ni el ciego topo oiga las pisadas; ya estamos cerca de su gruta.</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    ESTEBAN
+  </p>
+  <p class="pr " id="l172-p16">Monstruo, tu duende, a quien llamas duende inofensivo, ha hecho poco menos que tratarnos como a imbéciles. ¿Lo oyes, monstruo? Si llegas a caer en mi desgracia ten por seguro...</p>
+</div><div class="sp " data-who="Trinculo">
+  <p class="spk ">
+    TRÍNCULO
+  </p>
+  <p class="pr " id="l172-p17">Que eres monstruo perdido.</p>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    CÁLIBAN
+  </p>
+  <p class="pr " id="l172-p18">Mi buen señor, consérvame en tu gracia. Ten paciencia, pues el galardón que te ofrezco te indemnizará de este infortunio; por lo tanto, hablad quedo, todo está callado como si fuera media noche.</p>
+</div><div class="sp " data-who="Trinculo">
+  <p class="spk ">
+    TRÍNCULO
+  </p>
+  <p class="pr " id="l172-p19">Sí, mas el haber perdido las botellas en la charca...</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    ESTEBAN
+  </p>
+  <p class="pr " id="l172-p20">Eso, monstruo, no es solamente desgracia y deshonra, sino también pérdida infinita.</p>
+</div><div class="sp " data-who="Trinculo">
+  <p class="spk ">
+    TRÍNCULO
+  </p>
+  <p class="pr " id="l172-p21">Eso me afecta más que la mojadura. ¿Y es ese tu duende inofensivo, monstruo?</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    ESTEBAN
+  </p>
+  <p class="pr " id="l172-p22">Iré por mi botella, aunque; me cueste el sumergirme hasta las orejas.</p>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    CÁLIBAN
+  </p>
+  <p class="pr " id="l172-p23">Te suplico, rey mío, que no te muevas. Mira, esta es la boca de la gruta; chitón y adentro. Realiza el dichoso crimen que por siempre te hará señor de esta isla; y yo tu Cáliban, siempre te lameré los pies.</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    ESTEBAN
+  </p>
+  <p class="pr " id="l172-p24">Dame la mano; comienzo a tener ideas sanguinarias.</p>
+</div><div class="sp " data-who="Trinculo">
+  <p class="spk ">
+    TRÍNCULO
+  </p>
+  <p class="pr " id="l172-p25">¡Oh, rey Esteban! ¡Oh, noble y digno Esteban! ¡Contempla qué magnífico guardarropa hay aquí para tu uso!</p>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    CÁLIBAN
+  </p>
+  <p class="pr " id="l172-p26">Déjalo, imbécil; no es más que oropel.</p>
+</div><div class="sp " data-who="Trinculo">
+  <p class="spk ">
+    TRÍNCULO
+  </p>
+  <p class="pr " id="l172-p27">¡Oh, oh, monstruo! Ya sabemos lo que es una prendería. ¡Oh, rey Esteban!</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    ESTEBAN
+  </p>
+  <p class="pr " id="l172-p28">Alcánzame esa toga, Trínculo; por esta mano, yo quiero poseer esa toga.</p>
+</div><div class="sp " data-who="Trinculo">
+  <p class="spk ">
+    TRÍNCULO
+  </p>
+  <p class="pr " id="l172-p29">La tendrá su alteza.</p>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    CÁLIBAN
+  </p>
+  <p class="pr " id="l172-p30">¡Ahogue la hidropesía a ese necio! ¿Qué pretendéis al apropiaros tales bagatelas? Dejadlas y matadle primero; si despierta nos abrasará a pellizcos de pies a cabeza; nos pondrá como nuevos.</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    ESTEBAN
+  </p>
+  <p class="pr " id="l172-p31">Silencio, monstruo. Señora cuerda, ¿no es este mi jubón? Ahora ya está el jubón debajo de la cuerda; ahora, jubón, es muy posible que pierdas el pelo y te conviertas en un jubón calvo.</p>
+</div><div class="sp " data-who="Trinculo">
+  <p class="spk ">
+    TRÍNCULO
+  </p>
+  <p class="pr " id="l172-p32">Cógelo, cógelo; esto es robar por debajo de cuerda, y esto agrada a su Alteza.</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    ESTEBAN
+  </p>
+  <p class="pr " id="l172-p33">Gracias por el chiste; toma este vestido por él: mientras yo sea rey de este país no quedará el ingenio sin galardón. Robar por debajo de cuerda es una salida ingeniosa; toma otro vestido por ella.</p>
+</div><div class="sp " data-who="Trinculo">
+  <p class="spk ">
+    TRÍNCULO
+  </p>
+  <p class="pr " id="l172-p34">Ven, monstruo, úntate los dedos con liga y varga con lo restante.</p>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    CÁLIBAN
+  </p>
+  <p class="pr " id="l172-p35">No quiero hacer tal cosa; estamos perdiendo el tiempo, y todos vamos a quedar convertidos en patos o en monos de achatadas fuentes.</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    ESTEBAN
+  </p>
+  <p class="pr " id="l172-p36">Monstruo, echa aquí mano y ayuda a llevar esto adonde está mi bocoy de vino, o si no te desterraré de mi reino. Vamos, lleva esto.</p>
+</div><div class="sp " data-who="Trinculo">
+  <p class="spk ">
+    TRÍNCULO
+  </p>
+  <p class="pr " id="l172-p37">Y esto.</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    ESTEBAN
+  </p>
+  <p class="pr " id="l172-p38">Sí, y esto.</p>
+</div><p class="sd " id="l172-sd6">(Se oye un ruido de cazadores. Entran diversos Genios en forma de lebreles que dan caza a los rateros: Próspero y Ariel azuzan a la jauría.)</p><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l172-p39">¡Sus, Montés, sus!</p>
+</div><div class="sp " data-who="Ariel">
+  <p class="spk ">
+    ARIEL
+  </p>
+  <p class="pr " id="l172-p40">¡Lucero, a ellos! ¡ÇA ellos, Lucero!</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l172-p41">¡Furia! ¡Furia, ahí! ¡Sus, Tirano! ¡Sus, sus!</p>
+</div><p class="sd " id="l172-sd7">(Cáliban, Esteban y Trínculo salen de estampía.)</p><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l172-p42">Ve y ordena a mis duendes que les muelan las coyunturas con dolorosas convulsiones; que les encojan los músculos con calambres y que les cubran el cuerpo con más mordiscos que manchas tiene el leopardo o el gato montés.</p>
+</div><div class="sp " data-who="Ariel">
+  <p class="spk ">
+    ARIEL
+  </p>
+  <p class="pr " id="l172-p43">¡Escuchad cómo braman!</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l172-p44">Deja que los acosen sin piedad. Tengo ya a todos mis enemigos en un puño: dentro de poco habré ultimado mis tareas y tú podrás gozar libremente del aire. Sígueme y continúa prestando tus servicios unos instantes más.</p>
+</div><p class="sd " id="l172-sd8">(Salen.)</p>
+      </section>
+    
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-3.html" rel="prev">← Acto III</a>
+  <a href="act-5.html" rel="next">Acto V →</a>
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

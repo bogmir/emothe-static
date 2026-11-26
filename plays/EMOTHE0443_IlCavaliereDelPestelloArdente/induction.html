@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prologo — Il cavaliere del pestello ardente — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">PERSONAGGI</a></li>
+      
+  
+    
+        <li>
+          <a href="induction.html" aria-current="page">
+            Prologo
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-1.html">
+            Atto primo
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html">
+            Atto secondo
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            Atto terzo
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-4.html">
+            Atto quarto
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-5.html">
+            Atto quinto
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="epilogue.html">
+            EPILOGO
+          </a>
+          
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  <li>
+    <a href="notes.html"><x-es>Notas</x-es><x-en>Notes</x-en></a>
+  </li>
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="Prologo">
+        Il Prologo
+      </option><option value="Cittadino">
+        Il cittadino
+      </option><option value="moglie">
+        La moglie del cittadino
+      </option><option value="Ralph">
+        Ralph
+      </option><option value="Venturewell">
+        Venturewell [Speculabene]
+      </option><option value="Humphrey">
+        Mastro Humphrey
+      </option><option value="Mastro_Merrythought">
+        Il Vecchio Mastro Merrythought [Allegria]
+      </option><option value="Jasper">
+        Jasper
+      </option><option value="Michele">
+        Michele
+      </option><option value="Tim">
+        Tim
+      </option><option value="George">
+        George
+      </option><option value="Oste">
+        Oste
+      </option><option value="Garzone_oste">
+        Garzone dell’oste
+      </option><option value="Barbiere">
+        Barbiere
+      </option><option value="prigionieri">
+        Tre creduti prigionieri
+      </option><option value="Capitano">
+        Un Capitano
+      </option><option value="Hammerton">
+        William Hammerton [Martelgrosso]
+      </option><option value="Greengoose">
+        George Greengoose [Verdoca]
+      </option><option value="Sergente">
+        Sergente
+      </option><option value="Soldati">
+        Soldati
+      </option><option value="Ragazzo">
+        Ragazzo
+      </option><option value="Luce">
+        Luce [Lucia]
+      </option><option value="Mistress_Merrythought">
+        Mistress Merrythought [Allegria]
+      </option><option value="Donna">
+        Donna supposta prigioniera
+      </option><option value="Pompiona">
+        Pompiona
+      </option><option value="s-g-s">
+        Soldati, Gentiluomini, servi, ecc.
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">Francis Beaumont</p>
+  <h1><a href="index.html">Il cavaliere del pestello ardente</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  
+  <a href="act-1.html" rel="next">Atto primo →</a>
+</nav>
+  <div class="text" lang="it" data-cite="Francis Beaumont, Il cavaliere del pestello ardente, Prologo" data-cite-verse="int." data-cite-prose="int.">
+    
+    <section class="division" id="induction">
+  <h2 class="act-head">
+    Prologo
+  </h2>
+  
+  <p class="sd " id="sd1">Il Cittadino, sua Moglie e Ralph son seduti tra gli spettatori. Parecchi Gentiluomini son seduti sul palcoscenico.</p><p class="sd " id="sd2">Entra il Prologo.</p><div class="sp " data-who="Prologo">
+  <p class="spk ">
+    PROLOGO
+  </p>
+  <p class="pr " id="l1"><a class="pn " href="#l1">1</a>&quot;Lontana dalla corte, lontana dai grandi, entro<br>la cinta delle mura cittadine, portiamo questa volta la nostra<br>azione…&quot;</p>
+</div><p class="sd " id="l1-sd1">Il Cittadino monta sul palcoscenico.</p><div class="sp " data-who="Cittadino">
+  <p class="spk ">
+    CITTADINO
+  </p>
+  <p class="pr " id="l2"><a class="pn " href="#l2">2</a>Zitto, bel giovinotto mio!</p>
+</div><div class="sp " data-who="Prologo">
+  <p class="spk ">
+    PROLOGO
+  </p>
+  <p class="pr " id="l3"><a class="pn " href="#l3">3</a>Che volete dire, signore?</p>
+</div><div class="sp " data-who="Cittadino">
+  <p class="spk ">
+    CITTADINO
+  </p>
+  <p class="pr " id="l4"><a class="pn " href="#l4">4</a>Che non siete come si deve. Osservo che, da<br>sette anni che state recitando in questo teatro, continuate<br>a prendere in giro i cittadini; e stavolta intitolate la vostra<br>commedia <em>Il mercante di Londra</em>. Giú quel titolo, giovinotto,<br>giú.</p>
+</div><div class="sp " data-who="Prologo">
+  <p class="spk ">
+    PROLOGO
+  </p>
+  <p class="pr " id="l5"><a class="pn m5" href="#l5">5</a>Siete membro della nobile città?</p>
+</div><div class="sp " data-who="Cittadino">
+  <p class="spk ">
+    CITTADINO
+  </p>
+  <p class="pr " id="l6"><a class="pn " href="#l6">6</a>Sicuro.</p>
+</div><div class="sp " data-who="Prologo">
+  <p class="spk ">
+    PROLOGO
+  </p>
+  <p class="pr " id="l7"><a class="pn " href="#l7">7</a>E membro d&#39;una delle compagnie?</p>
+</div><div class="sp " data-who="Cittadino">
+  <p class="spk ">
+    CITTADINO
+  </p>
+  <p class="pr " id="l8"><a class="pn " href="#l8">8</a>Sí, di quella dei droghieri.</p>
+</div><div class="sp " data-who="Prologo">
+  <p class="spk ">
+    PROLOGO
+  </p>
+  <p class="pr " id="l9"><a class="pn " href="#l9">9</a>Ah, siete droghiere; e allora con vostra graziosa<br>licenza, non vogliamo per niente recare offesa alla città.</p>
+</div><div class="sp " data-who="Cittadino">
+  <p class="spk ">
+    CITTADINO
+  </p>
+  <p class="pr " id="l10"><a class="pn m5" href="#l10">10</a>No, signor mio! Sí, signor mio! Se non foste<br>decisi a giocar dei tiri, che bisogno avreste di studiar nuove<br>commedie, per offendere di proposito chi val piú di voi?<br>Perché non vi dovreste accontentare, come s&#39;accontentano<br>gli altri, della &quot;Leggenda di Whittington&quot;, o della &quot;Vita<br>e morte di sir Thomas Greshan, con costruzione della Borsa&quot;,<br>o della &quot;Storia della regina Eleonora, con la elevazione del<br>Ponte di Londra su sacchi di lana&quot;?</p>
+</div><div class="sp " data-who="Prologo">
+  <p class="spk ">
+    PROLOGO
+  </p>
+  <p class="pr " id="l11"><a class="pn " href="#l11">11</a>Mi pare che siate un uomo intelligente; che cosa<br>vorreste facessimo, signore?</p>
+</div><div class="sp " data-who="Cittadino">
+  <p class="spk ">
+    CITTADINO
+  </p>
+  <p class="pr " id="l12"><a class="pn " href="#l12">12</a>Che presentaste qualche cosa di importante,<br>in onore dei membri della città.</p>
+</div><div class="sp " data-who="Prologo">
+  <p class="spk ">
+    PROLOGO
+  </p>
+  <p class="pr " id="l13"><a class="pn " href="#l13">13</a>E che cosa ne direste della &quot;Vita e morte di<br>Drake il grasso, o della riparazione dei cessi della prigione di<br>Fleet&quot;?</p>
+</div><div class="sp " data-who="Cittadino">
+  <p class="spk ">
+    CITTADINO
+  </p>
+  <p class="pr " id="l14"><a class="pn " href="#l14">14</a>Non mi piaccion codeste cose; voglio che ci<br>sia un cittadino, e che sia del mio mestiere.</p>
+</div><div class="sp " data-who="Prologo">
+  <p class="spk ">
+    PROLOGO
+  </p>
+  <p class="pr " id="l15"><a class="pn m5" href="#l15">15</a>Oh, ma ci avreste dovuto esprimere il vostro<br>desiderio un mese fa; la nostra commedia adesso è pronta<br>per la rappresentazione.</p>
+</div><div class="sp " data-who="Cittadino">
+  <p class="spk ">
+    CITTADINO
+  </p>
+  <p class="pr " id="l16"><a class="pn " href="#l16">16</a>E che mi fa? Voglio un droghiere, e deve<br>far cose meravigliose.</p>
+</div><div class="sp " data-who="Prologo">
+  <p class="spk ">
+    PROLOGO
+  </p>
+  <p class="pr " id="l17"><a class="pn " href="#l17">17</a>Cosa volete che faccia?</p>
+</div><div class="sp " data-who="Cittadino">
+  <p class="spk ">
+    CITTADINO
+  </p>
+  <p class="pr " id="l18"><a class="pn " href="#l18">18</a>Affemia, voglio che…</p>
+</div><div class="sp " data-who="moglie">
+  <p class="spk ">
+    MOGLIE
+  </p>
+  <p class="pr " id="l19"><a class="pn " href="#l19">19</a><span class="sdi">tra il pubblico</span> Marito mio! Marito mio!</p>
+</div><div class="sp " data-who="Ralph">
+  <p class="spk ">
+    RALPH
+  </p>
+  <p class="pr " id="l20"><a class="pn m5" href="#l20">20</a><span class="sdi">tra il pubblico</span> Zitta, padrona!</p>
+</div><div class="sp " data-who="moglie">
+  <p class="spk ">
+    MOGLIE
+  </p>
+  <p class="pr " id="l21"><a class="pn " href="#l21">21</a><span class="sdi">(c. s.)</span> Smettila, Ralph; ti dico che so io quello<br>che faccio. – Marito mio, marito mio!</p>
+</div><div class="sp " data-who="Cittadino">
+  <p class="spk ">
+    CITTADINO
+  </p>
+  <p class="pr " id="l22"><a class="pn " href="#l22">22</a>Che cosa dici, coniglietta?</p>
+</div><div class="sp " data-who="moglie">
+  <p class="spk ">
+    MOGLIE
+  </p>
+  <p class="pr " id="l23"><a class="pn " href="#l23">23</a><span class="sdi">(c. s.)</span> Fa che ammazzi un leone con un pestello,<br>marito mio! fa che ammazzi un leone con un pestello!</p>
+</div><div class="sp " data-who="Cittadino">
+  <p class="spk ">
+    CITTADINO
+  </p>
+  <p class="pr " id="l24"><a class="pn " href="#l24">24</a>Sicuro! – Voglio che ammazzi un leone con<br>un pestello.</p>
+</div><div class="sp " data-who="moglie">
+  <p class="spk ">
+    MOGLIE
+  </p>
+  <p class="pr " id="l25"><a class="pn m5" href="#l25">25</a><span class="sdi">(c. s.)</span> Marito! debbo venir su anch&#39;io, marito?</p>
+</div><div class="sp " data-who="Cittadino">
+  <p class="spk ">
+    CITTADINO
+  </p>
+  <p class="pr " id="l26"><a class="pn " href="#l26">26</a>Sí, coniglietta. – Ralph, aiuta la tua padrona<br>da questa parte. – Prego, signori, fatele un po&#39; di posto. –<br>Di grazia, signore, datemi una mano ad aiutare mia moglie<br>a salire. Grazie, signore. – Ecco!</p>
+</div><p class="sd " id="l26-sd1">La Moglie sale sul palcoscenico.</p><div class="sp " data-who="moglie">
+  <p class="spk ">
+    MOGLIE
+  </p>
+  <p class="pr " id="l27"><a class="pn " href="#l27">27</a>Signori, col vostro permesso! Lo so, sono piuttosto<br>importuna. E qui sono un&#39;estranea: in vita mia non<br>sono mai stata a una di queste commedie, come le chiamano;<br>ma, una volta dovevo andare a vedere &quot;Jane Shore&quot;;<br>e son dodici mesi che mio marito continua a promettermi di<br>portarmi a &quot;Beauchamps l&#39;ardito&quot;, ma, in verità, non mi<br>ci ha condotta. Vi prego, abbiate pazienza.</p>
+</div><div class="sp " data-who="Cittadino">
+  <p class="spk ">
+    CITTADINO
+  </p>
+  <p class="pr " id="l28"><a class="pn " href="#l28">28</a>Ragazzo, fa portare un paio di scranne per<br>mia moglie e per me, e poi cominciate; e che il droghiere<br>faccia qualcosa di straordinario.</p>
+</div><p class="sd " id="l28-sd1">Portano le scranne.</p><div class="sp " data-who="Prologo">
+  <p class="spk ">
+    PROLOGO
+  </p>
+  <p class="pr " id="l29"><a class="pn " href="#l29">29</a>Ma, signore, non abbiamo nessuno che possa<br>recitare la sua parte. Ognuno ha già la sua.</p>
+</div><div class="sp " data-who="moglie">
+  <p class="spk ">
+    MOGLIE
+  </p>
+  <p class="pr " id="l30"><a class="pn m5" href="#l30">30</a>Marito, marito mio, per amor di Dio, la deve<br>recitare Ralph! Che il diavolo mi porti se non credo che reciterà<br>meglio di tutti.</p>
+</div><div class="sp " data-who="Cittadino">
+  <p class="spk ">
+    CITTADINO
+  </p>
+  <p class="pr " id="l31"><a class="pn " href="#l31">31</a>Ben detto, moglie. – Vien su, Ralph! – Vi<br>dico, signori: che gli prestino soltanto un costume e quel<br>che occorre, e, perdiana, se uno solo di loro gli può mettere<br>il sale sulla coda, voglio essere impiccato!</p>
+</div><p class="sd " id="l31-sd1">Ralph sale sul palcoscenico.</p><div class="sp " data-who="moglie">
+  <p class="spk ">
+    MOGLIE
+  </p>
+  <p class="pr " id="l32"><a class="pn " href="#l32">32</a>Vi prego, quel giovane, dategli un costume. –<br>Son pronta a giurare, signori, che mio marito ha detto la verità.<br>A volte Ralph si mette a recitare a casa nostra, in modo<br>che tutti i vicini restano a bocca aperta; in soffitta, è capace<br>di fare una parte da bravaccio così bene da metterci paura a<br>tutti: ve lo garantisco, ne tremiamo ancora. Ci serviamo di<br>lui per spaventare i bambini: quando fanno i cattivi, basta<br>gridare: &quot;Viene Ralph, ora viene Ralph!&quot;, e diventan tranquilli<br>come agnellini. – Su la testa, Ralph; mostra a questi<br>signori quel che sai fare; fa il fanfarone; ti garantisco che<br>questi signori se la godranno.</p>
+</div><div class="sp " data-who="Cittadino">
+  <p class="spk ">
+    CITTADINO
+  </p>
+  <p class="pr " id="l33"><a class="pn " href="#l33">33</a>Su, Ralph, da bravo.</p>
+</div><div class="sp " data-who="Ralph">
+  <p class="spk ">
+    RALPH
+  </p>
+  <p class="pr " id="l34"><a class="pn " href="#l34">34</a>Per il cielo, mi pare che sarebbe facile fare un salto<br>per portar via l&#39;onor della luce alla pallida luna, o tuffarsi<br>nel fondo del mare dove mai scandaglio toccò terra, e portar<br>su dal lago d&#39;inferno l&#39;affogato onore.</p>
+</div><div class="sp " data-who="Cittadino">
+  <p class="spk ">
+    CITTADINO
+  </p>
+  <p class="pr " id="l35"><a class="pn m5" href="#l35">35</a>Che ne dite, signori? non è come vi dicevo?</p>
+</div><div class="sp " data-who="moglie">
+  <p class="spk ">
+    MOGLIE
+  </p>
+  <p class="pr " id="l36"><a class="pn " href="#l36">36</a>Ma sí, signori, ha recitato, dice mio marito,<br>&quot;Musidoro&quot; davanti ai sindaci della nostra compagnia.</p>
+</div><div class="sp " data-who="Cittadino">
+  <p class="spk ">
+    CITTADINO
+  </p>
+  <p class="pr " id="l37"><a class="pn " href="#l37">37</a>Sicuro! e per scommessa doveva far da Jeronimo<br>con un calzolaio.</p>
+</div><div class="sp " data-who="Prologo">
+  <p class="spk ">
+    PROLOGO
+  </p>
+  <p class="pr " id="l38"><a class="pn " href="#l38">38</a>Se vuol venire, gli daremo un costume.</p>
+</div><div class="sp " data-who="Cittadino">
+  <p class="spk ">
+    CITTADINO
+  </p>
+  <p class="pr " id="l39"><a class="pn " href="#l39">39</a>Va, Ralph! va! e fa vedere quel che sanno<br>essere i droghieri, se mi vuoi bene!</p>
+</div><p class="sd " id="l39-sd1">Ralph esce.</p><div class="sp " data-who="moglie">
+  <p class="spk ">
+    MOGLIE
+  </p>
+  <p class="pr " id="l40"><a class="pn m5" href="#l40">40</a>Vi garantisco che il nostro Ralph farà la sua<br>figura, quando sarà vestito.</p>
+</div><div class="sp " data-who="Prologo">
+  <p class="spk ">
+    PROLOGO
+  </p>
+  <p class="pr " id="l41"><a class="pn " href="#l41">41</a>Ma come volete che si chiami la commedia?</p>
+</div><div class="sp " data-who="Cittadino">
+  <p class="spk ">
+    CITTADINO
+  </p>
+  <p class="pr " id="l42"><a class="pn " href="#l42">42</a>&quot;L&#39;onore del droghiere&quot;.</p>
+</div><div class="sp " data-who="Prologo">
+  <p class="spk ">
+    PROLOGO
+  </p>
+  <p class="pr " id="l43"><a class="pn " href="#l43">43</a>Mi pare che sarebbe meglio chiamarla &quot;Il Cavaliere<br>del Pestello Ardente&quot;.</p>
+</div><div class="sp " data-who="moglie">
+  <p class="spk ">
+    MOGLIE
+  </p>
+  <p class="pr " id="l44"><a class="pn " href="#l44">44</a>Marito, son pronta a giurare che questo è il più<br>bel titolo che ci sia.</p>
+</div><div class="sp " data-who="Cittadino">
+  <p class="spk ">
+    CITTADINO
+  </p>
+  <p class="pr " id="l45"><a class="pn m5" href="#l45">45</a>E va bene. – Cominciate, cominciate; mia<br>moglie e io ci metteremo a sedere.</p>
+</div><div class="sp " data-who="Prologo">
+  <p class="spk ">
+    PROLOGO
+  </p>
+  <p class="pr " id="l46"><a class="pn " href="#l46">46</a>Sí, ve ne prego.</p>
+</div><div class="sp " data-who="Cittadino">
+  <p class="spk ">
+    CITTADINO
+  </p>
+  <p class="pr " id="l47"><a class="pn " href="#l47">47</a>Avete una musica grandiosa? Cennamelle?</p>
+</div><div class="sp " data-who="Prologo">
+  <p class="spk ">
+    PROLOGO
+  </p>
+  <p class="pr " id="l48"><a class="pn " href="#l48">48</a>Cennamelle? No.</p>
+</div><div class="sp " data-who="Cittadino">
+  <p class="spk ">
+    CITTADINO
+  </p>
+  <p class="pr " id="l49"><a class="pn " href="#l49">49</a>No? Datemi del ladro, se non me l&#39;ero immaginato.<br>Ralph fa una parte grandiosa, e bisogna assolutamente<br>che ci siano delle cennamelle. Le voglio pagare io, piuttosto<br>che manchino.</p>
+</div><div class="sp " data-who="Prologo">
+  <p class="spk ">
+    PROLOGO
+  </p>
+  <p class="pr " id="l50"><a class="pn m5" href="#l50">50</a>Cosí dovrete fare, credo.</p>
+</div><div class="sp " data-who="Cittadino">
+  <p class="spk ">
+    CITTADINO
+  </p>
+  <p class="pr " id="l51"><a class="pn " href="#l51">51</a>Sí; e cosí sarà. Ecco due scellini; fate venire<br>i suonatori girovaghi di Southwark! Son ragazzi in gamba,<br>i migliori d&#39;Inghilterra; e con questi passeranno il fiume a<br>rotta di collo, come fossero impazziti.</p>
+</div><div class="sp " data-who="Prologo">
+  <p class="spk ">
+    PROLOGO
+  </p>
+  <p class="pr " id="l52"><a class="pn " href="#l52">52</a>Li avrete. Volete mettervi a sedere dunque?</p>
+</div><div class="sp " data-who="Cittadino">
+  <p class="spk ">
+    CITTADINO
+  </p>
+  <p class="pr " id="l53"><a class="pn " href="#l53">53</a>Sí. – Vieni, moglie.</p>
+</div><div class="sp " data-who="moglie">
+  <p class="spk ">
+    MOGLIE
+  </p>
+  <p class="pr " id="l54"><a class="pn " href="#l54">54</a>Sedetevi tutti allegramente, signori miei; mi dicono<br>di sedere in mezzo a voi, per star piú comoda.</p>
+</div><div class="sp " data-who="Prologo">
+  <p class="spk ">
+    PROLOGO
+  </p>
+  <p class="pr " id="l55"><a class="pn m5" href="#l55">55</a>&quot;Lontana dalla corte, lontana dai grandi, entro<br>la cinta delle mura cittadine portiamo questa volta la nostra<br>azione; lungi di qui ogni traccia di calunnia personale, ogni<br>frase impudica, e tutto quello che può parer maligno! Perché<br>la cattiva allegria non porta mai vero piacere, e gli animi<br>onesti si compiacciono di cose oneste&quot;.<br>Questo basti a dir quello che faremo; ma, per la parte di<br>Ralph, ne dovete risponder voi.</p>
+</div><div class="sp " data-who="Cittadino">
+  <p class="spk ">
+    CITTADINO
+  </p>
+  <p class="pr " id="l56"><a class="pn " href="#l56">56</a>Non vi preoccupate per Ralph; saprà lui il<br>da fare, ve lo garantisco.</p>
+</div><div class="sp " data-who="moglie">
+  <p class="spk ">
+    MOGLIE
+  </p>
+  <p class="pr " id="l57"><a class="pn " href="#l57">57</a>In fede mia, signori, vi do la mia parola per<br>Ralph.</p>
+</div>
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  
+  <a href="act-1.html" rel="next">Atto primo →</a>
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

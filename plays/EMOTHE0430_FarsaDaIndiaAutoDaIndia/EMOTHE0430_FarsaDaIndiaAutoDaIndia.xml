@@ -1,0 +1,1550 @@
+<?xml version="1.0" ?>
+<TEI xml:lang="pt" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Farsa da Índia (Auto da Índia)</title>
+        <title key="orden">Farsa da Índia (Auto da Índia)</title>
+        <title key="archivo">EMOTHE0430_FarsaDaIndiaAutoDaIndia</title>
+        <author ana="fiable">Gil Vicente</author>
+        <author key="orden">Vicente, Gil</author>
+        <sponsor>
+          <orgName>Plan Nacional de Investigación Científica, Desarrollo e Innovación Tecnológica (Plan Nacional de I+D+i)</orgName>
+        </sponsor>
+        <funder>
+          <orgName>Dirección General de Investigación y Gestión del Plan Nacional de I+D+I (DGI). http://www.idi.mineco.gob.es</orgName>
+        </funder>
+        <principal>Joan Oleza Simó</principal>
+      </titleStmt>
+      <editionStmt>
+        <edition>Edición electrónica de &apos;Farsa da Índia (Auto da Índia)&apos;</edition>
+        <respStmt>
+          <resp>Electronic edition: text adapted, edited for XML and encoded by</resp>
+          <persName>Camões, José</persName>
+        </respStmt>
+      </editionStmt>
+      <extent ana="verso">514 versos</extent>
+      <publicationStmt>
+        <publisher>
+          <orgName>Proyecto ARTELOPE. Base de datos, argumentos y textos del teatro clásico español (FFI 2009 -12730) http://artelope.uv.es</orgName>
+        </publisher>
+        <idno type="code">EMOTHE0430_FarsaDaIndiaAutoDaIndia</idno>
+        <idno type="EMOTHE">0430</idno>
+        <pubPlace>Valencia</pubPlace>
+        <date>2012</date>
+        <authority>
+          <orgName>Universitat de València - Estudi General. http://www.uv.es</orgName>
+        </authority>
+        <availability>
+          <p>La Colección de Teatro Clasico Europeo (CTCE) pertenece al proyecto Artelope y ofrece en la web textos completos sin ánimo de lucro y libres de derechos de lectura y de reproducción. En este último caso se ruega citar la procedencia: &quot;Oleza, Joan et al. Base de Datos y Argumentos del teatro de Lope de Vega. ARTELOPE. Publicación en web: http://artelope.uv.es&quot;</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Farsa da Índia (Auto da Índia)</title>
+          <author>Gil Vicente</author>
+          <lang>Portugués</lang>
+<note>Vicente, Gil. <emph>Farsa da Índia.</emph> [on-line] En: Camões, José (dir.) <emph>Teatro de autores portugueses do Séc. XVI. Base de dados textual</emph> Lisboa: Centro de Estudos de Teatro, Universidade de Lisboa. [20 dezembro 2016] Disponível em: http://www.cet-e-quinhentos.com/</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>La Colección de Textos Clásicos Europeos (CTCE) supone la creación de una base de datos de Teatro canónico clásico europeo en diferentes idiomas, versiones y refundiciones, todas ellas hipervinculadas.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Las presentes ediciones digitales están basadas, en su mayor parte, en ediciones científicas de reconocido prestigio y se ha tratado, en la mayoría de ocasiones, de respetar sus criterios de edición. Solo en casos muy puntuales el editor digital ha introducido leves cambios de los que da cumplida cuenta en el apartado de &quot;Notas&quot;.</p>
+      </editorialDecl>
+      <refsDecl>
+        <citeStructure match="/TEI/text/body//l[@n]" unit="verse" use="@n"/>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="pt-PT">Português</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+<change><date>2017</date> <persName>Muñoz Pons, Carlos</persName> Revisión de la obra en formato TEI-XML</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>
+            <title>Farsa da Índia (Auto da Índia)</title>
+          </titlePart>
+        </docTitle>
+        <docAuthor>Gil Vicente</docAuthor>
+      </titlePage>
+      <div type="prologo">
+        <p>À farsa seguinte chamam Auto da Índia. Foi fundado sobre que ũa molher estando já embarcado pera a Índia seu marido lhe vieram dizer que estava desaviado e que já nam ia, e ela de pesar está chorando e fala-lhe ũa sua criada. Foi feita em Almada, representada à muito católica rainha dona Lianor. Era de 1509 anos.</p>
+      </div>
+      <div type="elenco">
+        <head>Entram nela estas figuras:</head>
+        <castList>
+          <castItem>
+            <role xml:id="ama">AMA</role>
+          </castItem>
+          <castItem>
+            <role xml:id="moça">MOÇA</role>
+          </castItem>
+          <castItem>
+            <role xml:id="castelhano">CASTELHANO</role>
+          </castItem>
+          <castItem>
+            <role xml:id="lemos">LEMOS</role>
+          </castItem>
+          <castItem>
+            <role xml:id="marido">MARIDO</role>
+          </castItem>
+        </castList>
+      </div>
+    </front>
+    <body>
+      <div1 type="acto">
+        <sp who="#moça" xml:id="em0430-pt-sp-1">
+          <speaker>MOÇA</speaker>
+          <lg part="I" type="nona">
+            <l n="1" rend="indent" xml:id="em0430-pt-1">Jesu Jesu que é ora isso</l>
+            <l n="2" xml:id="em0430-pt-2">é porque se parte a armada?</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-2">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="3" xml:id="em0430-pt-3">Olhade a mal estreada</l>
+            <l n="4" xml:id="em0430-pt-4">eu hei de chorar por isso?</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-3">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="5" xml:id="em0430-pt-5">Por minh’alma que cuidei</l>
+            <l n="6" xml:id="em0430-pt-6">e que sempre imaginei</l>
+            <l n="7" xml:id="em0430-pt-7">que choráveis por noss’amo.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-4">
+          <speaker>AMA</speaker>
+          <lg part="F" type="free">
+            <l n="8" xml:id="em0430-pt-8">Por qual demo ou por qual gamo</l>
+            <l n="9" xml:id="em0430-pt-9">ali má hora chorarei.</l>
+          </lg>
+          <lg part="I" type="nona">
+            <l n="10" rend="indent" xml:id="em0430-pt-10">Como me leixa saudosa</l>
+            <l n="11" xml:id="em0430-pt-11">toda eu fico amargurada.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-5">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="12" xml:id="em0430-pt-12">Pois por que estais anojada?</l>
+            <l n="13" xml:id="em0430-pt-13">Dizei-mo por vida vossa.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-6">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="14" xml:id="em0430-pt-14">Leixa-m’ora eramá</l>
+            <l n="15" xml:id="em0430-pt-15">que dizem que nam vai já.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-7">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="16" xml:id="em0430-pt-16">Quem diz esse desconcerto?</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-8">
+          <speaker>AMA</speaker>
+          <lg part="F" type="free">
+            <l n="17" xml:id="em0430-pt-17">Dixeram-mo por mui certo</l>
+            <l n="18" xml:id="em0430-pt-18">que é certo que fica cá.</l>
+          </lg>
+          <lg part="I" type="nona">
+            <l n="19" rend="indent" xml:id="em0430-pt-19">O Concelos me faz isto.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-9">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="20" xml:id="em0430-pt-20">S’eles já estão em Restelo</l>
+            <l n="21" xml:id="em0430-pt-21">como pode vir apelo?</l>
+            <l n="22" xml:id="em0430-pt-22">Melhor veja eu Jesu Cristo.</l>
+            <l n="23" xml:id="em0430-pt-23">Isso é quem porcos há menos.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-10">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="24" xml:id="em0430-pt-24">Certo é que bem pequenos</l>
+            <l n="25" xml:id="em0430-pt-25">são meus desejos que fique.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-11">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="26" xml:id="em0430-pt-26">A armada está muito a pique.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-12">
+          <speaker>AMA</speaker>
+          <lg part="F" type="free">
+            <l n="27" xml:id="em0430-pt-27">Arreceo al de menos.</l>
+          </lg>
+          <lg part="I" type="nona">
+            <l n="28" rend="indent" xml:id="em0430-pt-28">Andei na má hora e nela</l>
+            <l n="29" xml:id="em0430-pt-29">a amassar e biscoutar</l>
+            <l n="30" xml:id="em0430-pt-30">pera o demo o levar</l>
+            <l n="31" xml:id="em0430-pt-31">à sua negra canela</l>
+            <l n="32" xml:id="em0430-pt-32">e agora dizem que não.</l>
+            <l n="33" xml:id="em0430-pt-33">Agasta-se-m’o coração</l>
+            <l n="34" xml:id="em0430-pt-34">que quero sair de mim.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-13">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="35" xml:id="em0430-pt-35">Eu irei saber se é assim.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-14">
+          <speaker>AMA</speaker>
+          <lg part="F" type="free">
+            <l n="36" xml:id="em0430-pt-36">Hajas a minha benção.</l>
+          </lg>
+          <stage xml:id="em0430-pt-st-1">Vai a Moça e fica a Ama dizendo:</stage>
+          <lg type="nona">
+            <l n="37" rend="indent" xml:id="em0430-pt-37">A santo António rogo eu</l>
+            <l n="38" xml:id="em0430-pt-38">que nunca mo cá depare</l>
+            <l n="39" xml:id="em0430-pt-39">nam sinto quem nam s’enfare</l>
+            <l n="40" xml:id="em0430-pt-40">de um diabo Zebedeu.</l>
+            <l n="41" xml:id="em0430-pt-41">Dormirei dormirei</l>
+            <l n="42" xml:id="em0430-pt-42">boas novas acharei</l>
+            <l n="43" xml:id="em0430-pt-43">sam João no ermo estava</l>
+            <l n="44" xml:id="em0430-pt-44">e a passarinha cantava</l>
+            <l n="45" xml:id="em0430-pt-45">Deos me cumpra o que sonhei.</l>
+          </lg>
+          <lg part="I" type="nona">
+            <l n="46" rend="indent" xml:id="em0430-pt-46">Cantando vem ela e leda.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-15">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="47" xml:id="em0430-pt-47">Dai-m’alvíssaras senhora</l>
+            <l n="48" xml:id="em0430-pt-48">já vai lá de foz em fora.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-16">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="49" xml:id="em0430-pt-49">Dou-te ũa touca de seda.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-17">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="50" xml:id="em0430-pt-50">Ou quando ele vier</l>
+            <l n="51" xml:id="em0430-pt-51">dai-me do que vos trouxer.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-18">
+          <speaker>AMA</speaker>
+          <lg part="F" type="free">
+            <l n="52" xml:id="em0430-pt-52">Ali muit’ieramá</l>
+            <l n="53" xml:id="em0430-pt-53">agora há de tornar cá</l>
+            <l n="54" xml:id="em0430-pt-54">que chegada e que prazer.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-19">
+          <speaker>MOÇA</speaker>
+          <lg part="I" type="nona">
+            <l n="55" rend="indent" xml:id="em0430-pt-55">Virtuosa está minha ama</l>
+            <l n="56" xml:id="em0430-pt-56">do triste dele hei dó.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-20">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="57" xml:id="em0430-pt-57">E que falas tu lá só?</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-21">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="58" xml:id="em0430-pt-58">Falo cá com esta cama.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-22">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="59" xml:id="em0430-pt-59">E essa cama bem que há?</l>
+            <l n="60" xml:id="em0430-pt-60">Mostra-m’essa roca cá</l>
+            <l n="61" xml:id="em0430-pt-61">siquer fiarei um fio.</l>
+            <l n="62" xml:id="em0430-pt-62">Leixou-me aquele fastio</l>
+            <l n="63" part="I" xml:id="em0430-pt-63">sem ceitil.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-23">
+          <speaker>MOÇA</speaker>
+          <lg part="F" type="free">
+            <l part="F" xml:id="em0430-pt-64">Ali eramá.</l>
+          </lg>
+          <lg part="I" type="nona">
+            <l n="64" rend="indent" xml:id="em0430-pt-65">Todos ficassem assi</l>
+            <l n="65" xml:id="em0430-pt-66">leixou-lhe pera três anos</l>
+            <l n="66" xml:id="em0430-pt-67">trigo azeite mel e panos.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-24">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="67" xml:id="em0430-pt-68">Mau pesar veja eu de ti</l>
+            <l n="68" xml:id="em0430-pt-69">tu cuidas que nam t’entendo?</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-25">
+          <speaker>MOÇA</speaker>
+          <lg part="F" type="free">
+            <l n="69" xml:id="em0430-pt-70">Que entendeis? Ando dizendo</l>
+            <l n="70" xml:id="em0430-pt-71">que quem assi fica sem nada</l>
+            <l n="71" xml:id="em0430-pt-72">coma vós que é obrigada</l>
+            <l n="72" xml:id="em0430-pt-73">já me vós is entendendo.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-26">
+          <speaker>AMA</speaker>
+          <lg type="nona">
+            <l n="73" rend="indent" xml:id="em0430-pt-74">Ha ha ha ha ha ha ha</l>
+            <l n="74" xml:id="em0430-pt-75">estará bem graciosa</l>
+            <l n="75" xml:id="em0430-pt-76">quem se vê moça e fermosa</l>
+            <l n="76" xml:id="em0430-pt-77">esperar pola ira má.</l>
+            <l n="77" xml:id="em0430-pt-78">I se vai ele a pescar</l>
+            <l n="78" xml:id="em0430-pt-79">mea légua polo mar</l>
+            <l n="79" xml:id="em0430-pt-80">isto bem o sabes tu</l>
+            <l n="80" xml:id="em0430-pt-81">quanto mais a Calecu.</l>
+            <l n="81" xml:id="em0430-pt-82">Quem há tanto d’esperar?</l>
+          </lg>
+          <lg type="nona">
+            <l n="82" rend="indent" xml:id="em0430-pt-83">Milhor senhor sê tu comigo</l>
+            <l n="83" xml:id="em0430-pt-84">à hora de minha morte</l>
+            <l n="84" xml:id="em0430-pt-85">que eu faça tam peca sorte</l>
+            <l n="85" xml:id="em0430-pt-86">guarde-me Deos de tal perigo.</l>
+            <l n="86" xml:id="em0430-pt-87">O certo é dar a prazer</l>
+            <l n="87" xml:id="em0430-pt-88">pera que é envelhecer</l>
+            <l n="88" xml:id="em0430-pt-89">esperando polo vento?</l>
+            <l n="89" xml:id="em0430-pt-90">Quant’eu por mui nécia sento</l>
+            <l n="90" xml:id="em0430-pt-91">a que o contrairo fizer.</l>
+          </lg>
+          <lg part="I" type="nona">
+            <l n="91" rend="indent" xml:id="em0430-pt-92">Partem em Maio daqui</l>
+            <l n="92" xml:id="em0430-pt-93">quando o sangue novo atiça</l>
+            <l n="93" xml:id="em0430-pt-94">parece-te que é justiça?</l>
+            <l n="94" xml:id="em0430-pt-95">Milhor vivas tu amém</l>
+            <l n="95" xml:id="em0430-pt-96">e eu contigo também.</l>
+            <l n="96" xml:id="em0430-pt-97">Quem sobe por essa escada?</l>
+          </lg>
+        </sp>
+        <sp who="#castelhano" xml:id="em0430-pt-sp-27">
+          <speaker>CASTELHANO</speaker>
+          <lg part="M" type="free">
+            <l n="97" xml:id="em0430-pt-98">Paz sea nesta posada.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-28">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="98" xml:id="em0430-pt-99">Vós sois, cuidei que era alguém.</l>
+          </lg>
+        </sp>
+        <sp who="#castelhano" xml:id="em0430-pt-sp-29">
+          <speaker>CASTELHANO</speaker>
+          <lg part="F" type="free">
+            <l n="99" xml:id="em0430-pt-100">A según eso soy yo nada.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-30">
+          <speaker>AMA</speaker>
+          <lg part="I" type="nona">
+            <l n="100" rend="indent" xml:id="em0430-pt-101">Bem, que vinda foi ora esta?</l>
+          </lg>
+        </sp>
+        <sp who="#castelhano" xml:id="em0430-pt-sp-31">
+          <speaker>CASTELHANO</speaker>
+          <lg part="F" type="free">
+            <l n="101" xml:id="em0430-pt-102">Vengo aquí en busca mía</l>
+            <l n="102" xml:id="em0430-pt-103">que me perdí en aquel día</l>
+            <l n="103" xml:id="em0430-pt-104">que os vi hermosa y honesta.</l>
+            <l n="104" xml:id="em0430-pt-105">Y nunca más me topé</l>
+            <l n="105" xml:id="em0430-pt-106">invisible me torné</l>
+            <l n="106" xml:id="em0430-pt-107">y de mí crudo enemigo</l>
+            <l n="107" xml:id="em0430-pt-108">el cielo imperio es testigo</l>
+            <l n="108" xml:id="em0430-pt-109">que de mí parte no sé.</l>
+          </lg>
+          <lg part="I" type="nona">
+            <l n="109" rend="indent" xml:id="em0430-pt-110">Y ando un cuerpo sin alma</l>
+            <l n="110" xml:id="em0430-pt-111">un papel que lleva el viento</l>
+            <l n="111" xml:id="em0430-pt-112">un pozo de pensamiento</l>
+            <l n="112" xml:id="em0430-pt-113">una fortuna sin calma.</l>
+            <l n="113" xml:id="em0430-pt-114">Pese al día en que nascí</l>
+            <l n="114" xml:id="em0430-pt-115">vos y Dios sois contra mí</l>
+            <l n="115" xml:id="em0430-pt-116">y nunca topo el diablo.</l>
+            <l n="116" xml:id="em0430-pt-117">Reís de lo que yo hablo?</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-32">
+          <speaker>AMA</speaker>
+          <lg part="F" type="free">
+            <l n="117" xml:id="em0430-pt-118">Bem sei eu de que me ri.</l>
+          </lg>
+        </sp>
+        <sp who="#castelhano" xml:id="em0430-pt-sp-33">
+          <speaker>CASTELHANO</speaker>
+          <lg part="I" type="nona">
+            <l n="118" rend="indent" xml:id="em0430-pt-119">Reísvos del mal que padezco</l>
+            <l n="119" xml:id="em0430-pt-120">reísvos de mi desconcierto</l>
+            <l n="120" xml:id="em0430-pt-121">reísvos que tenéis por cierto</l>
+            <l n="121" xml:id="em0430-pt-122">que miraros no merezco.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-34">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="122" xml:id="em0430-pt-123">Andar embora.</l>
+          </lg>
+        </sp>
+        <sp who="#castelhano" xml:id="em0430-pt-sp-35">
+          <speaker>CASTELHANO</speaker>
+          <lg part="F" type="free">
+            <l n="123" xml:id="em0430-pt-124">Oh mi vida y mi señora</l>
+            <l n="124" xml:id="em0430-pt-125">luz de todo Portogal</l>
+            <l n="125" xml:id="em0430-pt-126">tenéis gracia especial</l>
+            <l n="126" xml:id="em0430-pt-127">para linda matadora.</l>
+          </lg>
+          <lg part="I" type="nona">
+            <l n="127" rend="indent" xml:id="em0430-pt-128">Supe que vueso marido</l>
+            <l n="128" part="I" xml:id="em0430-pt-129">era ido.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-36">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0430-pt-130">Antontem se foi.</l>
+          </lg>
+        </sp>
+        <sp who="#castelhano" xml:id="em0430-pt-sp-37">
+          <speaker>CASTELHANO</speaker>
+          <lg part="F" type="free">
+            <l n="129" xml:id="em0430-pt-131">Al diablo que lo doy</l>
+            <l n="130" xml:id="em0430-pt-132">el desestrado perdido.</l>
+            <l n="131" xml:id="em0430-pt-133">Qué más India que vos</l>
+            <l n="132" xml:id="em0430-pt-134">qué más piedras preciosas</l>
+            <l n="133" xml:id="em0430-pt-135">qué más alindadas cosas</l>
+            <l n="134" xml:id="em0430-pt-136">que estardes juntos los dos?</l>
+          </lg>
+          <lg type="nona">
+            <l n="135" rend="indent" xml:id="em0430-pt-137">No fue él Juan de Zamora</l>
+            <l n="136" xml:id="em0430-pt-138">que arrastrado muera yo</l>
+            <l n="137" xml:id="em0430-pt-139">si por cuanto Dios creó</l>
+            <l n="138" xml:id="em0430-pt-140">os dexara media hora.</l>
+            <l n="139" xml:id="em0430-pt-141">Y aunque la mar se humillara</l>
+            <l n="140" xml:id="em0430-pt-142">y la tormenta cesara</l>
+            <l n="141" xml:id="em0430-pt-143">y el viento me obedeciera</l>
+            <l n="142" xml:id="em0430-pt-144">y el cuarto cielo se abriera</l>
+            <l n="143" xml:id="em0430-pt-145">un momiento no os dexara.</l>
+          </lg>
+          <lg type="nona">
+            <l n="144" rend="indent" xml:id="em0430-pt-146">Mas como evangelio es esto</l>
+            <l n="145" xml:id="em0430-pt-147">que la India hizo Dios</l>
+            <l n="146" xml:id="em0430-pt-148">sólo por que yo con vos</l>
+            <l n="147" xml:id="em0430-pt-149">pudiese pasar aquesto.</l>
+            <l n="148" xml:id="em0430-pt-150">Y sólo por dicha mía</l>
+            <l n="149" xml:id="em0430-pt-151">por gozar esta alegría</l>
+            <l n="150" xml:id="em0430-pt-152">la hizo Dios descobrir</l>
+            <l n="151" xml:id="em0430-pt-153">y no ha más que decir</l>
+            <l n="152" xml:id="em0430-pt-154">por la sagrada María.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-38">
+          <speaker>AMA</speaker>
+          <lg part="I" type="nona">
+            <l n="153" rend="indent" xml:id="em0430-pt-155">Moça, vai àquele cão</l>
+            <l n="154" xml:id="em0430-pt-156">que anda naquelas tigelas.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-39">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="155" xml:id="em0430-pt-157">Mas os gatos andam nelas.</l>
+          </lg>
+        </sp>
+        <sp who="#castelhano" xml:id="em0430-pt-sp-40">
+          <speaker>CASTELHANO</speaker>
+          <lg part="M" type="free">
+            <l n="156" xml:id="em0430-pt-158">Cuerpo del cielo con vos</l>
+            <l n="157" xml:id="em0430-pt-159">hablo en las tripas de Dios</l>
+            <l n="158" xml:id="em0430-pt-160">y vos habláisme en los gatos.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-41">
+          <speaker>AMA</speaker>
+          <lg part="F" type="free">
+            <l n="159" xml:id="em0430-pt-161">Se vós falais desbaratos</l>
+            <l n="160" xml:id="em0430-pt-162">em que falaremos nós?</l>
+          </lg>
+        </sp>
+        <sp who="#castelhano" xml:id="em0430-pt-sp-42">
+          <speaker>CASTELHANO</speaker>
+          <lg type="nona">
+            <l n="161" rend="indent" xml:id="em0430-pt-163">No me hagáis derreñegar</l>
+            <l n="162" xml:id="em0430-pt-164">o hacer un desatino.</l>
+            <l n="163" xml:id="em0430-pt-165">Vos pensáis que soy devino</l>
+            <l n="164" xml:id="em0430-pt-166">soy hombre y siento el pesar.</l>
+            <l n="165" xml:id="em0430-pt-167">Trayo de dentro un león</l>
+            <l n="166" xml:id="em0430-pt-168">metido en el corazón</l>
+            <l n="167" xml:id="em0430-pt-169">tiéneme el ánima dañada</l>
+            <l n="168" xml:id="em0430-pt-170">d’ensangrentar esta espada</l>
+            <l n="169" xml:id="em0430-pt-171">en hombres que es perdición.</l>
+          </lg>
+          <lg type="nona">
+            <l n="170" rend="indent" xml:id="em0430-pt-172">Ya Dios es importunado</l>
+            <l n="171" xml:id="em0430-pt-173">de las ánimas que le envío</l>
+            <l n="172" xml:id="em0430-pt-174">y no es en poder mío</l>
+            <l n="173" xml:id="em0430-pt-175">dexar uno acuchillado.</l>
+            <l n="174" xml:id="em0430-pt-176">Dexé vivo allá en el puerto</l>
+            <l n="175" xml:id="em0430-pt-177">un hombrazo alto y tuerto</l>
+            <l n="176" xml:id="em0430-pt-178">y después fuilo a encontrar</l>
+            <l n="177" xml:id="em0430-pt-179">pensó que lo iba a matar</l>
+            <l n="178" xml:id="em0430-pt-180">y de miedo cayó muerto.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-43">
+          <speaker>AMA</speaker>
+          <lg part="I" type="nona">
+            <l n="179" rend="indent" xml:id="em0430-pt-181">Vós queríeis ficar cá.</l>
+            <l n="180" xml:id="em0430-pt-182">Agora é cedo ainda</l>
+            <l n="181" xml:id="em0430-pt-183">tornareis vós outra vinda</l>
+            <l n="182" xml:id="em0430-pt-184">e tudo se bem fará.</l>
+          </lg>
+        </sp>
+        <sp who="#castelhano" xml:id="em0430-pt-sp-44">
+          <speaker>CASTELHANO</speaker>
+          <lg part="M" type="free">
+            <l n="183" xml:id="em0430-pt-185">A qué hora me mandáis?</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-45">
+          <speaker>AMA</speaker>
+          <lg part="F" type="free">
+            <l n="184" xml:id="em0430-pt-186">Às nove horas e nô mais</l>
+            <l n="185" xml:id="em0430-pt-187">e tirai ũa pedrinha</l>
+            <l n="186" xml:id="em0430-pt-188">pedra muito pequenina</l>
+            <l n="187" xml:id="em0430-pt-189">à janela dos quintais.</l>
+          </lg>
+          <lg part="I" type="nona">
+            <l n="188" rend="indent" xml:id="em0430-pt-190">Entonces vos abrirei</l>
+            <l n="189" xml:id="em0430-pt-191">de muito boa vontade</l>
+            <l n="190" xml:id="em0430-pt-192">pois sois homem de verdade</l>
+            <l n="191" xml:id="em0430-pt-193">nunca vos falecerei.</l>
+          </lg>
+        </sp>
+        <sp who="#castelhano" xml:id="em0430-pt-sp-46">
+          <speaker>CASTELHANO</speaker>
+          <lg part="F" type="free">
+            <l n="192" xml:id="em0430-pt-194">Sabéis que ganáis en eso</l>
+            <l n="193" xml:id="em0430-pt-195">el mundo todo por vueso</l>
+            <l n="194" xml:id="em0430-pt-196">que aunque tal capa me veis</l>
+            <l n="195" xml:id="em0430-pt-197">tengo más que pensaréis</l>
+            <l n="196" xml:id="em0430-pt-198">y no lo toméis en grueso.</l>
+          </lg>
+          <lg part="I" type="nona">
+            <l n="197" rend="indent" xml:id="em0430-pt-199">Bésoos las manos señora</l>
+            <l n="198" xml:id="em0430-pt-200">voyme con vuesa licencia</l>
+            <l n="199" xml:id="em0430-pt-201">más ufano que Florencia.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-47">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="200" xml:id="em0430-pt-202">Ide e vinde muit’embora.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-48">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="201" xml:id="em0430-pt-203">Jesu como é rebolão</l>
+            <l n="202" xml:id="em0430-pt-204">dai dai ò demo o ladrão.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-49">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="203" xml:id="em0430-pt-205">Muito bem me parece ele.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-50">
+          <speaker>MOÇA</speaker>
+          <lg part="F" type="free">
+            <l n="204" xml:id="em0430-pt-206">Nam vos fieis vós naquele</l>
+            <l n="205" xml:id="em0430-pt-207">porque aquilo é refião.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-51">
+          <speaker>AMA</speaker>
+          <lg part="I" type="nona">
+            <l n="206" rend="indent" xml:id="em0430-pt-208">Já lh’eu tenho prometido.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-52">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="207" xml:id="em0430-pt-209">Muito embora, seja assi.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-53">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="208" xml:id="em0430-pt-210">Um Lemos andava aqui</l>
+            <l n="209" xml:id="em0430-pt-211">meu namorado perdido.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-54">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="210" xml:id="em0430-pt-212">Quem? O rascão do sombreiro?</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-55">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="211" xml:id="em0430-pt-213">Mas antes era escudeiro.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-56">
+          <speaker>MOÇA</speaker>
+          <lg part="F" type="free">
+            <l n="212" xml:id="em0430-pt-214">Seria mas bem safado.</l>
+            <l n="213" xml:id="em0430-pt-215">Nam sospirava o coitado</l>
+            <l n="214" xml:id="em0430-pt-216">senam por algum dinheiro.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-57">
+          <speaker>AMA</speaker>
+          <lg part="I" type="nona">
+            <l n="215" rend="indent" xml:id="em0430-pt-217">Nam é ele homem dessa arte.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-58">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="216" xml:id="em0430-pt-218">Pois inda ele nam esquece?</l>
+            <l n="217" xml:id="em0430-pt-219">Há muito que nam parece.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-59">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="218" xml:id="em0430-pt-220">Quant’eu nam sei dele parte.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-60">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="219" xml:id="em0430-pt-221">Como ele souber a fé</l>
+            <l n="220" xml:id="em0430-pt-222">que nosso amo aqui nam é</l>
+            <l n="221" xml:id="em0430-pt-223">Lemos vos vesitará.</l>
+          </lg>
+        </sp>
+        <sp who="#lemos" xml:id="em0430-pt-sp-61">
+          <speaker>LEMOS</speaker>
+          <lg part="M" type="free">
+            <l n="222" part="I" xml:id="em0430-pt-224">Ou de casa.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-62">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0430-pt-225">Quem é lá?</l>
+          </lg>
+        </sp>
+        <sp who="#lemos" xml:id="em0430-pt-sp-63">
+          <speaker>LEMOS</speaker>
+          <lg part="M" type="free">
+            <l n="223" part="I" xml:id="em0430-pt-226">Subirei?</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-64">
+          <speaker>AMA</speaker>
+          <lg part="F" type="free">
+            <l part="F" xml:id="em0430-pt-227">Suba quem é.</l>
+          </lg>
+        </sp>
+        <sp who="#lemos" xml:id="em0430-pt-sp-65">
+          <speaker>LEMOS</speaker>
+          <lg part="I" type="nona">
+            <l n="224" rend="indent" xml:id="em0430-pt-228">Vosso cativo senhora.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-66">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="225" xml:id="em0430-pt-229">Jesu tamanha mesura</l>
+            <l n="226" xml:id="em0430-pt-230">sou rainha porventura?</l>
+          </lg>
+        </sp>
+        <sp who="#lemos" xml:id="em0430-pt-sp-67">
+          <speaker>LEMOS</speaker>
+          <lg part="M" type="free">
+            <l n="227" xml:id="em0430-pt-231">Mas sois minha emperadora.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-68">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="228" xml:id="em0430-pt-232">Que foi do vosso passear</l>
+            <l n="229" xml:id="em0430-pt-233">com luar e sem luar</l>
+            <l n="230" xml:id="em0430-pt-234">toda a noite nesta rua?</l>
+          </lg>
+        </sp>
+        <sp who="#lemos" xml:id="em0430-pt-sp-69">
+          <speaker>LEMOS</speaker>
+          <lg part="F" type="free">
+            <l n="231" xml:id="em0430-pt-235">Achei-vos sempre tam crua</l>
+            <l n="232" xml:id="em0430-pt-236">que vos nam pude aturar.</l>
+          </lg>
+          <lg part="I" type="nona">
+            <l n="233" rend="indent" xml:id="em0430-pt-237">Mas agora como estais?</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-70">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="234" xml:id="em0430-pt-238">Foi-se à Índia meu marido</l>
+            <l n="235" xml:id="em0430-pt-239">e depois homem nacido</l>
+            <l n="236" xml:id="em0430-pt-240">nam veo onde vós cuidais.</l>
+            <l n="237" xml:id="em0430-pt-241">E por vida de Costança</l>
+            <l n="238" xml:id="em0430-pt-242">que se nam fosse a lembrança.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-71">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="239" xml:id="em0430-pt-243">Dizei já essa mentira.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-72">
+          <speaker>AMA</speaker>
+          <lg part="F" type="free">
+            <l n="240" xml:id="em0430-pt-244">Que eu vos nam consentira</l>
+            <l n="241" xml:id="em0430-pt-245">entrar em tanta privança.</l>
+          </lg>
+        </sp>
+        <sp who="#lemos" xml:id="em0430-pt-sp-73">
+          <speaker>LEMOS</speaker>
+          <lg part="I" type="nona">
+            <l n="242" rend="indent" xml:id="em0430-pt-246">Pois que agora estais singela</l>
+            <l n="243" xml:id="em0430-pt-247">que lei me dais vós senhora?</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-74">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="244" xml:id="em0430-pt-248">Digo que venhais embora.</l>
+          </lg>
+        </sp>
+        <sp who="#lemos" xml:id="em0430-pt-sp-75">
+          <speaker>LEMOS</speaker>
+          <lg part="M" type="free">
+            <l n="245" xml:id="em0430-pt-249">Quem tira àquela janela?</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-76">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="246" xml:id="em0430-pt-250">Meninos que andam brincando</l>
+            <l n="247" xml:id="em0430-pt-251">e tiram de quando em quando.</l>
+          </lg>
+        </sp>
+        <sp who="#lemos" xml:id="em0430-pt-sp-77">
+          <speaker>LEMOS</speaker>
+          <lg part="M" type="free">
+            <l n="248" xml:id="em0430-pt-252">Que dizeis senhora minha?</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-78">
+          <speaker>AMA</speaker>
+          <lg part="F" type="free">
+            <l n="249" xml:id="em0430-pt-253">Metei-vos nessa cozinha</l>
+            <l n="250" xml:id="em0430-pt-254">que me estão ali chamando.</l>
+          </lg>
+        </sp>
+        <sp who="#castelhano" xml:id="em0430-pt-sp-79">
+          <speaker>CASTELHANO</speaker>
+          <lg part="I" type="nona">
+            <l n="251" rend="indent" xml:id="em0430-pt-255">Ábrame vuesa merced</l>
+            <l n="252" xml:id="em0430-pt-256">que estoy aquí a la vergüenza</l>
+            <l n="253" xml:id="em0430-pt-257">esto úsase en Sigüenza</l>
+            <l n="254" xml:id="em0430-pt-258">pues prometéis mantened.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-80">
+          <speaker>AMA</speaker>
+          <lg part="F" type="free">
+            <l n="255" xml:id="em0430-pt-259">Calai-vos muit’ieramá</l>
+            <l n="256" xml:id="em0430-pt-260">até que meu irmão se vá</l>
+            <l n="257" xml:id="em0430-pt-261">dissimulai por i entanto.</l>
+            <l n="258" xml:id="em0430-pt-262">Ora vistes o quebranto?</l>
+            <l n="259" xml:id="em0430-pt-263">Andar muit’ieramá.</l>
+          </lg>
+        </sp>
+        <sp who="#lemos" xml:id="em0430-pt-sp-81">
+          <speaker>LEMOS</speaker>
+          <lg part="I" type="nona">
+            <l n="260" rend="indent" xml:id="em0430-pt-264">Quem é aquele que falava?</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-82">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="261" xml:id="em0430-pt-265">O castelhano vinagreiro.</l>
+          </lg>
+        </sp>
+        <sp who="#lemos" xml:id="em0430-pt-sp-83">
+          <speaker>LEMOS</speaker>
+          <lg part="M" type="free">
+            <l n="262" part="I" xml:id="em0430-pt-266">Que quer?</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-84">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0430-pt-267">Vem polo dinheiro</l>
+            <l n="263" xml:id="em0430-pt-268">do vinagre que me dava.</l>
+            <l n="264" xml:id="em0430-pt-269">Vós queríeis cá cear</l>
+            <l n="265" xml:id="em0430-pt-270">e eu nam tenho que vos dar.</l>
+          </lg>
+        </sp>
+        <sp who="#lemos" xml:id="em0430-pt-sp-85">
+          <speaker>LEMOS</speaker>
+          <lg part="F" type="free">
+            <l n="266" xml:id="em0430-pt-271">Vá esta moça à Ribeira</l>
+            <l n="267" xml:id="em0430-pt-272">e traga-a cá toda enteira</l>
+            <l n="268" xml:id="em0430-pt-273">que toda s’ há de gastar.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-86">
+          <speaker>MOÇA</speaker>
+          <lg part="I" type="nona">
+            <l n="269" rend="indent" xml:id="em0430-pt-274">Azevias trazerei?</l>
+          </lg>
+        </sp>
+        <sp who="#lemos" xml:id="em0430-pt-sp-87">
+          <speaker>LEMOS</speaker>
+          <lg part="M" type="free">
+            <l n="270" xml:id="em0430-pt-275">Dá ò demo as azevias</l>
+            <l n="271" xml:id="em0430-pt-276">nam compres, já m’enfastias.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-88">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="272" xml:id="em0430-pt-277">O que quiserdes comprarei.</l>
+          </lg>
+        </sp>
+        <sp who="#lemos" xml:id="em0430-pt-sp-89">
+          <speaker>LEMOS</speaker>
+          <lg part="M" type="free">
+            <l n="273" xml:id="em0430-pt-278">Traze ũa quarta de cereijas</l>
+            <l n="274" xml:id="em0430-pt-279">e um ceitil de briguigões.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-90">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="275" part="I" xml:id="em0430-pt-280">Cabrito?</l>
+          </lg>
+        </sp>
+        <sp who="#lemos" xml:id="em0430-pt-sp-91">
+          <speaker>LEMOS</speaker>
+          <lg part="F" type="free">
+            <l part="F" xml:id="em0430-pt-281">Tem mil barejas.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-92">
+          <speaker>MOÇA</speaker>
+          <lg part="I" type="nona">
+            <l n="276" rend="indent" xml:id="em0430-pt-282">E ostras trazerei delas?</l>
+          </lg>
+        </sp>
+        <sp who="#lemos" xml:id="em0430-pt-sp-93">
+          <speaker>LEMOS</speaker>
+          <lg part="M" type="free">
+            <l n="277" xml:id="em0430-pt-283">Se valerem caras não</l>
+            <l n="278" xml:id="em0430-pt-284">antes traze mais um pão</l>
+            <l n="279" xml:id="em0430-pt-285">e o vinho das estrelas.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-94">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="280" xml:id="em0430-pt-286">Quanto trazerei de vinho?</l>
+          </lg>
+        </sp>
+        <sp who="#lemos" xml:id="em0430-pt-sp-95">
+          <speaker>LEMOS</speaker>
+          <lg part="M" type="free">
+            <l n="281" xml:id="em0430-pt-287">Três pichéis deste caminho.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-96">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="282" xml:id="em0430-pt-288">Dais-me um cinquinho nô mais?</l>
+          </lg>
+        </sp>
+        <sp who="#lemos" xml:id="em0430-pt-sp-97">
+          <speaker>LEMOS</speaker>
+          <lg part="F" type="free">
+            <l n="283" xml:id="em0430-pt-289">Toma aí mais dous reais.</l>
+          </lg>
+          <lg part="I" type="nona">
+            <l n="284" rend="indent" xml:id="em0430-pt-290">Vai e vem muito emproviso.</l>
+            <l n="285" xml:id="em0430-pt-291">Quem vos anojou meu bem</l>
+            <l n="286" xml:id="em0430-pt-292">bem anojado me tem.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-98">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="287" xml:id="em0430-pt-293">Vós cantais em vosso siso?</l>
+          </lg>
+        </sp>
+        <sp who="#lemos" xml:id="em0430-pt-sp-99">
+          <speaker>LEMOS</speaker>
+          <lg part="M" type="free">
+            <l n="288" xml:id="em0430-pt-294">Deixai-me cantar senhora.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-100">
+          <speaker>AMA</speaker>
+          <lg part="F" type="free">
+            <l n="289" xml:id="em0430-pt-295">A vezinhança que dirá</l>
+            <l n="290" xml:id="em0430-pt-296">se meu marido aqui nam está</l>
+            <l n="291" xml:id="em0430-pt-297">e vos ouvirem cantar</l>
+            <l n="292" xml:id="em0430-pt-298">que rezão lhe posso eu dar</l>
+            <l n="293" xml:id="em0430-pt-299">que nam seja muito má?</l>
+          </lg>
+        </sp>
+        <sp who="#castelhano" xml:id="em0430-pt-sp-101">
+          <speaker>CASTELHANO</speaker>
+          <lg part="I" type="nona">
+            <l n="294" rend="indent" xml:id="em0430-pt-300">Reniego de Marenilla</l>
+            <l n="295" xml:id="em0430-pt-301">esto es burla o es burleta</l>
+            <l n="296" xml:id="em0430-pt-302">queréis que me haga trompeta</l>
+            <l n="297" xml:id="em0430-pt-303">que me oiga toda la villa?</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-102">
+          <speaker>AMA</speaker>
+          <lg part="F" type="free">
+            <l n="298" xml:id="em0430-pt-304">Entrai vós ali senhor</l>
+            <l n="299" xml:id="em0430-pt-305">que ouço o corregedor.</l>
+            <l n="300" xml:id="em0430-pt-306">Temo tanto esta devassa.</l>
+            <l n="301" xml:id="em0430-pt-307">Entrai vós nessoutra casa</l>
+            <l n="302" xml:id="em0430-pt-308">que sinto grande rumor.</l>
+          </lg>
+          <stage xml:id="em0430-pt-st-2">Chega à janela</stage>
+          <lg part="I" type="nona">
+            <l n="303" rend="indent" xml:id="em0430-pt-309">Falai vós passo micer.</l>
+          </lg>
+        </sp>
+        <sp who="#castelhano" xml:id="em0430-pt-sp-103">
+          <speaker>CASTELHANO</speaker>
+          <lg part="M" type="free">
+            <l n="304" xml:id="em0430-pt-310">Pesar ora de san Pablo</l>
+            <l n="305" xml:id="em0430-pt-311">esto es burla o es diablo.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-104">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="306" xml:id="em0430-pt-312">E eu posso-vos mais fazer?</l>
+          </lg>
+        </sp>
+        <sp who="#castelhano" xml:id="em0430-pt-sp-105">
+          <speaker>CASTELHANO</speaker>
+          <lg part="F" type="free">
+            <l n="307" xml:id="em0430-pt-313">Y aún en eso está ahora</l>
+            <l n="308" xml:id="em0430-pt-314">la vida de Juan de Zamora.</l>
+            <l n="309" xml:id="em0430-pt-315">Son noches de Navidá</l>
+            <l n="310" xml:id="em0430-pt-316">quiere amanecer ya</l>
+            <l n="311" xml:id="em0430-pt-317">que no tardará media hora.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-106">
+          <speaker>AMA</speaker>
+          <lg part="I" type="nona">
+            <l n="312" rend="indent" xml:id="em0430-pt-318">Meu irmão cuidei que se ia.</l>
+          </lg>
+        </sp>
+        <sp who="#castelhano" xml:id="em0430-pt-sp-107">
+          <speaker>CASTELHANO</speaker>
+          <lg part="M" type="free">
+            <l n="313" xml:id="em0430-pt-319">Ah señora y reísvos vos</l>
+            <l n="314" xml:id="em0430-pt-320">ábrame cuerpo de Dios.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-108">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="315" xml:id="em0430-pt-321">Tornareis cá outro dia.</l>
+          </lg>
+        </sp>
+        <sp who="#castelhano" xml:id="em0430-pt-sp-109">
+          <speaker>CASTELHANO</speaker>
+          <lg part="F" type="free">
+            <l n="316" xml:id="em0430-pt-322">Asosiega corazón</l>
+            <l n="317" xml:id="em0430-pt-323">adormiéntate león</l>
+            <l n="318" xml:id="em0430-pt-324">no eches la casa en tierra</l>
+            <l n="319" xml:id="em0430-pt-325">ni hagas tan cruda guerra</l>
+            <l n="320" xml:id="em0430-pt-326">que mueras como Sansón.</l>
+          </lg>
+          <lg part="I" type="nona">
+            <l n="321" rend="indent" xml:id="em0430-pt-327">Esta burla es de verdad</l>
+            <l n="322" xml:id="em0430-pt-328">por los osos de Medea</l>
+            <l n="323" xml:id="em0430-pt-329">sino que arrastrado sea</l>
+            <l n="324" xml:id="em0430-pt-330">mañana por la ciudad.</l>
+            <l n="325" xml:id="em0430-pt-331">Por la sangre soberana</l>
+            <l n="326" xml:id="em0430-pt-332">de la batalla troyana</l>
+            <l n="327" xml:id="em0430-pt-333">y juro a la casa santa.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-110">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="328" xml:id="em0430-pt-334">Pera que é essa jura tanta?</l>
+          </lg>
+        </sp>
+        <sp who="#castelhano" xml:id="em0430-pt-sp-111">
+          <speaker>CASTELHANO</speaker>
+          <lg part="F" type="free">
+            <l n="329" xml:id="em0430-pt-335">Y aún vos estés ufana.</l>
+          </lg>
+          <lg type="nona">
+            <l n="330" rend="indent" xml:id="em0430-pt-336">Quiero destruir el mundo</l>
+            <l n="331" xml:id="em0430-pt-337">quemar la casa es la verdad</l>
+            <l n="332" xml:id="em0430-pt-338">después quemar la ciudad.</l>
+            <l n="333" xml:id="em0430-pt-339">Señora en esto me fundo.</l>
+            <l n="334" xml:id="em0430-pt-340">Después si Dios me dixere</l>
+            <l n="335" xml:id="em0430-pt-341">cuando allá con él me viere</l>
+            <l n="336" xml:id="em0430-pt-342">que por sola una mujer</l>
+            <l n="337" xml:id="em0430-pt-343">bien sabré qué responder</l>
+            <l n="338" xml:id="em0430-pt-344">cuando a eso viniere.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-112">
+          <speaker>AMA</speaker>
+          <lg part="I" type="nona">
+            <l n="339" rend="indent" xml:id="em0430-pt-345">Isso são rebolarias.</l>
+          </lg>
+        </sp>
+        <sp who="#castelhano" xml:id="em0430-pt-sp-113">
+          <speaker>CASTELHANO</speaker>
+          <lg part="M" type="free">
+            <l n="340" xml:id="em0430-pt-346">Séame Dios testigo</l>
+            <l n="341" xml:id="em0430-pt-347">que vos veréis lo que digo</l>
+            <l n="342" xml:id="em0430-pt-348">antes que pasen tres días.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-114">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="343" xml:id="em0430-pt-349">Má viagem faças tu</l>
+            <l n="344" xml:id="em0430-pt-350">caminho de Calecu</l>
+            <l n="345" xml:id="em0430-pt-351">praza à virgem consagrada.</l>
+          </lg>
+        </sp>
+        <sp who="#lemos" xml:id="em0430-pt-sp-115">
+          <speaker>LEMOS</speaker>
+          <lg part="M" type="free">
+            <l n="346" part="I" xml:id="em0430-pt-352">Que é isso?</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-116">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0430-pt-353">Nam é nada.</l>
+          </lg>
+        </sp>
+        <sp who="#lemos" xml:id="em0430-pt-sp-117">
+          <speaker>LEMOS</speaker>
+          <lg part="F" type="free">
+            <l n="347" xml:id="em0430-pt-354">Assi viva Berzabu.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-118">
+          <speaker>AMA</speaker>
+          <lg part="I" type="nona">
+            <l n="348" rend="indent" xml:id="em0430-pt-355">I-vos embora senhor</l>
+            <l n="349" xml:id="em0430-pt-356">que isto quer amanhecer.</l>
+            <l n="350" xml:id="em0430-pt-357">Tudo está a vosso prazer</l>
+            <l n="351" xml:id="em0430-pt-358">com muito dobrado amor.</l>
+            <l n="352" xml:id="em0430-pt-359">Oh que mesuras tamanhas.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-119">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="353" xml:id="em0430-pt-360">Quantas artes quantas manhas</l>
+            <l n="354" xml:id="em0430-pt-361">que sabe fazer minha ama:</l>
+            <l n="355" xml:id="em0430-pt-362">um na rua outro na cama.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-120">
+          <speaker>AMA</speaker>
+          <lg part="F" type="free">
+            <l n="356" xml:id="em0430-pt-363">Que falas, que t’arreganhas?</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-121">
+          <speaker>MOÇA</speaker>
+          <lg type="nona">
+            <l n="357" rend="indent" xml:id="em0430-pt-364">Ando dizendo entre mi</l>
+            <l n="358" xml:id="em0430-pt-365">que agora vai em dous anos</l>
+            <l n="359" xml:id="em0430-pt-366">que eu fui lavar os panos</l>
+            <l n="360" xml:id="em0430-pt-367">além do Chão d’Alcami.</l>
+            <l n="361" xml:id="em0430-pt-368">E logo partiu a armada</l>
+            <l n="362" xml:id="em0430-pt-369">domingo de madrugada</l>
+            <l n="363" xml:id="em0430-pt-370">nam pode muito tardar</l>
+            <l n="364" xml:id="em0430-pt-371">nova se há de tornar</l>
+            <l n="365" xml:id="em0430-pt-372">noss’amo pera a pousada.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-122">
+          <speaker>AMA</speaker>
+          <lg part="I" type="nona">
+            <l n="366" part="I" rend="indent" xml:id="em0430-pt-373">Asinha.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-123">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0430-pt-374">Três anos há</l>
+            <l n="367" xml:id="em0430-pt-375">que partiu Tristão da Cunha.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-124">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="368" xml:id="em0430-pt-376">Quant’eu ano e meo punha.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-125">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="369" xml:id="em0430-pt-377">Mas três e mais haverá.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-126">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="370" xml:id="em0430-pt-378">Vai tu comprar de comer</l>
+            <l n="371" xml:id="em0430-pt-379">tens muito pera fazer</l>
+            <l n="372" part="I" xml:id="em0430-pt-380">nam tardes.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-127">
+          <speaker>MOÇA</speaker>
+          <lg part="F" type="free">
+            <l part="F" xml:id="em0430-pt-381">Nam senhora</l>
+            <l n="373" xml:id="em0430-pt-382">eu virei logo ness’hora</l>
+            <l n="374" xml:id="em0430-pt-383">se m’eu lá nam detiver.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-128">
+          <speaker>AMA</speaker>
+          <lg type="nona">
+            <l n="375" rend="indent" xml:id="em0430-pt-384">Mas que graça que seria</l>
+            <l n="376" xml:id="em0430-pt-385">se este negro meu marido</l>
+            <l n="377" xml:id="em0430-pt-386">tornasse a Lixboa vivo</l>
+            <l n="378" xml:id="em0430-pt-387">pera minha companhia.</l>
+            <l n="379" xml:id="em0430-pt-388">Mas isto nam pode ser</l>
+            <l n="380" xml:id="em0430-pt-389">que ele havia de morrer</l>
+            <l n="381" xml:id="em0430-pt-390">somente de ver o mar</l>
+            <l n="382" xml:id="em0430-pt-391">quero fiar e cantar</l>
+            <l n="383" xml:id="em0430-pt-392">segura de o nunca ver.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-129">
+          <speaker>MOÇA</speaker>
+          <lg part="I" type="nona">
+            <l n="384" rend="indent" xml:id="em0430-pt-393">Ai senhora venho morta</l>
+            <l n="385" xml:id="em0430-pt-394">noss’amo é hoje aqui.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-130">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="386" xml:id="em0430-pt-395">Má nova venha por ti</l>
+            <l n="387" xml:id="em0430-pt-396">perra, escomungada, torta.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-131">
+          <speaker>MOÇA</speaker>
+          <lg part="F" type="free">
+            <l n="388" xml:id="em0430-pt-397">A Garça em que ele ia</l>
+            <l n="389" xml:id="em0430-pt-398">vem com mui grande alegria</l>
+            <l n="390" xml:id="em0430-pt-399">per Restelo entra agora.</l>
+            <l n="391" xml:id="em0430-pt-400">Por vida minha senhora</l>
+            <l n="392" xml:id="em0430-pt-401">que nam falo zombaria.</l>
+          </lg>
+          <lg part="I" type="nona">
+            <l n="393" rend="indent" xml:id="em0430-pt-402">E vi pessoa que o viu</l>
+            <l n="394" xml:id="em0430-pt-403">gordo que é pera espantar.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-132">
+          <speaker>AMA</speaker>
+          <lg part="F" type="free">
+            <l n="395" xml:id="em0430-pt-404">Pois casa se t’eu caiar</l>
+            <l n="396" xml:id="em0430-pt-405">mate-me quem me pariu.</l>
+            <l n="397" xml:id="em0430-pt-406">Quebra-me aquelas tigelas</l>
+            <l n="398" xml:id="em0430-pt-407">e três ou quatro panelas</l>
+            <l n="399" xml:id="em0430-pt-408">que nam ache em que comer.</l>
+            <l n="400" xml:id="em0430-pt-409">Que chegada e que prazer.</l>
+            <l n="401" xml:id="em0430-pt-410">Fecha-me aquelas janelas.</l>
+          </lg>
+          <lg part="I" type="nona">
+            <l n="402" rend="indent" xml:id="em0430-pt-411">Deita essa carne esses gatos</l>
+            <l n="403" xml:id="em0430-pt-412">desfaze toda essa cama.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-133">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="404" xml:id="em0430-pt-413">De mercês está minha ama</l>
+            <l n="405" xml:id="em0430-pt-414">desfeitos estão os tratos.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-134">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="406" xml:id="em0430-pt-415">Por que nam matas o fogo?</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-135">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="407" xml:id="em0430-pt-416">Raivar qu’este é outro jogo.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-136">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="408" xml:id="em0430-pt-417">Perra, cadela, tinhosa</l>
+            <l n="409" xml:id="em0430-pt-418">que rosmeas aleivosa?</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-137">
+          <speaker>MOÇA</speaker>
+          <lg part="F" type="free">
+            <l n="410" xml:id="em0430-pt-419">Digo que o matarei logo.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-138">
+          <speaker>AMA</speaker>
+          <lg part="I" type="nona">
+            <l n="411" rend="indent" xml:id="em0430-pt-420">Nam sei pera que é viver.</l>
+          </lg>
+        </sp>
+        <sp who="#marido" xml:id="em0430-pt-sp-139">
+          <speaker>MARIDO</speaker>
+          <lg part="M" type="free">
+            <l n="412" part="I" xml:id="em0430-pt-421">Oulá.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-140">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0430-pt-422">Ali má hora este é</l>
+            <l n="413" part="I" xml:id="em0430-pt-423">quem é?</l>
+          </lg>
+        </sp>
+        <sp who="#marido" xml:id="em0430-pt-sp-141">
+          <speaker>MARIDO</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0430-pt-424">Homem de pé.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-142">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="414" xml:id="em0430-pt-425">Gracioso se quer fazer</l>
+            <l n="415" xml:id="em0430-pt-426">sobi sobi pera cima.</l>
+          </lg>
+        </sp>
+        <sp who="#moça" xml:id="em0430-pt-sp-143">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="416" xml:id="em0430-pt-427">É noss’amo como rima.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-144">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="417" xml:id="em0430-pt-428">Teu amo. Jesu Jesu</l>
+            <l n="418" xml:id="em0430-pt-429">alvíssaras pedirás tu.</l>
+          </lg>
+        </sp>
+        <sp who="#marido" xml:id="em0430-pt-sp-145">
+          <speaker>MARIDO</speaker>
+          <lg part="F" type="free">
+            <l n="419" xml:id="em0430-pt-430">Abraçai-me minha prima.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-146">
+          <speaker>AMA</speaker>
+          <lg part="I" type="nona">
+            <l n="420" rend="indent" xml:id="em0430-pt-431">Jesu quam negro e tostado.</l>
+            <l n="421" xml:id="em0430-pt-432">nam vos quero nam vos quero.</l>
+          </lg>
+        </sp>
+        <sp who="#marido" xml:id="em0430-pt-sp-147">
+          <speaker>MARIDO</speaker>
+          <lg part="M" type="free">
+            <l n="422" xml:id="em0430-pt-433">E eu a vós si porque espero</l>
+            <l n="423" xml:id="em0430-pt-434">serdes molher de recado.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-148">
+          <speaker>AMA</speaker>
+          <lg part="F" type="free">
+            <l n="424" xml:id="em0430-pt-435">Moça tu que estás olhando?</l>
+            <l n="425" xml:id="em0430-pt-436">Vai muito asinha saltando</l>
+            <l n="426" xml:id="em0430-pt-437">faze fogo vai por vinho</l>
+            <l n="427" xml:id="em0430-pt-438">e a metade dum cabretinho</l>
+            <l n="428" xml:id="em0430-pt-439">enquanto estamos falando.</l>
+          </lg>
+          <lg part="I" type="nona">
+            <l n="429" rend="indent" xml:id="em0430-pt-440">Ora como vos foi lá?</l>
+          </lg>
+        </sp>
+        <sp who="#marido" xml:id="em0430-pt-sp-149">
+          <speaker>MARIDO</speaker>
+          <lg part="M" type="free">
+            <l n="430" xml:id="em0430-pt-441">Muita fortuna passei.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-150">
+          <speaker>AMA</speaker>
+          <lg part="F" type="free">
+            <l n="431" xml:id="em0430-pt-442">E eu oh quanto chorei</l>
+            <l n="432" xml:id="em0430-pt-443">quando a armada foi de cá.</l>
+            <l n="433" xml:id="em0430-pt-444">E quando vi desferir</l>
+            <l n="434" xml:id="em0430-pt-445">que começastes de partir</l>
+            <l n="435" xml:id="em0430-pt-446">Jesu eu fiquei finada</l>
+            <l n="436" xml:id="em0430-pt-447">três dias nam comi nada</l>
+            <l n="437" xml:id="em0430-pt-448">a alma se me queria sair.</l>
+          </lg>
+        </sp>
+        <sp who="#marido" xml:id="em0430-pt-sp-151">
+          <speaker>MARIDO</speaker>
+          <lg part="I" type="nona">
+            <l n="438" rend="indent" xml:id="em0430-pt-449">E nós cem léguas daqui</l>
+            <l n="439" xml:id="em0430-pt-450">saltou tanto sudoeste</l>
+            <l n="440" xml:id="em0430-pt-451">sudoeste e oés-sudoeste</l>
+            <l n="441" xml:id="em0430-pt-452">que nunca tal tromenta vi.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-152">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="442" xml:id="em0430-pt-453">Foi isso à quarta feira</l>
+            <l n="443" xml:id="em0430-pt-454">aquela logo primeira?</l>
+          </lg>
+        </sp>
+        <sp who="#marido" xml:id="em0430-pt-sp-153">
+          <speaker>MARIDO</speaker>
+          <lg part="M" type="free">
+            <l n="444" xml:id="em0430-pt-455">Si e começou n’alvorada.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-154">
+          <speaker>AMA</speaker>
+          <lg part="F" type="free">
+            <l n="445" xml:id="em0430-pt-456">E eu fui-me de madrugada</l>
+            <l n="446" xml:id="em0430-pt-457">à Senhora d’Oliveira.</l>
+          </lg>
+          <lg type="nona">
+            <l n="447" rend="indent" xml:id="em0430-pt-458">E com a memória da cruz</l>
+            <l n="448" xml:id="em0430-pt-459">fiz-lhe dizer ũa missa</l>
+            <l n="449" xml:id="em0430-pt-460">e prometi-vos em camisa</l>
+            <l n="450" xml:id="em0430-pt-461">a santa Maria da Luz.</l>
+            <l n="451" xml:id="em0430-pt-462">E logo à quinta feira</l>
+            <l n="452" xml:id="em0430-pt-463">fui ao Spírito Santo</l>
+            <l n="453" xml:id="em0430-pt-464">com outra missa também.</l>
+            <l n="454" xml:id="em0430-pt-465">Chorei tanto que ninguém</l>
+            <l n="455" xml:id="em0430-pt-466">nunca cuidou ver tal pranto.</l>
+          </lg>
+          <lg part="I" type="nona">
+            <l n="456" rend="indent" xml:id="em0430-pt-467">Correstes aquela tromenta?</l>
+            <l n="457" part="I" xml:id="em0430-pt-468">Andar.</l>
+          </lg>
+        </sp>
+        <sp who="#marido" xml:id="em0430-pt-sp-155">
+          <speaker>MARIDO</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0430-pt-469">Durou-nos três dias.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-156">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="458" xml:id="em0430-pt-470">As minhas três romarias</l>
+            <l n="459" xml:id="em0430-pt-471">com outras mais de quarenta.</l>
+          </lg>
+        </sp>
+        <sp who="#marido" xml:id="em0430-pt-sp-157">
+          <speaker>MARIDO</speaker>
+          <lg part="F" type="free">
+            <l n="460" xml:id="em0430-pt-472">Fomos na volta do mar</l>
+            <l n="461" xml:id="em0430-pt-473">quasi quasi a quartelar</l>
+            <l n="462" xml:id="em0430-pt-474">a nossa Garça voava</l>
+            <l n="463" xml:id="em0430-pt-475">que o mar se espedaçava.</l>
+          </lg>
+          <lg part="I" type="nona">
+            <l n="464" rend="indent" xml:id="em0430-pt-476">Fomos ao rio de Meca</l>
+            <l n="465" xml:id="em0430-pt-477">pelejámos e roubámos</l>
+            <l n="466" xml:id="em0430-pt-478">e muito risco passámos</l>
+            <l n="467" xml:id="em0430-pt-479">a vela árvore seca.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-158">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="468" xml:id="em0430-pt-480">E eu cá esmorecer</l>
+            <l n="469" xml:id="em0430-pt-481">fazendo mil devações</l>
+            <l n="470" xml:id="em0430-pt-482">mil choros mil orações.</l>
+          </lg>
+        </sp>
+        <sp who="#marido" xml:id="em0430-pt-sp-159">
+          <speaker>MARIDO</speaker>
+          <lg part="F" type="free">
+            <l n="471" xml:id="em0430-pt-483">Assi havia de ser.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-160">
+          <speaker>AMA</speaker>
+          <lg type="nona">
+            <l n="472" rend="indent" xml:id="em0430-pt-484">Juro-vos que de saudade</l>
+            <l n="473" xml:id="em0430-pt-485">tanto de pão nam comia</l>
+            <l n="474" xml:id="em0430-pt-486">a triste de mi cada dia</l>
+            <l n="475" xml:id="em0430-pt-487">doente era ũa piedade.</l>
+            <l n="476" xml:id="em0430-pt-488">Já carne nunca a comi.</l>
+            <l n="477" xml:id="em0430-pt-489">Esta camisa que trago</l>
+            <l n="478" xml:id="em0430-pt-490">em vossa dita a vesti</l>
+            <l n="479" xml:id="em0430-pt-491">porque vinha bom mandado.</l>
+          </lg>
+          <lg part="I" type="nona">
+            <l n="480" rend="indent" xml:id="em0430-pt-492">Onde nam há marido</l>
+            <l n="481" xml:id="em0430-pt-493">cuidai que tudo é tristura</l>
+            <l n="482" xml:id="em0430-pt-494">nam há prazer nem folgura</l>
+            <l n="483" xml:id="em0430-pt-495">sabei que é viver perdido.</l>
+            <l n="484" xml:id="em0430-pt-496">Alembrava-vos eu lá?</l>
+          </lg>
+        </sp>
+        <sp who="#marido" xml:id="em0430-pt-sp-161">
+          <speaker>MARIDO</speaker>
+          <lg part="M" type="free">
+            <l n="485" part="I" xml:id="em0430-pt-497">E como.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-162">
+          <speaker>AMA</speaker>
+          <lg part="F" type="free">
+            <l part="F" xml:id="em0430-pt-498">Agora aramá</l>
+            <l n="486" xml:id="em0430-pt-499">lá há índias mui fermosas</l>
+            <l n="487" xml:id="em0430-pt-500">lá faríeis vós das vossas</l>
+            <l n="488" xml:id="em0430-pt-501">e a triste de mi cá</l>
+          </lg>
+          <lg part="I" type="nona">
+            <l n="489" rend="indent" xml:id="em0430-pt-502">encerrada nesta casa</l>
+            <l n="490" xml:id="em0430-pt-503">sem consentir que vezinha</l>
+            <l n="491" xml:id="em0430-pt-504">entrasse por ũa brasa</l>
+            <l n="492" xml:id="em0430-pt-505">por honestidade minha.</l>
+          </lg>
+        </sp>
+        <sp who="#marido" xml:id="em0430-pt-sp-163">
+          <speaker>MARIDO</speaker>
+          <lg part="F" type="free">
+            <l n="493" xml:id="em0430-pt-506">Lá vos digo que há fadigas</l>
+            <l n="494" xml:id="em0430-pt-507">tantas mortes, tantas brigas</l>
+            <l n="495" xml:id="em0430-pt-508">e perigos descompassados</l>
+            <l n="496" xml:id="em0430-pt-509">que assi vimos destrocados</l>
+            <l n="497" xml:id="em0430-pt-510">pelados coma formigas.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-164">
+          <speaker>AMA</speaker>
+          <lg part="I" type="nona">
+            <l n="498" rend="indent" xml:id="em0430-pt-511">Porém vindes vós mui rico.</l>
+          </lg>
+        </sp>
+        <sp who="#marido" xml:id="em0430-pt-sp-165">
+          <speaker>MARIDO</speaker>
+          <lg part="M" type="free">
+            <l n="499" xml:id="em0430-pt-512">Se nam fora o capitão</l>
+            <l n="500" xml:id="em0430-pt-513">eu trouxera a meu quinhão</l>
+            <l n="501" xml:id="em0430-pt-514">um milhão vos certifico.</l>
+            <l n="502" xml:id="em0430-pt-515">Calai-vos que vós vereis</l>
+            <l n="503" xml:id="em0430-pt-516">quam louçã haveis de sair.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-166">
+          <speaker>AMA</speaker>
+          <lg part="F" type="free">
+            <l n="504" xml:id="em0430-pt-517">Agora me quero eu rir</l>
+            <l n="505" xml:id="em0430-pt-518">disso que me vós dizeis.</l>
+          </lg>
+          <lg part="I" type="nona">
+            <l n="506" rend="indent" xml:id="em0430-pt-519">Pois que vós vivo viestes</l>
+            <l n="507" xml:id="em0430-pt-520">que quero eu de mais riqueza?</l>
+            <l n="508" xml:id="em0430-pt-521">Louvada seja a grandeza</l>
+            <l n="509" xml:id="em0430-pt-522">de vós senhor que mo trouxestes.</l>
+            <l n="510" xml:id="em0430-pt-523">A nau vem bem carregada?</l>
+          </lg>
+        </sp>
+        <sp who="#marido" xml:id="em0430-pt-sp-167">
+          <speaker>MARIDO</speaker>
+          <lg part="M" type="free">
+            <l n="511" xml:id="em0430-pt-524">Vem tam doce embandeirada.</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-168">
+          <speaker>AMA</speaker>
+          <lg part="M" type="free">
+            <l n="512" xml:id="em0430-pt-525">Vamo-la rogo-vo-lo ver.</l>
+          </lg>
+        </sp>
+        <sp who="#marido" xml:id="em0430-pt-sp-169">
+          <speaker>MARIDO</speaker>
+          <lg part="M" type="free">
+            <l n="513" xml:id="em0430-pt-526">Far-vos-ei nisso prazer?</l>
+          </lg>
+        </sp>
+        <sp who="#ama" xml:id="em0430-pt-sp-170">
+          <speaker>AMA</speaker>
+          <lg part="F" type="free">
+            <l n="514" xml:id="em0430-pt-527">Si que estou muito enfadada.</l>
+          </lg>
+        </sp>
+        <trailer xml:id="em0430-pt-tr-1">Fim.</trailer>
+        <trailer xml:id="em0430-pt-tr-2">Vão-se a ver a nau e fenece esta primeira farsa.</trailer>
+      </div1>
+    </body>
+    <back/>
+  </text>
+</TEI>

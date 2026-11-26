@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Acte V — La tragédie de l’athée — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">DRAMATIS PERSONAE</a></li>
+      
+  
+    
+        <li>
+          <a href="act-1.html">
+            Acte I
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html">
+            Acte II
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            Acte III
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-4.html">
+            Acte IV
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-5.html" aria-current="page">
+            Acte V
+          </a>
+          <ul>
+            <li>
+              
+                  <a href="act-5.html#act-5-s1">
+                    Premier tableau.
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-5.html#act-5-s2">
+                    Second tableau.
+                  </a>
+              
+            </li>
+          </ul>
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="Montferrers">
+        Le baron Montferrers
+      </option><option value="Belforest">
+        Le baron Belforest
+      </option><option value="DAmville">
+        D’Amville
+      </option><option value="Charlemont">
+        Charlemont
+      </option><option value="Rousard">
+        Rousard
+      </option><option value="Languebeau_Snuffe">
+        Languebeau Snuffe
+      </option><option value="Borachio">
+        Borachio
+      </option><option value="Fresco">
+        Fresco
+      </option><option value="sergent">
+        Un sergent
+      </option><option value="soldats">
+        Des soldats
+      </option><option value="serviteurs">
+        des serviteurs
+      </option><option value="hommes_du_guet">
+        des hommes du guet
+      </option><option value="juges">
+        des juges
+      </option><option value="officiers">
+        des officiers
+      </option><option value="Levidulcia">
+        Levidulcia
+      </option><option value="Castabella">
+        Castabella
+      </option><option value="Cataplasma">
+        Cataplasma
+      </option><option value="Soquette">
+        Soquette
+      </option><option value="Sebastien">
+        Sébastien
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">Cyril Tourneur</p>
+  <h1><a href="index.html">La tragédie de l’athée</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-4.html" rel="prev">← Acte IV</a>
+  
+</nav>
+  <div class="text" lang="fr" data-cite="Cyril Tourneur, La tragédie de l’athée, Acte V" data-cite-verse="int." data-cite-prose="int.">
+    
+    <section class="division" id="act-5">
+  <h2 class="act-head">
+    Acte V
+  </h2>
+  
+  
+  
+    
+      <section id="act-5-s1">
+        <h3 class="scene-head">
+          Premier tableau.
+        </h3>
+        <p class="sd " id="l678-sd2">Une salle dans l’hôtel de d’Amville.</p><p class="sd " id="l678-sd3">Un serviteur endormi ; des flambeaux et des sacs d’argent sont devant lui.</p><p class="sd " id="l678-sd4">Entre D’Amville.</p><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l679"><a class="pn " href="#l679">679</a>Eh quoi, tu dors?</p>
+</div><div class="sp " data-who="Serviteur_1">
+  <p class="spk ">
+    Le serviteur.
+  </p>
+  <p class="pr " id="l680"><a class="pn m5" href="#l680">680</a><span class="sdi">(S’éveillant.)</span> Non, monseigneur ; ni sommeil, ni veille, mais une torpeur troublante qui gêne l’un et l’autre.</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l681"><a class="pn " href="#l681">681</a>D’où provient cet or?</p>
+</div><div class="sp " data-who="Serviteur_1">
+  <p class="spk ">
+    Le serviteur.
+  </p>
+  <p class="pr " id="l682"><a class="pn " href="#l682">682</a>C’est une partie des biens qui reviennent à Votre Seigneurie depuis la mort de votre frère.</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l683"><a class="pn " href="#l683">683</a>Va dormir. Laisse-moi à mon or.</p>
+</div><div class="sp " data-who="Serviteur_1">
+  <p class="spk ">
+    Le serviteur.
+  </p>
+  <p class="pr " id="l684"><a class="pn " href="#l684">684</a>Et moi à mon repos : ce sont là deux choses dont un même homme est rarement gratifié.</p>
+</div><p class="sd " id="l684-sd1">(Il sort.)</p><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l685"><a class="pn m5" href="#l685">685</a>Trêve de cette musique de crécelle : elle nous déplaît. <span class="sdi">(Il manie les pièces d’or.)</span> Voici une autre musique dont les sons mélodieux pareils à la voix des anges plongent les sens dans le ravissement. Considère, ignorant astrologue dont les songeries vagabondes cherchent parmi les planètes les destinées humaines, considère tout ébahi ton erreur et tombe frappé par le maléfice des astres. Voici les étoiles dont l’influence mène la fortune et le destin des hommes. Ces yeux, là-haut, moins lumineux du Ciel (pareils à ces vassaux élevés à d’altières demeures, qui du haut de leur ambition regardent passer leur prince) ne dominent l’espace que pour contempler d’un regard que rien ne voile le rayonnement de votre plus puissante suzeraineté. Révèle-toi, souveraine radieuse ! <span class="sdi">(Il tire l’or)</span> Octroie-leur cette grâce de pouvoir jouir du divin visage qu’ils adorent. Voilà les étoiles, les ministres du destin, et la haute sagesse de l’homme est la puissance suprême dont leur force est vassale.</p>
+</div><p class="sd " id="l685-sd1">(Il s’endort.)</p><p class="sd " id="l685-sd2">Le spectre de Montferrers apparaît.</p><div class="sp " data-who="Montferrers">
+  <p class="spk ">
+    Montferrers.
+  </p>
+  <p class="pr " id="l686"><a class="pn " href="#l686">686</a>D’Amville ! Avec toute ta sagesse tu es un ol ! non point comme ces fous qu’on dénomme innocents, mais un misérable fou très pervers, ce que tu constateras sur-le-champ avec désespoir, pour la confusion de tes desseins.</p>
+</div><p class="sd " id="l686-sd1">(Le spectre disparaît.)</p><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l687"><a class="pn " href="#l687">687</a><span class="sdi">(S’éveillant en sursaut.)</span> Quel songe insensé ose troubler mon repos, pour ma confusion? Comment cela se pourrait-il, alors que jusqu’ici mes desseins, guidés par un heureux jugement, se sont assurés le succès ; nul n’existe plus pour m’en déposséder, sauf Charlemont qui est arrêté. Et lui, ce cerveau en a fait l’heureux instrument pour m’affranchir des soupçons, pour réduire à néant tous ses intérêts et ses droits, sceller ma confiance et confirmer mon absolue possession de par la loi. Voilà comment, alors que l’honnête et niais adorateur d’une providence imaginaire gémit sous le fardeau de la misère et de l’abandon, ma ferme sagesse a édifié la splendeur d’une fortune qui rendra ma posterité éternelle. <span class="sdi">(Un serviteur entre avec le corps de Sébastien.)</span><br>Qu’est-ce cela?</p>
+</div><div class="sp " data-who="Serviteur_1">
+  <p class="spk ">
+    Le serviteur.
+  </p>
+  <p class="pr " id="l688"><a class="pn " href="#l688">688</a>Le corps de votre jeune fils, occis par monseigneur Belforest.</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l689"><a class="pn " href="#l689">689</a>Occis ! tu mens ! Sébastien ! Parle, Sébastien ! Il a perdu l’ouïe. Un médecin sur l’heure ! Appelez dons un chirurgien !</p>
+</div><div class="sp " data-who="Rousard">
+  <p class="spk ">
+    Rousard.
+  </p>
+  <p class="pr " id="l690"><a class="pn m5" href="#l690">690</a><span class="sdi">(dans la coulisse.)</span> Oh ! oh ! oh !</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l691"><a class="pn " href="#l691">691</a>Quel gémissement est-ce donc là? Comment va mon aîné? Cette plainte s’exhale de sa chambre.</p>
+</div><div class="sp " data-who="Serviteur_1">
+  <p class="spk ">
+    Le serviteur.
+  </p>
+  <p class="pr " id="l692"><a class="pn " href="#l692">692</a>Il était malade quand il s’est couché, monseigneur.</p>
+</div><div class="sp " data-who="Rousard">
+  <p class="spk ">
+    Rousard.
+  </p>
+  <p class="pr " id="l693"><a class="pn " href="#l693">693</a><span class="sdi">(Gémissant.)</span> Oh ! oh ! oh !</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l694"><a class="pn " href="#l694">694</a>Les cris de la mandragore n’ont jamais déchiré l’oreille de plus d’horreur que cette voix ne déchire la mienne !</p>
+</div><p class="sd " id="l694-sd1">Un serviteur accourt.</p><div class="sp " data-who="Serviteur_1">
+  <p class="spk ">
+    Le serviteur.
+  </p>
+  <p class="pr " id="l695"><a class="pn m5" href="#l695">695</a>Jamais plus vous ne reverrez votre fils vivant.</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l696"><a class="pn " href="#l696">696</a>Nature me garde de le voir jamais mort ! Qu’on écarte les rideaux. <span class="sdi">(Un lit se révèle avec Rousard gisant.)</span><br>Oh ! comment va mon fils?</p>
+</div><div class="sp " data-who="Serviteur_1">
+  <p class="spk ">
+    Le serviteur.
+  </p>
+  <p class="pr " id="l697"><a class="pn " href="#l697">697</a>Il s’apprête, ce me semble, à rendre l’âme.</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l698"><a class="pn " href="#l698">698</a>La perdition s’empare de toi et de ta langue fatale. Mort ! où est le médecin? N’es-tu point l’image de cette apparition prodigieuse qui me regardait fixement dans mon rêve?</p>
+</div><div class="sp " data-who="Serviteur_1">
+  <p class="spk ">
+    Le serviteur.
+  </p>
+  <p class="pr " id="l699"><a class="pn " href="#l699">699</a>Le médecin est là, monseigneur.</p>
+</div><p class="sd " id="l699-sd1">Le docteur entre.</p><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l700"><a class="pn m5" href="#l700">700</a>Docteur, contemple ces malades ; si tu les guéris, ta sciece peut t’acquérir un renom éternel. Si tu as quelque science d’Hippocrate, de Galien ou d’Avicen, si les simples, les breuvage ou les minéraux ont quelque vertu salutaire, que ton expérience et leur emploi souverain t’élèvent aux richesses et aux honneurs !</p>
+</div><div class="sp " data-who="medecin">
+  <p class="spk ">
+    Le Médecin.
+  </p>
+  <p class="pr " id="l701"><a class="pn " href="#l701">701</a>S’il demeure au fond de ces êtres quelque racine de vie qu’un remède puisse raviver, n’ayez crainte pour eux, monseigneur.</p>
+</div><div class="sp " data-who="Rousard">
+  <p class="spk ">
+    Rousard.
+  </p>
+  <p class="pr " id="l702"><a class="pn " href="#l702">702</a>Oh ! oh ! oh !</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l703"><a class="pn " href="#l703">703</a>Ses soupirs haletants ressemblent au bruit de chute de quelque grand édifice quand les fondations cèdent. Sur ces deux piliers reposaient la structure et l’architecture majestueuse de ma maison altière. Un tremblement de terre les ébranle ; la base se dérobe. Chère Nature, en l’honneur de qui j’ai voulu élever un monument de gloire pour la posterité, oh ! n’enterre pas la fierté de cette grande oeuvre sous sa propre chute et ses propres fondations.</p>
+</div><div class="sp " data-who="medecin">
+  <p class="spk ">
+    Le Médecin.
+  </p>
+  <p class="pr " id="l704"><a class="pn " href="#l704">704</a>Monseigneur, ces corps sont dépourvus de tout principe et force naturels. La chaleur vitale s’est totalement éteinte. Dans les limites de la puissance humaine il ne reste rien qui les puisse ranimer.</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l705"><a class="pn m5" href="#l705">705</a>Prends cet or, extrais-en l’âme et insuffle une vie nouvelle à ces corps.</p>
+</div><div class="sp " data-who="medecin">
+  <p class="spk ">
+    Le Médecin.
+  </p>
+  <p class="pr " id="l706"><a class="pn " href="#l706">706</a>Rien ne saurait y parvenir, monseigneur.</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l707"><a class="pn " href="#l707">707</a>Vous n’avez pas examiné encore l’état véritable de ces hommes ni leur constitution. Certes vous ne l’avez pas fait. Je garderai leurs eaux jusqu’au matin. Incontestablement leurs urines vous renseigneront mieux.</p>
+</div><div class="sp " data-who="medecin">
+  <p class="spk ">
+    Le Médecin.
+  </p>
+  <p class="pr " id="l708"><a class="pn " href="#l708">708</a><span class="sdi">(Il rit.)</span> Ah ! ah !</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l709"><a class="pn " href="#l709">709</a>Tu ris donc, vilain? Faut-il que ma sagesse qui fit l’admiration de tous devienne aujourd’hui l’objet de ta risée?</p>
+</div><div class="sp " data-who="Rousard">
+  <p class="spk ">
+    Rousard.
+  </p>
+  <p class="pr " id="l710"><a class="pn m5" href="#l710">710</a>Oh ! oh !</p>
+</div><p class="sd " id="l710-sd1">(Il meurt.)</p><div class="sp " data-who="Tous_5-1">
+  <p class="spk ">
+    Tous.
+  </p>
+  <p class="pr " id="l711"><a class="pn " href="#l711">711</a>Il est mort !</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l712"><a class="pn " href="#l712">712</a>Oh ! voici qu’expire le dernier jour de ma postérité ! Nature est-elle assez niaise ou perverse pour détruire la réputation de sa propre mémoire? C’est impossible. Assurément il est quelque pouvoir au-dessus d’elle qui dirige sa force.</p>
+</div><div class="sp " data-who="medecin">
+  <p class="spk ">
+    Le Médecin.
+  </p>
+  <p class="pr " id="l713"><a class="pn " href="#l713">713</a>Un pouvoir au-dessus de la Nature? En douez-vous, monseigneur? Considérez seulement d’où l’homme reçoit et son corps et sa forme, non point de la corruption comme certains vers ou mouches, mais uniquement de la procréation d’un homme. Car Nature n’a jamais créé d’homme sans homme ; et le premier homme qui n’était que créature passive, non l’actif créateur, n’a pu être l’artisan de lui-même. Donc de toute nécessité doit exister une puissance supérieure à la Nature.</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l714"><a class="pn " href="#l714">714</a>Voilà qu’à mes propres yeux j’apparais ridicule. Nature, tu es traîtesse envers mon âme. Tu as abusé de ma confiance. Je porterai plainte à un tribunal supérieur pour le redressement de ce tort. Je te convaincrai d’avoir monnayé la fause monnaie des vaine assurances. Dans cette chambre étoilée là-haut, tu auras de répondre. Qu’on emporte ces corps. Oh ! les sens de la mort commence à troubler mon âme affolée.</p>
+</div>
+      </section>
+    
+  
+    
+      <section id="act-5-s2">
+        <h3 class="scene-head">
+          Second tableau.
+        </h3>
+        <p class="sd " id="l714-sd1">Une cour de justice. Un échafaud au fond.</p><p class="sd " id="l714-sd2">Des juges et des officiers de justice.</p><div class="sp " data-who="Juge_1">
+  <p class="spk ">
+    Premier Juge.
+  </p>
+  <p class="pr " id="l715"><a class="pn m5" href="#l715">715</a>Faites comparaître les délinquants devant le tribunal. <span class="sdi">(Entrent Cataplasma, Soquette et Fresco.)</span><br>Êtes-vous la femme de qualité chez qui les meurtres furent commis?</p>
+</div><div class="sp " data-who="Cataplasma">
+  <p class="spk ">
+    Cataplasma.
+  </p>
+  <p class="pr " id="l716"><a class="pn " href="#l716">716</a>Oui, monseigneur.</p>
+</div><div class="sp " data-who="Juge_1">
+  <p class="spk ">
+    Premier Juge.
+  </p>
+  <p class="pr " id="l717"><a class="pn " href="#l717">717</a>Ce privilège de qualité et de noblesse que vous vaut votre costume aux yeux déférents de l’ignorance, votre nom ne le mérite point, pas plus que vous ne méritez votre nom de femme, puisque vous êtes le poison qui souille l’honneur du sexe féminin.</p>
+</div><div class="sp " data-who="Cataplasma">
+  <p class="spk ">
+    Cataplasma.
+  </p>
+  <p class="pr " id="l718"><a class="pn " href="#l718">718</a>Monseigneur, je suis gente dame : je dois pourtant avouer que ma pauvreté me contraint à mener vie plus basse que ma naissance ou mon éducation.</p>
+</div><div class="sp " data-who="Juge_2">
+  <p class="spk ">
+    Deuxième Juge.
+  </p>
+  <p class="pr " id="l719"><a class="pn " href="#l719">719</a>Bah ! nous connaissons votre naissance.</p>
+</div><div class="sp " data-who="Juge_1">
+  <p class="spk ">
+    Premier Juge.
+  </p>
+  <p class="pr " id="l720"><a class="pn m5" href="#l720">720</a>Mais, sous couleur de prétendue vente d’affiquets et de coiffures qui flattent la vanité des gentes dames, vous attirez des épouses à fréquenter votre maison licencieuse et à y tromper leur époux.</p>
+</div><div class="sp " data-who="Fresco">
+  <p class="spk ">
+    Fresco.
+  </p>
+  <p class="pr " id="l721"><a class="pn " href="#l721">721</a>Mon bon seigneur, son loyer est lourd. Cette bonne dame n’a d’autre ressource pour vivre que ses logis. Aussi est-elle forcée de louer à d’autres ses chambres de devant et de se contenter elle-même de coucher par derrière.</p>
+</div><div class="sp " data-who="Juge_2">
+  <p class="spk ">
+    Deuxième Juge.
+  </p>
+  <p class="pr " id="l722"><a class="pn " href="#l722">722</a>Vraiment.</p>
+</div><div class="sp " data-who="Juge_1">
+  <p class="spk ">
+    Premier Juge.
+  </p>
+  <p class="pr " id="l723"><a class="pn " href="#l723">723</a>Il n’est point de preuve qui vous accuse de complicité dans ce meurtre ; pourtant, attendu que c’est de cette source de luxure par vous entretenue et alimentée, que découle cette effusion de sang, votre châtiment sera aussi voisin de la mort que la vie peut l’endurer. La justice ne saurait infliger de peines trop sévères à la cause d’effets si abhorrés.</p>
+</div><div class="sp " data-who="Juge_2">
+  <p class="spk ">
+    Deuxième Juge.
+  </p>
+  <p class="pr " id="l724"><a class="pn " href="#l724">724</a>Écoutez votre sentence : Vos biens (puisque acquis par ces moyens qui provoquent les maladies) seront mis au service des hôpitaux. Vous irez en charrette par les rues, suivant l’ordinaire humiliation des prostituées et vous serez fouettés jusqu’au sang, jusqu’à ce que vous tombiez en pâmoison sous la main du bourreau. Puis, de peur que la force impérieuse du besoin ne vous incinte à retourner à votre vie première, vous serez soumis à des travaux pénibles dont les gains précaires vous donneront votre pitance, juste de quoi vivre, mortifier votre chair et vous préparer au repentir final.</p>
+</div><div class="sp " data-who="Tous_5-2">
+  <p class="spk ">
+    Tous.
+  </p>
+  <p class="pr " id="l725"><a class="pn m5" href="#l725">725</a>Oh ! mon bon seigneur !</p>
+</div><div class="sp " data-who="Juge_1">
+  <p class="spk ">
+    Premier Juge.
+  </p>
+  <p class="pr " id="l726"><a class="pn " href="#l726">726</a>Assez ! qu’on les emmène !</p>
+</div><p class="sd " id="l726-sd1">Cataplasma, Soquette et Fresco sortent.</p><p class="sd " id="l726-sd2">Entre Languebeau Snuffe.</p><div class="sp " data-who="Juge_2">
+  <p class="spk ">
+    Deuxième Juge.
+  </p>
+  <p class="pr " id="l727"><a class="pn " href="#l727">727</a>Eh quoi, monsieur Snuffe ! un homme de votre piété se trouver en un lieu si impie !</p>
+</div><div class="sp " data-who="Languebeau_Snuffe">
+  <p class="spk ">
+    Languebeau.
+  </p>
+  <p class="pr " id="l728"><a class="pn " href="#l728">728</a>Je vous l’accorde. Ce lieu est plein d’impureté. Il n’en a que plus besoin d’instruction morale et de redressement. Le dessein qui m’amena en ces lieux était, dans l’esprit de les convertir, le désir de purifier leurs souillures et j’espère que Votre Seigneurie déclarera que la loi ne saurait avoir prise sur moi de ce chef !</p>
+</div><div class="sp " data-who="Juge_1">
+  <p class="spk ">
+    Premier Juge.
+  </p>
+  <p class="pr " id="l729"><a class="pn " href="#l729">729</a>Non, monsieur, elle ne le saurait ; néanmoins permettez-moi de vous dire que je tiens votre réponse circonspecte pour excuse préméditée, plutôt que proférée dans un esprit religieux. Où avez-vous pris vos titres de clerc?</p>
+</div><div class="sp " data-who="Languebeau_Snuffe">
+  <p class="spk ">
+    Languebeau.
+  </p>
+  <p class="pr " id="l730"><a class="pn m5" href="#l730">730</a>Je ne le suis point clerc, monseigneur. À parler tout franc, je suis Snuffe, le marchand de chandelles.</p>
+</div><div class="sp " data-who="Juge_2">
+  <p class="spk ">
+    Deuxième Juge.
+  </p>
+  <p class="pr " id="l731"><a class="pn " href="#l731">731</a>Comment se fait-il que votre accoutrement soit ainsi transformé?</p>
+</div><div class="sp " data-who="Languebeau_Snuffe">
+  <p class="spk ">
+    Languebeau.
+  </p>
+  <p class="pr " id="l732"><a class="pn " href="#l732">732</a>Monseigneur Belforest se délectant à la pureté de mes entretiens, m’éloigna de cette vie impure et me revêtit de cet habit qui convenait mieux à sa societé et à mon ministère d’alors.</p>
+</div><div class="sp " data-who="Juge_1">
+  <p class="spk ">
+    Premier Juge.
+  </p>
+  <p class="pr " id="l733"><a class="pn " href="#l733">733</a>Sa Seigneurie ne fit que peindre un poteau pourri ou que couvrir de beauté la laideur. Monsieur Snuffe, retournez à votre fabrique de chandelles. Vous pourrez par la donner au monde plus de lumière que par les instructions ou exemples de votre vie.</p>
+</div><div class="sp " data-who="Languebeau_Snuffe">
+  <p class="spk ">
+    Languebeau.
+  </p>
+  <p class="pr " id="l734"><a class="pn " href="#l734">734</a>C’est ainsi que le lumignon est remouché...</p>
+</div><p class="sd " id="l734-sd1">(Il sort.)</p><p class="sd " id="l734-sd2">D’Amville entre, égaré, avec les civières de ses deux fils qu’on porte derrière lui.</p><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l735"><a class="pn m5" href="#l735">735</a>Justice ! justice !</p>
+</div><div class="sp " data-who="Juge_2">
+  <p class="spk ">
+    Deuxième Juge.
+  </p>
+  <p class="pr " id="l736"><a class="pn " href="#l736">736</a>La justice, monseigneur, en quoi?</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l737"><a class="pn " href="#l737">737</a>Votre jugement doit m’ôter d’un doute en une affaire. Qu’on amène les corps qui plus est, je réclame le jugement. Voici le cas, monseigneur. Grâce à la Providence, rien qu’en un instant, par la seule perte d’un ou deux ou trois au plus et de ceux qui n’eurent pas longtemps à souffrir, suivez-moi bien, je fus assez sage pour édifier une fortune considérable en vue de ma postérité. Et n’y a-t-il pas en ceci plus de prévoyance et de charité que n’en eut Votre Seigneurie, ou votre père ou votre aïeul à prolonger de génération en génération le tourment et supplice des fermages pour vos pauvres fermiers besogneux et cela peut-être sans un sou de profit pour votre héritier? Cela n’est-il pas plus avisé? plus charitable? Parlez.</p>
+</div><div class="sp " data-who="Juge_1">
+  <p class="spk ">
+    Premier Juge.
+  </p>
+  <p class="pr " id="l738"><a class="pn " href="#l738">738</a>Il est égaré.</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l739"><a class="pn " href="#l739">739</a>Comment? égaré? Vous n’avez donc pas de jugement. Moi je peux expliquer par de solides raisons la moindre syllabe que j’articule. Puisque mon économie fut plus judicieuse que celle de vos aïeux, je voudrais bien savoir pourquoi vous êtes là, monseigneur, à constituer une seconde génération après votre père, alors que toute la nichée de ma postérité s’est éteinte en un instant. Il ne me reste pas un marmot pour me succéder. Je voudrais bien être éclairci.</p>
+</div><div class="sp " data-who="Juge_2">
+  <p class="spk ">
+    Deuxième Juge.
+  </p>
+  <p class="pr " id="l740"><a class="pn m5" href="#l740">740</a>La douleur d’avoir perdu ses enfants l’égare.</p>
+</div><div class="sp " data-who="Juge_1">
+  <p class="spk ">
+    Premier Juge.
+  </p>
+  <p class="pr " id="l741"><a class="pn " href="#l741">741</a>Monseigneur, nous vous ôterons de ce doute. Cependant, veuillez prendre place parmi nous.</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l742"><a class="pn " href="#l742">742</a>J’y consens, pourvu que vous m’élucidiez le point.</p>
+</div><p class="sd " id="l742-sd1">(Il monte s’asseoir au tribunal.)</p><p class="sd " id="l742-sd2">Entrent Charlemont et Castabella.</p><div class="sp " data-who="Juge_2">
+  <p class="spk ">
+    Deuxième Juge.
+  </p>
+  <p class="pr " id="l743"><a class="pn " href="#l743">743</a>Eh bien, monsieur Charlemont, vous êtes accusé d’avoir assassiné un certain Borachio, qui était attaché au service de monseigneur d’Amville. Comment pouvez-vous vous disculper? Coupable ou non coupable?</p>
+</div><div class="sp " data-who="Charlemont">
+  <p class="spk ">
+    Charlemont.
+  </p>
+  <p class="pr " id="l744"><a class="pn " href="#l744">744</a>Coupable de l’avoir tué, mais non d’assassinat. Messeigneurs, je n’ai point dessein de réclamer rémission de ma faute.</p>
+</div><p class="sd " id="l744-sd1">D’Amville descend du tribunal vers Charlemont.</p><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l745"><a class="pn m5" href="#l745">745</a>Insolent ! Tu n’as pas d’humanité, toi qui souris du chagrin. Pourquoi jeter un regard si serein à l’objet de ma douleur, mes fils morts?</p>
+</div><div class="sp " data-who="Juge_1">
+  <p class="spk ">
+    Premier Juge.
+  </p>
+  <p class="pr " id="l746"><a class="pn " href="#l746">746</a>Ô mon bon seigneur, gardez-vous par charité de tourmenter l’âme d’un qui va mourir. Contempler d’un oeil serein le visage de la mort est l’attitude vraie d’une âme noble. Au nom de l’honneur, ne la tourmentez point.</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l747"><a class="pn " href="#l747">747</a>Vous êtes tous discourtois. Oh ! n’est-ce pas assez qu’il ait injustement conspiré avec le Destin pour retrancher ma postérité et devenir l’héritier de mes biens, faut-il encore qu’il me harcèle de sa présence et que dans l’ostentation de sa joie il vienne rire à ma face et tirer gloire de ma douleur?</p>
+</div><div class="sp " data-who="Charlemont">
+  <p class="spk ">
+    Charlemont.
+  </p>
+  <p class="pr " id="l748"><a class="pn " href="#l748">748</a>D’Amville, pour te montrer le peu de cas que je fais de la vie et de ton insultant orgueil, tel une flotte de guerre sur l’océan, cinglant à la conquête de quelque terre opulente, ayant franchi les tourments orageux de cette vie, parvenu enfin devant les rivages fortifiés, dans l’attente de la victoire dont l’honneur est là, derrière cette épreuve suprême et ce mortel danger, tel avec un ardent courage j’aspire à subir l’épreuve de la mort.</p>
+</div><p class="sd " id="l748-sd1">(D’un bond il est sur l’échafaud, Castabella l’y suit.)</p><div class="sp " data-who="Castabella">
+  <p class="spk ">
+    Castabella.
+  </p>
+  <p class="pr " id="l749"><a class="pn " href="#l749">749</a>Et c’est ainsi que je seconde ta courageuse entreprise. Aie confiance, Charlemont. Notre vie retranchée dans la prime jeunesse de nos ans est pareille aux herbes vertes au prix où je l’estime, les trésors des Indes ne sauraient me l’acheter ni me l’ôter des mains.</p>
+</div><div class="sp " data-who="Charlemont">
+  <p class="spk ">
+    Charlemont.
+  </p>
+  <p class="pr " id="l750"><a class="pn m5" href="#l750">750</a>Donnez-moi un verre d’eau.</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l751"><a class="pn " href="#l751">751</a>À moi un verre de vin. Cette discussion sur la mort me fige le sang. La peur froide, avec l’appréhension de ta mort, a glacé les ruisseaux de mes veines. <span class="sdi">(Un serviteur lui apporte un verre de vin.)</span><br>Il me faut boire du vin pour me réchauffer et fondre la glace qui obstrue mon sang, ou bien l’apoplexie va m’étreindre. Eh quoi ! faquin sans coeur, m’apportes-tu du sang à boire? La verre lui-même en pâlit et en tremble.</p>
+</div><div class="sp " data-who="Serviteur_1">
+  <p class="spk ">
+    Le serviteur.
+  </p>
+  <p class="pr " id="l752"><a class="pn " href="#l752">752</a>C’est votre main, monseigneur.</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l753"><a class="pn " href="#l753">753</a>Peux-tu me blâmer d’avoir crainte, alors que j’ai à supporter près de moi la présence d’un meurtrier?</p>
+</div><p class="sd " id="l753-sd1">(Le serviteur donne à Charlemont un verre d’eau.)</p><div class="sp " data-who="Charlemont">
+  <p class="spk ">
+    Charlemont.
+  </p>
+  <p class="pr " id="l754"><a class="pn " href="#l754">754</a>Est-ce bien de l’eau?</p>
+</div><div class="sp " data-who="Serviteur_1">
+  <p class="spk ">
+    Le serviteur.
+  </p>
+  <p class="pr " id="l755"><a class="pn m5" href="#l755">755</a>De l’eau, messire.</p>
+</div><div class="sp " data-who="Charlemont">
+  <p class="spk ">
+    Charlemont.
+  </p>
+  <p class="pr " id="l756"><a class="pn " href="#l756">756</a>Viens, clair symbole de la fraîche tempérance, sois-moi témoin que je n’use d’aucun artifice pour contraindre mon courage et n’ai nul besoin d’aide pour me hausser le coeur, comme il en faut à ces couards qui unissent à leur sang du vin et qui de cet union adultère engendrent une vaillance bâtarde. Mon courage naturel, je te dis merci ; tu m’incites à entreprendre sans vile ivresse ce grand oeuvre pénible de magnanimité.</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l757"><a class="pn " href="#l757">757</a>Brave Charlemont, au reflet de ton courage, mon sang glacé d’effroi prend feu et je tente déjà d’être ton émule en bravoure dans la mort. <span class="sdi">(Le bourreau s’avance.)</span><br>Est-ce là ton bourreau? Messeigneus, vous lésez l’honneur d’un sang si noble en confiant son châtiment à une main si vile.</p>
+</div><div class="sp " data-who="juges">
+  <p class="spk ">
+    Les Juges.
+  </p>
+  <p class="pr " id="l758"><a class="pn " href="#l758">758</a>Il expie selon les formes de la justice, monseigneur.</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l759"><a class="pn " href="#l759">759</a>Je les réformerai.<br><span class="sdi">(Au bourreau.)</span> Va coucher, toi chien à poil hérissé ! L’instrument qui versera le sang de mon neveu doit être aussi noble que son sang même. C’est moi qui serai ton bourreau.</p>
+</div><div class="sp " data-who="Juge_1">
+  <p class="spk ">
+    Premier Juge.
+  </p>
+  <p class="pr " id="l760"><a class="pn m5" href="#l760">760</a>Contenez sa fureur. Mon bon seigneur, arrêtez !</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l761"><a class="pn " href="#l761">761</a>Je taillerai à la hache une issue pour son âme à qui osera s’interposer devant le coup.</p>
+</div><div class="sp " data-who="Juge_2">
+  <p class="spk ">
+    Deuxième Juge.
+  </p>
+  <p class="pr " id="l762"><a class="pn " href="#l762">762</a>Monseigneur, ce rôle imprimera à votre nom une marque d’opprobre et d’infamie.</p>
+</div><div class="sp " data-who="Charlemont">
+  <p class="spk ">
+    Charlemont.
+  </p>
+  <p class="pr " id="l763"><a class="pn " href="#l763">763</a>Ce rôle lui convient ; n’arrêtez point son bras, mais laissez-le couronner mon dessein par la dignité sans exemple de ma mort. Frappe bien et fort. C’est ainsi que je tends le cou.</p>
+</div><p class="sd " id="l763-sd1">(On l’appréhende pour l’exécution.)</p><div class="sp " data-who="Castabella">
+  <p class="spk ">
+    Castabella.
+  </p>
+  <p class="pr " id="l764"><a class="pn " href="#l764">764</a>Moi de même. Dans le mépris de la mort, c’est ainsi que la main dans la main nous mourrons.</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l765"><a class="pn m5" href="#l765">765</a>J’ai le coup de main, mon neveu. Vous allez voir avec quelle aisance je vais vous expédier de vie à trépas ; vous ne souffrirez pas longtemps.</p>
+</div><p class="sd " id="l765-sd1">(En brandissant la hache, le coup lui fait sauter la cervelle et il retombe en chancelant de l’échafaud avec un cri.)</p><div class="sp " data-who="bourreau">
+  <p class="spk ">
+    Le bourreau.
+  </p>
+  <p class="pr " id="l766"><a class="pn " href="#l766">766</a>En soulevant la hache, je crois qu’il s’est fendu le crâne.</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l767"><a class="pn " href="#l767">767</a>Quel assassin a haussé ma main jusqu’à ma tête?</p>
+</div><div class="sp " data-who="Juge_1">
+  <p class="spk ">
+    Premier Juge.
+  </p>
+  <p class="pr " id="l768"><a class="pn " href="#l768">768</a>Nul autre que vous, monseigneur.</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l769"><a class="pn " href="#l769">769</a>J’ai cru que c’était un assassin.</p>
+</div><div class="sp " data-who="Juge_1">
+  <p class="spk ">
+    Premier Juge.
+  </p>
+  <p class="pr " id="l770"><a class="pn m5" href="#l770">770</a>Dieu nous en garde !</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l771"><a class="pn " href="#l771">771</a>Nous en garde? Tu mens, juge. C’est Lui qui l’a ordonné. Pour te dire que la sagesse de l’homme est folie. Je suis venu à toi pour ce jugement et tu te crois grand clerc. C’est moi qui ai circonvenu ton esprit et fait de ta justice l’instrument de l’assassinat, par la mort de Castabella et celle de Charlemont, pour couronner mon meurtre de Montferrers par la sûre possession de ses domaines et trésors.</p>
+</div><div class="sp " data-who="Charlemont">
+  <p class="spk ">
+    Charlemont.
+  </p>
+  <p class="pr " id="l772"><a class="pn " href="#l772">772</a>Je réclame le juste bénéfice de ses paroles.</p>
+</div><div class="sp " data-who="Juge_2">
+  <p class="spk ">
+    Deuxième Juge.
+  </p>
+  <p class="pr " id="l773"><a class="pn " href="#l773">773</a>Descendez de l’échafaud et attendez la suite.</p>
+</div><div class="sp " data-who="DAmville">
+  <p class="spk ">
+    D’Amville.
+  </p>
+  <p class="pr " id="l774"><a class="pn " href="#l774">774</a>J’ai connu la puissance de l’entendement naturel ; mais la Nature est imbécile. Il est une puissance au-dessus d’elle qui a renversé l’orgueil de tous mes desseins et de ma postérité ; pour la survivance de mon sang j’avais érigé un fier monument ; elle a frappé de mort mes fils pour le trépas desquels j’en appelai à toi en jugement. Tu as manqué de discernement pour la sentence. Mais cette puissance là qui m’a frappé connaissait le jugement par moi mérité et me juge. Oh ! la luxure de la mort commet sur moi le viol que j’aurais commis sur Castabella.</p>
+</div><p class="sd " id="l774-sd1">(Il meurt.)</p><div class="sp " data-who="Juge_1">
+  <p class="spk ">
+    Premier Juge.
+  </p>
+  <p class="pr " id="l775"><a class="pn m5" href="#l775">775</a>Étranges sont et sa mort et son châtiment. <span class="sdi">(À Charlemont et Castabella.)</span> Avec joie et au nom de la justice je vous rends ainsi la liberté. Le pouvoir de cette éternelle Providence qui renversa ses projets dans leur superbe, a fait de vos souffrances des instruments pour hausser votre félicité à un plus haut degré que jamais.</p>
+</div><div class="sp " data-who="Charlemont">
+  <p class="spk ">
+    Charlemont.
+  </p>
+  <p class="pr " id="l776"><a class="pn " href="#l776">776</a>C’est seulement au Ciel que j’attribue cette oeuvre, lui dont la grâce m’a toujours empêché de devenir l’artisan de ma propre vengeance. Je vois maintenant que la patience est la revanche de l’homme d’honneur.</p>
+</div><div class="sp " data-who="Juge_1">
+  <p class="spk ">
+    Premier Juge.
+  </p>
+  <p class="pr " id="l777"><a class="pn " href="#l777">777</a>Au lieu et place du Charlemont qui à l’instant même était là, dans l’attente d’être dépossédé de tout, je vous salue à présent de plus de titres de richesses et de dignités que vous n’en aviez héritées en naissant. Et vous, gente dame, baronne de Belforest, vous héritiez ce titre par la mort de votre père.</p>
+</div><div class="sp " data-who="Castabella">
+  <p class="spk ">
+    Castabella.
+  </p>
+  <p class="pr " id="l778"><a class="pn " href="#l778">778</a>De tous ces titres qui me reviennent, augmentez la fortune et les honneurs de mon Charlemont. – Seigneur de Montferrers, seigneur d’Amville, Belforest – et pour parfaire ou compenser tout le reste, seigneur de Castabella ! Jouis enfin maintenant de l’entière possession de mon amour, aussi clair et pur que mon corps virginal.</p>
+</div><div class="sp " data-who="Charlemont">
+  <p class="spk ">
+    Charlemont.
+  </p>
+  <p class="pr " id="l779"><a class="pn " href="#l779">779</a>Couronnement de toutes mes félicités ! Je ne veux plus davantage tenter ma bonne étoile, ni différer l’heure du mariage. C’est quand ce rite nuptial sera accompli que je célébrerai les funérailles de mes parents.</p>
+</div><div class="sp " data-who="Juge_1">
+  <p class="spk ">
+    Premier Juge.
+  </p>
+  <p class="pr " id="l780"><a class="pn m5" href="#l780">780</a>Roulez tambours, sonnez trompettes ! Alternez les marches funèbres et les actions de grâce pour ces êtres dignes d’honneur qui succèdent à ces tragédies méritées.</p>
+</div><div class="sp " data-who="Charlemont">
+  <p class="spk ">
+    Charlemont.
+  </p>
+  <p class="pr " id="l781"><a class="pn " href="#l781">781</a>C’est ainsi que par l’oeuvre du Ciel, ceux-là qui pensaient escorter notre cadavre sans une larme, sont morts eux-mêmes, et maintenant c’est nous qui escortons le leur !</p>
+</div><p class="tr">FIN</p>
+      </section>
+    
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-4.html" rel="prev">← Acte IV</a>
+  
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ACT TWO — The Rover, Part I — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">DRAMATIS PERSONAE (in alphabetical order</a></li>
+      
+  
+    
+        <li>
+          <a href="act-1.html">
+            ACT ONE
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html" aria-current="page">
+            ACT TWO
+          </a>
+          <ul>
+            <li>
+              
+                  <a href="act-2.html#act-2-s1">
+                    SCENE 1
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-2.html#act-2-s2">
+                    SCENE 2
+                  </a>
+              
+            </li>
+          </ul>
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            ACT THREE
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-4.html">
+            ACT FOUR
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-5.html">
+            ACT FIVE
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="epilogue.html">
+            EPILOGUE
+          </a>
+          
+        </li>
+    
+  
+    
+        <li><a href="epilogue.html#paratext-3">POST-SCRIPT</a></li>
+      
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="ANGELLICA">
+        ANGELLICA
+      </option><option value="ANTONIO">
+        ANTONIO
+      </option><option value="BELVILE">
+        BELVILE
+      </option><option value="BOY">
+        BOY
+      </option><option value="CALLIS">
+        CALLIS
+      </option><option value="DIEGO">
+        DIEGO
+      </option><option value="FLORINDA">
+        FLORINDA
+      </option><option value="FREDERICK">
+        FREDERICK
+      </option><option value="HELLENA">
+        HELLENA
+      </option><option value="LUCETTA">
+        LUCETTA
+      </option><option value="MORETTA">
+        MORETTA
+      </option><option value="PEDRO">
+        PEDRO
+      </option><option value="PHILIPPO">
+        PHILIPPO
+      </option><option value="SANCHO">
+        SANCHO
+      </option><option value="STEPHANO">
+        STEPHANO
+      </option><option value="VALERIA">
+        VALERIA
+      </option><option value="WILLMORE">
+        WILLMORE
+      </option><option value="BLUNT">
+        BLUNT
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="asm" aria-label="Resaltar apartes" data-en-aria-label="Highlight asides" data-tr>
+        <x-es>Apartes</x-es><x-en>Asides</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .aparte, .text .pr.as, .text .pr:not(.as) span.as" data-for="asm">
+  <button type="button" data-step="-1" aria-label="Aparte anterior" data-en-aria-label="Previous aside" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente aparte" data-en-aria-label="Next aside" data-tr>›</button>
+</div>
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">Aphra Behn</p>
+  <h1><a href="index.html">The Rover, Part I</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-1.html" rel="prev">← ACT ONE</a>
+  <a href="act-3.html" rel="next">ACT THREE →</a>
+</nav>
+  <div class="text" lang="en" data-cite="Aphra Behn, The Rover, Part I, ACT TWO" data-cite-verse="int." data-cite-prose="int.">
+    
+    <section class="division" id="act-2">
+  <h2 class="act-head">
+    ACT TWO
+  </h2>
+  
+  
+  
+    
+      <section id="act-2-s1">
+        <h3 class="scene-head">
+          SCENE 1
+        </h3>
+        <p class="sd " id="l2-1-sd1">The long street</p><p class="sd " id="l2-1-sd2">Enter Belvile and Frederick in masking habits, and Willmore in his own clothes with a vizard in his hand</p><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-1"><a class="pn " href="#l2-1-1">1</a>But why thus disguised and muzzled?</p>
+</div><div class="sp " data-who="BELVILE">
+  <p class="spk ">
+    BELVILE
+  </p>
+  <p class="pr " id="l2-1-2"><a class="pn " href="#l2-1-2">2</a>Because whatever extravagances we commit in these faces, our own may not be obliged to answer ’em.</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-3"><a class="pn " href="#l2-1-3">3</a>I should have changed my eternal buff too: but no matter, my little gypsy would not have found me out then, for if she should change hers it is impossible I should know her unless I should hear her prattle. A pox on’t, I cannot get her out of my head! Pray heaven if ever I do see her again, she prove damnable ugly that I may fortify myself against her tongue.</p>
+</div><div class="sp " data-who="BELVILE">
+  <p class="spk ">
+    BELVILE
+  </p>
+  <p class="pr " id="l2-1-4"><a class="pn " href="#l2-1-4">4</a>Have a care of love, for o’ my conscience she was not of a quality to give thee any hopes.</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-5"><a class="pn m5" href="#l2-1-5">5</a>Pox on ’em, why do they draw a man in then? She has played with my heart so, that ’twill never lie still till I have met with some kind wench that will play the game out with me! Oh, for my arms full of soft, white, kind woman such as I fancy Angellica.</p>
+</div><div class="sp " data-who="BELVILE">
+  <p class="spk ">
+    BELVILE
+  </p>
+  <p class="pr " id="l2-1-6"><a class="pn " href="#l2-1-6">6</a>This is her house, if you were but in stock to get admittance. They have not dined yet: I perceive the picture is not out.</p>
+</div><p class="sd " id="l2-1-6-sd1">Enter Blunt</p><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-7"><a class="pn " href="#l2-1-7">7</a>I long to see the shadow of the fair substance, a man may gaze on that for nothing.</p>
+</div><div class="sp " data-who="BLUNT">
+  <p class="spk ">
+    BLUNT
+  </p>
+  <p class="pr " id="l2-1-8"><a class="pn " href="#l2-1-8">8</a>Colonel, thy hand – and thine, Fred. I have been an ass, a deluded fool, a very coxcomb from my birth till this hour, and heartily repent my little faith.</p>
+</div><div class="sp " data-who="BELVILE">
+  <p class="spk ">
+    BELVILE
+  </p>
+  <p class="pr " id="l2-1-9"><a class="pn " href="#l2-1-9">9</a>What the devil’s the matter with thee, Ned?</p>
+</div><div class="sp " data-who="BLUNT">
+  <p class="spk ">
+    BLUNT
+  </p>
+  <p class="pr " id="l2-1-10"><a class="pn m5" href="#l2-1-10">10</a>Oh such a mistress, Fred, such a girl!</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-11"><a class="pn " href="#l2-1-11">11</a>Ha! Where?</p>
+</div><div class="sp " data-who="FREDERICK">
+  <p class="spk ">
+    FREDERICK
+  </p>
+  <p class="pr " id="l2-1-12"><a class="pn " href="#l2-1-12">12</a>Ay, where?</p>
+</div><div class="sp " data-who="BLUNT">
+  <p class="spk ">
+    BLUNT
+  </p>
+  <p class="pr " id="l2-1-13"><a class="pn " href="#l2-1-13">13</a>So fond, so amorous, so toying and fine! And all for sheer love, ye rogue! Oh how she looked and kissed! And soothed my heart from my bosom! I cannot think I was awake, and yet methinks I see and feel her charms still! Fred, try if she have not left the taste of her balmy kisses upon my lips –</p>
+</div><p class="sd " id="l2-1-13-sd1">Kisses him</p><div class="sp " data-who="BELVILE">
+  <p class="spk ">
+    BELVILE
+  </p>
+  <p class="pr " id="l2-1-14"><a class="pn " href="#l2-1-14">14</a>Ha, ha, ha!</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-15"><a class="pn m5" href="#l2-1-15">15</a>Death, man, where is she?</p>
+</div><div class="sp " data-who="BLUNT">
+  <p class="spk ">
+    BLUNT
+  </p>
+  <p class="pr " id="l2-1-16"><a class="pn " href="#l2-1-16">16</a>What a dog was I to stay in dull England so long! How have I laughed at the colonel when he sighed for love! But now the little archer has revenged him, and by his own dart I can guess at all his joys which then I took for fancies, mere dreams and fables – Well, I’m resolved to sell all in Essex and plant here forever.</p>
+</div><div class="sp " data-who="BELVILE">
+  <p class="spk ">
+    BELVILE
+  </p>
+  <p class="pr " id="l2-1-17"><a class="pn " href="#l2-1-17">17</a>What a blessing ’tis thou hast a mistress thou darest boast of, for I know thy humor is rather to have a proclaimed clap than a secret amour.</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-18"><a class="pn " href="#l2-1-18">18</a>Dost know her name?</p>
+</div><div class="sp " data-who="BLUNT">
+  <p class="spk ">
+    BLUNT
+  </p>
+  <p class="pr " id="l2-1-19"><a class="pn " href="#l2-1-19">19</a>Her name? No, ’sheartlikins: what care I for names? She’s fair, young, brisk and kind, even to ravishment; and what a pox care I for knowing her by another title?</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-20"><a class="pn m5" href="#l2-1-20">20</a>Didst give her anything?</p>
+</div><div class="sp " data-who="BLUNT">
+  <p class="spk ">
+    BLUNT
+  </p>
+  <p class="pr " id="l2-1-21"><a class="pn " href="#l2-1-21">21</a>Give her! Ha, ha, ha! Why, she’s a person of quality! That’s a good one, ‘give her’! ’Sheartlikins, dost think such creatures are to be bought? Or are we provided for such a purchase? Give her, quoth ye? Why, she presented me with this bracelet for the toy of a diamond I used to wear! No, gentlemen, Ned Blunt is not everybody – she expects me again tonight.</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-22"><a class="pn " href="#l2-1-22">22</a>Egad that’s well; we’ll all go.</p>
+</div><div class="sp " data-who="BLUNT">
+  <p class="spk ">
+    BLUNT
+  </p>
+  <p class="pr " id="l2-1-23"><a class="pn " href="#l2-1-23">23</a>Not a soul: no, gentlemen, you are wits; I am a dull country rogue, I.</p>
+</div><div class="sp " data-who="FREDERICK">
+  <p class="spk ">
+    FREDERICK
+  </p>
+  <p class="pr " id="l2-1-24"><a class="pn " href="#l2-1-24">24</a>Well, Sir, for all your person of quality I shall be very glad to understand your purse be secure: ’tis our whole estate at present, which we are loath to hazard in one bottom. Come, sir, unload.</p>
+</div><div class="sp " data-who="BLUNT">
+  <p class="spk ">
+    BLUNT
+  </p>
+  <p class="pr " id="l2-1-25"><a class="pn m5" href="#l2-1-25">25</a>Take the necessary trifle, useless now to me, that am beloved by such a gentlewoman. ’Sheartlikins, money! Here, take mine too.</p>
+</div><div class="sp " data-who="FREDERICK">
+  <p class="spk ">
+    FREDERICK
+  </p>
+  <p class="pr " id="l2-1-26"><a class="pn " href="#l2-1-26">26</a>No, keep that to be cozened, that we may laugh.</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-27"><a class="pn " href="#l2-1-27">27</a>Cozened! Death! Would I could meet with one that would cozen me of all the love I could spare tonight.</p>
+</div><div class="sp " data-who="FREDERICK">
+  <p class="spk ">
+    FREDERICK
+  </p>
+  <p class="pr " id="l2-1-28"><a class="pn " href="#l2-1-28">28</a>Pox, ’tis some common whore, upon my life.</p>
+</div><div class="sp " data-who="BLUNT">
+  <p class="spk ">
+    BLUNT
+  </p>
+  <p class="pr " id="l2-1-29"><a class="pn " href="#l2-1-29">29</a>A whore! Yes, with such clothes! Such jewels! Such a house! Such furniture, and so attended! A whore!</p>
+</div><div class="sp " data-who="BELVILE">
+  <p class="spk ">
+    BELVILE
+  </p>
+  <p class="pr " id="l2-1-30"><a class="pn m5" href="#l2-1-30">30</a>Why yes, sir, they are whores, though they’ll neither entertain you with drinking, swearing, or bawdy; are whores in all those gay clothes and right jewels; are whores with great houses richly furnished with velvet beds, store of plate, handsome attendance, and fine coaches; are whores, and errant ones.</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-31"><a class="pn " href="#l2-1-31">31</a>Pox on’t, where do these fine whores live?</p>
+</div><div class="sp " data-who="BELVILE">
+  <p class="spk ">
+    BELVILE
+  </p>
+  <p class="pr " id="l2-1-32"><a class="pn " href="#l2-1-32">32</a>Where no rogue in office yclept constables dare give ’em laws, nor the wine-inspired bullies of the town break their windows; yet they are whores, though this Essex calf believe them persons of quality.</p>
+</div><div class="sp " data-who="BLUNT">
+  <p class="spk ">
+    BLUNT
+  </p>
+  <p class="pr " id="l2-1-33"><a class="pn " href="#l2-1-33">33</a>’Sheartlikins, y’are all fools, there are things about this Essex calf that shall take with the ladies beyond all your wits and parts! This shape and size, gentlemen, are not to be despised; my waist tolerably long, with other inviting signs that shall be nameless.</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-34"><a class="pn " href="#l2-1-34">34</a>Egad, I believe he may have met with some person of quality that may be kind to him.</p>
+</div><div class="sp " data-who="BELVILE">
+  <p class="spk ">
+    BELVILE
+  </p>
+  <p class="pr " id="l2-1-35"><a class="pn m5" href="#l2-1-35">35</a>Dost thou perceive any such tempting things about him, should make a fine woman – and of quality – pick him out from all mankind to throw away her youth and beauty upon, nay, and her dear heart too? No, no, Angellica has raised the price too high.</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-36"><a class="pn " href="#l2-1-36">36</a>May she languish for mankind till she die, and be damned for that one sin alone.</p>
+</div><p class="sd " id="l2-1-36-sd1">Enter two bravos, and hang up a great picture of Angellica’s against the balcony, and two little ones at each side of the door</p><div class="sp " data-who="BELVILE">
+  <p class="spk ">
+    BELVILE
+  </p>
+  <p class="pr " id="l2-1-37"><a class="pn " href="#l2-1-37">37</a>See there the fair sign to the inn, where a man may lodge that’s fool enough to give her price.</p>
+</div><p class="sd " id="l2-1-37-sd1">Willmore gazes on the picture</p><div class="sp " data-who="BLUNT">
+  <p class="spk ">
+    BLUNT
+  </p>
+  <p class="pr " id="l2-1-38"><a class="pn " href="#l2-1-38">38</a>’Sheartlikins, gentlemen, what’s this?</p>
+</div><div class="sp " data-who="BELVILE">
+  <p class="spk ">
+    BELVILE
+  </p>
+  <p class="pr " id="l2-1-39"><a class="pn " href="#l2-1-39">39</a>A famous courtesan that’s to be sold.</p>
+</div><div class="sp " data-who="BLUNT">
+  <p class="spk ">
+    BLUNT
+  </p>
+  <p class="pr " id="l2-1-40"><a class="pn m5" href="#l2-1-40">40</a>A how! To be sold! Nay, then I have nothing to say to her – Sold! What impudence is practiced in this country? With order and decency whoring’s established here by virtue of the Inquisition! Come let’s be gone, I’m sure we’re no chapmen for this commodity.</p>
+</div><div class="sp " data-who="FREDERICK">
+  <p class="spk ">
+    FREDERICK
+  </p>
+  <p class="pr " id="l2-1-41"><a class="pn " href="#l2-1-41">41</a>Thou art none, I’m sure, unless thou couldst have her in thy bed at the price of a coach in the street.</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-42"><a class="pn " href="#l2-1-42">42</a>How wondrous fair she is – a thousand crowns a month, by Heaven as many kingdoms were too little! A plague of this poverty, of which I ne’er complain but when it hinders my approach to beauty, which virtue ne’er could purchase.</p>
+</div><p class="sd " id="l2-1-42-sd1">Turns from the picture</p><div class="sp " data-who="BLUNT">
+  <p class="spk ">
+    BLUNT
+  </p>
+  <p class="pr " id="l2-1-43"><a class="pn " href="#l2-1-43">43</a>What’s this? <span class="sdi">(Reads)</span><br>“A thousand crowns a month.” ’Sheartlikins, here’s a sum! Sure ’tis a mistake. Hark you, friend, does she take or give so much by the month!</p>
+</div><div class="sp " data-who="FREDERICK">
+  <p class="spk ">
+    FREDERICK
+  </p>
+  <p class="pr " id="l2-1-44"><a class="pn " href="#l2-1-44">44</a>A thousand crowns! Why, ’tis a portion for the <em>infanta</em>.</p>
+</div><div class="sp " data-who="BLUNT">
+  <p class="spk ">
+    BLUNT
+  </p>
+  <p class="pr " id="l2-1-45"><a class="pn m5" href="#l2-1-45">45</a>Hark ye, friends, won’t she trust?</p>
+</div><div class="sp " data-who="BRAVO">
+  <p class="spk ">
+    BRAVO
+  </p>
+  <p class="pr " id="l2-1-46"><a class="pn " href="#l2-1-46">46</a>This is a trade, sir, that cannot live by credit.</p>
+</div><p class="sd " id="l2-1-46-sd1">Enter Don Pedro in masquerade, followed by Stephano</p><div class="sp " data-who="BELVILE">
+  <p class="spk ">
+    BELVILE
+  </p>
+  <p class="pr " id="l2-1-47"><a class="pn " href="#l2-1-47">47</a>See, here’s more company, let’s walk off a while.</p>
+</div><p class="sd " id="l2-1-47-sd1">Pedro reads; exeunt English</p><p class="sd " id="l2-1-47-sd2">Enter Angelica and Moretta in the balcony, and draw a silk curtain</p><div class="sp " data-who="PEDRO">
+  <p class="spk ">
+    PEDRO
+  </p>
+  <p class="pr " id="l2-1-48"><a class="pn " href="#l2-1-48">48</a>Fetch me a thousand crowns, I never wish to buy this beauty at an easier rate.</p>
+</div><p class="sd " id="l2-1-48-sd1">Passes off</p><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <p class="pr " id="l2-1-49"><a class="pn " href="#l2-1-49">49</a>Prithee what said those fellows to thee?</p>
+</div><div class="sp " data-who="BRAVO">
+  <p class="spk ">
+    BRAVO
+  </p>
+  <p class="pr " id="l2-1-50"><a class="pn m5" href="#l2-1-50">50</a>Madam, the first were admirers of beauty only, but no purchasers; they were merry with your price and picture, laughed at the sum, and so passed off.</p>
+</div><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <p class="pr " id="l2-1-51"><a class="pn " href="#l2-1-51">51</a>No matter, I’m not displeased with their rallying: their wonder feeds my vanity, and he that wishes to buy gives me more pride than he that gives my price can make me pleasure.</p>
+</div><div class="sp " data-who="BRAVO">
+  <p class="spk ">
+    BRAVO
+  </p>
+  <p class="pr " id="l2-1-52"><a class="pn " href="#l2-1-52">52</a>Madam, the last I knew through all his disguises to be Don Pedro, nephew to the general, and who was with him in Pamplona.</p>
+</div><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <p class="pr " id="l2-1-53"><a class="pn " href="#l2-1-53">53</a>Don Pedro! My old gallant’s nephew! When his uncle died he left him a vast sum of money; it is he who was so in love with me at Padua and who used to make the general so jealous.</p>
+</div><div class="sp " data-who="MORETTA">
+  <p class="spk ">
+    MORETTA
+  </p>
+  <p class="pr " id="l2-1-54"><a class="pn " href="#l2-1-54">54</a>Is this he that used to prance before our window and take such care to shew himself an amorous ass? If I am not mistaken, he is the likeliest man to give your price.</p>
+</div><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <p class="pr " id="l2-1-55"><a class="pn m5" href="#l2-1-55">55</a>The man is brave and generous, but of an humor so uneasy and inconstant, that the victory over his heart is as soon lost as won, a slave that can add little to the triumph of the conqueror. But inconstancy’s the sin of all mankind, therefore I’m resolved that nothing but gold shall charm my heart.</p>
+</div><div class="sp " data-who="MORETTA">
+  <p class="spk ">
+    MORETTA
+  </p>
+  <p class="pr " id="l2-1-56"><a class="pn " href="#l2-1-56">56</a>I’m glad on’t, ’tis only interest that women of our profession ought to consider; though I wonder what has kept you from that general disease of our sex so long – I mean that of being in love.</p>
+</div><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <p class="pr " id="l2-1-57"><a class="pn " href="#l2-1-57">57</a>A kind but sullen star, under which I had the happiness to be born. Yet I have had no time for love, the bravest and noblest of mankind have purchased my favors at so dear a rate as if no coin but gold were current with our trade. But here’s Don Pedro again: fetch me my lute, for ’tis for him or Don Antonio the viceroy’s son that I have spread my nets.</p>
+</div><p class="sd " id="l2-1-57-sd1">Enter at one door Don Pedro, and Stephano; Don Antonio and Diego [his page] at the other door, with people following him in masquerade antiquely attired, some with music; they both go up to the picture</p><div class="sp " data-who="ANTONIO">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l2-1-58"><a class="pn " href="#l2-1-58">58</a>A thousand crowns! Had not the painter flattered her, I should not think it dear.</p>
+</div><div class="sp " data-who="PEDRO">
+  <p class="spk ">
+    PEDRO
+  </p>
+  <p class="pr " id="l2-1-59"><a class="pn " href="#l2-1-59">59</a>Flattered her! By Heaven, he cannot. I have seen the original, nor is there one charm here more than adorns her face and eyes; all this soft and sweet, with a certain languishing air, that no artist can represent.</p>
+</div><div class="sp " data-who="ANTONIO">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l2-1-60"><a class="pn m5" href="#l2-1-60">60</a>What I heard of her beauty before had fired my soul, but this confirmation of it has blown it into a flame.</p>
+</div><div class="sp " data-who="PEDRO">
+  <p class="spk ">
+    PEDRO
+  </p>
+  <p class="pr " id="l2-1-61"><a class="pn " href="#l2-1-61">61</a>Ha!</p>
+</div><div class="sp " data-who="DIEGO">
+  <p class="spk ">
+    DIEGO
+  </p>
+  <p class="pr " id="l2-1-62"><a class="pn " href="#l2-1-62">62</a>Sir, I have known you throw away a thousand crowns on a worse face, and though y’are near your marriage, you may venture a little love here. Florinda will not miss it.</p>
+</div><div class="sp " data-who="PEDRO">
+  <p class="spk ">
+    PEDRO
+  </p>
+  <p class="pr as" id="l2-1-63"><a class="pn " href="#l2-1-63">63</a><span class="sdi">(Aside)</span> Ha! Florinda! Sure ’tis Antonio.</p>
+</div><div class="sp " data-who="ANTONIO">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l2-1-64"><a class="pn " href="#l2-1-64">64</a>Florinda! Name not those distant joys, there’s not one thought of her will check my passion here.</p>
+</div><div class="sp " data-who="PEDRO">
+  <p class="spk ">
+    PEDRO
+  </p>
+  <p class="pr " id="l2-1-65"><a class="pn m5" href="#l2-1-65">65</a><span class="sdi">(Aside)</span> <span class="as">Florinda scorned! And all my hopes defeated of the possession of Angellica!</span> <span class="sdi">(A noise of a lute above; Antonio gazes up)</span><br>Her injuries, by Heaven, he shall not boast of.</p>
+</div><p class="sd " id="l2-1-65-sd1">Song to a lute above</p><div class="sp " data-who="SONG">
+  <p class="spk ">
+    SONG
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l2-1-66"><a class="n " href="#l2-1-66">66</a><span class="t">When Damon first began to love,</span></div><div class="l " id="l2-1-66-v1"><span class="t">He languished in a soft desire,</span></div><div class="l " id="l2-1-66-v2"><span class="t">And knew not how the gods to move,</span></div><div class="l " id="l2-1-66-v3"><span class="t">To lessen or increase his fire,</span></div><div class="l " id="l2-1-66-v4"><span class="t">For Celia in her charming eyes</span></div><div class="l " id="l2-1-66-v5"><span class="t">Wore all love’s sweet, and all his cruelties.</span></div><div class="l " id="l2-1-66-v6"><span class="t">But as beneath a shade he lay,</span></div><div class="l " id="l2-1-66-v7"><span class="t">Weaving of flowers for Celia’s hair,</span></div><div class="l " id="l2-1-66-v8"><span class="t">She chanced to lead her flock that way,</span></div><div class="l " id="l2-1-66-v9"><span class="t">And saw the am’rous shepherd there.</span></div><div class="l " id="l2-1-66-v10"><span class="t">She gazed around upon the place,</span></div><div class="l " id="l2-1-66-v11"><span class="t">And saw the grove (resembling night)</span></div><div class="l " id="l2-1-66-v12"><span class="t">To all the joys of love invite,</span></div><div class="l " id="l2-1-66-v13"><span class="t">Whilst guilty smiles and blushes dressed her face.</span></div><div class="l " id="l2-1-66-v14"><span class="t">At this the bashful youth all transport grew,</span></div><div class="l " id="l2-1-66-v15"><span class="t">And with kind force he taught the virgin how</span></div><div class="l " id="l2-1-66-v16"><span class="t">To yield what all his sighs could never do.</span></div>
+</div>
+</div><p class="sd " id="l2-1-66-sd1">Angellica throws open the curtains and bows to Antonio, who pulls off his vizard and bows and blows up kisses; Pedro, unseen, looks in his face</p><div class="sp " data-who="ANTONIO">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l2-1-67"><a class="n " href="#l2-1-67">67</a><span class="t">By Heaven, she’s charming fair!</span></div>
+</div>
+</div><div class="sp " data-who="PEDRO">
+  <p class="spk ">
+    PEDRO
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l2-1-68"><a class="n " href="#l2-1-68">68</a><span class="t">’Tis he, the false Antonio!</span></div>
+</div>
+</div><div class="sp " data-who="ANTONIO">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l2-1-69"><a class="n " href="#l2-1-69">69</a><span class="t"><span class="sdi">(To the bravo)</span> Friend, where must I pay my offering of love?</span></div><div class="l " id="l2-1-69-v1"><span class="t">My thousand crowns, I mean.</span></div>
+</div>
+</div><div class="sp " data-who="PEDRO">
+  <p class="spk ">
+    PEDRO
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l2-1-70"><a class="n m5" href="#l2-1-70">70</a><span class="t">That offering I have designed to make,</span></div><div class="l " id="l2-1-70-v1"><span class="t">And yours will come too late.</span></div>
+</div>
+</div><div class="sp " data-who="ANTONIO">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l2-1-71"><a class="n " href="#l2-1-71">71</a><span class="t">Prithee be gone, I shall grow angry else,</span></div><div class="l " id="l2-1-71-v1"><span class="t">And then thou art not safe.</span></div>
+</div>
+</div><div class="sp " data-who="PEDRO">
+  <p class="spk ">
+    PEDRO
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l2-1-72"><a class="n " href="#l2-1-72">72</a><span class="t">My anger may be fatal, sir, as yours,</span></div><div class="l " id="l2-1-72-v1"><span class="t">And he that enters here may prove this truth.</span></div>
+</div>
+</div><div class="sp " data-who="ANTONIO">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l2-1-73"><a class="pn " href="#l2-1-73">73</a>I know not who thou art, but I am sure thou’rt worth my killing and aiming at Angellica.</p>
+</div><p class="sd " id="l2-1-73-sd1">They draw and fight</p><p class="sd " id="l2-1-73-sd2">Enter Willmore and Blunt, who draw and part ’em</p><div class="sp " data-who="BLUNT">
+  <p class="spk ">
+    BLUNT
+  </p>
+  <p class="pr " id="l2-1-74"><a class="pn " href="#l2-1-74">74</a>’Sheartlikins, here’s fine doings.</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-75"><a class="pn m5" href="#l2-1-75">75</a>Tilting for the wench, I’m sure. Nay gad, if that would win her I have as good a sword as the best of ye. Put up, put up, and take another time and place for this is designed for lovers only.</p>
+</div><p class="sd " id="l2-1-75-sd1">They all put up</p><div class="sp " data-who="PEDRO">
+  <p class="spk ">
+    PEDRO
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l2-1-76"><a class="n " href="#l2-1-76">76</a><span class="t">We are prevented; dare you meet me tomorrow on the Molo?</span></div><div class="l " id="l2-1-76-v1"><span class="t">For I’ve a title to a better quarrel,</span></div><div class="l " id="l2-1-76-v2"><span class="t">That of Florinda, in whose credulous heart</span></div><div class="l " id="l2-1-76-v3"><span class="t">Thou’st made an interest, and destroyed my hopes.</span></div>
+</div>
+</div><div class="sp " data-who="ANTONIO">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l2-1-77"><a class="n " href="#l2-1-77">77</a><span class="t">Dare?</span></div><div class="l " id="l2-1-77-v1"><span class="t">I’ll meet thee there as early as the day.</span></div>
+</div>
+</div><div class="sp " data-who="PEDRO">
+  <p class="spk ">
+    PEDRO
+  </p>
+  <p class="pr " id="l2-1-78"><a class="pn " href="#l2-1-78">78</a>We will come thus disguised, that whosoever chance to get the better he may escape unknown.</p>
+</div><div class="sp " data-who="ANTONIO">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l2-1-79"><a class="pn " href="#l2-1-79">79</a>It shall be so. <span class="sdi">[Exit Pedro and Stephano]</span><br>Who should this rival be? Unless the English colonel of whom I’ve often heard Don Pedro speak; it must be he, and time he were removed who lays a claim to all my happiness.</p>
+</div><p class="sd " id="l2-1-79-sd1">Willmore, having gazed all this while on the picture, pulls down a little one</p><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l2-1-80"><a class="n m5" href="#l2-1-80">80</a><span class="t">This posture’s loose and negligent,</span></div><div class="l " id="l2-1-80-v1"><span class="t">The sight on’t would beget a warm desire</span></div><div class="l " id="l2-1-80-v2"><span class="t">In souls, whom impotence and age had chilled.</span></div><div class="l " id="l2-1-80-v3"><span class="t">This must along with me.</span></div>
+</div>
+</div><div class="sp " data-who="BRAVO">
+  <p class="spk ">
+    BRAVO
+  </p>
+  <p class="pr " id="l2-1-81"><a class="pn " href="#l2-1-81">81</a>What means this rudeness, sir? Restore the picture.</p>
+</div><div class="sp " data-who="ANTONIO">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l2-1-82"><a class="pn " href="#l2-1-82">82</a>Ha! Rudeness committed to the fair Angellica! Restore the picture, sir.</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-83"><a class="pn " href="#l2-1-83">83</a>Indeed I will not, sir.</p>
+</div><div class="sp " data-who="ANTONIO">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l2-1-84"><a class="pn " href="#l2-1-84">84</a>By Heaven, but you shall.</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-85"><a class="pn m5" href="#l2-1-85">85</a>Nay, do not show your sword: if you do, by this dear beauty I will show mine too.</p>
+</div><div class="sp " data-who="ANTONIO">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l2-1-86"><a class="pn " href="#l2-1-86">86</a>What right can you pretend to’t?</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-87"><a class="pn " href="#l2-1-87">87</a>That of possession which I will maintain. You, perhaps, have 1000 crowns to give for the original.</p>
+</div><div class="sp " data-who="ANTONIO">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l2-1-88"><a class="pn " href="#l2-1-88">88</a>No matter, Sir, you shall restore the Picture.</p>
+</div><p class="sd " id="l2-1-88-sd1">Angellica and Moretta above</p><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <p class="pr " id="l2-1-89"><a class="pn " href="#l2-1-89">89</a>Oh, Moretta! What’s the matter?</p>
+</div><div class="sp " data-who="ANTONIO">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l2-1-90"><a class="pn m5" href="#l2-1-90">90</a>Or leave your life behind.</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-91"><a class="pn " href="#l2-1-91">91</a>Death! You lie, I will do neither.</p>
+</div><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <p class="pr " id="l2-1-92"><a class="pn " href="#l2-1-92">92</a>Hold, I command you, if for me you fight.</p>
+</div><p class="sd " id="l2-1-92-sd1">They fight, the Spaniards join with Antonio, Blunt laying on like mad; they leave off and bow</p><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-93"><a class="pn " href="#l2-1-93">93</a>How heavenly fair she is! Ah plague of her price.</p>
+</div><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <p class="pr " id="l2-1-94"><a class="pn " href="#l2-1-94">94</a>You sir in buff, you that appear a soldier, that first began this insolence.</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-95"><a class="pn m5" href="#l2-1-95">95</a>’Tis true, I did so, if you call it insolence for a man to preserve himself. I saw your charming picture and was wounded, quite through my soul each pointed beauty ran, and wanting a thousand crowns to procure my remedy I laid this little picture to my bosom – which, if you cannot allow me, I’ll resign.</p>
+</div><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <p class="pr " id="l2-1-96"><a class="pn " href="#l2-1-96">96</a>No, you may keep the trifle.</p>
+</div><div class="sp " data-who="ANTONIO">
+  <p class="spk ">
+    ANTONIO
+  </p>
+  <p class="pr " id="l2-1-97"><a class="pn " href="#l2-1-97">97</a>You shall first ask my leave, and this.</p>
+</div><p class="sd " id="l2-1-97-sd1">Fight again as before</p><p class="sd " id="l2-1-97-sd2">Enter Belvile and Frederick who join with the English</p><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <p class="pr " id="l2-1-98"><a class="pn " href="#l2-1-98">98</a>Hold! Will you ruin me? Biskey, Sebastian, part them!</p>
+</div><p class="sd " id="l2-1-98-sd1">The Spaniards are beaten off</p><div class="sp " data-who="MORETTA">
+  <p class="spk ">
+    MORETTA
+  </p>
+  <p class="pr " id="l2-1-99"><a class="pn " href="#l2-1-99">99</a>Oh madam, we’re undone, a pox upon that rude fellow, he’s set on to ruin us; we shall never see good days till all these fighting poor rogues are sent to the galleys.</p>
+</div><p class="sd " id="l2-1-99-sd1">Enter Belvile, Blunt and Willmore, with his shirt bloody</p><div class="sp " data-who="BLUNT">
+  <p class="spk ">
+    BLUNT
+  </p>
+  <p class="pr " id="l2-1-100"><a class="pn m5" href="#l2-1-100">100</a>’Sheartlikins, beat me at this sport and I’ll ne’er wear sword more.</p>
+</div><div class="sp " data-who="BELVILE">
+  <p class="spk ">
+    BELVILE
+  </p>
+  <p class="pr " id="l2-1-101"><a class="pn " href="#l2-1-101">101</a><span class="sdi">(To Willmore)</span> The devil’s in thee for a mad fellow, thou art always one at an unlucky adventure. Come, let’s be gone whilst we’re safe, and remember these are Spaniards, a sort of people that know how to revenge an affront.</p>
+</div><div class="sp " data-who="FREDERICK">
+  <p class="spk ">
+    FREDERICK
+  </p>
+  <p class="pr " id="l2-1-102"><a class="pn " href="#l2-1-102">102</a>You bleed; I hope you are not wounded.</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-103"><a class="pn " href="#l2-1-103">103</a>Not much; a plague upon your <em>dons</em>, if they fight no better they’ll ne’er recover Flanders. What the devil was’t to them that I took down the picture?</p>
+</div><div class="sp " data-who="BLUNT">
+  <p class="spk ">
+    BLUNT
+  </p>
+  <p class="pr " id="l2-1-104"><a class="pn " href="#l2-1-104">104</a>Took it! ’Sheartlikins, we’ll have the great one too, ’tis ours by conquest. Prithee, help me up, and I’ll pull it down.</p>
+</div><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <p class="pr " id="l2-1-105"><a class="pn m5" href="#l2-1-105">105</a>Stay, sir, and e’er you affront me further let me know how you durst commit this outrage. To you I speak, sir, for you appear like a gentleman.</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-106"><a class="pn " href="#l2-1-106">106</a>To me, madam? Gentlemen, your servant.</p>
+</div><p class="sd " id="l2-1-106-sd1">Belvile stays him</p><div class="sp " data-who="BELVILE">
+  <p class="spk ">
+    BELVILE
+  </p>
+  <p class="pr " id="l2-1-107"><a class="pn " href="#l2-1-107">107</a>Is the Devil in thee? Dost know the danger of entering the house of an incensed courtesan?</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-108"><a class="pn " href="#l2-1-108">108</a>I thank you for your care, but there are other matters in hand, there are, though we have no great temptation. Death! Let me go.</p>
+</div><div class="sp " data-who="FREDERICK">
+  <p class="spk ">
+    FREDERICK
+  </p>
+  <p class="pr " id="l2-1-109"><a class="pn " href="#l2-1-109">109</a>Yes, to your lodging if you will, but not in here. Damn these gay harlots, by this hand I’ll have as sound and handsome a whore for a patacoon. Death, man, she’ll murder thee.</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-110"><a class="pn m5" href="#l2-1-110">110</a>Oh! Fear me not, shall I not venture where a beauty calls? A lovely charming beauty? For fear of danger! When by Heaven there’s none so great as to long for her, whilst I want money to purchase her.</p>
+</div><div class="sp " data-who="FREDERICK">
+  <p class="spk ">
+    FREDERICK
+  </p>
+  <p class="pr " id="l2-1-111"><a class="pn " href="#l2-1-111">111</a>Therefore ’tis loss of time unless you had the thousand crowns to pay.</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-112"><a class="pn " href="#l2-1-112">112</a>It may be she may give a favor, at least I shall have the pleasure of saluting her when I enter and when I depart.</p>
+</div><div class="sp " data-who="BELVILE">
+  <p class="spk ">
+    BELVILE
+  </p>
+  <p class="pr " id="l2-1-113"><a class="pn " href="#l2-1-113">113</a>Pox, she’ll as soon lie with thee as kiss thee, and sooner stab than do either; you shall not go.</p>
+</div><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <p class="pr " id="l2-1-114"><a class="pn " href="#l2-1-114">114</a>Fear not, sir, all I have to wound with is my eyes.</p>
+</div><div class="sp " data-who="BLUNT">
+  <p class="spk ">
+    BLUNT
+  </p>
+  <p class="pr " id="l2-1-115"><a class="pn m5" href="#l2-1-115">115</a>Let him go, ’sheartlikins, I believe the gentlewoman means well.</p>
+</div><div class="sp " data-who="BELVILE">
+  <p class="spk ">
+    BELVILE
+  </p>
+  <p class="pr " id="l2-1-116"><a class="pn " href="#l2-1-116">116</a>Well, take thy fortune; we’ll expect you in the next street. Farewell, fool, farewell.</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-1-117"><a class="pn " href="#l2-1-117">117</a>Bye, colonel.</p>
+</div><p class="sd " id="l2-1-117-sd1">Goes in</p><div class="sp " data-who="FREDERICK">
+  <p class="spk ">
+    FREDERICK
+  </p>
+  <p class="pr " id="l2-1-118"><a class="pn " href="#l2-1-118">118</a>The rogue’s stark mad for a wench.</p>
+</div><p class="sd " id="l2-1-118-sd1">Exeunt</p>
+      </section>
+    
+  
+    
+      <section id="act-2-s2">
+        <h3 class="scene-head">
+          SCENE 2
+        </h3>
+        <p class="sd " id="l2-2-sd1">A fine chamber</p><p class="sd " id="l2-2-sd2">Enter Willmore, Angellica, and Moretta</p><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <p class="pr " id="l2-2-1"><a class="pn " href="#l2-2-1">1</a>Insolent sir, how durst you pull down my picture?</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-2-2"><a class="pn " href="#l2-2-2">2</a>Rather, how durst you set it up, to tempt poor amorous mortals with so much excellence, which I find you have but too well consulted by the unmerciful price you set upon’t? Is all this heaven of beauty shown to move despair in those that cannot buy? And can you think the effects of that despair should be less extravagant than I have shown?</p>
+</div><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <p class="pr " id="l2-2-3"><a class="pn " href="#l2-2-3">3</a>I sent for you to ask my pardon, sir, not to aggravate your crime. I thought I should have seen you at my feet imploring it.</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-2-4"><a class="pn " href="#l2-2-4">4</a>You are deceived, I came to rail at you, and talk such truths, too, as shall let you see the vanity of that pride which taught you how to set such a price on sin. For such it is, whilst that which is love’s due is meanly bartered for.</p>
+</div><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <p class="pr " id="l2-2-5"><a class="pn m5" href="#l2-2-5">5</a>Ha, ha, ha! Alas, good captain, what pity ’tis your edifying doctrine will do no good upon me. Moretta, fetch the gentleman a glass, and let him survey himself, to see what charms he has <span class="sdi">[Aside in a soft tone]</span> <span class="as">– and guess my business</span>.</p>
+</div><div class="sp " data-who="MORETTA">
+  <p class="spk ">
+    MORETTA
+  </p>
+  <p class="pr " id="l2-2-6"><a class="pn " href="#l2-2-6">6</a>He knows himself of old, I believe those breeches and he have been acquainted ever since he was beaten at Worcester.</p>
+</div><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <p class="pr " id="l2-2-7"><a class="pn " href="#l2-2-7">7</a>Nay, do not abuse the poor creature.</p>
+</div><div class="sp " data-who="MORETTA">
+  <p class="spk ">
+    MORETTA
+  </p>
+  <p class="pr " id="l2-2-8"><a class="pn " href="#l2-2-8">8</a>Good weather-beaten corporal, will you march off? We have no need of your doctrine, though you have of our charity; but at present we have no scraps, we can afford no kindness for God’s sake; in fine, sirrah, the price is too high i’th’ mouth for you, therefore troop, I say.</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-2-9"><a class="pn " href="#l2-2-9">9</a>Here, good forewoman of the shop, serve me, and I’ll be gone.</p>
+</div><div class="sp " data-who="MORETTA">
+  <p class="spk ">
+    MORETTA
+  </p>
+  <p class="pr " id="l2-2-10"><a class="pn m5" href="#l2-2-10">10</a>Keep it to pay your laundress, your linen stinks of the gun room, for here’s no selling by retail.</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-2-11"><a class="pn " href="#l2-2-11">11</a>Thou hast sold plenty of thy stale ware at a cheap rate.</p>
+</div><div class="sp " data-who="MORETTA">
+  <p class="spk ">
+    MORETTA
+  </p>
+  <p class="pr " id="l2-2-12"><a class="pn " href="#l2-2-12">12</a>Ay, the more silly kind heart I, but this is an age wherein beauty is at higher rates. In fine, you know the price of this.</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-2-13"><a class="pn " href="#l2-2-13">13</a>I grant you ’tis here set down a thousand crowns a month. Bawd, take your black lead and sum it up that I may have a pistole-worth of these vain gay things, and I’ll trouble you no more.</p>
+</div><div class="sp " data-who="MORETTA">
+  <p class="spk ">
+    MORETTA
+  </p>
+  <p class="pr " id="l2-2-14"><a class="pn " href="#l2-2-14">14</a>Pox on him, he’ll fret me to death: abominable fellow, I tell thee, we only sell by the whole piece.</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-2-15"><a class="pn m5" href="#l2-2-15">15</a>’Tis very hard, the whole cargo or nothing. Faith, madam, my stock will not reach it, I cannot be your chapman. Yet I have countrymen in town, merchants of love like me; I’ll see if they’ll put for a share, we cannot lose much by it, and what we have no use for we’ll sell upon the Friday’s Mart at “Who gives more?”. I am studying, madam, how to purchase you, though at present I am unprovided of money.</p>
+</div><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <p class="pr " id="l2-2-16"><a class="pn " href="#l2-2-16">16</a><span class="sdi">[Aside]</span> <span class="as">Sure, this from any other man would anger me, nor shall he know the conquest he has made.</span> Poor angry man, how I despise this railing.</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l2-2-17"><a class="n " href="#l2-2-17">17</a><span class="t">Yes, I am poor, but I’m a gentleman,</span></div><div class="l " id="l2-2-17-v1"><span class="t">And one that scorns this baseness which you practice.</span></div><div class="l " id="l2-2-17-v2"><span class="t">Poor as I am, I would not sell myself,</span></div><div class="l " id="l2-2-17-v3"><span class="t">No, not to gain your charming high-prized person.</span></div><div class="l " id="l2-2-17-v4"><span class="t">Though I admire you strangely for your beauty,</span></div><div class="l " id="l2-2-17-v5"><span class="t">Yet I condemn your mind.</span></div><div class="l " id="l2-2-17-v6"><span class="t">And yet I would at any rate enjoy you;</span></div><div class="l " id="l2-2-17-v7"><span class="t">At your own rate – but cannot – See here</span></div><div class="l " id="l2-2-17-v8"><span class="t">The only sum I can command on earth:</span></div><div class="l " id="l2-2-17-v9"><span class="t">I know not where to eat when this is gone,</span></div><div class="l " id="l2-2-17-v10"><span class="t">Yet such a slave I am to love and beauty,</span></div><div class="l " id="l2-2-17-v11"><span class="t">This last reserve I’ll sacrifice to enjoy you.</span></div><div class="l " id="l2-2-17-v12"><span class="t">Nay, do not frown, I know you are to be bought,</span></div><div class="l " id="l2-2-17-v13"><span class="t">And would be bought by me, by me,</span></div><div class="l " id="l2-2-17-v14"><span class="t">For a mean trifling sum, if I could pay it down.</span></div><div class="l " id="l2-2-17-v15"><span class="t">Which happy knowledge I will still repeat,</span></div><div class="l " id="l2-2-17-v16"><span class="t">And lay it to my heart, it has a virtue in’t,</span></div><div class="l " id="l2-2-17-v17"><span class="t">And soon will cure those wounds your eyes have made.</span></div><div class="l " id="l2-2-17-v18"><span class="t">And yet – there’s something so divinely powerful there –</span></div><div class="l " id="l2-2-17-v19"><span class="t">Nay, I will gaze – to let you see my strength.</span></div><p class="sd " id="l2-2-17-sd1">(Holds her, looks on her, and pauses and sighs)</p><div class="l " id="l2-2-17-v20"><span class="t">By Heaven, bright creature, I would not for the world</span></div><div class="l " id="l2-2-17-v21"><span class="t">Thy fame were half so fair as is thy face.</span></div>
+</div>
+</div><p class="sd " id="l2-2-17-sd2">Turns her away from him</p><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <div class="lg ">
+  
+  <div class="l as" id="l2-2-18"><a class="n " href="#l2-2-18">18</a><span class="t"><span class="sdi">[Aside]</span> His words go through me to the very soul.</span><span class="margin"><span class="aparte">aparte</span></span></div><div class="l " id="l2-2-18-v1"><span class="t"><span class="sdi">[To Willmore]</span> If you have nothing else to say to me.</span></div>
+</div>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l2-2-19"><a class="n " href="#l2-2-19">19</a><span class="t">Yes, you shall hear how infamous you are –</span></div><div class="l " id="l2-2-19-v1"><span class="t">For which I do not hate thee –</span></div><div class="l " id="l2-2-19-v2"><span class="t">But that secures my heart, and all the flames it feels</span></div><div class="l " id="l2-2-19-v3"><span class="t">Are but so many lusts:</span></div><div class="l " id="l2-2-19-v4"><span class="t">I know it by their sudden bold intrusion.</span></div><div class="l " id="l2-2-19-v5"><span class="t">The fire’s impatient and betrays, ’tis false,</span></div><div class="l " id="l2-2-19-v6"><span class="t">For had it been the purer flame of love,</span></div><div class="l " id="l2-2-19-v7"><span class="t">I should have pined and languished at your feet,</span></div><div class="l " id="l2-2-19-v8"><span class="t">Ere found the impudence to have discovered it.</span></div><div class="l " id="l2-2-19-v9"><span class="t">I now dare stand your scorn and your denial.</span></div>
+</div>
+</div><div class="sp " data-who="MORETTA">
+  <p class="spk ">
+    MORETTA
+  </p>
+  <p class="pr " id="l2-2-20"><a class="pn m5" href="#l2-2-20">20</a><span class="sdi">Aside</span> <span class="as">Sure she’s bewitched, that she can stand thus tamely and hear his saucy railing.</span> Sirrah, will you be gone?</p>
+</div><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <p class="pr " id="l2-2-21"><a class="pn " href="#l2-2-21">21</a><span class="sdi">[To Moretta]</span> How dare you take this liberty? Withdraw! Pray, tell me, sir, are not you guilty of the same mercenary crime? When a lady is proposed to you for a wife, you never ask how fair, discreet, or virtuous she is, but what’s her fortune – which if but small, you cry “she will not do my business” and basely leave her though she languish for you. Say, is not this as poor?</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-2-22"><a class="pn " href="#l2-2-22">22</a>It is a barbarous custom, which I will scorn to defend in our sex, and do despise in yours.</p>
+</div><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l2-2-23"><a class="n " href="#l2-2-23">23</a><span class="t">Thou art a brave fellow! Put up thy gold, and know,</span></div><div class="l " id="l2-2-23-v1"><span class="t">That were thy fortune large as is thy soul,</span></div><div class="l " id="l2-2-23-v2"><span class="t">Thou shouldst not buy my love,</span></div><div class="l " id="l2-2-23-v3"><span class="t">Couldst thou forget those mean effects of vanity</span></div><div class="l " id="l2-2-23-v4"><span class="t">Which set me out to sale; and as a lover, prize</span></div><div class="l " id="l2-2-23-v5"><span class="t">My yielding joys.</span></div><div class="l " id="l2-2-23-v6"><span class="t">Canst thou believe they’ll be entirely thine,</span></div><div class="l " id="l2-2-23-v7"><span class="t">Without considering they were mercenary?</span></div>
+</div>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-2-24"><a class="pn " href="#l2-2-24">24</a>I cannot tell, I must bethink me first. <span class="sdi">[Aside]</span> <span class="as">Ha, death, I’m going to believe her!</span></p>
+</div><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <p class="pr " id="l2-2-25"><a class="pn m5" href="#l2-2-25">25</a>Prithee, confirm that faith – or if thou canst not – flatter me a little, ’twill please me from thy mouth.</p>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <div class="lg ">
+  
+  <div class="l as" id="l2-2-26"><a class="n " href="#l2-2-26">26</a><span class="t"><span class="sdi">(Aside)</span> Curse on thy charming tongue! Dost thou return</span><span class="margin"><span class="aparte">aparte</span></span></div><div class="l as" id="l2-2-26-v1"><span class="t">My feigned contempt with so much subtlety?</span></div><div class="l " id="l2-2-26-v2"><span class="t">Thou’st found the easiest way into my heart,</span></div><div class="l " id="l2-2-26-v3"><span class="t">Though I yet know that all thou sayest is false.</span></div>
+</div>
+</div><p class="sd " id="l2-2-26-sd1">Turning from her in a rage</p><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l2-2-27"><a class="n " href="#l2-2-27">27</a><span class="t">By all that’s good ’tis real,</span></div><div class="l " id="l2-2-27-v1"><span class="t">I never loved before, though oft a mistress.</span></div><div class="l " id="l2-2-27-v2"><span class="t">Shall my first vows be slighted?</span></div>
+</div>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <div class="lg ">
+  
+  <div class="l as" id="l2-2-28"><a class="n " href="#l2-2-28">28</a><span class="t"><span class="sdi">(Aside)</span> What can she mean?</span><span class="margin"><span class="aparte">aparte</span></span></div>
+</div>
+</div><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l2-2-29"><a class="n " href="#l2-2-29">29</a><span class="t"><span class="sdi">(In an angry tone)</span> I find you cannot credit me.</span></div>
+</div>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l2-2-30"><a class="n m5" href="#l2-2-30">30</a><span class="t">I know you take me for an errant ass,</span></div><div class="l " id="l2-2-30-v1"><span class="t">An ass that may be soothed into belief,</span></div><div class="l " id="l2-2-30-v2"><span class="t">And then be used at pleasure.</span></div><div class="l " id="l2-2-30-v3"><span class="t">But, madam, I have been so often cheated</span></div><div class="l " id="l2-2-30-v4"><span class="t">By perjured, soft, deluding hypocrites,</span></div><div class="l " id="l2-2-30-v5"><span class="t">That I’ve no faith left for the cozening sex,</span></div><div class="l " id="l2-2-30-v6"><span class="t">Especially for women of your trade.</span></div>
+</div>
+</div><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l2-2-31"><a class="n " href="#l2-2-31">31</a><span class="t">The low esteem you have of me, perhaps</span></div><div class="l " id="l2-2-31-v1"><span class="t">May bring my heart again,</span></div><div class="l " id="l2-2-31-v2"><span class="t">For I have pride that yet surmounts my love.</span></div>
+</div>
+</div><p class="sd " id="l2-2-31-sd1">She turns with pride, he holds her</p><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l2-2-32"><a class="n " href="#l2-2-32">32</a><span class="t">Throw off this pride, this enemy to bliss,</span></div><div class="l " id="l2-2-32-v1"><span class="t">And show the power of love: ’tis with those arms</span></div><div class="l " id="l2-2-32-v2"><span class="t">I can be only vanquished, made a slave.</span></div>
+</div>
+</div><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l2-2-33"><a class="n " href="#l2-2-33">33</a><span class="t">Is all my mighty expectation vanished?</span></div><div class="l " id="l2-2-33-v1"><span class="t">No, I will not hear thee talk, thou hast a charm</span></div><div class="l " id="l2-2-33-v2"><span class="t">In every word, that draws my heart away.</span></div><div class="l " id="l2-2-33-v3"><span class="t">And all the thousand trophies I designed</span></div><div class="l " id="l2-2-33-v4"><span class="t">Thou hast undone. Why art thou soft?</span></div><div class="l " id="l2-2-33-v5"><span class="t">Thy looks are bravely rough, and meant for war.</span></div><div class="l " id="l2-2-33-v6"><span class="t">Could thou not storm on still?</span></div><div class="l " id="l2-2-33-v7"><span class="t">I then perhaps had been as free as thou.</span></div>
+</div>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <div class="lg ">
+  
+  <div class="l as" id="l2-2-34"><a class="n " href="#l2-2-34">34</a><span class="t"><span class="sdi">(Aside)</span> Death! how she throws her fire about my soul!</span><span class="margin"><span class="aparte">aparte</span></span></div><div class="l " id="l2-2-34-v1"><span class="t">Take heed, fair creature, how you raise my hopes,</span></div><div class="l " id="l2-2-34-v2"><span class="t">Which once assumed pretend to all dominion.</span></div><div class="l " id="l2-2-34-v3"><span class="t">There’s not a joy thou hast in store</span></div><div class="l " id="l2-2-34-v4"><span class="t">I shall not then command:</span></div><div class="l " id="l2-2-34-v5"><span class="t">For which I’ll pay thee back my soul, my life.</span></div><div class="l " id="l2-2-34-v6"><span class="t">Come, let’s begin th’account this happy minute.</span></div>
+</div>
+</div><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l2-2-35"><a class="n m5" href="#l2-2-35">35</a><span class="t">And will you pay me then the price I ask?</span></div>
+</div>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l2-2-36"><a class="n " href="#l2-2-36">36</a><span class="t">Oh, why dost thou draw me from an awful worship,</span></div><div class="l " id="l2-2-36-v1"><span class="t">By showing thou art no divinity?</span></div><div class="l " id="l2-2-36-v2"><span class="t">Conceal the fiend, and show me all the angel;</span></div><div class="l " id="l2-2-36-v3"><span class="t">Keep me but ignorant, and I’ll be devout,</span></div><div class="l " id="l2-2-36-v4"><span class="t">And pay my vows forever at this shrine.</span></div>
+</div>
+</div><p class="sd " id="l2-2-36-sd1">Kneels, and kisses her hand</p><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l2-2-37"><a class="n " href="#l2-2-37">37</a><span class="t">The pay I mean is but thy love for mine.</span></div><div class="l " id="l2-2-37-v1"><span class="t">Can you give that?</span></div>
+</div>
+</div><div class="sp " data-who="WILLMORE">
+  <p class="spk ">
+    WILLMORE
+  </p>
+  <p class="pr " id="l2-2-38"><a class="pn " href="#l2-2-38">38</a>Entirely! Come, let’s withdraw: where I’ll renew my vows, and breathe ’em with such ardor thou shall not doubt my zeal.</p>
+</div><div class="sp " data-who="ANGELLICA">
+  <p class="spk ">
+    ANGELLICA
+  </p>
+  <p class="pr " id="l2-2-39"><a class="pn " href="#l2-2-39">39</a>Thou hast a power too strong to be resisted.</p>
+</div><p class="sd " id="l2-2-39-sd1">Exit Willmore and Angellica</p><div class="sp " data-who="MORETTA">
+  <p class="spk ">
+    MORETTA
+  </p>
+  <p class="pr " id="l2-2-40"><a class="pn m5" href="#l2-2-40">40</a>Now my curse go with you! Is all our project fallen to this? To love the only enemy to our trade? Nay, to love such a shameroon, a very beggar – nay, a pirate-beggar, whose business is to rifle and be gone – a no-purchase, no-pay tatterdemalion, an English piccaroon; a rogue that fights for daily drink and takes a pride in being loyally lousy? Oh, I could curse now, if I durst! This is the fate of most whores:</p><div class="lg ">
+  
+  <div class="l " id="l2-2-40-v1"><span class="t">Trophies, which from believing fops we win,</span></div><div class="l " id="l2-2-40-v2"><span class="t">Are spoils to those who cozen us again.</span></div>
+</div>
+</div><p class="sd " id="l2-2-40-sd1">Exit</p>
+      </section>
+    
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-1.html" rel="prev">← ACT ONE</a>
+  <a href="act-3.html" rel="next">ACT THREE →</a>
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      <p>
+        This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License
+
+  <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en">https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en</a>
+
+      </p>
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

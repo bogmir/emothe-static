@@ -1,0 +1,1597 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Act I — The Phantom Lady — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">Dramatis personae:</a></li>
+      
+  
+    
+        <li>
+          <a href="act-1.html" aria-current="page">
+            Act I
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html">
+            Act II
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            Act III
+          </a>
+          
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="Manuel">
+        Manuel
+      </option><option value="Juan">
+        Juan
+      </option><option value="Luis">
+        Luis
+      </option><option value="Cosme">
+        Cosme
+      </option><option value="Rodrigo">
+        Rodrigo
+      </option><option value="Angela">
+        Angela
+      </option><option value="Beatriz">
+        Beatriz
+      </option><option value="Isabel">
+        Isabel
+      </option><option value="Servants">
+        Servants
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="asm" aria-label="Resaltar apartes" data-en-aria-label="Highlight asides" data-tr>
+        <x-es>Apartes</x-es><x-en>Asides</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .aparte, .text .pr.as, .text .pr:not(.as) span.as" data-for="asm">
+  <button type="button" data-step="-1" aria-label="Aparte anterior" data-en-aria-label="Previous aside" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente aparte" data-en-aria-label="Next aside" data-tr>›</button>
+</div>
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">Pedro Calderón de la Barca</p>
+  <h1><a href="index.html">The Phantom Lady</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  
+  <a href="act-2.html" rel="next">Act II →</a>
+</nav>
+  <div class="text" lang="en" data-cite="Pedro Calderón de la Barca, The Phantom Lady, Act I" data-cite-verse="int." data-cite-prose="int.">
+    
+    <section class="division" id="act-1">
+  <h2 class="act-head">
+    Act I
+  </h2>
+  
+  <p class="sd " id="sd1">[A street in Madrid]</p><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l1"><a class="pn " href="#l1">1</a>Here we arrive in this magnificent city of Madrid, and miss the celebrations on the occasion of the baptism of the new prince by just one hour.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l2"><a class="pn " href="#l2">2</a>Such things happen, for good or ill, for want of an hour: If Pyramus had gone to the fountain an hour earlier he would not have found Thisbe dead or the mulberries turned purple with her blood. You know, the great poets say that the tragedy was written with mulberry juice. If Tarquin had not arrived an hour late, he would have found Lucretia safe and sound. (Of course, playwrights would not have gone from theater to theater trying to find out if she was raped or not.) If Hero had spent an hour thinking and deciding on the best thing to do, she would not have thrown herself from the tower, that’s for sure (in which case, no playwright would have had his greatest triumph writing her into his most famous play, and no actress would have chewed up the scenery playing her). Since we have missed the party by just one hour, let us not waste another before we find our destination. As the story goes, if one arrives late, he must remain outside the gate. Besides, I am dying to see this friend who is waiting for you as though you were a proper gentleman, without knowing how or why such good fortune has come to us. After all, even though we are not competitors in a tournament, it is he who supports us.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l3"><a class="pn " href="#l3">3</a>Don Juan de Toledo, Cosme, is the man whom I most dearly call friend. Our friendship rivals the great ones celebrated across the centuries. We studied together, then, passing from letters to arms, we were comrades together in war. In the Piedmont War, when the Duke of Feria made me a captain, I gave my flag to him. He was my lieutenant, Cosme, and suffered a deep wound in the fray; I cared for him in my own bed. He owes his life to me, second only to God. I have forgiven minor debts because it is unseemly to mention them among nobles. For that reason repayment of a favor is depicted as a rich woman with her back turned, meaning that once one has done something nice, discretion requires one to forget about it. Thus Juan, grateful for my friendship and my help, seeing that his Majesty has called me to court to reward my service, has invited me today to stay in his house. It is the least he could do. Although he wrote to me in Burgos, giving his address, I most certainly did not want to ask directions from his neighbors. That is why I left the mules and the baggage at the inn and came on foot to find his house. Then I saw the decorations and the finery and, when I found out the occasion, I hoped to see the celebration, if only by accident. But we arrived an hour too late....</p>
+</div><p class="sd " id="l3-sd1">Enter Angela and Isabel, veiled.</p><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l4"><a class="pn " href="#l4">4</a>If you are a gentleman, as your appearance would indicate you to be, please help a poor woman who must rely on your sense of duty. Honor and life itself are at stake. That gentleman must not know who I am. I pray you, prevent him from following me. Upon your life, rescue a lady from certain misfortune and dishonor. It might be that one day.... <span class="sdi">[She starts to leave.]</span> Good-bye! I am undone.</p>
+</div><p class="sd " id="l4-sd1">[Exit]</p><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l5"><a class="pn m5" href="#l5">5</a>Was that a lady or a whirlwind?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l6"><a class="pn " href="#l6">6</a>What a turn of events!</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l7"><a class="pn " href="#l7">7</a>What do you plan to do?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l8"><a class="pn " href="#l8">8</a>You need to ask? How could my nobility fail to come to her aid and prevent her misfortune and her dishonor? The man must surely be her husband.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l9"><a class="pn " href="#l9">9</a>What are you thinking?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l10"><a class="pn m5" href="#l10">10</a>I shall detain him by some trick. Of course, if that is to no avail, I shall have to resort to force even though I may have to invent an excuse.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l11"><a class="pn " href="#l11">11</a>If you are looking for a trick, wait... I think I have something here. This letter of introduction from a friend should do.</p>
+</div><p class="sd " id="l11-sd1">Enter Luis and Rodrigo, his servant.</p><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l12"><a class="pn " href="#l12">12</a>I have to meet her, if only because she goes to such lengths to avoid me.</p>
+</div><div class="sp " data-who="Rodrigo">
+  <p class="spk ">
+    Rodrigo
+  </p>
+  <p class="pr " id="l13"><a class="pn " href="#l13">13</a>Follow her and you will know who she is.</p>
+</div><p class="sd " id="l13-sd1">(Cosme approaches; Manuel withdraws.)</p><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l14"><a class="pn " href="#l14">14</a>Sir, although I am embarrassed to approach you, might your worship please do me a great favor and read me this letter.</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l15"><a class="pn m5" href="#l15">15</a>I am in too much of a hurry. I have no time for such things.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l16"><a class="pn " href="#l16">16</a>Well, if you need a little, I have plenty for both of us.</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l17"><a class="pn " href="#l17">17</a>Leave me alone.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr as" id="l18"><a class="pn " href="#l18">18</a><span class="sdi">(Aside)</span> (This street is entirely too straight; they are still in sight.)</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l19"><a class="pn " href="#l19">19</a>I beseech you, Sir.</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l20"><a class="pn m5" href="#l20">20</a>Good God, you are irritating. I shall thrash you soundly if you do me much....</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l21"><a class="pn " href="#l21">21</a>For that reason, I’ll just do you a little.</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l22"><a class="pn " href="#l22">22</a>I have no more patience for you. Get away!</p>
+</div><p class="sd " id="l22-sd1">[He pushes Cosme.]</p><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l23"><a class="pn " href="#l23">23</a><span class="sdi">(Aside)</span> <span class="as">(I must intervene. Let valor finish what caution began.)</span> <span class="sdi">[He approaches Luis.]</span><br>Sir, this servant is mine, and I do not know how he must have offended you for you to mistreat him so.</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l24"><a class="pn " href="#l24">24</a>I do not respond to those who doubt or complain about my actions. Good day.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l25"><a class="pn m5" href="#l25">25</a>You may be quite certain that if I required satisfaction, I should not leave without it, despite your arrogance. My asking how he has offended you, so that I may punish him for his error, deserves more courtesy. Since courtly manners demand it, please do not disparage it, even when a stranger should come to teach it to you who have the obligation, as nobles at court, to know it.</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l26"><a class="pn " href="#l26">26</a>Who dares think that I lack courtesy?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l27"><a class="pn " href="#l27">27</a>Silence your tongue; let your sword speak.</p>
+</div><p class="sd " id="l27-sd1">[They draw swords.]</p><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l28"><a class="pn " href="#l28">28</a>You speak well.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l29"><a class="pn " href="#l29">29</a>Good God! They’re going to fight!.</p>
+</div><div class="sp " data-who="Rodrigo">
+  <p class="spk ">
+    Rodrigo
+  </p>
+  <p class="pr " id="l30"><a class="pn m5" href="#l30">30</a><span class="sdi">[To Cosme]</span> Draw your sword.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l31"><a class="pn " href="#l31">31</a>Oh, no! It’s a virgin. Without express permission, it’s not allowed to show its face.</p>
+</div><p class="sd " id="l31-sd1">(Enter Beatriz restraining Juan, accompaniment)</p><div class="sp " data-who="Juan">
+  <p class="spk ">
+    Juan
+  </p>
+  <p class="pr " id="l32"><a class="pn " href="#l32">32</a>Let go, Beatriz.</p>
+</div><div class="sp " data-who="Beatriz">
+  <p class="spk ">
+    Beatriz
+  </p>
+  <p class="pr " id="l33"><a class="pn " href="#l33">33</a>You must not go.</p>
+</div><div class="sp " data-who="Juan">
+  <p class="spk ">
+    Juan
+  </p>
+  <p class="pr " id="l34"><a class="pn " href="#l34">34</a>But the fight is with my brother.</p>
+</div><div class="sp " data-who="Beatriz">
+  <p class="spk ">
+    Beatriz
+  </p>
+  <p class="pr " id="l35"><a class="pn m5" href="#l35">35</a>Oh, wretched fortune.</p>
+</div><div class="sp " data-who="Juan">
+  <p class="spk ">
+    Juan
+  </p>
+  <p class="pr " id="l36"><a class="pn " href="#l36">36</a>I am here to help.</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l37"><a class="pn " href="#l37">37</a>Juan, wait. Rather than helping me, you are making me look like a coward. This stranger needs no help; he even has a servant. Please go, for God’s sake. As a nobleman, I can do my own fighting, and even more so with an adversary of such skill and grace. Now please leave.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l38"><a class="pn " href="#l38">38</a>I am taken by your charm and gentle manner. But if you still have the slightest quarrel with me, I shall meet you at your convenience.</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l39"><a class="pn " href="#l39">39</a>Agreed.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l40"><a class="pn m5" href="#l40">40</a>Agreed.</p>
+</div><div class="sp " data-who="Juan">
+  <p class="spk ">
+    Juan
+  </p>
+  <p class="pr " id="l41"><a class="pn " href="#l41">41</a>I cannot believe my eyes and ears. Manuel!</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l42"><a class="pn " href="#l42">42</a>Juan!</p>
+</div><div class="sp " data-who="Juan">
+  <p class="spk ">
+    Juan
+  </p>
+  <p class="pr " id="l43"><a class="pn " href="#l43">43</a>My soul is in turmoil and cannot decide what to do. My brother and my friend, which is the same thing, ready to fight? I cannot believe it. I must know the cause.</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l44"><a class="pn " href="#l44">44</a>Then listen: This gentlemen intervened on behalf of his servant, a fool who provoked me to speak harshly to him. This is the result.</p>
+</div><div class="sp " data-who="Juan">
+  <p class="spk ">
+    Juan
+  </p>
+  <p class="pr " id="l45"><a class="pn m5" href="#l45">45</a>Since that is all it is, please allow me to welcome our guest with a warm embrace. This gentleman is Manuel, the houseguest we have been expecting. Luis, I want you two, who have demonstrated equal valor, to be friends. Shake hands.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l46"><a class="pn " href="#l46">46</a>Before I do, because I have witnessed his courage and skill, I am bound by honor to offer my service to Luis.</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l47"><a class="pn " href="#l47">47</a>I consider myself your friend, and lament that I did not recognize you. Your valor should have been enough to identify you.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l48"><a class="pn " href="#l48">48</a>Yours leaves mine humiliated. See? You have wounded my hand.</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l49"><a class="pn " href="#l49">49</a>A thousand times over do I wish the wound were mine!</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l50"><a class="pn m5" href="#l50">50</a>What a courteous fight!</p>
+</div><div class="sp " data-who="Juan">
+  <p class="spk ">
+    Juan
+  </p>
+  <p class="pr " id="l51"><a class="pn " href="#l51">51</a>Wound? Come, we shall have it bandaged. Luis, you stay here and see Beatriz to her carriage. You can give her our apology. Come, Manuel, to my house, which is also your house, where you may get treatment.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l52"><a class="pn " href="#l52">52</a>But it is nothing.</p>
+</div><div class="sp " data-who="Juan">
+  <p class="spk ">
+    Juan
+  </p>
+  <p class="pr " id="l53"><a class="pn " href="#l53">53</a>Come along.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr as" id="l54"><a class="pn " href="#l54">54</a><span class="sdi">(Aside)</span> How sad that Madrid should receive me thus with blood!</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr as" id="l55"><a class="pn m5" href="#l55">55</a><span class="sdi">(Aside)</span> How sad that I was unable to find out who that woman was!</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l56"><a class="pn " href="#l56">56</a>How nice that things turned out well for my master, unlike Don Quixote when he tried to save a maiden!</p>
+</div><p class="sd " id="l56-sd1">(Exeunt Manuel, Juan and Cosme. Luis approaches Beatriz, who is standing off to one side.)</p><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l57"><a class="pn " href="#l57">57</a>The storm has passed. Once again, madam, allow me to restore to bloom the flower of your beauty that an accident has caused to wither.</p>
+</div><div class="sp " data-who="Beatriz">
+  <p class="spk ">
+    Beatriz
+  </p>
+  <p class="pr " id="l58"><a class="pn " href="#l58">58</a>Where is Juan?</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l59"><a class="pn " href="#l59">59</a>He asks your forgiveness, but necessary obligations have called him away, as well as the desire to care for the health of an injured friend.</p>
+</div><div class="sp " data-who="Beatriz">
+  <p class="spk ">
+    Beatriz
+  </p>
+  <p class="pr " id="l60"><a class="pn m5" href="#l60">60</a>Oh my! I am undone! Is Juan injured?</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l61"><a class="pn " href="#l61">61</a>Madam, it is not Juan. I could not possibly remain here so calmly if my brother were wounded. Be not afraid; it is not right, since he is not injured, that between the two of us you should suffer and I should be in pain. I say in pain because I see you so captivated by an imagined ill and it hurts me all the more.</p>
+</div><div class="sp " data-who="Beatriz">
+  <p class="spk ">
+    Beatriz
+  </p>
+  <p class="pr " id="l62"><a class="pn " href="#l62">62</a>My dear Luis, you know how much I appreciate your attentions; I know they are heartfelt and sincere. But I cannot repay them. Only fate can alter love and it suffers no entreaties. If what is most scarce is today most cherished at court, hold in esteem the truth, for it is indeed a rare commodity.</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l63"><a class="pn " href="#l63">63</a>Go in peace. <span class="sdi">[Exit Beatriz with her maid.]</span><br>There is nothing, Rodrigo, that turns out well for me. If I see a well-born lady and wish to meet her, a fool and a fight interrupt me. I do not know which is worse, for if I fight, my brother arrives and my enemy is his friend. If my brother leaves his lady in my keeping, she rejects my sincere overtures. A veiled lady flees from me, a fool torments me, a stranger wants to kill me, a brother brings him home as a guest in our house, and another lady spurns me. Things couldn’t get much worse.</p>
+</div><div class="sp " data-who="Rodrigo">
+  <p class="spk ">
+    Rodrigo
+  </p>
+  <p class="pr " id="l64"><a class="pn " href="#l64">64</a>I think I know which of all your woes troubles you most.</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l65"><a class="pn m5" href="#l65">65</a>How could you know?</p>
+</div><div class="sp " data-who="Rodrigo">
+  <p class="spk ">
+    Rodrigo
+  </p>
+  <p class="pr " id="l66"><a class="pn " href="#l66">66</a>The one you feel most strongly is your jealousy of your brother and the beautiful Beatriz.</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l67"><a class="pn " href="#l67">67</a>You are quite mistaken.</p>
+</div><div class="sp " data-who="Rodrigo">
+  <p class="spk ">
+    Rodrigo
+  </p>
+  <p class="pr " id="l68"><a class="pn " href="#l68">68</a>Then what is it?</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l69"><a class="pn " href="#l69">69</a>If I speak truthfully, and I feel I can trust only you, what causes me most alarm is that my brother casually invites a handsome young man to our house, knowing that in it there is also our sister, a young widow, as you know, who lives so cloistered that the sun scarcely knows where she lives. Beatriz is the only person who visits her.</p>
+</div><div class="sp " data-who="Rodrigo">
+  <p class="spk ">
+    Rodrigo
+  </p>
+  <p class="pr " id="l70"><a class="pn m5" href="#l70">70</a>I know that her husband was a port administrator with a modest salary, and that he died owing the crown a tidy sum, and that she came to court in secret to see to his affairs in private. This excuses your brother. If you consider that as a widow no one is allowed to visit her, and even though your guest is Manuel, no one is to know that such a woman is imprisoned in your house, what harm can come from having him there? Especially since, as a result of considerable care and thought, the door to his room opens directly onto the street. The old door to the rest of the house has been closed up, and in front of it has been placed a cupboard with mirrored doors designed in such a way that no one would suspect that there is a passageway behind it. In this way you all suspicion is removed with the door closed, yet it still allows one to be able to open it again.</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l71"><a class="pn " href="#l71">71</a>You think this gives me a sense of security? The very fact fills me with dread. What you are telling me is that nothing stands in defense of Angela’s honor except a few mirrored panes of glass, which can easily broken with one blow.</p>
+</div><p class="sd " id="l71-sd1">(Exeunt.)</p><p class="sd " id="l71-sd2">[Angela’s room]</p><p class="sd " id="l71-sd3">(Enter Angela and Isabel.)</p><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l72"><a class="pn " href="#l72">72</a>Isabel, hand me that scarf. What a miserable life! I must live in a shroud, dead to the world as a result of my enormous misfortune.</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l73"><a class="pn " href="#l73">73</a>Take it quickly. If your brother should come and have the slightest suspicion, at least your appearance should not give you away. He must not see you dressed as you were at court this morning.</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l74"><a class="pn " href="#l74">74</a>God help me! I am dying entombed by these four walls. The sun hardly knows of my existence. But my woes can be neither contained nor cured in the course of a single day. Even the inconstant moon, who learns her fickleness from me, cannot say that she has seen me weeping in misery. In effect, I have lived my life in a cage, completely without freedom, only because I was widowed by a husband and now as good as married to two brothers. That it should be a crime to leave this house, to go where people are, where there are plays and gossip and important events! Just to walk about the streets in disguise, causing no dishonor, flouting no authority! Oh cruel stars! Oh wretched fortune!</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l75"><a class="pn m5" href="#l75">75</a>Madam, there is no doubt that your zealous brothers are concerned for your well-being. You are, after all, a widow, young, beautiful, and intelligent. Your status is the one that leads to the most problems with love. Even more so today, when men at court frequently entertain their perfumed “widows”! My God! When I see perfumed hussies gallivanting around town pretending to be so virtuous, so saintly, so modest, so circumspect. All they really care about is showing off their new dresses. Take away their finery and pious gestures and they become as flighty as a ball of paper on the wind, talking to all the young men they meet. But let us leave this discussion for another time. How is it we have not mentioned the stranger who came to the rescue of your honor, the one who presented himself today as your savior?</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l76"><a class="pn " href="#l76">76</a>You have read my soul by speaking of him. The thought of him has me quite unnerved, not on his account but on mine. Afterwards, when I heard the sound of knives, I thought — and these are just fantasies, Isabel — that he might take my misery so much to heart that he would draw his sword in my defense. I was foolish to implicate him in such a fashion, but a woman in turmoil, what is she to think or do?</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l77"><a class="pn " href="#l77">77</a>I do not know if he stopped him; I only know that your brother followed us no more.</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l78"><a class="pn " href="#l78">78</a>Wait, listen!</p>
+</div><p class="sd " id="l78-sd1">(Enter Luis.)</p><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l79"><a class="pn " href="#l79">79</a>Angela!</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l80"><a class="pn m5" href="#l80">80</a>Dear brother! What brings you here in such a state? What has happened? What is wrong?</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l81"><a class="pn " href="#l81">81</a>A terrible burden, a question of honor.</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr as" id="l82"><a class="pn " href="#l82">82</a><span class="sdi">(Aside)</span> Oh no! Doubtlessly Luis recognized me!</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l83"><a class="pn " href="#l83">83</a>And I am most worried that our honor is in danger.</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l84"><a class="pn " href="#l84">84</a>Has someone caused you to feel uneasy?</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l85"><a class="pn m5" href="#l85">85</a>How strange! Here in your presence, Angela, I feel that same uneasy feeling as before.</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr as" id="l86"><a class="pn " href="#l86">86</a><span class="sdi">(Aside)</span> Another shock?</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l87"><a class="pn " href="#l87">87</a>But Luis, how can I cause you displeasure? You know....</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l88"><a class="pn " href="#l88">88</a>You are the cause. Seeing you....</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l89"><a class="pn " href="#l89">89</a>Oh my!</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l90"><a class="pn m5" href="#l90">90</a>Angela, our brother has so little esteem for you...</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l91"><a class="pn " href="#l91">91</a>That must be it!</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l92"><a class="pn " href="#l92">92</a>...that he heaps new troubles on top of those that brought you here. I was right to turn the anger I feel for our brother against our guest. Without recognizing him, I wounded him prophetically.</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l93"><a class="pn " href="#l93">93</a>Do tell.</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l94"><a class="pn " href="#l94">94</a>I went to the Palace Square on foot. It was full of coaches and gentlemen. I went over to a group of friends who were happily enthralled talking to a veiled lady. They all celebrated her wit and praised her intelligence and humor. From the moment I arrived, she spoke not a word. One gentleman even asked her why she fell silent when I joined the group. Her actions made me most uncomfortable. I looked to see if I knew her, but I could not make out her face. She wrapped her veil more tightly around her to hide her identity and protect herself. Because I could not see her face, I was determined to follow her. As she walked, she kept turning around to see if I was behind her. Her nervousness piqued my interest all the more. We were walking along in this manner when a man, the servant of our guest, stopped me so that I might read a letter for him. I answered that I was in a great hurry. I believe he stopped me on purpose because I saw the lady speak to him in passing. He was so insistent. I said something or other to him and our guest, looking all menacing and military, came to his defense. To make a long story short, we drew swords, but that is all. It could have been much worse.</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l95"><a class="pn m5" href="#l95">95</a>What an evil woman to have put you in such a situation! Oh, these conniving women! I should assume that she did not know who you were, and that she only did what she did because you were following her. I have told you repeatedly, if you will remember, that you should not go chasing after these silly women who know only how to cause the ruin of men.</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l96"><a class="pn " href="#l96">96</a>What have you been doing this afternoon?</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l97"><a class="pn " href="#l97">97</a>I have been here, at home, passing the hours weeping.</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l98"><a class="pn " href="#l98">98</a>Have you seen our brother?</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l99"><a class="pn " href="#l99">99</a>He has not been here since this morning.</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l100"><a class="pn m5" href="#l100">100</a>I simply cannot tolerate his inattention.</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l101"><a class="pn " href="#l101">101</a>Think no more of it. Sometimes it is best to suffer in silence. He is our older brother, and we live off his fortune.</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l102"><a class="pn " href="#l102">102</a>Well, if you are not upset, then neither am I. I was only worried about you. Since you think that he and I can mend our friendship, I shall go see him and perhaps even engage in some diversion with him.</p>
+</div><p class="sd " id="l102-sd1">(Exit Luis.)</p><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l103"><a class="pn " href="#l103">103</a>In light of this cruel shock, my lady, what have you to say about what is going on in our own house? The one who defended your life today is now a wounded guest in your home?</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l104"><a class="pn " href="#l104">104</a>I suspected as much, Isabel, when I heard my brother’s account of the incident and when I saw that our guest was wounded. But I could not bring myself to believe it. What an extraordinary coincidence that a man should come to Madrid, that a woman should immediately ask him to defend her life, that one brother should wound him and another should give him shelter. This is all too much! Although it may be true, I shall not believe it until I see it with my own eyes.</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l105"><a class="pn m5" href="#l105">105</a>If you are determined to discover the truth, I know how you can see him, and even more, if you wish.</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l106"><a class="pn " href="#l106">106</a>You are mad. How, if his room is so far from my own?</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l107"><a class="pn " href="#l107">107</a>There is a way to get from one room to the other. Do not be alarmed.</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l108"><a class="pn " href="#l108">108</a>Not because I want to see him, but only because I am just generally curious, tell me, how? I hear you, but I do not believe you.</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l109"><a class="pn " href="#l109">109</a>Have you not heard that your brother had a cupboard built over the door?</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l110"><a class="pn m5" href="#l110">110</a>I think I understand your plan. You want us to make a hole in a plank of the cupboard so that we can see into his room?</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l111"><a class="pn " href="#l111">111</a>Oh, it’s much better than that.</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l112"><a class="pn " href="#l112">112</a>Go on.</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l113"><a class="pn " href="#l113">113</a>Your brother closed up and covered over the door that was here and that led to the garden, but he also wanted a way to be able to open the door again at a later time. He had built a movable cupboard. Even though it is covered with mirrors, it slides open and shut quite easily. I know it well because once I was cleaning the cupboard and had placed a ladder against it. It started moving under my weight little by little until we all fell: me, the ladder, and the cupboard. I left the cupboard in such a state that, by moving it, anyone can pass through the door.</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l114"><a class="pn " href="#l114">114</a>Before I prove the truth of your words, I need to know more. If I want to go to the other room, and have moved the cupboard, can it be moved from the other side as well?</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l115"><a class="pn m5" href="#l115">115</a>Of course. What makes it even better is that I have set two nails that are easy to remove, but only those who know to remove them can move the cupboard.</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l116"><a class="pn " href="#l116">116</a>Tell the servant who brings him candles and linens to let you know if and when our guest leaves the house. If I am right, his wound will not require him to stay in bed.</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l117"><a class="pn " href="#l117">117</a>My God! Will you actually go?</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l118"><a class="pn " href="#l118">118</a>I have a foolish desire to know if he is the one who saved my life. If I have caused him concern and he has even spilled his blood for me, Isabel, it is right that I see after his wound. I hope to return the favor, but I must be certain that I shall not be found out. Let us go; I want to see this cupboard. If I can pass from one room to the other, I shall take care, without his realizing it, to repay his kindness.</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l119"><a class="pn " href="#l119">119</a>This is going to be an adventure! What if he figures it out?</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l120"><a class="pn m5" href="#l120">120</a>He will not. A man whose strength I assume to be equal to his nobility and discretion since he proved his worth to me in my first meeting with him, a man who is valiant and daring, bold and gallant, a man so richly endowed is not going to cause me to reveal my secret. It would be a notable waste for such a noble man to tell all he knows to anyone who passes by.</p>
+</div><p class="sd " id="l120-sd1">(Exeunt.)</p><p class="sd " id="l120-sd2">[Manuel’s room]</p><p class="sd " id="l120-sd3">(Enter Juan, Manuel and a servant with a candle.)</p><div class="sp " data-who="Juan">
+  <p class="spk ">
+    Juan
+  </p>
+  <p class="pr " id="l121"><a class="pn " href="#l121">121</a>Get some rest, for God’s sake.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l122"><a class="pn " href="#l122">122</a>This wound is nothing, Juan. Honestly, it is unseemly for me to pay it any mind at all.</p>
+</div><div class="sp " data-who="Juan">
+  <p class="spk ">
+    Juan
+  </p>
+  <p class="pr " id="l123"><a class="pn " href="#l123">123</a>I thank my stars that it is nothing worse than that, for I could never be consoled if my happiness in seeing you came at the cost of having you indisposed in my house and seeing you with your hand wounded, not by me, but by my brother.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l124"><a class="pn " href="#l124">124</a>He is a worthy gentleman. I am envious of his ability with a sword and his noble style, and I hope to be a good friend to him and his servant.</p>
+</div><p class="sd " id="l124-sd1">(Enter Luis and a servant with a covered basked with a sheathed sword inside.)</p><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l125"><a class="pn m5" href="#l125">125</a>Sir, I am your humble servant, and I hope to demonstrate the pain I feel by dedicating my life to you. So that the instrument that caused your wound not remain in my power, since it can no longer serve me nor please me, I shall send it from me much as one would an unworthy servant who causes his master some displeasure. This, Sir, is the sword that wounded you. I offer it to you and ask you to forgive it, if it is at all blameworthy. With it, take your revenge against me and against it.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l126"><a class="pn " href="#l126">126</a>You are most noble and discreet; I am won over. I accept the sword so that it may show me how to be valiant. I intend to live confident from this day forward, for who would not feel safe with your sword at his side? Of it alone was I afraid.</p>
+</div><div class="sp " data-who="Juan">
+  <p class="spk ">
+    Juan
+  </p>
+  <p class="pr " id="l127"><a class="pn " href="#l127">127</a>Since Luis has showed me how to treat a guest properly, I hope you will receive another gift from me.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l128"><a class="pn " href="#l128">128</a>I can never hope to repay such generosity. You seem to be competing to shower me with honor.</p>
+</div><p class="sd " id="l128-sd1">(Enter Cosme, laden with baggage)</p><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l129"><a class="pn " href="#l129">129</a>May two hundred thousand demons give testimony of their infernal fury and turn against me two hundred thousand snakes who might seize me and send me on my way to the great beyond if I would not rather live in peace in Galicia or Asturias than in this city and this court.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l130"><a class="pn m5" href="#l130">130</a>What?</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l131"><a class="pn " href="#l131">131</a>Porter reporting for duty.</p>
+</div><div class="sp " data-who="Juan">
+  <p class="spk ">
+    Juan
+  </p>
+  <p class="pr " id="l132"><a class="pn " href="#l132">132</a>What are you talking about?</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l133"><a class="pn " href="#l133">133</a>Just what I said. The one who gives passage to his enemy is a traitor.</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l134"><a class="pn " href="#l134">134</a>What enemy? Wait.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l135"><a class="pn m5" href="#l135">135</a>The water from one fountain or another.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l136"><a class="pn " href="#l136">136</a>Water upsets you?</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l137"><a class="pn " href="#l137">137</a>Here I am, lost beneath this mountain of baggage, when of course I trip against the foot of a fountain and end up filthy. These things are not fit to bring indoors.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l138"><a class="pn " href="#l138">138</a>Get out of here, you’re drunk.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l139"><a class="pn " href="#l139">139</a>If I were drunk, I wouldn’t be so angry at the water. I read in a book that fountains sometimes have their water transformed into other things. It wouldn’t be so bad to see a fountain have its water turned into wine.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l140"><a class="pn m5" href="#l140">140</a>If he gets started, he will not finish in a year.</p>
+</div><div class="sp " data-who="Juan">
+  <p class="spk ">
+    Juan
+  </p>
+  <p class="pr " id="l141"><a class="pn " href="#l141">141</a>He has an odd sense of humor.</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l142"><a class="pn " href="#l142">142</a>I would like to know something. If you can read, since you mentioned a book, why did you stop me at such an inopportune moment to read a letter?</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l143"><a class="pn " href="#l143">143</a>Well, I know how to read from books, but not from letters.</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l144"><a class="pn " href="#l144">144</a>What an answer!</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l145"><a class="pn m5" href="#l145">145</a>Please pay him no mind, for the love of God. You will come to know him and see that he is a joker.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l146"><a class="pn " href="#l146">146</a>I hope to make my jokes famous. You are welcome to them.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l147"><a class="pn " href="#l147">147</a>If it is not too late, I should like to pay a visit, one of some importance to me.</p>
+</div><div class="sp " data-who="Juan">
+  <p class="spk ">
+    Juan
+  </p>
+  <p class="pr " id="l148"><a class="pn " href="#l148">148</a>I hope to see you again for dinner.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l149"><a class="pn " href="#l149">149</a>Cosme, don’t get anything dirty with the mud from that baggage when you open it and take out my clothing.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l150"><a class="pn m5" href="#l150">150</a>Good grief!</p>
+</div><div class="sp " data-who="Juan">
+  <p class="spk ">
+    Juan
+  </p>
+  <p class="pr " id="l151"><a class="pn " href="#l151">151</a>If you wish to lock your room, here is the key. I have a master key because I frequently come home late, after two, but you may be sure that this is the only key and that there is no other door. If you leave it in the lock, the servants will come daily to clean.</p>
+</div><p class="sd " id="l151-sd1">(Exeunt Luis, Juan, and Manuel)</p><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l152"><a class="pn " href="#l152">152</a>Where are you, my little fortune? I want to see you first of all and determine how much we have pilfered along the way. People in roadside inns do not look after every little thing as carefully as they do in private houses. There is a greater opportunity for benefit by putting my hand, not on my heart, but in another’s purse. <span class="sdi">(He opens a suitcase and pulls out a purse.)</span><br>Here it is! Safe and sound. Just this morning it was a maiden and now, look, it’s quite pregnant. Let’s have a count. No, that’s not necessary. After all, it’s not as though I have just sold my master some sheep and need to figure the amount down to the last coin. What I have is what I have. Well, then. His suitcase is over there. I need to take out clothes in case he goes to bed soon. He ordered me to do that, but just because he ordered it, do I have to do it quickly? Just because he ordered it doesn’t mean I have to do it at all, for I am a servant. I could just as easily go out to a local tavern for a bit. Would you like that, Cosme? Why yes! Then let’s go, because our wishes come before our masters’.</p>
+</div><p class="sd " id="l152-sd1">(Exit. The cupboard moves and from behind it emerge Angela and Isabel.)</p><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l153"><a class="pn " href="#l153">153</a>Rodrigo said the room was empty; the guest and your brothers left.</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l154"><a class="pn " href="#l154">154</a>I would have done this just to have this adventure!</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l155"><a class="pn m5" href="#l155">155</a>You see that there is no trouble getting from one room to the other.</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l156"><a class="pn " href="#l156">156</a>All the troubles I envisioned, Isabel, were groundless. We met no resistance at all. The door opens and closes easily and no one is the wiser.</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l157"><a class="pn " href="#l157">157</a>Why have we come?</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l158"><a class="pn " href="#l158">158</a>Just to have a look and come right back. For two women to create some mischief they only have to think about it. We are here just because we happened to speak of it a couple of times. I am determined, if in fact this gentleman is the one who risked his personal safety for me, to repay his attention.</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l159"><a class="pn " href="#l159">159</a>Here is the gift your brother gave him, and a sword on a desk.</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l160"><a class="pn m5" href="#l160">160</a>Come here. They brought my writing desk here?</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l161"><a class="pn " href="#l161">161</a>Yes. They thought he might like to write a message, or read a book.</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l162"><a class="pn " href="#l162">162</a>There are two suitcases on the floor.</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l163"><a class="pn " href="#l163">163</a>Open, too! Shall we see what is in them?</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l164"><a class="pn " href="#l164">164</a>Yes. It is foolish, but I want to see what clothing and other finery he has.</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l165"><a class="pn m5" href="#l165">165</a>He’s a soldier and a pretender at court. I doubt he has much to look at.</p>
+</div><p class="sd " id="l165-sd1">(They take the things out of the suitcases as they talk about them, and strew them about the room)</p><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l166"><a class="pn " href="#l166">166</a>What’s this?</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l167"><a class="pn " href="#l167">167</a>Sheets of paper.</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l168"><a class="pn " href="#l168">168</a>From a woman?</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l169"><a class="pn " href="#l169">169</a>No, madam. Just bound documents. They are quite heavy.</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l170"><a class="pn m5" href="#l170">170</a>Well, if they were from a woman, they would be more lightweight. Do not waste your time on them.</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l171"><a class="pn " href="#l171">171</a>There is some underwear.</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l172"><a class="pn " href="#l172">172</a>Does it smell good?</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l173"><a class="pn " href="#l173">173</a>Yes, it smells clean.</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l174"><a class="pn " href="#l174">174</a>That is the best perfume.</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l175"><a class="pn m5" href="#l175">175</a>It has all three qualities: thin, white, and soft. Madam, what is this leather case full of various instruments?</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l176"><a class="pn " href="#l176">176</a>Let me see. This thing looks like dentist’s pliers. These are tweezers, that is a curling iron for his hair and here is another one for his moustache.</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l177"><a class="pn " href="#l177">177</a>Here is a brush and comb. This man comes prepared. I wouldn’t be surprised to find shoe trees!</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l178"><a class="pn " href="#l178">178</a>Why?</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l179"><a class="pn " href="#l179">179</a>Because here they are.</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l180"><a class="pn m5" href="#l180">180</a>Is there more?</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l181"><a class="pn " href="#l181">181</a>Yes, my lady, a second pouch full of letters.</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l182"><a class="pn " href="#l182">182</a>Let me see. These are from a woman, and there is more than letters. Here is a portrait!</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l183"><a class="pn " href="#l183">183</a>That fascinates you?</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l184"><a class="pn " href="#l184">184</a>Just seeing beauty, even painted, is a pleasure.</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l185"><a class="pn m5" href="#l185">185</a>It seems that finding it has troubled you.</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l186"><a class="pn " href="#l186">186</a>How foolish you are. Look no further.</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l187"><a class="pn " href="#l187">187</a>What are you thinking?</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l188"><a class="pn " href="#l188">188</a>I shall leave him a note. Take this portrait.</p>
+</div><p class="sd " id="l188-sd1">(She starts writing.)</p><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l189"><a class="pn " href="#l189">189</a>Meanwhile, I’m going to check out the servant’s bag. This is money: coins, but of little value. In a world where doubloons are king, these are peasants. I think I’ll play a little trick. I’m going to take the lackey’s money and leave in its place some coals. You may wonder where I’ll get coals, but remember, this is winter and there is a brazier in the room.</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l190"><a class="pn m5" href="#l190">190</a>There! All done! Where should I leave this letter so that our guest will find it but my brother will not?</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l191"><a class="pn " href="#l191">191</a>Here, underneath the bedspread. When he turns it down, he cannot help but find it, but no one else will see it.</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l192"><a class="pn " href="#l192">192</a>Good idea! Put it there and pick these things up.</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l193"><a class="pn " href="#l193">193</a>Look! They are turning the lock!</p>
+</div><div class="sp " data-who="Angela">
+  <p class="spk ">
+    Angela
+  </p>
+  <p class="pr " id="l194"><a class="pn " href="#l194">194</a>Leave all this, then. We must hide. Come, Isabel.</p>
+</div><div class="sp " data-who="Isabel">
+  <p class="spk ">
+    Isabel
+  </p>
+  <p class="pr " id="l195"><a class="pn m5" href="#l195">195</a>May the cupboard protect me!</p>
+</div><p class="sd " id="l195-sd1">(Exeunt through the cupboard, which appears as it did at first. Enter Cosme.)</p><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l196"><a class="pn " href="#l196">196</a>Now that I have taken care of myself I am more of a mind to do my master’s bidding—and I won’t even charge him extra! But wait! Who has been in our room tossing our things about? Christ&#39;s blood! Our nice little room with our nice little possessions… now it all looks like a Turkish bazaar! Who is here? There is no one, by God, or if there is someone, he does not wish to answer. Fine. Don’t answer me. I am proud to say I don’t much care for talkers. Whatever it may be, to tell the truth, I am trembling like a leaf. On the other hand, if the intruder leaves me my money, let him make his mischief a thousand times a thousand. But what’s this? God’s wounds! My money converted into coals? Here now, little spirit! Whoever you were and are, turn your money into anything you desire, but the money I steal... why?</p>
+</div><p class="sd " id="l196-sd1">(Enter Juan, Luis and Manuel.)</p><div class="sp " data-who="Juan">
+  <p class="spk ">
+    Juan
+  </p>
+  <p class="pr " id="l197"><a class="pn " href="#l197">197</a>Why are you shouting?</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l198"><a class="pn " href="#l198">198</a>What’s wrong?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l199"><a class="pn " href="#l199">199</a>What has happened? Speak!</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l200"><a class="pn m5" href="#l200">200</a>A pretty situation this! Why did you invite us to stay here in a room already occupied by a ghost? I was absent for just a second, and I returned to discover the clothing as you see it, strewn about. It looks like a clearance sale!</p>
+</div><div class="sp " data-who="Juan">
+  <p class="spk ">
+    Juan
+  </p>
+  <p class="pr " id="l201"><a class="pn " href="#l201">201</a>Is anything missing?</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l202"><a class="pn " href="#l202">202</a>Nothing. Just the money that I had in this purse. It was mine, and now it has been turned into coals.</p>
+</div><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l203"><a class="pn " href="#l203">203</a>I see. This is another one of your jokes.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l204"><a class="pn " href="#l204">204</a>What a cold and graceless deception.</p>
+</div><div class="sp " data-who="Juan">
+  <p class="spk ">
+    Juan
+  </p>
+  <p class="pr " id="l205"><a class="pn m5" href="#l205">205</a>How evil and impertinent.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l206"><a class="pn " href="#l206">206</a>It is no joke. For the love of God.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l207"><a class="pn " href="#l207">207</a>Quiet. This is so like you.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l208"><a class="pn " href="#l208">208</a>That’s true, although I am also accustomed to being sane from time to time.</p>
+</div><div class="sp " data-who="Juan">
+  <p class="spk ">
+    Juan
+  </p>
+  <p class="pr " id="l209"><a class="pn " href="#l209">209</a>I’ll take my leave, Manuel. Have a good night, and may the spirit of the house watch over you. And do advise your servant that we expect more of his wit in the future.</p>
+</div><p class="sd " id="l209-sd1">(Exit.)</p><div class="sp " data-who="Luis">
+  <p class="spk ">
+    Luis
+  </p>
+  <p class="pr " id="l210"><a class="pn m5" href="#l210">210</a>It is not for nothing that you are as valiant as you are if you have to spend all your waking moments solving the disputes and problems created by this fool.</p>
+</div><p class="sd " id="l210-sd1">(Exit.)</p><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l211"><a class="pn " href="#l211">211</a>You see how they treat me because of you? Everyone thinks me a madman because I put up with you. Wherever I go, a thousand misfortunes befall me on your account.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l212"><a class="pn " href="#l212">212</a>We are now alone; there is no reason to deceive you. You cannot finesse a card trick with only two players. May two thousand devils take me if it is not true that when I left, someone or something entered and created this mess.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l213"><a class="pn " href="#l213">213</a>You just want me to forgive you. Pick up these things you have strewn about and get ready for bed.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l214"><a class="pn " href="#l214">214</a>Sir, may I end up a galley slave....</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l215"><a class="pn m5" href="#l215">215</a>Enough! Hush, or, as God is my witness, I’ll break your head open!</p>
+</div><p class="sd " id="l215-sd1">(Exit into the alcove.)</p><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l216"><a class="pn " href="#l216">216</a>It’s bad enough that I should have gone through such a trauma, but now I have to put back everything in these suitcases. Good heavens! May my money come back from the dead just as it will on Judgment Day!</p>
+</div><p class="sd " id="l216-sd1">(Manuel returns with a sheet of paper.)</p><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l217"><a class="pn " href="#l217">217</a>A light, Cosme.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l218"><a class="pn " href="#l218">218</a>What is it, sir? Have you perhaps discovered someone else in the house?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l219"><a class="pn " href="#l219">219</a>I went to get ready for bed, Cosme, and I discovered under my bedspread this sealed note. The address on the envelope has me fascinated.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l220"><a class="pn m5" href="#l220">220</a>Who is it for?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l221"><a class="pn " href="#l221">221</a>Me, but the strange manner of its words has me entranced.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l222"><a class="pn " href="#l222">222</a>What does it say?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l223"><a class="pn " href="#l223">223</a><span class="sdi">(Reads.)</span> “Let no one open me, for I belong only to Manuel.”</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l224"><a class="pn " href="#l224">224</a>God Almighty! And you didn’t believe me! Do not open it, I beseech you, without first exorcising its evil.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l225"><a class="pn m5" href="#l225">225</a>Cosme, what has me transfixed is its novelty, not its fearfulness. He who admires something cannot fear it. <span class="sdi">(Reads.)</span> “Your well-being has me preoccupied, since I was the cause of your misfortune. Appreciative but worried, I beseech you to tell me how you are and to call on me. There will be occasion for both if you leave your answer where you found this note. Be warned that secrecy is paramount, because the day that one of your friends discovers this, my life and my honor will be forfeit.”</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l226"><a class="pn " href="#l226">226</a>How strange!</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l227"><a class="pn " href="#l227">227</a>Strange?</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l228"><a class="pn " href="#l228">228</a>You don’t find this strange?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l229"><a class="pn " href="#l229">229</a>Not at all. This actually clears up a few mysteries.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l230"><a class="pn m5" href="#l230">230</a>How?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l231"><a class="pn " href="#l231">231</a>It is quite clear that the veiled lady who was fleeing Luis so blindly and so desperately, was his lady, Cosme. She cannot be his wife because he is unmarried. And since this is quite certain, how difficult is it to imagine that his lady should have access to her beloved’s house?</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l232"><a class="pn " href="#l232">232</a>That’s all very well and good, but it doesn’t calm my nerves. Let’s say she is his lady and the encounter happened as you say. But how was she able, from her position on the sidewalk, to know what was going to happen in order to have this note prepared and waiting for you on your bed?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l233"><a class="pn " href="#l233">233</a>After our meeting, she could have given it to a servant.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l234"><a class="pn " href="#l234">234</a>Even if she had done that, how did a servant get in here to place it? No one entered the entire time I was in here.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l235"><a class="pn m5" href="#l235">235</a>It could have happened earlier.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l236"><a class="pn " href="#l236">236</a>Of course. But finding the suitcases and our clothing cast about here and there, not to mention the note, leads me to suspect something more.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l237"><a class="pn " href="#l237">237</a>See if the windows are locked.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l238"><a class="pn " href="#l238">238</a>Locked, and with iron grates on the outside.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l239"><a class="pn " href="#l239">239</a>You leave me with greater doubts and a thousand suspicions.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l240"><a class="pn m5" href="#l240">240</a>What about?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l241"><a class="pn " href="#l241">241</a>I do not know how to explain them.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l242"><a class="pn " href="#l242">242</a>And now, what are you to do?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l243"><a class="pn " href="#l243">243</a>I intend to write an answer to this note in order to find out the truth of the situation. I shall use a style that conceals any astonishment or fear on my part. I have no doubt, since paper is involved, that we shall have occasion to see who brings it and takes it away.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l244"><a class="pn " href="#l244">244</a>And should we not tell our hosts?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l245"><a class="pn m5" href="#l245">245</a>No. I do not wish to cause the slightest problem for this woman, since she trusted her honor to me.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l246"><a class="pn " href="#l246">246</a>Then you prefer to dishonor the man you consider to be her beloved?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l247"><a class="pn " href="#l247">247</a>No, not that either. Without causing her any problem I can still carry out my plan.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l248"><a class="pn " href="#l248">248</a>No, sir. There is more here than you know of, and every moment my suspicion grows.</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l249"><a class="pn " href="#l249">249</a>How so?</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l250"><a class="pn m5" href="#l250">250</a>You see that papers come and go around here with no visible way in or out. How do you suppose that happens?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l251"><a class="pn " href="#l251">251</a>There exists some trick or artifice for entering and leaving, for opening and closing, somewhere in the room. I may lose my mind if I do not figure out how this happens, Cosme, but I shall never believe it is a supernatural phenomenon.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l252"><a class="pn " href="#l252">252</a>Are there no spirits?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l253"><a class="pn " href="#l253">253</a>No one has seen them.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l254"><a class="pn " href="#l254">254</a>Ghosts?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l255"><a class="pn m5" href="#l255">255</a>Just fantasies.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l256"><a class="pn " href="#l256">256</a>Witches?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l257"><a class="pn " href="#l257">257</a>Hardly.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l258"><a class="pn " href="#l258">258</a>Demons?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l259"><a class="pn " href="#l259">259</a>Please.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l260"><a class="pn m5" href="#l260">260</a>Imps?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l261"><a class="pn " href="#l261">261</a>No.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l262"><a class="pn " href="#l262">262</a>Enchantresses?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l263"><a class="pn " href="#l263">263</a>Neither.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l264"><a class="pn " href="#l264">264</a>Magicians?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l265"><a class="pn m5" href="#l265">265</a>Foolishness.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l266"><a class="pn " href="#l266">266</a>Necromancers?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l267"><a class="pn " href="#l267">267</a>Ridiculous.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l268"><a class="pn " href="#l268">268</a>Sorceresses?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l269"><a class="pn " href="#l269">269</a>What madness.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l270"><a class="pn m5" href="#l270">270</a>I know, by God, now I’ve got you! Devils?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l271"><a class="pn " href="#l271">271</a>Not that I know of.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l272"><a class="pn " href="#l272">272</a>Are there souls in purgatory?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l273"><a class="pn " href="#l273">273</a>That fall in love with me? Is there greater lunacy? Leave me alone; I am tired.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l274"><a class="pn " href="#l274">274</a>So, what have you decided?</p>
+</div><div class="sp " data-who="Manuel">
+  <p class="spk ">
+    Manuel
+  </p>
+  <p class="pr " id="l275"><a class="pn m5" href="#l275">275</a>To be attentive, day and night; to be exceedingly cautious. I base my discovery of the truth on this. There is no need to resort to spirits or sorceresses.</p>
+</div><div class="sp " data-who="Cosme">
+  <p class="spk ">
+    Cosme
+  </p>
+  <p class="pr " id="l276"><a class="pn " href="#l276">276</a>Well, I do assume that some demon is involved. And it appears that he can come and go, bring things and take them, all in a puff of smoke.</p>
+</div>
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  
+  <a href="act-2.html" rel="next">Act II →</a>
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      <p>
+        This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License
+
+  <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en">https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en</a>
+
+      </p>
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

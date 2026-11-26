@@ -1,0 +1,1883 @@
+<?xml version="1.0" ?>
+<TEI xml:lang="es" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="original">The Old Wife’s Tale</title>
+        <title type="traduccion">El cuento de la vieja</title>
+        <title key="orden">cuento de la vieja El</title>
+        <title key="archivo">EMOTHE0482_ElCuentoDeLaVieja</title>
+        <author ana="fiable">George Peele</author>
+        <author key="orden">Peele, George</author>
+        <sponsor>
+          <orgName>Plan Nacional de Investigación Científica, Desarrollo e Innovación Tecnológica (Plan Nacional de I+D+i)</orgName>
+        </sponsor>
+        <funder>
+          <orgName>Dirección General de Investigación y Gestión del Plan Nacional de I+D+I (DGI). http://www.idi.mineco.gob.es</orgName>
+        </funder>
+        <editor role="translator">
+          <persName>Marga Escrig Pisà</persName>
+        </editor>
+        <principal>Joan Oleza Simó</principal>
+      </titleStmt>
+      <editionStmt>
+        <edition>Edición electrónica de &apos;El cuento de la vieja&apos;</edition>
+        <respStmt>
+          <resp>Electronic edition: text adapted, edited for XML and encoded by</resp>
+          <persName>Tronch Pérez, Jesús</persName>
+        </respStmt>
+      </editionStmt>
+      <extent ana="versoprosa">298 versos</extent>
+      <publicationStmt>
+        <publisher>
+          <orgName>Proyecto ARTELOPE. Base de datos, argumentos y textos del teatro clásico español (FFI 2009 -12730) http://artelope.uv.es</orgName>
+        </publisher>
+        <idno type="code">EMOTHE0482_ElCuentoDeLaVieja</idno>
+        <idno type="EMOTHE">0482</idno>
+        <pubPlace>Valencia</pubPlace>
+        <date>2018</date>
+        <authority>
+          <orgName>Universitat de València - Estudi General. http://www.uv.es</orgName>
+        </authority>
+        <availability>
+          <p>La Colección de Teatro Clasico Europeo (CTCE) pertenece al proyecto Artelope y ofrece en la web textos completos sin ánimo de lucro y libres de derechos de lectura y de reproducción. En este último caso se ruega citar la procedencia: &quot;Oleza, Joan et al. Base de Datos y Argumentos del teatro de Lope de Vega. ARTELOPE. Publicación en web: http://artelope.uv.es&quot;</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>El cuento de la vieja</title>
+          <author>George Peele</author>
+          <editor role="traductor">Marga Escrig Pisà</editor>
+          <lang>Español</lang>
+<note>Peele, George. <emph>El cuento de la vieja.</emph> Traducción inédita de Marga Escrig Pisà, 2017.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>La Colección de Textos Clásicos Europeos (CTCE) supone la creación de una base de datos de Teatro canónico clásico europeo en diferentes idiomas, versiones y refundiciones, todas ellas hipervinculadas.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Las presentes ediciones digitales están basadas, en su mayor parte, en ediciones científicas de reconocido prestigio y se ha tratado, en la mayoría de ocasiones, de respetar sus criterios de edición. Solo en casos muy puntuales el editor digital ha introducido leves cambios de los que da cumplida cuenta en el apartado de &quot;Notas&quot;.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="CDU">
+          <bibl>Clasificación Decimal Universal</bibl>
+        </taxonomy>
+      </classDecl>
+      <refsDecl>
+        <citeStructure match="/TEI/text/body//l[@n] | /TEI/text/body//p[@n] | /TEI/text/body//lb[@n]" unit="printed-line" use="@n"/>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="es-ES">Español</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#CDU">821.134.2-2</classCode>
+      </textClass>
+      <settingDesc>
+        <setting>
+          <time type="siglo_xvi"/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc>
+<change><date>2018</date> <persName>Muñoz Pons, Carlos</persName> Revisión de la obra en formato TEI-XML</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>
+            <title>El cuento de la vieja</title>
+          </titlePart>
+        </docTitle>
+        <docAuthor>George Peele</docAuthor>
+      </titlePage>
+      <div type="nota_edicion_digital">
+        <p>© Marga Escrig Pisà</p>
+        <p>Esta edición digital ha recibido el apoyo del proyecto GVAICO2016-094, financiado por Generalitat Valenciana.</p>
+      </div>
+      <div type="elenco">
+        <head>[DRAMATIS PERSONAE</head>
+        <castList>
+          <castItem>
+            <role xml:id="GROTESCO">GROTESCO</role>
+            <roleDesc>paje</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="PÍCARO">PÍCARO</role>
+            <roleDesc>paje</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="FANTÁSTICO">FANTÁSTICO</role>
+            <roleDesc>paje</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="HERRERO">Patán, el HERRERO</role>
+            <roleDesc>marido de Madge</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="MADGE">MADGE</role>
+            <roleDesc>la vieja</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="HERMANO_1">El HERMANO 1.º</role>
+            <roleDesc>(Califa) hermano de Delia</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="HERMANO_2">El HERMANO 2.º</role>
+            <roleDesc>(Zelea) hermano de Delia</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="ERESTO">ERESTO</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Venelia">Venelia</role>
+            <roleDesc>su prometida</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="LAMPRISCO">LAMPRISCO</role>
+            <roleDesc>un campesino, vecino de Eresto</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="JANTIPA">JANTIPA</role>
+            <roleDesc>la hija hermosa de Lamprisco</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="CELANTA">CELANTA</role>
+            <roleDesc>la hija fea de Lamprisco</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="COREBO">COREBO</role>
+            <roleDesc>(Bobi) el bufón</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="JUANBANGO">JUANBANGO</role>
+            <roleDesc>un soldado fanfarrón</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="SACRIPANTE">SACRIPANTE</role>
+            <roleDesc>el hechicero</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="DELIA">DELIA</role>
+            <roleDesc>la hermana de Califa y Zelea</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="EUMÉNIDES">EUMÉNIDES</role>
+            <roleDesc>el caballero errante</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="SILBÓN">SILBÓN</role>
+            <roleDesc>hermano de Jack</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="JACK">JACK</role>
+            <roleDesc>un pobre</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="CAPILLERO">El CAPILLERO</role>
+          </castItem>
+          <castItem>
+            <role xml:id="SACRISTÁN">El SACRISTÁN</role>
+          </castItem>
+          <castItem>
+            <role xml:id="POSADERA">La POSADERA</role>
+          </castItem>
+          <castItem>
+            <role xml:id="CABEZA">Una CABEZA</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Campesinos">CAMPESINOS</role>
+          </castItem>
+          <castItem>
+            <role xml:id="FRAILE">Un FRAILE</role>
+          </castItem>
+          <castItem>
+            <role xml:id="VOZ">Una VOZ</role>
+          </castItem>
+          <castItem>
+            <role xml:id="ECO">El ECO</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Furias">Dos furias</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Violinistas">Violinistas ]</role>
+          </castItem>
+          <castItem ana="grupo oculto">
+            <role xml:id="Ambos_P_F">Ambos</role>
+          </castItem>
+          <castItem ana="grupo oculto">
+            <role xml:id="Ambos_C_S">Ambos</role>
+          </castItem>
+          <castItem ana="grupo oculto">
+            <role xml:id="Todos_G_F_F">Todos</role>
+          </castItem>
+          <castItem ana="grupo oculto">
+            <role xml:id="Todos_E_H_1_2">Todos</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="VOZ_2">Segunda VOZ</role>
+          </castItem>
+        </castList>
+      </div>
+    </front>
+    <body>
+      <div1 n="0" type="play">
+        <stage xml:id="em0482-es-st-1">Entran Pícaro, Grotesco y Fantástico.</stage>
+        <sp who="#GROTESCO" xml:id="em0482-es-sp-1">
+          <speaker>Grotesco</speaker>
+          <p n="1" xml:id="em0482-es-1">¿Qué te pasa, amigo Pícaro? ¿Encaja esa tristeza con alguien tan bromista como tú? Porque nos hayamos perdido en el bosque, no tienes que estar cabizbajo como si no tuvieses la esperanza de vivir hasta mañana, porque te garantizo que Fantástico y yo cuidaremos de ti esta noche por un módico precio.</p>
+        </sp>
+        <sp who="#PÍCARO" xml:id="em0482-es-sp-2">
+          <speaker>Pícaro</speaker>
+<p n="2" xml:id="em0482-es-2">Grotesco, Fantástico, como soy tan jovial, nunca en mi vida me había sentido tan exhausto y apagado. Perdernos así en el bosque, sin fuego, sin lumbre, ¡qué fastidio! <emph>¡Oh coelum! ¡Oh terra! ¡Oh Maria! ¡Oh Neptuno!</emph></p>
+        </sp>
+        <sp who="#FANTÁSTICO" xml:id="em0482-es-sp-3">
+          <speaker>Fantástico</speaker>
+          <p n="3" xml:id="em0482-es-3">¿Por qué te parece tan extraño, sabiendo que Cupido ha conducido a nuestro joven maestro hasta la hermosa dama, y es ella la única santa a la que ha jurado servir?</p>
+        </sp>
+        <sp who="#PÍCARO" xml:id="em0482-es-sp-4">
+          <speaker>Pícaro</speaker>
+          <p n="4" xml:id="em0482-es-4">Entonces, ¿qué nos queda a parte de entregarlo a su moza, acomodarnos cada uno de nosotros en un árbol y cantar nuestros infortunios al son de &quot;Oh, hombre desesperado&quot;?</p>
+        </sp>
+        <sp who="#GROTESCO" xml:id="em0482-es-sp-5">
+          <speaker>Grotesco</speaker>
+          <p n="5" xml:id="em0482-es-5">Hablas como un hombre desesperado en plena noche, amigo Pícaro, pero viendo como están las cosas, permítenos ensayar la vieja canción:</p>
+          <stage xml:id="em0482-es-st-2">[Canta.]</stage>
+          <lg type="free">
+<l n="6" xml:id="em0482-es-6"><emph>Tres muy alegres compadres,</emph></l>
+<l n="7" xml:id="em0482-es-7"><emph>tres muy alegres compadres,</emph></l>
+<l n="8" xml:id="em0482-es-8"><emph>tres muy alegres compadres somos.</emph></l>
+<l n="9" xml:id="em0482-es-9"><emph>Yo en el bosque, tú en el suelo,</emph></l>
+<l n="10" xml:id="em0482-es-10"><emph>y Jack duerme en un árbol.</emph></l>
+          </lg>
+        </sp>
+        <stage xml:id="em0482-es-st-3">[Un perro ladra.]</stage>
+        <sp who="#FANTÁSTICO" xml:id="em0482-es-sp-6">
+          <speaker>Fantástico</speaker>
+<p n="11" xml:id="em0482-es-11">¡Silencio! ¿Qué es eso? ¿Un perro entre los pinos o un perro de pino? ¡Oh!, es tan grato escucharlo, como si el camarero del <emph>White Horse</emph> me hubiese mandado a la cama.</p>
+        </sp>
+        <sp who="#PÍCARO" xml:id="em0482-es-sp-7">
+          <speaker>Pícaro</speaker>
+<p n="12" xml:id="em0482-es-12">O este chucho trotón se ha salido de su ruta o estamos cerca de alguna aldea, <stage xml:id="em0482-es-st-4">Entra un herrero [(Patán)] con un farol y una vela.</stage> <lb n="13" xml:id="em0482-es-13"/>que no debe de estar muy lejos de aquí, porque percibo el brillo de una luciérnaga, una vela, el ojo de un gato... ¡En el nombre de mi padre! ¿Qué eres un buey o un asno? ¡Dinos qué eres!</p>
+        </sp>
+        <sp who="#HERRERO" xml:id="em0482-es-sp-8">
+          <speaker>Herrero</speaker>
+          <p n="14" xml:id="em0482-es-14">¿Que qué soy yo? Yo soy Patán, el herrero. ¿Quiénes sois vosotros?, ¿qué hacéis por mis tierras a estas horas de la noche?</p>
+        </sp>
+        <sp who="#GROTESCO" xml:id="em0482-es-sp-9">
+          <speaker>Grotesco</speaker>
+          <p n="15" xml:id="em0482-es-15">¿Que qué hacemos nos preguntas? Pues bien, nosotros hacemos muecas de pánico, de tal manera que si tus ojos de mortal pudieran contemplarlas, te harían mojar las largas costuras de tus amplios calzones, herrero.</p>
+        </sp>
+        <sp who="#PÍCARO" xml:id="em0482-es-sp-10">
+          <speaker>Pícaro</speaker>
+          <p n="16" xml:id="em0482-es-16">Y doy fe, señor, que a no ser que tu hospitalidad nos libre, lo más probable es que vaguemos cantando una triste canción bajo la atenta mirada de los mochuelos y duendes del bosque. Oh, dios Vulcano, por el amor de Cupido, que nos ha guiado a todos, ayúdanos como puedas y llévanos como sea, adonde sea, cuando sea, con lo que sea, por siempre jamás.</p>
+        </sp>
+        <sp who="#HERRERO" xml:id="em0482-es-sp-11">
+          <speaker>Herrero</speaker>
+          <p n="17" xml:id="em0482-es-17">Está bien, compadres, me parece que os habéis perdido en el bosque. Para compensaros, si venís con Patán a su cabaña, dispondréis de un techo y de un buen fuego junto al que sentaros, aunque no tenemos camas en las que acostaros.</p>
+        </sp>
+        <sp who="#GROTESCO #PÍCARO #FANTÁSTICO" xml:id="em0482-es-sp-12">
+          <speaker>Todos</speaker>
+          <p n="18" xml:id="em0482-es-18">¡Oh, bendito herrero! ¡Oh, generoso Patán!</p>
+        </sp>
+        <sp who="#HERRERO" xml:id="em0482-es-sp-13">
+          <speaker>Herrero</speaker>
+<p n="19" xml:id="em0482-es-19">En cuanto al resto del trato, todo será como tenga que ser. <stage xml:id="em0482-es-st-5">Un perro ladra.</stage> <lb n="20" xml:id="em0482-es-20"/>¡Ah, escuchad! Este es Ball, mi perro, que os da la bienvenida en su propia lengua. Vamos, tened cuidado, no tropecéis al entrar. Madge, abre la puerta, traigo invitados.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-6">Entra [Madge,] una vieja.</stage>
+        <sp who="#MADGE" xml:id="em0482-es-sp-14">
+          <speaker>Madge</speaker>
+          <p n="21" xml:id="em0482-es-21">Bienvenidos Patán y los buenos tipos que vienen con mi buen hombre. Por el amor de mi buen hombre, vamos, sentaos. Aquí tenéis queso y un postre que yo misma he preparado.</p>
+        </sp>
+        <sp who="#GROTESCO" xml:id="em0482-es-sp-15">
+          <speaker>Grotesco</speaker>
+          <p n="22" xml:id="em0482-es-22">Gracias anciana, eres un buen ejemplo para las mujeres de nuestra ciudad.</p>
+        </sp>
+        <sp who="#PÍCARO" xml:id="em0482-es-sp-16">
+          <speaker>Pícaro</speaker>
+          <p n="23" xml:id="em0482-es-23">Anciana, tú y tu marido sentaos amorosamente juntos, que nosotros hemos venido a charlar y no a comer.</p>
+        </sp>
+        <sp who="#HERRERO" xml:id="em0482-es-sp-17">
+          <speaker>Herrero</speaker>
+          <p n="24" xml:id="em0482-es-24">Está bien, compadres, si no vais a comer nada, lo retiramos. Entonces, ¿qué hacemos para pasar el tiempo? Pondré a asar una manzana silvestre para hacer cerveza especiada. ¿Qué? ¿Jugamos una partida a triunfo para pasar el rato? ¿Qué decís?</p>
+        </sp>
+        <sp who="#FANTÁSTICO" xml:id="em0482-es-sp-18">
+          <speaker>Fantástico</speaker>
+          <p n="25" xml:id="em0482-es-25">Este herrero lleva una vida tan feliz como la de un rey con su esposa Madge. Señor Pícaro, estoy seguro de que te sabes alguna que otra balada. Sin duda alguna Patán podrá seguirte.</p>
+        </sp>
+        <sp who="#PÍCARO" xml:id="em0482-es-sp-19">
+          <speaker>Pícaro</speaker>
+          <p n="26" xml:id="em0482-es-26">Si no la supiese me tendríais por maleducado, así que empezamos cuando queráis.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-7">Cantan.</stage>
+        <sp who="#GROTESCO #PÍCARO #FANTÁSTICO" xml:id="em0482-es-sp-20">
+          <speaker>Todos</speaker>
+          <lg part="M" type="free">
+<l n="27" xml:id="em0482-es-27"><emph>Cuando el centeno llega a la barbilla</emph></l>
+<l n="28" xml:id="em0482-es-28"><emph>y la cereza cazada, la cereza cazada, entre los dientes madura,</emph></l>
+<l n="29" xml:id="em0482-es-29"><emph>las fresas nadan en la nata más pura,</emph></l>
+<l n="30" xml:id="em0482-es-30"><emph>y los colegiales acuden al río a jugar en la orilla.</emph></l>
+<l n="31" xml:id="em0482-es-31"><emph>Oh, entonces, oh, dijo mi amor verdadero,</emph></l>
+<l n="32" xml:id="em0482-es-32"><emph>que no podrá vivir como una doncella</emph></l>
+<l n="33" xml:id="em0482-es-33"><emph>hasta que esos tiempos regresen de nuevo.</emph></l>
+          </lg>
+        </sp>
+        <sp who="#GROTESCO" xml:id="em0482-es-sp-21">
+          <speaker>Grotesco</speaker>
+          <p n="34" xml:id="em0482-es-34">Eso de cantar está bien, anciana, pero creo que un alegre cuento de invierno hará que el tiempo pase más rápido. Vamos, estoy seguro de que te sabes un montón.</p>
+        </sp>
+        <sp who="#FANTÁSTICO" xml:id="em0482-es-sp-22">
+          <speaker>Fantástico</speaker>
+          <p n="35" xml:id="em0482-es-35">Doy fe, abuela, que un cuento de una hora es tan reconfortante como una hora de sueño.</p>
+        </sp>
+        <sp who="#PÍCARO" xml:id="em0482-es-sp-23">
+          <speaker>Pícaro</speaker>
+          <p n="36" xml:id="em0482-es-36">Vamos, anciana, el del gigante y la hija del rey y no sé qué más. De niño me habrías hecho correr detrás de ti más de una milla por escuchar una historia así.</p>
+        </sp>
+        <sp who="#MADGE" xml:id="em0482-es-sp-24">
+          <speaker>Madge</speaker>
+          <p n="37" xml:id="em0482-es-37">Bueno, ya que insistís tanto, que mi buen marido llene el orinal y se meta en la cama, que quienes desempeñan un trabajo se han de acostar a buena hora. Que uno de vosotros le acompañe, os prometo que es un hombre de piel limpia y sin tumores. Y así, yo feliz de matar el tiempo con el cuento de invierno de una vieja.</p>
+        </sp>
+        <sp who="#FANTÁSTICO" xml:id="em0482-es-sp-25">
+          <speaker>Fantástico</speaker>
+          <p n="38" xml:id="em0482-es-38">¡Nada mejor que hacer en Devonshire! Te prometo, anciana, que seré todo oídos.</p>
+        </sp>
+        <sp who="#PÍCARO" xml:id="em0482-es-sp-26">
+          <speaker>Pícaro</speaker>
+          <p n="39" xml:id="em0482-es-39">Y yo también, sin duda alguna.</p>
+        </sp>
+        <sp who="#GROTESCO" xml:id="em0482-es-sp-27">
+          <speaker>Grotesco</speaker>
+<p n="40" xml:id="em0482-es-40">Entonces yo tendré que irme a la cama con este buen hombre. <emph>Bona nox</emph>, anciana. Que Dios te acompañe esta noche, Pícaro.</p>
+        </sp>
+        <sp who="#HERRERO" xml:id="em0482-es-sp-28">
+          <speaker>Herrero</speaker>
+          <p n="41" xml:id="em0482-es-41">Vamos, muchachito mío, que tienes que pasar esta noche &quot;contra natura&quot; junto a mí.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-8">Salen Grotesco y el herrero.</stage>
+        <sp who="#PÍCARO" xml:id="em0482-es-sp-29">
+          <speaker>Pícaro</speaker>
+<p n="42" xml:id="em0482-es-42">Al menos por la mañana tendremos la ventaja de ver el amanecer <emph>ex tempore</emph>.</p>
+        </sp>
+        <sp who="#MADGE" xml:id="em0482-es-sp-30">
+          <speaker>Madge</speaker>
+          <p n="43" xml:id="em0482-es-43">Ahora, señores, este trato he de hacer con vosotros: diréis &apos;ajá&apos;, &apos;ajá&apos; mientras narro mi relato, así sabré que estáis despiertos.</p>
+        </sp>
+        <sp who="#CAPILLERO #SACRISTÁN" xml:id="em0482-es-sp-31">
+          <speaker>Ambos</speaker>
+          <p n="44" xml:id="em0482-es-44">Conforme, anciana, lo haremos.</p>
+        </sp>
+        <sp who="#MADGE" xml:id="em0482-es-sp-32">
+          <speaker>Madge</speaker>
+          <p n="45" xml:id="em0482-es-45">Érase una vez, un rey o un señor o un duque, que tenía una hermosa hija, la más hermosa que existió jamás, tan blanca como la nieve y tan roja como la sangre; y érase una vez, su hija fue secuestrada, y él mandó a todos sus hombres en busca de su hija, y los mandó durante tanto tiempo, que mandó a todos sus hombres fuera de sus tierras.</p>
+        </sp>
+        <sp who="#PÍCARO" xml:id="em0482-es-sp-33">
+          <speaker>Pícaro</speaker>
+          <p n="46" xml:id="em0482-es-46">Y entonces, ¿quién les hacía la cena?</p>
+        </sp>
+        <sp who="#MADGE" xml:id="em0482-es-sp-34">
+          <speaker>Madge</speaker>
+          <p n="47" xml:id="em0482-es-47">Que escuchéis mi relato quiero o besaréis mi trasero.</p>
+        </sp>
+        <sp who="#FANTÁSTICO" xml:id="em0482-es-sp-35">
+          <speaker>Fantástico</speaker>
+          <p n="48" xml:id="em0482-es-48">¡Así se habla! Continúa con la historia, anciana.</p>
+        </sp>
+        <sp who="#MADGE" xml:id="em0482-es-sp-36">
+          <speaker>Madge</speaker>
+          <p n="49" xml:id="em0482-es-49">¡Oh, Señor, casi se me olvida! Había un gran hechicero, y como este hechicero podía hacer cualquier cosa, se convirtió en un inmenso dragón y se llevó en la boca a la hija del rey hasta un lejano castillo de piedra que él mismo construyó. Allí la retuvo por no sé cuánto, hasta que al final todos los hombres del rey se marcharon tanto tiempo que sus dos hermanos se fueron a buscarla. ¡Oh, no me acuerdo! Ella (él, debería decir) convirtió a un joven y apuesto muchacho en oso durante la noche, y durante el día en un hombre que vivía en una cruz de la que partían tres caminos distintos, y él hizo enloquecer a la muchacha. ¡Dios mío! Mirad, ¿quién viene por ahí?</p>
+        </sp>
+        <stage xml:id="em0482-es-st-9">Entran los dos hermanos.</stage>
+        <sp who="#PÍCARO" xml:id="em0482-es-sp-37">
+          <speaker>Pícaro</speaker>
+          <p n="50" xml:id="em0482-es-50">Anciana, parece que alguien viene a contar la historia por ti.</p>
+        </sp>
+        <sp who="#FANTÁSTICO" xml:id="em0482-es-sp-38">
+          <speaker>Fantástico</speaker>
+          <p n="51" xml:id="em0482-es-51">Dejémoslos solos y escuchemos lo que quieren decir.</p>
+        </sp>
+        <sp who="#HERMANO_1" xml:id="em0482-es-sp-39">
+          <speaker>Hermano 1.º</speaker>
+          <lg part="M" type="free">
+            <l n="52" xml:id="em0482-es-52">A estos calizos acantilados de Albion</l>
+            <l n="53" xml:id="em0482-es-53">hemos llegado tras un inmenso esfuerzo,</l>
+            <l n="54" xml:id="em0482-es-54">habiendo recorrido todo este amplio mundo</l>
+            <l n="55" xml:id="em0482-es-55">en busca de nuestra hermana, en busca de la hermosa Delia,</l>
+            <l n="56" xml:id="em0482-es-56">de la que todavía no tenemos noticia alguna.</l>
+          </lg>
+        </sp>
+        <sp who="#HERMANO_2" xml:id="em0482-es-sp-40">
+          <speaker>Hermano 2.º</speaker>
+          <lg part="M" type="free">
+            <l n="57" xml:id="em0482-es-57">¡Oh, cruel Fortuna! ¡Cruel y desdichada fortuna!</l>
+            <l n="58" xml:id="em0482-es-58">Desdichada porque no encontramos a nuestra hermana,</l>
+            <l n="59" xml:id="em0482-es-59">que desventurada vive su cruel suerte.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0482-es-st-10">Entra [Eresto] el anciano de la cruz, que se agacha para coger algo.</stage>
+        <sp who="#HERMANO_1" xml:id="em0482-es-sp-41">
+          <speaker>Hermano 1.º</speaker>
+          <lg part="M" type="free">
+            <l n="60" xml:id="em0482-es-60">Padre, ¡que Dios os bendiga!,</l>
+            <l n="61" xml:id="em0482-es-61">¿qué cogéis de ahí?</l>
+          </lg>
+        </sp>
+        <sp who="#ERESTO" xml:id="em0482-es-sp-42">
+          <speaker>Eresto</speaker>
+          <p n="62" xml:id="em0482-es-62">Escaramujos y bayas, palos y pajas y otras cosas que hay por el suelo, hijo mío.</p>
+        </sp>
+        <sp who="#HERMANO_1" xml:id="em0482-es-sp-43">
+          <speaker>Hermano 1.º</speaker>
+          <p n="63" xml:id="em0482-es-63">¿Escaramujos y bayas, palos y pajas? ¿Acaso es esa toda vuestra comida, padre?</p>
+        </sp>
+        <sp who="#ERESTO" xml:id="em0482-es-sp-44">
+          <speaker>Eresto</speaker>
+          <p n="64" xml:id="em0482-es-64">Sí, hijo.</p>
+        </sp>
+        <sp who="#HERMANO_2" xml:id="em0482-es-sp-45">
+          <speaker>Hermano 2.º</speaker>
+          <p n="65" xml:id="em0482-es-65">Padre, tomad esta limosna, y si obtengo éxito allá donde voy, os daré un buen atuendo de peregrino como el que jamás soñasteis llevar.</p>
+        </sp>
+        <sp who="#HERMANO_1" xml:id="em0482-es-sp-46">
+          <speaker>Hermano 1.º</speaker>
+          <p n="66" xml:id="em0482-es-66">Padre, aquí tenéis otra limosna, y si regreso exitoso de este viaje, os daré un bastón de marfil y una concha de oro fundido.</p>
+        </sp>
+        <sp who="#ERESTO" xml:id="em0482-es-sp-47">
+          <speaker>Eresto</speaker>
+          <p n="67" xml:id="em0482-es-67">¿Era hermosa?</p>
+        </sp>
+        <sp who="#HERMANO_2" xml:id="em0482-es-sp-48">
+          <speaker>Hermano 2.º</speaker>
+          <p n="68" xml:id="em0482-es-68">Resplandeciente como el blanco más limpio y el rojo más puro, como la sangre de un ciervo o la nieve recién caída.</p>
+        </sp>
+        <sp who="#ERESTO" xml:id="em0482-es-sp-49">
+          <speaker>Eresto</speaker>
+          <lg part="M" type="free">
+            <l n="69" xml:id="em0482-es-69">Entonces, escuchad con paciencia mi sabia advertencia:</l>
+            <l n="70" xml:id="em0482-es-70">al extraño no temáis,</l>
+            <l n="71" xml:id="em0482-es-71">ni de todo peligro huyáis,</l>
+            <l n="72" xml:id="em0482-es-72">pues las cosas no son lo que parecen,</l>
+            <l n="73" xml:id="em0482-es-73">soplad sobre cada llama,</l>
+            <l n="74" xml:id="em0482-es-74">pues cuando una llama se apague,</l>
+            <l n="75" xml:id="em0482-es-75">vuestros deseos se harán realidad.</l>
+            <l n="76" xml:id="em0482-es-76">Si alguien os pregunta quién os dio este consejo,</l>
+            <l n="77" xml:id="em0482-es-77">decidles que el oso blanco del bosque de Inglaterra.</l>
+          </lg>
+        </sp>
+        <sp who="#HERMANO_1" xml:id="em0482-es-sp-50">
+          <speaker>Hermano 1.º</speaker>
+          <lg part="M" type="free">
+            <l n="78" xml:id="em0482-es-78">Hermano, ¿has oído lo que ha dicho el anciano?</l>
+            <l n="79" xml:id="em0482-es-79">al extraño no temáis,</l>
+            <l n="80" xml:id="em0482-es-80">ni de todo peligro huyáis,</l>
+            <l n="81" xml:id="em0482-es-81">pues las cosas no son lo que parecen,</l>
+            <l n="82" xml:id="em0482-es-82">soplad sobre cada llama,</l>
+            <l n="83" xml:id="em0482-es-83">pues cuando una llama se apague,</l>
+            <l n="84" xml:id="em0482-es-84">vuestros deseos se harán realidad.</l>
+            <l n="85" xml:id="em0482-es-85">Si alguien os pregunta quién os dio este consejo,</l>
+            <l n="86" xml:id="em0482-es-86">decidles que el oso blanco del bosque de Inglaterra.</l>
+          </lg>
+        </sp>
+        <sp who="#HERMANO_2" xml:id="em0482-es-sp-51">
+          <speaker>Hermano 2.º</speaker>
+          <lg part="M" type="free">
+            <l n="87" xml:id="em0482-es-87">Si esto nos aporta algo bueno,</l>
+            <l n="88" xml:id="em0482-es-88">bendito sea el oso blanco del bosque de Inglaterra.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0482-es-st-11">[Salen los hermanos.]</stage>
+        <sp who="#ERESTO" xml:id="em0482-es-sp-52">
+          <speaker>Eresto</speaker>
+          <lg part="M" type="free">
+            <l n="89" xml:id="em0482-es-89">Ahora siéntate aquí y cuenta un duro relato,</l>
+            <l n="90" xml:id="em0482-es-90">triste en el modo y serio en el tono;</l>
+            <l n="91" xml:id="em0482-es-91">siéntate aquí y cuéntate a ti mismo</l>
+            <l n="92" xml:id="em0482-es-92">la causa del más desdichado estado.</l>
+            <l n="93" xml:id="em0482-es-93">En Tesalia viví con dulce satisfacción,</l>
+            <l n="94" xml:id="em0482-es-94">hasta que la suerte forjó mi tristeza,</l>
+            <l n="95" xml:id="em0482-es-95">pues allí iba a casarme con una dama,</l>
+            <l n="96" xml:id="em0482-es-96">que vivió con honor, virtud, amor y fama.</l>
+            <l n="97" xml:id="em0482-es-97">Pero Sacripante, ese maldito hechicero,</l>
+            <l n="98" xml:id="em0482-es-98">locamente enamorado de mi dulce amor,</l>
+            <l n="99" xml:id="em0482-es-99">mi más querido amor, mi bella y fiel prometida,</l>
+            <l n="100" xml:id="em0482-es-100">buscó el modo de arrebatarme mi vida.</l>
+            <l n="101" xml:id="em0482-es-101">Y para mayor perjuicio, con un maleficio,</l>
+            <l n="102" xml:id="em0482-es-102">me convirtió en un oso espantoso.</l>
+            <l n="103" xml:id="em0482-es-103">Y cuando el sol se posa por el oeste,</l>
+            <l n="104" xml:id="em0482-es-104">saco a relucir mi lado angustiado.</l>
+            <l n="105" xml:id="em0482-es-105">Durante el día, como veis, yazco aquí sentado</l>
+            <l n="106" xml:id="em0482-es-106">y creo versos inspirado por la rabia,</l>
+            <l n="107" xml:id="em0482-es-107">pues parezco un hombre viejo y desdichado,</l>
+            <l n="108" xml:id="em0482-es-108">siendo todavía un joven muchacho.</l>
+            <stage xml:id="em0482-es-st-12">Entra Venelia, su dama, enloquecida y sale de nuevo.</stage>
+            <l n="109" xml:id="em0482-es-109">Mirad a Venelia, mi verdadero amor,</l>
+            <l n="110" xml:id="em0482-es-110">que deambula encolerizada por los bosques,</l>
+            <l n="111" xml:id="em0482-es-111">a causa de sus malditos hechizos.</l>
+          </lg>
+          <stage xml:id="em0482-es-st-13">Entra Lamprisco con un bote de miel.</stage>
+          <p n="112" xml:id="em0482-es-112">Ahí viene Lamprisco, mi triste vecino. — ¿Qué ocurre, vecino? Andáis mirando al suelo como yo. Algo estáis rumiando.</p>
+        </sp>
+        <sp who="#LAMPRISCO" xml:id="em0482-es-sp-53">
+          <speaker>Lamprisco</speaker>
+          <p n="113" xml:id="em0482-es-113">Nada distinto a lo que habitualmente os cuento, vecino. Si pudieseis hacer algo por caridad, ayudadme; por vecindad o hermandad, ayudadme, pues nunca hubo nadie tan desdichado como el pobre Lamprisco. Para empezar, os ruego que aceptéis este bote de miel como agradecimiento.</p>
+        </sp>
+        <sp who="#ERESTO" xml:id="em0482-es-sp-54">
+          <speaker>Eresto</speaker>
+<p n="114" xml:id="em0482-es-114">Gracias vecino, dejadla ahí. <stage type="delivery" xml:id="em0482-es-st-14">(Aparte)</stage> <seg type="aside" xml:id="em0482-es-114-seg1">A los osos nos encanta la miel.</seg> — Y ahora, vecino, dejadme escuchar el motivo de vuestra visita.</p>
+        </sp>
+        <sp who="#LAMPRISCO" xml:id="em0482-es-sp-55">
+          <speaker>Lamprisco</speaker>
+          <p n="115" xml:id="em0482-es-115">Como bien sabéis, vecino, soy un hombre viudo, y viví una agitada vida con mis dos esposas. Cada año celebro el día en que las enterré; a la primera el día San Andrés y a la otra el de San Lucas.</p>
+        </sp>
+        <sp who="#ERESTO" xml:id="em0482-es-sp-56">
+          <speaker>Eresto</speaker>
+          <p n="116" xml:id="em0482-es-116">Y ahora, vecino, como soléis decir por aquí: ya os habéis liberado de vuestras cadenas; vamos, continuad con vuestra historia.</p>
+        </sp>
+        <sp who="#LAMPRISCO" xml:id="em0482-es-sp-57">
+          <speaker>Lamprisco</speaker>
+          <p n="117" xml:id="em0482-es-117">De mi primera esposa, que tenía una voz que me mató en vida y retumbaba en mis oídos como el badajo de una enorme campana; cuya forma de hablar era un tormento para todos los que vivían con ella, o a su alrededor, me habréis oído decir que tuve una hija muy hermosa.</p>
+        </sp>
+        <sp who="#ERESTO" xml:id="em0482-es-sp-58">
+          <speaker>Eresto</speaker>
+          <p n="118" xml:id="em0482-es-118">Así es, vecino.</p>
+        </sp>
+        <sp who="#LAMPRISCO" xml:id="em0482-es-sp-59">
+          <speaker>Lamprisco</speaker>
+          <p n="119" xml:id="em0482-es-119">Ella es la que me aflige con sus continuos lamentos y depende de mí como un parásito. ¡Qué desdichada y qué orgullosa es! Tan pobre como una oveja esquilada y tan orgullosa como un pavo real con su cola extendida.</p>
+        </sp>
+        <sp who="#ERESTO" xml:id="em0482-es-sp-60">
+          <speaker>Eresto</speaker>
+          <p n="120" xml:id="em0482-es-120">Bien dicho, Lamprisco, habláis como un inglés.</p>
+        </sp>
+        <sp who="#LAMPRISCO" xml:id="em0482-es-sp-61">
+          <speaker>Lamprisco</speaker>
+          <p n="121" xml:id="em0482-es-121">Tan malhumorada como una avispa y tan rebelde como un bebé recién destetado; ella es para mí como el humo para los ojos o el vinagre para los dientes.</p>
+        </sp>
+        <sp who="#ERESTO" xml:id="em0482-es-sp-62">
+          <speaker>Eresto</speaker>
+          <p n="122" xml:id="em0482-es-122">No podríais describirlo mejor, vecino. ¿Qué me contáis de la otra?</p>
+        </sp>
+        <sp who="#LAMPRISCO" xml:id="em0482-es-sp-63">
+          <speaker>Lamprisco</speaker>
+          <p n="123" xml:id="em0482-es-123">Con mi otra esposa tuve una hija tan poco agraciada, tan horrible y tan fea, que creo que un bosquecillo de árboles de oro con hojas de rubíes y diamantes no sería una dote acorde a su deformidad.</p>
+        </sp>
+        <sp who="#ERESTO" xml:id="em0482-es-sp-64">
+          <speaker>Eresto</speaker>
+          <p n="124" xml:id="em0482-es-124">Bien vecino, ahora que habéis terminado de hablar, escuchadme. Mandadlas al pozo a por el agua de la vida, que allí hallarán sus inesperadas fortunas. Adiós, vecino.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-15">Sale.</stage>
+        <sp who="#LAMPRISCO" xml:id="em0482-es-sp-65">
+          <speaker>Lamprisco</speaker>
+          <p n="125" xml:id="em0482-es-125">Mil gracias y adiós. Y ahora el pobre Lamprisco se marcha para llevar a cabo este maravilloso consejo.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-16">Sale.</stage>
+        <sp who="#PÍCARO" xml:id="em0482-es-sp-66">
+          <speaker>Pícaro</speaker>
+          <p n="126" xml:id="em0482-es-126">Esta historia suena tan bien como una melodía de violín. Pero, ¿has oído anciana? ¿Era este el hombre que es un oso por la noche y un anciano durante el día?</p>
+        </sp>
+        <sp who="#MADGE" xml:id="em0482-es-sp-67">
+          <speaker>Madge</speaker>
+          <p n="127" xml:id="em0482-es-127">Sí, sí, es él y el hombre que ha venido a visitarle es un mendigo que vive en un parque. Mirad, ¿quién viene por ahí? ¡Oh, son los campesinos! Diez contra uno a que están cantando una canción rural.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-17">Entran los campesinos cantando una canción. Se repite dos veces.</stage>
+        <sp who="#Campesinos" xml:id="em0482-es-sp-68">
+          <speaker>Campesinos</speaker>
+          <lg part="M" type="free">
+<l n="128" xml:id="em0482-es-128"><emph>Vosotros que adorables amantes sois, orad por mí.</emph></l>
+<l n="129" xml:id="em0482-es-129"><emph>que aquí venimos sembrando, sembrando,</emph></l>
+<l n="130" xml:id="em0482-es-130"><emph>sembrando los dulces frutos del amor,</emph></l>
+<l n="131" xml:id="em0482-es-131"><emph>que alimentarán a vuestro corazón.</emph></l>
+          </lg>
+        </sp>
+        <stage xml:id="em0482-es-st-18">Salen.</stage>
+        <stage xml:id="em0482-es-st-19">Entra Juanbango con su espada a dos manos y Bobi [Corebo], el bufón.</stage>
+        <sp who="#FANTÁSTICO" xml:id="em0482-es-sp-69">
+          <speaker>Fantástico</speaker>
+          <p n="132" xml:id="em0482-es-132">¿Y éste quién es, anciana?</p>
+        </sp>
+        <sp who="#MADGE" xml:id="em0482-es-sp-70">
+          <speaker>Madge</speaker>
+          <p n="133" xml:id="em0482-es-133">Oh, es alguien que va a ver al hechicero. Dejémoslo solo y escuchemos qué dice.</p>
+        </sp>
+        <sp who="#JUANBANGO" xml:id="em0482-es-sp-71">
+          <speaker>Juanbango</speaker>
+          <p n="134" xml:id="em0482-es-134">¡Por Marte, Mercurio, Júpiter y Juno, Sol y Saturno, Venus y Vesta, Palas y Prosperina! ¡Por el honor de Polimaqueroplágides! Es asombroso ver cómo este amor hace que los estúpidos se aventuren en su busca, ignorando el sentido común y la prudencia. Ay, amigo mío, ¿qué fortuna te lleva a buscar la suerte ante insolentes puertas, torres encantadas, fuego y azufre, truenos y relámpagos? La belleza de esta dama, te digo, es incomparable; es preciosa la mujer que adoras. Reprime tus deseos, buen campesino; buen amigo, huye de ti mismo y olvídala lo antes posible, porque solo la poseerá aquel que pueda domar a los monstruos, resolver enigmas, deshacer encantamientos, matar a la magia y asesinar al hechicero, y ese no puede ser otro que el fuerte y poderoso Juanbango.</p>
+        </sp>
+        <sp who="#COREBO" xml:id="em0482-es-sp-72">
+          <speaker>Bobi</speaker>
+          <p n="135" xml:id="em0482-es-135">¡Escuchad, señor, escuchad! Primero debéis saber que tengo aquí la pluma flameante y que fui el primero de la parroquia en utilizar los calzones largos. Señor, si no fuese más que correr entre truenos y relámpagos, y — ¡adivina, adivinanza!, ¿qué es esto?, yo mismo liberaría a la muchacha de ese hechicero y de diez más como él.</p>
+        </sp>
+        <sp who="#JUANBANGO" xml:id="em0482-es-sp-73">
+          <speaker>Juanbango</speaker>
+<p n="136" xml:id="em0482-es-136">He abandonado la corte y una honorable compañía para cumplir caballerosamente con mi deber contra este maldito hechicero y poderoso mago. Si la dama es tan bella como dicen, ella es mía, ella es mía. <emph>Meus, mea, meum in contemptum omnium grammaticorum</emph>.</p>
+        </sp>
+        <sp who="#COREBO" xml:id="em0482-es-sp-74">
+          <speaker>Bobi</speaker>
+          <lg part="M" type="free">
+<l n="137" xml:id="em0482-es-137"><emph>O falsum Latinum!</emph></l>
+<l n="138" xml:id="em0482-es-138">La hermosa dama is <emph>minum,</emph></l>
+<l n="139" xml:id="em0482-es-139"><emph>Cum apurtinantibus gibletis</emph> y todo.</l>
+          </lg>
+        </sp>
+        <sp who="#JUANBANGO" xml:id="em0482-es-sp-75">
+          <speaker>Juanbango</speaker>
+          <p n="140" xml:id="em0482-es-140">Si la hago mía, como estoy convencido de que los cielos recompensarán mi valor, ella no se aliará con los dioses menores, sino que formará parte de la estirpe más conocida de Juanbango Polimaqueroplácido, mi abuelo; mi padre, Pergopolineo; mi madre, Dionora de Sardinia, de ascendencia por todos conocida.</p>
+        </sp>
+        <sp who="#COREBO" xml:id="em0482-es-sp-76">
+          <speaker>Bobi</speaker>
+          <p n="141" xml:id="em0482-es-141">Escuchad, señor, ¿no teníais también un primo que se llamaba Gustecerido?</p>
+        </sp>
+        <sp who="#JUANBANGO" xml:id="em0482-es-sp-77">
+          <speaker>Juanbango</speaker>
+          <p n="142" xml:id="em0482-es-142">Es más, tengo un primo que durante un tiempo sirvió a la corte con muy mala fortuna. Se llama Bustegustecerido.</p>
+        </sp>
+        <sp who="#COREBO" xml:id="em0482-es-sp-78">
+          <speaker>Bobi</speaker>
+          <p n="143" xml:id="em0482-es-143">¡Oh, señor! Le conozco bien, es el caballero de los pies de buey.</p>
+        </sp>
+        <sp who="#JUANBANGO" xml:id="em0482-es-sp-79">
+          <speaker>Juanbango</speaker>
+          <p n="144" xml:id="em0482-es-144">Le gustaba tanto el capón que a veces le robaba la cena a su siervo. Ese era el defecto del buen Bustegustecerido.</p>
+        </sp>
+        <sp who="#COREBO" xml:id="em0482-es-sp-80">
+          <speaker>Bobi</speaker>
+<p n="145" xml:id="em0482-es-145">Vamos, ¿no deberíamos continuar? <stage xml:id="em0482-es-st-20">[Entra Eresto junto a la cruz.]</stage> <lb n="146" xml:id="em0482-es-146"/>Mirad, hay un anciano en esa cruz. Preguntémosle cuál es el camino más corto. — ¡Eh, anciano! Os ruego que nos digáis donde vive ese sabio hechicero.</p>
+        </sp>
+        <sp who="#JUANBANGO" xml:id="em0482-es-sp-81">
+          <speaker>Juanbango</speaker>
+          <p n="147" xml:id="em0482-es-147">¿Adónde retiene a esa diosa terrenal, la hermosa dueña y señora de mi corazón y mis pensamientos?</p>
+        </sp>
+        <sp who="#ERESTO" xml:id="em0482-es-sp-82">
+          <speaker>Eresto</speaker>
+          <p n="148" xml:id="em0482-es-148">Bastante hermosa y bastante lejos de tu alcance, hijo.</p>
+        </sp>
+        <sp who="#JUANBANGO" xml:id="em0482-es-sp-83">
+          <speaker>Juanbango</speaker>
+          <p n="149" xml:id="em0482-es-149">Entonces, seguiré mi camino según mi intuición y obraré con discreción.</p>
+        </sp>
+        <sp who="#ERESTO" xml:id="em0482-es-sp-84">
+          <speaker>Eresto</speaker>
+          <p n="150" xml:id="em0482-es-150">Dadle algo a este pobre hombre antes de partir.</p>
+        </sp>
+        <sp who="#JUANBANGO" xml:id="em0482-es-sp-85">
+          <speaker>Juanbango</speaker>
+          <p n="151" xml:id="em0482-es-151">Padre, creo que un pedazo de este pastel te servirá.</p>
+        </sp>
+        <sp who="#ERESTO" xml:id="em0482-es-sp-86">
+          <speaker>Eresto</speaker>
+          <p n="152" xml:id="em0482-es-152">Sí, hijo mío.</p>
+        </sp>
+        <sp who="#JUANBANGO" xml:id="em0482-es-sp-87">
+          <speaker>Juanbango</speaker>
+          <p n="153" xml:id="em0482-es-153">Juanbango no comparte pasteles por caridad. Pídeselos a los que dan presentes a los pobres mendigos. Dulce dama, si algún día te tuviese en este templo que alberga mi pecho, te adoraría tanto. ¡Haratantara!</p>
+        </sp>
+        <stage xml:id="em0482-es-st-21">Sale.</stage>
+        <sp who="#COREBO" xml:id="em0482-es-sp-88">
+          <speaker>Bobi</speaker>
+          <p n="154" xml:id="em0482-es-154">Padre, ¿habéis visto a ese hombre? ¿No creéis que anhela el dulce o que recorrería una o dos millas por un pastel así? Os digo, padre, que él me ha estado suplicando que le diera un pedazo de este pastel. Él, que me viene con &apos;sustancias superfanciales y la abundancia de la tierra&apos;, y no entiendo a qué se refiere. Si se acercase a mí y dijera: &quot;Corebo, amigo mío&quot;, o algo así, ¿por qué no iba a darle un pedazo de pastel de todo corazón? Pero cuando me dice que Dios me enriqueció sobre otros tipos con un pastel, vamos, quiere hacerme ciego y sordo a la vez. Así que, padre, con los tiempos tan duros que corren, aquí os dejo un pedazo de este pastel.</p>
+        </sp>
+        <sp who="#ERESTO" xml:id="em0482-es-sp-89">
+          <speaker>Eresto</speaker>
+          <lg part="M" type="free">
+            <l n="155" xml:id="em0482-es-155">Gracias hijo. Ahora escucha lo que te digo.</l>
+            <l n="156" xml:id="em0482-es-156">Él se quedará sordo cuando tú no puedas ver.</l>
+            <l n="157" xml:id="em0482-es-157">Adiós, hijo mío, las cosas así han de ser,</l>
+            <l n="158" xml:id="em0482-es-158">que tengas riqueza para reparar el sentido.</l>
+          </lg>
+        </sp>
+        <sp who="#COREBO" xml:id="em0482-es-sp-90">
+          <speaker>Bobi</speaker>
+          <p n="159" xml:id="em0482-es-159">Adiós padre, adiós, debo darme prisa y alcanzar al que se marchó con la espada a dos manos.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-22">Salen todos.</stage>
+        <stage xml:id="em0482-es-st-23">Entra Sacripante pensativo.</stage>
+        <sp who="#SACRIPANTE" xml:id="em0482-es-sp-91">
+          <speaker>Sacripante</speaker>
+          <lg part="M" type="free">
+            <l n="160" xml:id="em0482-es-160">El día es claro, el cielo radiante y gris,</l>
+            <l n="161" xml:id="em0482-es-161">la alondra entona sus notas feliz,</l>
+            <l n="162" xml:id="em0482-es-162">bajo el cielo todo desprende alegría,</l>
+            <l n="163" xml:id="em0482-es-163">excepto yo, odiado por el cielo,</l>
+            <l n="164" xml:id="em0482-es-164">desdichado y miserable Sacripante.</l>
+            <l n="165" xml:id="em0482-es-165">En Tesalia nací y crecí.</l>
+            <l n="166" xml:id="em0482-es-166">De la astucia de mi madre, la famosa bruja Méroe, aprendí</l>
+            <l n="167" xml:id="em0482-es-167">a cambiar y alterar las formas de los mortales.</l>
+            <l n="168" xml:id="em0482-es-168">Allí me convertí en dragón</l>
+            <l n="169" xml:id="em0482-es-169">y le robé su hija al rey,</l>
+            <l n="170" xml:id="em0482-es-170">la bella Delia, dueña y señora de mi corazón,</l>
+            <l n="171" xml:id="em0482-es-171">y hasta aquí la traje para resucitar</l>
+            <l n="172" xml:id="em0482-es-172">al joven apuesto que podéis contemplar,</l>
+            <l n="173" xml:id="em0482-es-173">que es en realidad un viejo entumecido y encorvado.</l>
+            <l n="174" xml:id="em0482-es-174">Con mis hechizos puedo engañar</l>
+            <l n="175" xml:id="em0482-es-175">a los que ponen su mirada en mi rostro,</l>
+            <l n="176" xml:id="em0482-es-176">pues ya me despedí de los años de juventud.</l>
+            <stage xml:id="em0482-es-st-24">Entra Delia con un bote en las manos.</stage>
+            <l n="177" xml:id="em0482-es-177">Mirad de dónde viene ella, de dónde surge mi tristeza.</l>
+            <l n="178" xml:id="em0482-es-178">¿Cómo estás, hermosa Delia? ¿Adónde has estado?</l>
+          </lg>
+        </sp>
+        <sp who="#DELIA" xml:id="em0482-es-sp-92">
+          <speaker>Delia</speaker>
+          <p n="179" xml:id="em0482-es-179">Fui a los pies de las rocas a por agua corriente y a coger vegetales para vuestra cena, señor.</p>
+        </sp>
+        <sp who="#SACRIPANTE" xml:id="em0482-es-sp-93">
+          <speaker>Sacripante</speaker>
+          <p n="180" xml:id="em0482-es-180">Oh, Delia, eres más bella que el agua de las rocas, tan fuerte y firme como el acero.</p>
+        </sp>
+        <sp who="#DELIA" xml:id="em0482-es-sp-94">
+          <speaker>Delia</speaker>
+          <p n="181" xml:id="em0482-es-181">¿Os importa si me siento, señor?</p>
+        </sp>
+        <sp who="#SACRIPANTE" xml:id="em0482-es-sp-95">
+          <speaker>Sacripante</speaker>
+          <lg part="M" type="free">
+            <l n="182" xml:id="em0482-es-182">Vamos, Delia, siéntate y pídeme lo que quieras,</l>
+            <l n="183" xml:id="em0482-es-183">que lo tendrás en tu regazo.</l>
+          </lg>
+        </sp>
+        <sp who="#DELIA" xml:id="em0482-es-sp-96">
+          <speaker>Delia</speaker>
+          <p n="184" xml:id="em0482-es-184">Entonces os ruego, señor, que me dejéis probar la mejor carne, la que se sirve en los banquetes del rey, y el mejor vino de Francia, servido por el hombre más villano de España.</p>
+        </sp>
+        <sp who="#SACRIPANTE" xml:id="em0482-es-sp-97">
+          <speaker>Sacripante</speaker>
+          <lg part="M" type="free">
+            <l n="185" xml:id="em0482-es-185">Delia, estoy contento de verte de tan buen humor.</l>
+            <l n="186" xml:id="em0482-es-186">Vamos, siéntate.</l>
+            <l n="187" xml:id="em0482-es-187">¡Poned la mesa, la mesa poned!</l>
+            <l n="188" xml:id="em0482-es-188">¡Carne, bebida y pan traed!</l>
+            <l n="189" xml:id="em0482-es-189">He de tener todo lo que antojo</l>
+            <l n="190" xml:id="em0482-es-190">cuando estoy generoso.</l>
+            <l n="191" xml:id="em0482-es-191">Comida para mi gallo negro,</l>
+            <l n="192" xml:id="em0482-es-192">comida para mi gallo rojo.</l>
+          </lg>
+          <stage xml:id="em0482-es-st-25">Entra un fraile con un solomillo de ternera y una botella de vino.</stage>
+          <p n="193" xml:id="em0482-es-193">Vamos Delia, ¿quieres empezar?</p>
+        </sp>
+        <sp who="#DELIA" xml:id="em0482-es-sp-98">
+          <speaker>Delia</speaker>
+          <p n="194" xml:id="em0482-es-194">¿Es esta la mejor carne de Inglaterra?</p>
+        </sp>
+        <sp who="#SACRIPANTE" xml:id="em0482-es-sp-99">
+          <speaker>Sacripante</speaker>
+          <p n="195" xml:id="em0482-es-195">Así es.</p>
+        </sp>
+        <sp who="#DELIA" xml:id="em0482-es-sp-100">
+          <speaker>Delia</speaker>
+          <p n="196" xml:id="em0482-es-196">¿Qué es?</p>
+        </sp>
+        <sp who="#SACRIPANTE" xml:id="em0482-es-sp-101">
+          <speaker>Sacripante</speaker>
+          <p n="197" xml:id="em0482-es-197">Un solomillo de ternera inglesa, comida para el rey y los secuaces del rey.</p>
+        </sp>
+        <sp who="#DELIA" xml:id="em0482-es-sp-102">
+          <speaker>Delia</speaker>
+          <p n="198" xml:id="em0482-es-198">Y, ¿es este el mejor vino de Francia?</p>
+        </sp>
+        <sp who="#SACRIPANTE" xml:id="em0482-es-sp-103">
+          <speaker>Sacripante</speaker>
+          <p n="199" xml:id="em0482-es-199">Sí</p>
+        </sp>
+        <sp who="#DELIA" xml:id="em0482-es-sp-104">
+          <speaker>Delia</speaker>
+          <p n="200" xml:id="em0482-es-200">¿Qué vino es?</p>
+        </sp>
+        <sp who="#SACRIPANTE" xml:id="em0482-es-sp-105">
+          <speaker>Sacripante</speaker>
+          <p n="201" xml:id="em0482-es-201">Es una copa de vino puro de Orleans, que nunca encontrarías en las cervecerías de Inglaterra.</p>
+        </sp>
+        <sp who="#DELIA" xml:id="em0482-es-sp-106">
+          <speaker>Delia</speaker>
+          <p n="202" xml:id="em0482-es-202">¿Es este el más grande de los villanos de toda España?</p>
+        </sp>
+        <sp who="#SACRIPANTE" xml:id="em0482-es-sp-107">
+          <speaker>Sacripante</speaker>
+          <p n="203" xml:id="em0482-es-203">Sí.</p>
+        </sp>
+        <sp who="#DELIA" xml:id="em0482-es-sp-108">
+          <speaker>Delia</speaker>
+          <p n="204" xml:id="em0482-es-204">Pero, ¿no es un fraile?</p>
+        </sp>
+        <sp who="#SACRIPANTE" xml:id="em0482-es-sp-109">
+          <speaker>Sacripante</speaker>
+          <p n="205" xml:id="em0482-es-205">Sí, un fraile limitado y un villano sin límites.</p>
+        </sp>
+        <sp who="#DELIA" xml:id="em0482-es-sp-110">
+          <speaker>Delia</speaker>
+          <p n="206" xml:id="em0482-es-206">Entonces, señor fraile, os ruego que antes de marcharos me digáis quién es el hombre más codicioso de Inglaterra.</p>
+        </sp>
+        <sp who="#FRAILE" xml:id="em0482-es-sp-111">
+          <speaker>Fraile</speaker>
+          <p n="207" xml:id="em0482-es-207">El miserable y más codicioso usurero.</p>
+        </sp>
+        <sp who="#SACRIPANTE" xml:id="em0482-es-sp-112">
+          <speaker>Sacripante</speaker>
+          <lg part="M" type="free">
+            <l n="208" part="I" xml:id="em0482-es-208">¡Fuera de aquí, fraile!</l>
+            <stage xml:id="em0482-es-st-26">Sale el fraile.</stage>
+            <l part="F" xml:id="em0482-es-209">Pero, silencio.</l>
+            <l n="209" xml:id="em0482-es-210">¿A quién tenemos aquí? ¡Delia, márchate!</l>
+            <stage xml:id="em0482-es-st-27">Entran los dos hermanos.</stage>
+            <l n="210" xml:id="em0482-es-211">¡Delia, vete, que nos están asaltando!</l>
+            <l n="211" xml:id="em0482-es-212">Pero el cielo o el infierno la liberarán por mí.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0482-es-st-28">[Salen Sacripante y Delia.]</stage>
+        <sp who="#HERMANO_1" xml:id="em0482-es-sp-113">
+          <speaker>Hermano 1.º</speaker>
+          <lg part="M" type="free">
+            <l n="212" xml:id="em0482-es-213">Hermano, ¿no era esa Delia?</l>
+            <l n="213" xml:id="em0482-es-214">¿O era tan solo su sombra la que estaba aquí?</l>
+          </lg>
+        </sp>
+        <sp who="#HERMANO_2" xml:id="em0482-es-sp-114">
+          <speaker>Hermano 2.º</speaker>
+          <lg part="M" type="free">
+            <l n="214" xml:id="em0482-es-215">Hermana, ¿adónde estás? ¡Delia, sal otra vez!</l>
+            <l n="215" xml:id="em0482-es-216">Te llama quién se aflige por tu ausencia.</l>
+            <l n="216" xml:id="em0482-es-217">Grita, Califa, que nos pueda escuchar,</l>
+            <l n="217" xml:id="em0482-es-218">grita fuerte, porque Delia está cerca.</l>
+          </lg>
+        </sp>
+        <sp who="#ECO" xml:id="em0482-es-sp-115">
+          <speaker>Eco</speaker>
+          <lg part="M" type="free">
+            <l n="218" xml:id="em0482-es-219">Cerca.</l>
+          </lg>
+        </sp>
+        <sp who="#HERMANO_1" xml:id="em0482-es-sp-116">
+          <speaker>Hermano 1.º</speaker>
+          <lg part="M" type="free">
+            <l n="219" xml:id="em0482-es-220">¿Cerca? ¿Dónde? ¿Tienes tú alguna noticia?</l>
+          </lg>
+        </sp>
+        <sp who="#ECO" xml:id="em0482-es-sp-117">
+          <speaker>Eco</speaker>
+          <lg part="M" type="free">
+            <l n="220" xml:id="em0482-es-221">Noticia.</l>
+          </lg>
+        </sp>
+        <sp who="#HERMANO_2" xml:id="em0482-es-sp-118">
+          <speaker>Hermano 2.º</speaker>
+          <p n="221" xml:id="em0482-es-222">Entonces, ¿por dónde está Delia? ¿Por allí o por allá?</p>
+        </sp>
+        <sp who="#ECO" xml:id="em0482-es-sp-119">
+          <speaker>Eco</speaker>
+          <p n="222" xml:id="em0482-es-223">Allá.</p>
+        </sp>
+        <sp who="#HERMANO_1" xml:id="em0482-es-sp-120">
+          <speaker>Hermano 1.º</speaker>
+          <lg part="M" type="free">
+            <l n="223" xml:id="em0482-es-224">¿Estaremos seguros allí donde ella está?</l>
+          </lg>
+        </sp>
+        <sp who="#ECO" xml:id="em0482-es-sp-121">
+          <speaker>Eco</speaker>
+          <lg part="M" type="free">
+            <l n="224" xml:id="em0482-es-225">Sí.</l>
+          </lg>
+        </sp>
+        <sp who="#HERMANO_2" xml:id="em0482-es-sp-122">
+          <speaker>Hermano 2.º</speaker>
+          <p n="225" xml:id="em0482-es-226">¿Recuerdas lo que dijo el oso blanco del bosque?</p>
+          <lg type="free">
+            <l n="226" xml:id="em0482-es-227">&quot;Al extraño no temáis,</l>
+            <l n="227" xml:id="em0482-es-228">ni de todo peligro huyáis,</l>
+            <l n="228" xml:id="em0482-es-229">pues las cosas no son lo que parecen.&quot;</l>
+          </lg>
+        </sp>
+        <sp who="#HERMANO_1" xml:id="em0482-es-sp-123">
+          <speaker>Hermano 1.º</speaker>
+          <p n="229" xml:id="em0482-es-230">Hermano, ¿por qué no nos armamos de valor y entramos?</p>
+        </sp>
+        <sp who="#HERMANO_2" xml:id="em0482-es-sp-124">
+          <speaker>Hermano 2.º</speaker>
+          <lg part="M" type="free">
+            <l n="230" xml:id="em0482-es-231">Vamos, hermano, saca tu espada y sígueme.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0482-es-st-29">Entra [Sacripante] el hechicero. Truenos y relámpagos.</stage>
+        <stage xml:id="em0482-es-st-30">Cae el segundo de los hermanos.</stage>
+        <sp who="#HERMANO_1" xml:id="em0482-es-sp-125">
+          <speaker>Hermano 1.º</speaker>
+          <p n="231" xml:id="em0482-es-232">¿Qué ocurre, hermano, te has caído?</p>
+        </sp>
+        <sp who="#SACRIPANTE" xml:id="em0482-es-sp-126">
+          <speaker>Sacripante</speaker>
+          <p n="232" xml:id="em0482-es-233">¡Sí! Y tú también, Califa.</p>
+          <stage xml:id="em0482-es-st-31">Cae el hermano primero.</stage>
+          <stage xml:id="em0482-es-st-32">Entran dos furias.</stage>
+          <lg type="free">
+<l n="233" xml:id="em0482-es-234">¡<emph>Adeste, daemones</emph>! ¡Lleváoslos!</l>
+            <l n="234" xml:id="em0482-es-235">Conducidlos directamente a la celda de Sacripante,</l>
+            <l n="235" xml:id="em0482-es-236">que vivan allí en la tortura y la desesperación.</l>
+            <stage xml:id="em0482-es-st-33">[Salen las furias con los dos hermanos.]</stage>
+            <l n="236" xml:id="em0482-es-237">Estos son los hijos de Tenor de Tesalia,</l>
+            <l n="237" xml:id="em0482-es-238">que vienen en busca de su hermana Delia,</l>
+            <l n="238" xml:id="em0482-es-239">pero con mis artes y el veneno que le he dado,</l>
+            <l n="239" xml:id="em0482-es-240">hasta de sí misma se ha olvidado.</l>
+            <stage xml:id="em0482-es-st-34">Quita una hierba y muestra una llama dentro de un cristal.</stage>
+            <l n="240" xml:id="em0482-es-241">Contemplad el objeto que prolongará mi vida.</l>
+            <l n="241" xml:id="em0482-es-242">Con este encantamiento puedo hacer lo que me proponga,</l>
+            <l n="242" xml:id="em0482-es-243">y mientras esta llama no se desvanezca perdurará mi poder.</l>
+            <l n="243" xml:id="em0482-es-244">Nadie podrá romper jamás este pequeño cristal,</l>
+            <l n="244" xml:id="em0482-es-245">tan solo aquella que no sea esposa, ni viuda ni doncella.</l>
+            <l n="245" xml:id="em0482-es-246">Así que alégrate, pues este es tu destino:</l>
+            <l n="246" xml:id="em0482-es-247">no morir nunca, si no es a manos de un hombre muerto.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0482-es-st-35">Entra Euménides, el caballero errante, y [Eresto] el anciano de la cruz</stage>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-127">
+          <speaker>Euménides</speaker>
+          <lg part="M" type="free">
+            <l n="247" xml:id="em0482-es-248">Dime, Tiempo;</l>
+            <l n="248" xml:id="em0482-es-249">dime, Tiempo exacto, ¿cuándo podré ver a Delia?</l>
+            <l n="249" xml:id="em0482-es-250">¿Cuándo podré ver a la estrella que ilumina mi vida?</l>
+            <l n="250" xml:id="em0482-es-251">¿Cuándo terminará esta búsqueda errante con su presencia?</l>
+            <l n="251" xml:id="em0482-es-252">¿O cuándo veré mi esperanza y mis sueños hechos realidad?</l>
+            <l n="252" xml:id="em0482-es-253">— Padre, ¡por el amor de Dios! Si sois capaz de predecir el destino, decidme cuál es el mío.</l>
+          </lg>
+        </sp>
+        <sp who="#ERESTO" xml:id="em0482-es-sp-128">
+          <speaker>Eresto</speaker>
+          <lg part="M" type="free">
+            <l n="253" xml:id="em0482-es-254">Hijo, en tu rostro puedo ver</l>
+            <l n="254" xml:id="em0482-es-255">que pronto la deseada fortuna va a aparecer.</l>
+            <l n="255" xml:id="em0482-es-256">Percibo que tienes talento</l>
+            <l n="256" xml:id="em0482-es-257">y ruego al destino que lo dirija,</l>
+            <l n="257" xml:id="em0482-es-258">pues la sabiduría guiada por un consejo</l>
+            <l n="258" xml:id="em0482-es-259">hace que muchos sean afortunados y sabios.</l>
+            <l n="259" xml:id="em0482-es-260">Ofrece tus limosnas, entrega todo lo que tengas</l>
+            <l n="260" xml:id="em0482-es-261">cuando los restos mortales de un hombre lo requieran.</l>
+            <l n="261" xml:id="em0482-es-262">Adiós, hijo mío, no sueñes con el descanso</l>
+            <l n="262" xml:id="em0482-es-263">hasta que estés seguro de haber hecho lo correcto.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0482-es-st-36">Sale el anciano [Eresto].</stage>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-129">
+          <speaker>Euménides</speaker>
+          <lg part="M" type="free">
+            <l n="263" xml:id="em0482-es-264">Este hombre me ha dejado en un laberinto.</l>
+            <l n="264" xml:id="em0482-es-265">Me sugiere que entregue todo lo que tengo</l>
+            <l n="265" xml:id="em0482-es-266">&quot;cuando los restos mortales de un hombre lo requieran&quot;.</l>
+            <l n="266" xml:id="em0482-es-267">Me sugiere que no sueñe con el descanso,</l>
+            <l n="267" xml:id="em0482-es-268">hasta que me asegure de que he hecho lo mejor.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0482-es-st-37">[Se acuesta a dormir.]</stage>
+        <stage xml:id="em0482-es-st-38">Entran Silbón, Corebo, el capillero y el sacristán.</stage>
+        <sp who="#SILBÓN" xml:id="em0482-es-sp-130">
+          <speaker>Silbón</speaker>
+          <lg part="M" type="free">
+            <l n="268" xml:id="em0482-es-269">Deberíais de estar avergonzados, si es que esas caras de sinvergüenza conocen la vergüenza; unos repugnantes roñosos sois el sacristán y el capillero por dejar tanto tiempo tirado en el suelo y sin un entierro digno a un pobre hombre. Tendríais que pudriros los que no tenéis compasión por un buen tipo ni siquiera cuando se ha ido.</l>
+          </lg>
+        </sp>
+        <sp who="#CAPILLERO" xml:id="em0482-es-sp-131">
+          <speaker>Capillero</speaker>
+          <p n="269" xml:id="em0482-es-270">¿Cómo? ¿Si os parece le enterramos y le pagamos nosotros también a la parroquia?</p>
+        </sp>
+        <sp who="#SACRISTÁN" xml:id="em0482-es-sp-132">
+          <speaker>Sacristán.</speaker>
+          <p n="270" xml:id="em0482-es-271">¿Qué parroquia ni que parroquia? Pagadme mis honorarios y dejad que el resto corra en la cuenta trimestral y tomadlo como una de vuestras buenas acciones en nombre de Dios; pues no soy yo alguien que viva de las virtudes de forma impoluta.</p>
+        </sp>
+        <sp who="#COREBO" xml:id="em0482-es-sp-133">
+          <speaker>Corebo</speaker>
+          <p n="271" xml:id="em0482-es-272">¡Bastardo, cara de muflón con gran cornamenta! Un buen tipo debe de hacer menos favores a la parroquia y tener más honestidad, ¿no la vas a tener tú? Una vez muerto, ¿no vas a permitir que tenga un entierro cristiano?</p>
+        </sp>
+        <sp who="#SILBÓN" xml:id="em0482-es-sp-134">
+          <speaker>Silbón</speaker>
+          <p n="272" xml:id="em0482-es-273">¡Haya paz, Corebo! Estoy tan seguro de que Jack era Jack, el tipo más alegre de vosotros, y yo Silbón, su dulce hermano de sangre, como de que Jack tendrá su funeral o alguno de estos yacerá bajo la querida tierra de Dios, os lo aseguro.</p>
+        </sp>
+        <sp who="#CAPILLERO" xml:id="em0482-es-sp-135">
+          <speaker>Capillero</speaker>
+          <p n="273" xml:id="em0482-es-274">Silbón, espero que no hagas promesas que no puedes cumplir.</p>
+        </sp>
+        <sp who="#SILBÓN" xml:id="em0482-es-sp-136">
+          <speaker>Silbón</speaker>
+          <p n="274" xml:id="em0482-es-275">¡Señor, señor! ¡Cumplir o incumplir! ¡Más o menos! ¡Hazlo o toma esto!</p>
+        </sp>
+        <sp who="#SACRISTÁN" xml:id="em0482-es-sp-137">
+          <speaker>Sacristán.</speaker>
+          <p n="275" xml:id="em0482-es-276">¡Ayuda! ¡Ayuda! ¡Ayuda!</p>
+        </sp>
+        <stage xml:id="em0482-es-st-39">Silbón ataca al capillero con un bastón.</stage>
+        <stage xml:id="em0482-es-st-40">Euménides se despierta y se dirige hacia ellos.</stage>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-138">
+          <speaker>Euménides</speaker>
+          <p n="276" xml:id="em0482-es-277">Detente, buen amigo.</p>
+        </sp>
+        <sp who="#COREBO" xml:id="em0482-es-sp-139">
+          <speaker>Corebo</speaker>
+          <p n="277" xml:id="em0482-es-278">¿Podéis culparle, señor, si solo se revela por Jack contra esta maldita parroquia que no quiere enterrar a Jack?</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-140">
+          <speaker>Euménides</speaker>
+          <p n="278" xml:id="em0482-es-279">Y, ¿quién era ese Jack?</p>
+        </sp>
+        <sp who="#COREBO" xml:id="em0482-es-sp-141">
+          <speaker>Corebo</speaker>
+          <p n="279" xml:id="em0482-es-280">¿Quién? ¿Jack, señor? ¿Nuestro Jack? El hombre más bueno que ha habido sobre la faz de la tierra.</p>
+        </sp>
+        <sp who="#SILBÓN" xml:id="em0482-es-sp-142">
+          <speaker>Silbón</speaker>
+          <p n="280" xml:id="em0482-es-281">Escuchad, señor, antes de morir él entregó noventa y nueve trajes de luto a la parroquia, pero como no reunió el centenar no quiere enterrarlo. ¿Es ese un trato justo?</p>
+        </sp>
+        <sp who="#CAPILLERO" xml:id="em0482-es-sp-143">
+          <speaker>Capillero</speaker>
+          <p n="281" xml:id="em0482-es-282">¡Oh, señor! ¡Eso es mentira! No entregó ni medio penique. Se bebía todo su dinero y ahora estos tipos, sus compañeros de tragos, quieren que lo enterremos y que corra con los gastos la parroquia. Si nosotros hacemos muchos tratos así, tendremos que cerrar el campanario, vender las campanas y llenar de paja el presbiterio. Tendrá que seguir en el suelo hasta que baile una gallarda en el cementerio, por Steven el simplón.</p>
+        </sp>
+        <sp who="#SILBÓN" xml:id="em0482-es-sp-144">
+          <speaker>Silbón.</speaker>
+<p n="282" xml:id="em0482-es-283">¡<emph>Sic argumentaris Domine</emph> Simplón! &quot;Si nosotros hacemos muchos tratos así, tendremos que cerrar el campanario, vender las campanas y llenar de paja el presbiterio&quot;. A buenas horas, señor, ahorcaos con las cuerdas de las campanas cuando lo hayáis hecho. <emph>Domine, opponens praepono tibi hanc questionem:</emph> ¿Si romperás el suelo o romperé yo antes tu coronilla? Porque una de las dos cosas se va a hacer de inmediato. Y para empezar, yo te voy a cortar esa cresta de gallo.</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-145">
+          <speaker>Euménides</speaker>
+          <p n="283" xml:id="em0482-es-284">¡Las manos quietas, te lo ruego, buen hombre! ¡No tengas tanta prisa!</p>
+        </sp>
+        <sp who="#COREBO" xml:id="em0482-es-sp-146">
+          <speaker>Corebo</speaker>
+<p n="284" xml:id="em0482-es-285"><stage xml:id="em0482-es-st-41">(Al sacristán)</stage> ¡Tú, cara de pollo! Te echaremos de tu parroquia uno de estos días y nadie podrá salvar tu trasero, así que tu situación es peor que la de Jack.</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-147">
+          <speaker>Euménides</speaker>
+          <p n="285" xml:id="em0482-es-286">Doy fe de ello, es lo suficientemente malo. Este tipo hace el papel de un amigo, que solo trata de enterrar a su amigo. ¿Cuánto costaría enterrarle?</p>
+        </sp>
+        <sp who="#SILBÓN" xml:id="em0482-es-sp-148">
+          <speaker>Silbón</speaker>
+          <lg part="M" type="free">
+            <l n="286" xml:id="em0482-es-287">Unos quince o dieciséis peniques le concederían un entierro digno.</l>
+          </lg>
+        </sp>
+        <sp who="#SACRISTÁN" xml:id="em0482-es-sp-149">
+          <speaker>Sacristán.</speaker>
+          <p n="287" xml:id="em0482-es-288">Sí, más o menos eso, señor.</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-150">
+          <speaker>Euménides</speaker>
+<p n="288" xml:id="em0482-es-289">Entonces, tomadlos. <stage type="delivery" xml:id="em0482-es-st-42">[Aparte]</stage> <seg type="aside" xml:id="em0482-es-289-seg1">Si solo me quedan tres miserables peniques. Ahora recuerdo las palabras que me dijo el anciano de la cruz: &quot;Entrega todo lo que tengas&quot; (y esto es todo). &quot;Cuando los restos mortales de un hombre lo requieran.&quot;</seg> — Aquí tenéis. <stage xml:id="em0482-es-st-43">[Les da el dinero.]</stage> Me marcho. Adiós.</p>
+        </sp>
+        <sp who="#SILBÓN" xml:id="em0482-es-sp-151">
+          <speaker>Silbón</speaker>
+<p n="289" xml:id="em0482-es-290">¡Que Dios os bendiga, señor! <stage xml:id="em0482-es-st-44">[Sale Euménides.]</stage> <lb n="290" xml:id="em0482-es-291"/>Está bien, buitres, le concederé un repique de campanas a Jack a mi propia cuenta y cargo.</p>
+        </sp>
+        <sp who="#COREBO" xml:id="em0482-es-sp-152">
+          <speaker>Corebo</speaker>
+<p n="291" xml:id="em0482-es-292"><stage xml:id="em0482-es-st-45">(Al sacristán)</stage> Tienes que dar gracias a Dios por librarte de este bastón y de que el filo de esta espada no te haya cortado la cresta de gallo. Está bien, echemos un trago al estilo franciscano. ¡Glup, glup!</p>
+        </sp>
+        <sp who="#CAPILLERO #SACRISTÁN" xml:id="em0482-es-sp-153">
+          <speaker>Ambos</speaker>
+          <p n="292" xml:id="em0482-es-293">Venga, vámonos.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-46">Salen.</stage>
+        <sp who="#FANTÁSTICO" xml:id="em0482-es-sp-154">
+          <speaker>Fantástico</speaker>
+          <p n="293" xml:id="em0482-es-294">Escucha, anciana, creo que el tal Jack era muy influyente en la parroquia.</p>
+        </sp>
+        <sp who="#MADGE" xml:id="em0482-es-sp-155">
+          <speaker>Madge</speaker>
+          <p n="294" xml:id="em0482-es-295">El tal Jack era un tipo maravilloso. No era más que un hombre humilde, pero muy querido por todos. Pronto veréis lo que hará Jack.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-47">Entran los campesinos cantando con las mujeres en sus brazos.</stage>
+        <sp who="#PÍCARO" xml:id="em0482-es-sp-156">
+          <speaker>Pícaro</speaker>
+          <p n="295" xml:id="em0482-es-296">Mirad, ¿a quién tenemos aquí? Son nuestros amorosos campesinos.</p>
+        </sp>
+        <sp who="#FANTÁSTICO" xml:id="em0482-es-sp-157">
+          <speaker>Fantástico</speaker>
+          <p n="296" xml:id="em0482-es-297">Sí, sí, sentémonos tranquilamente y dejémoslos a solas.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-48">Entonan una canción que se repite dos veces.</stage>
+        <sp who="#PÍCARO #FANTÁSTICO" xml:id="em0482-es-sp-158">
+          <speaker>Pícaro y Fantástico</speaker>
+          <lg part="M" type="free">
+<l n="297" xml:id="em0482-es-298"><emph>Mirad, aquí venimos a sembrar, sembrar,</emph></l>
+<l n="298" xml:id="em0482-es-299"><emph>sembrar nuestro fruto más preciado;</emph></l>
+<l n="299" xml:id="em0482-es-300"><emph>y así pasaremos todo el año,</emph></l>
+<l n="300" xml:id="em0482-es-301"><emph>nada nos podrá silenciar.</emph></l>
+          </lg>
+        </sp>
+        <stage xml:id="em0482-es-st-49">Salen los campesinos.</stage>
+        <stage xml:id="em0482-es-st-50">Entran Juanbango y [un poco más tarde] Corebo, el bufón.</stage>
+        <sp who="#PÍCARO" xml:id="em0482-es-sp-159">
+          <speaker>Pícaro</speaker>
+          <p n="301" xml:id="em0482-es-302">¡Esperad! ¿A quién tenemos aquí?</p>
+        </sp>
+        <sp who="#MADGE" xml:id="em0482-es-sp-160">
+          <speaker>Madge</speaker>
+          <p n="302" xml:id="em0482-es-303">¡Oh! Es un caballeo encolerizado. Todos aquellos que améis vuestras vidas manteneos alejados del olor de su espada a dos manos. Ahora va en busca del hechicero.</p>
+        </sp>
+        <sp who="#FANTÁSTICO" xml:id="em0482-es-sp-161">
+          <speaker>Fantástico</speaker>
+          <p n="303" xml:id="em0482-es-304">Creo que el hechicero debería meter a este pardillo en una caja de magia.</p>
+        </sp>
+        <sp who="#JUANBANGO" xml:id="em0482-es-sp-162">
+          <speaker>Juanbango</speaker>
+          <lg part="M" type="free">
+            <l n="304" xml:id="em0482-es-305">¡Fi, fa, fum!</l>
+            <l n="305" xml:id="em0482-es-306">Aquí llega el inglés</l>
+            <l n="306" xml:id="em0482-es-307">para derrotar al hechicero,</l>
+            <l n="307" xml:id="em0482-es-308">demostrar que es un caballero</l>
+            <l n="308" xml:id="em0482-es-309">y rescatar a la bella dama,</l>
+            <l n="309" xml:id="em0482-es-310">ganando así su amor en la batalla.</l>
+          </lg>
+        </sp>
+        <sp who="#COREBO" xml:id="em0482-es-sp-163">
+          <speaker>Corebo</speaker>
+          <p n="310" xml:id="em0482-es-311">Maestro Bango, ¿estáis aquí? Escuchad, será mejor que os sentéis aquí conmigo a pedir limosna.</p>
+        </sp>
+        <sp who="#JUANBANGO" xml:id="em0482-es-sp-164">
+          <speaker>Juanbango</speaker>
+          <p n="311" xml:id="em0482-es-312">¡Cállate, desgraciado! Aquí está el que ordena la entrada o salida con su arma y entraremos a su voluntad, a pesar de quienquiera que diga no.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-51">Se escucha una voz y se enciende una llama. Juanbango cae.</stage>
+        <sp who="#VOZ" xml:id="em0482-es-sp-165">
+          <speaker>Voz</speaker>
+          <p n="312" xml:id="em0482-es-313">¡No!</p>
+        </sp>
+        <sp who="#MADGE" xml:id="em0482-es-sp-166">
+          <speaker>Madge</speaker>
+          <p n="313" xml:id="em0482-es-314">Eso es lo que le sucede a los que besaron y estropearon el filo de la mejor espada a la que Dios dio vida. Ahora entra Corebo, a pesar de los poderes del hechicero.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-52">Entra [Sacripante,] el hechicero, [y dos furias,] y dejan ciego a Corebo.</stage>
+        <sp who="#SACRIPANTE" xml:id="em0482-es-sp-167">
+          <speaker>Sacripante</speaker>
+          <lg part="M" type="free">
+            <l n="314" xml:id="em0482-es-315">Dejadlo en los campos abiertos,</l>
+            <l n="315" xml:id="em0482-es-316">que se convierta en presa de cuervos y halcones.</l>
+            <stage xml:id="em0482-es-st-53">[Salen las furias, llevando consigo a Juanbango.]</stage>
+            <l n="316" xml:id="em0482-es-317">Y a este villano, dejadle vagar de arriba a abajo</l>
+            <l n="317" xml:id="em0482-es-318">en la nada, que deambule en la oscuridad y la noche eterna.</l>
+          </lg>
+        </sp>
+        <sp who="#COREBO" xml:id="em0482-es-sp-168">
+          <speaker>Corebo</speaker>
+          <lg part="M" type="free">
+            <l n="318" xml:id="em0482-es-319">¡Aquí has asesinado a Juan, caballero fulminante,</l>
+            <l n="319" xml:id="em0482-es-320">y le has robado la vista al pobre Corebo!</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0482-es-st-54">Sale.</stage>
+        <sp who="#SACRIPANTE" xml:id="em0482-es-sp-169">
+          <speaker>Sacripante</speaker>
+          <lg part="M" type="free">
+            <l n="320" xml:id="em0482-es-321">¡Así es, villano! Y le he dado a Delia</l>
+            <l n="321" xml:id="em0482-es-322">la pócima del olvido,</l>
+            <l n="322" xml:id="em0482-es-323">de modo que cuando venga no reconocerá a sus hermanos.</l>
+            <l n="323" xml:id="em0482-es-324">Mirad, ahí están con la pala y la azada trabajando</l>
+            <l n="324" xml:id="em0482-es-325">como esclavos en esta tierra encantada.</l>
+            <l n="325" xml:id="em0482-es-326">Ahora la llamaré por otro nombre,</l>
+            <l n="326" xml:id="em0482-es-327">pues no debe descubrir quién es</l>
+            <l n="327" xml:id="em0482-es-328">hasta el último suspiro de Sacripante.</l>
+            <l n="328" xml:id="em0482-es-329">¡Ahí viene!</l>
+            <stage xml:id="em0482-es-st-55">Entra Delia.</stage>
+            <l n="329" xml:id="em0482-es-330">Ven aquí, Delia. Toma este pincho. Aquí</l>
+            <l n="330" xml:id="em0482-es-331">trabajan duro estos dos esclavos que cavan en busca de oro.</l>
+            <l n="331" xml:id="em0482-es-332">Pínchales con esto y dispondrás de un montón.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0482-es-st-56">Le da el utensilio.</stage>
+        <sp who="#DELIA" xml:id="em0482-es-sp-170">
+          <speaker>Delia</speaker>
+          <p n="332" xml:id="em0482-es-333">Buen señor, no entiendo qué queréis decir.</p>
+        </sp>
+        <sp who="#SACRIPANTE" xml:id="em0482-es-sp-171">
+          <speaker>Sacripante</speaker>
+          <lg part="M" type="free">
+<l n="333" xml:id="em0482-es-334"><stage type="delivery" xml:id="em0482-es-st-57">[Aparte]</stage> <seg next="#em0482-es-335-seg2" type="aside" xml:id="em0482-es-334-seg1">Se ha olvidado de que es Delia,</seg></l>
+<l n="334" xml:id="em0482-es-335"><seg next="#em0482-es-336-seg3" type="aside" xml:id="em0482-es-335-seg2">pero no ha olvidado todo lo que debería.</seg></l>
+<l n="335" xml:id="em0482-es-336"><seg type="aside" xml:id="em0482-es-336-seg3">Cambiaré su nombre.</seg></l>
+            <l n="336" xml:id="em0482-es-337">— Hermosa Berecintia, así te llaman en estas tierras,</l>
+            <l n="337" xml:id="em0482-es-338">vigila a estos forasteros, moza, que cavan en busca de oro.</l>
+          </lg>
+        </sp>
+        <sp who="#DELIA" xml:id="em0482-es-sp-172">
+          <speaker>Delia</speaker>
+          <p n="338" xml:id="em0482-es-339">¡Cielos! Qué entregada</p>
+          <lg type="free">
+            <l n="339" xml:id="em0482-es-340">me siento a este apuesto joven.</l>
+            <l n="340" xml:id="em0482-es-341">Debo hacer que estos forasteros trabajen.</l>
+            <l n="341" xml:id="em0482-es-342">¡Ahí vienen!</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0482-es-st-58">Entran los dos hermanos en camiseta con las palas.</stage>
+        <sp who="#HERMANO_1" xml:id="em0482-es-sp-173">
+          <speaker>Hermano 1.º</speaker>
+          <lg part="M" type="free">
+            <l n="342" xml:id="em0482-es-343">¡Oh, hermano, mira donde está Delia!</l>
+          </lg>
+        </sp>
+        <sp who="#HERMANO_2" xml:id="em0482-es-sp-174">
+          <speaker>Hermano 2.º</speaker>
+          <lg part="M" type="free">
+            <l n="343" xml:id="em0482-es-344">¡Oh, Delia,</l>
+            <l n="344" xml:id="em0482-es-345">cómo nos alegramos de verte aquí!</l>
+          </lg>
+        </sp>
+        <sp who="#DELIA" xml:id="em0482-es-sp-175">
+          <speaker>Delia</speaker>
+          <lg part="M" type="free">
+            <l n="345" xml:id="em0482-es-346">¿Por qué me llamáis Delia, zagales parlanchines?</l>
+            <l n="346" xml:id="em0482-es-347">Ni conozco a Delia ni entiendo lo que queréis decir.</l>
+            <l n="347" xml:id="em0482-es-348">¡Poneos a trabajar o prometo que esto os va a doler!</l>
+          </lg>
+        </sp>
+        <sp who="#HERMANO_1" xml:id="em0482-es-sp-176">
+          <speaker>Hermano 1.º</speaker>
+          <lg part="M" type="free">
+            <l n="348" xml:id="em0482-es-349">Pero Delia, ¿no reconoces a tus hermanos?</l>
+            <l n="349" xml:id="em0482-es-350">Venimos en tu busca desde Tesalia.</l>
+            <l n="350" xml:id="em0482-es-351">Te engañas a ti misma, porque tú eres Delia.</l>
+          </lg>
+        </sp>
+        <sp who="#DELIA" xml:id="em0482-es-sp-177">
+          <speaker>Delia</speaker>
+          <lg part="M" type="free">
+            <l n="351" xml:id="em0482-es-352">¿Seguís con lo de Delia? ¡Pues tomad esto!</l>
+            <stage xml:id="em0482-es-st-59">[Les pincha con el utensilio.]</stage>
+            <l n="352" xml:id="em0482-es-353">¿Inventáis esta historia para posponer vuestro trabajo?</l>
+            <l n="353" xml:id="em0482-es-354">¡Trabajad, villanos, trabajad, que habéis venido a buscar oro!</l>
+          </lg>
+        </sp>
+        <sp who="#HERMANO_2" xml:id="em0482-es-sp-178">
+          <speaker>Hermano 2.º</speaker>
+          <lg part="M" type="free">
+            <l n="354" xml:id="em0482-es-355">Tranquilo, hermano, tranquilo. Este malvado hechicero</l>
+            <l n="355" xml:id="em0482-es-356">le ha nublado los sentidos</l>
+            <l n="356" xml:id="em0482-es-357">y se ha olvidado de que es Delia.</l>
+          </lg>
+        </sp>
+        <sp who="#HERMANO_1" xml:id="em0482-es-sp-179">
+          <speaker>Hermano 1.º</speaker>
+          <lg part="M" type="free">
+            <l n="357" xml:id="em0482-es-358">Deja, tú, cruel, de herir a quien sufre.</l>
+            <l n="358" xml:id="em0482-es-359">—¡Cava, hermano! ¡Cava! Delia es fuerte como el acero.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0482-es-st-60">Los hermanos cavan y vislumbran una luz en un pequeño montículo.</stage>
+        <sp who="#HERMANO_2" xml:id="em0482-es-sp-180">
+          <speaker>Hermano 2.º</speaker>
+          <lg part="M" type="free">
+            <l n="359" xml:id="em0482-es-360">Para, hermano! ¿Qué has visto?</l>
+          </lg>
+        </sp>
+        <sp who="#DELIA" xml:id="em0482-es-sp-181">
+          <speaker>Delia</speaker>
+          <p n="360" xml:id="em0482-es-361">¡Atrás! ¡Y no lo toquéis! Es un objeto que mi señor ha escondido ahí.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-61">Delia lo cubre de nuevo.</stage>
+        <stage xml:id="em0482-es-st-62">Entra Sacripante.</stage>
+        <sp who="#SACRIPANTE" xml:id="em0482-es-sp-182">
+          <speaker>Sacripante</speaker>
+          <p n="361" xml:id="em0482-es-362">¡Bien dicho! Estás controlando muy bien a los prisioneros. — ¡Retiraos, esclavos del trabajo!</p>
+          <stage xml:id="em0482-es-st-63">[Salen los dos hermanos.]</stage>
+          <lg type="free">
+            <l n="362" xml:id="em0482-es-363">Vayámonos nosotros también, Berecintia,</l>
+            <l n="363" xml:id="em0482-es-364">y escuchemos como el ruiseñor entona sus notas.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0482-es-st-64">Salen todos.</stage>
+        <stage xml:id="em0482-es-st-65">Jantipa, la hija maldita, y se dirige al pozo con un jarro en la mano.</stage>
+        <sp who="#JANTIPA" xml:id="em0482-es-sp-183">
+          <speaker>Jantipa</speaker>
+<p n="364" xml:id="em0482-es-365">¡He venido a por un marido, una casa, un hogar! Que Dios me envíe uno bueno o ninguno, ¡os lo ruego, Señor! Mi padre me ha enviado al pozo a por el agua de la vida y me ha dicho que si digo unas hermosas palabras tendré un marido. <stage xml:id="em0482-es-st-66">Entra [Celanta,] la muchacha fea, que se dirige al pozo a por agua con un jarro en la mano.</stage> <lb n="365" xml:id="em0482-es-366"/>¡Oh! ¡Ahí viene, Celanta, mi dulce hermana! Me quedaré aquí a escuchar lo que dice.</p>
+        </sp>
+        <sp who="#CELANTA" xml:id="em0482-es-sp-184">
+          <speaker>Celanta</speaker>
+          <p n="366" xml:id="em0482-es-367">Mi padre me ha enviado al pozo a por agua, y me ha dicho que si digo un bello discurso, tendré un marido, y no de los peores. Bien, aunque soy de tez oscura, estoy segura de que no todo el mundo me abandonará, pues como dice el refrán: El diablo no es tan negro como lo pintan.</p>
+        </sp>
+        <sp who="#JANTIPA" xml:id="em0482-es-sp-185">
+          <speaker>Jantipa</speaker>
+<p n="367" xml:id="em0482-es-368"><stage xml:id="em0482-es-st-67">[Acercándose]</stage> ¡Que te tome una plaga! Sé el motivo por el que has dicho eso. Márchate a casa tan sana como viniste o te mandaré a casa con la peste.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-68">Jantipa golpea su jarro contra el de su hermana y los rompe. Se marcha.</stage>
+        <sp who="#CELANTA" xml:id="em0482-es-sp-186">
+          <speaker>Celanta</speaker>
+          <p n="368" xml:id="em0482-es-369">Creo que esta maldita muchacha es la más insolente del mundo. Podéis ver cómo es, algo hermosa, pero tan orgullosa como el diablo y la mayor arpía que vive en la tierra de Dios. Bueno, la dejaré sola, me marcharé a casa a por otra jarra y, con todo esto, volveré al pozo a por agua.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-69">Sale.</stage>
+        <stage xml:id="em0482-es-st-70">Entran dos furias a la celda del hechicero y dejan a Juanbango junto al pozo de la vida.</stage>
+        <stage xml:id="em0482-es-st-71">Entra Jantipa, que se dirige al pozo con una jarra.</stage>
+        <sp who="#JANTIPA" xml:id="em0482-es-sp-187">
+          <speaker>Jantipa</speaker>
+          <p n="369" xml:id="em0482-es-370">Otra vez vuelvo a por un marido y doy fe, Celanta, de que tengo ventaja sobre ti. Parece que los maridos crecen entorno al pozo. Mi padre dice que debería de controlar mi lengua. Pero, ¿qué sería yo entonces? Una mujer sin lengua es como un soldado sin su arma. Bueno, cogeré mi agua y me marcharé.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-72">Trata de meter la jarra en el interior y una Cabeza habla desde el pozo.</stage>
+        <sp who="#CABEZA" xml:id="em0482-es-sp-188">
+          <speaker>Cabeza</speaker>
+          <lg part="M" type="free">
+            <l n="370" xml:id="em0482-es-371">Hunde la jarra poco a poco, pero no demasiado hondo,</l>
+            <l n="371" xml:id="em0482-es-372">por temor a que hagas llorar a la barba de oro,</l>
+            <l n="372" xml:id="em0482-es-373">hermosa doncella, blanca y roja,</l>
+            <l n="373" xml:id="em0482-es-374">acaríciame suavemente y peina mi cabeza,</l>
+            <l n="374" xml:id="em0482-es-375">y te haré amasar pan.</l>
+          </lg>
+        </sp>
+        <sp who="#JANTIPA" xml:id="em0482-es-sp-189">
+          <speaker>Jantipa</speaker>
+          <p n="375" xml:id="em0482-es-376">¿Qué quiere decir eso?</p>
+          <lg type="free">
+            <l n="376" xml:id="em0482-es-377">&quot;Hermosa doncella, blanca y roja</l>
+            <l n="377" xml:id="em0482-es-378">péiname suavemente y acaricia mi cabeza</l>
+            <l n="378" xml:id="em0482-es-379">y te haré amasar pan.&quot;</l>
+            <l n="379" xml:id="em0482-es-380">¿Así, que lo llamas &quot;amasar pan&quot;, muchacho?</l>
+            <l n="380" xml:id="em0482-es-381">¡Juro que te voy a hacer yo a ti &quot;amasar pan&quot;!</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0482-es-st-73">Jantipa le rompe la jarra en la cabeza. Truenos y relámpagos. Juanbango se levanta. Está sordo y no puede oír.</stage>
+        <sp who="#JUANBANGO" xml:id="em0482-es-sp-190">
+          <speaker>Juanbango.</speaker>
+          <lg part="M" type="free">
+<l n="381" xml:id="em0482-es-382"><emph>Filida, fileridos, pamfilida florida flortos,</emph></l>
+<l n="382" xml:id="em0482-es-383"><emph>dub, duba dub</emph>. Brinca, dicen los cañones con un sulfúrico soplo.</l>
+            <l n="383" xml:id="em0482-es-384">Despertar con una doncella, un bello rostro, un bello amor, dulce y bella mía,</l>
+            <l n="384" xml:id="em0482-es-385">justo a tu lado yacerá el llamado Juanbango.</l>
+            <l n="385" xml:id="em0482-es-386">Segura te tendré entre mis brazos, amenace Marte o truene Olimpo.</l>
+          </lg>
+        </sp>
+        <sp who="#JANTIPA" xml:id="em0482-es-sp-191">
+          <speaker>Jantipa</speaker>
+<p n="386" xml:id="em0482-es-387"><stage type="delivery" xml:id="em0482-es-st-74">[Aparte]</stage> <seg type="aside" xml:id="em0482-es-387-seg1">¿Pero qué pretendiente más empalagoso tenemos aquí? Parece como si hubiese salido de lo más profundo del pozo y habla como un tambor roto.</seg></p>
+        </sp>
+        <sp who="#JUANBANGO" xml:id="em0482-es-sp-192">
+          <speaker>Juanbango</speaker>
+          <lg part="M" type="free">
+            <l n="387" xml:id="em0482-es-388">¡Oh, si pudiera (mas no puedo, por eso lamento mi destino),</l>
+            <l n="388" xml:id="em0482-es-389">besar aquello que abrazo! Pero no puedo. Decidme, ¿cuál es mi destino?</l>
+          </lg>
+        </sp>
+        <sp who="#JANTIPA" xml:id="em0482-es-sp-193">
+          <speaker>Jantipa</speaker>
+<p n="389" xml:id="em0482-es-390"><stage type="delivery" xml:id="em0482-es-st-75">[Aparte]</stage> <seg type="aside" xml:id="em0482-es-390-seg1">¡Bravo! ¡Ahora mi sueño se ha hecho realidad! ¿Alguna vez habéis oído algo tan maravilloso? Tres balas azules en una vejiga azul hacen sonar la vejiga, ¡sonajero!</seg></p>
+        </sp>
+        <sp who="#JUANBANGO" xml:id="em0482-es-sp-194">
+          <speaker>Juanbango</speaker>
+<p n="390" xml:id="em0482-es-391"><stage type="delivery" xml:id="em0482-es-st-76">[Aparte]</stage> <seg type="aside" xml:id="em0482-es-391-seg1">Ahora cambiaré mi apariencia y le hablaré en prosa. Tal vez este &quot;pim pam pum&quot; ha sido un asalto demasiado rudo.</seg> — Permitidme, bella dama, si os parece bien, que me deleite con vuestra dulzura, y que me enfrente a ese cobarde hechicero que me ha arrojado, o más bien congelado, en un sueño desagradable y ha contaminado mi coraza.</p>
+        </sp>
+        <sp who="#JANTIPA" xml:id="em0482-es-sp-195">
+          <speaker>Jantipa</speaker>
+<p n="391" xml:id="em0482-es-392"><stage type="delivery" xml:id="em0482-es-st-77">[Aparte]</stage> <seg type="aside" xml:id="em0482-es-392-seg1">Ríe, ríe, Jantipa, que eres afortunada, un loco y un marido en un solo hombre.</seg></p>
+        </sp>
+        <sp who="#JUANBANGO" xml:id="em0482-es-sp-196">
+          <speaker>Juanbango</speaker>
+          <p n="392" xml:id="em0482-es-393">Cierto, amor mío, como que aparento unos veinte años, que estoy justo en la flor de la vida.</p>
+        </sp>
+        <sp who="#JANTIPA" xml:id="em0482-es-sp-197">
+          <speaker>Jantipa</speaker>
+<p n="393" xml:id="em0482-es-394"><stage type="delivery" xml:id="em0482-es-st-78">[Aparte]</stage> <seg type="aside" xml:id="em0482-es-394-seg1">Pero, ¿qué ridículo parlanchín es éste?</seg></p>
+        </sp>
+        <sp who="#JUANBANGO" xml:id="em0482-es-sp-198">
+          <speaker>Juanbango</speaker>
+          <lg part="M" type="free">
+            <l n="394" xml:id="em0482-es-395">Sus labios de coral, su barbilla carmesí,</l>
+            <l n="395" xml:id="em0482-es-396">sus dientes de plata tan blancos,</l>
+            <l n="396" xml:id="em0482-es-397">sus ricitos de oro, sus ojos entornados,</l>
+            <l n="397" xml:id="em0482-es-398">sus bellas formas - deja que se muevan-</l>
+            <l n="398" xml:id="em0482-es-399">su bello cuerpo - deja que se contonee-</l>
+            <l n="399" xml:id="em0482-es-400">Ay, me han herido,</l>
+            <l n="400" xml:id="em0482-es-401">he de morir para ver este día.</l>
+          </lg>
+        </sp>
+        <sp who="#JANTIPA" xml:id="em0482-es-sp-199">
+          <speaker>Jantipa</speaker>
+          <p n="401" xml:id="em0482-es-402">¡Por el amor de Dios, tú eres un granuja burlón! &quot;Sus labios de coral, su barbilla carmesí&quot;, dice.</p>
+        </sp>
+        <sp who="#JUANBANGO" xml:id="em0482-es-sp-200">
+          <speaker>Juanbango</speaker>
+          <p n="402" xml:id="em0482-es-403">Cierto, es mía y solo mía, porque es mía - ¡ja, ja, ja! Más de mil libras esterlinas en posibles y las cosas que desees en posesión.</p>
+        </sp>
+        <sp who="#JANTIPA" xml:id="em0482-es-sp-201">
+          <speaker>Jantipa</speaker>
+<p n="403" xml:id="em0482-es-404"><stage type="delivery" xml:id="em0482-es-st-79">[Aparte]</stage> <seg type="aside" xml:id="em0482-es-404-seg1">Este chiflado cree que me interesan sus bienes. ¡Que ser un patán sea tu consuelo y ser un cornudo tu destino!</seg> — Escuchad, señor, si queréis tenerme, mejor será que lo digáis a tiempo.</p>
+        </sp>
+        <sp who="#JUANBANGO" xml:id="em0482-es-sp-202">
+          <speaker>Juanbango</speaker>
+          <p n="404" xml:id="em0482-es-405">Cierto, mi amor, haré vuestra descendencia de la realeza con mi linaje.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-80">[Salen todos.]</stage>
+        <stage xml:id="em0482-es-st-81">Entra Euménides, el caballero errante.</stage>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-203">
+          <speaker>Euménides</speaker>
+          <lg part="M" type="free">
+            <l n="405" xml:id="em0482-es-406">Desdichado Euménides, siempre desafortunado,</l>
+            <l n="406" xml:id="em0482-es-407">envidiado por la fortuna y abandonado por el destino,</l>
+            <l n="407" xml:id="em0482-es-408">aquí languidece y muere, desdichado Euménides.</l>
+            <l n="408" xml:id="em0482-es-409">Morir en primavera, ¿en la flor de la vida?</l>
+            <l n="409" xml:id="em0482-es-410">Siéntate aquí y arrepiéntete de lo que has hecho.</l>
+            <l n="410" xml:id="em0482-es-411">Quiera Dios que esto nunca hubiese comenzado.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0482-es-st-82">Entra [el espectro de] Jack.</stage>
+        <sp who="#JACK" xml:id="em0482-es-sp-204">
+          <speaker>Jack</speaker>
+          <p n="411" xml:id="em0482-es-412">Os he pillado, Señor.</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-205">
+          <speaker>Euménides</speaker>
+          <p n="412" xml:id="em0482-es-413">¿Quién está ahí?</p>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-206">
+          <speaker>Jack</speaker>
+          <p n="413" xml:id="em0482-es-414">De corazón que os he pillado bien, señor.</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-207">
+          <speaker>Euménides</speaker>
+          <p n="414" xml:id="em0482-es-415">¡He dicho que pares! ¿Quién me está pellizcando?</p>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-208">
+          <speaker>Jack</speaker>
+          <p n="415" xml:id="em0482-es-416">Gracias a Dios, buen maestro Euménides, gozáis de tan buena salud como la de todos vuestros amigos en este momento. Dios os brinda un buen día, señor. ¿No os hace falta un pulcro, apuesto y joven muchacho, de unos quince o dieciséis años, que pueda correr junto a vuestro caballo y, cuando sea necesario, deje los zapatos de su señoría tan negros como la tinta? ¿Qué decís, señor?</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-209">
+          <speaker>Euménides</speaker>
+          <p n="416" xml:id="em0482-es-417">Ay, lindo muchacho, no sé cómo mantenerme a mí mismo, y mucho menos a un sirviente. Mi lindo muchachito, mi estado es tan malo.</p>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-210">
+          <speaker>Jack</speaker>
+          <p n="417" xml:id="em0482-es-418">Podéis estar tranquilo, que no seréis tan mal amo como yo mal sirviente. Vaya, señor, yo os conozco, aunque vos no me conozcáis. No sois vos, señor, (negadlo si podéis, señor) el hombre que vino de un extraño lugar de la tierra de Catita, donde los monos vuelan con su rabo en la boca, en busca de una dama tan blanca como la nieve y tan roja como la sangre? ¡Ja, ja! ¿Os he conmovido ahora?</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-211">
+          <speaker>Euménides</speaker>
+<p n="418" xml:id="em0482-es-419"><stage type="delivery" xml:id="em0482-es-st-83">(Aparte)</stage> <seg type="aside" xml:id="em0482-es-419-seg1">Yo creo que este chico es un espíritu.</seg> — ¿Cómo sabes tú todo eso?</p>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-212">
+          <speaker>Jack</speaker>
+          <p n="419" xml:id="em0482-es-420">Ay, ¿no sois vos el hombre, señor (negadlo si podéis, señor), que dio todo el dinero que tenía para dar sepultura a un pobre hombre, y no le quedaron más que tres medios peniques en su bolsa? Alegraos, que yo os serviré, eso está claro.</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-213">
+          <speaker>Euménides</speaker>
+          <p n="420" xml:id="em0482-es-421">Bien, muchachito mío, ya que eres tan insistente, estoy encantado de tenerte, pero no como sirviente sino como compañero de viaje. Pero, ¿a dónde vamos?, porque no tengo más dinero que tres pelados medios peniques.</p>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-214">
+          <speaker>Jack</speaker>
+          <p n="421" xml:id="em0482-es-422">Bien, amo, conformaos, porque si mis adivinaciones no fallan, los gastaremos en la siguiente taberna o posada que encontremos, pues, amo, sé que estáis pasando hambre. Por eso, me adelantaré y proveeré la cena para cuando vengáis. No cabe duda de que vendréis justo después.</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-215">
+          <speaker>Euménides</speaker>
+          <p n="422" xml:id="em0482-es-423">Sí, ve antes, yo te seguiré.</p>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-216">
+          <speaker>Jack</speaker>
+          <p n="423" xml:id="em0482-es-424">Pero escuchad, maestro, ¿sabéis cuál es mi nombre?</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-217">
+          <speaker>Euménides</speaker>
+          <p n="424" xml:id="em0482-es-425">No, te prometo que todavía no.</p>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-218">
+          <speaker>Jack</speaker>
+          <p n="425" xml:id="em0482-es-426">Bien, yo soy Jack.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-84">Sale [el espectro de] Jack.</stage>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-219">
+          <speaker>Euménides</speaker>
+          <p n="426" xml:id="em0482-es-427">Jack. Bien, ese es, entonces.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-85">Entran la Posadera y Jack, poniendo la comida sobre la mesa. Llegan violinistas para tocar. Euménides camina de un lado a otro y no come nada.</stage>
+        <sp who="#POSADERA" xml:id="em0482-es-sp-220">
+          <speaker>Posadera</speaker>
+          <p n="427" xml:id="em0482-es-428">Escuchad, señor, ¿deseáis sentaros?</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-221">
+          <speaker>Euménides</speaker>
+          <p n="428" xml:id="em0482-es-429">Posadera, os lo agradezco, pero no tengo mucho apetito.</p>
+        </sp>
+        <sp who="#POSADERA" xml:id="em0482-es-sp-222">
+          <speaker>Posadera</speaker>
+<p n="429" xml:id="em0482-es-430"><stage xml:id="em0482-es-st-86">[A Jack]</stage> Disculpad, señor, ¿cuál es la razón por la que vuestro amo está tan raro? ¿No le gusta esta comida?</p>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-223">
+          <speaker>Jack</speaker>
+          <p n="430" xml:id="em0482-es-431">Sí, posadera, pero es costumbre de mi amo pagar antes de comer, así que traed la cuenta, buena anfitriona.</p>
+        </sp>
+        <sp who="#POSADERA" xml:id="em0482-es-sp-224">
+          <speaker>Posadera</speaker>
+          <p n="431" xml:id="em0482-es-432">La tendrá de inmediato, señor.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-87">Sale.</stage>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-225">
+          <speaker>Euménides</speaker>
+          <p n="432" xml:id="em0482-es-433">Pero Jack, ¿qué es lo que pretendes? Tú sabes que no tengo dinero; así que, dulce Jack, dime ¿qué debo hacer ahora?</p>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-226">
+          <speaker>Jack</speaker>
+          <p n="433" xml:id="em0482-es-434">Bien, amo, mirad en vuestra bolsa.</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-227">
+          <speaker>Euménides</speaker>
+          <p n="434" xml:id="em0482-es-435">¿Para qué? Créeme, eso es una tontería, porque no tengo dinero.</p>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-228">
+          <speaker>Jack</speaker>
+          <p n="435" xml:id="em0482-es-436">Vamos, mirad, amo, hacedlo por mí.</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-229">
+          <speaker>Euménides</speaker>
+          <p n="436" xml:id="em0482-es-437">Ay, Jack, mi bolsa está llena de dinero.</p>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-230">
+          <speaker>Jack</speaker>
+          <p n="437" xml:id="em0482-es-438">¿Ay? Maestro, ¿encaja esa palabra con este suceso? Creo que tendría que veros lanzar vuestra capa y, bailar con bravuconería una gallarda por toda la estancia. Vamos, amo, que podéis mostrarme mejor humor que este. Venid, posadera, ¡complaced a mi maestro!</p>
+        </sp>
+        <stage xml:id="em0482-es-st-88">Entra la Posadera.</stage>
+        <sp who="#POSADERA" xml:id="em0482-es-sp-231">
+          <speaker>Posadera</speaker>
+          <p n="438" xml:id="em0482-es-439">Sois bienvenidos de corazón. Y si os place comeréis un capón gordo; el ave más linda, el ave más fina, el ave más dulce, el ave más crujiente, el ave más limpia que su señoría jamás haya comido.</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-232">
+          <speaker>Euménides</speaker>
+          <p n="439" xml:id="em0482-es-440">Gracias, mi refinada y elocuente posadera.</p>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-233">
+          <speaker>Jack</speaker>
+          <p n="440" xml:id="em0482-es-441">Pero escuchad, amo, solo una cosa. ¿Os parece bien que yo disponga de la mitad de todo lo que consigáis en vuestro viaje?</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-234">
+          <speaker>Euménides</speaker>
+          <p n="441" xml:id="em0482-es-442">Por supuesto, Jack, te doy mi palabra.</p>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-235">
+          <speaker>Jack</speaker>
+          <p n="442" xml:id="em0482-es-443">Es suficiente, señor; no pido más.</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-236">
+          <speaker>Euménides</speaker>
+          <p n="443" xml:id="em0482-es-444">Venid, posadera, tomad vuestro dinero. Os doy las gracias por mi buen trato.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-89">[Le da dinero.]</stage>
+        <sp who="#POSADERA" xml:id="em0482-es-sp-237">
+          <speaker>Posadera</speaker>
+          <p n="444" xml:id="em0482-es-445">Sois, de corazón, bienvenido, señor.</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-238">
+          <speaker>Euménides</speaker>
+          <p n="445" xml:id="em0482-es-446">Bueno, Jack, ¿a dónde vamos ahora?</p>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-239">
+          <speaker>Jack</speaker>
+          <p n="446" xml:id="em0482-es-447">Por Dios, amo, a por el hechicero de inmediato.</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-240">
+          <speaker>Euménides</speaker>
+          <p n="447" xml:id="em0482-es-448">De acuerdo, Jack. — Posadera, adiós.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-90">Entran Corebo [ciego] y Celanta, la muchacha fea, a por agua del pozo.</stage>
+        <sp who="#COREBO" xml:id="em0482-es-sp-241">
+          <speaker>Corebo</speaker>
+          <p n="448" xml:id="em0482-es-449">Ven, patito mío, ven. Ahora tengo una esposa. Eres hermosa, ¿verdad?</p>
+        </sp>
+        <sp who="#CELANTA" xml:id="em0482-es-sp-242">
+          <speaker>Celanta</speaker>
+          <p n="449" xml:id="em0482-es-450">Mi Corebo, la más hermosa del mundo; no te quepa duda de ello.</p>
+        </sp>
+        <sp who="#COREBO" xml:id="em0482-es-sp-243">
+          <speaker>Corebo</speaker>
+          <p n="450" xml:id="em0482-es-451">Vamos, moza, ¿ya casi estamos en el pozo?</p>
+        </sp>
+        <sp who="#CELANTA" xml:id="em0482-es-sp-244">
+          <speaker>Celanta</speaker>
+          <p n="451" xml:id="em0482-es-452">Sí, Corebo, ya casi estamos en el pozo. Yo iré a coger un poco de agua. Siéntate mientras hundo mi jarra dentro.</p>
+        </sp>
+        <sp who="#VOZ" xml:id="em0482-es-sp-245">
+          <speaker>Voz</speaker>
+          <lg part="M" type="free">
+            <l n="452" xml:id="em0482-es-453">Hunde la jarra poco a poco, pero no demasiado hondo,</l>
+            <l n="453" xml:id="em0482-es-454">por temor a que hagas llorar a la barba de oro.</l>
+            <stage xml:id="em0482-es-st-91">Aparece una Cabeza con mazorcas de maíz y ella la peina en su regazo.</stage>
+            <l n="454" xml:id="em0482-es-455">Hermosa doncella, blanca y roja,</l>
+            <l n="455" xml:id="em0482-es-456">acaríciame suavemente y peina mi cabeza,</l>
+            <l n="456" xml:id="em0482-es-457">y te haré amasar pan.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0482-es-st-92">[Desciende]</stage>
+        <stage xml:id="em0482-es-st-93">Aparece una [Segunda] Cabeza llena de oro y ella la peina en su regazo.</stage>
+        <sp who="#VOZ_2" xml:id="em0482-es-sp-246">
+          <speaker>[Voz 2.ª]</speaker>
+          <lg part="M" type="free">
+            <l n="457" xml:id="em0482-es-458">Hunde la jarra poco a poco, pero no demasiado hondo,</l>
+            <l n="458" xml:id="em0482-es-459">por temor a que hagas llorar a la barba de oro,</l>
+            <l n="459" xml:id="em0482-es-460">hermosa doncella, blanca y roja,</l>
+            <l n="460" xml:id="em0482-es-461">acaríciame suavemente y peina mi cabeza,</l>
+            <l n="461" xml:id="em0482-es-462">y cada cabello será un manojo,</l>
+            <l n="462" xml:id="em0482-es-463">y cada manojo un árbol de oro.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0482-es-st-94">[Desciende]</stage>
+        <sp who="#CELANTA" xml:id="em0482-es-sp-247">
+          <speaker>Celanta</speaker>
+          <p n="463" xml:id="em0482-es-464">¡Oh, mira Corebo! He peinado muchísimo oro en mi regazo, y muchísimo maíz.</p>
+        </sp>
+        <sp who="#COREBO" xml:id="em0482-es-sp-248">
+          <speaker>Corebo</speaker>
+          <p n="464" xml:id="em0482-es-465">¡Bien hecho, moza! Ahora tendremos suficiente. Que Dios nos envíe acuñadores para acuñar nuestro oro. Pero venga, ¿nos marchamos a casa, dulce amor?</p>
+        </sp>
+        <sp who="#CELANTA" xml:id="em0482-es-sp-249">
+          <speaker>Celanta</speaker>
+          <p n="465" xml:id="em0482-es-466">Sí, vamos, Corebo, yo te guiaré.</p>
+        </sp>
+        <sp who="#COREBO" xml:id="em0482-es-sp-250">
+          <speaker>Corebo</speaker>
+          <p n="466" xml:id="em0482-es-467">Sí, Corebo, las cosas están saliendo bien, ahora tienes riqueza para sanar el sentido.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-95">Salen.</stage>
+        <stage xml:id="em0482-es-st-96">Entran [el especro de] Jack y [Euménides,] el caballero errante.</stage>
+        <sp who="#JACK" xml:id="em0482-es-sp-251">
+          <speaker>Jack</speaker>
+          <p n="467" xml:id="em0482-es-468">Alejaos, amo, vamos.</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-252">
+          <speaker>Euménides</speaker>
+          <p n="468" xml:id="em0482-es-469">Continúa, Jack; yo te seguiré. Jack, dicen que da buena suerte pasar con las piernas cruzadas y decir tus plegarias al revés. ¿Tú qué dices?</p>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-253">
+          <speaker>Jack</speaker>
+<p n="469" xml:id="em0482-es-470">Vaya. No temáis, amo, dejadme solo. Sentaos aquí tranquilo y no digáis ni una palabra. Y para que no os sintáis atraído por sus encantamientos, os taparé los oídos con esta lana. <stage xml:id="em0482-es-st-97">[Pone lana en las orejas de Euménides.]</stage> Y quedaos así, amo, sentado, tranquilo, que yo iré a por el hechicero.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-98">Sale [el espectro de] Jack.</stage>
+        <stage xml:id="em0482-es-st-99">Entran el hechicero [Sacripante] y el caballero errante [Euménides].</stage>
+        <sp who="#SACRIPANTE" xml:id="em0482-es-sp-254">
+          <speaker>Sacripante</speaker>
+          <lg part="M" type="free">
+            <l n="470" xml:id="em0482-es-471">¡Vaya! ¿Quién es el hombre que está ahí sentado tan triste?</l>
+            <l n="471" xml:id="em0482-es-472">¿Por qué contemplas estos majestuosos árboles</l>
+            <l n="472" xml:id="em0482-es-473">sin el consentimiento y la voluntad de Sacripante?</l>
+            <l n="473" xml:id="em0482-es-474">¿Cómo?, ¿ni una palabra?, ¿te callas?</l>
+            <l n="474" xml:id="em0482-es-475">Entonces, Sacripante, te han traicionado.</l>
+            <stage xml:id="em0482-es-st-100">Entra [el espectro de] Jack invisible y le quita a Sacripante la corona de la cabeza y la espada de su mano.</stage>
+            <l n="475" xml:id="em0482-es-476">¿Qué mano invade la cabeza de Sacripante?</l>
+            <l n="476" xml:id="em0482-es-477">¿Qué detestable furia envidia mi estado de felicidad?</l>
+            <l n="477" xml:id="em0482-es-478">Así que, Sacripante, estos son tus últimos días.</l>
+            <l n="478" xml:id="em0482-es-479">¡Oh! Mis venas se entumecen, mis nervios se contraen,</l>
+            <l n="479" xml:id="em0482-es-480">mi sangre se derrama, mi aliento se evapora,</l>
+            <l n="480" xml:id="em0482-es-481">y ahora mi inmortalidad llega a su fin.</l>
+            <l n="481" xml:id="em0482-es-482">Aquel que en vida cometió acciones tan perversas,</l>
+            <l n="482" xml:id="em0482-es-483">ahora con su muerte desciende su alma al infierno.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0482-es-st-101">Muere [y retiran su cuerpo].</stage>
+        <sp who="#JACK" xml:id="em0482-es-sp-255">
+          <speaker>Jack</speaker>
+          <p n="483" xml:id="em0482-es-484">Oh, señor, ¿os habéis ido? Ahora espero que tengamos otra disputa. — Bien, amo, ¿qué os parece esto? El hechicero está muerto y no volverá a molestarnos más. Ahora id a por vuestra dama y mirad qué podéis hacer con ella. — Vaya, él no ha podido oírme todo este tiempo, pero solucionaré esto.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-102">Le quita la lana de las orejas.</stage>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-256">
+          <speaker>Euménides</speaker>
+          <p n="484" xml:id="em0482-es-485">¿Qué tal Jack? ¿Qué nuevas traes?</p>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-257">
+          <speaker>Jack</speaker>
+          <p n="485" xml:id="em0482-es-486">Aquí, amo, tomad esta espada y cavad con ella al pie de esta colina.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-103">Él excava y divisa una llama.</stage>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-258">
+          <speaker>Euménides</speaker>
+          <p n="486" xml:id="em0482-es-487">Mira, Jack, ¿qué es esto?</p>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-259">
+          <speaker>Jack</speaker>
+          <p n="487" xml:id="em0482-es-488">Amo, sin esto el hechicero no puede hacer nada, pues sus poderes perduran mientras persista esta llama, y una vez se apague, sus poderes cesarán.</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-260">
+          <speaker>Euménides</speaker>
+          <p n="488" xml:id="em0482-es-489">Entonces, Jack, apagaré cuanto antes esta llama.</p>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-261">
+          <speaker>Jack</speaker>
+          <p n="489" xml:id="em0482-es-490">Sí, amo, pero ¿cómo?</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-262">
+          <speaker>Euménides</speaker>
+          <p n="490" xml:id="em0482-es-491">Pues romperé el cristal con una piedra y, después, la soplaré.</p>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-263">
+          <speaker>Jack</speaker>
+<p n="491" xml:id="em0482-es-492">No, amo, así podríais romper el yunque del herrero y este pequeño vial. Ni siquiera el mayor de los soplidos de Bóreas podría apagar esta pequeña llama, tan solo el de aquella que no sea doncella, ni esposa ni viuda. Amo, sonad este cuerno y veréis lo que sucede. <stage xml:id="em0482-es-st-104">Toca el cuerno. Entra Venelia; rompe el cristal, sopla la llama y sale de nuevo.</stage> <lb n="492" xml:id="em0482-es-493"/>Y bien, amo, ¿qué os ha parecido? Ésta es la que corría enloquecida por los bosques, el amor prometido del anciano que estaba en la cruz. Y ahora que esta llama se ha apagado, todos han recuperado su estado de libertad original.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-105">Él aparta una cortina y aparece Delia sentada y adormecida.</stage>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-264">
+          <speaker>Euménides</speaker>
+          <p n="493" xml:id="em0482-es-494">Buena suerte, hermosa dama que se sienta sola — y una vez. Buena suerte, hermosa dama — y dos. Buena suerte, hermosa dama — y tres.</p>
+        </sp>
+        <sp who="#DELIA" xml:id="em0482-es-sp-265">
+          <speaker>Delia</speaker>
+          <p n="494" xml:id="em0482-es-495">No tan sola, buen señor, pues vos estáis aquí.</p>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-266">
+          <speaker>Jack</speaker>
+          <p n="495" xml:id="em0482-es-496">Basta, amo, ha hablado. Ahora os dejaré con ella.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-106">[Sale.]</stage>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-267">
+          <speaker>Euménides</speaker>
+          <lg part="M" type="free">
+            <l n="496" xml:id="em0482-es-497">Tú, hermosa flor de estos lugares de occidente,</l>
+            <l n="497" xml:id="em0482-es-498">cuya belleza se refleja así en mi mirada</l>
+            <l n="498" xml:id="em0482-es-499">como un espejo de cristal en el sol.</l>
+            <l n="499" xml:id="em0482-es-500">Por tu dulce amor he cruzado el frío Rin;</l>
+            <l n="500" xml:id="em0482-es-501">dejando atrás el Po, navegando el Danubio,</l>
+            <l n="501" xml:id="em0482-es-502">hasta alcanzar el Sava, cuyas corrientes</l>
+            <l n="502" xml:id="em0482-es-503">dividen a los tártaros de los rusos.</l>
+            <l n="503" xml:id="em0482-es-504">Todo esto he cruzado por ti, hermosa Delia.</l>
+            <l n="504" xml:id="em0482-es-505">Por ello concédeme aquello que he perseguido durante tanto tiempo.</l>
+          </lg>
+        </sp>
+        <sp who="#DELIA" xml:id="em0482-es-sp-268">
+          <speaker>Delia</speaker>
+          <lg part="M" type="free">
+            <l n="505" xml:id="em0482-es-506">Gentil caballero, cuya fortuna es tan buena</l>
+            <l n="506" xml:id="em0482-es-507">que me habéis encontrado y habéis liberado a mis hermanos.</l>
+            <l n="507" xml:id="em0482-es-508">Mi fe, mi corazón, mi mano yo os doy.</l>
+          </lg>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-269">
+          <speaker>Euménides</speaker>
+<p n="508" xml:id="em0482-es-509">Gracias, gentil dama, pero ahora viene Jack; agradéceselo a él porque es el mejor amigo que podemos tener. <stage xml:id="em0482-es-st-107">Entra [el espectro de] Jack con una cabeza en la mano.</stage> <lb n="509" xml:id="em0482-es-510"/>Pero Jack, ¿qué tienes ahí?</p>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-270">
+          <speaker>Jack</speaker>
+          <p n="510" xml:id="em0482-es-511">Por Dios, amo, la cabeza del hechicero.</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-271">
+          <speaker>Euménides</speaker>
+          <p n="511" xml:id="em0482-es-512">¿Qué dices, Jack? Vamos, Jack, eso es imposible; él era un hombre joven.</p>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-272">
+          <speaker>Jack</speaker>
+          <p n="512" xml:id="em0482-es-513">Ay, amo, así engañaba a quienes le contemplaban. Pero no era más que un hombre miserable, viejo y encorvado, aunque ante los ojos de de los hombres pareciese joven y fresco. Porque, amo, este hechicero había tomado la apariencia del anciano de la cruz, y aquel anciano tenía, en realidad, el aspecto del hechicero. Y ahora, amo, sonad vuestro cuerno.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-108">Suena el cuerno. Entran Venelia, los dos hermanos y [Eresto,] el hombre que estaba en la cruz.</stage>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-273">
+          <speaker>Euménides</speaker>
+          <lg part="M" type="free">
+            <l n="513" xml:id="em0482-es-514">¡Bienvenido, Eresto!, ¡bienvenida, hermosa Venelia!</l>
+            <l n="514" xml:id="em0482-es-515">Bienvenidos los dos, Zelea y Califa!</l>
+            <l n="515" xml:id="em0482-es-516">Ahora yo tengo a la que tanto tiempo he buscado.</l>
+            <l n="516" xml:id="em0482-es-517">Así que dice la hermosa Delia si nos dais vuestro consentimiento.</l>
+          </lg>
+        </sp>
+        <sp who="#HERMANO_1" xml:id="em0482-es-sp-274">
+          <speaker>Hermano 1.º</speaker>
+          <lg part="M" type="free">
+            <l n="517" xml:id="em0482-es-518">Valeroso Euménides, tú bien mereces</l>
+            <l n="518" xml:id="em0482-es-519">tener nuestros favores, así que permítenos que nos alegremos</l>
+            <l n="519" xml:id="em0482-es-520">de que nos hayas liberado.</l>
+            <l n="520" xml:id="em0482-es-521">Aquí podemos gozar cada uno de la presencia del otro</l>
+            <l n="521" xml:id="em0482-es-522">y esta hermosa dama de tener a su caballero errante.</l>
+          </lg>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-275">
+          <speaker>Jack</speaker>
+          <p n="522" xml:id="em0482-es-523">Bien, maestro, ahora que pensáis que ya ha terminado todo, permitidme que os diga una cosa. Sabéis que vos y yo éramos compañeros de viaje: he de tener la mitad de todo lo que consigáis.</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-276">
+          <speaker>Euménides</speaker>
+          <p n="523" xml:id="em0482-es-524">Sí, y la tendrás, Jack.</p>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-277">
+          <speaker>Jack</speaker>
+          <p n="524" xml:id="em0482-es-525">Entonces, amo, traed vuestra espada y partid a vuestra dama. Dejadme tener la mitad de inmediato.</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-278">
+          <speaker>Euménides</speaker>
+          <p n="525" xml:id="em0482-es-526">Por Dios, Jack, espero que estés bromeando. Te prometí la mitad de lo que consiguiera, pero no la mitad de mi dama.</p>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-279">
+          <speaker>Jack</speaker>
+          <p n="526" xml:id="em0482-es-527">Pero, ¿acaso hay otra cosa, amo?, ¿no la habéis obtenido a ella? Entonces, divididla, porque yo quiero tener la mitad. No hay más remedio.</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-280">
+          <speaker>Euménides</speaker>
+          <p n="527" xml:id="em0482-es-528">Está bien, antes que fallar a la palabra que di a mi amigo, te la entrego toda. Ven, Jack, te la daré.</p>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-281">
+          <speaker>Jack</speaker>
+          <p n="528" xml:id="em0482-es-529">No, ni más ni menos, amo, justo la mitad.</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-282">
+          <speaker>Euménides</speaker>
+          <p n="529" xml:id="em0482-es-530">Está bien, antes que fallar a la palabra que di a mi amigo, la dividiré. Jack, tendrás tú mitad.</p>
+        </sp>
+        <sp who="#HERMANO_1" xml:id="em0482-es-sp-283">
+          <speaker>Hermano 1.º</speaker>
+          <p n="530" xml:id="em0482-es-531">¡No seas tan cruel con nuestra hermana, gentil caballero!</p>
+        </sp>
+        <sp who="#HERMANO_2" xml:id="em0482-es-sp-284">
+          <speaker>Hermano 2.º</speaker>
+          <p n="531" xml:id="em0482-es-532">¡Oh, salva a la hermosa Delia! ¡Ella no merece la muerte!</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-285">
+          <speaker>Euménides</speaker>
+          <p n="532" xml:id="em0482-es-533">Aceptadlo, yo le di mi palabra. — Así que, Delia, prepárate porque debes morir.</p>
+        </sp>
+        <sp who="#DELIA" xml:id="em0482-es-sp-286">
+          <speaker>Delia</speaker>
+          <lg part="M" type="free">
+            <l n="533" xml:id="em0482-es-534">Si es así, ¡Adiós, mundo! ¡Adiós, Euménides!</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0482-es-st-109">Él trata de golpearla y [el espectro de] Jack lo detiene.</stage>
+        <sp who="#JACK" xml:id="em0482-es-sp-287">
+          <speaker>Jack</speaker>
+          <p n="534" xml:id="em0482-es-535">¡Quieto, amo! Es suficiente, solo ponía a prueba vuestra lealtad. ¿Recordáis ahora que pagasteis el entierro de un pobre hombre?</p>
+        </sp>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-288">
+          <speaker>Euménides</speaker>
+          <p n="535" xml:id="em0482-es-536">Sí, lo recuerdo muy bien, Jack.</p>
+        </sp>
+        <sp who="#JACK" xml:id="em0482-es-sp-289">
+          <speaker>Jack</speaker>
+          <p n="536" xml:id="em0482-es-537">Entonces, amo, dad las gracias a Dios por esta buena acción, y que Dios esté con todos vosotros.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-110">[El espectro de] Jack se adentra en el suelo.</stage>
+        <sp who="#EUMÉNIDES" xml:id="em0482-es-sp-290">
+          <speaker>Euménides</speaker>
+          <lg part="M" type="free">
+            <l n="537" xml:id="em0482-es-538">¿Qué? Jack, ¿te has ido? Entonces, adiós, Jack.</l>
+            <l n="538" xml:id="em0482-es-539">Venid, hermanos y mi hermosa Delia,</l>
+            <l n="539" xml:id="em0482-es-540">Eresto, y su querida Venelia.</l>
+            <l n="540" xml:id="em0482-es-541">Regresaremos a Tesalia con nuestros corazones llenos de júbilo.</l>
+          </lg>
+        </sp>
+        <sp who="#HERMANO_1 #HERMANO_2 #ERESTO" xml:id="em0482-es-sp-291">
+          <speaker>Todos</speaker>
+          <lg part="M" type="free">
+            <l n="541" xml:id="em0482-es-542">De acuerdo. Os seguiremos a ti y a Delia.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0482-es-st-111">Salen todos [excepto Madge, Grotesco y Fantástico].</stage>
+        <sp who="#FANTÁSTICO" xml:id="em0482-es-sp-292">
+          <speaker>Fantástico</speaker>
+          <p n="542" xml:id="em0482-es-543">¿Qué, anciana, duermes?</p>
+        </sp>
+        <sp who="#MADGE" xml:id="em0482-es-sp-293">
+          <speaker>Madge</speaker>
+          <p n="543" xml:id="em0482-es-544">Por Dios, hijo, es casi de día y mis ventanas se cierran con el cacareo del gallo.</p>
+        </sp>
+        <sp who="#GROTESCO" xml:id="em0482-es-sp-294">
+          <speaker>Grotesco</speaker>
+          <p n="544" xml:id="em0482-es-545">¿Has oído, anciana? Creo que este Jack ejercía un gran poder sobre ellos.</p>
+        </sp>
+        <sp who="#MADGE" xml:id="em0482-es-sp-295">
+          <speaker>Madge</speaker>
+          <p n="545" xml:id="em0482-es-546">Ay, muchacho, este era el fantasma del pobre hombre cuyo entierro creó tanto alboroto, y por esto decidió ayudar tanto al caballero errante. Pero, venid, vayamos adentro. Tomaremos una cerveza y una tostada por la mañana, y después os marcharéis.</p>
+        </sp>
+        <sp who="#FANTÁSTICO" xml:id="em0482-es-sp-296">
+          <speaker>Fantástico</speaker>
+          <p n="546" xml:id="em0482-es-547">Entonces, ¿este es el final de tu relato, señora?</p>
+        </sp>
+        <sp who="#MADGE" xml:id="em0482-es-sp-297">
+          <speaker>Madge</speaker>
+          <p n="547" xml:id="em0482-es-548">Así es. Dicho esto, cogeré un pedazo de pan y de queso y seguiré con mis quehaceres. Y eso es lo que debéis hacer vosotros también, pero antes de marcharos, tomad vuestro desayuno.</p>
+        </sp>
+        <stage xml:id="em0482-es-st-112">[Salen.]</stage>
+        <trailer xml:id="em0482-es-tr-1">FIN</trailer>
+      </div1>
+    </body>
+    <back/>
+  </text>
+</TEI>

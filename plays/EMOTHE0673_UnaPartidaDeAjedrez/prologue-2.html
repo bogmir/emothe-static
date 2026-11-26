@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EXORDIO — Una partida de ajédrez — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">Dramatis Personae (*)</a></li>
+      
+  
+    
+        <li>
+          <a href="prologue.html">
+            PRÓLOGO
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="prologue-2.html" aria-current="page">
+            EXORDIO
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-1.html">
+            ACTO PRIMERO
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html">
+            ACTO SEGUNDO
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            ACTO TERCERO
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-4.html">
+            ACTO CUARTO
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-5.html">
+            ACTO QUINTO
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="epilogue.html">
+            EPILOGO
+          </a>
+          
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="Rey_Negro">
+        Rey Negro
+      </option><option value="Caballero_Negro">
+        El Caballero Negro
+      </option><option value="Duque_Negro">
+        El Duque Negro
+      </option><option value="Obispo_Negro">
+        El Obispo Negro
+      </option><option value="Peones_Negros">
+        Los Peones Negros
+      </option><option value="Rey_Blanco">
+        El Rey Blanco
+      </option><option value="Obispo_Blanco">
+        El Obispo Blanco
+      </option><option value="Peones_Blancos">
+        Los Peones Blancos
+      </option><option value="Obispo_Gordo">
+        El Obispo Gordo
+      </option><option value="Peón_Obispo_Gordo">
+        El Peón del Obispo Gordo
+      </option><option value="Reina_Negra">
+        La Reina Negra
+      </option><option value="Peón_Reina_Negra">
+        El Peón de la Reina Negra
+      </option><option value="Reina_Blanca">
+        La Reina Blanca
+      </option><option value="Peón_Reina_Blanca">
+        El Peón de la Reina Blanca
+      </option><option value="Ignacio_Loyola">
+        Ignacio de Loyola
+      </option><option value="Error">
+        El Error
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">Thomas Middleton</p>
+  <h1><a href="index.html">Una partida de ajédrez</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="prologue.html" rel="prev">← PRÓLOGO</a>
+  <a href="act-1.html" rel="next">ACTO PRIMERO →</a>
+</nav>
+  <div class="text" lang="es" data-cite="Thomas Middleton, Una partida de ajédrez, EXORDIO" data-cite-verse="int." data-cite-prose="int.">
+    
+    <section class="division" id="prologue-2">
+  <h2 class="act-head">
+    EXORDIO
+  </h2>
+  
+  <p class="sd " id="l1-sd1">(Aparece IGNACIO DE LOYOLA, con EL ERROR dormido a sus pies.)</p><div class="sp " data-who="Ignacio_Loyola">
+  <p class="spk ">
+    ignacio
+  </p>
+  <p class="pr " id="l2"><a class="pn " href="#l2">2</a>¡Ah! ¿Dónde...? ¿Qué rincón del mundo es éste que no veo el rostro de la intriga ni mi fino olfato encuentra las huellas de mis discípulos, hijos y herederos, ni el rastro de mis planes ni mis institutos? Creía que ya se habían desparramado por el mundo y que habrían oscurecido el suelo y cubierto la faz de la tierra como las langostas de Egipto. Aquí brota mucha luz de los ojos de la verdad y la bondad, aún no violadas. No, aquí no han estado, así que su monarquía aún no es perfecta. He aquí el justo galardón a su larga ingratitud conmigo, su padre y fundador. No hace ni cinco años que fui canonizado por ellos. ¿Dónde dormía mi honor hasta entonces? ¿O acaso iban a olvidarse de canonizar a su próspero fundador? Y cuando lo hicieron no encontraron lugar en todo el santoral para poner mi nombre, que debería haber desplazado a príncipes y arrancado de cuajo a los más eminentes prelados para hacerme un hueco a mi bendita venida. Cualquier pequeño mártir y predicador puede estorbarme: Roque, Mayano y Petronila, curadores de la sarna y la fiebre, vuestra abadesa Aldegunda y Cunegunda, la viuda Marcela y el cura Policarpo, Cecilia y Úrsula. Y mi día cae el veintinueve de febrero, que con el año bisiesto es una vez cada tres años. No había otro sitio para mí. Mirad su amor y conciencia. ¡Arrojarme a mí, un soldado renqueante, a un año bisiesto! Me consume tanto la ira que podría volar sus colegios con la primera sílaba de mi nombre. ¡Arriba, Error, despierta! ¡Levántate, Padre de la Supererogación! Te llama Ignacio de Loyola.</p>
+</div><div class="sp " data-who="Error">
+  <p class="spk ">
+    el error
+  </p>
+  <p class="pr " id="l3"><a class="pn " href="#l3">3</a>¿Qué habéis hecho? Podría dormir eternamente en la ignorancia. Me es tan grato el sueño... He soñado con el marco más espléndido para una partida.</p>
+</div><div class="sp " data-who="Ignacio_Loyola">
+  <p class="spk ">
+    ignacio
+  </p>
+  <p class="pr " id="l4"><a class="pn " href="#l4">4</a>¿Partida? ¿Qué partida?</p>
+</div><div class="sp " data-who="Error">
+  <p class="spk ">
+    el error
+  </p>
+  <p class="pr " id="l5"><a class="pn m5" href="#l5">5</a>Una partida de ajedrez, el más noble de los juegos. Será una partida entre nuestro bando y la Casa Blanca. Las piezas ya están en orden y prestas a empezar.</p>
+</div><div class="sp " data-who="Ignacio_Loyola">
+  <p class="spk ">
+    ignacio
+  </p>
+  <p class="pr " id="l6"><a class="pn " href="#l6">6</a>¿Van a intervenir en la partida algunos de mis hijos?</p>
+</div><div class="sp " data-who="Error">
+  <p class="spk ">
+    el error
+  </p>
+  <p class="pr " id="l7"><a class="pn " href="#l7">7</a>Sí, el Peón del Obispo Negro y también una hija seglar que hace de Peón de la Reina Negra.</p>
+</div><div class="sp " data-who="Ignacio_Loyola">
+  <p class="spk ">
+    ignacio
+  </p>
+  <p class="pr " id="l8"><a class="pn " href="#l8">8</a>Pues si eres capaz de alguna maniobra magistral, que se vea aquí.</p>
+</div><div class="sp " data-who="Error">
+  <p class="spk ">
+    el error
+  </p>
+  <p class="pr " id="l9"><a class="pn " href="#l9">9</a>No es más que un sueño, una visión.</p>
+</div><div class="sp " data-who="Ignacio_Loyola">
+  <p class="spk ">
+    ignacio
+  </p>
+  <p class="pr " id="l10"><a class="pn m5" href="#l10">10</a>No me importa lo que sea con tal que pueda contemplar a los hijos de mi astucia y vea qué puesto ocupan.</p>
+</div><p class="sd " id="l10-sd1">(Música. Entran y se colocan por separado las Casas Blanca y Negra.)</p><div class="sp " data-who="Error">
+  <p class="spk ">
+    el error
+  </p>
+  <p class="pr " id="l11"><a class="pn " href="#l11">11</a>Deseo cumplido. Ahí están todas las piezas: los Reyes con sus Peones, Reinas, Obispos, Caballeros y Duques.</p>
+</div><div class="sp " data-who="Ignacio_Loyola">
+  <p class="spk ">
+    ignacio
+  </p>
+  <p class="pr " id="l12"><a class="pn " href="#l12">12</a>¿Duques? Hay quien los llama Roques.</p>
+</div><div class="sp " data-who="Error">
+  <p class="spk ">
+    el error
+  </p>
+  <p class="pr " id="l13"><a class="pn " href="#l13">13</a>¡Por corrupción! La palabra es <em>le roc, Custode de la Roche</em>, el custodio de la fortaleza. Los dos Reyes depositan en ellos su confianza, que por su lealtad, valentía y excelencia bien merecen esos títulos.</p>
+</div><div class="sp " data-who="Ignacio_Loyola">
+  <p class="spk ">
+    ignacio
+  </p>
+  <p class="pr " id="l14"><a class="pn " href="#l14">14</a>Levantada es la respuesta... Ahí están mi hijo y mi hija.</p>
+</div><div class="sp " data-who="Error">
+  <p class="spk ">
+    el error
+  </p>
+  <p class="pr " id="l15"><a class="pn m5" href="#l15">15</a>Son dos Peones, el del Obispo Negro y el de la Reina Negra.</p>
+</div><div class="sp " data-who="Ignacio_Loyola">
+  <p class="spk ">
+    ignacio
+  </p>
+  <p class="pr " id="l16"><a class="pn " href="#l16">16</a>Los Peones sólo dan muestras de mediocridad y cortas aspiraciones. Indignos son de llamarse discípulos míos. Hubiera estado yo tan cerca y habría degollado a ese Obispo para ocupar su puesto y musitarle a la Reina un cuento de amor que pondría a bailar a su pulso más sereno. No, de ellos no se puede destilar una gota de ingenio ni de sutileza.</p>
+</div><div class="sp " data-who="Error">
+  <p class="spk ">
+    el error
+  </p>
+  <p class="pr " id="l17"><a class="pn " href="#l17">17</a>¡Cómo! ¿Acaso queréis enfrentarlos entre sí? Vais a quebrantar las reglas del juego, Ignacio.</p>
+</div><div class="sp " data-who="Ignacio_Loyola">
+  <p class="spk ">
+    ignacio
+  </p>
+  <p class="pr " id="l18"><a class="pn " href="#l18">18</a>¡Bah! Yo no quiero regirme por las reglas, sino regir.</p>
+</div><div class="sp " data-who="Error">
+  <p class="spk ">
+    el error
+  </p>
+  <p class="pr " id="l19"><a class="pn " href="#l19">19</a>Pues acabaréis jugando solo.</p>
+</div><div class="sp " data-who="Ignacio_Loyola">
+  <p class="spk ">
+    ignacio
+  </p>
+  <p class="pr " id="l20"><a class="pn m5" href="#l20">20</a>Haría lo que fuera por ser el único soberano; es raro que el mundo sea regido por uno sólo.</p>
+</div><div class="sp " data-who="Error">
+  <p class="spk ">
+    el error
+  </p>
+  <p class="pr " id="l21"><a class="pn " href="#l21">21</a>Disponeos a verlos y observad su juego. Mirad con qué suave deslizamiento se van alejando; como en una danza.</p>
+</div><p class="sd " id="l21-sd1">(Salen las dos Casas.)</p><div class="sp " data-who="Ignacio_Loyola">
+  <p class="spk ">
+    ignacio
+  </p>
+  <p class="pr " id="l22"><a class="pn " href="#l22">22</a>¡Ah! ¡Qué ansias agitarán mi ánimo hasta que vea la victoria y la derrota de esta gran partida!</p>
+</div><p class="sd " id="l22-sd1">(Salen.)</p>
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="prologue.html" rel="prev">← PRÓLOGO</a>
+  <a href="act-1.html" rel="next">ACTO PRIMERO →</a>
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      <p>
+        Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0)
+
+  <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es">https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es</a>
+
+      </p>
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

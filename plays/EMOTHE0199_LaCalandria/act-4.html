@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Acto IV — La Calandria — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">Personajes</a></li>
+      
+  
+    
+        <li>
+          <a href="act-1.html">
+            Acto I
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html">
+            Acto II
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            Acto III
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-4.html" aria-current="page">
+            Acto IV
+          </a>
+          <ul>
+            <li>
+              
+                  <a href="act-4.html#act-4-s1">
+                    ESCENA PRIMERA
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-4.html#act-4-s2">
+                    ESCENA SEGUNDA
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-4.html#act-4-s3">
+                    ESCENA TERCERA
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-4.html#act-4-s4">
+                    ESCENA CUARTA
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-4.html#act-4-s5">
+                    ESCENA QUINTA
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-4.html#act-4-s6">
+                    ESCENA SEXTA
+                  </a>
+              
+            </li>
+          </ul>
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-5.html">
+            Acto V
+          </a>
+          
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="FES">
+        Fesenio
+      </option><option value="POL">
+        Polinico
+      </option><option value="LID">
+        Lidio
+      </option><option value="CAL">
+        Calandro
+      </option><option value="SAM">
+        Samia
+      </option><option value="RUF">
+        Rufo
+      </option><option value="SAN">
+        Santilla
+      </option><option value="FAN">
+        Fanio
+      </option><option value="FUL">
+        Fulvia
+      </option><option value="MER">
+        Meretriz
+      </option><option value="MOZ">
+        Mozo de cuerda
+      </option><option value="SBI">
+        Esbirros de la aduana
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">Bernardo Dovizi da Bibbiena</p>
+  <h1><a href="index.html">La Calandria</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-3.html" rel="prev">← Acto III</a>
+  <a href="act-5.html" rel="next">Acto V →</a>
+</nav>
+  <div class="text" lang="es" data-cite="Bernardo Dovizi da Bibbiena, La Calandria, Acto IV" data-cite-verse="int." data-cite-prose="int.">
+    
+    <section class="division" id="act-4">
+  <h2 class="act-head">
+    Acto IV
+  </h2>
+  
+  
+  
+    
+      <section id="act-4-s1">
+        <h3 class="scene-head">
+          ESCENA PRIMERA
+        </h3>
+        <p class="sd " id="l799-sd1">Fulvia, Samia criada.</p><div class="sp " data-who="FUL">
+  <p class="spk ">
+    Fulvia
+  </p>
+  <p class="pr " id="l800"><a class="pn m5" href="#l800">800</a>¡Samia! ¡Oh, Samia!</p>
+</div><div class="sp " data-who="SAM">
+  <p class="spk ">
+    Samia
+  </p>
+  <p class="pr " id="l801"><a class="pn " href="#l801">801</a>¡Señooora!</p>
+</div><div class="sp " data-who="FUL">
+  <p class="spk ">
+    Fulvia
+  </p>
+  <p class="pr " id="l802"><a class="pn " href="#l802">802</a>Baja rápido.</p>
+</div><div class="sp " data-who="SAM">
+  <p class="spk ">
+    Samia
+  </p>
+  <p class="pr " id="l803"><a class="pn " href="#l803">803</a>Ya voooy.</p>
+</div><div class="sp " data-who="FUL">
+  <p class="spk ">
+    Fulvia
+  </p>
+  <p class="pr " id="l804"><a class="pn " href="#l804">804</a>¡Muévete, maldita sea tu estampa! ¡Muévete!</p>
+</div><div class="sp " data-who="SAM">
+  <p class="spk ">
+    Samia
+  </p>
+  <p class="pr " id="l805"><a class="pn m5" href="#l805">805</a>Aquí estoy: ¿qué quieres?</p>
+</div><div class="sp " data-who="FUL">
+  <p class="spk ">
+    Fulvia
+  </p>
+  <p class="pr " id="l806"><a class="pn " href="#l806">806</a>Vete ahora mismo, busca a Rufo, el del espíritu, y dile que venga a verme enseguida.</p>
+</div><div class="sp " data-who="SAM">
+  <p class="spk ">
+    Samia
+  </p>
+  <p class="pr " id="l807"><a class="pn " href="#l807">807</a>Subo por el velo.</p>
+</div><div class="sp " data-who="FUL">
+  <p class="spk ">
+    Fulvia
+  </p>
+  <p class="pr " id="l808"><a class="pn " href="#l808">808</a>¿Qué velo? ¡Animal! Lárgate así; vuela.</p>
+</div><div class="sp " data-who="SAM">
+  <p class="spk ">
+    Samia
+  </p>
+  <p class="pr " id="l809"><a class="pn " href="#l809">809</a>¿A qué demonios se debe tanta rabia? Parece que tiene el diablo en el cuerpo. Y eso que Lidio debería habérselo sacado.</p>
+</div><div class="sp " data-who="FUL">
+  <p class="spk ">
+    Fulvia
+  </p>
+  <p class="pr " id="l810"><a class="pn m5" href="#l810">810</a>¡Oh engañosos espíritus! ¡Oh, tontas mentes humanas! ¡Oh, engañada e infeliz Fulvia, que te has perjudicado tú sola a ti misma, y también a quién amas más que a ti misma! ¡Pobre de mí, que recibo lo que me he buscado y he hallado lo que no deseaba! Así que, si el espíritu no le pone remedio, voy a darme muerte, pues menos amarga resulta una muerte voluntaria que una vida angustiosa. Ahí está Rufo. Pronto sabré si debo esperar o desesperar. No se ve a nadie. Mejor hablarle aquí, porque en casa los bancos, las sillas, los baúles y las ventanas me parece que tienen oídos.</p>
+</div>
+      </section>
+    
+  
+    
+      <section id="act-4-s2">
+        <h3 class="scene-head">
+          ESCENA SEGUNDA
+        </h3>
+        <p class="sd " id="l810-sd1">Rufo nigromante, Fulvia.</p><div class="sp " data-who="RUF">
+  <p class="spk ">
+    Rufo
+  </p>
+  <p class="pr " id="l811"><a class="pn " href="#l811">811</a>¿Qué pasa, señora?</p>
+</div><div class="sp " data-who="FUL">
+  <p class="spk ">
+    Fulvia
+  </p>
+  <p class="pr " id="l812"><a class="pn " href="#l812">812</a>Mis lágrimas, mucho más que las palabras, pueden mostrarte la pasión que yo siento.</p>
+</div><div class="sp " data-who="RUF">
+  <p class="spk ">
+    Rufo
+  </p>
+  <p class="pr " id="l813"><a class="pn " href="#l813">813</a>Habla: ¿Qué sucede? Fulvia, no llores. Señora, ¿Qué te pasa?</p>
+</div><div class="sp " data-who="FUL">
+  <p class="spk ">
+    Fulvia
+  </p>
+  <p class="pr " id="l814"><a class="pn " href="#l814">814</a>Yo no sé, Rufo, si me he de lamentar de mi ignorancia o de vuestro engaño.</p>
+</div><div class="sp " data-who="RUF">
+  <p class="spk ">
+    Rufo
+  </p>
+  <p class="pr " id="l815"><a class="pn m5" href="#l815">815</a>¡Ah, señora! ¿Qué estás diciendo?</p>
+</div><div class="sp " data-who="FUL">
+  <p class="spk ">
+    Fulvia
+  </p>
+  <p class="pr " id="l816"><a class="pn " href="#l816">816</a>El cielo, mi pecado o la maldad del espíritu: yo no sé quién ha sido; pero vos, ¡ay de mí!, habéis convertido una vez a Lidio de varón en hembra. Todo él lo he tocado y manoseado, y nada de lo que es habitual en él he encontrado más que su presencia. Y yo no lloro tanto por ser privada de mi placer como por su daño; pues, por causa mía, se encuentra privado de lo que más se anhela. Ahora ves la razón de estas lágrimas y puedes comprender perfectamente lo que deseo de ti.</p>
+</div><div class="sp " data-who="RUF">
+  <p class="spk ">
+    Rufo
+  </p>
+  <p class="pr " id="l817"><a class="pn " href="#l817">817</a>Si, Fulvia, el llanto, que a duras penas puede fingirse, no fuese prueba de ello, a duras penas te creería. Pero admitiendo que sea verdad, creo que solo de ti misma puedes quejarte, porque me acuerdo de que tú pediste a Lidio en forma de mujer. Y me parece que el espíritu, por servirte más cumplidamente, con el sexo y con los vestidos de mujer te ha mandado a tu amante. Pero pon fin a tu dolor porque quien lo ha vuelto hembra puede hacerlo de nuevo varón.</p>
+</div><div class="sp " data-who="FUL">
+  <p class="spk ">
+    Fulvia
+  </p>
+  <p class="pr " id="l818"><a class="pn " href="#l818">818</a>Del todo consolada me siento, creyendo que las cosas han sucedido como tú dices. Pero si tú me devuelves entero a mi Lidio, sean tuyos mi dinero, mis bienes y todo cuanto tengo.</p>
+</div><div class="sp " data-who="RUF">
+  <p class="spk ">
+    Rufo
+  </p>
+  <p class="pr " id="l819"><a class="pn " href="#l819">819</a>Ahora que sé que el espíritu está bien dispuesto hacia ti, te digo sin ningún género de dudas que tu amante se volverá varón inmediatamente. Pero para que no haya más equivocaciones, di claramente lo que quieres.</p>
+</div><div class="sp " data-who="FUL">
+  <p class="spk ">
+    Fulvia
+  </p>
+  <p class="pr " id="l820"><a class="pn m5" href="#l820">820</a>Lo primero, que se le devuelva la daga de mi vaina, ¿me entiendes?</p>
+</div><div class="sp " data-who="RUF">
+  <p class="spk ">
+    Rufo
+  </p>
+  <p class="pr " id="l821"><a class="pn " href="#l821">821</a>Clarísimo.</p>
+</div><div class="sp " data-who="FUL">
+  <p class="spk ">
+    Fulvia
+  </p>
+  <p class="pr " id="l822"><a class="pn " href="#l822">822</a>Y que en vestido, no en el sexo, de mujer vuelva a mí.</p>
+</div><div class="sp " data-who="RUF">
+  <p class="spk ">
+    Rufo
+  </p>
+  <p class="pr " id="l823"><a class="pn " href="#l823">823</a>Si hubieses hablado así esta mañana no habría ocurrido este error, el cual, sin embargo, me place para que tú compruebes cuánta es la fuerza de mi espíritu.</p>
+</div><div class="sp " data-who="FUL">
+  <p class="spk ">
+    Fulvia
+  </p>
+  <p class="pr " id="l824"><a class="pn " href="#l824">824</a>Sácame rápidamente de esta angustia, pues si no lo veo no puedo alegrarme.</p>
+</div><div class="sp " data-who="RUF">
+  <p class="spk ">
+    Rufo
+  </p>
+  <p class="pr " id="l825"><a class="pn m5" href="#l825">825</a>No solo lo verás, sino que lo tocarás con las manos.</p>
+</div><div class="sp " data-who="FUL">
+  <p class="spk ">
+    Fulvia
+  </p>
+  <p class="pr " id="l826"><a class="pn " href="#l826">826</a>Entonces, ¿vendrá a mí hoy?</p>
+</div><div class="sp " data-who="RUF">
+  <p class="spk ">
+    Rufo
+  </p>
+  <p class="pr " id="l827"><a class="pn " href="#l827">827</a>Son ya las veinte horas y así bien poco podría estar contigo.</p>
+</div><div class="sp " data-who="FUL">
+  <p class="spk ">
+    Fulvia
+  </p>
+  <p class="pr " id="l828"><a class="pn " href="#l828">828</a>Eso me da lo mismo, con tal de que yo vea que es varón.</p>
+</div><div class="sp " data-who="RUF">
+  <p class="spk ">
+    Rufo
+  </p>
+  <p class="pr " id="l829"><a class="pn " href="#l829">829</a>¿Cómo ha de dejar de beber quien se encuentra sediento en la fuente?</p>
+</div><div class="sp " data-who="FUL">
+  <p class="spk ">
+    Fulvia
+  </p>
+  <p class="pr " id="l830"><a class="pn m5" href="#l830">830</a>Entonces, ¿vendrá hoy?</p>
+</div><div class="sp " data-who="RUF">
+  <p class="spk ">
+    Rufo
+  </p>
+  <p class="pr " id="l831"><a class="pn " href="#l831">831</a>El espíritu te lo traerá enseguida, si quiere. Así que, estáte avizor en la puerta.</p>
+</div><div class="sp " data-who="FUL">
+  <p class="spk ">
+    Fulvia
+  </p>
+  <p class="pr " id="l832"><a class="pn " href="#l832">832</a>No hace falta, ya que viniendo como mujer puede manifestarse ante todos y no habrá quien lo reconozca como varón.</p>
+</div><div class="sp " data-who="RUF">
+  <p class="spk ">
+    Rufo
+  </p>
+  <p class="pr " id="l833"><a class="pn " href="#l833">833</a>Ya basta.</p>
+</div><div class="sp " data-who="FUL">
+  <p class="spk ">
+    Fulvia
+  </p>
+  <p class="pr " id="l834"><a class="pn " href="#l834">834</a>Rufo mío, puedes estar contento, que nunca más serás pobre.</p>
+</div><div class="sp " data-who="RUF">
+  <p class="spk ">
+    Rufo
+  </p>
+  <p class="pr " id="l835"><a class="pn m5" href="#l835">835</a>Y tú nunca más infeliz.</p>
+</div><div class="sp " data-who="FUL">
+  <p class="spk ">
+    Fulvia
+  </p>
+  <p class="pr " id="l836"><a class="pn " href="#l836">836</a>¿Y cuánto tiempo deberé esperarlo?</p>
+</div><div class="sp " data-who="RUF">
+  <p class="spk ">
+    Rufo
+  </p>
+  <p class="pr " id="l837"><a class="pn " href="#l837">837</a>En cuanto llegue a casa.</p>
+</div><div class="sp " data-who="FUL">
+  <p class="spk ">
+    Fulvia
+  </p>
+  <p class="pr " id="l838"><a class="pn " href="#l838">838</a>Le diré a Samia que vaya contigo para que me cuente lo que te dice el espíritu.</p>
+</div><div class="sp " data-who="RUF">
+  <p class="spk ">
+    Rufo
+  </p>
+  <p class="pr " id="l839"><a class="pn " href="#l839">839</a>Haz como quieras; y acuérdate de que también el amante sea bien recompensado.</p>
+</div><div class="sp " data-who="FUL">
+  <p class="spk ">
+    Fulvia
+  </p>
+  <p class="pr " id="l840"><a class="pn m5" href="#l840">840</a>¡Oh, oh! No te preocupes, que tendrá dinero y joyas en abundancia.</p>
+</div><div class="sp " data-who="RUF">
+  <p class="spk ">
+    Rufo
+  </p>
+  <p class="pr " id="l841"><a class="pn " href="#l841">841</a>Queda con Dios. Con gran razón al Amor se le pinta ciego, porque quien ama nunca ve la verdad. Ésta está tan ciega de amor que ella se ha tragado que un espíritu puede trocar a una persona de hembra en varón a su libre albedrío: como si no hiciera falta otra cosa que cortar la raíz del hombre y poner en su lugar una raja, y así formar una mujer; y coser la boca de abajo y aplicar un nabo, y así hacer un varón. ¡Ooh, amatoria credulidad! ¡Oh, oh! Ahí llegan Lidio y Fanio ya cambiados.</p>
+</div>
+      </section>
+    
+  
+    
+      <section id="act-4-s3">
+        <h3 class="scene-head">
+          ESCENA TERCERA
+        </h3>
+        <p class="sd " id="l841-sd1">Rufo nigromante, Lidio mujer, Fanio siervo.</p><div class="sp " data-who="RUF">
+  <p class="spk ">
+    Rufo
+  </p>
+  <p class="pr " id="l842"><a class="pn " href="#l842">842</a>Preferiría que vosotros fuerais aún vestidos de mujer.</p>
+</div><div class="sp " data-who="SAN">
+  <p class="spk ">
+    Lidio-mujer
+  </p>
+  <p class="pr " id="l843"><a class="pn " href="#l843">843</a>¿Por qué?</p>
+</div><div class="sp " data-who="RUF">
+  <p class="spk ">
+    Rufo
+  </p>
+  <p class="pr " id="l844"><a class="pn " href="#l844">844</a>Para volver con ella. ¡Ja, ja!</p>
+</div><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l845"><a class="pn m5" href="#l845">845</a>¿De qué te ríes tan desconsideramente?</p>
+</div><div class="sp " data-who="RUF">
+  <p class="spk ">
+    Rufo
+  </p>
+  <p class="pr " id="l846"><a class="pn " href="#l846">846</a>¡Ja, ja, ja, ja!</p>
+</div><div class="sp " data-who="SAN">
+  <p class="spk ">
+    Lidio-mujer
+  </p>
+  <p class="pr " id="l847"><a class="pn " href="#l847">847</a>Dinos: ¿qué te ocurre?</p>
+</div><div class="sp " data-who="RUF">
+  <p class="spk ">
+    Rufo
+  </p>
+  <p class="pr " id="l848"><a class="pn " href="#l848">848</a>¡Ja, ja, ja! Fulvia, creyendo que el espíritu ha convertido a Lidio en mujer, suplica ahora que te convierta en hombre y que te envíe de nuevo a ella.</p>
+</div><div class="sp " data-who="SAN">
+  <p class="spk ">
+    Lidio-mujer
+  </p>
+  <p class="pr " id="l849"><a class="pn " href="#l849">849</a>Bueno: ¿qué le has prometido?</p>
+</div><div class="sp " data-who="RUF">
+  <p class="spk ">
+    Rufo
+  </p>
+  <p class="pr " id="l850"><a class="pn m5" href="#l850">850</a>Que todo se cumplirá enseguida.</p>
+</div><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l851"><a class="pn " href="#l851">851</a>Has hecho bien.</p>
+</div><div class="sp " data-who="RUF">
+  <p class="spk ">
+    Rufo
+  </p>
+  <p class="pr " id="l852"><a class="pn " href="#l852">852</a>¿Cuándo volverás con ella?</p>
+</div><div class="sp " data-who="SAN">
+  <p class="spk ">
+    Lidio-mujer
+  </p>
+  <p class="pr " id="l853"><a class="pn " href="#l853">853</a>No lo sé.</p>
+</div><div class="sp " data-who="RUF">
+  <p class="spk ">
+    Rufo
+  </p>
+  <p class="pr " id="l854"><a class="pn " href="#l854">854</a>Te noto un tanto frío. ¿No quieres volver?</p>
+</div><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l855"><a class="pn m5" href="#l855">855</a>Sí, lo hará, sí.</p>
+</div><div class="sp " data-who="RUF">
+  <p class="spk ">
+    Rufo
+  </p>
+  <p class="pr " id="l856"><a class="pn " href="#l856">856</a>Así sea, pues yo le he dicho, de parte del espíritu, que ella te recompense abundamente, y me ha prometido hacerlo.</p>
+</div><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l857"><a class="pn " href="#l857">857</a>Volveremos, no te preocupes.</p>
+</div><div class="sp " data-who="RUF">
+  <p class="spk ">
+    Rufo
+  </p>
+  <p class="pr " id="l858"><a class="pn " href="#l858">858</a>¿Y cuándo?</p>
+</div><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l859"><a class="pn " href="#l859">859</a>Una vez solventado cierto asunto nos vestiremos de nuevo e iremos enseguida para allá.</p>
+</div><div class="sp " data-who="RUF">
+  <p class="spk ">
+    Rufo
+  </p>
+  <p class="pr " id="l860"><a class="pn m5" href="#l860">860</a>No falles, Lidio. Desde aquí me parece ver a su criada en la puerta de casa. No quiero que me vea con vosotros. Adiós. Un momento, ¡oh, oh, oh!, Fanio, deja que te diga una cosa al oído: haz que el barbaflorido use ahora con Fulvia la maza y no el mortero, ya me entiendes.</p>
+</div><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l861"><a class="pn " href="#l861">861</a>Así será. Vete.</p>
+</div>
+      </section>
+    
+  
+    
+      <section id="act-4-s4">
+        <h3 class="scene-head">
+          ESCENA CUARTA
+        </h3>
+        <p class="sd " id="l861-sd1">Fanio criado, Lidio-mujer, Samia criada.</p><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l862"><a class="pn " href="#l862">862</a>Samia sale de casa. Hazte a un lado hasta que pase.</p>
+</div><div class="sp " data-who="SAN">
+  <p class="spk ">
+    Lidio-mujer
+  </p>
+  <p class="pr " id="l863"><a class="pn " href="#l863">863</a>Habla consigo misma.</p>
+</div><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l864"><a class="pn " href="#l864">864</a>Calla y escucha.</p>
+</div><div class="sp " data-who="SAM">
+  <p class="spk ">
+    Samia
+  </p>
+  <p class="pr " id="l865"><a class="pn m5" href="#l865">865</a>¡Fíate tú de los espíritus, fíate! Mira cómo te han dejado a tu Lidio.</p>
+</div><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l866"><a class="pn " href="#l866">866</a>Habla de ti.</p>
+</div><div class="sp " data-who="SAM">
+  <p class="spk ">
+    Samia
+  </p>
+  <p class="pr " id="l867"><a class="pn " href="#l867">867</a>Lo han vuelto mujer y ahora lo quieren hacer hombre. Hoy es el día de sus tribulaciones y de mis fatigas. Pero bueno, si lo hacen todo saldrá bien. Y pronto lo sabré, porque allá me envía, para que lo sepa del nigromante; y se apresta para darle al amante sus buenos dineros en cuanto sepa que se ha arreglado aquel asunto.</p>
+</div><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l868"><a class="pn " href="#l868">868</a>¿Has oído lo del dinero?</p>
+</div><div class="sp " data-who="SAN">
+  <p class="spk ">
+    Lidio-mujer
+  </p>
+  <p class="pr " id="l869"><a class="pn " href="#l869">869</a>Sí.</p>
+</div><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l870"><a class="pn m5" href="#l870">870</a>Preparémonos para volver.</p>
+</div><div class="sp " data-who="SAN">
+  <p class="spk ">
+    Lidio-mujer
+  </p>
+  <p class="pr " id="l871"><a class="pn " href="#l871">871</a>Sin duda, Fanio, tú no estás en tus cabales. Tú le has prometido a Rufo que volveríamos; y yo no sé cómo pretendes que acabe este asunto.</p>
+</div><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l872"><a class="pn " href="#l872">872</a>¿Por qué?</p>
+</div><div class="sp " data-who="SAN">
+  <p class="spk ">
+    Lidio-mujer
+  </p>
+  <p class="pr " id="l873"><a class="pn " href="#l873">873</a>¿Y me lo preguntas? ¡Estúpido! ¡Como si tú no supieras que soy mujer!</p>
+</div><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l874"><a class="pn " href="#l874">874</a>¿Qué importa?</p>
+</div><div class="sp " data-who="SAN">
+  <p class="spk ">
+    Lidio-mujer
+  </p>
+  <p class="pr " id="l875"><a class="pn m5" href="#l875">875</a>¡Qué importa, dice! ¿Pero no ves tú, majadero, que si me dejo tocar y doy a entender lo que yo soy me perjudico a mí misma, Rufo pierde su crédito y ella queda burlada? ¿Cómo quieres que lo hagamos?</p>
+</div><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l876"><a class="pn " href="#l876">876</a>¡Ah! ¿cómo?</p>
+</div><div class="sp " data-who="SAN">
+  <p class="spk ">
+    Lidio-mujer
+  </p>
+  <p class="pr " id="l877"><a class="pn " href="#l877">877</a>Sí, cómo.</p>
+</div><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l878"><a class="pn " href="#l878">878</a>Donde hay hombres, hay remedios.</p>
+</div><div class="sp " data-who="SAN">
+  <p class="spk ">
+    Lidio-mujer
+  </p>
+  <p class="pr " id="l879"><a class="pn " href="#l879">879</a>Pero donde no hay más que mujeres, como seremos ella y yo, no habrá ningún remedio.</p>
+</div><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l880"><a class="pn m5" href="#l880">880</a>Tú estás de broma, ¿verdad?</p>
+</div><div class="sp " data-who="SAN">
+  <p class="spk ">
+    Lidio-mujer
+  </p>
+  <p class="pr " id="l881"><a class="pn " href="#l881">881</a>De broma estás tú. Yo hablo con maldito entendimiento.</p>
+</div><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l882"><a class="pn " href="#l882">882</a>Cuando prometí que tú volverías, yo había pensado en todo.</p>
+</div><div class="sp " data-who="SAN">
+  <p class="spk ">
+    Lidio-mujer
+  </p>
+  <p class="pr " id="l883"><a class="pn " href="#l883">883</a>Pues dímelo.</p>
+</div><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l884"><a class="pn " href="#l884">884</a>¿No me has dicho que estuviste con ella en una habitación oscura?</p>
+</div><div class="sp " data-who="SAN">
+  <p class="spk ">
+    Lidio-mujer
+  </p>
+  <p class="pr " id="l885"><a class="pn m5" href="#l885">885</a>Sí.</p>
+</div><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l886"><a class="pn " href="#l886">886</a>¿Y que contigo solo hablaba con las manos?</p>
+</div><div class="sp " data-who="SAN">
+  <p class="spk ">
+    Lidio-mujer
+  </p>
+  <p class="pr " id="l887"><a class="pn " href="#l887">887</a>Así es.</p>
+</div><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l888"><a class="pn " href="#l888">888</a>Pues bien, yo iré contigo, como antes.</p>
+</div><div class="sp " data-who="SAN">
+  <p class="spk ">
+    Lidio-mujer
+  </p>
+  <p class="pr " id="l889"><a class="pn " href="#l889">889</a>¡Oh, oh, oh! ¿Para hacer qué?</p>
+</div><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l890"><a class="pn m5" href="#l890">890</a>Escucha: como criada.</p>
+</div><div class="sp " data-who="SAN">
+  <p class="spk ">
+    Lidio-mujer
+  </p>
+  <p class="pr " id="l891"><a class="pn " href="#l891">891</a>Ya lo sé.</p>
+</div><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l892"><a class="pn " href="#l892">892</a>Vestida como tú.</p>
+</div><div class="sp " data-who="SAN">
+  <p class="spk ">
+    Lidio-mujer
+  </p>
+  <p class="pr " id="l893"><a class="pn " href="#l893">893</a>¿Y qué más?</p>
+</div><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l894"><a class="pn " href="#l894">894</a>Cuando estés con ella en la habitación, finge que me tienes que decir algo y sal fuera de la habitación. Tú te quedarás fuera en mi lugar, date cuenta, y yo sustituyéndote entraré en la habitación, en la cual, ella notándome sin barba, en la oscuridad no se dará cuenta de quién soy, si tú o yo. Y así creerá que has vuelto a ser hombre, al espíritu se le añadirá más crédito, el dinero vendrá a raudales y yo con ella me regocijaré.</p>
+</div><div class="sp " data-who="SAN">
+  <p class="spk ">
+    Lidio-mujer
+  </p>
+  <p class="pr " id="l895"><a class="pn m5" href="#l895">895</a>A fe mía te digo, Fanio, que nunca oí cosa pensada con semejante astucia.</p>
+</div><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l896"><a class="pn " href="#l896">896</a>Así pues, yo no me equivoqué al decirle a Rufo que nosotros volveremos.</p>
+</div><div class="sp " data-who="SAN">
+  <p class="spk ">
+    Lidio-mujer
+  </p>
+  <p class="pr " id="l897"><a class="pn " href="#l897">897</a>Sin duda. Pero mientras tanto no estaría de más saber qué es lo que se trama en nuestra casa sobre esta parentela mía.</p>
+</div><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l898"><a class="pn " href="#l898">898</a>Eso es buscarse dolores y nuestro propósito es huir del desenlace.</p>
+</div><div class="sp " data-who="SAN">
+  <p class="spk ">
+    Lidio-mujer
+  </p>
+  <p class="pr " id="l899"><a class="pn " href="#l899">899</a>El dejarlo para más tarde no elimina el asunto. Mañana nos lo encontraremos igual que está hoy.</p>
+</div><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l900"><a class="pn m5" href="#l900">900</a>¿Quién sabe? Quien evita una cosa se libra de cien. El ir a casa de Fulvia puede ayudar, no perjudicar.</p>
+</div><div class="sp " data-who="SAN">
+  <p class="spk ">
+    Lidio-mujer
+  </p>
+  <p class="pr " id="l901"><a class="pn " href="#l901">901</a>Me parece bien. Pero ve rápido a casa primero, por mi amor, y entérate por Tiresias de lo que sucede. Vuelve enseguida y nos iremos raudos a casa de Fulvia.</p>
+</div><div class="sp " data-who="FAN">
+  <p class="spk ">
+    Fanio
+  </p>
+  <p class="pr " id="l902"><a class="pn " href="#l902">902</a>Bien dicho. Eso haré.</p>
+</div>
+      </section>
+    
+  
+    
+      <section id="act-4-s5">
+        <h3 class="scene-head">
+          ESCENA QUINTA
+        </h3>
+        <p class="sd " id="l902-sd1">Lidio-mujer sola.</p><div class="sp " data-who="SAN">
+  <p class="spk ">
+    Lidio-mujer
+  </p>
+  <p class="pr " id="l903"><a class="pn " href="#l903">903</a>¡Oh, infeliz sexo femenino, que no solo a las obras, sino incluso a los pensamientos estás sometido! Habiéndome de mostrar como mujer, no sé ni qué hacer ni qué pensar para salir bien parada. ¡Ay, pobre de mí! ¿Qué he de hacer? Mire donde mire, tan envuelta de angustia me encuentro que no veo lugar alguno en que me pueda poner a salvo. Pero mira ahí a la criada de Fulvia, que habla con alguien. Me apartaré hasta que pase.</p>
+</div>
+      </section>
+    
+  
+    
+      <section id="act-4-s6">
+        <h3 class="scene-head">
+          ESCENA SEXTA
+        </h3>
+        <p class="sd " id="l903-sd1">Fesenio criado, Samia criada.</p><div class="sp " data-who="FES">
+  <p class="spk ">
+    Fes.
+  </p>
+  <p class="pr " id="l904"><a class="pn " href="#l904">904</a>Y bueno, ¿qué contratiempos son éstos? Dímelo ya.</p>
+</div><div class="sp " data-who="SAM">
+  <p class="spk ">
+    Samia
+  </p>
+  <p class="pr " id="l905"><a class="pn m5" href="#l905">905</a>A fe mía, que el demonio está por medio.</p>
+</div><div class="sp " data-who="FES">
+  <p class="spk ">
+    Fes.
+  </p>
+  <p class="pr " id="l906"><a class="pn " href="#l906">906</a>¿Cómo?</p>
+</div><div class="sp " data-who="SAM">
+  <p class="spk ">
+    Samia
+  </p>
+  <p class="pr " id="l907"><a class="pn " href="#l907">907</a>El nigromante ha convertido a Lidio en mujer.</p>
+</div><div class="sp " data-who="FES">
+  <p class="spk ">
+    Fes.
+  </p>
+  <p class="pr " id="l908"><a class="pn " href="#l908">908</a>¡Ja, ja, ja, ja!</p>
+</div><div class="sp " data-who="SAM">
+  <p class="spk ">
+    Samia
+  </p>
+  <p class="pr " id="l909"><a class="pn " href="#l909">909</a>¿A ti te hace gracia?</p>
+</div><div class="sp " data-who="FES">
+  <p class="spk ">
+    Fes.
+  </p>
+  <p class="pr " id="l910"><a class="pn m5" href="#l910">910</a>Pues sí.</p>
+</div><div class="sp " data-who="SAM">
+  <p class="spk ">
+    Samia
+  </p>
+  <p class="pr " id="l911"><a class="pn " href="#l911">911</a>Es el evangelio.</p>
+</div><div class="sp " data-who="FES">
+  <p class="spk ">
+    Fes.
+  </p>
+  <p class="pr " id="l912"><a class="pn " href="#l912">912</a>¡Eh, eh, eh! ¿Es que os habéis vuelto locas?</p>
+</div><div class="sp " data-who="SAM">
+  <p class="spk ">
+    Samia
+  </p>
+  <p class="pr " id="l913"><a class="pn " href="#l913">913</a>Pareces un animal. Es así, te guste o no. Fulvia lo ha tocado todo y lo ha hallado mujer; y de como solía ser no le ha quedado más que la presencia.</p>
+</div><div class="sp " data-who="FES">
+  <p class="spk ">
+    Fes.
+  </p>
+  <p class="pr " id="l914"><a class="pn " href="#l914">914</a>¡Ja, ja! ¿Y qué hará ahora?</p>
+</div><div class="sp " data-who="SAM">
+  <p class="spk ">
+    Samia
+  </p>
+  <p class="pr " id="l915"><a class="pn m5" href="#l915">915</a>Como no te lo crees, no te lo diré.</p>
+</div><div class="sp " data-who="FES">
+  <p class="spk ">
+    Fes.
+  </p>
+  <p class="pr " id="l916"><a class="pn " href="#l916">916</a>Sí que me lo creo, por estas. Dime: ¿cómo lo arregla ahora?</p>
+</div><div class="sp " data-who="SAM">
+  <p class="spk ">
+    Samia
+  </p>
+  <p class="pr " id="l917"><a class="pn " href="#l917">917</a>El espíritu lo convertirá de nuevo en hombre. Vengo de ver al nigromante, que me ha dado este billete para que se lo lleve a Fulvia.</p>
+</div><div class="sp " data-who="FES">
+  <p class="spk ">
+    Fes.
+  </p>
+  <p class="pr " id="l918"><a class="pn " href="#l918">918</a>Déjamelo leer.</p>
+</div><div class="sp " data-who="SAM">
+  <p class="spk ">
+    Samia
+  </p>
+  <p class="pr " id="l919"><a class="pn " href="#l919">919</a>¡Ay de mí! No lo hagas, que te podría ocurrir algún mal.</p>
+</div><div class="sp " data-who="FES">
+  <p class="spk ">
+    Fes.
+  </p>
+  <p class="pr " id="l920"><a class="pn m5" href="#l920">920</a>Aunque me tenga que caer muerto, quiero verlo.</p>
+</div><div class="sp " data-who="SAM">
+  <p class="spk ">
+    Samia
+  </p>
+  <p class="pr " id="l921"><a class="pn " href="#l921">921</a>Mira bien, Fesenio, lo que haces. Estas son cosas del demonio.</p>
+</div><div class="sp " data-who="FES">
+  <p class="spk ">
+    Fes.
+  </p>
+  <p class="pr " id="l922"><a class="pn " href="#l922">922</a>No me da miedo. Muéstramelo.</p>
+</div><div class="sp " data-who="SAM">
+  <p class="spk ">
+    Samia
+  </p>
+  <p class="pr " id="l923"><a class="pn " href="#l923">923</a>Te digo que no lo hagas. Santíguate antes, Fesenio.</p>
+</div><div class="sp " data-who="FES">
+  <p class="spk ">
+    Fes.
+  </p>
+  <p class="pr " id="l924"><a class="pn " href="#l924">924</a>¡Bah! Dámelo.</p>
+</div><div class="sp " data-who="SAM">
+  <p class="spk ">
+    Samia
+  </p>
+  <p class="pr " id="l925"><a class="pn m5" href="#l925">925</a>Sí, pero en esto has de ser mudo como un pez, porque si llegara a saberse... ¡pobres de nosotros!</p>
+</div><div class="sp " data-who="FES">
+  <p class="spk ">
+    Fes.
+  </p>
+  <p class="pr " id="l926"><a class="pn " href="#l926">926</a>No pienses en eso. Dame.</p>
+</div><div class="sp " data-who="SAM">
+  <p class="spk ">
+    Samia
+  </p>
+  <p class="pr " id="l927"><a class="pn " href="#l927">927</a>Lee en voz alta, que lo oiga yo también.</p>
+</div><div class="sp " data-who="FES">
+  <p class="spk ">
+    Fes.
+  </p>
+  <p class="pr " id="l928"><a class="pn " href="#l928">928</a>«Rufo saluda a Fulvia. El espíritu sabía que de hombre se había vuelto mujer tu Lidio. Se ha reído conmigo un buen rato. Tú misma fuiste la causa de tu daño y de tu disgusto; pero no te preocupes, que a tu amante restituirá pronto la rama...»</p>
+</div><div class="sp " data-who="SAM">
+  <p class="spk ">
+    Samia
+  </p>
+  <p class="pr " id="l929"><a class="pn " href="#l929">929</a>¿Qué dice de rama?</p>
+</div><div class="sp " data-who="FES">
+  <p class="spk ">
+    Fes.
+  </p>
+  <p class="pr " id="l930"><a class="pn m5" href="#l930">930</a>Que recuperará la cola, ¿lo entiendes? «...y enseguida volverá contigo. Es más, dice que arde en deseo por ti mucho más que antes; que a ninguno otro más que a ti ama, estima, conoce, recuerda. No hables de esto porque se armaría un gran escándalo. Envíale dinero en abundancia; y también al espíritu, para que sea favorable a ti y feliz para mí. Vive feliz y acuérdate de mí, que fielmente te sirvo».</p>
+</div><div class="sp " data-who="SAM">
+  <p class="spk ">
+    Samia
+  </p>
+  <p class="pr " id="l931"><a class="pn " href="#l931">931</a>¿Ves ahora cómo los espíritus lo pueden y lo saben todo?</p>
+</div><div class="sp " data-who="FES">
+  <p class="spk ">
+    Fes.
+  </p>
+  <p class="pr " id="l932"><a class="pn " href="#l932">932</a>Soy el hombre más asombrado del mundo.</p>
+</div><div class="sp " data-who="SAM">
+  <p class="spk ">
+    Samia
+  </p>
+  <p class="pr " id="l933"><a class="pn " href="#l933">933</a>Quiero llevar ya esta buena nueva a Fulvia.</p>
+</div><div class="sp " data-who="FES">
+  <p class="spk ">
+    Fes.
+  </p>
+  <p class="pr " id="l934"><a class="pn " href="#l934">934</a>Vete con Dios. ¡Oh, potencia del cielo! ¿Y tengo yo que creerme que Lidio, a fuerza de encantamientos, se haya transformado en mujer y que no amará y conocerá más que a Fulvia? Solo el cielo podía hacer una cosa así. Y, sin embargo, ella dice que Fulvia lo tocó con la mano. Tengo que ver este milagro, antes de que vuelva a ser hombre; y después admirar a este nigromante, si es así. Por esta calle de aquí voy a casa de Lidio, que quizá estará en casa.</p>
+</div>
+      </section>
+    
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-3.html" rel="prev">← Acto III</a>
+  <a href="act-5.html" rel="next">Acto V →</a>
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

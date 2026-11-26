@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Atto III — La tempesta — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco"><x-es>Elenco</x-es><x-en>Cast list</x-en></a></li>
+      
+  
+    
+        <li>
+          <a href="act-1.html">
+            Atto I
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html">
+            Atto II
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html" aria-current="page">
+            Atto III
+          </a>
+          <ul>
+            <li>
+              
+                  <a href="act-3.html#act-3-s1">
+                    ATTO TERZO
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-3.html#act-3-s2">
+                    SCENA I
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-3.html#act-3-s3">
+                    SCENA II.
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-3.html#act-3-s4">
+                    SCENA III
+                  </a>
+              
+            </li>
+          </ul>
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-4.html">
+            Atto IV
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-5.html">
+            Atto V
+          </a>
+          
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="Sebastian">
+        SEBASTIANO
+      </option><option value="Prospero">
+        PROSPERO
+      </option><option value="Antonio">
+        ANTONIO
+      </option><option value="Ferdinand">
+        FERDINANDO
+      </option><option value="Gonzalo">
+        GONZALO
+      </option><option value="Adrian">
+        ADRIANO}
+      </option><option value="Francisco">
+        FRANCESCO}
+      </option><option value="Caliban">
+        CALIBANO
+      </option><option value="Trinculo">
+        TRINCULO
+      </option><option value="Stephano">
+        STEFANO
+      </option><option value="Master">
+        Capitano di una nave
+      </option><option value="Boatswain">
+        Nostromo
+      </option><option value="Mariners">
+        Marinai
+      </option><option value="Miranda">
+        MIRANDA
+      </option><option value="Ariel">
+        ARIELE
+      </option><option value="Iris">
+        IRIDE}
+      </option><option value="Ceres">
+        CERERE}
+      </option><option value="Juno">
+        GIUNONE}
+      </option><option value="Nymphs">
+        Ninfe}
+      </option><option value="Reapers">
+        Mietitori}
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="asm" aria-label="Resaltar apartes" data-en-aria-label="Highlight asides" data-tr>
+        <x-es>Apartes</x-es><x-en>Asides</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .aparte, .text .pr.as, .text .pr:not(.as) span.as" data-for="asm">
+  <button type="button" data-step="-1" aria-label="Aparte anterior" data-en-aria-label="Previous aside" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente aparte" data-en-aria-label="Next aside" data-tr>›</button>
+</div>
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">William Shakespeare</p>
+  <h1><a href="index.html">La tempesta</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-2.html" rel="prev">← Atto II</a>
+  <a href="act-4.html" rel="next">Atto IV →</a>
+</nav>
+  <div class="text" lang="it" data-cite="William Shakespeare, La tempesta, Atto III" data-cite-verse="v." data-cite-prose="l.">
+    
+    <section class="division" id="act-3">
+  <h2 class="act-head">
+    Atto III
+  </h2>
+  
+  
+  
+    
+      <section id="act-3-s1">
+        <h3 class="scene-head">
+          ATTO TERZO
+        </h3>
+        
+      </section>
+    
+  
+    
+      <section id="act-3-s2">
+        <h3 class="scene-head">
+          SCENA I
+        </h3>
+        <p class="sd " id="l50-sd2">Davanti alla grotta di Prospero.</p><p class="sd " id="l50-sd3">Entra FERDINANDO portando un ceppo.</p><div class="sp " data-who="Ferdinand">
+  <p class="spk ">
+    Ferdinando.
+  </p>
+  <p class="pr " id="l50-p1">Vi sono dei divertimenti travagliosi, ma il piacere che in essi si trova, compensa quella fatica. Alcune specie di bassi servigi possono essere eseguiti nobilmente e le più meschine occupazioni possono mirare ad alti scopi. Quest’umile compito che mi è imposto, sarebbe per me pesante non meno che odioso, ma la signora che io servo, vivifica ciò che è morto e fa della mia fatica un piacere. Oh! essa è dieci volte più gentile di quanto suo padre è bisbetico: egli è fatto di asprezza. Io devo, per un severo ordine, trasportare alcune migliaia di questi ceppi e accatastarli. La mia gentile signora piange quando mi vede lavorare, e dice che un così umile ufficio non fu mai eseguito da una persona mia pari. Ora io dimentico il mio compito; ma questi dolci pensieri son pure un sollievo al mio lavoro e quando in essi mi immergo, quantunque sembri meno attivo, sono invece operosissimo.</p>
+</div><p class="sd " id="l50-sd4">Entrano MIRANDA, e PROSPERO a una certa distanza, non visto.</p><div class="sp " data-who="Miranda">
+  <p class="spk ">
+    Miranda.
+  </p>
+  <p class="pr " id="l50-p2">Ahimè, vi prego, non v’affaticate così duramente. Vorrei che il fulmine avesse incendiato codesti ceppi che vi è stato ordinato di accatastare! Ponete qui, di grazia, quello che portate e riposatevi: quando esso brucerà, piangerà per avervi stancato. Mio padre è tutto immerso nello studio: Riposatevi dunque, vi prego; per tre ore ancora non c’è da aver paura di lui.</p>
+</div><div class="sp " data-who="Ferdinand">
+  <p class="spk ">
+    Ferdinando.
+  </p>
+  <p class="pr " id="l50-p3">O mia diletta signora, il sole sarà tramontato prima che io abbia compiuto ciò che mi sforzo di fare.</p>
+</div><div class="sp " data-who="Miranda">
+  <p class="spk ">
+    Miranda.
+  </p>
+  <p class="pr " id="l50-p4">Se vi mettete a sedere, mi caricherò io nel frattempo dei vostri ceppi. Datemi, per piacere, codesto, e lo porterò alla catasta.</p>
+</div><div class="sp " data-who="Ferdinand">
+  <p class="spk ">
+    Ferdinando.
+  </p>
+  <p class="pr " id="l50-p5">No, preziosa creatura, vorrei che mi si spezzassero i tendini, che mi si rompesse la schiena, prima che vi sottoponeste ad un così disonorevole lavoro, e io me ne stessi a sedere senza far nulla.</p>
+</div><div class="sp " data-who="Miranda">
+  <p class="spk ">
+    Miranda.
+  </p>
+  <p class="pr " id="l50-p6">È un lavoro che s’addirebbe tanto a me quanto a voi; e io lo farei con maggior facilità, perché ci metterei tutto il mio buon volere, mentre voi lo fate a malincuore.</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    Prospero.
+  </p>
+  <p class="pr " id="l50-p7">Povera creatura, sei presa dal contagio! L’essere venuta que lo dice chiaro.</p>
+</div><div class="sp " data-who="Miranda">
+  <p class="spk ">
+    Miranda.
+  </p>
+  <p class="pr " id="l50-p8">Avete l’aria di essere stanco.</p>
+</div><div class="sp " data-who="Ferdinand">
+  <p class="spk ">
+    Ferdinando.
+  </p>
+  <p class="pr " id="l50-p9">No, nobile signora. Se mi siete accanto, la sera per me è una fresca mattina. Ditemi, vi supplico, quale è il vostro nome, perché io lo possa inserire nelle mie orazioni.</p>
+</div><div class="sp " data-who="Miranda">
+  <p class="spk ">
+    Miranda.
+  </p>
+  <p class="pr " id="l50-p10">Oh, padre mio, ho trasgredito ai tuoi ordini per averlo detto!</p>
+</div><div class="sp " data-who="Ferdinand">
+  <p class="spk ">
+    Ferdinando.
+  </p>
+  <p class="pr " id="l50-p11">Ammirabile Miranda, il culmine dell’ammirazione, pari a ciò che il mondo ha di più caro! Su parecchie gentildonne si è posato il mio occhio col più grande interesse, e più d’una volta l’armonia della loro voce ha soggiogato il mio troppo attento orecchio. Diverse donne mi son piaciute per differenti pregi, ma non mai alcuna con sì pieno consenso dell’anima, che qualche difetto in lei non contrastasse con la più nobile grazia ch’essa possedeva e l’offuscasse. Ma voi... oh voi, così perfetta e così impareggiabile, siete stata formata col meglio di ogni creatura!</p>
+</div><div class="sp " data-who="Miranda">
+  <p class="spk ">
+    Miranda.
+  </p>
+  <p class="pr " id="l50-p12">Non conosco alcun’altra del mio sesso, non ricordo alcun viso di donna, salvo il mio, che mi rimanda lo specchio, e di quelli che posso chiamar uomini, non ho visto che voi, mio buon amico, e il mio caro padre. Ignoro quali siano altrove le fattezze umane; ma per quella modestia, che è il gioiello della mia dote, non vorrei al mondo altro compagno che voi, perché la mia immaginazione non può creare, all’infuori di voi, altra forma che mi possa piacere. Ma io chiacchiero un po’ troppo da stordita, e dimentico, a questo proposito, gli avvertimenti di mio padre.</p>
+</div><div class="sp " data-who="Ferdinand">
+  <p class="spk ">
+    Ferdinando.
+  </p>
+  <p class="pr " id="l50-p13">Di condizione io sono principe, Miranda, credo, anzi, re —vorrei che così non fosse— e non sopporterei questa servile onta di porta legna, quanto non tollererei che un moscone mi contaminasse le labbra. Ascoltate ciò che vi dico con tutta l’anima. Nel primo istante che vi ho vista il mio cuore è volato al vostro servizio e ivi è rimasto e ha fatto di me uno schiavo. Solo per amor vostro io sono questo paziente portatore di legna.</p>
+</div><div class="sp " data-who="Miranda">
+  <p class="spk ">
+    Miranda.
+  </p>
+  <p class="pr " id="l50-p14">Mi amate?</p>
+</div><div class="sp " data-who="Ferdinand">
+  <p class="spk ">
+    Ferdinando.
+  </p>
+  <p class="pr " id="l50-p15">O cielo, o terra, siate testimoni delle mie parole e coronate di un lieto esito ciò che io dichiaro, se io dico il vero; se parlo falsamente, cambiate inmale ciò che di meglio mi prepara l’avvenire. Vi amo, vi stimo, vi onoro oltre i limiti di qualsivoglia altra cosa che esista al mondo.</p>
+</div><div class="sp " data-who="Miranda">
+  <p class="spk ">
+    Miranda.
+  </p>
+  <p class="pr " id="l50-p16">Come sono sciocca a piangere di ciò di cui sono felice!</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    Prospero.
+  </p>
+  <p class="pr " id="l50-p17">Felice incontro di due rarissimi affetti! O cielo, piovi la tua grazia su ciò che sta per sorgere fra loro!</p>
+</div><div class="sp " data-who="Ferdinand">
+  <p class="spk ">
+    Ferdinando.
+  </p>
+  <p class="pr " id="l50-p18">Di che piangete?</p>
+</div><div class="sp " data-who="Miranda">
+  <p class="spk ">
+    Miranda.
+  </p>
+  <p class="pr " id="l50-p19">Della mia pochezza che non osa offrire ciò che io desidero di dare, e tanto meno accettare ciò per la cui mancanza morrei certamente. Ma che vale? Quanto più quel che sento cerca di nascondersi, tanto più esso mostra la sua immane grandezza. Bando dunque alla timida dissimulazione, e ispirami tu, semplic e santa innocenza! Son vostra moglie se mi volete sposare, se no, morrò vostra ancella. Potete rifiutarmi come vostra compagna; ma, vogliate o no, sarò la vostra serva.</p>
+</div><div class="sp " data-who="Ferdinand">
+  <p class="spk ">
+    Ferdinando.
+  </p>
+  <p class="pr " id="l50-p20">La mia signora, mia diletta, ed io sempre a voi così sottomesso.</p>
+</div><div class="sp " data-who="Miranda">
+  <p class="spk ">
+    Miranda.
+  </p>
+  <p class="pr " id="l50-p21">Mio sposo dunque?</p>
+</div><div class="sp " data-who="Ferdinand">
+  <p class="spk ">
+    Ferdinando.
+  </p>
+  <p class="pr " id="l50-p22">Sì e con un cuore così pieno di desiderio, quanto non ne ebbe mai la schiavitù per la libertà. Eccovi la mia mano.</p>
+</div><div class="sp " data-who="Miranda">
+  <p class="spk ">
+    Miranda.
+  </p>
+  <p class="pr " id="l50-p23">Ed eccovi la mia con dentro il mio cuore. E ora a rivederci fra mezz’ora.</p>
+</div><div class="sp " data-who="Ferdinand">
+  <p class="spk ">
+    Ferdinando
+  </p>
+  <p class="pr " id="l50-p24">Mille e mille volte a rivederci!</p>
+</div><p class="sd " id="l50-sd5">[Escono Ferdinando e Miranda da diverse parti.</p><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    Prospero.
+  </p>
+  <p class="pr " id="l50-p25">Di questo io non posso esser così lieto come loro, che ne son colti di sorpresa; tuttavia per niun’altra cosa la mia gioia potrebbe essere maggiore. Ma ora voglio tornare al mio libro, perché prima di cena devo compiere alcune necessarie operazioni.</p>
+</div><p class="sd " id="l50-sd6">[Esce.</p>
+      </section>
+    
+  
+    
+      <section id="act-3-s3">
+        <h3 class="scene-head">
+          SCENA II.
+        </h3>
+        <p class="sd " id="l50-sd7">Un’altra parte dell’isola.</p><p class="sd " id="l50-sd8">Entrano CALIBANO, STEFANO e TRINCULO.</p><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l50-p26">Non mi dir più nulla. Quando il fusto sarà finito berremo acqua; ma prima, neppure una goccia; perciò voltiamo il timone e abbordiamo il nemico. O servo-mostro, bevi alla mia salute.</p>
+</div><div class="sp " data-who="Trinculo">
+  <p class="spk ">
+    Trinculo.
+  </p>
+  <p class="pr " id="l50-p27">Servo-mostro! bevi alla pazzia di quest’isola! Si dice che su quest’isola non siamo che in cinque. Tre siamo noi; se gli altri due hanno il cervello come il nostro, lo Stato non sta saldo.</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l50-p28">Bevi, servo-mostro, quando io te l’ordino. I tuoi occhi sono Servo-mostro! bevi alla pazzia di quest’isola! Si dice che su quest’isola non siamo che in cinque. Tre siamo noi; se gli altri due hanno il cervello come il nostro, lo Stato non sta saldo.mezzi chiusi nella tua testa.</p>
+</div><div class="sp " data-who="Trinculo">
+  <p class="spk ">
+    Trinculo.
+  </p>
+  <p class="pr " id="l50-p29">In quale altro luogo dovrebbero chiudersi? Sarebbe davvero un bel mostro se essi fossero mezzi chiusi sulla sua coda!</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l50-p30">La lingua del mio uomo-mostro si è annegata nel vin di Spagna. Per mio conto non può farmi annegare il mare. Ho nuotato, prima di poter raggiungere la spiaggia, trentacinque leghe al largo e verso terra. Come è vera questa luce, tu sarai il mio luogotenente, mostro, oppure reggerai la mia insegna.</p>
+</div><div class="sp " data-who="Trinculo">
+  <p class="spk ">
+    Trinculo.
+  </p>
+  <p class="pr " id="l50-p31">Tuo luogotenente, finché vuoi, ma egli non è in grado di regger neppure se stesso.</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l50-p32">Non dovrem mica darci alla fuga, Monsieur Mostro.</p>
+</div><div class="sp " data-who="Trinculo">
+  <p class="spk ">
+    Trinculo.
+  </p>
+  <p class="pr " id="l50-p33">E neppure marciare: vi dilungherete in terra come cani e non direte tuttavia una parola.</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l50-p34">O vitello lunare, parla una buona volta, se sei un buon vitello lunare.</p>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    Calibano.
+  </p>
+  <p class="pr " id="l50-p35">Come sta Tua Signoria? Lasciami leccar la tua scarpa. Lui non lo voglio servire; non è valoroso.</p>
+</div><div class="sp " data-who="Trinculo">
+  <p class="spk ">
+    Trinculo.
+  </p>
+  <p class="pr " id="l50-p36">Tu mentisci, ignorantissimo mostro; io sono in grado di tener testa a un caporale. Orsù, pesce crapulone, è stato mai vile un uomo che abbia bevuto vino di Spagna quanto ne ho bevuto oggi io? Puoi tu dire una bugia così mostruosa, quando non sei che per metà pesce e per metà mostro?</p>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    Calibano.
+  </p>
+  <p class="pr " id="l50-p37">Senti come si burla di me! E tu lo lasci dire, mio sovrano?</p>
+</div><div class="sp " data-who="Trinculo">
+  <p class="spk ">
+    Trinculo.
+  </p>
+  <p class="pr " id="l50-p38">Ha detto sovrano. È possibile che un mostro sia così idiota?</p>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    Calibano.
+  </p>
+  <p class="pr " id="l50-p39">Sentilo, sentilo ancora. Mordilo a sangue, te ne prego.</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l50-p40">Trinculo, non ti lasciar sfuggir di bocca brutte parole. Se vuoi fare il ribelle, bada che al prossimo albero... Il povero mostro è mio suddito e non deve patire insulti.</p>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    Calibano.
+  </p>
+  <p class="pr " id="l50-p41">Ti ringrazio, mio nobile sovrano. Vuoi degnarti di ascoltare ancora una volta la supplica che ti ho rivolto?</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l50-p42">Sì, certamente: inginocchiati e ripetila. Io starò in piedi e così anche Trinculo.</p>
+</div><p class="sd " id="l50-sd9">Entra ARIELE, invisibile.</p><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    Calibano.
+  </p>
+  <p class="pr " id="l50-p43">Come già ti ho detto, io sono soggetto a un tiranno, a uno stregone che con la sua astuzia mi ha defraudato dell’isola.</p>
+</div><div class="sp " data-who="Ariel">
+  <p class="spk ">
+    Ariele.
+  </p>
+  <p class="pr " id="l50-p44">Mentisci.</p>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    Calibano.
+  </p>
+  <p class="pr " id="l50-p45">Mentisci tu, scimmia buffona. Vorrei che il mio valoroso padrone ti ammazzasse. Io non mentisco.</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l50-p46">Trinculo, se tu lo interrompi ancora nel suo racconto, per questa mano, ti faccio saltar via qualche dente.</p>
+</div><div class="sp " data-who="Trinculo">
+  <p class="spk ">
+    Trinculo.
+  </p>
+  <p class="pr " id="l50-p47">Ma se non ho detto nulla!</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l50-p48">Zitto dunque, e basta! Va’ avanti.</p>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    Calibano.
+  </p>
+  <p class="pr " id="l50-p49">Dunque con la sua stregoneria s’è presa questa isola, e l’ha presa a me. Se l’Eccellenza Tua volesse punirlo per questo fatto —io so che tu hai coraggio, mentre questo coso non ne ha— ...</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l50-p50">Questo è fuor di dubbio.</p>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    Calibano.
+  </p>
+  <p class="pr " id="l50-p51">... diventeresti il signore dell’isola ed io ti servirei.</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l50-p52">E come si potrà ciò mandare ad effetto? Puoi tu condurmi da questo tale?</p>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    Calibano.
+  </p>
+  <p class="pr " id="l50-p53">Certo, certo, mio sovrano. Te lo consegnerò addormentato, e allora potrai conficcargli un chiodo in testa.</p>
+</div><div class="sp " data-who="Ariel">
+  <p class="spk ">
+    Ariele.
+  </p>
+  <p class="pr " id="l50-p54">Mentisci: non puoi.</p>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    Calibano.
+  </p>
+  <p class="pr " id="l50-p55">Che razza d’arlecchino è costui! Volgarissimo buffone! Prego l’Eccellenza Tua di assestargli un buon colpo e di togliergli la bottiglia. Quando essa non ci sarà più, egli non berrà altro che acqua salata, perché io non gli mostrerò dove sono le vive sorgenti di acqua dolce.</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l50-p56">Trinculo, evita guai maggiori. Interrompi anche una sola parola del mostro o, per questa mano, metto alla porta la clemenza e faccio di te un stoccafisso.</p>
+</div><div class="sp " data-who="Trinculo">
+  <p class="spk ">
+    Trinculo.
+  </p>
+  <p class="pr " id="l50-p57">Ma che cosa ho fatto? Non ho fatto nulla. Me ne andrò più lontano.</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l50-p58">Non hai detto che egli mentiva?</p>
+</div><div class="sp " data-who="Ariel">
+  <p class="spk ">
+    Ariele.
+  </p>
+  <p class="pr " id="l50-p59">Sei tu che mentisci.</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l50-p60">Io mentisco? Piglia questo. <span class="sdi">[Picchia Trinculo]</span> E se ci hai gusto smentiscimi un’altra volta.</p>
+</div><div class="sp " data-who="Trinculo">
+  <p class="spk ">
+    Trinculo.
+  </p>
+  <p class="pr " id="l50-p61">Io non ho smentito nessuno. Hai perduto il cervello e anche l’udito? Accidenti alla tua bottiglia! Ecco che cosa può produrre il vin di Spagna e il bere. Venga un canchero al tuo mostro e il diavolo ti porti via le dita.</p>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    Calibano.
+  </p>
+  <p class="pr " id="l50-p62">Ah, ah, ah!</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l50-p63">Ora va’ avanti col tuo racconto. Fammi il piacere di star più discosto.</p>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    Calibano.
+  </p>
+  <p class="pr " id="l50-p64">Picchialo ben bene. Fra poco lo picchierò anch’io.</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l50-p65">Sta’ più discosto. Su, va’ avanti.</p>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    Calibano.
+  </p>
+  <p class="pr " id="l50-p66">Ebbene, come ti dicevo, egli ha l’abitudine di dormire nel pomeriggio. Allora tu puoi fargli schizzar le cervella, essendoti prima impossessato dei suoi libri, o schiacciargli il cranio con un ceppo o squarciargli il ventre con un palo o recidergli il gargarozzo col tuo coltello. Ma ricordati di impadronirti prima dei suoi libri, perché senza di essi egli è un pover’uomo come son io, e non ha più alcuno spirito al suo comando. Essi tutti lo odiano non meno profondamente di me. Non bruciar però che i suoi libri. Egli ha belle masserizie —così le chiama— con le quali può arredare la casa, quando ne abbia una. Ma ciò che bisogna soprattutto tener presente è la bellezza della sua figliuola. Egli stesso la dice senza eguale. Io non ho mai visto donne all’infuori di Sicorace che m’ha messo al mondo, e di le; ma essa supera tanto Sicorace quanto il massimo supera il minimo.</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l50-p67">È dunque una così bella ragazza?</p>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    Calibano.
+  </p>
+  <p class="pr " id="l50-p68">Sì, mio sovrano; essa è ben degna del tuo letto, te lo garantisco, e ti darà una bella figliuolanza.</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l50-p69">Ammazzerò codest’uomo, o mostro. Sua figlia ed io saremo il re e la regina —Dio protegga le Nostre Maestà!— e tu e Trinculo sarete i viceré. Ti piace il progetto, Trinculo?</p>
+</div><div class="sp " data-who="Trinculo">
+  <p class="spk ">
+    Trinculo.
+  </p>
+  <p class="pr " id="l50-p70">Eccellente.</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l50-p71">Dammi la mano. Mi dispiace d’averti picchiato; ma finché vivi non ti lasciar uscir di bocca brutte parole.</p>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    Calibano.
+  </p>
+  <p class="pr " id="l50-p72">Da qui a mezz’ora sarà addormentato. Vuoi spacciarlo, allora?</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l50-p73">Sì, sull’onor mio.</p>
+</div><div class="sp " data-who="Ariel">
+  <p class="spk ">
+    Ariele.
+  </p>
+  <p class="pr " id="l50-p74">Riferirò tutto al mio padrone.</p>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    Calibano.
+  </p>
+  <p class="pr " id="l50-p75">Tu mi riempi di gioia. Sono veramente contento. Ora stiamo allegri. Volete cantare a turno quello strambotto che m’avete insegnato or non è molto?</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l50-p76">A tua richiesta, mostro, farò qualunque cosa che sia ragionevole, qualunque cosa. Su, Trinculo, cantiamo:</p><div class="lg ">
+  
+  <div class="l " id="l51"><a class="n " href="#l51">51</a><span class="t"><span class="sdi">[Canta].</span> Fa’ lor beffe e sberleffe,</span></div><div class="l " id="l52"><a class="n " href="#l52">52</a><span class="t">Fa’ lor beffe e sberleffe;</span></div><div class="l " id="l53"><a class="n " href="#l53">53</a><span class="t">Il pensiero è libero.</span></div>
+</div>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    Calibano.
+  </p>
+  <p class="pr " id="l53-p1"><span class="sdi">[Ariele suona l’aria su un tamburino e un zurfolo.</span> Codesta non è l’aria.</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l53-p2">Che cosa è questo?</p>
+</div><div class="sp " data-who="Trinculo">
+  <p class="spk ">
+    Trinculo.
+  </p>
+  <p class="pr " id="l53-p3">È l’aria del nostro strambotto suonata dal ritratto di Nessuno.</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l53-p4">Se sei un uomo, mostrati sotto la tua forma. Se sei il diavolo, pigliala come ti pare.</p>
+</div><div class="sp " data-who="Trinculo">
+  <p class="spk ">
+    Trinculo.
+  </p>
+  <p class="pr " id="l53-p5">Oh, perdonami tutti i miei peccati!</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l53-p6">Chi muore paga tutti i suoi debiti. Io ti sfido! Pietà di noi!</p>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    Calibano.
+  </p>
+  <p class="pr " id="l53-p7">Hai paura?</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l53-p8">Io no, mostro.</p>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    Calibano.
+  </p>
+  <p class="pr " id="l53-p9">Non aver paura. L’isola è piena di canti, di suoni e di dolci melodie che dilettano e non fanno male. Qualche volta mi ronzano nelle orecchie migliaia di strumenti pizzicati e qualche volta delle voci, che, se anche mi sono allora allora svegliato da un lungo sonno, mi fanno addormentar di nuovo. Allora nel sogno mi pare che le nubi si aparano e mi mostrino dei tesori pronti a rovesciarsi su di me, in maniera che quando mi sveglio, piango per voler sognare di nuovo.</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l53-p10">Sarà questo per me un bel regno, nel quale potrò avere la mia musica per niente.</p>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    Calibano.
+  </p>
+  <p class="pr " id="l53-p11">Quando sarà tolto di mezzo Prospero.</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l53-p12">Questo avverrà fra poco. Non ho scordato il tuo racconto.</p>
+</div><div class="sp " data-who="Trinculo">
+  <p class="spk ">
+    Trinculo.
+  </p>
+  <p class="pr " id="l53-p13">Il suono s’allontana. Seguiamolo, e poi ci metteremo all’opera.</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    Stefano.
+  </p>
+  <p class="pr " id="l53-p14">Va’ avanti, mostro: noi ti seguiremo. Vorrei pur vedere questo suonatore di tamburino: egli lo batte vigorosamente.</p>
+</div><div class="sp " data-who="Trinculo">
+  <p class="spk ">
+    Trinculo
+  </p>
+  <p class="pr " id="l53-p15"><span class="sdi">[a Calibano].</span> Vuoi venire? Io seguo Stefano.</p>
+</div><p class="sd " id="l53-sd1">[Escono.</p>
+      </section>
+    
+  
+    
+      <section id="act-3-s4">
+        <h3 class="scene-head">
+          SCENA III
+        </h3>
+        <p class="sd " id="l53-sd2">Un’altra parte dell’isola.</p><p class="sd " id="l53-sd3">Entrano ALONSO, SEBASTIANO, ANTONIO, GONZALO, ADRIANO, FRANCESCO ed altri.</p><div class="sp " data-who="Gonzalo">
+  <p class="spk ">
+    Gonzalo.
+  </p>
+  <p class="pr " id="l53-p16">Vergine santa, non posso più andare avanti, signore! Le mie vecchie ossa mi dolgono. Questo è un laberinto percorso da sentieri diritti e da meandri. Col vostro permesso, ho bisogno di riposarmi.</p>
+</div><div class="sp " data-who="Alonso">
+  <p class="spk ">
+    Alonso.
+  </p>
+  <p class="pr " id="l53-p17">Vecchio gentiluomo, non ti posso rimproverare, perché io stesso mi sento preso da tale stanchezza che i miei spiriti ne sono illanguiditi. Sediamoci e riposiamo. Qui abbandonerò la mia speranza e non la terrò più per mia adulatrice. Colui del quale andiamo in traccia, errando a questo modo, è annegato, e il mare irride alle nostre vane ricerche sulla terraferma. Ebbene, non ne parliamo più!</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    Antonio
+  </p>
+  <p class="pr " id="l53-p18"><span class="sdi">[sottovoce a Sebastiano].</span> Sono assai contento che non abbia più alcuna speranza. Non vogliate per un contrattempo rinunziare al proposito che avete deciso di mandare ad effetto.</p>
+</div><div class="sp " data-who="Sebastian">
+  <p class="spk ">
+    Sebastiano
+  </p>
+  <p class="pr " id="l53-p19"><span class="sdi">[sottovoce ad Antonio].</span> Coglieremo pienamente la prossima occasione.</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    Antonio
+  </p>
+  <p class="pr " id="l53-p20"><span class="sdi">[sottovoce a Sebastiano].</span> Allora sia per questa notte; perché, spossati come sono ora dal cammino, non saranno e non potranno essere così vigili, come quando son riposati.</p>
+</div><div class="sp " data-who="Sebastian">
+  <p class="spk ">
+    Sebastiano.
+  </p>
+  <p class="pr " id="l53-p21"><span class="sdi">[sottovoce ad Antonio].</span> Stanotte dunque. E ora basta.</p>
+</div><p class="sd " id="l53-sd4">Musica strana e solenne. Entra PROSPERO in alto, invisibile.</p><div class="sp " data-who="Alonso">
+  <p class="spk ">
+    Alonso.
+  </p>
+  <p class="pr " id="l53-p22">Che armonia è questa? Ascoltate, miei buoni amici!</p>
+</div><div class="sp " data-who="Gonzalo">
+  <p class="spk ">
+    Gonzalo.
+  </p>
+  <p class="pr " id="l53-p23">Meravigliosa e soave musica!</p>
+</div><p class="sd " id="l53-sd5">Entrano parecchie strane apparizioni che portano una tavola con un rinfresco e danzano intorno ad essa con gentili atti di saluto. Dopo aver invitato il Re e gli altri a mangiare, spariscono.</p><div class="sp " data-who="Alonso">
+  <p class="spk ">
+    Alonso.
+  </p>
+  <p class="pr " id="l53-p24">Mettici, o cielo, sotto una benevola custodia! Chì erano coloro?</p>
+</div><div class="sp " data-who="Sebastian">
+  <p class="spk ">
+    Sebastiano.
+  </p>
+  <p class="pr " id="l53-p25">Fantocci animati. Ora son disposto a credere che vi sieno gli unicorni; che in Arabia vi sia un solo albero, il trono della Fenice, e che una sola Fenice regni ora colà.</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    Antonio.
+  </p>
+  <p class="pr " id="l53-p26">Son disposto a credere all’una cosa e all’altra, e se un’altra ce n’è che non trovi credito, venga pure da me e giurerò che essa è vera. I viaggiatori non hanno mai mentito, quantunque in patria gli stupidi li screditino.</p>
+</div><div class="sp " data-who="Gonzalo">
+  <p class="spk ">
+    Gonzalo.
+  </p>
+  <p class="pr " id="l53-p27">Se riferissi a Napoli ciò che ho veduto ora, mi si presterebbe fede? Mi si presterebbe fede se dicessi che ho veduto degli isolani —perché certo costoro sono abitanti dell’isola— tali che, pur avendo un’apparenza mostruosa, sono, si noti bene, di maniere così cortesi, quali non si possono trovare che in pochi, anzi in nessuno della nostra specie?</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    Prospero
+  </p>
+  <p class="pr as" id="l53-p28"><span class="sdi">[a parte].</span> Onesto gentiluomo, hai ben parlato; perché alcuni di voi qui presenti son peggio che diavoli.</p>
+</div><div class="sp " data-who="Alonso">
+  <p class="spk ">
+    Alonso.
+  </p>
+  <p class="pr " id="l53-p29">Non finisco di meravigliarmi di simili apparizioni, di simili gesti e di simili suoni che esprimono, nonostante che quelli non abbiano l’uso della parola, una specie di eccellente discorso muto.</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    Prospero
+  </p>
+  <p class="pr as" id="l53-p30"><span class="sdi">[a parte].</span> Serba le lodi alla fine.</p>
+</div><div class="sp " data-who="Francisco">
+  <p class="spk ">
+    Francesco.
+  </p>
+  <p class="pr " id="l53-p31">Esse sono svanite stranamente.</p>
+</div><div class="sp " data-who="Sebastian">
+  <p class="spk ">
+    Sebastiano.
+  </p>
+  <p class="pr " id="l53-p32">Non importa, dal momento che si son lasciate dietro le vivande; e noi abbiamo appetito. Volete assaggiare quello che c’è?</p>
+</div><div class="sp " data-who="Alonso">
+  <p class="spk ">
+    Alonso.
+  </p>
+  <p class="pr " id="l53-p33">Io no.</p>
+</div><div class="sp " data-who="Gonzalo">
+  <p class="spk ">
+    Gonzalo.
+  </p>
+  <p class="pr " id="l53-p34">In fede mia, signore, non dovete aver paura. Quando eravamo fanciulli, chi avrebbe creduto che ci fossero dei montanari con giogaie come i tori, dalle cui gole pendevano delle bisacce di carne? o che ci fossero degli uomini con la testa situata nel petto? Di tutte queste cose noi troviamo buone testimonianze in qualunque viaggiatore assicurato al cinque per uno.</p>
+</div><div class="sp " data-who="Alonso">
+  <p class="spk ">
+    Alonso.
+  </p>
+  <p class="pr " id="l53-p35">Mi decido a mangiare anche se fosse questa l’ultima volta. Non m’importa più di nulla dal momento che il meglio della mia vita è passato. Fratello, Duca mio signore, decidetevi e fate come noi.</p>
+</div><p class="sd " id="l53-sd6">Tuoni e lampi. Entra ARIELE, sotto forma di arpia, sbatte le ali sulla tavola, e con un ingegnoso artificio tutto il rinfresco sparisce.</p><div class="sp " data-who="Ariel">
+  <p class="spk ">
+    Ariele.
+  </p>
+  <p class="pr " id="l53-p36">Voi siete tre peccatori che il Destino, che ha per suo strumento questo basso mondo e tutto ciò che è in esso, ha fatto vomitare dal sempre insaziato mare su quest’isola dove non abita un uomo, poiché siete indegni di vivere tra uomini. Io ho sconvolto le vostre menti, ed anche con un valore pari al vostro gli uomini s’impiccano e s’annegano da loro stessi. <span class="sdi">[Alonso, Sebastiano ecc. cavano le spade.</span> Stolti che siete! Io ed i miei seguaci siamo ministri del Fato. Gli elementi di cui son sono invulnerabili al pari di me. Anche se poteste far del male, le vostre spade sono ora troppo pesanti per le vostre forze e non potranno volgersi in alto. Ricordatevi però —poiché questo è il mio compito presso di voi— che voi tre cacciaste da Milano il buon Prospero, lasciaste in balia del mare, che vi ha poi ripagato, lui e la sua innocente bambina. Per quella malvagia azione, le soprannaturali potenze, che differiscono ma non dimenticano, hanno suscitato contro la vostra pace i mari, le spiaggie, tutti gli esseri viventi. Te, Alonso, hanno orbato del figlio, e annunziano a voi per mio mezzo che una lenta rovina, peggiore di quanto può essere una morte improvvisa, attende ad ogni passo e voi e il vostro andare. Per guardarvi dalla loro ira, che diversamente piomberà, in questa tristissima isola, sulle vostre teste, non c’è altro rimedio che un sincero pentimento e una conseguente purezza di vita.temprate le vostre spade posson tanto ferire gli impetuosi venti e uccidere con risibili colpi le onde che sempre si richiudono, quanto togliere anche un po’ di lanugine che sia sotto le mie penne. I ministri miei seguaci sono invulnerabili al pare di me. Anche se poteste far del male, le vostre spade sono ora troppo pesanti per le vostre forze e non potranno volgersi in alto. Ricordatevi però—poiché questo è il mio compito presso di voi— che voi tre cacciaste da Milano il buon Prospero, lasciaste in balia del mare, che vi ha poi ripagato, lui e la sua innocente bambina. Per quella malvagia azione, le soprannaturali potenze, che differiscono ma non dimenticano, hanno suscitato contro la vostra pace i mari, le spiaggie, tutti gli esseri viventi. Te, Alonso, hanno orbato del figlio, e annunziano a voi per mio mezzo che una lenta rovina, peggiore di quanto può essere una morte improvvisa, attende ad ogni passo e voi e il vostro andare. Per guardarvi dalla loro ira, che diversamente piomberà, in questa tristissima isola, sulle vostre teste, non c’è altro rimedio che un sincero pentimento e una conseguente purezza di vita.</p>
+</div><p class="sd " id="l53-sd7">Un tuono, ed Ariele scompare; poi, al suono di una musica, ritornano le apparizioni e ballano, facendo lazzi e smorfie e portando via la tavola.</p><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    Prospero.
+  </p>
+  <p class="pr " id="l53-p37">Hai veramente bene rappresentata la parte di questa arpia, o mio Ariele: essa aveva una certa grazia anche quando divorava il rinfresco. Non hai trascurato nulla delle mie istruzioni intorno a ciò che dovevi dire: così anche i miei minori ministri hanno rappresentato con grande naturalezza e con raro impegno le loro differenti parti. I miei alti incantesimi producono il loro effetto, e questi miei nemici son tutti impigliati nella loro demenza. Essi son ora in mio potere e io li lascio a questi attacchi di pazzia mentre vo a trovare il giovane Ferdinando, che essi credono annegato, e la sua e mia diletta.</p>
+</div><p class="sd " id="l53-sd8">[Esce dall’alto.</p><div class="sp " data-who="Gonzalo">
+  <p class="spk ">
+    Gonzalo.
+  </p>
+  <p class="pr " id="l53-p38">In nome di tutto ciò che è sacro, o mio signore, perché son così stralunati i vostri occhi?</p>
+</div><div class="sp " data-who="Alonso">
+  <p class="spk ">
+    Alonso.
+  </p>
+  <p class="pr " id="l53-p39">Oh, è orribile, è orribile! Mi è parso che le onde abbian parlato e mi abbian ripetuto il fatto; che me lo abbia fischiato il vento, e che il tuono, questa profonda e spaven-tosa voce di organo, abbia pronunciato il nome di Prospero: a mo’ di ritornello proclamava il mio delitto. Mio figlio giace dunque su un letto di melma: io lo cercherò più giù di quanto mai giunse lo scandaglio e giacerò in quel fango insieme con lui.</p>
+</div><p class="sd " id="l53-sd9">[Esce.</p><div class="sp " data-who="Sebastian">
+  <p class="spk ">
+    Sebastiano.
+  </p>
+  <p class="pr " id="l53-p40">Vengano pure i diavoli, purché uno alla volta, ed io sconfiggerò tutte le loro legioni.</p>
+</div><div class="sp " data-who="Antonio">
+  <p class="spk ">
+    Antonio.
+  </p>
+  <p class="pr " id="l53-p41">Ed io sarò il tuo secondo.</p>
+</div><p class="sd " id="l53-sd10">[Escono Sebastiano ed Antonio.</p><div class="sp " data-who="Gonzalo">
+  <p class="spk ">
+    Gonzalo.
+  </p>
+  <p class="pr " id="l53-p42">Son fuor di senno tutti e tre: il senso della loro grande colpevolezza, come un veleno somministrato per agire molto tempo dopo, comincia ora a mordere le loro coscienze. Andate lor dietro prontamente, ve ne scongiuro, voi che siete di membra più agili, e tratteneteli dal mettere in opera ciò a cui li spinge questa esaltazione.</p>
+</div><div class="sp " data-who="Adrian">
+  <p class="spk ">
+    Adriano.
+  </p>
+  <p class="pr " id="l53-p43">Seguitemi, vi prego.</p>
+</div><p class="sd " id="l53-sd11">[Escono.</p>
+      </section>
+    
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-2.html" rel="prev">← Atto II</a>
+  <a href="act-4.html" rel="next">Atto IV →</a>
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

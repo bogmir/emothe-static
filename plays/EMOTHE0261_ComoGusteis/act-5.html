@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Acto V — Como gustéis — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">PERSONAJES</a></li>
+      
+  
+    
+        <li>
+          <a href="act-1.html">
+            Acto I
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html">
+            Acto II
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            Acto III
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-4.html">
+            Acto IV
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-5.html" aria-current="page">
+            Acto V
+          </a>
+          <ul>
+            <li>
+              
+                  <a href="act-5.html#act-5-s1">
+                    ESCENA I.
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-5.html#act-5-s2">
+                    ESCENA II.
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-5.html#act-5-s3">
+                    ESCENA III.
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-5.html#act-5-s4">
+                    ESCENA IV.
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-5.html#act-5-s5">
+                    EPÍLOGO.
+                  </a>
+              
+            </li>
+          </ul>
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="Duke_Senior">
+        EL DUQUE
+      </option><option value="Duke_Frederick">
+        FEDERICO
+      </option><option value="Amiens">
+        AMIENS
+      </option><option value="Jaques">
+        JAQUES
+      </option><option value="Le_Beau">
+        LE BEAU
+      </option><option value="Charles">
+        CARLOS
+      </option><option value="Oliver">
+        OLIVERIO
+      </option><option value="Jaques_de_Boys">
+        SANTIAGO
+      </option><option value="Orlando">
+        ORLANDO
+      </option><option value="Adam">
+        ADAM
+      </option><option value="Dennis">
+        DIONISIO
+      </option><option value="Touchstone">
+        PIEDRA-DE-TOQUE
+      </option><option value="Mar-text">
+        DON OLIVERIO DAÑATEXTO
+      </option><option value="Corin">
+        CORÍN
+      </option><option value="Silvius">
+        SILVIO
+      </option><option value="William">
+        GUILLERMO
+      </option><option value="Hymen-AYL">
+        UNA PERSONA QUE REPRESENTA A HIMENEO
+      </option><option value="Rosalind">
+        ROSALINDA
+      </option><option value="Celia-AYL">
+        CELIA
+      </option><option value="Phebe">
+        FEBE
+      </option><option value="Audrey">
+        TOMASA
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">William Shakespeare</p>
+  <h1><a href="index.html">Como gustéis</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-4.html" rel="prev">← Acto IV</a>
+  
+</nav>
+  <div class="text" lang="es" data-cite="William Shakespeare, Como gustéis, Acto V" data-cite-verse="v." data-cite-prose="l.">
+    
+    <section class="division" id="act-5">
+  <h2 class="act-head">
+    Acto V
+  </h2>
+  
+  
+  
+    
+      <section id="act-5-s1">
+        <h3 class="scene-head">
+          ESCENA I.
+        </h3>
+        <p class="sd " id="l123-sd8">La misma.</p><p class="sd " id="l123-sd9">Entran PIEDRA-DE-TOQUE y TOMASA.</p><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    PIEDRA-DE-TOQUE.
+  </p>
+  <p class="pr " id="l123-p50">Ya encontraremos ocasión, Tomasa: paciencia, genitl Tomasa.</p>
+</div><div class="sp " data-who="Audrey">
+  <p class="spk ">
+    TOMASA.
+  </p>
+  <p class="pr " id="l123-p51">Por vida! que el clérigo era harto bueno, a pesar de cuanto decía el caballero viejo.</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    PIEDRA-DE-TOQUE.
+  </p>
+  <p class="pr " id="l123-p52">Un perverso don Oliverio, Tomasa; un vil Dañatextos. Pero, Tomasa, aquí en el bosque hay un mancebo que te reclama.</p>
+</div><div class="sp " data-who="Audrey">
+  <p class="spk ">
+    TOMASA.
+  </p>
+  <p class="pr " id="l123-p53">Sí, ya sé quién es. No tiene en mí ni el menor interés del mundo. Aquí viene el que me decís.</p>
+</div><p class="sd " id="l123-sd10">(Entra Guillermo.)</p><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    PIEDRA-DE-TOQUE.
+  </p>
+  <p class="pr " id="l123-p54">La vista de un patán es cosa que me llena y satisface más que un banquete. a fe mía que los hombres de ingenio tenemos mucho de qué responder. Siempre hemos de hacer burla: no podemos evitarlo.</p>
+</div><div class="sp " data-who="William">
+  <p class="spk ">
+    GUILLERMO.
+  </p>
+  <p class="pr " id="l123-p55">Buenas tardes, Tomasa.</p>
+</div><div class="sp " data-who="Audrey">
+  <p class="spk ">
+    TOMASA.
+  </p>
+  <p class="pr " id="l123-p56">Buenas os las dé Dios, Guillermo.</p>
+</div><div class="sp " data-who="William">
+  <p class="spk ">
+    GUILLERMO.
+  </p>
+  <p class="pr " id="l123-p57">Y buenas tardes a vos, caballero.</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    PIEDRA-DE-TOQUE.
+  </p>
+  <p class="pr " id="l123-p58">Buenas tardes, buen amigo. Cubre tu cabeza, cubre tu cabeza: te ruego que la cubras. ¿Qué edad tienes, amigo?</p>
+</div><div class="sp " data-who="William">
+  <p class="spk ">
+    GUILLERMO.
+  </p>
+  <p class="pr " id="l123-p59">Veinticinco, señor.</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    PIEDRA-DE-TOQUE.
+  </p>
+  <p class="pr " id="l123-p60">Madura edad. ¿Es Guillermo tu nombre?</p>
+</div><div class="sp " data-who="William">
+  <p class="spk ">
+    GUILLERMO.
+  </p>
+  <p class="pr " id="l123-p61">Guillermo, señor.</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    PIEDRA-DE-TOQUE.
+  </p>
+  <p class="pr " id="l123-p62">Bonito nombre. ¿Es este bosque el lugar de tu nacimiento?</p>
+</div><div class="sp " data-who="William">
+  <p class="spk ">
+    GUILLERMO.
+  </p>
+  <p class="pr " id="l123-p63">Sí, señor, a Dios gracias.</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    PIEDRA-DE-TOQUE.
+  </p>
+  <p class="pr " id="l123-p64">«¡A Dios gracias!» Galana respuesta. ¿Eres rico?</p>
+</div><div class="sp " data-who="William">
+  <p class="spk ">
+    GUILLERMO.
+  </p>
+  <p class="pr " id="l123-p65">A fe mía, señor, así... así.</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    PIEDRA-DE-TOQUE.
+  </p>
+  <p class="pr " id="l123-p66">«Así, así» está bien, muy bien, desmesuradamente bien; y sin embargo, no lo es; no es más que así, así. ¿Eres discreto?</p>
+</div><div class="sp " data-who="William">
+  <p class="spk ">
+    GUILLERMO.
+  </p>
+  <p class="pr " id="l123-p67">Sí, señor: tengo un ingenio regular.</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    PIEDRA-DE-TOQUE.
+  </p>
+  <p class="pr " id="l123-p68">Pues dices bien. Recuerdo ahora un dicho: «el necio se cree discreto y el discreto se tiene a sí propio en concepto de necio.» El filósofo pagano cada vez que tenía deseo de comer un racimo de uvas abría los labios al ponerlo en la boca; significando con ello que las uvas han sido hechas para comerlas y los labios para abrirse. ¿Amas a esta muchacha?</p>
+</div><div class="sp " data-who="William">
+  <p class="spk ">
+    GUILLERMO.
+  </p>
+  <p class="pr " id="l123-p69">Sí, señor, la amo.</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    PIEDRA-DE-TOQUE.
+  </p>
+  <p class="pr " id="l123-p70">Dame tu mano. ¿Eres instruido?</p>
+</div><div class="sp " data-who="William">
+  <p class="spk ">
+    GUILLERMO.
+  </p>
+  <p class="pr " id="l123-p71">No, señor.</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    PIEDRA-DE-TOQUE.
+  </p>
+  <p class="pr " id="l123-p72">Entonces aprende de mí esto: tener es tener; porque es una figura retórica que la bebida vertida de una taza a un vaso, mientras llena al uno deja vacía a la otra; pues todos vuestros autores convienen en que <em>ipse</em> es él. Ahora bien, vos no sois <em>ipse</em>, porque ese soy yo.</p>
+</div><div class="sp " data-who="William">
+  <p class="spk ">
+    GUILLERMO.
+  </p>
+  <p class="pr " id="l123-p73">¿Cuál es ese?</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    PIEDRA-DE-TOQUE.
+  </p>
+  <p class="pr " id="l123-p74">El que se ha de casar con esta mujer. Por lo cual vos, patán, abandonad – o en lenguaje vulgar – dejad la sociedad, que en rústico es la compañía, de esta hembra – que en el trato común es esta mujer – y todo junto quiere decir, abandona la sociedad de esta hembra o pereces ¡oh patán!; o para que lo entiendas mejor, mueres: a saber: te mato, te hago desaparecer, cambio tu vida en muerte, tu libertad en servidumbre. Te administraré veneno, paliza o cuchillada. Haré asonadas para pelotearte, te abrumaré con mi política, te mataré de ciento cincuenta modos. Tiebla, pues, y vete.</p>
+</div><div class="sp " data-who="Audrey">
+  <p class="spk ">
+    TOMASA.
+  </p>
+  <p class="pr " id="l123-p75">Hazlo, buen Guillermo.</p>
+</div><div class="sp " data-who="William">
+  <p class="spk ">
+    GUILLERMO.
+  </p>
+  <p class="pr " id="l123-p76">Que Dios os conserve el humor, caballero.</p>
+</div><p class="sd " id="l123-sd11">(Sale. – Entra Corino.)</p><div class="sp " data-who="Corin">
+  <p class="spk ">
+    CORINO.
+  </p>
+  <p class="pr " id="l123-p77">Nuestros amos os buscan: venid, venid.</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    PIEDRA-DE-TOQUE.
+  </p>
+  <p class="pr " id="l123-p78">Lista, Tomasa, lista, Tomasa. Ya sigo, ya sigo.</p>
+</div><p class="sd " id="l123-sd12">(Sale.)</p>
+      </section>
+    
+  
+    
+      <section id="act-5-s2">
+        <h3 class="scene-head">
+          ESCENA II.
+        </h3>
+        <p class="sd " id="l123-sd13">La misma.</p><p class="sd " id="l123-sd14">Entran ORLANDO y OLIVERIO.</p><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO.
+  </p>
+  <p class="pr " id="l123-p79">¿Es posible que conociéndola apenas os hayáis prendado de ella? ¿Que la améis sólo con haberla visto? ¿Y amándola la pretendáis? ¿Y pretendiéndola haya ella consentido? ¿Y tendréis perseverancia en gozarla?</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVERIO.
+  </p>
+  <p class="pr " id="l123-p80">No os preocupe lo súbito de mi afecto, ni la pobreza de ella, ni el corto trato y repentino galanteo que me ganaron su consentimiento; sino antes bien, decid conmigo: amo a Aliena; con ella, que me ama; y con los dos, que consentís para que gocemos cada uno del otro. Y ello será en beneficio vuestro; porque transferiré a vuestro favor la casa de mi padre, junto con todas las rentas que fueron del anciano sir Rowland, y yo viviré y moriré aquí como pastor.</p>
+</div><p class="sd " id="l123-sd15">(Entra Rosalinda.)</p><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO.
+  </p>
+  <p class="pr " id="l123-p81">Tenéis mi consentimiento. Que sean mañana las nupcias. a ellas invitaré al duque y a todos sus joviales secuaces. Id a preparar a Aliena, pues he aquí que llega Rosalinda.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA.
+  </p>
+  <p class="pr " id="l123-p82">Dios os guarde, hermano.</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVERIO.
+  </p>
+  <p class="pr " id="l123-p83">Y a vos, hermosa hermana.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA.
+  </p>
+  <p class="pr " id="l123-p84">¡Oh mi querido Orlando! ¡Cuánto me duele verte llevar vendado el corazón!</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO.
+  </p>
+  <p class="pr " id="l123-p85">Es mi brazo.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA.
+  </p>
+  <p class="pr " id="l123-p86">Pensé que las garras de la leona te habían herido el corazón.</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO.
+  </p>
+  <p class="pr " id="l123-p87">Muy herido está; pena por los ojos de una dama.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA.
+  </p>
+  <p class="pr " id="l123-p88">¿Díjote tu hermano cómo fingí desmayarme cuando me mostró tu pañuelo?</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO.
+  </p>
+  <p class="pr " id="l123-p89">Sí, y aun prodigios mayores que ese.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA.
+  </p>
+  <p class="pr " id="l123-p90">Ya sé lo que queréis decir. Y en verdad que jamás hubo cosa tan repentina, a no ser el choque de dos carneros, y la famosa baladronada de César: «vine, vi, vencí.» Porque todo fue encontrarse vuestro hermano con mi hermana, cuando se vieron; apenas se vieron se amaron; no bien nació este amor, se dieron a suspirar; al primer suspiro se preguntaron el por qué; y en el instante de saberlo, buscaron el remedio; de modo que escalón por escalón han subido así un par de escaleras hacia e piso del matrimonio. Y lo escalarán incontinenti, so pena de ser incontinentes antes de entrar en él. Están en una verdadera furia de amor y quieren unirse. No los apartarán ni a garrotazos.</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO.
+  </p>
+  <p class="pr " id="l123-p91">Se casarán mañana, e invitaré al duque a la boda. Pero ¡ay! ¡qué dura cosa es mirar la felicidad por la vista de otros hombres! Tanto mas sentiré mañana en mi corazón el colmo del abatimiento, cuanto más piense en la felicidad de mi hermano al obtener lo que desea!</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA.
+  </p>
+  <p class="pr " id="l123-p92">Pues entonces, ¿por qué no podré mañana hacer el papel de Rosalinda?</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO.
+  </p>
+  <p class="pr " id="l123-p93">No puedo vivir más tiempo de ilusiones.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA.
+  </p>
+  <p class="pr " id="l123-p94">Ya no os fatigaré mas con palabras ociosas. Dejadme deciros, pues (y hablo ahora con algún propósito), que os conozco por caballero bien educado. Y no lo digo por inspiraros buena opinión de mi discernimiento al expresar que os conozco así; ni tengo por objeto ganar vuestro aprecio más allá de lo necesario para que creáis aquello que podrá adquiriros algún bien más que a mi una gracia. Creed, pues, si os place, que puedo hacer cosas extrañas. Desde que tuve tres años de edad, he tratado a un mágico, eximio en su arte, y, sin embargo, no condenable. Si tan de corazón amáis a Rosalinda como parece declararlo vuestra actitud, os casaréis con ella al mismo tiempo que vuestro hermano con Aliena. Conozco bien las adversidades de fortuna en que se encuentra; y no es imposible para mí, si no os parece objecionable, hacerla aparecer en vuestra presencia mañana, en toda su humana realidad y sin peligro alguno.</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO.
+  </p>
+  <p class="pr " id="l123-p95">¿Hablas seriamente?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA.
+  </p>
+  <p class="pr " id="l123-p96">Te lo aseguro por mi vida, a la cual tengo un afecto muy tierno, aunque diga que soy mágico. Así, pues, vístete de gala, e invita a tus amigos; porque si quieres casarte mañana, te casarás; y con Rosalinda, si quieres. <span class="sdi">(Entran Silvio y Febe.)</span><br>Mira, aquí vienen una que se ha enamorado de mí, y uno que se ha enamorado de ella.</p>
+</div><div class="sp " data-who="Phebe">
+  <p class="spk ">
+    FEBE.
+  </p>
+  <p class="pr " id="l123-p97">Me habéis tratado con demasiada dureza, joven, mostrando la carta que os había escrito.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA.
+  </p>
+  <p class="pr " id="l123-p98">Si lo he hecho, no me importa. Pongo especial cuidado en parecer adverso y rudo hacia vos. Un fiel pastor os solicita: miradle bien y amadle. Os adora.</p>
+</div><div class="sp " data-who="Phebe">
+  <p class="spk ">
+    FEBE.
+  </p>
+  <p class="pr " id="l123-p99">Buen zagal, decid a este joven lo que es amar.</p>
+</div><div class="sp " data-who="Silvius">
+  <p class="spk ">
+    SILVIO.
+  </p>
+  <p class="pr " id="l123-p100">Es volverse uno todo suspiros y lágrimas; como yo por Febe.</p>
+</div><div class="sp " data-who="Phebe">
+  <p class="spk ">
+    FEBE.
+  </p>
+  <p class="pr " id="l123-p101">Y yo por Rosalinda.</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO.
+  </p>
+  <p class="pr " id="l123-p102">Y yo por Rosalinda.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA.
+  </p>
+  <p class="pr " id="l123-p103">Y yo por ninguna mujer.</p>
+</div><div class="sp " data-who="Silvius">
+  <p class="spk ">
+    SILVIO.
+  </p>
+  <p class="pr " id="l123-p104">Tiene que ser todo fe y sumisión, como yo para Febe.</p>
+</div><div class="sp " data-who="Phebe">
+  <p class="spk ">
+    FEBE.
+  </p>
+  <p class="pr " id="l123-p105">Y yo para Ganimedes.</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO.
+  </p>
+  <p class="pr " id="l123-p106">Y yo para Rosalinda.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA.
+  </p>
+  <p class="pr " id="l123-p107">Y yo para ninguna mujer.</p>
+</div><div class="sp " data-who="Silvius">
+  <p class="spk ">
+    SILVIO.
+  </p>
+  <p class="pr " id="l123-p108">Tiene que ser todo fantasía, todo pasión, todo deseos, todo adoración, deber y observancia, todo humildad, todo paciencia e impaciencia, todo pulcritud, contradicción y obediencia, como yo por Febe.</p>
+</div><div class="sp " data-who="Phebe">
+  <p class="spk ">
+    FEBE.
+  </p>
+  <p class="pr " id="l123-p109">Y yo por Ganimedes.</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO.
+  </p>
+  <p class="pr " id="l123-p110">Y yo por Rosalinda.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA.
+  </p>
+  <p class="pr " id="l123-p111">Y yo por ninguna mujer.</p>
+</div><div class="sp " data-who="Phebe">
+  <p class="spk ">
+    FEBE.
+  </p>
+  <p class="pr " id="l123-p112"><span class="sdi">(A Rosalinda.)</span> Y si es así ¿por qué tenéis a mal el que yo os ame?</p>
+</div><div class="sp " data-who="Silvius">
+  <p class="spk ">
+    SILVIO.
+  </p>
+  <p class="pr " id="l123-p113">Y si es así ¿por qué tenéis a mal el que yo os ame?</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO.
+  </p>
+  <p class="pr " id="l123-p114">Y si es así ¿por qué tenéis a mal el que yo os ame?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA.
+  </p>
+  <p class="pr " id="l123-p115">¿De quién habláis al decir «tenéis a mal que os ame?»</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO.
+  </p>
+  <p class="pr " id="l123-p116">De aquella que no está aquí ni me oye.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA.
+  </p>
+  <p class="pr " id="l123-p117">Basta de esto, basta, os lo ruego. Se parece al aullido de los lobos irlandeses a la luna.<br><span class="sdi">(A Silvio.)</span> Os ayudaré, si puedo.<br><span class="sdi">(A Febe.)</span> Os amaría, si pudiera. Venid juntos a verme mañana.<br><span class="sdi">(A Febe.)</span> Me casaré con vos, si he de casarme con alguna mujer, y me casaré mañana.<br><span class="sdi">(A Orlando.)</span> Os daré satisfacción, si alguna vez he de haber podido darla a un hombre, y os casaréis mañana.<br><span class="sdi">(A Silvio.)</span> Os dejaré contento, si os contenta lo que os agrada, y os casaréis mañana.<br><span class="sdi">(A Orlando.)</span> Pues amáis a Rosalinda, venid a la cita.<br><span class="sdi">(A Silvio.)</span> Pues amáis a Febe, venid a la cita. Y pues no amo a ninguna, vendré a la cita. Así, quedado con Dios. Ya os daré mis órdenes.</p>
+</div><div class="sp " data-who="Silvius">
+  <p class="spk ">
+    SILVIO.
+  </p>
+  <p class="pr " id="l123-p118">No faltaré, si vivo.</p>
+</div><div class="sp " data-who="Phebe">
+  <p class="spk ">
+    FEBE.
+  </p>
+  <p class="pr " id="l123-p119">Ni yo.</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO.
+  </p>
+  <p class="pr " id="l123-p120">Ni yo.</p>
+</div><p class="sd " id="l123-sd16">(Salen.)</p>
+      </section>
+    
+  
+    
+      <section id="act-5-s3">
+        <h3 class="scene-head">
+          ESCENA III.
+        </h3>
+        <p class="sd " id="l123-sd17">La misma.</p><p class="sd " id="l123-sd18">Entran PIEDRA-DE-TOQUE y TOMASA.</p><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    PIEDRA-DE-TOQUE.
+  </p>
+  <p class="pr " id="l123-p121">Mañana es el día de júbilo, Tomasa: mañana nos casaremos.</p>
+</div><div class="sp " data-who="Audrey">
+  <p class="spk ">
+    TOMASA.
+  </p>
+  <p class="pr " id="l123-p122">Con todo mi corazón lo deseo, y espero que no sea malhonesto el desear ser mujer de mundo. He aquí a dos pajes del desterrado duque.</p>
+</div><p class="sd " id="l123-sd19">(Entran dos pajes.)</p><div class="sp " data-who="First_Page-AYL">
+  <p class="spk ">
+    PAJE 1.º
+  </p>
+  <p class="pr " id="l123-p123">Buen encuentro, honrado caballero.</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    PIEDRA-DE-TOQUE.
+  </p>
+  <p class="pr " id="l123-p124">Buen encuentro, por vida mía. Vamos, asiento, y una canción.</p>
+</div><div class="sp " data-who="Second_Page-AYL">
+  <p class="spk ">
+    PAJE 2.º
+  </p>
+  <p class="pr " id="l123-p125">Estamos a vuestras órdenes: sentaos entre los dos.</p>
+</div><div class="sp " data-who="First_Page-AYL">
+  <p class="spk ">
+    PAJE 1.º
+  </p>
+  <p class="pr " id="l123-p126">¿Entraremos en ello de rondón, sin limpiar el pecho, ni escupir, ni decir que estamos roncos, que es el prólogo obligado de toda mala voz?</p>
+</div><div class="sp " data-who="Second_Page-AYL">
+  <p class="spk ">
+    PAJE 2.º
+  </p>
+  <p class="pr " id="l123-p127">Por cierto, por cierto; y ambos en un solo tono, como dos gitanos en un mismo caballo.</p>
+</div><p class="sd " id="l123-sd20">CANCIÓN.</p><div class="sp " data-who="First_Page-AYL Second_Page-AYL">
+  <p class="spk ">
+    [PAJES.]
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l124"><a class="n " href="#l124">124</a><span class="t">Iba un amante con su doncella,</span></div><div class="l " id="l125"><a class="n m5" href="#l125">125</a><span class="t">con el ¡eh! con el ¡oh! y el ¡qué gusto me da!,</span></div><div class="l " id="l126"><a class="n " href="#l126">126</a><span class="t">por los maizales dejando huella,</span></div><div class="l " id="l127"><a class="n " href="#l127">127</a><span class="t">cuando florece la estación bella,</span></div><div class="l " id="l128"><a class="n " href="#l128">128</a><span class="t">la primavera dulce y feraz.</span></div><div class="l " id="l129"><a class="n " href="#l129">129</a><span class="t">Las aves cantan de dos en dos,</span></div><div class="l " id="l130"><a class="n m5" href="#l130">130</a><span class="t">y las amantes se echan por esos trigos</span></div><div class="l " id="l131"><a class="n " href="#l131">131</a><span class="t">a la buena de Dios.</span></div><div class="l " id="l132"><a class="n " href="#l132">132</a><span class="t">Entre los surcos de los maíces,</span></div><div class="l " id="l133"><a class="n " href="#l133">133</a><span class="t">con el ¡eh! con el ¡oh! y el ¡qué gusto me da!,</span></div><div class="l " id="l134"><a class="n " href="#l134">134</a><span class="t">sobre los verdes blandos tapices</span></div><div class="l " id="l135"><a class="n m5" href="#l135">135</a><span class="t">se recostaron los dos felices</span></div><div class="l " id="l136"><a class="n " href="#l136">136</a><span class="t">bajo la sombra de aquel maizal.</span></div><div class="l " id="l137"><a class="n " href="#l137">137</a><span class="t">Las aves cantan de dos en dos,</span></div><div class="l " id="l138"><a class="n " href="#l138">138</a><span class="t">etc., etc.</span></div><div class="l " id="l139"><a class="n " href="#l139">139</a><span class="t">Y principiaron una tonada,</span></div><div class="l " id="l140"><a class="n m5" href="#l140">140</a><span class="t">con el ¡eh! con el ¡oh! y el ¡qué gusto me da!,</span></div><div class="l " id="l141"><a class="n " href="#l141">141</a><span class="t">de que la vida no dura nada,</span></div><div class="l " id="l142"><a class="n " href="#l142">142</a><span class="t">como una rosa que a la alborada</span></div><div class="l " id="l143"><a class="n " href="#l143">143</a><span class="t">se abre, y de noche marchita está.</span></div><div class="l " id="l144"><a class="n " href="#l144">144</a><span class="t">Las aves cantan de dos en dos</span></div><div class="l " id="l145"><a class="n m5" href="#l145">145</a><span class="t">etc., etc.</span></div><div class="l " id="l146"><a class="n " href="#l146">146</a><span class="t">Disfruta de la hora cuando es propicia,</span></div><div class="l " id="l147"><a class="n " href="#l147">147</a><span class="t">con el ¡eh! con el ¡oh! y el ¡qué gusto me da!,</span></div><div class="l " id="l148"><a class="n " href="#l148">148</a><span class="t">porque en amores es la delicia</span></div><div class="l " id="l149"><a class="n " href="#l149">149</a><span class="t">ser coronado con la primicia</span></div><div class="l " id="l150"><a class="n m5" href="#l150">150</a><span class="t">que en primavera más bella está.</span></div><div class="l " id="l151"><a class="n " href="#l151">151</a><span class="t">Las aves cantan de dos en dos,</span></div><div class="l " id="l152"><a class="n " href="#l152">152</a><span class="t">etc., etc.</span></div>
+</div>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    PIEDRA-DE-TOQUE.
+  </p>
+  <p class="pr " id="l152-p1">En verdad, caballeritos, que aunque la letra no valía gran cosa, la entonación era insoportable.</p>
+</div><div class="sp " data-who="First_Lord-AYL">
+  <p class="spk ">
+    PAJE 1.º
+  </p>
+  <p class="pr " id="l152-p2">Os equivocáis, señor. Hemos guardado el tiempo; no hemos perdido el tiempo.</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    PIEDRA-DE-TOQUE.
+  </p>
+  <p class="pr " id="l152-p3">A fe mía que sí; pues el tiempo pasado en oir tan necia canción no es más que tiempo perdido. Que Dios os guarde y remiende vuestras voces. Ven, Tomasa.</p>
+</div><p class="sd " id="l152-sd1">(Salen.)</p>
+      </section>
+    
+  
+    
+      <section id="act-5-s4">
+        <h3 class="scene-head">
+          ESCENA IV.
+        </h3>
+        <p class="sd " id="l152-sd2">Otra parte del bosque.</p><p class="sd " id="l152-sd3">Entran el DUQUE (MAYOR), AMIENS, JAQUES, ORLANDO, OLIVERIO Y CELIA.</p><div class="sp " data-who="Duke_Senior">
+  <p class="spk ">
+    DUQUE.
+  </p>
+  <p class="pr " id="l152-p4">¿Crees, Orlando, que el mancebo podrá cumplir todo lo que ha prometido?</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO.
+  </p>
+  <p class="pr " id="l152-p5">a veces lo creo, y a veces no, como aquellos que temen esperar y saben que temen.</p>
+</div><p class="sd " id="l152-sd4">(Entran Rosalinda, Silvio y Febe.)</p><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA.
+  </p>
+  <p class="pr " id="l152-p6">Paciencia una vez más, mientras llega el momento de cumplir nuestro pacto.<br><span class="sdi">(Al Duque.)</span> ¿Decís, señor, que si os traigo a vuestra Rosalinda la daréis aquí por esposa a Orlando?</p>
+</div><div class="sp " data-who="Duke_Senior">
+  <p class="spk ">
+    DUQUE.
+  </p>
+  <p class="pr " id="l152-p7">Así lo haría, aunque tuviera que dar reinos con ella.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA.
+  </p>
+  <p class="pr " id="l152-p8"><span class="sdi">(A Orlando.)</span> ¿Y vos decís que la tomaréis por esposa en el momento en que la traiga?</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO.
+  </p>
+  <p class="pr " id="l152-p9">Así lo haría, aunque fuese soberano de todos los reinos.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA.
+  </p>
+  <p class="pr " id="l152-p10"><span class="sdi">(A Febe.)</span> ¿Decís que os casaréis conmigo si lo deseo?</p>
+</div><div class="sp " data-who="Phebe">
+  <p class="spk ">
+    FEBE.
+  </p>
+  <p class="pr " id="l152-p11">Así lo haría aunque tuviera que morir una hora después.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA.
+  </p>
+  <p class="pr " id="l152-p12">Pero si rehusáis el casaros conmigo, ¿seréis la esposa de este fidelísimo pastor?</p>
+</div><div class="sp " data-who="Phebe">
+  <p class="spk ">
+    FEBE.
+  </p>
+  <p class="pr " id="l152-p13">Es lo convenido.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA.
+  </p>
+  <p class="pr " id="l152-p14"><span class="sdi">(A Silvio.)</span> ¿Decís que tomaréis por esposa a Febe, si consiente?</p>
+</div><div class="sp " data-who="Silvius">
+  <p class="spk ">
+    SILVIO.
+  </p>
+  <p class="pr " id="l152-p15">Aunque tomarla y morir fuese todo uno.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA.
+  </p>
+  <p class="pr " id="l152-p16">He prometido allanar todo esto. Cumplid vuestra palabra ¡oh duque! de dar vuestra hija; vos, Orlando, la vuestra de recibir su hija; cumplid vuestra palabra, Febe, de desposaros conmigo; o si lo rehusáis, de ser la esposa de este pastor. Cumplid vuestra palabra, Silvio, de casaros con ella, si me rehúsa; y yo me aparto de aquí para que todas estas perplejidades se aclaren.</p>
+</div><p class="sd " id="l152-sd5">(Salen Rosalinda y Celia.)</p><div class="sp " data-who="Duke_Senior">
+  <p class="spk ">
+    DUQUE.
+  </p>
+  <p class="pr " id="l152-p17">Este joven zagal me trae vivamente a la memoria ciertos rasgos de la fisionomía de mi hija.</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO.
+  </p>
+  <p class="pr " id="l152-p18">Señor, la primera vez que le vi me pareció hermano de vuestra hija; pero, benévolo señor, este joven es nativo de este bosque, y ha sido educado en los rudimentos de muchos aventurados estudios por un tío suyo, de quien dice que era gran mágico y que vivía oscuramente en el recinto de este bosque.</p>
+</div><p class="sd " id="l152-sd6">(Entran Piedra-de-toque y Tomasa.)</p><div class="sp " data-who="Jaques">
+  <p class="spk ">
+    JAQUES.
+  </p>
+  <p class="pr " id="l152-p19">De seguro que se aproxima algún nuevo diluvio y estas parejas vienen en busca del arca. He aquí que llega un par de las más extrañas bestias, que en todos los idiomas se conocen con el nombre de imbéciles.</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    PIEDRA-DE-TOQUE.
+  </p>
+  <p class="pr " id="l152-p20">Salud y buenaventura a todos.</p>
+</div><div class="sp " data-who="Jaques">
+  <p class="spk ">
+    JAQUES.
+  </p>
+  <p class="pr " id="l152-p21">Acogedle benignamente, señor. Este es el caballero de estrambótica imaginación, que tantas veces he encontrado en el bosque, y jura que ha sido cortesano.</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    PIEDRA-DE-TOQUE.
+  </p>
+  <p class="pr " id="l152-p22">Y si hay quien lo dude, a la prueba me remito. He bailado una contradanza: he adulado a una señora: he sido político con mi amigo y suave con mi enemigo: he estafado a tres sastres: he tenido cuatro desafíos, y uno de ellos casi acaba a estocadas.</p>
+</div><div class="sp " data-who="Jaques">
+  <p class="spk ">
+    JAQUES.
+  </p>
+  <p class="pr " id="l152-p23">¿Pues cómo vino a acabar?</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    PIEDRA-DE-TOQUE.
+  </p>
+  <p class="pr " id="l152-p24">Llegando al terreno, y descubriendo que la disputa versaba sobre la séptima causa.</p>
+</div><div class="sp " data-who="Jaques">
+  <p class="spk ">
+    JAQUES.
+  </p>
+  <p class="pr " id="l152-p25">¿Qué séptima causa es esa? Duque mío, vale la pena de gustar de este perillán.</p>
+</div><div class="sp " data-who="Duke_Senior">
+  <p class="spk ">
+    DUQUE.
+  </p>
+  <p class="pr " id="l152-p26">No me desagrada en manera alguna.</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    PIEDRA-DE-TOQUE.
+  </p>
+  <p class="pr " id="l152-p27">Dios os premie, y otro tanto deseo para vos. Vengo aquí, señor, entre la muchedumbre de paisanos copulativos, a jurar y perjurar, según como liga el matrimonio y como la sangre quebranta. Una pobre doncella, señor, nada agraciada, pero mía. Con ella cargo, señor, por un humilde capricho mío, de tener lo que nadie querría. La honestidad oculta su riqueza, como los avaros, señor, en un pobre alojamiento; así como la perla dentro de una fea ostra.</p>
+</div><div class="sp " data-who="Duke_Senior">
+  <p class="spk ">
+    DUQUE.
+  </p>
+  <p class="pr " id="l152-p28">A fe mía que es agudo y sentencioso.</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    PIEDRA-DE-TOQUE.
+  </p>
+  <p class="pr " id="l152-p29">Conforme a la coyunda de los necios, señor, y a tales dulzainas dolencias.</p>
+</div><div class="sp " data-who="Jaques">
+  <p class="spk ">
+    JAQUES.
+  </p>
+  <p class="pr " id="l152-p30">Pero vamos a la séptima causa. ¿Cómo descubristeis que la querella era sobre la séptima causa?</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    PIEDRA-DE-TOQUE.
+  </p>
+  <p class="pr " id="l152-p31">Por una mentira contradecida siete veces. No te pongas en tan mala postura, Tomasa. Y es como sigue, señor. No me gustaba el corte de la barba de cierto cortesano, y él hizo que me dijeran de su parte que si yo decía que su barba no estaba bien cortada, él era de parecer que sí lo estaba: esto se llama <em>la réplica cortés</em>. Si yo le enviaba a decir que no estaba bien cortada, él replicaría que la cortaba a su gusto: y esto se llama <em>el sarcasmo modesto</em>. Si todavía, que no estaba bien cortada, me calificaría de juez incapaz; y esto es la <em>réplica grosera</em>. Si una vez aún, que no estaba bien cortada, me respondería que yo faltaba a la verdad; y esto se llama <em>la repulsa valiente</em>. Y si tornase a decir que no estaba bien cortada, me diría que miento; y esto es <em>el rechazo turbulento</em>. Y así sucesivamente se llega al <em>mentís condicional</em> y al <em>mentís directo</em>.</p>
+</div><div class="sp " data-who="Jaques">
+  <p class="spk ">
+    JAQUES.
+  </p>
+  <p class="pr " id="l152-p32">¿Y cuántas veces dijisteis que su barba no estaba bien cortada?</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    PIEDRA-DE-TOQUE.
+  </p>
+  <p class="pr " id="l152-p33">No me animé a pasar del <em>mentís condicional</em>, ni él se atrevió a darme <em>el mentís directo</em>. Así, medimos las armas y nos despedimos.</p>
+</div><div class="sp " data-who="Jaques">
+  <p class="spk ">
+    JAQUES.
+  </p>
+  <p class="pr " id="l152-p34">¿Podríais enumerar ahora por su orden los grados de la mentira?</p>
+</div><div class="sp " data-who="Touchstone">
+  <p class="spk ">
+    PIEDRA-DE-TOQUE.
+  </p>
+  <p class="pr " id="l152-p35">¡Oh señor! Así como tenéis libros para los buenos modales, tenemos también las querellas en letra de molde, en libro. Os enumeraré los grados. Primero, <em>la réplica cortés</em>; segundo, <em>el sarcasmo modesto</em>; tercero, <em>la réplica grosera</em>; cuarto, <em>la repulsa valiente</em>; quinto, <em>el rechazo turbulento</em>; sexto, <em>el mentís condicional</em>; séptimo, <em>el mentís directo</em>. Podéis evadir todos estos, excepto <em>el mentís directo</em>; y aun este se puede evadir por medio de un <em>sí</em> hipotético. Supe de una querella que siete jueves no habían podido arreglar; pero cuando los contendientes se encontraron uno frente a otro en el terreno, ocurriósele a uno de ellos aquel <em>sí</em>, como por ejemplo: «Si dijisteis tal cosa, entonces dije tal otra;» y se dieron la mano y se juraron amistad eterna. Es increíble lo que puede el <em>sí</em> hipotético.</p>
+</div><div class="sp " data-who="Jaques">
+  <p class="spk ">
+    JAQUES.
+  </p>
+  <p class="pr " id="l152-p36">Alteza: ¿no es este un curioso sujeto? Lo mismo sirve para todo; y, sin embargo, es un bufón.</p>
+</div><div class="sp " data-who="Duke_Senior">
+  <p class="spk ">
+    DUQUE.
+  </p>
+  <p class="pr " id="l152-p37">De esa calidad se sirve como de una emboscada, y escondido desde ella dispara sus agudezas.</p>
+</div><p class="sd " id="l152-sd7">(Entran Himeneo, conduciendo a Rosalinda en traje de mujer, y Celia.)</p><div class="sp " data-who="Hymen-AYL">
+  <p class="spk ">
+    HIMENEO.
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l153"><a class="n " href="#l153">153</a><span class="t">Hay regocijo en el cielo</span></div><div class="l " id="l154"><a class="n " href="#l154">154</a><span class="t">cuando las cosas del suelo</span></div><div class="l " id="l155"><a class="n m5" href="#l155">155</a><span class="t">acordes y unidas son.</span></div><div class="l " id="l156"><a class="n " href="#l156">156</a><span class="t">Recibe a tu hija querida</span></div><div class="l " id="l157"><a class="n " href="#l157">157</a><span class="t">¡oh duque! y une su vida</span></div><div class="l " id="l158"><a class="n " href="#l158">158</a><span class="t">al que está en su corazón.</span></div><div class="l " id="l159"><a class="n " href="#l159">159</a><span class="t">Para cumplir tal deseo</span></div><div class="l " id="l160"><a class="n m5" href="#l160">160</a><span class="t">te la ha traído Himeneo</span></div><div class="l " id="l161"><a class="n " href="#l161">161</a><span class="t">de la celeste región.</span></div>
+</div>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA.
+  </p>
+  <p class="pr " id="l161-p1"><span class="sdi">(al duque.)</span> A vos me entrego, pues soy vuestra. <span class="sdi">(a Orlando.)</span> A vos me entrego, pues soy vuestra.</p>
+</div><div class="sp " data-who="Duke_Senior">
+  <p class="spk ">
+    DUQUE.
+  </p>
+  <p class="pr " id="l161-p2">Si no engaña la vista, sois mi hija.</p>
+</div><div class="sp " data-who="Orlando">
+  <p class="spk ">
+    ORLANDO.
+  </p>
+  <p class="pr " id="l161-p3">Si no engaña la vista, sois mi Rosalinda.</p>
+</div><div class="sp " data-who="Phebe">
+  <p class="spk ">
+    FEBE.
+  </p>
+  <p class="pr " id="l161-p4">Si la vista y la forma no engañan, ¡adiós mi amor!</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA.
+  </p>
+  <p class="pr " id="l161-p5"><span class="sdi">(al duque.)</span> No tendré padre, si no lo sois vos. <span class="sdi">(A Orlando.)</span> No tendré esposo, si no lo sois vos. <span class="sdi">(A Febe.)</span> Ni me casaré con mujer, si no es con vos.</p>
+</div><div class="sp " data-who="Hymen-AYL">
+  <p class="spk ">
+    HIMENEO.
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l162"><a class="n " href="#l162">162</a><span class="t">¡Silencio! No haya algazara.</span></div><div class="l " id="l163"><a class="n " href="#l163">163</a><span class="t">Yo de esta historia tan rara</span></div><div class="l " id="l164"><a class="n " href="#l164">164</a><span class="t">deduzco una conclusión.</span></div><div class="l " id="l165"><a class="n m5" href="#l165">165</a><span class="t">Aquí veo cuatro pares</span></div><div class="l " id="l166"><a class="n " href="#l166">166</a><span class="t">que juntar en mis altares,</span></div><div class="l " id="l167"><a class="n " href="#l167">167</a><span class="t">de mano y de corazón.</span></div><p class="sd " id="l167-sd1">(A Rosalinda y Orlando.)</p><div class="l " id="l168"><a class="n " href="#l168">168</a><span class="t">Seréis felices unidos.</span></div><p class="sd " id="l168-sd1">(A Oliverio y Celia.)</p><div class="l " id="l169"><a class="n " href="#l169">169</a><span class="t">Dos en uno confundidos</span></div><div class="l " id="l170"><a class="n m5" href="#l170">170</a><span class="t">como ellos, habréis de ser.</span></div><p class="sd " id="l170-sd1">(A Febe.)</p><div class="l " id="l171"><a class="n " href="#l171">171</a><span class="t">Al zagal tu amor escoja,</span></div><div class="l " id="l172"><a class="n " href="#l172">172</a><span class="t">si tener no se te antoja</span></div><div class="l " id="l173"><a class="n " href="#l173">173</a><span class="t">por marido una mujer.</span></div><p class="sd " id="l173-sd1">(A Piedra y Tomasa.)</p><div class="l " id="l174"><a class="n " href="#l174">174</a><span class="t">Vosotros en firme nudo</span></div><div class="l " id="l175"><a class="n m5" href="#l175">175</a><span class="t">seréis el invierno rudo</span></div><div class="l " id="l176"><a class="n " href="#l176">176</a><span class="t">y el granizar y el llover.</span></div><div class="l " id="l177"><a class="n " href="#l177">177</a><span class="t">Entre nupciales canciones,</span></div><div class="l " id="l178"><a class="n " href="#l178">178</a><span class="t">averiguad las razones</span></div><div class="l " id="l179"><a class="n " href="#l179">179</a><span class="t">del suceso singular</span></div><div class="l " id="l180"><a class="n m5" href="#l180">180</a><span class="t">que aquí nos ha reunido,</span></div><div class="l " id="l181"><a class="n " href="#l181">181</a><span class="t">y veréis cómo ha nacido</span></div><div class="l " id="l182"><a class="n " href="#l182">182</a><span class="t">y cómo pudo acabar.</span></div><p class="sd " id="l182-sd1">CANTO.</p><div class="l " id="l183"><a class="n " href="#l183">183</a><span class="t">La diadema de Juno</span></div><div class="l " id="l184"><a class="n " href="#l184">184</a><span class="t">fueron las bodas,</span></div><div class="l " id="l185"><a class="n m5" href="#l185">185</a><span class="t">que en mesa y lecho junta</span></div><div class="l " id="l186"><a class="n " href="#l186">186</a><span class="t">las almas todas.</span></div><div class="l " id="l187"><a class="n " href="#l187">187</a><span class="t">Honremos a Himeneo</span></div><div class="l " id="l188"><a class="n " href="#l188">188</a><span class="t">que puebla al mundo</span></div><div class="l " id="l189"><a class="n " href="#l189">189</a><span class="t">y es en todas las zonas</span></div><div class="l " id="l190"><a class="n m5" href="#l190">190</a><span class="t">el dios fecundo.</span></div>
+</div>
+</div><div class="sp " data-who="Duke_Senior">
+  <p class="spk ">
+    DUQUE.
+  </p>
+  <p class="pr " id="l190-p1">Bienvenida eres ¡oh amada sobrina! No menos bienvenida que propia hija.</p>
+</div><div class="sp " data-who="Phebe">
+  <p class="spk ">
+    FEBE
+  </p>
+  <p class="pr " id="l190-p2"><span class="sdi">(a Silvio)</span> No faltaré a mi palabra, ahora que eres mío. Tu constancia te ha conciliado mi afecto.</p>
+</div><p class="sd " id="l190-sd1">(Entra Jaques de Bois.)</p><div class="sp " data-who="Jaques_de_Boys">
+  <p class="spk ">
+    JAQUES DE BOIS
+  </p>
+  <p class="pr " id="l190-p3">Concededme audiencia para unas pocas palabras. Soy el hijo segundo de sir Rowland de Bois, y traigo a la digna Asamblea estas nuevas: El duque Federico, informado del considerable número de hombres de valer que diariamente afluyen a este bosque, se puso a la cabeza de un grande ejército para apoderarse aquí de su hermano y darle muerte. Había llegado ya a los linderos de este bosque, cuando se encontró con un anciano religioso, y después de una conferencia con él, quedó resuelto a abandonar su empresa y a retirarse del mundo. La corona queda devuelta a su hermano, y restituidos a sus compañeros de destierro todas las propiedades que poseían. De la verdad de estas noticias respondo con mi vida.</p>
+</div><div class="sp " data-who="Duke_Senior">
+  <p class="spk ">
+    DUQUE.
+  </p>
+  <p class="pr " id="l190-p4">Sed bienvenido, joven. Traes hermosos presentes a las bodas de tu hermano. Al uno, sus tierras confiscadas, y al otro todo un territorio, un poderoso ducado. Ante todo, acabemos en este bosque lo que fue tan felizmente comenzado; y en seguida, todos los que han compartido con nosotros acerbos días, participen de la vuelta de nuestra buena fortuna, conforme a su jerarquía. Y al mismo tiempo, olvidemos por un momento esta nueva dignidad, y volvamos a nuestros regocijos campestres. Suene la música, y vosotros, novios y novias, medid por nuestra alegría los compases de la danza.</p>
+</div><div class="sp " data-who="Jaques">
+  <p class="spk ">
+    JAQUES.
+  </p>
+  <p class="pr " id="l190-p5">Con vuestra venia, señor. Si no os he oído mal, el joven duque ha abrazado la vida religiosa, renunciando a las pompas de la corte?</p>
+</div><div class="sp " data-who="Jaques_de_Boys">
+  <p class="spk ">
+    JAQUES DE BOIS
+  </p>
+  <p class="pr " id="l190-p6">Así es.</p>
+</div><div class="sp " data-who="Jaques">
+  <p class="spk ">
+    JAQUES.
+  </p>
+  <p class="pr " id="l190-p7">Pues me marcho a donde él. Hay mucho que oír y aprender oyendo a estos nuevos convertidos. <span class="sdi">(Al duque.)</span> Os lego vuestros antiguos honores. Bien los merecen vuestra virtud y paciencia. <span class="sdi">(A Orlando.)</span> A vos, el amor que con verdadera fe habéis conquistado. <span class="sdi">(A Oliverio.)</span> A vos vuestras tierras, vuestro amor y vuestros poderosos aliados. <span class="sdi">(A Silvio.)</span> A vos larga duración en un lecho bien merecido. <span class="sdi">(A Piedra.)</span> Y a ti el eterno disputar; porque el viaje de tu amor no lleva víveres ni para dos meses. Y con esto, entregaos a vuestros placeres. Yo, no estoy para fiestas.</p>
+</div><div class="sp " data-who="Duke_Senior">
+  <p class="spk ">
+    DUQUE.
+  </p>
+  <p class="pr " id="l190-p8">Quedaos, Jaques, quedaos.</p>
+</div><div class="sp " data-who="Jaques">
+  <p class="spk ">
+    JAQUES.
+  </p>
+  <p class="pr " id="l190-p9">No para ver pasatiempos. Para saber lo que os acontezca, permaneceré en la cueva que abandonáis.</p>
+</div><p class="sd " id="l190-sd2">(Sale.)</p><div class="sp " data-who="Duke_Senior">
+  <p class="spk ">
+    DUQUE.
+  </p>
+  <p class="pr " id="l190-p10">Adelante, pues, y principiaremos las ceremonias, que confío terminarán en la ventura de todos.</p>
+</div><p class="sd " id="l190-sd3">(Baile.)</p>
+      </section>
+    
+  
+    
+      <section id="act-5-s5">
+        <h3 class="scene-head">
+          EPÍLOGO.
+        </h3>
+        <div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA.
+  </p>
+  <p class="pr " id="l190-p11">No es costumbre ver a la dama en el epílogo; pero no es mejor ver al galán en el prólogo. Si es verdad que «el buen vino no necesita enseñas;» también lo es que una buena comedia no ha menester epílogo. Sin embargo, en buenas enseñas se anuncian buenos vinos, y los buenos epílogos mejoran las buenas comedias. ¿Cuál es, pues, mi situación, no siento yo un buen epílogo, ni pudiendo insinuar cosa alguna para que toméis por buena esta comedia? No estoy aparejada como los mendigos, y por lo tanto no me cumple mendigar. No me queda otro camino que el de conjuraros; y principiaré por las mujeres. Os recomiendo ¡oh mujeres! Por el amor que tenéis a los hombres, que os guste de esta comedia todo lo que a ellos agradare; y de igual modo os recomiendo ¡oh varones! Por el amor que tenéis a las mujeres (y creo percibir que ninguno de vosotros las tiene aversión) que entre vosotros y ellas, encontréis que la comedia os agrada. a ser yo mujer, besaría a todos aquellos de vosotros que tengan barbas que me gusten, caras que me plazcan y alientos que no me repugnen; y estoy segura de que todos cuantos tienen buenas barbas, o hermosas caras o aliento puro, querrán en pago de mi oferta despedirme afectuosamente cuando les haga mi reverencia.</p>
+</div><p class="sd " id="l190-sd4">(Sale.)</p>
+      </section>
+    
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-4.html" rel="prev">← Acto IV</a>
+  
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

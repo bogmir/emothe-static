@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ATTO SECONDO — La Cassaria — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">PERSONE</a></li>
+      
+  
+    
+        <li>
+          <a href="act-1.html">
+            ATTO PRIMO
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html" aria-current="page">
+            ATTO SECONDO
+          </a>
+          <ul>
+            <li>
+              
+                  <a href="act-2.html#act-2-s1">
+                    Scena prima
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-2.html#act-2-s2">
+                    Scena seconda
+                  </a>
+              
+            </li>
+          </ul>
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            ATTO TERZO
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-4.html">
+            ATTO QUARTO
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-5.html">
+            ATTO QUINTO
+          </a>
+          
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="index.html#bibliography"><x-es>Bibliografía</x-es><x-en>Bibliography</x-en></a>
+  </li>
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="EROFILO">
+        EROFILO
+      </option><option value="CARIDORO">
+        CARIDORO
+      </option><option value="EULALIA">
+        EULALIA
+      </option><option value="CORISCA">
+        CORISCA
+      </option><option value="LUCRANO">
+        LUCRANO
+      </option><option value="CRISOBOLO">
+        CRISOBOLO
+      </option><option value="CRITONE">
+        CRITONE
+      </option><option value="ARISTIPPO">
+        ARISTIPPO
+      </option><option value="FULCIO">
+        FULCIO
+      </option><option value="FURBA">
+        FURBA
+      </option><option value="NEBBIA">
+        NEBBIA
+      </option><option value="GIANDA">
+        GIANDA
+      </option><option value="VOLPINO">
+        VOLPINO
+      </option><option value="CORBACCHIO">
+        CORBACCHIO
+      </option><option value="NEGRO">
+        NEGRO
+      </option><option value="MORIONE">
+        MORIONE
+      </option><option value="GALLO">
+        GALLO
+      </option><option value="MARSO">
+        MARSO
+      </option><option value="TRAPPOLA">
+        TRAPPOLA
+      </option><option value="BRUSCO">
+        BRUSCO
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="asm" aria-label="Resaltar apartes" data-en-aria-label="Highlight asides" data-tr>
+        <x-es>Apartes</x-es><x-en>Asides</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .aparte, .text .pr.as, .text .pr:not(.as) span.as" data-for="asm">
+  <button type="button" data-step="-1" aria-label="Aparte anterior" data-en-aria-label="Previous aside" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente aparte" data-en-aria-label="Next aside" data-tr>›</button>
+</div>
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">Ludovico Ariosto</p>
+  <h1><a href="index.html">La Cassaria</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-1.html" rel="prev">← ATTO PRIMO</a>
+  <a href="act-3.html" rel="next">ATTO TERZO →</a>
+</nav>
+  <div class="text" lang="it" data-cite="Ludovico Ariosto, La Cassaria, ATTO SECONDO" data-cite-verse="v." data-cite-prose="l.">
+    
+    <section class="division" id="act-2">
+  <h2 class="act-head">
+    ATTO SECONDO
+  </h2>
+  
+  
+  
+    
+      <section id="act-2-s1">
+        <h3 class="scene-head">
+          Scena prima
+        </h3>
+        <p class="sd " id="l2-1-sd1">Erofilo, Caridoro giovani, Volpino, Fulcio servi.</p><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-1"><a class="pn " href="#l2-1-1">1</a>Non so che imaginarmi, che così tardi Volpino ha ritornare.</p>
+</div><div class="sp " data-who="CARIDORO">
+  <p class="spk ">
+    CARIDORO
+  </p>
+  <p class="pr " id="l2-1-2"><a class="pn " href="#l2-1-2">2</a>Se Fulcio non lo ritrova, almen ritornasse lui.</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-3"><a class="pn " href="#l2-1-3">3</a>Credo che tutti l’infortuni abbino congiurato a’ nostri danni.</p>
+</div><div class="sp " data-who="CARIDORO">
+  <p class="spk ">
+    CARIDORO
+  </p>
+  <p class="pr " id="l2-1-4"><a class="pn " href="#l2-1-4">4</a>Eccoli, per Dio, che vengono.</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr as" id="l2-1-5"><a class="pn m5" href="#l2-1-5">5</a>(Se potrebbe, Fulcio, per salvare dua amanti e distruggere uno avarissimo ruffiano, ordinare astuzia che fusse più di questa memorabile?)</p>
+</div><div class="sp " data-who="FULCIO">
+  <p class="spk ">
+    FULCIO
+  </p>
+  <p class="pr as" id="l2-1-6"><a class="pn " href="#l2-1-6">6</a>(Volpino, per quella fede ho ne le mie spalle, mi pare questa invenzione simile ad uno fertile e mal cultivato campo, che non manco de triste, che de bone erbe, si vede pieno.)</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr as" id="l2-1-7"><a class="pn " href="#l2-1-7">7</a>(Quando non succeda, aremo uno conforto almeno, che non seremo per minima causa puniti. A che peggio si pò giungere, che alle bastonate?)</p>
+</div><div class="sp " data-who="FULCIO">
+  <p class="spk ">
+    FULCIO
+  </p>
+  <p class="pr as" id="l2-1-8"><a class="pn " href="#l2-1-8">8</a>(Non ti bisognarà, so ben, desiderare più sufficienti spalle che coteste: a stancare ogni bon braccio pur troppo idonie sono.)</p>
+</div><div class="sp " data-who="CARIDORO">
+  <p class="spk ">
+    CARIDORO
+  </p>
+  <p class="pr " id="l2-1-9"><a class="pn " href="#l2-1-9">9</a>Vengon, mi par, ridendo.</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr as" id="l2-1-10"><a class="pn m5" href="#l2-1-10">10</a>(E se più sufficienti pur cercare mi bisognasse, piglierei le tue.)</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-11"><a class="pn " href="#l2-1-11">11</a>Che credi tu? Che sì, qualche buon vino trovato hanno, che come forse de la tanta dimora, così deve di questo opportuno loro riso esser cagione.</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr as" id="l2-1-12"><a class="pn " href="#l2-1-12">12</a>(Studiamo il passo: non vedi tu che da’ nostri patroni attesi siamo?)</p>
+</div><div class="sp " data-who="CARIDORO">
+  <p class="spk ">
+    CARIDORO
+  </p>
+  <p class="pr " id="l2-1-13"><a class="pn " href="#l2-1-13">13</a>Andiamogli incontra, che pur in questa allegrezza che dimostrano sperar mi giova.</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-14"><a class="pn " href="#l2-1-14">14</a>Nulla debbono de la partita di Lucrano sapere, che non verriano sì lieti.</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-15"><a class="pn m5" href="#l2-1-15">15</a>Dio vi conservi longamente.</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-16"><a class="pn " href="#l2-1-16">16</a>Sì, ma di miglior voglia che or non siamo.</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-17"><a class="pn " href="#l2-1-17">17</a>Spera fin che vivi, e lassa disperare a’ morti.</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-18"><a class="pn " href="#l2-1-18">18</a>Tu non sai, Volpino, che domane, o questa notte forse, Lucrano si parte?</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-19"><a class="pn " href="#l2-1-19">19</a>Partasi con tempesta; ma non gli credo: sono arti che egli usa per ispaventarvi.</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-20"><a class="pn m5" href="#l2-1-20">20</a>Taci. Se udito avessi quel che al Furba suo adesso dicea, non si credendo da noi essere udito, ti parrebbe che non fussino arti: domandane costui.</p>
+</div><div class="sp " data-who="CARIDORO">
+  <p class="spk ">
+    CARIDORO
+  </p>
+  <p class="pr " id="l2-1-21"><a class="pn " href="#l2-1-21">21</a>È così certo.</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-22"><a class="pn " href="#l2-1-22">22</a>Ahi lasso! Come potrò poi vivere, se lui ne mena ogni mio bene? Dovunque ne vada Eulalia, ne andrà con essa el cor mio.</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-23"><a class="pn " href="#l2-1-23">23</a>Se ‘l cor tuo s’ha da partir questa notte, fa che io lo sappia così a tempo, che tòr possa la sua bulletta, prima che si serri l’uffizio.</p>
+</div><div class="sp " data-who="FULCIO">
+  <p class="spk ">
+    FULCIO
+  </p>
+  <p class="pr " id="l2-1-24"><a class="pn " href="#l2-1-24">24</a>E che se gli faccia una veste o altra cosa da coprirlo.</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-25"><a class="pn m5" href="#l2-1-25">25</a>Perché veste?</p>
+</div><div class="sp " data-who="FULCIO">
+  <p class="spk ">
+    FULCIO
+  </p>
+  <p class="pr " id="l2-1-26"><a class="pn " href="#l2-1-26">26</a>Che li uccelli di rapina, che usano dietro al mare, non lo becchino, ritrovandolo così nudo.</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-27"><a class="pn " href="#l2-1-27">27</a>Ve’, Caridoro, come ci beffano li manigoldi! Ah misero chi è servo d’amore!</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-28"><a class="pn " href="#l2-1-28">28</a>È più misero chi è servo de’ servi d’amore. Non ti giudicavo, Erofilo, di sì poco animo che, sentendoti Volpino appresso, in sì piccola cosa te avessi a sbigottire.</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-29"><a class="pn " href="#l2-1-29">29</a>Piccola cosa è questa? Nessun’altra maggiore mi potrebbe essere.</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-30"><a class="pn m5" href="#l2-1-30">30</a>Guardami in viso: partese el ruffiano, come hai detto? Ancora se per viltà non mi mancate, non serà una ora di notte <span class="as">(benché avemo più del giorno poco)</span>, che averete tutti dui parimente le vostre donne in braccio; e questo Lucrano, uomo sì arrogante, toserò come una pecora.</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-31"><a class="pn " href="#l2-1-31">31</a>O uomo di gran pregio!</p>
+</div><div class="sp " data-who="CARIDORO">
+  <p class="spk ">
+    CARIDORO
+  </p>
+  <p class="pr " id="l2-1-32"><a class="pn " href="#l2-1-32">32</a>O Volpino mio da bene!</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-33"><a class="pn " href="#l2-1-33">33</a>Ma dimmi: hai tu apparecchiato, come ti dissi, le forbici da tosarlo?</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-34"><a class="pn " href="#l2-1-34">34</a>Di che forbici m’hai tu parlato?</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-35"><a class="pn m5" href="#l2-1-35">35</a>Non t’ho detto che di man del Nebbia facessi opera di avere le chiavi de la camera di tuo padre?</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-36"><a class="pn " href="#l2-1-36">36</a>L’ho fatto.</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-37"><a class="pn " href="#l2-1-37">37</a>E che togliessi quella cassa che ti mostrai?</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-38"><a class="pn " href="#l2-1-38">38</a>T’ho obedito.</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-39"><a class="pn " href="#l2-1-39">39</a>E che mandassi for di casa tutti li famigli?</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-40"><a class="pn m5" href="#l2-1-40">40</a>Così ho fatto.</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-41"><a class="pn " href="#l2-1-41">41</a>E più di tutti li altri el Nebbia?</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-42"><a class="pn " href="#l2-1-42">42</a>Non ho lassata cosa che mi abbi detta.</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-43"><a class="pn " href="#l2-1-43">43</a>Ben sta: queste le forbici sono che ti domandavo. Or attendi a quanto vo’ che si facci. Ho ritrovato un mio grande amico, servo de’ mammalucchi del Soldano, venuto per faccende del suo padrone a Metellino, dove non fu mai più, né credo che ci sia un altro che lo connosca. Io gran pratica al Cairo ebbi con lui, già fa l’anno che ve andai con tuo padre, dove stemmo più di duo mesi; e domane ha da partirsi all’alba.</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-44"><a class="pn " href="#l2-1-44">44</a>Che avemo noi a intendere di questa amicizia?</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-45"><a class="pn m5" href="#l2-1-45">45</a>Io dirò: ascolta. Voglio costui vestire da mercatante: torrò de’ panni di tuo padre; oltre che ha bella presenza, lo acconcerò in modo che non serà chi non creda, vedendolo, che lui non sia mercatante di gran traffico.</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-46"><a class="pn " href="#l2-1-46">46</a>Séguita.</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-47"><a class="pn " href="#l2-1-47">47</a>Costui, così vestito, anderà a ritrovare el ruffiano, e si farà portare la cassa dietro c’hai tolta, e lasseràgliela pegno.</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-48"><a class="pn " href="#l2-1-48">48</a>Pegno?</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-49"><a class="pn " href="#l2-1-49">49</a>E farassi dar la femina.</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-50"><a class="pn m5" href="#l2-1-50">50</a>A chi vuoi che la lassi pegno?</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-51"><a class="pn " href="#l2-1-51">51</a>Al ruffiano.</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-52"><a class="pn " href="#l2-1-52">52</a>Al ruffiano?</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-53"><a class="pn " href="#l2-1-53">53</a>Fin tanto che ‘l prezzo de la tua Eulalia li porti.</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-54"><a class="pn " href="#l2-1-54">54</a>Come diavol! che la lassi al ruffiano?</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-55"><a class="pn m5" href="#l2-1-55">55</a>Dico la cassa; e che si facci dare la femina e te la conduca.</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-56"><a class="pn " href="#l2-1-56">56</a>Pur troppo intendo, ma non mi piace.</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-57"><a class="pn " href="#l2-1-57">57</a>Voglio ben poi, che subito andiamo…</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-58"><a class="pn " href="#l2-1-58">58</a>Parla d’altro. Ch’io ponga roba di tanto valore in mano d’uno ruffiano fuggitivo?</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-59"><a class="pn " href="#l2-1-59">59</a>Lassane a me la cura: odi.</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-60"><a class="pn m5" href="#l2-1-60">60</a>Non è cosa da udire: è troppo periculosa.</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-61"><a class="pn " href="#l2-1-61">61</a>Non è: se ascolti, si potrà facilmente…</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-62"><a class="pn " href="#l2-1-62">62</a>Che facilmente?</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-63"><a class="pn " href="#l2-1-63">63</a>Se taci, tel dirò. È bisogno a chiunque vole…</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-64"><a class="pn " href="#l2-1-64">64</a>Che ciancie son queste che cominci?</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-65"><a class="pn m5" href="#l2-1-65">65</a>Tuo danno se udir non vuoi: ben sono io pazzo.</p>
+</div><div class="sp " data-who="CARIDORO">
+  <p class="spk ">
+    CARIDORO
+  </p>
+  <p class="pr " id="l2-1-66"><a class="pn " href="#l2-1-66">66</a>Lassalo dire.</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-67"><a class="pn " href="#l2-1-67">67</a>Dica.</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-68"><a class="pn " href="#l2-1-68">68</a>Poss’io morir se più…</p>
+</div><div class="sp " data-who="CARIDORO">
+  <p class="spk ">
+    CARIDORO
+  </p>
+  <p class="pr " id="l2-1-69"><a class="pn " href="#l2-1-69">69</a>Non te partir, Volpino: ben te ascolterà. Odilo: lassalo dire.</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-70"><a class="pn m5" href="#l2-1-70">70</a>E che inferire vuo’ tu, insomma?</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-71"><a class="pn " href="#l2-1-71">71</a>Che? chi voglio inferire? Tutto ‘l dì mi prieghi, stimoli e tormenti ch’io trovi modi di far che tu abbi questa tua femina: n’ho trovati cento, né te ne piace alcuno. L’uno ti par difficile, periculoso l’altro; questo longo, quel scoperto: chi te pote intendere? Vuoi e non vuoi, desìderi e non sai che! O Erofilo, non si può fare, credilo a me, cosa memorabile senza periculo e fatica. Te pensi per prieghi e lamentazioni si pieghi el ruffiano, e te la doni?</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-72"><a class="pn " href="#l2-1-72">72</a>Mi parrebbe pur gran sciocchezza poner cosa di tanta valuta a così manifesto periculo. Non sai tu, come io so, che quella cassa tutta d’ori filati è piena, che dua milia ducati comprerieno a pena? e più, che quella è d’Aristandro, che mio padre la tiene in deposito? Queste mi paion forbici da tosar noi, più presto che la pecora che m’hai detta.</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-73"><a class="pn " href="#l2-1-73">73</a>Me estimi tu di sì poco ingegno, che io cerchi perdere una cosa di tanto prezzo, e che pensato prima non abbia come riaverla subito? Lassane, Erofilo, la cura a me: io sto a periculo più di te, quando non riuscisse el disegno, de la qual cosa non dubito. Tu ne sentirai le grida solo; io el bastone o ceppi o carcere o remo.</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-74"><a class="pn " href="#l2-1-74">74</a>Che via serà del racquistarla, se non se gli portan li denari, de’ quali avemo nessuna cosa meno? E se ritornasse mio padre intanto, o che nascosamente Lucrano si fuggisse, a che termine ci troveremo noi?</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-75"><a class="pn m5" href="#l2-1-75">75</a>Se hai tanta pazienzia che m’ascolti, vederai che el mio disegno è bono, e che non v’è periculo che, subito e sanza alcun danno, non se riabbia la cosa nostra.</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-76"><a class="pn " href="#l2-1-76">76</a>Io t’ascolto: or di’.</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-77"><a class="pn " href="#l2-1-77">77</a>Tosto che in man di Lucrano sia rimasa la cassa, e che ‘l mercante nostro t’abbia la femina condutta, noi ce n’andremo al Bassà, padre di Caridoro, al quale tu farai querela che questa cassa ti sia stata di casa tolta, e che suspetti ch’un ruffiano vicin tuo te l’abbia tolta.</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-78"><a class="pn " href="#l2-1-78">78</a>Intendo; e serà cosa credibile.</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-79"><a class="pn " href="#l2-1-79">79</a>E che tu lo prieghi che te dia el braccio, sì che tu possa andare a cercarli la casa. Caridoro ti serà favorevole apresso il padre, che teco mandi el bargello a tale effetto.</p>
+</div><div class="sp " data-who="CARIDORO">
+  <p class="spk ">
+    CARIDORO
+  </p>
+  <p class="pr " id="l2-1-80"><a class="pn m5" href="#l2-1-80">80</a>Serà facile, et io, bisognando, ci verrò in persona.</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-81"><a class="pn " href="#l2-1-81">81</a>Seremo sì presti, che la cassa li troveremo sùbito in casa, che non gli daremo tempo di poterla trafugare altrove. Egli dirà ch’un mercatante per il prezzo d’una sua femina gliel’ha lassata pegno. Chi vorrà credere che per cosa, che val cinquanta a pena, si lassi la valuta di più di mille assai? Trovatogli apresso il furto, serà strascinato in prigione, e impiccato forse: sia squartato ancora, che pensiero n’averemo noi?</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-82"><a class="pn " href="#l2-1-82">82</a>Ben, per Dio: il disegno è da succedere.</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-83"><a class="pn " href="#l2-1-83">83</a>Tu, Caridoro, come il ruffian sia preso, potrai fornire il desiderio tuo per te medesimo; che mentre li toi servi meneranno Lucrano prigione, tu farai de la tua Corisca el piacer tuo. Sempre averà di grazia el ruffiano lassartela in dono, pur che te gli offerischi apresso tuo padre favorevole, sì che almeno non ci lassi la vita.</p>
+</div><div class="sp " data-who="CARIDORO">
+  <p class="spk ">
+    CARIDORO
+  </p>
+  <p class="pr " id="l2-1-84"><a class="pn " href="#l2-1-84">84</a>O Volpino, una corona meriti.</p>
+</div><div class="sp " data-who="FULCIO">
+  <p class="spk ">
+    FULCIO
+  </p>
+  <p class="pr " id="l2-1-85"><a class="pn m5" href="#l2-1-85">85</a>Anzi una mitra e lo stendardo inanzi.</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-86"><a class="pn " href="#l2-1-86">86</a>Non pò, Fulcio, giugnere a queste tue degnitati ognuno.</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-87"><a class="pn " href="#l2-1-87">87</a>E dove è costui che in forma di mercatante vuoi vestire?</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-88"><a class="pn " href="#l2-1-88">88</a>Mi maraviglio che oramai non sia qui; ma verrà sùbito.</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-89"><a class="pn " href="#l2-1-89">89</a>Vuoi che lui stesso si porti la cassa in collo?</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-1-90"><a class="pn m5" href="#l2-1-90">90</a>No, ha un conservo con lui, che farà el bisogno. Ma va in casa, et apparecchia una de le veste di tuo padre, quella che ti par meglio, che non si perdi tempo.</p>
+</div><div class="sp " data-who="CARIDORO">
+  <p class="spk ">
+    CARIDORO
+  </p>
+  <p class="pr " id="l2-1-91"><a class="pn " href="#l2-1-91">91</a>Ho io qui a far altro?</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-92"><a class="pn " href="#l2-1-92">92</a>Ti puoi tornare a casa, che tutto il successo ti farò intendere. A Dio.</p>
+</div><div class="sp " data-who="CARIDORO">
+  <p class="spk ">
+    CARIDORO
+  </p>
+  <p class="pr " id="l2-1-93"><a class="pn " href="#l2-1-93">93</a>A Dio.</p>
+</div><div class="sp " data-who="FULCIO">
+  <p class="spk ">
+    FULCIO
+  </p>
+  <p class="pr " id="l2-1-94"><a class="pn " href="#l2-1-94">94</a>Se non avete altro bisogno di me, anderò con mio patrone.</p>
+</div><div class="sp " data-who="EROFILO">
+  <p class="spk ">
+    EROFILO
+  </p>
+  <p class="pr " id="l2-1-95"><a class="pn m5" href="#l2-1-95">95</a>A tuo piacere.</p>
+</div>
+      </section>
+    
+  
+    
+      <section id="act-2-s2">
+        <h3 class="scene-head">
+          Scena seconda
+        </h3>
+        <p class="sd " id="l2-2-sd1">Volpino, Trappola, Brusco servi.</p><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr as" id="l2-2-1"><a class="pn " href="#l2-2-1">1</a>(Io dovevo pure avere in memoria che rare volte il Trappola era usato a dire il vero: io son ben stato sciocco a lassarmelo tòr da canto fin che non l’abbia qui condotto. Se lui m’averà, come dubito, ingannato, nulla potrò far di quello che disegnato avevo. Ma eccolo, per Dio: la mia è stata più ventura che avertenza.)</p>
+</div><div class="sp " data-who="TRAPPOLA">
+  <p class="spk ">
+    TRAPPOLA
+  </p>
+  <p class="pr " id="l2-2-2"><a class="pn " href="#l2-2-2">2</a>È gran cosa, Brusco, che tu non sappia fare un servizio mai, di che l’uomo te n’abbia avere obligo.</p>
+</div><div class="sp " data-who="BRUSCO">
+  <p class="spk ">
+    BRUSCO
+  </p>
+  <p class="pr " id="l2-2-3"><a class="pn " href="#l2-2-3">3</a>È maggior cosa, Trappola, che mai le tue faccende e del patrone non ti dieno da far tanto, che non te voglia impacciare sempre in quelle de li strani, e che niente t’appertengono.</p>
+</div><div class="sp " data-who="TRAPPOLA">
+  <p class="spk ">
+    TRAPPOLA
+  </p>
+  <p class="pr " id="l2-2-4"><a class="pn " href="#l2-2-4">4</a>Io non reputo strano Volpino, e che non mi appertenga di cercar sempre nòve amicizie, massimamente de’ giovini, quali intendo questo Erofilo essere, suo patrone.</p>
+</div><div class="sp " data-who="BRUSCO">
+  <p class="spk ">
+    BRUSCO
+  </p>
+  <p class="pr " id="l2-2-5"><a class="pn m5" href="#l2-2-5">5</a>Se pur sei volenteroso de novi amici, te doveria parere assai d’acquistarli in tua fatica sola, senza travagliare e me e li altri che non hanno simile desiderio.</p>
+</div><div class="sp " data-who="TRAPPOLA">
+  <p class="spk ">
+    TRAPPOLA
+  </p>
+  <p class="pr " id="l2-2-6"><a class="pn " href="#l2-2-6">6</a>E che avevamo per oggi a fare altro?</p>
+</div><div class="sp " data-who="BRUSCO">
+  <p class="spk ">
+    BRUSCO
+  </p>
+  <p class="pr " id="l2-2-7"><a class="pn " href="#l2-2-7">7</a>Provederci di pane e vino e altre cose necessarie per uso nostro in nave; che avendo noi a partire all’alba, non ci averemo più tempo.</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-2-8"><a class="pn " href="#l2-2-8">8</a><span class="as">(Se vengono più lieti, che ben paron de’ principi)</span>. Io mi credevo, Trappola, che mi avessi ingannato.</p>
+</div><div class="sp " data-who="TRAPPOLA">
+  <p class="spk ">
+    TRAPPOLA
+  </p>
+  <p class="pr " id="l2-2-9"><a class="pn " href="#l2-2-9">9</a>M’incresce ch’abbi creduto il falso.</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-2-10"><a class="pn m5" href="#l2-2-10">10</a>Tu vieni molto sul riposato.</p>
+</div><div class="sp " data-who="TRAPPOLA">
+  <p class="spk ">
+    TRAPPOLA
+  </p>
+  <p class="pr " id="l2-2-11"><a class="pn " href="#l2-2-11">11</a>Non è iusto che, dovendo di servo diventare uomo grave, impari un poco andar con gravità?</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-2-12"><a class="pn " href="#l2-2-12">12</a>Chi lo doveria saper meglio di te, che la più parte de la tua vita hai fatta con ferri a’ piedi?</p>
+</div><div class="sp " data-who="TRAPPOLA">
+  <p class="spk ">
+    TRAPPOLA
+  </p>
+  <p class="pr " id="l2-2-13"><a class="pn " href="#l2-2-13">13</a>Non è bestia di sì duro trotto, che non pigliasse l’ambio, se ‘l suo cavallaro sì benignamente li facesse portare le bolze, come a te tuo patrone i ceppi.</p>
+</div><div class="sp " data-who="VOLPINO">
+  <p class="spk ">
+    VOLPINO
+  </p>
+  <p class="pr " id="l2-2-14"><a class="pn " href="#l2-2-14">14</a>Andiamo, che non è più da tardare.</p>
+</div>
+      </section>
+    
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-1.html" rel="prev">← ATTO PRIMO</a>
+  <a href="act-3.html" rel="next">ATTO TERZO →</a>
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      <p>
+        Quest&#39;opera è distribuita con Licenza Creative Commons Attribuzione - Non commerciale - Non opere derivate 4.0 Internazionale (CC BY-NC-ND 4.0)
+
+  <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.it">https://creativecommons.org/licenses/by-nc-nd/4.0/deed.it</a>
+
+      </p>
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

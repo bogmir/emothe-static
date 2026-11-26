@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<TEI xml:lang="es" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="version">El Adonis</title>
+        <title key="orden">Adonis, El</title>
+        <title key="archivo">EMOTHE0439_ElAdonis</title>
+        <author>Félix Lope de Vega y Carpio</author>
+        <author key="orden">Vega y Carpio, Félix Lope de</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Edición electrónica de &apos;El Adonis&apos;</edition>
+      </editionStmt>
+      <publicationStmt>
+        <idno type="code">EMOTHE0439_ElAdonis</idno>
+        <idno type="EMOTHE">0439</idno>
+        <pubPlace></pubPlace>
+        <date></date>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem target="EMOTHE0382" type="original"/>
+      </notesStmt>
+      <sourceDesc>
+        <p></p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="CDU">
+          <bibl>Clasificación Decimal Universal</bibl>
+        </taxonomy>
+      </classDecl>
+      <refsDecl>
+        <citeStructure match="/TEI/text/body//l[@n]" unit="verse" use="@n"/>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="es-ES">Español</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#CDU">821.134.2-2</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>
+            <title>El Adonis</title>
+          </titlePart>
+        </docTitle>
+        <docAuthor>Félix Lope de Vega y Carpio</docAuthor>
+      </titlePage>
+    </front>
+    <body>
+      <p/>
+    </body>
+    <back/>
+  </text>
+</TEI>

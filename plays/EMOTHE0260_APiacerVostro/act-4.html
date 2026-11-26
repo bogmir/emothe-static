@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Atto IV — A piacer vostro — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">PERSONAGGI</a></li>
+      
+  
+    
+        <li>
+          <a href="act-1.html">
+            Atto I
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html">
+            Atto II
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            Atto III
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-4.html" aria-current="page">
+            Atto IV
+          </a>
+          <ul>
+            <li>
+              
+                  <a href="act-4.html#act-4-s1">
+                    SCENA I.
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-4.html#act-4-s2">
+                    SCENA II.
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-4.html#act-4-s3">
+                    SCENA III.
+                  </a>
+              
+            </li>
+          </ul>
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-5.html">
+            Atto V
+          </a>
+          
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="Duke_Senior">
+        IL DUCA esiliato
+      </option><option value="Duke_Frederick">
+        FEDERIGO
+      </option><option value="Amiens">
+        AMIENS
+      </option><option value="Jaques">
+        JAQUES
+      </option><option value="Le_Beau">
+        LE BEAU
+      </option><option value="Charles">
+        CHARLES
+      </option><option value="Oliver">
+        OLIVIERO
+      </option><option value="Jaques_de_Boys">
+        JAQUES
+      </option><option value="Orlando">
+        ORLANDO
+      </option><option value="Adam">
+        ADAMO
+      </option><option value="Dennis">
+        DENNIS
+      </option><option value="Touchstone">
+        TOUCHSTONE
+      </option><option value="Mar-text">
+        DON OLIVIERO MARTEXT
+      </option><option value="Corin">
+        CORINNO
+      </option><option value="Silvius">
+        SILVIO
+      </option><option value="William">
+        GUGLIELMO
+      </option><option value="Hymen-AYL">
+        IMENE
+      </option><option value="Rosalind">
+        ROSALINDA
+      </option><option value="Celia">
+        CELIA
+      </option><option value="Phebe">
+        FEBE
+      </option><option value="Audrey">
+        AUDREY
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">William Shakespeare</p>
+  <h1><a href="index.html">A piacer vostro</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-3.html" rel="prev">← Atto III</a>
+  <a href="act-5.html" rel="next">Atto V →</a>
+</nav>
+  <div class="text" lang="it" data-cite="William Shakespeare, A piacer vostro, Atto IV" data-cite-verse="v." data-cite-prose="l.">
+    
+    <section class="division" id="act-4">
+  <h2 class="act-head">
+    Atto IV
+  </h2>
+  
+  <p class="sd " id="l90-sd9">La foresta.</p><p class="sd " id="l90-sd10">ROSALINDA, CELIA e JAQUES.</p>
+  
+    
+      <section id="act-4-s1">
+        <h3 class="scene-head">
+          SCENA I.
+        </h3>
+        <div class="sp " data-who="Jaques">
+  <p class="spk ">
+    JAQUES
+  </p>
+  <p class="pr " id="l90-p50">Concedimi, caro giovane, il favore di far meglio la tua conoscenza.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p51">Si dice che voi siete una persona malinconica.</p>
+</div><div class="sp " data-who="Jaques">
+  <p class="spk ">
+    JAQUES
+  </p>
+  <p class="pr " id="l90-p52">Sì, mi piace più esser così che ridere.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p53">Quelli che cadono nell’uno o nell’altro eccesso sono esseri assai detestabili e si espongono alla critica di tutto, peggio degli ubbriaconi.</p>
+</div><div class="sp " data-who="Jaques">
+  <p class="spk ">
+    JAQUES
+  </p>
+  <p class="pr " id="l90-p54">Ebbene, è bello esser triste e non dir nulla.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p55">E allora è bello essere un palo.</p>
+</div><div class="sp " data-who="Jaques">
+  <p class="spk ">
+    JAQUES
+  </p>
+  <p class="pr " id="l90-p56">Non ho nè la malinconia del dotto che è emulazione nè quella del musico che è fantasticheria, nè quella del cortigiano che è orgoglio, nè quella del soldato che è ambizione nè quella del legale che è accortezza, nè quella della dama che è affettazione, nè quella dell’innamorato che è tutte queste cose insieme; è una malinconia tutta mia particolare composta di molt ingredienti estratti da una gran quantità di oggeti: più propriamente è la varia meditazzione dei miei viaggi, nella quale le mie continue riflessioni mi avvolgono in una bizzarra tristeza.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p57">Un viaggiatore! Sulla mia parola avete una grande ragione di essere triste. Temo che abbiate vendute le vostre terre per vedere quelle di altra gente; quindi l’aver visto molto e non aver più nulla è come avere degli occhi ricci e delle mani povere.</p>
+</div><div class="sp " data-who="Jaques">
+  <p class="spk ">
+    JAQUES
+  </p>
+  <p class="pr " id="l90-p58">Sì; ma ho guadagnato la mia esperienza.</p>
+</div><p class="sd " id="l90-sd11">ORLANDO</p><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p59">E la vostra esperienza vi rende triste. Io preferirei di avere un buffone che mi tenesse allegro anzichè l’esperienza che mi renderesse triste. E per di più, viaggiare proprio per questo.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p60">Buon di felicità, mia Rosalinda.</p>
+</div><div class="sp " data-who="Jaques">
+  <p class="spk ">
+    JAQUES
+  </p>
+  <p class="pr " id="l90-p61">Ah, ho capito! Dio sia con voi, se qui si parla in versi sciolti.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p62">Addio, Monsieur viaggiatore. Badate bene di incespicare quando parlate, di portare strane foggie di abiti, di disprezzare tutti i benefizi del vostro paese, di non esser contento del vostro luogo di nascita, e prendetevela anche con Dio per avervi dato l’aria che avete: se no difficilmente crederò che siate antado per mare in una gondola. <span class="sdi">[Esce JAQUES.</span><br>Oh, Orlando! E dove siete stato tutto questo tempo? Voi un innamorato! Se mi giocate ancora un altro tiro simile non mi compartite più davanti.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p63">Mia cara Rosalinda, sono venuto un’ora più tardi di quanto avevo promesso.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p64">Infrangere d’un’ora una promessa di amore! Chi dividesse un minuto in mille parti, e non sgarrassse che di una particella di questa millessima parte, potrebbe ben dire che Cupido gli ha dato un colpetto sulle spalle; ma io potrei garantiré che il suo cuore è illeso.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p65">Perdonatemi, cara Rosalinda.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p66">No; se siete così pigro, non mi compartite più davanti. Sarei altrettanto contenta di essere corteggiata da un chiocciolone.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p67">Da un chiocciolone?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p68">Sì, da un chiocciolone; perchè quantunque egli cammini adagio, pure si porta addoso la casa, che è una miglior dote di quella che voi potreste costituire ad una donna. E per di più porta il suo destino con sè.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p69">Che destino?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p70">Ebbene, le corna, per le quali gli uomini come voi devono necesariamente essere obbligati alle loro mogli. Egli invece cammina già armato nella sua fortuna e previene gli scandali di sua moglie.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p71">La virtù non fa corna, e la mia Rosalinda è virtuosa.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p72">E io sono la vostra Rosalinda.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l90-p73">A lui piace di chiamarti così; ma ha una Rosalinda di un miglior aspetto del tuo.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p74">Via, fatemi la corte, fatemi la corte, perchè ora sono dell’umor delle feste e abastanza disposta a condiscendere. Che cosa mi direste ora se fossi propio la vostra Rosalinda?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p75">Vi darei un bacio prima di parlare.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p76">Eh no! Prima fareste meglio a parlare; quando poi vi sentiste un po’ imbarazzato per manza di argomenti allora potreste cogliere l’occasione di dare un bacio. Gli oratori molto bravi, quando non san trovare le parole, si mettono a sputare. Così per gli innamorati, quando sono a corto di panno – e Dio ne scampi noi – l’espediente più semplice è quello di dare un bacio.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p77">E se il bacio è negato?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p78">Lei vi mette allora nella condizione di supplicarla, e così comincia un nuovo soggetto di conversazione.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p79">Chi può trovarsi a corto di panno davanti alla sua amata?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p80">Dio mio, voi, per esempio, se io fossi la vostra amata; se no dovrei credere che la mia onestà è più esuberante del mio spirito.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p81">Dunque a corto di panno?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p82">Non a corto di vestiti, e pur tuttavia a corto di panno. Non sono io la vostra Rosalinda?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p83">Io provo qualche gioia a dire che siete la mia Rosalinda, per poter parlare di lei.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p84">Ebbene, in persona di lei vi dico che non vi voglio.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p85">E allora in persona mia io muoio.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p86">No, per carità, morite per procura. Questo poverto mondo è vecchio di seimila anni, e in tutto questo tempo non c’è stato nessuno che sia morto personalmente per causa d’amore, si capisce. Troilo ebbe la testa rotta da una clava greca, eppure aveva fatto tutto il possibile per mori prima, ed egli è uno degli esempi tipici di amore. Leandro sarebbe vissuto dei begli anni ancora, anche se Ero si fosse fatta monaca, se non fosse stata una calda notte di mezza estate; perchè il bravo giovane non era andato che a fare un bagno nell’Ellesponto e, preso da un crampo, annegò. E gli stupidi cronisti di qul tempo scorprirono che il crampo era… Ero di Sesto. Ora tutte queste non sono che bugie. Gli uomini sono morti continuamente e sono stati divorati dai vermi, ma non per amore.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p87">Non vorrei avere la mia vera Rosalinda di queste idee, e dichiaro solennemente che solo un suo brusco cipiglio basterebbe ad uccidermi.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p88">No, sulla mia parola, esso non ucciderebbe una mosca. Ma via, voglio essere la vostra Rosalinda in una più affabile disposizione. Chiedetemi ciò che volete e ve lo concederò.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p89">Allora amami, Rosalinda.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p90">Sì, sul mio onore, ti amerò il venerdi, il sabato e poi via via tutti gli altri giorni.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p91">E mi vorrai?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p92">Sì, e venti come te.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p93">Ma che cosa dici?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p94">Non siete voi buono?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p95">Ho questa speranza.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p96">Ebbene, si può mai desiderar troppo una cosa buona? Vieni, sorella; tu sarai il prete e ci sposerai. Che ne dici, sorella mia?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p97">Sposaci, ti prego.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l90-p98">Ma io non so dire le parole rituali.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p99">Devi cominciar così: «Volete voi, Orlando….».</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l90-p100">Ho capito. Volete voi, Orlando, prendere per moglie Rosalinda, qui presente?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p101">Sì.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p102">Sì, ma quando?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p103">Ma ora: quando più presto essa ci può sposare.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p104">Allora dovete dire: «Io ti accetto, Rosalinda, per moglie».</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p105">Io ti acceto, Rosalinda, per moglie.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p106">Potrei pretendere da voi tutte le garanzie; ma nondimeno io ti acceto per mio marito, Orlando. Ecco una ragazza che fa più presto del prete; perchè in anticipo sulle sue azioni.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p107">Così fanno tutti i pensieri: essi sono alato.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p108">E ora ditemo: quando tempo la terrete presso di voi dopo averla ottenuta?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p109">Per tutta l’eternità, più un giorno.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p110">Dite solo un giorno, senza l’eternità. No, no, Orlando: gli uomini sono aprile quando fanno la corte e dicembre quando sono ammogliati; le giovane sono maggio quando sono ragazze, ma il tempo cambia quando esse sono mogli. Io sarò più gelosa di te che un piccione di Barberia della sua picciogia: sarò più vanesi di una scimmia, più incostante nei miei desideri di una bertuccia. Piangerò per nulla come la Diana di una fontana, proprio quando sarai in vena d’essere allegro, e riderò come una iena quano sarai più disposto a dormiré.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p111">Ma la mia Rosalinda farà così?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p112">Per la mia vita essa farà come faccio io.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p113">Oh, ma essa è saggia.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p114">Diversamente, mancherebbe del buon senso di far così. Più una donna è saggia più è ostinata è capricciosa. Chiudete la porta alla sua fantasia e questa salterà dalla finestra, chiudete la finestra e passerà dal buco della chiave, tappate il buco della chiave e volerà via col fumo del camino.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p115">Un uomo che avesse una moglie con una tale fantasia, potrevve dimandare: O fantasia, dove vuoi andare?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p116">No, dovreste conservarmi questo rabuffo per il caso in cui v’imbatteste nella fantasia di vostra moglie che si avviasse al letto del vostro vicino.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p117">E quale fantasia potrebbe avere la prontezza di giustificare il fallo?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p118">Mio Dio, potrebbe aver la prontezza di dire che si avviata là in cerca di voi. Voi non potrete mai prender una moglie senza che abbia pronta la risposta, a meno che non la prendiate senza lingua. Oh, alla donna che non sa rendere il marito responsabile della sua colpa, non fate mai allattare il suo bimbo, perchè essa lo tirerà su come uno stupido.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p119">Ti devo lasciare per due ore, Rosalinda.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p120">Ahimè, amor mio, non posso star senza di te per due ore.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p121">Mi devo recare a pranzo dal duca: verso le due sarò di nuovo da te.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p122">Sì, andate pure, andate pure. Sapevo ciò che sareste riuscito. I miei amici mi avevano avvertito di ciò, e dio non pensavo diversamente. Ho ceduto alla seduzione della vostra lingua. Non sono che una persona rovinata: e allora, vieni pure, o norte! Avete detto dunque alle due?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p123">Sì, cara Rosalinda.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p124">Sul mio onore e con la più grande serietà, e Dio mi aiuti, e per tutti gli altro giuramenti che non sono pericolosi, se voi mancate di un capello alla vostra promessa, o se venite un minuto più tardi dell’ora fissata, vi riterrò il più appassionato mancator di parola, l’amante più falso, il più indegno di colei che chiamate. Rosalinda che possa esser tratto fuori dalla grande massa degli infedeli. Perciò, guardatevi dal mio biasimo e mantenete la vostra promessa.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ORLANDO
+  </p>
+  <p class="pr " id="l90-p125">Non meno religiosamente che se foste davvero la mia Rosalinda.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p126">Bene. Il Tempo è il vecchi giudice che esamina tale specie di colpevoli. Lasciano giudice il Tempo. Addio.</p>
+</div><p class="sd " id="l90-sd12">[Esce ORLANDO.</p><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l90-p127">Tu hai, nè più nè meno, ingiurato il nostro sesso nella tua cicalata amorosa. Meriteresti che ti si rovesciassero sul capo la giubba e i calzoni per mostrare a tutto come l’uccello ha conciato il propio nido.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p128">Cugina, cugina, cuginetta mia cara, se tu potessi sapere di quante braccia sono sprodondata giù nell’amore! Ma quella profondità non può essere scandagliata. La mia passione ha un fondo che nessuno conosce, come quelli della baia del Portogallo.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l90-p129">O meglio non ha fondi, di modo che appena vi affluisce la tua passione, essa si disperde.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l90-p130">No; sia giudice di quanto io sono sprofondata nell’amore quel maligno bastardo di Venere, originato dalla malinconia, concepito dall’impulsività e nato dalla pazzia, quel furfante di fanciullo cieco che inganna gli occhi di tutti, perchè i suoi sono chiusi. Ti assicuro, Aliena, che non posso fare a meno della presenza di Orlando. Vo un cerca di un po’ d’ombra per sospirare finchè egli non torni.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l90-p131">E io dormirò.</p>
+</div>
+      </section>
+    
+  
+    
+      <section id="act-4-s2">
+        <h3 class="scene-head">
+          SCENA II.
+        </h3>
+        <p class="sd " id="l90-sd13">La foresta.</p><p class="sd " id="l90-sd14">JAQUES, SIGNORI e BOSCAIOLI.</p><div class="sp " data-who="Jaques">
+  <p class="spk ">
+    JAQUES
+  </p>
+  <p class="pr " id="l90-p132">Chi è che ha ucciso il cervo?</p>
+</div><div class="sp " data-who="First_Lord-AYL">
+  <p class="spk ">
+    SIGNORE
+  </p>
+  <p class="pr " id="l90-p133">Sono stato io, signore.</p>
+</div><div class="sp " data-who="Jaques">
+  <p class="spk ">
+    JAQUES
+  </p>
+  <p class="pr " id="l90-p134">Presentiamolo al duca come un conquistatore romano e sarebbe bene mettergli sulla testa le corna del cervo come un’insegna di vittoria. Non avete, o boscaiolo, qualque canto di corcostanza?</p>
+</div><div class="sp " data-who="Second_Lord-AYL">
+  <p class="spk ">
+    SIGNORE
+  </p>
+  <p class="pr " id="l90-p135">Sì, signore.</p>
+</div><div class="sp " data-who="Jaques">
+  <p class="spk ">
+    JAQUES
+  </p>
+  <p class="pr " id="l90-p136">Cantatelo. Non importa quanto sia intonato, basta che faccia abastanza rumore.</p>
+</div><p class="sd " id="l90-sd15">CANZONE.</p><div class="sp " data-who="Second_Lord-AYL">
+  <p class="spk ">
+    [BOSCAIOLO]
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l91"><a class="n " href="#l91">91</a><span class="t">Che cosa avrà colui che ha ucciso il cervo?</span></div><div class="l " id="l92"><a class="n " href="#l92">92</a><span class="t">Il diritto di portarsi via la pelle e le corna.</span></div>
+</div>
+</div><div class="sp " data-who="Jaques">
+  <p class="spk ">
+    [JAQUES]
+  </p>
+  <p class="pr " id="l92-p1">Allora accompagnatelo a casa sua con un canto, e gli altri si abbiano il grosso del corpo.</p>
+</div><div class="sp " data-who="First_Lord-AYL Second_Lord-AYL">
+  <p class="spk ">
+    [CORO]
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l93"><a class="n " href="#l93">93</a><span class="t">Non aver vergogna a portar le corna;</span></div><div class="l " id="l94"><a class="n " href="#l94">94</a><span class="t">Ese furono un cimiero prima che tu fossi nato.</span></div><div class="l " id="l95"><a class="n m5" href="#l95">95</a><span class="t">Le portò il padre di tuo padre,</span></div><div class="l " id="l96"><a class="n " href="#l96">96</a><span class="t">e le portò tuo padre.</span></div><div class="l " id="l97"><a class="n " href="#l97">97</a><span class="t">Le corna, le corna, le vigorose corna</span></div><div class="l " id="l98"><a class="n " href="#l98">98</a><span class="t">non son cosa nè risibile nè vergognosa.</span></div>
+</div>
+</div>
+      </section>
+    
+  
+    
+      <section id="act-4-s3">
+        <h3 class="scene-head">
+          SCENA III.
+        </h3>
+        <p class="sd " id="l98-sd1">La foresta.</p><p class="sd " id="l98-sd2">ROSALINDA e CELIA.</p><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l98-p1">Ebbene, che ne dici? Le due non son forse passate? Vedi come c’è Orlando!</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l98-p2">Ti garantisco che col suo puro amore e col suo cervello turbato ha preso l’arco e le frecce ed è andato…. a dormire. <span class="sdi">SILVIO.</span><br>Guarda chi viene da questa parte.</p>
+</div><div class="sp " data-who="Silvius">
+  <p class="spk ">
+    SILVIO
+  </p>
+  <p class="pr " id="l98-p3">Ho un messaggio per voi, be givane, la mia gentile Febe mi pregò di darvi questa. Non ne conosco il contenuto, ma dal severo cipiglio e dai gesti irritati che essa faceva quando la scrivera suppongo che sia in un tono di collera. Scusatemi, ma io non sono che un innocente messagiero.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l98-p4">La pazienza stessa si irreterebbe di questa lettera e si metterebbe a fare delle rodomontate. Soportar ciò è lo stesso che sopportare qualsivoghia cosa. Dice che non sono bello, che manco di modi cortesi. Mi chiama superbo e dice che non potrebbe amarmi, anche se gli uomini fosero rari come la fenice. Per il cielo! Il suo amore non è mica la lepre di cui i ovo a cacica. Perchè mi scrive così? Ho capito, pastore, ho capito: questa lettera è di tua invenzione.</p>
+</div><div class="sp " data-who="Silvius">
+  <p class="spk ">
+    SILVIO
+  </p>
+  <p class="pr " id="l98-p5">No, protesto che non ne conosco il contenuto. L’ha scritta Febe.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l98-p6">Via, via, sei uno sciocco e unclinato agli eccessi dell’amore. Io ho visto le sue mani: mani dire come il cuoio e di color mattone. A dir la verità credevo che fossero coperte dai suo vecchi guanti, e non erano altro che le mani. Essa ha delle mani da massaia; ma on importa. Quel che ti dico è che essa non ha mai ideata questa lettera. Questa è l’invenzione di un uomo, e il carattere è di uomo.</p>
+</div><div class="sp " data-who="Silvius">
+  <p class="spk ">
+    SILVIO
+  </p>
+  <p class="pr " id="l98-p7">Sulla mia parola è di lei.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l98-p8">Ebbene, lo stile è violento e duro, uno stile di sfida. Sicuro, essa mi sfida come il turco un cristiano. Da un delicato cervello femminile brutale, delle parole così nere, più nere nei loro effetti che nella loro apparenza. Vuoi sentir questa lettera?</p>
+</div><div class="sp " data-who="Silvius">
+  <p class="spk ">
+    SILVIO
+  </p>
+  <p class="pr " id="l98-p9">Sì, se vi piace, perchè io non la conosco ancora, quantunque conosco troppo la crudeltà di Febe,</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l98-p10">Essa mi febeizza. Senti come scrive questa tiranna:</p><div class="lg ">
+  
+  <div class="l " id="l99"><a class="n " href="#l99">99</a><span class="t">«Sei tu un dio sotto l’apparenza di un pastore,</span></div><div class="l " id="l100"><a class="n m5" href="#l100">100</a><span class="t">tu che hai fatto ardere un coure di fanciulla?».</span></div>
+</div><p class="pr " id="l100-p1">Può una donna muovere un rimprovero a questo modo?</p>
+</div><div class="sp " data-who="Silvius">
+  <p class="spk ">
+    SILVIO
+  </p>
+  <p class="pr " id="l100-p2">E voi chiamate questo un rimprovero?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l101"><a class="n " href="#l101">101</a><span class="t">«Perchè, deposta la tua divinità,</span></div><div class="l " id="l102"><a class="n " href="#l102">102</a><span class="t">Combati con un cuore di donna?».</span></div>
+</div><p class="pr " id="l102-p1">Hai mai sentito del rimproveri simili?</p><div class="lg ">
+  
+  <div class="l " id="l103"><a class="n " href="#l103">103</a><span class="t">«Finchè mi corteggiava l’occhio di un uomo,</span></div><div class="l " id="l104"><a class="n " href="#l104">104</a><span class="t">Esso non mi poteva fare alcun danno».</span></div>
+</div><p class="pr " id="l104-p1">Come se io fossi una bestia.</p><div class="lg ">
+  
+  <div class="l " id="l105"><a class="n m5" href="#l105">105</a><span class="t">«Se il desdegno dei tuoi occhi</span></div><div class="l " id="l106"><a class="n " href="#l106">106</a><span class="t">ha il potere di suscitare nei miei tale amore,</span></div><div class="l " id="l107"><a class="n " href="#l107">107</a><span class="t">ahimè, quale straordinario effetto</span></div><div class="l " id="l108"><a class="n " href="#l108">108</a><span class="t">produrrebbero essi in me con una dolce espressione!</span></div><div class="l " id="l109"><a class="n " href="#l109">109</a><span class="t">Quando mi sgridavi io ti amavo;</span></div><div class="l " id="l110"><a class="n m5" href="#l110">110</a><span class="t">Immagina come mi commoverebbero l tue preghiere!</span></div><div class="l " id="l111"><a class="n " href="#l111">111</a><span class="t">Colui che porta questo messaggio d’amore</span></div><div class="l " id="l112"><a class="n " href="#l112">112</a><span class="t">non sospetta in me quest’amore:</span></div><div class="l " id="l113"><a class="n " href="#l113">113</a><span class="t">e per mezzo di lui, manifestami l’animo tuo,</span></div><div class="l " id="l114"><a class="n " href="#l114">114</a><span class="t">se la tua giovenezza e la tua inclinazione</span></div><div class="l " id="l115"><a class="n m5" href="#l115">115</a><span class="t">accettano questa sincera oferta</span></div><div class="l " id="l116"><a class="n " href="#l116">116</a><span class="t">di me stessa e dei guagani che posso procurarmi;</span></div><div class="l " id="l117"><a class="n " href="#l117">117</a><span class="t">altrimenti negami, per mezzo di lui, il tuo amore,</span></div><div class="l " id="l118"><a class="n " href="#l118">118</a><span class="t">e allora io cercherò il modo di morire».</span></div>
+</div>
+</div><div class="sp " data-who="Silvius">
+  <p class="spk ">
+    SILVIO
+  </p>
+  <p class="pr " id="l118-p1">E voi chiamate questo un rimprovero?</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l118-p2">Ahimè, povero pastore!</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l118-p3">Lo compatisci? No, egli non merita compassione. <span class="sdi">[A SILVIO]</span> E tu puoi amare una dona simile? Come! Fare di te un strumento e suonarvi sopra degli accordi stonati! È una cosa insopportabile! Ebbene, ritorna da lei – perchè io capisco che l’amore ha fatto di te un serpente addomesticato – e dille che, se essa mi ama, io le impongo di amarti, se essa rifiuta, io non voglio saper per nulla di lei, a meno che tu non interceda per lei. Se sei un vero amante, va via e non dir più una parola; perchè ora bien gente.</p>
+</div><p class="sd " id="l118-sd1">[Esce. SILVIO.</p><p class="sd " id="l118-sd2">OLIVIERO</p><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVIERO
+  </p>
+  <p class="pr " id="l118-p4">Buen giorno, bella copia. Sapreste indicarmi, per piacere, dov’è, in prossimità di questa foresta una capanna circondata da olivi?</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l118-p5">A ponente di qui, giù nella vicina nalle. La fila di vetrici che è lungo il mormorante ruscello e che lascerete alla vostra destra vi porta al luogo. Ma a quest’ora la casa è in custodia di se stessa, perchè dentro non vi è nessuno.</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVIERO
+  </p>
+  <p class="pr " id="l118-p6">Se l’occhio può trar profitto dalle parole, io credo do riconoscervi dalla descrizione che di voi mi è stata fatta. Gli abiti sono quelli e l’era è quella. Il giovante è biondo, d’spetto femminile e si comporta come una sorella maggiore; la giovante è piccola e più bruna di suo fratello. Non siete voi la proprietaria della casa di cui io mi informavo?</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l118-p7">Non c’è nessuna vanteria, poichè ne siamo richieste, a dire che i proprietari siamo noi.</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVIERO
+  </p>
+  <p class="pr " id="l118-p8">Orlando vuol essere ricordato ad entrambi, e a quel giovane ch’egli chiama la sua Rosalinda manda questo fazzoletto insanguinato. Siete voi quello?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l118-p9">Son io. Che dobbiamo pensare di ciò?</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVIERO
+  </p>
+  <p class="pr " id="l118-p10">Qualche cosa che torna a mia vergogna, se volete sapere da me chi io sia e come e perchè e dove questo fazzoletto è stato macchiato.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l118-p11">Parlate, ve ne prego.</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVIERO
+  </p>
+  <p class="pr " id="l118-p12">Quando ultimamente il giovane Orlando si è allontanato da voi, egli lasciò la promesa di ritornare alquanto dopo. Mentre attraversava la foresta rumiando il cibo di un amore dolce-amaro, ecco ciò che gli accadde. Egli volse gli occhi da una parte, e udite la scena che gli si presentò. Sotto un’antica quercia, i cui rami erano per l’età ricoperti di muschio e l’alta cima sfrondata dall’arida vecchiaia, giacea dormendo supino un povero straccione dalla chioma e dalla barba incolte. Intorno al collo glie era attorciliato una serpe verde e dorata che non la testa pronta alla miaccia si accostava alle labbra di lui, ma appena vide Orlando si snodò e con mosse ondulate strisciò in un cespuglio, all’ombra del quale stava tutta distessa, con la testa appogiata al terreno, una leonessa dalle mammelle succiate e aride, in un’attesa felina, aspettando che l’uomo si movesse, perchè l’imperiale istinto di quella fiera è di non far preda mai di ciò che sembra morto. A quella vista Orlando si appressò all’uomo e vide che egli era suo fratello, il suo fratello maggiore.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l118-p13">Oh! L’ho udito parlare di codesto fratello, e lo dipingeva come il più snaturato degli esseri viventi.</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVIERO
+  </p>
+  <p class="pr " id="l118-p14">E a raggione poteva dir così, perchè io so bene che egli era snaturato.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l118-p15">Ma Orlando? Lo lasciò egli là come pasto alla leonesa esausta e affamata?</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVIERO
+  </p>
+  <p class="pr " id="l118-p16">Due volte voltò le spalle ed ebbe quell’intenzione; ma la bontà, sempre spiù nobile della vendetta e la natura sempre più forte dell’occasione propizia, lo indussero ad afrontar la leonessa, che, colpita, gli cadde subito ai piedi. In mezzo a quel trambusto io mi svegliai dal mio miserabile sonno.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l118-p17">Siete dunque voi suo fratello?</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l118-p18">Eravate voi colui che egli slavò?</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l118-p19">Eravate voi che complottaste tante volte per ucciderlo?</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVIERO
+  </p>
+  <p class="pr " id="l118-p20">Ero io, ma non sono io. Non arrissisco a dirvi chi io ero, dal momento che la mia conversione mi fa dolcemente esser lieto di quello che sono.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l118-p21">Ma, e questo fazzoletto insanguinato?</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVIERO
+  </p>
+  <p class="pr " id="l118-p22">Or ora. Quando ebbimo bagnato di lagrime di tenerezza il racconto che ci facemmo l’un l’altro del come io ero capitato in questo luogo deserto, egli, per farla breve, mi condusse al gentil educa che mi dette abiti nuovi e ospitalità e mi raccomandò all’affetto di mio fratello, il quale mi condusse inmediatamente alla sua caverna. Là si spogliò è là s’accorse che la leonesa gli aveva lacerato un brano di carne che tutto il tempo aveva sanguinato. Allora si svenne en el suo smarrimento invocava Rosalinda. In breve, lo ristorai, fasciai la sua ferita; e dopo poco, egli, riprese le forze, mi mandò qua, sconosciuto come sono, a raccontar quest’avventura perchè voi possiate scusare la sua mancata promessa e dare questo fazzoletto bagnato del suo sangue a quel giovante pastore che per scherzo egli chiama Rosalinda.</p>
+</div><p class="sd " id="l118-sd3">[ROSALINDA sviene.</p><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l118-p23">Ebbene, Ganimede, dolce Gainmede!</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVIERO
+  </p>
+  <p class="pr " id="l118-p24">Molti si svengono, pur troppo, alla vista del sangue.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l118-p25">Si trata di ben altro! Cugino Ganimede!</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVIERO
+  </p>
+  <p class="pr " id="l118-p26">Ecco, ora riprende i sensi.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l118-p27">Vorrei essere a casa.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l118-p28">Vi ti condurremo. Per favore volete prenderlo sotto braccio.</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVIERO
+  </p>
+  <p class="pr " id="l118-p29">Fatevi animo, giovinotto. Voi un uomo! Ma vi manca il coraggio d’un uomo!</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l118-p30">È vero, lo confesso. Ognuno dovrebbe pensare, amico mio, che tutto ciò è stato ben simulato. Raccontate a vostro fratello come ho saputo far bene la comedia. Ahimè!</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVIERO
+  </p>
+  <p class="pr " id="l118-p31">Eh no! Questa non è una commedia. Il vostro pallatore attesta troppo bene che si trattava di una sofferenza reale.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l118-p32">Vi assicuro che era una funzione.</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVIERO
+  </p>
+  <p class="pr " id="l118-p33">Ebbene, allora fatevi coraggio e fate finta di essere un uomo.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l118-p34">È quello che faccio; ma in verità, io avrei dovuto, per giustizia, essere una donna.</p>
+</div><div class="sp " data-who="Celia">
+  <p class="spk ">
+    CELIA
+  </p>
+  <p class="pr " id="l118-p35">Via, tu diventi sempre più pallisa. Ti prego, avviamoci verso casa. Buon signore, venite con noi.</p>
+</div><div class="sp " data-who="Oliver">
+  <p class="spk ">
+    OLIVIERO
+  </p>
+  <p class="pr " id="l118-p36">Volentiere, perchè devo portar la risposta di come voi, Rosalinda, scusate mio fratello.</p>
+</div><div class="sp " data-who="Rosalind">
+  <p class="spk ">
+    ROSALINDA
+  </p>
+  <p class="pr " id="l118-p37">Ci penserò. Ma per piacere descrivetegli come io sono brava a fingere. Volete venire?</p>
+</div>
+      </section>
+    
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-3.html" rel="prev">← Atto III</a>
+  <a href="act-5.html" rel="next">Atto V →</a>
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

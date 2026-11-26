@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Act I — Así va el mundo — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">DRAMATIS PERSONAE</a></li>
+      
+  
+    
+        <li>
+          <a href="act-1.html" aria-current="page">
+            Act I
+          </a>
+          <ul>
+            <li>
+              
+                  <a href="act-1.html#act-1-s1">
+                    [ACTO I]
+                  </a>
+              
+            </li>
+          </ul>
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html">
+            Act II
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            Act III
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-4.html">
+            Act IV
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-5.html">
+            Act V
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="epilogue.html">
+            Epilogue
+          </a>
+          
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="hombres_WW">
+        Hombres
+      </option><option value="Todoengaño">
+        TODOENGAÑO
+      </option><option value="Mirabellas">
+        MIRABELLAS
+      </option><option value="Polvorín">
+        POLVORÍN
+      </option><option value="Petulante">
+        PETULANTE
+      </option><option value="Don_Vil">
+        DON VIL POLVORÍN
+      </option><option value="Bienespera">
+        BIENESPERA
+      </option><option value="mujeres_WW">
+        Mujeres
+      </option><option value="Deseosa">
+        LADY DESEOSA
+      </option><option value="Mila_Mantes">
+        DOÑA MILA MANTES
+      </option><option value="Malmirada">
+        DOÑA MALMIRADA
+      </option><option value="Doña_Todoengaño">
+        DOÑA TODOENGAÑO
+      </option><option value="Flacucha">
+        FLACUCHA
+      </option><option value="Picadillo">
+        PICADILLO
+      </option><option value="Betty-WW">
+        BETTY
+      </option><option value="Clavija">
+        CLAVIJA
+      </option><option value="Cochero">
+        [COCHERO]
+      </option><option value="Criado-WW">
+        CRIADO
+      </option><option value="Mensajero-WW">
+        [MENSAJERO]
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">William Congreve</p>
+  <h1><a href="index.html">Así va el mundo</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  
+  <a href="act-2.html" rel="next">Act II →</a>
+</nav>
+  <div class="text" lang="es" data-cite="William Congreve, Así va el mundo, Act I" data-cite-verse="v." data-cite-prose="l.">
+    
+    <section class="division" id="act-1">
+  
+  
+  
+  
+    
+      <section id="act-1-s1">
+        <h3 class="scene-head">
+          [ACTO I]
+        </h3>
+        <p class="sd " id="l1-1-sd1">(En una chocolatería.)</p><p class="sd " id="l1-1-sd2">(MIRABELLAS y TODOENGAÑO se levantan de jugar a las cartas. BETTY les atiende.)</p><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-1"><a class="pn " href="#l1-1-1">1</a>Sois un hombre afortunado, Todoengaño.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-2"><a class="pn " href="#l1-1-2">2</a>¿Hemos acabado?</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-3"><a class="pn " href="#l1-1-3">3</a>Como queráis. Yo seguiré jugando para entreteneros.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-4"><a class="pn " href="#l1-1-4">4</a>No, os daré la revancha en otra ocasión, cuando no os mostréis tan indiferente; estáis pensando en otra cosa ahora y jugáis muy negligentemente: la frialdad de un jugador perdedor reduce el placer del ganador. Ni jugaría con un hombre que resta importancia a su mala suerte como tampoco le haría el amor a una mujer que menosprecie la pérdida de su reputación.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-5"><a class="pn m5" href="#l1-1-5">5</a>Tenéis un gusto extremadamente delicado, mientras vuestros placeres aún están por refinar.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-6"><a class="pn " href="#l1-1-6">6</a>¡Por favor! ¿Por qué os mostráis tan reservado? ¿Algo os ha puesto de mal humor?</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-7"><a class="pn " href="#l1-1-7">7</a>En absoluto. Da la casualidad de que hoy estoy serio, y vos contento, eso es todo.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-8"><a class="pn " href="#l1-1-8">8</a>Confesad, anoche discutisteis con Doña Mila Mantes después de que yo me marchara; mi dulce prima tiene unos cambios de humor que pondrían a prueba la paciencia de un estoico. ¿Qué? Algún imbécil llegaría y ella le prestó muchas atenciones mientras aún estabais por allí.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-9"><a class="pn " href="#l1-1-9">9</a>Polvorín y Petulante, y aún peor, su tía, la madre de vuestra esposa, mi malvada genio o, para resumirlo todo en su propio nombre, la mismísima Lady Deseosa llegó.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-10"><a class="pn m5" href="#l1-1-10">10</a>¡Eso es, entonces! Alberga una pasión imperecedera por vos, y con toda la razón. ¿Y mi esposa estaba allí?</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-11"><a class="pn " href="#l1-1-11">11</a>Sí, y Doña Malmirada, y tres o cuatro más a las que no había visto nunca. Al verme, todas pusieron mala cara, cuchichearon, se quejaron en voz alta de sus depresiones y, finalmente, se sumieron en un profundo silencio.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-12"><a class="pn " href="#l1-1-12">12</a>Estaban empeñadas en librarse de vos.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-13"><a class="pn " href="#l1-1-13">13</a>Así que decidí no reaccionar. Por fin la buena señora resquebrajó su dolorosa pesadumbre con una diatriba contra las visitas largas. Yo no le habría prestado atención, pero cuando Doña Mila Mantes se incorporó a la discusión me levanté y, con una sonrisa forzada, le dije que nada era tan fácil como darse cuenta de cuando una visita empezaba a resultar problemática. Ella se sonrojó y yo me retiré sin esperar su respuesta.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-14"><a class="pn " href="#l1-1-14">14</a>La culpa es vuestra al irritaros por lo que ella dijo solo para apoyar a su tía.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-15"><a class="pn m5" href="#l1-1-15">15</a>Es lo suficiente dueña de sí misma como para no ceder a tal sometimiento.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-16"><a class="pn " href="#l1-1-16">16</a>¿Cómo? ¿Pese a que la mitad de su fortuna dependa de que se case con la aprobación de la señora?</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-17"><a class="pn " href="#l1-1-17">17</a>Me puso de tan mal humor que habría preferido que fuera menos discreta.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-18"><a class="pn " href="#l1-1-18">18</a>Ahora que me acuerdo, no me extraña que estuvieran tan hartas de vos. Anoche tenían una de sus veladas confabuladoras: las celebran tres veces a la semana y se turnan en cada una de sus casas, donde se juntan, como si fuera la investigación de un forense, para revisar las reputaciones asesinadas de la semana. A nosotros dos nos excluyen, y una vez propusieron que se prescindiera del sexo masculino en su totalidad, pero alguien sugirió que, para evitar un escándalo, se permitiera que hubiera siempre un hombre de la comunidad, por lo que, tras la moción, Polvorín y Petulante se convirtieron en miembros de pleno derecho.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-19"><a class="pn " href="#l1-1-19">19</a>¿Y quién puede haber sido la fundadora de esta secta? Os aseguro que Lady Deseosa, que proclama a los cuatro vientos su odio hacia la masculinidad, rebosante del vigor de sus cincuenta y cinco años, se declara por otro lado a favor de los amantes y del licor de melocotón, y con la posteridad por testigo, también declara que ya no piensa dar más a luz.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-20"><a class="pn m5" href="#l1-1-20">20</a>Su descubrimiento de vuestro engañoso cortejo hacia ella, para ocultar vuestro amor por su sobrina, ha provocado este distanciamiento. Si hubierais maniobrado mejor, las cosas habrían seguido su cauce natural.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-21"><a class="pn " href="#l1-1-21">21</a>Hice todo lo que podía hacer un hombre con conciencia razonable. La lisonjeé de la mejor forma y manera posible y hasta soy responsable de una canción en su honor. La verdad es que conseguí que un amigo compusiera algo sarcástico sobre ella y la felicitara porque se le vinculaba un romance con un joven, que yo llevé hasta el extremo de decirle que toda la maliciosa ciudad se dio cuenta de que había engordado de repente, y cuando cayó enferma de hidropesía, la hice creer que se decía que iba a dar a luz. Siempre hay que darle muchas vueltas para lisonjear a una señora mayor, salvo que uno tenga como objetivo personal su seducción, y eso mi virtud me lo prohibía. Pero que este enredo se descubriera se lo debo a vuestra amiga, o amiga de vuestra mujer, Doña Malmirada.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-22"><a class="pn " href="#l1-1-22">22</a>¿Qué le haría enemistarse contigo sino sus proposiciones que rechazasteis? Las mujeres no perdonan fácilmente desprecios de esa naturaleza.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-23"><a class="pn " href="#l1-1-23">23</a>Siempre se había mostrado correcta conmigo hasta ahora. Confieso que no soy uno de esos imbéciles capaces de interpretar los buenos modales de una mujer en su contra, y soy de la opinión de que la que no se niega a todo acaba no negándose a nada.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-24"><a class="pn " href="#l1-1-24">24</a>Sois un galán, Mirabellas, y lo bastante cruel como para no satisfacer el deseo de una mujer, pero sois demasiado generoso como para no ser considerado con su honor. Sin embargo, habláis con una indiferencia que parece fingida, y que revela que sois consciente de una negligencia.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-25"><a class="pn m5" href="#l1-1-25">25</a>Insistís en vuestros argumentos con una desconfianza que parece sincera, y que revela que sois consciente de un interés que os implica más que a vuestra esposa.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-26"><a class="pn " href="#l1-1-26">26</a>¡Vaya, vaya, amigo! Si os ponéis tan crítico me voy a tener que ir. Pegaré un vistazo a los jugadores de la habitación de al lado.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-27"><a class="pn " href="#l1-1-27">27</a>¿Quiénes son?</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-28"><a class="pn " href="#l1-1-28">28</a>Petulante y Polvorín. <span class="sdi">(A Betty)</span> Tráeme chocolate.</p>
+</div><p class="sd " id="l1-1-28-sd1">(Sale.)</p><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-29"><a class="pn " href="#l1-1-29">29</a>Betty, ¿qué hora tienes?</p>
+</div><div class="sp " data-who="Betty-WW">
+  <p class="spk ">
+    BETTY
+  </p>
+  <p class="pr " id="l1-1-30"><a class="pn m5" href="#l1-1-30">30</a>A misa de doce ya no llegáis.</p>
+</div><p class="sd " id="l1-1-30-sd1">(Sale.)</p><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-31"><a class="pn " href="#l1-1-31">31</a>¡Qué bien me responde la muy desgraciada! <span class="sdi">(mirando su reloj)</span> ¡Deben de ser cerca de la una! ¡Oh, has venido! <span class="sdi">(Entra CRIADO.)</span> <span class="pn">32</span>Bueno, ¿has acabado ya con tu gran recado? Te has hecho esperar un poco.</p>
+</div><div class="sp " data-who="Criado-WW">
+  <p class="spk ">
+    CRIADO
+  </p>
+  <p class="pr " id="l1-1-33"><a class="pn " href="#l1-1-33">33</a>Señor, hay tanta boda en Pancras que hasta guardan cola, como si fuera un baile de pueblo. Nosotros éramos los últimos de la fila, con pocas esperanzas de que nos atendieran. Además, el párroco se estaba quedando afónico, y temíamos que le fallaran los pulmones antes de que nos tocara, así que fuimos a la plaza del duque, donde nos atendieron en un santiamén.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-34"><a class="pn " href="#l1-1-34">34</a>¿Así que estás seguro de que están casados?</p>
+</div><div class="sp " data-who="Criado-WW">
+  <p class="spk ">
+    CRIADO
+  </p>
+  <p class="pr " id="l1-1-35"><a class="pn m5" href="#l1-1-35">35</a>Casados y encamados, señor. Soy testigo.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-36"><a class="pn " href="#l1-1-36">36</a>¿Traes el certificado?</p>
+</div><div class="sp " data-who="Criado-WW">
+  <p class="spk ">
+    CRIADO
+  </p>
+  <p class="pr " id="l1-1-37"><a class="pn " href="#l1-1-37">37</a>Aquí está, señor.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-38"><a class="pn " href="#l1-1-38">38</a>¿Ha llevado el sastre la ropa de Bienespera a la casa, y las libreas nuevas?</p>
+</div><div class="sp " data-who="Criado-WW">
+  <p class="spk ">
+    CRIADO
+  </p>
+  <p class="pr " id="l1-1-39"><a class="pn " href="#l1-1-39">39</a>Sí, señor.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-40"><a class="pn m5" href="#l1-1-40">40</a>Está bien. Vete a la casa de nuevo, ¿me oyes?, y aplaza la consumación hasta nueva orden. Dile a Bienespera que mueva ya las orejas, y a Flacucha que se atuse las plumas, y esperadme a la una en el estanque de Rosamond, para que pueda verla antes de que regrese a casa de su señora. Y tú afina el oído y guarda el secreto.</p>
+</div><p class="sd " id="l1-1-40-sd1">(Sale Criado.)</p><p class="sd " id="l1-1-40-sd2">(Entra TODOENGAÑO.)</p><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-41"><a class="pn " href="#l1-1-41">41</a>Me alegro de vuestro éxito, Mirabellas, parecéis contento.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-42"><a class="pn " href="#l1-1-42">42</a>Me he visto implicado en un asunto algo gracioso que aún no ha madurado lo suficiente para revelarse. Qué bien que esta noche no tengan una de sus veladas. Me sorprende, Todoengaño, que un hombre casado como vos, que por tanto ha de ser discreto, tolere que su esposa pertenezca a ese grupo.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-43"><a class="pn " href="#l1-1-43">43</a>La verdad es que no soy celoso. Además, la mayoría son mujeres y familiares, y en cuanto a los hombres, son demasiado despreciables como para dar un escándalo.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-44"><a class="pn " href="#l1-1-44">44</a>Soy de otra opinión. Cuanto más imbéciles, mayor el escándalo. Y una mujer que no sea tonta solo puede tener un motivo por el que relacionarse con un hombre que lo es.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-45"><a class="pn m5" href="#l1-1-45">45</a>¿Te pones celoso cada vez que ves a Mila Mantes atender a Polvorín?</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-46"><a class="pn " href="#l1-1-46">46</a>De su entendimiento con él me pongo celoso, si no de su persona.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-47"><a class="pn " href="#l1-1-47">47</a>Le dais un trato inmerecido. Si le hacemos justicia, ella tiene ingenio.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-48"><a class="pn " href="#l1-1-48">48</a>Es lo bastante bella como para convencer a un hombre de que sí lo tiene, y lo bastante complaciente como para no contradecir al que le diga que lo tiene.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-49"><a class="pn " href="#l1-1-49">49</a>Para un amante tan apasionado como vos, me parecéis un hombre un poco demasiado perspicaz con los defectos de vuestra amada.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-50"><a class="pn m5" href="#l1-1-50">50</a>Y para ser un hombre tan perspicaz, un amante un poco demasiado apasionado, ya que me gusta con todas sus faltas. No, me gusta por todas sus faltas. Sus tonterías son tan naturales, o tan elaboradas, que la acaban favoreciendo, y esas afectaciones que en otra mujer resultarían odiosas contribuyen a hacerla más atractiva. Te diré, Todoengaño, que una vez me trató con tal insolencia que, para vengarme, la diseccioné, la filtré, y separé todos sus defectos, los estudié y los memoricé. El catálogo era tan grande que no dejé de albergar esperanzas de que llegaría el día en el que la odiara de todo corazón. Con ese objetivo solía pensar en ellos hasta que llegó un momento en el que, en lugar de lo que había planeado y previsto, a cada hora que pasaba me contrariaban cada vez menos, hasta que a los pocos días me acostumbré a recordarlos sin enojarme. Ahora me resultan tan familiares como mis propias debilidades, y seguro que en poco tiempo me acabarán gustando también.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-51"><a class="pn " href="#l1-1-51">51</a>¡Casaos con ella, casaos con ella! Familiarizaos con sus encantos la mitad de lo que estáis con sus defectos, y me juego la vida a que volveréis a ser el mismo de siempre.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-52"><a class="pn " href="#l1-1-52">52</a>¿Eso me decís?</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-53"><a class="pn " href="#l1-1-53">53</a>Sí, sí. Tengo experiencia. Tengo esposa, con todo lo que eso conlleva.</p>
+</div><p class="sd " id="l1-1-53-sd1">(Entra MENSAJERO.)</p><div class="sp " data-who="Mensajero-WW">
+  <p class="spk ">
+    MENSAJERO
+  </p>
+  <p class="pr " id="l1-1-54"><a class="pn " href="#l1-1-54">54</a>¿Hay un señor Polvorín aquí?</p>
+</div><div class="sp " data-who="Betty-WW">
+  <p class="spk ">
+    BETTY
+  </p>
+  <p class="pr " id="l1-1-55"><a class="pn m5" href="#l1-1-55">55</a>Sí. ¿Qué quieres?</p>
+</div><div class="sp " data-who="Mensajero-WW">
+  <p class="spk ">
+    MENSAJERO
+  </p>
+  <p class="pr " id="l1-1-56"><a class="pn " href="#l1-1-56">56</a>Tengo una carta para él de su hermano, don Vil Polvorín, que se me ha encargado que le entregue en mano.</p>
+</div><div class="sp " data-who="Betty-WW">
+  <p class="spk ">
+    BETTY
+  </p>
+  <p class="pr " id="l1-1-57"><a class="pn " href="#l1-1-57">57</a>Está en la habitación de al lado. Por ahí.</p>
+</div><p class="sd " id="l1-1-57-sd1">(Sale Mensajero.)</p><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-58"><a class="pn " href="#l1-1-58">58</a>¿Cómo? ¿Está el cabeza de esa noble familia en la ciudad, don Vil Polvorín?</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-59"><a class="pn " href="#l1-1-59">59</a>Se le espera hoy. ¿Le conocéis?</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-60"><a class="pn m5" href="#l1-1-60">60</a>Le he visto. Promete ser una persona extraordinaria. Creo que tenéis el honor de ser familia suya.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-61"><a class="pn " href="#l1-1-61">61</a>Sí. Es hermanastro de nuestro Polvorín por una antigua esposa suya que era hermana de Lady Deseosa, la madre de mi esposa. Si os casáis con Mila Mantes, será vuestro primo también.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-62"><a class="pn " href="#l1-1-62">62</a>Prefiero ser familia suya que un mero conocido.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-63"><a class="pn " href="#l1-1-63">63</a>Viene a la ciudad con el fin de prepararse para viajar.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-64"><a class="pn " href="#l1-1-64">64</a>¿Para viajar? El hombre al que me refiero tiene más de cuarenta años.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-65"><a class="pn m5" href="#l1-1-65">65</a>Eso da igual. Es un honor para Inglaterra que toda Europa sepa que tenemos zoquetes de todas las edades.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-66"><a class="pn " href="#l1-1-66">66</a>Me sorprende que no haya un edicto parlamentario para proteger el crédito de este país mediante la prohibición de exportar idiotas.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-67"><a class="pn " href="#l1-1-67">67</a>De ninguna manera, mejor como hasta ahora. Mejor comerciar generando una pequeña pérdida que ser devorados por un excedente de existencias.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-68"><a class="pn " href="#l1-1-68">68</a>Decidme, ¿están vinculadas las tonterías de este caballero errante y las de su señor hermano?</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-69"><a class="pn " href="#l1-1-69">69</a>En absoluto. Polvorín crece junto al caballero como un níspero injertado en una manzana amarga. Uno se te deshace en la boca, el otro te da dentera. Uno es todo pulpa y el otro es todo hueso.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-70"><a class="pn m5" href="#l1-1-70">70</a>Así que uno se pudrirá antes de madurar, y el otro se pudrirá sin madurar jamás.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-71"><a class="pn " href="#l1-1-71">71</a>Don Vil es una extraña mezcla de apocamiento y obstinación. Pero cuando va borracho es tan encantador como el monstruo de <em>La tempestad</em>, y con sus mismos modales. Pero seamos justos con el otro, tiene una cierta afabilidad, y no le falta ingenio.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-72"><a class="pn " href="#l1-1-72">72</a>No siempre, sobre todo cuando le falla la memoria y su manual de frases ocurrentes. Es un imbécil con una buena memoria y unos pocos descartes del ingenio de otros. Uno jamás puede estar de acuerdo con su conversación, pero se puede aguantar de vez en cuando. Tiene una buena cualidad: no se queja de nada. Atrae tan apasionadamente tantas justificadas burlas, que las afrentas las convierte en chistes, y las groserías y obscenidades las llama sátira y fuego fatuo.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-73"><a class="pn " href="#l1-1-73">73</a>Si tenéis la intención de terminar de retratarlo, ahora se os presenta la oportunidad de hacerlo de cuerpo entero. He aquí el original.</p>
+</div><p class="sd " id="l1-1-73-sd1">(Entra POLVORÍN.)</p><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-74"><a class="pn " href="#l1-1-74">74</a>¡Tenedme lástima, queridos míos! Compadecedme, Todoengaño. Mirabellas, compadecedme.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-75"><a class="pn m5" href="#l1-1-75">75</a>Con toda mi alma.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-76"><a class="pn " href="#l1-1-76">76</a>¿Por qué, qué sucede?</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-77"><a class="pn " href="#l1-1-77">77</a>¿No hay cartas para mí, Betty?</p>
+</div><div class="sp " data-who="Betty-WW">
+  <p class="spk ">
+    BETTY
+  </p>
+  <p class="pr " id="l1-1-78"><a class="pn " href="#l1-1-78">78</a>¿No os acaba de traer una el mensajero, señor?</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-79"><a class="pn " href="#l1-1-79">79</a>Sí, ¿pero ninguna más?</p>
+</div><div class="sp " data-who="Betty-WW">
+  <p class="spk ">
+    BETTY
+  </p>
+  <p class="pr " id="l1-1-80"><a class="pn m5" href="#l1-1-80">80</a>No, señor.</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-81"><a class="pn " href="#l1-1-81">81</a>¡Qué mal, muy mal! ¡Un mensajero, una mula, un animal de carga! Me ha traído una carta del tonto de mi hermano, más pesada que el panegírico del sermón de un funeral, o que una retahíla de versos laudatorios de un poeta a otro. Y lo que es peor, anuncia la llegada del autor en persona como si fuera una epístola dedicada.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-82"><a class="pn " href="#l1-1-82">82</a>¡Un tonto, es vuestro hermano, Polvorín!</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-83"><a class="pn " href="#l1-1-83">83</a>Sí, sí, hermanastro, hermanastro y nada más, por mi honor.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-84"><a class="pn " href="#l1-1-84">84</a>Entonces es posible que solo sea medio tonto.</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-85"><a class="pn m5" href="#l1-1-85">85</a>¡Qué gracioso, Mirabellas! ¡Bien, bien, que le cuelguen, no hablemos más de él! Todoengaño, ¿qué tal vuestra señora? ¡Dios! Soy capaz de hablar de cualquier cosa con tal de quitármelo de la cabeza. Me disculpo por hacerle a un hombre ocioso de ciudad una pregunta a la vez tan ajena y tan local. Pero hablo como una vieja en una boda, no sé qué decir, salvo que es la mejor mujer del mundo.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-86"><a class="pn " href="#l1-1-86">86</a>Menos mal que no sabéis qué decir, o vuestro elogio alimentaría mi vanidad o mis celos.</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-87"><a class="pn " href="#l1-1-87">87</a>Ningún hombre de ciudad vive bien con su esposa salvo Todoengaño. ¿Qué opináis, Mirabellas?</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-88"><a class="pn " href="#l1-1-88">88</a>Mejor que le preguntarais a su esposa, si queréis tener información creíble.</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-89"><a class="pn " href="#l1-1-89">89</a>¡Mirabellas!</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-90"><a class="pn m5" href="#l1-1-90">90</a>Sí.</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-91"><a class="pn " href="#l1-1-91">91</a>Querido mío, os pido diez mil disculpas. ¡Dios! Se me ha olvidado lo que iba a deciros.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-92"><a class="pn " href="#l1-1-92">92</a>Os lo agradezco de todo corazón.</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-93"><a class="pn " href="#l1-1-93">93</a>No, os ruego que me disculpéis. ¡Vaya memoria tengo!</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-94"><a class="pn " href="#l1-1-94">94</a>Tened cuidado con tales disculpas, Polvorín, pues nunca supe de un tonto que se quejara ni del bazo ni de la memoria.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-95"><a class="pn m5" href="#l1-1-95">95</a>¿Qué habéis hecho con Petulante?</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-96"><a class="pn " href="#l1-1-96">96</a>Está contando su dinero, que era mi dinero: no tengo suerte hoy.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-97"><a class="pn " href="#l1-1-97">97</a>Podéis dejarle que os gane al juego, pues seguro que resultáis muy difícil para él con vuestras réplicas. Ya que vos monopolizáis el ingenio de los dos, la fortuna, por supuesto, debe ser suya.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-98"><a class="pn " href="#l1-1-98">98</a>No he oído a Petulante confesar la superioridad de vuestro ingenio, Polvorín.</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-99"><a class="pn " href="#l1-1-99">99</a>Vamos, vamos, no seáis malo, no abráis un debate. Petulante es mi amigo y un tipo muy honesto, un tipo muy atractivo, y tiene nociones, os lo puedo asegurar, de un extraño tipo de pequeño ingenio: sí, le haré justicia. Es mi amigo, y no le calumniaré. Y si tuviera algo de buen juicio, no sería despreciable. Vamos, vamos, no le quitéis méritos a mi amigo.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-100"><a class="pn m5" href="#l1-1-100">100</a>¿No consideraréis que vuestro amigo tiene muy buena educación?</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-101"><a class="pn " href="#l1-1-101">101</a>No, no, que le cuelguen, el rufián no tiene modales, eso debo aceptarlo. Tan mal criado como un alguacil, os lo concedo. Es una pena, un tipo que es todo fuego y vida.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-102"><a class="pn " href="#l1-1-102">102</a>¿Qué, valiente?</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-103"><a class="pn " href="#l1-1-103">103</a>La verdad es que eso no lo sé, no puedo decirlo. Sí, la verdad es que en una controversia él contradice a todo el mundo.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-104"><a class="pn " href="#l1-1-104">104</a>Aunque fuera un hombre al que teme o una mujer a la que ama.</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-105"><a class="pn m5" href="#l1-1-105">105</a>Bueno, bueno, no siempre piensa antes de hablar. Todos tenemos nuestros defectos. La verdad es que sois muy duros con él. Permitidme que le disculpe, puedo defender la mayoría de sus faltas, salvo una o dos. Una, la verdad, ni aunque fuera mi hermano se la podría perdonar, ojalá fuera de otra manera.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-106"><a class="pn " href="#l1-1-106">106</a>¿Y cuál es esa, Polvorín?</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-107"><a class="pn " href="#l1-1-107">107</a>Disculpadme. ¿Revelar las flaquezas de un amigo? No, querido mío, me vais a disculpar.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-108"><a class="pn " href="#l1-1-108">108</a>Aseguro que no es sincero, o alguna otra menudencia así.</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-109"><a class="pn " href="#l1-1-109">109</a>No, no, ¿y qué si lo fuera? No pasa nada, su ingenio le disculpa. El ingenio no tiene que ser sincero, como una mujer no tiene que ser constante. Una cosa tiene que ver con el deterioro del talento, y la otra con el de la belleza.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-110"><a class="pn m5" href="#l1-1-110">110</a>¿A lo mejor le encontráis demasiado positivo?</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-111"><a class="pn " href="#l1-1-111">111</a>No, no. Ser positivo es un incentivo para argumentar, sirve para mantener una conversación.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-112"><a class="pn " href="#l1-1-112">112</a>¿Demasiado analfabeto?</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-113"><a class="pn " href="#l1-1-113">113</a>¿Eso? Eso es su felicidad. Su parca educación le da mayores oportunidades para mostrar sus dotes naturales.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-114"><a class="pn " href="#l1-1-114">114</a>¿Es también parco en palabras?</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-115"><a class="pn m5" href="#l1-1-115">115</a>Sí, pero a mí eso me gusta, pues su parquedad de palabra me da el gusto muchas veces de explicar lo que él quiere decir.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-116"><a class="pn " href="#l1-1-116">116</a>¿Es descarado?</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-117"><a class="pn " href="#l1-1-117">117</a>No, eso no lo es.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-118"><a class="pn " href="#l1-1-118">118</a>¿Vanidoso?</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-119"><a class="pn " href="#l1-1-119">119</a>No.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-120"><a class="pn m5" href="#l1-1-120">120</a>¿A veces dice verdades inoportunas, porque no tiene el suficiente ingenio para inventarse una evasiva?</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-121"><a class="pn " href="#l1-1-121">121</a>¿Verdades? ¡Ja, ja, ja! Ya que lo mencionas, nunca dice la verdad, eso es todo. Miente más que una criada, o que el portero de una mujer de alta alcurnia. Eso sí es un defecto.</p>
+</div><p class="sd " id="l1-1-121-sd1">(Entra COCHERO.)</p><div class="sp " data-who="Cochero">
+  <p class="spk ">
+    COCHERO
+  </p>
+  <p class="pr " id="l1-1-122"><a class="pn " href="#l1-1-122">122</a>¿Está el señor Petulante aquí, señora?</p>
+</div><div class="sp " data-who="Betty-WW">
+  <p class="spk ">
+    BETTY
+  </p>
+  <p class="pr " id="l1-1-123"><a class="pn " href="#l1-1-123">123</a>Sí.</p>
+</div><div class="sp " data-who="Cochero">
+  <p class="spk ">
+    COCHERO
+  </p>
+  <p class="pr " id="l1-1-124"><a class="pn " href="#l1-1-124">124</a>Tres señoritas que están en el carruaje quieren hablar con él.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-125"><a class="pn m5" href="#l1-1-125">125</a>¡Oh, valiente Petulante! ¡Tres!</p>
+</div><div class="sp " data-who="Betty-WW">
+  <p class="spk ">
+    BETTY
+  </p>
+  <p class="pr " id="l1-1-126"><a class="pn " href="#l1-1-126">126</a>Ahora se lo digo.</p>
+</div><div class="sp " data-who="Cochero">
+  <p class="spk ">
+    COCHERO
+  </p>
+  <p class="pr " id="l1-1-127"><a class="pn " href="#l1-1-127">127</a>Debéis traer dos platos de chocolate y un vaso de agua con canela.</p>
+</div><p class="sd " id="l1-1-127-sd1">[Salen Betty y Cochero.]</p><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-128"><a class="pn " href="#l1-1-128">128</a>Eso será para dos rameras en ayunas y una alcahueta con flato. Ya sabéis lo que son las tres.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-129"><a class="pn " href="#l1-1-129">129</a>Os tomáis muchas libertades con las amistades de vuestro amigo.</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-130"><a class="pn m5" href="#l1-1-130">130</a>Sí, sí, la amistad sin libertad es tan aburrida como el amor sin gozo, o como el vino sin un brindis. Pero os contaré un secreto: estas son unas fulanas a las que les paga el alquiler de un coche, y más cosas, por semana para que pregunten por él en sitios públicos.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-131"><a class="pn " href="#l1-1-131">131</a>¡No me digas!</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-132"><a class="pn " href="#l1-1-132">132</a>Veréis como no acude a su llamada porque no hay nadie que le preste atención. Y esto no es nada comparado con lo que solía hacer. Antes de que se le ocurriera esto, sé que solía preguntar por sí mismo.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-133"><a class="pn " href="#l1-1-133">133</a>¿Preguntar por sí mismo? ¿Qué quieres decir?</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-134"><a class="pn " href="#l1-1-134">134</a>¿Qué quiero decir? Salía a toda velocidad de esta chocolatería nada más acabaras de hablar con él. En cuanto le dabas la espalda, zas, ya no estaba. Se iba a su alojamiento, se colocaba un gorro, una bufanda y una máscara, se subía a un carruaje y se venía a la puerta en un periquete y mandaba a alguien a que entrara a por él mismo, eso quiero decir, preguntar por sí mismo, esperarse, y lo que es más, no encontrarse, a veces incluso se dejaba un recado por escrito a sí mismo.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-135"><a class="pn m5" href="#l1-1-135">135</a>Confieso que esto es algo extraordinario. Creo que se está esperando a sí mismo ahora, porque tarda mucho en venir. ¡Oh! Le pido perdón.</p>
+</div><p class="sd " id="l1-1-135-sd1">(Entra PETULANTE [y BETTY].)</p><div class="sp " data-who="Betty-WW">
+  <p class="spk ">
+    BETTY
+  </p>
+  <p class="pr " id="l1-1-136"><a class="pn " href="#l1-1-136">136</a>Señor, el coche espera.</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l1-1-137"><a class="pn " href="#l1-1-137">137</a>Bien, bien, ya voy. Por Dios, a un hombre le vendría a dar lo mismo ser una comadrona o un proxeneta a este paso. Te llaman, te levantan, a todas horas y en todos sitios. ¡Que les zurzan! No voy. ¿Me escuchas? Diles que no voy. Que lloren a moco tendido y se les parta el corazón.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-138"><a class="pn " href="#l1-1-138">138</a>Sois muy cruel, Petulante.</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l1-1-139"><a class="pn " href="#l1-1-139">139</a>Eso es todo, dejémoslo estar. Estoy de un humor cruel.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-140"><a class="pn m5" href="#l1-1-140">140</a>Espero que no haya personas de alcurnia a las que tratéis así.</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l1-1-141"><a class="pn " href="#l1-1-141">141</a>¿Alcurnia? La alcurnia para mí es un higo seco si no estoy de humor. Por esta mano, como si fueran … eso que les llamáis…, que se esperen o que salgan zumbando, según me apetezca.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-142"><a class="pn " href="#l1-1-142">142</a>¡Eso que les llamáis! ¿Qué son, Polvorín?</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-143"><a class="pn " href="#l1-1-143">143</a>Meretrices, querido. Con “eso que les llamáis” se refiere a putas.</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l1-1-144"><a class="pn " href="#l1-1-144">144</a>Sí, señoritas de compañía.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-145"><a class="pn m5" href="#l1-1-145">145</a>¡Dios le compadezca!</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-146"><a class="pn " href="#l1-1-146">146</a>Polvorín dice que son…</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l1-1-147"><a class="pn " href="#l1-1-147">147</a>¿Qué dice que son?</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-148"><a class="pn " href="#l1-1-148">148</a>¿Yo? Dulces damiselas, digo.</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l1-1-149"><a class="pn " href="#l1-1-149">149</a>Dejadlo estar, Polvorín. Escuchad, os contaré algo de su familia. Dos herederas son primas suyas, y tiene una tía vieja a la que le gusta más berrear que a esos curas rebeldes.</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-150"><a class="pn m5" href="#l1-1-150">150</a>¡Ja, ja, ja! Tenía ganas de ver por donde salía este sinvergüenza. ¡Ja, ja, ja! No me enfadaría con él aunque dijera que son mi madre y mis hermanas.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-151"><a class="pn " href="#l1-1-151">151</a>¡No!</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-152"><a class="pn " href="#l1-1-152">152</a>No. El ingenio y la disposición a inventarse cosas de este sinvergüenza me fascinan. Querido Petulante.</p>
+</div><div class="sp " data-who="Betty-WW">
+  <p class="spk ">
+    BETTY
+  </p>
+  <p class="pr " id="l1-1-153"><a class="pn " href="#l1-1-153">153</a>Se han ido, señor, muy enfadadas.</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l1-1-154"><a class="pn " href="#l1-1-154">154</a>Que se vayan. El enfado le sienta bien al cutis, eso que se ahorran en maquillaje.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-155"><a class="pn m5" href="#l1-1-155">155</a>Esta contención es toda una pose para tener algo de lo que alardear la próxima vez que le haga la corte a Mila Mantes y le jure que ha dejado de lado a todas las de su sexo por ella.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-156"><a class="pn " href="#l1-1-156">156</a>¿No habéis abandonado aún esas insolentes pretensiones? Os cortaré el cuello en algún momento, Petulante, por ese asunto.</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l1-1-157"><a class="pn " href="#l1-1-157">157</a>Sí, sí, dejadlo estar. Hay otros cuellos que cortar…</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-158"><a class="pn " href="#l1-1-158">158</a>¿El mío, señor?</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l1-1-159"><a class="pn " href="#l1-1-159">159</a>No, no, el de nadie, no sé nada. Tíos y sobrinos hay en el mundo, y puede que sean rivales. ¿Y entonces qué? Así son las cosas.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-160"><a class="pn m5" href="#l1-1-160">160</a>¿Cómo? Escuchad, Petulante, venid aquí. Explicaos, o llamaré a vuestro intérprete.</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l1-1-161"><a class="pn " href="#l1-1-161">161</a>¿Explicar? Yo no sé nada. Tenéis un tío, ¿verdad?, que ha llegado hace poco a la ciudad y se aloja donde Lady Deseosa.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-162"><a class="pn " href="#l1-1-162">162</a>Correcto.</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l1-1-163"><a class="pn " href="#l1-1-163">163</a>Pues ya es bastante. No sois amigos, y si él se casara y tuviera un hijo, se os desheredaría, ¿a que sí?</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-164"><a class="pn " href="#l1-1-164">164</a>¿Dónde os habéis tropezado con toda esta información?</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l1-1-165"><a class="pn m5" href="#l1-1-165">165</a>Así son las cosas. Digamos que sé algo.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-166"><a class="pn " href="#l1-1-166">166</a>Vamos, que eres un hombre honesto, Petulante, y que le harás la corte a mi amada, claro que sí. ¿Qué sabéis de mi tío?</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l1-1-167"><a class="pn " href="#l1-1-167">167</a>¿Yo? Nada. Yo. Si se han de cortar cuellos, que se agiten las espadas. Yo me pongo a buen recaudo, me encojo de hombros y me callo.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-168"><a class="pn " href="#l1-1-168">168</a>Nada de burlas, nada de burlas. Vamos, sé que estás al tanto de los secretos de las mujeres. Tú eres uno de los confabuladores. Sé que te quedaste en casa de Mila Mantes después de que yo me fuera. ¿Se mencionó a mi tío, o a mí? Dime. Si tuvieras tan buen corazón como ingenio, Petulante, Antonio Polvorín, que rivaliza contigo en fama, se difuminaría a tu lado como el ojo de un pez muerto ante una perla de oriente. Ni se le vería a tu lado, como Mercurio al lado del sol. Vamos, estoy seguro de que me lo contarás.</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l1-1-169"><a class="pn " href="#l1-1-169">169</a>Si lo hago, ¿me aseguráis que tendréis sentido común en el futuro?</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-170"><a class="pn m5" href="#l1-1-170">170</a>Te juro que haré lo que pueda por ti, y rezaré para que el cielo lo haga mientras tanto.</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l1-1-171"><a class="pn " href="#l1-1-171">171</a>Bien, escuchad.</p>
+</div><p class="sd " id="l1-1-171-sd1">[MIRABELLAS y PETULANTE hablan aparte.]</p><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-172"><a class="pn " href="#l1-1-172">172</a>Petulante y tú veis que Mirabellas es tan caliente de rival como de amante.</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-173"><a class="pn " href="#l1-1-173">173</a>¡Bueno, bueno! Que ella se ríe de Petulante está claro. Y por lo que a mí respecta, y eso que se ha puesto de moda admirarla, escuchad, os contaré un secreto, que no salga de aquí, entre amigos. No me partiré el corazón por ella.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-174"><a class="pn " href="#l1-1-174">174</a>¡Cómo!</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-175"><a class="pn m5" href="#l1-1-175">175</a>Es guapa, pero de ese tipo de mujeres inestables.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-176"><a class="pn " href="#l1-1-176">176</a>Yo creía que te morías por ella.</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-177"><a class="pn " href="#l1-1-177">177</a>Ejem, no.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-178"><a class="pn " href="#l1-1-178">178</a>Es ingeniosa.</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-179"><a class="pn " href="#l1-1-179">179</a>Algo que ella no diría de nadie. Ahora, maldita sea, eso no lo soportaría si fuera tan guapa como Cleopatra. Pero Mirabellas no la tiene tan segura como él cree.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-180"><a class="pn m5" href="#l1-1-180">180</a>¿Por qué piensas eso?</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-181"><a class="pn " href="#l1-1-181">181</a>Anoche nos quedamos hasta bastante tarde, y oí algo sobre un tío de Mirabellas que ha llegado hace poco a la ciudad, y que interfiere entre él y buena parte de su fortuna. Mirabellas y él se guardan las distancias, eso le han dicho a mi querida Lady Deseosa, y ya sabes que ella odia a Mirabellas más que un monje a un loro, o que un pescador a una tormenta. Si este tío se ha visto con Mila Mantes no lo sé, pero hay indicios de una relación en estado embrionario, y si se diera a luz, al pobre Mirabellas le habrían engañado de forma nefasta, la verdad.</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-182"><a class="pn " href="#l1-1-182">182</a>Es imposible que Mila Mantes se presté a algo así.</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-183"><a class="pn " href="#l1-1-183">183</a>La verdad, querido, no lo sé. Es mujer, y caprichosa.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-184"><a class="pn " href="#l1-1-184">184</a>Y eso es todo lo que averiguasteis anoche.</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l1-1-185"><a class="pn m5" href="#l1-1-185">185</a>Lo esencial. Quizás Polvorín sepa algo más, se quedó más tiempo. Además, a él no le tienen en cuenta, dicen lo que sea delante de él.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-186"><a class="pn " href="#l1-1-186">186</a>Yo creía que tú eras su favorito.</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l1-1-187"><a class="pn " href="#l1-1-187">187</a>En <em>petit comité</em>, pero no en público, porque yo hago comentarios.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-188"><a class="pn " href="#l1-1-188">188</a>¿Sí?</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l1-1-189"><a class="pn " href="#l1-1-189">189</a>Sí, sí, diantres, yo soy muy malo, hombre. Y él es un blandengue, no les da miedo, es muy educado, lo que se dice, ¿cómo se dice?, todo un caballero. Y todo un tonto.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-190"><a class="pn m5" href="#l1-1-190">190</a>Os lo agradezco, ya sé todo lo que mi curiosidad requiere. Todoengaño, ¿os venís al parque?</p>
+</div><div class="sp " data-who="Todoengaño">
+  <p class="spk ">
+    TODOENGAÑO
+  </p>
+  <p class="pr " id="l1-1-191"><a class="pn " href="#l1-1-191">191</a>Me daré una vuelta por allí antes de cenar.</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-192"><a class="pn " href="#l1-1-192">192</a>Todos pasaremos por allí, las señoras han dicho que allí estarán.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-193"><a class="pn " href="#l1-1-193">193</a>Creía que teníais que estar pendiente de la llegado de vuestro hermano, don Vil Polvorín.</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-194"><a class="pn " href="#l1-1-194">194</a>No, no, el va a casa de su tía, mi querida Lady Deseosa. ¡Que le zurzan! ¡Que me tenga que dar problemas también! ¿Qué hago con ese tonto?</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l1-1-195"><a class="pn m5" href="#l1-1-195">195</a>Pídele su fortuna, que yo os la pediré después, y así solo tendré un problema con los dos.</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l1-1-196"><a class="pn " href="#l1-1-196">196</a>¡Excepcional, Petulante! Eres más rápido que el fuego en una mañana helada. Tú te vienes al parque con nosotros, y allí nos pondremos muy duros.</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l1-1-197"><a class="pn " href="#l1-1-197">197</a>Ya está bien. Estoy de humor para ponerme duro.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-198"><a class="pn " href="#l1-1-198">198</a>¿De verdad? Entonces id por vuestra cuenta. No queremos estar presentes cuando saquéis a las señoras de sus casillas con vuestra absurda vulgaridad que braméis a los cuatro vientos en cuanto pasan a vuestro lado. Y cuando hacéis sonrojarse a una bella dama, creéis que sois muy duros.</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l1-1-199"><a class="pn " href="#l1-1-199">199</a>¿Cómo, cómo? Que demuestren ellas su candidez al no entender lo que oyen, o su discreción al no oír lo que no deberían entender.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-200"><a class="pn m5" href="#l1-1-200">200</a>¿Pero no tienes suficiente sentido común para saber que vos deberías ser quien se avergüence por sacar a alguien de sus casillas?</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l1-1-201"><a class="pn " href="#l1-1-201">201</a>Por esta que no. Yo siempre me tomo el sonrojo como un signo de culpabilidad o de mala educación.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l1-1-202"><a class="pn " href="#l1-1-202">202</a>Acepto que puedas pensar así. Estáis en vuestro derecho de alegar vuestra falta de juicio en defensa de vuestros actos.</p><div class="lg ">
+  
+  <div class="l " id="l1-1-203"><a class="n " href="#l1-1-203">203</a><span class="t">Si al pudor lo llaman indecencia,</span></div><div class="l " id="l1-1-204"><a class="n " href="#l1-1-204">204</a><span class="t">Que pase por ingenio la insolencia</span></div>
+</div>
+</div><p class="sd " id="l1-1-204-sd1">(Salen.)</p>
+      </section>
+    
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  
+  <a href="act-2.html" rel="next">Act II →</a>
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

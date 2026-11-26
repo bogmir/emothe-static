@@ -1,0 +1,2606 @@
+<?xml version="1.0" ?>
+<TEI xml:lang="pt" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Auto da barca do inferno</title>
+        <title type="edicion">&quot;Auto da barca do inferno&quot; de Gil Vicente: Edición TEI para EMOTHE</title>
+        <title key="orden">Auto da barca do inferno</title>
+        <title key="archivo">EMOTHE0521_AutoDaBarcaDoInferno</title>
+        <author ana="fiable">Gil Vicente</author>
+        <author key="orden">Vicente, Gil</author>
+        <sponsor>
+          <orgName>Plan Nacional de Investigación Científica, Desarrollo e Innovación Tecnológica (Plan Nacional de I+D+i)</orgName>
+        </sponsor>
+        <funder>
+          <orgName>Ministerio de Ciencia, Innovación y Universidades, Ministerio de Economía y Competitividad – Agencia Estatal de Investigación -FEDER/ERDF: &quot;Teatro europeo de los siglos XVI y XVII: patrimonio y bases de datos&quot; (EMOTHE) ref. FFI2016-80314-P (2016-12-30 /2019-12-31); Programa Estatal Redes de Excelencia, &quot;Red del Patrimonio Teatral Clásico Español&quot;, ref. FFI2015-71441-REDC (2015-12-01 / 2017-11-30); Ministerio de Ciencia e Innovación, &quot;Base de datos, argumentos y textos del teatro clásico español&quot;, ref. FFI2012-34347 (2013-02-01 / 2016-12-31); Ministerio de Ciencia e Innovación, &quot;Patrimonio teatral clásico español: textos e instrumentos de investigación&quot;, ref. CSD 2009-00033 (2009-12-17 / 2014-12-13); Ministerio de Ciencia e Innovación, &quot;ARTELOPE. Base de datos, argumentos y textos del teatro clásico español&quot;, ref. FFI2009-12730 (2010-01-01 / 2012-12-31)</orgName>
+        </funder>
+        <principal>Joan Oleza Simó</principal>
+      </titleStmt>
+      <editionStmt>
+        <edition>Edición electrónica de &apos;Auto da barca do inferno&apos;</edition>
+        <respStmt>
+          <resp>Electronic edition: text adapted, edited for XML and encoded by</resp>
+          <persName>Camões, José</persName>
+          <orgName>Artelope</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent ana="verso">851 versos</extent>
+      <publicationStmt>
+        <publisher>
+          <orgName>ARTELOPE Universitat de València</orgName>
+        </publisher>
+        <idno type="code">EMOTHE0521_AutoDaBarcaDoInferno</idno>
+        <idno type="EMOTHE">0521</idno>
+        <pubPlace>Valencia</pubPlace>
+        <date>2019</date>
+        <authority>
+          <orgName>Universitat de València - Estudi General. http://www.uv.es</orgName>
+        </authority>
+        <availability>
+          <p>La Colección EMOTHE: The Classics of Early Modern European Theatre pertenece al proyecto ARTELOPE y ofrece en la web textos completos en acceso abierto, según la licencia que se indique. Se ruega citar la procedencia: &quot;Oleza, Joan et al. EMOTHE: The Classics of Early Modern European Theatre. Valencia: ARTELOPE Universitat de València, 2010-. https://emothe.uv.es/biblioteca/&quot;</p>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/deed."></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Auto da barca do inferno</title>
+          <author>Vicente, Gil</author>
+          <editor>Camões, José</editor>
+          <lang>Portugués</lang>
+          <note>Vicente, Gil. Auto da barca do inferno. [on-line] En: Camões, José (dir.) Teatro de autores portugueses do Séc. XVI. Base de dados textual Lisboa: Centro de Estudos de Teatro, Universidade de Lisboa. [20 dezembro 2016] Disponível em: http://www.cet-e-quinhentos.com/</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>La Colección de Textos Clásicos Europeos (CTCE) supone la creación de una base de datos de Teatro canónico clásico europeo en diferentes idiomas, versiones y refundiciones, todas ellas hipervinculadas.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Las presentes ediciones digitales están basadas, en su mayor parte, en ediciones científicas de reconocido prestigio y se ha tratado, en la mayoría de ocasiones, de respetar sus criterios de edición. Solo en casos muy puntuales el editor digital ha introducido leves cambios de los que da cumplida cuenta en el apartado de &quot;Notas&quot;.</p>
+      </editorialDecl>
+      <refsDecl>
+        <citeStructure match="/TEI/text/body//l[@n]" unit="verse" use="@n"/>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="pt-PT">Português</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+<change><date>2020</date> <persName>Muñoz Pons, Carlos</persName> Revisión de la obra en formato TEI-XML</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>
+            <title>Auto da barca do inferno</title>
+          </titlePart>
+        </docTitle>
+        <docAuthor>Gil Vicente</docAuthor>
+      </titlePage>
+      <div type="argumento">
+        <head>[Argumento]</head>
+        <p>Representa-se na obra seguinte ũa prefiguração sobre a regurosa acusação que os ĩmigos fazem a todas as almas humanas, no ponto que per morte de seus terrestes corpos se partem. E por tratar desta matéria põe o autor por figura que no dito momento elas chegam a um profundo braço de mar, onde estão dous batéis: um deles passa pera a glória, o outro pera o inferno. É repartida em três partes: de cada embarcação ũa cena. Esta primeira é da viagem do Inferno.</p>
+      </div>
+      <div type="elenco">
+        <head>Trata-se polas figuras seguintes:</head>
+        <p>primeiramente, a barca do inferno, Arrais e Barqueiro dela, diabos. Barca do paraíso, Arrais e Barqueiros dela, anjos. Passageiros: Fidalgo, Onzeneiro, Joane, Sapateiro, Frade, Florença, Alcouviteira, Judeu, Corregedor, Procurador, Enforcado, quatro Cavaleiros.</p>
+        <castList>
+          <castItem ana="oculto">
+            <role xml:id="Diabo">Diabo</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="comp">Companheiro</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="anjo">Anjo</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="fid">Fidalgo</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="cav1">Cavaleiro 1</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="cav2">Outro cavaleiro</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="cav3">Cavaleiro 3</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="cav4">Cavaleiro 4</role>
+          </castItem>
+          <castItem ana="grupo oculto">
+            <role xml:id="cavs">Cavaleiros</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="onz">Onzenerio</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="parvo">parvo</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="sap">Sapateiro</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="fra">Frade</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="flor">Florença</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="alc">Alcouviteira</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="jud">Judeu</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="corr">Corregedor</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="proc">Procurador</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="enf">Enforcado</role>
+          </castItem>
+        </castList>
+      </div>
+    </front>
+    <body>
+      <div1 n="0" type="play">
+        <sp who="#Diabo" xml:id="em0521-pt-sp-1">
+          <speaker>ARRAIS DO INFERNO</speaker>
+          <lg part="I" type="oitava">
+            <l n="1" rend="indent" xml:id="em0521-pt-1">À barca à barca oulá</l>
+            <l n="2" xml:id="em0521-pt-2">que temos gentil maré</l>
+            <l n="3" xml:id="em0521-pt-3">ora venha o caro a ré.</l>
+          </lg>
+        </sp>
+        <sp who="#comp" xml:id="em0521-pt-sp-2">
+          <speaker>COMPANHEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="4" part="I" xml:id="em0521-pt-4">Feito feito.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-3">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l part="F" xml:id="em0521-pt-5">Bem está.</l>
+            <l n="5" xml:id="em0521-pt-6">Vai ali muit’ieramá</l>
+            <l n="6" xml:id="em0521-pt-7">e atesa aquele palanco</l>
+            <l n="7" xml:id="em0521-pt-8">e despeja aquele banco</l>
+            <l n="8" xml:id="em0521-pt-9">pera a gente que virá.</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="9" rend="indent" xml:id="em0521-pt-10">À barca à barca u u</l>
+            <l n="10" xml:id="em0521-pt-11">asinha que se quer ir.</l>
+            <l n="11" xml:id="em0521-pt-12">Oh que tempo de partir</l>
+            <l n="12" xml:id="em0521-pt-13">louvores a Berzebuu.</l>
+            <l n="13" xml:id="em0521-pt-14">Ora sus que fazes tu?</l>
+            <l n="14" xml:id="em0521-pt-15">Despeja todo esse leito.</l>
+          </lg>
+        </sp>
+        <sp who="#comp" xml:id="em0521-pt-sp-4">
+          <speaker>COMPANHEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="15" xml:id="em0521-pt-16">Em bon’ora logo é feito.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-5">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="16" xml:id="em0521-pt-17">Abaixa aramá esse cu.</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="17" rend="indent" xml:id="em0521-pt-18">Faze aquela poja lesta</l>
+            <l n="18" xml:id="em0521-pt-19">e alija aquela driça.</l>
+          </lg>
+        </sp>
+        <sp who="#comp" xml:id="em0521-pt-sp-6">
+          <speaker>COMPANHEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="19" xml:id="em0521-pt-20">Oh oh caça oh oh iça.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-7">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="20" xml:id="em0521-pt-21">Oh que caravela esta.</l>
+            <l n="21" xml:id="em0521-pt-22">Põe bandeiras que é festa</l>
+            <l n="22" xml:id="em0521-pt-23">verga alta âncora a pique.</l>
+            <l n="23" xml:id="em0521-pt-24">Ó precioso dom Anrique</l>
+            <l n="24" xml:id="em0521-pt-25">cá vindes vós que cousa é esta?</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-8">
+          <speaker>FIDALGO</speaker>
+          <lg part="I" type="oitava">
+            <l n="25" rend="indent" xml:id="em0521-pt-26">Esta barca onde vai ora</l>
+            <l n="26" xml:id="em0521-pt-27">que assi está apercebida?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-9">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="27" xml:id="em0521-pt-28">Vai pera a ilha perdida</l>
+            <l n="28" xml:id="em0521-pt-29">e há de partir logo ess&apos;hora.</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-10">
+          <speaker>FIDALGO</speaker>
+          <lg part="M" type="free">
+            <l n="29" xml:id="em0521-pt-30">Pera lá vai a senhora?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-11">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="30" xml:id="em0521-pt-31">Senhor a vosso serviço.</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-12">
+          <speaker>FIDALGO</speaker>
+          <lg part="M" type="free">
+            <l n="31" xml:id="em0521-pt-32">Parece-me isso cortiço.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-13">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="32" xml:id="em0521-pt-33">Porque a vedes lá de fora.</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-14">
+          <speaker>FIDALGO</speaker>
+          <lg part="I" type="oitava">
+            <l n="33" rend="indent" xml:id="em0521-pt-34">Porém a que terra passais?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-15">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="34" xml:id="em0521-pt-35">Pera o inferno senhor.</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-16">
+          <speaker>FIDALGO</speaker>
+          <lg part="M" type="free">
+            <l n="35" xml:id="em0521-pt-36">Terra é bem sem sabor.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-17">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="36" xml:id="em0521-pt-37">Quê? E também cá zombais?</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-18">
+          <speaker>FIDALGO</speaker>
+          <lg part="M" type="free">
+            <l n="37" xml:id="em0521-pt-38">E passageiros achais</l>
+            <l n="38" xml:id="em0521-pt-39">pera tal habitação?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-19">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="39" xml:id="em0521-pt-40">Vejo-vos eu em feição</l>
+            <l n="40" xml:id="em0521-pt-41">pera ir ao nosso cais.</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-20">
+          <speaker>FIDALGO</speaker>
+          <lg part="I" type="nona">
+            <l n="41" rend="indent" xml:id="em0521-pt-42">Parece-te a ti assi.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-21">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="42" xml:id="em0521-pt-43">Em que esperas ter guarida?</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-22">
+          <speaker>FIDALGO</speaker>
+          <lg part="M" type="free">
+            <l n="43" xml:id="em0521-pt-44">Que deixo na outra vida</l>
+            <l n="44" xml:id="em0521-pt-45">quem reze sempre por mi.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-23">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="45" xml:id="em0521-pt-46">Quem reze sempre por ti</l>
+            <l n="46" xml:id="em0521-pt-47">hi hi hi hi hi hi hi</l>
+            <l n="47" xml:id="em0521-pt-48">e tu viveste a teu prazer</l>
+            <l n="48" xml:id="em0521-pt-49">cuidando cá guarecer</l>
+            <l n="49" xml:id="em0521-pt-50">porque rezem lá por ti.</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="50" rend="indent" xml:id="em0521-pt-51">Embarca ou embarcai</l>
+            <l n="51" xml:id="em0521-pt-52">que haveis d’ir à derradeira</l>
+            <l n="52" xml:id="em0521-pt-53">mandai meter a cadeira</l>
+            <l n="53" xml:id="em0521-pt-54">que assi passou vosso pai.</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-24">
+          <speaker>FIDALGO</speaker>
+          <lg part="M" type="free">
+            <l n="54" xml:id="em0521-pt-55">Que que que. E assi lhe vai?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-25">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="55" xml:id="em0521-pt-56">Vai ou vem. Embarcai prestes</l>
+            <l n="56" xml:id="em0521-pt-57">segundo lá escolhestes</l>
+            <l n="57" xml:id="em0521-pt-58">assi cá vos contentai.</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="58" rend="indent" xml:id="em0521-pt-59">Pois que já a morte passastes</l>
+            <l n="59" xml:id="em0521-pt-60">haveis de passar o rio.</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-26">
+          <speaker>FIDALGO</speaker>
+          <lg part="M" type="free">
+            <l n="60" xml:id="em0521-pt-61">Não há aqui outro navio?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-27">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="61" xml:id="em0521-pt-62">Não senhor que este fretastes</l>
+            <l n="62" xml:id="em0521-pt-63">e já quando espirastes</l>
+            <l n="63" xml:id="em0521-pt-64">me tínheis dado sinal.</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-28">
+          <speaker>FIDALGO</speaker>
+          <lg part="M" type="free">
+            <l n="64" xml:id="em0521-pt-65">Que sinal foi esse tal?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-29">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="65" xml:id="em0521-pt-66">Do que vós vos contentastes.</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-30">
+          <speaker>FIDALGO</speaker>
+          <lg type="oitava">
+            <l n="66" rend="indent" xml:id="em0521-pt-67">A estoutra barca me vou.</l>
+            <l n="67" xml:id="em0521-pt-68">Ou da barca pera onde is?</l>
+            <l n="68" xml:id="em0521-pt-69">Ah barqueiros não m’ouvis?</l>
+            <l n="69" xml:id="em0521-pt-70">Respondei-me. Oulá ou.</l>
+            <l n="70" xml:id="em0521-pt-71">Pardeos aviado estou</l>
+            <l n="71" xml:id="em0521-pt-72">quant’a isto é já pior</l>
+            <l n="72" xml:id="em0521-pt-73">que gericocins salvanor</l>
+            <l n="73" xml:id="em0521-pt-74">cuidam cá que sou eu grou.</l>
+          </lg>
+        </sp>
+        <sp who="#anjo" xml:id="em0521-pt-sp-31">
+          <speaker>ANJO</speaker>
+          <lg part="I" type="oitava">
+            <l n="74" part="I" rend="indent" xml:id="em0521-pt-75">Que mandais?</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-32">
+          <speaker>FIDALGO</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0521-pt-76">Que me digais</l>
+            <l n="75" xml:id="em0521-pt-77">pois parti tam sem aviso</l>
+            <l n="76" xml:id="em0521-pt-78">se a barca do paraíso</l>
+            <l n="77" xml:id="em0521-pt-79">é esta em que navegais.</l>
+          </lg>
+        </sp>
+        <sp who="#anjo" xml:id="em0521-pt-sp-33">
+          <speaker>ANJO</speaker>
+          <lg part="M" type="free">
+            <l n="78" xml:id="em0521-pt-80">Esta é. Que lhe buscais?</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-34">
+          <speaker>FIDALGO</speaker>
+          <lg part="F" type="free">
+            <l n="79" xml:id="em0521-pt-81">Que me leixeis embarcar.</l>
+            <l n="80" xml:id="em0521-pt-82">Sou fidalgo de solar</l>
+            <l n="81" xml:id="em0521-pt-83">é bem que me recolhais.</l>
+          </lg>
+        </sp>
+        <sp who="#anjo" xml:id="em0521-pt-sp-35">
+          <speaker>ANJO</speaker>
+          <lg part="I" type="oitava">
+            <l n="82" rend="indent" xml:id="em0521-pt-84">Não s’embarca tirania</l>
+            <l n="83" xml:id="em0521-pt-85">neste batel divinal.</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-36">
+          <speaker>FIDALGO</speaker>
+          <lg part="M" type="free">
+            <l n="84" xml:id="em0521-pt-86">Não sei por que haveis por mal</l>
+            <l n="85" xml:id="em0521-pt-87">que entre minha senhoria.</l>
+          </lg>
+        </sp>
+        <sp who="#anjo" xml:id="em0521-pt-sp-37">
+          <speaker>ANJO</speaker>
+          <lg part="M" type="free">
+            <l n="86" xml:id="em0521-pt-88">Pera vossa fantesia</l>
+            <l n="87" xml:id="em0521-pt-89">mui pequena é esta barca.</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-38">
+          <speaker>FIDALGO</speaker>
+          <lg part="F" type="free">
+            <l n="88" xml:id="em0521-pt-90">Pera senhor de tal marca</l>
+            <l n="89" xml:id="em0521-pt-91">não há ‘qui mais cortesia?</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="90" rend="indent" xml:id="em0521-pt-92">Venha a prancha e o atavio</l>
+            <l n="91" xml:id="em0521-pt-93">levai-me desta ribeira.</l>
+          </lg>
+        </sp>
+        <sp who="#anjo" xml:id="em0521-pt-sp-39">
+          <speaker>ANJO</speaker>
+          <lg part="F" type="free">
+            <l n="92" xml:id="em0521-pt-94">Não vindes vós de maneira</l>
+            <l n="93" xml:id="em0521-pt-95">pera entrar neste navio</l>
+            <l n="94" xml:id="em0521-pt-96">essoutro vai mais vazio</l>
+            <l n="95" xml:id="em0521-pt-97">a cadeira entrará</l>
+            <l n="96" xml:id="em0521-pt-98">e o rabo caberá</l>
+            <l n="97" xml:id="em0521-pt-99">e todo vosso senhorio.</l>
+          </lg>
+          <lg type="oitava">
+            <l n="98" rend="indent" xml:id="em0521-pt-100">Ireis lá mais espaçoso</l>
+            <l n="99" xml:id="em0521-pt-101">vós e vossa senhoria</l>
+            <l n="100" xml:id="em0521-pt-102">contando da tirania</l>
+            <l n="101" xml:id="em0521-pt-103">de que éreis tam curioso.</l>
+            <l n="102" xml:id="em0521-pt-104">E porque de generoso</l>
+            <l n="103" xml:id="em0521-pt-105">desprezastes os pequenos</l>
+            <l n="104" xml:id="em0521-pt-106">achar-vos-eis tanto menos</l>
+            <l n="105" xml:id="em0521-pt-107">quanto mais fostes fumoso.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-40">
+          <speaker>DIABO</speaker>
+          <lg type="oitava">
+            <l n="106" rend="indent" xml:id="em0521-pt-108">À barca à barca senhores.</l>
+            <l n="107" xml:id="em0521-pt-109">Oh que maré tam de prata</l>
+            <l n="108" xml:id="em0521-pt-110">um ventezinho que mata</l>
+            <l n="109" xml:id="em0521-pt-111">e valentes remadores.</l>
+            <stage xml:id="em0521-pt-st-1">Cantando:</stage>
+            <l n="110" xml:id="em0521-pt-112">Vos me veniredes a la mano</l>
+            <l n="111" xml:id="em0521-pt-113">a la mano me veniredes</l>
+            <l n="112" xml:id="em0521-pt-114">e vós veredes</l>
+            <l n="113" xml:id="em0521-pt-115">peixes nas redes.</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-41">
+          <speaker>FIDALGO</speaker>
+          <lg type="oitava">
+            <l n="114" rend="indent" xml:id="em0521-pt-116">Ao inferno todavia</l>
+            <l n="115" xml:id="em0521-pt-117">inferno há i pera mi?</l>
+            <l n="116" xml:id="em0521-pt-118">Oh triste enquanto vivi</l>
+            <l n="117" xml:id="em0521-pt-119">nunca cri que o i havia</l>
+            <l n="118" xml:id="em0521-pt-120">tive que era fantesia</l>
+            <l n="119" xml:id="em0521-pt-121">folgava ser adorado</l>
+            <l n="120" xml:id="em0521-pt-122">confiei em meu estado</l>
+            <l n="121" xml:id="em0521-pt-123">e não vi que me perdia.</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="122" rend="indent" xml:id="em0521-pt-124">Venha essa prancha e veremos</l>
+            <l n="123" xml:id="em0521-pt-125">esta barca de tristura.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-42">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="124" xml:id="em0521-pt-126">Embarque vossa doçura</l>
+            <l n="125" xml:id="em0521-pt-127">que cá nos entenderemos.</l>
+            <l n="126" xml:id="em0521-pt-128">Tomareis um par de remos</l>
+            <l n="127" xml:id="em0521-pt-129">veremos como remais</l>
+            <l n="128" xml:id="em0521-pt-130">e chegando ao nosso cais</l>
+            <l n="129" xml:id="em0521-pt-131">nós vos desembarcaremos.</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-43">
+          <speaker>FIDALGO</speaker>
+          <lg part="I" type="oitava">
+            <l n="130" rend="indent" xml:id="em0521-pt-132">Mas esperai-me aqui</l>
+            <l n="131" xml:id="em0521-pt-133">tornarei à outra vida</l>
+            <l n="132" xml:id="em0521-pt-134">ver minha dama querida</l>
+            <l n="133" xml:id="em0521-pt-135">que se quer matar por mi.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-44">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="134" xml:id="em0521-pt-136">Que se quer matar por ti?</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-45">
+          <speaker>FIDALGO</speaker>
+          <lg part="M" type="free">
+            <l n="135" xml:id="em0521-pt-137">Isto bem certo o sei eu.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-46">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="136" xml:id="em0521-pt-138">Oh namorado sandeu</l>
+            <l n="137" xml:id="em0521-pt-139">o maior que nunca vi.</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-47">
+          <speaker>FIDALGO</speaker>
+          <lg part="I" type="oitava">
+            <l n="138" rend="indent" xml:id="em0521-pt-140">Era tanto seu querer</l>
+            <l n="139" xml:id="em0521-pt-141">que m’escrevia mil dias.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-48">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="140" xml:id="em0521-pt-142">Quantas mentiras que lias</l>
+            <l n="141" xml:id="em0521-pt-143">e tu morto de prazer.</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-49">
+          <speaker>FIDALGO</speaker>
+          <lg part="M" type="free">
+            <l n="142" xml:id="em0521-pt-144">Pera que é escarnecer</l>
+            <l n="143" xml:id="em0521-pt-145">que nam havia mais no bem?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-50">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="144" xml:id="em0521-pt-146">Assi vivas tu amém</l>
+            <l n="145" xml:id="em0521-pt-147">como te tinha querer.</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-51">
+          <speaker>FIDALGO</speaker>
+          <lg part="I" type="oitava">
+            <l n="146" rend="indent" xml:id="em0521-pt-148">Isto quanto ò que eu conheço.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-52">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="147" xml:id="em0521-pt-149">Pois estando tu espirando</l>
+            <l n="148" xml:id="em0521-pt-150">se estava ela requebrando</l>
+            <l n="149" xml:id="em0521-pt-151">com outro de menos preço.</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-53">
+          <speaker>FIDALGO</speaker>
+          <lg part="M" type="free">
+            <l n="150" xml:id="em0521-pt-152">Dá-me licença te peço</l>
+            <l n="151" xml:id="em0521-pt-153">que vá ver minha molher.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-54">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="152" xml:id="em0521-pt-154">E ela por não te ver</l>
+            <l n="153" xml:id="em0521-pt-155">despenhar-s’-á dum cabeço.</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="154" rend="indent" xml:id="em0521-pt-156">Quanto ela hoje rezou</l>
+            <l n="155" xml:id="em0521-pt-157">antre seus gritos e gritas</l>
+            <l n="156" xml:id="em0521-pt-158">foi dar glórias infinitas</l>
+            <l n="157" xml:id="em0521-pt-159">a quem na desabafou.</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-55">
+          <speaker>FIDALGO</speaker>
+          <lg part="M" type="free">
+            <l n="158" xml:id="em0521-pt-160">Quant’a ela bem chorou.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-56">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="159" xml:id="em0521-pt-161">E não há i choro d’alegria?</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-57">
+          <speaker>FIDALGO</speaker>
+          <lg part="M" type="free">
+            <l n="160" xml:id="em0521-pt-162">E as lástimas que dezia?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-58">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="161" xml:id="em0521-pt-163">Sua mãe lhas ensinou.</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="162" rend="indent" xml:id="em0521-pt-164">Entrai meu senhor entrai</l>
+            <l n="163" xml:id="em0521-pt-165">venha a prancha ponde o pé.</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-59">
+          <speaker>FIDALGO</speaker>
+          <lg part="M" type="free">
+            <l n="164" xml:id="em0521-pt-166">Entremos pois que assi é.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-60">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="165" xml:id="em0521-pt-167">Ora agora descansai</l>
+            <l n="166" xml:id="em0521-pt-168">passeai e sospirai</l>
+            <l n="167" xml:id="em0521-pt-169">entanto virá mais gente.</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-61">
+          <speaker>FIDALGO</speaker>
+          <lg part="F" type="free">
+            <l n="168" xml:id="em0521-pt-170">Oh barca como és ardente</l>
+            <l n="169" xml:id="em0521-pt-171">maldito quem em ti vai.</l>
+          </lg>
+          <stage xml:id="em0521-pt-st-2">Diz o Diabo ao Moço da cadeira:</stage>
+          <lg type="oitava">
+            <l n="170" rend="indent" xml:id="em0521-pt-172">Tu seu moço vai-te di</l>
+            <l n="171" xml:id="em0521-pt-173">que a cadeira é cá sobeja</l>
+            <l n="172" xml:id="em0521-pt-174">cousa qu’esteve na igreja</l>
+            <l n="173" xml:id="em0521-pt-175">nam s’ há d’embarcar aqui.</l>
+            <l n="174" xml:id="em0521-pt-176">Cá lha darão de marfi</l>
+            <l n="175" xml:id="em0521-pt-177">marchetada de dolores</l>
+            <l n="176" xml:id="em0521-pt-178">com tais modos de lavores</l>
+            <l n="177" xml:id="em0521-pt-179">que estará fora de si.</l>
+          </lg>
+          <lg type="quadra">
+            <l n="178" rend="indent" xml:id="em0521-pt-180">À barca à barca boa gente</l>
+            <l n="179" xml:id="em0521-pt-181">que queremos dar à vela</l>
+            <l n="180" xml:id="em0521-pt-182">chegar ela chegar ela</l>
+            <l n="181" xml:id="em0521-pt-183">muitos e de boa mente.</l>
+          </lg>
+          <stage xml:id="em0521-pt-st-3">Chega um Onzeneiro e diz:</stage>
+          <lg part="I" type="quadra">
+            <l n="182" rend="indent" xml:id="em0521-pt-184">Oh que barca tam valente</l>
+            <l n="183" xml:id="em0521-pt-185">pera onde caminhais?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-62">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="184" xml:id="em0521-pt-186">Oh que má hora venhais</l>
+            <l n="185" xml:id="em0521-pt-187">Onzeneiro meu parente.</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="186" rend="indent" xml:id="em0521-pt-188">Como tardastes vós tanto?</l>
+          </lg>
+        </sp>
+        <sp who="#onz" xml:id="em0521-pt-sp-63">
+          <speaker>ONZENEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="187" xml:id="em0521-pt-189">Mais quisera eu lá tardar.</l>
+            <l n="188" xml:id="em0521-pt-190">Na safra do apanhar</l>
+          </lg>
+        </sp>
+        <sp who="#onz" xml:id="em0521-pt-sp-64">
+          <lg part="M" type="free">
+            <l n="189" xml:id="em0521-pt-191">me deu saturno quebranto.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-65">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="190" xml:id="em0521-pt-192">Ora muito m’espanto</l>
+          </lg>
+        </sp>
+        <sp who="#onz" xml:id="em0521-pt-sp-66">
+          <lg part="M" type="free">
+            <l n="191" xml:id="em0521-pt-193">nam vos livrar o dinheiro.</l>
+          </lg>
+        </sp>
+        <sp who="#onz" xml:id="em0521-pt-sp-67">
+          <speaker>ONZENEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="192" xml:id="em0521-pt-194">Nem tam sóis pera o barqueiro</l>
+          </lg>
+        </sp>
+        <sp who="#proc" xml:id="em0521-pt-sp-68">
+          <lg part="F" type="free">
+            <l n="193" xml:id="em0521-pt-195">nam me deixaram nem tanto.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-69">
+          <speaker>DIABO</speaker>
+          <lg part="I" type="oitava">
+            <l n="194" rend="indent" xml:id="em0521-pt-196">Ora entrai entrai aqui.</l>
+          </lg>
+        </sp>
+        <sp who="#onz" xml:id="em0521-pt-sp-70">
+          <speaker>ONZENEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="195" xml:id="em0521-pt-197">Nam hei eu i d’embarcar.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-71">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="196" xml:id="em0521-pt-198">Oh que gentil recear</l>
+            <l n="197" xml:id="em0521-pt-199">e que cousas pera mi.</l>
+          </lg>
+        </sp>
+        <sp who="#onz" xml:id="em0521-pt-sp-72">
+          <speaker>ONZENEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="198" xml:id="em0521-pt-200">Ind’agora faleci</l>
+            <l n="199" xml:id="em0521-pt-201">deixai-me buscar batel.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-73">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="200" xml:id="em0521-pt-202">Pesar de Jam Pimintel</l>
+            <l n="201" xml:id="em0521-pt-203">por que nam irás aqui?</l>
+          </lg>
+        </sp>
+        <sp who="#onz" xml:id="em0521-pt-sp-74">
+          <speaker>ONZENEIRO</speaker>
+          <lg part="I" type="oitava">
+            <l n="202" rend="indent" xml:id="em0521-pt-204">E pera onde é a viagem?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-75">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="203" xml:id="em0521-pt-205">Pera onde tu hás d’ir.</l>
+            <l n="204" xml:id="em0521-pt-206">Estamos pera partir</l>
+            <l n="205" xml:id="em0521-pt-207">nam cures de mais linguagem.</l>
+          </lg>
+        </sp>
+        <sp who="#onz" xml:id="em0521-pt-sp-76">
+          <speaker>ONZENEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="206" xml:id="em0521-pt-208">Mas pera onde é a passagem?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-77">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="207" xml:id="em0521-pt-209">Pera a infernal comarca.</l>
+          </lg>
+        </sp>
+        <sp who="#onz" xml:id="em0521-pt-sp-78">
+          <speaker>ONZENEIRO</speaker>
+          <lg part="F" type="free">
+            <l n="208" xml:id="em0521-pt-210">Dixe nam m’embarco eu nessa barca</l>
+            <l n="209" xml:id="em0521-pt-211">estoutra tem avantagem.</l>
+          </lg>
+          <stage xml:id="em0521-pt-st-4">Vai-se à barca do Anjo e diz:</stage>
+          <lg part="I" type="oitava">
+            <l n="210" rend="indent" xml:id="em0521-pt-212">Ou da barca oulá ou</l>
+            <l n="211" xml:id="em0521-pt-213">haveis logo de partir?</l>
+          </lg>
+        </sp>
+        <sp who="#anjo" xml:id="em0521-pt-sp-79">
+          <speaker>ANJO</speaker>
+          <lg part="M" type="free">
+            <l n="212" xml:id="em0521-pt-214">E onde queres tu ir?</l>
+          </lg>
+        </sp>
+        <sp who="#onz" xml:id="em0521-pt-sp-80">
+          <speaker>ONZENEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="213" xml:id="em0521-pt-215">Eu pera o paraíso vou.</l>
+          </lg>
+        </sp>
+        <sp who="#anjo" xml:id="em0521-pt-sp-81">
+          <speaker>ANJO</speaker>
+          <lg part="F" type="free">
+            <l n="214" xml:id="em0521-pt-216">Pois quant’eu bem fora estou</l>
+            <l n="215" xml:id="em0521-pt-217">de te levar pera lá.</l>
+            <l n="216" xml:id="em0521-pt-218">Essoutra te levará</l>
+            <l n="217" xml:id="em0521-pt-219">vai pera quem t’enganou.</l>
+          </lg>
+        </sp>
+        <sp who="#onz" xml:id="em0521-pt-sp-82">
+          <speaker>ONZENEIRO</speaker>
+          <lg part="I" type="oitava">
+            <l n="218" part="I" rend="indent" xml:id="em0521-pt-220">Porquê?</l>
+          </lg>
+        </sp>
+        <sp who="#anjo" xml:id="em0521-pt-sp-83">
+          <speaker>ANJO</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0521-pt-221">Porque esse bolsão</l>
+            <l n="219" xml:id="em0521-pt-222">tomará todo navio.</l>
+          </lg>
+        </sp>
+        <sp who="#onz" xml:id="em0521-pt-sp-84">
+          <speaker>ONZENEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="220" xml:id="em0521-pt-223">Juro a Deos que vai vazio.</l>
+          </lg>
+        </sp>
+        <sp who="#anjo" xml:id="em0521-pt-sp-85">
+          <speaker>ANJO</speaker>
+          <lg part="M" type="free">
+            <l n="221" xml:id="em0521-pt-224">Nam já no teu coração.</l>
+          </lg>
+        </sp>
+        <sp who="#onz" xml:id="em0521-pt-sp-86">
+          <speaker>ONZENEIRO</speaker>
+          <lg part="F" type="free">
+            <l n="222" xml:id="em0521-pt-225">Lá me ficam de rondão</l>
+            <l n="223" xml:id="em0521-pt-226">vinte e seis milhões nũa arca</l>
+            <l n="224" xml:id="em0521-pt-227">pois que onzena tanto abarca</l>
+            <l n="225" xml:id="em0521-pt-228">nam lhe dais embarcação?</l>
+          </lg>
+          <stage xml:id="em0521-pt-st-5">Torna ao Diabo e diz:</stage>
+          <lg type="oitava">
+            <l n="226" rend="indent" xml:id="em0521-pt-229">Oulá ou demo barqueiro</l>
+            <l n="227" xml:id="em0521-pt-230">sabeis vós no que m’eu fundo:</l>
+            <l n="228" xml:id="em0521-pt-231">quero lá tornar ò mundo</l>
+            <l n="229" xml:id="em0521-pt-232">e trazê-lo meu dinheiro.</l>
+            <l n="230" xml:id="em0521-pt-233">Que aqueloutro marinheiro</l>
+            <l n="231" xml:id="em0521-pt-234">porque me vê vir sem nada</l>
+            <l n="232" xml:id="em0521-pt-235">dá-me tanta borregada</l>
+            <l n="233" xml:id="em0521-pt-236">como arrais lá do Barreiro.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-87">
+          <speaker>DIABO</speaker>
+          <lg part="I" type="oitava">
+            <l n="234" rend="indent" xml:id="em0521-pt-237">Entra entra e remarás</l>
+            <l n="235" xml:id="em0521-pt-238">nam percamos mais maré.</l>
+          </lg>
+        </sp>
+        <sp who="#onz" xml:id="em0521-pt-sp-88">
+          <speaker>ONZENEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="236" xml:id="em0521-pt-239">Todavia.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-89">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="237" xml:id="em0521-pt-240">Por força é</l>
+            <l n="238" xml:id="em0521-pt-241">que te pês cá entrarás</l>
+            <l n="239" xml:id="em0521-pt-242">irás servir Satanás</l>
+            <l n="240" xml:id="em0521-pt-243">pois que sempre t’ajudou.</l>
+          </lg>
+        </sp>
+        <sp who="#onz" xml:id="em0521-pt-sp-90">
+          <speaker>ONZENEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="241" xml:id="em0521-pt-244">Oh triste quem me cegou.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-91">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="242" xml:id="em0521-pt-245">Cal-te que cá chorarás.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0521-pt-st-6">Entrando no batel diz ao Fidalgo:</stage>
+        <sp who="#onz" xml:id="em0521-pt-sp-92">
+          <speaker>ONZENEIRO</speaker>
+          <lg part="I" type="oitava">
+            <l n="243" rend="indent" xml:id="em0521-pt-246">Santa Joana de Valdês</l>
+            <l n="244" xml:id="em0521-pt-247">cá é vossa senhoria.</l>
+          </lg>
+        </sp>
+        <sp who="#fid" xml:id="em0521-pt-sp-93">
+          <speaker>FIDALGO</speaker>
+          <lg part="M" type="free">
+            <l n="245" xml:id="em0521-pt-248">Dá ò demo a cortesia.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-94">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="246" xml:id="em0521-pt-249">Ouvis? Falai vós cortês.</l>
+            <l n="247" xml:id="em0521-pt-250">Vós Fidalgo cuidareis</l>
+            <l n="248" xml:id="em0521-pt-251">que estais em vossa pousada?</l>
+            <l n="249" xml:id="em0521-pt-252">Dar-vos-ei tanta pancada</l>
+            <l n="250" xml:id="em0521-pt-253">c’um remo que arrenegueis.</l>
+          </lg>
+          <stage xml:id="em0521-pt-st-7">Vem um Parvo e diz ao Arrais do Inferno:</stage>
+          <lg part="I" type="oitava">
+            <l n="251" part="I" rend="indent" xml:id="em0521-pt-254">Ou daquela.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-95">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l part="M" xml:id="em0521-pt-255">Quem é?</l>
+          </lg>
+        </sp>
+        <sp who="#parvo" xml:id="em0521-pt-sp-96">
+          <speaker>PARVO</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0521-pt-256">Eu sou.</l>
+            <l n="252" xml:id="em0521-pt-257">É esta naviarra nossa?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-97">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="253" part="I" xml:id="em0521-pt-258">De quem?</l>
+          </lg>
+        </sp>
+        <sp who="#parvo" xml:id="em0521-pt-sp-98">
+          <speaker>PARVO</speaker>
+          <lg part="M" type="free">
+            <l part="M" xml:id="em0521-pt-259">Dos tolos.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-99">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0521-pt-260">Vossa.</l>
+            <l n="254" part="I" xml:id="em0521-pt-261">Entra.</l>
+          </lg>
+        </sp>
+        <sp who="#parvo" xml:id="em0521-pt-sp-100">
+          <speaker>PARVO</speaker>
+          <lg part="F" type="free">
+            <l part="F" xml:id="em0521-pt-262">De pulo ou de voo?</l>
+            <l n="255" xml:id="em0521-pt-263">Oh pesar de meu avô</l>
+            <l n="256" xml:id="em0521-pt-264">soma vim a adoecer</l>
+            <l n="257" xml:id="em0521-pt-265">e fui má hora morrer</l>
+            <l n="258" xml:id="em0521-pt-266">e nela pera mi só.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-101">
+          <speaker>DIABO</speaker>
+          <lg part="I" type="oitava">
+            <l n="259" part="I" rend="indent" xml:id="em0521-pt-267">De que morreste?</l>
+          </lg>
+        </sp>
+        <sp who="#parvo" xml:id="em0521-pt-sp-102">
+          <speaker>PARVO</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0521-pt-268">De quê?</l>
+            <l n="260" xml:id="em0521-pt-269">Samica de caganeira.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-103">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="261" xml:id="em0521-pt-270">De quê?</l>
+          </lg>
+        </sp>
+        <sp who="#parvo" xml:id="em0521-pt-sp-104">
+          <speaker>PARVO</speaker>
+          <lg part="M" type="free">
+            <l n="262" xml:id="em0521-pt-271">De cagamerdeira</l>
+            <l n="263" xml:id="em0521-pt-272">má ravugem que te dê.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-105">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="264" xml:id="em0521-pt-273">Entra põe aqui o pé.</l>
+          </lg>
+        </sp>
+        <sp who="#parvo" xml:id="em0521-pt-sp-106">
+          <speaker>PARVO</speaker>
+          <lg part="M" type="free">
+            <l n="265" xml:id="em0521-pt-274">Oulá não tombe o zambuco.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-107">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="266" xml:id="em0521-pt-275">Entra tolazo enuco</l>
+            <l n="267" xml:id="em0521-pt-276">que se nos vai a maré.</l>
+          </lg>
+        </sp>
+        <sp who="#parvo" xml:id="em0521-pt-sp-108">
+          <speaker>PARVO</speaker>
+          <lg part="I" type="oitava">
+            <l n="268" rend="indent" xml:id="em0521-pt-277">Aguardai aguardai lá.</l>
+            <l n="269" xml:id="em0521-pt-278">E onde havemos nós d’ir ter?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-109">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="270" xml:id="em0521-pt-279">Ao porto de Lucifer.</l>
+          </lg>
+        </sp>
+        <sp who="#parvo" xml:id="em0521-pt-sp-110">
+          <speaker>PARVO</speaker>
+          <lg part="M" type="free">
+            <l n="271" xml:id="em0521-pt-280">Como?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-111">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="272" xml:id="em0521-pt-281">Ò inferno, entra cá.</l>
+          </lg>
+        </sp>
+        <sp who="#parvo" xml:id="em0521-pt-sp-112">
+          <speaker>PARVO</speaker>
+          <lg part="F" type="free">
+            <l n="273" xml:id="em0521-pt-282">Ò inferno? Ieramá.</l>
+            <l n="274" xml:id="em0521-pt-283">Hiu hiu barca do cornudo</l>
+            <l n="275" xml:id="em0521-pt-284">beiçudo beiçudo</l>
+            <l n="276" xml:id="em0521-pt-285">rachador d’Alverca hu ha.</l>
+          </lg>
+          <lg type="oitava">
+            <l n="277" rend="indent" xml:id="em0521-pt-286">Capateiro da Candosa</l>
+            <l n="278" xml:id="em0521-pt-287">antrecosto de carrapato</l>
+            <l n="279" xml:id="em0521-pt-288">sapato sapato</l>
+            <l n="280" xml:id="em0521-pt-289">filho da grande aleivosa.</l>
+            <l n="281" xml:id="em0521-pt-290">Tua molher é tinhosa</l>
+            <l n="282" xml:id="em0521-pt-291">e há de parir um sapo</l>
+            <l n="283" xml:id="em0521-pt-292">chentado no guardanapo</l>
+            <l n="284" xml:id="em0521-pt-293">neto da cagarrinhosa.</l>
+          </lg>
+          <lg type="oitava">
+            <l n="285" rend="indent" xml:id="em0521-pt-294">Furta cebolas hiu hiu</l>
+            <l n="286" xml:id="em0521-pt-295">escomungado nas igrejas</l>
+            <l n="287" xml:id="em0521-pt-296">burrela cornudo sejas</l>
+            <l n="288" xml:id="em0521-pt-297">toma o pão que te caiu.</l>
+            <l n="289" xml:id="em0521-pt-298">A molher que te fogiu</l>
+            <l n="290" xml:id="em0521-pt-299">pera a ilha da Madeira</l>
+            <l n="291" xml:id="em0521-pt-300">ratinho da Giesteira</l>
+            <l n="292" xml:id="em0521-pt-301">o demo que te pariu.</l>
+          </lg>
+          <lg type="oitava">
+            <l n="293" rend="indent" xml:id="em0521-pt-302">Hiu hiu lanço-te ũa pulha</l>
+            <l n="294" xml:id="em0521-pt-303">de pica na aquela</l>
+            <l n="295" xml:id="em0521-pt-304">hiu hiu caga na vela</l>
+            <l n="296" xml:id="em0521-pt-305">cabeça de grulha.</l>
+            <l n="297" xml:id="em0521-pt-306">Perna de cigarra velha</l>
+            <l n="298" xml:id="em0521-pt-307">pelourinho da Pampulha</l>
+            <l n="299" xml:id="em0521-pt-308">rabo de forno de telha.</l>
+          </lg>
+          <stage xml:id="em0521-pt-st-8">Chegando à barca da glória diz:</stage>
+          <lg part="I" type="oitava">
+            <l n="300" part="I" rend="indent" xml:id="em0521-pt-309">Ou da barca.</l>
+          </lg>
+        </sp>
+        <sp who="#anjo" xml:id="em0521-pt-sp-113">
+          <speaker>ANJO</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0521-pt-310">Tu que queres?</l>
+          </lg>
+        </sp>
+        <sp who="#parvo" xml:id="em0521-pt-sp-114">
+          <speaker>PARVO</speaker>
+          <lg part="M" type="free">
+            <l n="301" xml:id="em0521-pt-311">Quereis-me passar além?</l>
+          </lg>
+        </sp>
+        <sp who="#anjo" xml:id="em0521-pt-sp-115">
+          <speaker>ANJO</speaker>
+          <lg part="M" type="free">
+            <l n="302" part="I" xml:id="em0521-pt-312">Quem és tu?</l>
+          </lg>
+        </sp>
+        <sp who="#parvo" xml:id="em0521-pt-sp-116">
+          <speaker>PARVO</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0521-pt-313">Nam sou ninguém.</l>
+          </lg>
+        </sp>
+        <sp who="#anjo" xml:id="em0521-pt-sp-117">
+          <speaker>ANJO</speaker>
+          <lg part="F" type="free">
+            <l n="303" xml:id="em0521-pt-314">Tu passarás se quiseres</l>
+            <l n="304" xml:id="em0521-pt-315">porque em todos teus fazeres</l>
+            <l n="305" xml:id="em0521-pt-316">per malícia nam erraste.</l>
+            <l n="306" xml:id="em0521-pt-317">Tua simpreza t’abaste</l>
+            <l n="307" xml:id="em0521-pt-318">pera gozar dos prazeres.</l>
+          </lg>
+          <lg type="quadra">
+            <l n="308" rend="indent" xml:id="em0521-pt-319">Espera entanto per i</l>
+            <l n="309" xml:id="em0521-pt-320">veremos se vem alguém</l>
+            <l n="310" xml:id="em0521-pt-321">merecedor de tal bem</l>
+            <l n="311" xml:id="em0521-pt-322">que deva d’entrar aqui.</l>
+          </lg>
+          <stage xml:id="em0521-pt-st-9">Vem um Sapateiro carregado de formas e diz na barca do inferno:</stage>
+          <lg part="I" type="quadra">
+            <l n="312" part="I" rend="indent" xml:id="em0521-pt-323">Ou da barca.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-118">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0521-pt-324">Quem vem i?</l>
+            <l n="313" xml:id="em0521-pt-325">Santo Sapateiro honrado</l>
+            <l n="314" xml:id="em0521-pt-326">como vens tam carregado.</l>
+          </lg>
+        </sp>
+        <sp who="#sap" xml:id="em0521-pt-sp-119">
+          <speaker>SAPATEIRO</speaker>
+          <lg part="F" type="free">
+            <l n="315" xml:id="em0521-pt-327">Mandaram-me vir assi.</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="316" rend="indent" xml:id="em0521-pt-328">Mas pera onde é a viagem?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-120">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="317" xml:id="em0521-pt-329">Pera a terra dos danados.</l>
+          </lg>
+        </sp>
+        <sp who="#sap" xml:id="em0521-pt-sp-121">
+          <speaker>SAPATEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="318" xml:id="em0521-pt-330">E os que morrem confessados</l>
+            <l n="319" xml:id="em0521-pt-331">onde tem sua passagem?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-122">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="320" xml:id="em0521-pt-332">Não cures de mais linguagem</l>
+            <l n="321" xml:id="em0521-pt-333">que esta é tua barca esta.</l>
+          </lg>
+        </sp>
+        <sp who="#sap" xml:id="em0521-pt-sp-123">
+          <speaker>SAPATEIRO</speaker>
+          <lg part="F" type="free">
+            <l n="322" xml:id="em0521-pt-334">Renegaria eu da festa</l>
+            <l n="323" xml:id="em0521-pt-335">e da barca e da barcagem.</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="324" rend="indent" xml:id="em0521-pt-336">Como poderá isso ser</l>
+            <l n="325" xml:id="em0521-pt-337">confessado e comungado?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-124">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="326" xml:id="em0521-pt-338">E tu morreste escomungado</l>
+            <l n="327" xml:id="em0521-pt-339">e nam no quiseste dizer</l>
+            <l n="328" xml:id="em0521-pt-340">esperavas de viver.</l>
+            <l n="329" xml:id="em0521-pt-341">Calaste dez mil enganos</l>
+            <l n="330" xml:id="em0521-pt-342">tu roubaste bem trinta anos</l>
+            <l n="331" xml:id="em0521-pt-343">o povo com teu mister.</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="332" rend="indent" xml:id="em0521-pt-344">Embarca eramá pera ti</l>
+            <l n="333" xml:id="em0521-pt-345">que há já muito que te espero.</l>
+          </lg>
+        </sp>
+        <sp who="#sap" xml:id="em0521-pt-sp-125">
+          <speaker>SAPATEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="334" xml:id="em0521-pt-346">Digo-te que renam quero.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-126">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="335" xml:id="em0521-pt-347">Digo-te que si ressi.</l>
+          </lg>
+        </sp>
+        <sp who="#sap" xml:id="em0521-pt-sp-127">
+          <speaker>SAPATEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="336" xml:id="em0521-pt-348">Quantas missas eu ouvi</l>
+            <l n="337" xml:id="em0521-pt-349">não m’hão elas de prestar?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-128">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="338" xml:id="em0521-pt-350">Ouvir missa então roubar</l>
+            <l n="339" xml:id="em0521-pt-351">é caminho pera aqui.</l>
+          </lg>
+        </sp>
+        <sp who="#sap" xml:id="em0521-pt-sp-129">
+          <speaker>SAPATEIRO</speaker>
+          <lg part="I" type="oitava">
+            <l n="340" rend="indent" xml:id="em0521-pt-352">E as ofertas que darão</l>
+            <l n="341" xml:id="em0521-pt-353">e as horas dos finados?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-130">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="342" xml:id="em0521-pt-354">E os dinheiros mal levados</l>
+            <l n="343" xml:id="em0521-pt-355">que foi da satisfação?</l>
+          </lg>
+        </sp>
+        <sp who="#sap" xml:id="em0521-pt-sp-131">
+          <speaker>SAPATEIRO</speaker>
+          <lg part="F" type="free">
+            <l n="344" xml:id="em0521-pt-356">Oh nam praza ò cordovão</l>
+            <l n="345" xml:id="em0521-pt-357">nem à puta da badana</l>
+            <l n="346" xml:id="em0521-pt-358">se é esta boa tranquitana</l>
+            <l n="347" xml:id="em0521-pt-359">em que se vê Jan’Antão.</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="348" rend="indent" xml:id="em0521-pt-360">Ora juro a Deos que é graça.</l>
+            <stage xml:id="em0521-pt-st-10">Vai à barca do paraíso:</stage>
+            <l n="349" xml:id="em0521-pt-361">Ou da santa caravela</l>
+            <l n="350" xml:id="em0521-pt-362">podereis levar-me nela?</l>
+          </lg>
+        </sp>
+        <sp who="#anjo" xml:id="em0521-pt-sp-132">
+          <speaker>ANJO</speaker>
+          <lg part="M" type="free">
+            <l n="351" xml:id="em0521-pt-363">A carrega t’embaraça.</l>
+          </lg>
+        </sp>
+        <sp who="#sap" xml:id="em0521-pt-sp-133">
+          <speaker>SAPATEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="352" xml:id="em0521-pt-364">Não há mercê que me Deos faça?</l>
+            <l n="353" xml:id="em0521-pt-365">Isto u xiquer irá.</l>
+          </lg>
+        </sp>
+        <sp who="#anjo" xml:id="em0521-pt-sp-134">
+          <speaker>ANJO</speaker>
+          <lg part="F" type="free">
+            <l n="354" xml:id="em0521-pt-366">Essa barca que lá está</l>
+            <l n="355" xml:id="em0521-pt-367">leva quem rouba de praça.</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="356" rend="indent" xml:id="em0521-pt-368">Ó almas embaraçadas.</l>
+          </lg>
+        </sp>
+        <sp who="#sap" xml:id="em0521-pt-sp-135">
+          <speaker>SAPATEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="357" xml:id="em0521-pt-369">Ora eu me maravilho</l>
+            <l n="358" xml:id="em0521-pt-370">haverdes por gram peguilho</l>
+            <l n="359" xml:id="em0521-pt-371">quatro forminhas cagadas</l>
+            <l n="360" xml:id="em0521-pt-372">que podem bem ir chentadas</l>
+            <l n="361" xml:id="em0521-pt-373">no cantinho desse leito.</l>
+          </lg>
+        </sp>
+        <sp who="#anjo" xml:id="em0521-pt-sp-136">
+          <speaker>ANJO</speaker>
+          <lg part="F" type="free">
+            <l n="362" xml:id="em0521-pt-374">Se tu viveras dereito</l>
+            <l n="363" xml:id="em0521-pt-375">elas foram cá escusadas.</l>
+          </lg>
+        </sp>
+        <sp who="#sap" xml:id="em0521-pt-sp-137">
+          <speaker>SAPATEIRO</speaker>
+          <lg part="I" type="oitava">
+            <l n="364" rend="indent" xml:id="em0521-pt-376">Assi que determinais</l>
+            <l n="365" xml:id="em0521-pt-377">que vá coser ao inferno?</l>
+          </lg>
+        </sp>
+        <sp who="#anjo" xml:id="em0521-pt-sp-138">
+          <speaker>ANJO</speaker>
+          <lg part="M" type="free">
+            <l n="366" xml:id="em0521-pt-378">Escrito estás no caderno</l>
+            <l n="367" xml:id="em0521-pt-379">das ẽmentas infernais.</l>
+          </lg>
+        </sp>
+        <sp who="#sap" xml:id="em0521-pt-sp-139">
+          <speaker>SAPATEIRO</speaker>
+          <lg part="F" type="free">
+            <l n="368" xml:id="em0521-pt-380">Pois diabos que aguardais?</l>
+            <l n="369" xml:id="em0521-pt-381">Vamos venha a prancha logo</l>
+            <l n="370" xml:id="em0521-pt-382">e levai-me àquele fogo</l>
+            <l n="371" xml:id="em0521-pt-383">pera que é aguardar mais?</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0521-pt-st-11">Entra um Frade com ũa Moça pola mão e vem dançando, fazendo a baixa com a boca, e acabando diz o Diabo:</stage>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-140">
+          <speaker>DIABO</speaker>
+          <lg part="I" type="oitava">
+            <l n="372" rend="indent" xml:id="em0521-pt-384">Que é isso padre que vai lá?</l>
+          </lg>
+        </sp>
+        <sp who="#fra" xml:id="em0521-pt-sp-141">
+          <speaker>FRADE</speaker>
+          <lg part="M" type="free">
+            <l n="373" xml:id="em0521-pt-385">Deo gracias, sam cortesão.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-142">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="374" xml:id="em0521-pt-386">Sabeis também o tordião?</l>
+          </lg>
+        </sp>
+        <sp who="#fra" xml:id="em0521-pt-sp-143">
+          <speaker>FRADE</speaker>
+          <lg part="M" type="free">
+            <l n="375" xml:id="em0521-pt-387">É mal que m’esquecerá.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-144">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="376" xml:id="em0521-pt-388">Essa dama há d’entrar cá?</l>
+          </lg>
+        </sp>
+        <sp who="#fra" xml:id="em0521-pt-sp-145">
+          <speaker>FRADE</speaker>
+          <lg part="M" type="free">
+            <l n="377" xml:id="em0521-pt-389">Nam sei onde embarcarei.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-146">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="378" xml:id="em0521-pt-390">Ela é vossa?</l>
+          </lg>
+        </sp>
+        <sp who="#fra" xml:id="em0521-pt-sp-147">
+          <speaker>FRADE</speaker>
+          <lg part="F" type="free">
+            <l n="379" xml:id="em0521-pt-391">Eu nam sei.</l>
+            <l n="380" xml:id="em0521-pt-392">Por minha a trago eu cá.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-148">
+          <speaker>DIABO</speaker>
+          <lg part="I" type="oitava">
+            <l n="381" rend="indent" xml:id="em0521-pt-393">E nam vos punham lá grosa</l>
+            <l n="382" xml:id="em0521-pt-394">nesse convento sagrado?</l>
+          </lg>
+        </sp>
+        <sp who="#fra" xml:id="em0521-pt-sp-149">
+          <speaker>FRADE</speaker>
+          <lg part="M" type="free">
+            <l n="383" xml:id="em0521-pt-395">Assi fui bem açoutado.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-150">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="384" xml:id="em0521-pt-396">Que cousa tam preciosa.</l>
+            <l n="385" xml:id="em0521-pt-397">Entrai padre reverendo.</l>
+          </lg>
+        </sp>
+        <sp who="#fra" xml:id="em0521-pt-sp-151">
+          <speaker>FRADE</speaker>
+          <lg part="M" type="free">
+            <l n="386" xml:id="em0521-pt-398">Pera onde levais gente?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-152">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="387" xml:id="em0521-pt-399">Pera aquele fogo ardente</l>
+            <l n="388" xml:id="em0521-pt-400">que nam temeste vivendo.</l>
+          </lg>
+        </sp>
+        <sp who="#fra" xml:id="em0521-pt-sp-153">
+          <speaker>FRADE</speaker>
+          <lg part="I" type="quadra">
+            <l n="389" rend="indent" xml:id="em0521-pt-401">Juro a Deos que nam t’entendo.</l>
+            <l n="390" xml:id="em0521-pt-402">E este hábito nam me val?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-154">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="391" xml:id="em0521-pt-403">Gentil padre mundanal</l>
+            <l n="392" xml:id="em0521-pt-404">a Berzabu vos encomendo.</l>
+          </lg>
+        </sp>
+        <sp who="#fra" xml:id="em0521-pt-sp-155">
+          <speaker>FRADE</speaker>
+          <lg type="oitava">
+            <l n="393" rend="indent" xml:id="em0521-pt-405">Corpo de Deos consagrado</l>
+            <l n="394" xml:id="em0521-pt-406">pola fé de Jesu Cristo</l>
+            <l n="395" xml:id="em0521-pt-407">que eu nam posso entender isto</l>
+            <l n="396" xml:id="em0521-pt-408">eu hei de ser condenado?</l>
+            <l n="397" xml:id="em0521-pt-409">Um padre tam namorado</l>
+            <l n="398" xml:id="em0521-pt-410">e tanto dado a virtude</l>
+            <l n="399" xml:id="em0521-pt-411">assi Deos me dê saúde</l>
+            <l n="400" xml:id="em0521-pt-412">que estou maravilhado.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-156">
+          <speaker>DIABO</speaker>
+          <lg part="I" type="oitava">
+            <l n="401" rend="indent" xml:id="em0521-pt-413">Nam façamos mais detença</l>
+            <l n="402" xml:id="em0521-pt-414">embarcai e partiremos</l>
+            <l n="403" xml:id="em0521-pt-415">tomareis um par de remos.</l>
+          </lg>
+        </sp>
+        <sp who="#fra" xml:id="em0521-pt-sp-157">
+          <speaker>FRADE</speaker>
+          <lg part="M" type="free">
+            <l n="404" xml:id="em0521-pt-416">Nam ficou isso na avença.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-158">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="405" xml:id="em0521-pt-417">Pois dada está já a sentença.</l>
+          </lg>
+        </sp>
+        <sp who="#fra" xml:id="em0521-pt-sp-159">
+          <speaker>FRADE</speaker>
+          <lg part="F" type="free">
+            <l n="406" xml:id="em0521-pt-418">Pardeos essa seria ela</l>
+            <l n="407" xml:id="em0521-pt-419">nam vai em tal caravela</l>
+            <l n="408" xml:id="em0521-pt-420">minha senhora Florença.</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="409" rend="indent" xml:id="em0521-pt-421">Como por ser namorado</l>
+            <l n="410" xml:id="em0521-pt-422">e folgar com ũa molher</l>
+            <l n="411" xml:id="em0521-pt-423">se há um frade de perder</l>
+            <l n="412" xml:id="em0521-pt-424">com tanto salmo rezado?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-160">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="413" xml:id="em0521-pt-425">Ora estás bem aviado.</l>
+          </lg>
+        </sp>
+        <sp who="#fra" xml:id="em0521-pt-sp-161">
+          <speaker>FRADE</speaker>
+          <lg part="M" type="free">
+            <l n="414" xml:id="em0521-pt-426">Mais estás bem corregido.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-162">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="415" xml:id="em0521-pt-427">Devoto padre e marido</l>
+            <l n="416" xml:id="em0521-pt-428">haveis de ser cá pingado.</l>
+          </lg>
+        </sp>
+        <sp who="#fra" xml:id="em0521-pt-sp-163">
+          <speaker>FRADE</speaker>
+          <lg part="I" type="oitava">
+            <l n="417" rend="indent" xml:id="em0521-pt-429">Mantenha Deos esta coroa.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-164">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="418" xml:id="em0521-pt-430">Ó padre frei capacete</l>
+            <l n="419" xml:id="em0521-pt-431">cuidei que tínheis barrete.</l>
+          </lg>
+        </sp>
+        <sp who="#fra" xml:id="em0521-pt-sp-165">
+          <speaker>FRADE</speaker>
+          <lg part="M" type="free">
+            <l n="420" xml:id="em0521-pt-432">Sabei que fui da pessoa.</l>
+            <l n="421" xml:id="em0521-pt-433">Esta espada é roloa</l>
+            <l n="422" xml:id="em0521-pt-434">e este broquel rolão.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-166">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="423" xml:id="em0521-pt-435">Dê vossa reverência lição</l>
+            <l n="424" xml:id="em0521-pt-436">d’isgrima que é cousa boa.</l>
+          </lg>
+        </sp>
+        <sp who="#fra" xml:id="em0521-pt-sp-167">
+          <speaker>FRADE</speaker>
+          <lg type="quadra">
+            <l n="425" rend="indent" xml:id="em0521-pt-437">Que me praz. Dêmos caçada:</l>
+            <stage xml:id="em0521-pt-st-12">Esgrime.</stage>
+            <l n="426" xml:id="em0521-pt-438">entam logo um contra sus</l>
+            <l n="427" xml:id="em0521-pt-439">um fendente ora sus</l>
+            <l n="428" xml:id="em0521-pt-440">esta é a primeira levada.</l>
+          </lg>
+          <lg type="oitava">
+            <l n="429" rend="indent" xml:id="em0521-pt-441">Alevantai a espada</l>
+            <l n="430" xml:id="em0521-pt-442">metei o diabo na cruz</l>
+            <l n="431" xml:id="em0521-pt-443">como o eu agora pus</l>
+            <l n="432" xml:id="em0521-pt-444">saí co a espada rasgada</l>
+            <l n="433" xml:id="em0521-pt-445">e que fique anteparada</l>
+            <l n="434" xml:id="em0521-pt-446">talho, largo, um revés</l>
+            <l n="435" xml:id="em0521-pt-447">e logo colher os pés</l>
+            <l n="436" xml:id="em0521-pt-448">que todo o al nam é nada.</l>
+          </lg>
+          <lg type="oitava">
+            <l n="437" rend="indent" xml:id="em0521-pt-449">Quando o recolher se tarda</l>
+            <l n="438" xml:id="em0521-pt-450">o ferir nam é prudente</l>
+            <l n="439" xml:id="em0521-pt-451">eia sus mui largamente</l>
+            <l n="440" xml:id="em0521-pt-452">cortai na segunda guarda.</l>
+            <l n="441" xml:id="em0521-pt-453">Guarde-me Deos d’espingarda</l>
+            <l n="442" xml:id="em0521-pt-454">ou de barão denodado</l>
+            <l n="443" xml:id="em0521-pt-455">mas aqui estou guardado</l>
+            <l n="444" xml:id="em0521-pt-456">como a palha n’albarda.</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="445" rend="indent" xml:id="em0521-pt-457">Saio com mea espada</l>
+            <l n="446" xml:id="em0521-pt-458">oulá guardar as queixadas.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-168">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="447" xml:id="em0521-pt-459">Oh que valentes levadas.</l>
+          </lg>
+        </sp>
+        <sp who="#fra" xml:id="em0521-pt-sp-169">
+          <speaker>FRADE</speaker>
+          <lg part="F" type="free">
+            <l n="448" xml:id="em0521-pt-460">Inda isto nam é nada.</l>
+            <l n="449" xml:id="em0521-pt-461">Dêmos outra vez caçada:</l>
+            <l n="450" xml:id="em0521-pt-462">contra sus ora um fendente</l>
+            <l n="451" xml:id="em0521-pt-463">e cortando largamente</l>
+            <l n="452" xml:id="em0521-pt-464">eis aqui a seista guarda.</l>
+          </lg>
+          <lg type="oitava">
+            <l n="453" rend="indent" xml:id="em0521-pt-465">Daqui se sai com ũa guia</l>
+            <l n="454" xml:id="em0521-pt-466">e um revés da primeira</l>
+            <l n="455" xml:id="em0521-pt-467">esta é quinta verdadeira</l>
+            <l n="456" xml:id="em0521-pt-468">oh quantos daqui feria.</l>
+            <l n="457" xml:id="em0521-pt-469">Padre que tal aprendia</l>
+            <l n="458" xml:id="em0521-pt-470">no inferno há d’haver pingos?</l>
+            <l n="459" xml:id="em0521-pt-471">Ah nam praza a sam Domingos</l>
+            <l n="460" xml:id="em0521-pt-472">com tanta descortesia.</l>
+          </lg>
+          <lg type="quadra">
+            <l n="461" rend="indent" xml:id="em0521-pt-473">Prossigamos nossa história</l>
+            <l n="462" xml:id="em0521-pt-474">nam façamos mais detença</l>
+            <l n="463" xml:id="em0521-pt-475">dai cá mão senhora Florença</l>
+            <l n="464" xml:id="em0521-pt-476">vamos à barca da glória.</l>
+          </lg>
+          <stage xml:id="em0521-pt-st-13">Chega à barca da glória e diz:</stage>
+          <lg part="I" type="oitava">
+            <l n="465" rend="indent" xml:id="em0521-pt-477">Deo gracias há cá lugar</l>
+            <l n="466" xml:id="em0521-pt-478">pera minha reverença</l>
+            <l n="467" xml:id="em0521-pt-479">e a senhora Florença</l>
+            <l n="468" xml:id="em0521-pt-480">polo meu há lá d’entrar.</l>
+          </lg>
+        </sp>
+        <sp who="#parvo" xml:id="em0521-pt-sp-170">
+          <speaker>PARVO</speaker>
+          <lg part="M" type="free">
+            <l n="469" xml:id="em0521-pt-481">Andar muit’ieramá.</l>
+            <l n="470" xml:id="em0521-pt-482">Furtaste esse trinchão frade.</l>
+          </lg>
+        </sp>
+        <sp who="#fra" xml:id="em0521-pt-sp-171">
+          <speaker>FRADE</speaker>
+          <lg part="F" type="free">
+            <l n="471" xml:id="em0521-pt-483">Senhora dá-me à vontade</l>
+            <l n="472" xml:id="em0521-pt-484">que este feito mal está.</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="473" rend="indent" xml:id="em0521-pt-485">Vamos onde havemos d’ir</l>
+            <l n="474" xml:id="em0521-pt-486">nam praza a Deos co a ribeira</l>
+            <l n="475" xml:id="em0521-pt-487">eu nam vejo aqui maneira</l>
+            <l n="476" xml:id="em0521-pt-488">senam enfim concrudir.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-172">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="477" xml:id="em0521-pt-489">Padre haveis logo de vir.</l>
+          </lg>
+        </sp>
+        <sp who="#fra" xml:id="em0521-pt-sp-173">
+          <speaker>FRADE</speaker>
+          <lg part="F" type="free">
+            <l n="478" xml:id="em0521-pt-490">Si tomai-me lá Florença</l>
+            <l n="479" xml:id="em0521-pt-491">e cumpramos a sentença</l>
+            <l n="480" xml:id="em0521-pt-492">ordenemos de partir.</l>
+          </lg>
+          <stage xml:id="em0521-pt-st-14">Vem ũa alcouviteira per nome Brísida Vaz e chegando à barca do inferno diz:</stage>
+          <lg part="I" type="oitava">
+            <l n="481" rend="indent" xml:id="em0521-pt-493">Oulá da barca oulá.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-174">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="482" xml:id="em0521-pt-494">Quem chama?</l>
+          </lg>
+        </sp>
+        <sp who="#alc" xml:id="em0521-pt-sp-175">
+          <speaker>BRÍSIDA VAZ</speaker>
+          <lg part="M" type="free">
+            <l n="483" xml:id="em0521-pt-495">Brísida Vaz.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-176">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="484" xml:id="em0521-pt-496">Ea aguarda-me rapaz</l>
+            <l n="485" xml:id="em0521-pt-497">por que nam vem ela já?</l>
+          </lg>
+        </sp>
+        <sp who="#comp" xml:id="em0521-pt-sp-177">
+          <speaker>COMPANHEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="486" xml:id="em0521-pt-498">Diz que nam há de vir cá</l>
+            <l n="487" xml:id="em0521-pt-499">sem Joana de Valdeis.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-178">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="488" xml:id="em0521-pt-500">Entrai vós e remareis.</l>
+          </lg>
+        </sp>
+        <sp who="#alc" xml:id="em0521-pt-sp-179">
+          <speaker>BRÍSIDA VAZ</speaker>
+          <lg part="F" type="free">
+            <l n="489" xml:id="em0521-pt-501">Nam quero eu entrar lá.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-180">
+          <speaker>DIABO</speaker>
+          <lg part="I" type="oitava">
+            <l n="490" rend="indent" xml:id="em0521-pt-502">Que saboroso arrecear.</l>
+          </lg>
+        </sp>
+        <sp who="#alc" xml:id="em0521-pt-sp-181">
+          <speaker>BRÍSIDA VAZ</speaker>
+          <lg part="M" type="free">
+            <l n="491" xml:id="em0521-pt-503">Nam é essa barca a qu’eu cato.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-182">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="492" xml:id="em0521-pt-504">E trazeis vós muito fato?</l>
+          </lg>
+        </sp>
+        <sp who="#alc" xml:id="em0521-pt-sp-183">
+          <speaker>BRÍSIDA VAZ</speaker>
+          <lg part="M" type="free">
+            <l n="493" xml:id="em0521-pt-505">O que me convém levar.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-184">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="494" xml:id="em0521-pt-506">Que é o que haveis d’embarcar?</l>
+          </lg>
+        </sp>
+        <sp who="#alc" xml:id="em0521-pt-sp-185">
+          <speaker>BRÍSIDA VAZ</speaker>
+          <lg part="F" type="free">
+            <l n="495" xml:id="em0521-pt-507">Seiscentos virgos postiços</l>
+            <l n="496" xml:id="em0521-pt-508">e três arcas de feitiços</l>
+            <l n="497" xml:id="em0521-pt-509">que nam podem mais levar.</l>
+          </lg>
+          <lg type="oitava">
+            <l n="498" rend="indent" xml:id="em0521-pt-510">Três almários de mentir</l>
+            <l n="499" xml:id="em0521-pt-511">e cinco cofres d’enleos</l>
+            <l n="500" xml:id="em0521-pt-512">e alguns furtos alheos</l>
+            <l n="501" xml:id="em0521-pt-513">assi em jóias de vestir</l>
+            <l n="502" xml:id="em0521-pt-514">guarda-roupa d’encobrir</l>
+            <l n="503" xml:id="em0521-pt-515">enfim casa movediça</l>
+            <l n="504" xml:id="em0521-pt-516">um estrado de cortiça</l>
+            <l n="505" xml:id="em0521-pt-517">com dez coxins d’embair.</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="506" rend="indent" xml:id="em0521-pt-518">A mor carrega que é</l>
+            <l n="507" xml:id="em0521-pt-519">essas moças que vendia.</l>
+            <l n="508" xml:id="em0521-pt-520">Daquesta mercadaria</l>
+            <l n="509" xml:id="em0521-pt-521">trago eu muita à bofé.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-186">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="510" xml:id="em0521-pt-522">Ora ponde aqui o pé.</l>
+          </lg>
+        </sp>
+        <sp who="#alc" xml:id="em0521-pt-sp-187">
+          <speaker>BRÍSIDA VAZ</speaker>
+          <lg part="M" type="free">
+            <l n="511" xml:id="em0521-pt-523">Ui e eu vou pera o paraíso.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-188">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="512" xml:id="em0521-pt-524">E quem te dixe a ti isso?</l>
+          </lg>
+        </sp>
+        <sp who="#alc" xml:id="em0521-pt-sp-189">
+          <speaker>BRÍSIDA VAZ</speaker>
+          <lg part="F" type="free">
+            <l n="513" xml:id="em0521-pt-525">Lá hei d’ir desta maré.</l>
+          </lg>
+          <lg type="oitava">
+            <l n="514" rend="indent" xml:id="em0521-pt-526">Eu som ũa mártele tal</l>
+            <l n="515" xml:id="em0521-pt-527">açoutes tenho eu levados</l>
+            <l n="516" xml:id="em0521-pt-528">e tormentos soportados</l>
+            <l n="517" xml:id="em0521-pt-529">que ninguém me foi igual.</l>
+            <l n="518" xml:id="em0521-pt-530">Se eu fosse ao fogo infernal</l>
+            <l n="519" xml:id="em0521-pt-531">lá iria todo o mundo.</l>
+            <l n="520" xml:id="em0521-pt-532">A estoutra barca cá em fundo</l>
+            <l n="521" xml:id="em0521-pt-533">me vou eu que é mais real.</l>
+          </lg>
+          <stage xml:id="em0521-pt-st-15">E chegando à barca da glória diz ao Anjo:</stage>
+          <lg part="I" type="oitava">
+            <l n="522" rend="indent" xml:id="em0521-pt-534">Barqueiro mano meus olhos</l>
+            <l n="523" xml:id="em0521-pt-535">prancha a Brísida Vaz.</l>
+          </lg>
+        </sp>
+        <sp who="#anjo" xml:id="em0521-pt-sp-190">
+          <speaker>ANJO</speaker>
+          <lg part="M" type="free">
+            <l n="524" xml:id="em0521-pt-536">Eu nam sei quem te cá traz.</l>
+          </lg>
+        </sp>
+        <sp who="#alc" xml:id="em0521-pt-sp-191">
+          <speaker>BRÍSIDA VAZ</speaker>
+          <lg part="F" type="free">
+            <l n="525" xml:id="em0521-pt-537">Peço-vo-lo de giolhos.</l>
+            <l n="526" xml:id="em0521-pt-538">Cuidais que trago piolhos?</l>
+            <l n="527" xml:id="em0521-pt-539">Anjo de Deos minha rosa</l>
+            <l n="528" xml:id="em0521-pt-540">eu sou Brísida a preciosa</l>
+            <l n="529" xml:id="em0521-pt-541">que dava as moças òs molhos.</l>
+          </lg>
+          <lg type="oitava">
+            <l n="530" rend="indent" xml:id="em0521-pt-542">A que criava as meninas</l>
+            <l n="531" xml:id="em0521-pt-543">pera os cónegos da sé.</l>
+            <l n="532" xml:id="em0521-pt-544">Passai-me por vossa fé</l>
+            <l n="533" xml:id="em0521-pt-545">meu amor minhas boninas</l>
+            <l n="534" xml:id="em0521-pt-546">olhos de perlinhas finas.</l>
+            <l n="535" xml:id="em0521-pt-547">E eu sou apostolada</l>
+            <l n="536" xml:id="em0521-pt-548">angelada e martelada</l>
+            <l n="537" xml:id="em0521-pt-549">e fiz obras mui divinas.</l>
+          </lg>
+          <lg type="oitava">
+            <l n="538" rend="indent" xml:id="em0521-pt-550">Santa Úrsula nam converteo</l>
+            <l n="539" xml:id="em0521-pt-551">tantas cachopas com’eu</l>
+            <l n="540" xml:id="em0521-pt-552">todas salvas polo meu</l>
+            <l n="541" xml:id="em0521-pt-553">que nenhũa se perdeo.</l>
+            <l n="542" xml:id="em0521-pt-554">E prouve àquele do ceo</l>
+            <l n="543" xml:id="em0521-pt-555">que todas acharam dono</l>
+            <l n="544" xml:id="em0521-pt-556">cudais que dormia eu sono?</l>
+            <l n="545" xml:id="em0521-pt-557">Nem ponta e nam se perdeo.</l>
+          </lg>
+        </sp>
+        <sp who="#anjo" xml:id="em0521-pt-sp-192">
+          <speaker>ANJO</speaker>
+          <lg part="I" type="oitava">
+            <l n="546" rend="indent" xml:id="em0521-pt-558">Ora vai lá embarcar</l>
+            <l n="547" xml:id="em0521-pt-559">nam estês emportunando.</l>
+          </lg>
+        </sp>
+        <sp who="#alc" xml:id="em0521-pt-sp-193">
+          <speaker>BRÍSIDA VAZ</speaker>
+          <lg part="M" type="free">
+            <l n="548" xml:id="em0521-pt-560">Pois estou-vos alegando</l>
+            <l n="549" xml:id="em0521-pt-561">o porque m’haveis de levar.</l>
+          </lg>
+        </sp>
+        <sp who="#anjo" xml:id="em0521-pt-sp-194">
+          <speaker>ANJO</speaker>
+          <lg part="M" type="free">
+            <l n="550" xml:id="em0521-pt-562">Nam cures d’emportunar</l>
+            <l n="551" xml:id="em0521-pt-563">que nam podes ir aqui.</l>
+          </lg>
+        </sp>
+        <sp who="#alc" xml:id="em0521-pt-sp-195">
+          <speaker>BRÍSIDA VAZ</speaker>
+          <lg part="F" type="free">
+            <l n="552" xml:id="em0521-pt-564">E que má hora eu servi</l>
+            <l n="553" xml:id="em0521-pt-565">pois nam m’há d’aproveitar.</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="554" rend="indent" xml:id="em0521-pt-566">Ou barqueiros da má hora</l>
+            <l n="555" xml:id="em0521-pt-567">ponde a prancha que eis me vou</l>
+            <l n="556" xml:id="em0521-pt-568">e tal fada me fadou</l>
+            <l n="557" xml:id="em0521-pt-569">que pareço mal cá fora.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-196">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="558" xml:id="em0521-pt-570">Ora entrai minha senhora</l>
+            <l n="559" xml:id="em0521-pt-571">e sereis bem recebida</l>
+            <l n="560" xml:id="em0521-pt-572">se vivestes santa vida</l>
+            <l n="561" xml:id="em0521-pt-573">vós o sentireis agora.</l>
+          </lg>
+          <stage xml:id="em0521-pt-st-16">Vem um Judeu com um bode às costas e diz ao Diabo:</stage>
+          <lg part="I" type="oitava">
+            <l n="562" rend="indent" xml:id="em0521-pt-574">Que vai lá ou marinheiro?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-197">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="563" xml:id="em0521-pt-575">Oh que má hora vieste.</l>
+          </lg>
+        </sp>
+        <sp who="#jud" xml:id="em0521-pt-sp-198">
+          <speaker>JUDEU</speaker>
+          <lg part="M" type="free">
+            <l n="564" xml:id="em0521-pt-576">Cuja é esta barca que preste?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-199">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="565" xml:id="em0521-pt-577">Esta barca é do barqueiro.</l>
+          </lg>
+        </sp>
+        <sp who="#jud" xml:id="em0521-pt-sp-200">
+          <speaker>JUDEU</speaker>
+          <lg part="M" type="free">
+            <l n="566" xml:id="em0521-pt-578">Passai-me por meu dinheiro.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-201">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="567" xml:id="em0521-pt-579">E esse bode há cá de vir?</l>
+          </lg>
+        </sp>
+        <sp who="#jud" xml:id="em0521-pt-sp-202">
+          <speaker>JUDEU</speaker>
+          <lg part="M" type="free">
+            <l n="568" xml:id="em0521-pt-580">O bode também há d’ir.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-203">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="569" xml:id="em0521-pt-581">Oh que honrado passageiro.</l>
+          </lg>
+        </sp>
+        <sp who="#jud" xml:id="em0521-pt-sp-204">
+          <speaker>JUDEU</speaker>
+          <lg part="I" type="oitava">
+            <l n="570" rend="indent" xml:id="em0521-pt-582">Sem bode como irei lá?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-205">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="571" xml:id="em0521-pt-583">Pois eu nam passo cabrões.</l>
+          </lg>
+        </sp>
+        <sp who="#jud" xml:id="em0521-pt-sp-206">
+          <speaker>JUDEU</speaker>
+          <lg part="M" type="free">
+            <l n="572" xml:id="em0521-pt-584">Eis aqui quatro tostões</l>
+            <l n="573" xml:id="em0521-pt-585">e mais se vos pagará</l>
+            <l n="574" xml:id="em0521-pt-586">por vida de Semifará</l>
+            <l n="575" xml:id="em0521-pt-587">que me passeis o cabrão.</l>
+            <l n="576" xml:id="em0521-pt-588">Quereis mais outro tostão?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-207">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="577" xml:id="em0521-pt-589">Nem tu nam hás de vir cá.</l>
+          </lg>
+        </sp>
+        <sp who="#jud" xml:id="em0521-pt-sp-208">
+          <speaker>JUDEU</speaker>
+          <lg part="I" type="oitava">
+            <l n="578" rend="indent" xml:id="em0521-pt-590">Por que nam irá o Judeu</l>
+            <l n="579" xml:id="em0521-pt-591">onde vai Brísida Vaz?</l>
+            <stage xml:id="em0521-pt-st-17">Fala ao Fidalgo:</stage>
+            <l n="580" xml:id="em0521-pt-592">Ao senhor meirinho apraz?</l>
+            <l n="581" xml:id="em0521-pt-593">Senhor meirinho irei eu?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-209">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="582" xml:id="em0521-pt-594">E ao Fidalgo quem lhe deu</l>
+            <l n="583" xml:id="em0521-pt-595">o mando deste batel?</l>
+          </lg>
+        </sp>
+        <sp who="#jud" xml:id="em0521-pt-sp-210">
+          <speaker>JUDEU</speaker>
+          <lg part="F" type="free">
+            <l n="584" xml:id="em0521-pt-596">Corregedor coronel</l>
+            <l n="585" xml:id="em0521-pt-597">castigai este sandeu.</l>
+          </lg>
+          <lg type="oitava">
+            <l n="586" rend="indent" xml:id="em0521-pt-598">Azará pedra meúda</l>
+            <l n="587" xml:id="em0521-pt-599">lodo, chanto, fogo, lenha</l>
+            <l n="588" xml:id="em0521-pt-600">caganeira que te venha</l>
+            <l n="589" xml:id="em0521-pt-601">má corrença que t’acuda.</l>
+            <l n="590" xml:id="em0521-pt-602">Por el Deu que te sacuda</l>
+            <l n="591" xml:id="em0521-pt-603">com a beca nos focinhos</l>
+            <l n="592" xml:id="em0521-pt-604">fazes burla dos meirinhos</l>
+            <l n="593" xml:id="em0521-pt-605">dize filho da cornuda.</l>
+          </lg>
+        </sp>
+        <sp who="#parvo" xml:id="em0521-pt-sp-211">
+          <speaker>PARVO</speaker>
+          <lg part="I" type="oitava">
+            <l n="594" rend="indent" xml:id="em0521-pt-606">Furtaste a chiba cabrão.</l>
+            <l n="595" xml:id="em0521-pt-607">Pareceis-me vós a mim</l>
+            <l n="596" xml:id="em0521-pt-608">carrapato d’Alcoutim</l>
+            <l n="597" xml:id="em0521-pt-609">enxertado em camarão.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-212">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="598" xml:id="em0521-pt-610">Judeu lá te levarão</l>
+            <l n="599" xml:id="em0521-pt-611">porque hão d’ir descarregados.</l>
+          </lg>
+        </sp>
+        <sp who="#parvo" xml:id="em0521-pt-sp-213">
+          <speaker>PARVO</speaker>
+          <lg part="F" type="free">
+            <l n="600" xml:id="em0521-pt-612">E s’ele mijou nos finados</l>
+            <l n="601" xml:id="em0521-pt-613">no adro de sam Gião.</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="602" rend="indent" xml:id="em0521-pt-614">E comia a carne da panela</l>
+            <l n="603" xml:id="em0521-pt-615">no dia de nosso senhor</l>
+            <l n="604" xml:id="em0521-pt-616">e mais ele salvanor</l>
+            <l n="605" xml:id="em0521-pt-617">cada vez mija na aquela.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-214">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="606" xml:id="em0521-pt-618">Ora sus dêmos à vela</l>
+            <l n="607" xml:id="em0521-pt-619">vós Judeu ireis à toa</l>
+            <l n="608" xml:id="em0521-pt-620">que sois mui roim pessoa</l>
+            <l n="609" xml:id="em0521-pt-621">levai o cabrão na trela.</l>
+          </lg>
+          <stage xml:id="em0521-pt-st-18">Vem um Corregedor e diz chegando à barca do inferno:</stage>
+          <lg part="I" type="oitava">
+            <l n="610" part="I" rend="indent" xml:id="em0521-pt-622">Ou da barca.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-215">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0521-pt-623">Que quereis?</l>
+          </lg>
+        </sp>
+        <sp who="#corr" xml:id="em0521-pt-sp-216">
+          <speaker>CORREGEDOR</speaker>
+          <lg part="M" type="free">
+            <l n="611" xml:id="em0521-pt-624">Está aqui o senhor juiz.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-217">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="612" xml:id="em0521-pt-625">Ó amador de perdiz</l>
+            <l n="613" xml:id="em0521-pt-626">quantos feitos que trazeis.</l>
+          </lg>
+        </sp>
+        <sp who="#corr" xml:id="em0521-pt-sp-218">
+          <speaker>CORREGEDOR</speaker>
+          <lg part="M" type="free">
+            <l n="614" xml:id="em0521-pt-627">No meu ar conhecereis</l>
+            <l n="615" xml:id="em0521-pt-628">qu’eles nam vem de meu jeito.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-219">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="616" xml:id="em0521-pt-629">Como vai lá o dereito?</l>
+          </lg>
+        </sp>
+        <sp who="#corr" xml:id="em0521-pt-sp-220">
+          <speaker>CORREGEDOR</speaker>
+          <lg part="F" type="free">
+            <l n="617" xml:id="em0521-pt-630">Nestes feitos o vereis.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-221">
+          <speaker>DIABO</speaker>
+          <lg part="I" type="oitava">
+            <l n="618" rend="indent" xml:id="em0521-pt-631">Ora pois entrai veremos</l>
+            <l n="619" xml:id="em0521-pt-632">que diz i nesse papel.</l>
+          </lg>
+        </sp>
+        <sp who="#corr" xml:id="em0521-pt-sp-222">
+          <speaker>CORREGEDOR</speaker>
+          <lg part="M" type="free">
+            <l n="620" xml:id="em0521-pt-633">E onde vai o batel?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-223">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="621" xml:id="em0521-pt-634">No inferno vos poremos.</l>
+          </lg>
+        </sp>
+        <sp who="#corr" xml:id="em0521-pt-sp-224">
+          <speaker>CORREGEDOR</speaker>
+          <lg part="M" type="free">
+            <l n="622" xml:id="em0521-pt-635">Como à terra dos demos</l>
+            <l n="623" xml:id="em0521-pt-636">há d’ir um corregedor?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-225">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="624" xml:id="em0521-pt-637">Santo descorregedor</l>
+            <l n="625" xml:id="em0521-pt-638">embarcai e remaremos.</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="626" rend="indent" xml:id="em0521-pt-639">Ora entrai pois que viestes.</l>
+          </lg>
+        </sp>
+        <sp who="#corr" xml:id="em0521-pt-sp-226">
+          <speaker>CORREGEDOR</speaker>
+          <lg part="M" type="free">
+            <l n="627" xml:id="em0521-pt-640">Non est de regule juris não.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-227">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="628" xml:id="em0521-pt-641">Ita ita dai cá a mão</l>
+            <l n="629" xml:id="em0521-pt-642">remareis um remo destes</l>
+            <l n="630" xml:id="em0521-pt-643">fazei conta que nacestes</l>
+            <l n="631" xml:id="em0521-pt-644">pera nosso companheiro.</l>
+            <l n="632" xml:id="em0521-pt-645">Que fazes tu barzoneiro?</l>
+            <l n="633" xml:id="em0521-pt-646">Faze-lhe essa prancha prestes.</l>
+          </lg>
+        </sp>
+        <sp who="#corr" xml:id="em0521-pt-sp-228">
+          <speaker>CORREGEDOR</speaker>
+          <lg part="I" type="oitava">
+            <l n="634" rend="indent" xml:id="em0521-pt-647">Oh renego da viagem</l>
+            <l n="635" xml:id="em0521-pt-648">e de quem m’há de levar.</l>
+            <l n="636" xml:id="em0521-pt-649">Há ‘qui meirinho do mar?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-229">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="637" xml:id="em0521-pt-650">Nam há cá tal costumagem.</l>
+          </lg>
+        </sp>
+        <sp who="#corr" xml:id="em0521-pt-sp-230">
+          <speaker>CORREGEDOR</speaker>
+          <lg part="M" type="free">
+            <l n="638" xml:id="em0521-pt-651">Nam entendo esta barcagem</l>
+            <l n="639" xml:id="em0521-pt-652">nem hoc non potest esse.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-231">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="640" xml:id="em0521-pt-653">Se ora vos parecesse</l>
+            <l n="641" xml:id="em0521-pt-654">que nam sei mais que linguagem.</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="642" rend="indent" xml:id="em0521-pt-655">Entrai entrai Corregedor.</l>
+          </lg>
+        </sp>
+        <sp who="#corr" xml:id="em0521-pt-sp-232">
+          <speaker>CORREGEDOR</speaker>
+          <lg part="M" type="free">
+            <l n="643" xml:id="em0521-pt-656">Ou videtis qui petatis</l>
+            <l n="644" xml:id="em0521-pt-657">super jure majestatis</l>
+            <l n="645" xml:id="em0521-pt-658">tem vosso mando vigor?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-233">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="646" xml:id="em0521-pt-659">Quando éreis ouvidor</l>
+            <l n="647" xml:id="em0521-pt-660">nonne accepistis rapina?</l>
+            <l n="648" xml:id="em0521-pt-661">Pois ireis pola bolina</l>
+            <l n="649" xml:id="em0521-pt-662">onde nossa mercê for.</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="650" rend="indent" xml:id="em0521-pt-663">Oh que isca esse papel</l>
+            <l n="651" xml:id="em0521-pt-664">pera um fogo que eu sei.</l>
+          </lg>
+        </sp>
+        <sp who="#corr" xml:id="em0521-pt-sp-234">
+          <speaker>CORREGEDOR</speaker>
+          <lg part="M" type="free">
+            <l n="652" xml:id="em0521-pt-665">Domine memento mei.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-235">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="653" xml:id="em0521-pt-666">Non es tempus bacharel</l>
+            <l n="654" xml:id="em0521-pt-667">imbarquemini in batel</l>
+            <l n="655" xml:id="em0521-pt-668">quia judicastis malícia.</l>
+          </lg>
+        </sp>
+        <sp who="#corr" xml:id="em0521-pt-sp-236">
+          <speaker>CORREGEDOR</speaker>
+          <lg part="F" type="free">
+            <l n="656" xml:id="em0521-pt-669">Semper ego in justicia</l>
+            <l n="657" xml:id="em0521-pt-670">fecit e bem por nivel.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-237">
+          <speaker>DIABO</speaker>
+          <lg part="I" type="oitava">
+            <l n="658" rend="indent" xml:id="em0521-pt-671">E as peitas dos judeus</l>
+            <l n="659" xml:id="em0521-pt-672">que vossa molher levava?</l>
+          </lg>
+        </sp>
+        <sp who="#corr" xml:id="em0521-pt-sp-238">
+          <speaker>CORREGEDOR</speaker>
+          <lg part="M" type="free">
+            <l n="660" xml:id="em0521-pt-673">Isso eu nam no tomava</l>
+            <l n="661" xml:id="em0521-pt-674">eram lá percalços seus</l>
+            <l n="662" xml:id="em0521-pt-675">non sunt peccatus meus</l>
+            <l n="663" xml:id="em0521-pt-676">peccavit uxore mea.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-239">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="664" xml:id="em0521-pt-677">Et vobis quoque cum ea</l>
+            <l n="665" xml:id="em0521-pt-678">nemo timuistis Deus.</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="666" rend="indent" xml:id="em0521-pt-679">A largo modo adqueristis</l>
+            <l n="667" xml:id="em0521-pt-680">sanguinis laboratorum</l>
+            <l n="668" xml:id="em0521-pt-681">ignorantes peccatorum</l>
+            <l n="669" xml:id="em0521-pt-682">ut quid eos non audistis.</l>
+          </lg>
+        </sp>
+        <sp who="#corr" xml:id="em0521-pt-sp-240">
+          <speaker>CORREGEDOR</speaker>
+          <lg part="F" type="free">
+            <l n="670" xml:id="em0521-pt-683">Vós Arrais nonne legistis</l>
+            <l n="671" xml:id="em0521-pt-684">que o dar quebra os penedos?</l>
+            <l n="672" xml:id="em0521-pt-685">Os dereitos estão quedos</l>
+            <l n="673" xml:id="em0521-pt-686">si aliquid tradidistis.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-241">
+          <speaker>DIABO</speaker>
+          <lg part="I" type="oitava">
+            <l n="674" rend="indent" xml:id="em0521-pt-687">Ora entrai nos negros fados</l>
+            <l n="675" xml:id="em0521-pt-688">ireis ao lago dos cães</l>
+            <l n="676" xml:id="em0521-pt-689">e vereis os escrivães</l>
+            <l n="677" xml:id="em0521-pt-690">como estão tam prosperados.</l>
+          </lg>
+        </sp>
+        <sp who="#corr" xml:id="em0521-pt-sp-242">
+          <speaker>CORREGEDOR</speaker>
+          <lg part="M" type="free">
+            <l n="678" xml:id="em0521-pt-691">E na terra dos danados</l>
+            <l n="679" xml:id="em0521-pt-692">estão os evangelistas?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-243">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="680" xml:id="em0521-pt-693">Os mestres das burlas vistas</l>
+            <l n="681" xml:id="em0521-pt-694">lá estão bem fraguados.</l>
+          </lg>
+          <stage xml:id="em0521-pt-st-19">Vem um Procurador e diz o Corregedor quando o vê:</stage>
+          <lg part="I" type="oitava">
+            <l n="682" rend="indent" xml:id="em0521-pt-695">Ó senhor Procurador.</l>
+          </lg>
+        </sp>
+        <sp who="#proc" xml:id="em0521-pt-sp-244">
+          <speaker>PROCURADOR</speaker>
+          <lg part="M" type="free">
+            <l n="683" xml:id="em0521-pt-696">Beijo-vo-las mãos juiz.</l>
+            <l n="684" xml:id="em0521-pt-697">Que diz esse Arrais que diz?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-245">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="685" xml:id="em0521-pt-698">Que sereis bom remador.</l>
+            <l n="686" xml:id="em0521-pt-699">Entrai bacharel doutor</l>
+            <l n="687" xml:id="em0521-pt-700">e ireis dando à bomba.</l>
+          </lg>
+        </sp>
+        <sp who="#proc" xml:id="em0521-pt-sp-246">
+          <speaker>PROCURADOR</speaker>
+          <lg part="F" type="free">
+            <l n="688" xml:id="em0521-pt-701">E este barqueiro zomba</l>
+            <l n="689" xml:id="em0521-pt-702">jogatais de zombador?</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="690" rend="indent" xml:id="em0521-pt-703">Essa gente que i está</l>
+            <l n="691" xml:id="em0521-pt-704">pera onde a levais?</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-247">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="692" xml:id="em0521-pt-705">Pera as penas infernais.</l>
+          </lg>
+        </sp>
+        <sp who="#proc" xml:id="em0521-pt-sp-248">
+          <speaker>PROCURADOR</speaker>
+          <lg part="M" type="free">
+            <l n="693" xml:id="em0521-pt-706">Dixe nam vou eu pera lá.</l>
+            <l n="694" xml:id="em0521-pt-707">Outro navio está cá</l>
+            <l n="695" xml:id="em0521-pt-708">muito milhor assombrado.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-249">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="696" xml:id="em0521-pt-709">Ora estais bem aviado</l>
+            <l n="697" xml:id="em0521-pt-710">entrai muit’ieramá.</l>
+          </lg>
+        </sp>
+        <sp who="#corr" xml:id="em0521-pt-sp-250">
+          <speaker>CORREGEDOR</speaker>
+          <lg part="I" type="oitava">
+            <l n="698" rend="indent" xml:id="em0521-pt-711">Confessastes-vos doutor?</l>
+          </lg>
+        </sp>
+        <sp who="#proc" xml:id="em0521-pt-sp-251">
+          <speaker>PROCURADOR</speaker>
+          <lg part="M" type="free">
+            <l n="699" xml:id="em0521-pt-712">Bacharel sou dou-me ò demo.</l>
+            <l n="700" xml:id="em0521-pt-713">nam cuidei que era estremo</l>
+            <l n="701" xml:id="em0521-pt-714">nem de morte minha dor.</l>
+            <l n="702" xml:id="em0521-pt-715">E vós senhor Corregedor?</l>
+          </lg>
+        </sp>
+        <sp who="#corr" xml:id="em0521-pt-sp-252">
+          <speaker>CORREGEDOR</speaker>
+          <lg part="F" type="free">
+            <l n="703" xml:id="em0521-pt-716">Eu mui bem me confessei</l>
+            <l n="704" xml:id="em0521-pt-717">mas tudo quanto roubei</l>
+            <l n="705" xml:id="em0521-pt-718">encobri ao confessor.</l>
+          </lg>
+        </sp>
+        <sp who="#proc" xml:id="em0521-pt-sp-253">
+          <speaker>PROCURADOR</speaker>
+          <lg part="I" type="oitava">
+            <l n="706" rend="indent" xml:id="em0521-pt-719">Porque se o nam tornais</l>
+            <l n="707" xml:id="em0521-pt-720">nam vos querem absolver</l>
+            <l n="708" xml:id="em0521-pt-721">e é mui mau de volver</l>
+            <l n="709" xml:id="em0521-pt-722">depois que o apanhais.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-254">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="710" xml:id="em0521-pt-723">Pois por que nam embarcais?</l>
+          </lg>
+        </sp>
+        <sp who="#corr" xml:id="em0521-pt-sp-255">
+          <speaker>CORREGEDOR</speaker>
+          <lg part="M" type="free">
+            <l n="711" xml:id="em0521-pt-724">Quia esperamus in Deo.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-256">
+          <speaker>DIABO</speaker>
+          <lg part="F" type="free">
+            <l n="712" xml:id="em0521-pt-725">Imbarquemini in barco meo</l>
+            <l n="713" xml:id="em0521-pt-726">pera que esperatis mais?</l>
+          </lg>
+          <stage xml:id="em0521-pt-st-20">Vão-se à barca da glória e diz o Corregedor:</stage>
+          <lg part="I" type="oitava">
+            <l n="714" rend="indent" xml:id="em0521-pt-727">Ou Arrais dos gloriosos</l>
+            <l n="715" xml:id="em0521-pt-728">passai-nos nesse batel.</l>
+          </lg>
+        </sp>
+        <sp who="#anjo" xml:id="em0521-pt-sp-257">
+          <speaker>ANJO</speaker>
+          <lg part="M" type="free">
+            <l n="716" xml:id="em0521-pt-729">Ó pragas pera papel</l>
+            <l n="717" xml:id="em0521-pt-730">pera as almas odiosos</l>
+            <l n="718" xml:id="em0521-pt-731">como vindes preciosos</l>
+            <l n="719" xml:id="em0521-pt-732">sendo filhos da ciência.</l>
+          </lg>
+        </sp>
+        <sp who="#corr" xml:id="em0521-pt-sp-258">
+          <speaker>CORREGEDOR</speaker>
+          <lg part="F" type="free">
+            <l n="720" xml:id="em0521-pt-733">Oh habeatis clemência</l>
+            <l n="721" xml:id="em0521-pt-734">e passai-nos como vossos.</l>
+          </lg>
+        </sp>
+        <sp who="#parvo" xml:id="em0521-pt-sp-259">
+          <speaker>PARVO</speaker>
+          <lg part="I" type="oitava">
+            <l n="722" rend="indent" xml:id="em0521-pt-735">Ou homens dos breviairos</l>
+            <l n="723" xml:id="em0521-pt-736">rapinastis coelhorum</l>
+            <l n="724" xml:id="em0521-pt-737">e pernis perdigatorum</l>
+            <l n="725" xml:id="em0521-pt-738">e mijais nos campanairos.</l>
+          </lg>
+        </sp>
+        <sp who="#corr" xml:id="em0521-pt-sp-260">
+          <speaker>CORREGEDOR</speaker>
+          <lg part="M" type="free">
+            <l n="726" xml:id="em0521-pt-739">Anjos nam sejais contrairos</l>
+            <l n="727" xml:id="em0521-pt-740">pois nam temos outra ponte.</l>
+          </lg>
+        </sp>
+        <sp who="#parvo" xml:id="em0521-pt-sp-261">
+          <speaker>PARVO</speaker>
+          <lg part="F" type="free">
+            <l n="728" xml:id="em0521-pt-741">Beleguinis ubi sunte</l>
+            <l n="729" xml:id="em0521-pt-742">ego latinus macairos.</l>
+          </lg>
+        </sp>
+        <sp who="#anjo" xml:id="em0521-pt-sp-262">
+          <speaker>ANJO</speaker>
+          <lg part="I" type="oitava">
+            <l n="730" rend="indent" xml:id="em0521-pt-743">A justiça divinal</l>
+            <l n="731" xml:id="em0521-pt-744">vos manda vir carregados</l>
+            <l n="732" xml:id="em0521-pt-745">por que vades embarcados</l>
+            <l n="733" xml:id="em0521-pt-746">nesse batel infernal.</l>
+          </lg>
+        </sp>
+        <sp who="#corr" xml:id="em0521-pt-sp-263">
+          <speaker>CORREGEDOR</speaker>
+          <lg part="F" type="free">
+            <l n="734" xml:id="em0521-pt-747">Oh nam praza a sam Marçal</l>
+            <l n="735" xml:id="em0521-pt-748">co a ribeira nem c’o rio</l>
+            <l n="736" xml:id="em0521-pt-749">cuidam lá que é desvario</l>
+            <l n="737" xml:id="em0521-pt-750">haver cá tamanho mal.</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="738" rend="indent" xml:id="em0521-pt-751">Venha a negra prancha cá</l>
+            <l n="739" xml:id="em0521-pt-752">vamos ver este segredo.</l>
+          </lg>
+        </sp>
+        <sp who="#proc" xml:id="em0521-pt-sp-264">
+          <speaker>PROCURADOR</speaker>
+          <lg part="M" type="free">
+            <l n="740" xml:id="em0521-pt-753">Diz um teisto do degredo.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-265">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="741" xml:id="em0521-pt-754">Entrai que cá se dirá.</l>
+            <stage xml:id="em0521-pt-st-21">Entram no batel dos danados e diz o Corregedor a Brísida Vaz:</stage>
+            <l n="742" xml:id="em0521-pt-755">Esteis muito aramá</l>
+            <l n="743" xml:id="em0521-pt-756">senhora Brísida Vaz.</l>
+          </lg>
+        </sp>
+        <sp who="#alc" xml:id="em0521-pt-sp-266">
+          <speaker>BRÍSIDA VAZ</speaker>
+          <lg part="F" type="free">
+            <l n="744" xml:id="em0521-pt-757">Já siquer estou em paz</l>
+            <l n="745" xml:id="em0521-pt-758">que nam me leixáveis lá.</l>
+          </lg>
+          <lg part="I" type="oitava">
+            <l n="746" rend="indent" xml:id="em0521-pt-759">Cada hora encoroçada:</l>
+            <l n="747" xml:id="em0521-pt-760">justiça que manda fazer.</l>
+          </lg>
+        </sp>
+        <sp who="#corr" xml:id="em0521-pt-sp-267">
+          <speaker>CORREGEDOR</speaker>
+          <lg part="M" type="free">
+            <l n="748" xml:id="em0521-pt-761">E vós tornar a tecer</l>
+            <l n="749" xml:id="em0521-pt-762">e urdir outra meada.</l>
+          </lg>
+        </sp>
+        <sp who="#alc" xml:id="em0521-pt-sp-268">
+          <speaker>BRÍSIDA VAZ</speaker>
+          <lg part="F" type="free">
+            <l n="750" xml:id="em0521-pt-763">Dizede juiz d’alçada</l>
+            <l n="751" xml:id="em0521-pt-764">vem já Pero de Lisboa?</l>
+            <l n="752" xml:id="em0521-pt-765">Levá-lo-emos à toa</l>
+            <l n="753" xml:id="em0521-pt-766">e irá desta barcada.</l>
+          </lg>
+          <stage xml:id="em0521-pt-st-22">Vem um Enforcado e diz o Diabo:</stage>
+          <lg part="I" type="oitava">
+            <l n="754" rend="indent" xml:id="em0521-pt-767">Venhais embora Enforcado</l>
+            <l n="755" xml:id="em0521-pt-768">que diz lá Gracia Moniz?</l>
+          </lg>
+        </sp>
+        <sp who="#enf" xml:id="em0521-pt-sp-269">
+          <speaker>ENFORCADO</speaker>
+          <lg part="F" type="free">
+            <l n="756" xml:id="em0521-pt-769">Eu vos direi que ele diz:</l>
+            <l n="757" xml:id="em0521-pt-770">que fui bem aventurado</l>
+            <l n="758" xml:id="em0521-pt-771">que polos furtos que eu fiz</l>
+            <l n="759" xml:id="em0521-pt-772">sou santo canonizado</l>
+            <l n="760" xml:id="em0521-pt-773">pois morri dependurado</l>
+            <l n="761" xml:id="em0521-pt-774">como o tordo na buiz.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-270">
+          <speaker>DIABO</speaker>
+          <lg part="I" type="oitava">
+            <l n="762" rend="indent" xml:id="em0521-pt-775">Entra cá e remarás</l>
+            <l n="763" xml:id="em0521-pt-776">até as portas do inferno.</l>
+          </lg>
+        </sp>
+        <sp who="#enf" xml:id="em0521-pt-sp-271">
+          <speaker>ENFORCADO</speaker>
+          <lg part="M" type="free">
+            <l n="764" xml:id="em0521-pt-777">Nam é essa a nau que eu governo.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-272">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="765" xml:id="em0521-pt-778">Entra que inda caberás.</l>
+          </lg>
+        </sp>
+        <sp who="#enf" xml:id="em0521-pt-sp-273">
+          <speaker>ENFORCADO</speaker>
+          <lg part="F" type="free">
+            <l n="766" xml:id="em0521-pt-779">Pesar de sam Barrabás.</l>
+            <l n="767" xml:id="em0521-pt-780">Se Garcia Moniz diz</l>
+            <l n="768" xml:id="em0521-pt-781">que os que morrem como eu fiz</l>
+            <l n="769" xml:id="em0521-pt-782">são livres de Satanás.</l>
+          </lg>
+          <lg type="oitava">
+            <l n="770" rend="indent" xml:id="em0521-pt-783">E disse que a Deos prouvera</l>
+            <l n="771" xml:id="em0521-pt-784">que fora ele o enforcado</l>
+            <l n="772" xml:id="em0521-pt-785">e que fosse Deos louvado</l>
+            <l n="773" xml:id="em0521-pt-786">que em bôora eu nacera</l>
+            <l n="774" xml:id="em0521-pt-787">e que o senhor m’escolhera</l>
+            <l n="775" xml:id="em0521-pt-788">e por bem vi beleguins</l>
+            <l n="776" xml:id="em0521-pt-789">e com isto mil latins</l>
+            <l n="777" xml:id="em0521-pt-790">como s’eu latim soubera.</l>
+          </lg>
+          <lg type="oitava">
+            <l n="778" rend="indent" xml:id="em0521-pt-791">E no passo derradeiro</l>
+            <l n="779" xml:id="em0521-pt-792">me disse nos meus ouvidos</l>
+            <l n="780" xml:id="em0521-pt-793">que o lugar dos escolhidos</l>
+            <l n="781" xml:id="em0521-pt-794">era a forca e o Limoeiro.</l>
+            <l n="782" xml:id="em0521-pt-795">Nem guardião de mosteiro</l>
+            <l n="783" xml:id="em0521-pt-796">nam tinha mais santa gente</l>
+            <l n="784" xml:id="em0521-pt-797">como Afonso Valente</l>
+            <l n="785" xml:id="em0521-pt-798">o que agora é cacereiro.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-274">
+          <speaker>DIABO</speaker>
+          <lg part="I" type="oitava">
+            <l n="786" rend="indent" xml:id="em0521-pt-799">Dava-te consolação</l>
+            <l n="787" xml:id="em0521-pt-800">isso ou algum esforço?</l>
+          </lg>
+        </sp>
+        <sp who="#enf" xml:id="em0521-pt-sp-275">
+          <speaker>ENFORCADO</speaker>
+          <lg part="F" type="free">
+            <l n="788" xml:id="em0521-pt-801">C’o baraço no pescoço</l>
+            <l n="789" xml:id="em0521-pt-802">mui mal presta a pregação.</l>
+            <l n="790" xml:id="em0521-pt-803">Ele leva a devação</l>
+            <l n="791" xml:id="em0521-pt-804">que há de tornar a jentar</l>
+            <l n="792" xml:id="em0521-pt-805">mas quem há d’estar no ar</l>
+            <l n="793" xml:id="em0521-pt-806">avorrece-lhe o sermão.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-276">
+          <speaker>DIABO</speaker>
+          <lg part="I" type="oitava">
+            <l n="794" rend="indent" xml:id="em0521-pt-807">Entra entra no batel</l>
+            <l n="795" xml:id="em0521-pt-808">que pera o inferno hás d’ir.</l>
+          </lg>
+        </sp>
+        <sp who="#enf" xml:id="em0521-pt-sp-277">
+          <speaker>ENFORCADO</speaker>
+          <lg part="M" type="free">
+            <l n="796" xml:id="em0521-pt-809">E Moniz há de mentir?</l>
+          </lg>
+        </sp>
+        <sp who="#proc" xml:id="em0521-pt-sp-278">
+          <lg part="F" type="free">
+            <l n="797" xml:id="em0521-pt-810">Dixe-me: com sam Miguel</l>
+            <l n="798" xml:id="em0521-pt-811">irás comer pão e mel</l>
+            <l n="799" xml:id="em0521-pt-812">como fores enforcado.</l>
+            <l n="800" xml:id="em0521-pt-813">Ora já passei meu fado</l>
+            <l n="801" xml:id="em0521-pt-814">e já feito é o burel.</l>
+          </lg>
+          <lg type="oitava">
+            <l n="802" rend="indent" xml:id="em0521-pt-815">Agora nam sei que é isso</l>
+            <l n="803" xml:id="em0521-pt-816">nam me falou em ribeira</l>
+            <l n="804" xml:id="em0521-pt-817">nem barqueiro nem barqueira</l>
+            <l n="805" xml:id="em0521-pt-818">senam logo ò paraíso.</l>
+            <l n="806" xml:id="em0521-pt-819">E isto muito em seu siso</l>
+            <l n="807" xml:id="em0521-pt-820">e que era santo o meu baraço</l>
+            <l n="808" xml:id="em0521-pt-821">porém nam sei que aqui faço</l>
+            <l n="809" xml:id="em0521-pt-822">ou se era mentira isto.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-279">
+          <speaker>DIABO</speaker>
+          <lg part="I" type="oitava">
+            <l n="810" rend="indent" xml:id="em0521-pt-823">Falou-te no purgatório?</l>
+          </lg>
+        </sp>
+        <sp who="#enf" xml:id="em0521-pt-sp-280">
+          <speaker>ENFORCADO</speaker>
+          <lg part="F" type="free">
+            <l n="811" xml:id="em0521-pt-824">Diz que foi o Limoeiro</l>
+            <l n="812" xml:id="em0521-pt-825">e ora por ele o salteiro</l>
+            <l n="813" xml:id="em0521-pt-826">e o pregão vitatório.</l>
+            <l n="814" xml:id="em0521-pt-827">E que era muito notório</l>
+            <l n="815" xml:id="em0521-pt-828">que aqueles deciprinados</l>
+            <l n="816" xml:id="em0521-pt-829">eram horas dos finados</l>
+            <l n="817" xml:id="em0521-pt-830">e missa de sam Gregório.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-281">
+          <speaker>DIABO</speaker>
+          <lg part="I" type="oitava">
+            <l n="818" rend="indent" xml:id="em0521-pt-831">Ora entra pois hás d’entrar</l>
+            <l n="819" xml:id="em0521-pt-832">nam esperes por teu pai.</l>
+          </lg>
+        </sp>
+        <sp who="#enf" xml:id="em0521-pt-sp-282">
+          <speaker>ENFORCADO</speaker>
+          <lg part="M" type="free">
+            <l n="820" xml:id="em0521-pt-833">Entremos pois que assi vai.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-283">
+          <speaker>DIABO</speaker>
+          <lg part="M" type="free">
+            <l n="821" xml:id="em0521-pt-834">Este foi bom embarcar.</l>
+            <l n="822" xml:id="em0521-pt-835">Eia todos apear</l>
+            <l n="823" xml:id="em0521-pt-836">que está em seco o batel.</l>
+            <l n="824" xml:id="em0521-pt-837">Vós doutor bota batel</l>
+          </lg>
+        </sp>
+        <sp who="#proc" xml:id="em0521-pt-sp-284">
+          <lg part="F" type="free">
+            <l n="825" xml:id="em0521-pt-838">Fidalgo saltai ò mar.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0521-pt-st-23">Vem quatro fidalgos Cavaleiros da Ordem de Cristo que morreram nas partes d’África e vem cantando a quatro vozes a letra que se segue:</stage>
+        <sp who="#cav1 #cav2 #cav3 #cav4" xml:id="em0521-pt-sp-285">
+          <lg type="cantiga">
+            <l n="826" rend="indent" xml:id="em0521-pt-839">À barca à barca segura</l>
+            <l n="827" xml:id="em0521-pt-840">guardar da barca perdida</l>
+            <l n="828" xml:id="em0521-pt-841">à barca à barca da vida.</l>
+            <l n="829" xml:id="em0521-pt-842">Senhores que trabalhais</l>
+            <l n="830" xml:id="em0521-pt-843">pola vida transitória</l>
+            <l n="831" xml:id="em0521-pt-844">memória por Deos memória</l>
+            <l n="832" xml:id="em0521-pt-845">deste temeroso cais.</l>
+            <l n="833" xml:id="em0521-pt-846">À barca à barca mortais</l>
+            <l n="834" xml:id="em0521-pt-847">porém na vida perdida</l>
+            <l n="835" xml:id="em0521-pt-848">se perde a barca da vida.</l>
+          </lg>
+        </sp>
+        <sp who="#Diabo" xml:id="em0521-pt-sp-286">
+          <speaker>DIABO</speaker>
+          <lg part="I" type="oitava">
+            <l n="836" rend="indent" xml:id="em0521-pt-849">Cavaleiros vós passais</l>
+            <l n="837" xml:id="em0521-pt-850">e nam me dizeis pera onde is?</l>
+          </lg>
+        </sp>
+        <sp who="#cav1" xml:id="em0521-pt-sp-287">
+          <speaker>CAVALEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="838" xml:id="em0521-pt-851">E vós Satam presomis?</l>
+            <l n="839" xml:id="em0521-pt-852">Atentai com quem falais.</l>
+          </lg>
+        </sp>
+        <sp who="#cav2" xml:id="em0521-pt-sp-288">
+          <speaker>OUTRO CAVALEIRO</speaker>
+          <lg part="F" type="free">
+            <l n="840" xml:id="em0521-pt-853">E vós que nos demandais?</l>
+            <l n="841" xml:id="em0521-pt-854">Siquer conhecei-nos bem</l>
+            <l n="842" xml:id="em0521-pt-855">morremos nas partes dalém</l>
+            <l n="843" xml:id="em0521-pt-856">e nam queirais saber mais.</l>
+          </lg>
+        </sp>
+        <sp who="#anjo" xml:id="em0521-pt-sp-289">
+          <speaker>ANJO</speaker>
+          <lg type="oitava">
+            <l n="844" rend="indent" xml:id="em0521-pt-857">Ó Cavaleiros de Deos</l>
+            <l n="845" xml:id="em0521-pt-858">a vós estou esperando</l>
+            <l n="846" xml:id="em0521-pt-859">que morrestes pelejando</l>
+            <l n="847" xml:id="em0521-pt-860">por Cristo senhor dos céus.</l>
+            <l n="848" xml:id="em0521-pt-861">Sois livres de todo mal</l>
+            <l n="849" xml:id="em0521-pt-862">santos por certo sem falha</l>
+            <l n="850" xml:id="em0521-pt-863">que quem morre em tal batalha</l>
+            <l n="851" xml:id="em0521-pt-864">merece paz eternal.</l>
+          </lg>
+        </sp>
+        <trailer xml:id="em0521-pt-tr-1">Aqui fenece a primeira cena.</trailer>
+      </div1>
+    </body>
+    <back/>
+  </text>
+</TEI>

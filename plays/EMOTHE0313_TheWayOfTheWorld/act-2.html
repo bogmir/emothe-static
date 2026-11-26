@@ -1,0 +1,1314 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>[II] — The Way of the World — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">DRAMATIS PERSONAE</a></li>
+      
+  
+    
+        <li>
+          <a href="act-1.html">
+            [I]
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html" aria-current="page">
+            [II]
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            [III]
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-4.html">
+            [IV]
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-5.html">
+            [V]
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="epilogue.html">
+            EPILOGUE
+          </a>
+          
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="index.html#witnesses"><x-es>Testimonios</x-es><x-en>Witnesses</x-en></a>
+  </li>
+  <li>
+    <a href="index.html#performances"><x-es>Representaciones</x-es><x-en>Performances</x-en></a>
+  </li>
+  <li>
+    <a href="index.html#bibliography"><x-es>Bibliografía</x-es><x-en>Bibliography</x-en></a>
+  </li>
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="Fainall">
+        Fainall
+      </option><option value="Mirabell">
+        Mirabell
+      </option><option value="Witwoud">
+        Witwoud
+      </option><option value="Petulant">
+        Petulant
+      </option><option value="Wilfull">
+        Sir Wilfull Witwoud
+      </option><option value="Waitwell">
+        Waitwell
+      </option><option value="Wishfort">
+        Lady Wishfort
+      </option><option value="Millamant">
+        Mrs. Millamant
+      </option><option value="Marwood">
+        Mrs. Marwood
+      </option><option value="Mrs_Fainall">
+        Mrs. Fainall
+      </option><option value="Foible">
+        Foible
+      </option><option value="Mincing">
+        Mincing
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="asm" aria-label="Resaltar apartes" data-en-aria-label="Highlight asides" data-tr>
+        <x-es>Apartes</x-es><x-en>Asides</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .aparte, .text .pr.as, .text .pr:not(.as) span.as" data-for="asm">
+  <button type="button" data-step="-1" aria-label="Aparte anterior" data-en-aria-label="Previous aside" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente aparte" data-en-aria-label="Next aside" data-tr>›</button>
+</div>
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">William Congreve</p>
+  <h1><a href="index.html">The Way of the World</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-1.html" rel="prev">← [I]</a>
+  <a href="act-3.html" rel="next">[III] →</a>
+</nav>
+  <div class="text" lang="en" data-cite="William Congreve, The Way of the World, [II]" data-cite-verse="v." data-cite-prose="l.">
+    
+    <section class="division" id="act-2">
+  <h2 class="act-head">
+    [II]
+  </h2>
+  
+  <p class="sd " id="l2-0-sd1">St. James’s Park.</p><p class="sd " id="l2-0-sd2">Enter Mrs. Fainall and Mrs. Marwood.</p><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-1"><a class="pn " href="#l2-0-1">1</a>Aye, aye, dear Marwood, if we will be happy, we must <span class="pn">2</span>find the means in ourselves, and among ourselves. Men <span class="pn">3</span>are ever in extremes, either doting or averse. While they are <span class="pn">4</span>lovers, if they have fire and sense, their jealousies are insupportable. <span class="pn m5">5</span>And when they cease to love (we ought to <span class="pn">6</span>think at least) they loathe; they look upon us with horror <span class="pn">7</span>and distaste; they meet us like the ghosts of what we were, <span class="pn">8</span>and as such, fly from us.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-9"><a class="pn " href="#l2-0-9">9</a>True, ’tis an unhappy circumstance of life, that love should <span class="pn m5">10</span>ever die before us; and that the man so often should outlive <span class="pn">11</span>the lover. But say what you will, ’tis better to be left than <span class="pn">12</span>never to have been loved. To pass our youth in dull indifference, <span class="pn">13</span>to refuse the sweets of life because they once must leave <span class="pn">14</span>us, is as preposterous as to wish to have been born old, <span class="pn m5">15</span>because we one day must be old. For my part, my youth <span class="pn">16</span>may wear and waste, but it shall never rust in my possession.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-17"><a class="pn " href="#l2-0-17">17</a>Then it seems you dissemble an aversion to mankind, only <span class="pn">18</span>in compliance with my mother’s humor.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-19"><a class="pn " href="#l2-0-19">19</a>Certainly. To be free, I have no taste of those insipid dry <span class="pn m5">20</span>discourses with which our sex of force must entertain them- <span class="pn">21</span>selves, apart from men. We may affect endearments to each <span class="pn">22</span>other, profess eternal friendships, and seem to dote like <span class="pn">23</span>lovers; but ’tis not in our natures long to persevere. Love will <span class="pn">24</span>resume his empire in our breasts; and every heart, or soon or <span class="pn m5">25</span>late, receive and readmit him as its lawful tyrant.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-26"><a class="pn " href="#l2-0-26">26</a>Bless me, how have I been deceived! Why you profess a <span class="pn">27</span>libertine!</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-28"><a class="pn " href="#l2-0-28">28</a>You see my friendship by my freedom. Come, be as sincere, <span class="pn">29</span>acknowledge that your sentiments agree with mine.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-30"><a class="pn m5" href="#l2-0-30">30</a>Never!</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-31"><a class="pn " href="#l2-0-31">31</a>You hate mankind?</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-32"><a class="pn " href="#l2-0-32">32</a>Heartily, inveterately.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-33"><a class="pn " href="#l2-0-33">33</a>Your husband?</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-34"><a class="pn " href="#l2-0-34">34</a>Most transcendently; aye, though I say it, meritoriously.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-35"><a class="pn m5" href="#l2-0-35">35</a>Give me your hand upon it.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-36"><a class="pn " href="#l2-0-36">36</a>There.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-37"><a class="pn " href="#l2-0-37">37</a>I join with you; what I have said has been to try you.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-38"><a class="pn " href="#l2-0-38">38</a>Is it possible? Dost thou hate those vipers, men?</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-39"><a class="pn " href="#l2-0-39">39</a>I have done hating ’em, and am now come to despise ’em; <span class="pn m5">40</span>the next thing I have to do, is eternally to forget ’em.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-41"><a class="pn " href="#l2-0-41">41</a>There spoke the spirit of an Amazon, a Penthesilea.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-42"><a class="pn " href="#l2-0-42">42</a>And yet I am thinking sometimes to carry my aversion <span class="pn">43</span>further.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-44"><a class="pn " href="#l2-0-44">44</a>How?</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-45"><a class="pn m5" href="#l2-0-45">45</a>Faith, by marrying; if I could but find one that loved me <span class="pn">46</span>very well and would be thoroughly sensible of ill usage, I <span class="pn">47</span>think I should do myself the violence of undergoing the <span class="pn">48</span>ceremony.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-49"><a class="pn " href="#l2-0-49">49</a>You would not make him a cuckold?</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-50"><a class="pn m5" href="#l2-0-50">50</a>No, but I’d make him believe I did, and that’s as bad.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-51"><a class="pn " href="#l2-0-51">51</a>Why had not you as good do it?</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-52"><a class="pn " href="#l2-0-52">52</a>Oh, if he should ever discover it, he would then know the <span class="pn">53</span>worst, and be out of his pain; but I would have him ever to <span class="pn">54</span>continue upon the rack of fear and jealousy.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-55"><a class="pn m5" href="#l2-0-55">55</a>Ingenious mischief! Would thou wert married to Mirabell.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-56"><a class="pn " href="#l2-0-56">56</a>Would I were!</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-57"><a class="pn " href="#l2-0-57">57</a>You change color.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-58"><a class="pn " href="#l2-0-58">58</a>Because I hate him.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-59"><a class="pn " href="#l2-0-59">59</a>So do I; but I can hear him named. But what reason have <span class="pn m5">60</span>you to hate him in particular?</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-61"><a class="pn " href="#l2-0-61">61</a>I never loved him; he is, and always was, insufferably <span class="pn">62</span>proud.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-63"><a class="pn " href="#l2-0-63">63</a>By the reason you give for your aversion, one would think it <span class="pn">64</span>dissembled; for you have laid a fault to his charge of which his <span class="pn m5">65</span>enemies must acquit him.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-66"><a class="pn " href="#l2-0-66">66</a>Oh, then it seems you are one of his favorable enemies! <span class="pn">67</span>Methinks you look a little pale, and now you flush again.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-68"><a class="pn " href="#l2-0-68">68</a>Do I? I think I am a little sick o’ the sudden.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-69"><a class="pn " href="#l2-0-69">69</a>What ails you?</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-70"><a class="pn m5" href="#l2-0-70">70</a>My husband. Don’t you see him? He turned short upon me <span class="pn">71</span>unawares, and has almost overcome me.</p>
+</div><p class="sd " id="l2-0-70-sd1">Enter Fainall and Mirabell.</p><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-72"><a class="pn " href="#l2-0-72">72</a>Ha! ha! ha! He comes opportunely for you.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-73"><a class="pn " href="#l2-0-73">73</a>For you, for he has brought Mirabell with him.</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-74"><a class="pn " href="#l2-0-74">74</a>My dear!</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-75"><a class="pn m5" href="#l2-0-75">75</a>My soul!</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-76"><a class="pn " href="#l2-0-76">76</a>You don’t look well today, child.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-77"><a class="pn " href="#l2-0-77">77</a>D’ye think so?</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-78"><a class="pn " href="#l2-0-78">78</a>He is the only man that does, madam.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-79"><a class="pn " href="#l2-0-79">79</a>The only man that would tell me so at least; and the only <span class="pn m5">80</span>man from whom I could hear it without mortification.</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-81"><a class="pn " href="#l2-0-81">81</a>Oh my dear, I am satisfied of your tenderness; I know you <span class="pn">82</span>cannot resent anything from me, especially what is an effect <span class="pn">83</span>of my concern.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-84"><a class="pn " href="#l2-0-84">84</a>Mr. Mirabell, my mother interrupted you in a pleasant <span class="pn m5">85</span>relation last night; I would fain hear it out.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-86"><a class="pn " href="#l2-0-86">86</a>The persons concerned in that affair have yet a tolerable <span class="pn">87</span>reputation. I am afraid Mr. Fainall will be censorious.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-88"><a class="pn " href="#l2-0-88">88</a>He has a humor more prevailing than his curiosity, and <span class="pn">89</span>will willingly dispense with the hearing of one scandalous <span class="pn m5">90</span>story, to avoid giving an occasion to make another by <span class="pn">91</span>being seen to walk with his wife. This way, Mr. Mirabell, <span class="pn">92</span>and I dare promise you will oblige us both.</p>
+</div><p class="sd " id="l2-0-88-sd1">Exeunt Mrs.Fainall and Mirabell.</p><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-93"><a class="pn " href="#l2-0-93">93</a>Excellent creature! Well, sure if I should live to be rid of <span class="pn">94</span>my wife, I should be a miserable man.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-95"><a class="pn m5" href="#l2-0-95">95</a>Aye!</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-96"><a class="pn " href="#l2-0-96">96</a>For having only that one hope, the accomplishment of it, of <span class="pn">97</span>consequence must put an end to all my hopes; and what a <span class="pn">98</span>wretch is he who must survive his hopes! Nothing remains <span class="pn">99</span>when that day comes, but to sit down and weep like Alexander, <span class="pn m5">100</span>when he wanted other worlds to conquer.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-101"><a class="pn " href="#l2-0-101">101</a>Will you not follow ’em?</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-102"><a class="pn " href="#l2-0-102">102</a>Faith, I think not.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-103"><a class="pn " href="#l2-0-103">103</a>Pray let us; I have a reason.</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-104"><a class="pn " href="#l2-0-104">104</a>You are not jealous?</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-105"><a class="pn m5" href="#l2-0-105">105</a>Of whom?</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-106"><a class="pn " href="#l2-0-106">106</a>Of Mirabell.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-107"><a class="pn " href="#l2-0-107">107</a>If I am, is it inconsistent with my love to you that I am <span class="pn">108</span>tender of your honor?</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-109"><a class="pn " href="#l2-0-109">109</a>You would intimate then, as if there were a fellow-feeling <span class="pn m5">110</span>between my wife and him.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-111"><a class="pn " href="#l2-0-111">111</a>I think she does not hate him to that degree she would be <span class="pn">112</span>thought.</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-113"><a class="pn " href="#l2-0-113">113</a>But he, I fear, is too insensible.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-114"><a class="pn " href="#l2-0-114">114</a>It may be you are deceived.</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-115"><a class="pn m5" href="#l2-0-115">115</a>It may be so. I do now begin to apprehend it.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-116"><a class="pn " href="#l2-0-116">116</a>What?</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-117"><a class="pn " href="#l2-0-117">117</a>That I have been deceived, madam, and you are false.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-118"><a class="pn " href="#l2-0-118">118</a>That I am false! What mean you?</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-119"><a class="pn " href="#l2-0-119">119</a>To let you know I see through all your little arts. Come, <span class="pn m5">120</span>you both love him; and both have equally dissembled your <span class="pn">121</span>aversion. Your mutual jealousies of one another have made <span class="pn">122</span>you clash till you have both struck fire. I have seen the warm <span class="pn">123</span>confession reddening on your cheeks, and sparkling from <span class="pn">124</span>your eyes.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-125"><a class="pn m5" href="#l2-0-125">125</a>You do me wrong.</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-126"><a class="pn " href="#l2-0-126">126</a>I do not. ’Twas for my ease to oversee and willfully neglect <span class="pn">127</span>the gross advances made him by my wife; that by permitting <span class="pn">128</span>her to be engaged, I might continue unsuspected in my <span class="pn">129</span>pleasure, and take you oftener to my arms in full security. <span class="pn m5">130</span>But could you think, because the nodding husband would <span class="pn">131</span>not wake, that e’er the watchful lover slept?</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-132"><a class="pn " href="#l2-0-132">132</a>And wherewithal can you reproach me?</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-133"><a class="pn " href="#l2-0-133">133</a>With infidelity, with loving of another, with love of Mirabell.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-134"><a class="pn " href="#l2-0-134">134</a>’Tis false. I challenge you to show an instance that can <span class="pn m5">135</span>confirm your groundless accusation. I hate him.</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-136"><a class="pn " href="#l2-0-136">136</a>And wherefore do you hate him? He is insensible, and your <span class="pn">137</span>resentment follows his neglect. An instance? The injuries <span class="pn">138</span>you have done him are a proof, you interposing in his love. <span class="pn">139</span>What cause had you to make discoveries of his pretended <span class="pn m5">140</span>passion? To undeceive the credulous aunt, and be the <span class="pn">141</span>officious obstacle of his match with Millamant?</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-142"><a class="pn " href="#l2-0-142">142</a>My obligations to my lady urged me; I had professed a <span class="pn">143</span>friendship to her, and could not see her easy nature so <span class="pn">144</span>abused by that dissembler.</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-145"><a class="pn m5" href="#l2-0-145">145</a>What, was it conscience then? Professed a friendship! Oh, <span class="pn">146</span>the pious friendships of the female sex!</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-147"><a class="pn " href="#l2-0-147">147</a>More tender, more sincere, and more enduring, than all <span class="pn">148</span>the vain and empty vows of men, whether professing love <span class="pn">149</span>to us, or mutual faith to one another.</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-150"><a class="pn m5" href="#l2-0-150">150</a>Ha! ha! ha! you are my wife’s friend too.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-151"><a class="pn " href="#l2-0-151">151</a>Shame and ingratitude! Do you reproach me? You, you <span class="pn">152</span>upbraid me! Have I been false to her, though strict <span class="pn">153</span>fidelity to you, and sacrificed my friendship to keep my love <span class="pn">154</span>inviolate? And have you the baseness to charge me with the <span class="pn m5">155</span>guilt, unmindful of the merit! To you it should be merito- <span class="pn">156</span>rious, that I have been vicious; and do you reflect that <span class="pn">157</span>guilt upon me, which should lie buried in your bosom?</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-158"><a class="pn " href="#l2-0-158">158</a>You misinterpret my reproof. I meant but to remind you of <span class="pn">159</span>the slight account you once could make of strictest ties, when <span class="pn m5">160</span>set in comparison with your love to me.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-161"><a class="pn " href="#l2-0-161">161</a>’Tis false; you urged it with deliberate malice! ’Twas spoke <span class="pn">162</span>in scorn, and I never will forgive it.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-163"><a class="pn " href="#l2-0-163">163</a>Your guilt, not your resentment, begets your rage. If yet you <span class="pn">164</span>loved, you could forgive a jealousy; but you are stung to find <span class="pn m5">165</span>you are discovered.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-166"><a class="pn " href="#l2-0-166">166</a>It shall be all discovered. You too shall be discovered; be <span class="pn">167</span>sure you shall. I can but de exposed. If I do it myself, I <span class="pn">168</span>shall prevent your baseness.</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-169"><a class="pn " href="#l2-0-169">169</a>Why, what will you do?</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-170"><a class="pn m5" href="#l2-0-170">170</a>Disclose it to your wife; own what has passed between us.</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-171"><a class="pn " href="#l2-0-171">171</a>Frenzy!</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-172"><a class="pn " href="#l2-0-172">172</a>By all my wrongs I’ll do’t? I’ll publish to the world the <span class="pn">173</span>injuries you have done me, both in my fame and fortune! <span class="pn">174</span>With both I trusted you, you bankrupt in honor, as indigent <span class="pn m5">175</span>of wealth.</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-176"><a class="pn " href="#l2-0-176">176</a>Your fame I have preserved. Your fortune has been bestowed <span class="pn">177</span>as the prodigality of your love would have it, in <span class="pn">178</span>pleasures which we both have shared. Yet had not you been <span class="pn">179</span>false, I had ere this repaid it. ’Tis true, had you permitted <span class="pn m5">180</span>Mirabell with Millamant to have stolen their marriage, my <span class="pn">181</span>lady had been incensed beyond all means of reconcilement; <span class="pn">182</span>Millamant had forfeited the moiety of her fortune, which <span class="pn">183</span>then would have descended to my wife. And wherefore did <span class="pn">184</span>I marry, but to make lawful prize of a rich widow’s wealth, <span class="pn m5">185</span>and squander it on love and you?</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-186"><a class="pn " href="#l2-0-186">186</a>Deceit and frivolous pretense!</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-187"><a class="pn " href="#l2-0-187">187</a>Death, am I not married? What’s pretense? Am I not <span class="pn">188</span>imprisoned, fettered? Have I not a wife? Nay a wife that <span class="pn">189</span>was a window, a young widow, a handsome widow; and <span class="pn m5">190</span>would be again a widow, but that I have a heart of proof, <span class="pn">191</span>and something of a constitution to bustle through the ways of <span class="pn">192</span>wedlock and this world. Will you yet be reconciled to truth <span class="pn">193</span>and me?</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-194"><a class="pn " href="#l2-0-194">194</a>Impossible. Truth and you are inconsistent. I hate you, and <span class="pn m5">195</span>shall for ever.</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-196"><a class="pn " href="#l2-0-196">196</a>For loving you?</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-197"><a class="pn " href="#l2-0-197">197</a>I loathe the name of love after such usage; and next to the <span class="pn">198</span>guilt with which you would asperse me, I scorn you most. <span class="pn">199</span>Farewell!</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-200"><a class="pn m5" href="#l2-0-200">200</a>Nay, we must not part thus.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-201"><a class="pn " href="#l2-0-201">201</a>Let me go.</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-202"><a class="pn " href="#l2-0-202">202</a>Come, I’m sorry.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-203"><a class="pn " href="#l2-0-203">203</a>I care not, let me go. Break my hands, do! I’d leave ’em <span class="pn">204</span>to get loose.</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-205"><a class="pn m5" href="#l2-0-205">205</a>I would not hurt you for the world. Have I no other hold to <span class="pn">206</span>keep you here?</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-207"><a class="pn " href="#l2-0-207">207</a>Well, I have deserved it all.</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-208"><a class="pn " href="#l2-0-208">208</a>You know I love you.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-209"><a class="pn " href="#l2-0-209">209</a>Poor dissembling! Oh, that —Well, it is not yet—</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-210"><a class="pn m5" href="#l2-0-210">210</a>What? what is it not? What is it not yet? It is not yet too <span class="pn">211</span>late—</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-212"><a class="pn " href="#l2-0-212">212</a>No, it is not yet too late; I have that comfort.</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-213"><a class="pn " href="#l2-0-213">213</a>It is, to love another.</p>
+</div><div class="sp " data-who="Marwood">
+  <p class="spk ">
+    MRS. MARWOOD.
+  </p>
+  <p class="pr " id="l2-0-214"><a class="pn " href="#l2-0-214">214</a>But not to loathe, detest, abhor mankind, myself, and the <span class="pn m5">215</span>whole treacherous world.</p>
+</div><div class="sp " data-who="Fainall">
+  <p class="spk ">
+    FAINALL.
+  </p>
+  <p class="pr " id="l2-0-216"><a class="pn " href="#l2-0-216">216</a>Nay, this is extravagance. Come, I ask your pardon. No <span class="pn">217</span>tears. I was to blame; I could not love you and be easy in <span class="pn">218</span>my doubts. Pray, forbear. I believe you. I’m convinced I’ve <span class="pn">219</span>done you wrong; and any way, every way will make amends. <span class="pn m5">220</span>I’ll hate my wife yet more, damn her! I’ll part with her, rob <span class="pn">221</span>her of all she’s worth, and we’ll retire somewhere, anywhere, <span class="pn">222</span>to another world. I’ll marry thee; be pacified. ’Sdeath, they <span class="pn">223</span>come; hide your face, your tears. You have a mask; wear it <span class="pn">224</span>a moment. This way, this way. Be persuaded.</p>
+</div><p class="sd " id="l2-0-216-sd1">Exeunt.</p><p class="sd " id="l2-0-216-sd2">Enter Mirabell and Mrs. Fainall.</p><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-225"><a class="pn m5" href="#l2-0-225">225</a>They are here yet.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-226"><a class="pn " href="#l2-0-226">226</a>They are turning into the other walk.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-227"><a class="pn " href="#l2-0-227">227</a>While I only hated my husband, I could bear to see him; <span class="pn">228</span>but since I have despised him, he’s too offensive.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-229"><a class="pn " href="#l2-0-229">229</a>Oh, you should hate with prudence.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-230"><a class="pn m5" href="#l2-0-230">230</a>Yes, for I have loved with indiscretion.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-231"><a class="pn " href="#l2-0-231">231</a>You should have just so much disgust for your husband as <span class="pn">232</span>may be sufficient to make you relish your lover.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-233"><a class="pn " href="#l2-0-233">233</a>You have been the cause that I hate loved without bounds, <span class="pn">234</span>and would you set limits to that aversion of which you have <span class="pn m5">235</span>been the occasion? Why did you make me marry this man?</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-236"><a class="pn " href="#l2-0-236">236</a>Why do we daily commit disagreeable and dangerous <span class="pn">237</span>actions? To save that idol, reputation. If the familiarities <span class="pn">238</span>of our loves had produced that consequence of which you <span class="pn">239</span>were apprehensive, where could you have fixed a father’s <span class="pn m5">240</span>name with credit, but on a husband? I knew Fainall to be a <span class="pn">241</span>man lavish of his morals, an interested and professing friend, <span class="pn">242</span>a false and a designing lover; yet one whose wit and outward <span class="pn">243</span>fair behavior have gained a reputation with the town enough <span class="pn">244</span>to make that woman stand excused who has suffered herself <span class="pn m5">245</span>to be won by his addresses. A better man ought not to have <span class="pn">246</span>been sacrificed to the occasion; a worse had not answered to <span class="pn">247</span>the purpose. When you are weary of him, you know your <span class="pn">248</span>remedy.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-249"><a class="pn " href="#l2-0-249">249</a>I ought to stand in some degree of credit with you, <span class="pn m5">250</span>Mirabell.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-251"><a class="pn " href="#l2-0-251">251</a>In justice to you, I have made you privy to my whole design, <span class="pn">252</span>and put it in your power to ruin or advance my fortune.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-253"><a class="pn " href="#l2-0-253">253</a>Whom have you instructed to represent your pretended <span class="pn">254</span>uncle?</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-255"><a class="pn m5" href="#l2-0-255">255</a>Waitwell, my servant.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-256"><a class="pn " href="#l2-0-256">256</a>He is humble servant to Foible, my mother’s woman, <span class="pn">257</span>and may win her to your interest.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-258"><a class="pn " href="#l2-0-258">258</a>Care is taken for that. She is won and worn by this time. <span class="pn">259</span>They were married this morning.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-260"><a class="pn m5" href="#l2-0-260">260</a>Who?</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-261"><a class="pn " href="#l2-0-261">261</a>Waitwell and Foible. I would not tempt my servant to <span class="pn">262</span>betray me by trusting him too far. If your mother, in <span class="pn">263</span>hopes to ruin me, should consent to marry my pretended <span class="pn">264</span>uncle, he might, like Mosca in <em>The Fox</em>, stand upon terms; <span class="pn m5">265</span>so I made him sure beforehand.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-266"><a class="pn " href="#l2-0-266">266</a>So, if my poor mother is caught in a contract, you will <span class="pn">267</span>discover the imposture betimes, and release her by producing <span class="pn">268</span>a certificate of her gallant’s former marriage.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-269"><a class="pn " href="#l2-0-269">269</a>Yes, upon condition she consent to my marriage with her <span class="pn m5">270</span>niece, and surrender the moiety of her fortune in her <span class="pn">271</span>possession.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-272"><a class="pn " href="#l2-0-272">272</a>She talked last night of endeavoring at a match between <span class="pn">273</span>Millamant and your uncle.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-274"><a class="pn " href="#l2-0-274">274</a>That was by Foible’s direction, and my instruction, that <span class="pn m5">275</span>she might seem to carry it more privately.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-276"><a class="pn " href="#l2-0-276">276</a>Well, I have an opinion of your success, for I believe my <span class="pn">277</span>lady will do anything to get a husband; and when she has <span class="pn">278</span>this, which you have provided for her, I suppose she will <span class="pn">279</span>submit to anything to get rid of him.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-280"><a class="pn m5" href="#l2-0-280">280</a>Yes, I think the good lady would marry anything that <span class="pn">281</span>resembled a man, though ’twere no more than a butler <span class="pn">282</span>could pinch out of a napkin.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-283"><a class="pn " href="#l2-0-283">283</a>Female frailty! We must all come to it, if we live to be old <span class="pn">284</span>and feel the craving of a false appetite when the true is <span class="pn m5">285</span>decayed.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-286"><a class="pn " href="#l2-0-286">286</a>An old woman’s appetite is depraved like that of a girl. <span class="pn">287</span>’Tis the green sickness of a second childhood; and like the <span class="pn">288</span>faint offer of a latter spring, serves but to usher in the fall, <span class="pn">289</span>and withers in an affected bloom.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-290"><a class="pn m5" href="#l2-0-290">290</a>Here’s your mistress.</p>
+</div><p class="sd " id="l2-0-290-sd1">Enter Mrs. Millamant, Witwoud, and Mincing.</p><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-291"><a class="pn " href="#l2-0-291">291</a>Here she comes, i’faith, full sail, with her fan spread and <span class="pn">292</span>her streamers out, and a shoal of fools for tenders. Ha, <span class="pn">293</span>no, I cry her mercy!</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-294"><a class="pn " href="#l2-0-294">294</a>I see but one poor empty sculler; and he tows her woman <span class="pn m5">295</span>after him.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-296"><a class="pn " href="#l2-0-296">296</a>You seem to be unattended, madam. You used to have the <span class="pn">297</span>beau monde throng after you, and a flock of gay fine perukes <span class="pn">298</span>hovering round you.</p>
+</div><div class="sp " data-who="Witwoud">
+  <p class="spk ">
+    WITWOUD.
+  </p>
+  <p class="pr " id="l2-0-299"><a class="pn " href="#l2-0-299">299</a>Like moths about a candle. I had like to have lost my <span class="pn m5">300</span>comparison for want of breath.</p>
+</div><div class="sp " data-who="Millamant">
+  <p class="spk ">
+    MILLAMANT.
+  </p>
+  <p class="pr " id="l2-0-301"><a class="pn " href="#l2-0-301">301</a>Oh, I have denied myself airs today. I have walked as fast <span class="pn">302</span>through the crowd—</p>
+</div><div class="sp " data-who="Witwoud">
+  <p class="spk ">
+    WITWOUD.
+  </p>
+  <p class="pr " id="l2-0-303"><a class="pn " href="#l2-0-303">303</a>As a favorite in disgrace, and with as few followers.</p>
+</div><div class="sp " data-who="Millamant">
+  <p class="spk ">
+    MILLAMANT.
+  </p>
+  <p class="pr " id="l2-0-304"><a class="pn " href="#l2-0-304">304</a>Dear Mr. Witwoud, truce with your similitudes; for I am <span class="pn m5">305</span>as sick of ’em—</p>
+</div><div class="sp " data-who="Witwoud">
+  <p class="spk ">
+    WITWOUD.
+  </p>
+  <p class="pr " id="l2-0-306"><a class="pn " href="#l2-0-306">306</a>As a physician of a good air. I cannot help it, madam, <span class="pn">307</span>though ’tis against myself.</p>
+</div><div class="sp " data-who="Millamant">
+  <p class="spk ">
+    MILLAMANT.
+  </p>
+  <p class="pr " id="l2-0-308"><a class="pn " href="#l2-0-308">308</a>Yet again! Mincing, stand between me and his wit.</p>
+</div><div class="sp " data-who="Witwoud">
+  <p class="spk ">
+    WITWOUD.
+  </p>
+  <p class="pr " id="l2-0-309"><a class="pn " href="#l2-0-309">309</a>Do, Mrs. Mincing, like a screen before a great fire. I <span class="pn m5">310</span>confess I do blaze today; I am too bright.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-311"><a class="pn " href="#l2-0-311">311</a>But, dear Millamant, why were you so long?</p>
+</div><div class="sp " data-who="Millamant">
+  <p class="spk ">
+    MILLAMANT.
+  </p>
+  <p class="pr " id="l2-0-312"><a class="pn " href="#l2-0-312">312</a>Long! Lord, have I not made violent haste? I have asked <span class="pn">313</span>every living thing I met for you; I have inquired after <span class="pn">314</span>you, as after a new fashion.</p>
+</div><div class="sp " data-who="Witwoud">
+  <p class="spk ">
+    WITWOUD.
+  </p>
+  <p class="pr " id="l2-0-315"><a class="pn m5" href="#l2-0-315">315</a>Madam, truce with your similitudes. No, you met her <span class="pn">316</span>husband, and did not ask him for her.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-317"><a class="pn " href="#l2-0-317">317</a>By your leave, Witwoud, that were like inquiring after an <span class="pn">318</span>old fashion, to ask a husband for his wife.</p>
+</div><div class="sp " data-who="Witwoud">
+  <p class="spk ">
+    WITWOUD.
+  </p>
+  <p class="pr " id="l2-0-319"><a class="pn " href="#l2-0-319">319</a>Hum, a hit! a hit! a palpable hit! I confess it.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-320"><a class="pn m5" href="#l2-0-320">320</a>You were dressed before I came abroad.</p>
+</div><div class="sp " data-who="Millamant">
+  <p class="spk ">
+    MILLAMANT.
+  </p>
+  <p class="pr " id="l2-0-321"><a class="pn " href="#l2-0-321">321</a>Aye, that’s true. Oh, but then I had—Mincing, what had <span class="pn">322</span>I? Why was I so long?</p>
+</div><div class="sp " data-who="Mincing">
+  <p class="spk ">
+    MINCING.
+  </p>
+  <p class="pr " id="l2-0-323"><a class="pn " href="#l2-0-323">323</a>O mem, your la’ship stayed to peruse a pecquet of letters.</p>
+</div><div class="sp " data-who="Millamant">
+  <p class="spk ">
+    MILLAMANT.
+  </p>
+  <p class="pr " id="l2-0-324"><a class="pn " href="#l2-0-324">324</a>Oh, aye, letters; I had letters. I am persecuted with letters. <span class="pn m5">325</span>I hate letters. Nobody knows how to write letters; and yet <span class="pn">326</span>one has ’em, one does not know why. They serve one to pin <span class="pn">327</span>up one’s hair.</p>
+</div><div class="sp " data-who="Witwoud">
+  <p class="spk ">
+    WITWOUD.
+  </p>
+  <p class="pr " id="l2-0-328"><a class="pn " href="#l2-0-328">328</a>Is that the way? Pray, madam, do you pin up your hair with <span class="pn">329</span>all your letters? I find I must keep copies.</p>
+</div><div class="sp " data-who="Millamant">
+  <p class="spk ">
+    MILLAMANT.
+  </p>
+  <p class="pr " id="l2-0-330"><a class="pn m5" href="#l2-0-330">330</a>Only with those in verse, Mr. Witwoud. I never pin up my <span class="pn">331</span>hair with prose. I fancy one’s hair would not curl if it were <span class="pn">332</span>pinned up with prose. I think I tried once, Mincing.</p>
+</div><div class="sp " data-who="Mincing">
+  <p class="spk ">
+    MINCING.
+  </p>
+  <p class="pr " id="l2-0-333"><a class="pn " href="#l2-0-333">333</a>O mem, I shall never forget it.</p>
+</div><div class="sp " data-who="Millamant">
+  <p class="spk ">
+    MILLAMANT.
+  </p>
+  <p class="pr " id="l2-0-334"><a class="pn " href="#l2-0-334">334</a>Aye, poor Mincing tift and tift all the morning.</p>
+</div><div class="sp " data-who="Mincing">
+  <p class="spk ">
+    MINCING.
+  </p>
+  <p class="pr " id="l2-0-335"><a class="pn m5" href="#l2-0-335">335</a>’Till I had the cremp in my fingers, I’ll vow, mem. And <span class="pn">336</span>all to no purpose. But when your la’ship pins it up with <span class="pn">337</span>poetry, it sits so pleasant the next day as anything, and is so <span class="pn">338</span>pure and so crips.</p>
+</div><div class="sp " data-who="Witwoud">
+  <p class="spk ">
+    WITWOUD.
+  </p>
+  <p class="pr " id="l2-0-339"><a class="pn " href="#l2-0-339">339</a>Indeed, so crips?</p>
+</div><div class="sp " data-who="Mincing">
+  <p class="spk ">
+    MINCING.
+  </p>
+  <p class="pr " id="l2-0-340"><a class="pn m5" href="#l2-0-340">340</a>You’re such a critic, Mr. Witwoud.</p>
+</div><div class="sp " data-who="Millamant">
+  <p class="spk ">
+    MILLAMANT.
+  </p>
+  <p class="pr " id="l2-0-341"><a class="pn " href="#l2-0-341">341</a>Mirabell, did not you take exceptions last night? Oh, aye, <span class="pn">342</span>and went away. Now I think on’t, I’m angry. No, now I <span class="pn">343</span>think on’t, I’m pleased; for I believe I gave you some pain.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-344"><a class="pn " href="#l2-0-344">344</a>Does that please you?</p>
+</div><div class="sp " data-who="Millamant">
+  <p class="spk ">
+    MILLAMANT.
+  </p>
+  <p class="pr " id="l2-0-345"><a class="pn m5" href="#l2-0-345">345</a>Infinitely; I love to give pain.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-346"><a class="pn " href="#l2-0-346">346</a>You would affect a cruelty which is not in your nature; <span class="pn">347</span>your true vanity is in the power of pleasing.</p>
+</div><div class="sp " data-who="Millamant">
+  <p class="spk ">
+    MILLAMANT.
+  </p>
+  <p class="pr " id="l2-0-348"><a class="pn " href="#l2-0-348">348</a>Oh, I ask your pardon for that. One’s cruelty is one’s power; <span class="pn">349</span>and when one parts with one’s cruelty, one parts with <span class="pn m5">350</span>one’s power; and when one has parted with that, I fancy <span class="pn">351</span>one’s old and ugly.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-352"><a class="pn " href="#l2-0-352">352</a>Aye, aye, suffer your cruelty to ruin the object of your <span class="pn">353</span>power, to destroy your lover, and then how vain, how lost <span class="pn">354</span>a thing you’ll be! Nay, ’tis true: you are no longer handsome <span class="pn m5">355</span>when you’ve lost your lover; your beauty dies upon the <span class="pn">356</span>instant. For beauty is the lover’s gift; ’tis he bestows your <span class="pn">357</span>charms, your glass is all a cheat. The ugly and the old, whom <span class="pn">358</span>the looking glass mortifies, yet after commendation can be <span class="pn">359</span>flattered by it, and discover beauties in it; for that reflects <span class="pn m5">360</span>our praises, rather than your face.</p>
+</div><div class="sp " data-who="Millamant">
+  <p class="spk ">
+    MILLAMANT.
+  </p>
+  <p class="pr " id="l2-0-361"><a class="pn " href="#l2-0-361">361</a>Oh, the vanity of these men! Fainall, d’ye hear him? If <span class="pn">362</span>they did not commend us, we were not handsome! Now you <span class="pn">363</span>must know they could not commend one, if one was not <span class="pn">364</span>handsome. Beauty the lover’s gift! Lord, what is a lover, <span class="pn m5">365</span>that it can give? Why, one makes lovers as fast as one pleases, <span class="pn">366</span>and they live as long as one pleases, and they die as soon as <span class="pn">367</span>one pleases; and then, if one pleases, one makes more.</p>
+</div><div class="sp " data-who="Witwoud">
+  <p class="spk ">
+    WITWOUD.
+  </p>
+  <p class="pr " id="l2-0-368"><a class="pn " href="#l2-0-368">368</a>Very pretty. Why, you make no more of making of lovers, <span class="pn">369</span>madam, than of making so many card-matches.</p>
+</div><div class="sp " data-who="Millamant">
+  <p class="spk ">
+    MILLAMANT.
+  </p>
+  <p class="pr " id="l2-0-370"><a class="pn m5" href="#l2-0-370">370</a>One no more owes one’s beauty to a lover than one’s wit to <span class="pn">371</span>an echo. They can but reflect what we look and say; vain <span class="pn">372</span>empty things if we are silent or unseen, and want a being.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-373"><a class="pn " href="#l2-0-373">373</a>Yet to those two vain empty things you owe two [of] the <span class="pn">374</span>greatest pleasures of your life.</p>
+</div><div class="sp " data-who="Millamant">
+  <p class="spk ">
+    MILLAMANT.
+  </p>
+  <p class="pr " id="l2-0-375"><a class="pn m5" href="#l2-0-375">375</a>How so?</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-376"><a class="pn " href="#l2-0-376">376</a>To your lover you owe the pleasure of hearing yourselves <span class="pn">377</span>praised; and to an echo the pleasure of hearing yourselves <span class="pn">378</span>talk.</p>
+</div><div class="sp " data-who="Witwoud">
+  <p class="spk ">
+    WITWOUD.
+  </p>
+  <p class="pr " id="l2-0-379"><a class="pn " href="#l2-0-379">379</a>But I know a lady that loves talking so incessantly, she won’t <span class="pn m5">380</span>give an echo fair play; she has that everlasting rotation of <span class="pn">381</span>tongue, that an echo must wait till she dies, before it can <span class="pn">382</span>catch her last words.</p>
+</div><div class="sp " data-who="Millamant">
+  <p class="spk ">
+    MILLAMANT.
+  </p>
+  <p class="pr " id="l2-0-383"><a class="pn " href="#l2-0-383">383</a>Oh, fiction! Fainall, let us leave these men.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr as" id="l2-0-384"><a class="pn " href="#l2-0-384">384</a><span class="sdi">(Aside to Mrs. Fainall.)</span> Draw off Witwoud.</p>
+</div><div class="sp " data-who="Mrs_Fainall">
+  <p class="spk ">
+    MRS. FAINALL.
+  </p>
+  <p class="pr " id="l2-0-385"><a class="pn m5" href="#l2-0-385">385</a>Immediately. I have a word or two for Mr. Witwoud.</p>
+</div><p class="sd " id="l2-0-385-sd1">Exeunt Witwoud and Mrs. Fainall.</p><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-386"><a class="pn " href="#l2-0-386">386</a>I would beg a little private audience too. You had the <span class="pn">387</span>tyranny to deny me last night, though you knew I came to <span class="pn">388</span>impart a secret to you that concerned my love.</p>
+</div><div class="sp " data-who="Millamant">
+  <p class="spk ">
+    MILLAMANT.
+  </p>
+  <p class="pr " id="l2-0-389"><a class="pn " href="#l2-0-389">389</a>You saw I was engaged.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-390"><a class="pn m5" href="#l2-0-390">390</a>Unkind! You had the leisure to entertain a herd of fools; <span class="pn">391</span>things who visit you from their excessive idleness, bestowing <span class="pn">392</span>on your easiness that time which is the incumbrance of <span class="pn">393</span>their lives. How can you find delight in such society? It is <span class="pn">394</span>impossible they should admire you; they are not capable. <span class="pn m5">395</span>Or if they were, it should be to you as a mortification, for <span class="pn">396</span>sure to please a fool is some degree of folly.</p>
+</div><div class="sp " data-who="Millamant">
+  <p class="spk ">
+    MILLAMANT.
+  </p>
+  <p class="pr " id="l2-0-397"><a class="pn " href="#l2-0-397">397</a>I please myself. Besides, sometimes to converse with fools <span class="pn">398</span>is for my health.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-399"><a class="pn " href="#l2-0-399">399</a>You health! Is there a worse disease than the conversation <span class="pn m5">400</span>of fools?</p>
+</div><div class="sp " data-who="Millamant">
+  <p class="spk ">
+    MILLAMANT.
+  </p>
+  <p class="pr " id="l2-0-401"><a class="pn " href="#l2-0-401">401</a>Yes, the vapors; fools are physic for it, next to assafoetida.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-402"><a class="pn " href="#l2-0-402">402</a>You are not in a course of fools?</p>
+</div><div class="sp " data-who="Millamant">
+  <p class="spk ">
+    MILLAMANT.
+  </p>
+  <p class="pr " id="l2-0-403"><a class="pn " href="#l2-0-403">403</a>Mirabell, if you persist in this offensive freedom, you’ll <span class="pn">404</span>displeased me. I think I must resolve, after all, not to have <span class="pn m5">405</span>you; we shan’t agree.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-406"><a class="pn " href="#l2-0-406">406</a>Not in our physic, it may be.</p>
+</div><div class="sp " data-who="Millamant">
+  <p class="spk ">
+    MILLAMANT.
+  </p>
+  <p class="pr " id="l2-0-407"><a class="pn " href="#l2-0-407">407</a>And yet our distemper, in all likelihood, will be the same; <span class="pn">408</span>for we shall be sick of one another. I shan’t endure to be <span class="pn">409</span>reprimanded nor instructed; ’tis so dull to act always by <span class="pn m5">410</span>advice, and so tedious to be told of one’s faults—I can’t bear <span class="pn">411</span>it. Well, I won’t have you, Mirabell—I’m resolved—I think <span class="pn">412</span>—you may go. —Ha! ha! ha! What would you give that you <span class="pn">413</span>could help loving me?</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-414"><a class="pn " href="#l2-0-414">414</a>I would give something that you did not know I could not <span class="pn m5">415</span>help it.</p>
+</div><div class="sp " data-who="Millamant">
+  <p class="spk ">
+    MILLAMANT.
+  </p>
+  <p class="pr " id="l2-0-416"><a class="pn " href="#l2-0-416">416</a>Come, don’t look grave then. Well, what do you say to me?</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-417"><a class="pn " href="#l2-0-417">417</a>I say that a man may as soon make a friend by his wit, or a <span class="pn">418</span>fortune by his honesty, as win a woman with plain dealing <span class="pn">419</span>and sincerity.</p>
+</div><div class="sp " data-who="Millamant">
+  <p class="spk ">
+    MILLAMANT.
+  </p>
+  <p class="pr " id="l2-0-420"><a class="pn m5" href="#l2-0-420">420</a>Sententious Mirabell! Prithee, don’t look with that violent <span class="pn">421</span>and inflexible wise face, like Solomon at the dividing of the <span class="pn">422</span>child in an old tapestry hanging.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-423"><a class="pn " href="#l2-0-423">423</a>You are merry, madam, but I would persuade you for one <span class="pn">424</span>moment to be serious.</p>
+</div><div class="sp " data-who="Millamant">
+  <p class="spk ">
+    MILLAMANT.
+  </p>
+  <p class="pr " id="l2-0-425"><a class="pn m5" href="#l2-0-425">425</a>What, with that face? No, if you keep your countenance, <span class="pn">426</span>’tis impossible I should hold mine. Well, after all, there is <span class="pn">427</span>something very moving in a love-sick face. Ha! ha! ha! <span class="pn">428</span>—Well, I won’t laugh, don’t be peevish—Heighho! Now I’ll <span class="pn">429</span>be melancholy, as melancholy as a watch-light. Well, Mirabell, <span class="pn m5">430</span>if ever you will win me, woo me now. —Nay, if you are <span class="pn">431</span>so tedious, fare you well. —I see they are walking away.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-432"><a class="pn " href="#l2-0-432">432</a>Can you not find in the variety of your disposition one <span class="pn">433</span>moment—</p>
+</div><div class="sp " data-who="Millamant">
+  <p class="spk ">
+    MILLAMANT.
+  </p>
+  <p class="pr " id="l2-0-434"><a class="pn " href="#l2-0-434">434</a>To hear you tell me Foible’s married, and your plot like <span class="pn m5">435</span>to speed? —No.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-436"><a class="pn " href="#l2-0-436">436</a>But how came you to know it?</p>
+</div><div class="sp " data-who="Millamant">
+  <p class="spk ">
+    MILLAMANT.
+  </p>
+  <p class="pr " id="l2-0-437"><a class="pn " href="#l2-0-437">437</a>Unless by the help of the devil, you can’t imagine; unless <span class="pn">438</span>she should tell me herself. Which of the two it may have <span class="pn">439</span>been, I will leave you to consider; and when you have done <span class="pn m5">440</span>thinking of that, think of me.</p>
+</div><p class="sd " id="l2-0-437-sd1">Exit [with Mincing].</p><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-441"><a class="pn " href="#l2-0-441">441</a>I have something more—Gone! Think of you! To think of <span class="pn">442</span>a whirlwind, though ’twere in a whirlwind, were a case of <span class="pn">443</span>more steady contemplation; a very tranquility of mind and <span class="pn">444</span>mansion. A fellow that lives in a windmill has not a more <span class="pn m5">445</span>whimsical dwelling than the heart of a man that is lodged <span class="pn">446</span>in a woman. There is no point of the compass to which <span class="pn">447</span>they cannot turn, and by which they are not turned; and <span class="pn">448</span>by one as well as another, for motion, not method, is their <span class="pn">449</span>occupation. To know this, and yet continue to be in love, is <span class="pn m5">450</span>to be made wise from the dictates of reason, and yet per- <span class="pn">451</span>severe to play the fool by the force of instinct. —Oh, here <span class="pn">452</span>come my pair of turtles! —What, billing so sweetly! Is not <span class="pn">453</span>Valentine’s Day over with you yet? <span class="sdi">Enter Waitwell and Foible.</span> <span class="pn">454</span>Sirrah, Waitwell, why sure you think you were married for <span class="pn m5">455</span>your own recreation, and not for my conveniency.</p>
+</div><div class="sp " data-who="Waitwell">
+  <p class="spk ">
+    WAITWELL.
+  </p>
+  <p class="pr " id="l2-0-456"><a class="pn " href="#l2-0-456">456</a>Your pardon, sir. With submission, we have indeed been <span class="pn">457</span>solacing in lawful delights; but still with an eye to business, <span class="pn">458</span>sir. I have instructed her as well as I could. If she can <span class="pn">459</span>take your directions as readily as my instructions, sir, your <span class="pn m5">460</span>affairs are in a prosperous way.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-461"><a class="pn " href="#l2-0-461">461</a>Give you joy, Mrs. Foible.</p>
+</div><div class="sp " data-who="Foible">
+  <p class="spk ">
+    FOIBLE.
+  </p>
+  <p class="pr " id="l2-0-462"><a class="pn " href="#l2-0-462">462</a>O las, sir, I’m so ashamed! I’m afraid my lady has been in a <span class="pn">463</span>thousand inquietudes for me. But I protest, sir, I made as <span class="pn">464</span>much haste as I could.</p>
+</div><div class="sp " data-who="Waitwell">
+  <p class="spk ">
+    WAITWELL.
+  </p>
+  <p class="pr " id="l2-0-465"><a class="pn m5" href="#l2-0-465">465</a>That she did indeed, sir. It was my fault that she did not <span class="pn">466</span>make more.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-467"><a class="pn " href="#l2-0-467">467</a>That I believe.</p>
+</div><div class="sp " data-who="Foible">
+  <p class="spk ">
+    FOIBLE.
+  </p>
+  <p class="pr " id="l2-0-468"><a class="pn " href="#l2-0-468">468</a>But I told my lady as you instructed me, sir, that I had a <span class="pn">469</span>prospect of seeing Sir Rowland, your uncle; and that I would <span class="pn m5">470</span>put her ladyship’s picture in my pocket to show him, which <span class="pn">471</span>I’ll be sure to say has made him so enamored of her beauty, <span class="pn">472</span>that he burns with impatience to lie at her ladyship’s feet and <span class="pn">473</span>worship the original.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-474"><a class="pn " href="#l2-0-474">474</a>Excellent Foible! Matrimony has made you eloquent in <span class="pn m5">475</span>love.</p>
+</div><div class="sp " data-who="Waitwell">
+  <p class="spk ">
+    WAITWELL.
+  </p>
+  <p class="pr " id="l2-0-476"><a class="pn " href="#l2-0-476">476</a>I think she has profited, sir. I think so.</p>
+</div><div class="sp " data-who="Foible">
+  <p class="spk ">
+    FOIBLE.
+  </p>
+  <p class="pr " id="l2-0-477"><a class="pn " href="#l2-0-477">477</a>You have seen Madam Millamant, sir?</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-478"><a class="pn " href="#l2-0-478">478</a>Yes.</p>
+</div><div class="sp " data-who="Foible">
+  <p class="spk ">
+    FOIBLE.
+  </p>
+  <p class="pr " id="l2-0-479"><a class="pn " href="#l2-0-479">479</a>I told her, sir, because I did not know that you might find <span class="pn m5">480</span>an opportunity; she had so much company last night.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-481"><a class="pn " href="#l2-0-481">481</a>Your diligence will merit more. In the meantime—</p>
+</div><p class="sd " id="l2-0-481-sd1">Gives money.</p><div class="sp " data-who="Foible">
+  <p class="spk ">
+    FOIBLE.
+  </p>
+  <p class="pr " id="l2-0-482"><a class="pn " href="#l2-0-482">482</a>O dear sir, your humble servant.</p>
+</div><div class="sp " data-who="Waitwell">
+  <p class="spk ">
+    WAITWELL.
+  </p>
+  <p class="pr " id="l2-0-483"><a class="pn " href="#l2-0-483">483</a>Spouse.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-484"><a class="pn " href="#l2-0-484">484</a>Stand off, sir, not a penny! Go on and prosper, Foible; the <span class="pn m5">485</span>lease shall be made good and the farm stocked, if we <span class="pn">486</span>succeed.</p>
+</div><div class="sp " data-who="Foible">
+  <p class="spk ">
+    FOIBLE.
+  </p>
+  <p class="pr " id="l2-0-487"><a class="pn " href="#l2-0-487">487</a>I don’t question your generosity, sir; and you need not <span class="pn">488</span>doubt of success. If you have no more commands, sir, <span class="pn">489</span>I’ll be gone; I’m sure my lady is at her toilet and can’t dress <span class="pn m5">490</span>till I come. —Oh dear, I’m sure that <span class="sdi">( looking out)</span> was <span class="pn">491</span>Mrs. Marwood that went by in a mask; if she has seen me <span class="pn">492</span>with you I’m sure she’ll tell my lady. I’ll make haste <span class="pn">493</span>home and prevent her. Your servant, sir. B’w’y, Waitwell.</p>
+</div><p class="sd " id="l2-0-487-sd1">Exit.</p><div class="sp " data-who="Waitwell">
+  <p class="spk ">
+    WAITWELL.
+  </p>
+  <p class="pr " id="l2-0-494"><a class="pn " href="#l2-0-494">494</a>Sir Rowland, if you please. The jade’s so pert upon her <span class="pn m5">495</span>preferment she forgets herself.</p>
+</div><div class="sp " data-who="Mirabell">
+  <p class="spk ">
+    MIRABELL.
+  </p>
+  <p class="pr " id="l2-0-496"><a class="pn " href="#l2-0-496">496</a>Come, sir, will you endeavor to forget yourself, and trans- <span class="pn">497</span>form into Sir Rowland?</p>
+</div><div class="sp " data-who="Waitwell">
+  <p class="spk ">
+    WAITWELL.
+  </p>
+  <p class="pr " id="l2-0-498"><a class="pn " href="#l2-0-498">498</a>Why, sir, it will be impossible I should remember myself. <span class="pn">499</span>Married, knighted, and attended all in one day! ’Tis enough <span class="pn m5">500</span>to make any man forget himself. The difficulty will be how to <span class="pn">501</span>recover my acquaintance and familiarity with my former self, <span class="pn">502</span>and fall from my transformation to a reformation into <span class="pn">503</span>Waitwell. Nay, I shan’t be quite the same Waitwell neither; <span class="pn">504</span>for now I remember me, I am married and can’t be my own <span class="pn m5">505</span>man again.</p><div class="lg ">
+  
+  <div class="l " id="l2-0-506"><a class="n " href="#l2-0-506">506</a><span class="t">Aye, there’s the grief; that’s the sad change of life,</span></div><div class="l " id="l2-0-507"><a class="n " href="#l2-0-507">507</a><span class="t">To lose my title, and yet keep my wife.</span></div>
+</div>
+</div><p class="sd " id="l2-0-507-sd1">Exeunt.</p>
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-1.html" rel="prev">← [I]</a>
+  <a href="act-3.html" rel="next">[III] →</a>
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      <p>
+        Copyright 1965 by the University of Nebraska Press
+
+  
+
+      </p>
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

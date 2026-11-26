@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Act IV — Annabella (’Tis pity she’s a whore) — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">PERSONNAGES</a></li>
+      
+  
+    
+        <li>
+          <a href="act-1.html">
+            Act I
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html">
+            Act II
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            Act III
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-4.html" aria-current="page">
+            Act IV
+          </a>
+          <ul>
+            <li>
+              
+                  <a href="act-4.html#act-4-s1">
+                    ACTE QUATRIÈME
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-4.html#act-4-s2">
+                    SCÈNE PREMIÈRE
+                  </a>
+              
+            </li>
+          </ul>
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-5.html">
+            Act V
+          </a>
+          
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="P-">
+        FRÈRE BONAVENTURE
+      </option><option value="CARDI">
+        LE CARDINAL
+      </option><option value="SORAN">
+        SORANZO
+      </option><option value="FLORI">
+        FLORIO
+      </option><option value="DONAT">
+        DONADO
+      </option><option value="GIOVA">
+        GIOVANNI
+      </option><option value="GRIMA">
+        GRIMALDI
+      </option><option value="RICTT">
+        RICHARDETTO
+      </option><option value="VASQU">
+        VASQUES
+      </option><option value="ANNAB">
+        ANNABELLA
+      </option><option value="GOVERNANTE">
+        PUTANA
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="asm" aria-label="Resaltar apartes" data-en-aria-label="Highlight asides" data-tr>
+        <x-es>Apartes</x-es><x-en>Asides</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .aparte, .text .pr.as, .text .pr:not(.as) span.as" data-for="asm">
+  <button type="button" data-step="-1" aria-label="Aparte anterior" data-en-aria-label="Previous aside" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente aparte" data-en-aria-label="Next aside" data-tr>›</button>
+</div>
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">Maurice Maeterlinck</p>
+  <h1><a href="index.html">Annabella (’Tis pity she’s a whore)</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-3.html" rel="prev">← Act III</a>
+  <a href="act-5.html" rel="next">Act V →</a>
+</nav>
+  <div class="text" lang="fr" data-cite="Maurice Maeterlinck, Annabella (’Tis pity she’s a whore), Act IV" data-cite-verse="int." data-cite-prose="int.">
+    
+    <section class="division" id="act-4">
+  
+  
+  
+  
+    
+      <section id="act-4-s1">
+        <h3 class="scene-head">
+          ACTE QUATRIÈME
+        </h3>
+        <p class="sd " id="l297-sd2">Une chambre dans la maison de Soranzo.</p>
+      </section>
+    
+  
+    
+      <section id="act-4-s2">
+        <h3 class="scene-head">
+          SCÈNE PREMIÈRE
+        </h3>
+        <p class="sd " id="l297-sd3">Entre Soranzo à moitié dévêtu et traînant Annabella.</p><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l298"><a class="pn " href="#l298">298</a>Ici, catin, et illustre p.....!... Quand chaque goutte de sang qui coule dans tes veines adultères contiendrait une vie, cette épée ─ tu la vois? ─ d’un seul coup, elle les détruirait toutes... P...... rare, énorme p....., dont la face de bronze affirme le péché. N’y avait-il pas dans tout Parme un autre homme pour en faire ton... fallait-il que les chatouillements de tes désirs fussent... Et fallait-il me choisir pour masquer tes sales secrets at les jeux de ton ventre? Maintenant, c’est moi qui dois être le père de toute cette galimafrée qui bourre ces entrailles à bàtards pourris. Dis, est-ce moi?</p>
+</div><div class="sp " data-who="ANNAB">
+  <p class="spk ">
+    ANNABELLA.
+  </p>
+  <p class="pr " id="l299"><a class="pn " href="#l299">299</a>Brut! c’est votre destin... Ce n’est pas moi qui vous ai demandé. Si je n’avais pas craint que votre trop amoureuse seigneurie ne fût devenue folle à mon refus et si vous m’aviez laisse quelque temps, je vous aurais dit ce qu’il en était. Mais vous en vouliez faire à votre tête.</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l300"><a class="pn m5" href="#l300">300</a>P..... des p.....! Oses-tu me dire ça?...</p>
+</div><div class="sp " data-who="ANNAB">
+  <p class="spk ">
+    ANNABELLA.
+  </p>
+  <p class="pr " id="l301"><a class="pn " href="#l301">301</a>Oui; pourquoi pas?... Vous vous êtes trompé... ce n’est pas par amour que je vous ai pris, mais pour sauver mon honneur. Mais voyez: si vous voulez être patient et cacher votre déception, je pourrais voir si je ne puis pas vous aimer...</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l302"><a class="pn " href="#l302">302</a>Misérable! Quoi! n’es-tu pas grosse?</p>
+</div><div class="sp " data-who="ANNAB">
+  <p class="spk ">
+    ANNABELLA.
+  </p>
+  <p class="pr " id="l303"><a class="pn " href="#l303">303</a>Pourquoi tout ceci, lorsque c’est inutile. Eh bien! Oui, je suis enceinte.</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l304"><a class="pn " href="#l304">304</a>Qui l’a fait?...</p>
+</div><div class="sp " data-who="ANNAB">
+  <p class="spk ">
+    ANNABELLA.
+  </p>
+  <p class="pr " id="l305"><a class="pn m5" href="#l305">305</a>Doucement cela n’est pas dans mon contrat. ─ Cependant, monsieur, pour vous apaiser quelque peu, je veux bien vous dire quelque chose. L’homme, celui qui est plus qu’un homme et qui m’a fait ce garçon, car c’est un garçon, monsieur, et soyez-en heureux, c’est un garçon qui héritera de vous...</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l306"><a class="pn " href="#l306">306</a>Abominable monstre!</p>
+</div><div class="sp " data-who="ANNAB">
+  <p class="spk ">
+    ANNABELLA.
+  </p>
+  <p class="pr " id="l307"><a class="pn " href="#l307">307</a>Si vous n&#39;écoutez pas, moi, je ne parle plus.</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l308"><a class="pn " href="#l308">308</a>Oui, parle, et dis tes derniers mots...</p>
+</div><div class="sp " data-who="ANNAB">
+  <p class="spk ">
+    ANNABELLA.
+  </p>
+  <p class="pr " id="l309"><a class="pn " href="#l309">309</a>Accepté! accepté!... Cet homme était en toutes choses si semblable à un ange, et si beau, qu’une femme, si elle avait été un être supérieur à ce que j&#39;étais, moi, simple femme, fût tombée à genoux devant lui, eût mendié son amour... vous! mais vous n’êtes pas digne de prononcer une seule fois son nom sans le vénérer comme un Dieu, et vous ne pourriez pas l’entendre prononcer sans vous agenouiller!</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l310"><a class="pn m5" href="#l310">310</a>Comment se nomme-t-il?</p>
+</div><div class="sp " data-who="ANNAB">
+  <p class="spk ">
+    ANNABELLA.
+  </p>
+  <p class="pr " id="l311"><a class="pn " href="#l311">311</a>Nous n’y sommes pas encore. Qu’il vous suffise d’avoir l’honneur de servir de père à celui qu’un tel père a fait naitre. En un mot, si cela n’était pas arrivé ─ je n’aurais seulement pas remarqué que vous êtes un être vivant et si ce n’était pas que vous êtes mon mari ─ je ne le concevrais pas encore!...</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l312"><a class="pn " href="#l312">312</a>Son nom!</p>
+</div><div class="sp " data-who="ANNAB">
+  <p class="spk ">
+    ANNABELLA.
+  </p>
+  <p class="pr " id="l313"><a class="pn " href="#l313">313</a>Hélas! hélas! C’est tout. Voulez-vous m’en croire?</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l314"><a class="pn " href="#l314">314</a>Quoi?</p>
+</div><div class="sp " data-who="ANNAB">
+  <p class="spk ">
+    ANNABELLA.
+  </p>
+  <p class="pr " id="l315"><a class="pn m5" href="#l315">315</a>Vous ne le saurez jamais.</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l316"><a class="pn " href="#l316">316</a>Quoi?</p>
+</div><div class="sp " data-who="ANNAB">
+  <p class="spk ">
+    ANNABELLA.
+  </p>
+  <p class="pr " id="l317"><a class="pn " href="#l317">317</a>Jamais. Si je le dis que je sois à jamais damnée!</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l318"><a class="pn " href="#l318">318</a>Je ne le saurai pas, s...? Je t’ouvrirai le cœur et je l’y trouverai!...</p>
+</div><div class="sp " data-who="ANNAB">
+  <p class="spk ">
+    ANNABELLA.
+  </p>
+  <p class="pr " id="l319"><a class="pn " href="#l319">319</a>Faites, faites.</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l320"><a class="pn m5" href="#l320">320</a>Et de mes dents, et membre à membre j’écorcherai l’infâme.</p>
+</div><div class="sp " data-who="ANNAB">
+  <p class="spk ">
+    ANNABELLA.
+  </p>
+  <p class="pr " id="l321"><a class="pn " href="#l321">321</a>Ha! ha! le bonhomme est joyeux!</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l322"><a class="pn " href="#l322">322</a>Tu ris? tiens, p....., dis-moi le nom de ton amant. Je hacherai to chair. Qui est-ce?</p>
+</div><div class="sp " data-who="ANNAB">
+  <p class="spk ">
+    ANNABELLA.
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l323"><a class="n " href="#l323">323</a><span class="t"><span class="sdi">Chantant.</span> <em>Che morte più dolce che morire per amore?</em></span></div>
+</div>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l324"><a class="pn " href="#l324">324</a>Je trainerai par les cheveux, je trainerai dans la poussière ton corps couvert de lèpre et de luxure...</p>
+</div><p class="sd " id="l324-sd1">Il la tire en avant et en arrière.</p><div class="sp " data-who="ANNAB">
+  <p class="spk ">
+    ANNABELLA.
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l325"><a class="n m5" href="#l325">325</a><span class="t"><span class="sdi">Chantant.</span> <em>Morendo in grazia dee morire senza dolore.</em></span></div>
+</div>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l326"><a class="pn " href="#l326">326</a>Tu triomphes? Les trésors de la terre ne te rachèteraient pas. Il y aurait des rois agenouilles pour demander to vie, des anges descendraient et me prieraient en lames qu’ils ne prévaudraient pas contre ma rage. Tu ne trembles pas encore?</p>
+</div><div class="sp " data-who="ANNAB">
+  <p class="spk ">
+    ANNABELLA.
+  </p>
+  <p class="pr " id="l327"><a class="pn " href="#l327">327</a>Pourquoi? Mourir! Non, sois un galant bourreau. Je te défie! frappe, frappe au cœur. Je laisse une vengeance après moi et to l’éprouveras...</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l328"><a class="pn " href="#l328">328</a>Cependant, dis-moi avant de mourir, dis-moi sincèrement, ton vieux père savait-il tout ceci?</p>
+</div><div class="sp " data-who="ANNAB">
+  <p class="spk ">
+    ANNABELLA.
+  </p>
+  <p class="pr " id="l329"><a class="pn " href="#l329">329</a>Non ─ sur ma vie.</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l330"><a class="pn m5" href="#l330">330</a>Veux-tu avouer? je te laisse la vie...</p>
+</div><div class="sp " data-who="ANNAB">
+  <p class="spk ">
+    ANNABELLA.
+  </p>
+  <p class="pr " id="l331"><a class="pn " href="#l331">331</a>La vie? Je ne veux pas l&#39;acheter à ce prix.</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l332"><a class="pn " href="#l332">332</a>Alors ma vengeance n’attend plus.</p>
+</div><p class="sd " id="l332-sd1">Il tire son épée.</p><p class="sd " id="l332-sd2">Entre Vasques.</p><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l333"><a class="pn " href="#l333">333</a>Que faites-vous, monsieur?</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l334"><a class="pn " href="#l334">334</a>Laisse-moi, Vasques, une pareille p..... ne mérite pas de pitié.</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l335"><a class="pn m5" href="#l335">335</a>Pour Dieu! Voulez-vous être son bourreau et la tuer dans votre rage? Ce ne serait pas digne d’un homme. Elle est votre femme. Ce qu’elle a fait avant son mariage elle ne l’a pas fait contre vous. Hélas! la pauvre dame! qu’a-t-elle fait que n’eût fait à sa place toute autre femme en Italie? Monsieur, il faut vous laisser guider par votre raison et non par votre colère. Ce serait inhumain.</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l336"><a class="pn " href="#l336">336</a>Elle ne vivra pas.</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l337"><a class="pn " href="#l337">337</a>Si, si, il le faut. Vous voudriez qu’elle vous dise qui l’a mise dans cet état? Je vous jure que c’est une question indiscrète. Et elle perdrait toute mon estime si elle vous répondait. Mais, monsieur, c’est vous surtout, qui devez l’ignorer!... Mon bon monsieur, faites votre paix avec elle, hélas! la pauvre femme!</p>
+</div><div class="sp " data-who="ANNAB">
+  <p class="spk ">
+    ANNABELLA.
+  </p>
+  <p class="pr " id="l338"><a class="pn " href="#l338">338</a>Je vous en prie, n’implorez pas pour moi. Je ne tiens pas à la vie. ─ S’il veut faire une folie, qu’il la fasse.</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l339"><a class="pn " href="#l339">339</a>Tu l’entends, Vasques?</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l340"><a class="pn m5" href="#l340">340</a>Oui, et je l’approuve. Elle montre la noblesse d’une belle âme. Et, dites-en ce que vous voudrez ─ cela lui va bien. ─ <span class="sdi">(Bas à Soranzo.)</span> Monsieur, en tout cas retardez un peu votre vengeance, laissez-moi découvrir la piste, laissez-moi faire, si vous tenez à votre honneur, sinon vous gâterez tout. <span class="sdi">(Haut.)</span> Monsieur, si jamais j’ai pu vous rendre quelque service, je vous en prie, ne soyez pas si violent dans vos emportements. Vous êtes marié. Quel triomphe, s’ils apprenaient la chose. Quel triomphe pour les prétendants évincés! Il faut supporter ces malheurs comme un homme ou les pardonner comme un Dieu.</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l341"><a class="pn " href="#l341">341</a>O Vasques, Vasques! En cette chair, en ce visage sans foi, j’avais mis tous les frissons de mon cœur! Si tu avais été fidèle, belle et coupable femme, les joies sans égales du ciel même, ne m&#39;eussent pas fait souhaiter de vivre avec une autre sainte que toi! Perfide créature! Comme tu as bafoué mon espoir, et comme tu m’as enseveli vivant dans la honte de ton sexe impudique! Je t&#39;ai trop tendrement aimée!...</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l342"><a class="pn " href="#l342">342</a><span class="sdi">Bas à Soranzo.</span> Voilà qui est bien. Continuez dans ce genre, soyez bref et troublant, c’est ce qu’il faut.</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l343"><a class="pn " href="#l343">343</a>Que ton âme et tes pensées soient témoins de mes paroles, et dis-moi, si dans ton cœur tu n’as pas cru que je t’adorais trop dévotieusement?</p>
+</div><div class="sp " data-who="ANNAB">
+  <p class="spk ">
+    ANNABELLA.
+  </p>
+  <p class="pr " id="l344"><a class="pn " href="#l344">344</a>Je dois avouer que je sais que vous m’avez profondément aimée.</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l345"><a class="pn m5" href="#l345">345</a>Et tu m’as traité de la sorte! O Annabella, sache bien, que quel que soit le misérable qui t’a fait descendre où tu es, il a pu te désirer, mais il ne t’a jamais aimée comme je t’ai aimée. Il a aimé ce qu’il a vu sur ton visage, mais il n’a pas aimé ce que j&#39;ai adore, ton cœur, et ce que j’ai cru tes vertus...</p>
+</div><div class="sp " data-who="ANNAB">
+  <p class="spk ">
+    ANNABELLA.
+  </p>
+  <p class="pr " id="l346"><a class="pn " href="#l346">346</a>Seigneur, ces paroles font saigner plus que votre épée...</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l347"><a class="pn " href="#l347">347</a>Le diable m’emporte, mais moi-même je commence à pleurer tant j’ai pitié de lui. Voilà, madame, je savais bien que sa colère passée nous en viendrions là...</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l348"><a class="pn " href="#l348">348</a>Pardonne-moi, Annabella. ─ Bien que ta jeunesse tentée au-dessus de ses forces t’ait fait faire cette folie, je ne veux pas oublier ce que je dois être et ce que je suis, ─un époux. Il y a quelque chose de divin dans ce nom. Si je vois que dorénavant tu veux m’être fidèle, je te pardonne toutes tes fautes, et te demande de venir dans mes bras...</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l349"><a class="pn " href="#l349">349</a>Voilà qui est d’une noble charité.</p>
+</div><div class="sp " data-who="ANNAB">
+  <p class="spk ">
+    ANNABELLA.
+  </p>
+  <p class="pr " id="l350"><a class="pn m5" href="#l350">350</a>Seigneur, sur mes genoux...</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l351"><a class="pn " href="#l351">351</a>Lève-toi, ne t’agenouille pas. Rentre dans ta chambre. Qu’on ne s’aperçoive de rien. J’irai t’y rejoindre a l’instant. Je sais que la femme est bien faible. Rentre dans ta chambre...</p>
+</div><p class="sd " id="l351-sd1">Annabella sort.</p><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l352"><a class="pn " href="#l352">352</a>Voilà qui est bien. ─ Monsieur, que dites-vous maintenant de votre paradis de joie?</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l353"><a class="pn " href="#l353">353</a>J’ai l&#39;enfer dans le cœur, et la vengeance bouillonne dans mon sang.</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l354"><a class="pn " href="#l354">354</a>C’est possible, mais savez-vous comment la satisfaire et sur qui elle tombera?</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l355"><a class="pn m5" href="#l355">355</a>Je le lui ferai avouer, ou bien...</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l356"><a class="pn " href="#l356">356</a>Ou bien quoi? Ce n’est pas cela ─ laissez-moi vous prêcher la patience. Allez la retrouver ─ prêchez-la doucement. Amenez-la, si c’est possible à la soumission et aux larmes. Quant au reste, si tout va bien, je m’en charge. Je vous en prie, allez-y. Je ne tarderai pas à vous annoncer des miracles.</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l357"><a class="pn " href="#l357">357</a>Une vengeance retardée n’en est que plus cruelle.</p>
+</div><p class="sd " id="l357-sd1">II sort.</p><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l358"><a class="pn " href="#l358">358</a>Ah! coquine, voilà de la besogne! ─ J’avais déjà des soupçons, il y a quelque temps. Mais après avoir vu les regards dédaigneux de ma maitresse, son irritabilité et ses hauts cris de mécontentement à tout ce qu’elle voyait ici, je me suis rappelé le proverbe qui dit que « les maisons où les poules chantent et les coqs se taisent, sont de tristes maisons ». Doucement!... Si l’art d’une tailleuse peut cacher ces choses, je ne blâmerai jamais... Si vite!... l’art serait de découvrir qui l’a fait. J’y ai songé... <span class="sdi">(Entre Putana.)</span><br>et voici la voie s’il en est une. Quoi, des cris ma bonne vieille? ─ Hélas! hélas! Je ne vous le reproche pas ─ nous avons un maitre, ─ le ciel nous aide ─ qui est aussi fou que le diable lui-même. Tant pis pour lui...</p>
+</div><div class="sp " data-who="GOVERNANTE">
+  <p class="spk ">
+    PUTANA.
+  </p>
+  <p class="pr " id="l359"><a class="pn " href="#l359">359</a>O Vasques, être née pour voir ces choses! ─Te traite-t-il aussi de la sorte, Vasques?</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l360"><a class="pn m5" href="#l360">360</a>Moi? Il me traite comme un chien. Mais si quelqu’un était de mon avis, je sais bien ce que je ferais. Aussi vrai que je suis un honnête homme, il va tuer un de ces jours notre maitresse. Admettons qu’elle soit grosse. Est-ce là un crime qu’il faille reprocher ainsi à une femme de son âge?</p>
+</div><div class="sp " data-who="GOVERNANTE">
+  <p class="spk ">
+    PUTANA.
+  </p>
+  <p class="pr " id="l361"><a class="pn " href="#l361">361</a>Hélas! mon brave ami, c’est sans qu’elle l’ait voulu, bien sûr.</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l362"><a class="pn " href="#l362">362</a>Je parie que toute sa rage vient de ce qu’elle ne veut pas dire qui a fait la chose. Il le veut savoir et quand il le saura, je le connais assez pour savoir qu’il l&#39;oubliera tout de suite, je voudrais qu’elle le lui avouât simplement, voilà le moyen.</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l363"><a class="pn " href="#l363">363</a>J’en suis sûr. Pourvu qu’il n’ait pas dû lui arracher l’aveu. Il s’est imaginé un moment que vous pouviez tout dire et il voulait vous y forcer. Mais je suis parvenu à to calmer un peu. Cependant, je suis sûr que vous on savez long...</p>
+</div><div class="sp " data-who="GOVERNANTE">
+  <p class="spk ">
+    PUTANA.
+  </p>
+  <p class="pr " id="l364"><a class="pn " href="#l364">364</a>Que le ciel nous pardonne! Je sais quelque chose, Vasques.</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l365"><a class="pn m5" href="#l365">365</a>Pourquoi pas. Quel autre le saurait? Elle vous aime tendrement et je suis sûr que vous ne voudriez pas lui causer le moindre chagrin.</p>
+</div><div class="sp " data-who="GOVERNANTE">
+  <p class="spk ">
+    PUTANA.
+  </p>
+  <p class="pr " id="l366"><a class="pn " href="#l366">366</a>Pas pour tout l’or du monde, Vasques.</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l367"><a class="pn " href="#l367">367</a>Ce serait bien mal. Mais ici, vous pourriez soulager sa douleur, apaiser mon maître et en même temps y trouver plus d’un avantage pour vous-même.</p>
+</div><div class="sp " data-who="GOVERNANTE">
+  <p class="spk ">
+    PUTANA.
+  </p>
+  <p class="pr " id="l368"><a class="pn " href="#l368">368</a>Vous croyez, Vasques?</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l369"><a class="pn " href="#l369">369</a>J’en suis sûr. C’était évidemment quelque ami intime?</p>
+</div><div class="sp " data-who="GOVERNANTE">
+  <p class="spk ">
+    PUTANA.
+  </p>
+  <p class="pr " id="l370"><a class="pn m5" href="#l370">370</a>Un ami très intime en effet.</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l371"><a class="pn " href="#l371">371</a>Mais qui? ne craignez pas de le nommer. Je mets ma vie entre vous et tout ce qui pourrait vous arriver. Je crois que ce n’était pas le premier venu.</p>
+</div><div class="sp " data-who="GOVERNANTE">
+  <p class="spk ">
+    PUTANA.
+  </p>
+  <p class="pr " id="l372"><a class="pn " href="#l372">372</a>Vous prenez tout sur vous?</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l373"><a class="pn " href="#l373">373</a>Comment donc! Vous serez récompensée par dessus le marché.</p>
+</div><div class="sp " data-who="GOVERNANTE">
+  <p class="spk ">
+    PUTANA.
+  </p>
+  <p class="pr " id="l374"><a class="pn " href="#l374">374</a>C’est tout simplement son frère.</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l375"><a class="pn m5" href="#l375">375</a>Son frère Giovanni, je parie?</p>
+</div><div class="sp " data-who="GOVERNANTE">
+  <p class="spk ">
+    PUTANA.
+  </p>
+  <p class="pr " id="l376"><a class="pn " href="#l376">376</a>Lui-même, Vasques. Le plus galant gentilhomme qu’une dame ait jamais embrassé. Oh! ils s’aiment pour l&#39;éternité.</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l377"><a class="pn " href="#l377">377</a>Un galant gentilhomme en effet! ─ Oh! mais elle a bon goût. <span class="sdi">(À part.)</span> <span class="as">De mieux en mieux.</span> Vous êtes sûre que c’est lui?<br>Tout à fait sûre. Vous verrez qu’il ne restera pas longtemps sans la voir.</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l378"><a class="pn " href="#l378">378</a>Il aurait tort d’ailleurs. Mais je puis vous en croire?</p>
+</div><div class="sp " data-who="GOVERNANTE">
+  <p class="spk ">
+    PUTANA.
+  </p>
+  <p class="pr " id="l379"><a class="pn " href="#l379">379</a>M’en croire? Me prenez-vous pour un Turc ou un Juif. Je les ai vus à l’œuvre trop longtemps pour en douter...</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l380"><a class="pn m5" href="#l380">380</a><span class="sdi">Appelant à la porte.</span> Où êtes-vous, vous autres, entrez!</p>
+</div><p class="sd " id="l380-sd1">Entrent des domestiques.</p><div class="sp " data-who="GOVERNANTE">
+  <p class="spk ">
+    PUTANA.
+  </p>
+  <p class="pr " id="l381"><a class="pn " href="#l381">381</a>Ah! qu’est-ce que c’est?</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l382"><a class="pn " href="#l382">382</a>Vous le saurez tout de suite. Entrez, messieurs, empoignez-moi cette vieille sorcière, bâillonnez-la à l’instant et crevez-lui les yeux. Vite, vite.</p>
+</div><div class="sp " data-who="GOVERNANTE">
+  <p class="spk ">
+    PUTANA.
+  </p>
+  <p class="pr " id="l383"><a class="pn " href="#l383">383</a>Vasques! Vasques!</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l384"><a class="pn " href="#l384">384</a>Bâillonez-la, je vous dis. Voulez-vous qu’elle piaille? Que cherchez-vous? Je vais moi-même... Je vais aider vos vieilles gencives, ma biche au ventre de crapaud. <span class="sdi">(Ils la bâillonnent.)</span> Messieurs, descendez-la à la cave aux charbons, crevez-lui les yeux et si elle crie, fendez-lui le nez. Avez-vous compris? Faites vite at bien. <span class="sdi">(Sortent les domestiques emportant Putana.)</span><br>Voilà qui est excellent at inattendu. Son propre frère! Abominable! A quels crimes extraordinaires le diable n’a-t-il pas entrainé notre siècle! Son frère! c’est bien. Ceci n’est qu&#39;un commencement. Il faut que j’aille trouver mon maître et lui donne de meilleurs conseils au sujet de sa vengeance. Mais doucement. Qui est-ce qui vient? ─ Giovanni! ─ A souhait. Ma conviction est faits et aussi inébranlable que l’hiver ou l’été.</p>
+</div><p class="sd " id="l384-sd1">Entre Giovanni.</p><div class="sp " data-who="GIOVA">
+  <p class="spk ">
+    GIOVANNI.
+  </p>
+  <p class="pr " id="l385"><a class="pn m5" href="#l385">385</a>Où est ma sœur?</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l386"><a class="pn " href="#l386">386</a>Elle a eu une nouvelle crise, monsieur, elle est quelque peu malade.</p>
+</div><div class="sp " data-who="GIOVA">
+  <p class="spk ">
+    GIOVANNI.
+  </p>
+  <p class="pr " id="l387"><a class="pn " href="#l387">387</a>Elle a mangé trop de viande, je suppose.</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l388"><a class="pn " href="#l388">388</a>En effet, monsieur, je crois que vous le savez, mais ma vertueuse maîtresse...</p>
+</div><div class="sp " data-who="GIOVA">
+  <p class="spk ">
+    GIOVANNI.
+  </p>
+  <p class="pr " id="l389"><a class="pn " href="#l389">389</a>Où est-elle?</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l390"><a class="pn m5" href="#l390">390</a>Dans sa chambre. Allez la voir. Elle est seule. <span class="sdi">(Giovanni lui donne de l’argent.)</span> Votre générosité m’a fait deux fois votre serviteur at je le serai toujours, toujours. <span class="sdi">(Giovanni sort.)</span> <span class="sdi">(Rentre Soranzo.)</span><br>Monsieur, j’ai mérité d’être appelé un homme et j’ai bien dirige ma barque. Je voudrais vous parler en secret.</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l391"><a class="pn " href="#l391">391</a>Le frère de ma femme est venu. Il saura tout.</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l392"><a class="pn " href="#l392">392</a>Il peut savoir... J’ai mis quelqu’un en lieu sûr. Comment avez-vous traits ma maîtresse?</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l393"><a class="pn " href="#l393">393</a>Doucement, comme to me l’avais conseillé. Oh! mon âme rôde en cercle dans sa douleur à la recherche de sa vengeance, mais Vasques, tu sauras...</p>
+</div><div class="sp " data-who="VASQU">
+  <p class="spk ">
+    VASQUES.
+  </p>
+  <p class="pr " id="l394"><a class="pn " href="#l394">394</a>Non, je n’en veux pas savoir davantage. C’est à vous de savoir maintenant, mais je ne veux pas vous an parler ici.</p>
+</div><div class="sp " data-who="SORAN">
+  <p class="spk ">
+    SORANZO.
+  </p>
+  <p class="pr " id="l395"><a class="pn m5" href="#l395">395</a>Rien ne pourra se vanter de m’avoir fait trembler.</p>
+</div><p class="sd " id="l395-sd1">Ils sortent.</p><p class="sd " id="l395-sd2">Rideau.</p>
+      </section>
+    
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-3.html" rel="prev">← Act III</a>
+  <a href="act-5.html" rel="next">Act V →</a>
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

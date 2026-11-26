@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>[Induction] — The Knight of the Burning Pestle — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">THE SPEAKER’S NAMES</a></li>
+      
+  
+    
+        <li>
+          <a href="induction.html" aria-current="page">
+            [Induction]
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-1.html">
+            Act I
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="interlude.html">
+            [Interlude 1]
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html">
+            Act II
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="interlude-2.html">
+            [Interlude 2]
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            Act III
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="interlude-3.html">
+            [Interlude 3]
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-4.html">
+            Act IV
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="interlude-4.html">
+            [Interlude 4]
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-5.html">
+            Act V
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="epilogue.html">
+            Epilogus
+          </a>
+          
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a href="index.html#performances"><x-es>Representaciones</x-es><x-en>Performances</x-en></a>
+  </li>
+  <li>
+    <a href="index.html#bibliography"><x-es>Bibliografía</x-es><x-en>Bibliography</x-en></a>
+  </li>
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="Prologue">
+        Prologue
+      </option><option value="Citizen">
+        Then a Citizen
+      </option><option value="Wife">
+        The citizen’s Wife
+      </option><option value="Rafe">
+        And Rafe
+      </option><option value="Merchant">
+        A rich Merchant
+      </option><option value="Jasper">
+        Jasper
+      </option><option value="Humphrey">
+        Master Humphrey
+      </option><option value="Luce">
+        Luce
+      </option><option value="Ms_Merrythought">
+        Mistress Merrythought
+      </option><option value="Michael">
+        Michael
+      </option><option value="Merrythought">
+        Old Master Merrythought
+      </option><option value="Tim_Squire">
+        [Tim,] a squire
+      </option><option value="George_Dwarf">
+        [George,] a dwarf
+      </option><option value="Tapster">
+        A Tapster
+      </option><option value="Boy_dancer">
+        A Boy that dances and sings
+      </option><option value="Host">
+        An Host
+      </option><option value="Barber">
+        A Barber
+      </option><option value="Knights">
+        Three [captive] Knights
+      </option><option value="Woman">
+        [Captive Woman]
+      </option><option value="Sergeant">
+        A Sergeant
+      </option><option value="Soldiers">
+        Soldiers
+      </option><option value="Boy">
+        [ A Boy
+      </option><option value="jasper-boy">
+        Jasper’s Boy
+      </option><option value="Boy_1">
+        1 Boy
+      </option><option value="Boy_2">
+        2 Boy
+      </option><option value="Servant">
+        A Servant
+      </option><option value="Boy-Merchant">
+        A Boy
+      </option><option value="Hammerton">
+        William Hammerton
+      </option><option value="Greengoose">
+        George Greengoose
+      </option><option value="Lady">
+        Lady Pompiona
+      </option><option value="coffin-carriers">
+        Coffin-carriers
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">Francis Beaumont</p>
+  <h1><a href="index.html">The Knight of the Burning Pestle</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  
+  <a href="act-1.html" rel="next">Act I →</a>
+</nav>
+  <div class="text" lang="en" data-cite="Francis Beaumont, The Knight of the Burning Pestle, [Induction]" data-cite-verse="v." data-cite-prose="l.">
+    
+    <section class="division" id="induction">
+  <h2 class="act-head">
+    [Induction]
+  </h2>
+  
+  <p class="sd " id="linduction-0-sd1">[Several Gentlemen sitting on stools upon the stage; the Citizen, his Wife, and Rafe sitting below among the audience.]</p><p class="sd " id="linduction-0-sd2">Enter Prologue.</p><div class="sp " data-who="Prologue">
+  <p class="spk ">
+    [Prologue]
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="linduction-0-1"><a class="n " href="#linduction-0-1">1</a><span class="t">From all that&#39;s near the court, from all that&#39;s great</span></div><div class="l " id="linduction-0-2"><a class="n " href="#linduction-0-2">2</a><span class="t">Within the compass of the city walls,</span></div><div class="l " id="linduction-0-3"><a class="n " href="#linduction-0-3">3</a><span class="t">We now have brought our scene —</span></div>
+</div>
+</div><p class="sd " id="linduction-0-3-sd1">Enter Citizen[, climbing to the stage].</p><div class="sp " data-who="Citizen">
+  <p class="spk ">
+    Citizen
+  </p>
+  <p class="pr " id="linduction-0-4"><a class="pn " href="#linduction-0-4">4</a>Hold your peace, goodman boy.</p>
+</div><div class="sp " data-who="Prologue">
+  <p class="spk ">
+    Prologue
+  </p>
+  <p class="pr " id="linduction-0-5"><a class="pn m5" href="#linduction-0-5">5</a>What do you mean, sir?</p>
+</div><div class="sp " data-who="Citizen">
+  <p class="spk ">
+    Citizen
+  </p>
+  <p class="pr " id="linduction-0-6"><a class="pn " href="#linduction-0-6">6</a>That you have no good meaning. This seven years there hath been plays at this house, I have observed it, you have still girds at citizens; and now you call your play <em>The London Merchant</em>. Down with your title, boy, down with your title.</p>
+</div><div class="sp " data-who="Prologue">
+  <p class="spk ">
+    Prologue
+  </p>
+  <p class="pr " id="linduction-0-7"><a class="pn " href="#linduction-0-7">7</a>Are you a member of the noble city?</p>
+</div><div class="sp " data-who="Citizen">
+  <p class="spk ">
+    Citizen
+  </p>
+  <p class="pr " id="linduction-0-8"><a class="pn " href="#linduction-0-8">8</a>I am.</p>
+</div><div class="sp " data-who="Prologue">
+  <p class="spk ">
+    Prologue
+  </p>
+  <p class="pr " id="linduction-0-9"><a class="pn " href="#linduction-0-9">9</a>And a freeman?</p>
+</div><div class="sp " data-who="Citizen">
+  <p class="spk ">
+    Citizen
+  </p>
+  <p class="pr " id="linduction-0-10"><a class="pn m5" href="#linduction-0-10">10</a>Yea, and a grocer.</p>
+</div><div class="sp " data-who="Prologue">
+  <p class="spk ">
+    Prologue
+  </p>
+  <p class="pr " id="linduction-0-11"><a class="pn " href="#linduction-0-11">11</a>So, grocer, then, by your sweet favour, we intend no abuse to the city.</p>
+</div><div class="sp " data-who="Citizen">
+  <p class="spk ">
+    Citizen
+  </p>
+  <p class="pr " id="linduction-0-12"><a class="pn " href="#linduction-0-12">12</a>No, sir? yes, sir. If you were not resolved to play the jacks, what need you study for new subjects, purposely to abuse your betters? Why could not you be contented, as well as others, with <em>The Legend of Whittington</em>, or <em>The Life and Death of Sir Thomas Gresham, with the Building of the Royal Exchange</em>? or <em>The Story of Queen Eleanor, with the Rearing of London Bridge upon Woolsacks</em>?</p>
+</div><div class="sp " data-who="Prologue">
+  <p class="spk ">
+    Prologue
+  </p>
+  <p class="pr " id="linduction-0-13"><a class="pn " href="#linduction-0-13">13</a>You seem to be an understanding man. What would you have us do, sir?</p>
+</div><div class="sp " data-who="Citizen">
+  <p class="spk ">
+    Citizen
+  </p>
+  <p class="pr " id="linduction-0-14"><a class="pn " href="#linduction-0-14">14</a>Why, present something notably in honor of the commons of the city.</p>
+</div><div class="sp " data-who="Prologue">
+  <p class="spk ">
+    Prologue
+  </p>
+  <p class="pr " id="linduction-0-15"><a class="pn m5" href="#linduction-0-15">15</a>Why, what do you say to <em>The Life and Death of Fat Drake, or the Repairing of Fleet Privies</em>?</p>
+</div><div class="sp " data-who="Citizen">
+  <p class="spk ">
+    Citizen
+  </p>
+  <p class="pr " id="linduction-0-16"><a class="pn " href="#linduction-0-16">16</a>I do not like that, but I will have a citizen, and he shall be of my own trade.</p>
+</div><div class="sp " data-who="Prologue">
+  <p class="spk ">
+    Prologue
+  </p>
+  <p class="pr " id="linduction-0-17"><a class="pn " href="#linduction-0-17">17</a>Oh, you should have told us your mind a month since. Our play is ready to begin now.</p>
+</div><div class="sp " data-who="Citizen">
+  <p class="spk ">
+    Citizen
+  </p>
+  <p class="pr " id="linduction-0-18"><a class="pn " href="#linduction-0-18">18</a>&#39;Tis all one for that. I will have a grocer, and he shall do admirable things.</p>
+</div><div class="sp " data-who="Prologue">
+  <p class="spk ">
+    Prologue
+  </p>
+  <p class="pr " id="linduction-0-19"><a class="pn " href="#linduction-0-19">19</a>What will you have him do?</p>
+</div><div class="sp " data-who="Citizen">
+  <p class="spk ">
+    Citizen
+  </p>
+  <p class="pr " id="linduction-0-20"><a class="pn m5" href="#linduction-0-20">20</a>Marry, I will have him —</p>
+</div><div class="sp " data-who="Wife">
+  <p class="spk ">
+    Wife
+  </p>
+  <p class="pr " id="linduction-0-21"><a class="pn " href="#linduction-0-21">21</a><span class="sdi">(below)</span> Husband, husband.</p>
+</div><div class="sp " data-who="Rafe">
+  <p class="spk ">
+    Rafe
+  </p>
+  <p class="pr " id="linduction-0-22"><a class="pn " href="#linduction-0-22">22</a><span class="sdi">(below)</span> Peace, Mistress.</p>
+</div><div class="sp " data-who="Wife">
+  <p class="spk ">
+    Wife
+  </p>
+  <p class="pr " id="linduction-0-23"><a class="pn " href="#linduction-0-23">23</a><span class="sdi">[below]</span> Hold thy peace, Rafe. I know what I do, I warrant thee. — Husband, husband.</p>
+</div><div class="sp " data-who="Citizen">
+  <p class="spk ">
+    Citizen
+  </p>
+  <p class="pr " id="linduction-0-24"><a class="pn " href="#linduction-0-24">24</a>What say&#39;st thou, coney?</p>
+</div><div class="sp " data-who="Wife">
+  <p class="spk ">
+    Wife
+  </p>
+  <p class="pr " id="linduction-0-25"><a class="pn m5" href="#linduction-0-25">25</a><span class="sdi">[below]</span> Let him kill a lion with a pestle, husband, let him kill a lion with a pestle.</p>
+</div><div class="sp " data-who="Citizen">
+  <p class="spk ">
+    Citizen
+  </p>
+  <p class="pr " id="linduction-0-26"><a class="pn " href="#linduction-0-26">26</a>So he shall. I&#39;ll have him kill a lion with a pestle.</p>
+</div><div class="sp " data-who="Wife">
+  <p class="spk ">
+    Wife
+  </p>
+  <p class="pr " id="linduction-0-27"><a class="pn " href="#linduction-0-27">27</a><span class="sdi">[below]</span> Husband, shall I come up, husband?</p>
+</div><div class="sp " data-who="Citizen">
+  <p class="spk ">
+    Citizen
+  </p>
+  <p class="pr " id="linduction-0-28"><a class="pn " href="#linduction-0-28">28</a>Ay, coney. — Rafe, help your mistress this way. — Pray, gentlemen, make her a little room. — I pray you, sir, lend me your hand to help up my wife. I thank you sir. — So.</p>
+</div><p class="sd " id="linduction-0-28-sd1">[The Wife comes on the stage.]</p><div class="sp " data-who="Wife">
+  <p class="spk ">
+    Wife
+  </p>
+  <p class="pr " id="linduction-0-29"><a class="pn " href="#linduction-0-29">29</a>By your leave, gentlemen all, I&#39;m something troublesome. I&#39;m a stranger here. I was near at one of these plays, as they say, before; but I should have seen <em>Jane Shore</em> once, and my husband hath promised me any time this twelve-month to carry me to <em>The Bold Beauchamps</em>, but in truth he did not. I pray you, bear with me.</p>
+</div><div class="sp " data-who="Citizen">
+  <p class="spk ">
+    Citizen
+  </p>
+  <p class="pr " id="linduction-0-30"><a class="pn m5" href="#linduction-0-30">30</a>Boy, let my wife and I have a couple stools, and then begin; and let the grocer do rare things.</p>
+</div><div class="sp " data-who="Prologue">
+  <p class="spk ">
+    Prologue
+  </p>
+  <p class="pr " id="linduction-0-31"><a class="pn " href="#linduction-0-31">31</a>But, sir, we have never a boy to play him. Every one hath a part already.</p>
+</div><div class="sp " data-who="Wife">
+  <p class="spk ">
+    Wife
+  </p>
+  <p class="pr " id="linduction-0-32"><a class="pn " href="#linduction-0-32">32</a>Husband, husband, for God&#39;s sake, let Rafe play him. Beshrew me if I do not think he will go beyond them all.</p>
+</div><div class="sp " data-who="Citizen">
+  <p class="spk ">
+    Citizen
+  </p>
+  <p class="pr " id="linduction-0-33"><a class="pn " href="#linduction-0-33">33</a>Well remembered, wife. — Come up, Rafe. — I&#39;ll tell you, gentlemen, let them but lend him a suit of reparel and necessaries, and by Gad, if any of them all blow wind in the tail on him, I&#39;ll be hanged.</p>
+</div><p class="sd " id="linduction-0-33-sd1">[Rafe comes on the stage.]</p><div class="sp " data-who="Wife">
+  <p class="spk ">
+    Wife
+  </p>
+  <p class="pr " id="linduction-0-34"><a class="pn " href="#linduction-0-34">34</a>I pray you, youth, let him have a suit of reparel. — I&#39;ll be sworn, gentlemen, my husband tells you true: he will act you sometimes at our house, that all the neighbors cry out on him; he will fetch you up a couraging part so in the garret, that we are all as feared, I warrant you, that we quake again. We&#39;ll fear our children with him: if they be never so unruly, do but cry &quot;Rafe comes, Rafe comes&quot; to them, and they&#39;ll be as quiet as lambs. — Hold up thy head, Rafe, show the gentlemen what thou canst do: speak a huffing part; I warrant you the gentlemen will accept of it.</p>
+</div><div class="sp " data-who="Citizen">
+  <p class="spk ">
+    Citizen
+  </p>
+  <p class="pr " id="linduction-0-35"><a class="pn m5" href="#linduction-0-35">35</a>Do, Rafe, do.</p>
+</div><div class="sp " data-who="Rafe">
+  <p class="spk ">
+    Rafe
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="linduction-0-36"><a class="n " href="#linduction-0-36">36</a><span class="t">&quot;By heaven, methinks it were an easy leap</span></div><div class="l " id="linduction-0-37"><a class="n " href="#linduction-0-37">37</a><span class="t">To pluck bright honor from the pale-faced moon</span></div><div class="l " id="linduction-0-38"><a class="n " href="#linduction-0-38">38</a><span class="t">Or dive into the bottom of the sea</span></div><div class="l " id="linduction-0-39"><a class="n " href="#linduction-0-39">39</a><span class="t">Where never fathom line touched any ground,</span></div><div class="l " id="linduction-0-40"><a class="n m5" href="#linduction-0-40">40</a><span class="t">And pluck up drownèd honor from the lake of hell.&quot;</span></div>
+</div>
+</div><div class="sp " data-who="Citizen">
+  <p class="spk ">
+    Citizen
+  </p>
+  <p class="pr " id="linduction-0-41"><a class="pn " href="#linduction-0-41">41</a>How say you, gentlemen, is it not as I told you?</p>
+</div><div class="sp " data-who="Wife">
+  <p class="spk ">
+    Wife
+  </p>
+  <p class="pr " id="linduction-0-42"><a class="pn " href="#linduction-0-42">42</a>Nay, gentlemen, he hath played before, my husband says, <em>Mucedorus</em>, before the wardens of our company.</p>
+</div><div class="sp " data-who="Citizen">
+  <p class="spk ">
+    Citizen
+  </p>
+  <p class="pr " id="linduction-0-43"><a class="pn " href="#linduction-0-43">43</a>Ay, and he should have played <em>Jeronimo</em> with a shoemaker for a wager.</p>
+</div><div class="sp " data-who="Prologue">
+  <p class="spk ">
+    Prologue
+  </p>
+  <p class="pr " id="linduction-0-44"><a class="pn " href="#linduction-0-44">44</a>He shall have a suit of apparel, if he will go in.</p>
+</div><div class="sp " data-who="Citizen">
+  <p class="spk ">
+    Citizen
+  </p>
+  <p class="pr " id="linduction-0-45"><a class="pn m5" href="#linduction-0-45">45</a>In, Rafe, in, Rafe, and set out the Grocery in their kind, if thou lov&#39;st me.</p>
+</div><p class="sd " id="linduction-0-45-sd1">[Exit Rafe.]</p><div class="sp " data-who="Wife">
+  <p class="spk ">
+    Wife
+  </p>
+  <p class="pr " id="linduction-0-46"><a class="pn " href="#linduction-0-46">46</a>I warrant our Rafe will look finely when he&#39;s dressed.</p>
+</div><div class="sp " data-who="Prologue">
+  <p class="spk ">
+    Prologue
+  </p>
+  <p class="pr " id="linduction-0-47"><a class="pn " href="#linduction-0-47">47</a>But what will you have it called?</p>
+</div><div class="sp " data-who="Citizen">
+  <p class="spk ">
+    Citizen
+  </p>
+  <p class="pr " id="linduction-0-48"><a class="pn " href="#linduction-0-48">48</a><em>The Grocer&#39;s Honor</em>.</p>
+</div><div class="sp " data-who="Prologue">
+  <p class="spk ">
+    Prologue
+  </p>
+  <p class="pr " id="linduction-0-49"><a class="pn " href="#linduction-0-49">49</a>Methinks <em>The Knight of the Burning Pestle</em> were better.</p>
+</div><div class="sp " data-who="Wife">
+  <p class="spk ">
+    Wife
+  </p>
+  <p class="pr " id="linduction-0-50"><a class="pn m5" href="#linduction-0-50">50</a>I&#39;ll be sworn, husband, that&#39;s as good a name as can be.</p>
+</div><div class="sp " data-who="Citizen">
+  <p class="spk ">
+    Citizen
+  </p>
+  <p class="pr " id="linduction-0-51"><a class="pn " href="#linduction-0-51">51</a>Let it be so. Begin, begin. My wife and I will sit down.</p>
+</div><div class="sp " data-who="Prologue">
+  <p class="spk ">
+    Prologue
+  </p>
+  <p class="pr " id="linduction-0-52"><a class="pn " href="#linduction-0-52">52</a>I pray you, do.</p>
+</div><div class="sp " data-who="Citizen">
+  <p class="spk ">
+    Citizen
+  </p>
+  <p class="pr " id="linduction-0-53"><a class="pn " href="#linduction-0-53">53</a>What stately music have you? You have shawms?</p>
+</div><div class="sp " data-who="Prologue">
+  <p class="spk ">
+    Prologue
+  </p>
+  <p class="pr " id="linduction-0-54"><a class="pn " href="#linduction-0-54">54</a>Shawms? No.</p>
+</div><div class="sp " data-who="Citizen">
+  <p class="spk ">
+    Citizen
+  </p>
+  <p class="pr " id="linduction-0-55"><a class="pn m5" href="#linduction-0-55">55</a>No? I&#39;m a thief if my mind did not give me so. Rafe plays a stately part, and he must needs have shawms. I&#39;ll be at the charge of them myself rather than we&#39;ll be without them.</p>
+</div><div class="sp " data-who="Prologue">
+  <p class="spk ">
+    Prologue
+  </p>
+  <p class="pr " id="linduction-0-56"><a class="pn " href="#linduction-0-56">56</a>So you are like to be.</p>
+</div><div class="sp " data-who="Citizen">
+  <p class="spk ">
+    Citizen
+  </p>
+  <p class="pr " id="linduction-0-57"><a class="pn " href="#linduction-0-57">57</a>Why, and so I will be. There&#39;s two shillings. Let&#39;s have the waits of Southwark: they are as rare fellows as any are in England; and that will fetch them all o&#39;er the water with a vengeance, as if they were mad.</p>
+</div><div class="sp " data-who="Prologue">
+  <p class="spk ">
+    Prologue
+  </p>
+  <p class="pr " id="linduction-0-58"><a class="pn " href="#linduction-0-58">58</a>You shall have them. Will you sit down then?</p>
+</div><div class="sp " data-who="Citizen">
+  <p class="spk ">
+    Citizen
+  </p>
+  <p class="pr " id="linduction-0-59"><a class="pn " href="#linduction-0-59">59</a>Ay. — Come, wife.</p>
+</div><div class="sp " data-who="Wife">
+  <p class="spk ">
+    Wife
+  </p>
+  <p class="pr " id="linduction-0-60"><a class="pn m5" href="#linduction-0-60">60</a>Sit you merry all, gentlemen. I&#39;m bold to sit amongst you for my ease.</p>
+</div><p class="sd " id="linduction-0-60-sd1">[Citizen and Wife sit down.]</p><div class="sp " data-who="Prologue">
+  <p class="spk ">
+    Prologue
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="linduction-0-61"><a class="n " href="#linduction-0-61">61</a><span class="t">From all that&#39;s near the court, from all that&#39;s great,</span></div><div class="l " id="linduction-0-62"><a class="n " href="#linduction-0-62">62</a><span class="t">Within the compass of the city walls,</span></div><div class="l " id="linduction-0-63"><a class="n " href="#linduction-0-63">63</a><span class="t">We now have brought our scene. Fly far from hence</span></div><div class="l " id="linduction-0-64"><a class="n " href="#linduction-0-64">64</a><span class="t">All private taxes, immodest phrases,</span></div><div class="l " id="linduction-0-65"><a class="n m5" href="#linduction-0-65">65</a><span class="t">Whate&#39;er may but show like vicious.</span></div><div class="l " id="linduction-0-66"><a class="n " href="#linduction-0-66">66</a><span class="t">For wicked mirth never true pleasure brings,</span></div><div class="l " id="linduction-0-67"><a class="n " href="#linduction-0-67">67</a><span class="t">But honest minds are pleased with honest things. —</span></div>
+</div><p class="pr " id="linduction-0-68"><a class="pn " href="#linduction-0-68">68</a><span class="sdi">[To Citizen and Wife]</span> Thus much for that we do. But for Rafe&#39;s part, you must answer for yourself.</p>
+</div><div class="sp " data-who="Citizen">
+  <p class="spk ">
+    Citizen
+  </p>
+  <p class="pr " id="linduction-0-69"><a class="pn " href="#linduction-0-69">69</a>Take you no care for Rafe, he&#39;l discharge himself, I warrant you.</p>
+</div><p class="sd " id="linduction-0-69-sd1">[Exit Prologue.]</p><div class="sp " data-who="Wife">
+  <p class="spk ">
+    Wife
+  </p>
+  <p class="pr " id="linduction-0-70"><a class="pn m5" href="#linduction-0-70">70</a>I&#39;faith, gentlemen, I&#39;ll give my word for Rafe.</p>
+</div>
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  
+  <a href="act-1.html" rel="next">Act I →</a>
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Play, Scène III — Le Songe d’une Nuit d’Été — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">PERSONNAGES</a></li>
+      
+  
+    
+        <li>
+          <a href="play.html">
+            Play
+          </a>
+          <ul>
+            <li>
+              
+                  <a href="play-s1.html">
+                    Scène I
+                  </a>
+                
+            </li><li>
+              
+                  <a href="play-s2.html">
+                    Scène II
+                  </a>
+                
+            </li><li>
+              
+                  <a href="play-s3.html" aria-current="page">
+                    Scène III
+                  </a>
+                
+            </li><li>
+              
+                  <a href="play-s4.html">
+                    Scène IV
+                  </a>
+                
+            </li><li>
+              
+                  <a href="play-s5.html">
+                    Scène V
+                  </a>
+                
+            </li><li>
+              
+                  <a href="play-s6.html">
+                    Scène VI
+                  </a>
+                
+            </li><li>
+              
+                  <a href="play-s7.html">
+                    Scène VII
+                  </a>
+                
+            </li><li>
+              
+                  <a href="play-s8.html">
+                    Scène VIII
+                  </a>
+                
+            </li>
+          </ul>
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  <li>
+    <a href="notes.html"><x-es>Notas</x-es><x-en>Notes</x-en></a>
+  </li>
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="THÉSÉE">
+        THÉSÉE
+      </option><option value="LYSANDRE">
+        LYSANDRE
+      </option><option value="DÉMÉTRIUS">
+        DÉMÉTRIUS
+      </option><option value="PHILOSTRATE">
+        PHILOSTRATE
+      </option><option value="BOTTOM">
+        BOTTOM
+      </option><option value="LECOING">
+        LECOING
+      </option><option value="FLÛTE">
+        FLÛTE
+      </option><option value="GROIN">
+        GROIN
+      </option><option value="MEURTDEFAIM">
+        MEURT DE FAIM
+      </option><option value="HIPPOLYTE">
+        HIPPOLYTE
+      </option><option value="HERMIA">
+        HERMIA
+      </option><option value="HÉLÉNA">
+        HÉLÉNA
+      </option><option value="OBÉRON">
+        OBÉRON
+      </option><option value="TITANIA">
+        TITANIA
+      </option><option value="PUCK">
+        PUCK ou ROBIN BONENFANT
+      </option><option value="FLEURSDESPOIS">
+        FLEURS DES POIS}
+      </option><option value="TOILEDARAIGNÉE">
+        TOILE D’ARAIGNÉE}
+      </option><option value="PHALÈNE">
+        PHALÈNE}
+      </option><option value="GRAINDEMOUTARDE">
+        GRAIN DE MOUTARDE}
+      </option><option value="unefée.">
+        une fée.
+      </option><option value="EGÉE">
+        ÉGÉE
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">William Shakespeare</p>
+  <h1><a href="index.html">Le Songe d’une Nuit d’Été</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="play-s2.html" rel="prev">← Play, Scène II</a>
+  <a href="play-s4.html" rel="next">Play, Scène IV →</a>
+</nav>
+  <div class="text" lang="fr" data-cite="William Shakespeare, Le Songe d’une Nuit d’Été, Play, Scène III" data-cite-verse="int." data-cite-prose="int.">
+    
+    <section class="division">
+  
+  
+  <section id="play-s3">
+    <h3 class="scene-head">
+      Scène III
+    </h3>
+    <p class="sd " id="l91-sd2">[Un bois près d’Athènes. Il fait nuit. La lune brille.]</p><p class="sd " id="l91-sd3">Une Fée entre par une porte et Puck par une autre.</p><div class="sp " data-who="PUCK">
+  <p class="spk ">
+    PUCK
+  </p>
+  <p class="pr " id="l92"><a class="pn " href="#l92">92</a>Eh bien ! esprit, où errez-vous ainsi ?</p>
+</div><div class="sp " data-who="unefée.">
+  <p class="spk ">
+    LA FÉE
+  </p>
+  <p class="pr " id="l93"><a class="pn " href="#l93">93</a>— Par la colline, par la vallée, — à travers les buissons, à travers les ronces, — par les parcs, par les haies, — à travers l’eau, à travers le feu, — j’erre en tous lieux, — plus rapide que la sphère de la lune. — Je sers la reine des fées, — et j’humecte les cercles qu’elle trace sur le gazon. — Les primevères les plus hautes sont ses pensionnaires. — Vous voyez des taches sur leurs robes d’or : — ce sont les rubis, les bijoux de la fée, — taches de rousseur d’où s’exhale leur senteur. — Il faut maintenant que j’aille chercher des gouttes de rosée, — pour suspendre une perle à chaque oreille d’ours. — Adieu, toi, bouffon des esprits, je vais partir. — Notre reine et tous ses elfes viendront ici tout à l’heure.</p>
+</div><div class="sp " data-who="PUCK">
+  <p class="spk ">
+    PUCK
+  </p>
+  <p class="pr " id="l94"><a class="pn " href="#l94">94</a>Le roi donne ici ses fêtes cette nuit. — Veille à ce que la reine ne s’offre pas à sa vue ; — car Obéron est dans une rage épouvantable, — parce qu’elle a pour page — un aimable enfant volé à un roi de l’Inde. — Elle n’a jamais eu un plus charmant captif ; — et Obéron jaloux voudrait faire de l’enfant — un chevalier de sa suite, pour parcourir les forêts sauvages. — Mais elle retient de force l’enfant bien-aimé, — la couronne de fleurs, et en fait toute sa joie. — Chaque fois maintenant qu’ils se rencontrent, au bois, sur le gazon, — près d’une limpide fontaine, à la clarté du ciel étoilé, — le roi et la reine se querellent : si bien que tous leurs sylphes effrayés — se fourrent dans la coupe des glands et s’y cachent.</p>
+</div><div class="sp " data-who="unefée.">
+  <p class="spk ">
+    LA FÉE
+  </p>
+  <p class="pr " id="l95"><a class="pn m5" href="#l95">95</a>— Ou je me trompe bien sur votre forme et vos façons, — ou vous êtes cet esprit malicieux et coquin — qu’on nomme Robin Bonenfant (5). N’êtes-vous pas celui — qui effraie les filles du village, — écrème le lait, tantôt dérange le moulin, — et fait que la ménagère s’essouffle vainement à la baratte, — tantôt empêche la boisson de fermenter, — et égare la nuit les voyageurs, en riant de leur peine ? — Ceux qui vous appellent Hobgoblin et charmant Puck, — vous faites leur ouvrage, et vous leur portez bonheur. — N’êtes-vous pas celui-là ?</p>
+</div><div class="sp " data-who="PUCK">
+  <p class="spk ">
+    PUCK
+  </p>
+  <p class="pr " id="l96"><a class="pn " href="#l96">96</a>Tu dis vrai ; — je suis ce joyeux rôdeur de nuit. — J’amuse Obéron , et je le fais sourire — quand je trompe un cheval gras et nourri de fèves, — en hennissant comme une pouliche coquette. — Parfois je me tapis dans la tasse d’une commère — sous la forme exacte d’une pomme cuite ; — et, lorsqu’elle boit, je me heurte contre ses lèvres, — et je répands l’ale sur son fanon flétri. — La matrone la plus sage, contant le conte le plus grave, — me prend parfois pour un escabeau à trois pieds ; — alors je glisse sous son derrière ; elle tombe, — assise comme un tailleur, et est prise d’une quinte de toux ; — et alors toute l’assemblée de se tenir les côtes et de rire, — et de pouffer de joie, et d’éternuer, et de jurer — que jamais on n’a passé de plus gais moments. — Mais, place, fée ! voici Obéron qui vient.</p>
+</div><div class="sp " data-who="unefée.">
+  <p class="spk ">
+    LA FÉE
+  </p>
+  <p class="pr " id="l97"><a class="pn " href="#l97">97</a>Et voici ma maîtresse. Que n’est-il parti !</p>
+</div><p class="sd " id="l97-sd1">Obéron entre avec son cortège d’un côté, Titania, avec le sien, de l’autre.</p><div class="sp " data-who="OBÉRON">
+  <p class="spk ">
+    OBÉRON
+  </p>
+  <p class="pr " id="l98"><a class="pn " href="#l98">98</a>— Fâcheuse rencontre au clair de lune, fière Titania !</p>
+</div><div class="sp " data-who="TITANIA">
+  <p class="spk ">
+    TITANIA
+  </p>
+  <p class="pr " id="l99"><a class="pn " href="#l99">99</a>— Quoi, jaloux Obéron ? Fées, envolons-nous d’ici : — j’ai abjuré son lit et sa société.</p>
+</div><div class="sp " data-who="OBÉRON">
+  <p class="spk ">
+    OBÉRON
+  </p>
+  <p class="pr " id="l100"><a class="pn m5" href="#l100">100</a>— Arrête, impudente coquette. Ne suis-je pas ton seigneur ?</p>
+</div><div class="sp " data-who="TITANIA">
+  <p class="spk ">
+    TITANIA
+  </p>
+  <p class="pr " id="l101"><a class="pn " href="#l101">101</a>— Alors, que je sois ta dame ! Mais je sais — qu’il t’est arrivé de t’enfuir du pays des fées — pour aller tout le jour t’asseoir sous la forme de Corin, — jouant du chalumeau, et adressant de tendres vers — à l’amoureuse Phillida. Pourquoi es-tu ici, — de retour des côtes les plus reculées de l’Inde ? — C’est, ma foi, parce que la fanfaronne Amazone, — votre maîtresse en bottines, vos amours guerrières, — doit être mariée à Thésée ; et vous venez — pour apporter à leur lit la joie et la prospérité!</p>
+</div><div class="sp " data-who="OBÉRON">
+  <p class="spk ">
+    OBÉRON
+  </p>
+  <p class="pr " id="l102"><a class="pn " href="#l102">102</a>Comment n’as-tu pas honte, Titania, — d’attaquer mon caractère à propos d’Hippolyte, — sachant que je sais ton amour pour Thésée ? — Ne l’as-tu pas, à la lueur de la nuit, emmené — des bras de Périgénie, qu’il avait ravie? — Ne lui as-tu pas fait violer sa foi envers la belle Églé, — envers Ariane et Antiope ?</p>
+</div><div class="sp " data-who="TITANIA">
+  <p class="spk ">
+    TITANIA
+  </p>
+  <p class="pr " id="l103"><a class="pn " href="#l103">103</a>Ce sont les impostures de la jalousie. — Jamais, depuis le commencement de la mi-été, — nous ne nous sommes réunies sur la colline, au vallon, au bois, au pré, — près d’une source cailloutée, ou d’un ruisseau bordé de joncs, — ou sur une plage baignée de vagues, — pour danser nos rondes au sifflement des vents, — sans que tu aies troublé nos jeux de tes querelles. — Aussi les vents, nous ayant en vain accompagnés de leur zéphyr, — ont-ils, comme pour se venger, aspiré de la mer — des brouillards contagieux qui, tombant sur la campagne, — ont à ce point gonflé d’orgueil les plus chétives rivières, — qu’elles ont franchi leurs digues. — Ainsi, le bœuf a traîné son joug en vain, — le laboureur a perdu ses sueurs, et le blé vert — a pourri avant que la barbe fût venue à son jeune épi. — Le parc est resté vide dans le champ noyé, — et les corbeaux se sont engraissés du troupeau mort. — Le mail où l’on jouait à la mérelle est rempli de boue ; — et les délicats méandres dans le gazon touffu — n’ont plus de tracé qui les distingue. — Les mortels humains ne reconnaissent plus leur hiver : — ils ne sanctifient plus les soirées par des hymnes ou des noëls. — Aussi la lune, cette souveraine des flots, — pâle de colère, remplit l’air d’humidité, — si bien que les rhumes abondent. — Grâce à cette intempérie (7), nous voyons — les saisons changer : le givre à crête hérissée — s’étale dans le frais giron de la rose cramoisie ; — et au menton du vieil Hiver, sur son crâne glacé, — une guirlande embaumée de boutons printaniers — est mise comme par dérision. Le printemps, l’été, — l’automne fécond, l’hiver chagrin échangent — leur livrée habituelle : et le monde effaré — ne sait plus les reconnaître à leurs produits. — Ce qui engendre ces maux, — ce sont nos débats et nos dissensions : — nous en sommes les auteurs et l’origine.</p>
+</div><div class="sp " data-who="OBÉRON">
+  <p class="spk ">
+    OBÉRON
+  </p>
+  <p class="pr " id="l104"><a class="pn " href="#l104">104</a>— Mettez-y donc un terme : cela dépend de vous. — Pourquoi Titania contrarierait-elle son Obéron ? — Je ne lui demande qu’un petit enfant volé — pour en faire mon page.</p>
+</div><div class="sp " data-who="TITANIA">
+  <p class="spk ">
+    TITANIA
+  </p>
+  <p class="pr " id="l105"><a class="pn m5" href="#l105">105</a>Que votre cœur s’y résigne. — Tout l’empire des fées ne me paierait pas cet enfant. — Sa mère était une adoratrice de mon ordre. — Que de fois, la nuit dans l’air plein d’aromes de l’Inde, — nous avons causé côte à côte ! — Assises ensemble sur le sable jaune de Neptune, — nous observions sur les flots les navires marchands, — et nous riions de voir les voiles concevoir — et s’arrondir sous les caresses du vent. — Alors, faisant gracieusement la mine de nager, — avec son ventre gros alors de mon jeune écuyer, — elle les imitait et voguait sur la terre, — pour m’aller chercher de menus présents, et s’en revenir, — comme après un voyage, avec une riche cargaison. — Mais elle était mortelle, et elle est morte de cet enfant ; — et j’élève cet enfant pour l’amour d’elle ; — et, pour l’amour d’elle, je ne veux pas me séparer de lui.</p>
+</div><div class="sp " data-who="OBÉRON">
+  <p class="spk ">
+    OBÉRON
+  </p>
+  <p class="pr " id="l106"><a class="pn " href="#l106">106</a>— Combien de temps comptez-vous rester dans ce bois?</p>
+</div><div class="sp " data-who="TITANIA">
+  <p class="spk ">
+    TITANIA
+  </p>
+  <p class="pr " id="l107"><a class="pn " href="#l107">107</a>Peut-être jusqu’après les noces de Thésée. — Si vous voulez paisiblement danser dans notre ronde — et voir nos ébats du clair de lune, venez avec nous ; — sinon, fuyez-moi, et j’éviterai les lieux hantés par vous.</p>
+</div><div class="sp " data-who="OBÉRON">
+  <p class="spk ">
+    OBÉRON
+  </p>
+  <p class="pr " id="l108"><a class="pn " href="#l108">108</a>— Donne-moi cet enfant, et j’irai avec toi.</p>
+</div><div class="sp " data-who="TITANIA">
+  <p class="spk ">
+    TITANIA
+  </p>
+  <p class="pr " id="l109"><a class="pn " href="#l109">109</a>— Non, pas pour tout ton royaume. Fées, partons : — nous nous fâcherons tout de bon, si je reste plus longtemps.</p>
+</div><p class="sd " id="l109-sd1">Sort Titania avec sa suite.</p><div class="sp " data-who="OBÉRON">
+  <p class="spk ">
+    OBÉRON
+  </p>
+  <p class="pr " id="l110"><a class="pn m5" href="#l110">110</a>— Soit, va ton chemin ; tu ne sortiras pas de ce bois — que je ne t’aie châtiée pour cet outrage. — Viens ici, mon gentil Puck. Tu te rappelles l’époque — où, assis sur un promontoire, — j’entendis une sirène, portée sur le dos d’un dauphin, — proférer un chant si doux et si harmonieux — que la rude mer devint docile à sa voix, — et que plusieurs étoiles s’élancèrent follement de leur sphère — pour écouter la musique de cette fille des mers ?</p>
+</div><div class="sp " data-who="PUCK">
+  <p class="spk ">
+    PUCK
+  </p>
+  <p class="pr " id="l111"><a class="pn " href="#l111">111</a>Je me rappelle.</p>
+</div><div class="sp " data-who="OBÉRON">
+  <p class="spk ">
+    OBÉRON
+  </p>
+  <p class="pr " id="l112"><a class="pn " href="#l112">112</a>— Cette fois-là même, je vis, (mais tu ne pus le voir,) — je vis voler, entre la froide lune et la terre, — Cupidon tout armé : il visa — une belle vestale, trônant à l’Occident , — et décocha de son arc une flèche d’amour assez violente — pour percer cent mille cœurs. — Mais je pus voir le trait enflammé du jeune Cupidon — s’éteindre dans les chastes rayons de la lune humide, — et l’impériale prêtresse passa, — pure d’amour, dans sa virginale rêverie. — Je remarquai pourtant où le trait de Cupidon tomba : — il tomba sur une petite fleur d’Occident, — autrefois blanche comme le lait, aujourd’hui empourprée par sa blessure, — que les jeunes filles appellent Pensée d’amour. — Va me chercher cette fleur ; je t’en ai montré une fois la feuille. — Son suc, étendu sur des paupières endormies, — peut rendre une personne, femme ou homme, amoureuse folle — de la première créature vivante qui lui apparaît. — Va me chercher cette plante : et sois de retour — avant que Léviathan ait pu nager une lieue.</p>
+</div><div class="sp " data-who="PUCK">
+  <p class="spk ">
+    PUCK
+  </p>
+  <p class="pr " id="l113"><a class="pn " href="#l113">113</a>— Je puis faire une ceinture autour de la terre — en quarante minutes.</p>
+</div><p class="sd " id="l113-sd1">Il sort.</p><div class="sp " data-who="OBÉRON">
+  <p class="spk ">
+    OBÉRON
+  </p>
+  <p class="pr " id="l114"><a class="pn " href="#l114">114</a>Quand une fois j’aurai ce suc, — j’épierai Titania dans son sommeil, — et j’en laisserai tomber une goutte sur ses yeux. — Le premier être qu’elle regardera en s’éveillant, — que ce soit un lion, un ours, un loup, un taureau, — le singe le plus taquin, le magot le plus tracassier, — elle le poursuivra avec l’âme de l’amour. — Et, avant de délivrer sa vue de ce charme, — ce que je puis faire avec une autre herbe, — je la forcerai à me livrer son page. — Mais qui vient ici ? Je suis invisible ; — et je vais écouter cette conversation.</p>
+</div><p class="sd " id="l114-sd1">Entre Démétrius ; Héléna le suit.</p><div class="sp " data-who="DÉMÉTRIUS">
+  <p class="spk ">
+    DÉMÉTRIUS
+  </p>
+  <p class="pr " id="l115"><a class="pn m5" href="#l115">115</a>— Je ne t’aime pas, donc ne me poursuis pas. — Où est Lysandre ? et la belle Hermia ? — Je veux tuer l’un, l’autre me tue. — Tu m’as dit qu’ils s’étaient sauvés dans ce bois. — M’y voici, dans le bois, aux abois — de n’y pas rencontrer Hermia. — Hors d’ici ! va-t’en, et cesse de me suivre.</p>
+</div><div class="sp " data-who="HÉLÉNA">
+  <p class="spk ">
+    HÉLÉNA
+  </p>
+  <p class="pr " id="l116"><a class="pn " href="#l116">116</a>— C’est vous qui m’attirez, vous, dur cœur d’aimant ; — mais ce n’est plus du fer que vous attirez, car mon cœur — est pur comme l’acier. Perdez la force d’attirer, — et je n’aurai pas la force de vous suivre.</p>
+</div><div class="sp " data-who="DÉMÉTRIUS">
+  <p class="spk ">
+    DÉMÉTRIUS
+  </p>
+  <p class="pr " id="l117"><a class="pn " href="#l117">117</a>Est-ce que je vous entraîne ? Est-ce que je vous encourage ? — Est-ce qu’au contraire je ne vous dis pas avec la plus entière franchise : — Je ne vous aime pas et je ne puis pas vous aimer ?</p>
+</div><div class="sp " data-who="HÉLÉNA">
+  <p class="spk ">
+    HÉLÉNA
+  </p>
+  <p class="pr " id="l118"><a class="pn " href="#l118">118</a>Et je ne vous en aime que davantage. — Je suis votre épagneul, Démétrius, — et plus vous me battez, — plus je vous cajole : — traitez-moi comme votre épagneul, repoussez-moi, frappez-moi, — délaissez-moi, perdez-moi ; seulement, accordez-moi — la permission de vous suivre, toute indigne que je suis. — Quelle place plus humble dans votre amour puis-je mendier, — quand je vous demande de me traiter comme votre chien ? — Eh bien, c’est cependant pour moi une place hautement désirable.</p>
+</div><div class="sp " data-who="DÉMÉTRIUS">
+  <p class="spk ">
+    DÉMÉTRIUS
+  </p>
+  <p class="pr " id="l119"><a class="pn " href="#l119">119</a>— N’excite pas trop mon aversion, — car je souffre quand je te regarde.</p>
+</div><div class="sp " data-who="HÉLÉNA">
+  <p class="spk ">
+    HÉLÉNA
+  </p>
+  <p class="pr " id="l120"><a class="pn m5" href="#l120">120</a>— Et moi aussi, je souffre quand je vous regarde.</p>
+</div><div class="sp " data-who="DÉMÉTRIUS">
+  <p class="spk ">
+    DÉMÉTRIUS
+  </p>
+  <p class="pr " id="l121"><a class="pn " href="#l121">121</a>— C’est compromettre par trop votre pudeur — que de quitter ainsi la cité, de vous livrer — à la merci d’un homme qui ne vous aime pas, — d’exposer ainsi aux tentations de la nuit — et aux mauvais conseils d’un lieu désert — le riche trésor de votre virginité.</p>
+</div><div class="sp " data-who="HÉLÉNA">
+  <p class="spk ">
+    HÉLÉNA
+  </p>
+  <p class="pr " id="l122"><a class="pn " href="#l122">122</a>— Votre mérite est ma sauvegarde. — Pour moi, il ne fait pas nuit quand je vois votre visage, — aussi ne crois-je pas que je sois dans la nuit. — Ce n’est pas non plus le monde qui manque en ce bois ; — car vous êtes pour moi le monde entier. — Comment donc pourrait-on dire que je suis seule, — quand le monde entier est ici pour me regarder ?</p>
+</div><div class="sp " data-who="DÉMÉTRIUS">
+  <p class="spk ">
+    DÉMÉTRIUS
+  </p>
+  <p class="pr " id="l123"><a class="pn " href="#l123">123</a>— Je vais m’échapper de toi et me cacher dans les fougères, — et te laisser à la merci des bêtes féroces.</p>
+</div><div class="sp " data-who="HÉLÉNA">
+  <p class="spk ">
+    HÉLÉNA
+  </p>
+  <p class="pr " id="l124"><a class="pn " href="#l124">124</a>— La plus féroce n’a pas un cœur comme vous. — Courez où vous voudrez, vous retournerez l’histoire : — Apollon fuit, et Daphné lui donne la chasse ; — lacolombe poursuit le griffon ; la douce biche — s’élance pour attraper le tigre. Élan inutile, — quand c’est l’audace qui fuit et la poltronnerie qui court après!</p>
+</div><div class="sp " data-who="DÉMÉTRIUS">
+  <p class="spk ">
+    DÉMÉTRIUS
+  </p>
+  <p class="pr " id="l125"><a class="pn m5" href="#l125">125</a>— Je ne veux pas écouter tes subtilités ; lâche-moi ; — ou bien, si tu me suis, sois sûre — que je vais te faire outrage dans le bois.</p>
+</div><div class="sp " data-who="HÉLÉNA">
+  <p class="spk ">
+    HÉLÉNA
+  </p>
+  <p class="pr " id="l126"><a class="pn " href="#l126">126</a>— Hélas ! dans le temple, dans la ville, dans les champs, — partout vous me faites outrage. Fi, Démétrius ! — vos injures jettent le scandale sur mon sexe : — en amour, nous ne pouvons pas attaquer, comme les hommes ; — nous sommes faites pour qu’on nous courtise, non pour courtiser. — Je veux te suivre et faire un ciel de mon enfer — en mourant de la main que j’aime tant.</p>
+</div><p class="sd " id="l126-sd1">Sortent Défliétrius et Héléna.</p><div class="sp " data-who="OBÉRON">
+  <p class="spk ">
+    OBÉRON
+  </p>
+  <p class="pr " id="l127"><a class="pn " href="#l127">127</a>— Adieu, nymphe ; avant qu’il ait quitté ce hallier, — c’est toi qui le fuiras, c’est lui qui recherchera ton amour.</p>
+</div><p class="sd " id="l127-sd1">Rentre Puck.</p><div class="sp " data-who="OBÉRON">
+  <p class="spk ">
+    OBÉRON
+  </p>
+  <p class="pr " id="l128"><a class="pn " href="#l128">128</a><span class="sdi">(à Puck.)</span> — As-tu la fleur ? Sois le bienvenu, rôdeur.</p>
+</div><div class="sp " data-who="PUCK">
+  <p class="spk ">
+    PUCK
+  </p>
+  <p class="pr " id="l129"><a class="pn " href="#l129">129</a>— Oui, la voilà.</p>
+</div><div class="sp " data-who="OBÉRON">
+  <p class="spk ">
+    OBÉRON
+  </p>
+  <p class="pr " id="l130"><a class="pn m5" href="#l130">130</a>Donne-la-moi, je te prie. — Je sais un banc où s’épanouit le thym sauvage, — où poussent l’oreille d’ours et la violette branlante. — Il est couvert par un dais de chèvrefeuilles vivaces, — de suaves roses musquées et d’églantiers. — C’est là que dort Titania, à certain moment de la nuit, — bercée dans ces fleurs par les danses et les délices : — c’est là que la couleuvre étend sa peau émaillée, — vêtement assez large pour couvrir une fée. — Alors je teindrai ses yeux avec le suc de cette fleur, — et je la remplirai d’odieuses fantaisies. — Prends aussi de ce suc, et cherche à travers le hallier. — Une charmante dame d’Athènes est amoureuse — d’un jeune dédaigneux : mouille les yeux de celui-ci, — mais veille à ce que le premier être qu’il apercevra — soit cette dame. Tu reconnaîtras l’homme — à son costume athénien. — Fais cela avec soin, de manière qu’il devienne — plus épris d’elle qu’elle n’est éprise de lui. — Et viens me rejoindre sans faute avant le premier chant du coq.</p>
+</div><div class="sp " data-who="PUCK">
+  <p class="spk ">
+    PUCK
+  </p>
+  <p class="pr " id="l131"><a class="pn " href="#l131">131</a>Soyez tranquille, monseigneur, votre serviteur obéira.</p>
+</div><p class="sd " id="l131-sd1">Ils sortent.</p>
+  </section>
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="play-s2.html" rel="prev">← Play, Scène II</a>
+  <a href="play-s4.html" rel="next">Play, Scène IV →</a>
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      <p>
+        Ce(tte) œuvre est mise à disposition selon les termes de la Licence Creative Commons Attribution - Pas d&#39;Utilisation Commerciale - Pas de Modification 4.0 International (CC BY-NC-ND 4.0)
+
+  <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr">https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr</a>
+
+      </p>
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

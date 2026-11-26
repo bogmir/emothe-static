@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0157_ElBastardoMudarraYLosSieteInfantesDeLara/n0",{"lines":[["act-1","nref-1","Acto I",null,"n","\"s.\" “L s s” significa, probablemente, “Loado sea el Santísimo Sacramento”"]],"speakers":[]});

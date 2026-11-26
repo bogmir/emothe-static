@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ACTO PRIMERO — Una partida de ajédrez — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">Dramatis Personae (*)</a></li>
+      
+  
+    
+        <li>
+          <a href="prologue.html">
+            PRÓLOGO
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="prologue-2.html">
+            EXORDIO
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-1.html" aria-current="page">
+            ACTO PRIMERO
+          </a>
+          <ul>
+            <li>
+              
+                  <a href="act-1.html#act-1-s1">
+                    ESCENA ÚNICA
+                  </a>
+              
+            </li>
+          </ul>
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html">
+            ACTO SEGUNDO
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            ACTO TERCERO
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-4.html">
+            ACTO CUARTO
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-5.html">
+            ACTO QUINTO
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="epilogue.html">
+            EPILOGO
+          </a>
+          
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="Rey_Negro">
+        Rey Negro
+      </option><option value="Caballero_Negro">
+        El Caballero Negro
+      </option><option value="Duque_Negro">
+        El Duque Negro
+      </option><option value="Obispo_Negro">
+        El Obispo Negro
+      </option><option value="Peones_Negros">
+        Los Peones Negros
+      </option><option value="Rey_Blanco">
+        El Rey Blanco
+      </option><option value="Obispo_Blanco">
+        El Obispo Blanco
+      </option><option value="Peones_Blancos">
+        Los Peones Blancos
+      </option><option value="Obispo_Gordo">
+        El Obispo Gordo
+      </option><option value="Peón_Obispo_Gordo">
+        El Peón del Obispo Gordo
+      </option><option value="Reina_Negra">
+        La Reina Negra
+      </option><option value="Peón_Reina_Negra">
+        El Peón de la Reina Negra
+      </option><option value="Reina_Blanca">
+        La Reina Blanca
+      </option><option value="Peón_Reina_Blanca">
+        El Peón de la Reina Blanca
+      </option><option value="Ignacio_Loyola">
+        Ignacio de Loyola
+      </option><option value="Error">
+        El Error
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="asm" aria-label="Resaltar apartes" data-en-aria-label="Highlight asides" data-tr>
+        <x-es>Apartes</x-es><x-en>Asides</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .aparte, .text .pr.as, .text .pr:not(.as) span.as" data-for="asm">
+  <button type="button" data-step="-1" aria-label="Aparte anterior" data-en-aria-label="Previous aside" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente aparte" data-en-aria-label="Next aside" data-tr>›</button>
+</div>
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">Thomas Middleton</p>
+  <h1><a href="index.html">Una partida de ajédrez</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="prologue-2.html" rel="prev">← EXORDIO</a>
+  <a href="act-2.html" rel="next">ACTO SEGUNDO →</a>
+</nav>
+  <div class="text" lang="es" data-cite="Thomas Middleton, Una partida de ajédrez, ACTO PRIMERO" data-cite-verse="int." data-cite-prose="int.">
+    
+    <section class="division" id="act-1">
+  <h2 class="act-head">
+    ACTO PRIMERO
+  </h2>
+  
+  
+  
+    
+      <section id="act-1-s1">
+        <h3 class="scene-head">
+          ESCENA ÚNICA
+        </h3>
+        <p class="sd " id="l22-sd2">(Entran, del lado de la Casa Negra, EL PEÓN DE LA REINA NEGRA, y, del lado de la Casa Blanca, EL PEÓN DE LA REINA BLANCA.)</p><div class="sp " data-who="Peón_Reina_Negra">
+  <p class="spk ">
+    peón de la reina negra
+  </p>
+  <p class="pr " id="l23"><a class="pn " href="#l23">23</a>Sólo de ver esa cara me crece la piedad. Cuando contemplo tan señalada obra maestra del arte divino, labrada de polvo y cenizas, y pienso que por ser hija de la herejía he de darla por perdida eternamente, me sangra el alma por los ojos.</p>
+</div><div class="sp " data-who="Peón_Reina_Blanca">
+  <p class="spk ">
+    peón de la reina blanca
+  </p>
+  <p class="pr " id="l24"><a class="pn " href="#l24">24</a>¿Dónde hablaría mejor la verdad que en medio de tanta pena? Lágrimas son lo que veo... ¡Que me pierda si no llora de corazón! ¿Por qué se inquietará por mi paz espiritual si me descarrío y por mucho que abra los ojos yerro el camino que ella recorre a ciegas de tanto ejercicio? ¿Por qué le arranca una lágrima de piedad un error mío en la mejor partida que haya perdido un cristiano? Es un gran acto de caridad y ninguna virtud me atraería más.</p>
+</div><div class="sp " data-who="Peón_Reina_Negra">
+  <p class="spk ">
+    peón de la reina negra
+  </p>
+  <p class="pr " id="l25"><a class="pn m5" href="#l25">25</a>¡Ojalá venza el bien en la contienda! Si la bondad hizo alguna vez una graciosa promesa está en esa mirada. ¡Con qué poco esfuerzo se construiría una memorable fortaleza a la virtud en esa dulce criatura si los cimientos fueran más firmes!</p>
+</div><div class="sp " data-who="Peón_Reina_Blanca">
+  <p class="spk ">
+    peón de la reina blanca
+  </p>
+  <p class="pr " id="l26"><a class="pn " href="#l26">26</a>Ser firme en todos mis actos ha sido siempre mi mayor orgullo.</p>
+</div><div class="sp " data-who="Peón_Reina_Negra">
+  <p class="spk ">
+    peón de la reina negra
+  </p>
+  <p class="pr " id="l27"><a class="pn " href="#l27">27</a>Y también el enemigo que os roba el vigor, os combate y conturba el ánimo en lo más crudo de la batalla. Vuestra firmeza os hace así más débil ante el verdadero conflicto cristiano. He advertido ahí una ardiente chispa primigenia, que acaba de saltar de vuestra ferviente mirada, capaz de destruir a todas las herejías que se hayan dado cita en vuestra alma. <span class="sdi">(Entra EL PEÓN DEL OBISPO NEGRO: un jesuita.)</span><br>Aquí viene el que puede convertir esa chispa en llama con su devotísimo aliento. Escuchad, virgen, a aquel cuya sola entrada hace postrarse a los príncipes (las mujeres son vasos más frágiles).</p>
+</div><div class="sp " data-who="Peón_Reina_Blanca">
+  <p class="spk ">
+    peón de la reina blanca
+  </p>
+  <p class="pr " id="l28"><a class="pn " href="#l28">28</a>Una apuesta figura, por mi penitencia, y el hábito, reverendísimo.</p>
+</div><div class="sp " data-who="Peón_Reina_Negra">
+  <p class="spk ">
+    peón de la reina negra
+  </p>
+  <p class="pr " id="l29"><a class="pn " href="#l29">29</a>¿Y el corazón, señora? ¿Y el corazón? Tan manso que, así como se ve retratada a la Caridad con niños en brazos, así él cobija en su pecho, en su amantísimo pecho, a todas sus hijas jóvenes, dóciles, dulces y obedientes. Yo misma soy jesuitisa seglar, como lo son muchas damas ricas y principales. Los jesuitas <em>in voto</em> forman un grupo secundario y entregan su voto al Padre General, que es el Obispo Negro de nuestra Casa, cuyo Peón está encarnado en este caballero, para recibir el hábito del colegio por su santo deseo.</p>
+</div><div class="sp " data-who="Peón_Reina_Blanca">
+  <p class="spk ">
+    peón de la reina blanca
+  </p>
+  <p class="pr " id="l30"><a class="pn m5" href="#l30">30</a>¿En qué se ocupan los <em>in voto</em> hasta que reciben el hábito, señora?</p>
+</div><div class="sp " data-who="Peón_Reina_Negra">
+  <p class="spk ">
+    peón de la reina negra
+  </p>
+  <p class="pr " id="l31"><a class="pn " href="#l31">31</a>Pues no están ociosos. Todos se afanan en la obra de la monarquía universal, que es a lo que él y sus discípulos aspiran primordialmente. Operan en numerosos palacios y cortes, y entran de la mano de muchos nobles al servicio de grandes príncipes. Unos llegan a ser consejeros de estado, otros secretarios, y todos sirven al Padre General con sus informaciones, como los sacristanes con sus anuncios mortuorios. Así es como se adelantan a las conjuras y se comunican los secretos de estado, y las sospechas suelen recaer sobre los más honrados. Este misterio es muy profundo para vos, y oponerme a vuestro empeño sería una ofensa. La obediencia me refrena el ansia de apresurar vuestro camino de perfección, y por ello os encomiendo al gran artesano, a cuya dignidad acomodo mi sumisión, como a vos mis deseos.</p>
+</div><div class="sp " data-who="Peón_Obispo_Negro">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr as" id="l32"><a class="pn " href="#l32">32</a><span class="sdi">(Aparte al PEÓN DE LA REINA NEGRA.)</span> ¿Te parece dócil?</p>
+</div><div class="sp " data-who="Peón_Reina_Negra">
+  <p class="spk ">
+    peón de la reina negra
+  </p>
+  <p class="pr as" id="l33"><a class="pn " href="#l33">33</a>Algo se ha abierto el camino.</p>
+</div><p class="sd " id="l33-sd1">(Sale.)</p><div class="sp " data-who="Peón_Obispo_Negro">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr " id="l34"><a class="pn " href="#l34">34</a>Dejadme contemplar, dejad que el santo asombro atempere mi acceso para que pueda acercarme suavemente a este santuario de belleza incomparable revestido de gracia y bondad. Nunca he hallado entre las hijas de los hombres un semblante más católico; esos ojos prometen vida célibe y obediencia sumisa. Los dulces renuevos de la juventud, el sagrado rocío de la plegaria reposa sobre esos labios como perla caída sobre la púdica rosa cuando se abren los párpados de la mañana. ¡Con qué hermosura luciría en esas mejillas un dulce ayuno impuesto sin rigor! ¡Con qué encanto devolvería la salud a vuestro infectado entendimiento el fármaco benigno de una leve penitencia que ni en su forma más severa debiera causar mayor cuidado que el que siente una novia al vencer la flaqueza! El candor de un niño no sería tan palmario como vuestro merecimiento, que, por vuestra ignorancia pecadora, me parece más bien virtud mancillada.</p>
+</div><div class="sp " data-who="Peón_Reina_Blanca">
+  <p class="spk ">
+    peón de la reina blanca
+  </p>
+  <p class="pr " id="l35"><a class="pn m5" href="#l35">35</a>Me pliego a esa buena obra y seré la hija más humilde de la obediencia, pues veo venir en mi ayuda una fuerza sagrada. Es fácil servir rectamente a la virtud, puesto que es ella a quien siempre serví en mi deseo, aunque delinquiera en mi entendimiento.</p>
+</div><div class="sp " data-who="Peón_Obispo_Negro">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr " id="l36"><a class="pn " href="#l36">36</a>Eso se absuelve fácilmente entre todo lo demás. La virtud a la que ahora servís no os parecerá una dama áspera y cruel. Sus oídos están abiertos a vuestras súplicas y le podéis confiar vuestros pecados más secretos sin ningún temor, que, como los difuntos, nunca volverán al mundo. El destino no lo guardaría con más fidelidad.</p>
+</div><div class="sp " data-who="Peón_Reina_Blanca">
+  <p class="spk ">
+    peón de la reina blanca
+  </p>
+  <p class="pr " id="l37"><a class="pn " href="#l37">37</a>Para quien tiene culpa podría ser provechoso.</p>
+</div><div class="sp " data-who="Peón_Obispo_Negro">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr " id="l38"><a class="pn " href="#l38">38</a>¿Quién es tan inocente que nunca tenga necesidad de ello de una manera u otra? Si todos los pensamientos así confesados se divulgaran alegremente el aire que respiramos estaría infecto. – <span class="sdi">(Aparte.)</span> <span class="as">Y ahora, manos a la obra, que es ganar su inclinación; es el uso especial que hacemos de nuestras prácticas en todos los reinos, pues, desvelando sus más recónditas flaquezas, lo que consigamos no se nos podrá ocultar. Es el primer artículo del credo que les enseñamos: sabiendo de qué lado se inclina su ánimo, decidir la mejor manera de acomodarles a nuestros planes.</span><br><span class="sdi">(Al PEÓN.)</span> ¡Hija! Cuanto antes os liberéis de vuestros errores más cerca estaréis de vuestro restablecimiento; debéis abandonarlos. Sentir recato o escrúpulos ante esta buena obra es imitar el encogimiento de quien oculta su llaga, pues el tumor sigue hiriendo las partes repulsivas hasta hacerla incurable. Decidíos, señora. El pensamiento más secreto que corra a esconderse en lo más hondo de vuestra alma debe ser conocido por mí, y, por cierto, más estrechamente que cuando hayáis contado vuestras intimidades a alguna compañera de cama.</p>
+</div><div class="sp " data-who="Peón_Reina_Blanca">
+  <p class="spk ">
+    peón de la reina blanca
+  </p>
+  <p class="pr " id="l39"><a class="pn " href="#l39">39</a>Ningún temor me aflige por actos pecaminosos cometidos en aquel tiempo oscuro, nobilísima santidad. Confieso que, así como en un templo atestado de fieles algunos están más para nutrirse del objeto humano que para probar el alimento espiritual, así ha sucedido con la asamblea de pensamientos libres, más concurrida aún que tales congregaciones. Yo no podría dar fe de todos con la certeza que da la verdad. Unos han sido errantes, otros necios y otros pecadores, pero todos hallaron siempre triste acogida y pocos estímulos para volver. El celibato que ahora tan firmemente profeso, el cielo me perdone, estuve a punto de abandonarlo.</p>
+</div><div class="sp " data-who="Peón_Obispo_Negro">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr " id="l40"><a class="pn m5" href="#l40">40</a>¿Así que habéis pasado por el amor?</p>
+</div><div class="sp " data-who="Peón_Reina_Blanca">
+  <p class="spk ">
+    peón de la reina blanca
+  </p>
+  <p class="pr " id="l41"><a class="pn " href="#l41">41</a>Sí, pero no dejé mancha alguna a mi paso, señor, ni la virgen más pura que vaya a seguir mis huellas encontrará vestigio de infamia.</p>
+</div><div class="sp " data-who="Peón_Obispo_Negro">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr " id="l42"><a class="pn " href="#l42">42</a>Y, ¿cómo es que salisteis intacta?</p>
+</div><div class="sp " data-who="Peón_Reina_Blanca">
+  <p class="spk ">
+    peón de la reina blanca
+  </p>
+  <p class="pr " id="l43"><a class="pn " href="#l43">43</a>Me libró un suceso inhumano al que la decencia me impide llamar por su nombre.</p>
+</div><div class="sp " data-who="Peón_Obispo_Negro">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr " id="l44"><a class="pn " href="#l44">44</a>¡Qué caridad la vuestra! Cualquier acción, por sórdida que sea, revestida de un lenguaje comedido, tengo el deber de escucharla y preservarla eternamente. ¿Os lo digo? Él demostró no responder a su naturaleza. Una vestal en hábito de oración no habría podido aludir a la emasculación con más recato. Fue el Peón del Obispo Blanco.</p>
+</div><div class="sp " data-who="Peón_Reina_Blanca">
+  <p class="spk ">
+    peón de la reina blanca
+  </p>
+  <p class="pr " id="l45"><a class="pn m5" href="#l45">45</a>El mismo, bendito señor.</p>
+</div><div class="sp " data-who="Peón_Obispo_Gordo">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr " id="l46"><a class="pn " href="#l46">46</a>Un hereje empedernido.</p>
+</div><div class="sp " data-who="Peón_Reina_Blanca">
+  <p class="spk ">
+    peón de la reina blanca
+  </p>
+  <p class="pr " id="l47"><a class="pn " href="#l47">47</a>Su adversario, el Peón del Caballero Negro, a quien siempre aborreceré, lo preparó todo con violencia y alevosía.</p>
+</div><div class="sp " data-who="Peón_Obispo_Negro">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr " id="l48"><a class="pn " href="#l48">48</a>Fue la menos viril de las venganzas que haya emprendido rival alguno. Una villanía de la que nunca le absolveré por consideración a vos.</p>
+</div><div class="sp " data-who="Peón_Reina_Blanca">
+  <p class="spk ">
+    peón de la reina blanca
+  </p>
+  <p class="pr " id="l49"><a class="pn " href="#l49">49</a>Tanto rigor no deseo.</p>
+</div><div class="sp " data-who="Peón_Obispo_Negro">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr " id="l50"><a class="pn m5" href="#l50">50</a>Debe sentirlo en su alma. Nunca he dado mi absolución a semejante crimen contra la virilidad. Parece, pues, que le rechazasteis por defecto, así que no estáis limpia del deseo de matrimonio que tienen otras mujeres. Perdonad mi atrevimiento si cierno vuestra bondad hasta el último grano.</p>
+</div><div class="sp " data-who="Peón_Reina_Blanca">
+  <p class="spk ">
+    peón de la reina blanca
+  </p>
+  <p class="pr " id="l51"><a class="pn " href="#l51">51</a>Venero vuestro afán, señor, y debo reconocer que más que por el deseo me dejé llevar por la costumbre de disfrutar de lo que otras mujeres reclaman y poseen, pues mis deseos residen en la ignorancia y nunca querré saber que una costumbre necia puede sacarlos de ella.</p>
+</div><div class="sp " data-who="Peón_Obispo_Negro">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr " id="l52"><a class="pn " href="#l52">52</a><span class="sdi">(Aparte.)</span> <span class="as">Nunca he estado tan prendado, y ahora me amenaza su entendimiento. ¡Qué fuerza irradia!</span> <span class="sdi">(Al PEÓN.)</span> Voy a interrogaros más a fondo. Cuando habéis visto un modelo de hombre, dotado por el cielo de la apostura de un gran príncipe y el amor de un reino, tan perfecto que la envidia no hallaría donde mancillar su persona o su fama; entonces, digo, ¿no habéis sentido que la ambición hincha vuestro deseo? ¿Y que el deseo gobierna vuestro ánimo?</p>
+</div><div class="sp " data-who="Peón_Reina_Blanca">
+  <p class="spk ">
+    peón de la reina blanca
+  </p>
+  <p class="pr " id="l53"><a class="pn " href="#l53">53</a>¡Nunca, por la virtud! En la excelencia de la criatura sólo he admirado la gloria del Hacedor.</p>
+</div><div class="sp " data-who="Peón_Obispo_Negro">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr " id="l54"><a class="pn " href="#l54">54</a><span class="sdi">(Aparte.)</span> <span class="as">¡Es inexpugnable! El segundo asedio no será tan insulso. Ella es una de ésas que debe ser informada del deber de una hija, que otras aprenden sin maestro; su recato la deja muy atrás. Recurriré a mi viejo expediente. Sí, eso es.</span> <span class="sdi">(Le entrega un libro.)</span> Os ruego que leáis este pequeño tratado de obediencia; os será muy provechoso.</p>
+</div><div class="sp " data-who="Peón_Reina_Blanca">
+  <p class="spk ">
+    peón de la reina blanca
+  </p>
+  <p class="pr " id="l55"><a class="pn m5" href="#l55">55</a>Señor, es una virtud que siempre he considerado con especial veneración.</p>
+</div><div class="sp " data-who="Peón_Obispo_Negro">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr " id="l56"><a class="pn " href="#l56">56</a>Por él podréis concebir mi poder y vuestro deber.</p>
+</div><div class="sp " data-who="Peón_Reina_Blanca">
+  <p class="spk ">
+    peón de la reina blanca
+  </p>
+  <p class="pr " id="l57"><a class="pn " href="#l57">57</a>Mi conocimiento de ambos será muy valioso, señor.</p>
+</div><p class="sd " id="l57-sd1">(Entra EL PEÓN DEL OBISPO BLANCO.)</p><div class="sp " data-who="Peón_Obispo_Blanco">
+  <p class="spk ">
+    peón del obispo blanco
+  </p>
+  <p class="pr " id="l58"><a class="pn " href="#l58">58</a>¿Qué hace ese enturbiador de aguas cristianas tan cerca de ese bendito manantial? Si no supiera que su bondad es la roca de donde brotan las aguas, inexorables como el destino, me afligiría más de lo que haya penado por ella. Mientras sea fiel a la Casa a la que pertenece, a la pureza de la causa, a la excelencia de nuestro bando, mis sufrimientos son sacrificios que ofrezco a su virtud y dignidad, y, aunque impedido, en mi gozo espiritual soy su esposo y la poseo.</p>
+</div><p class="sd " id="l58-sd1">(Entra EL PEÓN DEL CABALLERO NEGRO.)</p><div class="sp " data-who="Peón_Obispo_Negro">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr " id="l59"><a class="pn " href="#l59">59</a>Mirad, señora, a los dos enemigos inhumanos: el Peón del Caballero Negro y el del Obispo Blanco, el castrador y el castrado.</p>
+</div><div class="sp " data-who="Peón_Reina_Blanca">
+  <p class="spk ">
+    peón de la reina blanca
+  </p>
+  <p class="pr " id="l60"><a class="pn m5" href="#l60">60</a>Mi odio y mi pena.</p>
+</div><div class="sp " data-who="Peón_Caballero_Negro">
+  <p class="spk ">
+    peón del caballero negro
+  </p>
+  <p class="pr " id="l61"><a class="pn " href="#l61">61</a><span class="sdi">(Aparte.)</span> <span class="as">¡Cómo! ¿En manos del jesuita? Mis partes contra una pluma de loro a que no sale virgen; es imposible. Cualquiera apostaría lo que fuera a que antes se libra del infierno un usurero que ella del jesuita. He sido culpable de tan vil maldad que recordarlo me remuerde la conciencia, y cuando voy a recoger el fruto no hallo otro árbol que la sabina, harto frecuente en los huertos de los conventos, que si la plantan es más bien para que destruya el fruto. Voy a salir de dudas.</span> <span class="sdi">(Al PEÓN DE LA REINA BLANCA.)</span> ¡Nobilísima virgen!</p>
+</div><div class="sp " data-who="Peón_Reina_Blanca">
+  <p class="spk ">
+    peón de la reina blanca
+  </p>
+  <p class="pr " id="l62"><a class="pn " href="#l62">62</a>¡Innoble villano! ¿Cómo se atreve tu sacrílega lengua a proferir tan graciosa palabra? ¿Qué significa para ti nobleza? ¿O castidad virginal? No te dicen nada. Tú habla de violencias que avergüenzan a la naturaleza, de actos que ruborizarían a la noche, que eso es lo tuyo. ¿Cómo tienes la desvergüenza de cortejarme con esa lepra tuya que podría infectar hasta los muros de un gran edificio?</p>
+</div><div class="sp " data-who="Peón_Obispo_Negro">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr " id="l63"><a class="pn " href="#l63">63</a>Guardaos, hijo de la ofensa, y dejad que vuestros ojos vean vuestro mal. Mejor os sentaría un hábito de penitente, un sayo de arpillera.</p>
+</div><div class="sp " data-who="Peón_Caballero_Negro">
+  <p class="spk ">
+    peón del caballero negro
+  </p>
+  <p class="pr " id="l64"><a class="pn " href="#l64">64</a>Y a vos mejor una casaca de tres libras que el alba y la casulla epicena. – <span class="sdi">(Aparte.)</span> <span class="as">Este curilla sabe nadar y guardar la ropa. El remordimiento es cada vez mayor...</span> – ¡Peón blanco! Si tus sentimientos admiten la reconciliación, impón tus propias condiciones, que esta carga ya empieza a pesarme demasiado.</p>
+</div><div class="sp " data-who="Peón_Obispo_Blanco">
+  <p class="spk ">
+    peón del obispo blanco
+  </p>
+  <p class="pr " id="l65"><a class="pn m5" href="#l65">65</a><span class="sdi">(Aparte.)</span> <span class="as">No hay que fiarse de ninguna declaración de paz y sinceridad que haga la Casa Negra, pero con la esperanza del desquite y prevenido por la sospecha quizá le capture en seguida.</span> <span class="sdi">(Al PEÓN DEL CABALLERO NEGRO.)</span> Vamos a parlamentar.</p>
+</div><div class="sp " data-who="Peón_Caballero_Negro">
+  <p class="spk ">
+    peón del caballero negro
+  </p>
+  <p class="pr " id="l66"><a class="pn " href="#l66">66</a>Vuestra nobleza ha añadido la confusión a mis merecimientos.</p>
+</div><p class="sd " id="l66-sd1">(Salen EL PEÓN DEL OBISPO BLANCO y EL PEÓN DEL CABALLERO NEGRO.)</p><div class="sp " data-who="Peón_Obispo_Negro">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr " id="l67"><a class="pn " href="#l67">67</a>Ese tratado os instruirá debidamente.</p>
+</div><p class="sd " id="l67-sd1">(Entra EL CABALLERO NEGRO.)</p><div class="sp " data-who="Caballero_Negro">
+  <p class="spk ">
+    caballero negro
+  </p>
+  <p class="pr as" id="l68"><a class="pn " href="#l68">68</a><span class="sdi">(Aparte.)</span> Vaya, vaya. Veo que el asunto de la monarquía universal sigue adelante; el gran puchero de los colegios, que siempre debe estar bullendo con la leña de todas las informaciones provenientes de los reinos cristianos. ¿Es este tipo nuestro principal incendiario? ¿Uno de aquéllos que hace siete años nos prometieron la incorporación del Reino Blanco a nuestra Casa Negra? Pues echadle una hija nueva y se le para la magna obra; no atiende ni a monarquía ni a jerarquía eclesiástica (el principado divino). Yo he presumido menos, pero he hecho más que toda la Compañía junta, incluidos los Asistentes, con el Padre General y todo. Y lo que he hecho lo he hecho donosamente, con galana sutileza y hechizante cortesanía, y he engañado a todos mis fieles con encanto; verse embaucados por mí les servía de consuelo. He dado paso a un veneno mortal, según afirman algunos que se han desternillado de risa al recibirlo. Podría dorar mis píldoras con sílabas edulcoradas y rociar mis estragos con amable alegría. Ellos se tomaron su ponzoña a modo de refrigerio, como el placer que infiltra corrupción en la juventud. Ahora me está observando. Debo respetar su dignidad, especialmente en público, aunque sé que Príapo, el guardián de los cerezos, rapaz de Baco y Venus, no es más rijoso que él.</p>
+</div><div class="sp " data-who="Peón_Obispo_Negro">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr " id="l69"><a class="pn " href="#l69">69</a>Sean con vos las bendiciones en cantidad, señor.</p>
+</div><div class="sp " data-who="Caballero_Negro">
+  <p class="spk ">
+    caballero negro
+  </p>
+  <p class="pr " id="l70"><a class="pn m5" href="#l70">70</a>Y con vos el disimulo de la dignidad, señor. – <span class="sdi">(Aparte.)</span> <span class="as">¡Cómo le rinde pleitesía! Debe de tener un cargo respetable.</span></p>
+</div><div class="sp " data-who="Peón_Obispo_Negro">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr " id="l71"><a class="pn " href="#l71">71</a>También soy confesor de este Caballero Negro. Veis que la devoción es fecunda, pues es madre de muchos hijos e hijas.</p>
+</div><div class="sp " data-who="Caballero_Negro">
+  <p class="spk ">
+    caballero negro
+  </p>
+  <p class="pr " id="l72"><a class="pn " href="#l72">72</a><span class="sdi">(Aparte.)</span> <span class="as">Esto lo hago más bien para que nuestros adversarios se asombren de la gran veneración que profesamos a estos pordioseros y para crearles una sólida fama de santidad y a nosotros, de fervor, como también para que nuestro humilde ejemplo incite a otras mozas a semejante obediencia.</span> <span class="sdi">(Sale EL PEÓN DE LA REINA BLANCA.)</span><br>¿Qué? ¿Se va vuestro juguete?</p>
+</div><div class="sp " data-who="Peón_Obispo_Negro">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr " id="l73"><a class="pn " href="#l73">73</a>¡Qué decís! ¡Pero si es una pieza valiosa, señor! Seguro que es el segundo Peón de la Casa Blanca, y su captura abrirá brecha.</p>
+</div><div class="sp " data-who="Caballero_Negro">
+  <p class="spk ">
+    caballero negro
+  </p>
+  <p class="pr " id="l74"><a class="pn " href="#l74">74</a>Pues seguid en ella, que siempre os he conocido el juego. Si hubiera más Peones de Reina, más os afanaríais (estamos a solas, señor). Pero, ¿y la obra principal, la gran existencia, la esperanza monárquica?</p>
+</div><div class="sp " data-who="Peón_Obispo_Negro">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr " id="l75"><a class="pn m5" href="#l75">75</a>En esto precisamente.</p>
+</div><div class="sp " data-who="Caballero_Negro">
+  <p class="spk ">
+    caballero negro
+  </p>
+  <p class="pr " id="l76"><a class="pn " href="#l76">76</a>¿En esto? No lo veo.</p>
+</div><div class="sp " data-who="Peón_Obispo_Negro">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr " id="l77"><a class="pn " href="#l77">77</a>También negaríais el movimiento de un reloj porque no veis avanzar la aguja, o el viento que hiende el cedro.</p>
+</div><div class="sp " data-who="Caballero_Negro">
+  <p class="spk ">
+    caballero negro
+  </p>
+  <p class="pr " id="l78"><a class="pn " href="#l78">78</a>¿Dónde se detiene el flujo de noticias? Vuestro Padre General, el Obispo de la Casa Negra, se queja por falta de trabajo.</p>
+</div><div class="sp " data-who="Peón_Obispo_Negro">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr " id="l79"><a class="pn " href="#l79">79</a>Aquí tenéis noticias llegadas de todas partes que le darán suficiente quehacer. Los Padres Asistentes me mandaron hace poco un paquete. Mirad: Ánglica, Gálica.</p>
+</div><p class="sd " id="l79-sd1">(Le entrega cartas.)</p><div class="sp " data-who="Caballero_Negro">
+  <p class="spk ">
+    caballero negro
+  </p>
+  <p class="pr " id="l80"><a class="pn m5" href="#l80">80</a>Sí, pardiez. Aquí hay carne fresca.</p>
+</div><div class="sp " data-who="Peón_Obispo_Negro">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr " id="l81"><a class="pn " href="#l81">81</a><span class="sdi">(Le entrega carta.)</span> ¡Germánica!</p>
+</div><div class="sp " data-who="Caballero_Negro">
+  <p class="spk ">
+    caballero negro
+  </p>
+  <p class="pr " id="l82"><a class="pn " href="#l82">82</a>Esta creo que la han sellado con mantequilla.</p>
+</div><div class="sp " data-who="Peón_Obispo_Negro">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr " id="l83"><a class="pn " href="#l83">83</a><span class="sdi">(Le entrega carta.)</span> ¡Esta de Itálica!</p>
+</div><div class="sp " data-who="Caballero_Negro">
+  <p class="spk ">
+    caballero negro
+  </p>
+  <p class="pr " id="l84"><a class="pn " href="#l84">84</a>Parece que escriben a la manera hebrea.</p>
+</div><div class="sp " data-who="Peón_Obispo_Negro">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr " id="l85"><a class="pn m5" href="#l85">85</a><span class="sdi">(Le entrega carta.)</span> ¡Aquí Hispánica!</p>
+</div><div class="sp " data-who="Caballero_Negro">
+  <p class="spk ">
+    caballero negro
+  </p>
+  <p class="pr " id="l86"><a class="pn " href="#l86">86</a>¡Hispánica! ¡Para trabajar a ciegas! Seguro que el jesuita la ha escrito con jugo de limón. Habrá que acercarse bien al fuego del purgatorio para poder leerla.</p>
+</div><div class="sp " data-who="Peón_Obispo_Negro">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr " id="l87"><a class="pn " href="#l87">87</a>No perdéis el humor, Caballero, aunque pueda dañar vuestra fama.</p>
+</div><p class="sd " id="l87-sd1">(Entra EL PEÓN DEL REY BLANCO.)</p><div class="sp " data-who="Caballero_Negro">
+  <p class="spk ">
+    caballero negro
+  </p>
+  <p class="pr " id="l88"><a class="pn " href="#l88">88</a><em>Curanda pecunia</em>.</p>
+</div><div class="sp " data-who="Peón_Obispo_Negro">
+  <p class="spk ">
+    peón del obispo negro
+  </p>
+  <p class="pr " id="l89"><a class="pn " href="#l89">89</a>Cuidado, señor, que nos capturan. ¡Es el Peón del Rey Blanco!</p>
+</div><div class="sp " data-who="Caballero_Negro">
+  <p class="spk ">
+    caballero negro
+  </p>
+  <p class="pr " id="l90"><a class="pn m5" href="#l90">90</a>Éste es de los nuestro y medio <em>in voto</em> vuestro. Su corazón está en la Casa Negra. Dejádmelo a mí. <span class="sdi">(Sale EL PEÓN DEL OBISPO NEGRO.)</span><br>¡El más querido y singularmente apreciado de los amigos!</p>
+</div><div class="sp " data-who="Peón_Rey_Blanco">
+  <p class="spk ">
+    peón del rey blanco
+  </p>
+  <p class="pr " id="l91"><a class="pn " href="#l91">91</a>Me veis por fuera, pero conocéis mi corazón, Caballero, y hay gran diferencia en el color. Van llegando noticias, y, conforme maduren, os iréis enterando. Creedme: no sólo no sucederá nada que pueda dañar vuestra causa u oprimir a sus adeptos, sino que me esforzaré por derrotar con mi prudencia, mi dinero y mi poder a todo aquello que se oponga a vuestro bando, e impediré toda suerte de recursos, tanto materiales como humanos, que se dispongan contra vos. Ahora debemos separarnos. No me atrevo a tratar más este asunto, que el oído del Estado es receloso y está alerta.</p>
+</div><p class="sd " id="l91-sd1">(Sale.)</p><div class="sp " data-who="Caballero_Negro">
+  <p class="spk ">
+    caballero negro
+  </p>
+  <p class="pr " id="l92"><a class="pn " href="#l92">92</a>Mucho vales. Te aprecian más que a la flota de oro que volvió malparada. ¡Pobre alma enjesuitada! ¡Cómo te han arrancado de tu fe y apartado de tus lealtades! Cualquiera que sea tu camino, eres Peón perdido.</p>
+</div><p class="sd " id="l92-sd1">(Sale.)</p>
+      </section>
+    
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="prologue-2.html" rel="prev">← EXORDIO</a>
+  <a href="act-2.html" rel="next">ACTO SEGUNDO →</a>
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      <p>
+        Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0)
+
+  <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es">https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es</a>
+
+      </p>
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Acto 2 — Los rivales — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">Personajes</a></li>
+      
+  
+    
+        <li>
+          <a href="act-1.html">
+            Acto 1
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html" aria-current="page">
+            Acto 2
+          </a>
+          <ul>
+            <li>
+              
+                  <a href="act-2.html#act-2-s1">
+                    ESCENA PRIMERA
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-2.html#act-2-s2">
+                    ESCENA SEGUNDA
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-2.html#act-2-s3">
+                    ESCENA TERCERA
+                  </a>
+              
+            </li>
+          </ul>
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            Acto 3
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-4.html">
+            Acto 4
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-5.html">
+            Acto 5
+          </a>
+          
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="Res">
+        Restituta
+      </option><option value="Nod">
+        Nodriza
+      </option><option value="Fil">
+        Filadelfio
+      </option><option value="Ev">
+        Evertón
+      </option><option value="CLA">
+        Claudio
+      </option><option value="FE">
+        Felipe
+      </option><option value="AL">
+        Alison
+      </option><option value="BER">
+        Bernardo
+      </option><option value="GER">
+        Gerardo
+      </option><option value="FRE">
+        Fremundo
+      </option><option value="JAC">
+        Jacoba
+      </option><option value="MED">
+        El médico
+      </option><option value="FILANDRO">
+        Filandro
+      </option><option value="GIL">
+        Gil
+      </option><option value="Felix">
+        Félix
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">Jean de La Taille</p>
+  <h1><a href="index.html">Los rivales</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-1.html" rel="prev">← Acto 1</a>
+  <a href="act-3.html" rel="next">Acto 3 →</a>
+</nav>
+  <div class="text" lang="es" data-cite="Jean de La Taille, Los rivales, Acto 2" data-cite-verse="v." data-cite-prose="l.">
+    
+    <section class="division" id="act-2">
+  <h2 class="act-head">
+    Acto 2
+  </h2>
+  
+  
+  
+    
+      <section id="act-2-s1">
+        <h3 class="scene-head">
+          ESCENA PRIMERA
+        </h3>
+        <p class="sd " id="l80-sd1">Evertón, mozo joven. Felipe, su criado.</p><div class="sp " data-who="Ev">
+  <p class="spk ">
+    EVERTÓN.
+  </p>
+  <p class="pr " id="l81"><a class="pn " href="#l81">81</a>¿Es forzoso que los bienes tengan tal imperio sobre los hombres? ¿Es menester que una virtud, una gran hermosura y una noble estirpe sean tan poco estimadas si no van acompañadas de riquezas? ¿Por ventura han de menospreciarse las piedras preciosas, los diamantes, los rubíes y las esmeraldas, a quienes comparo las prendas de Flordelís, porque no estén engastadas en oro? ¿No valdría más tener mujer que fuese dueña de hacienda, que hacienda que desease mujer?</p>
+</div><div class="sp " data-who="FE">
+  <p class="spk ">
+    FELIPE.
+  </p>
+  <p class="pr " id="l82"><a class="pn " href="#l82">82</a>Pues bien, Evertón, ¿qué deseabais de mí?</p>
+</div><div class="sp " data-who="Ev">
+  <p class="spk ">
+    EVERTÓN.
+  </p>
+  <p class="pr " id="l83"><a class="pn " href="#l83">83</a>¡Ah, aquí estás en buen punto! Habíate mandado buscar.</p>
+</div><div class="sp " data-who="FE">
+  <p class="spk ">
+    FELIPE.
+  </p>
+  <p class="pr " id="l84"><a class="pn " href="#l84">84</a>Mas, ¿de qué os quejabais aparte?</p>
+</div><div class="sp " data-who="Ev">
+  <p class="spk ">
+    EVERTÓN.
+  </p>
+  <p class="pr " id="l85"><a class="pn m5" href="#l85">85</a>De la avaricia de mi padre.</p>
+</div><div class="sp " data-who="FE">
+  <p class="spk ">
+    FELIPE.
+  </p>
+  <p class="pr " id="l86"><a class="pn " href="#l86">86</a>¿Qué os ha hecho?</p>
+</div><div class="sp " data-who="Ev">
+  <p class="spk ">
+    EVERTÓN.
+  </p>
+  <p class="pr " id="l87"><a class="pn " href="#l87">87</a>Te lo diré, y de paso entenderás en qué he de ocuparte.</p>
+</div><div class="sp " data-who="FE">
+  <p class="spk ">
+    FELIPE.
+  </p>
+  <p class="pr " id="l88"><a class="pn " href="#l88">88</a>Decidme al punto.</p>
+</div><div class="sp " data-who="Ev">
+  <p class="spk ">
+    EVERTÓN.
+  </p>
+  <p class="pr " id="l89"><a class="pn " href="#l89">89</a>En primer lugar, has de saber que amo a una doncella de unos quince años, honesta, de buen donaire y acabada hermosura; y cada día crece en belleza y frescura, cual la rosa que a cada momento sale del capullo y va creciendo al encuentro del sol. Su nombre es Flordelís, hija de un picardo que recientemente ha venido a vivir a esta ciudad, llamado el señor Fremundo. ¿No la conoces acaso?</p>
+</div><div class="sp " data-who="FE">
+  <p class="spk ">
+    FELIPE.
+  </p>
+  <p class="pr " id="l90"><a class="pn m5" href="#l90">90</a>¡Cierto que sí! A tales señales, es amada de un tal Filadelfio, vecino de ese picardo.</p>
+</div><div class="sp " data-who="Ev">
+  <p class="spk ">
+    EVERTÓN.
+  </p>
+  <p class="pr " id="l91"><a class="pn " href="#l91">91</a>Dices verdad.</p>
+</div><div class="sp " data-who="FE">
+  <p class="spk ">
+    FELIPE.
+  </p>
+  <p class="pr " id="l92"><a class="pn " href="#l92">92</a>¿Pues qué es menester hacer? ¿Queréis que le rompamos la cabeza?</p>
+</div><div class="sp " data-who="Ev">
+  <p class="spk ">
+    EVERTÓN.
+  </p>
+  <p class="pr " id="l93"><a class="pn " href="#l93">93</a>Aguarda a que te cuente todo mi negocio. Desde que mi corazón fue prenda de esta doncella —hará ya dos meses—, he procurado por todos los medios gozar de ella, y no ha faltado que hasta solicitara desposarla. Mas, mi padre (que es avaro y miserable, como sabes), viendo pobre al padre de Flordelís, quien gastó en guerras buena parte de su hacienda, me contradijo áspero, y me reprendió duramente, diciendo que aún soy muy mozo y que aún no es tiempo de pensar en casamiento. Por tanto, ahora mismo, me lamentaba en secreto. Pero, en suma, he resuelto —puesto que mi padre no lo quiere permitir— tomarla por el medio que más me convenga.</p>
+</div><div class="sp " data-who="FE">
+  <p class="spk ">
+    FELIPE.
+  </p>
+  <p class="pr " id="l94"><a class="pn " href="#l94">94</a>Al grano, señor.</p>
+</div><div class="sp " data-who="Ev">
+  <p class="spk ">
+    EVERTÓN.
+  </p>
+  <p class="pr " id="l95"><a class="pn m5" href="#l95">95</a>Has de saber que Fremundo, padre de la doncella, tiene en su casa una criada ya de cierta edad.</p>
+</div><div class="sp " data-who="FE">
+  <p class="spk ">
+    FELIPE.
+  </p>
+  <p class="pr " id="l96"><a class="pn " href="#l96">96</a>¿No es Alison?</p>
+</div><div class="sp " data-who="Ev">
+  <p class="spk ">
+    EVERTÓN.
+  </p>
+  <p class="pr " id="l97"><a class="pn " href="#l97">97</a>Ella es.</p>
+</div><div class="sp " data-who="FE">
+  <p class="spk ">
+    FELIPE.
+  </p>
+  <p class="pr " id="l98"><a class="pn " href="#l98">98</a>¡Oh, cuán notable es esa buena señora! Seguid, seguid adelante.</p>
+</div><div class="sp " data-who="Ev">
+  <p class="spk ">
+    EVERTÓN.
+  </p>
+  <p class="pr " id="l99"><a class="pn " href="#l99">99</a>Yo, por medio de dádivas, súplicas y cortesías, me he congraciado con Alison, hasta el punto que ha llevado mi mensaje a Flordelís, y me ha ganado algún favor de aquella. Hace ocho días me comunicó que me haría entrar donde estuviese la doncella una vez que su amo Fremundo saliese, y que, cuando entrase hiciese mi voluntad. Por tanto, he resuelto llevarla por fuerza, si no consiente a lo que deseo.</p>
+</div><div class="sp " data-who="FE">
+  <p class="spk ">
+    FELIPE.
+  </p>
+  <p class="pr " id="l100"><a class="pn m5" href="#l100">100</a>Mas, ¡Evertón!</p>
+</div><div class="sp " data-who="Ev">
+  <p class="spk ">
+    EVERTÓN.
+  </p>
+  <p class="pr " id="l101"><a class="pn " href="#l101">101</a>¿Qué &quot;mas&quot;? No me contradigas, que ya tengo esto decidido.</p>
+</div><div class="sp " data-who="FE">
+  <p class="spk ">
+    FELIPE.
+  </p>
+  <p class="pr " id="l102"><a class="pn " href="#l102">102</a>¡Haced como consideréis! Mas, ¿qué queréis de mí?</p>
+</div><div class="sp " data-who="Ev">
+  <p class="spk ">
+    EVERTÓN.
+  </p>
+  <p class="pr " id="l103"><a class="pn " href="#l103">103</a>Alison me avisó esta mañana, por mi lacayo, de que tenía algo que decirme. Sospecho que acaso su amo habrá de salir. ¡Querría que fuese hoy, cuando mi padre está en el campo! Por ese motivo te he hecho venir aquí, junto a la morada de Fremundo, para rogarte me ayudes a llevarla, si fuere menester.</p>
+</div><div class="sp " data-who="FE">
+  <p class="spk ">
+    FELIPE.
+  </p>
+  <p class="pr " id="l104"><a class="pn " href="#l104">104</a>¿Sí? Mas, ¿podríamos hacerlo nosotros solos?</p>
+</div><div class="sp " data-who="Ev">
+  <p class="spk ">
+    EVERTÓN.
+  </p>
+  <p class="pr " id="l105"><a class="pn m5" href="#l105">105</a>Calixto, mi camarada, ha de ayudarme; por tanto, retirémonos a su casa, cercana a la de Fremundo, para estar prontos cuando Alison nos abra la puerta. Él proveerá también armas para los tres.</p>
+</div><div class="sp " data-who="FE">
+  <p class="spk ">
+    FELIPE.
+  </p>
+  <p class="pr " id="l106"><a class="pn " href="#l106">106</a>Si puedo, no os faltaré, así es. Mas, ¿podremos hacerlo seguros? ¿No habrá quien nos lo impida?</p>
+</div><div class="sp " data-who="Ev">
+  <p class="spk ">
+    EVERTÓN.
+  </p>
+  <p class="pr " id="l107"><a class="pn " href="#l107">107</a>¿Quién diablos ha de impedirlo? Es verdad que tengo por rival a ese gentil Filadelfio; pero, ¿qué nos hará, si ignora nuestro manejo?</p>
+</div><div class="sp " data-who="FE">
+  <p class="spk ">
+    FELIPE.
+  </p>
+  <p class="pr " id="l108"><a class="pn " href="#l108">108</a>¡Voto a tal! Si le halláramos, no será hombre para nosotros, y os aseguro que no será para vuestra Flordelís más que si fuese su hermano.</p>
+</div><div class="sp " data-who="Ev">
+  <p class="spk ">
+    EVERTÓN.
+  </p>
+  <p class="pr " id="l109"><a class="pn " href="#l109">109</a>Pero he aquí a Alison, que sale de casa. Retírate a lo de Calixto y me aguardas allí; ha de decirme, acaso, lo que sospecho.</p>
+</div><div class="sp " data-who="FE">
+  <p class="spk ">
+    FELIPE.
+  </p>
+  <p class="pr " id="l110"><a class="pn m5" href="#l110">110</a>Hoy quiero pasarlo bien, mientras el soñador de mi amo pasea fuera de la ciudad. No ganará tanto en un mes como gastaremos en una hora.</p>
+</div>
+      </section>
+    
+  
+    
+      <section id="act-2-s2">
+        <h3 class="scene-head">
+          ESCENA SEGUNDA
+        </h3>
+        <p class="sd " id="l110-sd1">Alison, criada. Evertón.</p><div class="sp " data-who="AL">
+  <p class="spk ">
+    ALISON.
+  </p>
+  <p class="pr " id="l111"><a class="pn " href="#l111">111</a>¿Qué demonios habrá de sucederme hoy, si esta noche tuve el sueño más terrible del mundo? Jamás sueño tales necedades sin que me acontezca después novedad o gran tumulto. Mas, sé bien lo que dicen: que es locura dar fe a tales cosas.</p>
+</div><div class="sp " data-who="Ev">
+  <p class="spk ">
+    EVERTÓN.
+  </p>
+  <p class="pr " id="l112"><a class="pn " href="#l112">112</a>¿Qué haces, Alison, que razonas tan en secreto? ¿Cuándo tendremos la Cuasimodo? ¿Hablas acaso de vidas de Santos, o de las llagas de San Francisco?</p>
+</div><div class="sp " data-who="AL">
+  <p class="spk ">
+    ALISON.
+  </p>
+  <p class="pr " id="l113"><a class="pn " href="#l113">113</a>¡Ah, Evertón! Salía al punto de buscarte, según lo mandé esta mañana.</p>
+</div><div class="sp " data-who="Ev">
+  <p class="spk ">
+    EVERTÓN.
+  </p>
+  <p class="pr " id="l114"><a class="pn " href="#l114">114</a>Pues bien, ¿qué has de decirme?</p>
+</div><div class="sp " data-who="AL">
+  <p class="spk ">
+    ALISON.
+  </p>
+  <p class="pr " id="l115"><a class="pn m5" href="#l115">115</a>Mi señor parte a la ciudad ahora.</p>
+</div><div class="sp " data-who="Ev">
+  <p class="spk ">
+    EVERTÓN.
+  </p>
+  <p class="pr " id="l116"><a class="pn " href="#l116">116</a>¡Oh, cuánto me alegra! Pero dime, ¿cómo me harás entrar donde está mi Flordelís?</p>
+</div><div class="sp " data-who="AL">
+  <p class="spk ">
+    ALISON.
+  </p>
+  <p class="pr " id="l117"><a class="pn " href="#l117">117</a>Abriré nuestra puerta trasera, ante la cual os haré una señal. A saber: le daré tres vueltas a mi rueca, para que entendáis cuándo es tiempo de entrar por esa misma puerta.</p>
+</div><div class="sp " data-who="Ev">
+  <p class="spk ">
+    EVERTÓN.
+  </p>
+  <p class="pr " id="l118"><a class="pn " href="#l118">118</a>Suficiente; estaré preparado en casa de mi amigo, vuestro vecino. Mas temo que haya alguien en casa que pueda estorbar mi empresa; me parece que hay un criado llamado Claudio, y me contentaría no verlo.</p>
+</div><div class="sp " data-who="AL">
+  <p class="spk ">
+    ALISON.
+  </p>
+  <p class="pr " id="l119"><a class="pn " href="#l119">119</a>No os turbéis; yo sabré despacharlo. ¿No será forzoso que salga a buscar a su amo?</p>
+</div><div class="sp " data-who="Ev">
+  <p class="spk ">
+    EVERTÓN.
+  </p>
+  <p class="pr " id="l120"><a class="pn m5" href="#l120">120</a>Alison, si esto haces por mí, te prometo el cinto más hermoso del mundo y la más linda pareja de rosarios que puedas ver jamás, además de otros presentes que pueda hacerte.</p>
+</div><div class="sp " data-who="AL">
+  <p class="spk ">
+    ALISON.
+  </p>
+  <p class="pr " id="l121"><a class="pn " href="#l121">121</a>¡Oh, esto no me fuerza! Mas sí os ruego guardéis secreto, para que Fremundo nada sospeche de mí.</p>
+</div><div class="sp " data-who="Ev">
+  <p class="spk ">
+    EVERTÓN.
+  </p>
+  <p class="pr " id="l122"><a class="pn " href="#l122">122</a>Basta, muchas veces te lo he jurado; pero, visto lo que me prometes, voy a arreglar mis preparativos, pues no tengo que holgar.</p>
+</div><div class="sp " data-who="AL">
+  <p class="spk ">
+    ALISON.
+  </p>
+  <p class="pr " id="l123"><a class="pn " href="#l123">123</a>Marchad, que ya veo a Fremundo salir de casa para irse.</p>
+</div>
+      </section>
+    
+  
+    
+      <section id="act-2-s3">
+        <h3 class="scene-head">
+          ESCENA TERCERA
+        </h3>
+        <p class="sd " id="l123-sd1">Fremundo, picardo. Alison.</p><div class="sp " data-who="FRE">
+  <p class="spk ">
+    FREMUNDO.
+  </p>
+  <p class="pr " id="l124"><a class="pn " href="#l124">124</a>¡Alison! Mientras voy a la ciudad, cuida bien de Flordelís, ¿entiendes? Y no te muevas de casa. Si a la verdad el negocio no me apremiase, contento sería de no ir, pues mi corazón me dice no sé qué mal agüero. No la dejes salir de la casa.</p>
+</div><div class="sp " data-who="AL">
+  <p class="spk ">
+    ALISON.
+  </p>
+  <p class="pr " id="l125"><a class="pn m5" href="#l125">125</a>A fe mía, señor Fremundo, si os hubierais fiado de mí, tiempo haría que no estaríais con el miedo y la zozobra que os consume por vuestra hija, pues la hubierais casado bien, como os aconsejé. Vos hicisteis según vuestro criterio; bien, pues sea. Mas, ¿con quién pensáis casarla? ¿Con un príncipe? ¡Así lo quisierais!</p>
+</div><div class="sp " data-who="FRE">
+  <p class="spk ">
+    FREMUNDO.
+  </p>
+  <p class="pr " id="l126"><a class="pn " href="#l126">126</a>¿Crees que, si hubiera hallado algún partido conveniente, me hubiese yo demorado tanto? Bien sabes cómo cada día me lo solicitan, incluso Evertón, hijo de Gerardo Guerrero, rico ciudadano, mas, su padre no se ha avenido a ello.</p>
+</div><div class="sp " data-who="AL">
+  <p class="spk ">
+    ALISON.
+  </p>
+  <p class="pr " id="l127"><a class="pn " href="#l127">127</a>Haced como queráis; mas, en verdad, me parece que la hacéis ayunar demasiado.</p>
+</div><div class="sp " data-who="FRE">
+  <p class="spk ">
+    FREMUNDO.
+  </p>
+  <p class="pr " id="l128"><a class="pn " href="#l128">128</a>Te parece que todas las mujeres se te asemejan. Me entiendes bien.</p>
+</div><div class="sp " data-who="AL">
+  <p class="spk ">
+    ALISON.
+  </p>
+  <p class="pr " id="l129"><a class="pn " href="#l129">129</a>Al contrario, a vos os parece que todo el mundo es tan frío como vos.</p>
+</div><div class="sp " data-who="FRE">
+  <p class="spk ">
+    FREMUNDO.
+  </p>
+  <p class="pr " id="l130"><a class="pn m5" href="#l130">130</a>Es verdad que no me acaloro tanto como tú quisieras.</p>
+</div><div class="sp " data-who="AL">
+  <p class="spk ">
+    ALISON.
+  </p>
+  <p class="pr " id="l131"><a class="pn " href="#l131">131</a>Mas, ¡ay de mí!, si casi no podéis más. Y si hacéis a veces lo vuestro, es tan poco a menudo que no vale la pena contarlo.</p>
+</div><div class="sp " data-who="FRE">
+  <p class="spk ">
+    FREMUNDO.
+  </p>
+  <p class="pr " id="l132"><a class="pn " href="#l132">132</a>Bien, dejemos esto. Si me buscan, dirás que he ido a hablar con el capitán Candía, y que no tardaré mucho.</p>
+</div>
+      </section>
+    
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-1.html" rel="prev">← Acto 1</a>
+  <a href="act-3.html" rel="next">Acto 3 →</a>
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      <p>
+        Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0)
+
+  <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es">https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es</a>
+
+      </p>
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

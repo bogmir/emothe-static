@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Acto V — La tempestad — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">PERSONAJES</a></li>
+      
+  
+    
+        <li>
+          <a href="act-1.html">
+            Acto I
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html">
+            Acto II
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            Acto III
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-4.html">
+            Acto IV
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-5.html" aria-current="page">
+            Acto V
+          </a>
+          <ul>
+            <li>
+              
+                  <a href="act-5.html#act-5-s1">
+                    ESCENA ÚNICA
+                  </a>
+              
+            </li>
+          </ul>
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="Alfonso">
+        ALFONSO
+      </option><option value="Sebastian">
+        SEBASTIÁN
+      </option><option value="Prospero">
+        PRÓSPERO
+      </option><option value="Gonzalo">
+        GONZALO
+      </option><option value="Antonio">
+        ANTONIO
+      </option><option value="Adrian">
+        ADRIANO}
+      </option><option value="Francisco">
+        FRANCISCO}
+      </option><option value="Caliban">
+        CÁLIBAN
+      </option><option value="Stephano">
+        ESTEBAN
+      </option><option value="Master">
+        UN CAPITÁN DE BUQUE
+      </option><option value="Boatswain">
+        UN CONTRAMAESTRE
+      </option><option value="Mariners">
+        MARINEROS
+      </option><option value="Miranda">
+        MIRANDA
+      </option><option value="Ariel">
+        ARIEL
+      </option><option value="Iris">
+        IRIS}
+      </option><option value="Ceres">
+        CERES}
+      </option><option value="Juno">
+        JUNO}
+      </option><option value="Nymphs">
+        NINFAS}
+      </option><option value="Reapers">
+        SENADORES}
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="asm" aria-label="Resaltar apartes" data-en-aria-label="Highlight asides" data-tr>
+        <x-es>Apartes</x-es><x-en>Asides</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .aparte, .text .pr.as, .text .pr:not(.as) span.as" data-for="asm">
+  <button type="button" data-step="-1" aria-label="Aparte anterior" data-en-aria-label="Previous aside" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente aparte" data-en-aria-label="Next aside" data-tr>›</button>
+</div>
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">William Shakespeare</p>
+  <h1><a href="index.html">La tempestad</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-4.html" rel="prev">← Acto IV</a>
+  
+</nav>
+  <div class="text" lang="es" data-cite="William Shakespeare, La tempestad, Acto V" data-cite-verse="v." data-cite-prose="l.">
+    
+    <section class="division" id="act-5">
+  <h2 class="act-head">
+    Acto V
+  </h2>
+  
+  <p class="tr">FIN DE LA «TEMPESTAD»</p>
+  
+    
+      <section id="act-5-s1">
+        <h3 class="scene-head">
+          ESCENA ÚNICA
+        </h3>
+        <p class="sd " id="l172-sd9">Delante de la gruta de Próspero</p><p class="sd " id="l172-sd10">(Entra Próspero revestido de su mágica toga, y Ariel)</p><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l172-p45">Ya se avecina el desenlace de mi proyecto; mis encantos no fallan; mis genios obedecen, y el tiempo se desliza erguido con su carga. ¿Qué hora es?</p>
+</div><div class="sp " data-who="Ariel">
+  <p class="spk ">
+    ARIEL
+  </p>
+  <p class="pr " id="l172-p46">Las seis, en cuya hora dijisteis que cesarían nuestras tareas.</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l172-p47">Así dije cuando desencadené la tempestad. Dime, espíritu, ¿cómo están el Rey y su sequito?</p>
+</div><div class="sp " data-who="Ariel">
+  <p class="spk ">
+    ARIEL
+  </p>
+  <p class="pr " id="l172-p48">Confinados juntos del mismo modo que me ordenasteis e igual que los habéis dejado. Todos, señor están presos en la alameda que protege a vuestra gruta; no pueden salir de allí hasta que los soltéis. El Rey, su hermano y el vuestro se hallan entregados a la locura, y los restantes, embargados por la tristeza y el desaliento, sufren por su causa, principalmente el que llamáis «virtuoso y noble Viejo Gonzalo», cuyas lágrimas se deslizan por su barba como la lluvia de invierno sobre los cobertizos de junco. Vuestros encantos operan en ellos con tal fuerza que si los vieseis ahora os enteraríais.</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l172-p49">¿Así lo crees tú, espíritu?</p>
+</div><div class="sp " data-who="Ariel">
+  <p class="spk ">
+    ARIEL
+  </p>
+  <p class="pr " id="l172-p50">El mío se enternecería, si yo fuese hombre.</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l172-p51">Y el mío también. A ti, que eres aire, te conmueve y emociona el espectáculo de su aflicción, ¿y no ha de conmoverme a mí que soy de su especie y me afecto y apasiono tan vivamente como ellos? Aunque me hirieron en lo más vivo sus crueles injurias, lucho no obstante del lado de mi razón contra mi cabeza: hay más nobleza en la virtud que en la venganza. Si estén arrepentidos, mi propósito no camina ni un punto más allá. Vete, Ariel, y libértalos; anularé mis encantos, les restituiré la razón y volverán a ser lo que antes.</p>
+</div><div class="sp " data-who="Ariel">
+  <p class="spk ">
+    ARIEL
+  </p>
+  <p class="pr " id="l172-p52">Voy a buscarlos, señor.</p>
+</div><p class="sd " id="l172-sd11">(Sale.)</p><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l172-p53"><span class="sdi">(Música solemne. Vuelve Ariel; después Alfonso, haciendo gestos de frenético; le acompaña Gonzalo; de igual manera vienen Sebastián y Antonio, seguidos de Adriano y Francisco; todos entran en el círculo que ha hecho Próspero y permanecen allí encantados. Próspero los contempla y dice:)</span> Silfos de las Colinas, de los arroyos, de los plácidos lagos y los bosques: los que sin dejar huellas pisáis la playa, perseguís el descenso de Neptuno y corréis cuando ascienden sus ondas; vosotros geniecillos, que a los rayos de la luna formáis ásperos setos de plantas que la oveja evita; vosotros, cuyo alegre pasatiempo es hacer brotar hongos en la media noche y os regocijáis al oír el solemne toque de queda; con vuestro auxilio, aunque sois tan débiles, he obscurecido yo al sol de mediodía evocado de sus cavernas a los vientos tempestuosos y desencadenado una tumultuosa guerra entre el verde mar y el azul firmamento; he dado llamas al fragoroso trueno y hendido la robusta encina de Júpiter con su propia centella; hice temblar al firme y estable promontorio, desarraigando los pinos y los cedros; y a mi voz las tumbas se abrieron, despertaron a sus durmientes y los lanzaron fuera a impulso de mi arte poderoso; a pesar de eso, aquí mismo abdico de mi austera magia; sólo me resta pedir algunos acordes de celeste música para obrar según mis proyectos sobre los sentidos de estos hombres. Después romperé mi vara, sepultándola profundamente en tierra, y sumergiré mi libro a mayor profundidad que alcanzó nunca la sonda. <span class="sdi">(A Alfonso.)</span> ¡Los solemnes acordes, que son el mejor alivio de una turbada mente, curen vuestro cerebro que ahora inútil hierve dentro del cráneo! Permaneced inmóvil, que os sostiene el conjuro. <span class="sdi">(A Gonzalo.)</span> Virtuoso Gonzalo, hombre digno, mis ojos simpatizan con los tuyos y derraman lágrimas fraternas. El encanto se desvanece poco a poco; y lo mismo que el alba invade las tinieblas de la noche y lucha por disiparlas, así despiertan tus sentidos y pugnan por desvanecer el humo de la ignorancia que oscurece tu inteligencia. ¡Oh, buen Gonzalo, mi verdadero salvador, y súbdito leal de aquel a quien sigues! Cuando yo vuelva a mi hogar pagaré tus servicios con palabras y con obras. Alfonso, cruelmente nos trataste a mi hija y a mí; cómplice fue tu hermano de esta obra. Bien castigado te vos ahora por ello. Sebastián. Y tú, carne y sangre mía; tú, hermano mío, que diste entrada a la ambición soberbia y expulsaste los remordimientos y los afectos naturales; tú, que junto con Sebastián, que ahora padece mayores y más punzantes torturas internas, has querido inmolar a tu Rey, aunque eres tan desnaturalizado, también alcanzas mi indulgencia. La marea de su razón empieza ya a subir y el flujo cubrirá pronto las playas de su entendimiento, ahora inmundas y fangosas. Ninguno de ellos me ha mirado ni conocido aún Ariel, ve a buscar el sombrero y el florete a mi habitación. <span class="sdi">(Sale Ariel.)</span> Voy a cambiar mis vestidos y a mostrarme lo mismo que cuando era Duque de Milán. Pronto, Genio, que no tardarás mucho en verte libre.</p>
+</div><p class="sd " id="l172-sd12">(Vuelve Ariel y canta, mientras ayuda a vestirse a Próspero.)</p><div class="sp " data-who="Ariel">
+  <p class="spk ">
+    ARIEL
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l173"><a class="n " href="#l173">173</a><span class="t">Yo libo en las flores</span></div><div class="l " id="l174"><a class="n " href="#l174">174</a><span class="t">Do liba la abeja</span></div><div class="l " id="l175"><a class="n m5" href="#l175">175</a><span class="t">y vivo en el cáliz</span></div><div class="l " id="l176"><a class="n " href="#l176">176</a><span class="t">de las primaveras;</span></div><div class="l " id="l177"><a class="n " href="#l177">177</a><span class="t">allí oigo del búho</span></div><div class="l " id="l178"><a class="n " href="#l178">178</a><span class="t">las voces siniestras.</span></div><div class="l " id="l179"><a class="n " href="#l179">179</a><span class="t">Cuando el sol del estío</span></div><div class="l " id="l180"><a class="n m5" href="#l180">180</a><span class="t">Transpone las cuestas</span></div><div class="l " id="l181"><a class="n " href="#l181">181</a><span class="t">el hosco murciélago</span></div><div class="l " id="l182"><a class="n " href="#l182">182</a><span class="t">en hombros me lleva.</span></div><div class="l " id="l183"><a class="n " href="#l183">183</a><span class="t">Ya libre y gozoso</span></div><div class="l " id="l184"><a class="n " href="#l184">184</a><span class="t">haré vida nueva;</span></div><div class="l " id="l185"><a class="n m5" href="#l185">185</a><span class="t">moraré escondido</span></div><div class="l " id="l186"><a class="n " href="#l186">186</a><span class="t">en las flores tiernas</span></div><div class="l " id="l187"><a class="n " href="#l187">187</a><span class="t">que el árbol adornan.</span></div><div class="l " id="l188"><a class="n " href="#l188">188</a><span class="t">¡Qué dicha e espera!</span></div>
+</div>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l188-p1">¡Eres encantador, Ariel mío! Te echaré muy de menos; sin embargo, he de otorgarte la apetecida libertad; si, tenlo seguro. Vete en forma invisible al barco del Rey, allí encontrarás a los marineros dormidos bajo las escotillas; despierta al Capitán y al Contramaestre y tráelos aquí pronto, le lo ruego.</p>
+</div><div class="sp " data-who="Ariel">
+  <p class="spk ">
+    ARIEL
+  </p>
+  <p class="pr " id="l188-p2">Voy bebiéndome los vientos, y vuelvo antes que vuestro pulso dé dos latidos.</p>
+</div><p class="sd " id="l188-sd1">(Sale.)</p><div class="sp " data-who="Gonzalo">
+  <p class="spk ">
+    GONZALO
+  </p>
+  <p class="pr " id="l188-p3">Aquí habita el tormento, la turbación, el asombro, la sorpresa. ¡Que un poder celestial nos ayude a salir de tan terrible isla!</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l188-p4">Contemplad ¡oh Rey! al agraviado Duque de Milán, a Próspero. Para que os cercioréis de que es un Príncipe vivo quien os habla, a vos me abrazo y os doy la más cordial bienvenida, e igualmente a todos los que os acompañan.</p>
+</div><div class="sp " data-who="Alfonso">
+  <p class="spk ">
+    ALFONSO
+  </p>
+  <p class="pr " id="l188-p5">No sé decir si eres él o no; o eres una ilusión engañadora que, como otras que hay en esta isla, se burla de mí. Siento los latidos de tu pulso como si fueras de carne y sangre, y desde que te he visto disminuye la turbación de mi mente, que creo fomentaba mi locura. Si todo lo que acaba de suceder es cierto, necesita la más extraña explicación. Renuncio a tu Ducado y te suplico perdones mis ofensas. Pero, ¿cómo se explica que Próspero esté vivo y esté aquí?</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l188-p6"><span class="sdi">(A Gonzalo.)</span> Primero, noble amigo, permite que abrace tu ancianidad, cuya honradez es inmensa e ilimitada.</p>
+</div><div class="sp " data-who="Gonzalo">
+  <p class="spk ">
+    GONZALO
+  </p>
+  <p class="pr " id="l188-p7">No me atrevería a jurar si todo lo que pasa es o no cierto.</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l188-p8">Estás aún bajo la influencia de los encantos de esta isla que no le permiten creer en la realidad de las cosas. ¡Sed aquí bien venidos, amigos míos. <span class="sdi">(Ap. a Sebastián y Antonio.)</span> <span class="as">A vosotros dos, buenas piezas, podría haceros caer en la desgracia del Rey como a traidores; pero no es esta la ocasión para tales enredos.</span></p>
+</div><div class="sp " data-who="Sebastian">
+  <p class="spk ">
+    SEBASTIÁN
+  </p>
+  <p class="pr as" id="l188-p9"><span class="sdi">(Ap.)</span> El diablo habla en él.</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l188-p10">No hay tal cosa. A tí, señor perverso, a quien llamar hermano sería inficcionar mi boca, te perdono tu enorme falta; te las perdono todas, y te exijo mi Ducado, que forzosamente me has de restituir.</p>
+</div><div class="sp " data-who="Alfonso">
+  <p class="spk ">
+    ALFONSO
+  </p>
+  <p class="pr " id="l188-p11">Si eres Próspero, cuéntanos cómo te salvaste, cómo ha sido el encontrarnos aquí donde hace tres horas naufragamos y donde yo − ¡cuán doloroso me es este recuerdo!− he perdido a mi hijo Fernando.</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l188-p12">Señor, os acompaño en el sentimiento.</p>
+</div><div class="sp " data-who="Alfonso">
+  <p class="spk ">
+    ALFONSO
+  </p>
+  <p class="pr " id="l188-p13">Es un pérdida irreparable, y la paciencia me dice que no puedo curarla.</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PROSPERO
+  </p>
+  <p class="pr " id="l188-p14">Más bien creo que no solicitáis su ayuda, pues en un pérdida igual he alcanzado yo su benigna gracias un gran auxilio y vivo consolado.</p>
+</div><div class="sp " data-who="Alfonso">
+  <p class="spk ">
+    ALFONSO
+  </p>
+  <p class="pr " id="l188-p15">¡Tú, una pérdida igual!</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PROSPERO
+  </p>
+  <p class="pr " id="l188-p16">Tan grande para mí y tan reciente como la vuestra; y para soportar pérdida tan sensible tengo recursos más débiles que los que vos podéis invocar: he perdido a mi hija.</p>
+</div><div class="sp " data-who="Alfonso">
+  <p class="spk ">
+    ALFONSO
+  </p>
+  <p class="pr " id="l188-p17">¿A tu hija? ¡Oh cielos, que no vivieran ambos en Nápoles para ser allí rey y reina! Porque lo fueran estaría yo sepultado, con gusto, en el cenagoso lecho donde yace mi hijo. ¿Cuándo perdiste a tu hija?</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l188-p18">En la última tempestad. Estoy observando que todos estos señores se maravillan de este encuentro, no dan crédito a su razón no osan creer el testimonio de sus ojos ni que sus palabras son cosa natural. Mas cualquiera que sea la ilusión que ha fascinado vuestros sentidos, estad seguros de que yo soy Próspero, el mismo Duque expulsado par vosotros de Milán, que por azar extraño Vino a estas playas donde naufragasteis, y en ellas desembarcó para ser señor de esta isla. Pero basta por ahora de esto, que merece contarse día por día y no es propio de una sobremesa ni mucho menos de la ocasión presente. Bien venido, señor; esta celda es mi corte; tengo pocos sirvientes y ningún súbdito; ruégoos que entréis. Ya que me restituís el Ducado, yo os recompensaré con una cosa igual; por lo menos presentaré a vuestros ojos una maravilla que os proporcione tanto júbilo como a mí la restitución de mi Ducado.</p>
+</div><p class="sd " id="l188-sd2">(Próspero abre la gruta y aparecen Fernando y Miranda jugando al ajedrez.)</p><div class="sp " data-who="Miranda">
+  <p class="spk ">
+    MIRANDA
+  </p>
+  <p class="pr " id="l188-p19">Dueño querido, me estás engañando.</p>
+</div><div class="sp " data-who="Ferdinand">
+  <p class="spk ">
+    FERNANDO
+  </p>
+  <p class="pr " id="l188-p20">No, amor mío, no lo haría por todo el mundo.</p>
+</div><div class="sp " data-who="Miranda">
+  <p class="spk ">
+    MIRANDA
+  </p>
+  <p class="pr " id="l188-p21">Aunque discutieras por veinte reinos, siempre creería que jugabas lealmente.</p>
+</div><div class="sp " data-who="Alfonso">
+  <p class="spk ">
+    ALFONSO
+  </p>
+  <p class="pr " id="l188-p22">Si esto resulta una ilusión más de la isla, pierdo dos veces a mi amado hijo.</p>
+</div><div class="sp " data-who="Sebastian">
+  <p class="spk ">
+    SEBASTIÁN
+  </p>
+  <p class="pr " id="l188-p23">¡Este es uno de los más grandes milagros!</p>
+</div><div class="sp " data-who="Ferdinand">
+  <p class="spk ">
+    FERNANDO
+  </p>
+  <p class="pr " id="l188-p24">Aunque los océanos amenazan, son piadosos (Sale de la gruta y se arrodilla), los maldije sin razón.</p>
+</div><div class="sp " data-who="Alfonso">
+  <p class="spk ">
+    ALFONSO
+  </p>
+  <p class="pr " id="l188-p25">¡Que te inunden todas las bendiciones de un padre dichoso! Levántate y dime cómo has llegado aquí.</p>
+</div><div class="sp " data-who="Miranda">
+  <p class="spk ">
+    MIRANDA
+  </p>
+  <p class="pr " id="l188-p26">¡Oh, prodigio! ‘Qué hermosísimas son todas estas criaturas! ¡Qué bella es la humanidad! ¡Oh, admirable mundo nuevo que tales gentes contiene!</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l188-p27">Es nuevo para ti.</p>
+</div><div class="sp " data-who="Alfonso">
+  <p class="spk ">
+    ALFONSO
+  </p>
+  <p class="pr " id="l188-p28">¿Quién es esta doncella con quien estabas jugando? No puede hacer más de tres horas que la conoces. ¡Es acaso la diosa que nos separó antes y nos ha vuelto a reunir aquí?</p>
+</div><div class="sp " data-who="Ferdinand">
+  <p class="spk ">
+    FERNANDO
+  </p>
+  <p class="pr " id="l188-p29">Señor, es mortal; pero es mía por la inmortal Providencia; la escogí cuando no pude aconsejarme de mi padre ni creí que le tenía. Es la hija de este renombrado Duque de Milán, de cuya fama tanto oí decir, pero a quien no había visto. De él recibí una segunda vida, y esta dama hace de él mi segundo padre.</p>
+</div><div class="sp " data-who="Alfonso">
+  <p class="spk ">
+    ALFONSO
+  </p>
+  <p class="pr " id="l188-p30">Yo lo soy de ella. Mas ¡cuán extraño es que yo necesite reclamar el perdón de la hija mía!</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l188-p31">No prosigáis, señor; no recarguemos la memoria con recuerdos de un doloroso pasado.</p>
+</div><div class="sp " data-who="Ferdinand">
+  <p class="spk ">
+    GONZALO
+  </p>
+  <p class="pr " id="l188-p32">Estuve llorando interiormente, sino ya hubiera hablados antes. ¡Oh dioses, mirad al suelo y otorgad a esta pareja una corona de bendición! Pues vosotros sois los que trazasteis la senda que aquí nos guió.</p>
+</div><div class="sp " data-who="Alfonso">
+  <p class="spk ">
+    ALFONSO
+  </p>
+  <p class="pr " id="l188-p33">Yo digo amén, Gonzalo.</p>
+</div><div class="sp " data-who="Gonzalo">
+  <p class="spk ">
+    GONZALO
+  </p>
+  <p class="pr " id="l188-p34">¿Fue el Duque de Milán expulsado de allí para que su descendencia reine en Nápoles? ¡Oh! Regocijaos extraordinariamente y perpetuad esto con letras de oro en columnas eternas. En un viaje halló en Túnez marido Claribel; su hermano Fernando halló esposa donde se encontraba ya perdido; Próspero su Ducado en una isla desierta, y todos nosotros nos encontramos a nosotros mismos no siendo antes dueños de la propia razón.</p>
+</div><div class="sp " data-who="Alfonso">
+  <p class="spk ">
+    ALFONSO
+  </p>
+  <p class="pr " id="l188-p35"><span class="sdi">(A Fernando y a Miranda.)</span> Dadme las manos. ¡Que la tristeza y el dolor embarguen a todo el que no desee vuestra dicha!</p>
+</div><div class="sp " data-who="Gonzalo">
+  <p class="spk ">
+    GONZALO
+  </p>
+  <p class="pr " id="l188-p36">Así sea, amén. <span class="sdi">(Llega Ariel con el Capitán y el Contramaestre que le siguen asombrados.)</span><br>¡Oh, mirad, señor, mirad! Aquí vienen más de los nuestros. Bien predije yo que mientras hubiese una horca en tierra, no se podría ahogar este bergante. Oye, blasfemo, que con juramentos arrojas la gracia divina por la borda. ¿No sabes jurar en tierra? ¿No tienes lengua aquí? ¿Qué nuevas traes?</p>
+</div><div class="sp " data-who="Boatswain">
+  <p class="spk ">
+    CONTRAMAESTRE
+  </p>
+  <p class="pr " id="l188-p37">La primera y mejor noticia es que vemos sanos y salvos al Rey y a su séquito; la segunda, que nuestro barco –al cual creíamos hecho pedazos hace ya tres horas−, está íntegro, pronto a darse a la mar y tan bien aparejado como el primer día que se botó al agua.</p>
+</div><div class="sp " data-who="Ariel">
+  <p class="spk ">
+    ARIEL
+  </p>
+  <p class="pr as" id="l188-p38"><span class="sdi">(Ap. a Próspero.)</span> Señor, hice todo esto desde que salí de aquí.</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l188-p39">¡Oh, mi hábil genio!</p>
+</div><div class="sp " data-who="Alfonso">
+  <p class="spk ">
+    ALFONSO
+  </p>
+  <p class="pr " id="l188-p40">Estas cosas no son naturales, y se suceden más extrañas cada vez. Decidme ¿cómo vinisteis, aquí?</p>
+</div><div class="sp " data-who="Boatswain">
+  <p class="spk ">
+    CONTRAMAESTRE
+  </p>
+  <p class="pr " id="l188-p41">Si yo creyese, señor, que estaba bien despierto, trataría de contároslo. Todos estábamos profundamente dormidos y, sin saber cómo, agrupados bajo cubierta, cuando de repente el más extraño y variado estrépito de rugidos, aullidos, arrastrar de cadenas y mil rumores y estruendos, nos despertó e inmediatamente nos vimos libres. Al contemplar nuestra regia, hermosa y gallarda nave completamente aparejada y pronta, el capitán brincó de júbilo. En un instante, como si fuese un sueño, nos vimos separados de los demás y conducidos aquí como tontos.</p>
+</div><div class="sp " data-who="Ariel">
+  <p class="spk ">
+    ARIEL
+  </p>
+  <p class="pr as" id="l188-p42"><span class="sdi">(Ap. a Próspero.)</span> ¿Estuvo bien hecho?</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr as" id="l188-p43"><span class="sdi">(Ap. a Ariel.)</span> Muy bien, mi diligente servidor; serás libre.</p>
+</div><div class="sp " data-who="Alfonso">
+  <p class="spk ">
+    ALFONSO
+  </p>
+  <p class="pr " id="l188-p44">Este es el más extraño laberinto que pisó jamás el hombre; guía este negocio alguna mano que sobrepuja a la naturaleza; es preciso que lo descifre algún oráculo.</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l188-p45">Mi señor y mi Rey, no torturéis vuestro espíritu buscando una explicación a tan extraños sucesos; en la ocasión propicia, que no tardará en presentarse, os lo explicaré detalladamente y quedaréis complacido de todo lo aquí pasado; hasta entonces vivid alegre y dadlo todo por bien hecho. <span class="sdi">(Ap. A Ariel).</span> <span class="as">Ven aquí, espíritu. Liberta a Cáliban y a sus compañeros; anula el hechizo.</span><br><span class="sdi">(Sale Ariel.)</span> ¿Cómo os sentís, mi amable señor? Faltan en vuestro séquito algunas de vuestras gentes que echáis en olvido.</p>
+</div><p class="sd " id="l188-sd3">(Vuelve Ariel conduciendo a Cáliban, Esteban y Trínculo, vestidos con las ropas que hurtaron.)</p><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    ESTEBAN
+  </p>
+  <p class="pr " id="l188-p46">Que cada cual trabaje para los demás y que ninguno se cuide de sí mismo; todo depende de la fortuna. ¡Coragio, monstruo fanfarrón, coragio!</p>
+</div><div class="sp " data-who="Trinculo">
+  <p class="spk ">
+    TRÍNCULO
+  </p>
+  <p class="pr " id="l188-p47">Si dice verdad los espías que llevo debajo de la frente, aquí hay un buen espectáculo.</p>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    CÁLIBAN
+  </p>
+  <p class="pr " id="l188-p48">¡Oh, Sétebos, qué hermosos espíritus! ¡Qué elegante está mi amo! Ya temo su castigo.</p>
+</div><div class="sp " data-who="Sebastian">
+  <p class="spk ">
+    SEBASTIÁN
+  </p>
+  <p class="pr " id="l188-p49">Seguramente que uno de ellos es un verdadero pez y sin duda es comparable.</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l188-p50">Señores, fijaos en los distintivos de estos hombres y decidme si son auténticos. La madre de ese pícaro deforme fue una bruja tan poderosa que influía en el flujo y reflujo de la marea y en la misma luna, con quien compartía el mando sin que ésta le otorgase sus poderes. Los tres me han robado, y este semidemonio –es un demonio bastardo−, se conchabo con ellos para asesinare. Debéis reconocer a dos de estos pícaros como a gentes vuestras; yo reconozco a este engendro de las tinieblas como a cosa mía.</p>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    CÁLIBAN
+  </p>
+  <p class="pr " id="l188-p51">¡Aquí me pellizcarán hasta matarme!</p>
+</div><div class="sp " data-who="Alfonso">
+  <p class="spk ">
+    ALFONSO
+  </p>
+  <p class="pr " id="l188-p52">¿No es éste Esteban mi despensero borrachín?</p>
+</div><div class="sp " data-who="Sebastian">
+  <p class="spk ">
+    SEBASTIÁN
+  </p>
+  <p class="pr " id="l188-p53">Ahora está ebrio; ¡de dónde sacó el vino?</p>
+</div><div class="sp " data-who="Alfonso">
+  <p class="spk ">
+    ALFONSO
+  </p>
+  <p class="pr " id="l188-p54">También Trínculo está hecho una uva. ¿Dónde encontrarían este maravilloso licor que así los ha coloreado? ¿Cómo os metisteis en semejante adobo desde que os vi la última vez, y me creo que ya no saldrá de mis huesos; así ya no temeré las picaduras de las moscas.</p>
+</div><div class="sp " data-who="Sebastian">
+  <p class="spk ">
+    SEBASTIÁN
+  </p>
+  <p class="pr " id="l188-p55">¡Hola, tu aquí, Esteban!</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    ESTEBAN
+  </p>
+  <p class="pr " id="l188-p56">¡Oh! No me toquéis, no soy Esteban, sino un puro calambre.</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l188-p57">¿Querías ser rey de esta isla, perillán?</p>
+</div><div class="sp " data-who="Stephano">
+  <p class="spk ">
+    ESTEBAN
+  </p>
+  <p class="pr " id="l188-p58">Hubiera sido en ella una calamidad, según estoy de maltrecho.</p>
+</div><div class="sp " data-who="Alfonso">
+  <p class="spk ">
+    ALFONSO
+  </p>
+  <p class="pr " id="l188-p59"><span class="sdi">(Señalando a Cáliban.)</span> Es la cosa más rara que jamás he visto.</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l188-p60">Es tan deforme en su conducta como en su estampa. Tunante, vete a mi habitación con tus camaradas y pon todas las cosas en orden, si pretendes alcanzar mi venia.</p>
+</div><div class="sp " data-who="Caliban">
+  <p class="spk ">
+    CÁLIBAN
+  </p>
+  <p class="pr " id="l188-p61">Sí, lo haré; seré más avisado en adelante y procuraré obtener tu gracia. ¡Qué tres veces doble asno he sido en tomar a este beodo por un dios y en dirar a este imbécil!</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l188-p62">Vete, largo de aquí.</p>
+</div><div class="sp " data-who="Alfonso">
+  <p class="spk ">
+    ALFONSO
+  </p>
+  <p class="pr " id="l188-p63">Idos y colocad esas ropas en donde las encontrasteis.</p>
+</div><div class="sp " data-who="Sebastian">
+  <p class="spk ">
+    SEBASTIÁN
+  </p>
+  <p class="pr " id="l188-p64">Mejor dicho, en donde las robasteis.</p>
+</div><p class="sd " id="l188-sd4">(Salen Cáliban, Esteban y Trínculo.)</p><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l188-p65">Señor, invito a Vuestra Majestad y a su séquito a mi pobre gruta, donde podrán descansar esta noche, y emplearemos parte de ella, que se pasará pronto, en contar las aventuras de mi vida y todo lo que me sucedió desde que arribé a este sitio. Por la mañana os conduciré a vuestra embarcación, en la que saldremos para Nápoles, y allí espero ver solemnes nupcias de estos hijos amados. Desde allí me retiraré a Milán, donde, de tres pensamientos que broten en mi alma, uno será siempre el de la tumba.</p>
+</div><div class="sp " data-who="Alfonso">
+  <p class="spk ">
+    ALFONSO
+  </p>
+  <p class="pr " id="l188-p66">Ya estoy deseando oír la historia de tu vida, que ha de interesarme vivamente.</p>
+</div><div class="sp " data-who="Prospero">
+  <p class="spk ">
+    PRÓSPERO
+  </p>
+  <p class="pr " id="l188-p67">Toda la contaré. También os prometo tranquila mar, viento favorable y una rápida travesía, de suerte que podáis alcanzar pronto la regia flota.<br><span class="sdi">(A Ariel.)</span> Ariel mío querido, de ello te encargo; después vuelve a tu elemento, sé libre y dichoso. Haced el favor de entrar.</p><p class="sd " id="l188-sd5">(Salen.)</p><div class="lg ">
+  
+  <div class="l " id="l189"><a class="n " href="#l189">189</a><span class="t">Y mi fin será cruel, desesperado,</span></div><div class="l " id="l190"><a class="n m5" href="#l190">190</a><span class="t">Si el perdón de vosotros no consigo</span></div><div class="l " id="l191"><a class="n " href="#l191">191</a><span class="t">Y no me dejáis de estos lazos.</span></div><div class="l " id="l192"><a class="n " href="#l192">192</a><span class="t">Como todos gustáis de que os perdonen,</span></div><div class="l " id="l193"><a class="n " href="#l193">193</a><span class="t">También me gusta a mí ser perdonado.</span></div>
+</div>
+</div>
+      </section>
+    
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-4.html" rel="prev">← Acto IV</a>
+  
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

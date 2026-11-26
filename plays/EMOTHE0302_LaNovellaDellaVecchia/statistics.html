@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title data-tr data-en-text="Statistics — La Novella della Vecchia — EMOTHE">Estadísticas — La Novella della Vecchia — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco"><x-es>Elenco</x-es><x-en>Cast list</x-en></a></li>
+      
+  
+    
+        <li>
+          <a href="play.html">
+            Play
+          </a>
+          
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html" aria-current="page">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">George Peele</p>
+  <h1><a href="index.html">La Novella della Vecchia</a></h1>
+</header>
+  <h2><x-es>Estadísticas</x-es><x-en>Statistics</x-en></h2>
+  <dl id="tiles" class="tiles">
+  <div>
+    <dt><x-es>escenas</x-es><x-en>scenes</x-en></dt>
+    <dd>1</dd>
+  </div><div>
+    <dt><x-es>versos</x-es><x-en>verses</x-en></dt>
+    <dd>319</dd>
+  </div><div>
+    <dt><x-es>versos compartidos</x-es><x-en>shared verses</x-en></dt>
+    <dd>7</dd>
+  </div><div>
+    <dt><x-es>pasajes en prosa</x-es><x-en>prose passages</x-en></dt>
+    <dd>211</dd>
+  </div><div>
+    <dt><x-es>parlamentos</x-es><x-en>speeches</x-en></dt>
+    <dd>299</dd>
+  </div><div>
+    <dt><x-es>personajes con texto</x-es><x-en>speaking characters</x-en></dt>
+    <dd>34</dd>
+  </div><div>
+    <dt><x-es>acotaciones</x-es><x-en>stage directions</x-en></dt>
+    <dd>79</dd>
+  </div>
+</dl>
+  
+  <section id="divisions">
+  <h2><x-es>Por acto y escena</x-es><x-en>By act and scene</x-en></h2>
+  <table>
+    <thead>
+      <tr>
+        <th><x-es>Acto o escena</x-es><x-en>Act or scene</x-en></th>
+        <th class="num"><x-es>Versos</x-es><x-en>Verses</x-en></th>
+        <th class="num"><x-es>Parlamentos</x-es><x-en>Speeches</x-en></th>
+        <th class="num"><x-es>Personajes con texto</x-es><x-en>Speaking characters</x-en></th>
+        <th class="num"><x-es>Pasajes en prosa</x-es><x-en>Prose passages</x-en></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="">
+        <th scope="row">Play</th>
+        <td class="num">319</td>
+        <td class="num">299</td>
+        <td class="num">34</td>
+        <td class="num">211</td>
+      </tr><tr class="sc">
+        <th scope="row">Entrano Grottesco, Gaio e Fantastico.</th>
+        <td class="num">319</td>
+        <td class="num">299</td>
+        <td class="num">34</td>
+        <td class="num">211</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+  <section id="characters">
+  <h2><x-es>Personajes</x-es><x-en>Characters</x-en></h2>
+  
+  <p class="lede">
+    <x-es>Los 34 personajes con texto, primero los que más palabras dicen. Un verso compartido cuenta para cada hablante.</x-es><x-en>The 34 speaking characters, those with the most words first. A shared verse counts for each speaker.</x-en>
+  </p>
+  <table>
+    <thead>
+      <tr>
+        <th><x-es>Personaje</x-es><x-en>Character</x-en></th>
+        <th class="num"><x-es>Parlamentos</x-es><x-en>Speeches</x-en></th>
+        <th class="num"><x-es>Versos</x-es><x-en>Lines</x-en></th>
+        <th class="num"><x-es>Palabras</x-es><x-en>Words</x-en></th>
+        <th><x-es>Parte de la obra</x-es><x-en>Share of the play</x-en></th>
+        <th><x-es>Primera intervención</x-es><x-en>First speaks</x-en></th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">
+          L’ombre di Jack
+        </th>
+        <td class="num">32</td>
+        <td class="num">3</td>
+        <td class="num">821</td>
+        <td class="share" title="821 de 7556 palabras" data-en-title="821 of 7556 words" data-tr>
+          <span class="track"><span style="width: 100%"></span></span>11%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Eumenide
+        </th>
+        <td class="num">43</td>
+        <td class="num">45</td>
+        <td class="num">748</td>
+        <td class="share" title="748 de 7556 palabras" data-en-title="748 of 7556 words" data-tr>
+          <span class="track"><span style="width: 91%"></span></span>10%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Sacripante
+        </th>
+        <td class="num">18</td>
+        <td class="num">93</td>
+        <td class="num">702</td>
+        <td class="share" title="702 de 7556 palabras" data-en-title="702 of 7556 words" data-tr>
+          <span class="track"><span style="width: 86%"></span></span>9%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Huanebango
+        </th>
+        <td class="num">18</td>
+        <td class="num">10</td>
+        <td class="num">648</td>
+        <td class="share" title="648 de 7556 palabras" data-en-title="648 of 7556 words" data-tr>
+          <span class="track"><span style="width: 79%"></span></span>9%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          La vecchia
+        </th>
+        <td class="num">13</td>
+        <td class="num">0</td>
+        <td class="num">523</td>
+        <td class="share" title="523 de 7556 palabras" data-en-title="523 of 7556 words" data-tr>
+          <span class="track"><span style="width: 64%"></span></span>7%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Vecchio
+        </th>
+        <td class="num">16</td>
+        <td class="num">49</td>
+        <td class="num">471</td>
+        <td class="share" title="471 de 7556 palabras" data-en-title="471 of 7556 words" data-tr>
+          <span class="track"><span style="width: 57%"></span></span>6%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Gaio
+        </th>
+        <td class="num">15</td>
+        <td class="num">7</td>
+        <td class="num">387</td>
+        <td class="share" title="387 de 7556 palabras" data-en-title="387 of 7556 words" data-tr>
+          <span class="track"><span style="width: 47%"></span></span>5%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Zantippa
+        </th>
+        <td class="num">10</td>
+        <td class="num">4</td>
+        <td class="num">309</td>
+        <td class="share" title="309 de 7556 palabras" data-en-title="309 of 7556 words" data-tr>
+          <span class="track"><span style="width: 38%"></span></span>4%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Lamprisco
+        </th>
+        <td class="num">7</td>
+        <td class="num">0</td>
+        <td class="num">282</td>
+        <td class="share" title="282 de 7556 palabras" data-en-title="282 of 7556 words" data-tr>
+          <span class="track"><span style="width: 34%"></span></span>4%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Il primo fratello
+        </th>
+        <td class="num">15</td>
+        <td class="num">31</td>
+        <td class="num">280</td>
+        <td class="share" title="280 de 7556 palabras" data-en-title="280 of 7556 words" data-tr>
+          <span class="track"><span style="width: 34%"></span></span>4%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Booby
+        </th>
+        <td class="num">7</td>
+        <td class="num">0</td>
+        <td class="num">269</td>
+        <td class="share" title="269 de 7556 palabras" data-en-title="269 of 7556 words" data-tr>
+          <span class="track"><span style="width: 33%"></span></span>4%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Fantastico
+        </th>
+        <td class="num">14</td>
+        <td class="num">12</td>
+        <td class="num">263</td>
+        <td class="share" title="263 de 7556 palabras" data-en-title="263 of 7556 words" data-tr>
+          <span class="track"><span style="width: 32%"></span></span>3%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Wiggen
+        </th>
+        <td class="num">7</td>
+        <td class="num">0</td>
+        <td class="num">251</td>
+        <td class="share" title="251 de 7556 palabras" data-en-title="251 of 7556 words" data-tr>
+          <span class="track"><span style="width: 31%"></span></span>3%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Grottesco
+        </th>
+        <td class="num">8</td>
+        <td class="num">11</td>
+        <td class="num">243</td>
+        <td class="share" title="243 de 7556 palabras" data-en-title="243 of 7556 words" data-tr>
+          <span class="track"><span style="width: 30%"></span></span>3%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Delia
+        </th>
+        <td class="num">18</td>
+        <td class="num">23</td>
+        <td class="num">242</td>
+        <td class="share" title="242 de 7556 palabras" data-en-title="242 of 7556 words" data-tr>
+          <span class="track"><span style="width: 29%"></span></span>3%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Corebo
+        </th>
+        <td class="num">11</td>
+        <td class="num">7</td>
+        <td class="num">226</td>
+        <td class="share" title="226 de 7556 palabras" data-en-title="226 of 7556 words" data-tr>
+          <span class="track"><span style="width: 28%"></span></span>3%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Clunch, fabbro
+        </th>
+        <td class="num">6</td>
+        <td class="num">7</td>
+        <td class="num">216</td>
+        <td class="share" title="216 de 7556 palabras" data-en-title="216 of 7556 words" data-tr>
+          <span class="track"><span style="width: 26%"></span></span>3%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Il secondo fratello
+        </th>
+        <td class="num">12</td>
+        <td class="num">21</td>
+        <td class="num">214</td>
+        <td class="share" title="214 de 7556 palabras" data-en-title="214 of 7556 words" data-tr>
+          <span class="track"><span style="width: 26%"></span></span>3%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Celanta
+        </th>
+        <td class="num">6</td>
+        <td class="num">2</td>
+        <td class="num">173</td>
+        <td class="share" title="173 de 7556 palabras" data-en-title="173 of 7556 words" data-tr>
+          <span class="track"><span style="width: 21%"></span></span>2%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Il Santese
+        </th>
+        <td class="num">2</td>
+        <td class="num">0</td>
+        <td class="num">84</td>
+        <td class="share" title="84 de 7556 palabras" data-en-title="84 of 7556 words" data-tr>
+          <span class="track"><span style="width: 10%"></span></span>1%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Madge
+        </th>
+        <td class="num">2</td>
+        <td class="num">7</td>
+        <td class="num">80</td>
+        <td class="share" title="80 de 7556 palabras" data-en-title="80 of 7556 words" data-tr>
+          <span class="track"><span style="width: 10%"></span></span>1%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          L’ostessa
+        </th>
+        <td class="num">5</td>
+        <td class="num">0</td>
+        <td class="num">67</td>
+        <td class="share" title="67 de 7556 palabras" data-en-title="67 of 7556 words" data-tr>
+          <span class="track"><span style="width: 8%"></span></span>1%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Il Sacrestano
+        </th>
+        <td class="num">3</td>
+        <td class="num">0</td>
+        <td class="num">54</td>
+        <td class="share" title="54 de 7556 palabras" data-en-title="54 of 7556 words" data-tr>
+          <span class="track"><span style="width: 7%"></span></span>1%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Un’altra voce
+        </th>
+        <td class="num">1</td>
+        <td class="num">6</td>
+        <td class="num">40</td>
+        <td class="share" title="40 de 7556 palabras" data-en-title="40 of 7556 words" data-tr>
+          <span class="track"><span style="width: 5%"></span></span>1%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Testa
+        </th>
+        <td class="num">1</td>
+        <td class="num">5</td>
+        <td class="num">36</td>
+        <td class="share" title="36 de 7556 palabras" data-en-title="36 of 7556 words" data-tr>
+          <span class="track"><span style="width: 4%"></span></span>&lt;1%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Una voce
+        </th>
+        <td class="num">1</td>
+        <td class="num">4</td>
+        <td class="num">36</td>
+        <td class="share" title="36 de 7556 palabras" data-en-title="36 of 7556 words" data-tr>
+          <span class="track"><span style="width: 4%"></span></span>&lt;1%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          mietitori
+        </th>
+        <td class="num">1</td>
+        <td class="num">4</td>
+        <td class="num">27</td>
+        <td class="share" title="27 de 7556 palabras" data-en-title="27 of 7556 words" data-tr>
+          <span class="track"><span style="width: 3%"></span></span>&lt;1%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Simone
+        </th>
+        <td class="num">1</td>
+        <td class="num">0</td>
+        <td class="num">14</td>
+        <td class="share" title="14 de 7556 palabras" data-en-title="14 of 7556 words" data-tr>
+          <span class="track"><span style="width: 2%"></span></span>&lt;1%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Tutti
+        </th>
+        <td class="num">2</td>
+        <td class="num">0</td>
+        <td class="num">13</td>
+        <td class="share" title="13 de 7556 palabras" data-en-title="13 of 7556 words" data-tr>
+          <span class="track"><span style="width: 2%"></span></span>&lt;1%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Tutt’e due
+        </th>
+        <td class="num">1</td>
+        <td class="num">0</td>
+        <td class="num">5</td>
+        <td class="share" title="5 de 7556 palabras" data-en-title="5 of 7556 words" data-tr>
+          <span class="track"><span style="width: 1%"></span></span>&lt;1%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Un frate, Mietitori, Furie, Suonatori di violino, ecc
+        </th>
+        <td class="num">1</td>
+        <td class="num">0</td>
+        <td class="num">5</td>
+        <td class="share" title="5 de 7556 palabras" data-en-title="5 of 7556 words" data-tr>
+          <span class="track"><span style="width: 1%"></span></span>&lt;1%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Eco
+        </th>
+        <td class="num">4</td>
+        <td class="num">4</td>
+        <td class="num">4</td>
+        <td class="share" title="4 de 7556 palabras" data-en-title="4 of 7556 words" data-tr>
+          <span class="track"><span style="width: 0%"></span></span>&lt;1%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Tutti é due
+        </th>
+        <td class="num">1</td>
+        <td class="num">0</td>
+        <td class="num">2</td>
+        <td class="share" title="2 de 7556 palabras" data-en-title="2 of 7556 words" data-tr>
+          <span class="track"><span style="width: 0%"></span></span>&lt;1%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          La voce
+        </th>
+        <td class="num">1</td>
+        <td class="num">0</td>
+        <td class="num">1</td>
+        <td class="share" title="1 de 7556 palabras" data-en-title="1 of 7556 words" data-tr>
+          <span class="track"><span style="width: 0%"></span></span>&lt;1%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Eresto
+        </th>
+        <td class="num">0</td>
+        <td class="num">0</td>
+        <td class="num">0</td>
+        <td class="share" title="0 de 7556 palabras" data-en-title="0 of 7556 words" data-tr>
+          <span class="track"><span style="width: 0%"></span></span>0%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Venelia
+        </th>
+        <td class="num">0</td>
+        <td class="num">0</td>
+        <td class="num">0</td>
+        <td class="share" title="0 de 7556 palabras" data-en-title="0 of 7556 words" data-tr>
+          <span class="track"><span style="width: 0%"></span></span>0%
+        </td>
+        <td>—</td>
+        
+      </tr><tr>
+        <th scope="row">
+          Tutti
+        </th>
+        <td class="num">0</td>
+        <td class="num">0</td>
+        <td class="num">0</td>
+        <td class="share" title="0 de 7556 palabras" data-en-title="0 of 7556 words" data-tr>
+          <span class="track"><span style="width: 0%"></span></span>0%
+        </td>
+        <td>—</td>
+        
+      </tr>
+    </tbody>
+  </table>
+  
+</section>
+  <section id="presence">
+  <h2><x-es>Quién comparte escena</x-es><x-en>Who shares the stage</x-en></h2>
+  <p class="lede"><x-es>Una casilla llena indica que el personaje habla en esa escena.</x-es><x-en>A filled cell means the character speaks in that scene.</x-en></p>
+  <div class="scroll">
+    <table class="matrix">
+      <thead>
+        <tr>
+          <th><span class="sr-only"><x-es>Personaje</x-es><x-en>Character</x-en></span></th>
+          <th scope="col" title="Entrano Grottesco, Gaio e Fantastico." class="">
+            
+            <span class="sr-only">Entrano Grottesco, Gaio e Fantastico.</span>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Sacripante</th>
+          <td class="c on" title="Sacripante · Entrano Grottesco, Gaio e Fantastico. · 94 versos" data-en-title="Sacripante · Entrano Grottesco, Gaio e Fantastico. · 94 lines" data-tr>
+            <span class="sr-only">
+              <x-es>94 versos</x-es><x-en>94 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Vecchio</th>
+          <td class="c on" title="Vecchio · Entrano Grottesco, Gaio e Fantastico. · 61 versos" data-en-title="Vecchio · Entrano Grottesco, Gaio e Fantastico. · 61 lines" data-tr>
+            <span class="sr-only">
+              <x-es>61 versos</x-es><x-en>61 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Eumenide</th>
+          <td class="c on" title="Eumenide · Entrano Grottesco, Gaio e Fantastico. · 77 versos" data-en-title="Eumenide · Entrano Grottesco, Gaio e Fantastico. · 77 lines" data-tr>
+            <span class="sr-only">
+              <x-es>77 versos</x-es><x-en>77 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Il primo fratello</th>
+          <td class="c on" title="Il primo fratello · Entrano Grottesco, Gaio e Fantastico. · 34 versos" data-en-title="Il primo fratello · Entrano Grottesco, Gaio e Fantastico. · 34 lines" data-tr>
+            <span class="sr-only">
+              <x-es>34 versos</x-es><x-en>34 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Delia</th>
+          <td class="c on" title="Delia · Entrano Grottesco, Gaio e Fantastico. · 27 versos" data-en-title="Delia · Entrano Grottesco, Gaio e Fantastico. · 27 lines" data-tr>
+            <span class="sr-only">
+              <x-es>27 versos</x-es><x-en>27 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Il secondo fratello</th>
+          <td class="c on" title="Il secondo fratello · Entrano Grottesco, Gaio e Fantastico. · 24 versos" data-en-title="Il secondo fratello · Entrano Grottesco, Gaio e Fantastico. · 24 lines" data-tr>
+            <span class="sr-only">
+              <x-es>24 versos</x-es><x-en>24 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Fantastico</th>
+          <td class="c on" title="Fantastico · Entrano Grottesco, Gaio e Fantastico. · 24 versos" data-en-title="Fantastico · Entrano Grottesco, Gaio e Fantastico. · 24 lines" data-tr>
+            <span class="sr-only">
+              <x-es>24 versos</x-es><x-en>24 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Grottesco</th>
+          <td class="c on" title="Grottesco · Entrano Grottesco, Gaio e Fantastico. · 18 versos" data-en-title="Grottesco · Entrano Grottesco, Gaio e Fantastico. · 18 lines" data-tr>
+            <span class="sr-only">
+              <x-es>18 versos</x-es><x-en>18 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Huanebango</th>
+          <td class="c on" title="Huanebango · Entrano Grottesco, Gaio e Fantastico. · 26 versos" data-en-title="Huanebango · Entrano Grottesco, Gaio e Fantastico. · 26 lines" data-tr>
+            <span class="sr-only">
+              <x-es>26 versos</x-es><x-en>26 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Gaio</th>
+          <td class="c on" title="Gaio · Entrano Grottesco, Gaio e Fantastico. · 21 versos" data-en-title="Gaio · Entrano Grottesco, Gaio e Fantastico. · 21 lines" data-tr>
+            <span class="sr-only">
+              <x-es>21 versos</x-es><x-en>21 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Corebo</th>
+          <td class="c on" title="Corebo · Entrano Grottesco, Gaio e Fantastico. · 15 versos" data-en-title="Corebo · Entrano Grottesco, Gaio e Fantastico. · 15 lines" data-tr>
+            <span class="sr-only">
+              <x-es>15 versos</x-es><x-en>15 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Clunch, fabbro</th>
+          <td class="c on" title="Clunch, fabbro · Entrano Grottesco, Gaio e Fantastico. · 12 versos" data-en-title="Clunch, fabbro · Entrano Grottesco, Gaio e Fantastico. · 12 lines" data-tr>
+            <span class="sr-only">
+              <x-es>12 versos</x-es><x-en>12 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Madge</th>
+          <td class="c on" title="Madge · Entrano Grottesco, Gaio e Fantastico. · 8 versos" data-en-title="Madge · Entrano Grottesco, Gaio e Fantastico. · 8 lines" data-tr>
+            <span class="sr-only">
+              <x-es>8 versos</x-es><x-en>8 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Un’altra voce</th>
+          <td class="c on" title="Un’altra voce · Entrano Grottesco, Gaio e Fantastico. · 6 versos" data-en-title="Un’altra voce · Entrano Grottesco, Gaio e Fantastico. · 6 lines" data-tr>
+            <span class="sr-only">
+              <x-es>6 versos</x-es><x-en>6 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Testa</th>
+          <td class="c on" title="Testa · Entrano Grottesco, Gaio e Fantastico. · 5 versos" data-en-title="Testa · Entrano Grottesco, Gaio e Fantastico. · 5 lines" data-tr>
+            <span class="sr-only">
+              <x-es>5 versos</x-es><x-en>5 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Zantippa</th>
+          <td class="c on" title="Zantippa · Entrano Grottesco, Gaio e Fantastico. · 13 versos" data-en-title="Zantippa · Entrano Grottesco, Gaio e Fantastico. · 13 lines" data-tr>
+            <span class="sr-only">
+              <x-es>13 versos</x-es><x-en>13 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Una voce</th>
+          <td class="c on" title="Una voce · Entrano Grottesco, Gaio e Fantastico. · 4 versos" data-en-title="Una voce · Entrano Grottesco, Gaio e Fantastico. · 4 lines" data-tr>
+            <span class="sr-only">
+              <x-es>4 versos</x-es><x-en>4 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">mietitori</th>
+          <td class="c on" title="mietitori · Entrano Grottesco, Gaio e Fantastico. · 4 versos" data-en-title="mietitori · Entrano Grottesco, Gaio e Fantastico. · 4 lines" data-tr>
+            <span class="sr-only">
+              <x-es>4 versos</x-es><x-en>4 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Eco</th>
+          <td class="c on" title="Eco · Entrano Grottesco, Gaio e Fantastico. · 4 versos" data-en-title="Eco · Entrano Grottesco, Gaio e Fantastico. · 4 lines" data-tr>
+            <span class="sr-only">
+              <x-es>4 versos</x-es><x-en>4 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">L’ombre di Jack</th>
+          <td class="c on" title="L’ombre di Jack · Entrano Grottesco, Gaio e Fantastico. · 32 versos" data-en-title="L’ombre di Jack · Entrano Grottesco, Gaio e Fantastico. · 32 lines" data-tr>
+            <span class="sr-only">
+              <x-es>32 versos</x-es><x-en>32 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Celanta</th>
+          <td class="c on" title="Celanta · Entrano Grottesco, Gaio e Fantastico. · 6 versos" data-en-title="Celanta · Entrano Grottesco, Gaio e Fantastico. · 6 lines" data-tr>
+            <span class="sr-only">
+              <x-es>6 versos</x-es><x-en>6 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">La vecchia</th>
+          <td class="c on" title="La vecchia · Entrano Grottesco, Gaio e Fantastico. · 13 versos" data-en-title="La vecchia · Entrano Grottesco, Gaio e Fantastico. · 13 lines" data-tr>
+            <span class="sr-only">
+              <x-es>13 versos</x-es><x-en>13 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Lamprisco</th>
+          <td class="c on" title="Lamprisco · Entrano Grottesco, Gaio e Fantastico. · 7 versos" data-en-title="Lamprisco · Entrano Grottesco, Gaio e Fantastico. · 7 lines" data-tr>
+            <span class="sr-only">
+              <x-es>7 versos</x-es><x-en>7 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Booby</th>
+          <td class="c on" title="Booby · Entrano Grottesco, Gaio e Fantastico. · 7 versos" data-en-title="Booby · Entrano Grottesco, Gaio e Fantastico. · 7 lines" data-tr>
+            <span class="sr-only">
+              <x-es>7 versos</x-es><x-en>7 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Wiggen</th>
+          <td class="c on" title="Wiggen · Entrano Grottesco, Gaio e Fantastico. · 7 versos" data-en-title="Wiggen · Entrano Grottesco, Gaio e Fantastico. · 7 lines" data-tr>
+            <span class="sr-only">
+              <x-es>7 versos</x-es><x-en>7 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Il Santese</th>
+          <td class="c on" title="Il Santese · Entrano Grottesco, Gaio e Fantastico. · 2 versos" data-en-title="Il Santese · Entrano Grottesco, Gaio e Fantastico. · 2 lines" data-tr>
+            <span class="sr-only">
+              <x-es>2 versos</x-es><x-en>2 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">L’ostessa</th>
+          <td class="c on" title="L’ostessa · Entrano Grottesco, Gaio e Fantastico. · 5 versos" data-en-title="L’ostessa · Entrano Grottesco, Gaio e Fantastico. · 5 lines" data-tr>
+            <span class="sr-only">
+              <x-es>5 versos</x-es><x-en>5 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Il Sacrestano</th>
+          <td class="c on" title="Il Sacrestano · Entrano Grottesco, Gaio e Fantastico. · 3 versos" data-en-title="Il Sacrestano · Entrano Grottesco, Gaio e Fantastico. · 3 lines" data-tr>
+            <span class="sr-only">
+              <x-es>3 versos</x-es><x-en>3 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Simone</th>
+          <td class="c on" title="Simone · Entrano Grottesco, Gaio e Fantastico. · 1 verso" data-en-title="Simone · Entrano Grottesco, Gaio e Fantastico. · 1 line" data-tr>
+            <span class="sr-only">
+              <x-es>1 verso</x-es><x-en>1 line</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Tutti</th>
+          <td class="c on" title="Tutti · Entrano Grottesco, Gaio e Fantastico. · 2 versos" data-en-title="Tutti · Entrano Grottesco, Gaio e Fantastico. · 2 lines" data-tr>
+            <span class="sr-only">
+              <x-es>2 versos</x-es><x-en>2 lines</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Tutt’e due</th>
+          <td class="c on" title="Tutt’e due · Entrano Grottesco, Gaio e Fantastico. · 1 verso" data-en-title="Tutt’e due · Entrano Grottesco, Gaio e Fantastico. · 1 line" data-tr>
+            <span class="sr-only">
+              <x-es>1 verso</x-es><x-en>1 line</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Un frate, Mietitori, Furie, Suonatori di violino, ecc</th>
+          <td class="c on" title="Un frate, Mietitori, Furie, Suonatori di violino, ecc · Entrano Grottesco, Gaio e Fantastico. · 1 verso" data-en-title="Un frate, Mietitori, Furie, Suonatori di violino, ecc · Entrano Grottesco, Gaio e Fantastico. · 1 line" data-tr>
+            <span class="sr-only">
+              <x-es>1 verso</x-es><x-en>1 line</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">Tutti é due</th>
+          <td class="c on" title="Tutti é due · Entrano Grottesco, Gaio e Fantastico. · 1 verso" data-en-title="Tutti é due · Entrano Grottesco, Gaio e Fantastico. · 1 line" data-tr>
+            <span class="sr-only">
+              <x-es>1 verso</x-es><x-en>1 line</x-en>
+            </span>
+          </td>
+        </tr><tr>
+          <th scope="row">La voce</th>
+          <td class="c on" title="La voce · Entrano Grottesco, Gaio e Fantastico. · 1 verso" data-en-title="La voce · Entrano Grottesco, Gaio e Fantastico. · 1 line" data-tr>
+            <span class="sr-only">
+              <x-es>1 verso</x-es><x-en>1 line</x-en>
+            </span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+</main>
+    </div>
+    <footer class="foot">
+      
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

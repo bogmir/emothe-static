@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Act II — El Trueque — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco"><x-es>Elenco</x-es><x-en>Cast list</x-en></a></li>
+      
+  
+    
+        <li>
+          <a href="act-1.html">
+            Act I
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html" aria-current="page">
+            Act II
+          </a>
+          <ul>
+            <li>
+              
+                  <a href="act-2.html#act-2-s1">
+                    ESCENA I
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-2.html#act-2-s2">
+                    ESCENA II
+                  </a>
+              
+            </li>
+          </ul>
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            Act III
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-4.html">
+            Act IV
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-5.html">
+            Act V
+          </a>
+          
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="ALSEMERO">
+        ALSEMERO
+      </option><option value="VERMANDERO">
+        VERMANDERO
+      </option><option value="Beatrice-Joanna">
+        BEATRIZ-JUANA
+      </option><option value="DE_FLORES">
+        DE FLORES
+      </option><option value="ALONZO_DE_PIRACQUO">
+        ALONSO DE PIRAQUO
+      </option><option value="TOMAZO_DE_PIRACQUO">
+        TOMÁS DE PIRAQUO
+      </option><option value="JASPERINO">
+        JASPERINO
+      </option><option value="DIAPHANTA">
+        DIAFANTA
+      </option><option value="ALIBIUS">
+        ALIBIO
+      </option><option value="LOLLIO">
+        LOLIO
+      </option><option value="ISABELLA-CHANGELING">
+        ISABEL
+      </option><option value="ANTONIO-CHANGELING">
+        ANTONIO
+      </option><option value="PEDRO-CHANGELING">
+        PEDRO
+      </option><option value="FRANCISCUS-CHANGELING">
+        FRANCISCO
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="asm" aria-label="Resaltar apartes" data-en-aria-label="Highlight asides" data-tr>
+        <x-es>Apartes</x-es><x-en>Asides</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .aparte, .text .pr.as, .text .pr:not(.as) span.as" data-for="asm">
+  <button type="button" data-step="-1" aria-label="Aparte anterior" data-en-aria-label="Previous aside" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente aparte" data-en-aria-label="Next aside" data-tr>›</button>
+</div>
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">Thomas Middleton</p>
+  <h1><a href="index.html">El Trueque</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-1.html" rel="prev">← Act I</a>
+  <a href="act-3.html" rel="next">Act III →</a>
+</nav>
+  <div class="text" lang="es" data-cite="Thomas Middleton, El Trueque, Act II" data-cite-verse="v." data-cite-prose="l.">
+    
+    <section class="division" id="act-2">
+  
+  
+  
+  
+    
+      <section id="act-2-s1">
+        <h3 class="scene-head">
+          ESCENA I
+        </h3>
+        <p class="sd " id="l2-sd8">(Entran BEATRIZ-JUANA y JASPERINO por separado.)</p><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l2-p108">Lista estoy para que me prestéis ese bello servicio que hace que el título de amigo mío recaiga gloriosamente sobre vos. ¡Que los ángeles y este plano os guíen! <span class="sdi">(Le da un papel.)</span> Ahí están reflejados el mejor momento y el mejor lugar, señor.</p>
+</div><div class="sp " data-who="JASPERINO">
+  <p class="spk ">
+    JASPERINO
+  </p>
+  <p class="pr " id="l2-p109"><span class="sdi">(Sale.)</span> La alegría que daré es buena recompensa a mi servicio.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l2-p110">¡Qué sensato es Alsemero al confiar en su amigo! Señal de que elige con buen juicio y, por tanto, justifica que yo le elija a él. Es un principio básico:</p><div class="lg ">
+  
+  <div class="l " id="l3"><a class="n " href="#l3">3</a><span class="t">Quien bien elige a un amigo, comparte su reflexión,</span></div><div class="l " id="l4"><a class="n " href="#l4">4</a><span class="t">Y demuestra que acierta, sea cual sea la decisión.</span></div>
+</div><p class="pr " id="l4-p1">Yo creo que ahora amo con los ojos del buen juicio, y claramente veo el camino de sus méritos. Quien bien lo merece brilla como un diamante, que incluso se ve entre las tinieblas de su ausencia, las más densas que pueden cernirse sobre el amor. Pero aún se le ve mejor con los ojos del intelecto. ¿Quién es ese Piraquo, por quien mi padre pierde el aliento? Y a mí sólo me da su bendición si mantengo su nombre bien alto. En caso contrario, se vuelve para atacarme, trocándola en maldición. Habrá que poner remedio, pues tan ansioso está, lo hace todo con tanta urgencia, que ni puedo tomar aliento para hablar con mi nuevo deseo.</p>
+</div><p class="sd " id="l4-sd1">(Entra DE FLORES.)</p><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr as" id="l4-p2"><span class="sdi">(Aparte.)</span> Ahí está. Lo que siempre me enferma lo hace ahora más aún. Pero prefiero que me ahorquen a dejar de verla. Veinte veces al día -¡tan pocas, no!- invento recados y excusas para cruzarme ante sus ojos. Y me da pocos motivos y menos esperanzas, pues cada vez me atormenta más. Se declara la más cruel enemiga de mi rostro en toda la ciudad. No aguanta mi presencia, como si su suerte o seguridad dependieran de mi aspecto. Confieso que tengo mala cara, pero las conozco peores con mejor fortuna, que no sufren en soledad, sino que son adoradas. Rostros peludos con barbilla de bruja, cinco pelos aquí y allá susurrando por las esquinas como si crecieran temerosos unos de otros; y con arrugas como acequias donde la deformidad porcina se lava con lágrimas mentirosas recogidas allí tras caer del ojo viscoso e indecente. Y esos gozan a rienda suelta de los favores de una dama que los encuentra agraciados. Aunque mi duro destino me arrojó a la servidumbre, yo vine a este mundo como un caballero. Y si ella gira su bendito ojo hacia mí, soportaré todas las tormentas antes que apartarme de él.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr as" id="l4-p3"><span class="sdi">{AP}(Aparte.)</span> ¡Otra vez! Ese repugnante rostro de mal agüero me agobia más que todas mis otras pasiones juntas.</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr as" id="l4-p4"><span class="sdi">(Aparte.)</span> ¡Ya empezamos otra vez! Aguantaré esta tormenta de granizo aunque me caigan piedras encima.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l4-p5">¿A qué vienes? ¡Que a qué vienes!</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr as" id="l4-p6"><span class="sdi">(Aparte.)</span> Tranquilo y relajado. Así no me iré en seguida.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l4-p7"><span class="sdi">(Aparte.)</span> <span class="as">¡El villano persiste!</span> <span class="sdi">(A De Flores.)</span> ¡Ciénaga inmunda!</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr as" id="l4-p8"><span class="sdi">(Aparte.)</span> Parece que amaina el chaparrón.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l4-p9">¿Quién te manda? ¿Con qué recado? ¡Fuera de mi vista!</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l4-p10">Vuestro padre, mi señor, me encarga que os dé un mensaje</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l4-p11">¿Otro? ¡Pues dalo y que te cuelguen! ¡Así me libro de ti!</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l4-p12">Un buen servicio merece compasión.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l4-p13">¿Cuál es el mensaje?</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l4-p14">Que la belleza se acomode en la paciencia. Lo vais a oír entero.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l4-p15">¡Tormento insignificante que me hace perder el tiempo!</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l4-p16">El señor Alonso de Piraquo, señora, único hermano de Tomás de Piraquo...</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l4-p17">¡Esbirro! ¿Cuándo pondrás punto y final?</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr as" id="l4-p18"><span class="sdi">(Aparte.)</span> Bien pronto lo haré.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l4-p19">¿Por qué habláis de él?</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l4-p20">El susodicho Alonso, con el ya mencionado Tomás...</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l4-p21">¡Otra vez!</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l4-p22">... acaban de llegar.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l4-p23">¡Maldita noticia! ¿Infame, para eso te cruzas ante mi vista?</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l4-p24">Vuestro padre, mi señor, me encargó que os buscara.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l4-p25">¿Y no había otra manera de enviarme ese recado?</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l4-p26">Parece que es mi dicha estar siempre a mitad de camino.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l4-p27">¡Aléjate de mí!</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr as" id="l4-p28"><span class="sdi">(Aparte.)</span> ¿Seré burro por buscar formas para que me humillen? ¡Quiero seguir viéndola! Me dará otro espasmo de deseo en una hora, lo sé, y tomo aliento como un toro vulgar para que me vuelvan a tirar de las orejas. Adónde me lleva esto no lo sé. No desespero, porque hay precedentes de rostros deformes amados más allá de toda razón. Esta horrible cara podría un día caer en gracia entre sus semejantes. Está demostrado que la disputa es compañera de los buenos momentos. Igual que los niños lloran y acaban dormidos, he visto a mujeres discutir con hombres y acabar en la cama con ellos.</p>
+</div><p class="sd " id="l4-sd2">(Sale De Flores)</p><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l4-p29">¡Cada vez que veo a ese sujeto presiento que algún mal se cierne sobre mí! El peligro aún me ronda la mente. Pasa una hora y todavía estoy temblando. La próxima vez que vea a mi padre de buen humor conseguiré que le deseche. ¡Ay! Me he perdido en este pequeño chaparrón olvidándome del fiero temporal de amargura que se me viene encima para ahogar todo mi gozo.</p>
+</div><p class="sd " id="l4-sd3">(Entran VERMANDERO, ALONSO y TOMÁS.)</p><div class="sp " data-who="VERMANDERO">
+  <p class="spk ">
+    VERMANDERO
+  </p>
+  <p class="pr " id="l4-p30">Los dos sois bienvenidos, pero especialmente a quien nuestro amor otorga el título de hijo, nuestro hijo Alonso.</p>
+</div><div class="sp " data-who="ALONZO_DE_PIRACQUO">
+  <p class="spk ">
+    ALONSO
+  </p>
+  <p class="pr " id="l4-p31">No hay título que reciba con mayor regocijo, señor.</p>
+</div><div class="sp " data-who="VERMANDERO">
+  <p class="spk ">
+    VERMANDERO
+  </p>
+  <p class="pr " id="l4-p32">Y vos lo ennoblecéis más aún. ¡Hija, prepárate! Pronto se os echará el día encima.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr as" id="l4-p33"><span class="sdi">(Aparte.)</span> Me quedaré con la noche, si tanto se me aproxima.</p>
+</div><p class="sd " id="l4-sd4">(Beatriz-Juana y Vermandero hablan aparte.)</p><div class="sp " data-who="TOMAZO_DE_PIRACQUO">
+  <p class="spk ">
+    TOMÁS
+  </p>
+  <p class="pr " id="l4-p34">Alonso</p>
+</div><div class="sp " data-who="ALONZO_DE_PIRACQUO">
+  <p class="spk ">
+    ALONSO
+  </p>
+  <p class="pr " id="l4-p35">¿Hermano?</p>
+</div><div class="sp " data-who="TOMAZO_DE_PIRACQUO">
+  <p class="spk ">
+    TOMÁS
+  </p>
+  <p class="pr " id="l4-p36">Poca bienvenida veo en sus ojos.</p>
+</div><div class="sp " data-who="ALONZO_DE_PIRACQUO">
+  <p class="spk ">
+    ALONSO
+  </p>
+  <p class="pr " id="l4-p37">¡Vamos! Sois un juez muy severo con toda forma de amor. No hay manera de convenceros de que si los enamorados se tomaran todo a mal, el amor sería como un libro mal impreso, con erratas que ocupen medio volumen.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l4-p38"><span class="sdi">(A su padre.)</span> Es todo lo que pido</p>
+</div><div class="sp " data-who="VERMANDERO">
+  <p class="spk ">
+    VERMANDERO
+  </p>
+  <p class="pr " id="l4-p39">Me parece razonable. Voy a ver qué dice mi hijo. Hijo Alonso, me hacen una propuesta para que siga doncella tres días más. La petición no es descabellada, pues el tiempo nos pisa los talones.</p>
+</div><div class="sp " data-who="ALONZO_DE_PIRACQUO">
+  <p class="spk ">
+    ALONSO
+  </p>
+  <p class="pr " id="l4-p40">Esa fecha retrasa mi alegría lo que yo la quisiera adelantar, pero si ella así lo desea, me complace tanto como la anterior. Mi dicha no disminuye.</p>
+</div><div class="sp " data-who="VERMANDERO">
+  <p class="spk ">
+    VERMANDERO
+  </p>
+  <p class="pr " id="l4-p41">Y que siempre os encuentre yo en ese estado. Sois muy bienvenidos, señores.</p>
+</div><p class="sd " id="l4-sd5">(Salen Vermandero y Beatriz-Juana.)</p><div class="sp " data-who="TOMAZO_DE_PIRACQUO">
+  <p class="spk ">
+    TOMÁS
+  </p>
+  <p class="pr " id="l4-p42">¿Visteis con qué frialdad se marchó?</p>
+</div><div class="sp " data-who="ALONZO_DE_PIRACQUO">
+  <p class="spk ">
+    ALONSO
+  </p>
+  <p class="pr " id="l4-p43">¿Qué frialdad? ¡Aún estás poniendo pegas!</p>
+</div><div class="sp " data-who="TOMAZO_DE_PIRACQUO">
+  <p class="spk ">
+    TOMÁS
+  </p>
+  <p class="pr " id="l4-p44">Bien, dejadlo estar. Soy tonto por advertiros de la desgracia con tanto tacto.</p>
+</div><div class="sp " data-who="ALONZO_DE_PIRACQUO">
+  <p class="spk ">
+    ALONSO
+  </p>
+  <p class="pr " id="l4-p45">¿Qué he pasado por alto?</p>
+</div><div class="sp " data-who="TOMAZO_DE_PIRACQUO">
+  <p class="spk ">
+    TOMÁS
+  </p>
+  <p class="pr " id="l4-p46">Vuestra buena fe ha sido burlada, muy burlada, por ella. Que vuestro amor retroceda a toda prisa guiado por la sensatez, o vuestra paz será turbada. Pensad qué tormento es casarse con una cuyo corazón ya se zambulle en el pecho de otro. Si goza contigo, no será en tu nombre ni por gratitud, pues aún estando en tus brazos yacerá con otro que será medio padre en la concepción de todos tus hijos. Y si él no procrea, ella procreará para él, y cuán peligrosa y desvergonzada se mostrará cuando intentes detenerla. Se sufre sólo de pensarlo.</p>
+</div><div class="sp " data-who="ALONZO_DE_PIRACQUO">
+  <p class="spk ">
+    ALONSO
+  </p>
+  <p class="pr " id="l4-p47">Habláis como si ya amara a otro.</p>
+</div><div class="sp " data-who="TOMAZO_DE_PIRACQUO">
+  <p class="spk ">
+    TOMÁS
+  </p>
+  <p class="pr " id="l4-p48">¿Tanto os cuesta entenderlo?</p>
+</div><div class="sp " data-who="ALONZO_DE_PIRACQUO">
+  <p class="spk ">
+    ALONSO
+  </p>
+  <p class="pr " id="l4-p49">Eso son miedos vuestros, yo me siento bien seguro. Guardaos vuestra amistad y consejo, hermano, para tiempos de más angustia. Si no fueras tú, me convertiría en peligroso y mortal enemigo de quien siquiera piense que ella conoce el significado de la inconstancia, mucho menos que la ponga en práctica. ¡Pero somos amigos! Te ruego que no seas tan impulsivo. Muchas otras cosas me pueden pasar antes de que a ella se la ofenda, pues si así fuera, no respondería de mí. ¡Adiós, querido hermano! ¡Ya que el cielo nos une, separémonos con amor!</p>
+</div><p class="sd " id="l4-sd6">(Sale.)</p><div class="sp " data-who="TOMAZO_DE_PIRACQUO">
+  <p class="spk ">
+    TOMÁS
+  </p>
+  <p class="pr " id="l4-p50">Esta es la locura amansada por el amor, que empuja al hombre a su humillación.</p>
+</div><p class="sd " id="l4-sd7">(Sale.)</p>
+      </section>
+    
+  
+    
+      <section id="act-2-s2">
+        <h3 class="scene-head">
+          ESCENA II
+        </h3>
+        <p class="sd " id="l4-sd8">(Entran DIAFANTA y ALSEMERO.)</p><div class="sp " data-who="DIAPHANTA">
+  <p class="spk ">
+    DIAFANTA
+  </p>
+  <p class="pr " id="l4-p51">El sitio está a mi cargo y habéis sido puntual. ¡Que la recompensa de un dulce encuentro sea vuestra bendición! Oigo venir a mi señora. ¡Un caballero total! No me extenderé en mis alabanzas, no vaya a levantar sospechas peligrosas.</p>
+</div><p class="sd " id="l4-sd9">(Sale.)</p><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l4-p52">Esto va bien. Estas mujeres son como los joyeros de sus señoras. Sus bienes más preciados se encierran en ellas.</p>
+</div><p class="sd " id="l4-sd10">(Entra BEATRIZ-JUANA).</p><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l4-p53">Tengo ante mis ojos todo cuanto deseo. Los ruegos que nuestros rezos mandan al cielo para que luego bajen a colmarnos de lo que carecemos no nos sacian tanto como tú haces con mis anhelos.</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l4-p54">Nos expresamos de forma tan parecida, señora, que si no tomo prestadas vuestras mismas palabras no encontraré nada igual.</p>
+</div><p class="sd " id="l4-sd11">(La besa.)</p><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l4-p55">¡Cuanta felicidad embargaría este encuentro, este abrazo, si estuviera libre de la envidia! Este pobre beso tiene un encarnizado enemigo que desea envenenarlo. ¡Qué bien me sentiría si no conociera el nombre de Piraquo ni estuviera sometida a las órdenes de mi padre! ¡Sería demasiada bendición para mí!</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l4-p56">Con un buen servicio os quitaré ambos temores, y mejor me sentiré entonces yo también, pues ahora estáis muy angustiada. Si eliminamos la causa, cesan las órdenes, y así apagamos dos temores de un soplo.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l4-p57">¡A ver si os entiendo! ¿Qué servicio es ese que tan buen resultado da?</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l4-p58">El de la más honrosa virtud del hombre: el valor. Retaré a Piraquo a un duelo.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l4-p59">¿Cómo? ¿Así pretendéis que se extinga mi temor, azuzando su llama? ¿Vais a correr ese riesgo? ¡Si sois todo mi gozo y mi consuelo! ¡No sigáis, señor! Aunque vencierais, ya no seríais mía sino del peligro. O bien la ley os apartaría de mi lado, o bien vuestro escondite sería la tumba que os enterrara vivo. ¡Que estos pensamientos se expresen en voz alta! ¡No ocultéis ninguno, señor! Esa acción nos llevaría por la senda de la tristeza hacia la muerte. Las lágrimas no se secarían hasta que el polvo las ahogara. La culpa sanguinaria sólo le sienta bien a un feo rostro. <span class="sdi">(Aparte.)</span> <span class="as">Y ahora pienso en uno. ¡Por mi culpa he estropeado una buena oportunidad con mi desprecio! Él, lo más horrible jamás creado, lo habría hecho, sin duda.</span></p><div class="lg ">
+  
+  <div class="l " id="l5"><a class="n m5" href="#l5">5</a><span class="t">Cada criatura tiene su función,</span></div><div class="l " id="l6"><a class="n " href="#l6">6</a><span class="t">pero no supe encontrar la ocasión.</span></div>
+</div>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l6-p1">Señora...</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p2">¡Los grandes pensadores saben mucho de veneno que sirve para neutralizar a otro veneno! ¿En qué estaría yo pensando?</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l6-p3">Señora, no me escucháis...</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p4">Lo hago y mucho, señor. Estos tiempos no están de nuestra parte, pero el futuro puede estarlo. Debemos administrarlos, como los ricos su fortuna, con moderación hasta que lleguen tiempos mejores.</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l6-p5">Sois una fuente de sabiduría, señora.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p6"><span class="sdi">(Llama.)</span> ¡Diafanta, ven aquí!</p>
+</div><p class="sd " id="l6-sd1">(Entra DIAFANTA .)</p><div class="sp " data-who="DIAPHANTA">
+  <p class="spk ">
+    DIAFANTA
+  </p>
+  <p class="pr " id="l6-p7">¿Llamáis, señora?</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p8">¡Completad vuestro servicio llevando a este caballero por el camino secreto que le trajisteis!</p>
+</div><div class="sp " data-who="DIAPHANTA">
+  <p class="spk ">
+    DIAFANTA
+  </p>
+  <p class="pr " id="l6-p9">¡Sí, señora!</p>
+</div><div class="sp " data-who="ALSEMERO">
+  <p class="spk ">
+    ALSEMERO
+  </p>
+  <p class="pr " id="l6-p10">Mi amor se mantiene firme como ningún otro lo ha hecho jamás.</p>
+</div><p class="sd " id="l6-sd2">(Salen Diafanta y Alsemero.)</p><p class="sd " id="l6-sd3">(Entra DE FLORES.)</p><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr as" id="l6-p11"><span class="sdi">(Aparte.)</span> He sido testigo de este encuentro y me pregunto qué será del otro. No se puede servir a dos sin pecar. ¡Pues me apunto yo también con alborozo! Si una mujer vuela de un sitio a otro, y en cada sitio que se posa encuentra marido, remonta y se abre en progresión aritmética, uno, diez, cien, mil, diez mil, como una halconera que sirve a todo un regimiento. Ahora me esperan las mayores humillaciones, pero tengo que verla.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p12"><span class="sdi">(Aparte.)</span> <span class="as">Aunque le deteste tanto como la juventud y la belleza odian el sepulcro, ¿por qué he de demostrarlo? ¿No puedo guardar el secreto y sacar provecho de él? ¡A ver, aquí está!</span> <span class="sdi">(A él.)</span> ¡De Flores!</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr as" id="l6-p13"><span class="sdi">(Aparte.)</span> ¡Enloquezco de alegría! ¡Me llama dulcemente por mi nombre, De Flores, y no bandido o bribón!</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p14">¿Qué te has hecho en la cara últimamente? ¡Has ido a un buen médico! Te habrás acicalado, antes no parecías tan encantador.</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr as" id="l6-p15"><span class="sdi">(Aparte.)</span> ¡No es a mí! Tengo el mismo aspecto, hasta la última verruga peluda, del que ella se burlaba hace apenas una hora. ¿Cómo puede ser?</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p16">¡Acércate, hombre!</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr as" id="l6-p17"><span class="sdi">(Aparte.)</span> Mi barbilla llega al cielo</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p18"><span class="sdi">(Le mira la cara.)</span> Vuélvete, déjame ver. Tienes ardor, lo veo. Creía que estabas peor.</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr as" id="l6-p19"><span class="sdi">(Aparte.)</span> ¡Sus dedos me han tocado! Huele a ámbar.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p20">Te prepararé una loción que te dejará limpio en dos semanas.</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l6-p21">¿Con vuestras propias manos, señora?</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p22">Sí, con las mías, señor. A la hora de curar, no me fío de ninguna otra.</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr as" id="l6-p23"><span class="sdi">(Aparte.)</span> ¡Qué gusto me da oírla hablarme así!</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p24">Cuando una se acostumbra a un rostro deforme ya no resulta tan desagradable. Nuestro estado de opinión cambia a cada hora. Lo sé por experiencia.</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr as" id="l6-p25"><span class="sdi">(Aparte.)</span> ¡La luz me bendice en este instante! Haré buen uso de ella.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p26">La deformidad le sienta bien al rostro del hombre. Denota servicio, decisión, virilidad, virtudes suficientes para desempeñar su labor.</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l6-p27">Que en seguida os demostraría, si vuestra señora las necesitara. Ojalá tuviera el feliz honor de prestaros un servicio que requiriera su provecho.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p28">Te pondremos a prueba. ¡Ay, mi De Flores!</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l6-p29"><span class="sdi">(Aparte.)</span> <span class="as">¿Cómo es esto? ¡Ya me llama suyo! ¡Mi De Flores!</span> <span class="sdi">(A Beatriz.)</span> Ibais a suspirar algo, señora.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p30">No. ¿Yo? Se me ha olvidado. ¡Ay!</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l6-p31">Ahí está. Igual que antes.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p32">Sois muy lanzado, señor.</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l6-p33">Ya no hay excusa que valga. Lo he oído dos veces, señora. Ese suspiro oculta una afirmación. Compadeceos de él, dadle libertad de expresión. ¡Cómo forcejea para liberarse! Ya oigo el murmullo que late en vuestro pecho.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p34">¡Ay, si Dios...</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l6-p35">Bien dicho, eso es.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p36">...me hubiera hecho hombre!</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l6-p37">¡Eso no es!</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p38">¡El alma de la libertad! No me vería forzada a casarme con quien odio más allá de todo límite. Tendría fuerza para oponerme a quienes aborrezco y quitarles de mi vista para siempre.</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l6-p39">¡Oh, bendita ocasión! Sin tener que cambiar de sexo se cumplirán vuestros deseos. Reclamad lo que hay de hombre en mí.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p40">¿En ti, De Flores? Poco me corresponde reclamaros.</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l6-p41">Pues no me lo exijáis. Es un servicio que, de rodillas, suplico poder prestar.</p>
+</div><p class="sd " id="l6-sd4">(Se arrodilla.)</p><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p42">Os alteráis demasiado para decirlo de verdad. Hay terror, sangre y peligro en el servicio que requiero. ¿Estaría uno dispuesto a asumirlo?</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l6-p43">Si supierais cuánto me apetece ponerme a vuestra disposición, diríais que he sido incapaz de mostrar gratitud suficiente al recibir vuestro encargo.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr as" id="l6-p44"><span class="sdi">(Aparte.)</span> Esto es demasiado. Es tan avaricioso que el oro le sabe a gloria.</p><p class="pr " id="l6-p45"><span class="sdi">(A De Flores.)</span> Levántate.</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l6-p46">Primero decidme qué debo hacer.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p47"><span class="sdi">(Aparte.)</span> <span class="as">Quizás su necesidad pueda con él.</span> <span class="sdi">(Le da dinero.)</span> Eso es para animarte. En proporción a tu arrojo y al peligro de tu servicio, la recompensa será elevada.</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l6-p48">Eso ya lo he pensado, y me aseguro de antemano que lo será. Me relamo nada más de pensarlo.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p49">¡Pues que tu furia caiga sobre él!</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l6-p50">Le tengo ganas.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p51">Alonso Piraquo.</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l6-p52">Su fin está próximo. Nadie le volverá a ver.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p53">¡Cuán encantador me pareces ahora! Nunca habrá hombre mejor recompensado.</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l6-p54">¡Ya lo creo que no!</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p55">Ten mucho cuidado en la ejecución.</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l6-p56">¿No dependen nuestras vidas de cómo caiga el dado?</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p57">Deposito mis temores en tu servicio.</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l6-p58">Nunca más se levantarán a haceros daño.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr " id="l6-p59">Cuando esté todo hecho, te ayudaré a huir; podrás vivir holgadamente en otro país.</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l6-p60">De eso ya hablaremos más adelante.</p>
+</div><div class="sp " data-who="Beatrice-Joanna">
+  <p class="spk ">
+    BEATRIZ
+  </p>
+  <p class="pr as" id="l6-p61"><span class="sdi">(Aparte.)</span> Me libro de dos seres detestables de una vez. Piraquo y este cara de perro.</p>
+</div><p class="sd " id="l6-sd5">(Sale.)</p><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l6-p62">¡Ay, me hierve la sangre! Ya la siento entre mis brazos, sus libidinosos dedos acariciándome la barba mientras piropea complaciente esta mala cara. El hambre y el placer convierten en deliciosos los platos más desaliñados, y se devoran con ganas mientras sorprendentemente se rechazan otros más refinados. ¡Algunas mujeres son muy raras con las comidas...! Hablo muy alto. Ahí llega el hombre que hoy se acuesta sin cenar, y mañana no se levanta ni a la hora de comer.</p>
+</div><p class="sd " id="l6-sd6">(Entra ALONSO.)</p><div class="sp " data-who="ALONZO_DE_PIRACQUO">
+  <p class="spk ">
+    ALONSO
+  </p>
+  <p class="pr " id="l6-p63">¡De Flores!</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l6-p64">¿Mi atento y honorable señor?</p>
+</div><div class="sp " data-who="ALONZO_DE_PIRACQUO">
+  <p class="spk ">
+    ALONSO
+  </p>
+  <p class="pr " id="l6-p65">Me alegro de encontrarme contigo.</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l6-p66">Señor.</p>
+</div><div class="sp " data-who="ALONZO_DE_PIRACQUO">
+  <p class="spk ">
+    ALONSO
+  </p>
+  <p class="pr " id="l6-p67">¿Me puedes enseñar toda la fortaleza del castillo?</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l6-p68">Sí puedo, señor.</p>
+</div><div class="sp " data-who="ALONZO_DE_PIRACQUO">
+  <p class="spk ">
+    ALONSO
+  </p>
+  <p class="pr " id="l6-p69">Me apetece mucho.</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l6-p70">Si las cuestas y recovecos del recorrido no se os hacen pesados, os aseguro que bien merece la pena lo que vais a ver, mi señor.</p>
+</div><div class="sp " data-who="ALONZO_DE_PIRACQUO">
+  <p class="spk ">
+    ALONSO
+  </p>
+  <p class="pr " id="l6-p71">¡Vamos! Eso no será un obstáculo para mí.</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr " id="l6-p72">Yo os serviré entonces. Es casi la hora de comer. Antes de que os levantéis de la mesa tendré las llaves.</p>
+</div><div class="sp " data-who="ALONZO_DE_PIRACQUO">
+  <p class="spk ">
+    ALONSO
+  </p>
+  <p class="pr " id="l6-p73">Gracias, amable De Flores.</p>
+</div><div class="sp " data-who="DE_FLORES">
+  <p class="spk ">
+    DE FLORES
+  </p>
+  <p class="pr as" id="l6-p74"><span class="sdi">(Aparte.)</span> Se tira a mis brazos más fácilmente de lo que esperaba.</p>
+</div><p class="sd " id="l6-sd7">(Salen.)</p>
+      </section>
+    
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-1.html" rel="prev">← Act I</a>
+  <a href="act-3.html" rel="next">Act III →</a>
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

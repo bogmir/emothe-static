@@ -1,0 +1,2192 @@
+<?xml version="1.0" ?>
+<TEI xml:lang="pt" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Comédia del rei Seleuco</title>
+        <title type="edicion">&quot;Comédia del rei Seleuco&quot; de Luís Camões: Edición TEI para EMOTHE</title>
+        <title key="orden">Comédia del rei Seleuco</title>
+        <title key="archivo">EMOTHE0556_ComediaDelReiSeleuco</title>
+        <author ana="fiable">Luís Camões</author>
+        <author key="orden">Camões, Luís de</author>
+        <sponsor>
+          <orgName>Plan Nacional de Investigación Científica, Desarrollo e Innovación Tecnológica (Plan Nacional de I+D+i)</orgName>
+        </sponsor>
+        <funder>
+          <orgName>Ministerio de Ciencia, Innovación y Universidades, Ministerio de Economía y Competitividad – Agencia Estatal de Investigación -FEDER/ERDF: &quot;Teatro europeo de los siglos XVI y XVII: patrimonio y bases de datos&quot; (EMOTHE) ref. FFI2016-80314-P (2016-12-30 /2019-12-31); Programa Estatal Redes de Excelencia, &quot;Red del Patrimonio Teatral Clásico Español&quot;, ref. FFI2015-71441-REDC (2015-12-01 / 2017-11-30); Ministerio de Ciencia e Innovación, &quot;Base de datos, argumentos y textos del teatro clásico español&quot;, ref. FFI2012-34347 (2013-02-01 / 2016-12-31); Ministerio de Ciencia e Innovación, &quot;Patrimonio teatral clásico español: textos e instrumentos de investigación&quot;, ref. CSD 2009-00033 (2009-12-17 / 2014-12-13); Ministerio de Ciencia e Innovación, &quot;ARTELOPE. Base de datos, argumentos y textos del teatro clásico español&quot;, ref. FFI2009-12730 (2010-01-01 / 2012-12-31)</orgName>
+        </funder>
+        <principal>Joan Oleza Simó</principal>
+      </titleStmt>
+      <editionStmt>
+        <edition>Edición electrónica de &apos;Comédia del rei Seleuco&apos;</edition>
+        <respStmt>
+          <resp>Electronic edition: text adapted, edited for XML and encoded by</resp>
+          <persName>Camões, José</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Electronic edition: text adapted, edited for XML and encoded by</resp>
+          <persName>Silva, Helena Reis</persName>
+        </respStmt>
+      </editionStmt>
+      <extent ana="versoprosa">745 versos</extent>
+      <publicationStmt>
+        <publisher>
+          <orgName>ARTELOPE Universitat de València</orgName>
+        </publisher>
+        <idno type="code">EMOTHE0556_ComediaDelReiSeleuco</idno>
+        <idno type="EMOTHE">0556</idno>
+        <pubPlace>Valencia</pubPlace>
+        <date>2019</date>
+        <authority>
+          <orgName>Universitat de València - Estudi General. http://www.uv.es</orgName>
+        </authority>
+        <availability>
+          <p>La Colección EMOTHE: The Classics of Early Modern European Theatre pertenece al proyecto ARTELOPE y ofrece en la web textos completos en acceso abierto, según la licencia que se indique. Se ruega citar la procedencia: &quot;Oleza, Joan et al. EMOTHE: The Classics of Early Modern European Theatre. Valencia: ARTELOPE Universitat de València, 2010-. https://emothe.uv.es/biblioteca/&quot;</p>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/deed."></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+<title><emph>Auto del rei Seleuco</emph></title>
+          <author>Camões, Luís</author>
+          <editor>Camões, José</editor>
+<note><emph>Teatro de autores portugueses do Séc. XVI. Base de dados textual</emph> Lisboa: Centro de Estudos de Teatro, Universidade de Lisboa. [15 março 2019] Disponível em: http://www.cet-e-quinhentos.com/</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>La Colección de Textos Clásicos Europeos (CTCE) supone la creación de una base de datos de Teatro canónico clásico europeo en diferentes idiomas, versiones y refundiciones, todas ellas hipervinculadas.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Las presentes ediciones digitales están basadas, en su mayor parte, en ediciones científicas de reconocido prestigio y se ha tratado, en la mayoría de ocasiones, de respetar sus criterios de edición. Solo en casos muy puntuales el editor digital ha introducido leves cambios de los que da cumplida cuenta en el apartado de &quot;Notas&quot;.</p>
+      </editorialDecl>
+      <refsDecl>
+        <citeStructure match="/TEI/text/body//l[@n] | /TEI/text/body//p[@n] | /TEI/text/body//lb[@n]" unit="printed-line" use="@n"/>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="pt-PT">Português</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+<change><date>2020</date> <persName>Muñoz Pons, Carlos</persName> Revisión de la obra en formato TEI-XML</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>
+            <title>Comédia del rei Seleuco</title>
+          </titlePart>
+        </docTitle>
+        <docAuthor>Luís Camões</docAuthor>
+      </titlePage>
+      <div type="elenco">
+<head>[<emph>Dramatis Personae</emph></head>
+        <castList>
+          <castItem>
+            <role xml:id="ESCUDEIRO">ESCUDEIRO</role>
+          </castItem>
+          <castItem>
+            <role xml:id="MOÇO">MOÇO</role>
+          </castItem>
+          <castItem>
+            <role xml:id="MARTIM">MARTIM</role>
+          </castItem>
+          <castItem>
+            <role xml:id="AMBRÓSIO">AMBRÓSIO</role>
+          </castItem>
+          <castItem>
+            <role xml:id="REPRESENTADOR">REPRESENTADOR</role>
+          </castItem>
+          <castItem>
+            <role xml:id="REI">REI</role>
+          </castItem>
+          <castItem>
+            <role xml:id="RAINHA">RAINHA</role>
+          </castItem>
+          <castItem>
+            <role xml:id="PRÍNCIPE">PRÍNCIPE</role>
+          </castItem>
+          <castItem>
+            <role xml:id="PAJEM">PAJEM</role>
+          </castItem>
+          <castItem>
+            <role xml:id="MOÇA">MOÇA</role>
+          </castItem>
+          <castItem>
+            <role xml:id="PORTEIRO">PORTEIRO</role>
+          </castItem>
+          <castItem>
+            <role xml:id="ALEXANDRE">ALEXANDRE</role>
+          </castItem>
+          <castItem>
+            <role xml:id="FROLALTA">FROLALTA</role>
+          </castItem>
+          <castItem>
+            <role xml:id="FÍSICO">FÍSICO</role>
+          </castItem>
+          <castItem>
+            <role xml:id="SANCHO">SANCHO]</role>
+          </castItem>
+        </castList>
+      </div>
+    </front>
+    <body>
+      <div1 n="0" type="play">
+        <stage xml:id="em0556-pt-st-1">Diz logo o Mordomo, ou dono da casa:</stage>
+        <sp who="#ESCUDEIRO" xml:id="em0556-pt-sp-1">
+          <speaker>ESCUDEIRO</speaker>
+          <p n="1" xml:id="em0556-pt-1">Eis, senhores: o autor, por me honrar nesta festival noite, me quis representar ũa farsa e diz que, por se não encontrar com outras já feitas, buscou uns novos fundamentos para a quem tiver um juízo assi arrezoado satisfazer. E diz que quem se dela não contentar, querendo outros novos acontecimentos, que se vá aos soalheiros dos escudeiros da Castanheira ou d’Alhos Vedros e Barreiro, ou converse na Rua Nova em casa do boticário, e não lhe faltará que conte. Porém diz o autor que usou nesta obra da maneira de Isopete. Ora quanto à obra se não parecer bem a todos, o autor diz que entende dela menos que todos os que lha puderem ẽmendar. Todavia, isto é para praguentos, aos quais diz que responde com um dito de um filósofo que diz: Vós outros estudastes para praguejar, e eu para desprezar praguentos. E contudo quero saber da farsa em que ponto vai. Moço, Lançarote.</p>
+        </sp>
+        <sp who="#MOÇO" xml:id="em0556-pt-sp-2">
+          <speaker>MOÇO</speaker>
+          <p n="2" xml:id="em0556-pt-2">Senhor.</p>
+        </sp>
+        <sp who="#ESCUDEIRO" xml:id="em0556-pt-sp-3">
+          <speaker>ESCUDEIRO</speaker>
+          <p n="3" xml:id="em0556-pt-3">São já chegadas as figuras?</p>
+        </sp>
+        <sp who="#MOÇO" xml:id="em0556-pt-sp-4">
+          <speaker>MOÇO</speaker>
+          <p n="4" xml:id="em0556-pt-4">Chegadas são elas quasi ao fim de sua vida.</p>
+        </sp>
+        <sp who="#ESCUDEIRO" xml:id="em0556-pt-sp-5">
+          <speaker>ESCUDEIRO</speaker>
+          <p n="5" xml:id="em0556-pt-5">Como assi?</p>
+        </sp>
+        <sp who="#MOÇO" xml:id="em0556-pt-sp-6">
+          <speaker>MOÇO</speaker>
+          <p n="6" xml:id="em0556-pt-6">Porque foi a gente tanta que não ficou capa com frisa, nem talão de sapato que não saísse fora do couce. Ora vieram uns embuçadetes, quiseram entrar por força, ei-lo arrancamento na mão. Deram ũa pedrada na cabeça ao Anjo e rasgaram ũa meia calça ao Ermitão, e agora diz o Anjo que não há de entrar até lhe não darem ũa cabeça nova, nem o Ermitão até lhe não porem ũa estopada na calça. Este pantufo se perdeu, assi mande-o vossa mercê domingo apregoar nos púlpitos, que não quero nada do alheo.</p>
+        </sp>
+        <sp who="#ESCUDEIRO" xml:id="em0556-pt-sp-7">
+          <speaker>ESCUDEIRO</speaker>
+          <p n="7" xml:id="em0556-pt-7">Se ela fora outra peça de mais valia, tu botaras a conciência pela porta fora para a meteres em tua casa.</p>
+        </sp>
+        <sp who="#MOÇO" xml:id="em0556-pt-sp-8">
+          <speaker>MOÇO</speaker>
+          <p n="8" xml:id="em0556-pt-8">Oh se o ela fora, mais conciência seria torná-la a seu dono, quem a havia mister para si.</p>
+        </sp>
+        <sp who="#ESCUDEIRO" xml:id="em0556-pt-sp-9">
+          <speaker>ESCUDEIRO</speaker>
+          <p n="9" xml:id="em0556-pt-9">Ora vem cá. Vai daqui a casa de Martim Chinchorro, e dize-lhe que temos cá auto com grande fogueira, que se venha sua mercê para cá e que traga consigo o senhor Romão d’Alvarenga, para que sobre o cantochão botemos nosso contraponto de zombaria. Ouves Lançarote? Ir-lhe-ás abrir a porta do quintal, por que mudemos o vinte aos que cuidam de entrar por força.</p>
+        </sp>
+        <stage xml:id="em0556-pt-st-2">Indo-se o Moço, diz:</stage>
+        <sp who="#MOÇO" xml:id="em0556-pt-sp-10">
+          <speaker>MOÇO</speaker>
+          <p n="10" xml:id="em0556-pt-10">Chichelo de judeu, assi como foste pantufo, que te custava ser ũa bolsa com um par de reales, que são bons para escudeiro hipócrita, que são muito e valem pouco?</p>
+        </sp>
+        <sp who="#ESCUDEIRO" xml:id="em0556-pt-sp-11">
+          <speaker>ESCUDEIRO</speaker>
+          <p n="11" xml:id="em0556-pt-11">Moço, que estás fazendo que não vás?</p>
+        </sp>
+        <sp who="#MOÇO" xml:id="em0556-pt-sp-12">
+          <speaker>MOÇO</speaker>
+          <p n="12" xml:id="em0556-pt-12">Senhor, estou tardando e porém estou cuidando que se agora fora aquele tempo em que corriam as moedas dos sambarcos, sempre deste tiraria para ũas palmilhas. Mas já que assi é, diga-me vossa mercê que farei deste.</p>
+        </sp>
+        <sp who="#ESCUDEIRO" xml:id="em0556-pt-sp-13">
+          <speaker>ESCUDEIRO</speaker>
+          <p n="13" xml:id="em0556-pt-13">Oh fi de puta bargante, esperai, que estoutro vo-lo dirá.</p>
+        </sp>
+        <stage xml:id="em0556-pt-st-3">Faz que lhe atira com outro pantufo. Vai-se o Moço e diz o Escudeiro:</stage>
+        <sp who="#ESCUDEIRO" xml:id="em0556-pt-sp-14">
+          <speaker>ESCUDEIRO</speaker>
+          <p n="14" xml:id="em0556-pt-14">Não há mais mau conselho que ter um vilão destes mimoso, porque logo passam o pé além da mão, zombam assi da gravidade de seu amo. Mas tornando ao que importa, vossas mercês é necessário que se cheguem uns para os outros, para darem lugar aos outros senhores que hão de vir, que doutra maneira, se todo o corro se há de gastar em palanques, será bom mandar fazer outro Alvalade. E mais, que me hão de fazer mercê, que se hão de desembuçar, porque eu não sei quem me quer bem, nem quem me quer mal. Este só desgosto tem um auto, que é como ofício de alcaide, ou haveis deixar entrar a todos, ou vos hão de ter por vilão ruim.</p>
+        </sp>
+        <stage xml:id="em0556-pt-st-4">Entra Martim Chinchorro, falando com outro escudeiro por nome Ambrósio, e diz o Martim Chinchorro:</stage>
+        <sp who="#MARTIM" xml:id="em0556-pt-sp-15">
+          <speaker>MARTIM</speaker>
+          <p n="15" xml:id="em0556-pt-15">Entre vossa mercê.</p>
+        </sp>
+        <sp who="#AMBRÓSIO" xml:id="em0556-pt-sp-16">
+          <speaker>AMBRÓSIO</speaker>
+          <p n="16" xml:id="em0556-pt-16">Dias há, senhor, que ando de quebras com cortesias e por isso vou diante. Bejo as mãos a vossa mercê. A verdade é esta: passear com casa juncada, fogueira com castanhas, mesa posta com alcatifa e cartas. Além disso, auto para esgaravatar os dentes. Esta é a vida de que se há de fazer conciência.</p>
+        </sp>
+        <sp who="#ESCUDEIRO" xml:id="em0556-pt-sp-17">
+          <speaker>ESCUDEIRO</speaker>
+          <p n="17" xml:id="em0556-pt-17">Senhor, o descanso dizem lá que se há de ter enquanto homem puder, porque os trabalhos, sem os chamarem, de seu se vem por seu pé, que seu nome é.</p>
+        </sp>
+        <sp who="#MARTIM" xml:id="em0556-pt-sp-18">
+          <speaker>MARTIM</speaker>
+          <p n="18" xml:id="em0556-pt-18">Ora pois, senhor, o auto dizem que é tal? Porque um auto enfadonho traz mais sono consigo que ũa pregação comprida.</p>
+        </sp>
+        <sp who="#ESCUDEIRO" xml:id="em0556-pt-sp-19">
+          <speaker>ESCUDEIRO</speaker>
+          <p n="19" xml:id="em0556-pt-19">Senhor, por bom mo venderam e eu o tomei à cala de sua boa fama. E se tal é, eu acho que por outra parte não há tal vida como ouvir um vilão que arranca a fala da garganta mais sem sabor que ũa pêra-pão e ũa donzela que vem mais podre de amor, falando como apóstolo, mais piadosa que ũa lamentação.</p>
+        </sp>
+        <sp who="#MARTIM" xml:id="em0556-pt-sp-20">
+          <speaker>MARTIM</speaker>
+          <p n="20" xml:id="em0556-pt-20">Para estes tais é grande peça rapaz travesso com molho de junco, por que não andem mais ao coscorrão, mais roucos que ũa cigarra, trazendo de si enfadamento.</p>
+        </sp>
+        <sp who="#MOÇO" xml:id="em0556-pt-sp-21">
+          <speaker>MOÇO</speaker>
+          <p n="21" xml:id="em0556-pt-21">Oulá, senhores. Pedem as figuras alfinetes para toucarem um escudeiro. Ora sus, há i quem dê mais? Que ainda vos veja todas a mim às rebatinhas. Ora sus, venham de mano em mano, ou de mana em mana.</p>
+        </sp>
+        <sp who="#ESCUDEIRO" xml:id="em0556-pt-sp-22">
+          <speaker>ESCUDEIRO</speaker>
+          <p n="22" xml:id="em0556-pt-22">Moço, fala bem ensinado.</p>
+        </sp>
+        <sp who="#MOÇO" xml:id="em0556-pt-sp-23">
+          <speaker>MOÇO</speaker>
+          <p n="23" xml:id="em0556-pt-23">Senhor, não faz ao caso, que os erros por amores tem privilégio de moedeiro.</p>
+        </sp>
+        <sp who="#AMBRÓSIO" xml:id="em0556-pt-sp-24">
+          <speaker>AMBRÓSIO</speaker>
+          <p n="24" xml:id="em0556-pt-24">Ó rapaz, não me entendes? Pergunto-te se tardará muito por entrar.</p>
+        </sp>
+        <sp who="#MOÇO" xml:id="em0556-pt-sp-25">
+          <speaker>MOÇO</speaker>
+          <p n="25" xml:id="em0556-pt-25">Perece-me, senhor, que antes que amanheça começarão.</p>
+        </sp>
+        <sp who="#AMBRÓSIO" xml:id="em0556-pt-sp-26">
+          <speaker>AMBRÓSIO</speaker>
+          <p n="26" xml:id="em0556-pt-26">Oh que salgado moço, zombas de mim? Vem cá, donde és natural?</p>
+        </sp>
+        <sp who="#MOÇO" xml:id="em0556-pt-sp-27">
+          <speaker>MOÇO</speaker>
+          <p n="27" xml:id="em0556-pt-27">Donde quer que me acho.</p>
+        </sp>
+        <sp who="#AMBRÓSIO" xml:id="em0556-pt-sp-28">
+          <speaker>AMBRÓSIO</speaker>
+          <p n="28" xml:id="em0556-pt-28">Pergunto-te onde naceste.</p>
+        </sp>
+        <sp who="#MOÇO" xml:id="em0556-pt-sp-29">
+          <speaker>MOÇO</speaker>
+          <p n="29" xml:id="em0556-pt-29">Nas mãos das parteiras.</p>
+        </sp>
+        <sp who="#AMBRÓSIO" xml:id="em0556-pt-sp-30">
+          <speaker>AMBRÓSIO</speaker>
+          <p n="30" xml:id="em0556-pt-30">Em que terra?</p>
+        </sp>
+        <sp who="#MOÇO" xml:id="em0556-pt-sp-31">
+          <speaker>MOÇO</speaker>
+          <p n="31" xml:id="em0556-pt-31">Toda a terra é ũa, e mais eu naci em casa assobradada, varrida daquela hora, que não havia palmo de terra nela.</p>
+        </sp>
+        <sp who="#MARTIM" xml:id="em0556-pt-sp-32">
+          <speaker>MARTIM</speaker>
+          <p n="32" xml:id="em0556-pt-32">Bem varrido de vergonha que me tu pareces. Dize, cujo filho és? É para ver com que disparate respondes.</p>
+        </sp>
+        <sp who="#MOÇO" xml:id="em0556-pt-sp-33">
+          <speaker>MOÇO</speaker>
+          <p n="33" xml:id="em0556-pt-33">A falar verdade, parece-me a mim que eu sou filho de um meu tio.</p>
+        </sp>
+        <sp who="#MARTIM" xml:id="em0556-pt-sp-34">
+          <speaker>MARTIM</speaker>
+          <p n="34" xml:id="em0556-pt-34">Vem cá. De teu tio? E isso como?</p>
+        </sp>
+        <sp who="#MOÇO" xml:id="em0556-pt-sp-35">
+          <speaker>MOÇO</speaker>
+          <p n="35" xml:id="em0556-pt-35">Como? Isto, senhor, é adevinhação que vossas mercês não entendem. Meu pai era clérigo, e os clérigos sempre chamam aos filhos sobrinhos, e daqui me ficou a mim ser filho de meu tio.</p>
+        </sp>
+        <sp who="#MARTIM" xml:id="em0556-pt-sp-36">
+          <speaker>MARTIM</speaker>
+          <p n="36" xml:id="em0556-pt-36">Ora te digo que és gracioso. Senhor, donde houvestes este?</p>
+        </sp>
+        <sp who="#ESCUDEIRO" xml:id="em0556-pt-sp-37">
+          <speaker>ESCUDEIRO</speaker>
+          <p n="37" xml:id="em0556-pt-37">Aqui me veio às mãos sem piós nem nada, e eu por gracioso o tomei. E mais tem outra cousa, que ũa trova fá-la tão bem como vós, ou como eu, ou como o Chiado.</p>
+        </sp>
+        <sp who="#AMBRÓSIO" xml:id="em0556-pt-sp-38">
+          <speaker>AMBRÓSIO</speaker>
+          <p n="38" xml:id="em0556-pt-38">Não. Quant’a disso nós havemos-lhe de ver fazer algũa cousa, enquanto se vestem as figuras, ainda que, para que é mais auto que vermos a este?</p>
+        </sp>
+        <sp who="#ESCUDEIRO" xml:id="em0556-pt-sp-39">
+          <speaker>ESCUDEIRO</speaker>
+          <p n="39" xml:id="em0556-pt-39">Vem cá, Moço. Dize aquela trova que fizeste à moça Briolanja, por amor de mim.</p>
+        </sp>
+        <sp who="#MOÇO" xml:id="em0556-pt-sp-40">
+          <speaker>MOÇO</speaker>
+          <p n="40" xml:id="em0556-pt-40">Senhor, si, direi. Mas aquela trova não é senão para quem a entender.</p>
+        </sp>
+        <sp who="#MARTIM" xml:id="em0556-pt-sp-41">
+          <speaker>MARTIM</speaker>
+          <p n="41" xml:id="em0556-pt-41">Como, tão escura é ela?</p>
+        </sp>
+        <sp who="#MOÇO" xml:id="em0556-pt-sp-42">
+          <speaker>MOÇO</speaker>
+          <p n="42" xml:id="em0556-pt-42">Senhor, assi a sei eu escrever e a fiz na memória, porque eu não sei escrever senão com carvão, e porém diz assi:</p>
+          <lg type="free">
+            <l n="43" xml:id="em0556-pt-43">Per amor de vós, Briolanja</l>
+            <l n="44" xml:id="em0556-pt-44">ando eu morto,</l>
+            <l n="45" xml:id="em0556-pt-45">pesar de meu avô torto.</l>
+          </lg>
+        </sp>
+        <sp who="#MARTIM" xml:id="em0556-pt-sp-43">
+          <speaker>MARTIM</speaker>
+          <p n="46" xml:id="em0556-pt-46">Oh como é galante, que descuido tão gracioso. Mas vem cá. Que culpa te tem teu avô nos disfavores que te tua dama dá?</p>
+        </sp>
+        <sp who="#MOÇO" xml:id="em0556-pt-sp-44">
+          <speaker>MOÇO</speaker>
+          <p n="47" xml:id="em0556-pt-47">Pois, senhor, se eu houve de pesar de alguém, não pesarei eu antes dos meus parentes que dos alheios?</p>
+        </sp>
+        <sp who="#ESCUDEIRO" xml:id="em0556-pt-sp-45">
+          <speaker>ESCUDEIRO</speaker>
+          <p n="48" xml:id="em0556-pt-48">Pois ouçam vossas mercês a volta, que é mais cheia de gavetas que a trombeta de Sereníssimo de la Valla.</p>
+        </sp>
+        <sp who="#MOÇO" xml:id="em0556-pt-sp-46">
+          <speaker>MOÇO</speaker>
+          <p n="49" xml:id="em0556-pt-49">A volta, senhores, é mui funda e parece-me, senhores, que nem de mergulho a entenderão, e por isso mandem assoar os engenhos e metam mais ũa sardinha no entendimento. E pode ser que com esta servilha lhe calçará melhor, e todavia palra assi:</p>
+          <lg type="free">
+            <l n="50" xml:id="em0556-pt-50">Vossos olhos tão daninhos</l>
+            <l n="51" xml:id="em0556-pt-51">me trataram de feição</l>
+            <l n="52" xml:id="em0556-pt-52">que não há em meu coração</l>
+            <l n="53" xml:id="em0556-pt-53">em que atem dous réis de cominhos.</l>
+            <l n="54" xml:id="em0556-pt-54">Meu bem anda sem focinhos</l>
+            <l n="55" xml:id="em0556-pt-55">por vós morto</l>
+            <l n="56" xml:id="em0556-pt-56">pesar de meu avô torto.</l>
+          </lg>
+        </sp>
+        <sp who="#MARTIM" xml:id="em0556-pt-sp-47">
+          <speaker>MARTIM</speaker>
+          <p n="57" xml:id="em0556-pt-57">Ora bem, que tem de ver os cominhos com o teu coração?</p>
+        </sp>
+        <sp who="#MOÇO" xml:id="em0556-pt-sp-48">
+          <speaker>MOÇO</speaker>
+          <p n="58" xml:id="em0556-pt-58">Pois, senhores, coração, bofes, baço e toda a outra mais cabedela não se podem comer senão com cominhos. E mais, senhores, minha dama era tindeira, este é o verdadeiro entendimento.</p>
+        </sp>
+        <sp who="#MARTIM" xml:id="em0556-pt-sp-49">
+          <speaker>MARTIM</speaker>
+          <p n="59" xml:id="em0556-pt-59">E aquela regra que diz «meu bem anda sem focinhos» me dá tu a entender, que ela não dá nada de si.</p>
+        </sp>
+        <sp who="#MOÇO" xml:id="em0556-pt-sp-50">
+          <speaker>MOÇO</speaker>
+          <p n="60" xml:id="em0556-pt-60">Nunca vossas mercês ouviram dizer: meu bem e meu mal lutaram um dia meu bem era tal que meu mal o vencia? Pois desta luta foi tamanha a queda que meu bem deu entre ũas pedras, que quebrou os focinhos. E por ficarem tão esfarrapados, porque lhe não podiam botar pedaço, por conselho dos físicos lhos cortaram por lhe neles não saltarem herpes, e daqui ficou: meu bem anda sem focinhos, como diz o texto.</p>
+        </sp>
+        <sp who="#AMBRÓSIO" xml:id="em0556-pt-sp-51">
+          <speaker>AMBRÓSIO</speaker>
+          <p n="61" xml:id="em0556-pt-61">Tu fazes já melhores argumentos que moços do estudo por dia de são Nicolau.</p>
+        </sp>
+        <sp who="#MARTIM" xml:id="em0556-pt-sp-52">
+          <speaker>MARTIM</speaker>
+          <p n="62" xml:id="em0556-pt-62">Senhor, aquilo tudo é bom engenho. Este moço é natural para lógico.</p>
+        </sp>
+        <sp who="#MOÇO" xml:id="em0556-pt-sp-53">
+          <speaker>MOÇO</speaker>
+          <p n="63" xml:id="em0556-pt-63">Quê, senhor, natural para lójia? Si, mas não tão fria como vossas mercês.</p>
+        </sp>
+        <sp who="#ESCUDEIRO" xml:id="em0556-pt-sp-54">
+          <speaker>ESCUDEIRO</speaker>
+          <p n="64" xml:id="em0556-pt-64">Parece-me, senhor, que entra a primeira figura. Moço, mete-te aqui por baixo desta mesa, e ouçamos este representador, que vem mais amorlotado dos encontros que um capuz roxo de piloto que sai em terra e o tira d’arca de cedro.</p>
+        </sp>
+        <sp who="#MARTIM" xml:id="em0556-pt-sp-55">
+          <speaker>MARTIM</speaker>
+          <p n="65" xml:id="em0556-pt-65">Senhor, ele parece que aprende a cirugião.</p>
+        </sp>
+        <sp who="#AMBRÓSIO" xml:id="em0556-pt-sp-56">
+          <speaker>AMBRÓSIO</speaker>
+          <p n="66" xml:id="em0556-pt-66">Mais parece ourinol capado, que anda de amores com a menina dos olhos verdes.</p>
+        </sp>
+        <sp who="#ESCUDEIRO" xml:id="em0556-pt-sp-57">
+          <speaker>ESCUDEIRO</speaker>
+          <p n="67" xml:id="em0556-pt-67">Enfim, parece figura d’auto, em verdade.</p>
+        </sp>
+        <stage xml:id="em0556-pt-st-5">Entra o representador.</stage>
+        <sp who="#REPRESENTADOR" xml:id="em0556-pt-sp-58">
+          <speaker>REPRESENTADOR</speaker>
+          <lg part="I" type="nil">
+            <l n="68" rend="indent" xml:id="em0556-pt-68">É lei de direito assaz verdadeira</l>
+            <l n="69" xml:id="em0556-pt-69">julgar por si mesmos aquilo que vem</l>
+            <l n="70" xml:id="em0556-pt-70">porque eu cuido que eu zombo d’alguém</l>
+            <l n="71" xml:id="em0556-pt-71">e cuido que zombam da mesma maneira.</l>
+          </lg>
+<p n="72" xml:id="em0556-pt-72">E se a qualquer parece que está mais dobrado, sem nenhum conhecer, seu próprio engano, por grande que seja... <lb n="73" xml:id="em0556-pt-73"/>Ora, senhores, a mi me esquece o dito todo de ponto em claro, mas não sou de culpar, porque não há mais que três dias que mo deram. Mas em breves palavras direi a vossas mercês a suma da obra: ela é toda de rir, do cabo até à ponta. Entrarão logo primeiramente quinze donzelas que vão fugidas de casa de seus pais, e vão com cabazes apanhar azeitona. E trás elas vem logo oito mundanos, metidos em um covão, cantando: quem os amores tem em Sintra. E depois de cantarem farão ũa dança de espadas, cousa muito para ver. Entra mais el rei dom Chancho, bailando os machatins, e entra logo Caterina Real com uns poucos de parvos nũa joeira e semeá-los-á pela casa, de que nascerá muito mantimento ao riso. E nisto fenecerá o auto, com música de chocalho e bozinas, que Cupido vem dar a ũa alfeloeira a quem quer bem, e ir-se-ão vossas mercês cada um para suas pousadas ou consoarão cá connosco disso que aí houver. Parece-me que nenhum diz que não. Ora pois ficareis em vano laboraverunt, porque até ‘gora zombei de vós, por me forrar do erro da representação, como quem diz: digo-te, antes que mo digas.</p>
+        </sp>
+        <sp who="#AMBRÓSIO" xml:id="em0556-pt-sp-59">
+          <speaker>AMBRÓSIO</speaker>
+          <p n="74" xml:id="em0556-pt-74">Ora vos digo, senhores, que, se as figuras são todas tais, que acertariam em errar os ditos, ainda que me parece que este o não fez, senão a ser mais galante. Mas se assi é, ela é a melhor invenção que eu vi, porque já agora representações, todas é darem por praguentos, e são tão certas, que é melhor errá-las que acertá-las.</p>
+        </sp>
+        <sp who="#ESCUDEIRO" xml:id="em0556-pt-sp-60">
+          <speaker>ESCUDEIRO</speaker>
+          <p n="75" xml:id="em0556-pt-75">Parece-me que entram as figuras de siso. Vejamos se são tam galantes na prática como nos vestidos.</p>
+        </sp>
+        <stage xml:id="em0556-pt-st-6">Entra el Rei Seleuco, com a Rainha Estratónica.</stage>
+        <sp who="#REI" xml:id="em0556-pt-sp-61">
+          <speaker>REI</speaker>
+          <lg type="decima">
+            <l n="76" rend="indent" xml:id="em0556-pt-76">Senhora, dês que a ventura</l>
+            <l n="77" xml:id="em0556-pt-77">me quis dar-vos por molher</l>
+            <l n="78" xml:id="em0556-pt-78">me sinto ẽmeninecer</l>
+            <l n="79" xml:id="em0556-pt-79">porque em vossa fermosura</l>
+            <l n="80" xml:id="em0556-pt-80">perde a velhice seu ser.</l>
+            <l n="81" xml:id="em0556-pt-81">Um homem velho, cansado</l>
+            <l n="82" xml:id="em0556-pt-82">não tem força nem vigor</l>
+            <l n="83" xml:id="em0556-pt-83">para em si sentir amor</l>
+            <l n="84" xml:id="em0556-pt-84">se não é que estou mudado</l>
+            <l n="85" xml:id="em0556-pt-85">com ser vosso noutra cor.</l>
+          </lg>
+          <lg part="I" type="decima">
+            <l n="86" rend="indent" xml:id="em0556-pt-86">Muito grande dita tem</l>
+            <l n="87" xml:id="em0556-pt-87">a molher que é fermosa.</l>
+          </lg>
+        </sp>
+        <sp who="#RAINHA" xml:id="em0556-pt-sp-62">
+          <speaker>RAINHA</speaker>
+          <lg part="M" type="free">
+            <l n="88" xml:id="em0556-pt-88">Senhor, grande. Mas porém</l>
+            <l n="89" xml:id="em0556-pt-89">se a tal é virtuosa</l>
+            <l n="90" xml:id="em0556-pt-90">quer-lhe a ventura mor bem.</l>
+          </lg>
+        </sp>
+        <sp who="#REI" xml:id="em0556-pt-sp-63">
+          <speaker>REI</speaker>
+          <lg part="F" type="free">
+            <l n="91" xml:id="em0556-pt-91">Si, mas porém nunca vemos</l>
+            <l n="92" xml:id="em0556-pt-92">a natureza esmerar</l>
+            <l n="93" xml:id="em0556-pt-93">donde haja que tachar</l>
+            <l n="94" xml:id="em0556-pt-94">que quando ela faz extremos</l>
+            <l n="95" xml:id="em0556-pt-95">em tudo quer-se extremar.</l>
+          </lg>
+          <lg type="decima">
+            <l n="96" rend="indent" xml:id="em0556-pt-96">Eu falo como quem sente</l>
+            <l n="97" xml:id="em0556-pt-97">em vós esta calidade</l>
+            <l n="98" xml:id="em0556-pt-98">pelo que vejo presente</l>
+            <l n="99" xml:id="em0556-pt-99">e se me esta mostra mente</l>
+            <l n="100" xml:id="em0556-pt-100">mente-me a mesma verdade.</l>
+            <l n="101" xml:id="em0556-pt-101">Ũa só tristeza sento</l>
+            <l n="102" xml:id="em0556-pt-102">que não tem a meninice</l>
+            <l n="103" xml:id="em0556-pt-103">que no mor contentamento</l>
+            <l n="104" xml:id="em0556-pt-104">o trabalho da velhice</l>
+            <l n="105" xml:id="em0556-pt-105">me embaraça o sentimento.</l>
+          </lg>
+        </sp>
+        <sp who="#RAINHA" xml:id="em0556-pt-sp-64">
+          <speaker>RAINHA</speaker>
+          <lg part="I" type="decima">
+            <l n="106" rend="indent" xml:id="em0556-pt-106">Senhor, novidades tais</l>
+            <l n="107" xml:id="em0556-pt-107">far-me-ão crer de verdade.</l>
+          </lg>
+        </sp>
+        <sp who="#REI" xml:id="em0556-pt-sp-65">
+          <speaker>REI</speaker>
+          <lg part="M" type="free">
+            <l n="108" xml:id="em0556-pt-108">Novidades lhe chamais</l>
+            <l n="109" xml:id="em0556-pt-109">folgo, senhora, que achais</l>
+            <l n="110" xml:id="em0556-pt-110">na velhice novidades.</l>
+          </lg>
+        </sp>
+        <sp who="#RAINHA" xml:id="em0556-pt-sp-66">
+          <speaker>RAINHA</speaker>
+          <lg part="F" type="free">
+            <l n="111" xml:id="em0556-pt-111">Senhor, dias há que sento</l>
+            <l n="112" xml:id="em0556-pt-112">no príncipe Antioco</l>
+            <l n="113" xml:id="em0556-pt-113">certo descontentamento</l>
+            <l n="114" xml:id="em0556-pt-114">dera algũa cousa a troco</l>
+            <l n="115" xml:id="em0556-pt-115">por saber seu sentimento</l>
+          </lg>
+          <lg type="decima">
+            <l n="116" rend="indent" xml:id="em0556-pt-116">vejo-lhe amarelo o rosto</l>
+            <l n="117" xml:id="em0556-pt-117">ou de triste ou de doente</l>
+            <l n="118" xml:id="em0556-pt-118">ou ele anda mal-disposto</l>
+            <l n="119" xml:id="em0556-pt-119">ou lá tem certo disgosto</l>
+            <l n="120" xml:id="em0556-pt-120">que o não deixa ser contente.</l>
+            <l n="121" xml:id="em0556-pt-121">Mande senhor, vossa alteza</l>
+            <l n="122" xml:id="em0556-pt-122">a chamá-lo por alguém</l>
+            <l n="123" xml:id="em0556-pt-123">saberemos que mal tem</l>
+            <l n="124" xml:id="em0556-pt-124">se é doença de tristeza</l>
+            <l n="125" xml:id="em0556-pt-125">de que nace ou de que vem.</l>
+          </lg>
+        </sp>
+        <sp who="#REI" xml:id="em0556-pt-sp-67">
+          <speaker>REI</speaker>
+          <lg part="I" type="decima">
+            <l n="126" rend="indent" xml:id="em0556-pt-126">Certo que eu me maravilho</l>
+            <l n="127" xml:id="em0556-pt-127">do que vos ouço dizer.</l>
+            <l n="128" xml:id="em0556-pt-128">Que mal pode nele haver?</l>
+            <l n="129" xml:id="em0556-pt-129">Ide dizer a meu filho</l>
+            <l n="130" xml:id="em0556-pt-130">que me venha logo ver.</l>
+          </lg>
+        </sp>
+        <sp who="#RAINHA" xml:id="em0556-pt-sp-68">
+          <speaker>RAINHA</speaker>
+          <lg part="F" type="free">
+            <l n="131" xml:id="em0556-pt-131">Se curar não se procura</l>
+            <l n="132" xml:id="em0556-pt-132">ũa cousa destas tais</l>
+            <l n="133" xml:id="em0556-pt-133">vem depois a crecer mais.</l>
+            <l n="134" xml:id="em0556-pt-134">Quando já se não acha cura</l>
+            <l n="135" xml:id="em0556-pt-135">toda a cura é por demais.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0556-pt-st-7">Entra o Príncipe Antioco, com seu pajem por nome Leocádio.</stage>
+        <sp who="#PRÍNCIPE" xml:id="em0556-pt-sp-69">
+          <speaker>PRÍNCIPE</speaker>
+          <lg part="I" type="decima">
+            <l n="136" rend="indent" xml:id="em0556-pt-136">Leocádio se és avisado</l>
+            <l n="137" xml:id="em0556-pt-137">e não te falta saber</l>
+            <l n="138" xml:id="em0556-pt-138">saber-me-ás dar a entender:</l>
+            <l n="139" xml:id="em0556-pt-139">quem ama desesperado</l>
+            <l n="140" xml:id="em0556-pt-140">que fim espera de haver?</l>
+          </lg>
+        </sp>
+        <sp who="#PAJEM" xml:id="em0556-pt-sp-70">
+          <speaker>PAJEM</speaker>
+          <lg part="M" type="free">
+            <l n="141" xml:id="em0556-pt-141">Senhor, não.</l>
+            <l n="142" xml:id="em0556-pt-142">Mas porém por que razão</l>
+            <l n="143" xml:id="em0556-pt-143">lhe vem sabê-lo, ou de quê?</l>
+          </lg>
+        </sp>
+        <sp who="#PRÍNCIPE" xml:id="em0556-pt-sp-71">
+          <speaker>PRÍNCIPE</speaker>
+          <lg part="F" type="free">
+            <l n="144" xml:id="em0556-pt-144">Pergunto-te a conclusão</l>
+            <l n="145" xml:id="em0556-pt-145">não me perguntes porquê</l>
+          </lg>
+          <lg type="decima">
+            <l n="146" rend="indent" xml:id="em0556-pt-146">porque é minha pena tal</l>
+            <l n="147" xml:id="em0556-pt-147">e de tão estranho ser</l>
+            <l n="148" xml:id="em0556-pt-148">que me hei de deixar morrer</l>
+            <l n="149" xml:id="em0556-pt-149">e por não cuidar no mal</l>
+            <l n="150" xml:id="em0556-pt-150">o não ouso de dizer.</l>
+            <l n="151" xml:id="em0556-pt-151">Que maneira de tormento</l>
+            <l n="152" xml:id="em0556-pt-152">tão estranho e evidente</l>
+            <l n="153" xml:id="em0556-pt-153">que nem cuidar se consente</l>
+            <l n="154" xml:id="em0556-pt-154">porque o mesmo pensamento</l>
+            <l n="155" xml:id="em0556-pt-155">há medo do mal que sente.</l>
+          </lg>
+        </sp>
+        <sp who="#PAJEM" xml:id="em0556-pt-sp-72">
+          <speaker>PAJEM</speaker>
+          <lg part="I" type="oncena">
+            <l n="156" rend="indent" xml:id="em0556-pt-156">Não entendo a vossa alteza.</l>
+          </lg>
+        </sp>
+        <sp who="#PRÍNCIPE" xml:id="em0556-pt-sp-73">
+          <speaker>PRÍNCIPE</speaker>
+          <lg part="M" type="free">
+            <l n="157" xml:id="em0556-pt-157">Assi importa à minha dor.</l>
+          </lg>
+        </sp>
+        <sp who="#PAJEM" xml:id="em0556-pt-sp-74">
+          <speaker>PAJEM</speaker>
+          <lg part="M" type="free">
+            <l n="158" xml:id="em0556-pt-158">E por que rezão, senhor?</l>
+          </lg>
+        </sp>
+        <sp who="#PRÍNCIPE" xml:id="em0556-pt-sp-75">
+          <speaker>PRÍNCIPE</speaker>
+          <lg part="F" type="free">
+            <l n="159" xml:id="em0556-pt-159">Para que seja a tristeza</l>
+            <l n="160" xml:id="em0556-pt-160">castigo de meu temor.</l>
+            <l n="161" xml:id="em0556-pt-161">Porque ordena</l>
+            <l n="162" xml:id="em0556-pt-162">o amor que me condena</l>
+            <l n="163" xml:id="em0556-pt-163">que se haja de sentir</l>
+            <l n="164" xml:id="em0556-pt-164">e sem dizer nem ouvir.</l>
+            <l n="165" xml:id="em0556-pt-165">Bem-aventurada a pena</l>
+            <l n="166" xml:id="em0556-pt-166">que se pode descobrir.</l>
+          </lg>
+          <lg type="decima">
+            <l n="167" rend="indent" xml:id="em0556-pt-167">Oh caso grande e medonho</l>
+            <l n="168" xml:id="em0556-pt-168">oh duro tormento fero</l>
+            <l n="169" xml:id="em0556-pt-169">verdade é isto que eu quero?</l>
+            <l n="170" xml:id="em0556-pt-170">Não é verdade mas sonho</l>
+            <l n="171" xml:id="em0556-pt-171">de que acordar não espero.</l>
+            <l n="172" xml:id="em0556-pt-172">Quero-me chegar a el Rei</l>
+            <l n="173" xml:id="em0556-pt-173">meu pai, que já me está vendo.</l>
+            <l n="174" xml:id="em0556-pt-174">Mas onde vou? Não m’entendo.</l>
+            <l n="175" xml:id="em0556-pt-175">Com que olhos olharei</l>
+            <l n="176" xml:id="em0556-pt-176">um pai a quem tanto ofendo?</l>
+          </lg>
+          <lg type="quintilla">
+            <l n="177" rend="indent" xml:id="em0556-pt-177">Que novo modo de antolhos</l>
+            <l n="178" xml:id="em0556-pt-178">porque neste atrevimento</l>
+            <l n="179" xml:id="em0556-pt-179">divera meu sentimento</l>
+            <l n="180" xml:id="em0556-pt-180">para ele não ter olhos</l>
+            <l n="181" xml:id="em0556-pt-181">nem para ela pensamento.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0556-pt-st-8">Chega aonde está el Rei e diz el Rei:</stage>
+        <sp who="#REI" xml:id="em0556-pt-sp-76">
+          <speaker>REI</speaker>
+          <lg part="I" type="decima">
+            <l n="182" rend="indent" xml:id="em0556-pt-182">Filho, como andais assi</l>
+            <l n="183" xml:id="em0556-pt-183">que tanto disgosto tomo</l>
+            <l n="184" xml:id="em0556-pt-184">de vos ver como vos vi?</l>
+          </lg>
+        </sp>
+        <sp who="#PRÍNCIPE" xml:id="em0556-pt-sp-77">
+          <speaker>PRÍNCIPE</speaker>
+          <lg part="F" type="free">
+            <l n="185" xml:id="em0556-pt-185">Não sei eu tanto de mi</l>
+            <l n="186" xml:id="em0556-pt-186">que possa saber o como.</l>
+            <l n="187" xml:id="em0556-pt-187">Dias há senhor que ando</l>
+            <l n="188" xml:id="em0556-pt-188">mal-disposto sem saber</l>
+            <l n="189" xml:id="em0556-pt-189">este mal que possa ser</l>
+            <l n="190" xml:id="em0556-pt-190">que se nele estou cuidando</l>
+            <l n="191" xml:id="em0556-pt-191">quasi me vejo morrer.</l>
+          </lg>
+        </sp>
+        <sp who="#REI" xml:id="em0556-pt-sp-78">
+          <speaker>REI</speaker>
+          <lg part="I" type="decima">
+            <l n="192" rend="indent" xml:id="em0556-pt-192">Pois filho será razão</l>
+            <l n="193" xml:id="em0556-pt-193">que meus físicos vos vejam.</l>
+          </lg>
+        </sp>
+        <sp who="#PRÍNCIPE" xml:id="em0556-pt-sp-79">
+          <speaker>PRÍNCIPE</speaker>
+          <lg part="M" type="free">
+            <l n="194" xml:id="em0556-pt-194">Os físicos, senhor, não</l>
+            <l n="195" xml:id="em0556-pt-195">que os males que em mi estão</l>
+            <l n="196" xml:id="em0556-pt-196">são curas que me sobejam.</l>
+          </lg>
+        </sp>
+        <sp who="#RAINHA" xml:id="em0556-pt-sp-80">
+          <speaker>RAINHA</speaker>
+          <lg part="M" type="free">
+            <l n="197" xml:id="em0556-pt-197">Deite-se que na verdade</l>
+            <l n="198" xml:id="em0556-pt-198">um corpo deitado e manso</l>
+            <l n="199" xml:id="em0556-pt-199">descansa à sua vontade.</l>
+          </lg>
+        </sp>
+        <sp who="#PRÍNCIPE" xml:id="em0556-pt-sp-81">
+          <speaker>PRÍNCIPE</speaker>
+          <lg part="F" type="free">
+            <l n="200" xml:id="em0556-pt-200">Senhora, esta enfermidade</l>
+            <l n="201" xml:id="em0556-pt-201">não se cura com descanso.</l>
+          </lg>
+        </sp>
+        <sp who="#RAINHA" xml:id="em0556-pt-sp-82">
+          <speaker>RAINHA</speaker>
+          <lg part="I" type="decima">
+            <l n="202" rend="indent" xml:id="em0556-pt-202">Todavia bom será</l>
+            <l n="203" xml:id="em0556-pt-203">que lhe façam ũa cama.</l>
+          </lg>
+        </sp>
+        <sp who="#PRÍNCIPE" xml:id="em0556-pt-sp-83">
+          <speaker>PRÍNCIPE</speaker>
+          <lg part="M" type="free">
+            <l n="204" xml:id="em0556-pt-204">Um coxim abastará</l>
+            <l n="205" xml:id="em0556-pt-205">que assi não descansará</l>
+            <l n="206" xml:id="em0556-pt-206">o repouso de quem ama.</l>
+          </lg>
+        </sp>
+        <sp who="#REI" xml:id="em0556-pt-sp-84">
+          <speaker>REI</speaker>
+          <lg part="F" type="free">
+            <l n="207" xml:id="em0556-pt-207">Vamos filho para dentro</l>
+            <l n="208" xml:id="em0556-pt-208">enquanto a cama se faz.</l>
+            <l n="209" xml:id="em0556-pt-209">Repousai como capaz</l>
+            <l n="210" xml:id="em0556-pt-210">que a mi me dá cá no centro</l>
+            <l n="211" xml:id="em0556-pt-211">a pena que assi vos traz.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0556-pt-st-9">Vão-se e vem ũa Moça a fazer a cama, e diz:</stage>
+        <sp who="#MOÇA" xml:id="em0556-pt-sp-85">
+          <speaker>MOÇA</speaker>
+          <lg type="nona">
+            <l n="212" rend="indent" xml:id="em0556-pt-212">Mimos de grandes senhores</l>
+            <l n="213" xml:id="em0556-pt-213">e suas extremidades</l>
+            <l n="214" xml:id="em0556-pt-214">me hão de matar de amores</l>
+            <l n="215" xml:id="em0556-pt-215">porque de meros dulçores</l>
+            <l n="216" xml:id="em0556-pt-216">adoecem.</l>
+            <l n="217" xml:id="em0556-pt-217">Então logo lhe parecem</l>
+            <l n="218" xml:id="em0556-pt-218">aos outros que são mamados</l>
+            <l n="219" xml:id="em0556-pt-219">e os que são mais privados</l>
+            <l n="220" xml:id="em0556-pt-220">sobre eles estremecem.</l>
+          </lg>
+          <lg type="nona">
+            <l n="221" rend="indent" xml:id="em0556-pt-221">Certo e assi Deos me ajude</l>
+            <l n="222" xml:id="em0556-pt-222">que são muito graciosos</l>
+            <l n="223" xml:id="em0556-pt-223">porque de meros viçosos</l>
+            <l n="224" xml:id="em0556-pt-224">não podem com a saúde.</l>
+            <l n="225" xml:id="em0556-pt-225">Mas deixá-los</l>
+            <l n="226" xml:id="em0556-pt-226">porque eles darão nos valos</l>
+            <l n="227" xml:id="em0556-pt-227">donde mais não se erguerão</l>
+            <l n="228" xml:id="em0556-pt-228">inda que lhe dem a mão</l>
+            <l n="229" xml:id="em0556-pt-229">os seus privados vassalos.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0556-pt-st-10">Entra um Porteiro da cana e bate primeiro, e diz:</stage>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-86">
+          <speaker>PORTEIRO</speaker>
+          <lg part="I" type="decima">
+            <l n="230" part="I" rend="indent" xml:id="em0556-pt-230">Trás, trás, trás.</l>
+          </lg>
+        </sp>
+        <sp who="#MOÇA" xml:id="em0556-pt-sp-87">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0556-pt-231">Jesu, quem está aí?</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-88">
+          <speaker>PORTEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="231" xml:id="em0556-pt-232">Já vós, mana, éreis mamada</l>
+            <l n="232" xml:id="em0556-pt-233">para vos levar furtada</l>
+            <l n="233" xml:id="em0556-pt-234">nunca tal ensejo vi</l>
+            <l n="234" xml:id="em0556-pt-235">e vós estais descuidada.</l>
+          </lg>
+        </sp>
+        <sp who="#MOÇA" xml:id="em0556-pt-sp-89">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="235" xml:id="em0556-pt-236">E meus descuidos que fazem?</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-90">
+          <speaker>PORTEIRO</speaker>
+          <lg part="F" type="free">
+            <l n="236" xml:id="em0556-pt-237">Vossos descuidos, cadela?</l>
+            <l n="237" xml:id="em0556-pt-238">Ah minha alma, sois tão bela</l>
+            <l n="238" xml:id="em0556-pt-239">que esses descuidos me trazem</l>
+            <l n="239" xml:id="em0556-pt-240">dous mil cuidados à vela</l>
+          </lg>
+          <lg part="I" type="decima">
+            <l n="240" rend="indent" xml:id="em0556-pt-241">pois sou vosso há tantos anos</l>
+            <l n="241" xml:id="em0556-pt-242">mana tirai os antolhos</l>
+            <l n="242" xml:id="em0556-pt-243">e vereis meus tristes danos.</l>
+          </lg>
+        </sp>
+        <sp who="#MOÇA" xml:id="em0556-pt-sp-91">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="243" xml:id="em0556-pt-244">Não tenhais esses enganos.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-92">
+          <speaker>PORTEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="244" xml:id="em0556-pt-245">Nem vós tenhais esses olhos</l>
+            <l n="245" xml:id="em0556-pt-246">que de vossos olhos vem</l>
+            <l n="246" xml:id="em0556-pt-247">esta minha pena fera.</l>
+          </lg>
+        </sp>
+        <sp who="#MOÇA" xml:id="em0556-pt-sp-93">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="247" part="I" xml:id="em0556-pt-248">De meus olhos?</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-94">
+          <speaker>PORTEIRO</speaker>
+          <lg part="F" type="free">
+            <l part="F" xml:id="em0556-pt-249">Assi era.</l>
+            <l n="248" xml:id="em0556-pt-250">Moça que tais olhos tem</l>
+            <l n="249" xml:id="em0556-pt-251">nenhuns olhos ver divera.</l>
+          </lg>
+        </sp>
+        <sp who="#MOÇA" xml:id="em0556-pt-sp-95">
+          <speaker>MOÇA</speaker>
+          <lg part="I" type="decima">
+            <l n="250" part="I" rend="indent" xml:id="em0556-pt-252">E porquê?</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-96">
+          <speaker>PORTEIRO</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0556-pt-253">Porque cegais</l>
+            <l n="251" xml:id="em0556-pt-254">a quantos olhos olhais</l>
+            <l n="252" xml:id="em0556-pt-255">posto que por vós padecem.</l>
+            <l n="253" xml:id="em0556-pt-256">Olhos que tão bem parecem</l>
+            <l n="254" xml:id="em0556-pt-257">por que não nos castigais?</l>
+          </lg>
+        </sp>
+        <sp who="#MOÇA" xml:id="em0556-pt-sp-97">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="255" xml:id="em0556-pt-258">Deos dê siso pois de vós</l>
+            <l n="256" xml:id="em0556-pt-259">tirou o que aos outros deu.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-98">
+          <speaker>PORTEIRO</speaker>
+          <lg part="F" type="free">
+            <l n="257" xml:id="em0556-pt-260">Desatai-me lá esses nós.</l>
+            <l n="258" xml:id="em0556-pt-261">Que mais siso quero eu</l>
+            <l n="259" xml:id="em0556-pt-262">que não ter siso por vós?</l>
+          </lg>
+        </sp>
+        <sp who="#MOÇA" xml:id="em0556-pt-sp-99">
+          <speaker>MOÇA</speaker>
+          <lg part="I" type="decima">
+            <l n="260" rend="indent" xml:id="em0556-pt-263">Falais d’arte, eu vos prometo</l>
+            <l n="261" xml:id="em0556-pt-264">que a reposta vem à vela.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-100">
+          <speaker>PORTEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="262" xml:id="em0556-pt-265">Isso é olho de panela.</l>
+          </lg>
+        </sp>
+        <sp who="#MOÇA" xml:id="em0556-pt-sp-101">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="263" xml:id="em0556-pt-266">Quanto há que sois discreto?</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-102">
+          <speaker>PORTEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="264" xml:id="em0556-pt-267">Quanto há que vós sois bela?</l>
+          </lg>
+        </sp>
+        <sp who="#MOÇA" xml:id="em0556-pt-sp-103">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="265" xml:id="em0556-pt-268">Dais-me logo a entender</l>
+            <l n="266" xml:id="em0556-pt-269">que eu sou fea, a meu ver.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-104">
+          <speaker>PORTEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="267" xml:id="em0556-pt-270">E isso por que o entendeis?</l>
+          </lg>
+        </sp>
+        <sp who="#MOÇA" xml:id="em0556-pt-sp-105">
+          <speaker>MOÇA</speaker>
+          <lg part="F" type="free">
+            <l n="268" xml:id="em0556-pt-271">Porquê? Porque me dizeis</l>
+            <l n="269" xml:id="em0556-pt-272">que só de meu parecer</l>
+            <l n="270" xml:id="em0556-pt-273">vos procede o que sabeis.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-106">
+          <speaker>PORTEIRO</speaker>
+          <lg part="I" type="decima">
+            <l n="271" part="I" rend="indent" xml:id="em0556-pt-274">É verdade.</l>
+          </lg>
+        </sp>
+        <sp who="#MOÇA" xml:id="em0556-pt-sp-107">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0556-pt-275">Pois bem sento</l>
+            <l n="272" xml:id="em0556-pt-276">que o vosso saber é vento</l>
+            <l n="273" xml:id="em0556-pt-277">fica a cousa declarada</l>
+            <l n="274" xml:id="em0556-pt-278">meu parecer não ser nada.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-108">
+          <speaker>PORTEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="275" xml:id="em0556-pt-279">Olhai aquele argumento</l>
+            <l n="276" xml:id="em0556-pt-280">além de bela, avisada.</l>
+            <l n="277" xml:id="em0556-pt-281">Oh nem tanto nem tão pouco</l>
+            <l n="278" xml:id="em0556-pt-282">vede vós o que falais.</l>
+          </lg>
+        </sp>
+        <sp who="#MOÇA" xml:id="em0556-pt-sp-109">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="279" xml:id="em0556-pt-283">Cego no saber andais.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-110">
+          <speaker>PORTEIRO</speaker>
+          <lg part="F" type="free">
+            <l n="280" xml:id="em0556-pt-284">No siso, mas não tão louco</l>
+            <l n="281" xml:id="em0556-pt-285">como vós, mana, cuidais</l>
+          </lg>
+          <lg part="I" type="decima">
+            <l n="282" rend="indent" xml:id="em0556-pt-286">ora dizei duna má</l>
+            <l n="283" xml:id="em0556-pt-287">que não amais quem vos ama?</l>
+          </lg>
+        </sp>
+        <sp who="#MOÇA" xml:id="em0556-pt-sp-111">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="284" xml:id="em0556-pt-288">Ouvistes vós cantar já</l>
+            <l n="285" xml:id="em0556-pt-289">Velho malo em minha cama?</l>
+            <l n="286" part="I" xml:id="em0556-pt-290">Já me entendereis.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-112">
+          <speaker>PORTEIRO</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0556-pt-291">Ah ah</l>
+            <l n="287" xml:id="em0556-pt-292">senhora estais enganada</l>
+            <l n="288" xml:id="em0556-pt-293">que com ũa capa e espada</l>
+            <l n="289" xml:id="em0556-pt-294">e com este capuz fora...</l>
+          </lg>
+        </sp>
+        <sp who="#MOÇA" xml:id="em0556-pt-sp-113">
+          <speaker>MOÇA</speaker>
+          <lg part="F" type="free">
+            <l n="290" xml:id="em0556-pt-295">Ora bem tirai-o ora</l>
+            <l n="291" xml:id="em0556-pt-296">e fazei ũa levada.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-114">
+          <speaker>PORTEIRO</speaker>
+          <lg part="I" type="decima">
+            <l n="292" rend="indent" xml:id="em0556-pt-297">Não, se me eu hoje alvoroço</l>
+            <l n="293" xml:id="em0556-pt-298">achar-me-eis doutra feição.</l>
+            <stage xml:id="em0556-pt-st-11">Aqui tira o capuz e diz:</stage>
+            <l n="294" xml:id="em0556-pt-299">Tenho má disposição?</l>
+            <l n="295" xml:id="em0556-pt-300">Estas obras são de moço</l>
+            <l n="296" xml:id="em0556-pt-301">se as mostras de velho são.</l>
+          </lg>
+        </sp>
+        <sp who="#MOÇA" xml:id="em0556-pt-sp-115">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="297" xml:id="em0556-pt-302">Tendes mui gentis meneos.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-116">
+          <speaker>PORTEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="298" xml:id="em0556-pt-303">Não senhora. Faço extremos.</l>
+          </lg>
+        </sp>
+        <sp who="#MOÇA" xml:id="em0556-pt-sp-117">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="299" xml:id="em0556-pt-304">Passeai ora, veremos</l>
+            <l n="300" xml:id="em0556-pt-305">se tendes tão bons passeos.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-118">
+          <speaker>PORTEIRO</speaker>
+          <lg part="F" type="free">
+            <l n="301" xml:id="em0556-pt-306">Tudo senhora faremos.</l>
+          </lg>
+        </sp>
+        <sp who="#MOÇA" xml:id="em0556-pt-sp-119">
+          <speaker>MOÇA</speaker>
+          <lg part="I" type="decima">
+            <l n="302" rend="indent" xml:id="em0556-pt-307">Virai ora a essoutra mão.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-120">
+          <speaker>PORTEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="303" xml:id="em0556-pt-308">Esta disposição vede-a</l>
+            <l n="304" xml:id="em0556-pt-309">que tenho gentil feição.</l>
+          </lg>
+        </sp>
+        <sp who="#MOÇA" xml:id="em0556-pt-sp-121">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="305" xml:id="em0556-pt-310">Tendes vós mui boa rédea.</l>
+            <l n="306" part="I" xml:id="em0556-pt-311">Sofreis ancas?</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-122">
+          <speaker>PORTEIRO</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0556-pt-312">Isso não.</l>
+          </lg>
+        </sp>
+        <sp who="#MOÇA" xml:id="em0556-pt-sp-123">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="307" xml:id="em0556-pt-313">Por certo que tendes graça</l>
+            <l n="308" xml:id="em0556-pt-314">em tudo quanto fizerdes</l>
+            <l n="309" xml:id="em0556-pt-315">fazei mais o que souberdes.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-124">
+          <speaker>PORTEIRO</speaker>
+          <lg part="F" type="free">
+            <l n="310" xml:id="em0556-pt-316">Não sei cousa que não faça</l>
+            <l n="311" xml:id="em0556-pt-317">senhora por me quererdes.</l>
+          </lg>
+        </sp>
+        <sp who="#MOÇA" xml:id="em0556-pt-sp-125">
+          <speaker>MOÇA</speaker>
+          <lg part="I" type="oncena">
+            <l n="312" rend="indent" xml:id="em0556-pt-318">Tendes vós muito bom ar.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-126">
+          <speaker>PORTEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="313" xml:id="em0556-pt-319">Mais, que isto faz quem quer bem.</l>
+          </lg>
+        </sp>
+        <sp who="#MOÇA" xml:id="em0556-pt-sp-127">
+          <speaker>MOÇA</speaker>
+          <lg part="M" type="free">
+            <l n="314" xml:id="em0556-pt-320">I-vos asinha, que vem</l>
+            <l n="315" xml:id="em0556-pt-321">o Príncipe a se deitar.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-128">
+          <speaker>PORTEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="316" xml:id="em0556-pt-322">Nunca ũa pessoa tem</l>
+            <l n="317" xml:id="em0556-pt-323">ũa hora para falar.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0556-pt-st-12">Entra o Príncipe com o seu pajem Leocádio, e diz:</stage>
+        <sp who="#PRÍNCIPE" xml:id="em0556-pt-sp-129">
+          <speaker>PRÍNCIPE</speaker>
+          <lg part="F" type="free">
+            <l n="318" xml:id="em0556-pt-324">Seja a morte apercebida</l>
+            <l n="319" xml:id="em0556-pt-325">porque já o amor ordena</l>
+            <l n="320" xml:id="em0556-pt-326">a dar a meu mal saída</l>
+            <l n="321" xml:id="em0556-pt-327">por que o fim da minha vida</l>
+            <l n="322" xml:id="em0556-pt-328">o seja da minha pena</l>
+          </lg>
+          <lg type="decima">
+            <l n="323" rend="indent" xml:id="em0556-pt-329">não tarde para tomar</l>
+            <l n="324" xml:id="em0556-pt-330">vingança de meu querer</l>
+            <l n="325" xml:id="em0556-pt-331">pois não se pode dizer</l>
+            <l n="326" xml:id="em0556-pt-332">que não tem já que esperar</l>
+            <l n="327" xml:id="em0556-pt-333">nem com que satisfazer.</l>
+            <l n="328" xml:id="em0556-pt-334">Os físicos vem e vão</l>
+            <l n="329" xml:id="em0556-pt-335">sem saberem minhas mágoas</l>
+            <l n="330" xml:id="em0556-pt-336">nem o pulso me acharão</l>
+            <l n="331" xml:id="em0556-pt-337">e se o querem ver nas águas</l>
+            <l n="332" xml:id="em0556-pt-338">as dos olhos lho dirão</l>
+          </lg>
+          <lg type="decima">
+            <l n="333" rend="indent" xml:id="em0556-pt-339">se com sangrias também</l>
+            <l n="334" xml:id="em0556-pt-340">procuram ver-me curado</l>
+            <l n="335" xml:id="em0556-pt-341">o temor de meu cuidado</l>
+            <l n="336" xml:id="em0556-pt-342">o mais do sangue me tem</l>
+            <l n="337" xml:id="em0556-pt-343">nas veas todo coalhado.</l>
+            <l n="338" xml:id="em0556-pt-344">Quero-me aqui encostar</l>
+            <l n="339" xml:id="em0556-pt-345">que já o espírito me cai.</l>
+            <l n="340" xml:id="em0556-pt-346">Leocádio, vai-me chamar</l>
+            <l n="341" xml:id="em0556-pt-347">os músicos de meu pai</l>
+            <l n="342" xml:id="em0556-pt-348">folgarei de ouvir cantar.</l>
+          </lg>
+          <stage xml:id="em0556-pt-st-13">Aqui se deita como que repousa, e fala dizendo assi:</stage>
+          <lg type="decima">
+            <l n="343" rend="indent" xml:id="em0556-pt-349">Senhora, qual desatino</l>
+            <l n="344" xml:id="em0556-pt-350">me trouxe a tanta tristura?</l>
+            <l n="345" xml:id="em0556-pt-351">Foi, senhora, porventura</l>
+            <l n="346" xml:id="em0556-pt-352">o terço do meu destino</l>
+            <l n="347" xml:id="em0556-pt-353">como vossa fermosura.</l>
+            <l n="348" xml:id="em0556-pt-354">Bem conheço que não posso</l>
+            <l n="349" xml:id="em0556-pt-355">ter tão alto pensamento</l>
+            <l n="350" xml:id="em0556-pt-356">mas disto só me contento</l>
+            <l n="351" xml:id="em0556-pt-357">que se paga com ser vosso</l>
+            <l n="352" xml:id="em0556-pt-358">o mor mal de meu tormento.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0556-pt-st-14">Entram os músicos, e diz Alexandre da Fonseca, um deles:</stage>
+        <sp who="#ALEXANDRE" xml:id="em0556-pt-sp-130">
+          <speaker>ALEXANDRE</speaker>
+          <lg part="I" type="decima">
+            <l n="353" rend="indent" xml:id="em0556-pt-359">Senhor, de que se acha mal</l>
+            <l n="354" xml:id="em0556-pt-360">o Príncipe ou que mal sente?</l>
+          </lg>
+        </sp>
+        <sp who="#PAJEM" xml:id="em0556-pt-sp-131">
+          <speaker>PAJEM</speaker>
+          <lg part="F" type="free">
+            <l n="355" xml:id="em0556-pt-361">Senhor, sei que está doente</l>
+            <l n="356" xml:id="em0556-pt-362">mas sua doença é tal</l>
+            <l n="357" xml:id="em0556-pt-363">que entender se não consente.</l>
+            <l n="358" xml:id="em0556-pt-364">Os físicos vem e vão</l>
+            <l n="359" xml:id="em0556-pt-365">uns e outros ameúde</l>
+            <l n="360" xml:id="em0556-pt-366">sem o poderem dar são.</l>
+            <l n="361" xml:id="em0556-pt-367">Quanto mais cura lhe dão</l>
+            <l n="362" xml:id="em0556-pt-368">então tem menos saúde</l>
+          </lg>
+          <lg part="I" type="decima">
+            <l n="363" rend="indent" xml:id="em0556-pt-369">o pai anda em sacrifícios</l>
+            <l n="364" xml:id="em0556-pt-370">aos deoses que lhe dem</l>
+            <l n="365" xml:id="em0556-pt-371">a saúde que convém</l>
+            <l n="366" xml:id="em0556-pt-372">dizendo que por seus vícios</l>
+            <l n="367" xml:id="em0556-pt-373">o mal a seu filho vem.</l>
+            <l n="368" xml:id="em0556-pt-374">Eu sospeito que isto são</l>
+            <l n="369" xml:id="em0556-pt-375">alguns novos amorinhos</l>
+            <l n="370" xml:id="em0556-pt-376">que terá no coração.</l>
+          </lg>
+        </sp>
+        <sp who="#ALEXANDRE" xml:id="em0556-pt-sp-132">
+          <speaker>ALEXANDRE</speaker>
+          <lg part="F" type="free">
+            <l n="371" xml:id="em0556-pt-377">Amores, com quem serão</l>
+            <l n="372" xml:id="em0556-pt-378">que lhe não dem de focinhos?</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-133">
+          <speaker>PORTEIRO</speaker>
+          <lg part="I" type="oncena">
+            <l n="373" rend="indent" xml:id="em0556-pt-379">Senhores, que lhe parece</l>
+            <l n="374" xml:id="em0556-pt-380">da doença de Antioco?</l>
+          </lg>
+        </sp>
+        <sp who="#ALEXANDRE" xml:id="em0556-pt-sp-134">
+          <speaker>ALEXANDRE</speaker>
+          <lg part="M" type="free">
+            <l n="375" xml:id="em0556-pt-381">Diga-lha quem lha conhece.</l>
+          </lg>
+        </sp>
+        <sp who="#PAJEM" xml:id="em0556-pt-sp-135">
+          <speaker>PAJEM</speaker>
+          <lg part="M" type="free">
+            <l n="376" xml:id="em0556-pt-382">Que toma morrer a troco</l>
+            <l n="377" xml:id="em0556-pt-383">de calar o que padece.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-136">
+          <speaker>PORTEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="378" xml:id="em0556-pt-384">Isso é estar emperrado</l>
+            <l n="379" xml:id="em0556-pt-385">na doença, que é pior.</l>
+            <l n="380" xml:id="em0556-pt-386">Tem-no os físicos curado?</l>
+          </lg>
+        </sp>
+        <sp who="#ALEXANDRE" xml:id="em0556-pt-sp-137">
+          <speaker>ALEXANDRE</speaker>
+          <lg part="M" type="free">
+            <l n="381" xml:id="em0556-pt-387">Oh que de mal del amor</l>
+            <l n="382" xml:id="em0556-pt-388">no ha, señor, sanador.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-138">
+          <speaker>PORTEIRO</speaker>
+          <lg part="F" type="free">
+            <l n="383" xml:id="em0556-pt-389">Falais como exprimentado</l>
+          </lg>
+          <lg part="I" type="decima">
+            <l n="384" rend="indent" xml:id="em0556-pt-390">que eu cuido que esta fadiga</l>
+            <l n="385" xml:id="em0556-pt-391">que o faz que desespere</l>
+            <l n="386" xml:id="em0556-pt-392">Y por más tormento quiere</l>
+            <l n="387" xml:id="em0556-pt-393">que se sienta y no se diga.</l>
+          </lg>
+        </sp>
+        <sp who="#ALEXANDRE" xml:id="em0556-pt-sp-139">
+          <speaker>ALEXANDRE</speaker>
+          <lg part="F" type="free">
+            <l n="388" xml:id="em0556-pt-394">Pois senhor isso assele</l>
+            <l n="389" xml:id="em0556-pt-395">porque a pena que sabeis</l>
+            <l n="390" xml:id="em0556-pt-396">que eu cuido que está nele</l>
+            <l n="391" xml:id="em0556-pt-397">dar-lhe-á penas cruéis</l>
+            <l n="392" xml:id="em0556-pt-398">pues no hay quien las consuele.</l>
+          </lg>
+        </sp>
+        <sp who="#PAJEM" xml:id="em0556-pt-sp-140">
+          <speaker>PAJEM</speaker>
+          <lg part="I" type="decima">
+            <l n="393" rend="indent" xml:id="em0556-pt-399">Hemo-nos, senhores, de ir</l>
+            <l n="394" xml:id="em0556-pt-400">porque nos está esperando.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-141">
+          <speaker>PORTEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="395" xml:id="em0556-pt-401">Pois eu também hei de ir</l>
+            <l n="396" xml:id="em0556-pt-402">que não me posso espedir</l>
+            <l n="397" xml:id="em0556-pt-403">donde vejo estar cantando.</l>
+          </lg>
+        </sp>
+        <sp who="#PRÍNCIPE" xml:id="em0556-pt-sp-142">
+          <speaker>PRÍNCIPE</speaker>
+          <lg part="M" type="free">
+            <l n="398" xml:id="em0556-pt-404">Cantai por amor de mi</l>
+            <l n="399" xml:id="em0556-pt-405">algũa cantiga triste</l>
+            <l n="400" xml:id="em0556-pt-406">que todo meu mal consiste</l>
+            <l n="401" xml:id="em0556-pt-407">na tristeza em que me vi.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-143">
+          <speaker>PORTEIRO</speaker>
+          <lg part="F" type="free">
+            <l n="402" xml:id="em0556-pt-408">Mande-lhe cantar um chiste.</l>
+          </lg>
+        </sp>
+        <sp who="#ALEXANDRE" xml:id="em0556-pt-sp-144">
+          <speaker>ALEXANDRE</speaker>
+          <lg part="I" type="decima">
+            <l n="403" rend="indent" xml:id="em0556-pt-409">Chiste não que é desonesto</l>
+            <l n="404" xml:id="em0556-pt-410">e não tem esses extremos.</l>
+            <l n="405" xml:id="em0556-pt-411">Outro canto mais modesto</l>
+            <l n="406" xml:id="em0556-pt-412">porém não sei que diremos.</l>
+          </lg>
+        </sp>
+        <sp who="#PAJEM" xml:id="em0556-pt-sp-145">
+          <speaker>PAJEM</speaker>
+          <lg part="M" type="free">
+            <l n="407" xml:id="em0556-pt-413">Gãoleão o dirá presto.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-146">
+          <speaker>PORTEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="408" xml:id="em0556-pt-414">Dá licença vossa alteza</l>
+            <l n="409" xml:id="em0556-pt-415">que diga minha tenção?</l>
+          </lg>
+        </sp>
+        <sp who="#PRÍNCIPE" xml:id="em0556-pt-sp-147">
+          <speaker>PRÍNCIPE</speaker>
+          <lg part="M" type="free">
+            <l n="410" xml:id="em0556-pt-416">Dizei, seja em cantochão.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-148">
+          <speaker>PORTEIRO</speaker>
+          <lg part="F" type="free">
+            <l n="411" xml:id="em0556-pt-417">Pois crede que é sutileza</l>
+            <l n="412" xml:id="em0556-pt-418">que os anjos a comerão.</l>
+            <l n="413" xml:id="em0556-pt-419">Digam esta:</l>
+          </lg>
+          <lg type="cabeza_cancion">
+            <l n="414" rend="indent" xml:id="em0556-pt-420">Enforquei minha esperança</l>
+            <l n="415" xml:id="em0556-pt-421">e o amor foi tão madraço</l>
+            <l n="416" xml:id="em0556-pt-422">que lhe cortou o baraço.</l>
+          </lg>
+        </sp>
+        <sp who="#ALEXANDRE" xml:id="em0556-pt-sp-149">
+          <speaker>ALEXANDRE</speaker>
+          <lg part="I" type="decima">
+            <l n="417" rend="indent" xml:id="em0556-pt-423">Não me parece essa boa.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-150">
+          <speaker>PORTEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="418" xml:id="em0556-pt-424">Haja eu perdão.</l>
+          </lg>
+        </sp>
+        <sp who="#ALEXANDRE" xml:id="em0556-pt-sp-151">
+          <speaker>ALEXANDRE</speaker>
+          <lg part="M" type="free">
+            <l n="419" xml:id="em0556-pt-425">Porque não a entenderão.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-152">
+          <speaker>PORTEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="420" xml:id="em0556-pt-426">Entender? Bofá que é boa</l>
+            <l n="421" xml:id="em0556-pt-427">não lhe caís na feição?</l>
+          </lg>
+        </sp>
+        <sp who="#ALEXANDRE" xml:id="em0556-pt-sp-153">
+          <speaker>ALEXANDRE</speaker>
+          <lg part="M" type="free">
+            <l n="422" xml:id="em0556-pt-428">Dizei ora outra melhor</l>
+            <l n="423" xml:id="em0556-pt-429">com que nos atarraqueis.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-154">
+          <speaker>PORTEIRO</speaker>
+          <lg part="F" type="free">
+            <l n="424" xml:id="em0556-pt-430">Ora esperai e ouvireis.</l>
+            <l n="425" xml:id="em0556-pt-431">Se a esta não dais louvor</l>
+            <l n="426" xml:id="em0556-pt-432">quero que me degoleis.</l>
+          </lg>
+          <stage xml:id="em0556-pt-st-15">Cantiga:</stage>
+          <lg type="cabeza_cancion">
+            <l n="427" rend="indent" xml:id="em0556-pt-433">Com vossos olhos Gonçalves</l>
+            <l n="428" xml:id="em0556-pt-434">senhora, cativo tendes</l>
+            <l n="429" xml:id="em0556-pt-435">este meu coração mendes.</l>
+          </lg>
+        </sp>
+        <sp who="#ALEXANDRE" xml:id="em0556-pt-sp-155">
+          <speaker>ALEXANDRE</speaker>
+          <lg part="I" type="decima">
+            <l n="430" rend="indent" xml:id="em0556-pt-436">Essa parece mui taibo</l>
+            <l n="431" xml:id="em0556-pt-437">porque mostra bom indício.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-156">
+          <speaker>PORTEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="432" xml:id="em0556-pt-438">Vós cuidareis que eu que raivo.</l>
+          </lg>
+        </sp>
+        <sp who="#ALEXANDRE" xml:id="em0556-pt-sp-157">
+          <speaker>ALEXANDRE</speaker>
+          <lg part="M" type="free">
+            <l n="433" xml:id="em0556-pt-439">Todavia tem mau saibo.</l>
+            <l n="434" xml:id="em0556-pt-440">Ora mal lhe corre o ofício.</l>
+          </lg>
+        </sp>
+        <sp who="#PRÍNCIPE" xml:id="em0556-pt-sp-158">
+          <speaker>PRÍNCIPE</speaker>
+          <lg part="F" type="free">
+            <l n="435" xml:id="em0556-pt-441">Tá, não vá mais por diante</l>
+            <l n="436" xml:id="em0556-pt-442">a zombaria que é má.</l>
+            <l n="437" xml:id="em0556-pt-443">Cantai qualquer delas já</l>
+            <l n="438" xml:id="em0556-pt-444">que esse Porteiro é galante</l>
+            <l n="439" xml:id="em0556-pt-445">ninguém o contentará.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0556-pt-st-16">Aqui cantam, e em acabando diz o Pajem:</stage>
+        <sp who="#PAJEM" xml:id="em0556-pt-sp-159">
+          <speaker>PAJEM</speaker>
+          <lg part="I" type="decima">
+            <l n="440" rend="indent" xml:id="em0556-pt-446">Parece que adormeceu.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-160">
+          <speaker>PORTEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="441" xml:id="em0556-pt-447">Pois será bom que nos vamos.</l>
+          </lg>
+        </sp>
+        <sp who="#ALEXANDRE" xml:id="em0556-pt-sp-161">
+          <speaker>ALEXANDRE</speaker>
+          <lg part="M" type="free">
+            <l n="442" xml:id="em0556-pt-448">Senhor, quer que nos vejamos?</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-162">
+          <speaker>PORTEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="443" xml:id="em0556-pt-449">Senhor, vir-me-á do céu.</l>
+            <l n="444" xml:id="em0556-pt-450">Releva-me que o façamos.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0556-pt-st-17">Entra a Rainha com ũa sua criada por nome Frolalta, e diz a Rainha:</stage>
+        <sp who="#RAINHA" xml:id="em0556-pt-sp-163">
+          <speaker>RAINHA</speaker>
+          <lg part="M" type="free">
+            <l n="445" xml:id="em0556-pt-451">Frolalta, como ficava</l>
+            <l n="446" xml:id="em0556-pt-452">Antioco em te tu vindo?</l>
+          </lg>
+        </sp>
+        <sp who="#FROLALTA" xml:id="em0556-pt-sp-164">
+          <speaker>FROLALTA</speaker>
+          <lg part="F" type="free">
+            <l n="447" xml:id="em0556-pt-453">Ficava-se despedindo</l>
+            <l n="448" xml:id="em0556-pt-454">da vida que então levava</l>
+            <l n="449" xml:id="em0556-pt-455">e assi seus dias comprindo.</l>
+          </lg>
+        </sp>
+        <sp who="#RAINHA" xml:id="em0556-pt-sp-165">
+          <speaker>RAINHA</speaker>
+          <lg type="decima">
+            <l n="450" rend="indent" xml:id="em0556-pt-456">Oh grave caso de amor</l>
+            <l n="451" xml:id="em0556-pt-457">desesperada afeição</l>
+            <l n="452" xml:id="em0556-pt-458">oh amor sem redenção</l>
+            <l n="453" xml:id="em0556-pt-459">que ali te fazes maior</l>
+            <l n="454" xml:id="em0556-pt-460">onde tens menos razão.</l>
+            <l n="455" xml:id="em0556-pt-461">No mais alto e fundo pego</l>
+            <l n="456" xml:id="em0556-pt-462">ali tens maior porfia</l>
+            <l n="457" xml:id="em0556-pt-463">razão de ti não se fia.</l>
+            <l n="458" xml:id="em0556-pt-464">Quem te a ti chamou cego</l>
+            <l n="459" xml:id="em0556-pt-465">mui bem soube o que dizia.</l>
+          </lg>
+          <lg part="I" type="decima">
+            <l n="460" rend="indent" xml:id="em0556-pt-466">Porventura ia chorando?</l>
+          </lg>
+        </sp>
+        <sp who="#FROLALTA" xml:id="em0556-pt-sp-166">
+          <speaker>FROLALTA</speaker>
+          <lg part="M" type="free">
+            <l n="461" xml:id="em0556-pt-467">Chorando ia, chamando</l>
+            <l n="462" xml:id="em0556-pt-468">ó amor, amor cruel</l>
+            <l n="463" xml:id="em0556-pt-469">e em, senhora, se deitando</l>
+            <l n="464" xml:id="em0556-pt-470">lhe caiu este papel.</l>
+          </lg>
+        </sp>
+        <sp who="#RAINHA" xml:id="em0556-pt-sp-167">
+          <speaker>RAINHA</speaker>
+          <lg part="M" type="free">
+            <l n="465" part="I" xml:id="em0556-pt-471">Que papel?</l>
+          </lg>
+        </sp>
+        <sp who="#FROLALTA" xml:id="em0556-pt-sp-168">
+          <speaker>FROLALTA</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0556-pt-472">Este, senhora.</l>
+          </lg>
+        </sp>
+        <sp who="#RAINHA" xml:id="em0556-pt-sp-169">
+          <speaker>RAINHA</speaker>
+          <lg part="F" type="free">
+            <l n="466" xml:id="em0556-pt-473">Amostra que quero lê-lo.</l>
+            <l n="467" xml:id="em0556-pt-474">Agora acabo de crê-lo</l>
+            <l n="468" xml:id="em0556-pt-475">que ao que mostra por fora</l>
+            <l n="469" xml:id="em0556-pt-476">aqui lhe lançou o selo.</l>
+          </lg>
+          <stage xml:id="em0556-pt-st-18">Aqui lê o papel, e diz:</stage>
+          <lg part="I" type="decima">
+            <l n="470" rend="indent" xml:id="em0556-pt-477">Oh estranha pena fera</l>
+            <l n="471" xml:id="em0556-pt-478">desditosa vida cara</l>
+            <l n="472" xml:id="em0556-pt-479">oh quem nunca cá viera</l>
+            <l n="473" xml:id="em0556-pt-480">e com seu pai não casara</l>
+            <l n="474" xml:id="em0556-pt-481">ou em casando morrera.</l>
+          </lg>
+        </sp>
+        <sp who="#FROLALTA" xml:id="em0556-pt-sp-170">
+          <speaker>FROLALTA</speaker>
+          <lg part="F" type="free">
+            <l n="475" xml:id="em0556-pt-482">Ainda que eu, pes’a são</l>
+            <l n="476" xml:id="em0556-pt-483">senhora, tudo bem vejo</l>
+            <l n="477" xml:id="em0556-pt-484">atente que na eleição</l>
+            <l n="478" xml:id="em0556-pt-485">o que lhe pede o desejo</l>
+            <l n="479" xml:id="em0556-pt-486">não consente o coração.</l>
+          </lg>
+        </sp>
+        <sp who="#RAINHA" xml:id="em0556-pt-sp-171">
+          <speaker>RAINHA</speaker>
+          <lg type="decima">
+            <l n="480" rend="indent" xml:id="em0556-pt-487">Frolalta, pois que és discreta</l>
+            <l n="481" xml:id="em0556-pt-488">nada te posso encobrir</l>
+            <l n="482" xml:id="em0556-pt-489">porque se queres sentir</l>
+            <l n="483" xml:id="em0556-pt-490">a ũa molher discreta</l>
+            <l n="484" xml:id="em0556-pt-491">tudo se há de descobrir.</l>
+            <l n="485" xml:id="em0556-pt-492">O dia que entrei aqui</l>
+            <l n="486" xml:id="em0556-pt-493">que a Seleuco recebi</l>
+            <l n="487" xml:id="em0556-pt-494">logo nesse mesmo dia</l>
+            <l n="488" xml:id="em0556-pt-495">no Príncipe filho vi</l>
+            <l n="489" xml:id="em0556-pt-496">os olhos com que me via.</l>
+          </lg>
+          <lg type="decima">
+            <l n="490" rend="indent" xml:id="em0556-pt-497">Este princípio sofri-lho</l>
+            <l n="491" xml:id="em0556-pt-498">para ver se se mudava</l>
+            <l n="492" xml:id="em0556-pt-499">antes mais se acrecentava.</l>
+            <l n="493" xml:id="em0556-pt-500">Eu amava-o como filho</l>
+            <l n="494" xml:id="em0556-pt-501">e ele doutra arte me amava.</l>
+            <l n="495" xml:id="em0556-pt-502">Agora vejo-o no fim</l>
+            <l n="496" xml:id="em0556-pt-503">por se me não declarar.</l>
+            <l n="497" xml:id="em0556-pt-504">Pois que já a isso vim</l>
+            <l n="498" xml:id="em0556-pt-505">a morte que o levar</l>
+            <l n="499" xml:id="em0556-pt-506">me leve também a mim</l>
+          </lg>
+          <lg type="decima">
+            <l n="500" rend="indent" xml:id="em0556-pt-507">porque já que minha sorte</l>
+            <l n="501" xml:id="em0556-pt-508">foi tão crua e desabrida</l>
+            <l n="502" xml:id="em0556-pt-509">que me não quer dar saída</l>
+            <l n="503" xml:id="em0556-pt-510">sejamos juntos na morte</l>
+            <l n="504" xml:id="em0556-pt-511">pois o não somos na vida.</l>
+            <l n="505" xml:id="em0556-pt-512">Oh quem me mandou casar</l>
+            <l n="506" xml:id="em0556-pt-513">para ver tal crueldade</l>
+            <l n="507" xml:id="em0556-pt-514">ninguém venda a liberdade</l>
+            <l n="508" xml:id="em0556-pt-515">pois não pode resgatar</l>
+            <l n="509" xml:id="em0556-pt-516">onde não tem a vontade</l>
+          </lg>
+          <lg part="I" type="decima">
+            <l n="510" rend="indent" xml:id="em0556-pt-517">que não há mor desvario</l>
+            <l n="511" xml:id="em0556-pt-518">que o forçado casamento</l>
+            <l n="512" xml:id="em0556-pt-519">por alcançar alto assento</l>
+            <l n="513" xml:id="em0556-pt-520">que enfim todo o senhorio</l>
+            <l n="514" xml:id="em0556-pt-521">está no contentamento.</l>
+            <l n="515" xml:id="em0556-pt-522">Não sei se o vá ver agora</l>
+            <l n="516" xml:id="em0556-pt-523">se será tempo conforme</l>
+            <l n="517" xml:id="em0556-pt-524">ou se imos a desora.</l>
+          </lg>
+        </sp>
+        <sp who="#FROLALTA" xml:id="em0556-pt-sp-172">
+          <speaker>FROLALTA</speaker>
+          <lg part="F" type="free">
+            <l n="518" xml:id="em0556-pt-525">Depois iremos, senhora</l>
+            <l n="519" xml:id="em0556-pt-526">que agora dizem que dorme.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0556-pt-st-19">Entra o Físico a tomar-lhe o pulso, e tomando-o diz:</stage>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-173">
+          <speaker>FÍSICO</speaker>
+          <lg type="decima">
+            <l n="520" rend="indent" xml:id="em0556-pt-527">Su madrastra oyó nombrar</l>
+            <l n="521" xml:id="em0556-pt-528">y el pulso se le alteró</l>
+            <l n="522" xml:id="em0556-pt-529">esto no entiendo yo</l>
+            <l n="523" xml:id="em0556-pt-530">porque para le alterar</l>
+            <l n="524" xml:id="em0556-pt-531">el corazón le obligó.</l>
+            <l n="525" xml:id="em0556-pt-532">Pues que el corazón se altere</l>
+            <l n="526" xml:id="em0556-pt-533">es porque en un momento</l>
+            <l n="527" xml:id="em0556-pt-534">algún nuevo vencimiento</l>
+            <l n="528" xml:id="em0556-pt-535">de afición terrible le hiere</l>
+            <l n="529" xml:id="em0556-pt-536">que causa tal movimiento.</l>
+          </lg>
+          <lg type="decima">
+            <l n="530" rend="indent" xml:id="em0556-pt-537">Pues qué afición cabe así</l>
+            <l n="531" xml:id="em0556-pt-538">con madrastra? Digo yo</l>
+            <l n="532" xml:id="em0556-pt-539">dos razones hay aquí</l>
+            <l n="533" xml:id="em0556-pt-540">la una dice que sí</l>
+            <l n="534" xml:id="em0556-pt-541">la otra dice que no.</l>
+            <l n="535" xml:id="em0556-pt-542">Empero yo determino</l>
+            <l n="536" xml:id="em0556-pt-543">de exprimentar la verdad</l>
+            <l n="537" xml:id="em0556-pt-544">y hacer una habilidad</l>
+            <l n="538" xml:id="em0556-pt-545">que declare es agua o vino</l>
+            <l n="539" xml:id="em0556-pt-546">esta su enfermedad</l>
+          </lg>
+          <lg type="oitava">
+            <l n="540" rend="indent" xml:id="em0556-pt-547">porque toda esta mañana</l>
+            <l n="541" xml:id="em0556-pt-548">tengo estudiado su mal</l>
+            <l n="542" xml:id="em0556-pt-549">sin ver causa efectual</l>
+            <l n="543" xml:id="em0556-pt-550">de su dolencia inhumana</l>
+            <l n="544" xml:id="em0556-pt-551">ni otra de su metal.</l>
+            <l n="545" xml:id="em0556-pt-552">Llamar quiero este asnejón</l>
+            <l n="546" xml:id="em0556-pt-553">mas aun debe de dormir</l>
+            <l n="547" xml:id="em0556-pt-554">según que es dormilón.</l>
+          </lg>
+          <lg part="I" type="oncena">
+            <l n="548" rend="indent" xml:id="em0556-pt-555">Oh Sancho, oh Sancho.</l>
+          </lg>
+        </sp>
+        <sp who="#SANCHO" xml:id="em0556-pt-sp-174">
+          <speaker>SANCHO</speaker>
+          <lg part="M" type="free">
+            <l n="549" xml:id="em0556-pt-556">Ah señor, ah señor.</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-175">
+          <speaker>FÍSICO</speaker>
+          <lg part="M" type="free">
+            <l n="550" xml:id="em0556-pt-557">Ea, aún estás dormiendo?</l>
+          </lg>
+        </sp>
+        <sp who="#SANCHO" xml:id="em0556-pt-sp-176">
+          <speaker>SANCHO</speaker>
+          <lg part="M" type="free">
+            <l n="551" xml:id="em0556-pt-558">Estoyme, señor, vestiendo.</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-177">
+          <speaker>FÍSICO</speaker>
+          <lg part="M" type="free">
+            <l n="552" xml:id="em0556-pt-559">Pues, bellaco y sinsabor</l>
+            <l n="553" xml:id="em0556-pt-560">no me respondes dormiendo?</l>
+            <l n="554" xml:id="em0556-pt-561">Vestíos presto, ladrón</l>
+            <l n="555" xml:id="em0556-pt-562">oh qué mozo y qué ventura.</l>
+          </lg>
+        </sp>
+        <sp who="#SANCHO" xml:id="em0556-pt-sp-178">
+          <speaker>SANCHO</speaker>
+          <lg part="F" type="free">
+            <l n="556" xml:id="em0556-pt-563">Mas qué amo y caratón</l>
+            <l n="557" xml:id="em0556-pt-564">envíeme el ropón</l>
+            <l n="558" xml:id="em0556-pt-565">que no hallo mi vestidura.</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-179">
+          <speaker>FÍSICO</speaker>
+          <lg part="I" type="nona">
+            <l n="559" rend="indent" xml:id="em0556-pt-566">Que envíe el ropón acá?</l>
+            <l n="560" xml:id="em0556-pt-567">Parece que os desmandáis.</l>
+          </lg>
+        </sp>
+        <sp who="#SANCHO" xml:id="em0556-pt-sp-180">
+          <speaker>SANCHO</speaker>
+          <lg part="M" type="free">
+            <l n="561" xml:id="em0556-pt-568">Que vaya, señor, ah, ah.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0556-pt-st-20">Entra o Moço embrulhado em ũa manta, e diz:</stage>
+        <sp who="#SANCHO" xml:id="em0556-pt-sp-181">
+          <speaker>SANCHO</speaker>
+          <lg part="M" type="free">
+            <l n="562" xml:id="em0556-pt-569">Que buenos días hayáis.</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-182">
+          <speaker>FÍSICO</speaker>
+          <lg part="M" type="free">
+            <l n="563" xml:id="em0556-pt-570">Di, cómo vienes así</l>
+            <l n="564" xml:id="em0556-pt-571">con la manta y para qué?</l>
+          </lg>
+        </sp>
+        <sp who="#SANCHO" xml:id="em0556-pt-sp-183">
+          <speaker>SANCHO</speaker>
+          <lg part="F" type="free">
+            <l n="565" xml:id="em0556-pt-572">Yo, señor, se lo diré:</l>
+            <l n="566" xml:id="em0556-pt-573">por venir presto vestí</l>
+            <l n="567" xml:id="em0556-pt-574">lo que más presto hallé</l>
+          </lg>
+          <lg part="I" type="decima">
+            <l n="568" rend="indent" xml:id="em0556-pt-575">porque viendo que él me llama</l>
+            <l n="569" xml:id="em0556-pt-576">dormiendo yo sin afán</l>
+            <l n="570" xml:id="em0556-pt-577">salté presto de la cama</l>
+            <l n="571" xml:id="em0556-pt-578">que parezco un gavilán</l>
+            <l n="572" xml:id="em0556-pt-579">hermoso como una dama.</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-184">
+          <speaker>FÍSICO</speaker>
+          <lg part="M" type="free">
+            <l n="573" xml:id="em0556-pt-580">Mas es tu bobedad tanta</l>
+            <l n="574" xml:id="em0556-pt-581">que vienes desa fición?</l>
+          </lg>
+        </sp>
+        <sp who="#SANCHO" xml:id="em0556-pt-sp-185">
+          <speaker>SANCHO</speaker>
+          <lg part="F" type="free">
+            <l n="575" xml:id="em0556-pt-582">De mi vestido se espanta?</l>
+            <l n="576" xml:id="em0556-pt-583">De noche sirve de manta</l>
+            <l n="577" xml:id="em0556-pt-584">y de día de ropón.</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-186">
+          <speaker>FÍSICO</speaker>
+          <lg part="I" type="decima">
+            <l n="578" rend="indent" xml:id="em0556-pt-585">Envióme el Rey a llamar</l>
+            <l n="579" part="I" xml:id="em0556-pt-586">otra vez.</l>
+          </lg>
+        </sp>
+        <sp who="#SANCHO" xml:id="em0556-pt-sp-187">
+          <speaker>SANCHO</speaker>
+          <lg part="M" type="free">
+            <l part="M" xml:id="em0556-pt-587">Y a mí?</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-188">
+          <speaker>FÍSICO</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0556-pt-588">Y a ti.</l>
+          </lg>
+        </sp>
+        <sp who="#SANCHO" xml:id="em0556-pt-sp-189">
+          <speaker>SANCHO</speaker>
+          <lg part="M" type="free">
+            <l n="580" xml:id="em0556-pt-589">Y él que presta allá sin mí?</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-190">
+          <speaker>FÍSICO</speaker>
+          <lg part="M" type="free">
+            <l n="581" xml:id="em0556-pt-590">Qué puedes tu aprovechar?</l>
+          </lg>
+        </sp>
+        <sp who="#SANCHO" xml:id="em0556-pt-sp-191">
+          <speaker>SANCHO</speaker>
+          <lg part="F" type="free">
+            <l n="582" xml:id="em0556-pt-591">Yo se lo diré de aquí:</l>
+            <l n="583" xml:id="em0556-pt-592">si por la ventura quiere</l>
+            <l n="584" xml:id="em0556-pt-593">para que le dé consejo</l>
+            <l n="585" xml:id="em0556-pt-594">cuando doliente estuviere</l>
+            <l n="586" xml:id="em0556-pt-595">digo: coma si pudiere</l>
+            <l n="587" xml:id="em0556-pt-596">y beba buen vino anejo.</l>
+          </lg>
+          <lg part="I" type="decima">
+            <l n="588" rend="indent" xml:id="em0556-pt-597">Porque éste es el licor</l>
+            <l n="589" xml:id="em0556-pt-598">que da fuerza y es sabroso</l>
+            <l n="590" xml:id="em0556-pt-599">que según dicen señor</l>
+            <l n="591" xml:id="em0556-pt-600">vino letificat cor</l>
+            <l n="592" xml:id="em0556-pt-601">hominis y le es provechoso.</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-192">
+          <speaker>FÍSICO</speaker>
+          <lg part="M" type="free">
+            <l n="593" xml:id="em0556-pt-602">Ya sabes la medicina</l>
+            <l n="594" xml:id="em0556-pt-603">que Avicena nos refiere.</l>
+          </lg>
+        </sp>
+        <sp who="#SANCHO" xml:id="em0556-pt-sp-193">
+          <speaker>SANCHO</speaker>
+          <lg part="F" type="free">
+            <l n="595" xml:id="em0556-pt-604">Pues señor porque es divina.</l>
+            <l n="596" xml:id="em0556-pt-605">Pero el Rey qué le quiere</l>
+            <l n="597" xml:id="em0556-pt-606">qué manda o qué determina?</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-194">
+          <speaker>FÍSICO</speaker>
+          <lg part="I" type="decima">
+            <l n="598" rend="indent" xml:id="em0556-pt-607">El Príncipe está doliente.</l>
+          </lg>
+        </sp>
+        <sp who="#SANCHO" xml:id="em0556-pt-sp-195">
+          <speaker>SANCHO</speaker>
+          <lg part="M" type="free">
+            <l n="599" xml:id="em0556-pt-608">Oh mezquino y qué mal ha?</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-196">
+          <speaker>FÍSICO</speaker>
+          <lg part="M" type="free">
+            <l n="600" xml:id="em0556-pt-609">Y a ti necio qué te va?</l>
+          </lg>
+        </sp>
+        <sp who="#SANCHO" xml:id="em0556-pt-sp-197">
+          <speaker>SANCHO</speaker>
+          <lg part="M" type="free">
+            <l n="601" xml:id="em0556-pt-610">Oh señor que es mi pariente.</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-198">
+          <speaker>FÍSICO</speaker>
+          <lg part="M" type="free">
+            <l n="602" xml:id="em0556-pt-611">Gracioso el bobo está.</l>
+            <l n="603" xml:id="em0556-pt-612">Y pues dime por tu fe</l>
+            <l n="604" xml:id="em0556-pt-613">llorarás si se moriere?</l>
+          </lg>
+        </sp>
+        <sp who="#SANCHO" xml:id="em0556-pt-sp-199">
+          <speaker>SANCHO</speaker>
+          <lg part="F" type="free">
+            <l n="605" xml:id="em0556-pt-614">No lloraré</l>
+            <l n="606" xml:id="em0556-pt-615">empero, señor, haré</l>
+            <l n="607" xml:id="em0556-pt-616">la peor cara que pudiere.</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-200">
+          <speaker>FÍSICO</speaker>
+          <lg part="I" type="docena">
+            <l n="608" rend="indent" xml:id="em0556-pt-617">Ea bobo ve corriendo</l>
+            <l n="609" xml:id="em0556-pt-618">y ensilla la mula aína.</l>
+          </lg>
+        </sp>
+        <sp who="#SANCHO" xml:id="em0556-pt-sp-201">
+          <speaker>SANCHO</speaker>
+          <lg part="M" type="free">
+            <l n="610" xml:id="em0556-pt-619">Mula viene ensillar mejor.</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-202">
+          <speaker>FÍSICO</speaker>
+          <lg part="M" type="free">
+            <l n="611" xml:id="em0556-pt-620">Oh bellaco y sinsabor.</l>
+          </lg>
+        </sp>
+        <sp who="#SANCHO" xml:id="em0556-pt-sp-203">
+          <speaker>SANCHO</speaker>
+          <lg part="F" type="free">
+            <l n="612" xml:id="em0556-pt-621">Yo por cierto no lo entiendo.</l>
+            <l n="613" xml:id="em0556-pt-622">Pero una melecina</l>
+            <l n="614" xml:id="em0556-pt-623">le he de pedir Dios queriendo</l>
+            <l n="615" xml:id="em0556-pt-624">porque ando atribulado</l>
+            <l n="616" xml:id="em0556-pt-625">y no sé parte de mí</l>
+            <l n="617" xml:id="em0556-pt-626">con este nuevo cuidado</l>
+            <l n="618" xml:id="em0556-pt-627">para un sayo esfarrapado</l>
+            <l n="619" xml:id="em0556-pt-628">que me dicen hay allí.</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-204">
+          <speaker>FÍSICO</speaker>
+          <lg part="I" type="decima">
+            <l n="620" rend="indent" xml:id="em0556-pt-629">Ora ensilla y nunca viva</l>
+            <l n="621" xml:id="em0556-pt-630">pues sufro tus desatinos.</l>
+          </lg>
+        </sp>
+        <sp who="#SANCHO" xml:id="em0556-pt-sp-205">
+          <speaker>SANCHO</speaker>
+          <lg part="M" type="free">
+            <l n="622" xml:id="em0556-pt-631">Señor, pasión no reciba</l>
+            <l n="623" xml:id="em0556-pt-632">Ya cabalga Calaynos</l>
+            <l n="624" xml:id="em0556-pt-633">a la sombra de una oliva.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0556-pt-st-21">Aqui se sai bolindo com a almofaça, e acorda o Príncipe e diz:</stage>
+        <sp who="#PRÍNCIPE" xml:id="em0556-pt-sp-206">
+          <speaker>PRÍNCIPE</speaker>
+          <lg part="F" type="free">
+            <l n="625" xml:id="em0556-pt-634">Oh bela vista e humana</l>
+            <l n="626" xml:id="em0556-pt-635">por quem tanto mal sostenho</l>
+            <l n="627" xml:id="em0556-pt-636">oh princesa soberana</l>
+            <l n="628" xml:id="em0556-pt-637">como nos braços vos tenho</l>
+            <l n="629" xml:id="em0556-pt-638">ou este sonho me engana?</l>
+          </lg>
+          <lg type="decima">
+            <l n="630" rend="indent" xml:id="em0556-pt-639">Pois como sonho também</l>
+            <l n="631" xml:id="em0556-pt-640">me queres vir magoar</l>
+            <l n="632" xml:id="em0556-pt-641">e para me atormentar</l>
+            <l n="633" xml:id="em0556-pt-642">mostras-me a sombra do bem</l>
+            <l n="634" xml:id="em0556-pt-643">para assi mais me enganar?</l>
+            <l n="635" xml:id="em0556-pt-644">Assi que conquanto canso</l>
+            <l n="636" xml:id="em0556-pt-645">já não posso achar atalho</l>
+            <l n="637" xml:id="em0556-pt-646">pois que o sono quieto e manso</l>
+            <l n="638" xml:id="em0556-pt-647">que os outros tem por descanso</l>
+            <l n="639" xml:id="em0556-pt-648">me vem a mim por trabalho</l>
+          </lg>
+          <lg part="I" type="decima">
+            <l n="640" rend="indent" xml:id="em0556-pt-649">pois há i tantos enganos</l>
+            <l n="641" xml:id="em0556-pt-650">que condenam minha sorte</l>
+            <l n="642" xml:id="em0556-pt-651">não o tenho já por forte</l>
+            <l n="643" xml:id="em0556-pt-652">se à volta de tantos danos</l>
+            <l n="644" xml:id="em0556-pt-653">viesse também a morte.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0556-pt-st-22">Aqui entra el Rei com o Físico, e diz el Rei:</stage>
+        <sp who="#REI" xml:id="em0556-pt-sp-207">
+          <speaker>REI</speaker>
+          <lg part="F" type="free">
+            <l n="645" xml:id="em0556-pt-654">Andai e vede se achais</l>
+            <l n="646" xml:id="em0556-pt-655">o rasto deste segredo</l>
+            <l n="647" xml:id="em0556-pt-656">que me dizem que alcançais</l>
+            <l n="648" xml:id="em0556-pt-657">ainda que tenho medo</l>
+            <l n="649" xml:id="em0556-pt-658">que lhe seja por demais.</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-208">
+          <speaker>FÍSICO</speaker>
+          <lg part="I" type="decima">
+            <l n="650" rend="indent" xml:id="em0556-pt-659">Plega a Dios que aquesto sea</l>
+            <l n="651" xml:id="em0556-pt-660">para salud y remedio</l>
+            <l n="652" xml:id="em0556-pt-661">desta dolencia tan fea.</l>
+            <l n="653" xml:id="em0556-pt-662">Yo buscaré todo el medio</l>
+            <l n="654" xml:id="em0556-pt-663">que presto sano se vea.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0556-pt-st-23">Aqui lhe toma o Físico o pulso e diz:</stage>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-209">
+          <speaker>FÍSICO</speaker>
+          <lg part="M" type="free">
+            <l n="655" xml:id="em0556-pt-664">Afloxen señor sus ays.</l>
+            <l n="656" xml:id="em0556-pt-665">Cómo se halla en su penar?</l>
+          </lg>
+        </sp>
+        <sp who="#PRÍNCIPE" xml:id="em0556-pt-sp-210">
+          <speaker>PRÍNCIPE</speaker>
+          <lg part="F" type="free">
+            <l n="657" xml:id="em0556-pt-666">Como me acho perguntais?</l>
+            <l n="658" xml:id="em0556-pt-667">E como se pode achar</l>
+            <l n="659" xml:id="em0556-pt-668">quem sempre se perde mais?</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-211">
+          <speaker>FÍSICO</speaker>
+          <lg part="I" type="quintilla">
+            <l n="660" rend="indent" xml:id="em0556-pt-669">La respuesta abre el camino.</l>
+            <l n="661" xml:id="em0556-pt-670">Imagina de contino?</l>
+          </lg>
+        </sp>
+        <sp who="#PRÍNCIPE" xml:id="em0556-pt-sp-212">
+          <speaker>PRÍNCIPE</speaker>
+          <lg part="F" type="free">
+            <l n="662" xml:id="em0556-pt-671">Não tenho outro mantimento</l>
+            <l n="663" xml:id="em0556-pt-672">nem outro contentamento</l>
+            <l n="664" xml:id="em0556-pt-673">senão o que em mi imagino.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0556-pt-st-24">Aqui entra a Rainha e diz:</stage>
+        <sp who="#RAINHA" xml:id="em0556-pt-sp-213">
+          <speaker>RAINHA</speaker>
+          <lg part="I" type="decima">
+            <l n="665" rend="indent" xml:id="em0556-pt-674">Como se sente senhor?</l>
+            <l n="666" xml:id="em0556-pt-675">Tem a febre mais piquena?</l>
+          </lg>
+        </sp>
+        <sp who="#PRÍNCIPE" xml:id="em0556-pt-sp-214">
+          <speaker>PRÍNCIPE</speaker>
+          <lg part="M" type="free">
+            <l n="667" xml:id="em0556-pt-676">Responda-lhe minha pena.</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-215">
+          <speaker>FÍSICO</speaker>
+          <lg part="F" type="free">
+            <l n="668" xml:id="em0556-pt-677">Conocido es su dolor</l>
+            <l n="669" xml:id="em0556-pt-678">ora sea enhorabuena</l>
+            <l n="670" xml:id="em0556-pt-679">tomada está la tristeza</l>
+            <l n="671" xml:id="em0556-pt-680">a las manos. Que sentió?</l>
+            <l n="672" xml:id="em0556-pt-681">Usaré de sutileza.</l>
+            <stage xml:id="em0556-pt-st-25">Diz contra el Rei:</stage>
+            <l n="673" xml:id="em0556-pt-682">Cúmpleme que solo yo</l>
+            <l n="674" xml:id="em0556-pt-683">platique con vuestra alteza.</l>
+          </lg>
+        </sp>
+        <sp who="#REI" xml:id="em0556-pt-sp-216">
+          <speaker>REI</speaker>
+          <lg part="I" type="decima">
+            <l n="675" rend="indent" xml:id="em0556-pt-684">Cheguemo-nos para cá.</l>
+          </lg>
+        </sp>
+        <sp who="#RAINHA" xml:id="em0556-pt-sp-217">
+          <speaker>RAINHA</speaker>
+          <lg part="M" type="free">
+            <l n="676" xml:id="em0556-pt-685">Não deve desesperar</l>
+            <l n="677" xml:id="em0556-pt-686">que enfim, se bem atentar</l>
+            <l n="678" xml:id="em0556-pt-687">para tudo o tempo dá</l>
+            <l n="679" xml:id="em0556-pt-688">tempo para se curar.</l>
+          </lg>
+        </sp>
+        <sp who="#PRÍNCIPE" xml:id="em0556-pt-sp-218">
+          <speaker>PRÍNCIPE</speaker>
+          <lg part="M" type="free">
+            <l n="680" xml:id="em0556-pt-689">Que cura poderá ter</l>
+            <l n="681" xml:id="em0556-pt-690">quem tem a cura senhora</l>
+            <l n="682" xml:id="em0556-pt-691">no impossível haver?</l>
+          </lg>
+        </sp>
+        <sp who="#RAINHA" xml:id="em0556-pt-sp-219">
+          <speaker>RAINHA</speaker>
+          <lg part="F" type="free">
+            <l n="683" xml:id="em0556-pt-692">Ficai-vos senhor embora</l>
+            <l n="684" xml:id="em0556-pt-693">que vos não sei responder.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0556-pt-st-26">Vai-se a Rainha e diz el Rei:</stage>
+        <sp who="#REI" xml:id="em0556-pt-sp-220">
+          <speaker>REI</speaker>
+          <lg part="I" type="decima">
+            <l n="685" rend="indent" xml:id="em0556-pt-694">Neste mal que não comprendo</l>
+            <l n="686" xml:id="em0556-pt-695">que meio dais de conselho?</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-221">
+          <speaker>FÍSICO</speaker>
+          <lg part="M" type="free">
+            <l n="687" xml:id="em0556-pt-696">Señor, nada entiendo dello</l>
+            <l n="688" xml:id="em0556-pt-697">y puesto que lo entiendo</l>
+            <l n="689" xml:id="em0556-pt-698">yo quisiera no entendello.</l>
+          </lg>
+        </sp>
+        <sp who="#REI" xml:id="em0556-pt-sp-222">
+          <speaker>REI</speaker>
+          <lg part="M" type="free">
+            <l n="690" xml:id="em0556-pt-699">Porquê?</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-223">
+          <speaker>FÍSICO</speaker>
+          <lg part="F" type="free">
+            <l n="691" xml:id="em0556-pt-700">Porque tengo entendido</l>
+            <l n="692" xml:id="em0556-pt-701">lo más malo de entender</l>
+            <l n="693" xml:id="em0556-pt-702">para lo que puede ser</l>
+            <l n="694" xml:id="em0556-pt-703">porque anda, señor, perdido</l>
+            <l n="695" xml:id="em0556-pt-704">d’amores por mi mujer.</l>
+          </lg>
+        </sp>
+        <sp who="#REI" xml:id="em0556-pt-sp-224">
+          <speaker>REI</speaker>
+          <lg part="I" type="decima">
+            <l n="696" rend="indent" xml:id="em0556-pt-705">Santo Deos que tal amor</l>
+            <l n="697" xml:id="em0556-pt-706">lhe dá doença tão fera</l>
+            <l n="698" xml:id="em0556-pt-707">que remédio achais melhor?</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-225">
+          <speaker>FÍSICO</speaker>
+          <lg part="M" type="free">
+            <l n="699" xml:id="em0556-pt-708">Forzado será que muera</l>
+            <l n="700" xml:id="em0556-pt-709">por que no muera mi honor.</l>
+          </lg>
+        </sp>
+        <sp who="#REI" xml:id="em0556-pt-sp-226">
+          <speaker>REI</speaker>
+          <lg part="F" type="free">
+            <l n="701" xml:id="em0556-pt-710">Pois como a um só herdeiro</l>
+            <l n="702" xml:id="em0556-pt-711">deste reino não dareis</l>
+            <l n="703" xml:id="em0556-pt-712">vossa molher? Pois podeis</l>
+            <l n="704" xml:id="em0556-pt-713">que tudo faz o dinheiro</l>
+            <l n="705" xml:id="em0556-pt-714">pois este não o enjeiteis</l>
+          </lg>
+          <lg part="I" type="decima">
+            <l n="706" rend="indent" xml:id="em0556-pt-715">dai-lha, porque eu espero</l>
+            <l n="707" xml:id="em0556-pt-716">de vos dar dinheiro e honra</l>
+            <l n="708" xml:id="em0556-pt-717">quanto eu para ele quero.</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-227">
+          <speaker>FÍSICO</speaker>
+          <lg part="M" type="free">
+            <l n="709" xml:id="em0556-pt-718">No tira el mucho dinero</l>
+            <l n="710" xml:id="em0556-pt-719">la mancha de la deshonra.</l>
+          </lg>
+        </sp>
+        <sp who="#REI" xml:id="em0556-pt-sp-228">
+          <speaker>REI</speaker>
+          <lg part="F" type="free">
+            <l n="711" xml:id="em0556-pt-720">Ora bem pouco defeito</l>
+            <l n="712" xml:id="em0556-pt-721">é pequice conhecida</l>
+            <l n="713" xml:id="em0556-pt-722">quando deixa de ser feito</l>
+            <l n="714" xml:id="em0556-pt-723">porque com ele dais vida</l>
+            <l n="715" xml:id="em0556-pt-724">a quem vos dará proveito.</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-229">
+          <speaker>FÍSICO</speaker>
+          <lg part="I" type="decima">
+            <l n="716" rend="indent" xml:id="em0556-pt-725">Cuán fácilmente aporfía</l>
+            <l n="717" xml:id="em0556-pt-726">quien en tal nunca se vio.</l>
+            <l n="718" xml:id="em0556-pt-727">Del consejo que me dio</l>
+            <l n="719" xml:id="em0556-pt-728">vuestra alteza que haría</l>
+            <l n="720" xml:id="em0556-pt-729">si agora fuese yo?</l>
+          </lg>
+        </sp>
+        <sp who="#REI" xml:id="em0556-pt-sp-230">
+          <speaker>REI</speaker>
+          <lg part="M" type="free">
+            <l n="721" xml:id="em0556-pt-730">A molher que eu tivesse</l>
+            <l n="722" xml:id="em0556-pt-731">dar-lha-ia. Oxalá</l>
+            <l n="723" xml:id="em0556-pt-732">que ele a Rainha quisesse.</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-231">
+          <speaker>FÍSICO</speaker>
+          <lg part="F" type="free">
+            <l n="724" xml:id="em0556-pt-733">Pues déla si le parece</l>
+            <l n="725" xml:id="em0556-pt-734">que por ella muerto está.</l>
+          </lg>
+        </sp>
+        <sp who="#REI" xml:id="em0556-pt-sp-232">
+          <speaker>REI</speaker>
+          <lg part="I" type="decima">
+            <l n="726" part="I" rend="indent" xml:id="em0556-pt-735">Que me dizeis?</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-233">
+          <speaker>FÍSICO</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0556-pt-736">La verdad.</l>
+          </lg>
+        </sp>
+        <sp who="#REI" xml:id="em0556-pt-sp-234">
+          <speaker>REI</speaker>
+          <lg part="M" type="free">
+            <l n="727" xml:id="em0556-pt-737">Sem dúvida tal sentistes?</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-235">
+          <speaker>FÍSICO</speaker>
+          <lg part="M" type="free">
+            <l n="728" xml:id="em0556-pt-738">Sin duda, sin falsedad.</l>
+            <l n="729" xml:id="em0556-pt-739">Pues, señor, ahora tomad</l>
+            <l n="730" xml:id="em0556-pt-740">los consejos que me distes.</l>
+          </lg>
+        </sp>
+        <sp who="#REI" xml:id="em0556-pt-sp-236">
+          <speaker>REI</speaker>
+          <lg part="M" type="free">
+            <l n="731" xml:id="em0556-pt-741">Certamente que eu o via</l>
+            <l n="732" xml:id="em0556-pt-742">em tudo quanto falava.</l>
+            <l n="733" xml:id="em0556-pt-743">Como o vistes? Por que via?</l>
+          </lg>
+        </sp>
+        <sp who="#FÍSICO" xml:id="em0556-pt-sp-237">
+          <speaker>FÍSICO</speaker>
+          <lg part="F" type="free">
+            <l n="734" xml:id="em0556-pt-744">Nel pulso que se alteraba</l>
+            <l n="735" xml:id="em0556-pt-745">si la vía o si la oía.</l>
+          </lg>
+        </sp>
+        <sp who="#REI" xml:id="em0556-pt-sp-238">
+          <speaker>REI</speaker>
+          <lg type="nona">
+            <l n="736" rend="indent" xml:id="em0556-pt-746">Que maneira há de haver?</l>
+            <l n="737" xml:id="em0556-pt-747">Que eu certo me maravilho</l>
+            <l n="738" xml:id="em0556-pt-748">possa mais o amor de filho</l>
+            <l n="739" xml:id="em0556-pt-749">do que pode o da molher.</l>
+            <l n="740" xml:id="em0556-pt-750">Finalmente hei-lha de dar</l>
+            <l n="741" xml:id="em0556-pt-751">que a ambos conheço o centro.</l>
+            <l n="742" xml:id="em0556-pt-752">Quero-o ir levantar</l>
+            <l n="743" xml:id="em0556-pt-753">e iremos para dentro</l>
+            <l n="744" xml:id="em0556-pt-754">neste caso praticar.</l>
+          </lg>
+          <stage xml:id="em0556-pt-st-27">Diz contra o Príncipe:</stage>
+          <lg part="I" type="decima">
+            <l n="745" rend="indent" xml:id="em0556-pt-755">Levantai-vos filho di</l>
+            <l n="746" xml:id="em0556-pt-756">o melhor que vós puderdes</l>
+            <l n="747" xml:id="em0556-pt-757">e vinde-vos para aqui</l>
+            <l n="748" xml:id="em0556-pt-758">porque enfim o que quiserdes</l>
+            <l n="749" xml:id="em0556-pt-759">tudo havereis de mi.</l>
+          </lg>
+        </sp>
+        <sp who="#PAJEM" xml:id="em0556-pt-sp-239">
+          <speaker>PAJEM</speaker>
+          <lg part="M" type="free">
+            <l n="750" xml:id="em0556-pt-760">Ah senhores oulá ou.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-240">
+          <speaker>PORTEIRO</speaker>
+          <lg part="F" type="free">
+            <l n="751" xml:id="em0556-pt-761">Viestes em conjunção</l>
+            <l n="752" xml:id="em0556-pt-762">a melhor que pode ser.</l>
+            <l n="753" xml:id="em0556-pt-763">Haveis aqui de fazer</l>
+            <l n="754" xml:id="em0556-pt-764">a trosquia a um rifão.</l>
+          </lg>
+        </sp>
+        <sp who="#PAJEM" xml:id="em0556-pt-sp-241">
+          <speaker>PAJEM</speaker>
+          <lg part="I" type="oncena">
+            <l n="755" rend="indent" xml:id="em0556-pt-765">Deixai-me, senhor, dizer</l>
+            <l n="756" xml:id="em0556-pt-766">haveis isto de acabar:</l>
+            <l n="757" xml:id="em0556-pt-767">Coração i bugiar</l>
+            <l n="758" xml:id="em0556-pt-768">no estéis preso en cadenas</l>
+            <l n="759" xml:id="em0556-pt-769">que pois o amor vos deu penas</l>
+            <l n="760" xml:id="em0556-pt-770">que vos lanceis a voar.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-242">
+          <speaker>PORTEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="761" xml:id="em0556-pt-771">Por certo que bem coprou.</l>
+          </lg>
+        </sp>
+        <sp who="#PAJEM" xml:id="em0556-pt-sp-243">
+          <speaker>PAJEM</speaker>
+          <lg part="F" type="free">
+            <l n="762" xml:id="em0556-pt-772">Ora sabeis o que vai?</l>
+            <l n="763" xml:id="em0556-pt-773">Antioco que casou</l>
+            <l n="764" xml:id="em0556-pt-774">com a molher de seu pai</l>
+            <l n="765" xml:id="em0556-pt-775">e o mesmo pai o ordenou.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-244">
+          <speaker>PORTEIRO</speaker>
+          <lg part="I" type="oncena">
+            <l n="766" part="I" rend="indent" xml:id="em0556-pt-776">Isso como?</l>
+          </lg>
+        </sp>
+        <sp who="#PAJEM" xml:id="em0556-pt-sp-245">
+          <speaker>PAJEM</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0556-pt-777">Não o sei</l>
+            <l n="767" xml:id="em0556-pt-778">porque dizem que a amava</l>
+            <l n="768" xml:id="em0556-pt-779">e que só por ela andava</l>
+            <l n="769" xml:id="em0556-pt-780">para morrer e el Rei</l>
+            <l n="770" xml:id="em0556-pt-781">deu a quem a desejava.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-246">
+          <speaker>PORTEIRO</speaker>
+          <lg part="M" type="free">
+            <l n="771" xml:id="em0556-pt-782">Se o casa por querer bem</l>
+            <l n="772" xml:id="em0556-pt-783">com a moça a quem ama</l>
+            <l n="773" xml:id="em0556-pt-784">direi que a mim me inflama</l>
+            <l n="774" xml:id="em0556-pt-785">o amor mais que ninguém.</l>
+          </lg>
+        </sp>
+        <sp who="#PAJEM" xml:id="em0556-pt-sp-247">
+          <speaker>PAJEM</speaker>
+          <lg part="M" type="free">
+            <l n="775" xml:id="em0556-pt-786">Pois pedi-lhe a vossa dama.</l>
+          </lg>
+        </sp>
+        <sp who="#PORTEIRO" xml:id="em0556-pt-sp-248">
+          <speaker>PORTEIRO</speaker>
+          <lg part="F" type="free">
+            <l n="776" xml:id="em0556-pt-787">Por são Gil, que ei-los cá vem.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0556-pt-st-28">Entra el Rei e Antioco com a Rainha pela mão, e diz el Rei:</stage>
+        <sp who="#REI" xml:id="em0556-pt-sp-249">
+          <speaker>REI</speaker>
+          <lg type="decima">
+            <l n="777" rend="indent" xml:id="em0556-pt-788">Que mais há que esperar?</l>
+            <l n="778" xml:id="em0556-pt-789">Olhai que estranheza, vai</l>
+            <l n="779" xml:id="em0556-pt-790">o muito amor ordenar</l>
+            <l n="780" xml:id="em0556-pt-791">ir-se o filho namorar</l>
+            <l n="781" xml:id="em0556-pt-792">de ũa molher de seu pai.</l>
+            <l n="782" xml:id="em0556-pt-793">Querer bem foi sua dor</l>
+            <l n="783" xml:id="em0556-pt-794">negar-lha será crueldade</l>
+            <l n="784" xml:id="em0556-pt-795">assi que já foi bondade</l>
+            <l n="785" xml:id="em0556-pt-796">usar eu de tal amor</l>
+            <l n="786" xml:id="em0556-pt-797">e de tal humanidade.</l>
+          </lg>
+          <lg type="decima">
+            <l n="787" rend="indent" xml:id="em0556-pt-798">Ela deixou de reinar</l>
+            <l n="788" xml:id="em0556-pt-799">como fazia primeiro</l>
+            <l n="789" xml:id="em0556-pt-800">por se com ele casar</l>
+            <l n="790" xml:id="em0556-pt-801">e por amor verdadeiro</l>
+            <l n="791" xml:id="em0556-pt-802">tudo se pode deixar.</l>
+            <l n="792" xml:id="em0556-pt-803">Eu que nela tinha posto</l>
+            <l n="793" xml:id="em0556-pt-804">todo o bem de meu cuidado</l>
+            <l n="794" xml:id="em0556-pt-805">deixei mais que ela há deixado</l>
+            <l n="795" xml:id="em0556-pt-806">que mais se deixa no gosto</l>
+            <l n="796" xml:id="em0556-pt-807">que no poderoso estado.</l>
+          </lg>
+          <lg part="I" type="decima">
+            <l n="797" rend="indent" xml:id="em0556-pt-808">Mas já que tudo isto vemos</l>
+            <l n="798" xml:id="em0556-pt-809">hajam festas de prazer</l>
+            <l n="799" xml:id="em0556-pt-810">as que melhor possam ser</l>
+            <l n="800" xml:id="em0556-pt-811">porque em tão grandes extremos</l>
+            <l n="801" xml:id="em0556-pt-812">extremos se hão de fazer.</l>
+            <l n="802" xml:id="em0556-pt-813">Hajam cantos para ouvir</l>
+            <l n="803" xml:id="em0556-pt-814">jogos, prazeres sem fundo</l>
+            <l n="804" xml:id="em0556-pt-815">porque se quereis sentir</l>
+            <l n="805" xml:id="em0556-pt-816">deste modo entrou o mundo</l>
+            <l n="806" xml:id="em0556-pt-817">e assi há de sair.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0556-pt-st-29">Aqui vem os músicos e cantam e depois de cantarem saem-se todas as figuras, e diz Martim Chinchorro:</stage>
+        <sp who="#MARTIM" xml:id="em0556-pt-sp-250">
+          <speaker>MARTIM</speaker>
+          <p n="807" xml:id="em0556-pt-818">Ora, senhor, tomemos também nosso pandeiro e vamos festejar os noivos ou vamos consoar com as figuras, porque me parece que esta é a mor festa que pode ser. Mas espere vossa mercê. Ouviremos cantar, e na volta das figuras nos acolheremos. Moço, acende esse molho de cavacos, porque faz escuro, não vamos dar connosco em algum atoleiro, onde nos fique o ruço e as canastras.</p>
+        </sp>
+        <sp who="#ESCUDEIRO" xml:id="em0556-pt-sp-251">
+          <speaker>ESCUDEIRO</speaker>
+          <p n="808" xml:id="em0556-pt-819">Não, senhor, mas o meu Pilarte irá com eles com um par de tições na mão e perdoem o mau agasalhado. Mas daqui em diante sirvam-se desta pousada e não tenham isto por palavras, porque essas e plumas, o vento as leva.</p>
+        </sp>
+      </div1>
+    </body>
+    <back/>
+  </text>
+</TEI>

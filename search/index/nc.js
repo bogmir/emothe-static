@@ -1,0 +1,1 @@
+EMOTHE.search.load("index","nc",{"ncanto":[54,1,770],"nce":[240,2,2730,16],"ncia":[268,1,4382],"ncontra":[13,2,1588,594,270,1,8544],"ncontro":[13,1,3144],"ncorso":[64,1,1654],"ncredibile":[121,1,4910],"ncresce":[219,1,1078],"ncrescesse":[121,1,2890],"ncrudelire":[121,1,3290]});

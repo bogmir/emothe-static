@@ -1,0 +1,1671 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Act III — The Bastard Mudarra, Tragicomedy — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">Dramatis personae</a></li>
+      
+  
+    
+        <li>
+          <a href="act-1.html">
+            Act I
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html">
+            Act II
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html" aria-current="page">
+            Act III
+          </a>
+          
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  <li>
+    <a href="notes.html"><x-es>Notas</x-es><x-en>Notes</x-en></a>
+  </li>
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="ALV">
+        ÁLVAR SÁNCHEZ
+      </option><option value="MEN">
+        MENDO
+      </option><option value="SAN">
+        DOÑA SANCHA
+      </option><option value="ALA">
+        DOÑA ALAMBRA
+      </option><option value="BUS">
+        GONZALO BUSTOS
+      </option><option value="RUY">
+        RUY VELÁZQUEZ
+      </option><option value="LOPE">
+        LOPE
+      </option><option value="DIE">
+        DIEGO BUSTOS
+      </option><option value="FER">
+        FERNÁN BUSTOS
+      </option><option value="GON">
+        GONZALO GONZÁLEZ
+      </option><option value="GAR">
+        GARCI FERNÁNDEZ
+      </option><option value="NSAL">
+        NUÑO SALIDO
+      </option><option value="EST">
+        ESTÉBAÑEZ
+      </option><option value="CONST">
+        DOÑA CONSTANZA
+      </option><option value="ALI">
+        ALÍ
+      </option><option value="ALB">
+        [ALBENDARI]
+      </option><option value="ALM">
+        [ALMENDAR]
+      </option><option value="ALMAN">
+        ALMANZOR
+      </option><option value="VIA">
+        VIARA
+      </option><option value="GAL">
+        GALVE
+      </option><option value="ARL">
+        ARLAJA
+      </option><option value="SOLS">
+        SOLDADOS
+      </option><option value="MUS">
+        MÚSICOS
+      </option><option value="MUD">
+        MUDARRA
+      </option><option value="ZAY">
+        ZAYDE
+      </option><option value="NUN">
+        NUÑO
+      </option><option value="PAE">
+        PÁEZ
+      </option><option value="ORT">
+        ORTUÑO
+      </option><option value="IÑI">
+        ÍÑIGO
+      </option><option value="CLA">
+        DOÑA CLARA
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">Félix Lope de Vega y Carpio</p>
+  <h1><a href="index.html">The Bastard Mudarra, Tragicomedy</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-2.html" rel="prev">← Act II</a>
+  
+</nav>
+  <div class="text" lang="en" data-cite="Félix Lope de Vega y Carpio, The Bastard Mudarra, Tragicomedy, Act III" data-cite-verse="int." data-cite-prose="int.">
+    
+    <section class="division" id="act-3">
+  <h2 class="act-head">
+    Act III
+  </h2>
+  
+  <p class="sd " id="l522-sd1">Enter Arlaja and Viara.</p><div class="sp " data-who="ARL">
+  <p class="spk ">
+    ARLAJA
+  </p>
+  <p class="pr " id="l523"><a class="pn " href="#l523">523</a>What is the King doing?</p>
+</div><div class="sp " data-who="VIA">
+  <p class="spk ">
+    VIARA
+  </p>
+  <p class="pr " id="l524"><a class="pn " href="#l524">524</a>He is entertaining himself playing chess with Mudarra.</p>
+</div><div class="sp " data-who="ARL">
+  <p class="spk ">
+    ARLAJA
+  </p>
+  <p class="pr " id="l525"><a class="pn m5" href="#l525">525</a>He does well, enjoying the peace.</p>
+</div><div class="sp " data-who="VIA">
+  <p class="spk ">
+    VIARA
+  </p>
+  <p class="pr " id="l526"><a class="pn " href="#l526">526</a>You’re being ironic.</p>
+</div><div class="sp " data-who="ARL">
+  <p class="spk ">
+    ARLAJA
+  </p>
+  <p class="pr " id="l527"><a class="pn " href="#l527">527</a>While the troops of the Count of Castile bathe in blood and ravage the shore of Guadalquivir, instead of scimitar, horse and harness, he arms the brave Mudarra with chess pieces. In his free time he seeks deplorable entertainment with wooden horses, misdirected pawns and fake queens and kings. Is he leading deceitful battles on the chessboard now? Is he planning ruses now, while the Castilian is making schemes? He acts slowly; he gives him a bad example, he offers him bad guidance.</p>
+</div><div class="sp " data-who="VIA">
+  <p class="spk ">
+    VIARA
+  </p>
+  <p class="pr " id="l528"><a class="pn " href="#l528">528</a>I want to pull the curtain. They are in this hall.</p>
+</div><p class="sd " id="l528-sd1">Almanzor and Mudarra are seated on a stack of pillows playing chess and musicians and other Moors are on their knees.</p><div class="sp " data-who="MUS">
+  <p class="spk ">
+    MUSICIANS
+  </p>
+  <p class="pr " id="l529"><a class="pn " href="#l529">529</a>From the towers of Jaen Abenamar is watching the field of Christians who dare to besiege it. Their captain is Martin Enriquez of Lara, who led them to the meadow of Granada. His love for a Christian captive transformed the King into a coward and split between love and honour, he cries, without sheathing his sword: “To arms, to arms, to arms! Send my spears to war, send my shields to war!” But then he says to the beautiful Christian: “Only your eyes can put me through war.”</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l530"><a class="pn m5" href="#l530">530</a>Check out from here!</p>
+</div><div class="sp " data-who="ALMAN">
+  <p class="spk ">
+    ALMANZOR
+  </p>
+  <p class="pr " id="l531"><a class="pn " href="#l531">531</a>Nonsense!</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l532"><a class="pn " href="#l532">532</a>Check out, I say!</p>
+</div><div class="sp " data-who="ALMAN">
+  <p class="spk ">
+    ALMANZOR
+  </p>
+  <p class="pr " id="l533"><a class="pn " href="#l533">533</a>It is forbidden.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l534"><a class="pn " href="#l534">534</a>This queen, where is she planning to enjoy her freedom?</p>
+</div><div class="sp " data-who="ALMAN">
+  <p class="spk ">
+    ALMANZOR
+  </p>
+  <p class="pr " id="l535"><a class="pn m5" href="#l535">535</a>Who’s pursuing her?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l536"><a class="pn " href="#l536">536</a>This rook I’m waiting to captivate her with.</p>
+</div><p class="sd " id="l536-sd1">The king throws the chessboard over.</p><div class="sp " data-who="ALMAN">
+  <p class="spk ">
+    ALMANZOR
+  </p>
+  <p class="pr " id="l537"><a class="pn " href="#l537">537</a>Go to hell, bastard!</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l538"><a class="pn " href="#l538">538</a>How can this game bring you over the edge like this?</p>
+</div><div class="sp " data-who="ALMAN">
+  <p class="spk ">
+    ALMANZOR
+  </p>
+  <p class="pr " id="l539"><a class="pn " href="#l539">539</a>Begone, bastard!</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l540"><a class="pn m5" href="#l540">540</a>Me, bastard?</p>
+</div><div class="sp " data-who="ALMAN">
+  <p class="spk ">
+    ALMANZOR
+  </p>
+  <p class="pr " id="l541"><a class="pn " href="#l541">541</a>You.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l542"><a class="pn " href="#l542">542</a>Me?</p>
+</div><div class="sp " data-who="ALMAN">
+  <p class="spk ">
+    ALMANZOR
+  </p>
+  <p class="pr " id="l543"><a class="pn " href="#l543">543</a>Yes.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l544"><a class="pn " href="#l544">544</a>Only you could call me that. I blame my naivety for that insult because I thought I was as well-born as you.</p>
+</div><div class="sp " data-who="ALMAN">
+  <p class="spk ">
+    ALMANZOR
+  </p>
+  <p class="pr " id="l545"><a class="pn m5" href="#l545">545</a>Barbarian, stranger to our blood, to our nobility and even to our law!</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l546"><a class="pn " href="#l546">546</a>So I’m not your son, King?</p>
+</div><div class="sp " data-who="ALMAN">
+  <p class="spk ">
+    ALMANZOR
+  </p>
+  <p class="pr " id="l547"><a class="pn " href="#l547">547</a>My son?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l548"><a class="pn " href="#l548">548</a>If you didn’t wear that crown on your head…</p>
+</div><div class="sp " data-who="ALMAN">
+  <p class="spk ">
+    ALMANZOR
+  </p>
+  <p class="pr " id="l549"><a class="pn " href="#l549">549</a>I’m getting away from you. You’re insane!</p>
+</div><p class="sd " id="l549-sd1">Exit the King.</p><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l550"><a class="pn m5" href="#l550">550</a>Listen, mother, I want to have a word with you, if being who you are improves my status.</p>
+</div><div class="sp " data-who="ARL">
+  <p class="spk ">
+    ARLAJA
+  </p>
+  <p class="pr " id="l551"><a class="pn " href="#l551">551</a>I fear your rage.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l552"><a class="pn " href="#l552">552</a>Have you witnessed this?</p>
+</div><div class="sp " data-who="ARL">
+  <p class="spk ">
+    ARLAJA
+  </p>
+  <p class="pr " id="l553"><a class="pn " href="#l553">553</a>I have.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l554"><a class="pn " href="#l554">554</a>Well, then what does your honour feel about my misery? How could I live all these years in a lie? How could I be subject to such despicable disillusion because of you, mother? Who am I, Arlaja, or who are you, as the rigour of heaven put men’s honour in women’s weaknesses. The King called me a bastard, stranger to his blood and law. And although the King doesn’t offend me, and I’m not searching for satisfaction, I am, however, offended. Even though I don’t know how the nature of his insult affects me as long as I don’t know who I am. So tell me, treacherous mother, who is my father? Judging by how I feel, my father is of noble descent. If I have to deduce who my father is based on my instinct, I’d rather you told me who he is. My thoughts are as high as the sky, to such extent that if the sky gave birth I imagine I would be its son and I wouldn’t have the blood of the earth. But it gives birth to the sun, it may well be the sun, so that it can immediately be seen that I am its Spanish ray.</p>
+</div><div class="sp " data-who="ARL">
+  <p class="spk ">
+    ARLAJA
+  </p>
+  <p class="pr " id="l555"><a class="pn m5" href="#l555">555</a>Mudarra, since your care and my misfortune cannot conceal the secret of your birth, listen from your mother Arlaja the story she kept silent about all these years because she didn’t want to alter your tranquillity, which wouldn’t have been possible without this deceit. In Castile, in Burgos, a famous Spanish town, lives a brave knight called Ruy Velázquez, married to his own disgrace to one of Count Garci Fernández’s first cousins, whose name is doña Alambra. She had seven nephews who, being men and not buildings, could surpass in fame the rarest wonders of the world. You must know that the Infantes of Lara were treacherously killed in the fields of Arabiana. Their father came from Salas to Cordoba, carrying a deceitful letter from his brother-in-law, that asked the King to cut his head off, as revenge on Gonzalico’s outrages, the youngest of the Laras. This lad had gained so much fame for mastering weapons and so much value as a person in the dawn of his life that envy pursued him until he killed the bravest knight who had ever girded sword in Castile. The King refused to kill their father and stain with blood his nobility in his white hair. He imprisoned him and asked me to guard him. I fell in love not with his body, but with his soul, with his reputation, with his courage, with his refined wit and pure blood. If the weakness of a woman is excused by her love, mine was solely based on the desire of having the children of a man who was the glory and the honour of his country. I succeeded, as being born from this Christian, Mudarra, you inherit his courage and you raise high expectations. Almanzor showed Gonzalo Bustos – that is your father’s name – your brothers’ sad seven heads, cut off more by treason than by force in the bloody battle, on the same day Viara brought them to him. Seeing his grief and moved by his agony, Almanzor set your father free, while I was carrying you in my womb. When we parted we made an agreement that if there were no problems with my pregnancy and I gave birth to a girl, I would raise her on my own, but if it was a boy, as soon as he girded sword, I would send him to Castile to take charge of his house. He parted a ring in half when he parted. I’ve always kept one half, this one here, my son, so that, when you go meet him, he recognizes who you are, if his heart doesn’t reveal it to him.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l556"><a class="pn " href="#l556">556</a>I kiss your hands, mother. Let me kiss your feet for this honest revelation of the truth. I should be more grateful to you than to the father who left me here because of you. Pardon my frankness, but he gave me a mother who made me lose something, as she obeys a barbarous law, while you gave me a father whose noble descent is doubled by the Christian law. You gave me a better father than he gave me mother. Therefore, I owe you more, my lady. I am consoled at being a bastard. I accept it because being a bastard made me Christian. I thought you were the King’s wife. Today he yelled angrily this new name at me. Being a Moor’s wife imposes less honour than being a Christian’s friend. As I put him in check with a rook, jeopardising his queen, while playing, the King told me, without touching any chess piece: “Check out from here!”, divesting me of my fame. This insult made me furious. It’s not pride, mother. It is called honour. Nonetheless, I am glad this happened because it helped me discover I was that wellborn. Almanzor can have more pearls than the ones the sea contains in its shells and more diamonds than the ones the earth guards in its mines, but I don’t need his barbarous turbans. I choose instead this law whose light you showed me. Mother, I will avenge the seven Infantes if you allow my departure. I will bring that Gonzalo back to life; I am his barbarous branch. While Ruy Velázquez is in Burgos and doña Alambra takes pride in the blood of the seven brothers, I wear turbans, I go to the mosque and I take part in Muslim festivities, with my skullcap crowned by feathers. Even though the Alhambra of Granada, which promises to last forever, defended them both, the way my wrath will take revenge for this offense. I’ll take this ring with me as proof that I am of the same blood as the Laras. If so far I showed only small signs of courage maybe someday they will be greater.</p>
+</div><div class="sp " data-who="ARL">
+  <p class="spk ">
+    ARLAJA
+  </p>
+  <p class="pr " id="l557"><a class="pn " href="#l557">557</a>Stop, son! Think of the danger you’re exposing yourself to.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l558"><a class="pn " href="#l558">558</a>Mother, if you think of the trunk whose branch I am, why are you having all these doubts? Or are you lying to me? Because you’re not helping me.</p>
+</div><div class="sp " data-who="ARL">
+  <p class="spk ">
+    ARLAJA
+  </p>
+  <p class="pr " id="l559"><a class="pn " href="#l559">559</a>I’m telling you the truth.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l560"><a class="pn m5" href="#l560">560</a>I’m off and will labour<button type="button" id="nref-2" class="nref" popovertarget="note-2" aria-label="Nota del traductor 2" data-en-aria-label="Translator&#39;s note 2" data-tr>2</button> to avenge my brothers, mother.</p>
+</div><div class="sp " data-who="ARL">
+  <p class="spk ">
+    ARLAJA
+  </p>
+  <p class="pr " id="l561"><a class="pn " href="#l561">561</a>Your deeds will honour my labour, but your today’s departure is killing me.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l562"><a class="pn " href="#l562">562</a>Only God knows how much it pains me to separate myself from you.</p>
+</div><div class="sp " data-who="ARL">
+  <p class="spk ">
+    ARLAJA
+  </p>
+  <p class="pr " id="l563"><a class="pn " href="#l563">563</a>Wait one more year.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l564"><a class="pn " href="#l564">564</a>Mother, you don’t know what you’re saying.</p>
+</div><div class="sp " data-who="ARL">
+  <p class="spk ">
+    ARLAJA
+  </p>
+  <p class="pr " id="l565"><a class="pn m5" href="#l565">565</a>I regret your absence.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l566"><a class="pn " href="#l566">566</a>It’s too late for that. You were driven by pleasure and I am by affront.</p>
+</div><p class="sd " id="l566-sd1">Exeunt.</p><p class="sd " id="l566-sd2">Enter Gonzalo Bustos, old and blind, with a walking stick, and Nuño, his servant.</p><div class="sp " data-who="NUN">
+  <p class="spk ">
+    NUÑO
+  </p>
+  <p class="pr " id="l567"><a class="pn " href="#l567">567</a>Stop crying, sir; all these tears have blinded you.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l568"><a class="pn " href="#l568">568</a>I’m no longer afraid of becoming blind, Nuño. Don’t worry if you see me crying. If I stop and think about the cause, I paid my debts to the pain by being blind.</p>
+</div><div class="sp " data-who="NUN">
+  <p class="spk ">
+    NUÑO
+  </p>
+  <p class="pr " id="l569"><a class="pn " href="#l569">569</a>Well, why are you crying, sir?</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l570"><a class="pn m5" href="#l570">570</a>To see if I can drown myself in tears. However, as I see myself like a forge, all the water I shed cannot consume me, and the more I wish to die, the more I add fuel to life. There is a relief for my eyes in this doubtful sorrow, though: their blessed blindness which prevents them from seeing Ruy Velázquez and his wife, doña Alambra. And even if I hadn’t gone blind, I lost my sight, Nuño, that needs no light since my sight died when I saw my sons. My eyes went blind in their presence and my joys came to an end in their absence, as there is barely any difference between eyes and sons. I only wish I lost my hearing ability as well, like I did my vision, so as not to hear the tyranny with which Alambra reminds me each and every day my fierce sorrow. She throws seven penetrating stones at my window before dawn, as a reminder of that tragic story, the death of my seven Infantes.</p>
+</div><div class="sp " data-who="NUN">
+  <p class="spk ">
+    NUÑO
+  </p>
+  <p class="pr " id="l571"><a class="pn " href="#l571">571</a>Don’t cry like that, sir!</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l572"><a class="pn " href="#l572">572</a>Is my troubadour here?</p>
+</div><p class="sd " id="l572-sd1">Enter Paez, musician.</p><div class="sp " data-who="PAE">
+  <p class="spk ">
+    PAEZ
+  </p>
+  <p class="pr " id="l573"><a class="pn " href="#l573">573</a>Paez is right here, sir.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l574"><a class="pn " href="#l574">574</a>Alleviate my pain, my friend.</p>
+</div><div class="sp " data-who="PAE">
+  <p class="spk ">
+    PAEZ
+  </p>
+  <p class="pr " id="l575"><a class="pn m5" href="#l575">575</a>Listen to this ballad.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l576"><a class="pn " href="#l576">576</a>Let’s hear.</p>
+</div><p class="sd " id="l576-sd1">He sings.</p><div class="sp " data-who="PAE">
+  <p class="spk ">
+    PAEZ
+  </p>
+  <p class="pr " id="l577"><a class="pn " href="#l577">577</a>In the fields of Arabiana great chivalry died because of Ruy Velázquez’s treachery and doña Alambra’s envy. <span class="sdi">The old man sits down.</span> The seven Infantes, who were the flower of Castile, died. The Moor carries their heads soiled with dust and blood. King Almanzor invited me to lunch one day. After we had lunch he served me the dessert: <span class="sdi">The old man becomes agitated. They throw a stone.</span> I recognized my sons’ heads and their tutor’s, the one who raised them. My tender tears softened the stones. <span class="sdi">Another one.</span> The King gave me back my freedom and then he sent me to Castile. <span class="sdi">Another one.</span> But death didn’t give me freedom, as he didn’t take my life. I came to Burgos, where my eyes went blind for crying for my misery, begging Heaven for justice, as there is no justice on Earth. <span class="sdi">Another one.</span> Every day at dawn, doña Alambra, my enemy, reminds me of my misery with the seven stones she throws.</p>
+</div><p class="sd " id="l577-sd1">They throw three stones.</p><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l578"><a class="pn " href="#l578">578</a>I’ve kept silent so far, but now I lost my patience. I could dissimulate the pain caused by the first six stones, but my heart couldn’t take it anymore, it couldn’t bear the last one. I endured in silence the stones corresponding to Álvaro, Ordoño, Fernando, Nuño, Alfonso and Diego, but when it comes to Gonzalo, I break the silence bursting into tears. Because when I most calmly want to listen satisfied that suffering is glory, the six stones pierce my chest, but the last one my soul. Vile author of treason, I hope your heart gets speared like this!</p>
+</div><div class="sp " data-who="NUN">
+  <p class="spk ">
+    NUÑO
+  </p>
+  <p class="pr " id="l579"><a class="pn " href="#l579">579</a>Take your hands off your hair, sir!</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l580"><a class="pn m5" href="#l580">580</a>My white hair is at fault for this. I had white hair, I should have known better than to fall for that day’s ruse, which was the cause of all my misery. They don’t throw the stones in vain. Those stones are bells they ring to make me pull out my damned white hair. As I’m not paying my debt to love anyway with this white hair I’m pulling out, I give pain a blank check. My age helps me with my debts, so that love eliminates them, as I pay with the silver in my hair, a coin that is unceasingly falling.</p>
+</div><div class="sp " data-who="NUN">
+  <p class="spk ">
+    NUÑO
+  </p>
+  <p class="pr " id="l581"><a class="pn " href="#l581">581</a>Restrain your anger, sir, leave your white hair alone!</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l582"><a class="pn " href="#l582">582</a>There will be enough remains of time. New white hair will grow, as I won’t cease to water it with my tears.</p>
+</div><p class="sd " id="l582-sd1">Exeunt.</p><p class="sd " id="l582-sd2">Enter Mudarra and Zayde.</p><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l583"><a class="pn " href="#l583">583</a>You know this land very well, Zayde.</p>
+</div><div class="sp " data-who="ZAY">
+  <p class="spk ">
+    ZAYDE
+  </p>
+  <p class="pr " id="l584"><a class="pn " href="#l584">584</a>If I’m not mistaking, we are close to Burgos, generous Mudarra. The war introduced me to this land, maybe to my own misfortune.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l585"><a class="pn m5" href="#l585">585</a>I was stunned by the imposing sierra, which, covered either with snow, or with a green coat, separates Castilians and Andalusians, the White Crescents and the Red Crosses.</p>
+</div><div class="sp " data-who="ZAY">
+  <p class="spk ">
+    ZAYDE
+  </p>
+  <p class="pr " id="l586"><a class="pn " href="#l586">586</a>Mudarra, our Moors crossed many times these mountains with their weapons, weaving harnesses for their horses and stealing Catholic treasures. These trees here were witnesses, and even the earth, whose green pores drank the noble Castilian blood shed by the African belligerent sword.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l587"><a class="pn " href="#l587">587</a>Castile is strong.</p>
+</div><div class="sp " data-who="ZAY">
+  <p class="spk ">
+    ZAYDE
+  </p>
+  <p class="pr " id="l588"><a class="pn " href="#l588">588</a>It is strong because of its location, but even more so because of its brave inhabitants.</p>
+</div><p class="sd " id="l588-sd1">Enter Lope dressed as a hunter.</p><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l589"><a class="pn " href="#l589">589</a>The sun is already spreading its rays over the West. Let’s gather our things, noble hunters! But, alas! It is my own death that is being chased. The ruse is my hunter and my feet are the goshawks. This is a Moorish ambush.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l590"><a class="pn m5" href="#l590">590</a>Don’t run away, Christian, nor defend yourself! I am a messenger of the Moorish King of Cordoba.</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l591"><a class="pn " href="#l591">591</a>Welcome, though it’s because of him that our most precious treasure lies in the field, killed by treason. From dawn till the West is painted in shades of gold and purple, my soul laments that name on a miserable day.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l592"><a class="pn " href="#l592">592</a>Did Cordoba hurt you? And does its King make you cry, noble Christian?</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l593"><a class="pn " href="#l593">593</a>Oh, I wish I had never heard of your name! Your hand sickled seven lives!</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l594"><a class="pn " href="#l594">594</a>Christian, your tears show me that my instinct didn’t bring me in vain to this path. Those whose death I came to avenge are also seven.</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l595"><a class="pn m5" href="#l595">595</a>The tears I shed are for seven brothers, honour of the world and objects of a traitor’s revenge.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l596"><a class="pn " href="#l596">596</a>Seven are also the brothers who gave my hands the hope to avenge their blood.</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l597"><a class="pn " href="#l597">597</a>The ones I mourn were Christians.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l598"><a class="pn " href="#l598">598</a>They seem similar to the ones I mourn.</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l599"><a class="pn " href="#l599">599</a>Mine were seven Infantes.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l600"><a class="pn m5" href="#l600">600</a>Don’t be shocked, but the ones I’m talking about are also seven Infantes.</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l601"><a class="pn " href="#l601">601</a>Are those of Lara?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l602"><a class="pn " href="#l602">602</a>Those of Lara.</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l603"><a class="pn " href="#l603">603</a>I don’t know exactly what I saw in you, but your face resembles so much that of the youngest brother that it amazes me, it scares me and it makes me lose my mind!</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l604"><a class="pn " href="#l604">604</a>You mean Gonzalo?</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l605"><a class="pn m5" href="#l605">605</a>Yes!</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l606"><a class="pn " href="#l606">606</a>What were the odds? I am the brother of these Christians you cherish.</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l607"><a class="pn " href="#l607">607</a>You?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l608"><a class="pn " href="#l608">608</a>Yes, their father gave me in Cordoba a barbarous mother. My friend, I am Mudarra, son of Arlaja, the King’s sister, and of Gonzalo Bustos who outranked her in law, not in blood.</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l609"><a class="pn " href="#l609">609</a>Oh, righteous Heavens, you work in mysterious ways! Your face itself is proof of all the information. If pleasant things can be expected after such devastating pain, I trust you to make them happen. Let me kiss your feet, my dear sir! I am Lope de Vivar, Gonzalo González’s squire. Although it might surprise you, I escaped from that battle running stealthily. I didn’t want to die there, nor win the reputation of loyal gentleman and noble knight. It was as if Heaven saved me for the pleasure of meeting you on this fortunate day.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l610"><a class="pn m5" href="#l610">610</a>You mean you saw my seven brothers die?</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l611"><a class="pn " href="#l611">611</a>And the honourable tutor who died with them. Then I saw the hoary mountains cry, drenching their stiff hair in tears. Today the two tyrants who unjustly took revenge on them live happily.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l612"><a class="pn " href="#l612">612</a>Well, I come to punish them so severely that their blood will flood Burgos.</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l613"><a class="pn " href="#l613">613</a>At the root of this cliff there is a wooded valley of beeches, which overshadow a mansion where a lady lives, whose figure brought her the nickname of Spanish Phoenix. She is now resting, exhausted by the heat of the sun, near a clear spring of water on the green carpet of a meadow, under lugubrious cypresses. She’s the daughter of your brother, that Gonzalo who was killed by the Moors, and of Constanza, a lady whom I consider equal in virtue to the one now fame graces best. Constanza is a nun in Burgos. She gave up her worldly life for the bars of the convent, without seeking revenge for the death of her husband. Her beautiful daughter spends the hot days of July in this mansion, dressed as a man, being born after the death of her father and my lord. But, what else can I say? Now you’ll have a clearer view on things, as this is the part I witnessed.</p>
+</div><p class="sd " id="l613-sd1">Enter doña Clara, dressed as a cowboy, with a spear.</p><div class="sp " data-who="CLA">
+  <p class="spk ">
+    CLARA
+  </p>
+  <p class="pr " id="l614"><a class="pn " href="#l614">614</a>Solitudes of an arid desert, where I freely chase a wild beast, where are you taking me, if it’s not my star?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l615"><a class="pn m5" href="#l615">615</a>Rare beauty!</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l616"><a class="pn " href="#l616">616</a>She is extremely beautiful.</p>
+</div><div class="sp " data-who="CLA">
+  <p class="spk ">
+    CLARA
+  </p>
+  <p class="pr " id="l617"><a class="pn " href="#l617">617</a>Oh, gentle murmur of clear springs, which, coming out from those candid crystals, reduce the unbearable heat, bathing the field in oriental pearls. Oh, impossible thoughts, temper my disproportionate imaginings! It’s not fair that one who has never been in love find in you an example of love and a warning to error. I am free; my mother told me about her tragic love story, which drove me to tears. What do you want from me, if my interest is sound asleep and I run from the idea of love?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l618"><a class="pn " href="#l618">618</a>Is this how Christian women are?</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l619"><a class="pn " href="#l619">619</a>It seems to me that this lady and you share the same way of thinking through your blood.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l620"><a class="pn m5" href="#l620">620</a>I want to talk to her.</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l621"><a class="pn " href="#l621">621</a>Leave it to me! My lady!</p>
+</div><div class="sp " data-who="CLA">
+  <p class="spk ">
+    CLARA
+  </p>
+  <p class="pr " id="l622"><a class="pn " href="#l622">622</a>What is this?</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l623"><a class="pn " href="#l623">623</a>Don’t be nervous, this Moor is a half-brother of Gonzalo, your father.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l624"><a class="pn " href="#l624">624</a>Now that you know this, I can ask you for your hand. Bustos, who is my father and your grandfather, has set such a natural connection between us, my lady, that, even if I ask you for your arms, it’s not an offense.</p>
+</div><div class="sp " data-who="CLA">
+  <p class="spk ">
+    CLARA
+  </p>
+  <p class="pr " id="l625"><a class="pn m5" href="#l625">625</a>Is he telling the truth?</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l626"><a class="pn " href="#l626">626</a>Imagine that you’re looking at your father. There has never been seen such a resembling portrait.</p>
+</div><div class="sp " data-who="CLA">
+  <p class="spk ">
+    CLARA
+  </p>
+  <p class="pr " id="l627"><a class="pn " href="#l627">627</a>I am willing to offer you my arms as my uncle, although your barbarous garments scare me.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l628"><a class="pn " href="#l628">628</a>I’m a Christian, I believe in God alone. You will soon see me give up my Arabian turban and my African overcoat . Christian lady, I am your father’s brother.</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l629"><a class="pn " href="#l629">629</a>Your mother’s status is not detrimental to you: in Castile, the horse carries the saddle, sir. Offer him your arms, because Mudarra is bound to be the eighth wonder, the most astounding, compared to the other seven.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l630"><a class="pn m5" href="#l630">630</a>I come alone from Cordoba to Castile to frighten his Leon and his Navarra and to lay Ruy Velázquez’s head at your feet, as soon as possible.</p>
+</div><div class="sp " data-who="CLA">
+  <p class="spk ">
+    CLARA
+  </p>
+  <p class="pr " id="l631"><a class="pn " href="#l631">631</a>Oh, Mudarra! If you saw my grandfather’s hardships, anxieties and pains inflicted upon him by the angry Heaven because of those traitors’ fierce cruelty… But you will be a consolation in the midst of all this suffering, and if it brings greater consolation, I’ll go with you to Burgos.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l632"><a class="pn " href="#l632">632</a>I kiss your feet two thousand times!</p>
+</div><div class="sp " data-who="CLA">
+  <p class="spk ">
+    CLARA
+  </p>
+  <p class="pr " id="l633"><a class="pn " href="#l633">633</a>You are the way you seem to be.</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l634"><a class="pn " href="#l634">634</a>Since now, seeing you two so brave, I’m beginning to believe that love, which gives birth to legitimate bastards, brings blood together and leads to marriage.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l635"><a class="pn m5" href="#l635">635</a>My sun rose among dark clouds.</p>
+</div><div class="sp " data-who="ZAY">
+  <p class="spk ">
+    ZAYDE
+  </p>
+  <p class="pr " id="l636"><a class="pn " href="#l636">636</a>Are you content with your niece?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l637"><a class="pn " href="#l637">637</a>Beautiful woman!</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l638"><a class="pn " href="#l638">638</a>What do you think of the Moor?</p>
+</div><div class="sp " data-who="CLA">
+  <p class="spk ">
+    CLARA
+  </p>
+  <p class="pr " id="l639"><a class="pn " href="#l639">639</a>He’s a good uncle, an uncle who is worth more than gold.</p>
+</div><p class="sd " id="l639-sd1">Exeunt and enter Gonzalo Bustos.</p><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l640"><a class="pn m5" href="#l640">640</a>Those who live a long life should expect to see many things over the years. And those who wish for the final end of life to come ahead of time are deeply mistaken. The most robust, strong and arrogant are as weak as the humblest reed, they don’t find joy in the riches they own and they are humiliated and broken by all evil. Everything challenges the one who didn’t see or doesn’t feel. What is he thinking, he who struggles to live, if his death is imminent, at any time? In brief, death must come beyond the shadow of a doubt, and as it is such a fearless enemy, it is not wise to wait for it without strength.</p>
+</div><p class="sd " id="l640-sd1">Enter Nuño.</p><div class="sp " data-who="NUN">
+  <p class="spk ">
+    NUÑO
+  </p>
+  <p class="pr " id="l641"><a class="pn " href="#l641">641</a>Sir, although it weighs on me to bring you such bad news, I must inform you.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l642"><a class="pn " href="#l642">642</a>There is no room left for more pain in my senses.</p>
+</div><div class="sp " data-who="NUN">
+  <p class="spk ">
+    NUÑO
+  </p>
+  <p class="pr " id="l643"><a class="pn " href="#l643">643</a>Doña Alambra is here.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l644"><a class="pn " href="#l644">644</a>Oh, God! What does she want from me, Nuño? If she comes to ask me for forgiveness, tell her she cannot do that, when I am the one who’s dying. If she’s here to give back my beloved offsprings, please forbid her to enter, as she cannot give me life that can compensate for the loss of seven such precious lives.</p>
+</div><div class="sp " data-who="NUN">
+  <p class="spk ">
+    NUÑO
+  </p>
+  <p class="pr " id="l645"><a class="pn m5" href="#l645">645</a>I rather think she comes to cause you a lot of trouble with some complaints she has.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l646"><a class="pn " href="#l646">646</a>Don’t let her in! Rodrigo is already stopping her from coming in!</p>
+</div><p class="sd " id="l646-sd1">Enter doña Alambra.</p><div class="sp " data-who="ALA">
+  <p class="spk ">
+    ALAMBRA
+  </p>
+  <p class="pr " id="l647"><a class="pn " href="#l647">647</a>Let me in, squires!</p>
+</div><div class="sp " data-who="NUN">
+  <p class="spk ">
+    NUÑO
+  </p>
+  <p class="pr " id="l648"><a class="pn " href="#l648">648</a>There she is.</p>
+</div><div class="sp " data-who="ALA">
+  <p class="spk ">
+    ALAMBRA
+  </p>
+  <p class="pr " id="l649"><a class="pn " href="#l649">649</a>Tell me, Gonzalo, is this worthy of a knight, ordering your crossbowmen to kill the object of my delight? Is this a proper way to avenge affronts, ordering your men to shoot my dovecote, to kill some of the doves, to drive away others, just to annoy me? Remedy this outrage or I will take their lives.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l650"><a class="pn m5" href="#l650">650</a>These complaints are typical of you.</p>
+</div><div class="sp " data-who="ALA">
+  <p class="spk ">
+    ALAMBRA
+  </p>
+  <p class="pr " id="l651"><a class="pn " href="#l651">651</a>How could I not take offence, when you gave me so many reasons?</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l652"><a class="pn " href="#l652">652</a>A woman of your social status comes to make such complaints because of a dove?</p>
+</div><div class="sp " data-who="ALA">
+  <p class="spk ">
+    ALAMBRA
+  </p>
+  <p class="pr " id="l653"><a class="pn " href="#l653">653</a>This whim entertains me.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l654"><a class="pn " href="#l654">654</a>It’s not a bad form of entertainment, but compare our complaints: I blame you for the death of my seven sons, while you accuse me of the death of a dove. I am not the one who took the shots, Alambra, I assure you, as those who shoot close one eye, and both my eyes are blind. And stop saying nonsense; you make vile complaints! My eyes are closed not because I mourn doves, but because I mourn the lives of my dead sons. This is how the world works: many of the powerful ones seek severe punishment for the killing of their birds, while others, for the killing of their children, do not. But don’t complain about the one who in your opinion takes such vile revenge, as you’ll surely not die like a dove because you have a lot of bile.</p>
+</div><div class="sp " data-who="ALA">
+  <p class="spk ">
+    ALAMBRA
+  </p>
+  <p class="pr " id="l655"><a class="pn m5" href="#l655">655</a>Bustos, you are the living proof that what they say about the tongue is true: it comes to life again as one gets old and life comes to an end. Such is your tongue; at this advanced age, while strength diminishes, all the fervour of the hands passes to the tongue. You should see that our complaints and disputes are uneven, and that your weeping is exaggerated, as your dead sons were ravens and these are my doves.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l656"><a class="pn " href="#l656">656</a>You judge well our differences. You’re right, Alambra, I mourn their remains in vain. My sons are ravens because they plucked out my eyes. I became blind for crying for them. Now I ran out of tears, but I am grateful to my children because thanks to them I can’t see your face, dear sister-in-law, and for that I don’t regret losing my sight.</p>
+</div><div class="sp " data-who="ALA">
+  <p class="spk ">
+    ALAMBRA
+  </p>
+  <p class="pr " id="l657"><a class="pn " href="#l657">657</a>Damn that Almanzor, that insolent, decrepit old man who let you live only to make me suffer!</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l658"><a class="pn " href="#l658">658</a>It didn’t affect your vengeance; as you know I’m still alive, you found a way to torture me with those seven stones you throw, the awakening knell of my grief and your rage. This clock announces sad hours. You rejoice every time this clock torments me because, though I’m blind, you make me awake at seven.</p>
+</div><div class="sp " data-who="ALA">
+  <p class="spk ">
+    ALAMBRA
+  </p>
+  <p class="pr " id="l659"><a class="pn " href="#l659">659</a>Oh, Almanzor, treacherous Moor, how could you spare the life of this immortal fervour?</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l660"><a class="pn m5" href="#l660">660</a>Shut up, Alambra, there is no life without its Almanzor. I will soon die, death will come for me.</p>
+</div><div class="sp " data-who="ALA">
+  <p class="spk ">
+    ALAMBRA
+  </p>
+  <p class="pr " id="l661"><a class="pn " href="#l661">661</a>It’s already late!</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l662"><a class="pn " href="#l662">662</a>It won’t be late any longer. But go away from here and it will arrive as soon as you’re gone. Out of fear of seeing you, death itself won’t dare to come because it will be afraid that you will kill it.</p>
+</div><div class="sp " data-who="ALA">
+  <p class="spk ">
+    ALAMBRA
+  </p>
+  <p class="pr " id="l663"><a class="pn " href="#l663">663</a>I won’t listen to any more nonsense!</p>
+</div><p class="sd " id="l663-sd1">Exit doña Alambra and enter Paez.</p><div class="sp " data-who="NUN">
+  <p class="spk ">
+    NUÑO
+  </p>
+  <p class="pr " id="l664"><a class="pn " href="#l664">664</a>Relentless woman!</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l665"><a class="pn m5" href="#l665">665</a>Fierce and relentless!</p>
+</div><div class="sp " data-who="PAE">
+  <p class="spk ">
+    PAEZ
+  </p>
+  <p class="pr " id="l666"><a class="pn " href="#l666">666</a>Three Moors have just arrived, although two of them are servants.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l667"><a class="pn " href="#l667">667</a>Moors, Paez?</p>
+</div><div class="sp " data-who="PAE">
+  <p class="spk ">
+    PAEZ
+  </p>
+  <p class="pr " id="l668"><a class="pn " href="#l668">668</a>Yes, sir.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l669"><a class="pn " href="#l669">669</a>Wanting to see me at such an advanced age? Tell them to come in. Moors? Me?</p>
+</div><p class="sd " id="l669-sd1">Enter Mudarra, Zayde and Lope, dressed as Moors.</p><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l670"><a class="pn m5" href="#l670">670</a>Which one of you, sirs, is the master of this house?</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l671"><a class="pn " href="#l671">671</a>This blind man is, noble Moor, Gonzalo Bustos de Lara, or rather the one who once used to be. You have nothing to add? Why don’t you speak?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l672"><a class="pn " href="#l672">672</a>I am astounded to see you. That venerable white hair imposes reverence.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l673"><a class="pn " href="#l673">673</a>If only I could also see you... I would be glad. Are you a youth?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l674"><a class="pn " href="#l674">674</a>Yes, I am.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l675"><a class="pn m5" href="#l675">675</a>How old are you?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l676"><a class="pn " href="#l676">676</a>I’m in the prime of my years.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l677"><a class="pn " href="#l677">677</a>At your age, you can’t lie through your teeth. Why are you here?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l678"><a class="pn " href="#l678">678</a>I bring you news from a friend.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l679"><a class="pn " href="#l679">679</a>Prisoner in Cordoba?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l680"><a class="pn m5" href="#l680">680</a>No, because Cordoba is his homeland. He is both Christian and Moor, as he is your son and Arlaja’s, a sister of Almanzor.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l681"><a class="pn " href="#l681">681</a>What are you saying?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l682"><a class="pn " href="#l682">682</a>The pure truth.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l683"><a class="pn " href="#l683">683</a>Did Arlaja give birth?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l684"><a class="pn " href="#l684">684</a>To this friend I’m telling you about.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l685"><a class="pn m5" href="#l685">685</a>You have just made my heart beat fast. Although he comes from a Moorish mother, I am delighted and glad to have a son in the end.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l686"><a class="pn " href="#l686">686</a>Arlaja is the sister of a king.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l687"><a class="pn " href="#l687">687</a>You’re right. She is already of noble blood. How is she?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l688"><a class="pn " href="#l688">688</a>She was fine when I left.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l689"><a class="pn " href="#l689">689</a>And the son, is he brave?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l690"><a class="pn m5" href="#l690">690</a>Like a branch that sprang from your trunk.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l691"><a class="pn " href="#l691">691</a>What disposition?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l692"><a class="pn " href="#l692">692</a>Determined.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l693"><a class="pn " href="#l693">693</a>What inclination?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l694"><a class="pn " href="#l694">694</a>To weapons.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l695"><a class="pn m5" href="#l695">695</a>What reasoning?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l696"><a class="pn " href="#l696">696</a>Courteous.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l697"><a class="pn " href="#l697">697</a>What personality?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l698"><a class="pn " href="#l698">698</a>Gallant.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l699"><a class="pn " href="#l699">699</a>What mind?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l700"><a class="pn m5" href="#l700">700</a>That of your son.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l701"><a class="pn " href="#l701">701</a>What friends?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l702"><a class="pn " href="#l702">702</a>All those who know him.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l703"><a class="pn " href="#l703">703</a>What nature?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l704"><a class="pn " href="#l704">704</a>Amorous.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l705"><a class="pn m5" href="#l705">705</a>What entertains him?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l706"><a class="pn " href="#l706">706</a>Hunting.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l707"><a class="pn " href="#l707">707</a>Does he know I am his father?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l708"><a class="pn " href="#l708">708</a>Isn’t coming to see you enough proof that he does?</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l709"><a class="pn " href="#l709">709</a>Does he esteem the name of Lara?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l710"><a class="pn m5" href="#l710">710</a>Is that a question?</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l711"><a class="pn " href="#l711">711</a>Then tell me, why hasn’t he come to Burgos or to Salas to see me in all these years?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l712"><a class="pn " href="#l712">712</a>Because he was misled into thinking that the King was his father. But one day, playing chess, the King called him a bastard. He wanted to know why and his mother revealed him the cause, nourishing his hope of coming here to become Christian.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l713"><a class="pn " href="#l713">713</a>Come and embrace me for this good news!</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l714"><a class="pn " href="#l714">714</a>I will, because I want to.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l715"><a class="pn m5" href="#l715">715</a>Oh, Great God!</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l716"><a class="pn " href="#l716">716</a>Let go of me!</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l717"><a class="pn " href="#l717">717</a>Wait!</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l718"><a class="pn " href="#l718">718</a>Why do you want to hold me in your arms?</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l719"><a class="pn " href="#l719">719</a>Your news left me with a strange feeling in my gut. My soul now wants to measure you up so that you fill the void left by my sons. You seem to have good intentions, my friend, but why don’t you tell me the truth? Are you my son? Are you?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l720"><a class="pn m5" href="#l720">720</a>Oh, father, I am Mudarra, Mudarra González. If you still have the other half of this ring you will see it fits this half here.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l721"><a class="pn " href="#l721">721</a>It won’t be necessary. The voice of blood states it more strongly. Oh, my offspring, born to be my happiness! Oh, God, if only I could see you! Oh God, if only I could see your face! I went blind mourning the death of my sons who were killed in Arabiana. If only I could regain my sight! Oh, strange nature, this is a miracle from Heaven! All that sadness blinded me and this joy gave me back the sight I had lost. My son, I can see you!</p>
+</div><div class="sp " data-who="NUN">
+  <p class="spk ">
+    NUÑO
+  </p>
+  <p class="pr " id="l722"><a class="pn " href="#l722">722</a>Sir, it can’t be, don’t let this joy affect your judgement.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l723"><a class="pn " href="#l723">723</a>Nuño, let’s thank God for this! I see you clearly and I also see Paez and for more proof, one of the Moors that accompany my dear Mudarra looks extremely like Lope, a servant from my house who used to serve Gonzalico.</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l724"><a class="pn " href="#l724">724</a>This is enough proof to believe you: I am Lope de Vivar, servant of doña Clara, your granddaughter, where Mudarra rested tonight. I came with him in disguise, because in order to take revenge it’s better to come like this.</p>
+</div><div class="sp " data-who="NUN">
+  <p class="spk ">
+    NUÑO
+  </p>
+  <p class="pr " id="l725"><a class="pn m5" href="#l725">725</a>The house is stirred up and so will the town be.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l726"><a class="pn " href="#l726">726</a>Before the news reach Ruy Velázquez and the Count, I have to go somewhere.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l727"><a class="pn " href="#l727">727</a>Where are you going?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l728"><a class="pn " href="#l728">728</a>To see my niece.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l729"><a class="pn " href="#l729">729</a>Wait, I need to talk to you.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l730"><a class="pn m5" href="#l730">730</a>Let’s go and we’ll talk, sir, but tell them not to reveal my secret.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l731"><a class="pn " href="#l731">731</a>Keep silent, my friends!</p>
+</div><div class="sp " data-who="NUN">
+  <p class="spk ">
+    NUÑO
+  </p>
+  <p class="pr " id="l732"><a class="pn " href="#l732">732</a>What’s going on, Lope?</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l733"><a class="pn " href="#l733">733</a>This haik will be the net which will catch a beast that is now wandering in those mountains.</p>
+</div><div class="sp " data-who="NUN">
+  <p class="spk ">
+    NUÑO
+  </p>
+  <p class="pr " id="l734"><a class="pn " href="#l734">734</a>I see courage in Mudarra.</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l735"><a class="pn m5" href="#l735">735</a>You will soon witness the revenge he will take on Ruy Velázquez for the death of the Infantes of Lara.</p>
+</div><p class="sd " id="l735-sd1">Exeunt and enter Ruy Velázquez, Ortuño and Iñigo, hunters.</p><div class="sp " data-who="IÑI">
+  <p class="spk ">
+    ÍÑIGO
+  </p>
+  <p class="pr " id="l736"><a class="pn " href="#l736">736</a>You don’t have to search anymore, nor cross the mountain.</p>
+</div><div class="sp " data-who="RUY">
+  <p class="spk ">
+    RUY
+  </p>
+  <p class="pr " id="l737"><a class="pn " href="#l737">737</a>I am tired of hunting.</p>
+</div><div class="sp " data-who="ORT">
+  <p class="spk ">
+    ORTUÑO
+  </p>
+  <p class="pr " id="l738"><a class="pn " href="#l738">738</a>The sun begins to touch the line of the horizon.</p>
+</div><div class="sp " data-who="RUY">
+  <p class="spk ">
+    RUY
+  </p>
+  <p class="pr " id="l739"><a class="pn " href="#l739">739</a>There is still much light left in the day. Did you tie up my Andalusian horse?</p>
+</div><div class="sp " data-who="ORT">
+  <p class="spk ">
+    ORTUÑO
+  </p>
+  <p class="pr " id="l740"><a class="pn m5" href="#l740">740</a>Tied at the foot of this hill, it’s trying to swallow the snaffle bit like an ostrich.</p>
+</div><div class="sp " data-who="RUY">
+  <p class="spk ">
+    RUY
+  </p>
+  <p class="pr " id="l741"><a class="pn " href="#l741">741</a>Don’t you want to hang the snaffle bit on the saddle tree as there is plenty of green grass and fertile hay here?</p>
+</div><div class="sp " data-who="ORT">
+  <p class="spk ">
+    ORTUÑO
+  </p>
+  <p class="pr " id="l742"><a class="pn " href="#l742">742</a>I bridle with a short bit the vigour it gains without it.</p>
+</div><div class="sp " data-who="RUY">
+  <p class="spk ">
+    RUY
+  </p>
+  <p class="pr " id="l743"><a class="pn " href="#l743">743</a>Does Bustos have any property around here?</p>
+</div><div class="sp " data-who="ORT">
+  <p class="spk ">
+    ORTUÑO
+  </p>
+  <p class="pr " id="l744"><a class="pn " href="#l744">744</a>I don’t know, but people from his house do.</p>
+</div><div class="sp " data-who="RUY">
+  <p class="spk ">
+    RUY
+  </p>
+  <p class="pr " id="l745"><a class="pn m5" href="#l745">745</a>Do they have cattle?</p>
+</div><div class="sp " data-who="ORT">
+  <p class="spk ">
+    ORTUÑO
+  </p>
+  <p class="pr " id="l746"><a class="pn " href="#l746">746</a>Yesterday I saw them for the first time.</p>
+</div><div class="sp " data-who="RUY">
+  <p class="spk ">
+    RUY
+  </p>
+  <p class="pr " id="l747"><a class="pn " href="#l747">747</a>Well, Bustos has to pay for some crossbow shots that made Alambra cry.</p>
+</div><div class="sp " data-who="IÑI">
+  <p class="spk ">
+    ÍÑIGO
+  </p>
+  <p class="pr " id="l748"><a class="pn " href="#l748">748</a>Some villain disturbs your dovecot with his crossbow, but don’t think that Bustos knows about it.</p>
+</div><div class="sp " data-who="RUY">
+  <p class="spk ">
+    RUY
+  </p>
+  <p class="pr " id="l749"><a class="pn " href="#l749">749</a>I will make sure he doesn’t brag about this.</p>
+</div><div class="sp " data-who="IÑI">
+  <p class="spk ">
+    ÍÑIGO
+  </p>
+  <p class="pr " id="l750"><a class="pn m5" href="#l750">750</a>Do you want to rest?</p>
+</div><div class="sp " data-who="RUY">
+  <p class="spk ">
+    RUY
+  </p>
+  <p class="pr " id="l751"><a class="pn " href="#l751">751</a>I would like to make of this cold spring a harbour of sleep for my ship.</p>
+</div><div class="sp " data-who="IÑI">
+  <p class="spk ">
+    ÍÑIGO
+  </p>
+  <p class="pr " id="l752"><a class="pn " href="#l752">752</a>It’s calling you and, as its veins are spreading through the sand, they seem to be singing.</p>
+</div><div class="sp " data-who="RUY">
+  <p class="spk ">
+    RUY
+  </p>
+  <p class="pr " id="l753"><a class="pn " href="#l753">753</a>I hope they cool down the blood in my own veins.</p>
+</div><div class="sp " data-who="ORT">
+  <p class="spk ">
+    ORTUÑO
+  </p>
+  <p class="pr " id="l754"><a class="pn " href="#l754">754</a>They will; there is no better music than their murmur.</p>
+</div><div class="sp " data-who="RUY">
+  <p class="spk ">
+    RUY
+  </p>
+  <p class="pr " id="l755"><a class="pn m5" href="#l755">755</a>In the meantime you two can go find a place to hide from this heat.</p>
+</div><div class="sp " data-who="IÑI">
+  <p class="spk ">
+    ÍÑIGO
+  </p>
+  <p class="pr " id="l756"><a class="pn " href="#l756">756</a>God be with you!</p>
+</div><p class="sd " id="l756-sd1">Exeunt.</p><div class="sp " data-who="RUY">
+  <p class="spk ">
+    RUY
+  </p>
+  <p class="pr " id="l757"><a class="pn " href="#l757">757</a>In my case it is not so much the heat, but the concern and the fear that trouble me. I want to lie down here, although my anguish doesn’t let me sleep. All these days I’ve been imagining things. I envision the death of my nephews and their burning remains, which in many ways stirs in me mixed feelings of fear and anger. As soon as I’m alone I have the impression I see them and so in order not to see them I try to avoid them. The shadows I keep seeing seem as real as the truth. Nuño is there, all broken and disarmed; there is Fernando, with his face covered in blood; over there Ortuño complains irately about my cruelty; there Gonzalo, the youngest of all, seems to pounce on me, calling me traitor. Finally, all seven are frightening me. Leave me alone, imaginings! Soul of mine, why do you torment me with such sombre chimeras?</p>
+</div><p class="sd " id="l757-sd1">Enter Mudarra, Lope and Zayde.</p><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l758"><a class="pn " href="#l758">758</a>It’s him, I recognize him.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l759"><a class="pn " href="#l759">759</a>Hold! Let’s think this over!</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l760"><a class="pn m5" href="#l760">760</a>If this traitor knows you have been looking for him, Mudarra, how can he live and pass the time like that? How can he rest so freely, with his sword in the scabbard, on a hill next to Burgos, in the shadows of a beech tree?</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l761"><a class="pn " href="#l761">761</a>I’ll wait here, it’s him alright.</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l762"><a class="pn " href="#l762">762</a>Ruy Velázquez is lying down under those green branches, tired of hunting. I think you should nail him to the ground with that spear.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l763"><a class="pn " href="#l763">763</a>I can’t do that, he must know why he dies and who kills him. Listen to me, Ruy Velázquez, whom the Moors call the Brave, who is both traitor and valiant: traitor to the Count, your master, as you deprived his war and armies of seven soldiers that are worth as much as the Nine Worthies; traitor to your own country, as you deprived your country of seven walls, of seven towers and of the best barbican; traitor to your noble blood, as you sold the blood of Lara to your enemies in exchange for your revenge; traitor to your friend and kinsman, whom you sent with a letter to a Moor asking the latter to put a knife to his throat; traitor to Heaven, as you gave blood of Christian law to the Cordovan Moors who have been slandering you for the past twenty years. This is how old I am, as I am the son of Bustos and Arlaja, conceived by them in prison, while she was guarding him. Heaven made a new branch spring from this old trunk when you, as a villain, stripped it of so many. I am Mudarra. What are you looking at? They call me Mudarra, living portrait of Gonzalillo, doña Alambra’s worst nightmare. Come on, brave Ruy Velázquez, Mudarra is waiting for you to kill you hand-to-hand, one-on-one on the battlefield. Although you killed my seven brothers like a traitor, I as loyal soldier avenge them with my spear and buckler. Come on, as my wife and niece Clara, granddaughter of Gonzalo Bustos, daughter of doña Constanza, Gonzalillo’s wife, is waiting for me! Come on! What are you expecting? What are you waiting for? On my mother Arlaja’s side the blood of the King of Cordoba runs through my veins. On Bustos’s side, my brothers are the seven Infantes of Lara whom you treacherously killed in the fields of Arabiana.</p>
+</div><div class="sp " data-who="RUY">
+  <p class="spk ">
+    RUY
+  </p>
+  <p class="pr " id="l764"><a class="pn " href="#l764">764</a>You’re lying, infamous Moor! Galve and Viara killed your brothers in a hand-to-hand battle in Fabros. I forgive you for your shamelessness, as neither your blood, nor your beard obliges you to have shame. Mudarrilla, my name is Rodrigo, Rodrigo de Velázquez and Lara; it makes the Moors from Jaen, Cordoba and Baza tremble at the sound of it. From Sierra Morena to Sierra Nevada, I’m not afraid of little bastards, sons of their own infamy. You’re a bastard.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l765"><a class="pn m5" href="#l765">765</a>You’re lying, if you’re infamously calling me a bastard! In my homeland words are the only weddings and according to our law, marriage is determined by the will of the souls. Come fight me in the fields!</p>
+</div><div class="sp " data-who="RUY">
+  <p class="spk ">
+    RUY
+  </p>
+  <p class="pr " id="l766"><a class="pn " href="#l766">766</a>Drop the spear!</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l767"><a class="pn " href="#l767">767</a>I challenge you to a duel, Rodrigo! Heaven, be the judge of your cause!</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l768"><a class="pn " href="#l768">768</a>Zayde, if those squires try to defend him, take out your sword.</p>
+</div><div class="sp " data-who="ZAY">
+  <p class="spk ">
+    ZAYDE
+  </p>
+  <p class="pr " id="l769"><a class="pn " href="#l769">769</a>I’m ready.</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l770"><a class="pn m5" href="#l770">770</a>The battle begins.</p>
+</div><div class="sp " data-who="ZAY">
+  <p class="spk ">
+    ZAYDE
+  </p>
+  <p class="pr " id="l771"><a class="pn " href="#l771">771</a>What mighty blows the valiant Mudarra strikes at him!</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l772"><a class="pn " href="#l772">772</a>Can’t you see he is backed up by blood, reason, honour and reputation?</p>
+</div><p class="sd " id="l772-sd1">Exeunt fighting and enter Count Garci Fernández, Gonzalo Bustos and doña Clara.</p><div class="sp " data-who="GAR">
+  <p class="spk ">
+    GARCI FERNÁNDEZ
+  </p>
+  <p class="pr " id="l773"><a class="pn " href="#l773">773</a>Bustos, I couldn’t rest until I saw you. What? You regained your eyesight! Curious case!</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l774"><a class="pn " href="#l774">774</a>I came here, great lord, to obey your wish.</p>
+</div><div class="sp " data-who="GAR">
+  <p class="spk ">
+    GARCI FERNÁNDEZ
+  </p>
+  <p class="pr " id="l775"><a class="pn m5" href="#l775">775</a>And I gladly welcome you.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l776"><a class="pn " href="#l776">776</a>I’d like you to meet my granddaughter Clara. Heaven was generous enough to leave me an offspring of my blood who will inherit my fortune.</p>
+</div><div class="sp " data-who="GAR">
+  <p class="spk ">
+    GARCI FERNÁNDEZ
+  </p>
+  <p class="pr " id="l777"><a class="pn " href="#l777">777</a>Is she the daughter of the youngest of the Laras?</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l778"><a class="pn " href="#l778">778</a>Of Gonzalo, my son.</p>
+</div><div class="sp " data-who="CLA">
+  <p class="spk ">
+    CLARA
+  </p>
+  <p class="pr " id="l779"><a class="pn " href="#l779">779</a>I humbly stand at your feet.</p>
+</div><div class="sp " data-who="GAR">
+  <p class="spk ">
+    GARCI FERNÁNDEZ
+  </p>
+  <p class="pr " id="l780"><a class="pn m5" href="#l780">780</a>Arise, Clara, and may Holy Heaven prolong your life!</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l781"><a class="pn " href="#l781">781</a>Given that her mother found refuge in religion, Clara should ask for your protection and serve the Countess, my lady, from now on.</p>
+</div><div class="sp " data-who="GAR">
+  <p class="spk ">
+    GARCI FERNÁNDEZ
+  </p>
+  <p class="pr " id="l782"><a class="pn " href="#l782">782</a>I’m pleased to offer her protection and I promise you I will be like a father to her and, at the same time, her sovereign.</p>
+</div><p class="sd " id="l782-sd1">Enter Ortuño and Iñigo.</p><div class="sp " data-who="IÑI">
+  <p class="spk ">
+    ÍÑIGO
+  </p>
+  <p class="pr " id="l783"><a class="pn " href="#l783">783</a>Where is the Count?</p>
+</div><div class="sp " data-who="GAR">
+  <p class="spk ">
+    GARCI FERNÁNDEZ
+  </p>
+  <p class="pr " id="l784"><a class="pn " href="#l784">784</a>Iñigo, why all the fuss?</p>
+</div><div class="sp " data-who="IÑI">
+  <p class="spk ">
+    ÍÑIGO
+  </p>
+  <p class="pr " id="l785"><a class="pn m5" href="#l785">785</a>To show you my pain.</p>
+</div><div class="sp " data-who="GAR">
+  <p class="spk ">
+    GARCI FERNÁNDEZ
+  </p>
+  <p class="pr " id="l786"><a class="pn " href="#l786">786</a>What do you mean?</p>
+</div><div class="sp " data-who="IÑI">
+  <p class="spk ">
+    ÍÑIGO
+  </p>
+  <p class="pr " id="l787"><a class="pn " href="#l787">787</a>That Bustos, the one who came to your service, pretending to honour you, secretly brought from Cordoba…</p>
+</div><div class="sp " data-who="GAR">
+  <p class="spk ">
+    GARCI FERNÁNDEZ
+  </p>
+  <p class="pr " id="l788"><a class="pn " href="#l788">788</a>Whom did he bring?</p>
+</div><div class="sp " data-who="IÑI">
+  <p class="spk ">
+    ÍÑIGO
+  </p>
+  <p class="pr " id="l789"><a class="pn " href="#l789">789</a>A Moor, a certain Mudarra, his alleged son, who killed Ruy Velázquez on a hill and who says he wants to burn down his house because he’s like the African Rodamonte.</p>
+</div><div class="sp " data-who="GAR">
+  <p class="spk ">
+    GARCI FERNÁNDEZ
+  </p>
+  <p class="pr " id="l790"><a class="pn m5" href="#l790">790</a>What’s this all about, Bustos?</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l791"><a class="pn " href="#l791">791</a>Without extending myself too much, be prepared to shed some tears while listening to my story. I confess I had this Mudarra when I was in prison, with a sister of Almanzor. He came to avenge his blood, which, as you know, is justice of Heaven and not malice. If you think I am guilty, you can put an end to my life which already covets death. I don’t want you to praise revenge, but I do want you to praise justice. If God, who is the Creator of the world, brought him, do you, by any chance, want to get in the way?</p>
+</div><div class="sp " data-who="GAR">
+  <p class="spk ">
+    GARCI FERNÁNDEZ
+  </p>
+  <p class="pr " id="l792"><a class="pn " href="#l792">792</a>Why didn’t you tell me that he was coming?</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l793"><a class="pn " href="#l793">793</a>I kept silent because I wanted to make him Christian first.</p>
+</div><p class="sd " id="l793-sd1">Enter Mudarra carrying the head, Lope and Zayde.</p><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l794"><a class="pn " href="#l794">794</a>No one dare hinder my revenge!</p>
+</div><div class="sp " data-who="IÑI">
+  <p class="spk ">
+    ÍÑIGO
+  </p>
+  <p class="pr " id="l795"><a class="pn m5" href="#l795">795</a>This is Mudarra.</p>
+</div><div class="sp " data-who="GAR">
+  <p class="spk ">
+    GARCI FERNÁNDEZ
+  </p>
+  <p class="pr " id="l796"><a class="pn " href="#l796">796</a>How ferocious and irate!</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l797"><a class="pn " href="#l797">797</a>Famous Count, may Heaven prolong your illustrious life and may your noble state expand to the farthest pole from ours. My name is Mudarra. I am not one of your vassals. As nephew of Almanzor, I set out to behead this tyrant. In case that was a mistake, I stand at your feet and I ask your nobility to excuse my crime. I decided to come here in person as soon as I found out about his baseness and my noble Christian parentage, for which, due to such sacred law, I have double respect. If you show empathy for my vengeance, honourable Castilian, I will give you three things: first, a soldier, whose spear will make the African savage tremble; second, as I hope, a Christian Prince for your Church; third, the peace with the King, my uncle, and his support out of respect for me. But for each thing you must give me something in return: forgiveness for the first one, Clara’s hand in marriage for the second and for the third, sir, an embrace.</p>
+</div><div class="sp " data-who="GAR">
+  <p class="spk ">
+    GARCI FERNÁNDEZ
+  </p>
+  <p class="pr " id="l798"><a class="pn " href="#l798">798</a>Mudarra, your miraculous revenge will receive even greater rewards through fame. I accept this agreement on the three accounts: my forgiveness, your marriage and my arms.</p>
+</div><div class="sp " data-who="LOPE">
+  <p class="spk ">
+    LOPE
+  </p>
+  <p class="pr " id="l799"><a class="pn " href="#l799">799</a>I jump and dance of joy! I am not a Moor, I am Lope de Vivar, the Asturian.</p>
+</div><div class="sp " data-who="GAR">
+  <p class="spk ">
+    GARCI FERNÁNDEZ
+  </p>
+  <p class="pr " id="l800"><a class="pn m5" href="#l800">800</a>I’ll give you a harness made of gold and silver.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l801"><a class="pn " href="#l801">801</a>And I a vigorous Cordovan horse.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l802"><a class="pn " href="#l802">802</a>Baptize me, as I believe in Christ.</p>
+</div><div class="sp " data-who="GAR">
+  <p class="spk ">
+    GARCI FERNÁNDEZ
+  </p>
+  <p class="pr " id="l803"><a class="pn " href="#l803">803</a>I will be your godfather.</p>
+</div><div class="sp " data-who="MUD">
+  <p class="spk ">
+    MUDARRA
+  </p>
+  <p class="pr " id="l804"><a class="pn " href="#l804">804</a>I’m finally a Christian.</p>
+</div><div class="sp " data-who="BUS">
+  <p class="spk ">
+    BUSTOS
+  </p>
+  <p class="pr " id="l805"><a class="pn m5" href="#l805">805</a>And this is how this extraordinary story ends, the story of the bastard Mudarra and the seven Infantes of Lara.</p>
+</div>
+  
+</section>
+    
+    <section class="notes" role="doc-endnotes" aria-label="Notas" data-en-aria-label="Notes" data-tr>
+  <ol>
+    <li id="note-2" popover value="2">
+      <button type="button" popovertarget="note-2" popovertargetaction="hide" aria-label="Cerrar" data-en-aria-label="Close" data-tr>
+        ×
+      </button>
+      <b><x-es>Nota del traductor</x-es><x-en>Translator&#39;s note</x-en></b>
+      
+      <p><em>Labour.</em> Lope de Vega creates a pun in this line, and in the one following it, with the double meaning of the word “parto”: on the one hand the verb “parto” (“I leave”) from the infinitive <em>partir</em> (to leave) and on the other hand, the noun “parto” (“labour”), that derives from the verb <em>parir</em> (to give birth). I have tried to maintain this pun in English, by adapting the text and using the word “labour”, first as a verb, and immediately after, in Arlaja’s intervention, as a noun. According to the <em>Oxford English Dictionary</em>, one of the meanings of the verb <em>to labour</em> is “To strive or endeavour strenuously <em>to</em> accomplish, bring about, or do something; to exert oneself <em>for</em> an end.” Examples: True Affliction labours to be invisible. (R. Steele, <em>Spectator</em>, No. 95, 1711); I have systematically laboured to reduce them to good order &amp; discipline. (W. S. Churchill Let. 23 Apr. in W. S. Churchill &amp; C. S. Churchill, <em>Speaking for Themselves</em>, 1999, iv. 84)</p>
+    </li>
+  </ol>
+</section>
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-2.html" rel="prev">← Act II</a>
+  
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

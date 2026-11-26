@@ -1,0 +1,2414 @@
+<?xml version="1.0" ?>
+<TEI xml:lang="es" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="original">Les amours tragiques de Pyrame et Thisbé</title>
+        <title type="traduccion">Los amores trágicos de Píramo y Tisbe</title>
+        <title key="orden">amores trágicos de Píramo y Tisbe Los</title>
+        <title key="archivo">EMOTHE0528_LosAmoresTragicosDePiramoYTisbe</title>
+        <author ana="fiable">Théophile de Viau</author>
+        <author key="orden">Viau, Théophile de</author>
+        <sponsor>
+          <orgName>Plan Nacional de Investigación Científica, Desarrollo e Innovación Tecnológica (Plan Nacional de I+D+i)</orgName>
+        </sponsor>
+        <funder>
+          <orgName>Dirección General de Investigación y Gestión del Plan Nacional de I+D+I (DGI). http://www.idi.mineco.gob.es</orgName>
+        </funder>
+        <editor role="translator">
+          <persName>Miñano Martínez, Evelio</persName>
+        </editor>
+        <principal>Joan Oleza Simó</principal>
+      </titleStmt>
+      <editionStmt>
+        <edition>Edición electrónica de &apos;Los amores trágicos de Píramo y Tisbe&apos;</edition>
+        <respStmt>
+          <resp>Electronic edition: text adapted, edited for XML and encoded by</resp>
+          <persName>Durá Celma, Rosa</persName>
+        </respStmt>
+      </editionStmt>
+      <extent ana="verso">1234 versos</extent>
+      <publicationStmt>
+        <publisher>
+          <orgName>Proyecto ARTELOPE. Base de datos, argumentos y textos del teatro clásico español (FFI 2009 -12730) http://artelope.uv.es</orgName>
+        </publisher>
+        <idno type="code">EMOTHE0528_LosAmoresTragicosDePiramoYTisbe</idno>
+        <idno type="EMOTHE">0528</idno>
+        <pubPlace>Valencia</pubPlace>
+        <date>2018</date>
+        <authority>
+          <orgName>Universitat de València - Estudi General. http://www.uv.es</orgName>
+        </authority>
+        <availability>
+          <p>La Colección de Teatro Clasico Europeo (CTCE) pertenece al proyecto Artelope y ofrece en la web textos completos sin ánimo de lucro y libres de derechos de lectura y de reproducción. En este último caso se ruega citar la procedencia: &quot;Oleza, Joan et al. Base de Datos y Argumentos del teatro de Lope de Vega. ARTELOPE. Publicación en web: http://artelope.uv.es&quot;</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem target="EMOTHE0530" type="original"/>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Los amores trágicos de Píramo y Tisbe</title>
+          <author>Viau, Théophile de</author>
+          <editor role="traductor">Miñano Martínez, Evelio</editor>
+          <lang>Español</lang>
+<note>Viau, Théophile de. <emph>Los amores trágicos de Píramo y Tisbe</emph>. Traducido por Evelio Miñano Martínez, para la colección EMOTHE. Valencia: ARTELOPE Universitat de València, 2018.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>La Colección de Textos Clásicos Europeos (CTCE) supone la creación de una base de datos de Teatro canónico clásico europeo en diferentes idiomas, versiones y refundiciones, todas ellas hipervinculadas.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Las presentes ediciones digitales están basadas, en su mayor parte, en ediciones científicas de reconocido prestigio y se ha tratado, en la mayoría de ocasiones, de respetar sus criterios de edición. Solo en casos muy puntuales el editor digital ha introducido leves cambios de los que da cumplida cuenta en el apartado de &quot;Notas&quot;.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="CDU">
+          <bibl>Clasificación Decimal Universal</bibl>
+        </taxonomy>
+      </classDecl>
+      <refsDecl>
+        <citeStructure match="/TEI/text/body//l[@n]" unit="verse" use="@n"/>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="es-ES">Español</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#CDU">821.134.2-2</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+<change><date>2018</date> <persName>Muñoz Pons, Carlos</persName> Revisión de la obra en formato TEI-XML</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>
+            <title>Los amores trágicos de Píramo y Tisbe</title>
+          </titlePart>
+        </docTitle>
+        <docAuthor>Théophile de Viau</docAuthor>
+      </titlePage>
+      <div type="head_title">
+        <head>Los amores trágicos de Píramo y Tisbe</head>
+      </div>
+      <div type="elenco">
+        <castList>
+          <castItem>
+            <role xml:id="TISB">Tisbe</role>
+          </castItem>
+          <castItem>
+            <role xml:id="PIRA">Píramo</role>
+          </castItem>
+          <castItem>
+            <role xml:id="BERSI">Bersiana</role>
+          </castItem>
+          <castItem>
+            <role xml:id="NARB">Narbal</role>
+          </castItem>
+          <castItem>
+            <role xml:id="LIDIAS">Lidias</role>
+          </castItem>
+          <castItem>
+            <role xml:id="REY">El Rey</role>
+          </castItem>
+          <castItem>
+            <role xml:id="SILAR">Sílar</role>
+          </castItem>
+          <castItem>
+            <role xml:id="DISAR">Disarco</role>
+          </castItem>
+          <castItem>
+            <role xml:id="DEUX">Deuxis</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="MADRE">MADRE DE TISBE</role>
+          </castItem>
+          <castItem ana="oculto">
+            <role xml:id="CONFID">CONFIDENTE</role>
+          </castItem>
+          <castItem>
+            <role xml:id="MADREYCONFI">La Madre de Tisbe y su Confidente</role>
+          </castItem>
+          <castItem>
+            <role xml:id="MENSA">[El Mensajero]</role>
+          </castItem>
+        </castList>
+        <note>
+<p><emph>N.B.</emph> El Mensajero solo figura en 1626S, para corregir la errónea atribución de dos intervenciones a Sílar en el acto III, escena II.</p>
+        </note>
+      </div>
+    </front>
+    <body>
+      <div1 n="1" type="act">
+        <stage xml:id="em0528-es-st-1">Tisbe, Bersiana, Narbal, Lidias, el Rey, Sílar</stage>
+        <div2 type="scene" xml:id="em0528-es-sc-1">
+          <head>Escena 1</head>
+          <stage xml:id="em0528-es-st-2">Tisbe, Bersiana</stage>
+          <sp who="#TISB" xml:id="em0528-es-sp-1">
+            <speaker>Tisbe</speaker>
+            <lg part="M" type="free">
+              <l n="1" xml:id="em0528-es-1">Separada por fin del ruido y los molestos,</l>
+              <l n="2" xml:id="em0528-es-2">mi fantasía a solas conmigo retirada,</l>
+              <l n="3" xml:id="em0528-es-3">ya puedo abrir mi alma a la luz de los cielos,</l>
+              <l n="4" xml:id="em0528-es-4">libre ahora mi voz, libres también mis ojos:</l>
+              <l n="5" xml:id="em0528-es-5">me es permitido aquí decir tu nombre, Píramo,</l>
+              <l n="6" xml:id="em0528-es-6">me es permitido aquí llamarte alma mía.</l>
+              <l n="7" xml:id="em0528-es-7">Alma mía, ¿qué dije? Esto es mal discurrir,</l>
+              <l n="8" xml:id="em0528-es-8">que el alma nos da vida y tú me haces morir.</l>
+              <l n="9" xml:id="em0528-es-9">Verdad es que la muerte que tu amor me procura</l>
+              <l n="10" xml:id="em0528-es-10">es la única cosa que yo llamo vivir:</l>
+<l n="11" xml:id="em0528-es-11">lento y adormecido sin amor, nuestro espíritu<note n="3439" type="traductor"><term>espíritu</term><p>Según Michèle Rosellini (2012a: 39), el autor se refiere al espíritu vital de la medicina galénica.</p></note></l>
+              <l n="12" xml:id="em0528-es-12">como en un sueño pasa nuestros jóvenes años;</l>
+              <l n="13" xml:id="em0528-es-13">antes de haber amado no se conoce el uso</l>
+              <l n="14" xml:id="em0528-es-14">que albergan los sentidos y los rasgos del rostro;</l>
+              <l n="15" xml:id="em0528-es-15">faltos de esa pasión, el animal más torpe</l>
+              <l n="16" xml:id="em0528-es-16">sabría el bien y el mal aún mejor que nosotros,</l>
+              <l n="17" xml:id="em0528-es-17">sería nuestro sino igual que el de los árboles</l>
+              <l n="18" xml:id="em0528-es-18">y en nosotros serían las bellezas cual mármoles</l>
+              <l n="19" xml:id="em0528-es-19">donde al grabar la imagen de lo humano, el Obrero</l>
+              <l n="20" xml:id="em0528-es-20">no sabría hacer que ojos y manos se movieran.</l>
+              <l n="21" xml:id="em0528-es-21">El ojo cuyo brillo solo luce a ventura</l>
+              <l n="22" xml:id="em0528-es-22">es como el sol oculto por la naturaleza,</l>
+              <l n="23" xml:id="em0528-es-23">antes que hubiera entrado en sus casas del cielo</l>
+              <l n="24" xml:id="em0528-es-24">y mirado lo bellas que son las estaciones.</l>
+              <l n="25" xml:id="em0528-es-25">Mas yo creo que solo desde la hora primera</l>
+              <l n="26" xml:id="em0528-es-26">en que amor me tocó, conseguí ver la luz,</l>
+              <l n="27" xml:id="em0528-es-27">y que mi corazón no comenzó a vivir</l>
+              <l n="28" xml:id="em0528-es-28">sino cuando se puso a suspirar de amor;</l>
+              <l n="29" xml:id="em0528-es-29">y a pesar de que el cielo haga fluir mi vida</l>
+              <l n="30" xml:id="em0528-es-30">en esta pasión con un poco de envidia,</l>
+              <l n="31" xml:id="em0528-es-31">que mil impedimentos combatan mis deseos,</l>
+              <l n="32" xml:id="em0528-es-32">que amenace un funesto final nuestros placeres,</l>
+              <l n="33" xml:id="em0528-es-33">que las tercas discordias de un odio inveterado</l>
+              <l n="34" xml:id="em0528-es-34">aún dividan la casa de Píramo y la mía,</l>
+              <l n="35" xml:id="em0528-es-35">que todo, hombres y cielo, arruine mi designio,</l>
+              <l n="36" xml:id="em0528-es-36">yo, aun así, no podría, de este pecho arrancármela;</l>
+              <l n="37" xml:id="em0528-es-37">y si pudiera hacerlo, mucho me apenaría</l>
+              <l n="38" xml:id="em0528-es-38">que mi alma se curara de tan dulce tormento.</l>
+              <l n="39" xml:id="em0528-es-39">Una salud como esa me daría la muerte;</l>
+              <l n="40" xml:id="em0528-es-40">solamente pensarlo me enoja y hace daño.</l>
+            </lg>
+          </sp>
+          <sp who="#BERSI" xml:id="em0528-es-sp-2">
+            <speaker>Bersiana</speaker>
+            <lg part="M" type="free">
+              <l n="41" xml:id="em0528-es-41">¡Cómo os habéis podido alejar de nosotros!</l>
+              <l n="42" xml:id="em0528-es-42">¿Os atrevéis a ir sin compañía alguna?</l>
+              <l n="43" xml:id="em0528-es-43">Todos están en casa preocupados por vos,</l>
+              <l n="44" xml:id="em0528-es-44">y aún más vuestra madre, que está muy irritada.</l>
+            </lg>
+          </sp>
+          <sp who="#TISB" xml:id="em0528-es-sp-3">
+            <speaker>Tisbe</speaker>
+            <lg part="M" type="free">
+              <l n="45" xml:id="em0528-es-45">Y eso, ¿por qué? Mi vida, ¿tan sospechosa es?</l>
+            </lg>
+          </sp>
+          <sp who="#BERSI" xml:id="em0528-es-sp-4">
+            <speaker>Bersiana</speaker>
+            <lg part="M" type="free">
+              <l n="46" xml:id="em0528-es-46">¡No!, mas los viejos siempre quieren que los respeten.</l>
+              <l n="47" xml:id="em0528-es-47">Deberíais, al menos, habernos avisado,</l>
+              <l n="48" xml:id="em0528-es-48">mostrando de algún modo que ibais a salir.</l>
+            </lg>
+          </sp>
+          <sp who="#TISB" xml:id="em0528-es-sp-5">
+            <speaker>Tisbe</speaker>
+            <lg part="M" type="free">
+              <l n="49" xml:id="em0528-es-49">¿No sabes que me gusta soñar, estar callada,</l>
+              <l n="50" xml:id="em0528-es-50">que, por mi natural, soy algo solitaria,</l>
+              <l n="51" xml:id="em0528-es-51">que intento muchas veces alejarme del ruido?</l>
+              <l n="52" xml:id="em0528-es-52">Siento, a decir verdad, odio por quien me sigue;</l>
+              <l n="53" xml:id="em0528-es-53">a veces, mi tristeza hallaría molesto</l>
+              <l n="54" xml:id="em0528-es-54">incluso conversar con la buena fortuna</l>
+              <l n="55" xml:id="em0528-es-55">y me disgustaría la visita de un dios;</l>
+              <l n="56" xml:id="em0528-es-56">hasta un rayo del sol me enojaría a veces.</l>
+            </lg>
+          </sp>
+          <sp who="#BERSI" xml:id="em0528-es-sp-6">
+            <speaker>Bersiana</speaker>
+            <lg part="M" type="free">
+<l n="57" xml:id="em0528-es-57">¿Una hoja que cae, un céfiro, un átomo<note n="3909" type="editor"><term>átomo</term><p>Alleaume (Viau, 1855: 97), aun reconociendo que las diferentes ediciones atribuyen este verso a Bersiana, considera que tiene más sentido si lo pronuncia Tisbe.</p></note>?</l>
+            </lg>
+          </sp>
+          <sp who="#TISB" xml:id="em0528-es-sp-7">
+            <speaker>Tisbe</speaker>
+            <lg part="M" type="free">
+              <l n="58" xml:id="em0528-es-58">Imagina el efecto que tendría un fantasma</l>
+              <l n="59" xml:id="em0528-es-59">y cómo me vería yo misma castigada</l>
+              <l n="60" xml:id="em0528-es-60">si un infernal espíritu viniera a hablar conmigo.</l>
+            </lg>
+          </sp>
+          <sp who="#BERSI" xml:id="em0528-es-sp-8">
+            <speaker>Bersiana</speaker>
+            <lg part="M" type="free">
+              <l n="61" xml:id="em0528-es-61">Según eso, ya formo parte yo de ese número.</l>
+            </lg>
+          </sp>
+          <sp who="#TISB" xml:id="em0528-es-sp-9">
+            <speaker>Tisbe</speaker>
+            <lg part="M" type="free">
+              <l n="62" xml:id="em0528-es-62">Nunca algo vivo más se pareció a una sombra.</l>
+            </lg>
+          </sp>
+          <sp who="#BERSI" xml:id="em0528-es-sp-10">
+            <speaker>Bersiana</speaker>
+            <lg part="M" type="free">
+              <l n="63" part="I" xml:id="em0528-es-63">¿Y por qué esos desdenes?</l>
+            </lg>
+          </sp>
+          <sp who="#TISB" xml:id="em0528-es-sp-11">
+            <speaker>Tisbe</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-64">Viejo espectro de huesos,</l>
+              <l n="64" xml:id="em0528-es-65">¡vaya ganas que tengo de que tú me entretengas!</l>
+            </lg>
+          </sp>
+          <sp who="#BERSI" xml:id="em0528-es-sp-12">
+            <speaker>Bersiana</speaker>
+            <lg part="M" type="free">
+              <l n="65" xml:id="em0528-es-66">Advierto claramente que murmura de mí.</l>
+              <l n="66" xml:id="em0528-es-67">Concluyo, pues, que soy esa infernal figura.</l>
+            </lg>
+          </sp>
+          <sp who="#TISB" xml:id="em0528-es-sp-13">
+            <speaker>Tisbé</speaker>
+            <lg part="M" type="free">
+              <l n="67" xml:id="em0528-es-68">No es eso lo que digo, más te imaginarás…</l>
+            </lg>
+          </sp>
+          <sp who="#BERSI" xml:id="em0528-es-sp-14">
+            <speaker>Bersiana</speaker>
+            <lg part="M" type="free">
+              <l n="68" xml:id="em0528-es-69">Que conversar conmigo es algo prescindible.</l>
+            </lg>
+          </sp>
+          <sp who="#TISB" xml:id="em0528-es-sp-15">
+            <speaker>Tisbe</speaker>
+            <lg part="M" type="free">
+              <l n="69" part="I" xml:id="em0528-es-70">Justamente.</l>
+            </lg>
+          </sp>
+          <sp who="#BERSI" xml:id="em0528-es-sp-16">
+            <speaker>Bersiana</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-71">Comprendo, si no me falta seso.…</l>
+            </lg>
+          </sp>
+          <sp who="#TISB" xml:id="em0528-es-sp-17">
+            <speaker>Tisbe</speaker>
+            <lg part="M" type="free">
+              <l n="70" xml:id="em0528-es-72">Que otra cosa que tú tengo en el pensamiento.</l>
+            </lg>
+          </sp>
+          <sp who="#BERSI" xml:id="em0528-es-sp-18">
+            <speaker>Bersiana</speaker>
+            <lg part="M" type="free">
+              <l n="71" xml:id="em0528-es-73">Tenían sus motivos, Tisbe, nuestra sospechas</l>
+              <l n="72" xml:id="em0528-es-74">cuando todos los días tanta advertencia os dábamos;</l>
+              <l n="73" xml:id="em0528-es-75">no yerra vuestra madre poniendo ojos y oídos</l>
+              <l n="74" part="I" xml:id="em0528-es-76">en lo que estáis haciendo.</l>
+            </lg>
+          </sp>
+          <sp who="#TISB" xml:id="em0528-es-sp-19">
+            <speaker>Tisbe</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-77">No importa que vigile.</l>
+              <l n="75" xml:id="em0528-es-78">Yo nunca nada hice para temer testigos,</l>
+              <l n="76" xml:id="em0528-es-79">mi inocencia se burla de vuestras inquietudes,</l>
+              <l n="77" xml:id="em0528-es-80">me turban todas ellas lo que el ruido de una hoja,</l>
+              <l n="78" part="I" xml:id="em0528-es-81">pues vivo sin reproche.</l>
+            </lg>
+          </sp>
+          <sp who="#BERSI" xml:id="em0528-es-sp-20">
+            <speaker>Bersiana</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-82">¡Ah, Dios lo quiera así!</l>
+            </lg>
+          </sp>
+          <sp who="#TISB" xml:id="em0528-es-sp-21">
+            <speaker>Tisbe</speaker>
+            <lg part="M" type="free">
+              <l n="79" xml:id="em0528-es-83">Adiós, búscate a otro que te quiera escuchar.</l>
+            </lg>
+          </sp>
+          <sp who="#BERSI" xml:id="em0528-es-sp-22">
+            <speaker>Bersiana</speaker>
+            <lg part="M" type="free">
+              <l n="80" xml:id="em0528-es-84">Por mucho que uno esconda tal secreto en los huesos,</l>
+              <l n="81" xml:id="em0528-es-85">el amor, la ambición, el orgullo y la cólera</l>
+              <l n="82" xml:id="em0528-es-86">en nuestras frentes siempre se muestran claramente.</l>
+              <l n="83" xml:id="em0528-es-87">Espero yo que, en breve, lleguemos al final</l>
+              <l n="84" xml:id="em0528-es-88">de esta confidencia y lo sepamos todo.</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="em0528-es-sc-2">
+          <head>Escena II</head>
+          <stage xml:id="em0528-es-st-3">Narbal, Lidias</stage>
+          <sp who="#NARB" xml:id="em0528-es-sp-23">
+            <speaker>Narbal</speaker>
+            <lg part="M" type="free">
+              <l n="85" xml:id="em0528-es-89">¡Persistir, pese a mí, en ese amor funesto!</l>
+              <l n="86" xml:id="em0528-es-90">El ingrato me debe, tras al Cielo, la vida.</l>
+              <l n="87" xml:id="em0528-es-91">Tú que cobardemente adulas su quimera,</l>
+              <l n="88" xml:id="em0528-es-92">quieres que mi razón ceda a tu frenesí</l>
+              <l n="89" xml:id="em0528-es-93">y, trayendo el recuerdo de lo que antaño hice,</l>
+              <l n="90" xml:id="em0528-es-94">quieres aconsejarme la perdición de mi hijo.</l>
+              <l n="91" xml:id="em0528-es-95">Es cierto que, hace tiempo, yo sentí esa llama,</l>
+              <l n="92" xml:id="em0528-es-96">cuando animaba a mi alma la sangre más sutil.</l>
+              <l n="93" xml:id="em0528-es-97">Esclavo como soy de la ley natural,</l>
+              <l n="94" xml:id="em0528-es-98">como otros, en mi tiempo, ardía de ese fuego.</l>
+              <l n="95" xml:id="em0528-es-99">Mis designios, no obstante, lícitos siempre fueron</l>
+              <l n="96" xml:id="em0528-es-100">y mis justos deseos, dichosos e inocentes.</l>
+            </lg>
+          </sp>
+          <sp who="#LIDIAS" xml:id="em0528-es-sp-24">
+            <speaker>Lidias</speaker>
+            <lg part="M" type="free">
+              <l n="97" xml:id="em0528-es-101">De aquello, desde entonces, perdisteis el recuerdo,</l>
+              <l n="98" xml:id="em0528-es-102">mas si los mismos años os pudieran volver</l>
+              <l n="99" xml:id="em0528-es-103">y la ley natural, para favoreceros,</l>
+              <l n="100" xml:id="em0528-es-104">borrando en vuestra mente el horror de la tumba,</l>
+              <l n="101" xml:id="em0528-es-105">devolviera la fuerza a vuestros miembros rotos</l>
+              <l n="102" xml:id="em0528-es-106">y pusiera vuestro ánimo en su primer estado,</l>
+              <l n="103" xml:id="em0528-es-107">vuestro rigor, yo creo, de otro modo hablaría</l>
+              <l n="104" xml:id="em0528-es-108">y vuestros sentimientos no serían tan firmes;</l>
+              <l n="105" xml:id="em0528-es-109">ese hijo a quien mostráis tan mala voluntad</l>
+              <l n="106" xml:id="em0528-es-110">os vería cambiado de censor en rival.</l>
+              <l n="107" xml:id="em0528-es-111">No se pueden domar las pasiones humanas,</l>
+              <l n="108" xml:id="em0528-es-112">contra Amor la razón es importuna y vana,</l>
+              <l n="109" xml:id="em0528-es-113">una figura amable siempre tiene derecho</l>
+              <l n="110" xml:id="em0528-es-114">a hechizarnos si estamos en situación de amar.</l>
+              <l n="111" xml:id="em0528-es-115">Pronto se ve sujeta el alma a una belleza</l>
+              <l n="112" xml:id="em0528-es-116">por lo que cuentan de ella ojos y pensamiento.</l>
+            </lg>
+          </sp>
+          <sp who="#NARB" xml:id="em0528-es-sp-25">
+            <speaker>Narbal</speaker>
+            <lg part="M" type="free">
+              <l n="113" xml:id="em0528-es-117">Tu mente participa aún de la estación</l>
+              <l n="114" xml:id="em0528-es-118">que no ve madurar frutos en la razón.</l>
+              <l n="115" xml:id="em0528-es-119">Yo que estoy bien curado de ese humor inconstante</l>
+              <l n="116" xml:id="em0528-es-120">y todos los peldaños de la edad ya pasé,</l>
+              <l n="117" xml:id="em0528-es-121">conozco más que tú la vida y el deber</l>
+              <l n="118" xml:id="em0528-es-122">y, mejor que tú, pronto se lo haré yo saber.</l>
+              <l n="119" xml:id="em0528-es-123">Amar sin mi permiso, dar pábulo, obstinado,</l>
+              <l n="120" xml:id="em0528-es-124">a un amor que lo pierde y me deshonra a mí,</l>
+              <l n="121" xml:id="em0528-es-125">de un mortal enemigo acudir a la hija:</l>
+              <l n="122" xml:id="em0528-es-126">prefiero el corazón arrancarte del pecho.</l>
+              <l n="123" xml:id="em0528-es-127">Ya desistirás, terco, que yo te enseñaré</l>
+              <l n="124" xml:id="em0528-es-128">el respeto que debes a tus progenitores</l>
+              <l n="125" xml:id="em0528-es-129">y que no debes nunca cultivar tu pasión</l>
+              <l n="126" xml:id="em0528-es-130">ni trazar tus designios si no es con mi permiso.</l>
+            </lg>
+          </sp>
+          <sp who="#LIDIAS" xml:id="em0528-es-sp-26">
+            <speaker>Lidias</speaker>
+            <lg part="M" type="free">
+              <l n="127" xml:id="em0528-es-131">Para probar fortuna en semejante asunto,</l>
+              <l n="128" xml:id="em0528-es-132">jamás es necesario tener licencia alguna;</l>
+              <l n="129" xml:id="em0528-es-133">de nada serviría cuando es un accidente:</l>
+              <l n="130" xml:id="em0528-es-134">en esto, se es más fino cuanto más imprudente.</l>
+              <l n="131" xml:id="em0528-es-135">No se pide permiso para una aventura;</l>
+              <l n="132" xml:id="em0528-es-136">se pide, en todo caso, a la naturaleza,</l>
+              <l n="133" xml:id="em0528-es-137">que guía nuestras vidas, o se apela a los dioses,</l>
+              <l n="134" xml:id="em0528-es-138">que tienen en sus manos nuestros ojos y espíritus.</l>
+            </lg>
+          </sp>
+          <sp who="#NARB" xml:id="em0528-es-sp-27">
+            <speaker>Narbal</speaker>
+            <lg part="M" type="free">
+              <l n="135" xml:id="em0528-es-139">¿No sabe que me debe, por fuerza, complacer?</l>
+              <l n="136" xml:id="em0528-es-140">¿Que ese furtivo amor mi cólera irrita?</l>
+              <l n="137" xml:id="em0528-es-141">¿Que con ese proyecto va menguando mis días</l>
+              <l n="138" xml:id="em0528-es-142">y persistiendo en él comete un parricidio?</l>
+              <l n="139" xml:id="em0528-es-143">¿Aprueban, pues, los dioses, que son equitativos,</l>
+              <l n="140" part="I" xml:id="em0528-es-144">que se hagan fechorías?</l>
+            </lg>
+          </sp>
+          <sp who="#LIDIAS" xml:id="em0528-es-sp-28">
+            <speaker>Lidias</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-145">Si son inevitables,</l>
+              <l n="141" xml:id="em0528-es-146">no quieren apartar nuestros pasos los dioses.</l>
+              <l n="142" xml:id="em0528-es-147">Por encontrar el crimen un cebo en el amor,</l>
+              <l n="143" xml:id="em0528-es-148">que el rigor de las leyes sustenta y acrecienta,</l>
+<l n="144" xml:id="em0528-es-149">incluso Radamantis<note n="3440" type="traductor"><term>Radamantis</term><p>Radamantis, hijo de Zeus y Europa, juzga a los muertos en los Infiernos.</p></note> se apiada de los que aman;</l>
+              <l n="145" xml:id="em0528-es-150">en cambio, un negro humor que mueve al asesino,</l>
+              <l n="146" xml:id="em0528-es-151">un natural cobarde inclinado a los hurtos:</l>
+              <l n="147" xml:id="em0528-es-152">eso es lo que horroriza al cielo y a la tierra;</l>
+              <l n="148" xml:id="em0528-es-153">sobre eso debe el rayo justamente caer,</l>
+              <l n="149" xml:id="em0528-es-154">mientras que los anhelos de un deseo amoroso</l>
+              <l n="150" xml:id="em0528-es-155">que del alma y del cuerpo solo aspira al placer,</l>
+              <l n="151" xml:id="em0528-es-156">merecen una ayuda, y querer arruinarlos</l>
+              <l n="152" xml:id="em0528-es-157">es propio de un humor envidioso y triste.</l>
+            </lg>
+          </sp>
+          <sp who="#NARB" xml:id="em0528-es-sp-29">
+            <speaker>Narbal</speaker>
+            <lg part="M" type="free">
+              <l n="153" xml:id="em0528-es-158">Tus discursos no son bastante persuasivos:</l>
+              <l n="154" xml:id="em0528-es-159">ese mal es de pechos blandos, flacos y ociosos,</l>
+              <l n="155" xml:id="em0528-es-160">donde la sensatez jamás quiso morar</l>
+              <l n="156" xml:id="em0528-es-161">y la virtud jamás tuvo oportunidad.</l>
+              <l n="157" xml:id="em0528-es-162">¡Ya basta! Aunque pidiera la razón lo contrario.</l>
+              <l n="158" xml:id="em0528-es-163">el imperio paterno mantendrá su derecho.</l>
+              <l n="159" xml:id="em0528-es-164">Mi poder absoluto romperá esa empresa,</l>
+              <l n="160" xml:id="em0528-es-165">y hará mi autoridad que renuncie a su empeño.</l>
+            </lg>
+          </sp>
+          <sp who="#LIDIAS" xml:id="em0528-es-sp-30">
+            <speaker>Lidias</speaker>
+            <lg part="M" type="free">
+              <l n="161" xml:id="em0528-es-166">Vos queréis que Ixión, atado en los Infiernos</l>
+<l n="162" xml:id="em0528-es-167">se arranque de su rueda y rompa sus cadenas<note n="3910" type="editor"><term>cadenas</term><p>Ixión fue castigado por Zeus a quedar eternamente atado a una rueda que giraba sin cesar.</p></note>,</l>
+              <l n="163" xml:id="em0528-es-168">que un hombre ya difunto reciba curación,</l>
+<l n="164" xml:id="em0528-es-169">que Sísifo descanse<note n="3442" type="traductor"><term>descanse</term><p>Sísifo fue condenado a empujar eternamente una roca hasta lo alto de una pendiente, que volvía a caer cuando llegaba arriba.</p></note> y que Tántalo beba<note n="3441" type="traductor"><term>beba</term><p>Tántalo fue condenado al suplicio de una sed eterna. Sumergido hasta el cuello, cada vez que intentaba beber, el líquido retrocedía.</p></note>.</l>
+              <l n="165" xml:id="em0528-es-170">Nuestros esfuerzos solo tienen poder humano:</l>
+              <l n="166" xml:id="em0528-es-171">quien tiende a lo imposible, se da trabajo en vano.</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="em0528-es-sc-3">
+          <head>Escena III</head>
+          <stage xml:id="em0528-es-st-4">El Rey, Sílar</stage>
+          <sp who="#REY" xml:id="em0528-es-sp-31">
+            <speaker>El Rey</speaker>
+            <lg part="M" type="free">
+              <l n="167" xml:id="em0528-es-172">Son demasiados votos, son demasiadas lágrimas;</l>
+              <l n="168" xml:id="em0528-es-173">hay, pues, que recurrir a otras armas mejores.</l>
+              <l n="169" xml:id="em0528-es-174">Esa ingrata y esquiva, con todos sus desprecios,</l>
+              <l n="170" xml:id="em0528-es-175">demasiado tormento ha infligido a mis ánimos.</l>
+              <l n="171" xml:id="em0528-es-176">Mi calidad de Rey, mi brillante fortuna,</l>
+              <l n="172" xml:id="em0528-es-177">en lugar de atraerla, la extrañan e importunan.</l>
+              <l n="173" xml:id="em0528-es-178">Innoble y deshonesta como es, ella prefiere</l>
+              <l n="174" part="I" xml:id="em0528-es-179">a un mero ciudadano.</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-32">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-180">Le atrae su semejante.</l>
+            </lg>
+          </sp>
+          <sp who="#REY" xml:id="em0528-es-sp-33">
+            <speaker>El Rey</speaker>
+            <lg part="M" type="free">
+              <l n="175" xml:id="em0528-es-181">Sin embargo, yo haré, si sigo bajo el sol,</l>
+              <l n="176" xml:id="em0528-es-182">Que poco capaz sea, hoy mismo, de gustarle.</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-34">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l n="177" xml:id="em0528-es-183">¿A qué medio tan bueno podéis, pues, recurrir</l>
+              <l n="178" part="I" xml:id="em0528-es-184">para volverlo odioso?</l>
+            </lg>
+          </sp>
+          <sp who="#REY" xml:id="em0528-es-sp-35">
+            <speaker>El Rey</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-185">Lo voy a hacer morir,</l>
+              <l n="179" xml:id="em0528-es-186">pues cualquier otro medio es dudoso y grosero.</l>
+              <l n="180" xml:id="em0528-es-187">Cuando por fin lo vea sangriento sobre el polvo,</l>
+              <l n="181" xml:id="em0528-es-188">y sus ojos muriendo, torcida la mirada,</l>
+              <l n="182" xml:id="em0528-es-189">horriblemente quietos, permanezcan abiertos,</l>
+              <l n="183" xml:id="em0528-es-190">muy dentro habrá de estar el amor en su mente</l>
+<l n="184" xml:id="em0528-es-191">si una imagen como esa, no lo expulsa de allí<note n="3443" type="traductor"><term>allí</term><p>En la elegía “Cloris, lorsque je songe en te voyant si belle” (Viau, 2017: 174-176), el poeta desarrolla con mayor amplitud este mismo tema para mostrar cómo a la vista de las injurias que inflige la muerte al cuerpo amado, el amante no puede persistir en su amor: “Ceux qui jurent d’avoir l’âme encore assez forte / Pour vivre dans les yeux d’une maîtresse morte, / N’ont pas pris le loisir de voir tous les efforts / Que fait la mort hideuse à consumer un corps (…)”.</p></note>.</l>
+              <l n="185" xml:id="em0528-es-192">Yo sé muy bien que Tisbe su muerte no verá</l>
+              <l n="186" xml:id="em0528-es-193">sin vívidos dolores, sin abundantes lágrimas,</l>
+              <l n="187" xml:id="em0528-es-194">mas al paso del tiempo, hasta la ínfima huella</l>
+              <l n="188" xml:id="em0528-es-195">del dolor más intenso se disipa y se borra.</l>
+              <l n="189" xml:id="em0528-es-196">Al ver que la figura de su primer amor</l>
+              <l n="190" xml:id="em0528-es-197">ya no ama, ya no siente, ya no comparte el día,</l>
+              <l n="191" xml:id="em0528-es-198">ella, que seguirá viva y aún sensible,</l>
+              <l n="192" xml:id="em0528-es-199">entonces a mi afecto será más accesible.</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-36">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l n="193" xml:id="em0528-es-200">¿Violaríais la ley de tanto que la amáis?</l>
+            </lg>
+          </sp>
+          <sp who="#REY" xml:id="em0528-es-sp-37">
+            <speaker>El Rey</speaker>
+            <lg part="M" type="free">
+              <l n="194" xml:id="em0528-es-201">Sabes que la justicia es inferior al Rey;</l>
+              <l n="195" xml:id="em0528-es-202">si la razón no asiste, buena es la violencia</l>
+              <l n="196" xml:id="em0528-es-203">que usa bien los derechos que tiene una corona.</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-38">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l n="197" xml:id="em0528-es-204">Pero sabéis que siempre vale más la equidad.</l>
+            </lg>
+          </sp>
+          <sp who="#REY" xml:id="em0528-es-sp-39">
+            <speaker>El Rey</speaker>
+            <lg part="M" type="free">
+              <l n="198" xml:id="em0528-es-205">Los grandes reyes deben vivir como los dioses.</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-40">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l n="199" xml:id="em0528-es-206">Por eso en esta tierra sois sus lugartenientes.</l>
+            </lg>
+          </sp>
+          <sp who="#REY" xml:id="em0528-es-sp-41">
+            <speaker>El Rey</speaker>
+            <lg part="M" type="free">
+              <l n="200" xml:id="em0528-es-207">A voluntad, su cólera hace caer el trueno</l>
+              <l n="201" xml:id="em0528-es-208">y aunque están inclinados, o parece, a querernos,</l>
+              <l n="202" xml:id="em0528-es-209">por mostrar su poder hacen morir a todos.</l>
+              <l n="203" xml:id="em0528-es-210">Y yo, mi mejor parte al cielo se la debo,</l>
+              <l n="204" xml:id="em0528-es-211">pues tiene simpatía mi alma con los dioses:</l>
+              <l n="205" xml:id="em0528-es-212">me gusta que me teman, y creo que la muerte</l>
+              <l n="206" xml:id="em0528-es-213">siempre es justa si alcanza a los que no me gustan.</l>
+              <l n="207" xml:id="em0528-es-214">Y Píramo es de esos, legítima es su muerte,</l>
+              <l n="208" xml:id="em0528-es-215">pues disgustar al Rey es cometer un crimen.</l>
+              <l n="209" xml:id="em0528-es-216">Él no es nada inocente. Los que la ley del sino</l>
+              <l n="210" xml:id="em0528-es-217">hace odiosos al Príncipe, se merecen la muerte.</l>
+              <l n="211" xml:id="em0528-es-218">Mi amor lo ha concluido. Ese cruel tirano</l>
+              <l n="212" xml:id="em0528-es-219">conmigo ha pronunciado el fallo irrevocable.</l>
+              <l n="213" xml:id="em0528-es-220">Mi víctima será, y yo juro que, antes</l>
+              <l n="214" xml:id="em0528-es-221">de que se haya podido mirar el sol naciente,</l>
+              <l n="215" xml:id="em0528-es-222">aunque tenga mi mano que ejecutar a mi odio,</l>
+              <l n="216" xml:id="em0528-es-223">su muerte, ya resuelta, aliviará mi pena.</l>
+              <l n="217" xml:id="em0528-es-224">Esa acción oficiosa aquí me mostrará</l>
+              <l n="218" xml:id="em0528-es-225">quién, de todos los míos, es el que más me ama;</l>
+              <l n="219" xml:id="em0528-es-226">con esto yo tendré una prueba segura</l>
+              <l n="220" xml:id="em0528-es-227">de la fidelidad que tanto me han jurado.</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-42">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l n="221" xml:id="em0528-es-228">¿El tiempo y la razón podrían aplacar</l>
+              <l n="222" part="I" xml:id="em0528-es-229">los violentos deseos?</l>
+            </lg>
+          </sp>
+          <sp who="#REY" xml:id="em0528-es-sp-43">
+            <speaker>El Rey</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-230">Tan solo acrecentarlos.</l>
+              <l n="223" xml:id="em0528-es-231">El tiempo y la razón harán del fuego hielo</l>
+              <l n="224" xml:id="em0528-es-232">y antes me arrancarán el corazón del pecho.</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-44">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l n="225" xml:id="em0528-es-233">Ya que esa voluntad no se puede apartar,</l>
+              <l n="226" xml:id="em0528-es-234">cueste, pues, lo que cueste, hay que darle salida.</l>
+              <l n="227" xml:id="em0528-es-235">Aquí estoy, mi señor, pronta el alma y la mano</l>
+              <l n="228" xml:id="em0528-es-236">a cumplir los designios que me hayáis destinado.</l>
+            </lg>
+          </sp>
+          <sp who="#REY" xml:id="em0528-es-sp-45">
+            <speaker>El Rey</speaker>
+            <lg part="M" type="free">
+              <l n="229" xml:id="em0528-es-237">¡Cómo ¡Te me anticipas! ¡Lo veo de verdad:</l>
+              <l n="230" xml:id="em0528-es-238">quieres que agradecido doblemente te esté!</l>
+              <l n="231" xml:id="em0528-es-239">Mayor es el placer que viene sin pensarlo.</l>
+              <l n="232" xml:id="em0528-es-240">Quien consiente que pidan, ya tiene recompensa;</l>
+              <l n="233" xml:id="em0528-es-241">y lo mismo le ocurre al que ve claramente,</l>
+              <l n="234" xml:id="em0528-es-242">si no se hace el sordo, nuestro deseo apremiante.</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-46">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l n="235" xml:id="em0528-es-243">Voy a ocuparme ahora mismo de nuestro asunto.</l>
+            </lg>
+          </sp>
+          <sp who="#REY" xml:id="em0528-es-sp-47">
+            <speaker>El Rey</speaker>
+            <lg part="M" type="free">
+              <l n="236" xml:id="em0528-es-244">¡Cómo me favorece con tu amistad el Cielo!</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-48">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l n="237" xml:id="em0528-es-245">Y dentro de dos horas le echaremos el guante.</l>
+            </lg>
+          </sp>
+          <sp who="#REY" xml:id="em0528-es-sp-49">
+            <speaker>El Rey</speaker>
+            <lg part="M" type="free">
+              <l n="238" xml:id="em0528-es-246">Mejor hoy, ciertamente, que esperar a mañana.</l>
+              <l n="239" xml:id="em0528-es-247">Y no te he dicho nada aún de tu salario.</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-50">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l n="240" xml:id="em0528-es-248">Solo espero, Señor, el honor de agradaros.</l>
+            </lg>
+          </sp>
+          <sp who="#REY" xml:id="em0528-es-sp-51">
+            <speaker>El Rey</speaker>
+            <lg part="M" type="free">
+              <l n="241" xml:id="em0528-es-249">Sé que todo servicio merece recompensa</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-52">
+            <speaker>Sílar</speaker>
+            <lg part="F" type="free">
+              <l n="242" xml:id="em0528-es-250">Bien sabe cómo debe emplear a los hombres:</l>
+              <l n="243" xml:id="em0528-es-251">un acto como este se sustenta en la paga.</l>
+              <l n="244" xml:id="em0528-es-252">Es el más liberal de entre todos los reyes;</l>
+              <l n="245" xml:id="em0528-es-253">mejor lo sirven, pues. El oro tiene medios</l>
+<l n="246" xml:id="em0528-es-254">que por doquier nos llevan espíritus y cuerpos<note n="3912" type="editor"><term>cuerpos</term><p>En su sorprendente edición expurgada de las obras de Théophile de 1633, para adecuar el poeta libertino a los valores establecidos, Esprit Aubert añade aquí dos versos: “Les dons faits largement ont une grand’puissance, / Tout se fait par l’espoir de quelque récompense” (Lachèvre, 1911: 40). La sentencia nada aporta a las palabras de Sílar. Tal vez Esprit Aubert se sintiera impulsado a añadir esos versos para mantener la alternancia de las rimas <emph>masculine</emph> (no acabada en e muda francesa) y <emph>féminine</emph> (acabada en e muda francesa) entre los actos.</p></note>.</l>
+            </lg>
+          </sp>
+        </div2>
+      </div1>
+      <div1 n="2" type="act">
+        <stage xml:id="em0528-es-st-5">Tisbe, Píramo, Disarco</stage>
+        <div2 type="scene" xml:id="em0528-es-sc-4">
+          <head>Escena 1</head>
+          <stage xml:id="em0528-es-st-6">Píramo, Disarco</stage>
+          <sp who="#PIRA" xml:id="em0528-es-sp-53">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="247" xml:id="em0528-es-255">Sé bien, querido amigo, que tu prudente empeño</l>
+              <l n="248" xml:id="em0528-es-256">es sacarme la llama y la muerte del pecho,</l>
+              <l n="249" xml:id="em0528-es-257">y hacer que se recobre mi pobre alma extraviada</l>
+              <l n="250" xml:id="em0528-es-258">que, desde hace dos años, se separó de mí.</l>
+              <l n="251" xml:id="em0528-es-259">Mas, que lo sepas, mi alma tu razón aborrece;</l>
+              <l n="252" xml:id="em0528-es-260">para mí, tus consejos son como una traición,</l>
+              <l n="253" xml:id="em0528-es-261">y al instante en que vienes a decirme que apague</l>
+              <l n="254" xml:id="em0528-es-262">el fuego del que noche y día yo me quejo,</l>
+              <l n="255" xml:id="em0528-es-263">aun cuando soy consciente del error que cometo</l>
+              <l n="256" xml:id="em0528-es-264">como de tu amistad, me horroriza tu voz.</l>
+              <l n="257" xml:id="em0528-es-265">Te odio, si enemigo eres de mi contento:</l>
+              <l n="258" xml:id="em0528-es-266">a tu espíritu, debe agradarle mi humor,</l>
+              <l n="259" xml:id="em0528-es-267">déjate del cuidado de censurar mis lágrimas,</l>
+              <l n="260" xml:id="em0528-es-268">que tu afecto consienta a estas desdichas mías,</l>
+              <l n="261" xml:id="em0528-es-269">y que tu entendimiento ponga toda su industria</l>
+              <l n="262" part="I" xml:id="em0528-es-270">en conservar mi mal.</l>
+            </lg>
+          </sp>
+          <sp who="#DISAR" xml:id="em0528-es-sp-54">
+            <speaker>Discarco</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-271">¡Oh, Dios mío, qué furia!</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-55">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="263" xml:id="em0528-es-272">Si no, yo te tendré por despiadado y bárbaro.</l>
+            </lg>
+          </sp>
+          <sp who="#DISAR" xml:id="em0528-es-sp-56">
+            <speaker>Disarco</speaker>
+            <lg part="M" type="free">
+              <l n="264" xml:id="em0528-es-273">¡Mal conocéis los frutos que trae la amistad!</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-57">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="265" xml:id="em0528-es-274">Yo quiero que mi amigo, sin ficción ni reserva,</l>
+              <l n="266" xml:id="em0528-es-275">me complazca, sirviéndome, en toda mi pasión.</l>
+            </lg>
+          </sp>
+          <sp who="#DISAR" xml:id="em0528-es-sp-58">
+            <speaker>Disarco</speaker>
+            <lg part="M" type="free">
+              <l n="267" xml:id="em0528-es-276">Mas, ¿y si vuestro amigo os hubiera encontrado</l>
+              <l n="268" part="I" xml:id="em0528-es-277">en peligro mortal?</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-59">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-278">Que me deje morir:</l>
+              <l n="269" xml:id="em0528-es-279">el más cruel despecho que a los desesperados</l>
+              <l n="270" xml:id="em0528-es-280">entrega la Fortuna es forzar a vivir.</l>
+            </lg>
+          </sp>
+          <sp who="#DISAR" xml:id="em0528-es-sp-60">
+            <speaker>Disarco</speaker>
+            <lg part="M" type="free">
+              <l n="271" xml:id="em0528-es-281">Es cierto que un deseo, una vez arrastrado</l>
+              <l n="272" xml:id="em0528-es-282">hacia un funesto amor, más firme aún se hace.</l>
+              <l n="273" xml:id="em0528-es-283">Nos retractamos antes de una intención legítima</l>
+              <l n="274" xml:id="em0528-es-284">por hacer algo bueno, que de un fin criminal.</l>
+              <l n="275" xml:id="em0528-es-285">Más cebos tiene el mal, y lo que más nos daña</l>
+              <l n="276" xml:id="em0528-es-286">con más habilidad y más vigor nos sigue.</l>
+              <l n="277" xml:id="em0528-es-287">Vos corréis obstinado, parece, a vuestra pérdida,</l>
+              <l n="278" xml:id="em0528-es-288">cualesquiera que sean las trabas que encontréis;</l>
+              <l n="279" xml:id="em0528-es-289">vuestros padres, que obliga un deber natural,</l>
+              <l n="280" xml:id="em0528-es-290">os oponen aquí su absoluto poder.</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-61">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="281" xml:id="em0528-es-291">Eso es lo que, aún más, enciende mi deseo:</l>
+              <l n="282" xml:id="em0528-es-292">me gusta quebrantar una ley si es tiránica.</l>
+              <l n="283" xml:id="em0528-es-293">Amor no tiene dueño; las trabas que ponéis</l>
+              <l n="284" xml:id="em0528-es-294">me hacen más seductor aquello que deseo.</l>
+              <l n="285" xml:id="em0528-es-295">Son para mí ocasión de mostrar que soy fiel</l>
+              <l n="286" xml:id="em0528-es-296">y de probarle a Tisbe que oso todo por ella.</l>
+              <l n="287" xml:id="em0528-es-297">¿No has reparado nunca en toda su belleza?</l>
+              <l n="288" xml:id="em0528-es-298">Tú que a todo prefieres siempre la novedad,</l>
+              <l n="289" xml:id="em0528-es-299">tú que, de las riberas donde el sol amanece</l>
+              <l n="290" xml:id="em0528-es-300">a las aguas remotas en que se acaba el día,</l>
+              <l n="291" xml:id="em0528-es-301">has hecho de tus ojos jueces de lo más bello,</l>
+              <l n="292" xml:id="em0528-es-302">¿has descubierto algo que pueda gustar más?</l>
+            </lg>
+          </sp>
+          <sp who="#DISAR" xml:id="em0528-es-sp-62">
+            <speaker>Disarco</speaker>
+            <lg part="M" type="free">
+              <l n="293" xml:id="em0528-es-303">Es verdad que hay en ella algo de lo más raro.</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-63">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="294" xml:id="em0528-es-304">¡Dirás que hay algo en ella que tentaría a un bárbaro!</l>
+              <l n="295" xml:id="em0528-es-305">Aquel que sus miradas no pueden conmover</l>
+              <l n="296" xml:id="em0528-es-306">es más duro que un tronco, más duro que una roca.</l>
+            </lg>
+          </sp>
+          <sp who="#DISAR" xml:id="em0528-es-sp-64">
+            <speaker>Disarco</speaker>
+            <lg part="M" type="free">
+              <l n="297" xml:id="em0528-es-307">¡Qué discursos tan propios de la melancolía!</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-65">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="298" xml:id="em0528-es-308">Tu razón vale menos, creo, que mi locura,</l>
+              <l n="299" xml:id="em0528-es-309">y te apiadas de mí sin motivo, acusándome</l>
+              <l n="300" xml:id="em0528-es-310">de un error en que dioses ya querrían caer.</l>
+              <l n="301" xml:id="em0528-es-311">Nunca me hables así: tu resistencia es vana,</l>
+              <l n="302" xml:id="em0528-es-312">y si no te has jurado conseguir que te odie,</l>
+              <l n="303" xml:id="em0528-es-313">si no te has decidido a romper con tu amigo,</l>
+              <l n="304" xml:id="em0528-es-314">deja, pues, de mandar en mi propia pasión.</l>
+              <l n="305" xml:id="em0528-es-315">Quisieras que yo amara del modo más común,</l>
+              <l n="306" xml:id="em0528-es-316">que un cobarde designio por hacer mi fortuna</l>
+              <l n="307" xml:id="em0528-es-317">me llevara hasta el fin que para mí pretendes.</l>
+            </lg>
+          </sp>
+          <sp who="#DISAR" xml:id="em0528-es-sp-66">
+            <speaker>Disarco</speaker>
+            <lg part="M" type="free">
+              <l n="308" xml:id="em0528-es-318">Quisiera gobernar algo vuestras pasiones</l>
+              <l n="309" xml:id="em0528-es-319">y salvar vuestro espíritu de peligro y censura.</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-67">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="310" xml:id="em0528-es-320">¿Te corresponde a ti gobernar, pues, mi alma?</l>
+              <l n="311" xml:id="em0528-es-321">¿Fue encerrado aquí dentro por ti mi corazón?</l>
+              <l n="312" xml:id="em0528-es-322">Deja a Naturaleza que obre: ella lo formó,</l>
+              <l n="313" xml:id="em0528-es-323">así como también a Tisbe le dio forma</l>
+              <l n="314" xml:id="em0528-es-324">para encenderme el pecho y por él ser amada,</l>
+              <l n="315" xml:id="em0528-es-325">pues en humor iguales, en edad y deseo,</l>
+              <l n="316" xml:id="em0528-es-326">la misma pena, el mismo placer ambos ansiamos;</l>
+              <l n="317" xml:id="em0528-es-327">y si a favorecer mi rostro me atreviera,</l>
+              <l n="318" xml:id="em0528-es-328">nos reconocerían en una misma imagen.</l>
+              <l n="319" xml:id="em0528-es-329">Fue el primer cebo que hizo mi pecho suspirar,</l>
+              <l n="320" xml:id="em0528-es-330">la primera esperanza con que me atrajo Amor,</l>
+              <l n="321" xml:id="em0528-es-331">esperanza que a mi alma felizmente ilusiona,</l>
+              <l n="322" xml:id="em0528-es-332">pues sus ojos se muestran propicios a los míos,</l>
+              <l n="323" xml:id="em0528-es-333">me colman de favor; en fin, seguro estoy</l>
+              <l n="324" xml:id="em0528-es-334">de que el amor es mutuo: así me lo ha jurado.</l>
+              <l n="325" xml:id="em0528-es-335">Mis labios en sus manos la prenda le tomaron,</l>
+              <l n="326" xml:id="em0528-es-336">y, para confirmarlo con escasas palabras,</l>
+              <l n="327" xml:id="em0528-es-337">su mente me lo ha dicho, la prueba está en sus ojos,</l>
+              <l n="328" xml:id="em0528-es-338">pues en nuestros discursos la voz habla muy poco.</l>
+              <l n="329" xml:id="em0528-es-339">Una mirada nuestra le dice al alma herida</l>
+<l n="330" xml:id="em0528-es-340">muchos más pensamientos de los que encierra un libro<note n="3444" type="traductor"><term>libro</term><p>La idea de que los amantes se hablan con su silencio ya figura en las historias de los amantes de Marino (1993, 421: vv. 490-510) y de Montemayor (1602: 214). Ambos se refieren al momento concreto en que, por primera vez, Píramo ve a Tisbe.</p></note>,</l>
+              <l n="331" xml:id="em0528-es-341">y suspiros de fuego, que entre uno y otro van,</l>
+              <l n="332" xml:id="em0528-es-342">mejor que un confidente, hablan a los sentidos.</l>
+              <l n="333" xml:id="em0528-es-343">Y no necesitamos que entrometido alguno</l>
+<l n="334" xml:id="em0528-es-344">trate de nuestro amor: nos molestan los árbitros<note n="3913" type="editor"><term>árbitros</term><p>Esprit Aubert, en su edición expurgada de la obra de Théophile de 1633, ha sustituido <emph>arbitres</emph> por <emph>barbares</emph> (Lachèvre, 1911: 40).</p></note>.</l>
+              <l n="335" xml:id="em0528-es-345">Es óptimo el servicio del mejor confidente</l>
+              <l n="336" xml:id="em0528-es-346">cuando nuestro interés no mezcla con el suyo.</l>
+              <l n="337" xml:id="em0528-es-347">Según su libre antojo, ya avanza o retrocede</l>
+              <l n="338" xml:id="em0528-es-348">el ciego movimiento de un espíritu ardiente;</l>
+              <l n="339" xml:id="em0528-es-349">yo, a un gobernador no podría sufrir,</l>
+              <l n="340" xml:id="em0528-es-350">menos prosperidad prefiero al triunfar.</l>
+              <l n="341" xml:id="em0528-es-351">Excesivos cuidados impone la prudencia;</l>
+              <l n="342" xml:id="em0528-es-352">nada ansía mi alma sino mi servidumbre;</l>
+              <l n="343" xml:id="em0528-es-353">en ella hallo mi bien más que en mi libertad,</l>
+              <l n="344" xml:id="em0528-es-354">y, sin duda, la amo tanto como a la luz.</l>
+            </lg>
+          </sp>
+          <sp who="#DISAR" xml:id="em0528-es-sp-68">
+            <speaker>Disarco</speaker>
+            <lg part="M" type="free">
+              <l n="345" xml:id="em0528-es-355">Como esto es una peste pegada a vuestros huesos,</l>
+              <l n="346" xml:id="em0528-es-356">una flecha mortal clavada en vuestro pecho,</l>
+              <l n="347" xml:id="em0528-es-357">en vano uno se esfuerza en intentar curaros.</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-69">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="348" xml:id="em0528-es-358">No me pueden curar sin hacerme morir.</l>
+            </lg>
+          </sp>
+          <sp who="#DISAR" xml:id="em0528-es-sp-70">
+            <speaker>Disarco</speaker>
+            <lg part="M" type="free">
+              <l n="349" xml:id="em0528-es-359">Pues cuidad bien, al menos, de que este amor furtivo</l>
+              <l n="350" xml:id="em0528-es-360">no tenga para vos funesto desenlace;</l>
+              <l n="351" xml:id="em0528-es-361">sois ahora espiados, de lejos y de cerca,</l>
+              <l n="352" xml:id="em0528-es-362">por ojos vigilantes, enviados adrede.</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-71">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="353" xml:id="em0528-es-363">Pues inútil será toda su diligencia:</l>
+              <l n="354" xml:id="em0528-es-364">el alma enamorada no es tan poco sutil.</l>
+              <l n="355" xml:id="em0528-es-365">Sabemos elegir el tiempo y el lugar,</l>
+              <l n="356" xml:id="em0528-es-366">donde ni un dios siquiera podría descubrirnos.</l>
+              <l n="357" xml:id="em0528-es-367">Deja de preocuparte y permite, sin más,</l>
+              <l n="358" xml:id="em0528-es-368">si me quieres amar, que mi furor me dure.</l>
+              <l n="359" xml:id="em0528-es-369">Adiós, déjame a solas hablar conmigo aquí.</l>
+              <l n="360" xml:id="em0528-es-370">La noche ya se acerca, se ha oscurecido el cielo,</l>
+              <l n="361" xml:id="em0528-es-371">mi amante ya me espera. Y para complacerme,</l>
+              <l n="362" xml:id="em0528-es-372">el otro sol se va cuando este me ilumina.</l>
+              <l n="363" xml:id="em0528-es-373">Sin manera de hablarnos en ninguna otra parte,</l>
+              <l n="364" xml:id="em0528-es-374">sin forma de encontrarnos en un lugar mejor,</l>
+              <l n="365" xml:id="em0528-es-375">una pequeña grieta abierta en esta piedra,</l>
+              <l n="366" xml:id="em0528-es-376">que, hasta ahora, tan solo nosotros conocemos,</l>
+              <l n="367" xml:id="em0528-es-377">nos permite traer y llevar en secreto</l>
+              <l n="368" xml:id="em0528-es-378">las palabras que Amor nos permite decirnos,</l>
+              <l n="369" xml:id="em0528-es-379">pues en este lugar nuestra pasión discreta</l>
+              <l n="370" xml:id="em0528-es-380">saca un poco a la luz nuestras llamas secretas.</l>
+              <l n="371" xml:id="em0528-es-381">Aquí, crueles padres, pese a vuestra dureza,</l>
+              <l n="372" xml:id="em0528-es-382">conseguimos que pasen nuestras tímidas voces;</l>
+              <l n="373" xml:id="em0528-es-383">nuestros pechos abiertos, pese a esa tiranía,</l>
+              <l n="374" xml:id="em0528-es-384">hacen besarse aquí a nuestras voluntades.</l>
+              <l n="375" xml:id="em0528-es-385">Consejeros crueles y padres sin afecto,</l>
+              <l n="376" xml:id="em0528-es-386">mirad cómo este mármol se hiende de piedad,</l>
+              <l n="377" xml:id="em0528-es-387">y ante nuestro dolor, el seno de estos muros,</l>
+<l n="378" xml:id="em0528-es-388">por guardar nuestros fuegos, se abre las entrañas<note n="3445" type="traductor"><term>entrañas</term><p>Esta misma idea, con un desarrollo diferente, figura en <emph>Piramo e Tisbe</emph>, idilio VIII de <emph>La Sampogna</emph> de Marino (1993: 418, vv. 445-452), formulada por el narador en este caso, como ya selañaron Schirmacher y Cabeen (Saba, 1999a, II: 319). La misma idea también se encuentra en <emph>Píramo y Tisbe</emph> de Jorge de Montemayor (1602 [1561]: 213). Góngora sugiere algo parecido sin hablar propiamente de piedad: la pared, que separó a los amantes desde la infancia y oyó los ruidos de uno y otro lado, “tan bien la audiencia le supo / que años después se hizo / rajas en servicio suyo” (Góngora, 2011 [1618]: 57, vv. 37-40); la propia Tisbe considera después que la grieta es un efecto del amor: “Efecto improviso es, / no de los años diuturno / sino de un niño en lo flaco / y de un dios en lo oportuno. / Pared que nació conmigo / del amor solo el estudio/ no la fueza de la edad / desatar sus piedras pudo” (Góngora, 2001 [1618]: 59, vv. 193-200). H.C. Lancaster (1966 [1929], I: 173) considera que la misma idea se les pudo ocurrir independientemente a Marino y a Théophile, y no piensa que este le deba nada a Góngora.</p></note>,</l>
+              <l n="379" xml:id="em0528-es-389">cómo a nuestro contento hasta el aire se rinde.</l>
+              <l n="380" xml:id="em0528-es-390">El aire, el más severo de los cuatro elementos,</l>
+              <l n="381" xml:id="em0528-es-391">padre de las heladas, fuente de las tormentas,</l>
+<l n="382" xml:id="em0528-es-392">más humanidad tiene que vuestros rudos pechos<note n="3446" type="traductor"><term>pechos</term><p>Esta contundente y explícita acusación de Píramo a los padres no se encuentra por lo general en las reescrituras francesas del mito, más proclives a buscar su conmiseración. El antecedente más directo son las acusaciones de Tisbe al padre en el idilio VIII de <emph>La sampogna</emph> de Marino (1993 [1620]: 456 vv. 1429-1442), que a su vez siguen de muy cerca las del <emph>Píramo y Tisbe</emph> de Montemayor (1602 [1562]: 227). Curiosamente, frente a lo que ocurre en ambas obras, Tisbe no acusará aquí a sus padres antes de morir al final de la tragedia.</p></note>.</l>
+              <l n="383" xml:id="em0528-es-393">Pero oigo un ruido: es ella, no podía faltar.</l>
+              <l n="384" xml:id="em0528-es-394">Creo que estoy perdiendo de contento el sentido.</l>
+              <l n="385" xml:id="em0528-es-395">Ella no miente nunca y le remordería</l>
+              <l n="386" xml:id="em0528-es-396">pedirle a su amante demasiada paciencia.</l>
+              <l n="387" xml:id="em0528-es-397">Veo cómo se acerca, con los pasos contados,</l>
+              <l n="388" xml:id="em0528-es-398">suspicaz, con los ojos mirando a todas partes.</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="em0528-es-sc-5">
+          <head>Escena II</head>
+          <stage xml:id="em0528-es-st-7">Tisbe, Píramo</stage>
+          <sp who="#TISB" xml:id="em0528-es-sp-72">
+            <speaker>Tisbe</speaker>
+            <lg part="M" type="free">
+              <l n="389" part="I" xml:id="em0528-es-399">¿Eres tú, prenda mía?</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-73">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-400">¿Quién os ha retenido?</l>
+              <l n="390" xml:id="em0528-es-401">Al menos este día, he llegado primero,</l>
+              <l n="391" xml:id="em0528-es-402">acudís más tarde de lo que yo hice ayer.</l>
+            </lg>
+          </sp>
+          <sp who="#TISB" xml:id="em0528-es-sp-74">
+            <speaker>Tisbe</speaker>
+            <lg part="M" type="free">
+              <l n="392" xml:id="em0528-es-403">Tienes razón, es cierto, no lo puedo negar,</l>
+              <l n="393" xml:id="em0528-es-404">mas cuando te haya dicho lo que a ello me obligó</l>
+              <l n="394" xml:id="em0528-es-405">yo creo que, a la fuerza, lo sentirás por mí.</l>
+              <l n="395" xml:id="em0528-es-406">Me compadecerás, porque no considero</l>
+              <l n="396" xml:id="em0528-es-407">que el daño que me han hecho sea menor que la muerte.</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-75">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="397" xml:id="em0528-es-408">¡Cómo! ¿Os han ofendido de algún modo, alma mía?</l>
+              <l n="398" xml:id="em0528-es-409">¿Acaso alguien ha herido a Píramo ausente?</l>
+              <l n="399" xml:id="em0528-es-410">No podría ni hacerlo un dios impunemente.</l>
+            </lg>
+          </sp>
+          <sp who="#TISB" xml:id="em0528-es-sp-76">
+            <speaker>Tisbe</speaker>
+            <lg part="M" type="free">
+              <l n="400" xml:id="em0528-es-411">Esa ofensa solo era la inoportunidad</l>
+              <l n="401" xml:id="em0528-es-412">de una vieja horrorosa y necia criatura</l>
+              <l n="402" xml:id="em0528-es-413">que hoy me ha sometido el alma a la tortura,</l>
+              <l n="403" xml:id="em0528-es-414">que tanto me ha ordenado, que tanto me ha advertido,</l>
+              <l n="404" xml:id="em0528-es-415">tanto me ha repetido inútiles palabras</l>
+              <l n="405" xml:id="em0528-es-416">que antes se agotaría del agua la humedad</l>
+              <l n="406" xml:id="em0528-es-417">que ese triste humor suyo tan dado al cotorreo.</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-77">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="407" xml:id="em0528-es-418">Y decidme, os lo ruego, ¿cuál era la intención</l>
+              <l n="408" xml:id="em0528-es-419">que tenía la vieja cuando más se explayaba?</l>
+            </lg>
+          </sp>
+          <sp who="#TISB" xml:id="em0528-es-sp-78">
+            <speaker>Tisbe</speaker>
+            <lg part="M" type="free">
+              <l n="409" xml:id="em0528-es-420">Pues que obedeciera perfecta y plenamente</l>
+              <l n="410" xml:id="em0528-es-421">a quienes debo yo el bien de haber nacido,</l>
+              <l n="411" xml:id="em0528-es-422">que también renunciara a deleite cualquiera</l>
+              <l n="412" xml:id="em0528-es-423">salvo que lo eligiera por mí su autoridad,</l>
+              <l n="413" xml:id="em0528-es-424">que defendiera bien mi mente y mis oídos</l>
+              <l n="414" xml:id="em0528-es-425">del dardo con que Amor la sangre joven prende,</l>
+              <l n="415" xml:id="em0528-es-426">pues no corren los jóvenes ni riesgo ni peligro</l>
+              <l n="416" xml:id="em0528-es-427">por escuchar consejos en materia de amor,</l>
+              <l n="417" xml:id="em0528-es-428">que aun para el más dichoso es funesto este cebo,</l>
+              <l n="418" xml:id="em0528-es-429">y que es un precipicio, un veneno, una peste.</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-79">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="419" xml:id="em0528-es-430">Hizo, pues, que el amor muy odioso os resulte.</l>
+            </lg>
+          </sp>
+          <sp who="#TISB" xml:id="em0528-es-sp-80">
+            <speaker>Tisbe</speaker>
+            <lg part="M" type="free">
+              <l n="420" xml:id="em0528-es-431">Ella me lo pintó como lo ven sus ojos.</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-81">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="421" xml:id="em0528-es-432">¡Qué cambios más extraños en la naturaleza!</l>
+              <l n="422" xml:id="em0528-es-433">Un pobre cuerpo ajado que solo es podredumbre,</l>
+              <l n="423" xml:id="em0528-es-434">una vieja de humores resecos por la edad,</l>
+              <l n="424" xml:id="em0528-es-435">cuya decrepitud pervierte sus costumbres,</l>
+              <l n="425" xml:id="em0528-es-436">una sangre de plomo, siempre fría cual hielo</l>
+              <l n="426" xml:id="em0528-es-437">a no ser que una fiebre la recaliente un poco,</l>
+              <l n="427" xml:id="em0528-es-438">una osamenta solo movida con engaño,</l>
+              <l n="428" xml:id="em0528-es-439">al que el nombre pondríamos de fantasma viviente,</l>
+              <l n="429" xml:id="em0528-es-440">no deja de acosar, con envidia celosa,</l>
+              <l n="430" xml:id="em0528-es-441">los entretenimientos de nuestra juventud.</l>
+              <l n="431" xml:id="em0528-es-442">Esos viejos, de espíritu y de cuerpo decrépitos,</l>
+              <l n="432" xml:id="em0528-es-443">erigen la impotencia en signo de virtud;</l>
+              <l n="433" xml:id="em0528-es-444">ellos, que el curso siguen de la naturaleza</l>
+              <l n="434" xml:id="em0528-es-445">y viven al antojo que dicta su vejez,</l>
+              <l n="435" xml:id="em0528-es-446">se empeñan en forzar el orden de los tiempos</l>
+              <l n="436" xml:id="em0528-es-447">haciéndonos ya viejos a la edad de veinte años,</l>
+              <l n="437" xml:id="em0528-es-448">censuran nuestros hábitos con su ejemplo, imprudentes,</l>
+              <l n="438" xml:id="em0528-es-449">alegando qué son y no aquello que fueron.</l>
+              <l n="439" xml:id="em0528-es-450">Al menos, vida mía, en esa necia cháchara</l>
+<l n="440" xml:id="em0528-es-451">espero que ese espíritu nada te haya influido<note n="3447" type="traductor"><term>influido</term><p>Théophile desarrolla también esas ideas sobre la vejez, con argumentos muy parecidos, en su “Satire première” (Viau, 2017: 150-151).</p></note>.</l>
+            </lg>
+          </sp>
+          <sp who="#TISB" xml:id="em0528-es-sp-82">
+            <speaker>Tisbe</speaker>
+            <lg part="M" type="free">
+              <l n="441" xml:id="em0528-es-452">Me pasó ese discurso más lejos que una nube.</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-83">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="442" xml:id="em0528-es-453">¿Tu buena voluntad no habrá, pues, decaído?</l>
+            </lg>
+          </sp>
+          <sp who="#TISB" xml:id="em0528-es-sp-84">
+            <speaker>Tisbe</speaker>
+            <lg part="M" type="free">
+              <l n="443" xml:id="em0528-es-454">Tanto más ha crecido: no han hecho sino echar</l>
+              <l n="444" xml:id="em0528-es-455">azufre entre las llamas para avivarlas más.</l>
+              <l n="445" xml:id="em0528-es-456">Yo soy de un natural al que la resistencia</l>
+              <l n="446" xml:id="em0528-es-457">fortifica el deseo, la esperanza y constancia;</l>
+              <l n="447" xml:id="em0528-es-458">creo que tantas veces me verían morir</l>
+              <l n="448" xml:id="em0528-es-459">cuantas me hagan oír esas molestas voces;</l>
+              <l n="449" xml:id="em0528-es-460">al contrario: mi amor más y más aún persiste</l>
+              <l n="450" xml:id="em0528-es-461">ardiendo con más fuerza cuando se le resiste,</l>
+              <l n="451" xml:id="em0528-es-462">y nada estimo tanto cual la oportunidad</l>
+              <l n="452" xml:id="em0528-es-463">de todo lo que pueda avivar mi pasión,</l>
+              <l n="453" xml:id="em0528-es-464">pues con el ser divino, al que doy mi amor todo,</l>
+              <l n="454" xml:id="em0528-es-465">quiere el sino que sea totalmente feliz</l>
+              <l n="455" xml:id="em0528-es-466">y que merezcas bien la inviolable fe</l>
+              <l n="456" xml:id="em0528-es-467">que yo te guardaré hasta la sepultura.</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-85">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="457" xml:id="em0528-es-468">Yo, si la sepultura les dejara a las almas</l>
+              <l n="458" xml:id="em0528-es-469">algún pequeño rayo de sus difuntas llamas,</l>
+              <l n="459" xml:id="em0528-es-470">no tendría más fuego que tú en los Infiernos,</l>
+              <l n="460" xml:id="em0528-es-471">y, dentro de sus cárceles, sino cadenas tuyas.</l>
+              <l n="461" xml:id="em0528-es-472">Mas con estas palabras no estamos reparando</l>
+              <l n="462" xml:id="em0528-es-473">que esta dulce entrevista, en que Amor nos demora,</l>
+              <l n="463" xml:id="em0528-es-474">si no somos prudentes, pronto nos faltará.</l>
+            </lg>
+          </sp>
+          <sp who="#TISB" xml:id="em0528-es-sp-86">
+            <speaker>Tisbe</speaker>
+            <lg part="M" type="free">
+              <l n="464" xml:id="em0528-es-475">¡Ay! ¿No podremos nunca decirnos algo más?</l>
+              <l n="465" xml:id="em0528-es-476">Las aves en los bosques tienen el día entero</l>
+              <l n="466" xml:id="em0528-es-477">para cantar la furia que Amor les infudió,</l>
+              <l n="467" xml:id="em0528-es-478">las aguas y los céfiros, cuando hacen el amor,</l>
+<l n="468" xml:id="em0528-es-479">su risa y sus suspiros prolongan noche y día.<note n="3413" type="editor"><term>su risa y sus suspiros prolongan noche y día.</term><p>Como ya había visto H.C. Lancaster (1966 [1929], I: 173), estos versos podrían ser una reminiscencia de <emph>Le meurier</emph> de Baïf (1883 [1572], II: 169). Tisbe, en esta obra, también compara la desgracia de los amantes separados a la libertad con que se unen aves y plantas. Van Emden (1973a: 878), que también señaló el parecido, lo considera un ejemplo de las concordancias que se dan exclusivamene entre los textos de Baïf y Viau.</p></note></l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-87">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="469" xml:id="em0528-es-480">Debemos retirarnos, pues mucho yo me temo</l>
+              <l n="470" xml:id="em0528-es-481">que de este poco bien nos puedan aun privar.</l>
+            </lg>
+          </sp>
+          <sp who="#TISB" xml:id="em0528-es-sp-88">
+            <speaker>Tisbe</speaker>
+            <lg part="M" type="free">
+              <l n="471" xml:id="em0528-es-482">Volveré a más tardar en una hora aquí.</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-89">
+            <speaker>Píramo</speaker>
+            <lg part="F" type="free">
+              <l n="472" xml:id="em0528-es-483">Y yo muerto estaré, si a este lugar no vengo.</l>
+            </lg>
+          </sp>
+        </div2>
+      </div1>
+      <div1 n="3" type="act">
+        <stage xml:id="em0528-es-st-8">Deuxis, Sílar, Píramo, el Rey</stage>
+        <div2 type="scene" xml:id="em0528-es-sc-6">
+          <head>Escena 1</head>
+          <stage xml:id="em0528-es-st-9">Deuxis, Sílar, Píramo</stage>
+          <sp who="#DEUX" xml:id="em0528-es-sp-90">
+            <speaker>Deuxis</speaker>
+            <lg part="M" type="free">
+              <l n="473" xml:id="em0528-es-484">Un funesto presagio, Sílar, me altera el ánimo,</l>
+              <l n="474" xml:id="em0528-es-485">un témpano de espanto me oprime el corazón;</l>
+              <l n="475" xml:id="em0528-es-486">tenemos un propósito que pone ante mis ojos</l>
+              <l n="476" xml:id="em0528-es-487">las justas decisiones del hombre y de los dioses.</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-91">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l n="477" part="I" xml:id="em0528-es-488">¡Qué! ¿Te falta valor?</l>
+            </lg>
+          </sp>
+          <sp who="#DEUX" xml:id="em0528-es-sp-92">
+            <speaker>Deuxis</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-489">Percibo imposición</l>
+              <l n="478" xml:id="em0528-es-490">en lo que me propongo, no percibo temor.</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-93">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l n="479" xml:id="em0528-es-491">Conozco tu valor; y por esa razón</l>
+              <l n="480" xml:id="em0528-es-492">contigo cuento yo para este asunto aquí.</l>
+            </lg>
+          </sp>
+          <sp who="#DEUX" xml:id="em0528-es-sp-94">
+            <speaker>Deuxis</speaker>
+            <lg part="M" type="free">
+              <l n="481" xml:id="em0528-es-493">Es hermoso intentar una muerte legítima</l>
+              <l n="482" xml:id="em0528-es-494">por una gran hazaña cuando se hace sin crimen.</l>
+              <l n="483" xml:id="em0528-es-495">Todos llaman valor al generoso ánimo</l>
+              <l n="484" xml:id="em0528-es-496">que, no siendo inhumano, no es nada temeroso,</l>
+              <l n="485" xml:id="em0528-es-497">que muere en una brecha y cuyas honras fúnebres</l>
+              <l n="486" xml:id="em0528-es-498">se hacen bajo los muros del enemigo en ruinas.</l>
+              <l n="487" xml:id="em0528-es-499">Es la muerte o loable o ignominiosa</l>
+              <l n="488" xml:id="em0528-es-500">según sea el sujeto o cobarde o glorioso;</l>
+              <l n="489" xml:id="em0528-es-501">mas piensa con qué fin la espada hemos tomado,</l>
+              <l n="490" xml:id="em0528-es-502">qué hazaña nuestras manos ya van a acometer.</l>
+              <l n="491" xml:id="em0528-es-503">¡Qué! ¡Sin ser ofendidos, nos queremos vengar!</l>
+              <l n="492" xml:id="em0528-es-504">Cuando no se siente odio, no se puede inventar.</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-95">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l n="493" xml:id="em0528-es-505">Nos han hecho un encargo que da plena licencia.</l>
+            </lg>
+          </sp>
+          <sp who="#DEUX" xml:id="em0528-es-sp-96">
+            <speaker>Deuxis</speaker>
+            <lg part="M" type="free">
+              <l n="494" xml:id="em0528-es-506">Atacar la inocencia trae remordimientos.</l>
+              <l n="495" xml:id="em0528-es-507">Él no nos hizo nada, y queremos matarlo.</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-97">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l n="496" xml:id="em0528-es-508">La voluntad del Rey se debe ejecutar.</l>
+            </lg>
+          </sp>
+          <sp who="#DEUX" xml:id="em0528-es-sp-98">
+            <speaker>Deuxis</speaker>
+            <lg part="M" type="free">
+              <l n="497" xml:id="em0528-es-509">Si algún ligero exceso contentara su cólera,</l>
+              <l n="498" xml:id="em0528-es-510">creo que lo podríamos complacer justamente,</l>
+              <l n="499" xml:id="em0528-es-511">pero en un hecho tal, en una traición,</l>
+              <l n="500" xml:id="em0528-es-512">se le puede desobedecer, y con razón.</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-99">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l n="501" xml:id="em0528-es-513">El pueblo que desmiente a su Rey, aunque justa</l>
+              <l n="502" xml:id="em0528-es-514">pareciera su acción, está haciendo una ofensa.</l>
+              <l n="503" xml:id="em0528-es-515">Cual dioses en el cielo, los reyes en la tierra</l>
+              <l n="504" xml:id="em0528-es-516">establecen también las leyes soberanas;</l>
+              <l n="505" xml:id="em0528-es-517">se reparten a iguales cuanto en el mundo cabe:</l>
+              <l n="506" xml:id="em0528-es-518">unos, reyes del cielo; dioses de la tierra, otros;</l>
+              <l n="507" xml:id="em0528-es-519">en un instante, Júpiter hace mover los astros;</l>
+              <l n="508" xml:id="em0528-es-520">con el mismo poder nos dominan los príncipes;</l>
+              <l n="509" xml:id="em0528-es-521">cual grandeza de dioses se muestra su grandeza,</l>
+              <l n="510" xml:id="em0528-es-522">cual voluntad de dioses su voluntad se mide.</l>
+            </lg>
+          </sp>
+          <sp who="#DEUX" xml:id="em0528-es-sp-100">
+            <speaker>Deuxis</speaker>
+            <lg part="M" type="free">
+              <l n="511" xml:id="em0528-es-523">Se les debe obediencia cuando, dando sus órdenes,</l>
+              <l n="512" xml:id="em0528-es-524">imitan a los dioses que actúan con justicia.</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-101">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l n="513" xml:id="em0528-es-525">Indagar su secreto es gran temeridad,</l>
+              <l n="514" xml:id="em0528-es-526">les toca a ellos decir; y a nosotros, obrar;</l>
+              <l n="515" xml:id="em0528-es-527">si dio una mala orden, el crimen perpetrado</l>
+              <l n="516" xml:id="em0528-es-528">recaerá en él, y nos perdonarán:</l>
+              <l n="517" xml:id="em0528-es-529">el deber ignorante hace al alma inocente.</l>
+            </lg>
+          </sp>
+          <sp who="#DEUX" xml:id="em0528-es-sp-102">
+            <speaker>Deuxis</speaker>
+            <lg part="M" type="free">
+              <l n="518" xml:id="em0528-es-530">Mas si esta sabe el mal, consiente cuando actúa.</l>
+              <l n="519" xml:id="em0528-es-531">¡Un deber ignorante! ¿No ves que están tramando</l>
+              <l n="520" xml:id="em0528-es-532">a ese pobre inocente una muerte tan pérfida</l>
+              <l n="521" xml:id="em0528-es-533">que otra igual al infierno no se le ocurriría?</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-103">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l n="522" xml:id="em0528-es-534">Aprende: un siervo debe obedecer al amo.</l>
+              <l n="523" xml:id="em0528-es-535">Si se atendiera solo al honor y al derecho,</l>
+              <l n="524" xml:id="em0528-es-536">todos, sin duda, aquí ya nos reprenderían,</l>
+              <l n="525" xml:id="em0528-es-537">mas obramos forzados, pues nos obliga el Príncipe</l>
+              <l n="526" xml:id="em0528-es-538">y hemos de obedecerle, es algo necesario.</l>
+            </lg>
+          </sp>
+          <sp who="#DEUX" xml:id="em0528-es-sp-104">
+            <speaker>Deuxis</speaker>
+            <lg part="M" type="free">
+              <l n="527" xml:id="em0528-es-539">¿Y por qué necesario? Más vale que caigamos</l>
+              <l n="528" part="I" xml:id="em0528-es-540">en su desgracia eterna.</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-105">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-541">¿Más vale, pues, morir?</l>
+            </lg>
+          </sp>
+          <sp who="#DEUX" xml:id="em0528-es-sp-106">
+            <speaker>Deuxis</speaker>
+            <lg part="M" type="free">
+              <l n="529" xml:id="em0528-es-542">Prefiero yo la muerte a vivir con vergüenza</l>
+              <l n="530" xml:id="em0528-es-543">y arrastrar criminales remordimientos siempre.</l>
+<l n="531" xml:id="em0528-es-544">Si el can de los Infiernos<note n="3449" type="traductor"><term>Infiernos</term><p>El can monstruoso Cerbero, que guarda la entrada a los Infiernos.</p></note> viene con sus ladridos</l>
+              <l n="532" xml:id="em0528-es-545">a turbar a los vivos, mil veces mueren estos,</l>
+              <l n="533" xml:id="em0528-es-546">mas morir con honor es tomar el camino</l>
+<l n="534" xml:id="em0528-es-547">de un dichoso descanso en los Campos Elíseos<note n="3450" type="traductor"><term>Campos Elíseos</term><p>Paraíso de la mitología griega, reservado a las personas heroicas y virtuosas.</p></note>:</l>
+              <l n="535" xml:id="em0528-es-548">feliz deja el espíritu al cuerpo desatado</l>
+              <l n="536" xml:id="em0528-es-549">de viciosas discordias con sus propios sentidos.</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-107">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+<l n="537" xml:id="em0528-es-550">Por dulce que Mercurio prepare la acogida<note n="3451" type="traductor"><term>Por dulce que Mercurio prepare la acogida</term><p>Hermes, con el que se identifica el Mercurio romano, acompañaba las almas de los difuntos a los Infiernos.</p></note>,</l>
+              <l n="538" xml:id="em0528-es-551">debes creerme: un hombre se turba al separarse,</l>
+              <l n="539" xml:id="em0528-es-552">los cuerpos fenecidos, cubiertos de una losa,</l>
+              <l n="540" xml:id="em0528-es-553">hacen polvo los huesos; gusanos, la carroña;</l>
+              <l n="541" xml:id="em0528-es-554">los errantes espíritus, por las riberas fúnebres</l>
+<l n="542" xml:id="em0528-es-555">de un ignoto Cocito<note n="3417" type="editor"><term>Cocito</term><p>Río de los Infiernos.</p></note>, no son más que tinieblas.</l>
+              <l n="543" xml:id="em0528-es-556">Que le reino de Plutón sea buena morada</l>
+              <l n="544" xml:id="em0528-es-557">es un cuento: no hay nada tan bello como el día,</l>
+              <l n="545" xml:id="em0528-es-558">más vale un perro vivo que todas las cohortes</l>
+              <l n="546" xml:id="em0528-es-559">de tigres, de leones o de panteras muertas.</l>
+              <l n="547" xml:id="em0528-es-560">Aunque soy hombre pobre, prefiero yo mi suerte</l>
+              <l n="548" xml:id="em0528-es-561">a la de cualquier príncipe o monarca difunto.</l>
+              <l n="549" xml:id="em0528-es-562">Sigue, pues mi consejo: no demos nuestras vidas</l>
+              <l n="550" xml:id="em0528-es-563">por preservar a otro, no seamos tan necios.</l>
+            </lg>
+          </sp>
+          <sp who="#DEUX" xml:id="em0528-es-sp-108">
+            <speaker>Deuxis</speaker>
+            <lg part="M" type="free">
+              <l n="551" part="I" xml:id="em0528-es-564">¿Por ello moriríamos?</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-109">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-565">¿Crees que vivirás</l>
+              <l n="552" xml:id="em0528-es-566">cuando te hayas burlado del mandato del Rey?</l>
+            </lg>
+          </sp>
+          <sp who="#DEUX" xml:id="em0528-es-sp-110">
+            <speaker>Deuxis</speaker>
+            <lg part="M" type="free">
+              <l n="553" xml:id="em0528-es-567">¿No teme el Rey acaso la justicia más alta?</l>
+              <l n="554" xml:id="em0528-es-568">Haciéndonos morir, saca a la luz su falta.</l>
+              <l n="555" xml:id="em0528-es-569">No subirían nuestras cabezas al cadalso</l>
+              <l n="556" xml:id="em0528-es-570">sin revelar allí su criminal defecto.</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-111">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l n="557" xml:id="em0528-es-571">Para exterminarnos cuando le venga en gana</l>
+              <l n="558" xml:id="em0528-es-572">un rey tiene cien medios de quitarnos la vida.</l>
+              <l n="559" xml:id="em0528-es-573">Estamos en sus manos, nos pueden suprimir</l>
+              <l n="560" xml:id="em0528-es-574">y hasta inocentemente castigar al más justo.</l>
+              <l n="561" xml:id="em0528-es-575">Por culpable que sea un rey al acusarnos,</l>
+              <l n="562" xml:id="em0528-es-576">su gran autoridad no carece de excusa.</l>
+              <l n="563" xml:id="em0528-es-577">No se debe confiar contra él en el derecho,</l>
+              <l n="564" xml:id="em0528-es-578">el pretexto más falso puede justificarlo,</l>
+              <l n="565" xml:id="em0528-es-579">la pérdida, además, de dos como tú y yo</l>
+              <l n="566" xml:id="em0528-es-580">no será reprochable a nuestro Soberano.</l>
+              <l n="567" xml:id="em0528-es-581">Otros que tan piadosos no son como nosotros</l>
+              <l n="568" xml:id="em0528-es-582">y que se jactarían de tan alto secreto,</l>
+              <l n="569" xml:id="em0528-es-583">no temerán seguir al Rey en este rumbo.</l>
+              <l n="570" xml:id="em0528-es-584">¿Crees que sufriría, después, que aún viviéramos?</l>
+              <l n="571" xml:id="em0528-es-585">Tú y yo no evitaríamos de su brazo irritado</l>
+              <l n="572" xml:id="em0528-es-586">la injuria de un suplicio a mitad merecido.</l>
+            </lg>
+          </sp>
+          <sp who="#DEUX" xml:id="em0528-es-sp-112">
+            <speaker>Deuxis</speaker>
+            <lg part="M" type="free">
+              <l n="573" xml:id="em0528-es-587">Habrá, pues, que exiliarse, y lejos de un imperio</l>
+              <l n="574" xml:id="em0528-es-588">inseguro y nefasto a la gente de bien.</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-113">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l n="575" xml:id="em0528-es-589">Corriendo el universo de uno a otro confín,</l>
+              <l n="576" xml:id="em0528-es-590">no nos escaparíamos; un Rey va por doquier,</l>
+              <l n="577" xml:id="em0528-es-591">son tan largas sus manos que, por todo este mundo,</l>
+              <l n="578" xml:id="em0528-es-592">sin moverse de un sitio, alcanzan tierra y mar.</l>
+            </lg>
+          </sp>
+          <sp who="#DEUX" xml:id="em0528-es-sp-114">
+            <speaker>Deuxis</speaker>
+            <lg part="M" type="free">
+              <l n="579" xml:id="em0528-es-593">Es cierto lo que dices, tu razón me confunde.</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-115">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l n="580" xml:id="em0528-es-594">Culpables ante el Rey de esta cobarde falta,</l>
+              <l n="581" xml:id="em0528-es-595">estamos condenados; mas cumpliendo sus órdenes,</l>
+              <l n="582" xml:id="em0528-es-596">será después, sin duda, grande nuestra fortuna.</l>
+              <l n="583" xml:id="em0528-es-597">Los favores reales nos dejarán saciados:</l>
+              <l n="584" xml:id="em0528-es-598">ríos, en nuestros cuartos, áureos correrán.</l>
+            </lg>
+          </sp>
+          <sp who="#DEUX" xml:id="em0528-es-sp-116">
+            <speaker>Deuxis</speaker>
+            <lg part="M" type="free">
+              <l n="585" xml:id="em0528-es-599">El oro lo corrompe todo con sus hechizos;</l>
+              <l n="586" xml:id="em0528-es-600">prosternado ante él, rinde el honor las armas;</l>
+              <l n="587" xml:id="em0528-es-601">no hay tan fuerte muralla de justicia o de fe</l>
+              <l n="588" xml:id="em0528-es-602">que no rompa; no teme la piedad ni la ley.</l>
+              <l n="589" xml:id="em0528-es-603">Todo lo puede el oro, hasta cuando su cebo</l>
+              <l n="590" xml:id="em0528-es-604">a los valientes tienta que la miseria oprime,</l>
+              <l n="591" xml:id="em0528-es-605">como a mí, desgraciado, que el espanto del hambre</l>
+              <l n="592" xml:id="em0528-es-606">obliga a desear esa odiosa ganancia.</l>
+              <l n="593" xml:id="em0528-es-607">Monstruo de la pobreza, tu diente es más funesto</l>
+              <l n="594" xml:id="em0528-es-608">que el fuego más ardiente y la más fuerte peste.</l>
+              <l n="595" xml:id="em0528-es-609">El criminal que el miedo atormenta sin fin</l>
+              <l n="596" xml:id="em0528-es-610">tiene un dulce castigo, comparado a tus reos.</l>
+              <l n="597" xml:id="em0528-es-611">De los remordimientos del acto más infame,</l>
+              <l n="598" xml:id="em0528-es-612">el alma se consuela cuando tiene caudales.</l>
+              <l n="599" xml:id="em0528-es-613">El oro purga el crimen y nos cura de todo.</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-117">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l n="600" xml:id="em0528-es-614">La cosa, al fin, va bien; veo que se decide.</l>
+            </lg>
+          </sp>
+          <sp who="#DEUX" xml:id="em0528-es-sp-118">
+            <speaker>Deuxis</speaker>
+            <lg part="M" type="free">
+              <l n="601" xml:id="em0528-es-615">La suerte ya está echada, mi alma esa dispuesta</l>
+              <l n="602" xml:id="em0528-es-616">para lo que tú quieras, fácil veo el asunto.</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-119">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l n="603" xml:id="em0528-es-617">Nos basta únicamente con espiarlo aquí.</l>
+            </lg>
+          </sp>
+          <sp who="#DEUX" xml:id="em0528-es-sp-120">
+            <speaker>Deuxis</speaker>
+            <lg part="M" type="free">
+              <l n="604" part="I" xml:id="em0528-es-618">Aquí está, me parece.</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-121">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-619">Lo creo yo también.</l>
+            </lg>
+          </sp>
+          <sp who="#DEUX" xml:id="em0528-es-sp-122">
+            <speaker>Deuxis</speaker>
+            <lg part="M" type="free">
+              <l n="605" part="I" xml:id="em0528-es-620">¡Hagámoslo a la vez!</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-123">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-621">¡A mí, no me sorprenden!</l>
+              <l n="606" xml:id="em0528-es-622">Asesinos, veréis si me sé defender.</l>
+              <l n="607" xml:id="em0528-es-623">Aun solo contra dos, os haré comprender</l>
+              <l n="608" xml:id="em0528-es-624">que cuando uno me ataca, se arrepiente después.</l>
+            </lg>
+          </sp>
+          <sp who="#DEUX" xml:id="em0528-es-sp-124">
+            <speaker>Deuxis</speaker>
+            <lg part="M" type="free">
+              <l n="609" part="I" xml:id="em0528-es-625">¡Oh dioses, me han herido!</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-125">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-626">Si no es mejor tu mano,</l>
+<l n="610" xml:id="em0528-es-627">esa sangre cobarde vomitarás al punto<note n="3914" type="editor"><term>punto</term><p>Esprit Aubert, para evitar probablemente una evocación que consideraba demasiado cruda, ha sustituido este verso por “Que celle à Deuxis, tu mourras à cette heure” (Lachèvre 1911: 41).</p></note>.</l>
+              <l n="611" xml:id="em0528-es-628">Tu suerte, cual la suya, ya pende de mi espada.</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-126">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+<l n="612" xml:id="em0528-es-629">¡Huyamos, que parece fantasma del infierno<note n="3915" type="editor"><term>infierno</term><p>Este verso atribuido a Sílar falta en 1623Q, 1626BQ y 1626JM. Solo figura en 1632S, donde se restablece la rima pareada. Esprit Aubert remedió esta falta con el verso: “Je m’enfuis pour ne voir si promptement l’enfer” (Lachèvre, 1911: 41).</p></note>!</l>
+            </lg>
+          </sp>
+          <sp who="#DEUX" xml:id="em0528-es-sp-127">
+            <speaker>Deuxis</speaker>
+            <lg part="M" type="free">
+              <l n="613" xml:id="em0528-es-630">¡Cómo echo yo de ver, oh mis dioses, aquí</l>
+              <l n="614" xml:id="em0528-es-631">que contra su conciencia nunca debe uno obrar!</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-128">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="615" xml:id="em0528-es-632">¿Su conciencia, ladrón? Ese remordimiento</l>
+              <l n="616" xml:id="em0528-es-633">solo te oprime porque vas a ver a los muertos,</l>
+              <l n="617" xml:id="em0528-es-634">porque sientes pavor de que una pena eterna</l>
+              <l n="618" xml:id="em0528-es-635">reciba cuando mueras a tu alma criminal.</l>
+            </lg>
+          </sp>
+          <sp who="#DEUX" xml:id="em0528-es-sp-129">
+            <speaker>Deuxis</speaker>
+            <lg part="M" type="free">
+              <l n="619" xml:id="em0528-es-636">¡Ah, si me concediérais un poco de licencia</l>
+              <l n="620" xml:id="em0528-es-637">para poder hablaros mientras tenga aún juicio!</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-130">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="621" part="I" xml:id="em0528-es-638">¡Qué me puedes decir?</l>
+            </lg>
+          </sp>
+          <sp who="#DEUX" xml:id="em0528-es-sp-131">
+            <speaker>Deuxis</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-639">Algo que a buen seguro</l>
+              <l n="622" part="I" xml:id="em0528-es-640">os podría servir.</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-132">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-641">Debo, pues, escucharlo.</l>
+              <l n="623" part="I" xml:id="em0528-es-642">¿Qué es?</l>
+            </lg>
+          </sp>
+          <sp who="#DEUX" xml:id="em0528-es-sp-133">
+            <speaker>Deuxis</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-643">Algo que apenas se podría pensar:</l>
+              <l n="624" xml:id="em0528-es-644">el Rey nos ha obligado a venir a asesinaros.</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-134">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="625" xml:id="em0528-es-645">¡Oh, cielos! ¿Qué me has dicho? ¿Creeré a un traidor?</l>
+            </lg>
+          </sp>
+          <sp who="#DEUX" xml:id="em0528-es-sp-135">
+            <speaker>Deuxis</speaker>
+            <lg part="M" type="free">
+              <l n="626" part="I" xml:id="em0528-es-646">Os digo la verdad.</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-136">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-647">Pero no puede ser.</l>
+              <l n="627" xml:id="em0528-es-648">¡Se me hiela la sangre! Es cierto que este Rey,</l>
+              <l n="628" xml:id="em0528-es-649">ama, según me han dicho, lo mismo que amo yo.</l>
+              <l n="629" xml:id="em0528-es-650">¡Perdido estoy! Mi mal ya no tiene remedio.</l>
+              <l n="630" xml:id="em0528-es-651">¿Qué dios podrá ayudarme a oponerme a mi Rey?</l>
+            </lg>
+          </sp>
+          <sp who="#DEUX" xml:id="em0528-es-sp-137">
+            <speaker>Deuxis</speaker>
+            <lg part="M" type="free">
+              <l n="631" xml:id="em0528-es-652">Cuidad de comportaros, por tanto, con prudencia.</l>
+              <l n="632" xml:id="em0528-es-653">Me estoy muriendo ahora, mas muero con alivio.</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-138">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="633" xml:id="em0528-es-654">Que el infierno te sea propicio y menos áspera</l>
+              <l n="634" xml:id="em0528-es-655">te haga este buen pesar su noche desdichada.</l>
+              <l n="635" xml:id="em0528-es-656">Pero lo más sensato es escapar ahora,</l>
+              <l n="636" xml:id="em0528-es-657">sin dormir ni siquiera, sin descansar aquí.</l>
+              <l n="637" xml:id="em0528-es-658">Cuando el alma de un rey se desata de cólera</l>
+              <l n="638" xml:id="em0528-es-659">es mil veces peor que torrentes y llamas.</l>
+              <l n="639" xml:id="em0528-es-660">Hay que salir de aquí, y por necesidad.</l>
+              <l n="640" xml:id="em0528-es-661">Tisbe mía, a menudo ya me lo habéis pedido.</l>
+              <l n="641" xml:id="em0528-es-662">Cien veces me habéis dicho que os haría feliz</l>
+              <l n="642" xml:id="em0528-es-663">seguir lejos de aquí mi fortuna amorosa,</l>
+              <l n="643" xml:id="em0528-es-664">que teméis a este Príncipe y que el amor que os tiene</l>
+              <l n="644" xml:id="em0528-es-665">algún día será desgracia para el nuestro.</l>
+              <l n="645" xml:id="em0528-es-666">Habrá que remediarlo, y si el humor audaz</l>
+              <l n="646" xml:id="em0528-es-667">de vuestro ardor valiente no se ha adormecido,</l>
+              <l n="647" xml:id="em0528-es-668">nos emanciparemos de sus crueles leyes</l>
+              <l n="648" xml:id="em0528-es-669">y ambos seremos nuestros propios padres y reyes.</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="em0528-es-sc-7">
+          <head>Escena II</head>
+<stage xml:id="em0528-es-st-10">El Rey, el Mensajero, Sílar<note n="3916" type="editor"><term>El Rey, el Mensajero, Sílar</term><p>La indicación de los personajes que intervienen en esta escena (Píramo, Deuxis, Sílar, el Rey) es errónea en 1623Q, 1626BQ y 1626JM. Solo aparecen en la escena el Rey, Sílar y un personaje cuyas dos intervenciones son equivocadamente atribuidas a este. En 1632S se ha corregido parcialmente el error haciendo desaparecer a Deuxis e introduciendo un mensajero, al que se atribuyen las dos réplicas erróneas de Sílar. No obstante, en esa edición se sigue manteniendo a Píramo, que no aparece en ningún momento en la escena.</p></note></stage>
+          <sp who="#REY" xml:id="em0528-es-sp-139">
+            <speaker>El Rey</speaker>
+            <lg part="M" type="free">
+              <l n="649" xml:id="em0528-es-670">Esta afrenta me sube la sangre a la cabeza.</l>
+              <l n="650" xml:id="em0528-es-671">¡Cuánta vergüenza siente mi condición de Rey</l>
+<l n="651" xml:id="em0528-es-672">sabiendo que querías hablarle de mi parte!<note n="3917" type="editor"><term>sabiendo que querías hablarle de mi parte!</term><p>En ninguna de las cuatro ediciones manejadas se indica que estas palabras son pronunciadas por el Rey.</p></note></l>
+            </lg>
+          </sp>
+          <sp who="#MENSA" xml:id="em0528-es-sp-140">
+            <speaker>El Mensajero</speaker>
+            <lg part="M" type="free">
+              <l n="652" xml:id="em0528-es-673">Cien veces hoy en vano me enviaríais a ella</l>
+            </lg>
+          </sp>
+          <sp who="#REY" xml:id="em0528-es-sp-141">
+            <speaker>El Rey</speaker>
+            <lg part="M" type="free">
+              <l n="653" xml:id="em0528-es-674">¿No dio, pues, seña alguna de que te conocía?</l>
+            </lg>
+          </sp>
+          <sp who="#MENSA" xml:id="em0528-es-sp-142">
+            <speaker>El Mensajero</speaker>
+            <lg part="M" type="free">
+              <l n="654" xml:id="em0528-es-675">En cuanto vio, Señor, que allí me presentaba,</l>
+              <l n="655" xml:id="em0528-es-676">apartó su mirada, de pronto sorprendida,</l>
+              <l n="656" xml:id="em0528-es-677">igual que hubiera hecho al ver una serpiente.</l>
+              <l n="657" xml:id="em0528-es-678">Y entonces comenzó, en compañía de otros,</l>
+              <l n="658" xml:id="em0528-es-679">con una retahíla de discursos sin fin,</l>
+<l n="659" xml:id="em0528-es-680">hasta que consiguió esconderse de mí.<note n="3918" type="editor"><term>hasta que consiguió esconderse de mí.</term><p>Las dos réplicas del mensajero son erróneamente atribuidas a Sílar en 1623Q, 1626BQ y 1626JM. En 1632S se atribuyen a un mensajero.</p></note></l>
+            </lg>
+          </sp>
+          <sp who="#REY" xml:id="em0528-es-sp-143">
+            <speaker>El Rey</speaker>
+            <lg part="M" type="free">
+              <l n="660" xml:id="em0528-es-681">¡Tratar tan rudamente la pasión de un rey!</l>
+              <l n="661" xml:id="em0528-es-682">¿Debemos, pues, nosotros, los hijos de los dioses</l>
+              <l n="662" xml:id="em0528-es-683">parecernos al vulgo en nuestros sentimientos?</l>
+              <l n="663" xml:id="em0528-es-684">¡Un día de estos, tendré que obligarte a elegir,</l>
+              <l n="664" xml:id="em0528-es-685">ingrata, entre probar mi odio o mi amor!</l>
+              <l n="665" xml:id="em0528-es-686">Te haré saber que reino, y que la tiranía</l>
+              <l n="666" xml:id="em0528-es-687">me puede conceder lo que el amor me niega.</l>
+              <l n="667" xml:id="em0528-es-688">Despachado ese joven, si no vuelves atrás,</l>
+              <l n="668" xml:id="em0528-es-689">bien podrías hacerle compañía en la muerte.</l>
+              <l n="669" xml:id="em0528-es-690">Mas aquí está de vuelta mi ministro leal;</l>
+              <l n="670" xml:id="em0528-es-691">leo en su corazón fatídicas noticias.</l>
+              <l n="671" xml:id="em0528-es-692">Teme venir a mí. ¡Habla y alza los ojos!</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-144">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l n="672" part="I" xml:id="em0528-es-693">Muy mal va nuestro asunto.</l>
+            </lg>
+          </sp>
+          <sp who="#REY" xml:id="em0528-es-sp-145">
+            <speaker>El Rey</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-694">No esperaba otra cosa.</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-146">
+            <speaker>Sílar</speaker>
+            <lg part="M" type="free">
+              <l n="673" xml:id="em0528-es-695">Mi compañero ha muerto y yo, muy malherido,</l>
+              <l n="674" xml:id="em0528-es-696">acudo aquí a informaros de estas noticias ciertas.</l>
+              <l n="675" xml:id="em0528-es-697">Cuando a punto ya estábamos de acabar la faena,</l>
+              <l n="676" xml:id="em0528-es-698">el pueblo enfurecido se nos abalanzó,</l>
+              <l n="677" xml:id="em0528-es-699">y entonces, perseguido por armas y por gritos</l>
+              <l n="678" xml:id="em0528-es-700">crecientes, conseguí apenas escapar.</l>
+            </lg>
+          </sp>
+          <sp who="#REY" xml:id="em0528-es-sp-147">
+            <speaker>El Rey</speaker>
+            <lg part="M" type="free">
+              <l n="679" xml:id="em0528-es-701">¡Basta!, veo que Amor se burla de mis votos</l>
+              <l n="680" xml:id="em0528-es-702">y que el cielo, a propósito, prohíbe lo que quiero.</l>
+              <l n="681" xml:id="em0528-es-703">Estoy desesperado; mi alma, atormentada;</l>
+              <l n="682" xml:id="em0528-es-704">he guardado en el seno la muerte todo un año.</l>
+              <l n="683" xml:id="em0528-es-705">Mis desgracias se siguen sin fin, una tras otra,</l>
+              <l n="684" xml:id="em0528-es-706">nunca hubo en invierno tantas rachas de viento,</l>
+              <l n="685" xml:id="em0528-es-707">nunca tantas heladas, tanto frío y granizo,</l>
+              <l n="686" xml:id="em0528-es-708">sin que, al menos, hubiera un buen día en tres meses.</l>
+              <l n="687" xml:id="em0528-es-709">Nunca viejo caduco estuvo tan enfermo</l>
+              <l n="688" xml:id="em0528-es-710">que no tuviera al año un día de salud.</l>
+              <l n="689" xml:id="em0528-es-711">Eolo algunas veces ata todos los vientos</l>
+              <l n="690" xml:id="em0528-es-712">y hace que el nauta vea las aguas sin un rizo,</l>
+              <l n="691" xml:id="em0528-es-713">pero el astro más fiero y maligno del cielo</l>
+              <l n="692" xml:id="em0528-es-714">nunca de mi destino apartó su mirada.</l>
+              <l n="693" xml:id="em0528-es-715">Ese traidor me dio el cetro y el valor</l>
+              <l n="694" xml:id="em0528-es-716">para darme los males aún con más ultraje.</l>
+              <l n="695" xml:id="em0528-es-717">Mas me lamento en vano, no se equivoca el cielo:</l>
+              <l n="696" xml:id="em0528-es-718">todo hombre de valor es dueño de su suerte,</l>
+              <l n="697" xml:id="em0528-es-719">somete la fortuna a obediencia suya,</l>
+              <l n="698" xml:id="em0528-es-720">su deber no conoce más ley que su poder;</l>
+              <l n="699" xml:id="em0528-es-721">eso hace incluso un rey, cuyo único deber</l>
+              <l n="700" xml:id="em0528-es-722">es gozar los derechos de un poder soberano.</l>
+              <l n="701" xml:id="em0528-es-723">Pues no, no y no: mi juicio dejó de vacilar,</l>
+              <l n="702" xml:id="em0528-es-724">me decido sin dudas, Sílar, por la violencia;</l>
+              <l n="703" xml:id="em0528-es-725">intentarás de nuevo cumplir con mis designios,</l>
+              <l n="704" xml:id="em0528-es-726">ve hasta su cama y clávale un puñal en el pecho,</l>
+              <l n="705" xml:id="em0528-es-727">di que es de parte mía, que te echen una mano;</l>
+              <l n="706" xml:id="em0528-es-728">para forzar la casa, di que soy yo, no importa;</l>
+              <l n="707" xml:id="em0528-es-729">invéntate algún crimen para que se le acuse:</l>
+              <l n="708" xml:id="em0528-es-730">podrás en nombre mío decir y osarlo todo.</l>
+            </lg>
+          </sp>
+          <sp who="#SILAR" xml:id="em0528-es-sp-148">
+            <speaker>Sílar</speaker>
+            <lg part="F" type="free">
+              <l n="709" xml:id="em0528-es-731">¡Qué cosa tan extraña es el furor de reyes!</l>
+              <l n="710" xml:id="em0528-es-732">Ambicionan que el cielo se someta a su humor</l>
+              <l n="711" xml:id="em0528-es-733">y todos, a su yugo. Si en ese cruel empeño</l>
+              <l n="712" xml:id="em0528-es-734">Recurriera a otro, se lo agradecería.</l>
+            </lg>
+          </sp>
+        </div2>
+      </div1>
+      <div1 n="4" type="act">
+        <stage xml:id="em0528-es-st-11">Píramo, Tisbe, la Madre de Tisbe y su Confiddente</stage>
+        <div2 type="scene" xml:id="em0528-es-sc-8">
+          <head>Escena I</head>
+          <stage xml:id="em0528-es-st-12">Píramo, Tisbe</stage>
+          <sp who="#PIRA" xml:id="em0528-es-sp-149">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="713" xml:id="em0528-es-735">Ya ves cuánto peligro nuestra fortuna acecha:</l>
+              <l n="714" xml:id="em0528-es-736">no nos es permitido ni vernos a la luz.</l>
+              <l n="715" xml:id="em0528-es-737">¿No quieres tú, por fin, romper esta prisión?</l>
+              <l n="716" xml:id="em0528-es-738">La impaciencia se une aquí con la razón.</l>
+              <l n="717" xml:id="em0528-es-739">El tirano ya está reventando de cólera,</l>
+              <l n="718" xml:id="em0528-es-740">con el fin de saciarla cualquier medio usará,</l>
+              <l n="719" xml:id="em0528-es-741">y antes, posiblemente, que el lucero del alba</l>
+              <l n="720" xml:id="em0528-es-742">nos haga ver mañana regresar sus corceles,</l>
+              <l n="721" xml:id="em0528-es-743">sepamos cuánto alcanza un furor que se une</l>
+              <l n="722" xml:id="em0528-es-744">a la autoridad de una fuerza impune.</l>
+            </lg>
+          </sp>
+          <sp who="#TISB" xml:id="em0528-es-sp-150">
+            <speaker>Tisbe</speaker>
+            <lg part="M" type="free">
+              <l n="723" xml:id="em0528-es-745">Pues ya me he decidido sin esperar más tiempo:</l>
+              <l n="724" xml:id="em0528-es-746">debemos liberarnos, resueltos, de su mano.</l>
+              <l n="725" xml:id="em0528-es-747">Yo seré muy feliz si comparto fortuna,</l>
+              <l n="726" xml:id="em0528-es-748">desgracias y favores estando junto a ti.</l>
+              <l n="727" xml:id="em0528-es-749">Cuando no tenga ya que adular más espías,</l>
+              <l n="728" xml:id="em0528-es-750">ni tampoco parientes ni madre que temer,</l>
+              <l n="729" xml:id="em0528-es-751">cuando Amor, ya cansado de mostrarse tan bárbaro,</l>
+              <l n="730" xml:id="em0528-es-752">deje de interponer un muro entre nosotros,</l>
+              <l n="731" xml:id="em0528-es-753">y, sin impedimentos, nuestras miradas puedan</l>
+              <l n="732" xml:id="em0528-es-754">llegar donde han venido la voz y el pensamiento,</l>
+              <l n="733" xml:id="em0528-es-755">entonces, de placer colmada entre tus brazos,</l>
+              <l n="734" xml:id="em0528-es-756">ya no será turbada mi alma por el tirano,</l>
+              <l n="735" xml:id="em0528-es-757">y a nadie más que a ti tendré que respetar.</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-151">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="736" xml:id="em0528-es-758">Y a nadie más que a mí tú tendrás que ordenar:</l>
+              <l n="737" xml:id="em0528-es-759">sobre mi voluntad, la tuya soberana</l>
+              <l n="738" xml:id="em0528-es-760">por siempre te dará la calidad de Reina.</l>
+              <l n="739" xml:id="em0528-es-761">Te juro por la gracia, Tisbe, que hay en tus ojos</l>
+              <l n="740" xml:id="em0528-es-762">–y eso es más, para mí, que jurar por los dioses–,</l>
+              <l n="741" xml:id="em0528-es-763">que el afecto que hoy muestras me deja arrebatado.</l>
+              <l n="742" xml:id="em0528-es-764">No pensé que pudiera nunca ser tan intenso,</l>
+              <l n="743" xml:id="em0528-es-765">dudé que se pudiera amar con tal constancia,</l>
+              <l n="744" xml:id="em0528-es-766">y que tanto amor fuera tan solo para mí;</l>
+              <l n="745" part="I" xml:id="em0528-es-767">pensé que otros, más bellos…</l>
+            </lg>
+          </sp>
+          <sp who="#TISB" xml:id="em0528-es-sp-152">
+            <speaker>Tisbe</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-768">No concluyas, oh Píramo,</l>
+              <l n="746" xml:id="em0528-es-769">esa fea sospecha: herirías mi alma.</l>
+              <l n="747" xml:id="em0528-es-770">Hablar de otro que tú es para mí un disgusto,</l>
+              <l n="748" xml:id="em0528-es-771">corazón, ¿y qué ganas afligiéndome así?</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-153">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="749" xml:id="em0528-es-772">Eso no turbará mi fantasía, créeme:</l>
+              <l n="750" xml:id="em0528-es-773">deja que tanto amor sienta unos pocos celos,</l>
+              <l n="751" xml:id="em0528-es-774">mas no por los mortales, pues tengo la certeza</l>
+              <l n="752" part="I" xml:id="em0528-es-775">de ser tu único amor.</l>
+            </lg>
+          </sp>
+          <sp who="#TISB" xml:id="em0528-es-sp-154">
+            <speaker>Tisbe</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-776">Y lo puedes jurar.</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-155">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+<l n="753" xml:id="em0528-es-777">No obstante, me da celos todo lo que te toca<note n="3452" type="traductor"><term>No obstante, me da celos todo lo que te toca</term><p>Los celos del amante por los cabellos de la dama, que la besan, y por el mirto y la yedra que miran a los amantes, ya figuraban en el poema “La solitude” (Viau, 2017: 66, 70). Théophile ha desarrollado aquí el tema con profusión.</p></note>,</l>
+              <l n="754" xml:id="em0528-es-778">el aire que a menudo sale, entra por tu boca;</l>
+              <l n="755" xml:id="em0528-es-779">creo que eres la causa por la que el sol alumbra</l>
+              <l n="756" xml:id="em0528-es-780">con todos sus luceros de envidia y de amor;</l>
+              <l n="757" xml:id="em0528-es-781">las flores que a tu paso nacen en los caminos</l>
+              <l n="758" xml:id="em0528-es-782">me duelen del honor que tienen de gustarte;</l>
+              <l n="759" xml:id="em0528-es-783">y si yo complaciera mi celoso designio,</l>
+              <l n="760" xml:id="em0528-es-784">vetaría a tus ojos que miraran tu seno.</l>
+              <l n="761" xml:id="em0528-es-785">Tu sombra se aproxima demasiado a tu cuerpo,</l>
+              <l n="762" xml:id="em0528-es-786">pues tú y yo solamente debemos andar juntos.</l>
+              <l n="763" xml:id="em0528-es-787">En fin, eres tan dulce y cara para mí</l>
+<l n="764" xml:id="em0528-es-788">que hasta tu misma mano me daña si te toca.<note n="3919" type="editor"><term>que hasta tu misma mano me daña si te toca.</term><p>Lachèvre (1911: 41) considera execrables los dos versos que Esprit Aubert ha añadido aquí, solo excusables por su intención moralizadora: “L’Amour se voit tousjours mesler de jalousie, / S’il est accompagné, c’est une grand’manie”.</p></note></l>
+            </lg>
+          </sp>
+          <sp who="#TISB" xml:id="em0528-es-sp-156">
+            <speaker>Tisbe</speaker>
+            <lg part="M" type="free">
+              <l n="765" xml:id="em0528-es-789">Cuando no nos separe este obstáculo aquí,</l>
+              <l n="766" xml:id="em0528-es-790">ya verás que tus votos son también mis deseos</l>
+              <l n="767" xml:id="em0528-es-791">y que el mal que te oprime también me oprime a mí.</l>
+              <l n="768" xml:id="em0528-es-792">Mas el curso del día ya se está terminando</l>
+              <l n="769" xml:id="em0528-es-793">y con su claridad la luna se confunde.</l>
+              <l n="770" xml:id="em0528-es-794">Es hora de ocuparnos de nuestra libertad,</l>
+              <l n="771" xml:id="em0528-es-795">debemos arriesgarnos a huir por la noche,</l>
+              <l n="772" xml:id="em0528-es-796">pues me guardan celosamente durante el día.</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-157">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="773" xml:id="em0528-es-797">Eso está bien pensado: cuando de un hondo sueño</l>
+              <l n="774" xml:id="em0528-es-798">la suavidad primera se funda en nuestras venas,</l>
+              <l n="775" xml:id="em0528-es-799">cuando bajo ese peso, taciturno y sombrío,</l>
+              <l n="776" xml:id="em0528-es-800">solo se oiga el silencio y se vean las sombras,</l>
+              <l n="777" xml:id="em0528-es-801">debemos escapar cada uno de su casa,</l>
+              <l n="778" xml:id="em0528-es-802">mejor dicho, fugarnos cada uno de la cárcel.</l>
+            </lg>
+          </sp>
+          <sp who="#TISB" xml:id="em0528-es-sp-158">
+            <speaker>Tisbe</speaker>
+            <lg part="M" type="free">
+              <l n="779" xml:id="em0528-es-803">Mas al irnos de aquí para vernos al poco,</l>
+              <l n="780" xml:id="em0528-es-804">¿en qué lugar seguro podremos encontrarnos?</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-159">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="781" xml:id="em0528-es-805">El día esperaremos cerca, en sitio adecuado;</l>
+              <l n="782" xml:id="em0528-es-806">parece que el amor me lo enseña a propósito:</l>
+<l n="783" part="I" xml:id="em0528-es-807">en la tumba de Nino<note n="3453" type="traductor"><term>Nino</term><p>Rey legendario asirio. Esta alusión permite localizar la historia en Babilonia.</p></note>.</l>
+            </lg>
+          </sp>
+          <sp who="#TISB" xml:id="em0528-es-sp-160">
+            <speaker>Tisbe</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-808">Muy cerca está de aquí.</l>
+            </lg>
+          </sp>
+          <sp who="#PIRA" xml:id="em0528-es-sp-161">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="784" xml:id="em0528-es-809">Fluye allí un claro arroyo pegado a una roca,</l>
+              <l n="785" xml:id="em0528-es-810">que, con sus vivas aguas cuidando de las flores,</l>
+              <l n="786" xml:id="em0528-es-811">al prado le mantiene el alma y los colores.</l>
+              <l n="787" xml:id="em0528-es-812">Un árbol muy cercano, fértil en moras blancas,</l>
+              <l n="788" xml:id="em0528-es-813">nos ofrece el abrigo de sus espesas ramas.</l>
+<l n="789" xml:id="em0528-es-814">¿Podríamos hallar lugar más apropiado ?<note n="3454" type="traductor"><term>¿Podríamos hallar lugar más apropiado ?</term><p>A lo largo de la tradición literaria de esta historia, la propuesta de la fuga ha sido atribuida conjuntamente a los amantes (Ovidio, Christine de Pisan, etc.), a la dama (<emph>Piramus et Tisbé</emph> francés del siglo XII, primer <emph>Ovide moralisé</emph> en prosa) o a Píramo (segundo <emph>Ovide</emph> moralisé, Moralité <emph>nouvelle de Piramus et Tisbee</emph> del XV, etc.). Théophile opta por Píramo, como otros escritores anteriores de su tiempo: Guillaume Belliard (1578: 77), Baïf (1883 [1572], II: 170) y Góngora (2011 [1618]: 59, vv. 269-280), en tanto que la Roque (1597: 9), Marino (1993 [1620]: 431, vv. 780-783) y Montemayor (1602 [1651]: 218) optan por una decisión conjunta de los amantes.</p></note></l>
+            </lg>
+          </sp>
+          <sp who="#TISB" xml:id="em0528-es-sp-162">
+            <speaker>Tisbe</speaker>
+            <lg part="M" type="free">
+              <l n="790" xml:id="em0528-es-815">Es el mejor del mundo; vamos, que ya está hecho.</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="em0528-es-sc-9">
+          <head>Escena II</head>
+          <stage xml:id="em0528-es-st-13">La Madre, su Confidente</stage>
+          <sp who="#MADRE" xml:id="em0528-es-sp-163">
+            <speaker>La Madre</speaker>
+            <lg part="M" type="free">
+              <l n="791" xml:id="em0528-es-816">Se siguen erizando de espanto mis cabellos,</l>
+              <l n="792" xml:id="em0528-es-817">sus feroces miradas me siguen apuntando.</l>
+              <l n="793" xml:id="em0528-es-818">¡Desgraciado reposo, cuánto miedo me has dado</l>
+<l n="794" xml:id="em0528-es-819">con tu engañoso sueño, oh dioses, cuánto espanto!<note n="3455" type="traductor"><term>con tu engañoso sueño, oh dioses, cuánto espanto!</term><p>Encontramos un antecedente de sueño premonitorio en el <emph>Piramus et Tisbé</emph> del siglo XII. En esa obra (Anónimo, 2000: 56-58, vv. 523-548), es Tisbe quien le cuenta el sueño que tiene a su amante: Píramo, triste y pensativo se presenta ante ella, angustiada y atormentada; la joven le tiende las manos, pero entonces todo se disipa. Además, una voz le dice que se vaya del lugar con su amigo. Tisbe ruega que ese sueño sea favorable –“Diex donge / Que biens me viengne de cest songe” (Anónimo, 2000: 65: vv. 539-540), lo que revela sus temores. Théophile ha trasladado el sueño premonitorio a la madre de Tisbe. El hecho de que haya conservado el sueño, frente a las otras versiones, sería una prueba, entre otras, de su conocimiento de la obra medieval (Van Emden, 1973a: 875).</p></note></l>
+              <l n="795" xml:id="em0528-es-820">De esa visión funesta, la imagen triste y negra</l>
+              <l n="796" xml:id="em0528-es-821">persiste en mi memoria con demasiado horror;</l>
+              <l n="797" xml:id="em0528-es-822">he estado todo el día pensando con temor</l>
+              <l n="798" part="I" xml:id="em0528-es-823">en esta mala noche.</l>
+            </lg>
+          </sp>
+          <sp who="#CONFID" xml:id="em0528-es-sp-164">
+            <speaker>La Confidente</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-824">No es más que una ilusión.</l>
+            </lg>
+          </sp>
+          <sp who="#MADRE" xml:id="em0528-es-sp-165">
+            <speaker>La Madre</speaker>
+            <lg part="M" type="free">
+              <l n="799" xml:id="em0528-es-825">¡A muchos, como vemos, las voces de los sueños</l>
+              <l n="800" part="I" xml:id="em0528-es-826">han contado verdades!</l>
+            </lg>
+          </sp>
+          <sp who="#CONFID" xml:id="em0528-es-sp-166">
+            <speaker>La Confidente</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0528-es-827">Y mentiras también.</l>
+            </lg>
+          </sp>
+          <sp who="#MADRE" xml:id="em0528-es-sp-167">
+            <speaker>La Madre</speaker>
+            <lg part="M" type="free">
+              <l n="801" xml:id="em0528-es-828">Tengo yo ese espanto demasiado metido</l>
+              <l n="802" xml:id="em0528-es-829">en el ánimo para despreciar su presagio.</l>
+              <l n="803" xml:id="em0528-es-830">Jamás una figura tan pálida y tan triste</l>
+              <l n="804" xml:id="em0528-es-831">se nos presenta así sin traer mal augurio.</l>
+              <l n="805" xml:id="em0528-es-832">Una noche como esa no tengo yo a menudo.</l>
+            </lg>
+          </sp>
+          <sp who="#CONFID" xml:id="em0528-es-sp-168">
+            <speaker>La Confidente</speaker>
+            <lg part="M" type="free">
+              <l n="806" xml:id="em0528-es-833">Para el que es razonable, el sueño solo es viento.</l>
+              <l n="807" xml:id="em0528-es-834">Bueno es, malo, fingido, verdadero o variable,</l>
+              <l n="808" xml:id="em0528-es-835">según como haya errado nuestro mudable espíritu.</l>
+            </lg>
+          </sp>
+          <sp who="#MADRE" xml:id="em0528-es-sp-169">
+            <speaker>La Madre</speaker>
+            <lg part="M" type="free">
+              <l n="809" xml:id="em0528-es-836">Si tú supieras cómo apareció ese sueño</l>
+              <l n="810" xml:id="em0528-es-837">y la muerte corrió cien veces por mis huesos,</l>
+              <l n="811" xml:id="em0528-es-838">se jactaría en vano tu razón de ser firme,</l>
+              <l n="812" xml:id="em0528-es-839">pues tú también, tal vez, como yo te espantaras.</l>
+            </lg>
+          </sp>
+          <sp who="#CONFID" xml:id="em0528-es-sp-170">
+            <speaker>La Confidente</speaker>
+            <lg part="M" type="free">
+              <l n="813" xml:id="em0528-es-840">Si no os molesta hacérmelo escuchar de vos misma…</l>
+            </lg>
+          </sp>
+          <sp who="#MADRE" xml:id="em0528-es-sp-171">
+            <speaker>La Madre</speaker>
+            <lg part="M" type="free">
+              <l n="814" xml:id="em0528-es-841">Si esa sombra, al habblar, se pudiera esfumar</l>
+              <l n="815" xml:id="em0528-es-842">y si su forma errante, todavía en mi lecho,</l>
+              <l n="816" xml:id="em0528-es-843">saliera de mi alma al salir de mi boca,</l>
+              <l n="817" xml:id="em0528-es-844">pronta ya me verías para hacerte saber</l>
+              <l n="818" xml:id="em0528-es-845">lo que vi claramente con mis ojos cerrados.</l>
+            </lg>
+          </sp>
+          <sp who="#CONFID" xml:id="em0528-es-sp-172">
+            <speaker>La Confidente</speaker>
+            <lg part="M" type="free">
+              <l n="819" xml:id="em0528-es-846">El dolor descargado en el alma leal</l>
+<l n="820" xml:id="em0528-es-847">de una persona amada, menos cruel se siente.<note n="3938" type="editor"><term>de una persona amada, menos cruel se siente.</term><p>Estos dos versos están encabezados por comillas en 1623Q, 1626JM y 1632S para mostrar su carácter sentencioso, algo propio de tragedias de la época que insisten en la enseñanza moral. La inserción entre comillas de las sentencias y proverbios es frecuente en el teatro francés del siglo XVI y principios del XVII, aunque no todos siempre las llevan y, en otras ocasiones, lo hacen frases que no son de ese tipo (Scherer, 1977: 320-321).</p></note></l>
+              <l n="821" xml:id="em0528-es-848">El socorro ofrecido, por pequeño que sea,</l>
+              <l n="822" xml:id="em0528-es-849">hace que el mal, al menos, se soporte mejor.</l>
+              <l n="823" xml:id="em0528-es-850">Si hay, pues, que suspirar, con vos suspiraré.</l>
+            </lg>
+          </sp>
+          <sp who="#MADRE" xml:id="em0528-es-sp-173">
+            <speaker>La Madre</speaker>
+            <lg part="M" type="free">
+              <l n="824" xml:id="em0528-es-851">Me apremias a contártelo con tu curiosidad.</l>
+              <l n="825" xml:id="em0528-es-852">Era después de la hora en que el cuerpo, cargado</l>
+              <l n="826" xml:id="em0528-es-853">de groseros vapores, suscita en los sentidos</l>
+              <l n="827" xml:id="em0528-es-854">caprichosos engaños, y mi mente tranquila</l>
+              <l n="828" xml:id="em0528-es-855">bebía los narcóticos que nos destila el sueño,</l>
+              <l n="829" xml:id="em0528-es-856">mientras la noche estaba a punto de acabar</l>
+              <l n="830" xml:id="em0528-es-857">y aún no había llegado el carro de la aurora.</l>
+            </lg>
+          </sp>
+          <sp who="#CONFID" xml:id="em0528-es-sp-174">
+            <speaker>La Confidente</speaker>
+            <lg part="M" type="free">
+              <l n="831" xml:id="em0528-es-858">Es en esos momentos, según opina el vulgo,</l>
+              <l n="832" xml:id="em0528-es-859">cuando los sueños tienen una visión más clara.</l>
+            </lg>
+          </sp>
+          <sp who="#MADRE" xml:id="em0528-es-sp-175">
+            <speaker>La Madre</speaker>
+            <lg part="M" type="free">
+              <l n="833" xml:id="em0528-es-860">Ya han sucedido cosas que me han atestiguado</l>
+              <l n="834" xml:id="em0528-es-861">que es cuando engaña menos lo incierto que hay en ellos.</l>
+            </lg>
+          </sp>
+          <sp who="#CONFID" xml:id="em0528-es-sp-176">
+            <speaker>La Confidente</speaker>
+            <lg part="M" type="free">
+              <l n="835" xml:id="em0528-es-862">¡No quiera, pues, el cielo que persista ese sueño</l>
+              <l n="836" xml:id="em0528-es-863">pronosticando aún su funesta aventura!</l>
+            </lg>
+          </sp>
+          <sp who="#MADRE" xml:id="em0528-es-sp-177">
+            <speaker>La Madre</speaker>
+            <lg part="M" type="free">
+              <l n="837" xml:id="em0528-es-864">Te diré que jamás un sueño, por oscuro</l>
+              <l n="838" xml:id="em0528-es-865">que fuera, me hizo ver tanto horror y verdad.</l>
+            </lg>
+          </sp>
+          <sp who="#CONFID" xml:id="em0528-es-sp-178">
+            <speaker>La Confidente</speaker>
+            <lg part="M" type="free">
+              <l n="839" xml:id="em0528-es-866">Tan solo con oíros, ya me siento turbada.</l>
+            </lg>
+          </sp>
+          <sp who="#MADRE" xml:id="em0528-es-sp-179">
+            <speaker>La Madre</speaker>
+            <lg part="M" type="free">
+              <l n="840" xml:id="em0528-es-867">Ya te lo cuento, ¡oh dioses!, para espanto de mi alma.</l>
+              <l n="841" xml:id="em0528-es-868">He visto yo a través de la venda del sueño,</l>
+              <l n="842" xml:id="em0528-es-869">en medio de un desierto, el eclipse del sol.</l>
+              <l n="843" xml:id="em0528-es-870">Es el primer objeto de la funesta imagen</l>
+              <l n="844" xml:id="em0528-es-871">que señala a mi sino un perjuicio seguro.</l>
+              <l n="845" xml:id="em0528-es-872">En esa noche espesa donde por todas partes</l>
+              <l n="846" xml:id="em0528-es-873">todo permanecía igualmente escondido,</l>
+              <l n="847" xml:id="em0528-es-874">sentí bajo mis pies que la tierra se abría</l>
+              <l n="848" xml:id="em0528-es-875">y que el trueno, de ahí, sordamente atronaba.</l>
+              <l n="849" xml:id="em0528-es-876">Un enjambre de cuervos se reunió sobre mí,</l>
+              <l n="850" xml:id="em0528-es-877">se desplomó la luna, se estremeció el cielo,</l>
+              <l n="851" xml:id="em0528-es-878">las nubes descargaron y, en esa tempestad,</l>
+              <l n="852" xml:id="em0528-es-879">unas gotas de sangre me cayeron encima.</l>
+              <l n="853" xml:id="em0528-es-880">Un león de ojo ardiente y de crin erizada,</l>
+              <l n="854" xml:id="em0528-es-881">enredada horrorosamente en su ancho cuello,</l>
+              <l n="855" xml:id="em0528-es-882">rugiendo, mas sin verme al lado de la cueva,</l>
+              <l n="856" xml:id="em0528-es-883">dos o tres vueltas dio alrededor de mí.</l>
+              <l n="857" xml:id="em0528-es-884">Y gritos subterráneos, quebrados de sollozos,</l>
+              <l n="858" xml:id="em0528-es-885">como si las riberas y las aguas bramaran,</l>
+              <l n="859" xml:id="em0528-es-886">a través del silencio y de horribles tinieblas</l>
+              <l n="860" xml:id="em0528-es-887">mi pecho atravesaron con sus acentos fúnebres.</l>
+            </lg>
+          </sp>
+          <sp who="#CONFID" xml:id="em0528-es-sp-180">
+            <speaker>La Confidente</speaker>
+            <lg part="M" type="free">
+              <l n="861" xml:id="em0528-es-888">¡Oh, dioses! Solamente oyéndoos hablar</l>
+              <l n="862" xml:id="em0528-es-889">ya siento que de horror mi corazón se hiela.</l>
+            </lg>
+          </sp>
+          <sp who="#MADRE" xml:id="em0528-es-sp-181">
+            <speaker>La Madre</speaker>
+            <lg part="M" type="free">
+              <l n="863" xml:id="em0528-es-890">Y cayendo, de pronto, en pavores más vívidos,</l>
+              <l n="864" xml:id="em0528-es-891">me pareció que erraba por la infernal ribera,</l>
+              <l n="865" xml:id="em0528-es-892">donde, por una noche aún más negra cegada,</l>
+              <l n="866" xml:id="em0528-es-893">me encontré con un cuerpo ensangrentado y pálido</l>
+              <l n="867" xml:id="em0528-es-894">que me representaba, de modo lamentable,</l>
+              <l n="868" xml:id="em0528-es-895">de mi cara hija Tisbe, el retrato veraz.</l>
+              <l n="869" xml:id="em0528-es-896">Tres heridas tenía ese cuerpo en el pecho,</l>
+              <l n="870" xml:id="em0528-es-897">que teñía el sudario en el que estaba envuelto.</l>
+              <l n="871" xml:id="em0528-es-898">Mas en cuanto sus ojos mi faz reconocieron,</l>
+              <l n="872" xml:id="em0528-es-899">pese a que ya no fueran sino sombras y nube,</l>
+              <l n="873" xml:id="em0528-es-900">me lanzaron miradas con tanta vehemencia</l>
+              <l n="874" xml:id="em0528-es-901">que parecían flechas por la muerte asestadas.</l>
+              <l n="875" xml:id="em0528-es-902">Y me dijo, acercándose, con la voz agria y fuerte:</l>
+              <l n="876" xml:id="em0528-es-903">“¿Qué buscas tú, tigresa? ¡Ya lo ves, estoy muerta!</l>
+              <l n="877" xml:id="em0528-es-904">¿Vienes, pues, inhumana, a esta aciaga ribera,</l>
+              <l n="878" xml:id="em0528-es-905">a seguir espiándonos el amoroso espíritu?”</l>
+              <l n="879" xml:id="em0528-es-906">Y me toma la mano, me saca de mi sitio</l>
+              <l n="880" xml:id="em0528-es-907">para mostrarme a Píramo tendido sobre el hielo,</l>
+              <l n="881" xml:id="em0528-es-908">que, herido como ella en el mismo lugar,</l>
+              <l n="882" xml:id="em0528-es-909">mostraba que un mismo ánimo lo había allí empujado.</l>
+              <l n="883" xml:id="em0528-es-910">¡Mira, me dijo, bárbara, en ese triste espectáculo,</l>
+              <l n="884" xml:id="em0528-es-911">de qué nos han servido las trabas de tu envidia!</l>
+              <l n="885" xml:id="em0528-es-912">¿Quién te impulsa a venir a turbar nuestro amor?</l>
+              <l n="886" xml:id="em0528-es-913">Aquí nuestro destino tu piedad aborrece,</l>
+              <l n="887" xml:id="em0528-es-914">el infierno sí deja vivir a nuestras llamas.</l>
+              <l n="888" xml:id="em0528-es-915">¡Ve, no nos vuelvas nunca a importunar las almas!</l>
+              <l n="889" xml:id="em0528-es-916">Su brazo me empujó y yo, sobresaltada,</l>
+              <l n="890" xml:id="em0528-es-917">entonces desperté con un grito muy alto.</l>
+              <l n="891" xml:id="em0528-es-918">¿Acaso no es motivo todo esto de inquietud?</l>
+            </lg>
+          </sp>
+          <sp who="#CONFID" xml:id="em0528-es-sp-182">
+            <speaker>La Confidente</speaker>
+            <lg part="M" type="free">
+              <l n="892" xml:id="em0528-es-919">Se turbaría incluso el pecho más valiente.</l>
+            </lg>
+          </sp>
+          <sp who="#MADRE" xml:id="em0528-es-sp-183">
+            <speaker>La Madre</speaker>
+            <lg part="M" type="free">
+              <l n="893" xml:id="em0528-es-920">Me arrepiento de haber regañado tan fuerte</l>
+              <l n="894" xml:id="em0528-es-921">a una hija tan buena, reconozco mi error.</l>
+              <l n="895" xml:id="em0528-es-922">De ahora en adelante, quiero aflojar las riendas</l>
+              <l n="896" xml:id="em0528-es-923">con que ato los deseos que su edad le despierta.</l>
+            </lg>
+          </sp>
+          <sp who="#CONFID" xml:id="em0528-es-sp-184">
+            <speaker>La Confidente</speaker>
+            <lg part="M" type="free">
+              <l n="897" xml:id="em0528-es-924">Es cierto, mi señora, que con menos rudeza</l>
+              <l n="898" xml:id="em0528-es-925">vos la gobernaríais con más comodidad.</l>
+              <l n="899" xml:id="em0528-es-926">Como es de buena sangre, tiene el humor altivo;</l>
+              <l n="900" xml:id="em0528-es-927">menos vale la fuerza que el ruego en un buen pecho.</l>
+              <l n="901" xml:id="em0528-es-928">Cuando era de su edad, recuerdo yo que un día</l>
+              <l n="902" xml:id="em0528-es-929">mi padre a mí me quiso apartar de un amor</l>
+              <l n="903" xml:id="em0528-es-930">para él no adecuado, pero para mí sí.</l>
+              <l n="904" xml:id="em0528-es-931">Su prohibición volvió tan fuerte mi pasión</l>
+              <l n="905" xml:id="em0528-es-932">que pronto se dio cuenta de que, al fin y a la postre,</l>
+              <l n="906" xml:id="em0528-es-933">debía estar de acuerdo con cuanto Amor quisiera.</l>
+              <l n="907" xml:id="em0528-es-934">Ni el respeto por otro, ni siquiera nuestra alma</l>
+              <l n="908" xml:id="em0528-es-935">se pueden abstener de seguir lo que se ama.</l>
+            </lg>
+          </sp>
+          <sp who="#MADRE" xml:id="em0528-es-sp-185">
+            <speaker>La Madre</speaker>
+            <lg part="M" type="free">
+              <l n="909" xml:id="em0528-es-936">Puedes estar segura de que te alegrarás</l>
+<l n="910" xml:id="em0528-es-937">de verme indulgente con su joven deseo.<note n="3922" type="editor"><term>de verme indulgente con su joven deseo.</term><p>Théophile ha atenuado la dureza de la madre en esta escena, haciendo que, tras el sueño, recapacite sobre el trato que da a su hija y se proponga ser más tolerante con ella. Théophile, con este tramiento del personaje de la madre se opone a los autores que no diferencian a los padres, como el propio Ovidio, o a los que han hecho, sin más, a la madre protagonista del confinamiento de la joven para que no pueda ver a Píramo, como ocurre en el <emph>Piramus et Tisbé</emph> francés del siglo XII (Anónimo, 2000: 26-28, vv. 85-92) y en las dos redacciones del <emph>Ovide moralisé</emph> en prosa (Anónimo, 1954: 134; van Enden, 1973b: 38). Más próximos a Théophile en el tiempo, François Habert (1541: 98) y la Roque (1597: 6) tampoco han diferenciado en este punto a los padres, en tanto que Baïf (1883 [1572], II: 167) y Belliard (1578: 71-72) han hecho protagonista del encierro de Tisbe a la madre. Marino (1993 [1620]: 409, vv. 240-245), siguiendo a Montemayor (1602 [1561]: 210), hace que el padre prohíba a Tisbe ver a Píramo, y matiza al personaje de la madre en la misma dirección que Théophile. Así, en la obra de Montemayor (1602 [1561]: 228), antes de su suicidio, y tras haber lanzado duros reproches a su padre, Tisbe usa un tono muy diferente para dirigirse a su madre ausente, que llama <emph>piadosa</emph>, mostrándola más cercana a ella que su padre: le recuerda, que es honroso no romper la fe dada y que por eso muere, pidiéndole que la entierre junto a Píramo. En la obra de Marino (1993 [1620]: 456, vv. 1443-1452), Tisbe también llama <emph>pietosa</emph> a su madre y le pide que los entierre juntos.</p></note></l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="em0528-es-sc-10">
+          <head>Escena III</head>
+          <stage xml:id="em0528-es-st-14">Tisbe, sola</stage>
+          <sp who="#TISB" xml:id="em0528-es-sp-186">
+            <speaker>Tisbe</speaker>
+            <lg part="F" type="free">
+<l n="911" xml:id="em0528-es-938">Oh diosa de la noche, Luna, madre de sombras,<note n="3423" type="editor"><term>Oh diosa de la noche, Luna, madre de sombras,</term><p>Frente a las versiones anteriores, parcas en la descripción del lugar de encuentro, Montemayor (1602 [1561]: 220) le dedica a ello una bella décima concentrándose en la luz de la luna, las flores del campo y el efecto que hacía una suave brisa meneando las ramas y esparciendo el olor de las flores. Marino (1993 [1620]: 436: vv. 907-953) ha ampliado considerablemente este pasaje en su obra, con un intenso enriquecimiento estilístico, al fondo del cual se ven las ideas fundamentales de Montemayor. Tisbe toma en esa obra la palabra mostrando o anhelando la complicidad de los elementos de la naturaleza con sus amores: “Ecco il cielo fatto è spia / de’ nostri dolci furti. /Ne’ miei casi felici / vogliono ancor le stelle / vigilar spettatrici” (Marino, 1993 [1620]: 437, vv. 926-930). Todo indica, pues, que Théophile ha seguido a esos dos antecesores haciendo que Tisbe en esta escena se dirija con más amplitud a los elementos de la naturaleza y seres mitológicos pidiéndoles su ayuda, dando así una indirecta descripción, realzada por figuras, del lugar de encuentro.</p></note></l>
+              <l n="912" xml:id="em0528-es-939">tú que me ves llegar bajo esta fronda oscura,</l>
+              <l n="913" xml:id="em0528-es-940">mantente silenciosa, no dejes que te ofenda</l>
+              <l n="914" xml:id="em0528-es-941">el descarado amor que guía aquí mis pasos.</l>
+              <l n="915" xml:id="em0528-es-942">No me mires: podrías envidiar mi contento;</l>
+<l n="916" xml:id="em0528-es-943">ya te basta aquí abajo con que Endimión<note n="3457" type="traductor"><term>Endimión</term><p>Joven pastor del que Selene se enamoró en la mitología griega.</p></note> te bese;</l>
+              <l n="917" xml:id="em0528-es-944">y, sin reñir conmigo por celos o sospechas,</l>
+              <l n="918" xml:id="em0528-es-945">permanece tú sola junto a ese joven tuyo;</l>
+              <l n="919" xml:id="em0528-es-946">y créeme: mi amor se arriesga aquí por algo</l>
+              <l n="920" xml:id="em0528-es-947">donde no hay intención que te pueda afectar.</l>
+              <l n="921" xml:id="em0528-es-948">De sobra hay en los ojos del que me hace venir</l>
+              <l n="922" xml:id="em0528-es-949">ahora a este lugar, para atraerme siempre.</l>
+              <l n="923" xml:id="em0528-es-950">Y tú, sagrado arroyo, cuya agradable orilla</l>
+              <l n="924" xml:id="em0528-es-951">tanto más abordable veo cuanto salvaje,</l>
+              <l n="925" xml:id="em0528-es-952">redobla para mí el rumor de tus aguas</l>
+<l n="926" xml:id="em0528-es-953">hasta que los silvanos<note n="3458" type="traductor"><term>silvanos</term><p>Divinidades romanas protectoras de los bosques.</p></note> se queden todos sordos</l>
+<l n="927" xml:id="em0528-es-954">y que la vana Eco<note n="3459" type="traductor"><term>Eco</term><p>Ninfa de los bosques. Según la leyendo acabó convertida en una voz que repite las últimas palabras pronunciadas.</p></note>, también ensordecida,</l>
+              <l n="928" xml:id="em0528-es-955">mis palabras de amor no repita en el bosque.</l>
+              <l n="929" xml:id="em0528-es-956">¡Mas no!, fluye despacio para no despertar</l>
+              <l n="930" xml:id="em0528-es-957">a las ninfas del agua, déjalas, pues, dormir.</l>
+              <l n="931" xml:id="em0528-es-958">No pone tanto frío en sus almas el agua</l>
+<l n="932" xml:id="em0528-es-959">como para no arder a la vista de Píramo.<note n="3923" type="editor"><term>como para no arder a la vista de Píramo.</term><p>Théophile desarrolla una imagen parecida en la oda II de <emph>La maison de Sylvie</emph>, jugando con la paradoja del agua que se hace fuego por la mirada que un ser hermoso lanza sobre ella: “Ses yeux jetaient un feu dans l’eau : / Ce feu choque l’eau sans la craindre, / Et l’eau trouve ce feu si beau / Qu’elle ne l’oserait éteindre ” (Viau, 2017: 189).</p></note></l>
+              <l n="933" xml:id="em0528-es-960">¡Mas cómo! El perezoso aún está por venir.</l>
+              <l n="934" xml:id="em0528-es-961">Desconozco el motivo que pueda retenerlo;</l>
+              <l n="935" xml:id="em0528-es-962">claro está, tiene amor; aun así, no es posible</l>
+              <l n="936" xml:id="em0528-es-963">que lo sienta hasta el punto en que lo siento yo.</l>
+              <l n="937" xml:id="em0528-es-964">Solo os lo digo a vos, arroyos, antros, bosques,</l>
+              <l n="938" xml:id="em0528-es-965">a quien la propia Diana confió sus secretos.</l>
+              <l n="939" xml:id="em0528-es-966">Hazme este favor, Eco: ¡pídele a esa roca</l>
+              <l n="940" xml:id="em0528-es-967">que le diga palabras de amoroso reproche!</l>
+              <l n="941" xml:id="em0528-es-968">¿Mas, no oigo yo a lo lejos, como parece, un ruido?</l>
+              <l n="942" xml:id="em0528-es-969">Un brillo atisbo ya, como si fuera un ojo.</l>
+              <l n="943" xml:id="em0528-es-970">¡Pero qué he visto, oh dioses! ¡Qué espantoso animal!</l>
+              <l n="944" xml:id="em0528-es-971">Es un león hambriento que busca aquí su caza.</l>
+              <l n="945" xml:id="em0528-es-972">¡Huye del horror, Tisbe, de un sino tan nefasto!</l>
+              <l n="946" xml:id="em0528-es-973">¡Dioses, no sea Píramo, al menos, su botín!</l>
+            </lg>
+          </sp>
+        </div2>
+      </div1>
+      <div1 n="5" type="act">
+        <div2 type="scene" xml:id="em0528-es-sc-11">
+          <head>Escena I</head>
+          <stage xml:id="em0528-es-st-15">Píramo, solo</stage>
+          <sp who="#PIRA" xml:id="em0528-es-sp-187">
+            <speaker>Píramo</speaker>
+            <lg part="M" type="free">
+              <l n="947" xml:id="em0528-es-974">He salido, por fin; su prudencia importuna</l>
+              <l n="948" xml:id="em0528-es-975">ya no gobernará ni a mí, ni a mi fortuna.</l>
+              <l n="949" xml:id="em0528-es-976">Mi alma ya solo sigue a la antorcha de Amor;</l>
+              <l n="950" xml:id="em0528-es-977">en mi ceguera encuentro la suficiente luz.</l>
+              <l n="951" xml:id="em0528-es-978">Bella noche que tiendes estos oscuros velos,</l>
+              <l n="952" xml:id="em0528-es-979">menos vale, de veras, el sol que tus estrellas;</l>
+              <l n="953" xml:id="em0528-es-980">dulce y tranquila noche, de ahora en adelante</l>
+              <l n="954" xml:id="em0528-es-981">más vales para mí que el día más hermoso.</l>
+              <l n="955" xml:id="em0528-es-982">Veo que mis sentidos van a henchirse de gozo</l>
+              <l n="956" xml:id="em0528-es-983">sin que mortal alguno ni dios me vea aquí.</l>
+              <l n="957" xml:id="em0528-es-984">Mas ya me encuentro cerca de la tumba elegida.</l>
+              <l n="958" xml:id="em0528-es-985">Diviso la morera, oigo el ruido del agua.</l>
+              <l n="959" xml:id="em0528-es-986">Este lugar, Amor lo destinaba a Diana:</l>
+<l n="960" xml:id="em0528-es-987">nunca vino aquí nada profano sino yo<note n="3460" type="traductor"><term>nunca vino aquí nada profano sino yo</term><p>La idea de un lugar sagrado frecuentado por Diana, en el que penetran los amantes, ya figuraba en el poema “La solitude”: “Cette forêt n’est point profane ; / Ce ne fut point sans la fâcher Qu’Amour y vint jadis cacher / Le berger qu’enseignait Diane. /Amour pouvait, par innocence, /Comme enfant, tendre ici des rets ; / Et comme reine des forêts, / Diane avait cette licence (Viau, 2017 : 62).</p></note>.</l>
+              <l n="961" xml:id="em0528-es-988">Soledad y silencio, oscuridad y sueño,</l>
+              <l n="962" xml:id="em0528-es-989">¿no visteis por aquí resplandecer mi sol?</l>
+              <l n="963" xml:id="em0528-es-990">¿Dónde escondéis, oh sombras, los ojos de mi amante?</l>
+              <l n="964" xml:id="em0528-es-991">El deseo impaciente de saberlo me apremia:</l>
+              <l n="965" xml:id="em0528-es-992">tantas dificultades me han tenido apresado</l>
+              <l n="966" xml:id="em0528-es-993">que moría de miedo de ser aquí el último.</l>
+              <l n="967" xml:id="em0528-es-994">Mas, por lo que parece, he llegado temprano</l>
+              <l n="968" xml:id="em0528-es-995">ya que aún en su lecho mi Aurora permanece.</l>
+              <l n="969" xml:id="em0528-es-996">A la espera que venga aquí oportunamente,</l>
+              <l n="970" xml:id="em0528-es-997">el resto de la noche me ofrece su reposo.</l>
+              <l n="971" xml:id="em0528-es-998">Mas, ¿podré yo dormir con toda mi inquietud,</l>
+              <l n="972" xml:id="em0528-es-999">reine el sueño que reine en esta soledad?</l>
+              <l n="973" xml:id="em0528-es-1000">Desde que yo la sirvo, bien me ha enseñado Amor</l>
+              <l n="974" xml:id="em0528-es-1001">a pasar sin dormir las horas de la noche.</l>
+              <l n="975" xml:id="em0528-es-1002">El murmullo del agua y las flores del prado</l>
+              <l n="976" xml:id="em0528-es-1003">deleitarán un poco, mientras tanto, mi ensueño.</l>
+              <l n="977" xml:id="em0528-es-1004">Flores, si vuestro espíritu alguna vez mudó</l>
+              <l n="978" xml:id="em0528-es-1005">despojando los cuerpos de amantes desdichados,</l>
+              <l n="979" xml:id="em0528-es-1006">si alguna de vosotras se acuerda todavía</l>
+              <l n="980" xml:id="em0528-es-1007">de haber sufrido fuera del imperio de Flora,</l>
+              <l n="981" xml:id="em0528-es-1008">dulces y lastimosas, de mí no tengáis celos</l>
+              <l n="982" xml:id="em0528-es-1009">si Amor, más que a vosotras, quiso favorecerme;</l>
+              <l n="983" xml:id="em0528-es-1010">y si aún os conmueven los recuerdos pasados,</l>
+              <l n="984" xml:id="em0528-es-1011">prestadnos, sin que os pese, vuestro amoroso lecho.</l>
+              <l n="985" xml:id="em0528-es-1012">Mas veo que el rocío ya os mojó los tapices.</l>
+              <l n="986" xml:id="em0528-es-1013">Pero, ¿qué digo? ¡Es sangre lo que los ha ensuciado!</l>
+              <l n="987" xml:id="em0528-es-1014">¿De dónde es esa sangre? La sangrienta manada</l>
+<l n="988" xml:id="em0528-es-1015">de osos y de leones viene aquí de costumbre.<note n="3924" type="editor"><term>de osos y de leones viene aquí de costumbre.</term><p>La Roque es el único autor que, como Théophile, indica la posibilidad de que Tisbe haya sido presa de leones u osos, lo que corrobora, entre otras cosas, que Théophile conoció la obra de La Roque (van Emden, 1973c: 582-583).</p></note></l>
+              <l n="989" xml:id="em0528-es-1016">Un espanto recorre una y otra vez mi alma.</l>
+<l n="990" xml:id="em0528-es-1017">Pienso en el grito horrible de un búho amenazante<note n="3461" type="traductor"><term>Pienso en el grito horrible de un búho amenazante</term><p>Esta referencia a un ave de mal agüero también se encuentra en el <emph>Piramus et Tisbé</emph> del siglo XII, aunque aquí la protagonista es Tisbe. Según van Emden (1973a: 875), es una prueba de que Théophile conocía el texto medieval.</p></note></l>
+              <l n="991" xml:id="em0528-es-1018">que me ha estado siguiendo; estas sombras nocturnas</l>
+              <l n="992" xml:id="em0528-es-1019">aumentan mi terror, y estos sitios callados.</l>
+              <l n="993" xml:id="em0528-es-1020">¡Oh, Dioses! ¿Qué estoy viendo? Lo entiendo claramente:</l>
+              <l n="994" xml:id="em0528-es-1021">¡Sin duda, un gran león por aquí ha pasado!</l>
+              <l n="995" xml:id="em0528-es-1022">Reconozco sus huellas y veo sobre el polvo</l>
+              <l n="996" xml:id="em0528-es-1023">la sangre que vertía su boca carnicera.</l>
+              <l n="997" xml:id="em0528-es-1024">¡Pero, oh Cielo, qué horror es esto para mí!</l>
+              <l n="998" xml:id="em0528-es-1025">Detestable, ya llego a las huellas de Tisbe.</l>
+              <l n="999" xml:id="em0528-es-1026">Esas huellas que veo, su pie las ha formado</l>
+              <l n="1000" xml:id="em0528-es-1027">y se han entremezcaldo con las que ha hecho el león.</l>
+              <l n="1001" xml:id="em0528-es-1028">Entre todo esto hay sangre abundante esparcida.</l>
+              <l n="1002" xml:id="em0528-es-1029">¡Ah! Solo veo horror, muerte por todas partes.</l>
+              <l n="1003" xml:id="em0528-es-1030">Ya no dudo, mis ojos me dicen bien mi pérdida.</l>
+              <l n="1004" xml:id="em0528-es-1031">¡Oh, justos dioses! ¿Cómo habéis permitido esto?</l>
+<l n="1005" xml:id="em0528-es-1032">Mas no sabíais nada, porque sois falsos dioses.<note n="3939" type="editor"><term>Mas no sabíais nada, porque sois falsos dioses.</term><p>Ni en Ovidio, ni en las versiones medievales francesas Píramo acusa en este momento a la divinidad por haber permitido la muerte de Tisbe. En cambio, en el Renacimiento algunos autores han puesto en boca de Píramo reproches o acusaciones de ese tipo. Así, Píramo acusa a Cupido de cruel (Habert, 1541: 102), la voz narradora acusa a los dioses de inhumanos (Baïf, 1883 [1572], II: 175), la Roque (1597: 12, 14) acusa al Cielo de despiadado –”ô Ciel impitoyable!”– y falto de clemencia para los que lo han ofendido y lo llama “injuste autheur de mon ennuy”. También tanto Montemayor como Marino han puesto en boca de Píramo, junto antes de darse la muerte, palabras contra la divinidad: “cielos, mis quexas tomad” (Montemayor, 1602 [1561]: 226); “prendi, malvagio Cielo / i lamenti e sospiri” (Marino, 1993 [1620]: 453, vv. 1350-1351). Théophile sigue en esa línea, pero añade la posibilidad de que los dioses no existan. Conociendo cómo el libertino utiliza la cultura pagana para disimular sus ideas, puede que esa insinuación vaya más allá de los dioses paganos.</p></note></l>
+              <l n="1006" xml:id="em0528-es-1033">Yo soy quien la ha traído a este lugar culpable,</l>
+              <l n="1007" xml:id="em0528-es-1034">yo, traidor, que sabía que cerca de esta fuente</l>
+              <l n="1008" xml:id="em0528-es-1035">los oso y leones acuden sanguinarios,</l>
+              <l n="1009" xml:id="em0528-es-1036">pues este abrevadero es para ellos tan cómodo</l>
+              <l n="1010" xml:id="em0528-es-1037">que siempre se les ve en esta soledad.</l>
+              <l n="1011" xml:id="em0528-es-1038">Infame criminal, Píramo desleal,</l>
+              <l n="1012" xml:id="em0528-es-1039">¿qué has hecho, pues, de Tisbe?, ¿qué has hecho de tu alma?</l>
+              <l n="1013" xml:id="em0528-es-1040">¿Cómo he podido yo privarme de mí mismo?</l>
+              <l n="1014" xml:id="em0528-es-1041">Ella se adelantó, y el día ya ha llegado.</l>
+              <l n="1015" xml:id="em0528-es-1042">¿No veo yo acaso que la aurora despunta</l>
+              <l n="1016" xml:id="em0528-es-1043">esparciendo en el cielo su resplandor confuso?</l>
+              <l n="1017" xml:id="em0528-es-1044">¡Oh sol! ¿Querrás brillar después de este accidente?</l>
+              <l n="1018" xml:id="em0528-es-1045">¡Busca para esconderte un más negro occidente!</l>
+              <l n="1019" xml:id="em0528-es-1046">Pero no, sal, podrás hacerlo sin vergüenza,</l>
+              <l n="1020" xml:id="em0528-es-1047">que ya no queda sol que te supere aquí:</l>
+              <l n="1021" xml:id="em0528-es-1048">Tisbe perdió la vida. ¡Oh, bello árbol!, ¡oh roca!,</l>
+              <l n="1022" xml:id="em0528-es-1049">¡oh, flores!, ¿dónde debo ir a buscarla ahora?</l>
+              <l n="1023" xml:id="em0528-es-1050">Cristal cándido y bello, cuyo espejo ya expresa</l>
+              <l n="1024" xml:id="em0528-es-1051">la imagen de mi crimen en mi pálida frente,</l>
+              <l n="1025" xml:id="em0528-es-1052">tú que viste en tu orilla cómo la desgarraban,</l>
+              <l n="1026" xml:id="em0528-es-1053">¿no pudiste quedarte con algún miembro suyo?</l>
+              <l n="1027" xml:id="em0528-es-1054">Traidor, solo serviste de refresco a las fauces</l>
+<l n="1028" xml:id="em0528-es-1055">del león, entregándole a mi Tisbe sin nadie.<note n="3926" type="editor"><term>del león, entregándole a mi Tisbe sin nadie.</term><p>La interpelación que hace aquí Píramo a los elementos de la naturaleza, tras descubrir la muerte de Tisbe, tiene antedecentes en otros autores que ampliaron la única del texto de Ovidio, dirigida al león. Esas interpelaciones han fluctuado entre el lamento ante esos elementos o su acusación, todo ello acompañado por un enriquecimiento estilístico de diferentes dimensiones. La interpelación a los elementos es claramente acusatoria en el <emph>Piramus et Tisbé</emph> anónimo del siglo XII: “Nuis de dolour, nuis de torment, / Moriers, arbres de plorement, / Prez, qui dou sanc estes sanglent, / Fontaine, / Que me m’avez rendue saine / Cele cui sans gist en l’araine!” (Anónimo, 2000: 66-68, vv. 686-6919). El primer <emph>Ovide moralisé</emph> en prosa sigue en la misma dirección, aun cuando suaviza la acusación: “Hé morier, qui mort signifies, et, fontaine de douleur, et vous, prez parez de tristesse et triste verdure (…) trop m’est muée la consolacion joyeuse que j’esperoye avoir o vous en lamentacions amères” (Anónimo, 1954: 136). La segunda redacción del <emph>Ovide moralisé</emph> solo conserva la interpelación al moral (vam Emden, 1973b: 44). François Habert (1541: 102) hace que Píramo acuse a la noche y al bosque por la desgracia vivida, y Guillaume Belliard (1578: 79-80) hace que se lamente ante el moral por haber consentido la muerte de Tisbe bajo sus ramas. Marino (1993 [1620]: 450-451, vv. 1284-1312) desarrolla ampliamente este pasaje con diversas figuras: insiste en la envidia del cielo y de la luna, siguiendo en esto a Montemayor (1602 [1561]: 225), y hace testigo de su pena a la fuente, que junto a otros elementos también era acusada de envidia en Montemayor (1602 [1561]: 225). Las palabras que dirige aquí Píramo al sol, apuntando la vergüenza que sufría cuando Tisbe estaba viva, nos recuerdan la acusación a la luna en las obras de Montemayor y Marino. La acusación a la fuente, que no figura en Marino, recuerda otros antecedentes, desde la novela francesa del siglo XII hasta Montemayor.</p></note></l>
+              <l n="1029" xml:id="em0528-es-1056">¿Mas por qué quiero yo reñir aquí a las piedras?</l>
+              <l n="1030" xml:id="em0528-es-1057">Con mi propia imprudencia es con quien debo hablar.</l>
+              <l n="1031" xml:id="em0528-es-1058">Es a mi crueldad a quien debo la pena</l>
+              <l n="1032" xml:id="em0528-es-1059">de esta muerte, la menos justa y más inhumana;</l>
+              <l n="1033" xml:id="em0528-es-1060">mis dos brazos debían haberla socorrido;</l>
+              <l n="1034" xml:id="em0528-es-1061">no lo hicieron; soy yo quien debe, pues, morir.</l>
+              <l n="1035" xml:id="em0528-es-1062">Salid para ayudarme de vuestros antros huecos,</l>
+              <l n="1036" xml:id="em0528-es-1063">y desgarrarme el cuerpo; venid, hoscas manadas,</l>
+              <l n="1037" xml:id="em0528-es-1064">mi justo desespero os apremia y espera;</l>
+              <l n="1038" xml:id="em0528-es-1065">este cuerpo os entrega un botín sin defensa;</l>
+              <l n="1039" xml:id="em0528-es-1066">crueles, no busquéis un cándido cordero</l>
+              <l n="1040" xml:id="em0528-es-1067">para inmolarlo a vuestras furias en las majadas,</l>
+              <l n="1041" xml:id="em0528-es-1068">corred por otras partes para hacer vuestros robos,</l>
+              <l n="1042" xml:id="em0528-es-1069">comed a criminales, matad a asesinos.</l>
+<l n="1043" xml:id="em0528-es-1070">Y tú león, ya tuvo su funeral mi alma<note n="3464" type="traductor"><term>Y tú león, ya tuvo su funeral mi alma</term><p>Théophile ha ampliado con fuerza la apostrofe a los leones que ya aparece en Ovidio (1964: 128, vv. 112-114): “Despedazad mi cuerpo y devorad a fieros modiscos estas vísceras criminales, oh leones todos que habitáis en esta roca”. El <emph>Piramus et Tisbé</emph> del siglo XII amplió esa interpelación haciendo, entre otras cosas, que Píramo se dirigiera al león pidiéndole que, pues había bebido la sangre de Tisbe, bebiera también la suya (Anónimo, 2000: 70, v. 728). Los autores renacentistas franceses, con mayor o menor insistencia, han ampliado también este apóstrofe (Habert, 1541: 102, nueve versos; Belliard, 1578: 78-79: veinticuatro versos; La Roque, 1597: 6, trece versos). Van Emden (1973a: 877) ha encontrado un parecido entre los textos de Baïf y Théophile que atestiguaría que ambos conocieron alguna de las impresiones que hizo Vérard, a partir de 1493 en París, del segundo <emph>Ovide moralisé</emph> en prosa. Vérard añadió la imagen de que, una vez devorado Píramo, el vientre de la bestia se convierte en sepultura de los amantes: “Si coucherons tous deux en ung cercueil”. Efectivamente tanto Baïf (1883, II [1572]: 176) –“Vos gorges [las de los leones] soyent au moins la sepulture / De deux amans, et vos ventres comblez / Soyent le cercueil de nos cors assemblez”– como Théophile, modulan cada uno a su manera esa idea. No obstante, algo muy parecido también se encuentra en la <emph>Moralité nouvelle</emph> de 1535, cuando Píramo le pide al león que lo devore: “Affin que dedans ung cerceuil / Soyons tous deux après la mort” (Anónimo, 1901: 27, vv. 406-407) y en Belliard (1578: 79): “Et que puissent dormir souz une mesme lame / Tysbé l’infortunée, et son amy Pirame”. La idea también está presente en Marino –y no en Montemayor en este caso–, cuando Píramo dirigiéndose a la bestia le dice “se quel conoscimento / (…) ancor non ti mancasse / in saver qual tesoro / nel ventre tuo si chiuda, / non saresti sì cruda / que nel’istessa tomba / non sepellissi insieme / ancor la spoglia mia / per darle compagnia“ (Marino, 1993 [1620]: 450, vv. 1272-1283). Todo indica, pues, que Théophile pudo tener una reminiscencia de otros textos que el <emph>Ovide moralisé</emph> en prosa, en particular de Marino, cuya obra probablemente conocía.</p></note>,</l>
+              <l n="1044" xml:id="em0528-es-1071">mi corazón digieres dentro de tus entrañas,</l>
+              <l n="1045" xml:id="em0528-es-1072">regresa y hazme ver, al menos, mi enemigo,</l>
+              <l n="1046" xml:id="em0528-es-1073">solo me has devorado, además, a mitad,</l>
+              <l n="1047" xml:id="em0528-es-1074">acaba tu comida, serás menos funesto</l>
+              <l n="1048" xml:id="em0528-es-1075">si me eres más cruel. Acaba, pues, los restos</l>
+              <l n="1049" xml:id="em0528-es-1076">y déjame sin forma de poder castigarte.</l>
+              <l n="1050" xml:id="em0528-es-1077">Mas en vano te pide mi dolor que regreses;</l>
+              <l n="1051" xml:id="em0528-es-1078">cuando esa bella sangre se mezcló a tu alimento,</l>
+              <l n="1052" xml:id="em0528-es-1079">tus sentidos perdieron su cruel condición;</l>
+              <l n="1053" xml:id="em0528-es-1080">creo que hasta tu humor cambió de calidad,</l>
+              <l n="1054" xml:id="em0528-es-1081">y que es más amoroso ahora que brutal.</l>
+              <l n="1055" xml:id="em0528-es-1082">Desde que su bella alma aquí quedó esparcida,</l>
+              <l n="1056" xml:id="em0528-es-1083">el horror de estos bosques por siempre se perdió.</l>
+              <l n="1057" xml:id="em0528-es-1084">Los tigres, los leones, las panteras, los osos</l>
+              <l n="1058" xml:id="em0528-es-1085">tan solo engendrarán amorcillos aquí;</l>
+              <l n="1059" xml:id="em0528-es-1086">creo que pronto Venus verá cómo florecen</l>
+              <l n="1060" xml:id="em0528-es-1087">de esa sangre amorosa mil capullos de rosa.</l>
+              <l n="1061" xml:id="em0528-es-1088">Se verterá mi sangre aquí sobre la suya,</l>
+<l n="1062" xml:id="em0528-es-1089">mi alma con la suya así se mezclará<note n="3465" type="traductor"><term>mi alma con la suya así se mezclará</term><p>En estos versos Théophile consigue una gran plasticidad por medio de cambios y metamorfosis poéticas, muy barrocos, como hace en otras ocasiones (véase Viau, 2017: 186-199, oda II de <emph>La maison de Sylvie</emph>): el cambio de naturaleza del león, la desaparición del horror de los bosques, el engendramiento de amorcillos por las fieras, las tranformación de la sangre en rosas, etc. Celicia Rizza considera que las metamorfosis en la obra de Théophile son metáfora de un universo donde todo está ligado “et où la vie même consiste en ce mouvement perpétuel et en ce changement de formes”, al tiempo que revelan “la conscience de la confusion et de la dissolution des êtres dans le paraître et, par conséquent, l’inquiétude de l’homme et l’inquiétude des choses” (Rizza, 1996 : 111-112).</p></note>.</l>
+              <l n="1063" xml:id="em0528-es-1090">¡Qué impaciente ya estoy por que mi alma consiga</l>
+              <l n="1064" xml:id="em0528-es-1091">alcanzar a su espíritu en la mortal ribera!</l>
+              <l n="1065" xml:id="em0528-es-1092">Si yo encontrara, al menos, de esa obra maestra</l>
+              <l n="1066" xml:id="em0528-es-1093">una santa reliquia para honrar una tumba,</l>
+              <l n="1067" xml:id="em0528-es-1094">el pecho me abriría de parte a parte entero</l>
+              <l n="1068" xml:id="em0528-es-1095">y su carne en la mía tendría sepultura.</l>
+              <l n="1069" xml:id="em0528-es-1096">Tú, vivo ataúd suyo, regresa a devorarme,</l>
+              <l n="1070" xml:id="em0528-es-1097">cruel león, regresa, que yo quiero adorarte;</l>
+              <l n="1071" xml:id="em0528-es-1098">si mi diosa se debe confundir con tu sangre,</l>
+              <l n="1072" xml:id="em0528-es-1099">el más sagrado altar, para mí, eres del mundo.</l>
+              <l n="1073" xml:id="em0528-es-1100">¡Oh, dioses!, si al morir, no veo nada de ella,</l>
+              <l n="1074" xml:id="em0528-es-1101">al menos besaré la huella de sus pasos,</l>
+              <l n="1075" xml:id="em0528-es-1102">y mi labio, al seguir esa sangrienta senda,</l>
+              <l n="1076" xml:id="em0528-es-1103">cien veces besará su sangre gota a gota.</l>
+              <l n="1077" xml:id="em0528-es-1104">¡Bella sangre preciosa, que tan fría y tan muerta</l>
+              <l n="1078" xml:id="em0528-es-1105">tanta fuerza tenéis todavía en mi alma,</l>
+              <l n="1079" xml:id="em0528-es-1106">abandonasteis, pues, las delicadas venas</l>
+              <l n="1080" xml:id="em0528-es-1107">para dar fin a vuestros tormentos y mis penas!</l>
+              <l n="1081" xml:id="em0528-es-1108">Pues el sino me dice que fue voluntad vuestra,</l>
+              <l n="1082" xml:id="em0528-es-1109">menos resuelto a mí no me verá que a vos.</l>
+              <l n="1083" xml:id="em0528-es-1110">¿Pero que encuentro aquí? Esta sangrienta tela</l>
+              <l n="1084" xml:id="em0528-es-1111">a la pobre difunta, de velo le sirvió.</l>
+              <l n="1085" xml:id="em0528-es-1112">¡Oh, testigo cruel de mi última desdicha!</l>
+              <l n="1086" xml:id="em0528-es-1113">¡Testigo de mi crimen, sélo de mi dolor!</l>
+              <l n="1087" xml:id="em0528-es-1114">¿Mas cómo? ¿En este objeto de un sino tan amargo,</l>
+              <l n="1088" xml:id="em0528-es-1115">sangriento y desgarrado, aún me eres amable?</l>
+              <l n="1089" xml:id="em0528-es-1116">¿Debo, pues, adorarlo? Así es, que yo lo quiero:</l>
+              <l n="1090" xml:id="em0528-es-1117">el tocó antaño el oro de sus rubios cabellos.</l>
+              <l n="1091" xml:id="em0528-es-1118">Un casto uso le dio nuestro amor a este velo,</l>
+              <l n="1092" xml:id="em0528-es-1119">pues no dejaba al sol que besara su cara;</l>
+              <l n="1093" xml:id="em0528-es-1120">el cuidó, para mí, de su tez tan hermosa.</l>
+              <l n="1094" xml:id="em0528-es-1121">¡Ojalá te veneren desde ahora cual santo</l>
+              <l n="1095" xml:id="em0528-es-1122">y, en favor de la sangre que pinta nuestro drama,</l>
+              <l n="1096" xml:id="em0528-es-1123">que la noche te vista con su manto de sombra!</l>
+              <l n="1097" xml:id="em0528-es-1124">Mas creo que mi pecho se deleita en su pena;</l>
+              <l n="1098" xml:id="em0528-es-1125">ya es hora que mi vida con su rigor acabe.</l>
+              <l n="1099" xml:id="em0528-es-1126">¿Debo para morir buscar a quien me ayude?</l>
+              <l n="1100" xml:id="em0528-es-1127">Solamente mi mano me ofrece ese remedio.</l>
+              <l n="1101" xml:id="em0528-es-1128">Si quisieras abrirte, tierra, bajo mis pasos,</l>
+              <l n="1102" xml:id="em0528-es-1129">te lo agradecería; mas no lo estás haciendo:</l>
+              <l n="1103" xml:id="em0528-es-1130">parece que tus flancos aún se aprietan más.</l>
+              <l n="1104" xml:id="em0528-es-1131">¡Oh, dioses!, si quisierais enviarme aquí el trueno,</l>
+              <l n="1105" xml:id="em0528-es-1132">en deuda os estaría. ¡Vergonzosas palabras!</l>
+              <l n="1106" xml:id="em0528-es-1133">Oyéndome, diríase que mi muerte es dudosa</l>
+              <l n="1107" xml:id="em0528-es-1134">y aún delibera en mí la desesperación.</l>
+              <l n="1108" xml:id="em0528-es-1135">El asombro y no el miedo me difieren la muerte.</l>
+              <l n="1109" xml:id="em0528-es-1136">He aquí con qué vengar las injurias del sino;</l>
+              <l n="1110" xml:id="em0528-es-1137">aquí ya está mi trueno, y mi abismo y mi muerte.</l>
+              <l n="1111" xml:id="em0528-es-1138">Pese al Cielo, a los padres y a la naturaleza,</l>
+              <l n="1112" xml:id="em0528-es-1139">mi suplicio pondrá término a mi tortura.</l>
+              <l n="1113" xml:id="em0528-es-1140">Los hombres valerosos mueren cuando les place.</l>
+              <l n="1114" xml:id="em0528-es-1141">Ama este corazón, Tisbe, tan masacrado.</l>
+              <l n="1115" xml:id="em0528-es-1142">Otro golpe más, Tisbe. Esta es mi última herida,</l>
+              <l n="1116" xml:id="em0528-es-1143">mira bien aquí dentro si mi dolor es cierto.</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="em0528-es-sc-12">
+          <head>Escena II</head>
+          <stage xml:id="em0528-es-st-16">Tisbe, sola</stage>
+          <sp who="#TISB" xml:id="em0528-es-sp-188">
+            <speaker>Tisbe</speaker>
+            <lg part="F" type="free">
+              <l n="1117" xml:id="em0528-es-1144">Casi no recupero el sentido y la voz;</l>
+              <l n="1118" xml:id="em0528-es-1145">el miedo que he pasado me ha hecho perder un velo,</l>
+              <l n="1119" xml:id="em0528-es-1146">y me ha hecho demorar mucho tiempo escondida.</l>
+              <l n="1120" xml:id="em0528-es-1147">Quizás mi amante me haya desde entonces buscado.</l>
+              <l n="1121" xml:id="em0528-es-1148">Ya debe haber llegado si no perdió el cuidado</l>
+              <l n="1122" xml:id="em0528-es-1149">de venir a mi encuentro, pues casi ya es de día.</l>
+              <l n="1123" xml:id="em0528-es-1150">No oigo más que el agua que mana de la fuente;</l>
+              <l n="1124" xml:id="em0528-es-1151">el silencio profundo me da seguridad</l>
+              <l n="1125" xml:id="em0528-es-1152">para ir hasta la tumba donde, todo este tiempo,</l>
+              <l n="1126" xml:id="em0528-es-1153">seguro que mi Píramo se consume esperando.</l>
+              <l n="1127" xml:id="em0528-es-1154">La bestia que buscaba el agua de este valle,</l>
+              <l n="1128" xml:id="em0528-es-1155">tras apagar su sed, ahora se ha marchado,</l>
+              <l n="1129" xml:id="em0528-es-1156">pues, si no, yo oiría el ruido que ella hiciera</l>
+              <l n="1130" xml:id="em0528-es-1157">y, a través de la noche, sus ojos brillarían.</l>
+              <l n="1131" xml:id="em0528-es-1158">¡Oh, noche, ya regreso al fin bajo tus sombras!</l>
+              <l n="1132" xml:id="em0528-es-1159">Comparada a mi amor, poca es mi valentía.</l>
+              <l n="1133" xml:id="em0528-es-1160">Mas si eso que yo veo no engaña mi mirada,</l>
+              <l n="1134" xml:id="em0528-es-1161">motivos tengo ahora para temer de nuevo:</l>
+              <l n="1135" xml:id="em0528-es-1162">un repentino horror me apresa inesperado;</l>
+              <l n="1136" xml:id="em0528-es-1163">y si yo veo bien en esta oscuridad,</l>
+              <l n="1137" xml:id="em0528-es-1164">no desmiente un augurio incierto mis sospechas.</l>
+              <l n="1138" xml:id="em0528-es-1165">Unos pasos mezclados, revueltos con los míos,</l>
+              <l n="1139" xml:id="em0528-es-1166">este lugar sangriento, pisado por doquier,</l>
+              <l n="1140" xml:id="em0528-es-1167">señalan que la bestia su furia aquí sació.</l>
+              <l n="1141" xml:id="em0528-es-1168">¡Oh, dioses, veo en tierra un cuerpo como muerto!</l>
+              <l n="1142" xml:id="em0528-es-1169">Pero, ¿por qué espantarme? Es Píramo que duerme.</l>
+              <l n="1143" xml:id="em0528-es-1170">Para escapar al tedio de su aburrida espera,</l>
+              <l n="1144" xml:id="em0528-es-1171">descansa al dulce ruido de esa vívida fuente.</l>
+              <l n="1145" xml:id="em0528-es-1172">Le tocará ahora echarme a mí la culpa.</l>
+              <l n="1146" xml:id="em0528-es-1173">Mas este lugar duro, frío, poco propicio</l>
+              <l n="1147" xml:id="em0528-es-1174">para el reposo, húmedo del rocío que cae,</l>
+              <l n="1148" xml:id="em0528-es-1175">me obliga a despertarlo. ¡Qué tímida soy, dioses!</l>
+              <l n="1149" xml:id="em0528-es-1176">Su contento y reposo, para mí son tan caros</l>
+              <l n="1150" xml:id="em0528-es-1177">que hasta teme mi voz hablar por si molesta.</l>
+              <l n="1151" xml:id="em0528-es-1178">Duerme tan suavemente que apenas se podría</l>
+<l n="1152" xml:id="em0528-es-1179">discernir en el aire el ruido de su aliento<note n="3466" type="traductor"><term>discernir en el aire el ruido de su aliento</term><p>La suavidad del aliento de la persona amada, contemplada cuando duerme, ya figura en las famosas estancias “Quand tu me vois baiser tes bras…” (Viau, 2017: 104), donde recibe un amplio desarrollo imaginativo: “La rose en rendant son odeur, / Le soleil donnant son ardeur, / Diane et le char qui la traîne, / Une naïade dedans l’eau, / Et les Grâces dans un tableau, /Font plus de bruit que ton haleine.”</p></note>.</l>
+              <l n="1153" xml:id="em0528-es-1180">Pero ¿por qué será que, quieto y frío al tacto,</l>
+              <l n="1154" xml:id="em0528-es-1181">parece muerto? ¡Píramo! ¡Oh, dioses, llamo en vano!</l>
+              <l n="1155" xml:id="em0528-es-1182">No respira; este bello cuerpo se ha hecho de hielo.</l>
+              <l n="1156" xml:id="em0528-es-1183">¡Ay! Ya veo pintada en su cara la muerte;</l>
+              <l n="1157" xml:id="em0528-es-1184">una noche eterna cubre sus bellos ojos.</l>
+<l n="1158" xml:id="em0528-es-1185">Veo su pecho<note n="3927" type="editor"><term>pecho</term><p>Théophile utiliza aquí la palabra <emph>estomac</emph>. Guido Saba, en su edición de la obra (Saba, 1999, II: 330) entiende <emph>estomac</emph> como <emph>sein, poitrine</emph>. La palabra <emph>poitrine</emph> fue, de hecho, objeto de alguna condena por <emph>excesivamente realista (sic)</emph> en el clasicismo francés, por lo que algunos recurieron a estomac con ese sentido. Furetière ha recogido esa acepción en su diccionario : “Se dit abusivement de la partie extérieure du corps, qu’on appelle autrement le <emph>sein</emph>, la <emph>poitrine</emph> et qui est au-dessus de la ceinture”. No obstante, Píramo en las versiones anteriores no siempre se suicida hiriéndose el pecho: su golpe le alcanza en los ijares en la fábula de Ovidio y en el <emph>Piramus et Tisbé</emph> anónimo del siglo XII; en los <emph>Ovide moralisé</emph> su herida es <emph>par mi le corps</emph> (Anónimo, 1954: 136; van Emden,1973c: 44). No hemos leído nada en esta obra que indique claramente el lugar del cuerpo en que se hiere en su suicidio. Théophile, igual que François Habert (1541: 103), utiliza después la misma palabra <emph>estomac</emph>, para indicar el lugar en que Tisbe se clava el hierro.</p></note> abierto por un profundo tajo.</l>
+              <l n="1159" xml:id="em0528-es-1186">¡Eh, no mueras tan pronto, abre un poco los párpados</l>
+              <l n="1160" xml:id="em0528-es-1187">y respira otra vez; moriré la primera,</l>
+              <l n="1161" xml:id="em0528-es-1188">no te vayas sin mí, no me hagas ese daño!</l>
+              <l n="1162" xml:id="em0528-es-1189">¡No me respondes nada, corazón! No estás muerto,</l>
+              <l n="1163" xml:id="em0528-es-1190">los dioses nunca mueren, y la naturaleza</l>
+              <l n="1164" xml:id="em0528-es-1191">sabia es para que muera lo más amable que hizo.</l>
+              <l n="1165" xml:id="em0528-es-1192">Mas, ¡oh vanas palabras!, ¡oh, mentiroso alivio!,</l>
+              <l n="1166" xml:id="em0528-es-1193">lo que he perdido aquí me hace perder el juicio.</l>
+              <l n="1167" xml:id="em0528-es-1194">¡Píramo ya no vive! ¡Se lo lleva un suspiro!</l>
+              <l n="1168" xml:id="em0528-es-1195">¡Mas, cómo! ¡Él ya no vive y no estoy muerta yo!</l>
+              <l n="1169" xml:id="em0528-es-1196">Píramo, si te queda un poco aún de luz,</l>
+              <l n="1170" xml:id="em0528-es-1197">si me guarda tu espíritu un poco aún de amor,</l>
+              <l n="1171" xml:id="em0528-es-1198">y si el viejo Caronte, sensible a mi infortunio,</l>
+              <l n="1172" xml:id="em0528-es-1199">se demora en su barca un poco por mi súplica,</l>
+              <l n="1173" xml:id="em0528-es-1200">espera, te lo ruego; y que una misma muerte</l>
+              <l n="1174" xml:id="em0528-es-1201">selle nuestros destinos; ahora mismo será.</l>
+              <l n="1175" xml:id="em0528-es-1202">Pero tú no me esperas y, por poco que viva,</l>
+              <l n="1176" xml:id="em0528-es-1203">mi sino ya me impone el deber de seguirte.</l>
+              <l n="1177" xml:id="em0528-es-1204">Culpable como soy de esta muerte injusta,</l>
+              <l n="1178" xml:id="em0528-es-1205">criminal desgraciada del furor de la suerte,</l>
+              <l n="1179" xml:id="em0528-es-1206">¿qué?, ¿sigo respirando, sigo mirando a Píramo</l>
+              <l n="1180" xml:id="em0528-es-1207">que ha muerto antes que yo, y aún no he perdido el alma?</l>
+              <l n="1181" xml:id="em0528-es-1208">Veo cómo esa roca se ha roto de dolor</l>
+              <l n="1182" xml:id="em0528-es-1209">para derramar lágrimas, para abrirme una tumba;</l>
+              <l n="1183" xml:id="em0528-es-1210">ese arroyo, de horror por mi injuria, ya huye,</l>
+              <l n="1184" xml:id="em0528-es-1211">sin descanso ninguno, sin hierba en sus riberas;</l>
+              <l n="1185" xml:id="em0528-es-1212">incluso esta mañana, en lugar de rocío,</l>
+              <l n="1186" xml:id="em0528-es-1213">ha vertido la Aurora lágrimas en las flores;</l>
+              <l n="1187" xml:id="em0528-es-1214">y ese árbol, conmovido de desesperación</l>
+              <l n="1188" xml:id="em0528-es-1215">al encontrar la sangre en su tronco insensible,</l>
+              <l n="1189" xml:id="em0528-es-1216">ha mudado su fruto; se ha hecho la luna pálida</l>
+<l n="1190" xml:id="em0528-es-1217">y la tierra ha sudado la sangre de su vómito.<note n="3929" type="editor"><term>y la tierra ha sudado la sangre de su vómito.</term><p>En varias versiones, Tisbe en este momento hace un llamamiento a los elementos de la naturaleza para que sean testigos de la desgracia de los amantes. Así se exclama la joven en el <emph>Piramus et Tisbé</emph> del siglo XII: “ Lune, fontaine, prez, moriers, / Nuit pale / Qui enseigne me feïs male / Quan sui issue de la sale / Oiez ! / Pri vous que ma mort tesmoignez” (Anónimo, 2000 : 74-76, vv. 822-827). En algunos casos esa petición se acompaña del deseo de que esos elementos sean testigos mediante algún cambio o transformación. Así, Habert (1541: 103) pide a los dioses que el río se seque y el mármol de la fuente se vuelva negro : “Et que ceste eau qui rend si doulx murmure, / De marbre blanc qui a vive closture / Perdre son cours du beau son argentin, / Et le blanc marbre, en pris grand et haultin, / Devienne noir pour le malheur hideux, / Prenant le tainct de ce sang de nous deux“. Curiosamente, tanto Píramo como Tisbe hacen la súplica en la obra de la Roque (1597: 12, 19). Píramo suplica: “ Donc, Nymphes de ces bois, roches, arbres et fleurs, / Lamentez maintenant, et pleurez mes douleurs, / Ternissez vos beautés, pour tesmoigner ma perte, / Et en habit de deuil changez la robbe verte. / Et vous, chers oisyllons des forests et des champs, / Qui sçavez mon angoisse et mes regrets tranchans, / Voletez pres de moy en ces obscurs tenebres / Et changez vos chansons en complaintes funebres”, lo que es aún más ampliado en palabras de Tisbe. Como era de esperar, Marino (1993 [1620]: 457, vv. 1452-1472) ha dado un intenso desarrollo a este pasaje haciendo que Tisbe le pida a un amplio número de seres de la naturaleza: “siate voi dela pena / ch’a morir mi conduce / guidici e testimoni”, y a los faunos, pastores y ninfas, que escriban en las cortezas de los troncoss, con su propia sangre su infortunio. Se aleja de su modelo Montemayor (1602 [1561]: 228), en este caso mucho más escueto: “frutos, plantas se enlutaron / por los dos que con mas fe / en esta vida se amaron”. Théophile recoge, pues, aquí esta tradición, con la particularidad de que parte de esos cambios no son un deseo, sino que ya se han producido antes de la muerte de Tisbe. Además, cambiando de actitud, el personaje también manifiesta desconfianza por el luto de algunos elementos, ya que se renuevan todos los años.</p></note></l>
+              <l n="1191" xml:id="em0528-es-1218">Bello árbol que en el mundo permaneces tras mí,</l>
+              <l n="1192" xml:id="em0528-es-1219">para mostrar al Cielo mejor tus rojas moras,</l>
+              <l n="1193" xml:id="em0528-es-1220">para mostrarle el daño que ha infligido a mis votos,</l>
+              <l n="1194" xml:id="em0528-es-1221">haz como yo, arranca, por favor tus cabellos,</l>
+              <l n="1195" xml:id="em0528-es-1222">ábrete el pecho y haz que se vierta a la fuerza</l>
+<l n="1196" xml:id="em0528-es-1223">este sangriento humor por toda tu corteza.<note n="3930" type="editor"><term>este sangriento humor por toda tu corteza.</term><p>Ovidio (1964: 128-129, vv. 154-166) concluye su relato con las dos conocidas súplicas de Tisbe: a los padres, que sepulten juntos a los amantes; al árbol, que el color de sus frutos sea negro para dar testiminio de la desgracia. Nos indica después que las súplicas conmovieron a padres y dioses, que accedieron a ellas. Previamente, el cambio de color del fruto ya se había producido al contacto de la sangre de Píramo, sin que este pronunciara ruego alguno (Ovidio, 1964: 127, vv, 119-127). Estos elementos de la fábula han recibido diferentes tratamientos en las reescrituras francesas: unas veces cada amante ha hecho un ruego –por ejemplo en el <emph>Piramus et Tisbé</emph> del siglo XII (Anónimo, 2000: 70, vv. 743-746)– ; otras, solo Tisbe ha hecho un único ruego (Habert, 1541: 103) o los dos (Baïf, 1883 [1572], II [1572]: 180); tampoco se han repartido siempre del mismo modo los dos ruegos, dándose además el caso de que se ruege no a los dioses sino solo al árbol (la Roque, 1597: 15), a Júpiter (Belliard, 1578: 80) o a Dios en singular –como ocurre en el segundo <emph>Ovide moralisé</emph> en prosa (van Endem, 1973b: 44)–, etc. Y también hay diferencias en el tratamiento de la metamorfosis, pues unas veces se ha producido la metamorfosis al contacto de la sangre de Píramo y otras, no. Théophile recoge la tradición de que solo Tisbe pronuncie una súplica al árbol, pero añade matices importantes. Sus palabras indican que el cambio de color ya se ha producido, por la sangre de Píramo, lo que conecta directamente con Ovidio (1964: 127, vv.121-127), pues le pide al árbol que arranque sus cabellos para mostrar mejor sus moras rojas al cielo; ahora bien, no pide al árbol que deje testimonio del infortunio de los amantes, sino del daño que ha infligido el Cielo a sus deseos. Théophile tampoco sigue aquí ni a Marino, ni indirectamente a Montemayor. En Marino (1993 [1620], 458: 1480-1484) Tisbe no pronuncia ningún ruego y es la sangre mezclada de ambos amantes la que al tocar el moral produce el cambio de color del fruto. En Montemayor tampoco se pronuncian ruegos y parece que la metamorfosis se produce en dos fases: rojo frutos al contacto de la sangre de Píramo, pues el fruto cobró “el mismo color que Píramo había perdido” (Montemayor, 1602 [1561]: 227); negros frutos al contacto con la sangre de Tisbe y Píramo mezcladas (Montemayor, 1602 [1561]: 228), como en su imitador Marino.</p></note></l>
+              <l n="1197" xml:id="em0528-es-1224">Mas, ¿me sirve tu duelo? ¡Oh ramas, verdes prados,</l>
+              <l n="1198" xml:id="em0528-es-1225">qué impotentes que sois para aliviar mi mal!</l>
+              <l n="1199" xml:id="em0528-es-1226">Aunque por él murierais, bien se ve que el destino</l>
+              <l n="1200" xml:id="em0528-es-1227">os devuelve la vida cuando devuelve el año:</l>
+              <l n="1201" xml:id="em0528-es-1228">una vez cada año os vemos perecer,</l>
+              <l n="1202" xml:id="em0528-es-1229">una vez cada año os vemos florecer,</l>
+              <l n="1203" xml:id="em0528-es-1230">pero Píramo ha muerto y no regresará</l>
+              <l n="1204" xml:id="em0528-es-1231">de las pálidas casas donde mora su espíritu.</l>
+              <l n="1205" xml:id="em0528-es-1232">Desde que el sol nos ve nacer y perecer,</l>
+<l n="1206" xml:id="em0528-es-1233">ningún difunto ha sido el primero en volver<note n="3469" type="traductor"><term>ningún difunto ha sido el primero en volver</term><p>En el interrogatorio del 26 de marzo de 1624 le recriminaron a Théophile este verso, por deducirse de él que no creía en la resurrección, lo que implicaba acusarlo de ateísmo (Lachèvre, 1909, I: 391-392). El escritor se defendió argumentando que eso había sido escrito en una tragedia donde se representaban personajes paganos y que él siempre había mostrado su creencia en la resurrección. Que Théophile negara en esta obra el retorno de un lugar de ultratumba pagano no evitó la acusación. Fue la única del juicio referida a a esta obra.</p></note>.</l>
+              <l n="1207" xml:id="em0528-es-1234">Y aunque hicieran los dioses que mañana, por mí,</l>
+              <l n="1208" xml:id="em0528-es-1235">reviviera, hoy estoy resuelta yo a seguirlo.</l>
+              <l n="1209" xml:id="em0528-es-1236">Es mucha mi impaciencia y, puesto que el destino</l>
+              <l n="1210" xml:id="em0528-es-1237">ha hecho cruel botín de nuestros amorosos</l>
+              <l n="1211" xml:id="em0528-es-1238">cuerpos, sin permitir que el placer merecido</l>
+              <l n="1212" xml:id="em0528-es-1239">por nuestro ardor mezclara nuestras almas unidas,</l>
+              <l n="1213" xml:id="em0528-es-1240">allí las juntaremos, y nuestra santa unión</l>
+              <l n="1214" xml:id="em0528-es-1241">tornará en un espíritu la sombra de dos cuerpos.</l>
+              <l n="1215" xml:id="em0528-es-1242">Y puesto que por mí ya duerme su bella alma,</l>
+              <l n="1216" xml:id="em0528-es-1243">mi espíritu inocente lo mismo hará por él.</l>
+              <l n="1217" xml:id="em0528-es-1244">No obstante, no podré si no muero yo el doble.</l>
+              <l n="1218" xml:id="em0528-es-1245">Píramo se ha matado solo por sospechar;</l>
+              <l n="1219" xml:id="em0528-es-1246">su fiel amor ha sido demasiado impetuoso</l>
+              <l n="1220" xml:id="em0528-es-1247">al ver que yo tardaba en cumplir mi deber</l>
+              <l n="1221" xml:id="em0528-es-1248">y, de haber sospechado que yo no lo amaba,</l>
+              <l n="1222" xml:id="em0528-es-1249">tan solo con la muerte se ha podido curar.</l>
+              <l n="1223" xml:id="em0528-es-1250">¡Caiga, pues, sobre mí tu brazo con más fuerza,</l>
+              <l n="1224" xml:id="em0528-es-1251">oh muerte, y, si es posible, muera yo más que él!</l>
+              <l n="1225" xml:id="em0528-es-1252">¡Quiero a la vez sentir veneno, fuego y hierro!</l>
+              <l n="1226" xml:id="em0528-es-1253">¡Vamos! ¿De los Infiernos, quién me abre a mí la puerta?</l>
+              <l n="1227" xml:id="em0528-es-1254">¡Ah, aquí está el puñal que, de sangre de su amo,</l>
+<l n="1228" xml:id="em0528-es-1255">cobarde se ha manchado; ¡el traidor enrojece!<note n="3931" type="editor"><term>cobarde se ha manchado; ¡el traidor enrojece!</term><p>Estos dos versos son conocidos por la crítica que hizo de ellos Boileau (1701: 3), con tanta fortuna para la posteridad: “Toutes les glaces du Nord ensemble ne sont pas, à mon sens, plus froides que cette pensée ? Quelle extravagance, bon Dieu ! de vouloir que la rougeur du sang, dont est teint le poignard d’un Homme qui vient de s’en tuer lui-mesme, soit un effet de la honte qu’a ce poignard de l’avoir tué ?”. No obstante, esa pointe de Théophile ya había sido admirada e imitada por varios dramaturgos (Saba, 1999a, I: 332; Angebault, 2009: 92), cuando Boileau hizo ese juicio despectivo. Y antes que Boileau, Charles Vion d’Albray (2015 [1632], s.p.) ya decía: “Ces trop grands chercheurs de subtilités sont les plus grands ennemis qu’aient le Muses” en el “Avertissement” a su traducción de la <emph>Aminta</emph> de Tasso, poniendo como ejemplo precisamente estos versos de Théophile.</p></note></l>
+              <l n="1229" xml:id="em0528-es-1256">¡Execrable verdugo, si te quieres lavar</l>
+              <l n="1230" xml:id="em0528-es-1257">del crimen que empezaste, ¡solo lo has de acabar!</l>
+              <l n="1231" xml:id="em0528-es-1258">¡Clávate ya aquí dentro, hazte más rudo, empuja</l>
+              <l n="1232" xml:id="em0528-es-1259">fuegos con tu hoja! ¡Ay! ¡Es demasiado dulce!</l>
+              <l n="1233" xml:id="em0528-es-1260">No podía morir de un golpe más amable</l>
+<l n="1234" xml:id="em0528-es-1261">ni por otro que Píramo, odiar el de los cielos.<note n="3940" type="editor"><term>ni por otro que Píramo, odiar el de los cielos.</term><p>Théophile acaba la obra con tres versos que son un verdadero reto para el lector, y confirman que ha querido concluir con la máxima intensidad lírica la obra, pues tras la agudeza imaginativa del puñal, sigue este laberinto conceptual donde la acumulación de dos proformas en el último verso desafía la comprensión. La entrada en el cuerpo del puñal, manchado de la sangre de Píramo, es percibida extremadamente suave y amable por Tisbe, lo que sugiere evocaciones eróticas y mórbidas a un tiempo. En contraposición a la favorable acogida de este golpe –por el puñal de Píramo–, Tisbe muestra su odio al golpe de los cielos <emph>celui des cieux</emph>– a Píramo–<emph>autre objet</emph>–, lo que formula negativa y restrictivamente: yo no podía odiar el golpe de los cielos por otra persona; esto es, lo odio porque ha golpeado a Píramo. Esta es nuestra interpretación del verso; agradecemos a Michèle Rosselini y Guillaume Peureux su ayuda en el debate que hemos tenido sobre estos versos.</p></note></l>
+            </lg>
+          </sp>
+        </div2>
+      </div1>
+    </body>
+    <back/>
+  </text>
+</TEI>

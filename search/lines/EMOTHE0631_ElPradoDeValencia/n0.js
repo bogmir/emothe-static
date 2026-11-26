@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0631_ElPradoDeValencia/n0",{"lines":[["act-1","nref-1","I, 545",0,"n","Se enmienda la lectura de nuestra edición base, “bastante”, de acuerdo con las exigencias de la rima."],["act-1","nref-2","I, 1209",1,"n","Para conservar la rima consonante, sería necesario pronunciar “rompele”."]],"speakers":["LAURA","MARGARITA"]});

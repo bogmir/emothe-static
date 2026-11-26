@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ACTO II — Endimión, o El hombre de la luna — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">Personajes por orden de aparición</a></li>
+      
+  
+    
+        <li>
+          <a href="prologue.html">
+            Prólogo
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-1.html">
+            ACTO I
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html" aria-current="page">
+            ACTO II
+          </a>
+          <ul>
+            <li>
+              
+                  <a href="act-2.html#act-2-s1">
+                    Actus Secundus, Scaena Prima
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-2.html#act-2-s2">
+                    Actus Secundus, Scaena Secunda
+                  </a>
+              
+            </li><li>
+              
+                  <a href="act-2.html#act-2-s3">
+                    Actus Secundus, Scaena Tertia
+                  </a>
+              
+            </li>
+          </ul>
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            ACTO III
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-4.html">
+            ACTO IV
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-5.html">
+            ACTO V
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="epilogue.html">
+            Epilogue
+          </a>
+          
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="Endimión">
+        Endimión
+      </option><option value="Euménides">
+        Euménides
+      </option><option value="Telus">
+        Telus
+      </option><option value="Flóscula">
+        Flóscula
+      </option><option value="Dares">
+        Dares
+      </option><option value="Samias">
+        Samias
+      </option><option value="SirTofas">
+        Sir Tofas
+      </option><option value="Epiton">
+        Epiton
+      </option><option value="Dipsas">
+        Dipsas
+      </option><option value="Scintila">
+        Scintila
+      </option><option value="Fávila">
+        Fávila
+      </option><option value="Bagoa">
+        Bagoa
+      </option><option value="Cintia">
+        Cintia
+      </option><option value="Semele">
+        Semele
+      </option><option value="Corsites">
+        Corsites
+      </option><option value="Panelion">
+        Panelion
+      </option><option value="Zontes">
+        Zontes
+      </option><option value="Geron">
+        Geron
+      </option><option value="Alguacil">
+        Un alguacil
+      </option><option value="Guardias">
+        Dos guardias
+      </option><option value="Hadas">
+        Cuatro hadas
+      </option><option value="Pitágoras">
+        Pitágoras
+      </option><option value="Giptes">
+        Giptes
+      </option><option value="Prólogo">
+        Prólogo
+      </option><option value="Epílogo">
+        Epílogo
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="asm" aria-label="Resaltar apartes" data-en-aria-label="Highlight asides" data-tr>
+        <x-es>Apartes</x-es><x-en>Asides</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .aparte, .text .pr.as, .text .pr:not(.as) span.as" data-for="asm">
+  <button type="button" data-step="-1" aria-label="Aparte anterior" data-en-aria-label="Previous aside" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente aparte" data-en-aria-label="Next aside" data-tr>›</button>
+</div>
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">John Lyly</p>
+  <h1><a href="index.html">Endimión, o El hombre de la luna</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-1.html" rel="prev">← ACTO I</a>
+  <a href="act-3.html" rel="next">ACTO III →</a>
+</nav>
+  <div class="text" lang="es" data-cite="John Lyly, Endimión, o El hombre de la luna, ACTO II" data-cite-verse="int." data-cite-prose="int.">
+    
+    <section class="division" id="act-2">
+  <h2 class="act-head">
+    ACTO II
+  </h2>
+  
+  
+  
+    
+      <section id="act-2-s1">
+        <h3 class="scene-head">
+          <em>Actus Secundus, Scaena Prima</em>
+        </h3>
+        <p class="sd " id="l106-sd2">[Entra] ENDIMIÓN.</p><div class="sp " data-who="Endimión">
+  <p class="spk ">
+    Endimión
+  </p>
+  <p class="pr " id="l107"><a class="pn " href="#l107">107</a>¡Oh, bella Cintia! ¡Oh, desafortunado Endimión! ¿Por qué no fue tu nacimiento tan elevado como tus pensamientos, o su belleza menos que celestial? ¿O por qué no son tus honores tan excepcionales como su belleza? ¿O tus fortunas tan grandes como tus méritos? Dulce Cintia, ¿cómo serías complacida, cómo poseída? ¿Alcanzarán tu amor mis esfuerzos, pacientes ante toda extrema adversidad? No hay montaña tan escarpada que no pueda escalar, ni monstruo al que no amanse, ni acción tan desesperada que no intente. ¿Deseas las pasiones del amor, los ánimos tristes y melancólicos de los espíritus perplejos, los inefables tormentos de doloridos pensamientos? Contempla mis tristes lágrimas, mis profundos suspiros, mis macilentos ojos, mis sueños discontinuos y mi pesado semblante. ¿Quieres que me prometa solo ante tu belleza y consuma cada minuto a tu servicio? Recuerda mi vida solitaria, casi estos siete años. ¿Qué he albergado aparte de mis propios pensamientos y tus virtudes? ¿Qué compañía he tenido más allá de la contemplación? ¿De quién no me he maravillado si no de ti? Es más, ¿a quién no desprecié por ti? ¿Acaso no me he humillado ante aquellos que debería haber pisado, solo porque tú brillas sobre ellos? ¿No han sido dulces para mí mis heridas porque tú me las concediste para que las llevara? ¿No he gastado mis mejores años en esperanzas, envejeciendo mientras deseaba, deseando nada más que tu amor? A Telus, hermosa Telus, engañé, usándola como tapadera para mi afecto, mientras otros, viendo mi retorcido y desordenado espíritu, pensarían que es por quien me ama, no por Cintia, cuya perfección no admite rival ni comparación. En mitad de estos mis pensamientos perturbados, no estás celosa de mi lealtad, pero sí descuidada, suspicaz y segura, que el extraño ánimo torna a mi espíritu tan desesperado como dudosas son tus ideas. No soy ninguno de esos lobos que aúllan cuando brillas con mayor fulgor, pero sí ese pez – tu pez, Cintia, en las aguas de Araris – que cuando creces es tan blanco como la nieve y cuando menguas tan negro como la oscuridad más extrema. Soy ese Endimión, dulce Cintia, el que ha llevado sus pensamientos al mismo nivel que sus acciones, siendo siempre tan libre de concebir maldad como de cometerla, ese Endimión cuyos ojos no amaban nada más bello que tu rostro, y cuya lengua no nombraban nada más espléndido que tus virtudes, y cuyo corazón no ideaba nada más milagroso que tu dominio; sí, ese Endimión que, divorciándose de la afabilidad del resto de las mujeres, del esplendor de las cortes, de la compañía de todos los hombres, ha elegido vivir su vida en solitario alimentándose solo de tu favor, encontrando en el mundo nada excelente (excepto tú), nada más inmortal. Por tanto puedes ver cada vena, nervio, músculo y arteria de mi amor, en el que no hay lisonjas ni engaños, error ni artificio. Pero aguarda, aquí se acerca Telus. Debo mostrar mi otra cara como Jano, para que no sea tan suspicaz como Juno.</p>
+</div><p class="sd " id="l107-sd1">Entra TELUS [con FLÓSCULA y DIPSAS].</p><div class="sp " data-who="Telus">
+  <p class="spk ">
+    Telus
+  </p>
+  <p class="pr " id="l108"><a class="pn " href="#l108">108</a>Allí vislumbro a Endimión. Le haré creer que no sospecho nada, lo engatusaré, y viendo que no puedo conseguir la profundidad de su amor, puede que averigüe la altura de su disimulo. Flóscula y Dipsas, escondeos, pero al alcance de nuestras voces. <span class="sdi">[Flóscula y Dipsas se retiran.]</span><br>¿Y bien, Endimión, siempre solitario? ¿Sin más compañía que tus pensamientos? ¿Sin amigos más que tus melancólicas fantasías?</p>
+</div><div class="sp " data-who="Endimión">
+  <p class="spk ">
+    Endimión
+  </p>
+  <p class="pr " id="l109"><a class="pn " href="#l109">109</a>Ya sabéis, bella Telus, que el dulce recuerdo de vuestro amor es el único compañero en mi vida, y vuestra presencia mi paraíso, así que no estoy solo cuando no hay nadie conmigo y me encuentro en el mismísimo cielo cuando vos estáis a mi lado.</p>
+</div><div class="sp " data-who="Telus">
+  <p class="spk ">
+    Telus
+  </p>
+  <p class="pr " id="l110"><a class="pn m5" href="#l110">110</a>¿Entonces me amáis, Endimión?</p>
+</div><div class="sp " data-who="Endimión">
+  <p class="spk ">
+    Endimión
+  </p>
+  <p class="pr " id="l111"><a class="pn " href="#l111">111</a>De no ser así, no vivo, Telus.</p>
+</div><div class="sp " data-who="Telus">
+  <p class="spk ">
+    Telus
+  </p>
+  <p class="pr " id="l112"><a class="pn " href="#l112">112</a>¿No sería posible, Endimión, que me engañaras?</p>
+</div><div class="sp " data-who="Endimión">
+  <p class="spk ">
+    Endimión
+  </p>
+  <p class="pr " id="l113"><a class="pn " href="#l113">113</a>No, Telus, a menos que me hagas mujer.</p>
+</div><div class="sp " data-who="Telus">
+  <p class="spk ">
+    Telus
+  </p>
+  <p class="pr " id="l114"><a class="pn " href="#l114">114</a>Vaya, ¿es el engaño tan consustancial a su sexo como el calor al fuego, la pesadez a la tierra, la humedad al agua, la ligereza al aire?</p>
+</div><div class="sp " data-who="Endimión">
+  <p class="spk ">
+    Endimión
+  </p>
+  <p class="pr " id="l115"><a class="pn m5" href="#l115">115</a>No, pero se encuentra en su sexo tan fácil como las manchas en las palomas, lunares en los rostros, gusanos en las manzanas dulces, telarañas en las hermosas ventanas.</p>
+</div><div class="sp " data-who="Telus">
+  <p class="spk ">
+    Telus
+  </p>
+  <p class="pr " id="l116"><a class="pn " href="#l116">116</a>¿Disimulan todas ellas?</p>
+</div><div class="sp " data-who="Endimión">
+  <p class="spk ">
+    Endimión
+  </p>
+  <p class="pr " id="l117"><a class="pn " href="#l117">117</a>Todas menos una.</p>
+</div><div class="sp " data-who="Telus">
+  <p class="spk ">
+    Telus
+  </p>
+  <p class="pr " id="l118"><a class="pn " href="#l118">118</a>¿De quién se trata?</p>
+</div><div class="sp " data-who="Endimión">
+  <p class="spk ">
+    Endimión
+  </p>
+  <p class="pr " id="l119"><a class="pn " href="#l119">119</a>No osaré decirlo. Porque si dijera que sois vos, creerías que mi adulación es extrema, si otra, que mi amor no es más que indiferente.</p>
+</div><div class="sp " data-who="Telus">
+  <p class="spk ">
+    Telus
+  </p>
+  <p class="pr " id="l120"><a class="pn m5" href="#l120">120</a>Ten por seguro que no sacaré ventaja de tus palabras. En realidad, Endimión, sin más ambages, ¿no es acaso Cintia?</p>
+</div><div class="sp " data-who="Endimión">
+  <p class="spk ">
+    Endimión
+  </p>
+  <p class="pr " id="l121"><a class="pn " href="#l121">121</a>Sabéis, Telus, que sobre los dioses nos es prohibido debatir, porque sus divinidades no acompasan nuestra razón; y sobre Cintia no se nos permite hablar sino admirarla, porque a sus virtudes no alcanzan nuestras capacidades.</p>
+</div><div class="sp " data-who="Telus">
+  <p class="spk ">
+    Telus
+  </p>
+  <p class="pr " id="l122"><a class="pn " href="#l122">122</a>Bah, no es más que una mujer.</p>
+</div><div class="sp " data-who="Endimión">
+  <p class="spk ">
+    Endimión
+  </p>
+  <p class="pr " id="l123"><a class="pn " href="#l123">123</a>No más que Venus.</p>
+</div><div class="sp " data-who="Telus">
+  <p class="spk ">
+    Telus
+  </p>
+  <p class="pr " id="l124"><a class="pn " href="#l124">124</a>No es más que una virgen.</p>
+</div><div class="sp " data-who="Endimión">
+  <p class="spk ">
+    Endimión
+  </p>
+  <p class="pr " id="l125"><a class="pn m5" href="#l125">125</a>No más que Vesta.</p>
+</div><div class="sp " data-who="Telus">
+  <p class="spk ">
+    Telus
+  </p>
+  <p class="pr " id="l126"><a class="pn " href="#l126">126</a>Tendrá su propio fin.</p>
+</div><div class="sp " data-who="Endimión">
+  <p class="spk ">
+    Endimión
+  </p>
+  <p class="pr " id="l127"><a class="pn " href="#l127">127</a>También lo tendrá el mundo.</p>
+</div><div class="sp " data-who="Telus">
+  <p class="spk ">
+    Telus
+  </p>
+  <p class="pr " id="l128"><a class="pn " href="#l128">128</a>¿No está su belleza sujeta al tiempo?</p>
+</div><div class="sp " data-who="Endimión">
+  <p class="spk ">
+    Endimión
+  </p>
+  <p class="pr " id="l129"><a class="pn " href="#l129">129</a>No más que el tiempo lo está a su eternidad.</p>
+</div><div class="sp " data-who="Telus">
+  <p class="spk ">
+    Telus
+  </p>
+  <p class="pr " id="l130"><a class="pn m5" href="#l130">130</a>¿La harás inmortal?</p>
+</div><div class="sp " data-who="Endimión">
+  <p class="spk ">
+    Endimión
+  </p>
+  <p class="pr " id="l131"><a class="pn " href="#l131">131</a>No, pero incomparable.</p>
+</div><div class="sp " data-who="Telus">
+  <p class="spk ">
+    Telus
+  </p>
+  <p class="pr " id="l132"><a class="pn " href="#l132">132</a>Presta atención, Endimión, no sea que, como el luchador de Olimpia que, esforzándose por levantar un peso imposible, se hirió sin remedio, al fijar tus deseos por encima de los que alcanzas, caigas en una enfermedad de la que no podrás recuperarte. Pues veo ahora que estás enamorado de Cintia.</p>
+</div><div class="sp " data-who="Endimión">
+  <p class="spk ">
+    Endimión
+  </p>
+  <p class="pr " id="l133"><a class="pn " href="#l133">133</a>No, Telus. Sabes que el majestuoso cedro, cuya cima alcanza las nubes, nunca inclina su cúspide hacia las hierbas que crecen en el valle; ni la hiedra que repta por el olmo puede hacerse con los rayos del sol. A Cintia honro con toda humildad, a quien nadie debería aventurarse a amar, cuyas afectos son inmortales y virtudes infinitas. Permíteme, entonces, contemplar a la luna, por quién, si no fuera por ti misma, moriría de asombro.</p>
+</div><p class="sd " id="l133-sd1">Salen.</p>
+      </section>
+    
+  
+    
+      <section id="act-2-s2">
+        <h3 class="scene-head">
+          <em>Actus Secundus, Scaena Secunda</em>
+        </h3>
+        <p class="sd " id="l133-sd2">[Entran] DARES, SAMIAS, SCINTILA, [y] FAVILLA.</p><div class="sp " data-who="Dares">
+  <p class="spk ">
+    Dares
+  </p>
+  <p class="pr " id="l134"><a class="pn " href="#l134">134</a>Ven, Samias, ¿alguna vez has escuchado tales suspiros, uno por Cintia, el otro por Semele, y ambos por el reflejo de la luna en el agua?</p>
+</div><div class="sp " data-who="Samias">
+  <p class="spk ">
+    Samias
+  </p>
+  <p class="pr " id="l135"><a class="pn m5" href="#l135">135</a>Dejémosles suspirar, y cantemos. – ¿Qué pensáis, queridas damas, no están nuestros señores perdidamente enamorados?</p>
+</div><div class="sp " data-who="Scintila">
+  <p class="spk ">
+    Scintila
+  </p>
+  <p class="pr " id="l136"><a class="pn " href="#l136">136</a>Sus lenguas están quizás profundamente ligadas a palabras de amor y a dulces discursos, pero creo que sus corazones apenas están abocados al deseo constante.</p>
+</div><div class="sp " data-who="Dares">
+  <p class="spk ">
+    Dares
+  </p>
+  <p class="pr " id="l137"><a class="pn " href="#l137">137</a>¿Qué pensáis vos, Fávila, no es el amor un ladrón, que se lleva el apetito de los hombres para que no puedan comer, su humor para que no puedan reír, sus corazones para que no puedan luchar, sus ojos para que no puedan dormir, y no deja más que mariposas para crear enamorados?</p>
+</div><div class="sp " data-who="Fávila">
+  <p class="spk ">
+    Fávila
+  </p>
+  <p class="pr " id="l138"><a class="pn " href="#l138">138</a>¡Aléjate, niño inquieto! Mejor sería una vara bajo el cinto que el amor en tu boca. Será como un gallo orgulloso que cacarea desde el cascarón.</p>
+</div><div class="sp " data-who="Dares">
+  <p class="spk ">
+    Dares
+  </p>
+  <p class="pr " id="l139"><a class="pn " href="#l139">139</a>¡Ay, mi vieja dama, cuán seria se ha puesto!</p>
+</div><div class="sp " data-who="Scintila">
+  <p class="spk ">
+    Scintila
+  </p>
+  <p class="pr " id="l140"><a class="pn m5" href="#l140">140</a>Fávila, aunque parezca nada más que una chispita, es el fuego mismo.</p>
+</div><div class="sp " data-who="Fávila">
+  <p class="spk ">
+    Fávila
+  </p>
+  <p class="pr " id="l141"><a class="pn " href="#l141">141</a>Y vos, Scintila, no siendo más que una chispa, seríais comparada con las llamas.</p>
+</div><div class="sp " data-who="Samias">
+  <p class="spk ">
+    Samias
+  </p>
+  <p class="pr as" id="l142"><a class="pn " href="#l142">142</a><span class="sdi">[Aparte a Dares]</span> Sería muy entretenido ver la pelea entre dos chispas.</p>
+</div><div class="sp " data-who="Dares">
+  <p class="spk ">
+    Dares
+  </p>
+  <p class="pr as" id="l143"><a class="pn " href="#l143">143</a><span class="sdi">[Aparte a Samias]</span> Dejémoslas, y sus palabras nos darán calor.</p>
+</div><div class="sp " data-who="Scintila">
+  <p class="spk ">
+    Scintila
+  </p>
+  <p class="pr " id="l144"><a class="pn " href="#l144">144</a>¿No estáis enfadada, Fávila?</p>
+</div><div class="sp " data-who="Fávila">
+  <p class="spk ">
+    Fávila
+  </p>
+  <p class="pr " id="l145"><a class="pn m5" href="#l145">145</a>Según, Scintila, como os plazca.</p>
+</div><div class="sp " data-who="Samias">
+  <p class="spk ">
+    Samias
+  </p>
+  <p class="pr " id="l146"><a class="pn " href="#l146">146</a>¡Eso, eso!</p>
+</div><div class="sp " data-who="Scintila">
+  <p class="spk ">
+    Scintila
+  </p>
+  <p class="pr " id="l147"><a class="pn " href="#l147">147</a>Esto es lo que caracteriza a las mozas, que apenas dejando de jugar con muñecas ayer, se volverán señoras matronas antes de mañana.</p>
+</div><div class="sp " data-who="Fávila">
+  <p class="spk ">
+    Fávila
+  </p>
+  <p class="pr " id="l148"><a class="pn " href="#l148">148</a>Os imploro piedad, <em>su señoría</em> matrona. Porque usáis chapines altos, os henchís de ínfulas. Sois mayor que yo porque camináis sobre escabeles y yo sobre el suelo.</p>
+</div><div class="sp " data-who="Samias">
+  <p class="spk ">
+    Samias
+  </p>
+  <p class="pr " id="l149"><a class="pn " href="#l149">149</a>Bien, bien.</p>
+</div><div class="sp " data-who="Dares">
+  <p class="spk ">
+    Dares
+  </p>
+  <p class="pr as" id="l150"><a class="pn m5" href="#l150">150</a><span class="sdi">[Aparte a Samias]</span> Dejémoslas solas, y veamos con que semblante se reconcilian.</p>
+</div><div class="sp " data-who="Scintila">
+  <p class="spk ">
+    Scintila
+  </p>
+  <p class="pr " id="l151"><a class="pn " href="#l151">151</a><span class="sdi">[A Fávila]</span> No, pensáis que sois la inteligente porque siempre tenéis la última palabra.</p>
+</div><p class="sd " id="l151-sd1">[Se amenazan entre ellas.]</p><div class="sp " data-who="Samias">
+  <p class="spk ">
+    Samias
+  </p>
+  <p class="pr " id="l152"><a class="pn " href="#l152">152</a>Interponte entre ellas, no sea que se hieran. – De verdad, mis damas, viendo que veníamos a divertirnos, no dejéis que vuestra disputa arruine nuestras bromas. Sean amigas. ¿Qué decís?</p>
+</div><div class="sp " data-who="Scintila">
+  <p class="spk ">
+    Scintila
+  </p>
+  <p class="pr " id="l153"><a class="pn " href="#l153">153</a>No estoy enfadada, solo me enfurece ver lo corta que es.</p>
+</div><div class="sp " data-who="Fávila">
+  <p class="spk ">
+    Fávila
+  </p>
+  <p class="pr " id="l154"><a class="pn " href="#l154">154</a>Yo nada pretendía, hasta que se me opuso.</p>
+</div><div class="sp " data-who="Dares">
+  <p class="spk ">
+    Dares
+  </p>
+  <p class="pr " id="l155"><a class="pn m5" href="#l155">155</a>Olvidémoslo.</p>
+</div><div class="sp " data-who="Scintila">
+  <p class="spk ">
+    Scintila
+  </p>
+  <p class="pr " id="l156"><a class="pn " href="#l156">156</a>Estoy de acuerdo.</p>
+</div><div class="sp " data-who="Fávila">
+  <p class="spk ">
+    Fávila
+  </p>
+  <p class="pr " id="l157"><a class="pn " href="#l157">157</a><span class="sdi">[Llorando]</span> Y yo, nunca había sufrido nada más cruel en mi vida.</p>
+</div><div class="sp " data-who="Scintila">
+  <p class="spk ">
+    Scintila
+  </p>
+  <p class="pr " id="l158"><a class="pn " href="#l158">158</a><span class="sdi">[Llorando]</span> Es por mí, que nunca propicié la ocasión.</p>
+</div><div class="sp " data-who="Dares">
+  <p class="spk ">
+    Dares
+  </p>
+  <p class="pr " id="l159"><a class="pn " href="#l159">159</a>Excelente. Igual que una mujer.</p>
+</div><div class="sp " data-who="Samias">
+  <p class="spk ">
+    Samias
+  </p>
+  <p class="pr " id="l160"><a class="pn m5" href="#l160">160</a>Cuán extraño, ver agua nacer del fuego.</p>
+</div><div class="sp " data-who="Dares">
+  <p class="spk ">
+    Dares
+  </p>
+  <p class="pr " id="l161"><a class="pn " href="#l161">161</a>Está en ellas llevar en sus ojos fuego y agua, lágrimas y antorchas, y en sus bocas miel y hiel.</p>
+</div><div class="sp " data-who="Scintila">
+  <p class="spk ">
+    Scintila
+  </p>
+  <p class="pr " id="l162"><a class="pn " href="#l162">162</a>Tú serás un buen mozo si no te ahorcan. Pero, ¿quién es aquel pomposo caballero?</p>
+</div><p class="sd " id="l162-sd1">Entran SIR TOFAS [y EPITON].</p><div class="sp " data-who="Dares">
+  <p class="spk ">
+    Dares
+  </p>
+  <p class="pr as" id="l163"><a class="pn " href="#l163">163</a><span class="sdi">[Aparte a sus amigos]</span> Sir Tofas, el Sir Tofas de quien os hablé. Y si sois buenas muchachas haréis como si lo estimarais y admirarais.</p>
+</div><div class="sp " data-who="Fávila">
+  <p class="spk ">
+    Fávila
+  </p>
+  <p class="pr " id="l164"><a class="pn " href="#l164">164</a>Cumpliremos con nuestra parte.</p>
+</div><div class="sp " data-who="Dares">
+  <p class="spk ">
+    Dares
+  </p>
+  <p class="pr " id="l165"><a class="pn m5" href="#l165">165</a>Pero primero retirémonos y dejémosle exhibir su atuendo, pues en él toda su gracia reside.</p>
+</div><p class="sd " id="l165-sd1">[Los pajes y doncellas esperan a un lado.]</p><div class="sp " data-who="SirTofas">
+  <p class="spk ">
+    Tofas
+  </p>
+  <p class="pr " id="l166"><a class="pn " href="#l166">166</a>¡Epi!</p>
+</div><div class="sp " data-who="Epiton">
+  <p class="spk ">
+    Epiton
+  </p>
+  <p class="pr " id="l167"><a class="pn " href="#l167">167</a>Aquí, señor.</p>
+</div><div class="sp " data-who="SirTofas">
+  <p class="spk ">
+    Tofas
+  </p>
+  <p class="pr " id="l168"><a class="pn " href="#l168">168</a>¿Cuánto gustáis de esta vida militar, donde nada excepto la sangre salpica nuestro pecho? Déjame ver, ¿están nuestros enemigos bien engordados?</p>
+</div><div class="sp " data-who="Epiton">
+  <p class="spk ">
+    Epiton
+  </p>
+  <p class="pr " id="l169"><a class="pn " href="#l169">169</a>Lo suficiente. Y no cambiaría nada esta vida por ser un caballero, y vos sobrepasáis toda comparación, pues otros capitanes matan y vencen, pero no hay nada que usted mate y no deguste.</p>
+</div><div class="sp " data-who="SirTofas">
+  <p class="spk ">
+    Tofas
+  </p>
+  <p class="pr " id="l170"><a class="pn m5" href="#l170">170</a>Les arrancaré las tripas y les desgarraré la carne con mis dientes, tan mortal es mi odio y tan ávido mi insaciable apetito.</p>
+</div><div class="sp " data-who="Epiton">
+  <p class="spk ">
+    Epiton
+  </p>
+  <p class="pr as" id="l171"><a class="pn " href="#l171">171</a><span class="sdi">[Aparte]</span> Mi señor se cree el hombre más valiente del mundo por matar un pajarillo, considerando tan belicoso el cobrarse una vida, aunque solo se trate de una alondra.</p>
+</div><div class="sp " data-who="SirTofas">
+  <p class="spk ">
+    Tofas
+  </p>
+  <p class="pr " id="l172"><a class="pn " href="#l172">172</a>Epi, se me hinchas los pensamientos y toma alas mi espíritu, de tal modo que no puedo seguir el ritmo de tan exiguos combates.</p>
+</div><div class="sp " data-who="Fávila">
+  <p class="spk ">
+    Fávila
+  </p>
+  <p class="pr as" id="l173"><a class="pn " href="#l173">173</a><span class="sdi">[Aparte]</span> ¡Increíble!</p>
+</div><div class="sp " data-who="Scintila">
+  <p class="spk ">
+    Scintila
+  </p>
+  <p class="pr as" id="l174"><a class="pn " href="#l174">174</a><span class="sdi">[Aparte]</span> ¿Por qué, acaso no está loco?</p>
+</div><div class="sp " data-who="Samias">
+  <p class="spk ">
+    Samias
+  </p>
+  <p class="pr " id="l175"><a class="pn m5" href="#l175">175</a>No, pero es un poco vanaglorioso.</p>
+</div><div class="sp " data-who="SirTofas">
+  <p class="spk ">
+    Tofas
+  </p>
+  <p class="pr " id="l176"><a class="pn " href="#l176">176</a>¡Epi!</p>
+</div><div class="sp " data-who="Epiton">
+  <p class="spk ">
+    Epiton
+  </p>
+  <p class="pr " id="l177"><a class="pn " href="#l177">177</a>¿Señor?</p>
+</div><div class="sp " data-who="SirTofas">
+  <p class="spk ">
+    Tofas
+  </p>
+  <p class="pr " id="l178"><a class="pn " href="#l178">178</a>Me enfrentaré a ese cruel y negro enemigo que lleva ásperos y despeinados rizos sobre su cuerpo, cuyo progenitor derrumba los más sólidos muros, cuyas patas son tantas como la suma de las nuestras y en cuya cabeza descansan los cuernos más horribles que la naturaleza concibió como defensa ante cualquier daño.</p>
+</div><div class="sp " data-who="Epiton">
+  <p class="spk ">
+    Epiton
+  </p>
+  <p class="pr " id="l179"><a class="pn " href="#l179">179</a>¿Qué os lleva, señor, a tal desesperación?</p>
+</div><div class="sp " data-who="SirTofas">
+  <p class="spk ">
+    Tofas
+  </p>
+  <p class="pr " id="l180"><a class="pn m5" href="#l180">180</a>El honor me incita, y el hambre me obliga.</p>
+</div><div class="sp " data-who="Epiton">
+  <p class="spk ">
+    Epiton
+  </p>
+  <p class="pr " id="l181"><a class="pn " href="#l181">181</a>¿Cuál es ese monstruo?</p>
+</div><div class="sp " data-who="SirTofas">
+  <p class="spk ">
+    Tofas
+  </p>
+  <p class="pr " id="l182"><a class="pn " href="#l182">182</a>El monstruoso <em>ovis</em>. Lo he dicho, deja que tu ingenio trabaje.</p>
+</div><div class="sp " data-who="Epiton">
+  <p class="spk ">
+    Epiton
+  </p>
+  <p class="pr " id="l183"><a class="pn " href="#l183">183</a>No puedo imaginármelo. A ver. Un negro enemigo de ásperos rizos – puede ser una oveja, y <em>ovis</em> es oveja. Su progenitor muy fuerte – el carnero es el padre de la oveja, también un instrumento de guerra. Cuernos posee, y cuatro patas – igual que la oveja. Sin duda este monstruo es una oveja negra. ¿Os referís a la oveja?</p>
+</div><div class="sp " data-who="SirTofas">
+  <p class="spk ">
+    Tofas
+  </p>
+  <p class="pr " id="l184"><a class="pn " href="#l184">184</a>Has dado en el clavo. Este es el monstruo al que daré caza y con el que cenaré.</p>
+</div><div class="sp " data-who="Samias">
+  <p class="spk ">
+    Samias
+  </p>
+  <p class="pr " id="l185"><a class="pn m5" href="#l185">185</a><span class="sdi">[A sus amigos]</span> Venid, presentémonos ante él. <span class="sdi">[Los pajes y las sirvientas dan un paso al frente.]</span><br>¡Sir Tofas, os saludamos!</p>
+</div><div class="sp " data-who="SirTofas">
+  <p class="spk ">
+    Tofas
+  </p>
+  <p class="pr " id="l186"><a class="pn " href="#l186">186</a>Bienvenidos, niños. Rara vez inclino mi mirada tan bajo como para alcanzar las coronillas de vuestras cabezas y por eso, disculpad que no os haya hablado en todo este tiempo.</p>
+</div><div class="sp " data-who="Dares">
+  <p class="spk ">
+    Dares
+  </p>
+  <p class="pr " id="l187"><a class="pn " href="#l187">187</a>Descuide. Aquí estas bellas damas han venido a asombrarse ante vuestra persona, vuestro valor, y vuestro ingenio, que según las habladurías son capaces de hacerles olvidar sus propios honores para saciar sus ojos y corazones con los vuestros.</p>
+</div><div class="sp " data-who="SirTofas">
+  <p class="spk ">
+    Tofas
+  </p>
+  <p class="pr " id="l188"><a class="pn " href="#l188">188</a>Las habladurías no me traen más que injurias, ya que, desconociendo al completo lo que soy, presiento que han sido miserables en sus alabanzas.</p>
+</div><div class="sp " data-who="Scintila">
+  <p class="spk ">
+    Scintila
+  </p>
+  <p class="pr " id="l189"><a class="pn " href="#l189">189</a>No, gentil caballero. Las habladurías han derrochado encomios, pues no han dejado rival para vos, ni crédito alguno para ellas. Cuanto nos han contado no es más de lo que vemos ahora.</p>
+</div><div class="sp " data-who="Dares">
+  <p class="spk ">
+    Dares
+  </p>
+  <p class="pr as" id="l190"><a class="pn m5" href="#l190">190</a><span class="sdi">[Aparte]</span> ¡Qué buena muchacha!</p>
+</div><div class="sp " data-who="Fávila">
+  <p class="spk ">
+    Fávila
+  </p>
+  <p class="pr " id="l191"><a class="pn " href="#l191">191</a>Si queda en vos algo de compasión hacia las mujeres como coraje contra vuestros enemigos, entonces, nos alegraremos, pues, al oir sobre vuestra persona, vinimos a verla, y viéndola, nos prendamos de ella.</p>
+</div><div class="sp " data-who="SirTofas">
+  <p class="spk ">
+    Tofas
+  </p>
+  <p class="pr " id="l192"><a class="pn " href="#l192">192</a>¿Prendadas, señoritas? Me lo creo fácilmente, pero mi arduo corazón no se impresiona con dulces palabras. Marte puede penetrarlo, Venus no pintará sobre él.</p>
+</div><div class="sp " data-who="Fávila">
+  <p class="spk ">
+    Fávila
+  </p>
+  <p class="pr " id="l193"><a class="pn " href="#l193">193</a>Un cruel dicho.</p>
+</div><div class="sp " data-who="Samias">
+  <p class="spk ">
+    Samias
+  </p>
+  <p class="pr as" id="l194"><a class="pn " href="#l194">194</a><span class="sdi">[Aparte]</span> Ahí va una mujer.</p>
+</div><div class="sp " data-who="Dares">
+  <p class="spk ">
+    Dares
+  </p>
+  <p class="pr " id="l195"><a class="pn m5" href="#l195">195</a><span class="sdi">[A Sir Tofas]</span> ¿Abandonaréis a estas damas, solo porque buscan un poco de amor? Mostradles vuestra amabilidad.</p>
+</div><div class="sp " data-who="SirTofas">
+  <p class="spk ">
+    Tofas
+  </p>
+  <p class="pr " id="l196"><a class="pn " href="#l196">196</a>De mis labios no sale sílaba tan afectuosa. La costumbre ha hecho violentas mis palabras y bárbaro mi corazón. Esa insignificante palabra, “amor”, cuán insípida es en mi boca. No lleva sonido. Odio, horror, muerte son expresiones que nutren mi espíritu. Me gusta la miel, pero no me preocupan las abejas: me deleito con la música, pero no en tocar la gaita; puedo conceder escuchar la voz de las mujeres, pero tocar sus cuerpos lo menosprecio siendo algo infantil y propio de aquellos que no pueden digerir nada más que leche.</p>
+</div><div class="sp " data-who="Scintila">
+  <p class="spk ">
+    Scintila
+  </p>
+  <p class="pr " id="l197"><a class="pn " href="#l197">197</a>Un corazón duro. ¿Debemos entonces morir por vuestro amor sin encontrar ningún remedio?</p>
+</div><div class="sp " data-who="SirTofas">
+  <p class="spk ">
+    Tofas
+  </p>
+  <p class="pr " id="l198"><a class="pn " href="#l198">198</a>Ya he tenido en exceso.</p>
+</div><div class="sp " data-who="Epiton">
+  <p class="spk ">
+    Epiton
+  </p>
+  <p class="pr " id="l199"><a class="pn " href="#l199">199</a>Buen señor, apiadaos de ellas.</p>
+</div><div class="sp " data-who="SirTofas">
+  <p class="spk ">
+    Tofas
+  </p>
+  <p class="pr " id="l200"><a class="pn m5" href="#l200">200</a>¿Piedad, Epi? No, no creo que este pecho deba molestarse con tan insignificante pasión. ¿Qué es lo que la dama lleva en su cadena?</p>
+</div><div class="sp " data-who="Epiton">
+  <p class="spk ">
+    Epiton
+  </p>
+  <p class="pr " id="l201"><a class="pn " href="#l201">201</a>Es una ardilla.</p>
+</div><div class="sp " data-who="SirTofas">
+  <p class="spk ">
+    Tofas
+  </p>
+  <p class="pr " id="l202"><a class="pn " href="#l202">202</a>¿Una ardilla? ¡Oh, dioses, lo que se hace por dinero!</p>
+</div><p class="sd " id="l202-sd1">[Los pajes y sirvientas hablan entre sí a escondidas.]</p><div class="sp " data-who="Dares">
+  <p class="spk ">
+    Dares
+  </p>
+  <p class="pr " id="l203"><a class="pn " href="#l203">203</a>¿No es este caballero <em>demasiado</em> sabio?</p>
+</div><div class="sp " data-who="Fávila">
+  <p class="spk ">
+    Fávila
+  </p>
+  <p class="pr " id="l204"><a class="pn " href="#l204">204</a>Podría estar todo el día con él si no temiera al deshonor.</p>
+</div><div class="sp " data-who="Scintila">
+  <p class="spk ">
+    Scintila
+  </p>
+  <p class="pr " id="l205"><a class="pn m5" href="#l205">205</a>¿No es posible encontrarnos de nuevo?</p>
+</div><div class="sp " data-who="Dares">
+  <p class="spk ">
+    Dares
+  </p>
+  <p class="pr " id="l206"><a class="pn " href="#l206">206</a>Sí, cuando sea.</p>
+</div><div class="sp " data-who="Fávila">
+  <p class="spk ">
+    Fávila
+  </p>
+  <p class="pr " id="l207"><a class="pn " href="#l207">207</a>Entonces apresurémonos a casa.</p>
+</div><div class="sp " data-who="Scintila">
+  <p class="spk ">
+    Scintila
+  </p>
+  <p class="pr " id="l208"><a class="pn " href="#l208">208</a><span class="sdi">[En voz alta]</span> Sir Tofas, que el dios de la guerra se lleve mejor con vos, de los que vos con el dios del amor.</p>
+</div><div class="sp " data-who="Fávila">
+  <p class="spk ">
+    Fávila
+  </p>
+  <p class="pr " id="l209"><a class="pn " href="#l209">209</a>Este amor hacia nosotras lo podemos ocultar, digerirlo no podremos; pero no dudo de que el tiempo os frenará y nos ayudará.</p>
+</div><div class="sp " data-who="SirTofas">
+  <p class="spk ">
+    Tofas
+  </p>
+  <p class="pr " id="l210"><a class="pn m5" href="#l210">210</a>Desafío al tiempo, que nada reclama a mi corazón. – Ven, Epi, asísteme en la batalla contra la abominable bestia. El amor es una ñoñería y no me deleito en él pues no es terrible.</p>
+</div><p class="sd " id="l210-sd1">[Salen SIR TOFAS y EPITON.]</p><div class="sp " data-who="Dares">
+  <p class="spk ">
+    Dares
+  </p>
+  <p class="pr " id="l211"><a class="pn " href="#l211">211</a>De hecho, una oveja negra es una bestia peligrosa. Veámonos en otro momento.</p>
+</div><div class="sp " data-who="Fávila">
+  <p class="spk ">
+    Fávila
+  </p>
+  <p class="pr " id="l212"><a class="pn " href="#l212">212</a>Suspiraré por ese momento.</p>
+</div><p class="sd " id="l212-sd1">Salen.</p>
+      </section>
+    
+  
+    
+      <section id="act-2-s3">
+        <h3 class="scene-head">
+          <em>Actus Secundus, Scaena Tertia</em>
+        </h3>
+        <p class="sd " id="l212-sd2">[Entran] ENDIMIÓN, [cerca del rimero de helechos; y sin ser vistos por él] DIPSAS [y] BAGOA.</p><div class="sp " data-who="Endimión">
+  <p class="spk ">
+    Endimión
+  </p>
+  <p class="pr " id="l213"><a class="pn " href="#l213">213</a>¿No hay descanso, Endimión? ¿Aún inseguro en cómo resolver tus pasos por el día y tus pensamientos en la noche? Tu fidelidad se mide con tu fortuna, y se te juzga infiel por tu infelicidad. Veré si puedo engañarme con el sueño; y, si la duermevela no se adueña de mis ojos, acogeré los pensamientos dorados y desearé derretirme en la contemplación. Así como el ébano, que el fuego no puede abrasar, se consume en dulces sabores, así mi corazón que no se doblega ante la inclemencia de la fortuna, puede salir herido con deseos amorosos. En aquel rimero no creció nada más que helechos, y desde hoy no tendré otro lecho para mí. ¡Oh, Endimión, Telus era bella! ¿Pero de qué sirve la belleza sin sabiduría? No, Endimión, era sabia. ¿Pero de qué sirve la sabiduría sin honor? Era honorable, Endimión, no la <em>desmientas</em>. Ah, ¿pero cuán oscuro es el honor sin fortuna? ¿No era ella afortunada, a quien muchos seguían? Sí, sí, pero vana es la fortuna sin majestad. Tu majestad, Cintia, todo el mundo la conoce y contempla, pero no hay nadie en el mundo que pueda imitarla o comprenderla. ¡No más, Endimión! Duerme o muere. No, muere, pues dormir es imposible; y aún, no sé cómo ocurre, siento tal pesadez en mis ojos y corazón que de repente se me paraliza cada articulación. Puede ser el agotamiento, pues, ¿cuándo descansé? Puede ser la melancolía, pues, ¿cuándo no suspiré? Cintia, oh, y “de nuevo”, ¡Cintia!</p>
+</div><p class="sd " id="l213-sd1">Se queda dormido.</p><div class="sp " data-who="Dipsas">
+  <p class="spk ">
+    Dipsas
+  </p>
+  <p class="pr " id="l214"><a class="pn " href="#l214">214</a><span class="sdi">[Adelantándose]</span> Poco sabrás, Endimión, cuando despiertes; pues, si hubieras puesto tu corazón enamorado tan bajo como tu cabeza ahora adormecida, habrías elegido a Telus, en quien en lugar de encontrar un amante, encontrarás tu tumba. Esos ojos sellaré con magia, no de modo natural, para que no vuelvan a abrirse ni con magia ni de modo natural. Tú que yaces con tus dorados tirabuzones no despertarás hasta que tus cabellos se tornen plateados; y esa barbilla, en la que aún no aparece el vello, sea llenada por pelos tan ásperos como una escoba. Dormirás hasta que la juventud abandone tu cuerpo y te convertirás en heno seco antes de que te hayas sabido césped verde, y aquel joven de la corte que se entregó al sueño, estará listo por edad para entrar en la tumba cuando despierte. La malicia de Telus nos ha llevado a esto, que, si no me hubiera rogado de buen modo, me lo habría ordenado con amenazas; pues de ella obtenemos todas nuestras hierbas para realizar nuestros conjuros.<br><span class="sdi">[A Bagoa]</span> Abanica su rostro con esta cicuta, y entona el encantamiento del sueño, mientras yo voy y termino todos los preparativos que requieren nuestras artes. Ten cuidado de no tocar su rostro, pues el abanico contiene tal veneno que quien ose rozarlo encontrará una muerte rápida, y sobre quien su aire resople, dormirá para siempre.</p>
+</div><p class="sd " id="l214-sd1">Sale.</p><div class="sp " data-who="Bagoa">
+  <p class="spk ">
+    Bagoa
+  </p>
+  <p class="pr " id="l215"><a class="pn m5" href="#l215">215</a>Déjamelo a mí, tendré cuidado. <span class="sdi">[Abanica a Endimión mientras canta]</span><br>¿Cuál es tu suerte, Endimión, de caer en las manos de Dipsas? ¡Oh, bello Endimión, como me apena que ese bello rostro se torne en marchita piel y pruebe los dolores de la muerte antes que el regalo del amor! Me temo que Telus se arrepentirá de lo que los mismos cielos parecen lamentarse. – Pero escucho a Dipsas llegar. No osaré quejarme, para que ella no me doblegue, ni me meza en un sueño tan profundo que no despierte hasta el matrimonio.</p>
+</div><p class="sd " id="l215-sd1">Entra Dipsas.</p><div class="sp " data-who="Dipsas">
+  <p class="spk ">
+    Dipsas
+  </p>
+  <p class="pr " id="l216"><a class="pn " href="#l216">216</a>¿Cómo vais, habéis terminado?</p>
+</div><div class="sp " data-who="Bagoa">
+  <p class="spk ">
+    Bagoa
+  </p>
+  <p class="pr " id="l217"><a class="pn " href="#l217">217</a>Sí.</p>
+</div><div class="sp " data-who="Dipsas">
+  <p class="spk ">
+    Dipsas
+  </p>
+  <p class="pr " id="l218"><a class="pn " href="#l218">218</a>Bien, entonces, entremos, y prometed no decir una palabra sobre lo que he hecho, pues si lo hacéis, tornaré vuestros cabellos en víboras y todos vuestros dientes en lenguas. Ea, vayámonos.</p>
+</div><p class="sd " id="l218-sd1">Salen[, dejando a Endimión dormido]</p><p class="sd " id="l218-sd2">Una pantomima</p><p class="sd " id="l218-sd3">La música suena. Entran tres damas, una con un cuchillo y un espejo, quien procurándose uno de los dos, se dispone a apuñalar a Endimión mientras duerme, pero la tercera se retuerce las manos, se lamenta, y como tratando de prevenir la desgracia, pero sin atreverse. Al final, la primera dama, mirando en el espejo, arroja el cuchillo. Salen [las damas]. Entra un anciano con libros de tres hojas, ofrece lo mismo dos veces. Endimión lo rechaza. El hombre arranca dos hojas y ofrece la tercera, y así permanece un buen rato, entonces Endimión acepta tomarla. Sale [el Hombre anciano. Endimión continúa durmiendo en el rimero de helechos, oculto a la vista].</p>
+      </section>
+    
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-1.html" rel="prev">← ACTO I</a>
+  <a href="act-3.html" rel="next">ACTO III →</a>
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

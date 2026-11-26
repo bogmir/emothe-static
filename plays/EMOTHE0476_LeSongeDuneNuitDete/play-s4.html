@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Play, Scène IV — Le Songe d’une Nuit d’Été — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">PERSONNAGES</a></li>
+      
+  
+    
+        <li>
+          <a href="play.html">
+            Play
+          </a>
+          <ul>
+            <li>
+              
+                  <a href="play-s1.html">
+                    Scène I
+                  </a>
+                
+            </li><li>
+              
+                  <a href="play-s2.html">
+                    Scène II
+                  </a>
+                
+            </li><li>
+              
+                  <a href="play-s3.html">
+                    Scène III
+                  </a>
+                
+            </li><li>
+              
+                  <a href="play-s4.html" aria-current="page">
+                    Scène IV
+                  </a>
+                
+            </li><li>
+              
+                  <a href="play-s5.html">
+                    Scène V
+                  </a>
+                
+            </li><li>
+              
+                  <a href="play-s6.html">
+                    Scène VI
+                  </a>
+                
+            </li><li>
+              
+                  <a href="play-s7.html">
+                    Scène VII
+                  </a>
+                
+            </li><li>
+              
+                  <a href="play-s8.html">
+                    Scène VIII
+                  </a>
+                
+            </li>
+          </ul>
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  <li>
+    <a href="notes.html"><x-es>Notas</x-es><x-en>Notes</x-en></a>
+  </li>
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="THÉSÉE">
+        THÉSÉE
+      </option><option value="LYSANDRE">
+        LYSANDRE
+      </option><option value="DÉMÉTRIUS">
+        DÉMÉTRIUS
+      </option><option value="PHILOSTRATE">
+        PHILOSTRATE
+      </option><option value="BOTTOM">
+        BOTTOM
+      </option><option value="LECOING">
+        LECOING
+      </option><option value="FLÛTE">
+        FLÛTE
+      </option><option value="GROIN">
+        GROIN
+      </option><option value="MEURTDEFAIM">
+        MEURT DE FAIM
+      </option><option value="HIPPOLYTE">
+        HIPPOLYTE
+      </option><option value="HERMIA">
+        HERMIA
+      </option><option value="HÉLÉNA">
+        HÉLÉNA
+      </option><option value="OBÉRON">
+        OBÉRON
+      </option><option value="TITANIA">
+        TITANIA
+      </option><option value="PUCK">
+        PUCK ou ROBIN BONENFANT
+      </option><option value="FLEURSDESPOIS">
+        FLEURS DES POIS}
+      </option><option value="TOILEDARAIGNÉE">
+        TOILE D’ARAIGNÉE}
+      </option><option value="PHALÈNE">
+        PHALÈNE}
+      </option><option value="GRAINDEMOUTARDE">
+        GRAIN DE MOUTARDE}
+      </option><option value="unefée.">
+        une fée.
+      </option><option value="EGÉE">
+        ÉGÉE
+      </option>
+    </select>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="asm" aria-label="Resaltar apartes" data-en-aria-label="Highlight asides" data-tr>
+        <x-es>Apartes</x-es><x-en>Asides</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .aparte, .text .pr.as, .text .pr:not(.as) span.as" data-for="asm">
+  <button type="button" data-step="-1" aria-label="Aparte anterior" data-en-aria-label="Previous aside" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente aparte" data-en-aria-label="Next aside" data-tr>›</button>
+</div>
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">William Shakespeare</p>
+  <h1><a href="index.html">Le Songe d’une Nuit d’Été</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="play-s3.html" rel="prev">← Play, Scène III</a>
+  <a href="play-s5.html" rel="next">Play, Scène V →</a>
+</nav>
+  <div class="text" lang="fr" data-cite="William Shakespeare, Le Songe d’une Nuit d’Été, Play, Scène IV" data-cite-verse="int." data-cite-prose="int.">
+    
+    <section class="division">
+  
+  
+  <section id="play-s4">
+    <h3 class="scene-head">
+      Scène IV
+    </h3>
+    <p class="sd " id="l131-sd2">[Une autre partie du bois. Devant le chêne du duc.]</p><p class="sd " id="l131-sd3">Titania arrive avec sa suite.</p><div class="sp " data-who="TITANIA">
+  <p class="spk ">
+    TITANIA
+  </p>
+  <p class="pr " id="l132"><a class="pn " href="#l132">132</a>Allons ! maintenant une ronde et une chanson féerique ! — Ensuite, allez-vous-en pendant le tiers d’une minute ; — les unes, tuer les vers dans les boutons de rose musquée, — les autres, guerroyer avec les chauve-souris pour avoir la peau de leurs ailes, — et en faire des cottes à mes petits sylphes, d’autres chasser — le hibou criard qui la nuit ne cesse de huer, effarouché — par nos ébats subtils. Maintenant, endormez-moi de vos chants, — puis, allez à vos fonctions, et laissez-moi reposer.</p>
+</div><p class="sd " id="l132-sd1">Chanson.</p><div class="sp " data-who="PREMIÈREFÉE">
+  <p class="spk ">
+    PREMIÈRE FÉE
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l133"><a class="n " href="#l133">133</a><span class="t">Vous, serpents tachetés au double dard,</span></div><div class="l " id="l133-v1"><span class="t">Hérissons épineux, ne vous montrez pas,</span></div><div class="l " id="l133-v2"><span class="t">Salamandres, orvets, ne soyez pas malfaisants,</span></div><div class="l " id="l133-v3"><span class="t">N’approchez pas de la reine des fées.</span></div>
+</div>
+</div><div class="sp " data-who="PREMIÈREFÉE SECONDEFÉE">
+  <p class="spk ">
+    CHŒUR DES FÉES
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l134"><a class="n " href="#l134">134</a><span class="t">Philomèle, avec ta mélodie,</span></div><div class="l " id="l134-v1"><span class="t">Accompagne notre douce chanson ;</span></div><div class="l " id="l134-v2"><span class="t">Lulla, Lulla, Lullaby ! Lulla, Lulla, Lullaby !</span></div><div class="l " id="l134-v3"><span class="t">Que ni malheur, ni charme, ni maléfice</span></div><div class="l " id="l134-v4"><span class="t">N’atteigne notre aimable dame,</span></div><div class="l " id="l134-v5"><span class="t">Et bonne nuit, avec Lullaby.</span></div>
+</div>
+</div><div class="sp " data-who="SECONDEFÉE">
+  <p class="spk ">
+    SECONDE FÉE<button type="button" id="nref-1" class="nref" popovertarget="note-1" aria-label="Nota del editor digital 1" data-en-aria-label="Digital editor&#39;s note 1" data-tr>1</button>
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l135"><a class="n m5" href="#l135">135</a><span class="t">Araignées fileuses, ne venez pas céans ;</span></div><div class="l " id="l135-v1"><span class="t">Arrière, faucheux aux longues pattes, arrière !</span></div><div class="l " id="l135-v2"><span class="t">Noirs escarbots, n’approchez pas.</span></div><div class="l " id="l135-v3"><span class="t">Vers et limaçons, ne faites aucun dégât.</span></div>
+</div>
+</div><div class="sp " data-who="PREMIÈREFÉE SECONDEFÉE">
+  <p class="spk ">
+    CHŒUR DES FÉES
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l136"><a class="n " href="#l136">136</a><span class="t">Philomèle, avec ta mélodie,</span></div><div class="l " id="l136-v1"><span class="t">Accompagne notre douce chanson ;</span></div><div class="l " id="l136-v2"><span class="t">Lulla, Lulla, Lullaby ! Lulla, Lulla, Lullaby !</span></div><div class="l " id="l136-v3"><span class="t">Que ni malheur, ni charme, ni maléfice</span></div><div class="l " id="l136-v4"><span class="t">N’atteigne notre aimable dame,</span></div><div class="l " id="l136-v5"><span class="t">Et bonne nuit, avec Lullaby.</span></div>
+</div>
+</div><div class="sp " data-who="PREMIÈREFÉE">
+  <p class="spk ">
+    PREMIÈRE FÉE
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l137"><a class="n " href="#l137">137</a><span class="t">Maintenant, partons, tout va bien.</span></div><div class="l " id="l137-v1"><span class="t">Qu’une de nous se tienne à l’écart, en sentinelle !</span></div>
+</div>
+</div><p class="sd " id="l137-sd1">Les fées sortent. Titania s’endort.</p><p class="sd " id="l137-sd2">Entre Obéron.</p><div class="sp " data-who="OBÉRON">
+  <p class="spk ">
+    OBÉRON
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l138"><a class="n " href="#l138">138</a><span class="t"><span class="sdi">(pressant la fleur sur les paupières de Titania.)</span> Que l’être que tu verras à ton réveil</span></div><div class="l " id="l138-v1"><span class="t">Soit par toi pris pour amant!</span></div><div class="l " id="l138-v2"><span class="t">Aime-le et languis pour lui ;</span></div><div class="l " id="l138-v3"><span class="t">Quel qu’il soit, once, chat, ours,</span></div><div class="l " id="l138-v4"><span class="t">Léopard ou sanglier au poil hérissé,</span></div><div class="l " id="l138-v5"><span class="t">Que celui qui apparaîtra à tes yeux,</span></div><div class="l " id="l138-v6"><span class="t">Quand tu t’éveilleras, soit ton chéri !</span></div><div class="l " id="l138-v7"><span class="t">Réveille-toi, quand quelque être vil approchera.</span></div>
+</div>
+</div><p class="sd " id="l138-sd1">Il sort.</p><p class="sd " id="l138-sd2">Entrent Lysandre et Hermia.</p><div class="sp " data-who="LYSANDRE">
+  <p class="spk ">
+    LYSANDRE
+  </p>
+  <p class="pr " id="l139"><a class="pn " href="#l139">139</a>— Bel amour, vous vous êtes exténuée à errer dans le bois, — et, à vous dire vrai, j’ai oublié notre chemin. — Nous nous reposerons ici, Hermia, si vous le trouvez bon, — et nous attendrons la clarté secourable du jour.</p>
+</div><div class="sp " data-who="HERMIA">
+  <p class="spk ">
+    HERMIA
+  </p>
+  <p class="pr " id="l140"><a class="pn m5" href="#l140">140</a><span class="sdi">(s’étendant contre une haie)</span> — Soit, Lysandre. Cherchez un lit pour vous, — moi, je vais reposer ma tête sur ce banc.</p>
+</div><div class="sp " data-who="LYSANDRE">
+  <p class="spk ">
+    LYSANDRE
+  </p>
+  <p class="pr " id="l141"><a class="pn " href="#l141">141</a><span class="sdi">(s’approchant d’elle)</span> — Le même gazon nous servira d’oreiller à tous deux ; — un seul cœur, un seul lit ; deux âmes, une seule foi.</p>
+</div><div class="sp " data-who="HERMIA">
+  <p class="spk ">
+    HERMIA
+  </p>
+  <p class="pr " id="l142"><a class="pn " href="#l142">142</a>— Non, bon Lysandre ; pour l’amour de moi, mon cher, — étendez-vous plus loin, ne vous couchez pas si près.</p>
+</div><div class="sp " data-who="LYSANDRE">
+  <p class="spk ">
+    LYSANDRE
+  </p>
+  <p class="pr " id="l143"><a class="pn " href="#l143">143</a>— Oh ! saisissez, charmante, la pensée de mon innocence ; — l’amour doit saisir l’intention dans le langage de l’amour. — Je veux dire que nos deux cœurs sont tressés — de façon à n’en faire plus qu’un, — que nos deux âmes sont enchaînées par le même vœu, — de sorte que nous avons deux âmes et une seule foi. — Ne me refusez donc pas un lit à votre côté, — car, en vous serrant sur moi, Hermia, j’exécute un serment.</p>
+</div><div class="sp " data-who="HERMIA">
+  <p class="spk ">
+    HERMIA
+  </p>
+  <p class="pr " id="l144"><a class="pn " href="#l144">144</a>— Lysandre fait de très jolis jeux de mots. — Malheur à ma vertu et à mon honneur, — si j’ai accusé Lysandre de négliger un serment ! — Mais, doux ami, au nom de l’amour et de la courtoisie, — serrez-moi de moins près ; l’humaine modestie — exige entre nous la séparation — qui sied à un galant vertueux et à une vierge. — Gardez donc certaine distance, et bonne nuit, doux ami ; — que ton amour ne s’altère pas avant que ta douce vie finisse !</p>
+</div><div class="sp " data-who="LYSANDRE">
+  <p class="spk ">
+    LYSANDRE
+  </p>
+  <p class="pr " id="l145"><a class="pn m5" href="#l145">145</a><span class="sdi">(se couchant à distance d’Hermia)</span> — Je dis : Amen ! amen ! à cette belle prière ; — et j’ajoute : Que ma vie finisse quand finira ma fidélité ! — Voici mon lit. Que le sommeil t’accorde tout son repos !</p>
+</div><div class="sp " data-who="HERMIA">
+  <p class="spk ">
+    HERMIA
+  </p>
+  <p class="pr " id="l146"><a class="pn " href="#l146">146</a>— Qu’il en garde la moitié pour en presser tes yeux !</p>
+</div><p class="sd " id="l146-sd1">Ils s’endorment.</p><p class="sd " id="l146-sd2">Entre Puck.</p><div class="sp " data-who="PUCK">
+  <p class="spk ">
+    PUCK
+  </p>
+  <p class="pr " id="l147"><a class="pn " href="#l147">147</a>J’ai parcouru la forêt, — mais je n’ai pas trouvé d’Athénien — sur les yeux duquel j’aie pu éprouver — la vertu qu’a cette fleur d’inspirer l’amour. — Nuit et silence ! Quel est cet homme ? — Il porte un costume athénien ; — c’est celui, m’a dit mon maître, — qui dédaigne la jeune Athénienne ; — et voici la pauvre fille profondément endormie — sur le sol humide et sale. — Jolie âme ! elle n’a pas osé se coucher — près de ce ladre d’amour, de ce bourreau de courtoisie. — Malappris ! je répands sur tes yeux — toute la puissance que ce philtre possède. <span class="sdi">(Il fait tomber sur les yeux de Lysandre quelques gouttes du suc magique.)</span><br>— Une fois que tu seras éveillé, que l’amour — éloigne à jamais le sommeil de tes yeux ! — Réveille-toi dès que je serai parti ; — car il faut que j’aille rejoindre Obéron.</p>
+</div><p class="sd " id="l147-sd1">Il sort.</p><p class="sd " id="l147-sd2">Entrent Démétrius et Héléna, courant.</p><div class="sp " data-who="HÉLÉNA">
+  <p class="spk ">
+    HÉLÉNA
+  </p>
+  <p class="pr " id="l148"><a class="pn " href="#l148">148</a>— Arrête, quand tu devrais me tuer, bien-aimé Démétrius.</p>
+</div><div class="sp " data-who="DÉMÉTRIUS">
+  <p class="spk ">
+    DÉMÉTRIUS
+  </p>
+  <p class="pr " id="l149"><a class="pn " href="#l149">149</a>— Va-t’en, je te l’ordonne. Ne me hante pas ainsi.</p>
+</div><div class="sp " data-who="HÉLÉNA">
+  <p class="spk ">
+    HÉLÉNA
+  </p>
+  <p class="pr " id="l150"><a class="pn m5" href="#l150">150</a>— Veux-tu donc m’abandonner dans les ténèbres ? Oh! non!</p>
+</div><div class="sp " data-who="DÉMÉTRIUS">
+  <p class="spk ">
+    DÉMÉTRIUS
+  </p>
+  <p class="pr " id="l151"><a class="pn " href="#l151">151</a>— Arrête, ou malheur à toi ! je veux m’en aller seul.</p>
+</div><p class="sd " id="l151-sd1">Sort Démétrius.</p><div class="sp " data-who="HÉLÉNA">
+  <p class="spk ">
+    HÉLÉNA
+  </p>
+  <p class="pr " id="l152"><a class="pn " href="#l152">152</a>— Oh ! cette chasse éperdue m’a mise hors d’haleine ! — Plus je prie, moins j’obtiens grâce. — Hermia est heureuse, partout où elle respire ; — car elle a des yeux attrayants et célestes. — Qui a rendu ses yeux si brillants ? ce ne sont pas les larmes amères. — Si c’étaient les larmes, mes yeux en ont été plus souvent baignés que les siens. — Non, non, je suis laide comme une ourse, — car les bêtes qui me rencontrent se sauvent de frayeur. — Il n’est donc pas étonnant que Démétrius — me fuie comme un monstre. — Quel miroir perfide et menteur — m’a fait comparer mes yeux aux yeux étoiles d’Hermia ? — Mais qui est ici ?… Lysandre ! à terre ! — mort ou endormi ? Je ne vois pas de sang, pas de blessure. — Lysandre, si vous êtes vivant, cher seigneur, éveillez-vous.</p>
+</div><div class="sp " data-who="LYSANDRE">
+  <p class="spk ">
+    LYSANDRE
+  </p>
+  <p class="pr " id="l153"><a class="pn " href="#l153">153</a><span class="sdi">(s’éveillant)</span> — Et je courrai à travers les flammes, pour l’amour de toi, — transparente Héléna ! La nature a ici l’art — de me faire voir ton cœur à travers ta poitrine. — Où est Démétrius ? Oh ! que ce vil nom — est bien un mot fait pour périr à la pointe de mon épée !</p>
+</div><div class="sp " data-who="HÉLÉNA">
+  <p class="spk ">
+    HÉLÉNA
+  </p>
+  <p class="pr " id="l154"><a class="pn " href="#l154">154</a>— Ne dites pas cela, Lysandre ; ne dites pas cela. — Qu’importe qu’il aime votre Hermia ? Seigneur, qu’importe ? — Hermia n’aime toujours que vous : soyez donc heureux.</p>
+</div><div class="sp " data-who="LYSANDRE">
+  <p class="spk ">
+    LYSANDRE
+  </p>
+  <p class="pr " id="l155"><a class="pn m5" href="#l155">155</a>— Heureux avec Hermia ? non, je regrette — les fastidieuses minutes que j’ai passées avec elle. — Ce n’est pas Hermia, mais Héléna que j’aime à présent. — Qui n’échangerait une corneille pour une colombe ? — La volonté de l’homme est gouvernée par la raison ; — et la raison dit que vous êtes la plus digne fille. — Ce qui croît n’est mûr qu’à sa saison. — Trop jeune encore, je n’étais pas mûr pour la raison ; — mais, arrivé maintenant au faîte de l’expérience humaine, — ma raison met ma volonté au pas — et me conduit à vos yeux, où je lis — une histoire d’amour, écrite dans le plus riche livre d’amour.</p>
+</div><div class="sp " data-who="HÉLÉNA">
+  <p class="spk ">
+    HÉLÉNA
+  </p>
+  <p class="pr " id="l156"><a class="pn " href="#l156">156</a>— Suis-je donc née pour être si amèrement narguée ? — Quand ai-je mérité de vous cette moquerie ? — N’est-ce pas assez, n’est-ce pas assez, jeune homme — que je n’aie jamais pu, non, que je ne puisse jamais — mériter un doux regard de Démétrius, — sans que vous deviez encore railler mon insuffisance ? — Vous m’outragez, ma foi ; sur ma parole, vous m’outragez — en me courtisant d’une manière si dérisoire. — Mais adieu ! je suis forcée d’avouer — que je vous croyais un seigneur de plus réelle courtoisie. — Oh ! qu’une femme, repoussée par un homme, — soit encore insultée par un autre !</p>
+</div><p class="sd " id="l156-sd1">Elle sort.</p><div class="sp " data-who="LYSANDRE">
+  <p class="spk ">
+    LYSANDRE
+  </p>
+  <p class="pr " id="l157"><a class="pn " href="#l157">157</a>— Elle ne voit pas Hermia… Hermia, dors là, toi, — et puisses-tu ne jamais approcher de Lysandre ! — Car, de même que l’indigestion des choses les plus douces — porte à l’estomac le plus profond dégoût, — ou de même que les hérésies, que les hommes abjurent, — sont le plus haïes de ceux qu’elles ont trompés, — de même, toi, mon indigestion, toi, mon hérésie, — sois haïe de tous, et surtout de moi. — Et toi, mon être tout entier, consacre ton amour et ta puissance — à honorer Héléna et à être son chevalier.</p>
+</div><p class="sd " id="l157-sd1">Il sort.</p><div class="sp " data-who="HERMIA">
+  <p class="spk ">
+    HERMIA
+  </p>
+  <p class="pr " id="l158"><a class="pn " href="#l158">158</a><span class="sdi">(se dressant)</span> — À mon secours, Lysandre, à mon secours ! Tâche — d’arracher ce serpent qui rampe sur mon sein ! — Ah ! par pitié !… Quel était ce rêve ? — Voyez, Lysandre, comme je tremble de frayeur. — Il me semblait qu’un serpent me dévorait le cœur — et que vous étiez assis, souriant à mon cruel supplice. — Lysandre ! quoi ! éloigné de moi ! Lysandre ! seigneur ! — Quoi ! hors de la portée de ma voix ! parti ! pas un son, pas un mot ! — Hélas ! où êtes-vous ? parlez, si vous m’entendez ; — parlez, au nom de tous les amours ; je suis presque évanouie de frayeur. — Non ? Alors je vois bien que vous n’êtes pas près de moi : — il faut que je trouve sur-le-champ ou la mort ou vous. —</p>
+</div><p class="sd " id="l158-sd1">Elle sort.</p><p class="sd " id="l158-sd2">Entrent les Clowns, Lecoing, Étriqué, Bottom, Flûte, Groin et Meurt de Faim.</p><div class="sp " data-who="BOTTOM">
+  <p class="spk ">
+    BOTTOM
+  </p>
+  <p class="pr " id="l159"><a class="pn " href="#l159">159</a>Sommes-nous tous réunis?</p>
+</div><div class="sp " data-who="LECOING">
+  <p class="spk ">
+    LECOING
+  </p>
+  <p class="pr " id="l160"><a class="pn m5" href="#l160">160</a>Parfait ! parfait ! et voici une place merveilleusement convenable pour notre répétition. Cette pelouse verte sera notre scène, ce fourré d’aubépine nos coulisses, et nous allons mettre ça en action comme nous le mettrons devant le duc.</p>
+</div><div class="sp " data-who="BOTTOM">
+  <p class="spk ">
+    BOTTOM
+  </p>
+  <p class="pr " id="l161"><a class="pn " href="#l161">161</a>Pierre Lecoing…</p>
+</div><div class="sp " data-who="LECOING">
+  <p class="spk ">
+    LECOING
+  </p>
+  <p class="pr " id="l162"><a class="pn " href="#l162">162</a>Que dis-tu, bruyant Bottom?</p>
+</div><div class="sp " data-who="BOTTOM">
+  <p class="spk ">
+    BOTTOM
+  </p>
+  <p class="pr " id="l163"><a class="pn " href="#l163">163</a>Il y a dans cette comédie de Pyrame et Thisbé des choses qui ne plairont jamais. D’abord, Pyrame doit tirer l’épée pour se tuer ; ce que les dames ne supporteront pas. Qu’avez-vous à répondre à ça ?</p>
+</div><div class="sp " data-who="GROIN">
+  <p class="spk ">
+    GROIN
+  </p>
+  <p class="pr " id="l164"><a class="pn " href="#l164">164</a>Par Notre-Dame ! ça leur fera une peur terrible.</p>
+</div><div class="sp " data-who="MEURTDEFAIM">
+  <p class="spk ">
+    MEURT DE FAIM
+  </p>
+  <p class="pr " id="l165"><a class="pn m5" href="#l165">165</a>Je crois que nous devons renoncer à la tuerie comme dénoûment.</p>
+</div><div class="sp " data-who="BOTTOM">
+  <p class="spk ">
+    BOTTOM
+  </p>
+  <p class="pr " id="l166"><a class="pn " href="#l166">166</a>Pas le moins du monde. J’ai un moyen de tout arranger. Faites-moi un prologue ; et que ce prologue affecte de dire que nous ne voulons pas nous faire de mal avec nos épées et que Pyrame n’est pas tué tout de bon ; et, pour les rassurer encore mieux, dites que moi, Pyrame, je ne suis pas Pyrame, mais Bottom le tisserand : ça leur ôtera toute frayeur.</p>
+</div><div class="sp " data-who="LECOING">
+  <p class="spk ">
+    LECOING
+  </p>
+  <p class="pr " id="l167"><a class="pn " href="#l167">167</a>Soit, nous aurons un prologue comme ça, et il sera écrit en vers de huit et de six syllabes.</p>
+</div><div class="sp " data-who="BOTTOM">
+  <p class="spk ">
+    BOTTOM
+  </p>
+  <p class="pr " id="l168"><a class="pn " href="#l168">168</a>Non ! deux syllabes de plus ! en vers de huit et de huit !</p>
+</div><div class="sp " data-who="GROIN">
+  <p class="spk ">
+    GROIN
+  </p>
+  <p class="pr " id="l169"><a class="pn " href="#l169">169</a>Est-ce que ces dames n’auront pas peur du lion ?</p>
+</div><div class="sp " data-who="MEURTDEFAIM">
+  <p class="spk ">
+    MEURT DE FAIM
+  </p>
+  <p class="pr " id="l170"><a class="pn m5" href="#l170">170</a>J’en ai peur, je vous le promets.</p>
+</div><div class="sp " data-who="BOTTOM">
+  <p class="spk ">
+    BOTTOM
+  </p>
+  <p class="pr " id="l171"><a class="pn " href="#l171">171</a>Mes maîtres, réfléchissez-y bien. Amener, Dieu nous soit en aide ! un lion parmi ces dames, c’est une chose fort effrayante ; car il n’y a pas au monde d’oiseau de proie plus terrible que le lion, voyez-vous ; et nous devons y bien regarder.</p>
+</div><div class="sp " data-who="GROIN">
+  <p class="spk ">
+    GROIN
+  </p>
+  <p class="pr " id="l172"><a class="pn " href="#l172">172</a>Eh bien, il faudra un autre prologue pour dire que ce n’est pas un lion.</p>
+</div><div class="sp " data-who="BOTTOM">
+  <p class="spk ">
+    BOTTOM
+  </p>
+  <p class="pr " id="l173"><a class="pn " href="#l173">173</a>Oui, il faudra que vous disiez le nom de l’acteur, et qu’on voie la moitié de son visage à travers la crinière du lion ; il faudra que lui-même parle au travers et qu’il dise ceci ou quelque chose d’équivalent : <em>Mes dames, ou : belles dames, je vous demande, ou : je vous requiers, ou : je vous supplie de ne pas avoir peur, de ne pas trembler ; ma vie répond de la vôtre. Si vous pensiez que je suis venu en vrai lion, ce serait fâcheux pour ma vie. Non, je ne suis rien de pareil : je suis un homme comme les autres hommes.</em> Et alors, ma foi, qu’il se nomme et qu’il leur dise franchement qu’il est Étriqué le menuisier.</p>
+</div><div class="sp " data-who="LECOING">
+  <p class="spk ">
+    LECOING
+  </p>
+  <p class="pr " id="l174"><a class="pn " href="#l174">174</a>Allons, il en sera ainsi. Mais il y a encore deux choses difficiles : c’est d’amener le clair de lune dans une chambre ; car, vous savez, Pyrame et Thisbé se rencontrent au clair de lune.</p>
+</div><div class="sp " data-who="ETRIQUÉ">
+  <p class="spk ">
+    ÉTRIQUÉ
+  </p>
+  <p class="pr " id="l175"><a class="pn m5" href="#l175">175</a>Est-ce que la lune brillera la nuit où nous jouerons?</p>
+</div><div class="sp " data-who="BOTTOM">
+  <p class="spk ">
+    BOTTOM
+  </p>
+  <p class="pr " id="l176"><a class="pn " href="#l176">176</a>Un calendrier ! un calendrier ! Regardez dans l’almanach ; trouvez le clair de lune, trouvez le clair de lune.</p>
+</div><div class="sp " data-who="LECOING">
+  <p class="spk ">
+    LECOING
+  </p>
+  <p class="pr " id="l177"><a class="pn " href="#l177">177</a>Oui, la lune brille cette nuit-là.</p>
+</div><div class="sp " data-who="BOTTOM">
+  <p class="spk ">
+    BOTTOM
+  </p>
+  <p class="pr " id="l178"><a class="pn " href="#l178">178</a>Eh bien, vous pourriez laisser ouverte une lucarne de la fenêtre dans la grande salle où nous jouerons ; et la lune pourra briller par cette lucarne.</p>
+</div><div class="sp " data-who="LECOING">
+  <p class="spk ">
+    LECOING
+  </p>
+  <p class="pr " id="l179"><a class="pn " href="#l179">179</a>Oui ; ou bien quelqu’un devrait venir avec un fagot d’épines et une lanterne et dire qu’il vient pour défigurer ou représenter le personnage du clair de lune. Mais il y a encore autre chose. Il faut que nous ayons un mur dans la grande salle ; car Pyrame et Thisbé, dit l’histoire, causaient à travers la fente d’un mur.</p>
+</div><div class="sp " data-who="ETRIQUÉ">
+  <p class="spk ">
+    ÉTRIQUÉ
+  </p>
+  <p class="pr " id="l180"><a class="pn m5" href="#l180">180</a>Vous ne pourrez jamais apporter un mur… Qu’en dites-vous, Bottom ?</p>
+</div><div class="sp " data-who="BOTTOM">
+  <p class="spk ">
+    BOTTOM
+  </p>
+  <p class="pr " id="l181"><a class="pn " href="#l181">181</a>Un homme ou un autre devra représenter le mur : il faudra qu’il ait sur lui du plâtre, ou de l’argile, ou de la chaux pour figurer le mur ; et puis, qu’il tienne ses doigts comme ça, et Pyrame et Thisbé chuchoteront à travers l’ouverture.</p>
+</div><div class="sp " data-who="LECOING">
+  <p class="spk ">
+    LECOING
+  </p>
+  <p class="pr " id="l182"><a class="pn " href="#l182">182</a>Si ça se peut, alors tout est bien. Allons, asseyez-vous tous, fils de mères que vous êtes, et répétez vos rôles. Vous, Pyrame, commencez : quand vous aurez dit votre tirade, vous entrerez dans ce taillis, et ainsi de suite, chacun à son moment.</p>
+</div><p class="sd " id="l182-sd1">Entre Puck au fond du théâtre.</p><div class="sp " data-who="PUCK">
+  <p class="spk ">
+    PUCK
+  </p>
+  <p class="pr " id="l183"><a class="pn " href="#l183">183</a>— Qu’est-ce donc que ces filandreuses brutes qui viennent brailler ici, — si près du berceau de la reine des fées ? — Quoi ! une pièce en train ? Je serai spectateur, — peut-être acteur aussi, si j’en trouve l’occasion. —</p>
+</div><div class="sp " data-who="LECOING">
+  <p class="spk ">
+    LECOING
+  </p>
+  <p class="pr " id="l184"><a class="pn " href="#l184">184</a>Parlez, Pyrame… Thisbé, avancez.</p>
+</div><div class="sp " data-who="BOTTOM">
+  <p class="spk ">
+    PYRAME
+  </p>
+  <p class="pr " id="l185"><a class="pn m5" href="#l185">185</a>Thisbé, les fleurs odieuses ont un parfum suave…</p>
+</div><div class="sp " data-who="LECOING">
+  <p class="spk ">
+    LECOING
+  </p>
+  <p class="pr " id="l186"><a class="pn " href="#l186">186</a>Odorantes ! odorantes !</p>
+</div><div class="sp " data-who="BOTTOM">
+  <p class="spk ">
+    PYRAME
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l187"><a class="n " href="#l187">187</a><span class="t">Les fleurs odorantes ont un parfum suave.</span></div><div class="l " id="l187-v1"><span class="t">Tel celui de ton haleine, ma très-chère Thisbé, chérie.</span></div><div class="l " id="l187-v2"><span class="t">Mais écoute, une voix ! Arrête un peu ici,</span></div><div class="l " id="l187-v3"><span class="t">Et tout à l’heure je vais t’apparaître.</span></div>
+</div>
+</div><p class="sd " id="l187-sd1">Sort Pyrame.</p><div class="sp " data-who="PUCK">
+  <p class="spk ">
+    PUCK
+  </p>
+  <p class="pr as" id="l188"><a class="pn " href="#l188">188</a><span class="sdi">[à part.]</span> — Le plus étrange Pyrame qui ait jamais joué ici ! —</p>
+</div><p class="sd " id="l188-sd1">Il sort en suivant Pyrame.</p><div class="sp " data-who="FLÛTE">
+  <p class="spk ">
+    THISBÉ
+  </p>
+  <p class="pr " id="l189"><a class="pn " href="#l189">189</a>Est-ce à mon tour de parler?</p>
+</div><div class="sp " data-who="LECOING">
+  <p class="spk ">
+    LECOING
+  </p>
+  <p class="pr " id="l190"><a class="pn m5" href="#l190">190</a>Oui, pardieu, c’est à votre tour ; car vous devez comprendre qu’il n’est sorti que pour voir un bruit qu’il a entendu, et qu’il va revenir.</p>
+</div><div class="sp " data-who="FLÛTE">
+  <p class="spk ">
+    THISBÉ
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l191"><a class="n " href="#l191">191</a><span class="t">Très-radieux Pyrame, au teint blanc comme le lis,</span></div><div class="l " id="l191-v1"><span class="t">Toi dont l’incarnat est comme la rose rouge sur l’églantier triomphant,</span></div><div class="l " id="l191-v2"><span class="t">Le plus piquant jouvenceau, et aussi le plus aimable Juif,</span></div><div class="l " id="l191-v3"><span class="t">Fidèle comme un fidèle coursier qui jamais ne se fatigue,</span></div><div class="l " id="l191-v4"><span class="t">J’irai te retrouver, Pyrame, à la tombe de Nigaud.</span></div>
+</div>
+</div><div class="sp " data-who="LECOING">
+  <p class="spk ">
+    LECOING
+  </p>
+  <p class="pr " id="l192"><a class="pn " href="#l192">192</a>À la tombe de Ninus, l’homme !… Mais vous ne devez pas dire ça encore : c’est ce que vous répondrez à Pyrame ; vous dites tout votre rôle à la fois, en confondant toutes les répliques. Entrez, Pyrame : on a passé votre réplique, après ces mots : <em>qui jamais ne se fatigue.</em></p>
+</div><p class="sd " id="l192-sd1">Reviennent Puck et Bottom, affublé d’une tête d’âne.</p><div class="sp " data-who="FLÛTE">
+  <p class="spk ">
+    THISBÉ
+  </p>
+  <p class="pr " id="l193"><a class="pn " href="#l193">193</a>Fidèle comme le fidèle coursier qui jamais ne se fatigue…</p>
+</div><div class="sp " data-who="BOTTOM">
+  <p class="spk ">
+    PYRAME
+  </p>
+  <p class="pr " id="l194"><a class="pn " href="#l194">194</a>Si je l’étais, belle Thisbé, je ne serais qu’à toi.</p>
+</div><div class="sp " data-who="LECOING">
+  <p class="spk ">
+    LECOING
+  </p>
+  <p class="pr " id="l195"><a class="pn m5" href="#l195">195</a><span class="sdi">(apercevant Bottom)</span> Ô monstruosité ! ô prodige ! nous sommes hantés ! — En prières, mes maîtres ! fuyons, mes maîtres ! au secours !</p>
+</div><p class="sd " id="l195-sd1">Les clowns sortent.</p><div class="sp " data-who="PUCK">
+  <p class="spk ">
+    PUCK
+  </p>
+  <p class="pr " id="l196"><a class="pn " href="#l196">196</a>— Je vais vous suivre ; je vais vous faire faire un tour — à travers les marais, les buissons, les fourrés, les ronces. — Tantôt je serai cheval, tantôt chien, — cochon, ours sans tête, tantôt flamme ; — et je vais hennir, et aboyer, et grogner, et rugir, et brûler — tour à tour comme un cheval, un chien, un ours, une flamme. —</p>
+</div><p class="sd " id="l196-sd1">Il sort.</p><div class="sp " data-who="BOTTOM">
+  <p class="spk ">
+    BOTTOM
+  </p>
+  <p class="pr " id="l197"><a class="pn " href="#l197">197</a>Pourquoi se sauvent-ils ? C’est une farce pour me faire peur.</p>
+</div><p class="sd " id="l197-sd1">Revient Groin.</p><div class="sp " data-who="GROIN">
+  <p class="spk ">
+    GROIN
+  </p>
+  <p class="pr " id="l198"><a class="pn " href="#l198">198</a>Ô Bottom, comme tu es changé ! qu’est-ce que je vois sur toi?</p>
+</div><div class="sp " data-who="BOTTOM">
+  <p class="spk ">
+    BOTTOM
+  </p>
+  <p class="pr " id="l199"><a class="pn " href="#l199">199</a>Ce que vous voyez ? vous voyez une tête d’âne, la vôtre. Voyez-vous?</p>
+</div><p class="sd " id="l199-sd1">Sort Groin.</p><p class="sd " id="l199-sd2">Revient Lecoing.</p><div class="sp " data-who="LECOING">
+  <p class="spk ">
+    LECOING
+  </p>
+  <p class="pr " id="l200"><a class="pn m5" href="#l200">200</a>Dieu te bénisse, Bottom, Dieu te bénisse ! tu es métamorphosé.</p>
+</div><p class="sd " id="l200-sd1">Il sort.</p><div class="sp " data-who="BOTTOM">
+  <p class="spk ">
+    BOTTOM
+  </p>
+  <p class="pr " id="l201"><a class="pn " href="#l201">201</a>Je vois leur farce ; ils veulent faire de moi un âne, m’effrayer, s’ils peuvent. Mais, ils auront beau faire, je ne veux pas bouger de cette place ; je vais me promener ici de long en large, et chanter, pour qu’ils sachent que je n’ai pas peur.</p><div class="lg ">
+  
+  <div class="l " id="l201-v1"><span class="t"><span class="sdi">(Il chante.)</span> Le merle, si noir de couleur,</span></div><div class="l " id="l201-v2"><span class="t">Au bec jaune-orange,</span></div><div class="l " id="l201-v3"><span class="t">La grive à la note si juste,</span></div><div class="l " id="l201-v4"><span class="t">Le roitelet avec sa petite plume…</span></div>
+</div>
+</div><div class="sp " data-who="TITANIA">
+  <p class="spk ">
+    TITANIA
+  </p>
+  <p class="pr " id="l202"><a class="pn " href="#l202">202</a>Quel est l’ange qui m’éveille de mon lit de fleurs ? —</p>
+</div><div class="sp " data-who="BOTTOM">
+  <p class="spk ">
+    BOTTOM
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l203"><a class="n " href="#l203">203</a><span class="t">Le pinson, le moineau, et l’alouette,</span></div><div class="l " id="l203-v1"><span class="t">Le gris coucou avec son plain-chant,</span></div><div class="l " id="l203-v2"><span class="t">Dont maint homme écoute la note</span></div><div class="l " id="l203-v3"><span class="t">Sans oser lui répondre non !</span></div>
+</div><p class="pr " id="l203-p1">Car, vraiment, qui voudrait mettre son esprit aux prises avec un si fol oiseau ? qui voudrait donner un démenti à un oiseau, eût-il beau crier à tue-tête : <em>coucou</em> ?</p>
+</div><div class="sp " data-who="TITANIA">
+  <p class="spk ">
+    TITANIA
+  </p>
+  <p class="pr " id="l204"><a class="pn " href="#l204">204</a>— Je t’en prie, gentil mortel, chante encore. — Autant mon oreille est énamourée de ta note, — autant mes yeux sont captivés par ta forme, — et la force de ton brillant mérite m’entraîne, malgré moi, — à la première vue, à dire, à jurer que je t’aime. —</p>
+</div><div class="sp " data-who="BOTTOM">
+  <p class="spk ">
+    BOTTOM
+  </p>
+  <p class="pr " id="l205"><a class="pn m5" href="#l205">205</a>M’est avis, madame, que vous avez bien peu de raisons pour ça : et pourtant, à dire vrai, la raison et l’amour ne vont guère de compagnie, par le temps qui court ; c’est grand dommage que d’honnêtes voisins n’essaient pas de les réconcilier. Oui-dà, je sais batifoler dans l’occasion.</p>
+</div><div class="sp " data-who="TITANIA">
+  <p class="spk ">
+    TITANIA
+  </p>
+  <p class="pr " id="l206"><a class="pn " href="#l206">206</a>— Tu es aussi sage que tu es beau. —</p>
+</div><div class="sp " data-who="BOTTOM">
+  <p class="spk ">
+    BOTTOM
+  </p>
+  <p class="pr " id="l207"><a class="pn " href="#l207">207</a>Non, je ne suis ni l’un ni l’autre. Mais, si j’avais seulement assez d’esprit pour me tirer de ce bois, j’en aurais assez pour ce que j’en veux faire.</p>
+</div><div class="sp " data-who="TITANIA">
+  <p class="spk ">
+    TITANIA
+  </p>
+  <p class="pr " id="l208"><a class="pn " href="#l208">208</a>Ne demande pas à sortir de ce bois. — Tu resteras ici, que tu le veuilles ou non. — Je suis un esprit d’un ordre peu commun ; — l’été est une dépendance inséparable de mon empire, — et je t’aime. Donc, viens avec moi ; — je te donnerai des fées pour te servir ; — et elles t’iront chercher des joyaux au fond de l’abîme, — et elles chanteront, tandis que tu dormiras sur les fleurs pressées. — Et je te purgerai si bien de ta grossièreté mortelle — que tu iras comme un esprit aérien. — Fleur des Pois ! Toile d’Araignée ! Phalène ! Grain de Moutarde ! —</p>
+</div><p class="sd " id="l208-sd1">Entrent quatre Sylphes.</p><div class="sp " data-who="TOILEDARAIGNÉE">
+  <p class="spk ">
+    PREMIER SYLPHE
+  </p>
+  <p class="pr " id="l209"><a class="pn " href="#l209">209</a>— Me voici.</p>
+</div><div class="sp " data-who="FLEURSDESPOIS">
+  <p class="spk ">
+    DEUXIÈME SYLPHE
+  </p>
+  <p class="pr " id="l210"><a class="pn m5" href="#l210">210</a>Et moi.</p>
+</div><div class="sp " data-who="GRAINDEMOUTARDE">
+  <p class="spk ">
+    TROISIÈME SYLPHE
+  </p>
+  <p class="pr " id="l211"><a class="pn " href="#l211">211</a>Et moi.</p>
+</div><div class="sp " data-who="PHALÈNE">
+  <p class="spk ">
+    QUATRIÈME SYLPHE
+  </p>
+  <p class="pr " id="l212"><a class="pn " href="#l212">212</a>Où faut-il que nous allions?</p>
+</div><div class="sp " data-who="TITANIA">
+  <p class="spk ">
+    TITANIA
+  </p>
+  <p class="pr " id="l213"><a class="pn " href="#l213">213</a>Soyez aimables et courtois pour ce gentilhomme ; — bondissez dans ses promenades et gambadez à ses yeux ; — nourrissez-le d’abricots et de groseilles, — de grappes pourpres, de figues vertes et de mûres ; — dérobez aux abeilles leurs sacs de miel ; — pour flambeaux de nuit, coupez leurs cuisses enduites de cire, — et allumez-les aux yeux enflammés du ver luisant, — afin d’éclairer mon bien-aimé à son coucher et à son lever ; — et arrachez les ailes des papillons diaprés — pour écarter de ses yeux endormis les rayons de lune. — Inclinez-vous devant lui, sylphes, et faites-lui vos courtoisies.</p>
+</div><div class="sp " data-who="TOILEDARAIGNÉE">
+  <p class="spk ">
+    PREMIER SYLPHE
+  </p>
+  <p class="pr " id="l214"><a class="pn " href="#l214">214</a>— Salut, mortel !</p>
+</div><div class="sp " data-who="FLEURSDESPOIS">
+  <p class="spk ">
+    DEUXIÈME SYLPHE
+  </p>
+  <p class="pr " id="l215"><a class="pn m5" href="#l215">215</a>Salut !</p>
+</div><div class="sp " data-who="GRAINDEMOUTARDE">
+  <p class="spk ">
+    TROISIÈME SYLPHE
+  </p>
+  <p class="pr " id="l216"><a class="pn " href="#l216">216</a>Salut !</p>
+</div><div class="sp " data-who="PHALÈNE">
+  <p class="spk ">
+    QUATRIÈME SYLPHE
+  </p>
+  <p class="pr " id="l217"><a class="pn " href="#l217">217</a>Salut ! —</p>
+</div><div class="sp " data-who="BOTTOM">
+  <p class="spk ">
+    BOTTOM
+  </p>
+  <p class="pr " id="l218"><a class="pn " href="#l218">218</a>J’implore du fond du cœur la merci de vos révérences. <span class="sdi">(Au premier Sylphe)</span><br>Par grâce, le nom de votre révérence?</p>
+</div><div class="sp " data-who="TOILEDARAIGNÉE">
+  <p class="spk ">
+    PREMIER SYLPHE
+  </p>
+  <p class="pr " id="l219"><a class="pn " href="#l219">219</a>Toile d’Araignée.</p>
+</div><div class="sp " data-who="BOTTOM">
+  <p class="spk ">
+    BOTTOM
+  </p>
+  <p class="pr " id="l220"><a class="pn m5" href="#l220">220</a>Je vous demande votre amitié, cher monsieur Toile d’Araignée ; si je me coupe le doigt, je prendrai avec vous des libertés. <span class="sdi">(Au second Sylphe)</span><br>Votre nom, honnête gentilhomme?</p>
+</div><div class="sp " data-who="FLEURSDESPOIS">
+  <p class="spk ">
+    DEUXIÈME SYLPHE
+  </p>
+  <p class="pr " id="l221"><a class="pn " href="#l221">221</a>Fleur des Pois.</p>
+</div><div class="sp " data-who="BOTTOM">
+  <p class="spk ">
+    BOTTOM
+  </p>
+  <p class="pr " id="l222"><a class="pn " href="#l222">222</a>De grâce, recommandez-moi à mistress Cosse, votre mère, et à maître Pois-Chiche, votre père. Cher monsieur Fleur des Pois, je demanderai à faire avec vous plus ample connaissance. <span class="sdi">(Au troisième Sylphe)</span><br>Par grâce, votre nom, monsieur?</p>
+</div><div class="sp " data-who="GRAINDEMOUTARDE">
+  <p class="spk ">
+    TROISIÈME SYLPHE
+  </p>
+  <p class="pr " id="l223"><a class="pn " href="#l223">223</a>Grain de Moutarde.</p>
+</div><div class="sp " data-who="BOTTOM">
+  <p class="spk ">
+    BOTTOM
+  </p>
+  <p class="pr " id="l224"><a class="pn " href="#l224">224</a>Cher monsieur Grain de Moutarde, je connais bien vos souffrances ; maint gigantesque rosbif a lâchement dévoré bien des gentilshommes de votre maison. Votre famille m’a fait souvent venir la larme à l’œil, je vous le promets. Je demande à lier connaissance avec vous, bon monsieur Grain de Moutarde.</p>
+</div><div class="sp " data-who="TITANIA">
+  <p class="spk ">
+    TITANIA
+  </p>
+  <p class="pr " id="l225"><a class="pn m5" href="#l225">225</a>— Allons, escortez-le, conduisez-le à mon berceau. — La lune, il me semble, regarde d’un œil humide ; — et, quand elle pleure, les plus petites fleurs pleurent, — se lamentant sur quelque virginité violée. — Enchaînez la langue de mon bien-aimé ; conduisez-le en silence. —</p>
+</div><p class="sd " id="l225-sd1">Ils sortent.</p>
+  </section>
+</section>
+    
+    <section class="notes" role="doc-endnotes" aria-label="Notas" data-en-aria-label="Notes" data-tr>
+  <ol>
+    <li id="note-1" popover value="1">
+      <button type="button" popovertarget="note-1" popovertargetaction="hide" aria-label="Cerrar" data-en-aria-label="Close" data-tr>
+        ×
+      </button>
+      <b><x-es>Nota del editor digital</x-es><x-en>Digital editor&#39;s note</x-en></b>
+      <i>FÉE</i>
+      <p>Attribution de réplique del <em>folio</em> de 1623; “Première Fée” dans le <em>in-quarto</em> de 1600 (”1 <em>Fai.</em>”).</p>
+    </li>
+  </ol>
+</section>
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="play-s3.html" rel="prev">← Play, Scène III</a>
+  <a href="play-s5.html" rel="next">Play, Scène V →</a>
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      <p>
+        Ce(tte) œuvre est mise à disposition selon les termes de la Licence Creative Commons Attribution - Pas d&#39;Utilisation Commerciale - Pas de Modification 4.0 International (CC BY-NC-ND 4.0)
+
+  <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr">https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr</a>
+
+      </p>
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

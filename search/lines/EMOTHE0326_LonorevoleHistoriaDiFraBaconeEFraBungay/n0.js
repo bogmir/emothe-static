@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0326_LonorevoleHistoriaDiFraBaconeEFraBungay/n0",{"lines":[["play","nref-1","Play, 1573",0,"n","Dopo questo verso viene aggiunto nel quarto e nelle edizioni moderne: “Bac. Bid thẽ come in, Now my youths what would you haue.”"]],"speakers":["Fra Bungay"]});

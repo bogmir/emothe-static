@@ -1,0 +1,2620 @@
+<?xml version="1.0" ?>
+<TEI xml:lang="es" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="original">Saul le furieux</title>
+        <title type="traduccion">Saúl el furioso</title>
+        <title type="edicion">Saúl el furioso / Jean de La Taille: Tra. Hueso Fibla, Silvia: codificación TEI para EMOTHE</title>
+        <title key="orden">Saúl el furioso</title>
+        <title key="archivo">EMOTHE0779_SaulElFurioso</title>
+        <author ana="fiable">Jean de La Taille</author>
+        <author key="orden">La Taille, Jean de</author>
+        <sponsor>
+          <orgName>Plan Nacional de Investigación Científica, Desarrollo e Innovación Tecnológica (Plan Nacional de I+D+i)</orgName>
+        </sponsor>
+        <funder>
+          <orgName>Ministerio de Ciencia e Innovación – Agencia Estatal de Investigación -FEDER/ERDF: &quot;Teatro español y europeo de los siglos XVI y XVII: patrimonio y bases de datos&quot; (EMOTHE) ref. PID2019-104045GB-C54 (2020-06-01 / 2023-05-31); Ministerio de Ciencia, Innovación y Universidades, Ministerio de Economía y Competitividad – Agencia Estatal de Investigación -FEDER/ERDF: &quot;Teatro europeo de los siglos XVI y XVII: patrimonio y bases de datos&quot; (EMOTHE) ref. FFI2016-80314-P (2016-12-30 /2019-12-31); Programa Estatal Redes de Excelencia, &quot;Red del Patrimonio Teatral Clásico Español&quot;, ref. FFI2015-71441-REDC (2015-12-01 / 2017-11-30); Ministerio de Ciencia e Innovación, &quot;Base de datos, argumentos y textos del teatro clásico español&quot;, ref. FFI2012-34347 (2013-02-01 / 2016-12-31); Ministerio de Ciencia e Innovación, &quot;Patrimonio teatral clásico español: textos e instrumentos de investigación&quot;, ref. CSD 2009-00033 (2009-12-17 / 2014-12-13); Ministerio de Ciencia e Innovación, &quot;ARTELOPE. Base de datos, argumentos y textos del teatro clásico español&quot;, ref. FFI2009-12730 (2010-01-01 / 2012-12-31)</orgName>
+        </funder>
+        <editor role="translator">
+          <persName>Hueso Fibla, Silvia</persName>
+        </editor>
+        <respStmt>
+          <resp>Electronic edition: text adapted, edited for XML and encoded by</resp>
+          <persName>Hueso Fibla, Silvia</persName>
+        </respStmt>
+        <principal>Joan Oleza Simó</principal>
+      </titleStmt>
+      <editionStmt>
+        <edition>Edición electrónica de &apos;Saúl el furioso&apos;</edition>
+      </editionStmt>
+      <extent ana="verso">1401 versos</extent>
+      <publicationStmt>
+        <publisher>
+          <orgName>ARTELOPE/EMOTHE Universitat de València</orgName>
+        </publisher>
+        <idno type="code">EMOTHE0779_SaulElFurioso</idno>
+        <idno type="EMOTHE">0779</idno>
+        <pubPlace>Valencia</pubPlace>
+        <date>2025</date>
+        <authority>
+          <orgName>Universitat de València - Estudi General. http://www.uv.es</orgName>
+        </authority>
+        <availability>
+          <p>La Biblioteca Digital EMOTHE: The Classics of Early Modern European Theatre pertenece al proyecto EMOTHE del grupo de investigación ARTELOPE y ofrece en la web textos completos en acceso abierto, según la licencia que se indique. Se ruega citar la procedencia: &quot;Oleza, Joan et al. EMOTHE: The Classics of Early Modern European Theatre. Valencia: ARTELOPE/EMOTHE Universitat de València, 2010-. https://emothe.uv.es/biblioteca/&quot;</p>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es">Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem target="EMOTHE0491" type="original"/>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Saúl el furioso</title>
+          <author>La Taille, Jean de</author>
+          <editor role="traductor">Hueso Fibla, Silvia</editor>
+          <lang>Español</lang>
+<note>La Taille, Jean de. <emph>Saúl el furioso</emph> [<emph>Saul le furieux</emph>]. Traducido por Silvia Hueso Fibla para la Biblioteca Digital EMOTHE. Valencia: EMOTHE - Universitat de València, 2025.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>La Biblioteca Digital EMOTHE (antes denominada Colección de Textos Clásicos Europeos (CTCE)) supone la creación de una base de datos de teatro clásico europeo en diferentes idiomas, versiones y refundiciones, todas ellas hipervinculadas.</p>
+        <p>Carlos Muñoz Pons es responsable de (1) la programación de FileMaker para que genere archivos XML en formato TEI, a partir de los cuáles se generan estadísticas sobre aspectos de las obras; (2) el desarrollo del programa de generación de estas estadísticas; (3) el desarrollo de la hoja de transformación XSL para generar los archivos HMTL-PHP para su visualización en web; y (4) el desarrollo del programa para enlazar original y traducciones para su visualización en paralelo.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Las presentes ediciones digitales están basadas, en su mayor parte, en ediciones científicas de reconocido prestigio y se ha tratado, en la mayoría de ocasiones, de respetar sus criterios de edición. Solo en casos muy puntuales el editor digital ha introducido leves cambios de los que da cumplida cuenta en el apartado de &quot;Notas&quot;.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="CDU">
+          <bibl>Clasificación Decimal Universal</bibl>
+        </taxonomy>
+      </classDecl>
+      <refsDecl>
+        <citeStructure match="/TEI/text/body//l[@n]" unit="verse" use="@n"/>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="es-ES">Español</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#CDU">821.134.2-2</classCode>
+      </textClass>
+      <settingDesc>
+        <listPlace>
+          <place xml:id="asia" type="continent">
+            <placeName xml:lang="es">Asia</placeName>
+            <placeName xml:lang="en">Asia</placeName>
+            <placeName xml:lang="fr">Asie</placeName>
+            <placeName xml:lang="it">Asia</placeName>
+            <placeName xml:lang="pt">Ásia</placeName>
+            <place xml:id="palestina" type="region">
+              <placeName xml:lang="es">Palestina</placeName>
+              <placeName xml:lang="en">Palestine</placeName>
+              <placeName xml:lang="fr">Palestine</placeName>
+              <placeName xml:lang="it">Palestina</placeName>
+              <placeName xml:lang="pt">Palestina</placeName>
+            </place>
+          </place>
+        </listPlace>
+        <setting>
+          <placeName ref="#palestina" ana="setting"/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc>
+<change><date>2025</date></change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>
+            <title>Saúl el furioso</title>
+          </titlePart>
+        </docTitle>
+        <docAuthor>Jean de La Taille</docAuthor>
+      </titlePage>
+      <div type="nota_edicion_digital">
+        <head>Nota a esta edición digital</head>
+        <p>Esta publicación es parte del proyecto I+D+i «EMOTHE: Second Phase of Early Modern Spanish and European Theatre: heritage and databases (ASODAT Third Phase)», referencia PID2022-136431NB-C65, financiado por MICIN/AEI/10.13039/501100011033 y por FEDER Una manera de hacer Europa.</p>
+      </div>
+      <div type="argumento">
+        <head>ARGUMENTO</head>
+        <p>TOMADO DEL PRIMER LIBRO DE LOS REYES</p>
+        <p>El profeta Samuel mandó un día a Saúl —rey al que Dios había elegido antaño a la demanda del pueblo de Israel— que asolase por entero una ciudad llamada Amalec; que destruyese no sólo las gentes, mas todo cuanto allí respiraba, a causa de una antigua ofensa que la divina Majestad quiso entonces castigar. Mas Saúl, no cumpliendo del todo el mandamiento, y habiendo, por descuido o por algún motivo humano, reservado lo más hermoso del ganado —con intención, según él decía, de ofrecerlo en sacrificio al mismo Dios— y además habiendo dejado con vida, por cierta consideración, a Agag, rey de los amalecitas, cayó desde aquel momento en la desgracia del Altísimo; comenzó su decadencia, a perder poco a poco el seso, él, que había gozado desde el principio de tantos triunfos, bienes y honores. De suerte que al cabo Dios alzó contra él a un poderoso enemigo, Aquis, rey de los filisteos, y acaecieron entonces a Saúl hechos lastimosos, que se comprenderán fácilmente en el transcurso de esta tragedia.</p>
+      </div>
+      <div type="elenco">
+        <head>PERSONAJES</head>
+        <castList>
+          <castItem>
+            <role xml:id="Saúl">Saúl</role>
+            <roleDesc>Rey</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="JON">Jonatán</role>
+            <roleDesc>hijo de Saúl</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="Abi">Abinadab</role>
+            <roleDesc>hijo de Saúl</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="Mel">Melquisúa</role>
+            <roleDesc>hijo de Saúl</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="ESC1">El primer escudero</role>
+            <roleDesc>de Saúl</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="ESC2">El segundo escudero</role>
+            <roleDesc>de Saúl</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="PIT">La pitonisa</role>
+            <roleDesc>nigromante</roleDesc>
+          </castItem>
+          <castItem>
+            <role xml:id="ESP">El espíritu de Samuel</role>
+          </castItem>
+          <castItem>
+            <role xml:id="SOL">Un soldado amalecita</role>
+          </castItem>
+          <castItem>
+            <role xml:id="HOM">Un hombre de armas</role>
+          </castItem>
+          <castItem>
+            <role xml:id="DAV">David</role>
+          </castItem>
+          <castItem>
+            <role xml:id="COR">Coro de sacerdotes levitas</role>
+            <roleDesc>Asamblea de sacerdotes levitas</roleDesc>
+          </castItem>
+        </castList>
+      </div>
+    </front>
+    <body>
+      <div1 n="1" type="act">
+        <head>Acto primero</head>
+        <stage xml:id="em0779-es-st-1">Saúl, furioso, Jonatán, Abinadab y Melquisúa</stage>
+        <sp who="#Saúl" xml:id="em0779-es-sp-1">
+          <speaker>SAÚL.</speaker>
+          <lg part="M" type="free">
+            <l n="1" xml:id="em0779-es-1">¡Ay, Señor! ¡qué visión! ¿Qué veo, mis soldados?</l>
+            <l n="2" xml:id="em0779-es-2">¿Qué eclipse repentino entenebrece el cielo?</l>
+            <l n="3" xml:id="em0779-es-3">¿Qué noche ya se cierne con lumbres flameantes</l>
+            <l n="4" xml:id="em0779-es-4">que arden hacia el mar descendiendo en reflejos?</l>
+            <l n="5" xml:id="em0779-es-5">Oh sol, no has completado tu jornada ordinaria:</l>
+            <l n="6" xml:id="em0779-es-6">¿por qué, en pleno día tu claridad se extingue?</l>
+          </lg>
+        </sp>
+        <sp who="#JON" xml:id="em0779-es-sp-2">
+          <speaker>JONATÁN.</speaker>
+          <lg part="M" type="free">
+            <l n="7" xml:id="em0779-es-7">Seño, ¿qué pensamiento os turba la cabeza?</l>
+            <l n="8" xml:id="em0779-es-8">¿Es acaso el humor de aquel frenesí</l>
+            <l n="9" xml:id="em0779-es-9">que a veces os tormenta y ciega vuestra vista?</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-3">
+          <speaker>SAÚL.</speaker>
+          <lg part="M" type="free">
+            <l n="10" xml:id="em0779-es-10">Ea, mientras reluce la luna en el espacio,</l>
+            <l n="11" xml:id="em0779-es-11">carguemos contra nuestros enemigos, a saco,</l>
+            <l n="12" xml:id="em0779-es-12">¡hagamos con sus cuerpos una carnicería,</l>
+            <l n="13" xml:id="em0779-es-13">que el valle sea inundado con torrentes de sangre!</l>
+            <l n="14" xml:id="em0779-es-14">¿No los veo en el aire, volando en derredor?</l>
+            <l n="15" xml:id="em0779-es-15">Vamos tras ellos ya, que con mi cimitarra</l>
+            <l n="16" xml:id="em0779-es-16">los haré desplomarse quebrados por la tierra.</l>
+            <l n="17" xml:id="em0779-es-17">Mas ¿no diviso tres que me miran con saña?</l>
+            <l n="18" xml:id="em0779-es-18">¡Venid, que con mi lanza, pues me están acechando,</l>
+            <l n="19" part="I" xml:id="em0779-es-19">los traspasaré vivos!</l>
+          </lg>
+        </sp>
+        <sp who="#JON" xml:id="em0779-es-sp-4">
+          <speaker>JONATÁN.</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0779-es-20">Mas, ¿qué queréis decir?</l>
+            <l n="20" xml:id="em0779-es-21">¿Queréis, en vuestra furia, matar a vuestros hijos,</l>
+            <l n="21" xml:id="em0779-es-22">y a vuestro Jonatán? Mirad al insensato,</l>
+            <l n="22" xml:id="em0779-es-23">de súbito, a su tienda, lanzándose corriendo,</l>
+            <l n="23" xml:id="em0779-es-24">y me habría ultrajado en su furor insano</l>
+            <l n="24" xml:id="em0779-es-25">como si ya no fuera el rey Saúl, mi padre.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0779-es-st-2">(Entran Abinadab y Melquisúa)</stage>
+        <sp who="#Abi" xml:id="em0779-es-sp-5">
+          <speaker>ABINADAB</speaker>
+          <lg part="M" type="free">
+            <l n="25" xml:id="em0779-es-26">¡Qué rabia inoportuna le invade en esta hora,</l>
+            <l n="26" xml:id="em0779-es-27">cuando la guerra en torno nos asalta sin tregua!</l>
+            <l n="27" xml:id="em0779-es-28">¡Oh, si tuviese aquí nuestro David su cítara</l>
+            <l n="28" xml:id="em0779-es-29">que ahuyentaba el delirio con sus acordes santos!</l>
+          </lg>
+        </sp>
+        <sp who="#Mel" xml:id="em0779-es-sp-6">
+          <speaker>MELQUISÚA.</speaker>
+          <lg part="M" type="free">
+            <l n="29" xml:id="em0779-es-30">Mas David no está aquí, y dicen que ha partido</l>
+            <l n="30" xml:id="em0779-es-31">a servir como jefe en el campo enemigo.</l>
+          </lg>
+        </sp>
+        <sp who="#JON" xml:id="em0779-es-sp-7">
+          <speaker>JONATÁN.</speaker>
+          <lg part="M" type="free">
+            <l n="31" xml:id="em0779-es-32">No, no: todo el ejército al fin le ha rechazado,</l>
+            <l n="32" xml:id="em0779-es-33">juzgando su confianza y su fe sospechosas.</l>
+            <l n="33" xml:id="em0779-es-34">Y marcha ahora a su villa de Siceleg arrasada,</l>
+            <l n="34" xml:id="em0779-es-35">por mano amalecita, y si busca venganza</l>
+            <l n="35" part="I" xml:id="em0779-es-36">no tardará en venir.</l>
+          </lg>
+        </sp>
+        <sp who="#Abi" xml:id="em0779-es-sp-8">
+          <speaker>ABINADAB</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0779-es-37">Mas, ¿no escucháis, hermanos,</l>
+            <l n="36" xml:id="em0779-es-38">el lamento que tiembla en el eco de los valles,</l>
+            <l n="37" xml:id="em0779-es-39">el relincho tremendo que alzan tantos caballos?</l>
+            <l n="38" xml:id="em0779-es-40">¿No oís el clamor, el ruido y la borrasca</l>
+            <l n="39" xml:id="em0779-es-41">del campo filisteo que contra nos se apresta?</l>
+            <l n="40" xml:id="em0779-es-42">¿Hemos de estar dormidos viendo relucir cerca</l>
+            <l n="41" xml:id="em0779-es-43">el ejército de Aquis, nuestro fiero enemigo?</l>
+          </lg>
+        </sp>
+        <sp who="#Mel" xml:id="em0779-es-sp-9">
+          <speaker>MELQUISÚA</speaker>
+          <lg part="M" type="free">
+            <l n="42" xml:id="em0779-es-44">Ay, ¿qué haremos entonces, si el rey no da gobierno</l>
+            <l n="43" part="I" xml:id="em0779-es-45">ni atiende al bien común?</l>
+          </lg>
+        </sp>
+        <sp who="#JON" xml:id="em0779-es-sp-10">
+          <speaker>JONATÁN</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0779-es-46">Lo tomamos nosotros,</l>
+            <l n="44" xml:id="em0779-es-47">dejando que mi padre divague en su locura,</l>
+            <l n="45" xml:id="em0779-es-48">y hablemos ahora de lo que hay que hablar.</l>
+            <l n="46" xml:id="em0779-es-49">Pensemos en nosotros, seamos diligentes</l>
+            <l n="47" xml:id="em0779-es-50">Pensando en la manera de iniciar la defensa,</l>
+            <l n="48" xml:id="em0779-es-51">siendo como el pastor que vigila sus hatos,</l>
+            <l n="49" xml:id="em0779-es-52">recorriendo los prados y oteando en las cumbres</l>
+            <l n="50" xml:id="em0779-es-53">si del monte desciende el lobo criminal,</l>
+            <l n="51" xml:id="em0779-es-54">o si del bosque surge presto para la presa.</l>
+            <l n="52" xml:id="em0779-es-55">Si tardamos, la afrenta quedará en nuestros rostros:</l>
+            <l n="53" xml:id="em0779-es-56">la ciudad saqueada, deshecha nuestra honra,</l>
+            <l n="54" xml:id="em0779-es-57">las mujeres cautivas, los hijos hechos huérfanos</l>
+            <l n="55" xml:id="em0779-es-58">ante los propios ojos, presa de filisteos.</l>
+          </lg>
+        </sp>
+        <sp who="#Abi" xml:id="em0779-es-sp-11">
+          <speaker>ABINADAB.</speaker>
+          <lg part="M" type="free">
+            <l n="56" xml:id="em0779-es-59">¿Mas quién osará luchar si marchan tan numerosos</l>
+            <l n="57" xml:id="em0779-es-60">y nos aventajan con tropas incontables?</l>
+          </lg>
+        </sp>
+        <sp who="#JON" xml:id="em0779-es-sp-12">
+          <speaker>JONATÁN.</speaker>
+          <lg part="M" type="free">
+            <l n="58" xml:id="em0779-es-61">¿No es Dios quien puede, soplando en un instante,</l>
+            <l n="59" xml:id="em0779-es-62">deshacer mil escuadras como si nada fuesen?</l>
+            <l n="60" xml:id="em0779-es-63">¿Querría consentir que su arca venerable</l>
+            <l n="61" xml:id="em0779-es-64">fuese a honrar de Dagón el templo abominable?</l>
+            <l n="62" xml:id="em0779-es-65">Iremos a la lid con ayuda de Dios,</l>
+            <l n="63" xml:id="em0779-es-66">más firme que la lanza, espada y jabalina.</l>
+            <l n="64" xml:id="em0779-es-67">Aunque fueran cien más, si el Señor nos defiende,</l>
+            <l n="65" xml:id="em0779-es-68">¿qué resistencia pueden sus contrarios alzar?</l>
+            <l n="66" xml:id="em0779-es-69">¿No somos veteranos en capturar naciones?</l>
+            <l n="67" xml:id="em0779-es-70">¿No son testigos de ello filisteos y moabitas,</l>
+            <l n="68" xml:id="em0779-es-71">y Naas el cruel, y la ciudad de Jabés</l>
+            <l n="69" xml:id="em0779-es-72">salvada por nosotros, y Amalec destruido</l>
+            <l n="70" xml:id="em0779-es-73">por el enojo fuerte de Dios omnipotente?</l>
+            <l n="71" xml:id="em0779-es-74">¿Y los reyes de Soba, y la estirpe idumea,</l>
+            <l n="72" xml:id="em0779-es-75">no alabaron con palmas nuestra armada triunfante?</l>
+            <l n="73" xml:id="em0779-es-76">Si ya domamos pueblos, ¿qué ha de espantarnos ora?</l>
+            <l n="74" xml:id="em0779-es-77">¿No está de nuestra parte la justicia en la lucha?</l>
+            <l n="75" xml:id="em0779-es-78">¿Acaso no es razonable defender nuestras vidas?</l>
+            <l n="76" xml:id="em0779-es-79">Además, que la tierra donde está el enemigo</l>
+            <l n="77" xml:id="em0779-es-80">ya nos fue prometida junto con estos bienes.</l>
+            <l n="78" xml:id="em0779-es-81">¿No ocupan los rebeldes nuestra heredad bendita,</l>
+            <l n="79" xml:id="em0779-es-82">los campos que destilan la leche y la miel?</l>
+          </lg>
+        </sp>
+        <sp who="#Abi" xml:id="em0779-es-sp-13">
+          <speaker>ABINADAB.</speaker>
+          <lg part="M" type="free">
+            <l n="80" xml:id="em0779-es-83">Mas vos sabéis, hermano, cuán incierto es el sino</l>
+            <l n="81" xml:id="em0779-es-84">que en toda lid reparte la azarosa fortuna.</l>
+          </lg>
+        </sp>
+        <sp who="#JON" xml:id="em0779-es-sp-14">
+          <speaker>JONATÁN.</speaker>
+          <lg part="M" type="free">
+            <l n="82" xml:id="em0779-es-85">¿Habremos de ceder a infieles obstinados</l>
+            <l n="83" xml:id="em0779-es-86">vencidos tantas veces como han sido rebeldes?</l>
+            <l n="84" xml:id="em0779-es-87">¿No vimos sus cadáveres infestar los caminos</l>
+            <l n="85" xml:id="em0779-es-88">hasta los muros de Ascalón y más allá,</l>
+            <l n="86" xml:id="em0779-es-89">cuando David tumbó en el prado verdeante</l>
+            <l n="87" xml:id="em0779-es-90">al arrogante tronco del gigante insolente?</l>
+            <l n="88" xml:id="em0779-es-91">¿Escapó alguno de sus filas hambrientas</l>
+            <l n="89" xml:id="em0779-es-92">cuando en ayuno ardiente les seguimos sin tregua?</l>
+            <l n="90" xml:id="em0779-es-93">¿Hemos de palidecer al ver su ejército ahora,</l>
+            <l n="91" xml:id="em0779-es-94">si sólo enriquece de gloria nuestra causa?</l>
+            <l n="92" xml:id="em0779-es-95">¿No abatió un solo Sansón a mil filisteos</l>
+            <l n="93" xml:id="em0779-es-96">armado con la quijada de un asno en sus manos?</l>
+            <l n="94" xml:id="em0779-es-97">¿Permitiremos, pues, que en nosotros se marchite</l>
+            <l n="95" xml:id="em0779-es-98">la gloria conquistada desde hace tanto tiempo?</l>
+          </lg>
+        </sp>
+        <sp who="#Mel" xml:id="em0779-es-sp-15">
+          <speaker>MELQUISÚA.</speaker>
+          <lg part="M" type="free">
+            <l n="96" xml:id="em0779-es-99">¿Y queréis, oh Jonatán, sin prudencia alguna,</l>
+            <l n="97" xml:id="em0779-es-100">arriesgar nuestro resto y lanzarnos a la suerte?</l>
+          </lg>
+        </sp>
+        <sp who="#JON" xml:id="em0779-es-sp-16">
+          <speaker>JONATÁN.</speaker>
+          <lg part="M" type="free">
+            <l n="98" xml:id="em0779-es-101">La necesidad urge, y si es forzoso morir,</l>
+            <l n="99" xml:id="em0779-es-102">no es mejor morir ahora valientemente</l>
+            <l n="100" xml:id="em0779-es-103">que envejecer cobardes consumidos de tedio,</l>
+            <l n="101" xml:id="em0779-es-104">enemigos de toda virtud, de vigor y ardor.</l>
+            <l n="102" xml:id="em0779-es-105">Que otros alaben la vejez y su consejo;</l>
+            <l n="103" xml:id="em0779-es-106">no hay más gloria que el fuego que da la juventud,</l>
+            <l n="104" xml:id="em0779-es-107">el oro de la barba antes que cana plata,</l>
+            <l n="105" xml:id="em0779-es-108">aunque se prueben riesgos y azares numerosos,</l>
+            <l n="106" xml:id="em0779-es-109">se consagra así un nombre a la gloria futura.</l>
+            <l n="107" xml:id="em0779-es-110">Corramos a la lucha antes de que el destino</l>
+            <l n="108" xml:id="em0779-es-111">nos condene a unas camas de dolencia senil.</l>
+            <l n="109" xml:id="em0779-es-112">Gastemos la presente vida mortal y rápida,</l>
+            <l n="110" xml:id="em0779-es-113">seguida por la eterna que nos dará reposo.</l>
+            <l n="111" xml:id="em0779-es-114">Antes me mataría que arrastrar lento cuerpo</l>
+            <l n="112" xml:id="em0779-es-115">apoyado en tres pies por corroídos años,</l>
+            <l n="113" xml:id="em0779-es-116">odioso a los hombres, molesto, desabrido,</l>
+            <l n="114" xml:id="em0779-es-117">muerto en vida, sin honra ni duelo recibido,</l>
+            <l n="115" xml:id="em0779-es-118">y al fin despeñado en los Infiernos oscuros</l>
+            <l n="116" xml:id="em0779-es-119">cual rescoldo extinguido y sin brillo de gloria.</l>
+            <l n="117" xml:id="em0779-es-120">Para no envejecer, juventud ofrezcamos</l>
+            <l n="118" xml:id="em0779-es-121">Y dulce primavera, a la inmortalidad,</l>
+            <l n="119" xml:id="em0779-es-122">Con la espada y la lanza, recibiendo mil golpes</l>
+            <l n="120" xml:id="em0779-es-123">A la cara, mejor que uno solo a traición.</l>
+            <l n="121" xml:id="em0779-es-124">¡Vayamos a morir para el vivir eterno:</l>
+            <l n="122" xml:id="em0779-es-125">mejor mil muertes nobles que huir en deshonra!</l>
+            <l n="123" xml:id="em0779-es-126">¡Antes morder el campo bañado en nuestra sangre,</l>
+            <l n="124" xml:id="em0779-es-127">Que recular un paso nuestra primera línea!</l>
+          </lg>
+        </sp>
+        <sp who="#Mel" xml:id="em0779-es-sp-17">
+          <speaker>MELQUISÚA.</speaker>
+          <lg part="M" type="free">
+            <l n="125" xml:id="em0779-es-128">Sí, hermanos, marchemos: que una victoria noble</l>
+            <l n="126" xml:id="em0779-es-129">perpetúe la fama de nuestro honrado nombre,</l>
+            <l n="127" xml:id="em0779-es-130">o recibamos muerte gloriosa como premio,</l>
+            <l n="128" xml:id="em0779-es-131">cuyo lauro celeste no borrarán mil años.</l>
+            <l n="129" xml:id="em0779-es-132">Y aun si nuestra sangre se esparce por la tierra,</l>
+            <l n="130" xml:id="em0779-es-133">vendrá el pueblo doliente a llorar nuestras frentes,</l>
+            <l n="131" xml:id="em0779-es-134">y sobre nuestros cuerpos verterá flores santas.</l>
+            <l n="132" xml:id="em0779-es-135">Vamos ya, que es sagrado ceñir la lanza al hombro</l>
+            <l n="133" xml:id="em0779-es-136">por la salud gloriosa de la patria nativa.</l>
+            <l n="134" xml:id="em0779-es-137">¡Tengamos este día la victoria o la muerte!</l>
+          </lg>
+        </sp>
+        <sp who="#JON" xml:id="em0779-es-sp-18">
+          <speaker>JONATÁN.</speaker>
+          <lg part="M" type="free">
+            <l n="135" xml:id="em0779-es-138">¿No estamos unidos de común acuerdo?</l>
+          </lg>
+        </sp>
+        <sp who="#Abi" xml:id="em0779-es-sp-19">
+          <speaker>ABINADAB.</speaker>
+          <lg part="M" type="free">
+            <l n="136" xml:id="em0779-es-139">¿Qué aguardamos, hermanos? ¿Querríamos acaso</l>
+            <l n="137" xml:id="em0779-es-140">que el fiero rey Aquis viniera a sorprendernos?</l>
+            <l n="138" xml:id="em0779-es-141">Antes con un asalto mostremos al soberbio</l>
+            <l n="139" xml:id="em0779-es-142">que en vano se abalanza contra sus vencedores.</l>
+          </lg>
+        </sp>
+        <sp who="#Mel" xml:id="em0779-es-sp-20">
+          <speaker>MELQUISÚA.</speaker>
+          <lg part="M" type="free">
+            <l n="140" xml:id="em0779-es-143">Recorramos el campamento sin demora,</l>
+            <l n="141" xml:id="em0779-es-144">vayamos fila a fila y con buenas palabras</l>
+            <l n="142" xml:id="em0779-es-145">Que mantengan el orden, para que los soldados</l>
+            <l n="143" xml:id="em0779-es-146">Y todas nuestras gentes se apresten al combate,</l>
+            <l n="144" xml:id="em0779-es-147">dividamos en partes la armada poderosa,</l>
+            <l n="145" xml:id="em0779-es-148">y a lances de batalla probemos la fortuna.</l>
+          </lg>
+        </sp>
+        <sp who="#Abi" xml:id="em0779-es-sp-21">
+          <speaker>ABINADAB.</speaker>
+          <lg part="M" type="free">
+            <l n="146" xml:id="em0779-es-149">Yo tomaré los primeros rangos de la contienda.</l>
+            <l n="147" xml:id="em0779-es-150">Mas siento que mis pies se aferran a la tierra.</l>
+          </lg>
+        </sp>
+        <sp who="#JON" xml:id="em0779-es-sp-22">
+          <speaker>JONATÁN.</speaker>
+          <lg part="M" type="free">
+            <l n="148" xml:id="em0779-es-151">Y mi ardor ya me arrastra, quisiera yo lanzarme,</l>
+            <l n="149" xml:id="em0779-es-152">mas, el pie se me traba y casi me derrumba.</l>
+          </lg>
+        </sp>
+        <sp who="#Mel" xml:id="em0779-es-sp-23">
+          <speaker>MELQUISÚA.</speaker>
+          <lg part="M" type="free">
+            <l n="150" xml:id="em0779-es-153">¿No veo en lo alto un rayo de siniestra centella?</l>
+          </lg>
+        </sp>
+        <sp who="#JON" xml:id="em0779-es-sp-24">
+          <speaker>JONATÁN.</speaker>
+          <lg part="M" type="free">
+            <l n="151" xml:id="em0779-es-154">No dejemos de ir: acaso un mal presagio</l>
+            <l n="152" xml:id="em0779-es-155">Podría debilitar nuestra alma embravecida?</l>
+            <l n="153" xml:id="em0779-es-156">Ea, marchemos todos. ¡Y vos, sagrado Coro,</l>
+            <l n="154" xml:id="em0779-es-157">rogad ahora a Dios que Israel sea vencedor!</l>
+          </lg>
+        </sp>
+        <sp who="#COR" xml:id="em0779-es-sp-25">
+          <speaker>CORO DE SACERDOTES LEVITAS</speaker>
+          <lg part="F" type="free">
+            <l n="155" xml:id="em0779-es-158">Ya que por todos oramos,</l>
+            <l n="156" xml:id="em0779-es-159">exentos, libres estamos</l>
+            <l n="157" xml:id="em0779-es-160">De seguiros a la guerra</l>
+            <l n="158" xml:id="em0779-es-161">nosotros, padres levitas.</l>
+            <l n="159" xml:id="em0779-es-162">Id pues, príncipes dichosos,</l>
+            <l n="160" xml:id="em0779-es-163">salid valientes y heroicos,</l>
+            <l n="161" xml:id="em0779-es-164">y por vuestro brazo marcial</l>
+            <l n="162" xml:id="em0779-es-165">alejad a los filisteos</l>
+            <l n="163" xml:id="em0779-es-166">fuera de nuestras fronteras.</l>
+            <l n="164" xml:id="em0779-es-167">Mostrad el ejemplo al ejército,</l>
+            <l n="165" xml:id="em0779-es-168">tocad primero las alarmas,</l>
+            <l n="166" xml:id="em0779-es-169">pues desde la cuna os llaman</l>
+            <l n="167" xml:id="em0779-es-170">valor, sangre y corazón</l>
+            <l n="168" xml:id="em0779-es-171">a salvar al pueblo israelita.</l>
+            <l n="169" xml:id="em0779-es-172">Mostrad que vuestro nacimiento</l>
+            <l n="170" xml:id="em0779-es-173">Corresponde al del gran Rey</l>
+            <l n="171" xml:id="em0779-es-174">Que sujetó con su ley</l>
+            <l n="172" xml:id="em0779-es-175">El primero, a Judea.</l>
+            <l n="173" xml:id="em0779-es-176">Tú, Jonatán sin igual,</l>
+            <l n="174" xml:id="em0779-es-177">el más gentil, dulce y bello,</l>
+            <l n="175" xml:id="em0779-es-178">Que verá el Sol en el mundo,</l>
+            <l n="176" xml:id="em0779-es-179">en quien Dios derrama bienes</l>
+            <l n="177" xml:id="em0779-es-180">que reserva a sus escogidos:</l>
+            <l n="178" xml:id="em0779-es-181">tú serás, noble príncipe,</l>
+            <l n="179" xml:id="em0779-es-182">valiente en la batalla,</l>
+            <l n="180" xml:id="em0779-es-183">Nuestro escudo y echarás</l>
+            <l n="181" xml:id="em0779-es-184">con tu dura cimitarra,</l>
+            <l n="182" xml:id="em0779-es-185">al impío de esta tierra.</l>
+            <l n="183" xml:id="em0779-es-186">Como otra vez triunfaste</l>
+            <l n="184" xml:id="em0779-es-187">cubriendo el llano de sangre,</l>
+            <l n="185" xml:id="em0779-es-188">y de cuerpos enemigos.</l>
+            <l n="186" xml:id="em0779-es-189">¡Qué bienaventuranza</l>
+            <l n="187" xml:id="em0779-es-190">si viésemos repetida</l>
+            <l n="188" xml:id="em0779-es-191">victoria semejante!</l>
+            <l n="189" xml:id="em0779-es-192">¿No volverás algún día</l>
+            <l n="190" xml:id="em0779-es-193">sobre carro reluciente,</l>
+            <l n="191" xml:id="em0779-es-194">coronado en las ciudades,</l>
+            <l n="192" xml:id="em0779-es-195">siendo Israel enriquecido</l>
+            <l n="193" xml:id="em0779-es-196">con los despojos del rebelde?</l>
+            <l n="194" xml:id="em0779-es-197">Todos esperan besarte</l>
+            <l n="195" xml:id="em0779-es-198">la diestra poderosa,</l>
+            <l n="196" xml:id="em0779-es-199">que habrá destrozado multitudes</l>
+            <l n="197" xml:id="em0779-es-200">de pueblos incircuncisos.</l>
+            <l n="198" xml:id="em0779-es-201">Y entonces un nuevo salmo</l>
+            <l n="199" xml:id="em0779-es-202">Dará las gracias a Dios</l>
+            <l n="200" xml:id="em0779-es-203">por tu palma gloriosa.</l>
+            <l n="201" xml:id="em0779-es-204">¡Oh, que pronto pudieras,</l>
+            <l n="202" xml:id="em0779-es-205">llevando en noble frente</l>
+            <l n="203" xml:id="em0779-es-206">la corona de tu padre,</l>
+            <l n="204" xml:id="em0779-es-207">regir al pueblo fiel!</l>
+            <l n="205" xml:id="em0779-es-208">Mas, sea lo que deba ser,</l>
+            <l n="206" xml:id="em0779-es-209">oh Dios, y hágase tu voluntad.</l>
+          </lg>
+        </sp>
+      </div1>
+      <div1 n="2" type="act">
+        <head>Acto segundo</head>
+        <sp who="#ESC1" xml:id="em0779-es-sp-26">
+          <speaker>El Primer Escudero de Saúl</speaker>
+          <lg part="M" type="free">
+<l n="207" xml:id="em0779-es-210"><stage xml:id="em0779-es-st-3">solo.</stage> ¡Oh Dios mío! ¡Qué furor y qué gran frenesí</l>
+            <l n="208" xml:id="em0779-es-211">se han cebado hace poco en el ánimo del Rey!</l>
+            <l n="209" xml:id="em0779-es-212">¡Qué lástima tan grave ver a un rey allí dentro,</l>
+            <l n="210" xml:id="em0779-es-213">sangriento y furioso, rugiendo fuera de sí,</l>
+            <l n="211" xml:id="em0779-es-214">masacrando a su paso a todo hombre viviente!</l>
+            <l n="212" xml:id="em0779-es-215">A unos descuartiza, a otros los abate,</l>
+            <l n="213" xml:id="em0779-es-216">y hay muchos que escapan del horror de su brazo.</l>
+            <l n="214" xml:id="em0779-es-217">Mas yo le dejé allí, recubierto de sangre,</l>
+            <l n="215" xml:id="em0779-es-218">caído en su pabellón, rendido al fin del ímpetu,</l>
+            <l n="216" xml:id="em0779-es-219">donde el cansancio puso a su furor reposo.</l>
+            <l n="217" xml:id="em0779-es-220">Y duerme a pierna suelta: yo escucho su ronquido,</l>
+            <l n="218" xml:id="em0779-es-221">y aun en los sueños siento rugir su locura.</l>
+            <l n="219" xml:id="em0779-es-222">Ora levanta el brazo, ora los pies sacude,</l>
+            <l n="220" xml:id="em0779-es-223">ora suspira en medio de su sueño, iracundo.</l>
+            <l n="221" xml:id="em0779-es-224">No hay sosiego en su mente presa del torbellino:</l>
+            <l n="222" xml:id="em0779-es-225">gira sobre un costado, cayendo al otro presto,</l>
+            <l n="223" xml:id="em0779-es-226">mientras sueño amargo digiere su veneno.</l>
+            <l n="224" xml:id="em0779-es-227">Mas como el mar bravío al que azotan los vientos</l>
+            <l n="225" xml:id="em0779-es-228">en fuerte tempestad, aunque cese la ráfaga,</l>
+            <l n="226" xml:id="em0779-es-229">Sus aguas no aparecen calmadas prontamente;</l>
+            <l n="227" xml:id="em0779-es-230">así está su espíritu, trastornado y revuelto,</l>
+            <l n="228" xml:id="em0779-es-231">no alcanza a sosegarse ni apagarse en la calma.</l>
+            <l n="229" xml:id="em0779-es-232">Pues estando tendido, yaciendo como bestia</l>
+            <l n="230" xml:id="em0779-es-233">Se levanta de golpe, moviendo la cabeza</l>
+            <l n="231" xml:id="em0779-es-234">Miradlo levantado, mirad cómo fulgura</l>
+            <l n="232" xml:id="em0779-es-235">la rabia que aún arde en sus ojos furiosos.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0779-es-st-4">Saúl y el Escudero.</stage>
+        <sp who="#Saúl" xml:id="em0779-es-sp-27">
+          <speaker>SAÚL.</speaker>
+          <lg part="M" type="free">
+            <l n="233" xml:id="em0779-es-236">Emerge ya la aurora, tiñe el cielo de púrpura.</l>
+            <l n="234" xml:id="em0779-es-237">Ea, traed mi arco, que quiero dispararlo</l>
+            <l n="235" xml:id="em0779-es-238">contra monstruos cornudos que desnudos combaten</l>
+            <l n="236" xml:id="em0779-es-239">en las mismas alturas de esas nubes errantes.</l>
+          </lg>
+        </sp>
+        <sp who="#ESC1" xml:id="em0779-es-sp-28">
+          <speaker>EL ESCUDERO.</speaker>
+          <lg part="M" type="free">
+            <l n="237" xml:id="em0779-es-240">¡Qué delirios confusos dominan su cerebro!</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-29">
+          <speaker>SAÚL.</speaker>
+          <lg part="M" type="free">
+            <l n="238" xml:id="em0779-es-241">Quiero subir al cielo. ¡Presto, uncid mis caballos!</l>
+            <l n="239" xml:id="em0779-es-242">Haré como los Gigantes: amontonando montes,</l>
+            <l n="240" xml:id="em0779-es-243">derribaré corriendo a ángeles y demonios,</l>
+            <l n="241" xml:id="em0779-es-244">y seré rey del cielo, ya que he puesto en fuga</l>
+            <l n="242" xml:id="em0779-es-245">a mis grandes contrarios, simiente exterminada.</l>
+          </lg>
+        </sp>
+        <sp who="#ESC1" xml:id="em0779-es-sp-30">
+          <speaker>EL ESCUDERO.</speaker>
+          <lg part="M" type="free">
+            <l n="243" xml:id="em0779-es-246">¿A qué señala, ay Dios? ¿Qué locura le prende?</l>
+            <l n="244" xml:id="em0779-es-247">Le veo tembloroso, abatido y sin dueño.</l>
+            <l n="245" xml:id="em0779-es-248">¡Qué rostro inflamado! ¡Señor, apiádate,</l>
+            <l n="246" xml:id="em0779-es-249">y que con su descanso se vaya su locura!</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-31">
+          <speaker>SAÚL</speaker>
+          <lg part="M" type="free">
+<l n="247" xml:id="em0779-es-250"><stage xml:id="em0779-es-st-5">(volviendo en sí).</stage> ¿Qué monte es este, dí? ¿Contemplo yo la aurora</l>
+            <l n="248" xml:id="em0779-es-251">o acaso ya declina el curso del gran sol?</l>
+            <l n="249" xml:id="em0779-es-252">¿Eres tú mi escudero? ¿Es la tropa levítica?</l>
+            <l n="250" xml:id="em0779-es-253">¿Qué hice yo para que todos de mí huyeran?</l>
+            <l n="251" xml:id="em0779-es-254">¿Quién ha tiznado mi cuerpo con tanta atención?</l>
+            <l n="252" xml:id="em0779-es-255">¿Y estos pabellones? ¿En qué tierra me encuentro?</l>
+            <l n="253" xml:id="em0779-es-256">Dímelo pronto tú, mi fiel escudero.</l>
+          </lg>
+        </sp>
+        <sp who="#ESC1" xml:id="em0779-es-sp-32">
+          <speaker>EL ESCUDERO.</speaker>
+          <lg part="M" type="free">
+            <l n="254" xml:id="em0779-es-257">¿Ya no guardáis memoria, mi señor soberano,</l>
+            <l n="255" xml:id="em0779-es-258">que se llama Gelboé el monte en que acampasteis</l>
+            <l n="256" xml:id="em0779-es-259">para salir al paso de Aquis y su hueste,</l>
+            <l n="257" xml:id="em0779-es-260">erigida tan cerca con fuerzas filisteas</l>
+            <l n="258" xml:id="em0779-es-261">para abatir de todo a nuestro pueblo armado?</l>
+            <l n="259" xml:id="em0779-es-262">Y ya vuestros tres hijos y numerosas tropas</l>
+            <l n="260" xml:id="em0779-es-263">os adelantan ahora para abrir la batalla.</l>
+            <l n="261" xml:id="em0779-es-264">Es menester pensar si se acude al combate</l>
+            <l n="262" xml:id="em0779-es-265">o si espera Israel ruina y muerte segura.</l>
+            <l n="263" xml:id="em0779-es-266">Recobrad vuestra fuerza y vuestro seso entero,</l>
+            <l n="264" xml:id="em0779-es-267">para no caer presa de los incircuncisos.</l>
+            <l n="265" xml:id="em0779-es-268">Mas os quedáis callado, ahora palidecéis…</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-33">
+          <speaker>SAÚL.</speaker>
+          <lg part="M" type="free">
+            <l n="266" xml:id="em0779-es-269">¡Ah! Siento dentro de mí, en lo más profundo,</l>
+            <l n="267" xml:id="em0779-es-270">remontar el recuerdo de mis flamantes males</l>
+            <l n="268" xml:id="em0779-es-271">Que aviva la tristeza en que me veo abocado.</l>
+            <l n="269" xml:id="em0779-es-272">Los pensamientos queman la entraña de mi pecho,</l>
+            <l n="270" xml:id="em0779-es-273">me hunden en un océano de dolor insondable.</l>
+            <l n="271" xml:id="em0779-es-274">Sólo en mi sueño, arrastrado en furor delirante,</l>
+            <l n="272" xml:id="em0779-es-275">lograba un breve engaño que velaba mi pena.</l>
+            <l n="273" xml:id="em0779-es-276">Pero ahora ¿qué haré, si Dios me desampara,</l>
+            <l n="274" xml:id="em0779-es-277">me expulsa y me destierra de su gracia primera?</l>
+            <l n="275" xml:id="em0779-es-278">¿Siempre habrá tempestades moviendo mar bravía?</l>
+            <l n="276" xml:id="em0779-es-279">¿Siempre reinará el frío? ¿Siempre lloverá el aire?</l>
+            <l n="277" xml:id="em0779-es-280">¿No todo tiene fin? ¿Y tú, ira divina,</l>
+            <l n="278" xml:id="em0779-es-281">jamás cesarás de pesar sobre mí sin medida?</l>
+            <l n="279" xml:id="em0779-es-282">Aborrecido soy de los hombres y de ti,</l>
+            <l n="280" xml:id="em0779-es-283">padezco mil cuidados y nadie de mí cuida.</l>
+            <l n="281" xml:id="em0779-es-284">Mas dime tú la causa, razón de tanto odio,</l>
+            <l n="282" xml:id="em0779-es-285">¿por qué me dejas solo en tormento tan grande?</l>
+            <l n="283" xml:id="em0779-es-286">¡Ay Dios! ¿Qué he cometido, qué crimen merecí</l>
+            <l n="284" xml:id="em0779-es-287">para que eternamente tu enojo me persiga?</l>
+          </lg>
+        </sp>
+        <sp who="#ESC1" xml:id="em0779-es-sp-34">
+          <speaker>EL ESCUDERO.</speaker>
+          <lg part="M" type="free">
+            <l n="285" xml:id="em0779-es-288">¿No recordáis ya, oh Sire, que el gran Dios soberano</l>
+            <l n="286" xml:id="em0779-es-289">mandó por su profeta que asolaseis Amalec,</l>
+            <l n="287" xml:id="em0779-es-290">que os cerró los caminos a la vuelta de Egipto,</l>
+            <l n="288" xml:id="em0779-es-291">y que os ordenó arrasarlo sin dejar alma viva?</l>
+            <l n="289" xml:id="em0779-es-292">Mas cuando destruisteis su ciudad destinada,</l>
+            <l n="290" xml:id="em0779-es-293">conservasteis el ganado más hermoso y lozano,</l>
+            <l n="291" xml:id="em0779-es-294">cuando Dios por Samuel os había prevenido</l>
+            <l n="292" xml:id="em0779-es-295">que nada se guardase, que todo sucumbiera.</l>
+            <l n="293" xml:id="em0779-es-296">Perdonasteis la vida del miserable Agag,</l>
+            <l n="294" xml:id="em0779-es-297">antes que ensuciar con sangre vuestras manos.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-35">
+          <speaker>SAÚL.</speaker>
+          <lg part="M" type="free">
+            <l n="295" xml:id="em0779-es-298">¡Oh, insondable queda tu providencia augusta!</l>
+            <l n="296" xml:id="em0779-es-299">Por ser humano sufro el encono divino,</l>
+            <l n="297" xml:id="em0779-es-300">y si cruel me mostrase, quizá fuere benigno.</l>
+            <l n="298" xml:id="em0779-es-301">¡Desdichado de mí! ¿Ha de ser vencedor</l>
+            <l n="299" xml:id="em0779-es-302">quien use su rigor, olvide la piedad,</l>
+            <l n="300" xml:id="em0779-es-303">Degüelle a tantas gentes y no sea consciente</l>
+            <l n="301" xml:id="em0779-es-304">De que fortuna tal común les será a todos?</l>
+            <l n="302" xml:id="em0779-es-305">¿No vale mucho más salvar el propio honor</l>
+            <l n="303" xml:id="em0779-es-306">que ostentar solo fuerza en crudeza sangrienta?</l>
+          </lg>
+        </sp>
+        <sp who="#ESC1" xml:id="em0779-es-sp-36">
+          <speaker>EL ESCUDERO.</speaker>
+          <lg part="M" type="free">
+            <l n="304" xml:id="em0779-es-307">Guardad vuestras palabras, no os despeñéis, oh Rey,</l>
+            <l n="305" xml:id="em0779-es-308">blasfemando del alto destino del Señor.</l>
+            <l n="306" xml:id="em0779-es-309">No provoquéis su cólera con imprudencia vana,</l>
+            <l n="307" xml:id="em0779-es-310">reconoced humilde su justicia divina.</l>
+            <l n="308" xml:id="em0779-es-311">¿Es que no os acordáis del campo en que nacisteis,</l>
+            <l n="309" xml:id="em0779-es-312">simple hijo de Cis, un campesino pobre,</l>
+            <l n="310" xml:id="em0779-es-313">linaje de Benjamín, el menor de Israel,</l>
+            <l n="311" xml:id="em0779-es-314">la estirpe más postrera y abatida del pueblo?</l>
+            <l n="312" xml:id="em0779-es-315">Pensad pues en el tiempo en el que un rebaño</l>
+            <l n="313" xml:id="em0779-es-316">Se perdió por los campos y en que él os mandó</l>
+            <l n="314" xml:id="em0779-es-317">partir hasta encontrarlo. Pensad cuánto errasteis</l>
+            <l n="315" xml:id="em0779-es-318">por montes y por bosques, sin poder encontrar</l>
+            <l n="316" xml:id="em0779-es-319">al rebaño perdido y al final ocurrió</l>
+            <l n="317" xml:id="em0779-es-320">la aventura fatal que os llevó a alcanzar</l>
+            <l n="318" xml:id="em0779-es-321">la dignidad real: puesto que el gran Samuel,</l>
+            <l n="319" xml:id="em0779-es-322">profeta de alta fama y caudillo de Israel,</l>
+            <l n="320" xml:id="em0779-es-323">a quien ordenó el cielo espiarte en las sendas</l>
+            <l n="321" xml:id="em0779-es-324">para daros noticia de las bestias perdidas,</l>
+            <l n="322" xml:id="em0779-es-325">os ungió rey primero sobre la grey hebrea,</l>
+            <l n="323" xml:id="em0779-es-326">el primero y más grande que ella jamás tuviera.</l>
+            <l n="324" xml:id="em0779-es-327">Pensad en las victorias que el Altísimo os diera</l>
+            <l n="325" xml:id="em0779-es-328">en todos los lugares do llevasteis la guerra.</l>
+            <l n="326" xml:id="em0779-es-329">Pensad primeramente que desde el primer año</l>
+            <l n="327" xml:id="em0779-es-330">Entró en vuestro país un terrible tirano,</l>
+            <l n="328" xml:id="em0779-es-331">Éste fue el cruel Naas, rey de los amonitas,</l>
+            <l n="329" xml:id="em0779-es-332">Que saqueaba con soberbia las villas israelitas.</l>
+            <l n="330" xml:id="em0779-es-333">Era tan fiero y cruel que el ojo diestro vaciaba</l>
+            <l n="331" xml:id="em0779-es-334">A todo aquel hebreo que ante él se presentara.</l>
+            <l n="332" xml:id="em0779-es-335">Sin el diestro no podían servir más para la guerra.</l>
+            <l n="333" xml:id="em0779-es-336">Pensad que vino a asediar la ciudad de Jabés-Galaad</l>
+            <l n="334" xml:id="em0779-es-337">Y que amenazó a sus gentes con rendirse siervas</l>
+            <l n="335" xml:id="em0779-es-338">Y perder un ojo o esperar saqueo y muerte dolorosa.</l>
+            <l n="336" xml:id="em0779-es-339">Y así atemorizados os pidieron socorro</l>
+            <l n="337" xml:id="em0779-es-340">Y siete días de tregua gracias a vos tuvieron.</l>
+            <l n="338" xml:id="em0779-es-341">Y fuisteis vos, Saúl, quien, por Dios inspirado,</l>
+            <l n="339" xml:id="em0779-es-342">levantó una armada y libertó la plaza,</l>
+            <l n="340" xml:id="em0779-es-343">Del asedio, saqueo y de la gran crueldad.</l>
+            <l n="341" xml:id="em0779-es-344">Sorprendisteis a Naas, arrasando sus huestes,</l>
+            <l n="342" xml:id="em0779-es-345">ganando vuestro nombre gloria por estas tierras.</l>
+            <l n="343" xml:id="em0779-es-346">Pensad entonces cómo los mismos filisteos</l>
+            <l n="344" xml:id="em0779-es-347">Contra vos armaron una extrema potencia</l>
+            <l n="345" xml:id="em0779-es-348">Cuyo número iguala las arenas del mar,</l>
+            <l n="346" xml:id="em0779-es-349">Y que con gran malicia, nos dejaron sin armas</l>
+            <l n="347" xml:id="em0779-es-350">Y hasta sin armadores, para que no pudiéramos</l>
+            <l n="348" xml:id="em0779-es-351">Ofrecer resistencia, sin espadas ni lanzas.</l>
+            <l n="349" xml:id="em0779-es-352">Pensad que aquella vez, con sola compañía</l>
+            <l n="350" xml:id="em0779-es-353">De un campo desarmado y un pueblo asustado,</l>
+            <l n="351" xml:id="em0779-es-354">fue Jonatán vuestro hijo, con solo su coraje,</l>
+            <l n="352" xml:id="em0779-es-355">quien logró liberaros de aquel peligro enorme.</l>
+            <l n="353" xml:id="em0779-es-356">Con un solo escudero, enfrentó al enemigo,</l>
+            <l n="354" xml:id="em0779-es-357">Mató a veinte enemigos que dormían indefensos,</l>
+            <l n="355" xml:id="em0779-es-358">y del pánico huyeron y cayeron en matanza,</l>
+            <l n="356" xml:id="em0779-es-359">pues les perseguisteis, aumentando el desorden</l>
+            <l n="357" xml:id="em0779-es-360">Y con sus propias armas, carroña les hicisteis.</l>
+            <l n="358" xml:id="em0779-es-361">Mas, en vez de premiar el valor de Jonatán</l>
+            <l n="359" xml:id="em0779-es-362">Casi le disteis muerte por probar de esa miel,</l>
+            <l n="360" xml:id="em0779-es-363">Que un vuestro edicto ordena, tomar sólo en la noche.</l>
+            <l n="361" xml:id="em0779-es-364">En fin, pensad también en las demás victorias</l>
+            <l n="362" xml:id="em0779-es-365">que Dios os permitió y que son muy notorias.</l>
+            <l n="363" xml:id="em0779-es-366">Dad gracias al Señor por tan grandes honores,</l>
+            <l n="364" xml:id="em0779-es-367">y no lo injuriéis por tan poquita cosa,</l>
+            <l n="365" xml:id="em0779-es-368">pues Él con su bondad os concedió la gracias</l>
+            <l n="366" xml:id="em0779-es-369">de cetros que otros logran con guerras y con fuego.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-37">
+          <speaker>SAÚL.</speaker>
+          <lg part="M" type="free">
+            <l n="367" xml:id="em0779-es-370">Bien sé que nadie apela contra el alto dictamen</l>
+            <l n="368" xml:id="em0779-es-371">del tribunal eterno, irrevocable al hombre.</l>
+            <l n="369" xml:id="em0779-es-372">Mas hoy la Palestina se levanta encendida</l>
+            <l n="370" xml:id="em0779-es-373">para cumplir sentencia de mi total ruina.</l>
+            <l n="371" xml:id="em0779-es-374">Pues saciaré su enojo y dispuesto me hallo</l>
+            <l n="372" xml:id="em0779-es-375">a morir ahora mismo, pues mi muerte le place.</l>
+          </lg>
+        </sp>
+        <sp who="#ESC1" xml:id="em0779-es-sp-38">
+          <speaker>EL ESCUDERO.</speaker>
+          <lg part="M" type="free">
+            <l n="373" xml:id="em0779-es-376">No os desesperéis, mas, con fe y esperanza,</l>
+            <l n="374" xml:id="em0779-es-377">soportad vuestros males aguardando su gracia.</l>
+            <l n="375" xml:id="em0779-es-378">Pensad cómo es injusto el odio que sentís</l>
+            <l n="376" xml:id="em0779-es-379">contra el joven David, por haber dado muerte</l>
+            <l n="377" xml:id="em0779-es-380">al profeta Ajimelec y a todo su linaje,</l>
+            <l n="378" xml:id="em0779-es-381">solo porque David se refugió en su casa.</l>
+            <l n="379" xml:id="em0779-es-382">Y también sentís pena, por el afecto fiel</l>
+            <l n="380" part="I" xml:id="em0779-es-383">De David y Jonatán.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-39">
+          <speaker>SAÚL.</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0779-es-384">¿No debería mi hijo</l>
+            <l n="381" xml:id="em0779-es-385">odiar al que sospecho que habrá de arrebatarle</l>
+            <l n="382" xml:id="em0779-es-386">un día la corona, con toda la razón?</l>
+          </lg>
+        </sp>
+        <sp who="#ESC1" xml:id="em0779-es-sp-40">
+          <speaker>EL ESCUDERO.</speaker>
+          <lg part="M" type="free">
+            <l n="383" xml:id="em0779-es-387">No encubramos los yerros que habéis cometido,</l>
+            <l n="384" xml:id="em0779-es-388">rogad que Dios por bondad, los pecados perdone</l>
+            <l n="385" xml:id="em0779-es-389">invocadle contrito, pues cuando el hombre ruega</l>
+            <l n="386" xml:id="em0779-es-390">halla el Señor benigno, mas, si se le provoca</l>
+            <l n="387" xml:id="em0779-es-391">Siendo presuntuoso para justificarse,</l>
+            <l n="388" xml:id="em0779-es-392">sólo aguza la pena y castigo venidero.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-41">
+          <speaker>SAÚL.</speaker>
+          <lg part="M" type="free">
+            <l n="389" xml:id="em0779-es-393">¡Ah, no me hables más! Locura sería esperar</l>
+            <l n="390" xml:id="em0779-es-394">que el Señor me defienda, que se digne a ayudar</l>
+            <l n="391" xml:id="em0779-es-395">Viendo que hoy me aborrece; pues si aún me estimara</l>
+            <l n="392" xml:id="em0779-es-396">como antes lo hacía, me habría revelado</l>
+            <l n="393" xml:id="em0779-es-397">el camino a seguir: pero ni por los sabios</l>
+            <l n="394" xml:id="em0779-es-398">mensajes de los ángeles, ni por los avisos</l>
+            <l n="395" xml:id="em0779-es-399">de sueños o visiones que la noche me muestra,</l>
+            <l n="396" xml:id="em0779-es-400">respuesta no me ha dado, ni tampoco consejo.</l>
+            <l n="397" xml:id="em0779-es-401">¡oh Samuel, oh Samuel verdadero profeta,</l>
+            <l n="398" xml:id="em0779-es-402">ya no estás en vida, cuánto anhelo tu voz,</l>
+            <l n="399" xml:id="em0779-es-403">pues bien tú me dirías lo que ahora debo hacer!</l>
+            <l n="400" xml:id="em0779-es-404">Pero tú, Señor, responde desde el cielo:</l>
+            <l n="401" xml:id="em0779-es-405">¿Debo ir contra Aquís? ¿Tomar las armas ya?</l>
+            <l n="402" xml:id="em0779-es-406">¿Lo venceré o no? ¿Debo rendirme ahora?</l>
+            <l n="403" xml:id="em0779-es-407">Por favor, que tu voz me diga qué hacer.</l>
+            <l n="404" xml:id="em0779-es-408">Mas, como tu silencio no muestra una respuesta,</l>
+            <l n="405" xml:id="em0779-es-409">sólo puedo esperar la victoria segura</l>
+            <l n="406" xml:id="em0779-es-410">de tantos enemigos, y mi propia vergüenza.</l>
+            <l n="407" xml:id="em0779-es-411">Me pierdo en el temor de verles poderosos</l>
+            <l n="408" xml:id="em0779-es-412">y no poder evitar el mal de cien mil muertes.</l>
+            <l n="409" xml:id="em0779-es-413">¡Ay!, desde que tomé esta real corona,</l>
+            <l n="410" xml:id="em0779-es-414">cuarenta vueltas dio el sol sobre mi pena,</l>
+            <l n="411" xml:id="em0779-es-415">¿y debo desde ahora hundirme en los cuidados</l>
+            <l n="412" xml:id="em0779-es-416">de una horrorosa guerra, en la edad en que más</l>
+            <l n="413" part="I" xml:id="em0779-es-417">la paz mi alma espera?</l>
+          </lg>
+        </sp>
+        <sp who="#ESC1" xml:id="em0779-es-sp-42">
+          <speaker>EL ESCUDERO.</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0779-es-418">Dejad esas palabras,</l>
+            <l n="414" xml:id="em0779-es-419">Que abatirán el ánimo del ejército nuestro.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-43">
+          <speaker>SAÚL.</speaker>
+          <lg part="M" type="free">
+            <l n="415" xml:id="em0779-es-420">Confuso estoy de horror, de terror y de dudas,</l>
+            <l n="416" xml:id="em0779-es-421">ningún consejo firme arraiga en mi cabeza.</l>
+            <l n="417" xml:id="em0779-es-422">Por eso quiero indagar con afán diligente</l>
+            <l n="418" xml:id="em0779-es-423">el desenlace oculto de esta guerra fatal,</l>
+            <l n="419" xml:id="em0779-es-424">para intentar salvarnos, o por acuerdo honrado,</l>
+            <l n="420" xml:id="em0779-es-425">o por muerte violenta, o por un gran esfuerzo.</l>
+          </lg>
+        </sp>
+        <sp who="#ESC1" xml:id="em0779-es-sp-44">
+          <speaker>EL ESCUDERO</speaker>
+          <lg part="M" type="free">
+            <l n="421" xml:id="em0779-es-426">¿Queréis entonces saber los que os depara el futuro?</l>
+            <l n="422" xml:id="em0779-es-427">Mas gran yerro es saber lo que os trae el porvenir.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-45">
+          <speaker>SAÚL</speaker>
+          <lg part="M" type="free">
+            <l n="423" xml:id="em0779-es-428">Sabiéndolo, se puede obrar con seso firme.</l>
+          </lg>
+        </sp>
+        <sp who="#ESC1" xml:id="em0779-es-sp-46">
+          <speaker>EL ESCUDERO.</speaker>
+          <lg part="M" type="free">
+            <l n="424" xml:id="em0779-es-429">¿Pensáis mudar destino sólo por conocerlo?</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-47">
+          <speaker>SAÚL.</speaker>
+          <lg part="M" type="free">
+            <l n="425" xml:id="em0779-es-430">El sabio huye a tiempo del golpe que se anuncia.</l>
+          </lg>
+        </sp>
+        <sp who="#ESC1" xml:id="em0779-es-sp-48">
+          <speaker>EL ESCUDERO.</speaker>
+          <lg part="M" type="free">
+            <l n="426" xml:id="em0779-es-431">Nadie huye jamás del dictamen del cielo.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-49">
+          <speaker>SAÚL.</speaker>
+          <lg part="M" type="free">
+            <l n="427" xml:id="em0779-es-432">Más hiere la desgracia al ser desconocida.</l>
+          </lg>
+        </sp>
+        <sp who="#ESC1" xml:id="em0779-es-sp-50">
+          <speaker>EL ESCUDERO.</speaker>
+          <lg part="M" type="free">
+            <l n="428" xml:id="em0779-es-433">Más abrasa el tormento previsto de antemano.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-51">
+          <speaker>SAÚL.</speaker>
+          <lg part="M" type="free">
+            <l n="429" xml:id="em0779-es-434">En fin, sabré mi suerte con arte nigromante.</l>
+          </lg>
+        </sp>
+        <sp who="#ESC1" xml:id="em0779-es-sp-52">
+          <speaker>EL ESCUDERO.</speaker>
+          <lg part="M" type="free">
+            <l n="430" xml:id="em0779-es-435">Mas Dios lo ha prohibido: ¿no recordáis acaso</l>
+            <l n="431" xml:id="em0779-es-436">que mandasteis dar muerte a todos esos brujos?</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-53">
+          <speaker>SAÚL.</speaker>
+          <lg part="M" type="free">
+            <l n="432" xml:id="em0779-es-437">Ayer ya despaché un fiel escudero</l>
+            <l n="433" xml:id="em0779-es-438">a buscar quedaba alguno en un villorrio.</l>
+            <l n="434" xml:id="em0779-es-439">Mas helo aquí que vuelve trayendo su mensaje.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0779-es-st-6">(Entra el Segundo Escudero)</stage>
+        <sp who="#ESC2" xml:id="em0779-es-sp-54">
+          <speaker>EL SEGUNDO ESCUDERO.</speaker>
+          <lg part="M" type="free">
+            <l n="435" xml:id="em0779-es-440">Señor, me han advertido de que hay cerca de aquí</l>
+            <l n="436" xml:id="em0779-es-441">una dama hechicera en la villa de Endor,</l>
+            <l n="437" xml:id="em0779-es-442">que sabe transformar su forma en mil figuras,</l>
+            <l n="438" xml:id="em0779-es-443">y hacer bajar los olmos más altos de los montes,</l>
+            <l n="439" xml:id="em0779-es-444">detiene los planetas en su giro celeste,</l>
+            <l n="440" xml:id="em0779-es-445">hace vagar las almas por fuera de sus tumbas,</l>
+            <l n="441" xml:id="em0779-es-446">sabe extraer la espuma de la brillante luna,</l>
+            <l n="442" xml:id="em0779-es-447">sabe trocar la luz del sol brillante en sombra</l>
+            <l n="443" xml:id="em0779-es-448">E incluso su luz nubla murmurando sus versos.</l>
+            <l n="444" xml:id="em0779-es-449">En suma, si lo quiere, hace temblar al mundo.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-55">
+          <speaker>SAÚL.</speaker>
+          <lg part="M" type="free">
+            <l n="445" xml:id="em0779-es-450">Iremos los tres juntos a buscar su morada,</l>
+            <l n="446" xml:id="em0779-es-451">necesario es cumplir esta empresa funesta;</l>
+            <l n="447" xml:id="em0779-es-452">Pues he de conocer por su arte la verdad,</l>
+            <l n="448" xml:id="em0779-es-453">Con disfraz ocultemos mi real semblante.</l>
+          </lg>
+        </sp>
+        <sp who="#COR" xml:id="em0779-es-sp-56">
+          <speaker>El Coro de Levitas.</speaker>
+          <lg part="F" type="free">
+            <l n="449" xml:id="em0779-es-454">¡Oh Dios, que nos libraste</l>
+            <l n="450" xml:id="em0779-es-455">del yugo de Egipto,</l>
+            <l n="451" xml:id="em0779-es-456">que antaño en desiertos</l>
+            <l n="452" xml:id="em0779-es-457">nos serviste de guía</l>
+            <l n="453" xml:id="em0779-es-458">ahogando al tirano</l>
+            <l n="454" xml:id="em0779-es-459">y a su armada en el agua.</l>
+            <l n="455" xml:id="em0779-es-460">De los incircuncisos</l>
+            <l n="456" xml:id="em0779-es-461">Libra ahora a tu gente:</l>
+            <l n="457" xml:id="em0779-es-462">Han alzado sus tiendas</l>
+            <l n="458" xml:id="em0779-es-463">Para darnos cruel muerte</l>
+            <l n="459" xml:id="em0779-es-464">Y será gran vergüenza</l>
+            <l n="460" xml:id="em0779-es-465">Si su fuerza nos vence.</l>
+            <l n="461" xml:id="em0779-es-466">Dirán por todas partes</l>
+            <l n="462" xml:id="em0779-es-467">Que tu fuerza es pequeña</l>
+            <l n="463" xml:id="em0779-es-468">si no puedes rescatar</l>
+            <l n="464" xml:id="em0779-es-469">a tu pueblo israelita.</l>
+            <l n="465" xml:id="em0779-es-470">y de dicha victoria</l>
+            <l n="466" xml:id="em0779-es-471">presumirán altivos.</l>
+            <l n="467" xml:id="em0779-es-472">Pero nuestro castigo</l>
+            <l n="468" xml:id="em0779-es-473">Posterga a otros tiempos,</l>
+            <l n="469" xml:id="em0779-es-474">Pues grande es la miseria</l>
+            <l n="470" xml:id="em0779-es-475">A que estamos sujetos</l>
+            <l n="471" xml:id="em0779-es-476">Con un príncipe loco</l>
+            <l n="472" xml:id="em0779-es-477">Que nos gobierna mal.</l>
+            <l n="473" xml:id="em0779-es-478">¡Israel está cansado</l>
+            <l n="474" xml:id="em0779-es-479">De tus viejas demandas</l>
+            <l n="475" xml:id="em0779-es-480">Pues eres insensato</l>
+            <l n="476" xml:id="em0779-es-481">Buscando en las tinieblas</l>
+            <l n="477" xml:id="em0779-es-482">De las mágicas artes!</l>
+            <l n="478" xml:id="em0779-es-483">¡Maldito el inventor</l>
+            <l n="479" xml:id="em0779-es-484">De la primera magia,</l>
+            <l n="480" xml:id="em0779-es-485">maldito sea el hombre</l>
+            <l n="481" xml:id="em0779-es-486">que primero abrió</l>
+            <l n="482" xml:id="em0779-es-487">los cerrojos secretos</l>
+            <l n="483" xml:id="em0779-es-488">que el Señor tenía ocultos!</l>
+            <l n="484" xml:id="em0779-es-489">Tan nociva es la ciencia</l>
+            <l n="485" xml:id="em0779-es-490">para el hombre curioso,</l>
+            <l n="486" xml:id="em0779-es-491">como el fruto maldito</l>
+            <l n="487" xml:id="em0779-es-492">del manzano prohibido.</l>
+            <l n="488" xml:id="em0779-es-493">¡Guárdate, Rey funesto,</l>
+            <l n="489" xml:id="em0779-es-494">de consumar tal crimen!</l>
+            <l n="490" xml:id="em0779-es-495">¡Malditos nigromantes</l>
+            <l n="491" xml:id="em0779-es-496">y malditas las brujas</l>
+            <l n="492" xml:id="em0779-es-497">que despiertan las sombras</l>
+            <l n="493" xml:id="em0779-es-498">de tumbas silenciosas,</l>
+            <l n="494" xml:id="em0779-es-499">violando el campo santo</l>
+            <l n="495" xml:id="em0779-es-500">para sus malos fines!</l>
+            <l n="496" xml:id="em0779-es-501">¡Que su curiosidad</l>
+            <l n="497" xml:id="em0779-es-502">Sea por siempre maldita,</l>
+            <l n="498" xml:id="em0779-es-503">Pues imita contra haciendo</l>
+            <l n="499" xml:id="em0779-es-504">La dignidad del profeta,</l>
+            <l n="500" xml:id="em0779-es-505">Engañando almas cándidas</l>
+            <l n="501" xml:id="em0779-es-506">Con sus locas vanidades!</l>
+            <l n="502" xml:id="em0779-es-507">Ya adivinen por el aire,</l>
+            <l n="503" xml:id="em0779-es-508">por fuego, tierra o por humo,</l>
+            <l n="504" xml:id="em0779-es-509">por el agua cristalina,</l>
+            <l n="505" xml:id="em0779-es-510">por el reflejo del vidrio,</l>
+            <l n="506" xml:id="em0779-es-511">por las líneas de las manos,</l>
+            <l n="507" xml:id="em0779-es-512">o mil otras fantasías.</l>
+            <l n="508" xml:id="em0779-es-513">Tales los encantadores</l>
+            <l n="509" xml:id="em0779-es-514">Que a todo Egipto cautivan,</l>
+            <l n="510" xml:id="em0779-es-515">los vanos imitadores</l>
+            <l n="511" xml:id="em0779-es-516">De lo que Moisés hacía.</l>
+            <l n="512" xml:id="em0779-es-517">Blasfemando con sus artes</l>
+            <l n="513" xml:id="em0779-es-518">Imitaban sus milagros.</l>
+            <l n="514" xml:id="em0779-es-519">Tales, a los que Saúl</l>
+            <l n="515" xml:id="em0779-es-520">Mandó al fin decapitar,</l>
+            <l n="516" xml:id="em0779-es-521">Y que ninguno escapó</l>
+            <l n="517" xml:id="em0779-es-522">Sin ver su testa tronchada.</l>
+            <l n="518" xml:id="em0779-es-523">Mas el mismo, ¡oh gran locura!</l>
+            <l n="519" xml:id="em0779-es-524">En la magia cree ahora.</l>
+          </lg>
+        </sp>
+      </div1>
+      <div1 n="3" type="act">
+        <head>Acto tercero</head>
+        <stage xml:id="em0779-es-st-7">Un soldado amalecita y los levitas.</stage>
+        <sp who="#SOL" xml:id="em0779-es-sp-57">
+          <speaker>EL SOLDADO.</speaker>
+          <lg part="M" type="free">
+            <l n="520" xml:id="em0779-es-525">¿En qué peligro atroz, rayano a la muerte</l>
+            <l n="521" xml:id="em0779-es-526">me vi en el día de hoy? ¿Quién lo hubiera creído?</l>
+          </lg>
+        </sp>
+        <sp who="#COR" xml:id="em0779-es-sp-58">
+          <speaker>LOS LEVITAS.</speaker>
+          <lg part="M" type="free">
+            <l n="522" xml:id="em0779-es-527">¿De dónde huye este hombre? ¿Y por qué tal espanto?</l>
+            <l n="523" xml:id="em0779-es-528">¿Por qué mira sin cesar tras de sí, desvelado?</l>
+          </lg>
+        </sp>
+        <sp who="#SOL" xml:id="em0779-es-sp-59">
+          <speaker>EL SOLDADO</speaker>
+          <lg part="M" type="free">
+            <l n="524" xml:id="em0779-es-529">¿Estoy aquí seguro de los filos de acero,</l>
+            <l n="525" xml:id="em0779-es-530">cuyo furor apenas he logrado esquivar?</l>
+            <l n="526" xml:id="em0779-es-531">Oh, David, dichoso hoy al sorprender a quienes</l>
+            <l n="527" part="I" xml:id="em0779-es-532">lograron sorprenderte.</l>
+          </lg>
+        </sp>
+        <sp who="#COR" xml:id="em0779-es-sp-60">
+          <speaker>LOS LEVITAS</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0779-es-533">Hemos de hablar con él.</l>
+            <l n="528" xml:id="em0779-es-534">Dinos, ¿quién eres tú y de dónde vienes?</l>
+            <l n="529" xml:id="em0779-es-535">¿Surge alguna alarma en nuestras propias filas?</l>
+          </lg>
+        </sp>
+        <sp who="#SOL" xml:id="em0779-es-sp-61">
+          <speaker>EL SOLDADO.</speaker>
+          <lg part="M" type="free">
+            <l n="530" xml:id="em0779-es-536">Yo soy amalecita, y no vengo ahora mismo</l>
+            <l n="531" xml:id="em0779-es-537">del campamento hebreo, que aún no sufre ruina;</l>
+            <l n="532" xml:id="em0779-es-538">vengo, ay, de un lugar que ya no es campamento,</l>
+            <l n="533" xml:id="em0779-es-539">sino despojo que hizo David sobre Amalec.</l>
+          </lg>
+        </sp>
+        <sp who="#COR" xml:id="em0779-es-sp-62">
+          <speaker>LOS LEVITAS.</speaker>
+          <lg part="M" type="free">
+            <l n="534" xml:id="em0779-es-540">¿Cómo? ¿No está David con el ejército contrario,</l>
+            <l n="535" part="I" xml:id="em0779-es-541">donde lo hicieron jefe?</l>
+          </lg>
+        </sp>
+        <sp who="#SOL" xml:id="em0779-es-sp-63">
+          <speaker>EL SOLDADO</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0779-es-542">Por fin lo apartaron.</l>
+            <l n="536" xml:id="em0779-es-543">Cierto es que, por la ira de Saúl y su rencor,</l>
+            <l n="537" xml:id="em0779-es-544">sirvió entre los de Aquís, sumido en el temor</l>
+            <l n="538" xml:id="em0779-es-545">- así suelen hacer los caídos en desgracia -</l>
+            <l n="539" xml:id="em0779-es-546">pero los cabecillas no quisieron buscar</l>
+            <l n="540" xml:id="em0779-es-547">ayuda en el que otrora fuera su enemigo;</l>
+            <l n="541" xml:id="em0779-es-548">aunque lo recibieron y aunque Aquís le dio</l>
+            <l n="542" xml:id="em0779-es-549">el pueblo de Siceleg, que está en aquellas tierras,</l>
+            <l n="543" xml:id="em0779-es-550">no se podían fiar de personaje tal,</l>
+            <l n="544" xml:id="em0779-es-551">pues sólo serviría al rey en detrimento</l>
+            <l n="545" xml:id="em0779-es-552">de sus propios jefes. Sabiéndolo allí,</l>
+            <l n="546" xml:id="em0779-es-553">los hombres de Amalec saqueamos Siceleg,</l>
+            <l n="547" xml:id="em0779-es-554">y casi hecho cenizas lo halló cuando volvió.</l>
+            <l n="548" xml:id="em0779-es-555">Mas no sé cómo pudo entonces sorprendernos,</l>
+            <l n="549" xml:id="em0779-es-556">pues cuando con ganado, con mujeres y niños</l>
+            <l n="550" xml:id="em0779-es-557">marchábamos gloriosos hacia nuestra región,</l>
+            <l n="551" xml:id="em0779-es-558">David y sus soldados nos sorprenden de lejos,</l>
+            <l n="552" xml:id="em0779-es-559">en medio de la cena, los unos embriagados,</l>
+            <l n="553" xml:id="em0779-es-560">otros extenuados, en sueños los demás…</l>
+            <l n="554" xml:id="em0779-es-561">deshizo nuestras filas, haciéndonos pedazos.</l>
+            <l n="555" xml:id="em0779-es-562">Recuperó el botín; apenas cuatrocientos</l>
+            <l n="556" xml:id="em0779-es-563">huyeron como yo sobre bestias cansadas.</l>
+          </lg>
+        </sp>
+        <sp who="#COR" xml:id="em0779-es-sp-64">
+          <speaker>LOS LEVITAS</speaker>
+          <lg part="M" type="free">
+            <l n="557" xml:id="em0779-es-564">Merecido tenéis lo que habéis contado.</l>
+          </lg>
+        </sp>
+        <sp who="#SOL" xml:id="em0779-es-sp-65">
+          <speaker>EL SOLDADO</speaker>
+          <lg part="M" type="free">
+            <l n="558" xml:id="em0779-es-565">Así es como logré escapar del degüello.</l>
+          </lg>
+        </sp>
+        <sp who="#COR" xml:id="em0779-es-sp-66">
+          <speaker>LOS LEVITAS</speaker>
+          <lg part="M" type="free">
+            <l n="559" xml:id="em0779-es-566">¿A dónde quieres ir, soldado, en esta hora?</l>
+          </lg>
+        </sp>
+        <sp who="#SOL" xml:id="em0779-es-sp-67">
+          <speaker>EL SOLDADO</speaker>
+          <lg part="M" type="free">
+            <l n="560" xml:id="em0779-es-567">A buscar con vosotros fortuna más propicia.</l>
+          </lg>
+        </sp>
+        <sp who="#COR" xml:id="em0779-es-sp-68">
+          <speaker>LOS LEVITAS</speaker>
+          <lg part="M" type="free">
+            <l n="561" xml:id="em0779-es-568">Marcha, pues, en buen hora, las armadas se aprestan</l>
+            <l n="562" xml:id="em0779-es-569">para entrar en combate y están aquí cerca.</l>
+            <l n="563" xml:id="em0779-es-570">Y llega con el rey, vestido extrañamente,</l>
+            <l n="564" xml:id="em0779-es-571">la dama Pitonisa. ¡Empresa condenada!</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0779-es-st-8">LA PITONISA, SAÚL, PRIMER Y SEGUNDO ESCUDERO</stage>
+        <sp who="#PIT" xml:id="em0779-es-sp-69">
+          <speaker>LA PITONISA</speaker>
+          <lg part="M" type="free">
+            <l n="565" xml:id="em0779-es-572">Quienquiera que tú seas, señor, que, como dices,</l>
+            <l n="566" xml:id="em0779-es-573">vienes a buscar mi arte desde tierras extrañas,</l>
+            <l n="567" xml:id="em0779-es-574">¿qué mal te habré hecho para que así le tiendas</l>
+            <l n="568" xml:id="em0779-es-575">Esta trampa a mi vida y todo por sorpresa?</l>
+            <l n="569" xml:id="em0779-es-576">¿Vienes acaso a saber los castigos crueles</l>
+            <l n="570" xml:id="em0779-es-577">que infringió el rey Saúl a nuestros nigromantes?</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-70">
+          <speaker>SAÚL</speaker>
+          <lg part="M" type="free">
+            <l n="571" xml:id="em0779-es-578">Nada temáis, señora: yo ahora testifico</l>
+            <l n="572" xml:id="em0779-es-579">por el Dios de allá arriba y la celeste bóveda,</l>
+            <l n="573" xml:id="em0779-es-580">que guardaré el secreto de tal manera que el rey</l>
+            <l n="574" xml:id="em0779-es-581">nunca por mí se entere y nunca te haga daño,</l>
+            <l n="575" xml:id="em0779-es-582">Mas te conceda honores y todo el bien posible.</l>
+          </lg>
+        </sp>
+        <sp who="#PIT" xml:id="em0779-es-sp-71">
+          <speaker>LA PITONISA</speaker>
+          <lg part="M" type="free">
+            <l n="576" xml:id="em0779-es-583">No pido otro pago que el silencio absoluto.</l>
+            <l n="577" xml:id="em0779-es-584">¿De qué modo deseas utilizar mi ciencia?</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-72">
+          <speaker>SAÚL</speaker>
+          <lg part="M" type="free">
+            <l n="578" xml:id="em0779-es-585">Sabes de mi infortunio, sabes de mi dolor,</l>
+            <l n="579" xml:id="em0779-es-586">y si ahora deseas prestarme tu auxilio:</l>
+            <l n="580" xml:id="em0779-es-587">haz venir hasta aquí, por conjuros y versos,</l>
+            <l n="581" xml:id="em0779-es-588">el alma de Samuel desde el profundo Abismo,</l>
+            <l n="582" xml:id="em0779-es-589">para que en esta urgencia y grave situación</l>
+            <l n="583" xml:id="em0779-es-590">me otorgue consejo sobre lo que he de hacer.</l>
+          </lg>
+        </sp>
+        <sp who="#PIT" xml:id="em0779-es-sp-73">
+          <speaker>LA PITONISA</speaker>
+          <lg part="M" type="free">
+            <l n="584" xml:id="em0779-es-591">No es la primera vez que mi arte prodigioso</l>
+            <l n="585" xml:id="em0779-es-592">ha despertado a alguien del sueño de la muerte,</l>
+            <l n="586" xml:id="em0779-es-593">y aunque el sol veinte vueltas haya girado ya</l>
+            <l n="587" xml:id="em0779-es-594">desde que ese profeta se cuenta entre los muertos,</l>
+            <l n="588" xml:id="em0779-es-595">yo no dejaré hoy de obligar a su espíritu</l>
+            <l n="589" xml:id="em0779-es-596">a venir hasta aquí, pese a su voluntad;</l>
+            <l n="590" xml:id="em0779-es-597">gracias a mis demonios, esclavos de mis versos,</l>
+            <l n="591" xml:id="em0779-es-598">que siempre obedecen a todo lo que mando.</l>
+            <l n="592" xml:id="em0779-es-599">Habiendo terminado con las invocaciones</l>
+            <l n="593" xml:id="em0779-es-600">iré a retirarme para hacer los conjuros.</l>
+            <l n="594" xml:id="em0779-es-601">¡Oh, demonios sabios, dispersos so la luna!</l>
+            <l n="595" xml:id="em0779-es-602">¡Si alguna vez recibí de vosotros favor,</l>
+            <l n="596" xml:id="em0779-es-603">si siempre os he honrado como os corresponde,</l>
+            <l n="597" xml:id="em0779-es-604">si nunca os encerré en círculo ninguno,</l>
+            <l n="598" xml:id="em0779-es-605">venid a obedecer el mando de mi voz;</l>
+            <l n="599" xml:id="em0779-es-606">y vosotros que estáis en mi anillo sagrado</l>
+            <l n="600" xml:id="em0779-es-607">como almas esclavas, si aprendí de vosotros</l>
+            <l n="601" xml:id="em0779-es-608">todo cuanto quise, venid aquí a servirme;</l>
+            <l n="602" xml:id="em0779-es-609">y vosotros, diablos, que al primer hombre hicisteis</l>
+            <l n="603" xml:id="em0779-es-610">gustar fatal manzana, para perjudicarle;</l>
+            <l n="604" xml:id="em0779-es-611">gloria de los infiernos, Satán y Belcebú,</l>
+            <l n="605" xml:id="em0779-es-612">que al hombre obligáis a cometer abusos;</l>
+            <l n="606" xml:id="em0779-es-613">y tú, Leviatán, Belial, Belfegor,</l>
+            <l n="607" xml:id="em0779-es-614">a todos os invoco!; y a vosotros, ángeles,</l>
+            <l n="608" xml:id="em0779-es-615">a quienes la soberbia lanzó con Lucifer</l>
+            <l n="609" xml:id="em0779-es-616">desde el alto Olimpo hasta el profundo infierno;</l>
+            <l n="610" xml:id="em0779-es-617">si os he consagrado mi alma desde la cuna,</l>
+            <l n="611" xml:id="em0779-es-618">si solo de vosotros depende mi destino,</l>
+            <l n="612" xml:id="em0779-es-619">venid y haced prodigio: haced volver aquí</l>
+            <l n="613" xml:id="em0779-es-620">el alma de aquel que nunca os hizo caso;</l>
+            <l n="614" xml:id="em0779-es-621">mostrad vuestro poder al humano linaje,</l>
+            <l n="615" xml:id="em0779-es-622">mostrad que nuestra magia no es una cosa vana,</l>
+            <l n="616" xml:id="em0779-es-623">trayéndolo a la fuerza, aun contra su Dios</l>
+            <l n="617" xml:id="em0779-es-624">también contra los ángeles, hasta este lugar;</l>
+            <l n="618" xml:id="em0779-es-625">mostrad cómo podéis retorcer la natura,</l>
+            <l n="619" xml:id="em0779-es-626">y si cada elemento cede a vuestro murmullo,</l>
+            <l n="620" xml:id="em0779-es-627">mostrad cómo podéis ensangrentar los cielos,</l>
+            <l n="621" xml:id="em0779-es-628">encantar a los astros, a Febo y a la luna.</l>
+            <l n="622" xml:id="em0779-es-629">Venid pues a ayudarme; y que la grande luz</l>
+            <l n="623" xml:id="em0779-es-630">no ilumine jamás la última jornada,</l>
+            <l n="624" xml:id="em0779-es-631">en la cual aquí bajo no viva nadie más,</l>
+            <l n="625" xml:id="em0779-es-632">Dios condene a los malos, salve a los elegidos;</l>
+            <l n="626" xml:id="em0779-es-633">y no nazca jamás el mesías prometido</l>
+            <l n="627" xml:id="em0779-es-634">con que se os amenaza en tantas profecías.</l>
+            <l n="628" xml:id="em0779-es-635">Espíritu de Samuel, ¿qué haces ahí abajo?</l>
+            <l n="629" xml:id="em0779-es-636">¿No haces caso a mi arte, mis versos, a mi enojo?</l>
+            <l n="630" xml:id="em0779-es-637">¿Me desprecias acaso? ¿No sientes mi poder?</l>
+            <l n="631" xml:id="em0779-es-638">Mas si nuestro furor intentas encender,</l>
+            <l n="632" xml:id="em0779-es-639">juro por el Gran Dios que no osaré nombrar,</l>
+            <l n="633" xml:id="em0779-es-640">que tú vendrás al fin, porque la prisa me urge.</l>
+            <l n="634" xml:id="em0779-es-641">¿Soy una encantadora loca, inútil y vana?</l>
+            <l n="635" xml:id="em0779-es-642">¿Acaso he olvidado saberes que tenía?</l>
+            <l n="636" xml:id="em0779-es-643">A todo el que te invoca con acento tesalio</l>
+            <l n="637" xml:id="em0779-es-644">siempre obedeces presto, ¿y ríes de mi poder?</l>
+            <l n="638" xml:id="em0779-es-645">Vosotros, mis demonios, tan tardos que me ofendo</l>
+            <l n="639" xml:id="em0779-es-646">y puedo castigaros, si encendiendo mi ira,</l>
+            <l n="640" xml:id="em0779-es-647">se inflama mi rabia; ayudadme, o si no...</l>
+          </lg>
+        </sp>
+        <sp who="#COR" xml:id="em0779-es-sp-74">
+          <speaker>LOS LEVITAS</speaker>
+          <lg part="M" type="free">
+            <l n="641" xml:id="em0779-es-648">¿Dónde va, sin el rey,</l>
+            <l n="642" xml:id="em0779-es-649">esa bruja maldita</l>
+            <l n="643" xml:id="em0779-es-650">que murmura entre dientes</l>
+            <l n="644" xml:id="em0779-es-651">versos furiosos sin fin,</l>
+            <l n="645" xml:id="em0779-es-652">y con cabello suelto</l>
+            <l n="646" xml:id="em0779-es-653">vaga tan confundida?</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-75">
+          <speaker>SAÚL</speaker>
+          <lg part="M" type="free">
+            <l n="647" xml:id="em0779-es-654">¡Ay, menudo espanto! Se me eriza el cabello</l>
+            <l n="648" xml:id="em0779-es-655">ante los alaridos que lanza Pitonisa,</l>
+            <l n="649" xml:id="em0779-es-656">que en secreto ejecuta sus oscuros conjuros.</l>
+            <l n="650" xml:id="em0779-es-657">¿Qué piensas, escudero? ¿Qué habremos de hacer?</l>
+            <l n="651" xml:id="em0779-es-658">Oyéndola aquí, siento un temor extraño</l>
+            <l n="652" xml:id="em0779-es-659">errando en mi pecho que ahora me presagia</l>
+            <l n="653" xml:id="em0779-es-660">no sé qué infortunio. ¡Ay, apartad de aquí</l>
+            <l n="654" xml:id="em0779-es-661">rayos y tempestades, que ya se está acercando…!</l>
+          </lg>
+        </sp>
+        <sp who="#ESC1" xml:id="em0779-es-sp-76">
+          <speaker>PRIMER ESCUDERO</speaker>
+          <lg part="M" type="free">
+            <l n="655" xml:id="em0779-es-662">Señor, ¿en qué pensáis? ¿Queréis continuar</l>
+            <l n="656" xml:id="em0779-es-663">lo que sabéis muy bien que desagrada a Dios?</l>
+          </lg>
+        </sp>
+        <sp who="#PIT" xml:id="em0779-es-sp-77">
+          <speaker>LA PITONISA</speaker>
+          <lg part="M" type="free">
+            <l n="657" xml:id="em0779-es-664">Tú me has engañado, oh miserable rey,</l>
+            <l n="658" xml:id="em0779-es-665">que con falso disfraz ocultarte has logrado,</l>
+            <l n="659" xml:id="em0779-es-666">pero al fin he sabido todas tus artimañas.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-78">
+          <speaker>SAÚL</speaker>
+          <lg part="M" type="free">
+            <l n="660" xml:id="em0779-es-667">Soy como dices, pero no temas mi presencia.</l>
+            <l n="661" part="I" xml:id="em0779-es-668">¿Dime qué has visto?</l>
+          </lg>
+        </sp>
+        <sp who="#PIT" xml:id="em0779-es-sp-79">
+          <speaker>LA PITONISA</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0779-es-669">Un espíritu divino.</l>
+            <l n="662" xml:id="em0779-es-670">¡Oh, la gran majestad que reluce en su forma!</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-80">
+          <speaker>SAÚL</speaker>
+          <lg part="M" type="free">
+            <l n="663" part="I" xml:id="em0779-es-671">¿Cómo es?</l>
+          </lg>
+        </sp>
+        <sp who="#PIT" xml:id="em0779-es-sp-81">
+          <speaker>LA PITONISA</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0779-es-672">Anciano, de porte venerable,</l>
+            <l n="664" xml:id="em0779-es-673">delgado, y vestido con sagrado ropaje.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-82">
+          <speaker>SAÚL</speaker>
+          <lg part="M" type="free">
+            <l n="665" xml:id="em0779-es-674">Ve, haz venir a aquel al que has mencionadoe:</l>
+            <l n="666" xml:id="em0779-es-675">seguro que es Samuel, que me ha reconocido.</l>
+            <l n="667" xml:id="em0779-es-676">Estoy más agitado que el mar cuando lo azotan</l>
+            <l n="668" xml:id="em0779-es-677">los vientos, las tormentas, tempestad y granizo.</l>
+            <l n="669" xml:id="em0779-es-678">¡Pero qué terror siento, pensando que mis hijos</l>
+            <l n="670" xml:id="em0779-es-679">del combate que enfrentan no regresen triunfantes!</l>
+          </lg>
+        </sp>
+        <sp who="#ESC1" xml:id="em0779-es-sp-83">
+          <speaker>PRIMER ESCUDERO</speaker>
+          <lg part="M" type="free">
+            <l n="671" xml:id="em0779-es-680">¡Pobre de mí! ¿qué veo? ¡Señor, qué maravilla!</l>
+            <l n="672" xml:id="em0779-es-681">¿Qué fantasma es ése? ¿Es un sueño o vigilia?</l>
+            <l n="673" xml:id="em0779-es-682">¿Acaso no es Samuel, pálido y reluciente,</l>
+            <l n="674" xml:id="em0779-es-683">al que trae la bruja? ¡Oh, Qué espanto más grande!</l>
+          </lg>
+        </sp>
+        <sp who="#COR" xml:id="em0779-es-sp-84">
+          <speaker>LOS LEVITAS</speaker>
+          <lg part="M" type="free">
+            <l n="675" xml:id="em0779-es-684">¿Permitís esto, Dios, oh alto Cielo, oh Tierra?</l>
+          </lg>
+        </sp>
+        <sp who="#PIT" xml:id="em0779-es-sp-85">
+          <speaker>LA PITONISA</speaker>
+          <lg part="M" type="free">
+            <l n="676" xml:id="em0779-es-685">Señor, sólo me queda preguntaros ahora</l>
+            <l n="677" xml:id="em0779-es-686">lo que quiere saber, pues voy a repetir</l>
+            <l n="678" xml:id="em0779-es-687">todos mis conjuros para forzarle a hablar.</l>
+          </lg>
+        </sp>
+        <sp who="#COR" xml:id="em0779-es-sp-86">
+          <speaker>LOS LEVITAS</speaker>
+          <lg part="M" type="free">
+            <l n="679" xml:id="em0779-es-688">Mírala cómo sigue murmurando al oído</l>
+            <l n="680" xml:id="em0779-es-689">de ese doliente espíritu que aún no despierta,</l>
+            <l n="681" xml:id="em0779-es-690">con sus vanas palabras; ¡oh, sol, y no ocultaste</l>
+            <l n="682" xml:id="em0779-es-691">tus poderosos rayos al ver todo este horror!</l>
+            <l n="683" xml:id="em0779-es-692">¡Cuánto le hacen sufrir! Pero el Señor celeste,</l>
+            <l n="684" xml:id="em0779-es-693">que tal arte contrario a su poder detesta,</l>
+            <l n="685" part="I" xml:id="em0779-es-694">no puede consentir.</l>
+          </lg>
+        </sp>
+        <sp who="#PIT" xml:id="em0779-es-sp-87">
+          <speaker>LA PITONISA</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0779-es-695">Ven aquí de nuevo,</l>
+            <l n="686" xml:id="em0779-es-696">y sin hacer aquí señas de tu poder,</l>
+            <l n="687" xml:id="em0779-es-697">háblanos claramente sobre el Rey y su suerte,</l>
+            <l n="688" xml:id="em0779-es-698">y si sus tres hijos saldrán vencedores del combate</l>
+            <l n="689" part="I" xml:id="em0779-es-699">o si serán vencidos.</l>
+          </lg>
+        </sp>
+        <sp who="#COR" xml:id="em0779-es-sp-88">
+          <speaker>LOS LEVITAS</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0779-es-700">Ay, un frío temor</l>
+            <l n="690" xml:id="em0779-es-701">cierra tan fuerte el alma, la voz del rey</l>
+            <l n="691" xml:id="em0779-es-702">que ya no sabe cómo iniciar su demanda;</l>
+            <l n="692" xml:id="em0779-es-703">pero arrodillado inclina la cabeza</l>
+            <l n="693" xml:id="em0779-es-704">ante la majestad de ese anciano santo,</l>
+            <l n="694" xml:id="em0779-es-705">que, rompe el silencio en palabras forzadas</l>
+            <l n="695" part="I" xml:id="em0779-es-706">moviendo la cabeza.</l>
+          </lg>
+        </sp>
+        <sp who="#ESP" xml:id="em0779-es-sp-89">
+          <speaker>EL ESPÍRITU DE SAMUEL</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0779-es-707">¡Oh, maldita hechicera!</l>
+            <l n="696" xml:id="em0779-es-708">¿Por qué me haces ver dos veces esta luz?</l>
+            <l n="697" xml:id="em0779-es-709">Oh, falsa hechicera, que con versos nefastos</l>
+            <l n="698" xml:id="em0779-es-710">atormentas sin fin a las almas difuntas;</l>
+            <l n="699" xml:id="em0779-es-711">que con negros conjuros secas siempre los vientres</l>
+            <l n="700" xml:id="em0779-es-712">De las vacas y bueyes de toda la región;</l>
+            <l n="701" xml:id="em0779-es-713">que asustas a las madres con tus encantamientos</l>
+            <l n="702" xml:id="em0779-es-714">Que pronostican siempre la muerte de sus hijos;</l>
+            <l n="703" xml:id="em0779-es-715">¿pretendes con tu magia amenazarme ahora?</l>
+            <l n="704" xml:id="em0779-es-716">Y tú, el rey más maldito, ¿cómo tienes la audacia</l>
+            <l n="705" xml:id="em0779-es-717">de inquietar el reposo dado a los espíritus,</l>
+            <l n="706" xml:id="em0779-es-718">tras haber recibido mi perdón hace tiempo?</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-90">
+          <speaker>SAÚL</speaker>
+          <lg part="M" type="free">
+            <l n="707" xml:id="em0779-es-719">Perdóname otra vez, profeta venerable,</l>
+            <l n="708" xml:id="em0779-es-720">si la necesidad y ruina miserable</l>
+            <l n="709" xml:id="em0779-es-721">me incitan a romper tu sempiterno sueño;</l>
+            <l n="710" xml:id="em0779-es-722">pues ora necesito de tu sabio consejo.</l>
+            <l n="711" xml:id="em0779-es-723">Cerca de aquí se agrupan hordas de filisteos</l>
+            <l n="712" xml:id="em0779-es-724">armados fieramente para aplastar mi testa;</l>
+            <l n="713" xml:id="em0779-es-725">los profetas y Dios, la tierra, el cielo, el aire</l>
+            <l n="714" xml:id="em0779-es-726">contra mí se conjuran; por eso te llamé.</l>
+          </lg>
+        </sp>
+        <sp who="#ESP" xml:id="em0779-es-sp-91">
+          <speaker>SAMUEL</speaker>
+          <lg part="M" type="free">
+            <l n="715" xml:id="em0779-es-727">Si Dios, la tierra, el aire conspiran contra ti,</l>
+            <l n="716" xml:id="em0779-es-728">Pues ¿para qué me buscas? ¿Qué esperas alcanzar,</l>
+            <l n="717" xml:id="em0779-es-729">si con tu insistencia ya no puedes cambiar</l>
+            <l n="718" xml:id="em0779-es-730">los males que por mí te fueron revelados?</l>
+            <l n="719" xml:id="em0779-es-731">Aun así, quieres que yo, sumando ultraje a ultraje,</l>
+            <l n="720" xml:id="em0779-es-732">pronuncie todavía tu sentencia final.</l>
+            <l n="721" xml:id="em0779-es-733">Debes saber que Dios ha resuelto hace tiempo</l>
+            <l n="722" xml:id="em0779-es-734">entregar tus dominios a otro rey elegido;</l>
+            <l n="723" xml:id="em0779-es-735">es David, al cual tú, por tu malsana envidia,</l>
+            <l n="724" xml:id="em0779-es-736">muchas veces trataste de arrebatar la vida.</l>
+            <l n="725" xml:id="em0779-es-737">Pero esta vez tus hechos recaerán sobre ti,</l>
+            <l n="726" xml:id="em0779-es-738">pues tu reinado y vida juntos acabarán.</l>
+            <l n="727" xml:id="em0779-es-739">Pronto a ti y a tu gente os veré en el infierno</l>
+            <l n="728" xml:id="em0779-es-740">puesto que Aquís sin duda os va a mostrar la ruta.</l>
+            <l n="729" xml:id="em0779-es-741">Así, por tus locuras, tus hijos y sus gentes</l>
+            <l n="730" xml:id="em0779-es-742">serán arruinados, vencidos y deshechos.</l>
+            <l n="731" xml:id="em0779-es-743">Y después de tu muerte, tu estirpe toda entera</l>
+            <l n="732" xml:id="em0779-es-744">dará cuenta al Señor por tu vida sangrienta,</l>
+            <l n="733" xml:id="em0779-es-745">y tus hijos, sobrinos y toda tu familia</l>
+            <l n="734" xml:id="em0779-es-746">verán el día fatal, llenos de mil desgracias.</l>
+            <l n="735" xml:id="em0779-es-747">Por traición morirán unos de horrible muerte,</l>
+            <l n="736" xml:id="em0779-es-748">los demás morirán sobre cruz vergonzosa,</l>
+            <l n="737" xml:id="em0779-es-749">porque no obedeciste a la divina voz,</l>
+            <l n="738" xml:id="em0779-es-750">como así tú debías, ni ejerciste venganza</l>
+            <l n="739" xml:id="em0779-es-751">que yo te mandé contra el amalecita.</l>
+          </lg>
+        </sp>
+        <sp who="#COR" xml:id="em0779-es-sp-92">
+          <speaker>LOS LEVITAS</speaker>
+          <lg part="M" type="free">
+            <l n="740" xml:id="em0779-es-752">De Samuel el espíritu</l>
+            <l n="741" xml:id="em0779-es-753">tras sus ojos cerrar,</l>
+            <l n="742" xml:id="em0779-es-754">ha desaparecido</l>
+            <l n="743" xml:id="em0779-es-755">en el sueño perpetuo.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-93">
+          <speaker>SAÚL</speaker>
+          <lg part="M" type="free">
+            <l n="744" xml:id="em0779-es-756">¡Oh, consuelo funesto que agrava mi dolor!</l>
+            <l n="745" xml:id="em0779-es-757">¡Qué desesperación! Sostenedme, yo, yo…</l>
+          </lg>
+        </sp>
+        <sp who="#COR" xml:id="em0779-es-sp-94">
+          <speaker>LOS LEVITAS</speaker>
+          <lg part="M" type="free">
+            <l n="746" xml:id="em0779-es-758">¡Ahora el Rey está</l>
+            <l n="747" xml:id="em0779-es-759">sumido en confusión,</l>
+            <l n="748" xml:id="em0779-es-760">y yace sin sentido</l>
+            <l n="749" xml:id="em0779-es-761">por cuanto ha escuchado!</l>
+          </lg>
+        </sp>
+        <sp who="#PIT" xml:id="em0779-es-sp-95">
+          <speaker>LA PITONISA</speaker>
+          <lg part="M" type="free">
+            <l n="750" xml:id="em0779-es-762">Mi triste corazón hieres con gran dolor</l>
+            <l n="751" xml:id="em0779-es-763">¡oh, Rey más desdichado que la propia miseria!</l>
+            <l n="752" xml:id="em0779-es-764">Vuelve en ti, con valor, muéstrate a todo el mundo</l>
+            <l n="753" xml:id="em0779-es-765">no mujer, sino hombre; no hombre, sino rey.</l>
+            <l n="754" xml:id="em0779-es-766">El grito, el llanto ocioso y el vano lamento</l>
+            <l n="755" xml:id="em0779-es-767">no harán sino aumentan nuestra gran pesadumbre.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-96">
+          <speaker>SAÚL</speaker>
+          <lg part="M" type="free">
+            <l n="756" xml:id="em0779-es-768">¡Oh, grandeza funesta, en qué abismo maldito</l>
+            <l n="757" xml:id="em0779-es-769">me lanzas desde ahora, oh, falso trono real!</l>
+            <l n="758" xml:id="em0779-es-770">Mas, ¿a quién ofendí cuando desde mi choza</l>
+            <l n="759" xml:id="em0779-es-771">me sacaste, oh Dios celoso de mi suerte,</l>
+            <l n="760" xml:id="em0779-es-772">cuando vivía feliz sin maldición alguna,</l>
+            <l n="761" xml:id="em0779-es-773">sin rencor ni envidia, sin odio, ni ambición?</l>
+            <l n="762" xml:id="em0779-es-774">¡Para hacerme caer desde mayor altura</l>
+            <l n="763" xml:id="em0779-es-775">de entrada tú me hiciste el joven favorito!</l>
+            <l n="764" xml:id="em0779-es-776">¡Vaya linda manera de ir a buscar a un hombre</l>
+            <l n="765" xml:id="em0779-es-777">para después hacerlos caer desde lo alto!</l>
+            <l n="766" xml:id="em0779-es-778">Me atrajiste con honras, me elevaste a la gloria,</l>
+            <l n="767" xml:id="em0779-es-779">me hiciste triunfante, me diste la victoria</l>
+            <l n="768" xml:id="em0779-es-780">me moldeaste a tu gusto y como tú quisiste</l>
+            <l n="769" xml:id="em0779-es-781">transformaste mi alma: tú mismo me escogiste.</l>
+            <l n="770" xml:id="em0779-es-782">Sobre el pueblo quisiste situarme tan alto</l>
+            <l n="771" xml:id="em0779-es-783">como los grandes pinos sobre todo un paisaje,</l>
+            <l n="772" xml:id="em0779-es-784">me ungiste como Rey, me alzaste ex profeso</l>
+            <l n="773" xml:id="em0779-es-785">para después hundirme en un mar de desgracias.</l>
+            <l n="774" xml:id="em0779-es-786">¿Quieres pues, inconstante destruir míseramente</l>
+            <l n="775" xml:id="em0779-es-787">al primer rey del mundo que tú mismo elegiste?</l>
+          </lg>
+        </sp>
+        <sp who="#PIT" xml:id="em0779-es-sp-97">
+          <speaker>LA PITONISA</speaker>
+          <lg part="M" type="free">
+            <l n="776" xml:id="em0779-es-788">No pierdas la esperanza: tu dolor, qua a compasión</l>
+            <l n="777" xml:id="em0779-es-789">movería a una roca, a un tigre, a un león,</l>
+            <l n="778" xml:id="em0779-es-790">tal vez conmueva a Dios, que es muy piadoso.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-98">
+          <speaker>SAÚL</speaker>
+          <lg part="M" type="free">
+            <l n="779" xml:id="em0779-es-791">¡Cuán funesta me fue, Señor, aquella hora</l>
+            <l n="780" xml:id="em0779-es-792">en que desde mi choza salí a por el ganado!</l>
+            <l n="781" xml:id="em0779-es-793">Allí empezó el mal que ahora lamento,</l>
+            <l n="782" xml:id="em0779-es-794">que me hace añorar aquella antigua suerte.</l>
+            <l n="783" xml:id="em0779-es-795">Mas ¿por qué fue trocado mi antiguo cayado</l>
+            <l n="784" xml:id="em0779-es-796">en un cetro engañoso, tan falso y tan traidor?</l>
+          </lg>
+        </sp>
+        <sp who="#PIT" xml:id="em0779-es-sp-99">
+          <speaker>LA PITONISA</speaker>
+          <lg part="M" type="free">
+            <l n="785" xml:id="em0779-es-797">Señor, señor, olvida tu llanto al escucharme:</l>
+            <l n="786" xml:id="em0779-es-798">bien sabes que he sido tu humilde servidora,</l>
+            <l n="787" xml:id="em0779-es-799">a tus mandatos siempre me he mostrado obediente.</l>
+            <l n="788" xml:id="em0779-es-800">sabes que yo por ti puse en riesgo mi vida</l>
+            <l n="789" xml:id="em0779-es-801">y puse a tu servicio mi arte y mi labor.</l>
+            <l n="790" xml:id="em0779-es-802">Si en todo obedecí presta a tu palabra</l>
+            <l n="791" xml:id="em0779-es-803">no me niegues ahora una petición sola:</l>
+            <l n="792" xml:id="em0779-es-804">concédeme el favor de entrar en mi casa,</l>
+            <l n="793" xml:id="em0779-es-805">de reforzar tu cuerpo tomando algo de vino,</l>
+            <l n="794" xml:id="em0779-es-806">pues el sol ya te encuentra exhausto y en ayunas.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-100">
+          <speaker>SAÚL</speaker>
+          <lg part="M" type="free">
+            <l n="795" xml:id="em0779-es-807">¿Comer para vivir, si Dios quiere que muera?</l>
+            <l n="796" part="I" xml:id="em0779-es-808">¡Yo le complaceré!</l>
+          </lg>
+        </sp>
+        <sp who="#PIT" xml:id="em0779-es-sp-101">
+          <speaker>LA PITONISA</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0779-es-809">Desafía al destino</l>
+            <l n="797" xml:id="em0779-es-810">come para vivir, pues él quiere tu muerte.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-102">
+          <speaker>SAÚL</speaker>
+          <lg part="M" type="free">
+            <l n="798" xml:id="em0779-es-811">Mas por el hambre al menos, acabarán por fin</l>
+            <l n="799" xml:id="em0779-es-812">mis terribles dolores y mis años sombríos.</l>
+          </lg>
+        </sp>
+        <sp who="#PIT" xml:id="em0779-es-sp-103">
+          <speaker>LA PITONISA</speaker>
+          <lg part="M" type="free">
+            <l n="800" xml:id="em0779-es-813">Vosotros, servidores, intentad persuadirle</l>
+            <l n="801" xml:id="em0779-es-814">para hacer que en mi casa venga a alimentarse.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-104">
+          <speaker>SAÚL</speaker>
+          <lg part="M" type="free">
+            <l n="802" xml:id="em0779-es-815">El que ama la muerte nada debe comer.</l>
+            <l n="803" xml:id="em0779-es-816">Mas, ¿a dónde me llevan contra mi voluntad?</l>
+          </lg>
+        </sp>
+        <sp who="#COR" xml:id="em0779-es-sp-105">
+          <speaker>LOS LEVITAS</speaker>
+          <lg part="F" type="free">
+            <l n="804" xml:id="em0779-es-817">¡Ay, Rey! ¿de qué te sirvió</l>
+            <l n="805" xml:id="em0779-es-818">Contra el designio de Dios,</l>
+            <l n="806" xml:id="em0779-es-819">Que perturbaras el sueño</l>
+            <l n="807" xml:id="em0779-es-820">De la muerte del profeta</l>
+            <l n="808" xml:id="em0779-es-821">Para escuchar su consejo?</l>
+            <l n="809" xml:id="em0779-es-822">El hambre, el largo ayuno</l>
+            <l n="810" xml:id="em0779-es-823">Y el pavor de tu muerte</l>
+            <l n="811" xml:id="em0779-es-824">Tanto te han debilitado</l>
+            <l n="812" xml:id="em0779-es-825">que te arrastran como muerto.</l>
+            <l n="813" xml:id="em0779-es-826">¡Qué dolor! ¡Ay, Qué tristeza!</l>
+            <l n="814" xml:id="em0779-es-827">Dios, que su lenta angustia,</l>
+            <l n="815" xml:id="em0779-es-828">su miseria y su pasión</l>
+            <l n="816" xml:id="em0779-es-829">nos muevan a compasión.</l>
+            <l n="817" xml:id="em0779-es-830">Nos conmueve cómo ahoga</l>
+            <l n="818" xml:id="em0779-es-831">tantos suspiros ardientes</l>
+            <l n="819" xml:id="em0779-es-832">que se guarda en su interior.</l>
+            <l n="820" xml:id="em0779-es-833">¡Dura es la sentencia cruel</l>
+            <l n="821" xml:id="em0779-es-834">pronunciada por Samuel!</l>
+            <l n="822" xml:id="em0779-es-835">Para él y para sus hijos</l>
+            <l n="823" xml:id="em0779-es-836">un triste fin está escrito.</l>
+            <l n="824" xml:id="em0779-es-837">¿Existe peor tormento</l>
+            <l n="825" xml:id="em0779-es-838">que conocer día y hora</l>
+            <l n="826" xml:id="em0779-es-839">de la muerte que acecha</l>
+            <l n="827" xml:id="em0779-es-840">sin poder huir de ella?</l>
+            <l n="828" xml:id="em0779-es-841">¿Qué hará ahora el Rey</l>
+            <l n="829" xml:id="em0779-es-842">en tal confusión y miedo?</l>
+            <l n="830" xml:id="em0779-es-843">¿Qué remedio encontraría</l>
+            <l n="831" xml:id="em0779-es-844">para burlar a la muerte?</l>
+            <l n="832" xml:id="em0779-es-845">Sea cual fuere su final,</l>
+            <l n="833" xml:id="em0779-es-846">de ejemplo debe servir:</l>
+            <l n="834" xml:id="em0779-es-847">no hay que practicar tal arte</l>
+            <l n="835" xml:id="em0779-es-848">por tal precio y tal peligro.</l>
+            <l n="836" xml:id="em0779-es-849">¿No sabía acaso que Dios,</l>
+            <l n="837" xml:id="em0779-es-850">por la boca de Moisés,</l>
+            <l n="838" xml:id="em0779-es-851">lo había al pueblo hebreo prohibido?</l>
+            <l n="839" xml:id="em0779-es-852">¡Ay, pobre Rey! ¿qué pensabas?</l>
+            <l n="840" xml:id="em0779-es-853">¿Ignorabas tú la suerte</l>
+            <l n="841" xml:id="em0779-es-854">de aquel que, en su camino,</l>
+            <l n="842" xml:id="em0779-es-855">fue con riesgo detenido</l>
+            <l n="843" xml:id="em0779-es-856">por celeste mensajero?</l>
+            <l n="844" xml:id="em0779-es-857">Mas como no mueres solo,</l>
+            <l n="845" xml:id="em0779-es-858">no hay por qué tanto llorar,</l>
+            <l n="846" xml:id="em0779-es-859">cuando hoy también tu pueblo</l>
+            <l n="847" xml:id="em0779-es-860">debe morir, desgraciado.</l>
+            <l n="848" xml:id="em0779-es-861">¿Oh, Dios mío, qué pecados,</l>
+            <l n="849" xml:id="em0779-es-862">qué crímenes cometimos</l>
+            <l n="850" xml:id="em0779-es-863">por los que sufrir ahora</l>
+            <l n="851" xml:id="em0779-es-864">un castigo tan terrible?</l>
+            <l n="852" xml:id="em0779-es-865">¿Debe ser tu pueblo amigo</l>
+            <l n="853" xml:id="em0779-es-866">víctima del enemigo</l>
+            <l n="854" xml:id="em0779-es-867">y su cuerpo devorado</l>
+            <l n="855" xml:id="em0779-es-868">por lobos y hambrientos perros?</l>
+            <l n="856" xml:id="em0779-es-869">¿Lo haces para probar</l>
+            <l n="857" xml:id="em0779-es-870">si estamos en días de invierno</l>
+            <l n="858" xml:id="em0779-es-871">tan alegres y contentos</l>
+            <l n="859" xml:id="em0779-es-872">como en días de primavera?</l>
+            <l n="860" xml:id="em0779-es-873">Si así es, no murmuramos,</l>
+            <l n="861" xml:id="em0779-es-874">mas sufrimos con paciencia</l>
+            <l n="862" xml:id="em0779-es-875">lo que venga de tu mano,</l>
+            <l n="863" xml:id="em0779-es-876">sea riguroso o suave.</l>
+            <l n="864" xml:id="em0779-es-877">El Rey es entonces causa</l>
+            <l n="865" xml:id="em0779-es-878">de esta cruel maldición,</l>
+            <l n="866" xml:id="em0779-es-879">y del desastre total</l>
+            <l n="867" xml:id="em0779-es-880">que ha caído sobre Israel.</l>
+            <l n="868" xml:id="em0779-es-881">¡Ay, Rey! ¿de qué te sirvió</l>
+            <l n="869" xml:id="em0779-es-882">Contra el designio de Dios,</l>
+            <l n="870" xml:id="em0779-es-883">Que perturbaras el sueño</l>
+            <l n="871" xml:id="em0779-es-884">De la muerte del profeta</l>
+            <l n="872" xml:id="em0779-es-885">Para escuchar su consejo?</l>
+          </lg>
+        </sp>
+      </div1>
+      <div1 n="4" type="act">
+        <head>Acto cuarto</head>
+        <stage xml:id="em0779-es-st-9">Saúl, un hombre de armas huyendo de la batalla, el Primer y Segundo Escudero.</stage>
+        <sp who="#Saúl" xml:id="em0779-es-sp-106">
+          <speaker>SAÚL</speaker>
+          <lg part="M" type="free">
+            <l n="873" xml:id="em0779-es-886">¿Tú me has dejado, Señor, tú me has olvidado,</l>
+            <l n="874" xml:id="em0779-es-887">y sellaste tu odio con diamantino sello?</l>
+            <l n="875" xml:id="em0779-es-888">Ya no me amas más, eliges otros reyes,</l>
+            <l n="876" xml:id="em0779-es-889">poniendo tu favor en manos enemigas.</l>
+            <l n="877" xml:id="em0779-es-890">Pues quiérelos, Señor, y favorécelos:</l>
+            <l n="878" xml:id="em0779-es-891">yo iré a acabar mi vida en medio del combate,</l>
+            <l n="879" xml:id="em0779-es-892">rematando con ella tus iras y mis males.</l>
+            <l n="880" xml:id="em0779-es-893">Mas ¿qué quiere ese hombre que viene jadeante?</l>
+          </lg>
+        </sp>
+        <sp who="#HOM" xml:id="em0779-es-sp-107">
+          <speaker>EL HOMBRE DE ARMAS</speaker>
+          <lg part="M" type="free">
+            <l n="881" xml:id="em0779-es-894">Señor, todo el ejército sucumbió en la liza:</l>
+            <l n="882" xml:id="em0779-es-895">Israel fue deshecho por los filisteos,</l>
+            <l n="883" xml:id="em0779-es-896">yacen tus tres hijos tendidos y sin vida.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-108">
+          <speaker>SAÚL</speaker>
+          <lg part="M" type="free">
+            <l n="884" xml:id="em0779-es-897">¡Oh hijos exterminados! ¡Qué nueva tan atroz!</l>
+            <l n="885" xml:id="em0779-es-898">¡En tan breves palabras hallo gran desventura!</l>
+            <l n="886" xml:id="em0779-es-899">¡Cierto es lo que anunció el severo Samuel!</l>
+            <l n="887" xml:id="em0779-es-900">¡Dios, si puedo decirlo, cuánto me eres cruel!</l>
+            <l n="888" xml:id="em0779-es-901">Mis hijos y mis gentes, todos están muertos.</l>
+            <l n="889" xml:id="em0779-es-902">Mas dime, por consuelo, narra cómo ha pasado.</l>
+          </lg>
+        </sp>
+        <sp who="#HOM" xml:id="em0779-es-sp-109">
+          <speaker>EL HOMBRE DE ARMAS</speaker>
+          <lg part="M" type="free">
+            <l n="890" xml:id="em0779-es-903">Vos sabéis, Sire, bien, que el soberbio Aquís</l>
+            <l n="891" xml:id="em0779-es-904">asentó campamento junto al monte Gelboé,</l>
+            <l n="892" xml:id="em0779-es-905">y vuestros hijos junto al pueblo israelita,</l>
+            <l n="893" xml:id="em0779-es-906">quedaron acampados en llano de Jezrael.</l>
+            <l n="894" xml:id="em0779-es-907">En la escaramuza primera se encontraron,</l>
+            <l n="895" xml:id="em0779-es-908">Vuestros hijos con furia atacando al contrario</l>
+            <l n="896" xml:id="em0779-es-909">y pronto la refriega se tornó gran batalla:</l>
+            <l n="897" xml:id="em0779-es-910">sólo se oían gritos, relincho de caballos,</l>
+            <l n="898" xml:id="em0779-es-911">y el río cercano de sangre colorearse</l>
+            <l n="899" xml:id="em0779-es-912">el caer de los muertos y las voces de alarma</l>
+            <l n="900" xml:id="em0779-es-913">un caos de soldados caídos y de gentes de armas.</l>
+            <l n="901" xml:id="em0779-es-914">Cada cual se defiende a su modo y fortuna:</l>
+            <l n="902" xml:id="em0779-es-915">Uno gana, otro pierde, aquel sale triunfante.</l>
+            <l n="903" xml:id="em0779-es-916">La Fortuna un tiempo, su balanza iguala</l>
+            <l n="904" xml:id="em0779-es-917">mas luego, ¡ay, desventura! Por la ira fatal del cielo</l>
+            <l n="905" xml:id="em0779-es-918">que causa desventura, o por no ser nosotros</l>
+            <l n="906" xml:id="em0779-es-919">tantos como el contrario, se inclinó la balanza</l>
+            <l n="907" xml:id="em0779-es-920">E hicimos retirada poco a poco en el campo.</l>
+            <l n="908" xml:id="em0779-es-921">Mas pronto vuestros hijos con exhortos y ruegos</l>
+            <l n="909" xml:id="em0779-es-922">nos alzaron el ánimo, incitando al valor</l>
+            <l n="910" xml:id="em0779-es-923">para ocupar las líneas con el primer vigor;</l>
+            <l n="911" xml:id="em0779-es-924">y así, para animarnos a más fuerza y coraje</l>
+            <l n="912" xml:id="em0779-es-925">van partiendo la escuadra contraria valerosos</l>
+            <l n="913" xml:id="em0779-es-926">con su arrojado brazo. Mas al cabo la suerte</l>
+            <l n="914" xml:id="em0779-es-927">se inclinó contra ellos, cediendo al destino.</l>
+            <l n="915" xml:id="em0779-es-928">Que ya de vuestros hijos solo quedaba entonces</l>
+            <l n="916" xml:id="em0779-es-929">Jonatán, quien sintiendo numerosas heridas,</l>
+            <l n="917" xml:id="em0779-es-930">sin querer retirarse, sangrando generoso,</l>
+            <l n="918" xml:id="em0779-es-931">Sintiendo no el coraje sino la fuerza huir,</l>
+            <l n="919" xml:id="em0779-es-932">Rindió su alma al Cielo con sus gestas heroicas</l>
+            <l n="920" xml:id="em0779-es-933">Entre espadas desnudas, entre miles de lanzas.</l>
+            <l n="921" xml:id="em0779-es-934">En su mano aún tenía la espada reluciente,</l>
+            <l n="922" xml:id="em0779-es-935">con ceño levantado cayó muerto en el sitio,</l>
+            <l n="923" xml:id="em0779-es-936">que antes había sembrado de cuerpos enemigos.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-110">
+          <speaker>SAÚL</speaker>
+          <lg part="M" type="free">
+            <l n="924" xml:id="em0779-es-937">¡Hijos de mis entrañas! ¡Oh, padre desdichado!</l>
+            <l n="925" xml:id="em0779-es-938">¿Tiene que recaer sobre todos vosotros</l>
+            <l n="926" xml:id="em0779-es-939">el peso del castigo de mis propios pecados?</l>
+          </lg>
+        </sp>
+        <sp who="#HOM" xml:id="em0779-es-sp-111">
+          <speaker>EL HOMBRE DE ARMAS</speaker>
+          <lg part="M" type="free">
+            <l n="927" xml:id="em0779-es-940">Viendo que está muerto, nos lanzamos en fuga,</l>
+            <l n="928" xml:id="em0779-es-941">pues ¿quién podía resistir muchedumbres tan fieras?</l>
+            <l n="929" xml:id="em0779-es-942">Unos fueron cercados, otros hechos cautivos,</l>
+            <l n="930" xml:id="em0779-es-943">y pocos escaparon: los demás, destrozados.</l>
+            <l n="931" xml:id="em0779-es-944">Llegan los enemigos, me pisan tras los talones,</l>
+            <l n="932" xml:id="em0779-es-945">si llegan hasta vos, os darán muerte cierta.</l>
+            <l n="933" xml:id="em0779-es-946">Yo buscaré resguardo, salvando mi cabeza.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-112">
+          <speaker>SAÚL</speaker>
+          <lg part="M" type="free">
+            <l n="934" xml:id="em0779-es-947">¿He de huir yo también? ¿Seré cobarde y vil?</l>
+            <l n="935" xml:id="em0779-es-948">¡No, venid, enemigos, dadme presto la muerte!</l>
+            <l n="936" xml:id="em0779-es-949">Que el hierro que mató a mis hijos inocentes</l>
+            <l n="937" xml:id="em0779-es-950">culmine de una vez mis días desgraciados.</l>
+            <l n="938" xml:id="em0779-es-951">¿Cómo, después de mis hijos, viviré criminal?</l>
+            <l n="939" xml:id="em0779-es-952">¿No debiera seguirlos más bien hasta el combate?</l>
+            <l n="940" xml:id="em0779-es-953">¿Para qué vivir más, detestado de Dios,</l>
+            <l n="941" xml:id="em0779-es-954">cercado de miserias, hundido en mil dolores?</l>
+            <l n="942" xml:id="em0779-es-955">¡Muramos y que cumpla Samuel su profecía,</l>
+            <l n="943" xml:id="em0779-es-956">que anunció mi caída dictada por el cielo!</l>
+            <l n="944" xml:id="em0779-es-957">¡Muera yo, muera presto! Y tú, fiel escudero,</l>
+            <l n="945" xml:id="em0779-es-958">que en penas y en ventura me has acompañado,</l>
+            <l n="946" xml:id="em0779-es-959">te ruego, por la lealtad que en ti reconocí,</l>
+            <l n="947" xml:id="em0779-es-960">cumple ahora conmigo el último servicio:</l>
+            <l n="948" xml:id="em0779-es-961">Mátame por piedad, libérame del yugo</l>
+            <l n="949" xml:id="em0779-es-962">que atormenta mi vida con mal insoportable.</l>
+            <l n="950" xml:id="em0779-es-963">He aquí mi blanco pecho, mi cuello o donde quieras:</l>
+            <l n="951" xml:id="em0779-es-964">estoy presto a sufrir el golpe de tu brazo.</l>
+          </lg>
+        </sp>
+        <sp who="#ESC1" xml:id="em0779-es-sp-113">
+          <speaker>EL PRIMER ESCUDERO</speaker>
+          <lg part="M" type="free">
+            <l n="952" xml:id="em0779-es-965">Mas, ¿qué pedís, Señor? ¡Qué dicha para Aquis,</l>
+            <l n="953" xml:id="em0779-es-966">al saber que mi mano, de forma tan cruel</l>
+            <l n="954" xml:id="em0779-es-967">Os habría quitado la vida que defiende</l>
+            <l n="955" xml:id="em0779-es-968">Y le impide triunfar sobre los israelitas!</l>
+            <l n="956" xml:id="em0779-es-969">Él sabe que jamás obtendrá la victoria</l>
+            <l n="957" xml:id="em0779-es-970">Sin vuestra propia muerte y también es consciente</l>
+            <l n="958" xml:id="em0779-es-971">De que vos bien podéis volver a darnos fuerzas.</l>
+            <l n="959" xml:id="em0779-es-972">Pero si vos morís, todo estará perdido,</l>
+            <l n="960" xml:id="em0779-es-973">Sin esperanza alguna, esclavos del filisteo.</l>
+            <l n="961" xml:id="em0779-es-974">¡Vivid, pues no por vos, mas, por el bien común!</l>
+            <l n="962" xml:id="em0779-es-975">Vos podéis otra vez reanudar las batallas;</l>
+            <l n="963" xml:id="em0779-es-976">mas, si el hilo se corta, no se puede anudar.</l>
+            <l n="964" xml:id="em0779-es-977">El sabio no desea su propia destrucción.</l>
+            <l n="965" xml:id="em0779-es-978">Que no sería bueno que fueran a mataros</l>
+            <l n="966" xml:id="em0779-es-979">Y que vuestro cadáver, al escarnio sujeto,</l>
+            <l n="967" xml:id="em0779-es-980">Sirviera de alimento a las bestias y canes,</l>
+            <l n="968" xml:id="em0779-es-981">Y que vuestros despojos encontrados aquí</l>
+            <l n="969" xml:id="em0779-es-982">Honrasen a Astarté, la diosa sanguinaria.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-114">
+          <speaker>SAÚL</speaker>
+          <lg part="M" type="free">
+            <l n="970" xml:id="em0779-es-983">Mis hijos en mi nombre murieron en combate,</l>
+            <l n="971" xml:id="em0779-es-984">¿y no he yo de seguirlos pereciendo también?</l>
+            <l n="972" xml:id="em0779-es-985">¿He de buscar pomposa sepultura real</l>
+            <l n="973" xml:id="em0779-es-986">y dejar a mis hijos en poder de las fieras?</l>
+            <l n="974" xml:id="em0779-es-987">Quizá habrá quien se digne juntarnos en la tumba,</l>
+            <l n="975" xml:id="em0779-es-988">y si los enemigos les ultrajan en muerte,</l>
+            <l n="976" xml:id="em0779-es-989">yo seré compañero fiel de su ignominia.</l>
+            <l n="977" xml:id="em0779-es-990">¿No debo yo al menos sufrir su misma suerte?</l>
+            <l n="978" xml:id="em0779-es-991">Así pues, te suplico procedas a matarme.</l>
+          </lg>
+        </sp>
+        <sp who="#ESC1" xml:id="em0779-es-sp-115">
+          <speaker>EL PRIMER ESCUDERO</speaker>
+          <lg part="M" type="free">
+            <l n="979" xml:id="em0779-es-992">No conviene que caiga vuestra virtud primera</l>
+            <l n="980" xml:id="em0779-es-993">ni que el primer embate de Fortuna la quiebre.</l>
+            <l n="981" xml:id="em0779-es-994">Si no sois vencedor del enemigo en batalla,</l>
+            <l n="982" xml:id="em0779-es-995">con corazón valiente, sedlo de la Fortuna.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-116">
+          <speaker>SAÚL</speaker>
+          <lg part="M" type="free">
+            <l n="983" xml:id="em0779-es-996">¡Oh, cuán feliz sería si no hubiera gustado</l>
+            <l n="984" xml:id="em0779-es-997">el amargo veneno de las glorias reales!</l>
+            <l n="985" xml:id="em0779-es-998">Si quedara en la casa paterna sin peligros</l>
+            <l n="986" xml:id="em0779-es-999">viviera sosegado entre callados campos.</l>
+            <l n="987" xml:id="em0779-es-1000">Mas ya deshecho estoy, desprecio la grandeza;</l>
+            <l n="988" xml:id="em0779-es-1001">devuelvo a tus manos esta corona infame,</l>
+            <l n="989" xml:id="em0779-es-1002">con la que tú me honraste de forma miserable</l>
+            <l n="990" xml:id="em0779-es-1003">Sin haberla pedido, Señor como bien sabes.</l>
+            <l n="991" xml:id="em0779-es-1004">¡Dichosa y más dichosa es la humilde choza</l>
+            <l n="992" xml:id="em0779-es-1005">que nunca está sujeta a los vientos y al rayo!</l>
+          </lg>
+        </sp>
+        <sp who="#ESC1" xml:id="em0779-es-sp-117">
+          <speaker>EL PRIMER ESCUDERO</speaker>
+          <lg part="M" type="free">
+            <l n="993" xml:id="em0779-es-1006">Yo estimo más dichoso aquel hombre escogido,</l>
+            <l n="994" xml:id="em0779-es-1007">que huye de la oscura y sorda multitud,</l>
+            <l n="995" xml:id="em0779-es-1008">y que se ha liberado de la insensata turba,</l>
+            <l n="996" xml:id="em0779-es-1009">para eterno renombre de virtud verdadera,</l>
+            <l n="997" xml:id="em0779-es-1010">como vos, que huyendo de la oscura ignorancia,</l>
+            <l n="998" xml:id="em0779-es-1011">haréis brillar un nombre los siglos venideros,</l>
+            <l n="999" xml:id="em0779-es-1012">y ganaréis con hechos una gloria eterna,</l>
+            <l n="1000" xml:id="em0779-es-1013">que nunca olvidará el siglo por venir.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-118">
+          <speaker>SAÚL</speaker>
+          <lg part="M" type="free">
+            <l n="1001" xml:id="em0779-es-1014">Yo que fui sin defecto, el cielo me alzó alto</l>
+            <l n="1002" xml:id="em0779-es-1015">para después hundirme desde mayor altura.</l>
+            <l n="1003" xml:id="em0779-es-1016">Y nadie hay en el mundo que pruebe más que yo</l>
+            <l n="1004" xml:id="em0779-es-1017">cuán falsa es Fortuna con sus mudanzas súbitas.</l>
+          </lg>
+        </sp>
+        <sp who="#ESC1" xml:id="em0779-es-sp-119">
+          <speaker>EL PRIMER ESCUDERO</speaker>
+          <lg part="M" type="free">
+            <l n="1005" xml:id="em0779-es-1018">Mas Dios, aunque castiga, no siempre es enemigo:</l>
+            <l n="1006" xml:id="em0779-es-1019">también prueba a los buenos, sin dejar de quererlos.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-120">
+          <speaker>SAÚL</speaker>
+          <lg part="M" type="free">
+            <l n="1007" xml:id="em0779-es-1020">¿Querría Dios, por tanto, a los suyos dañar?</l>
+          </lg>
+        </sp>
+        <sp who="#ESC1" xml:id="em0779-es-sp-121">
+          <speaker>EL PRIMER ESCUDERO</speaker>
+          <lg part="M" type="free">
+            <l n="1008" xml:id="em0779-es-1021">Solamente lo haría para sondar su alma:</l>
+            <l n="1009" xml:id="em0779-es-1022">Así tentó a Abraham entregando a su hijo,</l>
+            <l n="1010" xml:id="em0779-es-1023">así a nuestro ancestro, que feliz encontró</l>
+            <l n="1011" xml:id="em0779-es-1024">A José con honores; mas, en la incertidumbre,</l>
+            <l n="1012" xml:id="em0779-es-1025">mientras sobrevivían bajo la dura angustia,</l>
+            <l n="1013" xml:id="em0779-es-1026">Ante la adversidad, más duros que la roca</l>
+            <l n="1014" xml:id="em0779-es-1027">Contra el viento y los mares se mostraban al fin.</l>
+            <l n="1015" xml:id="em0779-es-1028">No os dejéis abatir por golpes de fortuna</l>
+            <l n="1016" xml:id="em0779-es-1029">Esperad, porque siempre llega la hora oportuna</l>
+            <l n="1017" xml:id="em0779-es-1030">Controlando constante la inconstancia del hado</l>
+            <l n="1018" xml:id="em0779-es-1031">Mostrad que realmente, vuestra alma es bien fuerte.</l>
+            <l n="1019" xml:id="em0779-es-1032">Dios, quizás, si os viera con una fuerte constancia</l>
+            <l n="1020" xml:id="em0779-es-1033">Os haría llegar al fin de los trabajos.</l>
+            <l n="1021" xml:id="em0779-es-1034">¡Atrás, esperanza! Sólo una muerte pronta</l>
+            <l n="1022" xml:id="em0779-es-1035">Podrá poner el término a mis profundas penas.</l>
+          </lg>
+        </sp>
+        <sp who="#ESC1" xml:id="em0779-es-sp-122">
+          <speaker>EL PRIMER ESCUDERO</speaker>
+          <lg part="M" type="free">
+            <l n="1023" xml:id="em0779-es-1036">Pues si la sabéis cierta, huid la hora fatal.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-123">
+          <speaker>SAÚL</speaker>
+          <lg part="M" type="free">
+            <l n="1024" xml:id="em0779-es-1037">Cual un varón magnánimo la quiero enfrentar.</l>
+          </lg>
+        </sp>
+        <sp who="#ESC1" xml:id="em0779-es-sp-124">
+          <speaker>EL PRIMER ESCUDERO</speaker>
+          <lg part="M" type="free">
+            <l n="1025" xml:id="em0779-es-1038">¿Por qué pues despreciáis aliento de esperanza?</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-125">
+          <speaker>SAÚL</speaker>
+          <lg part="M" type="free">
+            <l n="1026" xml:id="em0779-es-1039">Porque ya no la puedo en mi alma hospedar.</l>
+          </lg>
+        </sp>
+        <sp who="#ESC1" xml:id="em0779-es-sp-126">
+          <speaker>EL PRIMER ESCUDERO</speaker>
+          <lg part="M" type="free">
+            <l n="1027" xml:id="em0779-es-1040">Quizá otra vez Fortuna os sea más favorable.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-127">
+          <speaker>SAÚL</speaker>
+          <lg part="M" type="free">
+            <l n="1028" xml:id="em0779-es-1041">Desgraciado es quien funda su fe en la Fortuna.</l>
+            <l n="1029" xml:id="em0779-es-1042">Te ruego, pues, de nuevo que agarres tu espada</l>
+            <l n="1030" xml:id="em0779-es-1043">Y que hagas de mi cuerpo saltar esta cabeza.</l>
+            <l n="1031" xml:id="em0779-es-1044">Así no te podrá atormentar este duelo</l>
+            <l n="1032" xml:id="em0779-es-1045">Pues mejor soberano vendrá después de mi.</l>
+            <l n="1033" xml:id="em0779-es-1046">Témome que los viles incircuncisos tengan</l>
+            <l n="1034" xml:id="em0779-es-1047">con risa vergonzosa la gloria de matarme.</l>
+          </lg>
+        </sp>
+        <sp who="#ESC1" xml:id="em0779-es-sp-128">
+          <speaker>EL PRIMER ESCUDERO.</speaker>
+          <lg part="M" type="free">
+            <l n="1035" xml:id="em0779-es-1048">Prefiero que el gran Dios me hienda la cabeza</l>
+            <l n="1036" xml:id="em0779-es-1049">con su brillante rayo, antes que yo atreverme</l>
+            <l n="1037" xml:id="em0779-es-1050">a tocar esta cabeza ungida, que Dios mismo estimó</l>
+            <l n="1038" xml:id="em0779-es-1051">y que ni el enemigo osó jamás tocar.</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-129">
+          <speaker>SAÚL.</speaker>
+          <lg part="M" type="free">
+            <l n="1039" xml:id="em0779-es-1052">¿Eres escrupuloso? ¿Qué temes si me niegas</l>
+            <l n="1040" xml:id="em0779-es-1053">compasión verdadera con falsa compasión?</l>
+            <l n="1041" xml:id="em0779-es-1054">Pues bien, como no quieres herirme con tus manos</l>
+            <l n="1042" xml:id="em0779-es-1055">Usaré contra Aquís y contra mí las mías:</l>
+            <l n="1043" xml:id="em0779-es-1056">levantaré a mi pueblo y le daré coraje</l>
+            <l n="1044" xml:id="em0779-es-1057">lanzaré aún mi carga, contra el pueblo enemigo.</l>
+            <l n="1045" xml:id="em0779-es-1058">No quiero, rebajando mi alta majestad,</l>
+            <l n="1046" xml:id="em0779-es-1059">evitar el destino que ya está prefijado.</l>
+            <l n="1047" xml:id="em0779-es-1060">Quiero valientemente morir por esta patria,</l>
+            <l n="1048" xml:id="em0779-es-1061">quiero ganarme gloria vendiendo cara el alma.</l>
+            <l n="1049" xml:id="em0779-es-1062">Que si mi acero abate multitud de enemigos,</l>
+            <l n="1050" xml:id="em0779-es-1063">mis manos, no pies pies – si me hicieran cautivo-</l>
+            <l n="1051" part="I" xml:id="em0779-es-1064">Cumplirán su deber.</l>
+          </lg>
+        </sp>
+        <sp who="#ESC1" xml:id="em0779-es-sp-130">
+          <speaker>EL PRIMER ESCUDERO.</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0779-es-1065">¡Ay, qué temblor me entra!</l>
+            <l n="1052" part="I" xml:id="em0779-es-1066">¿Queréis vos daros muerte?</l>
+          </lg>
+        </sp>
+        <sp who="#Saúl" xml:id="em0779-es-sp-131">
+          <speaker>SAÚL.</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0779-es-1067">Escucho yo a mis hijos</l>
+            <l n="1053" xml:id="em0779-es-1068">que ya desde lo alto me llaman con sus voces.</l>
+            <l n="1054" part="I" xml:id="em0779-es-1069">¡Oh, hijos, voy con vos!</l>
+          </lg>
+        </sp>
+        <sp who="#ESC1" xml:id="em0779-es-sp-132">
+          <speaker>EL PRIMER ESCUDERO</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0779-es-1070">¿Dónde vais? ¡Ay, Señor!</l>
+            <l n="1055" xml:id="em0779-es-1071">Ora quiera morir, ora quiera vivir</l>
+            <l n="1056" xml:id="em0779-es-1072">O irse a los infiernos, siempre le seguiré.</l>
+            <l n="1057" xml:id="em0779-es-1073">¿Querrá pues combatir para después morir?</l>
+            <l n="1058" xml:id="em0779-es-1074">Tras vos caminaré, no os dejaré jamás.</l>
+          </lg>
+        </sp>
+        <sp who="#ESC2" xml:id="em0779-es-sp-133">
+          <speaker>EL SEGUNDO ESCUDERO</speaker>
+          <lg part="M" type="free">
+            <l n="1059" xml:id="em0779-es-1075">¡Oh, Rey, bien manifiestas heroico corazón,</l>
+            <l n="1060" xml:id="em0779-es-1076">pues no huyes de la muerte por el bien de tu pueblo!</l>
+            <l n="1061" xml:id="em0779-es-1077">¡Oh príncipe valiente, que vas a la batalla</l>
+            <l n="1062" xml:id="em0779-es-1078">Donde espera tu muerte! Los que van a la guerra</l>
+            <l n="1063" xml:id="em0779-es-1079">En pos de la victoria menos honor merecen</l>
+            <l n="1064" xml:id="em0779-es-1080">Que él, cuya muerte sabe le espera en la pelea</l>
+            <l n="1065" xml:id="em0779-es-1081">Contra el Palestino, a la que va resuelto.</l>
+            <l n="1066" xml:id="em0779-es-1082">Vos, reyes ambiciosos, mirad en este ejemplo</l>
+            <l n="1067" xml:id="em0779-es-1083">cuánta fuerza requiere dar la vida a la patria</l>
+            <l n="1068" xml:id="em0779-es-1084">despreciando el peligro y la muerte segura.</l>
+            <l n="1069" xml:id="em0779-es-1085">Por mí no me detengo: lo sigo paso a paso,</l>
+            <l n="1070" xml:id="em0779-es-1086">y si muero con él, será gloria segura.</l>
+          </lg>
+        </sp>
+        <sp who="#COR" xml:id="em0779-es-sp-134">
+          <speaker>Coro de los Levitas.</speaker>
+          <lg part="F" type="free">
+            <l n="1071" xml:id="em0779-es-1087">¡Oh rey desgraciado!</l>
+            <l n="1072" xml:id="em0779-es-1088">¿Eres tan riguroso</l>
+            <l n="1073" xml:id="em0779-es-1089">Y tan rebelde eres</l>
+            <l n="1074" xml:id="em0779-es-1090">Para alzar tu mano</l>
+            <l n="1075" xml:id="em0779-es-1091">Contra tu propio ser</l>
+            <l n="1076" xml:id="em0779-es-1092">Torciendo tu destino?</l>
+            <l n="1077" xml:id="em0779-es-1093">¿Tan cobarde es tu alma</l>
+            <l n="1078" xml:id="em0779-es-1094">Que no sabe aguantar</l>
+            <l n="1079" xml:id="em0779-es-1095">Las desgracias comunes?</l>
+            <l n="1080" xml:id="em0779-es-1096">¿Quieres pues, por despecho</l>
+            <l n="1081" xml:id="em0779-es-1097">Desaliento o manía</l>
+            <l n="1082" xml:id="em0779-es-1098">Romper la harmonía</l>
+            <l n="1083" xml:id="em0779-es-1099">Que Dios en ti ha formado,</l>
+            <l n="1084" xml:id="em0779-es-1100">No habiendo obra más contraria</l>
+            <l n="1085" xml:id="em0779-es-1101">A las leyes de Natura</l>
+            <l n="1086" xml:id="em0779-es-1102">Que atentar contra uno mismo?</l>
+            <l n="1087" xml:id="em0779-es-1103">Sin el permiso de Dios</l>
+            <l n="1088" xml:id="em0779-es-1104">No debe el alma del cuerpo</l>
+            <l n="1089" xml:id="em0779-es-1105">Separarse: así, el soldado</l>
+            <l n="1090" xml:id="em0779-es-1106">Nunca parte de la guerra</l>
+            <l n="1091" xml:id="em0779-es-1107">Sin orden del capitán.</l>
+            <l n="1092" xml:id="em0779-es-1108">¡Pero huyamos de aquí,</l>
+            <l n="1093" xml:id="em0779-es-1109">que es tierra detestable,</l>
+            <l n="1094" xml:id="em0779-es-1110">para siempre execrable!</l>
+            <l n="1095" xml:id="em0779-es-1111">¡Este lugar miserable</l>
+            <l n="1096" xml:id="em0779-es-1112">en el que hoy yacen muertas</l>
+            <l n="1097" xml:id="em0779-es-1113">Gentes fuertes y valientes!</l>
+            <l n="1098" xml:id="em0779-es-1114">¿Qué galardón tendrán</l>
+            <l n="1099" xml:id="em0779-es-1115">los hombres de Israel,</l>
+            <l n="1100" xml:id="em0779-es-1116">muertos en esta guerra,</l>
+            <l n="1101" xml:id="em0779-es-1117">sino luto, sollozo,</l>
+            <l n="1102" xml:id="em0779-es-1118">suspiros y querellas,</l>
+            <l n="1103" xml:id="em0779-es-1119">como de esos padres tristes</l>
+            <l n="1104" xml:id="em0779-es-1120">sobre hijos moribundos?</l>
+            <l n="1105" xml:id="em0779-es-1121">Oh valerosos soldados</l>
+            <l n="1106" xml:id="em0779-es-1122">caídos en las alarmas,</l>
+            <l n="1107" xml:id="em0779-es-1123">puesto que más no podemos</l>
+            <l n="1108" xml:id="em0779-es-1124">ofreceros como pago,</l>
+            <l n="1109" xml:id="em0779-es-1125">recibid de nuestra parte</l>
+            <l n="1110" xml:id="em0779-es-1126">estas quejas y suspiros</l>
+            <l n="1111" xml:id="em0779-es-1127">estas lágrimas sagradas,</l>
+            <l n="1112" xml:id="em0779-es-1128">como las de aquellos padres</l>
+            <l n="1113" xml:id="em0779-es-1129">sobre el muriente heredero.</l>
+          </lg>
+        </sp>
+      </div1>
+      <div1 n="5" type="act">
+        <head>Acto quinto</head>
+        <stage xml:id="em0779-es-st-10">Un soldado amalecita, solo.</stage>
+        <sp who="#SOL" xml:id="em0779-es-sp-135">
+          <speaker>EL SOLDADO</speaker>
+          <lg part="M" type="free">
+            <l n="1114" xml:id="em0779-es-1130">{v} ¡Qué lástima mirar la nación devastada,</l>
+            <l n="1115" xml:id="em0779-es-1131">¡Qué lástima da ver al pueblo fugitivo!</l>
+            <l n="1116" xml:id="em0779-es-1132">Los perros que se cebaban devorando los cuerpos,</l>
+            <l n="1117" xml:id="em0779-es-1133">y los campos sembrados de cadáveres fríos,</l>
+            <l n="1118" xml:id="em0779-es-1134">otros aún gimiendo con el aliento roto,</l>
+            <l n="1119" xml:id="em0779-es-1135">como en el campo aquel de donde ahora vengo,</l>
+            <l n="1120" xml:id="em0779-es-1136">y de donde he sacado este botín precioso,</l>
+            <l n="1121" xml:id="em0779-es-1137">pues corrí hacia allí con tales intenciones.</l>
+            <l n="1122" xml:id="em0779-es-1138">Qué pena contemplar la gloria enloquecida</l>
+            <l n="1123" xml:id="em0779-es-1139">de los que hoy triunfaron al filo de la espada,</l>
+            <l n="1124" xml:id="em0779-es-1140">y ver allí en el medio al propio rey Aquís</l>
+            <l n="1125" xml:id="em0779-es-1141">Blasfemar – desdichado- contra Dios y Saúl;</l>
+            <l n="1126" xml:id="em0779-es-1142">Y ver el grito, el ruido, la alegría y el canto</l>
+            <l n="1127" xml:id="em0779-es-1143">Que en torno a las hogueras entonan festejando,</l>
+            <l n="1128" xml:id="em0779-es-1144">clamando que es hoy día vencedor de Saúl</l>
+            <l n="1129" xml:id="em0779-es-1145">A pesar de su Dios y del propio Saúl.</l>
+            <l n="1130" xml:id="em0779-es-1146">Que inútilmente Dios en el cielo reside,</l>
+            <l n="1131" xml:id="em0779-es-1147">pues ni guardó a su pueblo ni a su propio ungido.</l>
+            <l n="1132" xml:id="em0779-es-1148">Él dice que no es más que simple ídolo vano</l>
+            <l n="1133" xml:id="em0779-es-1149">como el dios Astarté, y que en su falso altar</l>
+            <l n="1134" xml:id="em0779-es-1150">colocará las armas y cabeza del rey.</l>
+            <l n="1135" xml:id="em0779-es-1151">Pero ¿qué veo aquí? Es David, el hebreo,</l>
+            <l n="1136" xml:id="em0779-es-1152">que viene victorioso del burgo de Siceleg</l>
+            <l n="1137" xml:id="em0779-es-1153">Del que antes escapé, donde arrasó a mis hermanos.</l>
+            <l n="1138" xml:id="em0779-es-1154">Callándome esto, me acerco a presentarle</l>
+            <l n="1139" xml:id="em0779-es-1155">lo que a Saúl acabo de quitarle a toda prisa</l>
+            <l n="1140" xml:id="em0779-es-1156">Para dones recibir o ganarme su gracia.</l>
+            <l n="1141" xml:id="em0779-es-1157">Viene al punto, le diré con mentirosa voz</l>
+            <l n="1142" xml:id="em0779-es-1158">Que yo fui el propio autor del asesinato real.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0779-es-st-11">David y el soldado amalecita.</stage>
+        <sp who="#DAV" xml:id="em0779-es-sp-136">
+          <speaker>DAVID</speaker>
+          <lg part="M" type="free">
+            <l n="1143" xml:id="em0779-es-1159">¡Por fin la raza vil de Amalec ha caído,</l>
+            <l n="1144" xml:id="em0779-es-1160">sintiendo en carne propia la fuerza de mi brazo!</l>
+            <l n="1145" xml:id="em0779-es-1161">Así perezcan todos los ladrones infames.</l>
+            <l n="1146" xml:id="em0779-es-1162">Mas ¿quién podría darte gracias que sean tan dignas</l>
+            <l n="1147" xml:id="em0779-es-1163">Como los altos bienes que sobre ti sostienes?</l>
+            <l n="1148" xml:id="em0779-es-1164">Mas ¿quién eres tú, que vienes hacia mí?</l>
+          </lg>
+        </sp>
+        <sp who="#SOL" xml:id="em0779-es-sp-137">
+          <speaker>EL SOLDADO</speaker>
+          <lg part="M" type="free">
+            <l n="1149" xml:id="em0779-es-1165">Soy, Señor, un soldado de las huestes de Amalec,</l>
+            <l n="1150" xml:id="em0779-es-1166">y vengo ahora mismo del campo israelita</l>
+            <l n="1151" xml:id="em0779-es-1167">para entregarte, postrado, la corona de su Rey.</l>
+          </lg>
+        </sp>
+        <sp who="#DAV" xml:id="em0779-es-sp-138">
+          <speaker>DAVID</speaker>
+          <lg part="M" type="free">
+            <l n="1152" part="I" xml:id="em0779-es-1168">¿De qué rey me hablas?</l>
+          </lg>
+        </sp>
+        <sp who="#SOL" xml:id="em0779-es-sp-139">
+          <speaker>EL SOLDADO</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0779-es-1169">De Saúl, vuestro suegro,</l>
+            <l n="1153" xml:id="em0779-es-1170">Tan odiado por vos, que acaba de morir</l>
+            <l n="1154" xml:id="em0779-es-1171">En el mismo combate en el que el día de hoy</l>
+            <l n="1155" xml:id="em0779-es-1172">ha muerto con él todo el pueblo de Israel.</l>
+            <l n="1156" xml:id="em0779-es-1173">Al hallarse cercado, herido de mil llagas,</l>
+            <l n="1157" xml:id="em0779-es-1174">intentó darse muerte cayendo en su espada,</l>
+            <l n="1158" xml:id="em0779-es-1175">mas no tuvo vigor para hundirla en su seno.</l>
+            <l n="1159" xml:id="em0779-es-1176">Al verme tan cercano, conociendo mi origen,</l>
+            <l n="1160" xml:id="em0779-es-1177">me rogó que ayudara a cumplir su deseo:</l>
+            <l n="1161" xml:id="em0779-es-1178">«No permitas —me dijo— que incircuncisos viles</l>
+            <l n="1162" xml:id="em0779-es-1179">tomen con vida mi cuerpo y me ultrajen con crueldad.»</l>
+            <l n="1163" xml:id="em0779-es-1180">Entonces compadecido, viendo su mal estado,</l>
+            <l n="1164" xml:id="em0779-es-1181">viendo también la angustia que estaba soportando</l>
+            <l n="1165" xml:id="em0779-es-1182">al ver que el enemigo le perseguía con saña,</l>
+            <l n="1166" xml:id="em0779-es-1183">yo lo maté y lo hice desplomarse al punto</l>
+            <l n="1167" xml:id="em0779-es-1184">sobre el cadáver aún sangrante de Jonatán.</l>
+          </lg>
+        </sp>
+        <sp who="#DAV" xml:id="em0779-es-sp-140">
+          <speaker>DAVID</speaker>
+          <lg part="M" type="free">
+            <l n="1168" xml:id="em0779-es-1185">¿Saúl, muerto? ¿puede ser tal noticia posible?</l>
+            <l n="1169" xml:id="em0779-es-1186">¡oh, desgracia fatal!, ¡Oh, fortuna cruel!</l>
+            <l n="1170" xml:id="em0779-es-1187">No quiero yo vivir tras mi señor Saúl,</l>
+            <l n="1171" xml:id="em0779-es-1188">de quien recibí bienes, favores y honores.</l>
+          </lg>
+        </sp>
+        <sp who="#SOL" xml:id="em0779-es-sp-141">
+          <speaker>EL SOLDADO</speaker>
+          <lg part="M" type="free">
+            <l n="1172" xml:id="em0779-es-1189">Mas, Señor, ¿por qué rasgáis vuestras ropas de tal modo?</l>
+            <l n="1173" xml:id="em0779-es-1190">¿No tomó muchas veces las armas contra vos?</l>
+          </lg>
+        </sp>
+        <sp who="#DAV" xml:id="em0779-es-sp-142">
+          <speaker>DAVID</speaker>
+          <lg part="M" type="free">
+            <l n="1174" xml:id="em0779-es-1191">Fue espíritu maligno quien turbara su seso,</l>
+            <l n="1175" xml:id="em0779-es-1192">mas de naturaleza fue siempre hombre piadoso.</l>
+            <l n="1176" xml:id="em0779-es-1193">Jamás reinó en la tierra monarca tan benigno.</l>
+          </lg>
+        </sp>
+        <sp who="#SOL" xml:id="em0779-es-sp-143">
+          <speaker>EL SOLDADO</speaker>
+          <lg part="M" type="free">
+            <l n="1177" xml:id="em0779-es-1194">Mas él era, en verdad, enemigo mortal.</l>
+          </lg>
+        </sp>
+        <sp who="#DAV" xml:id="em0779-es-sp-144">
+          <speaker>DAVID</speaker>
+          <lg part="M" type="free">
+            <l n="1178" xml:id="em0779-es-1195">Nunca jamás lo tuve yo por tal enemigo.</l>
+            <l n="1179" xml:id="em0779-es-1196">Mas tú, cruel deslamado, ¿no temiste tu mano</l>
+            <l n="1180" xml:id="em0779-es-1197">alzar sobre el ungido con óleo celestial?</l>
+            <l n="1181" xml:id="em0779-es-1198">¿No respetaste al hombre que Dios nos entregó?</l>
+            <l n="1182" xml:id="em0779-es-1199">Yo mismo, aunque acosado, nunca osé herirle.</l>
+            <l n="1183" xml:id="em0779-es-1200">Y tú, extranjero vil, amalecita impuro,</l>
+            <l n="1184" xml:id="em0779-es-1201">te jactas de su muerte, ¡blasfemia abominable!</l>
+          </lg>
+        </sp>
+        <sp who="#SOL" xml:id="em0779-es-sp-145">
+          <speaker>EL SOLDADO</speaker>
+          <lg part="M" type="free">
+            <l n="1185" xml:id="em0779-es-1202">Señor él se encontraba de filisteos cercado,</l>
+            <l n="1186" xml:id="em0779-es-1203">Con una angustia tal de verse capturado</l>
+            <l n="1187" xml:id="em0779-es-1204">Por el pueblo enemigo, o aún asesinado,</l>
+            <l n="1188" xml:id="em0779-es-1205">Que se iba a matar con sus propias manos</l>
+            <l n="1189" xml:id="em0779-es-1206">para ponerle fin a sus penas extremas.</l>
+            <l n="1190" xml:id="em0779-es-1207">Yo evité, piadoso, que él se diera muerte.</l>
+          </lg>
+        </sp>
+        <sp who="#DAV" xml:id="em0779-es-sp-146">
+          <speaker>DAVID</speaker>
+          <lg part="M" type="free">
+            <l n="1191" xml:id="em0779-es-1208">¡Calla ya, servidores, prendedle y matadlo!</l>
+            <l n="1192" xml:id="em0779-es-1209">¡Que muera sin demora quien osó tal delito!</l>
+          </lg>
+        </sp>
+        <sp who="#SOL" xml:id="em0779-es-sp-147">
+          <speaker>EL SOLDADO</speaker>
+          <lg part="M" type="free">
+            <l n="1193" xml:id="em0779-es-1210">¡Ay, Señor, qué delito cometí yo tan grave?</l>
+          </lg>
+        </sp>
+        <sp who="#DAV" xml:id="em0779-es-sp-148">
+          <speaker>DAVID</speaker>
+          <lg part="M" type="free">
+            <l n="1194" xml:id="em0779-es-1211">El haberte manchado con la sangre de Cristo.</l>
+          </lg>
+        </sp>
+        <sp who="#SOL" xml:id="em0779-es-sp-149">
+          <speaker>EL SOLDADO</speaker>
+          <lg part="M" type="free">
+            <l n="1195" xml:id="em0779-es-1212">¿Y debo yo sufrir la muerte más cruel</l>
+            <l n="1196" xml:id="em0779-es-1213">Pour el dolor causado al dar una noticia?</l>
+            <l n="1197" xml:id="em0779-es-1214">No hubo rencor en mí al dar fin a su vida,</l>
+            <l n="1198" xml:id="em0779-es-1215">sino deseo de serle en su dolor benéfico,</l>
+            <l n="1199" xml:id="em0779-es-1216">y quizá de ganarme siquiera vuestra gracia.</l>
+          </lg>
+        </sp>
+        <sp who="#DAV" xml:id="em0779-es-sp-150">
+          <speaker>DAVID</speaker>
+          <lg part="M" type="free">
+            <l n="1200" part="I" xml:id="em0779-es-1217">Tu lengua en vano clama.</l>
+          </lg>
+        </sp>
+        <sp who="#SOL" xml:id="em0779-es-sp-151">
+          <speaker>EL SOLDADO</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0779-es-1218">Piedad, Señor, te ruego</l>
+            <l n="1201" xml:id="em0779-es-1219">por el Dios de los Cielos, padre del Universo,</l>
+            <l n="1202" xml:id="em0779-es-1220">pido perdón y espero que todos os estimen</l>
+            <l n="1203" xml:id="em0779-es-1221">y también que el Señor en todo os favorezca;</l>
+            <l n="1204" xml:id="em0779-es-1222">que el cetro en vuestras manos al pueblo haga presto</l>
+            <l n="1205" xml:id="em0779-es-1223">someterse a las leyes que vos le dictaréis.</l>
+            <l n="1206" xml:id="em0779-es-1224">¡No he sido yo – os lo juro- quien le causó herida!</l>
+            <l n="1207" xml:id="em0779-es-1225">¡Él se mató, él mismo se manchó con su sangre</l>
+            <l n="1208" part="I" xml:id="em0779-es-1226">Que yo no lo maté!</l>
+          </lg>
+        </sp>
+        <sp who="#DAV" xml:id="em0779-es-sp-152">
+          <speaker>DAVID</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0779-es-1227">Infame desgraciado</l>
+            <l n="1209" xml:id="em0779-es-1228">Con otras mentiras excusas tus mentiras.</l>
+          </lg>
+        </sp>
+        <sp who="#SOL" xml:id="em0779-es-sp-153">
+          <speaker>EL SOLDADO</speaker>
+          <lg part="M" type="free">
+            <l n="1210" xml:id="em0779-es-1229">Mis mentiras no causan ningún daño.</l>
+          </lg>
+        </sp>
+        <sp who="#DAV" xml:id="em0779-es-sp-154">
+          <speaker>DAVID</speaker>
+          <lg part="M" type="free">
+            <l n="1211" xml:id="em0779-es-1230">No hay nada peor que las falsas mentiras.</l>
+          </lg>
+        </sp>
+        <sp who="#SOL" xml:id="em0779-es-sp-155">
+          <speaker>EL SOLDADO</speaker>
+          <lg part="M" type="free">
+            <l n="1212" xml:id="em0779-es-1231">Bien, me equivoqué; pero no hay en la tierra</l>
+            <l n="1213" xml:id="em0779-es-1232">Nadie que al menos en una ocasión yerra.</l>
+          </lg>
+        </sp>
+        <sp who="#DAV" xml:id="em0779-es-sp-156">
+          <speaker>DAVID</speaker>
+          <lg part="M" type="free">
+            <l n="1214" xml:id="em0779-es-1233">Debes abandonar esas palabras vanas.</l>
+          </lg>
+        </sp>
+        <sp who="#SOL" xml:id="em0779-es-sp-157">
+          <speaker>EL SOLDADO</speaker>
+          <lg part="M" type="free">
+            <l n="1215" xml:id="em0779-es-1234">No os ofendí en nada y si encontráis ofensa</l>
+            <l n="1216" xml:id="em0779-es-1235">Sed conmigo paciente y otorgadme la gracia.</l>
+          </lg>
+        </sp>
+        <sp who="#DAV" xml:id="em0779-es-sp-158">
+          <speaker>DAVID</speaker>
+          <lg part="M" type="free">
+            <l n="1217" part="I" xml:id="em0779-es-1236">Hablas tú sin razón.</l>
+          </lg>
+        </sp>
+        <sp who="#SOL" xml:id="em0779-es-sp-159">
+          <speaker>EL SOLDADO</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0779-es-1237">Aunque de nada sirva</l>
+            <l n="1218" xml:id="em0779-es-1238">No moriré aquí con mi lengua servil.</l>
+            <l n="1219" xml:id="em0779-es-1239">Hombre cruel, incivil, riguroso e injusto</l>
+            <l n="1220" xml:id="em0779-es-1240">Que en el horror de un antro tenebroso</l>
+            <l n="1221" xml:id="em0779-es-1241">Junto a la blanca leche mamaste negra rabia</l>
+            <l n="1222" xml:id="em0779-es-1242">de una fiera leona. Malvado y perverso</l>
+            <l n="1223" xml:id="em0779-es-1243">no eres el hombre cortés del que tanto se habla</l>
+            <l n="1224" xml:id="em0779-es-1244">mas, guardo la esperanza de que tu tiranía</l>
+            <l n="1225" xml:id="em0779-es-1245">jamás quede impune. Y le ruego a Dios</l>
+            <l n="1226" xml:id="em0779-es-1246">el que todo lo observa, que tu orgullo ataque</l>
+            <l n="1227" xml:id="em0779-es-1247">y si un día eres rey por destino celeste</l>
+            <l n="1228" xml:id="em0779-es-1248">que el hambre y que la peste así como la guerra</l>
+            <l n="1229" xml:id="em0779-es-1249">infecten tu país y que tus propios hijos</l>
+            <l n="1230" part="I" xml:id="em0779-es-1250">contra ti se levanten.</l>
+          </lg>
+        </sp>
+        <sp who="#DAV" xml:id="em0779-es-sp-160">
+          <speaker>DAVID</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0779-es-1251">Anda, hombre perverso</l>
+            <l n="1231" xml:id="em0779-es-1252">Despídete del mundo que ésta es tu última luz.</l>
+            <l n="1232" xml:id="em0779-es-1253">¡y vosotros, amigos, con puñal afilado</l>
+            <l n="1233" xml:id="em0779-es-1254">Enviadlo con saña a ladrar a otra parte!</l>
+            <l n="1234" xml:id="em0779-es-1255">Caiga sobre tu testa la sangre y el ultraje</l>
+            <l n="1235" xml:id="em0779-es-1256">Por haber levantado contra ti testimonio.</l>
+          </lg>
+        </sp>
+        <stage xml:id="em0779-es-st-12">David y el Segundo Escudero</stage>
+        <sp who="#ESC2" xml:id="em0779-es-sp-161">
+          <speaker>EL SEGUNDO ESCUDERO</speaker>
+          <lg part="M" type="free">
+            <l n="1236" xml:id="em0779-es-1257">¡Oh pérdida fatal, oh reino de Israel</l>
+            <l n="1237" xml:id="em0779-es-1258">Hoy pierdes a tu príncipe, lleno de desconsuelo!</l>
+            <l n="1238" xml:id="em0779-es-1259">¡Fortuna mutable, traidora y lisonjera,</l>
+            <l n="1239" xml:id="em0779-es-1260">bien claro nos demuestras que tu rueda es variable!</l>
+            <l n="1240" xml:id="em0779-es-1261">Puesto que el hombre aquél al que tanto alzaste</l>
+            <l n="1241" xml:id="em0779-es-1262">Ha sido rebajado por ti hasta los infiernos:</l>
+            <l n="1242" xml:id="em0779-es-1263">Hablo de Saúl, al cual de la nada hiciste rey,</l>
+            <l n="1243" xml:id="em0779-es-1264">Y casi un dios terrestre rozando las estrellas.</l>
+            <l n="1244" xml:id="em0779-es-1265">Ahora lo has hundido y el mismo se destruye</l>
+            <l n="1245" xml:id="em0779-es-1266">Viendo cómo su imperio tanto como él mismo</l>
+            <l n="1246" xml:id="em0779-es-1267">En un día se extinguen disueltos en la nada.</l>
+            <l n="1247" xml:id="em0779-es-1268">¡Oh, pobre rey, que das un ejemplo excelente</l>
+            <l n="1248" xml:id="em0779-es-1269">De que un rey no es nada, ni un reino tampoco!</l>
+            <l n="1249" xml:id="em0779-es-1270">Que uno no debe alzar su voz contra el poder</l>
+            <l n="1250" xml:id="em0779-es-1271">Ni mendigar honores a impía tiranía,</l>
+            <l n="1251" xml:id="em0779-es-1272">Ya que eso mismo ha hecho que tú pierdas la vida.</l>
+            <l n="1252" xml:id="em0779-es-1273">¿Mas no es David acaso aquel que ven mis ojos</l>
+            <l n="1253" xml:id="em0779-es-1274">blandiendo la corona del ya difunto rey?</l>
+            <l n="1254" part="I" xml:id="em0779-es-1275">¡Cómo la está observando!</l>
+          </lg>
+        </sp>
+        <sp who="#DAV" xml:id="em0779-es-sp-162">
+          <speaker>DAVID</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0779-es-1276">¡Corona fastuosa!</l>
+            <l n="1255" xml:id="em0779-es-1277">¡Corona que resultas más bella que dichosa!</l>
+            <l n="1256" xml:id="em0779-es-1278">Quien conociera el mal que sufren los que, fieles,</l>
+            <l n="1257" xml:id="em0779-es-1279">te portan en su testa, no querría por nada</l>
+            <l n="1258" xml:id="em0779-es-1280">tu porte ni tu gloria como hacen ahora:</l>
+            <l n="1259" xml:id="em0779-es-1281">Antes bien, si te hallara orgullosa en mi camino,</l>
+            <l n="1260" xml:id="em0779-es-1282">no querría alzarte ni honrar tu destino.</l>
+            <l n="1261" xml:id="em0779-es-1283">Mas llega ya un criado del antiguo monarca;</l>
+            <l n="1262" xml:id="em0779-es-1284">quizá sabe del rey, de su suerte y desgracia.</l>
+            <l n="1263" xml:id="em0779-es-1285">Veamos si conoce la ruina del poder.</l>
+            <l n="1264" xml:id="em0779-es-1286">¡Oh triste amigo mío! ¿De dónde vienes tú?</l>
+            <stage xml:id="em0779-es-st-13">(Entra el Segundo Escudero del rey Saúl, superviviente del combate.)</stage>
+            <l n="1265" part="I" xml:id="em0779-es-1287">EL SEGUNDO ESCUDERO Del campo de batalla.</l>
+            <l part="F" xml:id="em0779-es-1288">DAVID Y bien, ¿qué nuevas traes?</l>
+          </lg>
+        </sp>
+        <sp who="#ESC2" xml:id="em0779-es-sp-163">
+          <speaker>EL SEGUNDO ESCUDERO</speaker>
+          <lg part="M" type="free">
+            <l n="1266" xml:id="em0779-es-1289">Muerto cayó Saúl, de muerte miserable;</l>
+            <l n="1267" xml:id="em0779-es-1290">pues no pudo encontrar un brazo que, asesino,</l>
+            <l n="1268" xml:id="em0779-es-1291">Diese fin a sus días, así como a sus males</l>
+            <l n="1269" xml:id="em0779-es-1292">No tuvo más remedio que con su propia mano</l>
+            <l n="1270" xml:id="em0779-es-1293">Darle fin a sus días, oficio lamentable.</l>
+          </lg>
+        </sp>
+        <sp who="#DAV" xml:id="em0779-es-sp-164">
+          <speaker>DAVID</speaker>
+          <lg part="M" type="free">
+            <l n="1271" xml:id="em0779-es-1294">¿Se dio muerte por sí? ¡Qué lástima tan grande!</l>
+            <l n="1272" xml:id="em0779-es-1295">Cuéntame, buen amigo, cómo fue su desgracia.</l>
+          </lg>
+        </sp>
+        <sp who="#ESC2" xml:id="em0779-es-sp-165">
+          <speaker>EL SEGUNDO ESCUDERO</speaker>
+          <lg part="M" type="free">
+            <l n="1273" xml:id="em0779-es-1296">Perdida la batalla, viendo a sus hijos muertos,</l>
+            <l n="1274" xml:id="em0779-es-1297">decidió con grandeza dejar al enemigo</l>
+            <l n="1275" xml:id="em0779-es-1298">una victoria amarga, con sus grandes hazañas.</l>
+            <l n="1276" xml:id="em0779-es-1299">Se lanzó el rey entonces, furioso en la refriega,</l>
+            <l n="1277" xml:id="em0779-es-1300">y golpeó al enemigo con todo su valor.</l>
+            <l n="1278" xml:id="em0779-es-1301">Como un león colérico que asola el hato,</l>
+            <l n="1279" xml:id="em0779-es-1302">Cuando éste, tranquilo, pace en las altas hierbas,</l>
+            <l n="1280" xml:id="em0779-es-1303">así vi yo a Saúl, que en su cólera viva</l>
+            <l n="1281" xml:id="em0779-es-1304">hiere, destroza y siembra la muerte en el campo,</l>
+            <l n="1282" xml:id="em0779-es-1305">y nadie en su furor encuentra compasión.</l>
+            <l n="1283" xml:id="em0779-es-1306">Mas pronto contra él se juntaron arqueros,</l>
+            <l n="1284" xml:id="em0779-es-1307">que, llenos de vergüenza, lo hirieron de frente</l>
+            <l n="1285" xml:id="em0779-es-1308">hasta que combatiendo, fue gravemente herido,</l>
+            <l n="1286" xml:id="em0779-es-1309">y hubo de retirarse en medio del combate.</l>
+            <l n="1287" xml:id="em0779-es-1310">Volviendo vio los cuerpos sangrientos de sus hijos,</l>
+            <l n="1288" xml:id="em0779-es-1311">y lloró abrazándolos mientras le perseguían.</l>
+            <l n="1289" xml:id="em0779-es-1312">Entonces, viendo que iba a caer prisionero</l>
+            <l n="1290" xml:id="em0779-es-1313">en mano enemiga, miró a Jonatán y lloró:</l>
+            <l n="1291" xml:id="em0779-es-1314">«¿Es este el reposo que dabais a mi vejez,</l>
+            <l n="1292" xml:id="em0779-es-1315">mis hijos, el premio que prometía vuestra fuerza?</l>
+            <l n="1293" xml:id="em0779-es-1316">¿Así heredas el cetro, Jonatán de mi vida,</l>
+            <l n="1294" xml:id="em0779-es-1317">que fuiste un día mi gloria y ahora desventura?</l>
+            <l n="1295" xml:id="em0779-es-1318">Ya es tiempo, hijos míos, de que este padre os siga</l>
+            <l n="1296" xml:id="em0779-es-1319">en la muerte y destino que ha de juntarnos hoy.»</l>
+            <l n="1297" xml:id="em0779-es-1320">Se lamentó sobre ellos, errante y desolado,</l>
+            <l n="1298" xml:id="em0779-es-1321">y se arrojó, sin dudar, sobre la fiera daga,</l>
+            <l n="1299" part="I" xml:id="em0779-es-1322">hasta que al fin murió.</l>
+          </lg>
+        </sp>
+        <sp who="#DAV" xml:id="em0779-es-sp-166">
+          <speaker>DAVID</speaker>
+          <lg part="M" type="free">
+            <l part="F" xml:id="em0779-es-1323">¡Ay, desgraciado rey!</l>
+          </lg>
+        </sp>
+        <sp who="#ESC2" xml:id="em0779-es-sp-167">
+          <speaker>EL SEGUNDO ESCUDERO</speaker>
+          <lg part="M" type="free">
+            <l n="1300" xml:id="em0779-es-1324">Lo que más estremece mi pecho temeroso</l>
+            <l n="1301" xml:id="em0779-es-1325">Es que tan pronto vio esa herida mortal</l>
+            <l n="1302" xml:id="em0779-es-1326">su escudero fiel – al que el rey pidió en vano</l>
+            <l n="1303" xml:id="em0779-es-1327">asestara el golpe que su vida hendiría-</l>
+            <l n="1304" xml:id="em0779-es-1328">cayó de golpe al suelo, se arrancó los cabellos,</l>
+            <l n="1305" xml:id="em0779-es-1329">arañándose el pecho con desesperación</l>
+            <l n="1306" xml:id="em0779-es-1330">golpeando su frente y rasgando sus ropas;</l>
+            <l n="1307" xml:id="em0779-es-1331">Grita, aúlla, llamando a su señor querido.</l>
+            <l n="1308" xml:id="em0779-es-1332">Pero al ver que la muerte sus ojos para siempre</l>
+            <l n="1309" xml:id="em0779-es-1333">Había clausurado y de nada servían</l>
+            <l n="1310" xml:id="em0779-es-1334">Sus gritos y lamentos, pues su vida era ida:</l>
+            <l n="1311" xml:id="em0779-es-1335">«Lo seguiré —se dijo— pues su muerte me incita,</l>
+            <l n="1312" xml:id="em0779-es-1336">a despreciar esta vida que resulta maldita.</l>
+            <l n="1313" xml:id="em0779-es-1337">Muramos y gocemos del honor y la gloria</l>
+            <l n="1314" xml:id="em0779-es-1338">De haberlo acompañado en penas y venturas.»</l>
+            <l n="1315" xml:id="em0779-es-1339">Dicho lo cual, se arroja sobre su luenga espada,</l>
+            <l n="1316" xml:id="em0779-es-1340">y así apaga su vida junto a la de su rey;</l>
+            <l n="1317" xml:id="em0779-es-1341">jamás abandonó al rey en el dolor,</l>
+            <l n="1318" xml:id="em0779-es-1342">como nunca lo había dejado en la dicha,</l>
+            <l n="1319" xml:id="em0779-es-1343">terminando sus días con la misma espada,</l>
+            <l n="1320" xml:id="em0779-es-1344">que aún estaba manchada con la sangre del amo.</l>
+            <l n="1321" xml:id="em0779-es-1345">Realmente es digno del más grande honor:</l>
+            <l n="1322" xml:id="em0779-es-1346">caer a los pies del rey y guardar firme fe,</l>
+            <l n="1323" xml:id="em0779-es-1347">ya no como un bárbaro, mas como amigo fiel,</l>
+            <l n="1324" xml:id="em0779-es-1348">pues lealtad tan firme es rara y miserable.</l>
+          </lg>
+        </sp>
+        <sp who="#DAV" xml:id="em0779-es-sp-168">
+          <speaker>DAVID</speaker>
+          <lg part="M" type="free">
+            <l n="1325" xml:id="em0779-es-1349">¡Seas tú de Dios, oh palestino maldito,</l>
+            <l n="1326" xml:id="em0779-es-1350">pues has exterminado al pueblo de Israel!</l>
+          </lg>
+        </sp>
+        <sp who="#ESC2" xml:id="em0779-es-sp-169">
+          <speaker>SEGUNDO ESCUDERO</speaker>
+          <lg part="M" type="free">
+            <l n="1327" xml:id="em0779-es-1351">Todavía después de tan horrible muerte,</l>
+            <l n="1328" xml:id="em0779-es-1352">el orgulloso Achis no se muestra pacífico,</l>
+            <l n="1329" xml:id="em0779-es-1353">no deja que los huesos del exánime rey</l>
+            <l n="1330" xml:id="em0779-es-1354">reposen en su tierra, sino que los arranca,</l>
+            <l n="1331" xml:id="em0779-es-1355">y —¡qué cruel ejemplo!— los lleva a su templo,</l>
+            <l n="1332" xml:id="em0779-es-1356">de modo que los dioses nunca honrados en vida</l>
+            <l n="1333" xml:id="em0779-es-1357">ahora sean honrados tras su terrible muerte.</l>
+          </lg>
+        </sp>
+        <sp who="#DAV" xml:id="em0779-es-sp-170">
+          <speaker>DAVID</speaker>
+          <lg part="F" type="free">
+            <l n="1334" xml:id="em0779-es-1358">Oh Palestino hinchada de una soberbia vana,</l>
+            <l n="1335" xml:id="em0779-es-1359">guárdate del orgullo y de sus malas artes,</l>
+            <l n="1336" xml:id="em0779-es-1360">pues la Suerte podría volverse contra ti</l>
+            <l n="1337" xml:id="em0779-es-1361">y mostrar su ira en futura desdicha.</l>
+            <l n="1338" xml:id="em0779-es-1362">¡Gelboé, que tu cima no reciba la lluvia</l>
+            <l n="1339" xml:id="em0779-es-1363">ni el rocío, y tus campos permanezcan resecos,</l>
+            <l n="1340" xml:id="em0779-es-1364">pues sobre ti cayendo han muerto tantos hombres,</l>
+            <l n="1341" xml:id="em0779-es-1365">pues sobre ti —montaña de malditas entrañas—</l>
+            <l n="1342" xml:id="em0779-es-1366">ha sido asesinada la flor de Israel!</l>
+            <l n="1343" xml:id="em0779-es-1367">Hijas de Israel, que antes por mí cantasteis,</l>
+            <l n="1344" xml:id="em0779-es-1368">llorad ahora la muerte de este rey valeroso,</l>
+            <l n="1345" xml:id="em0779-es-1369">quien os embellecía con ropas exquisitas,</l>
+            <l n="1346" xml:id="em0779-es-1370">y os vestía de púrpura y de oro de Tiro.</l>
+            <l n="1347" xml:id="em0779-es-1371">¡Los campos se han teñido con su sangre encarnada,</l>
+            <l n="1348" xml:id="em0779-es-1372">como si nunca hubiera recibido óleo santo!</l>
+            <l n="1349" xml:id="em0779-es-1373">¡Ha muerto Saúl, y también Jonatán!</l>
+            <l n="1350" xml:id="em0779-es-1374">¡Jonatán, mi consuelo y mi preocupación!</l>
+            <l n="1351" xml:id="em0779-es-1375">¡Desgraciado! ¿Por qué no habré muerto contigo?</l>
+            <l n="1352" xml:id="em0779-es-1376">Habría sido feliz y ahora lloro mil muertes;</l>
+            <l n="1353" xml:id="em0779-es-1377">¡Muy grande es el tormento al recordar tu muerte!</l>
+            <l n="1354" xml:id="em0779-es-1378">Y ahora, ¿Dónde está ese cuerpo amado</l>
+            <l n="1355" xml:id="em0779-es-1379">Y ese rostro que a todos resultaba agradable?</l>
+            <l n="1356" xml:id="em0779-es-1380">Querido Jonatán, mi amigo más leal,</l>
+            <l n="1357" xml:id="em0779-es-1381">Cuyo amor más dulce era y más querido era</l>
+            <l n="1358" xml:id="em0779-es-1382">Que la ardiente llama al amar a una dama.</l>
+            <l n="1359" xml:id="em0779-es-1383">¡Pobre de mí! Jamás seré capaz de olvidar</l>
+            <l n="1360" xml:id="em0779-es-1384">Tus últimas palabras, pues un ingrato soy:</l>
+            <l n="1361" xml:id="em0779-es-1385">“Oh David al quien amo más que a mi propia vida</l>
+            <l n="1362" xml:id="em0779-es-1386">Voy a morir, mas sé que Dios te ha destinado</l>
+            <l n="1363" xml:id="em0779-es-1387">Este reino hebreo; mas si muero te ruego</l>
+            <l n="1364" xml:id="em0779-es-1388">Que recuerdes después a mi raza y linaje”.</l>
+            <l n="1365" xml:id="em0779-es-1389">Siempre, siempre, ese día en exceso dichoso,</l>
+            <l n="1366" xml:id="em0779-es-1390">en que un amor recíproco nos unió para siempre,</l>
+            <l n="1367" xml:id="em0779-es-1391">Quedará firmemente en mi alma grabado</l>
+            <l n="1368" xml:id="em0779-es-1392">Y nunca olvidaré tus bondades sin número:</l>
+            <l n="1369" xml:id="em0779-es-1393">a menudo con dulces palabras mitigaste</l>
+            <l n="1370" xml:id="em0779-es-1394">la ira de mi padre, y en mi vagar errante</l>
+            <l n="1371" xml:id="em0779-es-1395">tú me diste consejo, esperanza y coraje,</l>
+            <l n="1372" xml:id="em0779-es-1396">hiciste enfadar por mi culpa a tu padre.</l>
+            <l n="1373" xml:id="em0779-es-1397">¡Oh Jonatán, sería más bárbaro y cruel</l>
+            <l n="1374" xml:id="em0779-es-1398">que un escita o un tártaro si alguna vez,</l>
+            <l n="1375" xml:id="em0779-es-1399">llegara yo a olvidarme de cuidar a los tuyos</l>
+            <l n="1376" xml:id="em0779-es-1400">Como a mis propios hijos, si llegara a reinar!</l>
+            <l n="1377" xml:id="em0779-es-1401">Mas, ¿qué placer tendré al reinar si no estás,</l>
+            <l n="1378" xml:id="em0779-es-1402">y este duelo me sigue allá por donde vaya?</l>
+            <l n="1379" xml:id="em0779-es-1403">¿Y por qué llorar solo? Que llore todo el mundo</l>
+            <l n="1380" xml:id="em0779-es-1404">Que el dolor es común, pues -pueblo de Israel-</l>
+            <l n="1381" xml:id="em0779-es-1405">Tu escudo y tu fuerza estás perdiendo ahora.</l>
+            <l n="1382" xml:id="em0779-es-1406">¿Cuánto aumentará la fuerza enemiga</l>
+            <l n="1383" xml:id="em0779-es-1407">con su muerte, cuán grande será ahora su poder?</l>
+            <l n="1384" xml:id="em0779-es-1408">Así, amigo, has muerto en una tierra extraña,</l>
+            <l n="1385" xml:id="em0779-es-1409">y en tu juventud caíste sin sepultura;</l>
+            <l n="1386" xml:id="em0779-es-1410">¡qué crueldad del cielo! Pero un bien te queda:</l>
+            <l n="1387" xml:id="em0779-es-1411">haber muerto en mitad del combate y la fama,</l>
+            <l n="1388" xml:id="em0779-es-1412">la gloria de tu nombre al morir por tu pueblo.</l>
+            <l n="1389" xml:id="em0779-es-1413">Al menos, te digo adiós, querido amigo,</l>
+            <l n="1390" xml:id="em0779-es-1414">guarda nuestra amistad, que no muere al morir tú,</l>
+            <l n="1391" xml:id="em0779-es-1415">vivirá para siempre mientras vivan mis versos</l>
+            <l n="1392" xml:id="em0779-es-1416">y tu triste epitafio en todo el universo.</l>
+            <l n="1393" xml:id="em0779-es-1417">Escucha, Saúl, mi llanto y mi triste lamento:</l>
+            <l n="1394" xml:id="em0779-es-1418">quieres acompañar a tu hijo en la muerte</l>
+            <l n="1395" xml:id="em0779-es-1419">Para no separaros ni muertos ni vivientes.</l>
+            <l n="1396" xml:id="em0779-es-1420">¡Muchos envidiarán el valeroso término</l>
+            <l n="1397" xml:id="em0779-es-1421">de tu vida, pues logras con tu muerte un honor</l>
+            <l n="1398" xml:id="em0779-es-1422">que hará inmortal tu nombre! Pues podemos decir:</l>
+            <l n="1399" xml:id="em0779-es-1423">Que caídos en tierra, ambos extinguisteis</l>
+            <l n="1400" xml:id="em0779-es-1424">el trueno de la guerra, y que fuiste tan fuertes</l>
+            <l n="1401" xml:id="em0779-es-1425">que nadie sino tú pudo darte la muerte.</l>
+          </lg>
+        </sp>
+      </div1>
+    </body>
+    <back>
+      <div type="bibliografia">
+        <listBibl type="critica">
+          <biblStruct type="libro" xml:lang="fr">
+            <monogr>
+              <author>Bellenger, Yvonne</author>
+              <title level="m">Le théâtre biblique de Jean de la Taille</title>
+              <imprint>
+                <pubPlace>Paris</pubPlace>
+                <publisher>Champion</publisher>
+                <date when="1998">1998</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="libro" xml:lang="fr">
+            <monogr>
+              <author>Cazeaux, Jacques</author>
+              <title level="m">Saül, David, Salomon. La royauté et le destin d’Israël</title>
+              <imprint>
+                <pubPlace>Paris</pubPlace>
+                <publisher>cerf</publisher>
+                <date when="2003">2003</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="seccion_libro" xml:lang="fr">
+            <analytic>
+              <author>Chesters, Timothy</author>
+              <title level="a">« Jean de La Taille et la scénographie du “creux” : Saül le furieux (1572)</title>
+            </analytic>
+            <monogr>
+              <editor>François Lecerce et Françoise Lavocat</editor>
+              <title level="m">Dramaturgies de l’ombre</title>
+              <imprint>
+                <pubPlace>Rennes</pubPlace>
+                <publisher>Presses Universitaires de Rennes</publisher>
+                <date when="2005">2005</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="libro" xml:lang="fr">
+            <analytic>
+              <author>Couffignal, Robert</author>
+            </analytic>
+            <monogr>
+              <author>Couffignal, Robert</author>
+              <title level="m"></title>
+              <imprint>
+                <pubPlace>Paris</pubPlace>
+                <publisher>Lettres Modernes Minard</publisher>
+                <date when="1999">1999</date>
+              </imprint>
+            </monogr>
+            <series>
+              <title level="s">Saül héros tragique de la Bible. Étude littéraire du récit de son règned’après les livres de Samuel (I S, 9–31 et 2 S, 1)</title>
+            </series>
+          </biblStruct>
+          <biblStruct type="articulo_revista" xml:lang="fr">
+            <analytic>
+              <author>Garnier-Zuchelli, Sophie</author>
+              <title level="a">La déploration dans Saül le furieux ou la mise en scène de la pitié</title>
+            </analytic>
+            <monogr>
+              <title level="j">L&apos;information grammaticale</title>
+              <imprint>
+                <date when="1999">1999</date>
+              </imprint>
+              <biblScope unit="volume">81</biblScope>
+              <biblScope unit="page">24-27</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="seccion_libro" xml:lang="fr">
+            <analytic>
+              <author>Lecercle, François</author>
+              <title level="a">Saül et les effets de spectacle</title>
+            </analytic>
+            <monogr>
+              <title level="m">Les Tragédies de Jean de La Taille</title>
+              <imprint>
+                <pubPlace>Paris</pubPlace>
+                <publisher>Université Paris VII</publisher>
+                <date when="1998">1998</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="libro">
+            <monogr>
+              <author>Mazouer, Charles</author>
+              <title level="m">Le Théâtre français de la Renaissance</title>
+              <edition>2</edition>
+              <imprint>
+                <pubPlace>Paris</pubPlace>
+                <publisher>Champion</publisher>
+                <date when="2013">2013</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="libro" xml:lang="fr">
+            <monogr>
+              <author>Mazouer, Charles</author>
+              <title level="m">Théâtre et christianisme. Études sur l’ancien théâtre français</title>
+              <imprint>
+                <pubPlace>Paris</pubPlace>
+                <publisher>Champion</publisher>
+                <date when="2015">2015</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="articulo_revista" xml:lang="fr">
+            <analytic>
+              <author>Méniel, Bruno</author>
+              <title level="a">Saül et ses démons. Un personnage biblique à la croisée des discours de la fin du Moyen Âge à la Renaissance</title>
+            </analytic>
+            <monogr>
+              <title level="j">Cahiers de recherches médiévales et humanistes</title>
+              <imprint>
+                <date when="2006">2006</date>
+              </imprint>
+              <biblScope unit="volume">13</biblScope>
+              <biblScope unit="page">221-236</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct type="libro" xml:lang="fr">
+            <monogr>
+              <author>Thiel Maria Arendina</author>
+              <title level="m">La Figure de Saül et sa représentation dans la littérature dramatiquefrançaise</title>
+              <imprint>
+                <pubPlace>Amsterdam</pubPlace>
+                <publisher>H.J. Paris</publisher>
+                <date when="1926">1926</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

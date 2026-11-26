@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="es" data-ui="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Act IV — Así va el mundo — EMOTHE</title>
+    
+    <link rel="preload" href="../../assets/fonts/source-serif-4-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <script>
+      (function(){var d=document.documentElement,t,u;try{t=localStorage.getItem("reader.theme");u=localStorage.getItem("reader.ui")}catch(e){}d.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(u)d.lang=d.dataset.ui=u})()
+    </script>
+    <link rel="stylesheet" href="../../assets/style.css?v=ced344585200">
+    
+    <script src="../../assets/site.js?v=ced344585200" defer>
+    </script>
+  </head>
+  <body data-ln="5" data-fo="off" data-rs="off" data-sh="off" data-sdm="off" data-asm="off">
+    <header class="bar">
+      <a class="skip" href="#main"><x-es>Saltar al contenido</x-es><x-en>Skip to content</x-en></a>
+      <a class="wordmark" href="../../index.html">
+        EMOTHE<small><x-es>Biblioteca digital</x-es><x-en>Digital library</x-en></small>
+      </a>
+      <nav aria-label="Sitio" data-en-aria-label="Site" data-tr class="site">
+        <a href="../../index.html">
+          <x-es>Catálogo</x-es><x-en>Catalogue</x-en>
+        </a>
+        <a href="../../about.html">
+          <x-es>Acerca de</x-es><x-en>About</x-en>
+        </a>
+      </nav>
+      
+      <nav aria-label="Portal de EMOTHE" data-en-aria-label="EMOTHE portal" data-tr class="portal">
+        <a href="https://emothe.uv.es/">Portal</a>
+        <a href="https://emothe.uv.es/basededatos/"><x-es>Base de datos</x-es><x-en>Database</x-en></a>
+      </nav>
+      
+      <button type="button" class="ui" data-ui-toggle hidden>
+        <x-es lang="en">English</x-es>
+        <x-en lang="es">Español</x-en>
+      </button>
+      <button type="button" class="theme" data-theme-toggle aria-label="Modo oscuro" data-en-aria-label="Dark mode" data-tr hidden>
+        ◐
+      </button>
+    </header>
+    <div class="frame with-rail">
+      <details class="rail" open>
+        <summary><x-es>Índice y herramientas</x-es><x-en>Contents &amp; tools</x-en></summary>
+        
+    <nav aria-label="Índice" data-en-aria-label="Contents" data-tr>
+  <h2><x-es>Índice</x-es><x-en>Contents</x-en></h2>
+  <ul>
+  <li><a href="index.html"><x-es>Portada</x-es><x-en>Title page</x-en></a></li>
+  
+    
+        <li><a href="index.html#elenco">DRAMATIS PERSONAE</a></li>
+      
+  
+    
+        <li>
+          <a href="act-1.html">
+            Act I
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-2.html">
+            Act II
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-3.html">
+            Act III
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-4.html" aria-current="page">
+            Act IV
+          </a>
+          <ul>
+            <li>
+              
+                  <a href="act-4.html#act-4-s1">
+                    [ACTO IV]
+                  </a>
+              
+            </li>
+          </ul>
+        </li>
+    
+  
+    
+        <li>
+          <a href="act-5.html">
+            Act V
+          </a>
+          
+        </li>
+    
+  
+    
+        <li>
+          <a href="epilogue.html">
+            Epilogue
+          </a>
+          
+        </li>
+    
+  
+  <li>
+    <a href="text.html"><x-es>Texto completo</x-es><x-en>Full text</x-en></a>
+  </li>
+  <li>
+    <a href="statistics.html">
+      <x-es>Estadísticas</x-es><x-en>Statistics</x-en>
+    </a>
+  </li>
+  
+  <li>
+    <a href="stage-directions.html">
+      <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+    </a>
+  </li>
+  
+  
+  
+  
+</ul>
+</nav>
+<div class="tools" data-tools hidden>
+  <h2><x-es>Números de verso</x-es><x-en>Line numbers</x-en></h2>
+  <div class="seg" role="group" aria-label="Números de verso" data-en-aria-label="Line numbers" data-tr>
+    <button type="button" data-ln-set="all"><x-es>Todos</x-es><x-en>All</x-en></button>
+    <button type="button" data-ln-set="5">5</button>
+    <button type="button" data-ln-set="off"><x-es>Ninguno</x-es><x-en>Off</x-en></button>
+  </div>
+  <h2><x-es>Mostrar</x-es><x-en>Show</x-en></h2>
+  <label><input type="checkbox" data-toggle="sd" checked> <x-es>Acotaciones</x-es><x-en>Stage directions</x-en></label>
+  <label><input type="checkbox" data-toggle="vf" checked> <x-es>Formas métricas</x-es><x-en>Verse forms</x-en></label>
+  
+  
+  
+  
+    <h2><x-es>Resaltar</x-es><x-en>Highlight</x-en></h2>
+    <select data-highlight aria-label="Resaltar un personaje" data-en-aria-label="Highlight a character" data-tr>
+      <option value="" label="Nadie" data-en-label="No one" data-tr></option>
+      <option value="hombres_WW">
+        Hombres
+      </option><option value="Todoengaño">
+        TODOENGAÑO
+      </option><option value="Mirabellas">
+        MIRABELLAS
+      </option><option value="Polvorín">
+        POLVORÍN
+      </option><option value="Petulante">
+        PETULANTE
+      </option><option value="Don_Vil">
+        DON VIL POLVORÍN
+      </option><option value="Bienespera">
+        BIENESPERA
+      </option><option value="mujeres_WW">
+        Mujeres
+      </option><option value="Deseosa">
+        LADY DESEOSA
+      </option><option value="Mila_Mantes">
+        DOÑA MILA MANTES
+      </option><option value="Malmirada">
+        DOÑA MALMIRADA
+      </option><option value="Doña_Todoengaño">
+        DOÑA TODOENGAÑO
+      </option><option value="Flacucha">
+        FLACUCHA
+      </option><option value="Picadillo">
+        PICADILLO
+      </option><option value="Betty-WW">
+        BETTY
+      </option><option value="Clavija">
+        CLAVIJA
+      </option><option value="Cochero">
+        [COCHERO]
+      </option><option value="Criado-WW">
+        CRIADO
+      </option><option value="Mensajero-WW">
+        [MENSAJERO]
+      </option>
+    </select>
+    
+      <label><input type="checkbox" data-toggle="sh"> <x-es>Versos compartidos</x-es><x-en>Shared lines</x-en></label>
+      <div class="stepper" data-stepper=".text .l[data-part=I]" data-for="sh">
+  <button type="button" data-step="-1" aria-label="Verso compartido anterior" data-en-aria-label="Previous shared line" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente verso compartido" data-en-aria-label="Next shared line" data-tr>›</button>
+</div>
+      <ul class="shared-legend">
+        <li>
+          <i class="sw" data-part="I"></i><x-es>Primera parte</x-es><x-en>First part</x-en>
+        </li><li>
+          <i class="sw" data-part="M"></i><x-es>Parte intermedia</x-es><x-en>Middle part</x-en>
+        </li><li>
+          <i class="sw" data-part="F"></i><x-es>Última parte</x-es><x-en>Last part</x-en>
+        </li>
+      </ul>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="sdm" aria-label="Resaltar acotaciones" data-en-aria-label="Highlight stage directions" data-tr>
+        <x-es>Acotaciones</x-es><x-en>Stage directions</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .sd, .text .sdi" data-for="sdm">
+  <button type="button" data-step="-1" aria-label="Acotación anterior" data-en-aria-label="Previous stage direction" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente acotación" data-en-aria-label="Next stage direction" data-tr>›</button>
+</div>
+    
+    
+      <label>
+        <input type="checkbox" data-toggle="asm" aria-label="Resaltar apartes" data-en-aria-label="Highlight asides" data-tr>
+        <x-es>Apartes</x-es><x-en>Asides</x-en>
+      </label>
+      <div class="stepper" data-stepper=".text .aparte, .text .pr.as, .text .pr:not(.as) span.as" data-for="asm">
+  <button type="button" data-step="-1" aria-label="Aparte anterior" data-en-aria-label="Previous aside" data-tr>‹</button>
+  <span data-step-count></span>
+  <span class="sr-only" data-step-said aria-live="polite"></span>
+  <button type="button" data-step="1" aria-label="Siguiente aparte" data-en-aria-label="Next aside" data-tr>›</button>
+</div>
+    
+  
+</div>
+  
+      </details>
+      <main id="main">
+  <header class="play-head">
+  <p class="author">William Congreve</p>
+  <h1><a href="index.html">Así va el mundo</a></h1>
+</header>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-3.html" rel="prev">← Act III</a>
+  <a href="act-5.html" rel="next">Act V →</a>
+</nav>
+  <div class="text" lang="es" data-cite="William Congreve, Así va el mundo, Act IV" data-cite-verse="v." data-cite-prose="l.">
+    
+    <section class="division" id="act-4">
+  
+  
+  
+  
+    
+      <section id="act-4-s1">
+        <h3 class="scene-head">
+          [ACTO IV]
+        </h3>
+        <p class="sd " id="l4-1-sd1">(Entran LADY DESEOSA y FLACUCHA.)</p><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-1"><a class="pn " href="#l4-1-1">1</a>¿Dices que don Rolando viene, Flacucha? ¿Y está todo en orden?</p>
+</div><div class="sp " data-who="Flacucha">
+  <p class="spk ">
+    FLACUCHA
+  </p>
+  <p class="pr " id="l4-1-2"><a class="pn " href="#l4-1-2">2</a>Sí, señora. He puesto velas en los candelabros y colocado a los criados en fila en el vestíbulo con sus mejores libreas, con el cochero y el postillón para completar el desfile.</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-3"><a class="pn " href="#l4-1-3">3</a>¿Has perfumado al cochero y al postillón para que no huelan a establo cuando pase don Rolando?</p>
+</div><div class="sp " data-who="Flacucha">
+  <p class="spk ">
+    FLACUCHA
+  </p>
+  <p class="pr " id="l4-1-4"><a class="pn " href="#l4-1-4">4</a>Sí, señora.</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-5"><a class="pn m5" href="#l4-1-5">5</a>¿Y están los bailarines y la música listos para que se le entretenga por todas partes en justa correspondencia a su pasión?</p>
+</div><div class="sp " data-who="Flacucha">
+  <p class="spk ">
+    FLACUCHA
+  </p>
+  <p class="pr " id="l4-1-6"><a class="pn " href="#l4-1-6">6</a>Todo listo, señora.</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-7"><a class="pn " href="#l4-1-7">7</a>Y, bueno, ¿qué apariencia tengo, Flacucha?</p>
+</div><div class="sp " data-who="Flacucha">
+  <p class="spk ">
+    FLACUCHA
+  </p>
+  <p class="pr " id="l4-1-8"><a class="pn " href="#l4-1-8">8</a>Divina de la muerte, señora.</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-9"><a class="pn " href="#l4-1-9">9</a>¿Y cómo le recibo? ¿Con qué figura le doy a su corazón la primera impresión? Importa mucho la primera impresión. ¿Me siento? No, no me siento, ando. Ando desde la puerta cuando llegue, y entonces me vuelvo hacia él. No, eso será muy repentino. Me tumbaré, sí, me tumbaré. Le recibiré en mi pequeño vestidor, hay un sofá, sí, sí. Le daré la primera impresión en un sofá. No me tumbaré, me dejaré caer, me apoyaré con un codo, con un pie colgando, oscilando de manera pensativa. Sí, y en cuanto aparezca, me sobresaltaré, sí, me sobresaltaré y sorprenderé, y me levantaré a saludarle con cuidada improvisación. Sí, nada hay más seductor que levantarse de un sofá con cierta confusión, mostrando el pie incitadoramente y llenándome de sonrojos y aires de compostura más allá de lo imaginable. ¡Escucha! Llega un carruaje.</p>
+</div><div class="sp " data-who="Flacucha">
+  <p class="spk ">
+    FLACUCHA
+  </p>
+  <p class="pr " id="l4-1-10"><a class="pn m5" href="#l4-1-10">10</a>Es él, señora.</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-11"><a class="pn " href="#l4-1-11">11</a>Dios mío, ¿le ha dicho algo mi sobrino a Mila Mantes? Se lo ordené.</p>
+</div><div class="sp " data-who="Flacucha">
+  <p class="spk ">
+    FLACUCHA
+  </p>
+  <p class="pr " id="l4-1-12"><a class="pn " href="#l4-1-12">12</a>Don Vil le está dando a la bebida, señora, en el salón.</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-13"><a class="pn " href="#l4-1-13">13</a>Por mi vida que se lo mando a ella. Llámala, Flacucha, y tráela aquí. Se lo mando conforme vaya. Cuando estén juntos, vuelve a mí, Flacucha, que no quiero estar mucho tiempo sola con don Rolando.</p>
+</div><p class="sd " id="l4-1-13-sd1">(Sale.)</p><p class="sd " id="l4-1-13-sd2">(Entran DOÑA MILA MANTES y DOÑA TODOENGAÑO.)</p><div class="sp " data-who="Flacucha">
+  <p class="spk ">
+    FLACUCHA
+  </p>
+  <p class="pr " id="l4-1-14"><a class="pn " href="#l4-1-14">14</a>Señora , me he quedado aquí para decirle a vuestra señoría que don Mirabellas lleva media hora esperando una oportunidad para hablaros, pese a que las ordenes de mi señora eran que os dejara con don Vil. ¿Le digo a don Mirabellas que estáis disponible?</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-15"><a class="pn m5" href="#l4-1-15">15</a>No. ¿Qué querrá ese querido señor? Estoy pensativa y prefiero distraerme yo. Dile que venga en otra ocasión.</p><div class="lg ">
+  
+  <div class="l " id="l4-1-16"><a class="n " href="#l4-1-16">16</a><span class="t">Aún no se ha creado mujer,</span></div><div class="l " id="l4-1-17"><a class="n " href="#l4-1-17">17</a><span class="t">ni se creará, salvo para estar maldita.</span></div>
+</div><p class="sd " id="l4-1-17-sd1">(Lo repite mientras camina.)</p><p class="pr " id="l4-1-18"><a class="pn " href="#l4-1-18">18</a>¡Qué duro!</p>
+</div><div class="sp " data-who="Doña_Todoengaño">
+  <p class="spk ">
+    DOÑA TODOENGAÑO
+  </p>
+  <p class="pr " id="l4-1-19"><a class="pn " href="#l4-1-19">19</a>Os gustan hoy mucho los poetas como Juan Mamón, Mila Mantes.</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-20"><a class="pn m5" href="#l4-1-20">20</a>¿Él? Sí, y sus versos obscenos, como yo.</p>
+</div><div class="sp " data-who="Flacucha">
+  <p class="spk ">
+    FLACUCHA
+  </p>
+  <p class="pr " id="l4-1-21"><a class="pn " href="#l4-1-21">21</a>Viene don Vil, señora. ¿Le digo a don Mirabellas que se vaya?</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-22"><a class="pn " href="#l4-1-22">22</a>Sí, haz el favor, Flacucha, que se vaya, o que se venga, como quieras, querida Flacucha. Creo que le veré ahora, ¿verdad? Sí, que venga el desdichado.</p><p class="sd " id="l4-1-22-sd1">(Sale Flacucha.)</p><div class="lg ">
+  
+  <div class="l " id="l4-1-23"><a class="n " href="#l4-1-23">23</a><span class="t">Thyrsis, un joven del inspirado séquito.</span></div>
+</div><p class="sd " id="l4-1-23-sd1">(Lo repite.)</p><p class="pr " id="l4-1-24"><a class="pn " href="#l4-1-24">24</a>Querida Todoengaño, entretened a don Vil, tenéis suficiente filosofía para soportar a un tonto, estáis casada y tenéis paciencia. Yo preferiría hablar con mis propios pensamientos.</p>
+</div><div class="sp " data-who="Doña_Todoengaño">
+  <p class="spk ">
+    DOÑA TODOENGAÑO
+  </p>
+  <p class="pr " id="l4-1-25"><a class="pn m5" href="#l4-1-25">25</a>Cuanto os agradezco que penséis en mí para esta cuestión, pero tengo mis propios asuntos que atender. <span class="sdi">(Entra DON VIL.)</span> <span class="pn">26</span>¡Oh, don Vil! Llegáis en un momento crítico. Tenéis a vuestra amada que se le sale el amor y la contemplación por las orejas. Id a por todas, ahora o nunca.</p>
+</div><div class="sp " data-who="Don_Vil">
+  <p class="spk ">
+    DON VIL
+  </p>
+  <p class="pr " id="l4-1-27"><a class="pn " href="#l4-1-27">27</a>Sí, mi tía así lo querría. Habría agradecido el ánimo aportado por una o dos botellas, porque soy un poco cauto al principio, antes de coger confianza <span class="pn">28</span><span class="sdi">(Mientras tanto, MILA MANTES anda arriba abajo repitiéndose cosas a sí misma.)</span> Pero espero que, pasado un tiempo, me sincere con ella, eso es, una vez cojamos confianza, así que, de momento, prima, os pido la dispensa para marcharme. Si fuerais tan amable de presentarle mis disculpas, regresaré con mis acompañantes.</p>
+</div><div class="sp " data-who="Doña_Todoengaño">
+  <p class="spk ">
+    DOÑA TODOENGAÑO
+  </p>
+  <p class="pr " id="l4-1-29"><a class="pn " href="#l4-1-29">29</a>¡Vamos, don Vil! No os dejéis intimidar.</p>
+</div><div class="sp " data-who="Don_Vil">
+  <p class="spk ">
+    DON VIL
+  </p>
+  <p class="pr " id="l4-1-30"><a class="pn m5" href="#l4-1-30">30</a>¿Intimidar? No, no es eso, no es tanto por eso, porque si me pusiera a ello, lo haría. Pero de momento, es suficiente hasta que se coja más confianza, eso es todo. A vuestro servicio.</p>
+</div><div class="sp " data-who="Doña_Todoengaño">
+  <p class="spk ">
+    DOÑA TODOENGAÑO
+  </p>
+  <p class="pr " id="l4-1-31"><a class="pn " href="#l4-1-31">31</a>No, juro que no permitiré que perdáis una oportunidad tan favorable si puedo evitarlo. Os dejo juntos y cerraré la puerta con llave.</p>
+</div><p class="sd " id="l4-1-31-sd1">(Sale.)</p><div class="sp " data-who="Don_Vil">
+  <p class="spk ">
+    DON VIL
+  </p>
+  <p class="pr " id="l4-1-32"><a class="pn " href="#l4-1-32">32</a>No, no, prima, se me han olvidado los guantes. ¿Qué haces? ¡Por Dios! Ha cerrado la puerta con llave. No, prima Todoengaño, ¡abre la puerta! ¡Vaya! ¡Qué treta más zorra es esta! ¡No! ¡Y ahora me ha visto ella también! Prima, me he atrevido a atravesar la puerta tal y como estaba. ¡Creo que la puerta está encantada!</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l4-1-33"><a class="n " href="#l4-1-33">33</a><span class="t"><span class="sdi">(repitiendo)</span> Os ruego que me dejéis estar, gentil mozalbete.</span></div><div class="l " id="l4-1-34"><a class="n " href="#l4-1-34">34</a><span class="t">No me hostiguéis más por ese mero juguete —</span></div>
+</div>
+</div><div class="sp " data-who="Don_Vil">
+  <p class="spk ">
+    DON VIL
+  </p>
+  <p class="pr " id="l4-1-35"><a class="pn m5" href="#l4-1-35">35</a>¿Mande? Prima, a vuestro servicio.</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l4-1-36"><a class="n " href="#l4-1-36">36</a><span class="t"><span class="sdi">(repitiendo)</span> Esa tonta menudencia del corazón…</span></div>
+</div><p class="pr " id="l4-1-37"><a class="pn " href="#l4-1-37">37</a>¡Don Vil!</p>
+</div><div class="sp " data-who="Don_Vil">
+  <p class="spk ">
+    DON VIL
+  </p>
+  <p class="pr " id="l4-1-38"><a class="pn " href="#l4-1-38">38</a>Sí, a vuestro servicio. Espero no ofenderos, prima.</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l4-1-39"><a class="n " href="#l4-1-39">39</a><span class="t"><span class="sdi">(repitiendo)</span>…juro que no tendrá repercusión.</span></div><div class="l " id="l4-1-40"><a class="n m5" href="#l4-1-40">40</a><span class="t">Aunque tú tendrás la tuya, con tus artes y pasión.</span></div>
+</div><p class="pr " id="l4-1-41"><a class="pn " href="#l4-1-41">41</a>¡Qué sencillo y natural es Juan Mamón!</p>
+</div><div class="sp " data-who="Don_Vil">
+  <p class="spk ">
+    DON VIL
+  </p>
+  <p class="pr " id="l4-1-42"><a class="pn " href="#l4-1-42">42</a>¿Mande? ¿Mamón? Ni soy ningún mamón, prima, ni ningún mozuelo. Doy gracias a Dios por no ser un jovencito.</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-43"><a class="pn " href="#l4-1-43">43</a>¡Qué rústico! ¡Más basto que un bárbaro!</p>
+</div><div class="sp " data-who="Don_Vil">
+  <p class="spk ">
+    DON VIL
+  </p>
+  <p class="pr " id="l4-1-44"><a class="pn " href="#l4-1-44">44</a>Bueno, bueno, ya entenderé vuestra jerga un día de estos, prima. Mientras tanto responderé con palabras corrientes.</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-45"><a class="pn m5" href="#l4-1-45">45</a>¿Tenéis algo que tratar conmigo, don Vil?</p>
+</div><div class="sp " data-who="Don_Vil">
+  <p class="spk ">
+    DON VIL
+  </p>
+  <p class="pr " id="l4-1-46"><a class="pn " href="#l4-1-46">46</a>No de momento, prima. Sí, me atreví a ver, a venir y a saber si estabais dispuesta a dar un paseo esta tarde. Si pudiera ser que no os suponga yo un problema, me gustaría pasear con vos.</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-47"><a class="pn " href="#l4-1-47">47</a>¿Pasear? ¿Y luego qué?</p>
+</div><div class="sp " data-who="Don_Vil">
+  <p class="spk ">
+    DON VIL
+  </p>
+  <p class="pr " id="l4-1-48"><a class="pn " href="#l4-1-48">48</a>Nada. Solo por pasear, eso es todo.</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-49"><a class="pn " href="#l4-1-49">49</a>Me da nauseas pasear, es una diversión campesina. Odio el campo y todo lo que tiene que ver con ello.</p>
+</div><div class="sp " data-who="Don_Vil">
+  <p class="spk ">
+    DON VIL
+  </p>
+  <p class="pr " id="l4-1-50"><a class="pn m5" href="#l4-1-50">50</a>¿De verdad? ¡Ja! Mira, mira, ¿sí? Puede que lo sea para vos. Aquí hay varias opciones de entretenimiento en la ciudad, como el teatro y cosas así, eso hay que confesarlo.</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-51"><a class="pn " href="#l4-1-51">51</a>¡La estúpida ciudad! La odio también.</p>
+</div><div class="sp " data-who="Don_Vil">
+  <p class="spk ">
+    DON VIL
+  </p>
+  <p class="pr " id="l4-1-52"><a class="pn " href="#l4-1-52">52</a>Querida, eso es mucho, ¡ja!, que las odiéis a las dos. Puede que sea como decís, los hay que no pueden disfrutar de la ciudad, y otros que no pueden soportar el campo. Seréis una de esas, prima.</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-53"><a class="pn " href="#l4-1-53">53</a>¡Ja, ja, ja! Puede que sea como digo. ¿No tenéis nada más que decirme?</p>
+</div><div class="sp " data-who="Don_Vil">
+  <p class="spk ">
+    DON VIL
+  </p>
+  <p class="pr " id="l4-1-54"><a class="pn " href="#l4-1-54">54</a>No de momento, prima. Es como, cuando tenga oportunidad de estar más en confianza, me sincere en alguna medida, deduzco que adivinaréis cómo, pero de momento, ahí me quedo. No hay que confundir la velocidad con el tocino, como dicen.</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-55"><a class="pn m5" href="#l4-1-55">55</a>Si no hay nada de mayor importancia, don Vil, me haréis el favor de dejarme sola, tengo ahora mismo un pequeño asunto que atender.</p>
+</div><div class="sp " data-who="Don_Vil">
+  <p class="spk ">
+    DON VIL
+  </p>
+  <p class="pr " id="l4-1-56"><a class="pn " href="#l4-1-56">56</a>Claro, claro, prima, sí, sí, cuando estéis dispuesta, cuando estéis dispuesta. Ahora o en otro momento, y en otro momento o ahora. Es lo mismo. Sí, sí, si vuestras obligaciones os reclaman, no hay prisa, se mantiene frío, como dicen. Prima, a vuestro servicio. Creo que la puerta está cerrada con llave.</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-57"><a class="pn " href="#l4-1-57">57</a>Podéis salir por ahí.</p>
+</div><div class="sp " data-who="Don_Vil">
+  <p class="spk ">
+    DON VIL
+  </p>
+  <p class="pr " id="l4-1-58"><a class="pn " href="#l4-1-58">58</a>A vuestro servicio. Con vuestro permiso regreso con mis acompañantes.</p>
+</div><p class="sd " id="l4-1-58-sd1">(Sale.)</p><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-59"><a class="pn " href="#l4-1-59">59</a>Sí, sí. ¡Ja, ja, ja!</p><div class="lg ">
+  
+  <div class="l " id="l4-1-60"><a class="n m5" href="#l4-1-60">60</a><span class="t">Como cantó Febo al joven con el mismo amor.</span></div>
+</div>
+</div><p class="sd " id="l4-1-60-sd1">(Entra MIRABELLAS.)</p><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <div class="lg ">
+  
+  <div class="l " id="l4-1-61"><a class="n " href="#l4-1-61">61</a><span class="t">Como Dafne, con tanto encanto y pudor.</span></div>
+</div><p class="pr " id="l4-1-62"><a class="pn " href="#l4-1-62">62</a>¿Te encierras por mí, para que me cueste más buscarte? ¿O este artificio está cuidadosamente previsto para que signifique que la persecución debe terminar, y que mi captura se corone triunfalmente, y que no puedes volar más?</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-63"><a class="pn " href="#l4-1-63">63</a>¡Vanidad! No. Volaré y seré perseguida hasta el último momento, aunque esté al mismísimo borde del matrimonio. Espero que me cortejes tanto como si estuviera dudando ante la verja de un monasterio, con un pie al otro lado del umbral. Se me cortejará hasta el final, e incluso después.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l4-1-64"><a class="pn " href="#l4-1-64">64</a>¿Cómo, después del final?</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-65"><a class="pn m5" href="#l4-1-65">65</a>Oh, pensaría que soy pobre y sin nada que ofrecer si me viera reducida a una comodidad indigna y liberada de las placenteras fatigas del cortejo.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l4-1-66"><a class="pn " href="#l4-1-66">66</a>¿Pero no sabes que cuando se conceden favores ante un cortejo inmediato y tedioso estos pierden su valor, y que tanto quien otorga pierde su gracia como quien recibe disminuye su placer?</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-67"><a class="pn " href="#l4-1-67">67</a>Puede que sea en cosas corrientes, pero nunca en el amor. Ay, odio al amante que se atreve a pensar que le arrebata un momento de aire independiente al botín de su amada. No hay cosa más impúdica en la naturaleza que la mirada insolente de un hombre seguro de sí mismo, confiado en su éxito. Ni la arrogancia pedante del marido tiene un aire tan pragmático. ¡Ay, jamás me casaré salvo que me asegure primero mi propia voluntad y placer!</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l4-1-68"><a class="pn " href="#l4-1-68">68</a>¿Quisieras tener los dos antes de la boda, o aceptarías la primera ahora y esperarías al otro hasta después de la ceremonia?</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-69"><a class="pn " href="#l4-1-69">69</a>¡Ay, no seas impertinente! Mi querida libertad, ¿te abandonaré? Mi fiel soledad, mi adorada contemplación, ¿he de deciros <em>au revoir</em>? Sí, <em>au revoir</em>. ¿Mis pensamientos matutinos, mis agradables despertares, mis cabezadas indolentes, todas vosotras <em>douceurs</em>, <em>pommeils du matin</em>, <em>au revoir</em>? No puedo, es más que imposible. La verdad, Mirabellas, es que yaceré en la cama por la mañana todo lo que quiera.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l4-1-70"><a class="pn m5" href="#l4-1-70">70</a>Pues yo me levantaré por la mañana tan temprano como quiera.</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-71"><a class="pn " href="#l4-1-71">71</a>¡Ay, criatura ociosa, levántate cuando quieras! Y, escucha, no consentiré que me pongan apodos después de que me case. Lo aseguro, nada de apodos.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l4-1-72"><a class="pn " href="#l4-1-72">72</a>¡Apodos!</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-73"><a class="pn " href="#l4-1-73">73</a>Sí, como mujer, esposa, cariño mío, alegría, joya, amor, mi corazón, ni el resto de ese canto nauseabundo al que los hombres y sus esposas están tan acostumbrados., Jjamás lo soportaré. Buen Mirabellas, no nos mostraremos tan íntimos y enamorados, ni nos besaremos delante de la gente como si fuéramos <em>lady</em> Toqueteos y don Francisco, ni iremos al partque juntos el primer domingo en una carroza nueva, para provocar miradas y cuchicheos, y que luego no nos vuelvan a ver más por allí juntos, como si estuviéramos orgullosos el uno del otro la primera semana y luego avergonzados por siempre jamás. No iremos de visita juntos, ni al teatro;, seremos reservados y educados. Seremos reservados como si lleváramos casados mucho tiempo, y educados como si no estuviéramos ni casados.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l4-1-74"><a class="pn " href="#l4-1-74">74</a>¿Te quedan condiciones que poner? Hasta ahora tus requisitos son razonables.</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-75"><a class="pn m5" href="#l4-1-75">75</a>Minucias, como la libertad para hacer y recibir visitas a y de quien quiera, para escribir y recibir cartas, sin interrogatorios o malas caras por tu parte, para vestir como quiera y elegir conversación solamente a mi gusto, para no tener la obligación de conversar con listos que no me agraden, solo porque sean conocidos tuyos, o dar confianza a tontos solo porque sean familia tuya. Cenar cuando me plazca, cenar en mi vestidor cuando no esté de humor, sin tener que dar explicaciones. Que mi armario sea inviolable, y yo seré la única emperatriz de mi mesilla de té, a la cual no te podrás acercar sin primero pedir permiso y, por último, siempre llamarás a la puerta antes de entrar. Si suscribes estas condiciones, y yo sigo aguantándote más tiempo, puede que progresivamente me reduzca a ser esposa.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l4-1-76"><a class="pn " href="#l4-1-76">76</a>La cuenta ha subido en este último tramo. Bueno, ¿tengo yo la libertad de poner condiciones para que, cuando te reduzcas a ser esposa, no sufra un aumento desmesurado como esposo?</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-77"><a class="pn " href="#l4-1-77">77</a>Tienes la dispensa. Haz tu propuesta, habla y no te dejes nada.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l4-1-78"><a class="pn " href="#l4-1-78">78</a>Os lo agradezco. Entonces, visto el documento, acuerdo que vuestras amistades sean mutuas, que no os permitáis tener una confidente de vuestro propio sexo bajo juramento, ni amiga para ocultar sus asuntillos bajo vuestra apariencia ni que os tiente a hacer un pacto mutuo de discreción. Que no os sirva de señuelo para conseguiros un petimetre con el que ir sigilosamente al teatro tras una máscara y traeros a casa con un fingido susto si creéis que os van a descubrir, y que no la toméis conmigo por haberme perdido la función, chafando el plan que preparasteis para pillarme y comprobar mi fidelidad.</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-79"><a class="pn " href="#l4-1-79">79</a>¡Detestable “visto el documento”! ¡Y siempre voy al teatro con una máscara!</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l4-1-80"><a class="pn m5" href="#l4-1-80">80</a>Artículo siguiente, que os siga gustando vuestra cara mientras me guste a mí, y mientras me siga pareciendo bien, que no os empeñéis en reacuñarla. Para cuyo fin, además de todas las caretas diurnas, prohíbo todas las mascarillas nocturnas hechas con pieles aceitosas y no sé qué más, huesos de cerdo, vesícula de liebre, líquido de puerco y tuétano de gato asado. En resumen, prohíbo todo comercio con la vendedora de esas tiendas… como se llamen. Artículo siguiente, cierro mis puertas a las correveidiles que llevan cestas con gangas de muselina, cerámica, abanicos, sedas, etc. Artículo siguiente, cuando estéis embarazada…</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-81"><a class="pn " href="#l4-1-81">81</a>¡Ay, eso ni lo nombres!</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l4-1-82"><a class="pn " href="#l4-1-82">82</a>… como es de esperar, si nuestros intentos son bendecidos…</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-83"><a class="pn " href="#l4-1-83">83</a>¡Odiosos intentos!</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l4-1-84"><a class="pn " href="#l4-1-84">84</a>…me opongo a todo tipo de fajas, apreturas, para mantener la figura moldeando la cabeza de mi hijo como un pan de azúcar en lugar de un ser humano, y que parezca que soy padre de un leño doblado. Por último, me someto al dominio de vuestra mesilla de té, pero con la condición de que no os excedáis en vuestra jurisprudencia, y que os limitéis a las bebidas habituales de una mesilla de té, como son el té, el chocolate y el café, y a conversaciones autorizadas de mesilla de té, como criticar modas, destruir reputaciones, vilipendiar amistades ausentes y cosas así. Pero, bajo ningún concepto, no os aboguéis prerrogativas masculinas de beber a vuestra salud o brindar por otros. Por prevención destierro toda intervención extranjera, auxiliares de una mesilla de té como brandy de naranja, todos los anisetes y licores de canela, limón y barbados, además de ratafía y el más noble licor de menta. Sin embargo, el vino de prímula, el licor de adormidera y otros somníferos los permito. Una vez admitidas estas condiciones, en las demás cuestiones puedo demostrar que seré un marido tratable y cumplidor.</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-85"><a class="pn m5" href="#l4-1-85">85</a>¡Oh, terribles condiciones! ¡Asquerosos licores! ¡Brindar yo por otros, hombres odiosos! ¡No soporto tus odiosas condiciones!</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l4-1-86"><a class="pn " href="#l4-1-86">86</a>Entonces estamos de acuerdo. ¿Os beso la mano para rubricar el contrato? Y aquí viene una para ser testigo de que sellamos un acuerdo.</p>
+</div><p class="sd " id="l4-1-86-sd1">(Entra DOÑA TODOENGAÑO.)</p><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-87"><a class="pn " href="#l4-1-87">87</a>Todoengaño, ¿qué hago? ¿Me quedo con él? Creo que debo quedarme con él.</p>
+</div><div class="sp " data-who="Doña_Todoengaño">
+  <p class="spk ">
+    DOÑA TODOENGAÑO
+  </p>
+  <p class="pr " id="l4-1-88"><a class="pn " href="#l4-1-88">88</a>Quédate con él, quédate con él. ¿Qué vas a hacer si no?</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-89"><a class="pn " href="#l4-1-89">89</a>Bueno, entonces me muero del susto que tengo. Todoengaño, no podré decirlo, bueno, creo… que te soportaré.</p>
+</div><div class="sp " data-who="Doña_Todoengaño">
+  <p class="spk ">
+    DOÑA TODOENGAÑO
+  </p>
+  <p class="pr " id="l4-1-90"><a class="pn m5" href="#l4-1-90">90</a>¡Basta, basta! Quédate con él, quédate con él, y díselo en lenguaje corriente, pues estoy segura de que te gusta.</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-91"><a class="pn " href="#l4-1-91">91</a>¿Seguro? Creo que sí, y ese horrible hombre parece que se lo cree también. Bueno, cosa ridícula, me quedaré contigo. Ni se me besará ni agradecerá. Aquí, besa mi mano, y muérdete la lengua y no digas ni una palabra.</p>
+</div><div class="sp " data-who="Doña_Todoengaño">
+  <p class="spk ">
+    DOÑA TODOENGAÑO
+  </p>
+  <p class="pr " id="l4-1-92"><a class="pn " href="#l4-1-92">92</a>Mirabellas, es necesario que obedezcas, no tienes tiempo ni para hablar ni para quedarte aquí. Viene mi madre y, según mi conciencia, si te viera, le daría un ataque de ira y quizás no se recuperaría a tiempo para regresar con don Rolando, quien, según cuenta Flacucha, tiene expectativas de victoria. Por tanto, guárdate tu entusiasmo para otra ocasión y márchate por las escaleras de atrás, donde Flacucha te espera para hablar contigo.</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-93"><a class="pn " href="#l4-1-93">93</a>Sí, vete, vete. Mientras tanto, supongo que habrás dicho algo que me plazca.</p>
+</div><div class="sp " data-who="Mirabellas">
+  <p class="spk ">
+    MIRABELLAS
+  </p>
+  <p class="pr " id="l4-1-94"><a class="pn " href="#l4-1-94">94</a>Soy todo obediencia.</p>
+</div><p class="sd " id="l4-1-94-sd1">(Sale.)</p><div class="sp " data-who="Doña_Todoengaño">
+  <p class="spk ">
+    DOÑA TODOENGAÑO
+  </p>
+  <p class="pr " id="l4-1-95"><a class="pn m5" href="#l4-1-95">95</a>Ese don Vil está borracho, y es tan ruidoso que mi madre se ha visto obligada a dejar un momento a don Rolando para apaciguarle, pero él le responde solo cantando y bebiendo. Lo que habrán hecho a estas alturas no lo sé, pero Petulante y él estaban discutiendo cuando pasé por allí.</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-96"><a class="pn " href="#l4-1-96">96</a>Bueno, si Mirabellas no me sale buen marido, soy una causa perdida, porque me doy cuenta de que le amo apasionadamente.</p>
+</div><div class="sp " data-who="Doña_Todoengaño">
+  <p class="spk ">
+    DOÑA TODOENGAÑO
+  </p>
+  <p class="pr " id="l4-1-97"><a class="pn " href="#l4-1-97">97</a>Eso parece, cuando te da igual lo que te digan. Si dudas de él, mejor júntate con don Vil.</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-98"><a class="pn " href="#l4-1-98">98</a>¿Cómo puedes nombrar a ese torpe anciano? ¡Vaya!</p>
+</div><p class="sd " id="l4-1-98-sd1">(Entra POLVORÍN bebido.)</p><div class="sp " data-who="Doña_Todoengaño">
+  <p class="spk ">
+    DOÑA TODOENGAÑO
+  </p>
+  <p class="pr " id="l4-1-99"><a class="pn " href="#l4-1-99">99</a>¿Así que se ha montado la bronca y, por eso, te has marchado?</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l4-1-100"><a class="pn m5" href="#l4-1-100">100</a>¿Marchado? No aguantaba más. Me he reído más que si hubiera ido a diez bautizos, estoy borracho de risa. Si me llego a quedar más tiempo habría reventado. Habría cedido por los costados y me habrían zurcido como una tela barata. Sí, sí, la bronca se ha montado. Entró mi señora como una <em>resolutio plena</em> y puso fin a sus intervenciones.</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-101"><a class="pn " href="#l4-1-101">101</a>¿De qué iba la bronca?</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l4-1-102"><a class="pn " href="#l4-1-102">102</a>Eso es lo gracioso, que no había tal bronca. Ninguno de los dos podía hablar por la ira, así que se limitaron a farfullarse el uno al otro como dos manzanas al horno. <span class="sdi">(Entra PETULANTE, borracho.)</span> <span class="pn">103</span>Ahora llega Petulante, todo se ha acabado, todo está bien. ¡Dios, me empieza a dar vueltas la cabeza! ¿Por qué no hablas? Estás tan borracho y tan mudo como un pez.</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l4-1-104"><a class="pn " href="#l4-1-104">104</a>Mirad, doña Mila Mantes, si podéis amarme, querida ninfa, decidlo, y asunto concluido. Tomadlo o dejadlo, eso es todo.</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l4-1-105"><a class="pn m5" href="#l4-1-105">105</a>Has hablado volúmenes, folios, en menos de lo que da un librillo, mi querido espartano. Chaval, Petulante, eres un resumen de palabras hecho hombre.</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l4-1-106"><a class="pn " href="#l4-1-106">106</a>Polvorín, y tú eres un aniquilador de significado.</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l4-1-107"><a class="pn " href="#l4-1-107">107</a>Y tú un revendedor de frases, y tratas con retales de retales, como un fabricante de acericos. La verdad es que eres, metafóricamente hablando, un taquígrafo hablante.</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l4-1-108"><a class="pn " href="#l4-1-108">108</a>Tú eres, sin figuras del habla, la mitad de un burro. Y ese burro de ahí, tu hermanastro, la otra mitad. Los burros gemelos partidos por la mitad serían cuatro de vosotros.</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l4-1-109"><a class="pn " href="#l4-1-109">109</a>Das buenos bocados, mi querida semilla de mostaza. Bésame por ello.</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l4-1-110"><a class="pn m5" href="#l4-1-110">110</a>¡Quita! No besaré a más varones. He besado a tu gemelo como gesto de reconciliación, y ahora <span class="sdi">(tiene hipo)</span> me repite como si fuera un rábano.</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-111"><a class="pn " href="#l4-1-111">111</a>¡Eh, asqueroso! ¿De qué iba la bronca?</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l4-1-112"><a class="pn " href="#l4-1-112">112</a>No hubo bronca. Pudo haber una bronca.</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l4-1-113"><a class="pn " href="#l4-1-113">113</a>Si hubiera habido palabras suficientes entre ellos para expresar la provocación se habrían cogido de las orejas como un par de castañuelas.</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l4-1-114"><a class="pn " href="#l4-1-114">114</a>Tú eras la bronca.</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-115"><a class="pn m5" href="#l4-1-115">115</a>¡Yo!</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l4-1-116"><a class="pn " href="#l4-1-116">116</a>Si estoy de humor para embroncarme, puedo hacer que cuestiones menores se conviertan en premisas. Si no eres bella, ¿qué pasa si estoy de humor para demostrar que lo eres? Si se me va a recompensar, decidlo. Si no, pelead por vuestra propia cara la próxima vez, que yo me iré a dormir.</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l4-1-117"><a class="pn " href="#l4-1-117">117</a>Sí, acurrúcate como una termita y sueña con la venganza. Y escúchame, si aprendes a escribir para mañana por la mañana, anótame un desafío, que yo lo llevaré por ti.</p>
+</div><div class="sp " data-who="Petulante">
+  <p class="spk ">
+    PETULANTE
+  </p>
+  <p class="pr " id="l4-1-118"><a class="pn " href="#l4-1-118">118</a>¡Llévale una zanahoria al conejo de tu amada! ¡Id, pulgas, a leer romances! ¡Yo me voy a la cama con mi criada!</p>
+</div><p class="sd " id="l4-1-118-sd1">(Sale.)</p><div class="sp " data-who="Doña_Todoengaño">
+  <p class="spk ">
+    DOÑA TODOENGAÑO
+  </p>
+  <p class="pr " id="l4-1-119"><a class="pn " href="#l4-1-119">119</a>Está terriblemente borracho. ¿Cómo os habéis metido todos en este embrollo?</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l4-1-120"><a class="pn m5" href="#l4-1-120">120</a>Un plan, un plan, para librarse del caballero, planeado por vuestro marido, pero él se ha escabullido.</p>
+</div><p class="sd " id="l4-1-120-sd1">(Entran LADY DESEOSA y DON VIL borracho.)</p><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-121"><a class="pn " href="#l4-1-121">121</a>¡Deja, deja! Después de años de discreción, ¡que te comportes con tan malas maneras!</p>
+</div><div class="sp " data-who="Don_Vil">
+  <p class="spk ">
+    DON VIL
+  </p>
+  <p class="pr " id="l4-1-122"><a class="pn " href="#l4-1-122">122</a>Espero no ofenderos, tía.</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-123"><a class="pn " href="#l4-1-123">123</a>¿Ofender? Como mujer que soy me avergüenzo de ti. ¡Uf! Apestas a vino. ¿Tú crees que mi sobrina soportaría a un borracho así? Eres un borracho absoluto.</p>
+</div><div class="sp " data-who="Don_Vil">
+  <p class="spk ">
+    DON VIL
+  </p>
+  <p class="pr " id="l4-1-124"><a class="pn " href="#l4-1-124">124</a>¡Borracho!</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-125"><a class="pn m5" href="#l4-1-125">125</a>En el momento que debías declarar tu amor y dar un paso al frente…</p>
+</div><div class="sp " data-who="Don_Vil">
+  <p class="spk ">
+    DON VIL
+  </p>
+  <p class="pr " id="l4-1-126"><a class="pn " href="#l4-1-126">126</a>Por Dios, si me racionas tu licor, hazme la cuenta, dame más bebida y coge mi cartera.</p><p class="sd " id="l4-1-126-sd1">(Canta.)</p><div class="lg ">
+  
+  <div class="l " id="l4-1-127"><a class="n " href="#l4-1-127">127</a><span class="t">Llena la copa hasta arriba,</span></div><div class="l " id="l4-1-128"><a class="n " href="#l4-1-128">128</a><span class="t">para que en mi cara se ría,</span></div><div class="l " id="l4-1-129"><a class="n " href="#l4-1-129">129</a><span class="t">con cerveza melosa y tenaz.</span></div><div class="l " id="l4-1-130"><a class="n m5" href="#l4-1-130">130</a><span class="t">Quien llora por una mujer</span></div><div class="l " id="l4-1-131"><a class="n " href="#l4-1-131">131</a><span class="t">burro ignorante ha de ser,</span></div><div class="l " id="l4-1-132"><a class="n " href="#l4-1-132">132</a><span class="t">un vaso lleno no tiene rival.</span></div>
+</div><p class="pr " id="l4-1-133"><a class="pn " href="#l4-1-133">133</a>Pero si queréis que me case con mi prima, decid la palabra y lo haré. Don Vil lo hará, mi palabra; don Vil lo hará, mi blasón; mi lema se me ha olvidado.</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-134"><a class="pn " href="#l4-1-134">134</a>Mi sobrino está un poco abatido, sobrina, pero de beber a tu salud. Tendrías que estarle agradecido.</p>
+</div><div class="sp " data-who="Don_Vil">
+  <p class="spk ">
+    DON VIL
+  </p>
+  <p class="pr " id="l4-1-135"><a class="pn m5" href="#l4-1-135">135</a><em>In vino veritas</em>, tía. ¡Si bebo a vuestra salud hoy, prima, soy un borracho! Pero si tenéis la intención de casaros, decid la palabra y mandad a por el gaitero, porque don Vil lo hará. Si no, barredlo a un lado y tomemos otra ronda. ¡Antonio! Por Dios, ¿dónde narices está Antonio? Antonio es un tipo honesto, pero escupe después de cada copa que se toma, y eso no está bien.</p><p class="sd " id="l4-1-135-sd1">(Canta.)</p><div class="lg ">
+  
+  <div class="l " id="l4-1-136"><a class="n " href="#l4-1-136">136</a><span class="t">Beberemos como nunca hemos bebido, chavales.</span></div><div class="l " id="l4-1-137"><a class="n " href="#l4-1-137">137</a><span class="t">Que el vaso gire después alrededor del sol, chavales.</span></div><div class="l " id="l4-1-138"><a class="n " href="#l4-1-138">138</a><span class="t">Y el ejemplo de Apolo nos guiará,</span></div><div class="l " id="l4-1-139"><a class="n " href="#l4-1-139">139</a><span class="t">cada noche él acaba chispeante,</span></div><div class="l " id="l4-1-140"><a class="n m5" href="#l4-1-140">140</a><span class="t">lo que le hace también tan brillante</span></div><div class="l " id="l4-1-141"><a class="n " href="#l4-1-141">141</a><span class="t">que por la mañana nos iluminará.</span></div>
+</div><p class="pr " id="l4-1-142"><a class="pn " href="#l4-1-142">142</a>El sol es un buen compañero, un bebedor honesto, que tiene una bodega en las Antípodas. Si viajo, tía, y llego a las Antípodas, buena gente, pícara y patas arriba, si cojo un vaso lleno me pondré boca abajo y beberé a su salud. ¿Compromiso o no compromiso, prima de difícil nombre? Tía, don Vil lo hará. Si aún es virgen, que se cuide, y si no, que la cuiden mientras tanto, y que a los nueve meses dé un grito.</p>
+</div><div class="sp " data-who="Mila_Mantes">
+  <p class="spk ">
+    MILA MANTES
+  </p>
+  <p class="pr " id="l4-1-143"><a class="pn " href="#l4-1-143">143</a>Disculpad, señora, no aguanto más. Don Vil se crece, ¡agh! ¡Cómo huele! Me sacará de quicio si me quedo. Vamos, prima.</p>
+</div><p class="sd " id="l4-1-143-sd1">(Salen Mila Mantes y Doña Todoengaño.)</p><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-144"><a class="pn " href="#l4-1-144">144</a>¡Huele! Envenenaría a un fabricante de velas y a su familia. ¡Vaya bestia! No sé qué hacer con él. Viajar, ha dicho. ¡Sí, viaja, viaja, márchate, lejos, con los sarracenos, o los tártaros, o los turcos, pues no sirves para vivir en una comunidad cristiana, bestia pagana!</p>
+</div><div class="sp " data-who="Don_Vil">
+  <p class="spk ">
+    DON VIL
+  </p>
+  <p class="pr " id="l4-1-145"><a class="pn m5" href="#l4-1-145">145</a>¿Turcos? No, no turcos, tía. Tus turcos son infieles, y no creen en la uva. Tus mahometanos, tus musulmanes, son secos apestosos, sin ánimo de ofender, tía. Mi mapa dice que tu turco no es tan honesto como tu cristiano. No encuentro en el mapa que tu <em>muftí</em> sea ortodoxo, por lo que es un caso claro que ortodoxo es una palabra difícil, tía, y <span class="sdi">(hipo)</span> significa clarete en griego.</p><p class="sd " id="l4-1-145-sd1">(Canta.)</p><div class="lg ">
+  
+  <div class="l " id="l4-1-146"><a class="n " href="#l4-1-146">146</a><span class="t">Beber es un cristiano goce,</span></div><div class="l " id="l4-1-147"><a class="n " href="#l4-1-147">147</a><span class="t">Que un turco o un persa desconoce.</span></div><div class="l " id="l4-1-148"><a class="n " href="#l4-1-148">148</a><span class="t">Que el tonto musulmán</span></div><div class="l " id="l4-1-149"><a class="n " href="#l4-1-149">149</a><span class="t">Siga las reglas del Corán</span></div><div class="l " id="l4-1-150"><a class="n m5" href="#l4-1-150">150</a><span class="t">Y le maldigan con su té y su café.</span></div><div class="l " id="l4-1-151"><a class="n " href="#l4-1-151">151</a><span class="t">Pero que los ingleses canten</span></div><div class="l " id="l4-1-152"><a class="n " href="#l4-1-152">152</a><span class="t">Y, por el rey, su vaso levanten</span></div><div class="l " id="l4-1-153"><a class="n " href="#l4-1-153">153</a><span class="t">Y una breva por los persas y su sultán.</span></div>
+</div><p class="pr " id="l4-1-154"><a class="pn " href="#l4-1-154">154</a>¡Ay, Antonio!</p>
+</div><p class="sd " id="l4-1-154-sd1">(Entra FLACUCHA y le cuchichea a LADY DESEOSA.)</p><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-155"><a class="pn m5" href="#l4-1-155">155</a><span class="sdi">[Aparte a Flacucha]</span> <span class="as">¡Don Rolando, impaciente! ¡Vaya por Dios! ¿Qué hago con esta bestia de carga?</span> <span class="sdi">[en voz alta]</span> Túmbate y duérmete, borrachuzo, o como Lady Deseosa que me llamo haré que te apaleen a escobazos. Llama a las mozuelas.</p>
+</div><p class="sd " id="l4-1-155-sd1">(Sale Flacucha.)</p><div class="sp " data-who="Don_Vil">
+  <p class="spk ">
+    DON VIL
+  </p>
+  <p class="pr " id="l4-1-156"><a class="pn " href="#l4-1-156">156</a>¿Cómo, mozuelas? ¿Dónde están las mozuelas?</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-157"><a class="pn " href="#l4-1-157">157</a>Querido sobrino Polvorín, llévatelo de aquí, y te estaré eternamente agradecida. Tengo un asunto ahora mismo que me urge resolver con rapidez. Te lo compensaré en el futuro.</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l4-1-158"><a class="pn " href="#l4-1-158">158</a>Vamos, caballero. Mala enfermedad pille. No sé qué decirle. ¿Te vienes a una pelea de gallos?</p>
+</div><div class="sp " data-who="Don_Vil">
+  <p class="spk ">
+    DON VIL
+  </p>
+  <p class="pr " id="l4-1-159"><a class="pn " href="#l4-1-159">159</a>¿Con una mozuela, Antonio? ¿Un gallo de pelea? Déjame que te muerda la mejilla.</p>
+</div><div class="sp " data-who="Polvorín">
+  <p class="spk ">
+    POLVORÍN
+  </p>
+  <p class="pr " id="l4-1-160"><a class="pn m5" href="#l4-1-160">160</a>¡Horrible! El aliento le huele a gaita. Sí, sí, ven. ¿Caminarás, paleto mío?</p>
+</div><div class="sp " data-who="Don_Vil">
+  <p class="spk ">
+    DON VIL
+  </p>
+  <p class="pr " id="l4-1-161"><a class="pn " href="#l4-1-161">161</a>Abre el camino, Antoñito, que yo te sigo, Antonio, mi Tonito, chaval, tú serás mi Tonito, y yo seré tu cerdito, y una breva por los persas y su sultán.</p>
+</div><p class="sd " id="l4-1-161-sd1">(Sale cantando con Polvorín.)</p><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-162"><a class="pn " href="#l4-1-162">162</a>Esto no dará resultado. No se emparejará, al menos hasta que haya estado en el extranjero. <span class="sdi">(Entra BIENESPERA, disfrazado de don Rolando.)</span> <span class="pn">163</span>Querido don Rolando, confundida estoy ante la confusión retrospectiva de mi propia grosería. Tengo más perdones que pedir que los que otorga el Papa por todo el año del Jubileo, pero espero que ante la probabilidad de estar tan cerca de una alianza, podamos aflojar la severidad del decoro y prescindir de un exceso de ceremonial.</p>
+</div><div class="sp " data-who="Bienespera">
+  <p class="spk ">
+    BIENESPERA
+  </p>
+  <p class="pr " id="l4-1-164"><a class="pn " href="#l4-1-164">164</a>Mi impaciencia, señora, es consecuencia de mi arrebato, y hasta que tome posesión de vuestra adorable persona me siento como en el potro de la tortura, colgado de mis expectativas.</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-165"><a class="pn m5" href="#l4-1-165">165</a>Sois demasiado galante, don Rolando, y llegáis a una conclusión con arrolladora vehemencia. Pero un día o dos, por decencia, antes del matrimonio…</p>
+</div><div class="sp " data-who="Bienespera">
+  <p class="spk ">
+    BIENESPERA
+  </p>
+  <p class="pr " id="l4-1-166"><a class="pn " href="#l4-1-166">166</a>Por decencia un funeral, señora. El retraso me partiría el corazón o, si no fuera así, me envenenaría. Mi sobrino recibirá una nota con mis deseos y me envenenará, y yo le mataré de hambre antes de morir, pues así me iría de este mundo con esa satisfacción. Eso me calmaría, si pudiera vivir aún lo suficiente para vengarme de esa víbora antinatural.</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-167"><a class="pn " href="#l4-1-167">167</a>¿Es tan antinatural, decís? La verdad es que me gustaría contribuir a salvar vuestra vida y tomaros vuestra venganza. Y no es por tenerme yo en cuenta, pese a que se ha comportado pérfidamente conmigo.</p>
+</div><div class="sp " data-who="Bienespera">
+  <p class="spk ">
+    BIENESPERA
+  </p>
+  <p class="pr " id="l4-1-168"><a class="pn " href="#l4-1-168">168</a>¡Pérfidamente con vos!</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-169"><a class="pn " href="#l4-1-169">169</a>¡Ay, don Rolando, las horas que se ha postrado muerto a mis pies, las lágrimas que ha derramado, los juramentos que ha hecho, las palpitaciones que ha sentido, los trances, los temblores, los ardores y los éxtasis, los arrodillamientos y levantamientos, los pálpitos del corazón y los retorcimientos de manos, las angustias y las desesperadas miradas de sus lastimeros ojos, ay, ninguna memoria puede recordar tanto!</p>
+</div><div class="sp " data-who="Bienespera">
+  <p class="spk ">
+    BIENESPERA
+  </p>
+  <p class="pr " id="l4-1-170"><a class="pn m5" href="#l4-1-170">170</a>¡Cómo, mi rival! ¿Ese rebelde es mi rival? ¡Morirá!</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-171"><a class="pn " href="#l4-1-171">171</a>No, no le matéis de golpe, don Rolando, matadle de hambre poco a poco, pulgada a pulgada.</p>
+</div><div class="sp " data-who="Bienespera">
+  <p class="spk ">
+    BIENESPERA
+  </p>
+  <p class="pr " id="l4-1-172"><a class="pn " href="#l4-1-172">172</a>Lo haré. En tres semanas irá descalzo, en un mes mendigará de rodillas. Morirá de hambre de abajo arriba, hasta que solo sobreviva su cabeza, que se apagará con su propio olor, como una vela a la que se le pone el capuchón.</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-173"><a class="pn " href="#l4-1-173">173</a>Bien, don Rolando, sabéis cómo. No sois un novato en el laberinto del amor, tenéis la clave. Pero, como que me llamo Lady Deseosa, don Rolando, no debéis atribuir mi consentimiento a ningún apetito siniestro, o a una indigestión de viudedad, ni imputar mi complacencia a ningún letargo de continencia. Espero que no me consideréis propensa a la reiteración de nupcias…</p>
+</div><div class="sp " data-who="Bienespera">
+  <p class="spk ">
+    BIENESPERA
+  </p>
+  <p class="pr " id="l4-1-174"><a class="pn " href="#l4-1-174">174</a>Nada más lejos…</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-175"><a class="pn m5" href="#l4-1-175">175</a>Porque si es así, os aseguro que me echaré atrás, o pensaré que he prostituido mi decoro. Pero en la vehemencia de la compasión, y para salvarle la vida a una persona de tanta importancia…</p>
+</div><div class="sp " data-who="Bienespera">
+  <p class="spk ">
+    BIENESPERA
+  </p>
+  <p class="pr " id="l4-1-176"><a class="pn " href="#l4-1-176">176</a>Eso lo aprecio…</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-177"><a class="pn " href="#l4-1-177">177</a>Si no, malinterpretaríais mi condescendencia…</p>
+</div><div class="sp " data-who="Bienespera">
+  <p class="spk ">
+    BIENESPERA
+  </p>
+  <p class="pr " id="l4-1-178"><a class="pn " href="#l4-1-178">178</a>No, no…</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-179"><a class="pn " href="#l4-1-179">179</a>Seguro que sí..</p>
+</div><div class="sp " data-who="Bienespera">
+  <p class="spk ">
+    BIENESPERA
+  </p>
+  <p class="pr " id="l4-1-180"><a class="pn m5" href="#l4-1-180">180</a>No, bello santuario de la virtud.</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-181"><a class="pn " href="#l4-1-181">181</a>Si pensarais que el menor escrúpulo de carnalidad fuera un ingrediente…</p>
+</div><div class="sp " data-who="Bienespera">
+  <p class="spk ">
+    BIENESPERA
+  </p>
+  <p class="pr " id="l4-1-182"><a class="pn " href="#l4-1-182">182</a>Querida señora, no. Sois toda alcanfor e incienso, toda castidad y aroma…</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-183"><a class="pn " href="#l4-1-183">183</a>O si…</p>
+</div><p class="sd " id="l4-1-183-sd1">(Entra FLACUCHA.)</p><div class="sp " data-who="Flacucha">
+  <p class="spk ">
+    FLACUCHA
+  </p>
+  <p class="pr " id="l4-1-184"><a class="pn " href="#l4-1-184">184</a>Señora, los bailarines están listos, y hay alguien con una carta que os ha de entregar en mano.</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-185"><a class="pn m5" href="#l4-1-185">185</a>Don Rolando, con vuestro permiso. Pensad favorablemente, juzgad cándidamente, y llegad a la conclusión de que habéis encontrado a una persona que padecería tormentos por vuestro honor, querido don Rolando, y que os cuidará eternamente.</p>
+</div><p class="sd " id="l4-1-185-sd1">(Sale.)</p><div class="sp " data-who="Bienespera">
+  <p class="spk ">
+    BIENESPERA
+  </p>
+  <p class="pr " id="l4-1-186"><a class="pn " href="#l4-1-186">186</a>¡Vaya, vaya, lo que tengo que padecer! Esposa, ¿tienes un trago por ahí? Quiero alcohol.</p>
+</div><div class="sp " data-who="Flacucha">
+  <p class="spk ">
+    FLACUCHA
+  </p>
+  <p class="pr " id="l4-1-187"><a class="pn " href="#l4-1-187">187</a>¡Qué rufián más debilucho eres, jadear por un cuarto de hora que has estado mintiendo y perjurando a tan buena señora!</p>
+</div><div class="sp " data-who="Bienespera">
+  <p class="spk ">
+    BIENESPERA
+  </p>
+  <p class="pr " id="l4-1-188"><a class="pn " href="#l4-1-188">188</a>Uf, es el antídoto del deseo. Esposa, será peor para ti. No se me abrirá el apetito para la reiteración de nupcias en las próximas cuarenta y ocho horas. Con esta perspectiva, prefiero llevar a alguien en una silla a cuestas en pleno verano que seguir haciendo de don Rolando mañana a estas horas.</p>
+</div><p class="sd " id="l4-1-188-sd1">(Entra LADY DESEOSA con una carta.)</p><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-189"><a class="pn " href="#l4-1-189">189</a>Llamad a los bailarines, don Rolando, si os parece bien nos sentaremos a ver el espectáculo. <span class="sdi">(Baile.)</span> <span class="pn m5">190</span>Ahora, con vuestro permiso, examinaré esta carta. La abriré en vuestra presencia, porque no quiero incomodaros. Si os incomodara, la quemaría. Decid si es así, pero podréis ver por la letra que ha sido escrita por una mujer.</p>
+</div><div class="sp " data-who="Flacucha">
+  <p class="spk ">
+    FLACUCHA
+  </p>
+  <p class="pr as" id="l4-1-191"><a class="pn " href="#l4-1-191">191</a><span class="sdi">[Aparte a Bienespera]</span> ¡Cielos! Doña Malmirada, lo sé. ¡Me duele el corazón! ¡Quítasela!</p>
+</div><div class="sp " data-who="Bienespera">
+  <p class="spk ">
+    BIENESPERA
+  </p>
+  <p class="pr " id="l4-1-192"><a class="pn " href="#l4-1-192">192</a>¿Letra de mujer? No, señora, no es letra de mujer. Eso ya lo veo, es de alguien al que habría que cortar el cuello.</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-193"><a class="pn " href="#l4-1-193">193</a>No, don Rolando, ya que me dais pruebas de vuestra pasión con vuestros celos, os prometo que os compensaré comunicándoos lo que dice. Ya veréis. La abriremos juntos, mirad ahí: <span class="sdi">(Lee.)</span> “Señora, ante vuestro desconocimiento”, véis, no es de nadie que conozca, “y como tengo en gran estima vuestra persona, me veo obligada a haceros saber que se aprovechan de vos. El que finge ser don Rolando es un tramposo y un truhán…” ¡Cielos! ¿Qué es esto?</p>
+</div><div class="sp " data-who="Flacucha">
+  <p class="spk ">
+    FLACUCHA
+  </p>
+  <p class="pr as" id="l4-1-194"><a class="pn " href="#l4-1-194">194</a><span class="sdi">[Aparte]</span> Mala suerte. Se ha estropeado todo.</p>
+</div><div class="sp " data-who="Bienespera">
+  <p class="spk ">
+    BIENESPERA
+  </p>
+  <p class="pr " id="l4-1-195"><a class="pn m5" href="#l4-1-195">195</a>¿Cómo, cómo? Dejadme ver, dejadme ver. <span class="sdi">(Lee.)</span> “Un truhán disfrazado y sobornado para ese fraude”, ¡qué villanía, qué villanía!, “tal y como lo planeó…”</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-196"><a class="pn " href="#l4-1-196">196</a>¡Me desmayo, me muero, me muero! ¡Oh!</p>
+</div><div class="sp " data-who="Flacucha">
+  <p class="spk ">
+    FLACUCHA
+  </p>
+  <p class="pr as" id="l4-1-197"><a class="pn " href="#l4-1-197">197</a><span class="sdi">[Aparte a Bienespera]</span> Di que es la letra de su sobrino, que es un complot suyo, júralo, júralo.</p>
+</div><div class="sp " data-who="Bienespera">
+  <p class="spk ">
+    BIENESPERA
+  </p>
+  <p class="pr " id="l4-1-198"><a class="pn " href="#l4-1-198">198</a>¡Esto es obra de un villano! Señora, ¿no lo percibís, no lo véis?</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-199"><a class="pn " href="#l4-1-199">199</a>Demasiado bien, demasiado bien. He visto demasiado.</p>
+</div><div class="sp " data-who="Bienespera">
+  <p class="spk ">
+    BIENESPERA
+  </p>
+  <p class="pr " id="l4-1-200"><a class="pn m5" href="#l4-1-200">200</a>Ya os dije que reconocí la letra. ¿Letra de mujer? El truhán escribe con letra grande y redondeada. ¡Ya vi que había un cuello que cortar! Si fuera mi hijo, o mi sobrino, le pegaría un tiro.</p>
+</div><div class="sp " data-who="Flacucha">
+  <p class="spk ">
+    FLACUCHA
+  </p>
+  <p class="pr " id="l4-1-201"><a class="pn " href="#l4-1-201">201</a>¡Qué traición! ¿Pero estáis seguro, don Rolando, de que es su letra?</p>
+</div><div class="sp " data-who="Bienespera">
+  <p class="spk ">
+    BIENESPERA
+  </p>
+  <p class="pr " id="l4-1-202"><a class="pn " href="#l4-1-202">202</a>¿Seguro? ¿Estoy aquí? ¿Vivo? ¿Pierdo esta perla de oriente? Llevo veinte cartas suyas en el bolsillo con la misma letra.</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-203"><a class="pn " href="#l4-1-203">203</a>¿Cómo?</p>
+</div><div class="sp " data-who="Flacucha">
+  <p class="spk ">
+    FLACUCHA
+  </p>
+  <p class="pr " id="l4-1-204"><a class="pn " href="#l4-1-204">204</a>¡Qué suerte, don Rolando, que estuvierais presente en esta situación! Este es el asunto que ha llevado a que don Mirabellas se disfrazara para ver a doña Mila Mantes esta tarde. Ya creía yo que algo se tramaba cuando a pasado por mi lado con la cara tapada.</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-205"><a class="pn m5" href="#l4-1-205">205</a>¡Cómo! He oído que ese villano estaba en la casa, y ahora recuerdo que mi sobrina se ausentó de repente cuando don Vil le iba a presentar sus respetos.</p>
+</div><div class="sp " data-who="Flacucha">
+  <p class="spk ">
+    FLACUCHA
+  </p>
+  <p class="pr " id="l4-1-206"><a class="pn " href="#l4-1-206">206</a>Señora, el señor Mirabellas le estaba esperando en la alcoba de ella, pero no quise decírselo a vuestra señoría por no descentrarla cuando ibais a recibir a don Rolando.</p>
+</div><div class="sp " data-who="Bienespera">
+  <p class="spk ">
+    BIENESPERA
+  </p>
+  <p class="pr " id="l4-1-207"><a class="pn " href="#l4-1-207">207</a>¡Ya está bien! Tiene los días contados.</p>
+</div><div class="sp " data-who="Flacucha">
+  <p class="spk ">
+    FLACUCHA
+  </p>
+  <p class="pr " id="l4-1-208"><a class="pn " href="#l4-1-208">208</a>No, buen don Rolando, no infrinjáis la ley.</p>
+</div><div class="sp " data-who="Bienespera">
+  <p class="spk ">
+    BIENESPERA
+  </p>
+  <p class="pr " id="l4-1-209"><a class="pn " href="#l4-1-209">209</a>¿Ley? No me importa la ley. Puedo morir, pero es por una buena causa. Mi señora quedará satisfecha de mi sinceridad e inocencia, aunque me cueste la vida.</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-210"><a class="pn m5" href="#l4-1-210">210</a>No, querido don Rolando, no peleéis; si os mataran, no podría mostrar mi cara en público. O si os colgaran, pensad en mi reputación, don Rolando. No, no pelearéis. Entraré e interrogaré a mi sobrina, la haré confesar. Os pido, don Rolando, por todo vuestro amor, que no peleéis.</p>
+</div><div class="sp " data-who="Bienespera">
+  <p class="spk ">
+    BIENESPERA
+  </p>
+  <p class="pr " id="l4-1-211"><a class="pn " href="#l4-1-211">211</a>Me encantáis, señora, y obedezco. Pero una prueba me debéis permitir que os dé. Iré a por la caja negra que tiene todos los documentos de mis propiedades, y os los entregaré en mano.</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-212"><a class="pn " href="#l4-1-212">212</a>Sí, don Rolando, eso me dará tranquilidad, traed la caja negra.</p>
+</div><div class="sp " data-who="Bienespera">
+  <p class="spk ">
+    BIENESPERA
+  </p>
+  <p class="pr " id="l4-1-213"><a class="pn " href="#l4-1-213">213</a>¿Y puedo traer un contrato para que se firme esta noche? ¿Puedo tener tantas esperanzas?</p>
+</div><div class="sp " data-who="Deseosa">
+  <p class="spk ">
+    LADY DESEOSA
+  </p>
+  <p class="pr " id="l4-1-214"><a class="pn " href="#l4-1-214">214</a>Traed lo que queráis, pero venid vivo, os ruego que vengáis vivo. ¡Oh, qué feliz desenlace!</p>
+</div><div class="sp " data-who="Bienespera">
+  <p class="spk ">
+    BIENESPERA
+  </p>
+  <p class="pr " id="l4-1-215"><a class="pn m5" href="#l4-1-215">215</a>Vivo o muerto vendré, y nos casaremos a pesar de la traición, sí, y tendremos un heredero que derrotará el último atisbo de esperanza de mi abandonado sobrino. ¡Vamos, mi rolliza viuda!</p><div class="lg ">
+  
+  <div class="l " id="l4-1-216"><a class="n " href="#l4-1-216">216</a><span class="t">Dentro de poco, una prueba recibiréis</span></div><div class="l " data-part="I" id="l4-1-217"><a class="n " href="#l4-1-217">217</a><span class="t">De que un caballero errante,</span></div>
+</div>
+</div><div class="sp " data-who="Flacucha">
+  <p class="spk ">
+    FLACUCHA
+  </p>
+  <div class="lg ">
+  
+  <div class="l as part-f" data-part="F" id="l4-1-217b"><span class="t"><span class="ghost " aria-hidden="true">De que un caballero errante, </span><span class="sdi">[Aparte]</span> o un truhán mangante tendréis.</span><span class="margin"><span class="aparte">aparte</span></span></div>
+</div>
+</div><p class="sd " id="l4-1-217-sd1">(Salen.)</p>
+      </section>
+    
+  
+</section>
+    
+    
+
+  </div>
+  <nav class="pager" aria-label="Actos" data-en-aria-label="Acts" data-tr>
+  <a href="act-3.html" rel="prev">← Act III</a>
+  <a href="act-5.html" rel="next">Act V →</a>
+</nav>
+</main>
+    </div>
+    <footer class="foot">
+      
+      <p>
+        <x-es>EMOTHE · versión 0.1.0 · generada el 2026-11-26</x-es><x-en>EMOTHE · version 0.1.0 · built 2026-11-26</x-en>
+      </p>
+      <p>
+        <x-es>Una edición estática según los</x-es><x-en>A static edition following the</x-en>
+        <a href="https://endings.uvic.ca/principles.html"><x-es>principios Endings</x-es><x-en>Endings principles</x-en></a><x-es>; la fuente TEI-XML de cada obra se publica junto a ella.</x-es><x-en>; every play&#39;s TEI-XML source is published beside it.</x-en>
+      </p>
+    </footer>
+  </body>
+</html>

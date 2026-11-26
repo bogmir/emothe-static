@@ -1,0 +1,1 @@
+EMOTHE.search.load("lines","EMOTHE0541_LaComediaDeLaCorte/n0",{"lines":[["act-2","nref-1","II",0,"n","En la edición empleada figura ‘poetrasto’. Enmendamos."],["act-3","nref-2","III",1,"n","Así en la edición empleada. ¿Quizá ‘Amén’?"]],"speakers":["MAESTRO ANDREA","PADRE GUARDIÁN DEL ARACELI"]});

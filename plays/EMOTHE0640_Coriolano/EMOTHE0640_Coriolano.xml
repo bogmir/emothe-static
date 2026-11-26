@@ -1,0 +1,2350 @@
+<?xml version="1.0" ?>
+<TEI xml:lang="es" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="original">Coriolan</title>
+        <title type="traduccion">Coriolano</title>
+        <title type="edicion">&quot;Coriolano&quot; de Alexandre Hardy: Edición TEI para EMOTHE</title>
+        <title key="orden">Coriolano</title>
+        <title key="archivo">EMOTHE0640_Coriolano</title>
+        <author ana="fiable">Alexandre Hardy</author>
+        <author key="orden">Hardy, Alexandre</author>
+        <sponsor>
+          <orgName>Plan Nacional de Investigación Científica, Desarrollo e Innovación Tecnológica (Plan Nacional de I+D+i)</orgName>
+        </sponsor>
+        <funder>
+          <orgName>Ministerio de Ciencia, Innovación y Universidades, Ministerio de Economía y Competitividad – Agencia Estatal de Investigación -FEDER/ERDF: &quot;Teatro europeo de los siglos XVI y XVII: patrimonio y bases de datos&quot; (EMOTHE) ref. FFI2016-80314-P (2016-12-30 /2019-12-31); Programa Estatal Redes de Excelencia, &quot;Red del Patrimonio Teatral Clásico Español&quot;, ref. FFI2015-71441-REDC (2015-12-01 / 2017-11-30); Ministerio de Ciencia e Innovación, &quot;Base de datos, argumentos y textos del teatro clásico español&quot;, ref. FFI2012-34347 (2013-02-01 / 2016-12-31); Ministerio de Ciencia e Innovación, &quot;Patrimonio teatral clásico español: textos e instrumentos de investigación&quot;, ref. CSD 2009-00033 (2009-12-17 / 2014-12-13); Ministerio de Ciencia e Innovación, &quot;ARTELOPE. Base de datos, argumentos y textos del teatro clásico español&quot;, ref. FFI2009-12730 (2010-01-01 / 2012-12-31)</orgName>
+        </funder>
+        <editor role="translator">
+          <persName>García Peinado, Miguel Ángel; García Calderón, Ángeles</persName>
+        </editor>
+        <principal>Joan Oleza Simó</principal>
+      </titleStmt>
+      <editionStmt>
+        <edition>Edición electrónica de &apos;Coriolano&apos;</edition>
+        <respStmt>
+          <resp>Electronic edition: text adapted, edited for XML and encoded by</resp>
+          <persName>Bodí García, Alba</persName>
+        </respStmt>
+      </editionStmt>
+      <extent ana="verso">1352 versos</extent>
+      <publicationStmt>
+        <publisher>
+          <orgName>ARTELOPE/EMOTHE Universitat de València</orgName>
+        </publisher>
+        <idno type="code">EMOTHE0640_Coriolano</idno>
+        <idno type="EMOTHE">0640</idno>
+        <pubPlace>Valencia</pubPlace>
+        <date>2019</date>
+        <authority>
+          <orgName>Universitat de València - Estudi General. http://www.uv.es</orgName>
+        </authority>
+        <availability>
+          <p>La Biblioteca Digital EMOTHE: The Classics of Early Modern European Theatre pertenece al proyecto EMOTHE del grupo de investigación ARTELOPE y ofrece en la web textos completos en acceso abierto, según la licencia que se indique. Se ruega citar la procedencia: &quot;Oleza, Joan et al. EMOTHE: The Classics of Early Modern European Theatre. Valencia: ARTELOPE/EMOTHE Universitat de València, 2010-. https://emothe.uv.es/biblioteca/&quot;</p>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es">Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem target="EMOTHE0638" type="original"/>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Coriolano</title>
+          <author>Hardy, Alexandre</author>
+          <editor role="traductor">García Peinado, Miguel Ángel; García Calderón, Ángeles</editor>
+<note>Hardy, Alexandre. <emph>Coriolano</emph>. Traducido por Miguel Ángel García Peinado y Ángeles García Calderón, para la colección EMOTHE. Valencia: ARTELOPE Universitat de València, 2019.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>La Biblioteca Digital EMOTHE (antes denominada Colección de Textos Clásicos Europeos (CTCE)) supone la creación de una base de datos de teatro clásico europeo en diferentes idiomas, versiones y refundiciones, todas ellas hipervinculadas.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Las presentes ediciones digitales están basadas, en su mayor parte, en ediciones científicas de reconocido prestigio y se ha tratado, en la mayoría de ocasiones, de respetar sus criterios de edición. Solo en casos muy puntuales el editor digital ha introducido leves cambios de los que da cumplida cuenta en el apartado de &quot;Notas&quot;.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="CDU">
+          <bibl>Clasificación Decimal Universal</bibl>
+        </taxonomy>
+      </classDecl>
+      <refsDecl>
+        <citeStructure match="/TEI/text/body//l[@n]" unit="verse" use="@n"/>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="es-ES">Español</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#CDU">821.134.2-2</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+<change><date>2020</date> <persName>Muñoz Pons, Carlos</persName> Revisión de la obra en formato TEI-XML</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>
+            <title>Coriolano</title>
+          </titlePart>
+        </docTitle>
+        <docAuthor>Alexandre Hardy</docAuthor>
+      </titlePage>
+      <div type="argumento">
+        <head>ARGUMENTO</head>
+        <p>Tres palabras resumirán este tema, tan bien tratado y argumentado en todas sus características por Plutarco, en la vida de este gran personaje, al que me remitiré libremente como la verdadera fuente en la que pueda indagar el lector;y bastará con decir que Coriolano, tras varios destacados servicios a su patria, se ve obligado al final a ceder ante la envidia del pueblo romano, el cual por presuntos delitos lo condena a un exilio perpetuo. Injuria tan sensible e incompatible contra este hombre de gran valor, que decide vengarse al precio que sea. Con este propósito pide reunirse con Aufidius, capitán del pueblo de los volscos, nación poderosa y enemiga fundamental de los romanos, los cuales les habían arrebatado muchas ciudades. Aufidiuslo recibe con toda la cortesía posible, hace que lo elijan en plena asamblea como Capitán General contra los romanos, a los que con un poderoso ejército los obliga a defenderse en la ciudad de Roma, sitiada por todas partes. Los romanos, tras alguna resistencia, luchando contra el hambre y las disensiones en el interior, así como contra los enemigos de fuera, envían un Embajador tras otro a Coriolano. Pero su odio irreconciliable les propone condiciones de paz tan injustas, vergonzosas y fuera de toda lógica que regresan de vacío; le envían a los Sumos Padres, revestidos de pompa y solemnidad, para que la piedad lo conmueva y tenga más conmiseración con su miserable patria, cuyo exilio de ella le había acarreado buena suerte; labor infructuosa por su parte, dado que no rezumaba más que la total destrucción de los suyos. Esta común desesperanza ante el convencimiento lleva a Valeria, virtuosa dama romana de la familia de Valerio Publícola, a la madre de Coriolano, a su mujer y sus hijos a ir a visitarlo a su campamento;de tal modo que sus ruegos son oídos, y que al prevalecer el instinto natural sobre firmeza inflexibleél hace levantar el asedio a los volscos, que lo matan al regreso, instigados por Aufidius, su competidor en la gloria, como traidor a su comunidad, y que pudiendo vencer a Roma había evitado la oportunidad por honrar a una madre. Pocos temas habrá en la historia romana que sean más dignos de ser llevados a laescena que este.</p>
+      </div>
+      <div type="elenco">
+        <head>PERSONAJES</head>
+        <castList>
+          <castItem>
+            <role xml:id="Coriolano">Coriolano</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Volumnia">Volumnia</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Edil">Edil</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Licinio">Licinio</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Coroderomanos">Coro de romanos</role>
+          </castItem>
+          <castItem>
+            <role xml:id="ElSenado">El Senado</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Aufidius">Aufidius</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Paje">Paje</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Embajadores">Embajadores</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Consejodelosvolscos">Consejo de los volscos</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Valeria">Valeria</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Grupodedamasromanas">Grupo de damas romanas</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Virginia">Virginia</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Corodevolscos">Coro de volscos</role>
+          </castItem>
+          <castItem>
+            <role xml:id="Mensajero">Mensajero</role>
+          </castItem>
+          <castItem>
+            <role xml:id="HijodeCoriolano">Hijo de Coriolano</role>
+          </castItem>
+        </castList>
+      </div>
+    </front>
+    <body>
+      <div1 n="1" type="act">
+        <head>ACTO I</head>
+        <stage xml:id="em0640-es-st-1">CORIOLANO, VOLUMNIA, EDILES,LICINIO, CORO, SENADO</stage>
+        <div2 type="scene" xml:id="em0640-es-sc-1">
+          <head>ESCENA I</head>
+          <stage xml:id="em0640-es-st-2">CORIOLANO, VOLUMNIA</stage>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-1">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="1" xml:id="em0640-es-1">Júpiter, si es verdad que es tu diestra imparcial</l>
+              <l n="2" xml:id="em0640-es-2">ya sea en actos crueles, duros y formidables,</l>
+              <l n="3" xml:id="em0640-es-3">si utilizas un rayo para vengar desmanes,</l>
+              <l n="4" xml:id="em0640-es-4">que una turba ingrata perpetua a la inocencia,</l>
+              <l n="5" xml:id="em0640-es-5">y si de los virtuosos cogieras el testigo,</l>
+              <l n="6" xml:id="em0640-es-6">¿no penarás acaso la criminal audacia,</l>
+              <l n="7" xml:id="em0640-es-7">el daño irreparable, la afrenta, enorme afrenta,</l>
+              <l n="8" xml:id="em0640-es-8">que me queda marcada en el pecho y la frente?</l>
+              <l n="9" xml:id="em0640-es-9">A los que protegí a riesgo de mi vida,</l>
+              <l n="10" xml:id="em0640-es-10">una masa agitada de plebe esclavizada,</l>
+              <l n="11" xml:id="em0640-es-11">un lodo de la tierra, un enorme desorden,</l>
+              <l n="12" xml:id="em0640-es-12">a los que el beneplácito insta a la rebelión,</l>
+              <l n="13" xml:id="em0640-es-13">a quienes yo he mandado, guía de los ejércitos,</l>
+              <l n="14" xml:id="em0640-es-14">que extiende por el orbe mis dispersas victorias,</l>
+              <l n="15" xml:id="em0640-es-15">que de mí solo guarda su apacible grandeza;</l>
+              <l n="16" xml:id="em0640-es-16">conjura mi deceso con un furioso ardor,</l>
+              <l n="17" xml:id="em0640-es-17">se atreve a injuriarme de efecto y de palabra,</l>
+              <l n="18" xml:id="em0640-es-18">sin honra al nombre que en los muros de Corioli</l>
+              <l n="19" xml:id="em0640-es-19">su valor adquirió, cuando en un mismo día</l>
+              <l n="20" xml:id="em0640-es-20">ya tomada esta villa, volví al campamento,</l>
+              <l n="21" xml:id="em0640-es-21">en el que, separado de la villa asediada</l>
+              <l n="22" xml:id="em0640-es-22">su ayuda adelantaba en batalla campal,</l>
+              <l n="23" xml:id="em0640-es-23">do mi diestra invencible al cansancio de Marte</l>
+              <l n="24" xml:id="em0640-es-24">no quiso exponerse al riesgo de la guerra,</l>
+              <l n="25" xml:id="em0640-es-25">pero obtuvo del Cónsul la orden de luchar.</l>
+              <l n="26" xml:id="em0640-es-26">Al que mejor creía negociar su victoria,</l>
+              <l n="27" xml:id="em0640-es-27">el valiente de Anzio se la rompió de pronto,</l>
+              <l n="28" xml:id="em0640-es-28">de la muerte arrancando a un ciudadano romano</l>
+              <l n="29" xml:id="em0640-es-29">en presencia de todos que el portento admiraron,</l>
+              <l n="30" xml:id="em0640-es-30">juzgando mi bravura en sin igual momento,</l>
+              <l n="31" xml:id="em0640-es-31">viéndome sin aliento, y de heridas cubierto,</l>
+              <l n="32" xml:id="em0640-es-32">rivales sometidos, con enormes esfuerzos</l>
+              <l n="33" xml:id="em0640-es-33">no obstante perseguimos a su turbado ejército,</l>
+              <l n="34" xml:id="em0640-es-34">al que un miedo cobarde dispersaba a la fuga,</l>
+              <l n="35" xml:id="em0640-es-35">persiguiendo igual que haceel toro enfurecido</l>
+              <l n="36" xml:id="em0640-es-36">en una herbosa dehesa a su infeliz rival;</l>
+              <l n="37" xml:id="em0640-es-37">así me comporté, alcanzando la gloria</l>
+              <l n="38" xml:id="em0640-es-38">de un salario público por mi virtud, notoria,</l>
+              <l n="39" xml:id="em0640-es-39">más contento de verme la cabeza rodeada</l>
+              <l n="40" xml:id="em0640-es-40">del árbol de Dodona rendido a los oráculos,</l>
+              <l n="41" xml:id="em0640-es-41">cantar mi loa oyendo por la boca común,</l>
+              <l n="42" xml:id="em0640-es-42">que por bienes rodeado bajo elaro lunar,</l>
+              <l n="43" xml:id="em0640-es-43">más contento de traer, vencedor, a mi madre,</l>
+              <l n="44" xml:id="em0640-es-44">una alegría muda, un gozo al corazón,</l>
+              <l n="45" xml:id="em0640-es-45">recibir su alabanza y su dulce abrazo,</l>
+              <l n="46" xml:id="em0640-es-46">que enriquecerme, avaro, con las presas reunidas.</l>
+              <l n="47" xml:id="em0640-es-47">¿Mas de qué habrá servido la sangre derramada?</l>
+              <l n="48" xml:id="em0640-es-48">¿Por qué de un vano honor quedé tan seducido?</l>
+              <l n="49" xml:id="em0640-es-49">La sierpe de la envidia de ahí empezó a brotar,</l>
+              <l n="50" xml:id="em0640-es-50">y de mi loa creciente cobró su crecimiento,</l>
+              <l n="51" xml:id="em0640-es-51">desde entonces la envidia me suscitó el odio</l>
+              <l n="52" xml:id="em0640-es-52">de una comuna ociosa en nuestra gran ciudad;</l>
+              <l n="53" xml:id="em0640-es-53">odio que hasta este punto de insolencia ha llegado,</l>
+              <l n="54" xml:id="em0640-es-54">que no habiendo el Senado contenido su rabia,</l>
+              <l n="55" xml:id="em0640-es-55">fui condenado a muerte sin mediar juicio alguno,</l>
+              <l n="56" xml:id="em0640-es-56">la esperanza negándome de frenar el exceso,</l>
+              <l n="57" xml:id="em0640-es-57">mi cabeza arrojando de la Roca Tarpeya,</l>
+              <l n="58" xml:id="em0640-es-58">contentaba su ira, enojada y carnívora;</l>
+              <l n="59" xml:id="em0640-es-59">incluso aún de nuevo fue preciso exponerme</l>
+              <l n="60" xml:id="em0640-es-60">a engaños inventados que quieran proponer,</l>
+              <l n="61" xml:id="em0640-es-61">¿me conviene sufrir, por ser de buen linaje,</l>
+              <l n="62" xml:id="em0640-es-62">la censura de jueces de este populacho,</l>
+              <l n="63" xml:id="em0640-es-63">esperar su dictamen? ¡Oh Cielos! Al pensarlo,</l>
+              <l n="64" xml:id="em0640-es-64">sonrojado debí, lanzarme al vacío,</l>
+              <l n="65" xml:id="em0640-es-65">muriendo espada en mano, como hombre magnánimo,</l>
+              <l n="66" xml:id="em0640-es-66">lavando con mi sangre un crimen tanculpable.</l>
+              <l n="67" xml:id="em0640-es-67">Asegúrate bien, hidra de cien cabezas,</l>
+              <l n="68" xml:id="em0640-es-68">bajel siempre batido por un viento inconstante,</l>
+              <l n="69" xml:id="em0640-es-69">que como yo lo veo abierto a la calumnia,</l>
+              <l n="70" xml:id="em0640-es-70">no quedará la injuria impune mucho tiempo.</l>
+              <l n="71" xml:id="em0640-es-71">Tu usurpado poder lo mermaré tan bajo,</l>
+              <l n="72" xml:id="em0640-es-72">que no volverá a haber debate entre nosotros,</l>
+              <l n="73" xml:id="em0640-es-73">que apagaré del todo tu cólera furiosa;</l>
+              <l n="74" xml:id="em0640-es-74">pero ahí viene mi madre inquieta a abordarme.</l>
+            </lg>
+          </sp>
+          <sp who="#Volumnia" xml:id="em0640-es-sp-2">
+            <speaker>VOLUMNIA</speaker>
+            <lg part="M" type="free">
+              <l n="75" xml:id="em0640-es-75">Llega (hijo mío) el día en el que se te acusa,</l>
+              <l n="76" xml:id="em0640-es-76">si eres humilde a todos los vencidos que te odian</l>
+              <l n="77" xml:id="em0640-es-77">vencerás, soportando la altiva ingratitud,</l>
+              <l n="78" xml:id="em0640-es-78">y el maligno rencor de esta multitud.</l>
+              <l n="79" xml:id="em0640-es-79">Cautivarás su cólera usando la obediencia;</l>
+              <l n="80" xml:id="em0640-es-80">¡Ay! No quieras por tanto creer en tu pasión.</l>
+              <l n="81" xml:id="em0640-es-81">Cede por un momento y los tendrás contentos,</l>
+              <l n="82" xml:id="em0640-es-82">y apaciguarás una horrible tormenta,</l>
+              <l n="83" xml:id="em0640-es-83">que Roma dividida se estremece por ti:</l>
+              <l n="84" xml:id="em0640-es-84">no puede la piedad tener mejor propósito,</l>
+              <l n="85" xml:id="em0640-es-85">y destacar mejor el lugar de una madre,</l>
+              <l n="86" xml:id="em0640-es-86">con respecto a un país oyendo mi oración.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-3">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="87" xml:id="em0640-es-87">Señora, me verían sobrellevar mil muertes,</l>
+              <l n="88" xml:id="em0640-es-88">antes que suplicar procurarme su gracia,</l>
+              <l n="89" xml:id="em0640-es-89">antes que un pueblo vil se jacte con razón</l>
+              <l n="90" xml:id="em0640-es-90">de haber en mi arrojo imprimido el temor,</l>
+              <l n="91" xml:id="em0640-es-91">que los que deberían verme como señor,</l>
+              <l n="92" xml:id="em0640-es-92">sobre mí prevalezcan del más pequeño honor;</l>
+              <l n="93" xml:id="em0640-es-93">¿doblar yo la rodilla ante un colectivo?</l>
+              <l n="94" xml:id="em0640-es-94">No, no quiero hacerlo, y no temo su encono.</l>
+            </lg>
+          </sp>
+          <sp who="#Volumnia" xml:id="em0640-es-sp-4">
+            <speaker>VOLUMNIA</speaker>
+            <lg part="M" type="free">
+              <l n="95" xml:id="em0640-es-95">Si eres acusado respondes ante él.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-5">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="96" xml:id="em0640-es-96">Pero soy inocente y me apoya elSenado.</l>
+            </lg>
+          </sp>
+          <sp who="#Volumnia" xml:id="em0640-es-sp-6">
+            <speaker>VOLUMNIA</speaker>
+            <lg part="M" type="free">
+              <l n="97" xml:id="em0640-es-97">“La inocencia a menudo cede ante la calumnia”,</l>
+              <l n="98" xml:id="em0640-es-98">te han hecho sospechoso de opresión estos jueces,</l>
+              <l n="99" xml:id="em0640-es-99">delito cuyo nombre ante la raza humana</l>
+              <l n="100" xml:id="em0640-es-100">fue, y será por siempre odioso a los romanos,</l>
+              <l n="101" xml:id="em0640-es-101">capaces de oprimir, sin entablar proceso,</l>
+              <l n="102" xml:id="em0640-es-102">a cualquiera que encuentren cómplice de sospecha.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-7">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="103" xml:id="em0640-es-103">La duda intencionada es fácil refutarla,</l>
+              <l n="104" xml:id="em0640-es-104">no podrá ocasionarme menoscabo alguno.</l>
+            </lg>
+          </sp>
+          <sp who="#Volumnia" xml:id="em0640-es-sp-8">
+            <speaker>VOLUMNIA</speaker>
+            <lg part="M" type="free">
+              <l n="105" xml:id="em0640-es-105">Siempre que te sometas, no albergo duda alguna,</l>
+              <l n="106" xml:id="em0640-es-106">de que el pueblo a la larga absolverá tu causa.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-9">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="107" xml:id="em0640-es-107">Nunca daré lugar a que mi rendición</l>
+              <l n="108" xml:id="em0640-es-108">haga aumentar su crédito y su temeridad.</l>
+            </lg>
+          </sp>
+          <sp who="#Volumnia" xml:id="em0640-es-sp-10">
+            <speaker>VOLUMNIA</speaker>
+            <lg part="M" type="free">
+              <l n="109" xml:id="em0640-es-109">¡Ay mísera Volumnia! ¡Ay madre desgraciada!</l>
+              <l n="110" xml:id="em0640-es-110">Ya ves la indiferencia de tu hijo obstinado,</l>
+              <l n="111" xml:id="em0640-es-111">tus consejos, razones, súplicas y tus lágrimas</l>
+              <l n="112" xml:id="em0640-es-112">amortiguar no pueden las fervorosas iras,</l>
+              <l n="113" xml:id="em0640-es-113">ni sacar a su líder de una clara tormenta,</l>
+              <l n="114" xml:id="em0640-es-114">de la que ya hace tiempo le adviertes su venida;</l>
+              <l n="115" xml:id="em0640-es-115">de nuevo, hijo mío, mi único apoyo,</l>
+              <l n="116" xml:id="em0640-es-116">por los Manes sagrados de tu difunto padre,</l>
+              <l n="117" xml:id="em0640-es-117">por las manos que abrazo en tu rostro guerrero,</l>
+              <l n="118" xml:id="em0640-es-118">por una compasión que te era familiar,</l>
+              <l n="119" xml:id="em0640-es-119">por este pelo cano, este pecho nutricio</l>
+              <l n="120" xml:id="em0640-es-120">que antaño amamantárate, por esta honda inquietud,</l>
+              <l n="121" xml:id="em0640-es-121">que devora por ti mi alma consumida,</l>
+              <l n="122" xml:id="em0640-es-122">refrena en este riesgo tu cólera sin límites,</l>
+              <l n="123" xml:id="em0640-es-123">déjate lastimero ablandar por mi queja,</l>
+              <l n="124" xml:id="em0640-es-124">déjame desviar tu esquife de este abismo,</l>
+              <l n="125" xml:id="em0640-es-125">examina además mi opinión protectora.</l>
+              <l n="126" xml:id="em0640-es-126">Medita que el orgullo siempre se queda solo,</l>
+              <l n="127" xml:id="em0640-es-127">Lejos de ti, que vives entre este pueblo franco,</l>
+              <l n="128" xml:id="em0640-es-128">(alguna vez un rey se apea de su rango)</l>
+              <l n="129" xml:id="em0640-es-129">cede a la voluntad de aquel que domina,</l>
+              <l n="130" xml:id="em0640-es-130">sus faltas disimula y, prudente, no se obstina,</l>
+              <l n="131" xml:id="em0640-es-131">“la paciencia triunfa, vence cualquier obstáculo,</l>
+              <l n="132" xml:id="em0640-es-132">nada es tan complicado para no superarlo”.</l>
+              <l n="133" xml:id="em0640-es-133">Evidencia un nivel de los más importantes,</l>
+              <l n="134" xml:id="em0640-es-134">cuando este país goza de una paz envidiable;</l>
+              <l n="135" xml:id="em0640-es-135">los hombres como tú son los más negligentes,</l>
+              <l n="136" xml:id="em0640-es-136">y los más injuriados por un pueblo insolente;</l>
+              <l n="137" xml:id="em0640-es-137">utiliza a sus jefes como a los plataneros,</l>
+              <l n="138" xml:id="em0640-es-138">al cual en el buen tiempo el viajero degrada:</l>
+              <l n="139" xml:id="em0640-es-139">poda sus grandes ramas, lamentando después</l>
+              <l n="140" xml:id="em0640-es-140">que una sañuda nube le moje todo el cuerpo.</l>
+              <l n="141" xml:id="em0640-es-141">Del mismo modo vemos destrozado en la orilla</l>
+              <l n="142" xml:id="em0640-es-142">un barco abandonado por el paso del tiempo,</l>
+              <l n="143" xml:id="em0640-es-143">con el que el mercader, ingrato,ha saqueado</l>
+              <l n="144" xml:id="em0640-es-144">cien veces los tesoros de América y de Asia,</l>
+              <l n="145" xml:id="em0640-es-145">creando su fortuna, y cuidando su vida;</l>
+              <l n="146" xml:id="em0640-es-146">así son los efectos usuales de la envidia:</l>
+              <l n="147" xml:id="em0640-es-147">tú debes dar ejemplo para ceder calmado,</l>
+              <l n="148" xml:id="em0640-es-148">para salir del paso, y evitarme inquietudes.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-11">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="149" xml:id="em0640-es-149">Señora (excepto la honra), haré todo lo viable.</l>
+            </lg>
+          </sp>
+          <sp who="#Volumnia" xml:id="em0640-es-sp-12">
+            <speaker>VOLUMNIA</speaker>
+            <lg part="M" type="free">
+              <l n="150" xml:id="em0640-es-150">Escuchemos, pues alguien ha abierto la puerta,</l>
+              <l n="151" xml:id="em0640-es-151">¡Dioses, es un edil! Perturba mis sentidos.</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="em0640-es-sc-2">
+          <head>ESCENA II</head>
+          <stage xml:id="em0640-es-st-3">EDIL, CORIOLANO, VOLUMNIA, LICINIO, CORO DE ROMANOS, SENADO.</stage>
+          <sp who="#Edil" xml:id="em0640-es-sp-13">
+            <speaker>EDIL</speaker>
+            <lg part="M" type="free">
+              <l n="152" xml:id="em0640-es-152">ElSenado, Togados y elpueblocongregado</l>
+              <l n="153" xml:id="em0640-es-153">te convocan, resueltos a enjuiciar tu asunto,</l>
+              <l n="154" xml:id="em0640-es-154">así pues a su exhorto la respuesta no aplaces.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-14">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="155" xml:id="em0640-es-155">Vamos, ya que el curso de un injusto destino</l>
+              <l n="156" xml:id="em0640-es-156">nos somete al poder de esta hidra amotinada,</l>
+              <l n="157" xml:id="em0640-es-157">vamos a comprobar su perversa impostura,</l>
+              <l n="158" xml:id="em0640-es-158">y a los dioses probar en su contra la injuria.</l>
+            </lg>
+          </sp>
+          <sp who="#Volumnia" xml:id="em0640-es-sp-15">
+            <speaker>VOLUMNIA</speaker>
+            <lg part="M" type="free">
+              <l n="159" xml:id="em0640-es-159">¡Júpiter! Protector de nuestro territorio,</l>
+              <l n="160" xml:id="em0640-es-160">te ruego que a mi hijo lo ampares con tu manto,</l>
+              <l n="161" xml:id="em0640-es-161">inspira su coraje, y vuelve a unificar</l>
+              <l n="162" xml:id="em0640-es-162">a este país dividido, por tu misericordia</l>
+            </lg>
+          </sp>
+          <sp who="#Licinio" xml:id="em0640-es-sp-16">
+            <speaker>LICINIO</speaker>
+            <lg part="M" type="free">
+              <l n="163" xml:id="em0640-es-163">Para poder purgarte de todos tus delitos,</l>
+              <l n="164" xml:id="em0640-es-164">delitos infringidos en contra del bien público,</l>
+              <l n="165" xml:id="em0640-es-165">el pueblo en mi nombre(su Togado) te ordena,</l>
+              <l n="166" xml:id="em0640-es-166">que en la fecha fijada respondas a mi duda.</l>
+              <l n="167" xml:id="em0640-es-167">¿Por qué en un principio, has desaconsejado</l>
+              <l n="168" xml:id="em0640-es-168">al resto delSenado, elpresente otorgado</l>
+              <l n="169" xml:id="em0640-es-169">del trigo siciliano, de la parte a cuenta,</l>
+              <l n="170" xml:id="em0640-es-170">y el otro en costo en plata legalmente canjeado,</l>
+              <l n="171" xml:id="em0640-es-171">recompensa debida a nuestro pueblo romano,</l>
+              <l n="172" xml:id="em0640-es-172">después de tanto esfuerzo y valientes hazañas,</l>
+              <l n="173" xml:id="em0640-es-173">después de haber llevado el peso en muchas guerras,</l>
+              <l n="174" xml:id="em0640-es-174">volviendo siempre llenos de golpes en su tierra?</l>
+              <l n="175" xml:id="em0640-es-175">Tú no puedes negarlo, es una crueldad</l>
+              <l n="176" xml:id="em0640-es-176">e injusticia extrema, y aún más impiedad,</l>
+              <l n="177" xml:id="em0640-es-177">tú no puedes negar, que tu alma rebelde</l>
+              <l n="178" xml:id="em0640-es-178">a la furia de Enio ha seguido en su curso.</l>
+              <l n="179" xml:id="em0640-es-179">Que cual perturbador del público reposo,</l>
+              <l n="180" xml:id="em0640-es-180">sembrando un alzamiento del todo fuera de orden,</l>
+              <l n="181" xml:id="em0640-es-181">no hayas merecido la pena capital.</l>
+              <l n="182" xml:id="em0640-es-182">Además conocemos tu mal humor notorio,</l>
+              <l n="183" xml:id="em0640-es-183">desear la tiranía, fingirla ardientemente,</l>
+              <l n="184" xml:id="em0640-es-184">que nuestras propias leyes no podrían parar,</l>
+              <l n="185" xml:id="em0640-es-185">quien del pueblo (enemigo) su poder debilita,</l>
+              <l n="186" xml:id="em0640-es-186">deseando inclinarlo bajo tu obediencia,</l>
+              <l n="187" xml:id="em0640-es-187">altivo en tus maneras, difícil al inicio,</l>
+              <l n="188" xml:id="em0640-es-188">por todo ello aconsejo, ante todos, la muerte,</l>
+              <l n="189" xml:id="em0640-es-189">si (comoasí parece) en las acusaciones</l>
+              <l n="190" xml:id="em0640-es-190">tus defensas no arguyen de manera aceptable.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-17">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="191" xml:id="em0640-es-191">Aunque de un modo justo yo me hubiera vengado,</l>
+              <l n="192" xml:id="em0640-es-192">de una mala actuación en otra transmutada,</l>
+              <l n="193" xml:id="em0640-es-193">yo, al que el rechazo ingrato de una voz popular,</l>
+              <l n="194" xml:id="em0640-es-194">frustró impúdicamente del honor consular,</l>
+              <l n="195" xml:id="em0640-es-195">yo que ceder no puedo ante un coraje astuto,</l>
+              <l n="196" xml:id="em0640-es-196">por mostrarle este cuerpo lleno de cicatrices,</l>
+              <l n="197" xml:id="em0640-es-197">por recordarle a veces de batallas el número,</l>
+              <l n="198" xml:id="em0640-es-198">que colmé de cadáveres los campos enemigos.</l>
+              <l n="199" xml:id="em0640-es-199">Invencible expandí la grandeza romana,</l>
+              <l n="200" xml:id="em0640-es-200">gracias a mi experiencia, di paso a los éxitos;</l>
+              <l n="201" xml:id="em0640-es-201">frenado, sin embargo no fue por la venganza</l>
+              <l n="202" xml:id="em0640-es-202">por lo que influí en rechazar el trigo,</l>
+              <l n="203" xml:id="em0640-es-203">sino solo por miedo de un que burdo adulado</l>
+              <l n="204" xml:id="em0640-es-204">llevase más a fondo su orgullo dilatado;</l>
+              <l n="205" xml:id="em0640-es-205">no convirtiese en ley la costumbre adquirida</l>
+              <l n="206" xml:id="em0640-es-206">de forzar alSenado, que se dé cuenta de ello:</l>
+              <l n="207" xml:id="em0640-es-207">en cuanto al crimen último del Imperio afectado,</l>
+              <l n="208" xml:id="em0640-es-208">si alguna vez tal peste ha infectado mi alma,</l>
+              <l n="209" xml:id="em0640-es-209">si se puede probar mi culpabilidad,</l>
+              <l n="210" xml:id="em0640-es-210">que el pueblo sufrir me haga una total venganza,</l>
+              <l n="211" xml:id="em0640-es-211">que sin dudar me exponga a una muerte sensible,</l>
+              <l n="212" xml:id="em0640-es-212">que me quemen, torturen, descuarticen mi cuerpo;</l>
+              <l n="213" xml:id="em0640-es-213">¡vos sabéis, Grandes Dioses, del pensar auditores!</l>
+              <l n="214" xml:id="em0640-es-214">¿Mas, quien no conocía estas trampas alzadas,</l>
+              <l n="215" xml:id="em0640-es-215">lejos de la apariencia, lejos de la verdad,</l>
+              <l n="216" xml:id="em0640-es-216">por vosotros, Togados, a la irritada masa?</l>
+            </lg>
+          </sp>
+          <sp who="#Licinio" xml:id="em0640-es-sp-18">
+            <speaker>LICINIO</speaker>
+            <lg part="M" type="free">
+              <l n="217" xml:id="em0640-es-217">No podrías negar, lo que ahora discutes,</l>
+              <l n="218" xml:id="em0640-es-218">que el botín ganado al vencer a los de Anzio,</l>
+              <l n="219" xml:id="em0640-es-219">lo dividiste injusto, y derivaste osado,</l>
+              <l n="220" xml:id="em0640-es-220">hacia tus predilectos, y según tu decreto,</l>
+              <l n="221" xml:id="em0640-es-221">los que se habían quedado de guardas de la villa,</l>
+              <l n="222" xml:id="em0640-es-222">que durante esta hazaña se ocupaban de lo útil,</l>
+              <l n="223" xml:id="em0640-es-223">sin que fueran privados no obstante de su parte.</l>
+              <l n="224" xml:id="em0640-es-224">Delito comprobado por muchos testimonios,</l>
+              <l n="225" xml:id="em0640-es-225">de tu desdicha público, prestos para vengarse,</l>
+              <l n="226" xml:id="em0640-es-226">bien de tu tiranía, o de tu negligencia.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-19">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="227" xml:id="em0640-es-227">¡Oh perversa impostura! ¡Oh malvados, malvados!</l>
+              <l n="228" xml:id="em0640-es-228">¿Qué no declararéis para buscar mi ruina?</l>
+              <l n="229" xml:id="em0640-es-229">¿De qué se acuerda ahora? ¿Y qué perversidad</l>
+              <l n="230" xml:id="em0640-es-230">tan sucia y reprobable fue alguna vez urdida?</l>
+              <l n="231" xml:id="em0640-es-231">Falsarios y otrora me habíais prometido</l>
+              <l n="232" xml:id="em0640-es-232">no tratar de buscarme, ni ir a perseguirme</l>
+              <l n="233" xml:id="em0640-es-233">tiranía alegando, y ahora desleales</l>
+              <l n="234" xml:id="em0640-es-234">me cargáis de repente con nuevas imposturas.</l>
+              <l n="235" xml:id="em0640-es-235">Rómulo a ti apelo, y a ti, padre mío;</l>
+              <l n="236" xml:id="em0640-es-236">a ti Marte, al que siempre pedí por protector;</l>
+              <l n="237" xml:id="em0640-es-237">¡a vosotros soldados, hueste comprometida!</l>
+              <l n="238" xml:id="em0640-es-238">El azar aumentasteis de mi feliz conducta,</l>
+              <l n="239" xml:id="em0640-es-239">vosotros, flor espléndida del Imperio Latino,</l>
+              <l n="240" xml:id="em0640-es-240">más bien dignos del Cielo, que de un botín como éste,</l>
+              <l n="241" xml:id="em0640-es-241">ved como a vuestro jefe lo acusan de ultraje,</l>
+              <l n="242" xml:id="em0640-es-242">y como la virtud procura mi perjuicio,</l>
+              <l n="243" xml:id="em0640-es-243">ved que os aconsejan un reposo hogareño,</l>
+              <l n="244" xml:id="em0640-es-244">que por error induce a un salario negaros,</l>
+              <l n="245" xml:id="em0640-es-245">ganado con la espada, exponiendo la vida,</l>
+              <l n="246" xml:id="em0640-es-246">considerad un rapto culpar a mi justicia,</l>
+              <l n="247" xml:id="em0640-es-247">achacarlo a vosotros que seguisteis mis pasos,</l>
+              <l n="248" xml:id="em0640-es-248">el botín de vencidos enviados a la muerte.</l>
+              <l n="249" xml:id="em0640-es-249">La cifra de desdichas os hiela la palabra,</l>
+              <l n="250" xml:id="em0640-es-250">mi ruego a vosotros, y mi queja son frívolas.</l>
+            </lg>
+          </sp>
+          <sp who="#Coroderomanos" xml:id="em0640-es-sp-20">
+            <speaker>CORO DE ROMANOS</speaker>
+            <lg part="M" type="free">
+              <l n="251" xml:id="em0640-es-251">Nuestro arrogante león comienza a derrumbarse,</l>
+              <l n="252" xml:id="em0640-es-252">evitemos que pueda nunca ya levantarse,</l>
+              <l n="253" xml:id="em0640-es-253">que su acatamiento no nos fuerce a afectarnos,</l>
+              <l n="254" xml:id="em0640-es-254">ya que también está dirigido a nosotros;</l>
+              <l n="255" xml:id="em0640-es-255">nos queda recoger los sufragios de todos,</l>
+              <l n="256" xml:id="em0640-es-256">para así condenarlo, o dejarlo absuelto.</l>
+              <l n="257" xml:id="em0640-es-257">Edil, apresuraos, recoged por familias</l>
+              <l n="258" xml:id="em0640-es-258">id a buscar el sino del arrogante reo.</l>
+            </lg>
+          </sp>
+          <sp who="#ElSenado" xml:id="em0640-es-sp-21">
+            <speaker>SENADO</speaker>
+            <lg part="M" type="free">
+              <l n="259" xml:id="em0640-es-259">¿Cobardes sufriremos un anárquico caos?</l>
+              <l n="260" xml:id="em0640-es-260">¿Un pueblo de pasión, envidioso, cegado,</l>
+              <l n="261" xml:id="em0640-es-261">del primer Senador balancear la fortuna?</l>
+              <l n="262" xml:id="em0640-es-262">¿Es que lo dejaremos arquearse en su encono?</l>
+              <l n="263" xml:id="em0640-es-263">Preciso es, si hace falta, unánimes morir,</l>
+              <l n="264" xml:id="em0640-es-264">morir a sus pies todos, o bien prestarle ayuda.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-22">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="265" xml:id="em0640-es-265">¡Decaído Coriolano! Aquí estás en lo alto</l>
+              <l n="266" xml:id="em0640-es-266">de un montón de la plebe, cerca de tu recaída;</l>
+              <l n="267" xml:id="em0640-es-267">he aquí tu vida incierta, gracias a tu arrogancia.</l>
+              <l n="268" xml:id="em0640-es-268">¡Cloto acabar debiste el hilo de mi huso!</l>
+              <l n="269" xml:id="em0640-es-269">¿Por qué no previniste anulando mi trama,</l>
+              <l n="270" xml:id="em0640-es-270">la suerte injuriosa de este segundo oprobio?</l>
+            </lg>
+          </sp>
+          <sp who="#Licinio" xml:id="em0640-es-sp-23">
+            <speaker>LICINIO</speaker>
+            <lg part="M" type="free">
+              <l n="271" xml:id="em0640-es-271">Según el antiguo orden, por recuento de votos,</l>
+              <l n="272" xml:id="em0640-es-272">tu condena no pasa, ni llega a dos tercios,</l>
+              <l n="273" xml:id="em0640-es-273">este pueblo de Rómulo tu pena ha moderado</l>
+              <l n="274" xml:id="em0640-es-274">al exilio perpetuo, sentencia humanitaria;</l>
+              <l n="275" xml:id="em0640-es-275">de la ciudad serás para siempre expulsado,</l>
+              <l n="276" xml:id="em0640-es-276">y si mañana estás en ella habrá castigo;</l>
+              <l n="277" xml:id="em0640-es-277">piensa en obedecer porque mucho te juegas,</l>
+              <l n="278" xml:id="em0640-es-278">dado el veredicto que la sentencia encierra.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-24">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="279" xml:id="em0640-es-279">Obedezco y acepto, pondré todo mi empeño</l>
+              <l n="280" xml:id="em0640-es-280">en dejar a estos pérfidos antes de que me urjan.</l>
+            </lg>
+          </sp>
+          <sp who="#Coroderomanos" xml:id="em0640-es-sp-25">
+            <speaker>CORO DE ROMANOS</speaker>
+            <lg part="M" type="free">
+              <l n="281" xml:id="em0640-es-281">¡Ve, ve, monstruo orgulloso, a buscar otro hogar,</l>
+              <l n="282" xml:id="em0640-es-282">halla un pueblo cobarde al que asuste tu reto!</l>
+              <l n="283" xml:id="em0640-es-283">¿Y qué pueblo si no el de los oscuros bosques,</l>
+              <l n="284" xml:id="em0640-es-284">de los que hay en África en sus arenas áureas,</l>
+              <l n="285" xml:id="em0640-es-285">que oculta al Hidaspes en sus yermas orillas,</l>
+              <l n="286" xml:id="em0640-es-286">convendría a tus hábitos brutalmente salvajes?</l>
+              <l n="287" xml:id="em0640-es-287">Nunca pudo ver Roma un día más feliz</l>
+              <l n="288" xml:id="em0640-es-288">que el que emanciparla debe de tu mirada;</l>
+              <l n="289" xml:id="em0640-es-289">y nunca hemos logrado sobre adversario alguno</l>
+              <l n="290" xml:id="em0640-es-290">trofeo más glorioso, útil y provechoso.</l>
+            </lg>
+          </sp>
+          <sp who="#ElSenado" xml:id="em0640-es-sp-26">
+            <speaker>SENADO</speaker>
+            <lg part="F" type="free">
+              <l n="291" xml:id="em0640-es-291">¡Dioses! ¿Quién lo pensara? La indulgencia nos pierde,</l>
+              <l n="292" xml:id="em0640-es-292">ella ha de este desprecio la huella descubierto,</l>
+              <l n="293" xml:id="em0640-es-293">alentó al colectivo al acto temerario,</l>
+              <l n="294" xml:id="em0640-es-294">al ultraje común que acaba de hacernos;</l>
+              <l n="295" xml:id="em0640-es-295">de ahora en adelante no conviene esperar,</l>
+              <l n="296" xml:id="em0640-es-296">que nuestra autoridad la pueda rechazar.</l>
+              <l n="297" xml:id="em0640-es-297">Desde ahora llevamos en el cuello el servicio,</l>
+              <l n="298" xml:id="em0640-es-298">ya que le han permitido (cobarde ingratitud)</l>
+              <l n="299" xml:id="em0640-es-299">el brillo del Senado, su gloria, su apoyo,</l>
+              <l n="300" xml:id="em0640-es-300">por un pueblo exiliarse en sufragio más fuerte.</l>
+            </lg>
+          </sp>
+        </div2>
+      </div1>
+      <div1 n="2" type="act">
+        <head>ACTO II</head>
+        <stage xml:id="em0640-es-st-4">CORIOLANO, PAJE, AUFIDIUS.</stage>
+        <div2 type="scene" xml:id="em0640-es-sc-3">
+          <head>ESCENA I</head>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-27">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="301" xml:id="em0640-es-301">Porideas devorado y el alma indignada,</l>
+              <l n="302" xml:id="em0640-es-302">un incierto consejo y luegootrourdo,</l>
+              <l n="303" xml:id="em0640-es-303">diluido por la furia que me hierve en la mente;</l>
+              <l n="304" xml:id="em0640-es-304">igual que a quien quisiera escribir bajo el agua,</l>
+              <l n="305" xml:id="em0640-es-305">romperdelremolino la súbita carrera</l>
+              <l n="306" xml:id="em0640-es-306">y obligar al oleaje a que recule y vuelva.</l>
+              <l n="307" xml:id="em0640-es-307">Mas vamos, detengámonos en un firmepropósito,</l>
+              <l n="308" xml:id="em0640-es-308">Un proyecto que quiera fraguarse en este pecho,</l>
+              <l n="309" xml:id="em0640-es-309">capaz de destruir la insolencia romana,</l>
+              <l n="310" xml:id="em0640-es-310">que aún sería poco si me guiopor mi odio;</l>
+              <l n="311" xml:id="em0640-es-311">poco sería trocarla en un desierto fúnebre,</l>
+              <l n="312" xml:id="em0640-es-312">habitáculo eterno de ánimas desdichadas,</l>
+              <l n="313" xml:id="em0640-es-313">de convertir (vengándome) esta ciudad soberbia,</l>
+              <l n="314" xml:id="em0640-es-314">en sepulcro cubierto de piedras y de hierba,</l>
+              <l n="315" xml:id="em0640-es-315">de perder sin respeto a uno y otro partido,</l>
+              <l n="316" xml:id="em0640-es-316">tal pérdida no es nada, comparado a mi afrenta.</l>
+              <l n="317" xml:id="em0640-es-317">El lodo de un innoble y abyecto populacho</l>
+              <l n="318" xml:id="em0640-es-318">ha tenido la audacia y el poder de exilarme,</l>
+              <l n="319" xml:id="em0640-es-319">a juicio del Senado, mi refugio final;</l>
+              <l n="320" xml:id="em0640-es-320">refugio mal pensado de un grupo hogareño,</l>
+              <l n="321" xml:id="em0640-es-321">cuya sola asistencia es el murmullo de hembras,</l>
+              <l n="322" xml:id="em0640-es-322">cuyo tono parece aceptar mi calumnia.</l>
+              <l n="323" xml:id="em0640-es-323">“Se conoce al amigo en los trances difíciles”.</l>
+              <l n="324" xml:id="em0640-es-324">No hay que envilecerse con penosos lamentos,</l>
+              <l n="325" xml:id="em0640-es-325">afligirse por el que se daña con palabras</l>
+              <l n="326" xml:id="em0640-es-326">y soportar, no obstante, que le roben la fama,</l>
+              <l n="327" xml:id="em0640-es-327">que exilado lo echen de su natural cielo,</l>
+              <l n="328" xml:id="em0640-es-328">uno se queja en vano, otro sufre en silencio,</l>
+              <l n="329" xml:id="em0640-es-329">pese a ello indiferentes a mi vehemente cólera.</l>
+              <l n="330" xml:id="em0640-es-330">¡Dioses reparadores, inspirad la tarea!</l>
+              <l n="331" xml:id="em0640-es-331">Permitidme que pueda,sin importar el precio</l>
+              <l n="332" xml:id="em0640-es-332">(“nunca el hombre vengado cobra desgracia alguna”),</l>
+              <l n="333" xml:id="em0640-es-333">que pueda avivar una guerra fatal</l>
+              <l n="334" xml:id="em0640-es-334">a rivales cercados en mi ciudad natal,</l>
+              <l n="335" xml:id="em0640-es-335">cisma más cruel que el de los hermanos tebanos,</l>
+              <l n="336" xml:id="em0640-es-336">que con su propia sangre se mancharon las manos.</l>
+              <l n="337" xml:id="em0640-es-337">Concededme que ahogado por su propia ruina,</l>
+              <l n="338" xml:id="em0640-es-338">liberemos del miedo a los pueblos del Latium.</l>
+              <l n="339" xml:id="em0640-es-339">La equidad lo demanda, en nada se precisa</l>
+              <l n="340" xml:id="em0640-es-340">que un soporte tan bajo se mantenga tan alto,</l>
+              <l n="341" xml:id="em0640-es-341">que de simples pastores que eran nuestros ancestros,</l>
+              <l n="342" xml:id="em0640-es-342">en su linaje hay ínfulas de los más grandes amos;</l>
+              <l n="343" xml:id="em0640-es-343">la violencia augura a nuestra acción efímera</l>
+              <l n="344" xml:id="em0640-es-344">un fin precipitado, así se los percibe:</l>
+              <l n="345" xml:id="em0640-es-345">así pues elegidme de vuestra ira instrumento,</l>
+              <l n="346" xml:id="em0640-es-346">que igual que nació, ahogaré su Imperio.</l>
+              <l n="347" xml:id="em0640-es-347">Entre un número eterno de agresivos vecinos,</l>
+              <l n="348" xml:id="em0640-es-348">son potentes los volscos, sólo a ellos considero</l>
+              <l n="349" xml:id="em0640-es-349">capaces de hacer frente a mi ingrata patria,</l>
+              <l n="350" xml:id="em0640-es-350">mi bravura aunada con su habilidad,</l>
+              <l n="351" xml:id="em0640-es-351">y un jefe carismático a quien de los rivales</l>
+              <l n="352" xml:id="em0640-es-352">los básicos secretos fueron antes pactados,</l>
+              <l n="353" xml:id="em0640-es-353">versado en sus astucias por su mucha experiencia,</l>
+              <l n="354" xml:id="em0640-es-354">a quien modeló Marte en el arte de guerra;</l>
+              <l n="355" xml:id="em0640-es-355">por tanto, por supuesto, no dudaré en destruir</l>
+              <l n="356" xml:id="em0640-es-356">el Estado de Roma desde cualquier lugar.</l>
+              <l n="357" xml:id="em0640-es-357">Es cierto que este pueblo ha soportado pérdidas,</l>
+              <l n="358" xml:id="em0640-es-358">más ligeras, quizá, de un plumazo cubiertas;</l>
+              <l n="359" xml:id="em0640-es-359">pérdidas que le han redoblado el odio,</l>
+              <l n="360" xml:id="em0640-es-360">que llena de aflicción el valor empañado.</l>
+              <l n="361" xml:id="em0640-es-361">Pérdidas, en resumen, que han hinchado su encono,</l>
+              <l n="362" xml:id="em0640-es-362">reservando su ajuste al momento oportuno,</l>
+              <l n="363" xml:id="em0640-es-363">tal como el que le llevo ofreciéndome a él.</l>
+              <l n="364" xml:id="em0640-es-364">Como rival de gloria sólo tengo a Aufidius,</l>
+              <l n="365" xml:id="em0640-es-365">pues es quien tiene el mando de su ingente República,</l>
+              <l n="366" xml:id="em0640-es-366">y es a él a quien conviene que trabaje primero,</l>
+              <l n="367" xml:id="em0640-es-367">un impulso de honor cien veces nos condujo,</l>
+              <l n="368" xml:id="em0640-es-368">ciegos por el furor, mermados a estos fines</l>
+              <l n="369" xml:id="em0640-es-369">a un desafío mutuo cada uno con su ejército,</l>
+              <l n="370" xml:id="em0640-es-370">querer morir, o solo vencer por el honor.</l>
+              <l n="371" xml:id="em0640-es-371">Erras, su corazón, de repente magnánimo,</l>
+              <l n="372" xml:id="em0640-es-372">por la piedad llevado, te prestará su mano,</l>
+              <l n="373" xml:id="em0640-es-373">se dejará plegar por tu gentil llamada,</l>
+              <l n="374" xml:id="em0640-es-374">usando los modales más sagrados y urgentes.</l>
+              <l n="375" xml:id="em0640-es-375">Tengo que disfrazarme con ropa más extraña,</l>
+              <l n="376" xml:id="em0640-es-376">con la cual mi aflicción sea fácil de notar,</l>
+              <l n="377" xml:id="em0640-es-377">y con tal atavío entrar hasta estos lares,</l>
+              <l n="378" xml:id="em0640-es-378">dispensa inviolable entre los más salvajes;</l>
+              <l n="379" xml:id="em0640-es-379">vamos, que nada peor puede ya sucedernos.</l>
+              <l n="380" xml:id="em0640-es-380">“Y en un mal extremo se debe intentar todo”.</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="em0640-es-sc-4">
+          <head>ESCENA II</head>
+          <stage xml:id="em0640-es-st-5">AUFIDIUS, PAJE.</stage>
+          <sp who="#Aufidius" xml:id="em0640-es-sp-28">
+            <speaker>AUFIDIUS</speaker>
+            <lg part="M" type="free">
+              <l n="381" xml:id="em0640-es-381">Así, por lo que veo, queréis Dioses del Cielo,</l>
+              <l n="382" xml:id="em0640-es-382">no limitar ya más las conquistas romanas</l>
+              <l n="383" xml:id="em0640-es-383">que hasta el fin del mundo; fijado es por las Parcas</l>
+              <l n="384" xml:id="em0640-es-384">que sean del universo plácidos propietarios,</l>
+              <l n="385" xml:id="em0640-es-385">que sus armas por siempre invictas empujadas</l>
+              <l n="386" xml:id="em0640-es-386">vengan del Occidente hasta playas heladas,</l>
+              <l n="387" xml:id="em0640-es-387">del Levante hasta el Sur, a pesar del denuedo</l>
+              <l n="388" xml:id="em0640-es-388">y los impedimentos de sus recios vecinos,</l>
+              <l n="389" xml:id="em0640-es-389">cuyo freno total produce a su victoria</l>
+              <l n="390" xml:id="em0640-es-390">esa total turgencia que rodea Neptuno;</l>
+              <l n="391" xml:id="em0640-es-391">y no tengáis temor de que luego no quieran</l>
+              <l n="392" xml:id="em0640-es-392">realzar de los Titanes los monstruosos aprestos,</l>
+              <l n="393" xml:id="em0640-es-393">que los niños romanos por la tierra abortados,</l>
+              <l n="394" xml:id="em0640-es-394">restituidos al Cielo a anunciaros la guerra,</l>
+              <l n="395" xml:id="em0640-es-395">que ellos, no hallando aquí a quien resistir pueda,</l>
+              <l n="396" xml:id="em0640-es-396">no quieran arrancar de su trono a Júpiter.</l>
+              <l n="397" xml:id="em0640-es-397">No, no, perjudicáis a vuestra predicción,</l>
+              <l n="398" xml:id="em0640-es-398">por no entrar sobre eso en alguna aprensión,</l>
+              <l n="399" xml:id="em0640-es-399">por creer que este pueblo ardiente en conquistar,</l>
+              <l n="400" xml:id="em0640-es-400">al mundo sojuzgado no lo pretenda ya.</l>
+              <l n="401" xml:id="em0640-es-401">Os hacéis un gran mal, y a nosotros aciagos,</l>
+              <l n="402" xml:id="em0640-es-402">que somos el expolio de sus míseros siervos,</l>
+              <l n="403" xml:id="em0640-es-403">siervos de unos bandidos reunidos por Rómulo,</l>
+              <l n="404" xml:id="em0640-es-404">quien con sangre fraterna manchó su muro alzado,</l>
+              <l n="405" xml:id="em0640-es-405">y estableció su Imperio después de un parricidio,</l>
+              <l n="406" xml:id="em0640-es-406">capaz de darle vueltas a la rueda de Ixión.</l>
+              <l n="407" xml:id="em0640-es-407">Sin embargo el impío poco a poco ha crecido,</l>
+              <l n="408" xml:id="em0640-es-408">igual que de una chispa se va haciendo un gran fuego;</l>
+              <l n="409" xml:id="em0640-es-409">o como un débil viento enciende una tormenta,</l>
+              <l n="410" xml:id="em0640-es-410">que impresiona de miedo a los peces de Anfítrite.</l>
+              <l n="411" xml:id="em0640-es-411">Sin mentir, accidente extraño y portentoso,</l>
+              <l n="412" xml:id="em0640-es-412">accidente que es como un sueño engañoso,</l>
+              <l n="413" xml:id="em0640-es-413">y que me obligaría finalmente a creer</l>
+              <l n="414" xml:id="em0640-es-414">que en verdad el azar regir debiera el mundo,</l>
+              <l n="415" xml:id="em0640-es-415">que de injustas grandezas solo ella es el remedio,</l>
+              <l n="416" xml:id="em0640-es-416">de los malos o buenos se ocupa en absoluto.</l>
+              <l n="417" xml:id="em0640-es-417">Esta cuestión me mata, y corroe sin cesar,</l>
+              <l n="418" xml:id="em0640-es-418">en un hastiado abismo de inquietud me sumerge,</l>
+              <l n="419" xml:id="em0640-es-419">muero al no haber podido sacarla de mi mente;</l>
+              <l n="420" xml:id="em0640-es-420">mas, de los míos viene uno, ¿qué te trae por aquí?</l>
+            </lg>
+          </sp>
+          <sp who="#Paje" xml:id="em0640-es-sp-29">
+            <speaker>PAJE</speaker>
+            <lg part="M" type="free">
+              <l n="421" xml:id="em0640-es-421">Un foráneo que entró en la casa hace poco,</l>
+              <l n="422" xml:id="em0640-es-422">por todos defraudado con sutiles modales,</l>
+              <l n="423" xml:id="em0640-es-423">solemne de semblante y suplicando verte,</l>
+              <l n="424" xml:id="em0640-es-424">pues la hospitalidad nos obliga a no echarlo,</l>
+              <l n="425" xml:id="em0640-es-425">desea (mi Señor) hablaros, y él mismo</l>
+              <l n="426" xml:id="em0640-es-426">se acerca siguiéndome con extrema confianza.</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="em0640-es-sc-5">
+          <head>ESCENA III</head>
+          <stage xml:id="em0640-es-st-6">AUFIDIUS, CORIOLANO.</stage>
+          <sp who="#Aufidius" xml:id="em0640-es-sp-30">
+            <speaker>AUFIDIUS</speaker>
+            <lg part="M" type="free">
+              <l n="427" xml:id="em0640-es-427">¿Quién eres? ¿Qué te trae? ¿Y cuál es el propósito</l>
+              <l n="428" xml:id="em0640-es-428">que has imaginado para acercarte a mí</l>
+              <l n="429" xml:id="em0640-es-429">por una vía oblicua, con temerosa audacia,</l>
+              <l n="430" xml:id="em0640-es-430">como con alma triste, suplicante y exánime?</l>
+              <l n="431" xml:id="em0640-es-431">Habla, pues, libremente, no me ocultes nada,</l>
+              <l n="432" xml:id="em0640-es-432">nunca niego mi ayuda a las gentes de bien.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-31">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="433" xml:id="em0640-es-433">Tras tu seguridad detecto percibir,</l>
+              <l n="434" xml:id="em0640-es-434">yo, cuyo nombre carga con un odio mortal</l>
+              <l n="435" xml:id="em0640-es-435">al pueblo volsco, antaño ejercido en combates,</l>
+              <l n="436" xml:id="em0640-es-436">(Corioli lo sabe) que a mi virtud dañó,</l>
+              <l n="437" xml:id="em0640-es-437">de ella el nombre me dieron, soy yo mismo, Aufidius,</l>
+              <l n="438" xml:id="em0640-es-438">y los míos llevados por ingrata perfidia</l>
+              <l n="439" xml:id="em0640-es-439">me premian desleales, con vergonzoso exilio.</l>
+              <l n="440" xml:id="em0640-es-440">Usa pues el ultraje y vuélvelo contra ellos,</l>
+              <l n="441" xml:id="em0640-es-441">cobra de los rivales un desgaste honorable,</l>
+              <l n="442" xml:id="em0640-es-442">empleándome en vengar nuestra común injuria,</l>
+              <l n="443" xml:id="em0640-es-443">distrayendo el orgullo loco de los romanos;</l>
+              <l n="444" xml:id="em0640-es-444">tengo el mismo coraje, y con las mismas manos,</l>
+              <l n="445" xml:id="em0640-es-445">el coraje, ¿qué digo? Ahora es de otra manera,</l>
+              <l n="446" xml:id="em0640-es-446">mi mente es más sutil, y mi diestra más fuerte</l>
+              <l n="447" xml:id="em0640-es-447">por el rencor movidas se eternizarán,</l>
+              <l n="448" xml:id="em0640-es-448">más que han hecho por ellos harán en contra de ellos:</l>
+              <l n="449" xml:id="em0640-es-449">y si soy rehusado por vuestra señoría,</l>
+              <l n="450" xml:id="em0640-es-450">me ofrezco libremente de víctima a su furia,</l>
+              <l n="451" xml:id="em0640-es-451">y feliz, y contento de no resistir más,</l>
+              <l n="452" xml:id="em0640-es-452">mis días de esperanza de una venganza excluidos,</l>
+              <l n="453" xml:id="em0640-es-453">esperanza asentada que si no se cumpliera,</l>
+              <l n="454" xml:id="em0640-es-454">la vida se me haría inapetente y cruel,</l>
+              <l n="455" xml:id="em0640-es-455">me obligaría a tener que apelar a mi diestra,</l>
+              <l n="456" xml:id="em0640-es-456">y arquear el Aqueronte donde los hombres oyen.</l>
+            </lg>
+          </sp>
+          <sp who="#Aufidius" xml:id="em0640-es-sp-32">
+            <speaker>AUFIDIUS</speaker>
+            <lg part="M" type="free">
+              <l n="457" xml:id="em0640-es-457">¡Alza de nuevo tu ánimo, capitán indomable!</l>
+              <l n="458" xml:id="em0640-es-458">Tienes aseguradas las ansias de los volscos,</l>
+              <l n="459" xml:id="em0640-es-459">te recibo en su nombre, a la vez que te avalo.</l>
+              <l n="460" xml:id="em0640-es-460">En cuanto al celoso odio de una gloria intuida,</l>
+              <l n="461" xml:id="em0640-es-461">mutua entre nosotros, jefes de opuestos bandos,</l>
+              <l n="462" xml:id="em0640-es-462">desde ahora renuncio, triste por tus miserias,</l>
+              <l n="463" xml:id="em0640-es-463">para mí ejemplares, que de un pueblo inconstante,</l>
+              <l n="464" xml:id="em0640-es-464">de un pueblo injurioso, haya que sufrir tanto.</l>
+              <l n="465" xml:id="em0640-es-465">Que sepan que un hombre puede perjudicarlos,</l>
+              <l n="466" xml:id="em0640-es-466">cuanto temer su ira deben al rechazarlo;</l>
+              <l n="467" xml:id="em0640-es-467">que aprenda a conservar, y a mejor premiar</l>
+              <l n="468" xml:id="em0640-es-468">a quien puede su alta suerte hacer bajar,</l>
+              <l n="469" xml:id="em0640-es-469">uno (no fingiréante ti de decírtelo)</l>
+              <l n="470" xml:id="em0640-es-470">cuya diestra servía de nervios a su Imperio,</l>
+              <l n="471" xml:id="em0640-es-471">de escudo, de baluarte, de materia de orgullo.</l>
+              <l n="472" xml:id="em0640-es-472">¿Pero, qué mal demonio le hace parpadear?</l>
+              <l n="473" xml:id="em0640-es-473">¿Tan propicio a nosotros deslumbra su prudencia,</l>
+              <l n="474" xml:id="em0640-es-474">para osar hasta ti extender su licencia?</l>
+              <l n="475" xml:id="em0640-es-475">¿Chocar contra tu gloria, e injusto ultrajar</l>
+              <l n="476" xml:id="em0640-es-476">a uno, a quien un altar debieron levantar?</l>
+              <l n="477" xml:id="em0640-es-477">La enormidad del hecho, la altura de la ofensa,</l>
+              <l n="478" xml:id="em0640-es-478">me mantienen atónito de un episodio tal.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-33">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="479" xml:id="em0640-es-479">¿Me preguntas acaso si el colmillo envidioso</l>
+              <l n="480" xml:id="em0640-es-480">de un vulgar enemigo causa este accidente?</l>
+              <l n="481" xml:id="em0640-es-481">¿Y de su mordedura estás libre hasta ahora?</l>
+              <l n="482" xml:id="em0640-es-482">Sí, nacido con porte de un destino mejor,</l>
+              <l n="483" xml:id="em0640-es-483">debiendo gobernar corderos inocentes,</l>
+              <l n="484" xml:id="em0640-es-484">a costa de mi dicha, estos leones rugientes,</l>
+              <l n="485" xml:id="em0640-es-485">estos bárbaros duchos en fraude, en felonía,</l>
+              <l n="486" xml:id="em0640-es-486">que sospechoso me han hecho de tiranía,</l>
+              <l n="487" xml:id="em0640-es-487">(¡falsamente imputado, sean testigos los Dioses!,</l>
+              <l n="488" xml:id="em0640-es-488">del crimen que entre todos, para mí es más odioso),</l>
+              <l n="489" xml:id="em0640-es-489">y jueces, y testigos, en final miserable,</l>
+              <l n="490" xml:id="em0640-es-490">me obligan a venir a pedirte socorro.</l>
+            </lg>
+          </sp>
+          <sp who="#Aufidius" xml:id="em0640-es-sp-34">
+            <speaker>AUFIDIUS</speaker>
+            <lg part="M" type="free">
+              <l n="491" xml:id="em0640-es-491">¿Por qué los Senadores a tu partido unidos</l>
+              <l n="492" xml:id="em0640-es-492">no te han directamente del ultraje librado?</l>
+              <l n="493" xml:id="em0640-es-493">¿No han frenado la furia de una turba confusa,</l>
+              <l n="494" xml:id="em0640-es-494">cada vez con más mando y que más de él abusa,</l>
+              <l n="495" xml:id="em0640-es-495">procura apropiarse poco a poco de un crédito,</l>
+              <l n="496" xml:id="em0640-es-496">del valor de Natura, y por el Cielo excluido?</l>
+              <l n="497" xml:id="em0640-es-497">¿No podían más osados, con motivo inferido,</l>
+              <l n="498" xml:id="em0640-es-498">retirar decididos tu inhumana sentencia?</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-35">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="499" xml:id="em0640-es-499">El tímido Senadome falló en el apuro,</l>
+              <l n="500" xml:id="em0640-es-500">fundé en él vana creencia, y me ha menospreciado,</l>
+              <l n="501" xml:id="em0640-es-501">ha visto, (¡deshonor!) a una comuna armada</l>
+              <l n="502" xml:id="em0640-es-502">que atentaba contra mi vida, y mi fama,</l>
+              <l n="503" xml:id="em0640-es-503">contento de oponerse con palabras, contento</l>
+              <l n="504" xml:id="em0640-es-504">por sufrir un exilio hurtándome a la Parca,</l>
+              <l n="505" xml:id="em0640-es-505">piensan en obligarme a una vida indigna,</l>
+              <l n="506" xml:id="em0640-es-506">a una vida oprimida al poder del primero.</l>
+              <l n="507" xml:id="em0640-es-507">No experimentan culpa alguna a mi respecto,</l>
+              <l n="508" xml:id="em0640-es-508">y ya mi alma furiosa a Senado y comuna</l>
+              <l n="509" xml:id="em0640-es-509">quisiera reunirlos contra mí en campaña,</l>
+              <l n="510" xml:id="em0640-es-510">castigando a aquellos que un crimen acompaña;</l>
+              <l n="511" xml:id="em0640-es-511">lo haré, siempre que sobre mi lealtad</l>
+              <l n="512" xml:id="em0640-es-512">quiera fundamentarse vuestra Comunidad.</l>
+            </lg>
+          </sp>
+          <sp who="#Aufidius" xml:id="em0640-es-sp-36">
+            <speaker>AUFIDIUS</speaker>
+            <lg part="M" type="free">
+              <l n="513" xml:id="em0640-es-513">Por nosotros no debes albergar duda alguna,</l>
+              <l n="514" xml:id="em0640-es-514">solo quisiera que al disolver nuestra tregua,</l>
+              <l n="515" xml:id="em0640-es-515">en igualdad pudiéramos luchar contra el romano,</l>
+              <l n="516" xml:id="em0640-es-516">y en una nueva urdimbre de guerras enredarlo;</l>
+              <l n="517" xml:id="em0640-es-517">premedita en tu mente algún ardid rival,</l>
+              <l n="518" xml:id="em0640-es-518">al que un matiz honesto lo exonere de infamia.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-37">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="519" xml:id="em0640-es-519">En un extremo anhelo bastará poco tiempo,</l>
+              <l n="520" xml:id="em0640-es-520">de hechizos y de anzuelos me proveerá bastante,</l>
+              <l n="521" xml:id="em0640-es-521">los atraeré a pesar de ellos a la liza;</l>
+              <l n="522" xml:id="em0640-es-522">“contra los maliciosos no existe la malicia,</l>
+              <l n="523" xml:id="em0640-es-523">y contra el desleal emplear la traición</l>
+              <l n="524" xml:id="em0640-es-524">y estar siempre alerta lo exige la razón”.</l>
+              <l n="525" xml:id="em0640-es-525">Vamos, bien sea al timón de la gestión pública,</l>
+              <l n="526" xml:id="em0640-es-526">o a intentar que Marte me asigne la fortuna,</l>
+              <l n="527" xml:id="em0640-es-527">espero conseguir que me absuelvan del cargo,</l>
+              <l n="528" xml:id="em0640-es-528">que a todos les daré para que se contenten.</l>
+            </lg>
+          </sp>
+          <sp who="#Aufidius" xml:id="em0640-es-sp-38">
+            <speaker>AUFIDIUS</speaker>
+            <lg part="F" type="free">
+              <l n="529" xml:id="em0640-es-529">Otrora explotara un rayo de la nube</l>
+              <l n="530" xml:id="em0640-es-530">y trocara mi testa en finísimo polvo,</l>
+              <l n="531" xml:id="em0640-es-531">antes de que ambicioso intrigue sobre ti</l>
+              <l n="532" xml:id="em0640-es-532">el mando de un partido; la prueba me avala</l>
+              <l n="533" xml:id="em0640-es-533">que a igual bravura en sino me superas,</l>
+              <l n="534" xml:id="em0640-es-534">por la suerte amparado y las Celestes Gracias,</l>
+              <l n="535" xml:id="em0640-es-535">en la hora victoriosa, en las luchas precisas;</l>
+              <l n="536" xml:id="em0640-es-536">creo que tienes al grado de General derecho,</l>
+              <l n="537" xml:id="em0640-es-537">si es que se reanuda la batalla con Roma,</l>
+              <l n="538" xml:id="em0640-es-538">y mientras a los volscos yo los tutelaré.</l>
+              <l n="539" xml:id="em0640-es-539">Guardemos el plan para mañana en el Consejo,</l>
+              <l n="540" xml:id="em0640-es-540">y como primer punto al que avala mi ayuda,</l>
+              <l n="541" xml:id="em0640-es-541">por mí, deja estas ropas, que la alegría condujo</l>
+              <l n="542" xml:id="em0640-es-542">tu agradable llegada que esta noche festejo,</l>
+              <l n="543" xml:id="em0640-es-543">presagio anunciador del sincero deseo</l>
+              <l n="544" xml:id="em0640-es-544">que tengo (Coriolano) de poder complacerte.</l>
+            </lg>
+          </sp>
+        </div2>
+      </div1>
+      <div1 n="3" type="act">
+        <head>ACTO III</head>
+        <stage xml:id="em0640-es-st-7">CORO DE ROMANOS, SENADO,EMBAJADORES, CONSEJO DE LOS VOLSCOS.</stage>
+        <div2 type="scene" xml:id="em0640-es-sc-6">
+          <head>ESCENA I</head>
+          <stage xml:id="em0640-es-st-8">CORO DE ROMANOS, SENADO,EMBAJADORES.</stage>
+          <sp who="#Coroderomanos" xml:id="em0640-es-sp-39">
+            <speaker>CORO DE ROMANOS</speaker>
+            <lg part="M" type="free">
+              <l n="545" xml:id="em0640-es-545">¿Permitís, Grandes Dioses, que la ausencia de un hombre</l>
+              <l n="546" xml:id="em0640-es-546">acarree la fortuna, y la dicha de Roma?</l>
+              <l n="547" xml:id="em0640-es-547">Hiela el pecho de un mundo encerrado en sus muros,</l>
+              <l n="548" xml:id="em0640-es-548">de un mundo que armado embriagaba de miedo</l>
+              <l n="549" xml:id="em0640-es-549">al resto conjurado de los pueblos de Hesperia,</l>
+              <l n="550" xml:id="em0640-es-550">que ante el horrible aspecto de la aguerrida flota</l>
+              <l n="551" xml:id="em0640-es-551">subyugando sus pueblos, su yugo imponiéndoles,</l>
+              <l n="552" xml:id="em0640-es-552">en lugar de perder de repente su gloria,</l>
+              <l n="553" xml:id="em0640-es-553">de los volscos envueltos en sempiternas guerras,</l>
+              <l n="554" xml:id="em0640-es-554">de los volscos otrora excluidos en su tierra</l>
+              <l n="555" xml:id="em0640-es-555">del poder, temerosos, que asediaba sus muros.</l>
+              <l n="556" xml:id="em0640-es-556">¡Cómo nos decepcionan vuestros juicios oscuros!</l>
+              <l n="557" xml:id="em0640-es-557">¡Cuán a menudo, ay! ¡Nos resulta difícil</l>
+              <l n="558" xml:id="em0640-es-558">el saber preferir a lo nocivo lo útil,</l>
+              <l n="559" xml:id="em0640-es-559">reconocer de dónde viene nuestra fortuna,</l>
+              <l n="560" xml:id="em0640-es-560">y entonces conservarla en su integridad!</l>
+              <l n="561" xml:id="em0640-es-561">Aquel que despreciado antaño desterramos,</l>
+              <l n="562" xml:id="em0640-es-562">asola nuestro pueblo en el fuego de su ira,</l>
+              <l n="563" xml:id="em0640-es-563">no ha hecho más que cambiar de partido, y de pronto</l>
+              <l n="564" xml:id="em0640-es-564">nos ha mostrado el hado su rostro inhumano;</l>
+              <l n="565" xml:id="em0640-es-565">el azar por él lucha, favorece a sus armas,</l>
+              <l n="566" xml:id="em0640-es-566">reta con sus espadas nuestros antiguos fueros.</l>
+              <l n="567" xml:id="em0640-es-567">¡Increíble prodigio! ¡Extraño y duro efecto</l>
+              <l n="568" xml:id="em0640-es-568">de la suerte que pronto destruye lo que ha hecho!</l>
+              <l n="569" xml:id="em0640-es-569">Variable se deleita en remover la traba</l>
+              <l n="570" xml:id="em0640-es-570">a aquellos que amparaba ahora con su sombra,</l>
+              <l n="571" xml:id="em0640-es-571">¡Ay! Los percibimos, por valor abatidos,</l>
+              <l n="572" xml:id="em0640-es-572">no conservando nada de las viejas virtudes,</l>
+              <l n="573" xml:id="em0640-es-573">privados de consejo, carentes de defensa</l>
+              <l n="574" xml:id="em0640-es-574">cual en la cuna vemos una frágil infancia;</l>
+              <l n="575" xml:id="em0640-es-575">nos quedamos varados de la misma manera</l>
+              <l n="576" xml:id="em0640-es-576">que con natural magia la nave es del pez rémora;</l>
+              <l n="577" xml:id="em0640-es-577">forzados a eximirnos por nuestras propias faltas.</l>
+              <l n="578" xml:id="em0640-es-578">¡Ay! Y por todos dentro de miedo me estremezco,</l>
+              <l n="579" xml:id="em0640-es-579">que rogando al altivo no sea más soberbio,</l>
+              <l n="580" xml:id="em0640-es-580">ni quiera ceder ante nuestros Embajadores;</l>
+              <l n="581" xml:id="em0640-es-581">que, obstinado, no quiera proseguir su venganza,</l>
+              <l n="582" xml:id="em0640-es-582">y que nuestra ciudad se exponga a un asedio,</l>
+              <l n="583" xml:id="em0640-es-583">a un tan funesto asedio como el de hace diez años</l>
+              <l n="584" xml:id="em0640-es-584">lo fue el de Ilión a nuestros ascendientes troyanos.</l>
+            </lg>
+          </sp>
+          <sp who="#ElSenado" xml:id="em0640-es-sp-40">
+            <speaker>SENADO</speaker>
+            <lg part="M" type="free">
+              <l n="585" xml:id="em0640-es-585">“El necio raramente se reporta más sabio</l>
+              <l n="586" xml:id="em0640-es-586">que tras haber sufrido algún notable daño,</l>
+              <l n="587" xml:id="em0640-es-587">persiste en el error de nutrir su opinión,</l>
+              <l n="588" xml:id="em0640-es-588">mientras que contribuya a crear confusión”;</l>
+              <l n="589" xml:id="em0640-es-589">de igual modo, rabiosos, vosotros no quisisteis</l>
+              <l n="590" xml:id="em0640-es-590">considerar, en parte, algunas de sus críticas,</l>
+              <l n="591" xml:id="em0640-es-591">aceptar un consejo provechoso en su tiempo,</l>
+              <l n="592" xml:id="em0640-es-592">de esto que ahora (mas tarde) estáis arrepentidos,</l>
+              <l n="593" xml:id="em0640-es-593">no os volvería el Senado a evidenciar la pérdida</l>
+              <l n="594" xml:id="em0640-es-594">que aportaba un tal hombre a su ciudad desierta,</l>
+              <l n="595" xml:id="em0640-es-595">que un día el podría vengarse del ultraje,</l>
+              <l n="596" xml:id="em0640-es-596">a intereses públicos y al peligro común;</l>
+              <l n="597" xml:id="em0640-es-597">no nos creísteis entonces, sino que os jactasteis</l>
+              <l n="598" xml:id="em0640-es-598">de lograr (exilándolo) derrotar alSenado.</l>
+              <l n="599" xml:id="em0640-es-599">Ridícula victoria y que aún recuerda</l>
+              <l n="600" xml:id="em0640-es-600">a la que obtuvo el bando de Cadmo, hijo de Agénor,</l>
+              <l n="601" xml:id="em0640-es-601">victoria que aún parece aciaga a los triunfantes,</l>
+              <l n="602" xml:id="em0640-es-602">y en lugar del laurel los cubre de escozor;</l>
+              <l n="603" xml:id="em0640-es-603">mas, ¿qué pueden ganar con esfuerzos opuestos,</l>
+              <l n="604" xml:id="em0640-es-604">los miembros divididos que anima un mismo cuerpo?</l>
+            </lg>
+          </sp>
+          <sp who="#Coroderomanos" xml:id="em0640-es-sp-41">
+            <speaker>CORO</speaker>
+            <lg part="M" type="free">
+              <l n="605" xml:id="em0640-es-605">De nuestra aflicción disertáis a gusto,</l>
+              <l n="606" xml:id="em0640-es-606">a salvo vuestros bienes de sus hostiles llamas,</l>
+              <l n="607" xml:id="em0640-es-607">al no dejar los campos el traidor que se quemen,</l>
+              <l n="608" xml:id="em0640-es-608">habiendo incluso puesto guardias que los protegen.</l>
+              <l n="609" xml:id="em0640-es-609">Si solos incumplimos, en dolor solos vamos,</l>
+              <l n="610" xml:id="em0640-es-610">solos el botín somos de su rabia inhumana.</l>
+              <l n="611" xml:id="em0640-es-611">¿A qué venís entonces, impropios, a culparnos</l>
+              <l n="612" xml:id="em0640-es-612">de un mal que no os afecta, y no puede afectaros?</l>
+              <l n="613" xml:id="em0640-es-613">¿Por qué defendéis, pues, que con hastiadas quejas</l>
+              <l n="614" xml:id="em0640-es-614">tratemos de calmar nuestros mortales daños?</l>
+            </lg>
+          </sp>
+          <sp who="#ElSenado" xml:id="em0640-es-sp-42">
+            <speaker>SENADO</speaker>
+            <lg part="M" type="free">
+              <l n="615" xml:id="em0640-es-615">¡Ay! La simplicidad, la arrogancia, el error</l>
+              <l n="616" xml:id="em0640-es-616">de creer que nada tiene contra nos de furor,</l>
+              <l n="617" xml:id="em0640-es-617">de oculta maldad, de hiel y de rencor,</l>
+              <l n="618" xml:id="em0640-es-618">que aprecie nuestros bienes más que los de un pueblo,</l>
+              <l n="619" xml:id="em0640-es-619">salvo que sea prudente es que desea sembrar</l>
+              <l n="620" xml:id="em0640-es-620">un cisma entre nosotros, reavivado con fuerza:</l>
+              <l n="621" xml:id="em0640-es-621">ahora que amenazados con idéntica ruina,</l>
+              <l n="622" xml:id="em0640-es-622">de este modo extirpándonos hasta la propia raíz,</l>
+              <l n="623" xml:id="em0640-es-623">ahora que precisamos de unapaz más que nunca</l>
+              <l n="624" xml:id="em0640-es-624">mutuamente ayudándonos, lo que antes nunca hicimos;</l>
+              <l n="625" xml:id="em0640-es-625">os recuerda ofuscados, pues es un personaje</l>
+              <l n="626" xml:id="em0640-es-626">que pelea con la misma astucia que coraje,</l>
+              <l n="627" xml:id="em0640-es-627">donde cree que carece de la fuerza de Aquiles,</l>
+              <l n="628" xml:id="em0640-es-628">sabe bien aplicar el ingenio de Ulises.</l>
+              <l n="629" xml:id="em0640-es-629">Así es, os lo aseguro, todo lo basa en gestos</l>
+              <l n="630" xml:id="em0640-es-630">que emplea con nosotros como obvios ejemplos.</l>
+              <l n="631" xml:id="em0640-es-631">No deseo que el pasado se transfiera al presente;</l>
+              <l n="632" xml:id="em0640-es-632">mas, ¡ay!, nos dirán ahora qué intenciones alberga,</l>
+              <l n="633" xml:id="em0640-es-633">llegan nuestros legados, cuyos sombríos rostros</l>
+              <l n="634" xml:id="em0640-es-634">muestran que su implacable rencor no tiene límites.</l>
+              <l n="635" xml:id="em0640-es-635">¿Amigos, qué lograsteis? ¿Con qué cordialidad</l>
+              <l n="636" xml:id="em0640-es-636">recibió este cruel a nuestra legación?</l>
+            </lg>
+          </sp>
+          <sp who="#Embajadores" xml:id="em0640-es-sp-43">
+            <speaker>EMBAJADORES</speaker>
+            <lg part="M" type="free">
+              <l n="637" xml:id="em0640-es-637">Cientos de veces peor de lo que el más bárbaro,</l>
+              <l n="638" xml:id="em0640-es-638">quien, excepto el adorno del Cetro y de la Tiara,</l>
+              <l n="639" xml:id="em0640-es-639">solo aprecia a su Rey, desprecia el escuchar</l>
+              <l n="640" xml:id="em0640-es-640">a los que aquí solía tener por compañeros,</l>
+              <l n="641" xml:id="em0640-es-641">resuelto a suprimir el nombre de su patria,</l>
+              <l n="642" xml:id="em0640-es-642">y a no moderar el ardor de su furia.</l>
+            </lg>
+          </sp>
+          <sp who="#Coroderomanos" xml:id="em0640-es-sp-44">
+            <speaker>CORO</speaker>
+            <lg part="M" type="free">
+              <l n="643" xml:id="em0640-es-643">¡Ay ciudad miserable! ¡Ay pobres ciudadanos!</l>
+            </lg>
+          </sp>
+          <sp who="#Embajadores" xml:id="em0640-es-sp-45">
+            <speaker>EMBAJADORES</speaker>
+            <lg part="M" type="free">
+              <l n="644" xml:id="em0640-es-644">Nuestras tumbas de paz son los únicos medios.</l>
+            </lg>
+          </sp>
+          <sp who="#ElSenado" xml:id="em0640-es-sp-46">
+            <speaker>SENADO</speaker>
+            <lg part="M" type="free">
+              <l n="645" xml:id="em0640-es-645">¿Qué ha cerrado el oído a un entendimiento?</l>
+            </lg>
+          </sp>
+          <sp who="#Embajadores" xml:id="em0640-es-sp-47">
+            <speaker>EMBAJADORES</speaker>
+            <lg part="M" type="free">
+              <l n="646" xml:id="em0640-es-646">La forma en que trata la guerra es similar.</l>
+            </lg>
+          </sp>
+          <sp who="#Coroderomanos" xml:id="em0640-es-sp-48">
+            <speaker>CORO</speaker>
+            <lg part="M" type="free">
+              <l n="647" part="I" xml:id="em0640-es-647">¡Cielos, se perdió todo!</l>
+            </lg>
+          </sp>
+          <sp who="#ElSenado" xml:id="em0640-es-sp-49">
+            <speaker>SENADO</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0640-es-648">En resumen, decís</l>
+              <l n="648" xml:id="em0640-es-649">que la reparación se extingue por su rabia.</l>
+            </lg>
+          </sp>
+          <sp who="#Embajadores" xml:id="em0640-es-sp-50">
+            <speaker>EMBAJADORES</speaker>
+            <lg part="M" type="free">
+              <l n="649" xml:id="em0640-es-650">Así que ya sabéis, la tregua extinguida,</l>
+              <l n="650" xml:id="em0640-es-651">envía su ejército una segunda vez,</l>
+              <l n="651" xml:id="em0640-es-652">nosotros con apoyo del pueblo y del Senado,</l>
+              <l n="652" xml:id="em0640-es-653">rogamos que llevara su campamento fuera</l>
+              <l n="653" xml:id="em0640-es-654">de las lindes de Roma, y luego, cualquier cosa</l>
+              <l n="654" xml:id="em0640-es-655">bajo la justa parte de la razón pactada,</l>
+              <l n="655" xml:id="em0640-es-656">se le concedería sin coacción alguna.</l>
+              <l n="656" xml:id="em0640-es-657">Pero de una pasión coronada por la ira,</l>
+              <l n="657" xml:id="em0640-es-658">respirando rencor en su visión perdida,</l>
+              <l n="658" xml:id="em0640-es-659">eludió vuestro ruego mandándoos a paseo,</l>
+              <l n="659" xml:id="em0640-es-660">respuesta no tenía como jefe que era,</l>
+              <l n="660" xml:id="em0640-es-661">remedio ni consuelo para nuestra desdicha,</l>
+              <l n="661" xml:id="em0640-es-662">mas, como ciudadano de Roma y patriota,</l>
+              <l n="662" xml:id="em0640-es-663">su gloria anticipándose al devoto sepulcro,</l>
+              <l n="663" xml:id="em0640-es-664">los destinos airados de ambición desmedida,</l>
+              <l n="664" xml:id="em0640-es-665">que él nos sugería vacíos de pasión,</l>
+              <l n="665" xml:id="em0640-es-666">devolverle a los volscos sus villas usurpadas</l>
+              <l n="666" xml:id="em0640-es-667">de bienes por nosotros, y de honor disipadas;</l>
+              <l n="667" xml:id="em0640-es-668">prometer no abordar la guerra nunca más,</l>
+              <l n="668" xml:id="em0640-es-669">y renunciar a todos los derechos contra ellos;</l>
+              <l n="669" xml:id="em0640-es-670">que así gozaremos de la paz deseada,</l>
+              <l n="670" xml:id="em0640-es-671">que así obtendremos garantía de su gracia;</l>
+              <l n="671" xml:id="em0640-es-672">que así evitamos el siguiente desastre,</l>
+              <l n="672" xml:id="em0640-es-673">y así su campamento se iría de estos muros,</l>
+              <l n="673" xml:id="em0640-es-674">dando solo tres días para diligenciarlo.</l>
+              <l n="674" xml:id="em0640-es-675">Júpiter (esto oyendo), cuando lanza su rayo,</l>
+              <l n="675" xml:id="em0640-es-676">menos grave aparece, añadiendo además,</l>
+              <l n="676" xml:id="em0640-es-677">que expirado este término delaplática excluido</l>
+              <l n="677" xml:id="em0640-es-678">nos haría castigar dirigiendo a su ejército.</l>
+            </lg>
+          </sp>
+          <sp who="#Coroderomanos" xml:id="em0640-es-sp-51">
+            <speaker>CORO</speaker>
+            <lg part="M" type="free">
+              <l n="678" xml:id="em0640-es-679">¿Oh ciudad desastrosa, dónde está tu renombre?</l>
+            </lg>
+          </sp>
+          <sp who="#ElSenado" xml:id="em0640-es-sp-52">
+            <speaker>SENADO</speaker>
+            <lg part="M" type="free">
+              <l n="679" xml:id="em0640-es-680">Debíais sondearlo, prudentes en secreto,</l>
+              <l n="680" xml:id="em0640-es-681">los volscos se deleitan encubriendo intenciones.</l>
+            </lg>
+          </sp>
+          <sp who="#Embajadores" xml:id="em0640-es-sp-53">
+            <speaker>EMBAJADORES</speaker>
+            <lg part="M" type="free">
+              <l n="681" xml:id="em0640-es-682">Sí, de no haber previsto el ardid proyectado,</l>
+              <l n="682" xml:id="em0640-es-683">convocado a consultas la grey de sus primados,</l>
+              <l n="683" xml:id="em0640-es-684">para oír a la embajada, y mandar de inmediato</l>
+              <l n="684" xml:id="em0640-es-685">que difusión le dieran en alto y por completo.</l>
+            </lg>
+          </sp>
+          <sp who="#Coroderomanos" xml:id="em0640-es-sp-54">
+            <speaker>CORO</speaker>
+            <lg part="M" type="free">
+              <l n="685" xml:id="em0640-es-686">Vamos con nuestra sangre a cebar su crueldad,</l>
+              <l n="686" xml:id="em0640-es-687">antes que someternos a su merced de nuevo,</l>
+              <l n="687" xml:id="em0640-es-688">vamos, espada en mano, a vencer su escuadrón,</l>
+              <l n="688" xml:id="em0640-es-689">renunciar no debemos a una muerte noble.</l>
+            </lg>
+          </sp>
+          <sp who="#ElSenado" xml:id="em0640-es-sp-55">
+            <speaker>SENADO</speaker>
+            <lg part="M" type="free">
+              <l n="689" xml:id="em0640-es-690">No, regresad con él, repetid nuestro ruego,</l>
+              <l n="690" xml:id="em0640-es-691">el Sol un mismo día al moderar su luz</l>
+              <l n="691" xml:id="em0640-es-692">muestra que el hombre puede alterar su opinión,</l>
+              <l n="692" xml:id="em0640-es-693">puede de la dureza volver a la piedad.</l>
+              <l n="693" xml:id="em0640-es-694">Reprimíos, nos queda un último recurso,</l>
+              <l n="694" xml:id="em0640-es-695">enviarles suplicando a nuestros religiosos,</l>
+              <l n="695" xml:id="em0640-es-696">que usando la piedad podrían conmoverlo,</l>
+              <l n="696" xml:id="em0640-es-697">pudiendo acompasar el deber al peligro.</l>
+            </lg>
+          </sp>
+          <sp who="#Embajadores" xml:id="em0640-es-sp-56">
+            <speaker>EMBAJADORES</speaker>
+            <lg part="M" type="free">
+              <l n="697" xml:id="em0640-es-698">A pesar de que ahora esté todo perdido,</l>
+              <l n="698" xml:id="em0640-es-699">iremos a buscar su esperada respuesta.</l>
+            </lg>
+          </sp>
+          <sp who="#Coroderomanos" xml:id="em0640-es-sp-57">
+            <speaker>CORO</speaker>
+            <lg part="M" type="free">
+              <l n="699" xml:id="em0640-es-700">¡Oh severos destinos! ¿Precisa nuestro luto</l>
+              <l n="700" xml:id="em0640-es-701">aumentar de un tirano su insoportable orgullo?</l>
+              <l n="701" xml:id="em0640-es-702">¿Se debe depender de la piedad de un Busiris,</l>
+              <l n="702" xml:id="em0640-es-703">caídos (para salvarlo) en tan penoso escándalo?</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="em0640-es-sc-7">
+          <head>ESCENA II</head>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-58">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="703" xml:id="em0640-es-704">Mi venganza estará pronto medio cumplida,</l>
+              <l n="704" xml:id="em0640-es-705">este pueblo injurioso de mi loa enemigo,</l>
+              <l n="705" xml:id="em0640-es-706">que se jactó del número, y nombre de su villa,</l>
+              <l n="706" xml:id="em0640-es-707">cede a mi discreción su yugo adulador,</l>
+              <l n="707" xml:id="em0640-es-708">por legación dos veces sufrió la negativa</l>
+              <l n="708" xml:id="em0640-es-709">de un acuerdo buscado pesaroso y confuso,</l>
+              <l n="709" xml:id="em0640-es-710">y no debe esperar nada de lo que haga;</l>
+              <l n="710" xml:id="em0640-es-711">tratando, humillado, de recobrar mi gracia,</l>
+              <l n="711" xml:id="em0640-es-712">de hablar conmigo aparte para comprar mi honor,</l>
+              <l n="712" xml:id="em0640-es-713">lo que de mi enojo no mitiga el fervor,</l>
+              <l n="713" xml:id="em0640-es-714">no lo apagará antes que su gloria agraviada</l>
+              <l n="714" xml:id="em0640-es-715">que a los países pequeños se rebaja igualándolos,</l>
+              <l n="715" xml:id="em0640-es-716">pondré, hasta saciarme, su poder tan abajo,</l>
+              <l n="716" xml:id="em0640-es-717">su dicha por encima de la de los combates,</l>
+              <l n="717" xml:id="em0640-es-718">que así de cada pueblo que oprima sin riesgo,</l>
+              <l n="718" xml:id="em0640-es-719">reparará su pérdida reparando su crimen.</l>
+              <l n="719" xml:id="em0640-es-720">“Nada se hace sin causa, los Dioses protectores</l>
+              <l n="720" xml:id="em0640-es-721">de quien nosotros, pobres mortales dependemos,</l>
+              <l n="721" xml:id="em0640-es-722">saben nuestra arrogancia llevar a la razón,</l>
+              <l n="722" xml:id="em0640-es-723">dotados cuando quieren de instrumentos de ira,</l>
+              <l n="723" xml:id="em0640-es-724">ingenios como yo por el altivo orgullo</l>
+              <l n="724" xml:id="em0640-es-725">del romano, abusando de libertad en exceso”.</l>
+              <l n="725" xml:id="em0640-es-726">¡Oh santa y ecuánime! ¡Oh terrible justicia!</l>
+              <l n="726" xml:id="em0640-es-727">Dichoso Coriolano que aplicas esta pena,</l>
+              <l n="727" xml:id="em0640-es-728">al vengarte alcanzas tus deseos de lleno,</l>
+              <l n="728" xml:id="em0640-es-729">das ejemplo, vengándote, a la posteridad,</l>
+              <l n="729" xml:id="em0640-es-730">al vengarte adquieres más honor y más gloria</l>
+              <l n="730" xml:id="em0640-es-731">de la que había en tu brazo de anteriores victorias,</l>
+              <l n="731" xml:id="em0640-es-732">ahogado en adelante por la inquietud voraz;</l>
+              <l n="732" xml:id="em0640-es-733">mas, ¿dónde voy errante de mente y de ideas?</l>
+              <l n="733" xml:id="em0640-es-734">me engaño, o aquí está otra vez su embajada,</l>
+              <l n="734" xml:id="em0640-es-735">que el vergonzoso fin de una paz concluirá.</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="em0640-es-sc-8">
+          <head>ESCENA III</head>
+          <sp who="#Embajadores" xml:id="em0640-es-sp-59">
+            <speaker>EMBAJADORES</speaker>
+            <lg part="M" type="free">
+              <l n="735" xml:id="em0640-es-736">Ya por última vez tu ciudad deplorable</l>
+              <l n="736" xml:id="em0640-es-737">reclama tu clemencia en su adversidad;</l>
+              <l n="737" xml:id="em0640-es-738">ya por última vez tu piedad suplicada,</l>
+              <l n="738" xml:id="em0640-es-739">ofrecemos del pueblo gracia garantizada,</l>
+              <l n="739" xml:id="em0640-es-740">repliegue consentido en general por todos,</l>
+              <l n="740" xml:id="em0640-es-741">retiro de tu exilio, que nos fue tan funesto;</l>
+              <l n="741" xml:id="em0640-es-742">rogándote además nos concedas audiencia</l>
+              <l n="742" xml:id="em0640-es-743">privada, en cualquier sitio, y que tengas paciencia.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-60">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="743" xml:id="em0640-es-744">¡Soldados, convocadme a los nobles del Consejo!</l>
+            </lg>
+          </sp>
+          <sp who="#Embajadores" xml:id="em0640-es-sp-61">
+            <speaker>EMBAJADORES</speaker>
+            <lg part="M" type="free">
+              <l n="744" xml:id="em0640-es-745">Tiemblo de la mirada que transmiten sus ojos.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-62">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="745" xml:id="em0640-es-746">¡Pactar por separado en los asuntos públicos!</l>
+              <l n="746" xml:id="em0640-es-747">Si es que no desistís de una práctica opaca,</l>
+              <l n="747" xml:id="em0640-es-748">seréis castigados, cual corruptos traidores</l>
+              <l n="748" xml:id="em0640-es-749">que queréis seducirme con premios venenosos,</l>
+              <l n="749" xml:id="em0640-es-750">todos se enterarán.Vamos, que entre el Consejo,</l>
+              <l n="750" xml:id="em0640-es-751">decid, si los romanos (por contrición movidos)</l>
+              <l n="751" xml:id="em0640-es-752">quieren retribuir lo que han usurpado,</l>
+              <l n="752" xml:id="em0640-es-753">deteniendo el asedio, o bien continuándolo.</l>
+              <l n="753" xml:id="em0640-es-754">¿A falta de la paz prescrita en estos límites,</l>
+              <l n="754" xml:id="em0640-es-755">acaso no os había vetado nuestro ejército?</l>
+            </lg>
+          </sp>
+          <sp who="#Embajadores" xml:id="em0640-es-sp-63">
+            <speaker>EMBAJADORES</speaker>
+            <lg part="M" type="free">
+              <l n="755" xml:id="em0640-es-756">Mediando a que calmado quede tu campamento,</l>
+              <l n="756" xml:id="em0640-es-757">sacándolo de aquí, fuera de nuestras lindes,</l>
+              <l n="757" xml:id="em0640-es-758">tanto como el derecho permita que te otorgue,</l>
+              <l n="758" xml:id="em0640-es-759">te lo concederán deseosos de concordia.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-64">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="759" xml:id="em0640-es-760">¿Solo os habéis, audaces, encargado de eso?</l>
+            </lg>
+          </sp>
+          <sp who="#Embajadores" xml:id="em0640-es-sp-65">
+            <speaker>EMBAJADORES</speaker>
+            <lg part="M" type="free">
+              <l n="760" xml:id="em0640-es-761">Nuestra delegaciónsolo se ocupa de esto.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-66">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="761" xml:id="em0640-es-762">¿Quién autoriza, pues, vuestro regreso ahora?</l>
+            </lg>
+          </sp>
+          <sp who="#Embajadores" xml:id="em0640-es-sp-67">
+            <speaker>EMBAJADORES</speaker>
+            <lg part="M" type="free">
+              <l n="762" xml:id="em0640-es-763">“Por el bien del país cualquier cosa es posible”.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-68">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="763" xml:id="em0640-es-764">El bien que estáis buscando es vuestro detrimento.</l>
+            </lg>
+          </sp>
+          <sp who="#Embajadores" xml:id="em0640-es-sp-69">
+            <speaker>EMBAJADORES</speaker>
+            <lg part="M" type="free">
+              <l n="764" xml:id="em0640-es-765">Sin vehemencia tú puedes hablar de otra manera.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-70">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="765" xml:id="em0640-es-766">Mi alma no alberga vehemencia ninguna.</l>
+            </lg>
+          </sp>
+          <sp who="#Embajadores" xml:id="em0640-es-sp-71">
+            <speaker>EMBAJADORES</speaker>
+            <lg part="M" type="free">
+              <l n="766" xml:id="em0640-es-767">Cierra entonces la puerta del santuario de Jano.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-72">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="767" xml:id="em0640-es-768">¿Traicionando a mi bando para gratificaros?</l>
+            </lg>
+          </sp>
+          <sp who="#Embajadores" xml:id="em0640-es-sp-73">
+            <speaker>EMBAJADORES</speaker>
+            <lg part="M" type="free">
+              <l n="768" xml:id="em0640-es-769">Pero una paz que accede a unira los dos pueblos.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-74">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="769" xml:id="em0640-es-770">Así los deseo yo, los convenios iguales.</l>
+            </lg>
+          </sp>
+          <sp who="#Embajadores" xml:id="em0640-es-sp-75">
+            <speaker>EMBAJADORES</speaker>
+            <lg part="M" type="free">
+              <l n="770" xml:id="em0640-es-771">Iguales, do a los tuyos la gloria le reduces.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-76">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="771" xml:id="em0640-es-772">¿Asesinos (ingratos) los llamáis los míos?</l>
+            </lg>
+          </sp>
+          <sp who="#Embajadores" xml:id="em0640-es-sp-77">
+            <speaker>EMBAJADORES</speaker>
+            <lg part="M" type="free">
+              <l n="772" xml:id="em0640-es-773">Siempre el lado bueno fue y será de los tuyos.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-78">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="773" xml:id="em0640-es-774">Todos son responsables, y a todos renuncio.</l>
+            </lg>
+          </sp>
+          <sp who="#Embajadores" xml:id="em0640-es-sp-79">
+            <speaker>EMBAJADORES</speaker>
+            <lg part="M" type="free">
+              <l n="774" xml:id="em0640-es-775">Nuestro mal calma al menos con una humana réplica,</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-80">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="775" xml:id="em0640-es-776">El primer testimonio transmite su destino.</l>
+            </lg>
+          </sp>
+          <sp who="#Embajadores" xml:id="em0640-es-sp-81">
+            <speaker>EMBAJADORES</speaker>
+            <lg part="M" type="free">
+              <l n="776" xml:id="em0640-es-777">¿De tu país el honor quieres usar de expolio?</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-82">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="777" xml:id="em0640-es-778">Solo tengo país do mi fortuna es buena.</l>
+            </lg>
+          </sp>
+          <sp who="#Embajadores" xml:id="em0640-es-sp-83">
+            <speaker>EMBAJADORES</speaker>
+            <lg part="M" type="free">
+              <l n="778" xml:id="em0640-es-779">No obstante Roma es la que te dio el ser.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-84">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="779" xml:id="em0640-es-780">Roma es la que ha querido privarme de la luz.</l>
+            </lg>
+          </sp>
+          <sp who="#Embajadores" xml:id="em0640-es-sp-85">
+            <speaker>EMBAJADORES</speaker>
+            <lg part="M" type="free">
+              <l n="780" xml:id="em0640-es-781">A su ingratitud contrapón tu amor.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-86">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="781" xml:id="em0640-es-782">No me importunéis más con una vana súplica.</l>
+            </lg>
+          </sp>
+          <sp who="#Embajadores" xml:id="em0640-es-sp-87">
+            <speaker>EMBAJADORES</speaker>
+            <lg part="M" type="free">
+              <l n="782" xml:id="em0640-es-783">A otros que mejor lo hagan dejamos la misión.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-88">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="783" xml:id="em0640-es-784">A quienquiera que sea leprohíbo volver,</l>
+              <l n="784" xml:id="em0640-es-785">si es que quiere infringir la paz que se ofrece.</l>
+            </lg>
+          </sp>
+          <sp who="#Embajadores" xml:id="em0640-es-sp-89">
+            <speaker>EMBAJADORES</speaker>
+            <lg part="M" type="free">
+              <l n="785" xml:id="em0640-es-786">Nos vamos a informar de esta triste noticia.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-90">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="786" xml:id="em0640-es-787">Y yo cada vez más seguiré siendo fiel,</l>
+              <l n="787" xml:id="em0640-es-788">empleando mi valor y mi habilidad,</l>
+              <l n="788" xml:id="em0640-es-789">en los que me aceptaron en mi adversidad.</l>
+            </lg>
+          </sp>
+          <sp who="#Consejodelosvolscos" xml:id="em0640-es-sp-91">
+            <speaker>CONSEJO</speaker>
+            <lg part="F" type="free">
+              <l n="789" xml:id="em0640-es-790">¡Oh de los más audaces, Astro incomparable!</l>
+              <l n="790" xml:id="em0640-es-791">¡Si tus cuitas nos fueran propicias, favorables!</l>
+              <l n="791" xml:id="em0640-es-792">¡Cómo necesitábamos un jefe así, y cuánto</l>
+              <l n="792" xml:id="em0640-es-793">tu virtud debe amarse en este rural valle</l>
+              <l n="793" xml:id="em0640-es-794">y obliga a quien la tiene a conservar su gracia!</l>
+              <l n="794" xml:id="em0640-es-795">de los más temerarios ella rompe la audacia,</l>
+              <l n="795" xml:id="em0640-es-796">la fortuna la sigue, la fortuna no puede</l>
+              <l n="796" xml:id="em0640-es-797">impedir de estos planes lo que ella considere.</l>
+            </lg>
+          </sp>
+        </div2>
+      </div1>
+      <div1 n="4" type="act">
+        <head>ACTO IV</head>
+        <div2 type="scene" xml:id="em0640-es-sc-9">
+          <head>ESCENA I</head>
+          <stage xml:id="em0640-es-st-9">VALERIA, GRUPO DE DAMAS ROMANAS.</stage>
+          <sp who="#Valeria" xml:id="em0640-es-sp-92">
+            <speaker>VALERIA</speaker>
+            <lg part="M" type="free">
+              <l n="797" xml:id="em0640-es-798">¿Dudáis de que los Dioses inspiren mi valor?</l>
+              <l n="798" xml:id="em0640-es-799">Dioses que en el temor de este común desastre</l>
+              <l n="799" xml:id="em0640-es-800">postrados todos van a pedir en los altares;</l>
+              <l n="800" xml:id="em0640-es-801">a veces sus milagros de inicio son igual,</l>
+              <l n="801" xml:id="em0640-es-802">un corazón eligen por el miedo humillado,</l>
+              <l n="802" xml:id="em0640-es-803">y que la fe allí brote de una asistencia santa,</l>
+              <l n="803" xml:id="em0640-es-804">para que su consejo sea el medio de un buen acto,</l>
+              <l n="804" xml:id="em0640-es-805">además de pensar en notable soporte;</l>
+              <l n="805" xml:id="em0640-es-806">además de creer en tener más de un ídolo,</l>
+              <l n="806" xml:id="em0640-es-807">que de la sangre noble de este gran Publícola,</l>
+              <l n="807" xml:id="em0640-es-808">me deje algún medio muy bien deliberado,</l>
+              <l n="808" xml:id="em0640-es-809">que a mi país sea útil, por la miseria ahogado,</l>
+              <l n="809" xml:id="em0640-es-810">presto a una paz firmar plena de ignominia,</l>
+              <l n="810" xml:id="em0640-es-811">paz que no es mejor que un yugo de opresión,</l>
+              <l n="811" xml:id="em0640-es-812">paz que a nuestros mayores escandalizaría</l>
+              <l n="812" xml:id="em0640-es-813">si en su morada oyeran nuestro cobarde error.</l>
+              <l n="813" xml:id="em0640-es-814">Los divinos adrede han querido, benévolos,</l>
+              <l n="814" xml:id="em0640-es-815">si garantía tuviéramos del líder de rivales,</l>
+              <l n="815" xml:id="em0640-es-816">a un rehén más coactivo de amor, y de piedad,</l>
+              <l n="816" xml:id="em0640-es-817">su madre y sus hijos, y su querida esposa.</l>
+              <l n="817" xml:id="em0640-es-818">Implorando su ayuda, rogando su poder,</l>
+              <l n="818" xml:id="em0640-es-819">pediría la venia de por todas hablar,</l>
+              <l n="819" part="I" xml:id="em0640-es-820">vamos pues a encontrarlos.</l>
+            </lg>
+          </sp>
+          <sp who="#Grupodedamasromanas" xml:id="em0640-es-sp-93">
+            <speaker>GRUPO DE DAMAS</speaker>
+            <lg part="M" type="free">
+              <l part="F" xml:id="em0640-es-821">Vamos, si así lo quieres,</l>
+              <l n="820" xml:id="em0640-es-822">ya que la confianza la previsión te nutre,</l>
+              <l n="821" xml:id="em0640-es-823">aun cuando deberíamos antes ir todas juntas</l>
+              <l n="822" xml:id="em0640-es-824">a inquirir la intención del Senado, eso creo.</l>
+            </lg>
+          </sp>
+          <sp who="#Valeria" xml:id="em0640-es-sp-94">
+            <speaker>VALERIA</speaker>
+            <lg part="M" type="free">
+              <l n="823" xml:id="em0640-es-825">Nada de eso, en deseos tan virtuosos intuidos,</l>
+              <l n="824" xml:id="em0640-es-826">basta la autoridad de los Dioses sobre eso.</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="em0640-es-sc-10">
+          <head>ESCENA II</head>
+          <stage xml:id="em0640-es-st-10">(AUFIDIUS solo, reflexionando)</stage>
+          <sp who="#Aufidius" xml:id="em0640-es-sp-95">
+            <speaker>AUFIDIUS</speaker>
+            <lg part="M" type="free">
+              <l n="825" xml:id="em0640-es-827">¿Qué has hecho, insensato? ¿Qué extraña manía</l>
+              <l n="826" xml:id="em0640-es-828">marca en tu alabanza una brecha eterna?</l>
+              <l n="827" xml:id="em0640-es-829">Contrario del honor logrado en el pasado,</l>
+              <l n="828" xml:id="em0640-es-830">aceptas a un rival situado en primer rango;</l>
+              <l n="829" xml:id="em0640-es-831">un rival extranjero desleal con su patria,</l>
+              <l n="830" xml:id="em0640-es-832">hoy, por tu voluntad, caudillo de los volscos,</l>
+              <l n="831" xml:id="em0640-es-833">ordena enteramente, conduce sus batallas,</l>
+              <l n="832" xml:id="em0640-es-834">obscurece tu loa, cerca de él que sí brilla,</l>
+              <l n="833" xml:id="em0640-es-835">tu crédito abolido, tu fama extinguida,</l>
+              <l n="834" xml:id="em0640-es-836">te ves ahora inmerso en un ataque de celos,</l>
+              <l n="835" xml:id="em0640-es-837">podrás difícilmente recortarle las alas,</l>
+              <l n="836" xml:id="em0640-es-838">apenas alejarlo de la creencia común,</l>
+              <l n="837" xml:id="em0640-es-839">el que servir desdeña bajo otro capitán,</l>
+              <l n="838" xml:id="em0640-es-840">quiere que el poder, soberano, en sus manos</l>
+              <l n="839" xml:id="em0640-es-841">resida irrevocable, y a los otros ordena</l>
+              <l n="840" xml:id="em0640-es-842">si no los dispersara que no aspiren a nada.</l>
+              <l n="841" xml:id="em0640-es-843">¿Cómo aguanto la afrenta? ¡Oh abismos del Ténaro!</l>
+              <l n="842" xml:id="em0640-es-844">Seducidme antes que a vuestro Señor Plutón:</l>
+              <l n="843" xml:id="em0640-es-845">yo no conmuevoal día salvo por el honor,</l>
+              <l n="844" xml:id="em0640-es-846">y no soportaría a amigo ni a Señor:</l>
+              <l n="845" xml:id="em0640-es-847">además, respecto a él ya me ha dado motivos,</l>
+              <l n="846" xml:id="em0640-es-848">perdiendo la ocasión de una alta empresa,</l>
+              <l n="847" xml:id="em0640-es-849">Diosa Ocasión que solo tiene pelo delante,</l>
+              <l n="848" xml:id="em0640-es-850">y,unavez que se esfuma,deja en las manos viento.</l>
+              <l n="849" xml:id="em0640-es-851">Mas él quiso perderla concediendo una tregua</l>
+              <l n="850" xml:id="em0640-es-852">de un mes a los suyos, por temor a más quejas;</l>
+              <l n="851" xml:id="em0640-es-853">bien llevó que durante su trasladado asedio,</l>
+              <l n="852" xml:id="em0640-es-854">con libertad a Romale permitió llevarse</l>
+              <l n="853" xml:id="em0640-es-855">su ingenio, su coraje, y vivir equipados,</l>
+              <l n="854" xml:id="em0640-es-856">burlar nuestra imprudencia con razón castigada:</l>
+              <l n="855" xml:id="em0640-es-857">no hay fe en un traidor, ni progresión alguna,</l>
+              <l n="856" xml:id="em0640-es-858">para agradar a todos estará siempre presto,</l>
+              <l n="857" xml:id="em0640-es-859">iniciado a su ejército el rebato, no hay duda</l>
+              <l n="858" xml:id="em0640-es-860">que pronto de los volscos sabremos la derrota,</l>
+              <l n="859" xml:id="em0640-es-861">cual causante del daño vendrá a acusarme,</l>
+              <l n="860" xml:id="em0640-es-862">a golpearme en mi cama, y abrazar a mis lares,</l>
+              <l n="861" xml:id="em0640-es-863">¡Desleal! Date prisa, si aún tienes ganas,</l>
+              <l n="862" xml:id="em0640-es-864">pues haré investigar tu vida muy de cerca;</l>
+              <l n="863" xml:id="em0640-es-865">te pondré en adelante tal cantidad de espías,</l>
+              <l n="864" xml:id="em0640-es-866">y tus gestos serán siempre tan vigilados,</l>
+              <l n="865" xml:id="em0640-es-867">que muy difícilmente urdirás trama alguna</l>
+              <l n="866" xml:id="em0640-es-868">que tu propia vergüenza, tu horror difamará:</l>
+              <l n="867" xml:id="em0640-es-869">o te prepararé a la vuelta tal trampa,</l>
+              <l n="868" xml:id="em0640-es-870">que a la vez perderás la gloria y el fulgor.</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="em0640-es-sc-11">
+          <head>ESCENA III</head>
+          <stage xml:id="em0640-es-st-11">VOLUMNIA, VALERIA, GRUPO DE DAMAS,VIRGINIA.</stage>
+          <sp who="#Volumnia" xml:id="em0640-es-sp-96">
+            <speaker>VOLUMNIA</speaker>
+            <lg part="M" type="free">
+              <l n="869" xml:id="em0640-es-871">Señoras, quiera el Cieloque fuera igual de fácil</l>
+              <l n="870" xml:id="em0640-es-872">cumplir este proyecto que considero útil.</l>
+              <l n="871" xml:id="em0640-es-873">¡Ay! No escatimaré ni oraciones ni lágrimas,</l>
+              <l n="872" xml:id="em0640-es-874">le pintaré aún mayores las futuras desgracias,</l>
+              <l n="873" xml:id="em0640-es-875">mayores imposibles, Roma desesperada</l>
+              <l n="874" xml:id="em0640-es-876">pues conmoción igual nunca hubo soportado,</l>
+              <l n="875" xml:id="em0640-es-877">desde que dos gemelos la fundaron al borde</l>
+              <l n="876" xml:id="em0640-es-878">del Tíber donde el hado los cuidó de la muerte.</l>
+              <l n="877" xml:id="em0640-es-879">Si no soy rechazada por mi enojado hijo,</l>
+              <l n="878" xml:id="em0640-es-880">creo que reconstruiré una ciudad destruida.</l>
+              <l n="879" xml:id="em0640-es-881">¡Ay! Son solo palabras, palabras en el aire,</l>
+              <l n="880" xml:id="em0640-es-882">perdidas, infructuosas, que simplemente brotan.</l>
+              <l n="881" xml:id="em0640-es-883">Doblegaré (su madre) a un héroe magnánimo,</l>
+              <l n="882" xml:id="em0640-es-884">que siempre ha tenido a su país en estima,</l>
+              <l n="883" xml:id="em0640-es-885">prefiriendo su gloria al amor de los padres,</l>
+              <l n="884" xml:id="em0640-es-886">incluso el día en que estamos a punto de morir;</l>
+              <l n="885" xml:id="em0640-es-887">en fin, que por cariño excesivo a su patria,</l>
+              <l n="886" xml:id="em0640-es-888">ahora la persigue con odio similar,</l>
+              <l n="887" xml:id="em0640-es-889">testigo del repudioa nuestros Embajadores,</l>
+              <l n="888" xml:id="em0640-es-890">de una paz que a los nuestros rehúsa uno tras otro</l>
+              <l n="889" xml:id="em0640-es-891">y aun peor testimonio aduce a su cólera,</l>
+              <l n="890" xml:id="em0640-es-892">haciendo el ruego inútil de nuestros sacros Padres.</l>
+            </lg>
+          </sp>
+          <sp who="#Valeria" xml:id="em0640-es-sp-97">
+            <speaker>VALERIA</speaker>
+            <lg part="M" type="free">
+              <l n="891" xml:id="em0640-es-893">El poder maternal supera a cualquier otro,</l>
+              <l n="892" xml:id="em0640-es-894">él nunca os ha faltado a su deber de hijo;</l>
+              <l n="893" xml:id="em0640-es-895">humilde, respetuoso, niño tan bondadoso,</l>
+              <l n="894" xml:id="em0640-es-896">a quien el propio altruismo tomaba como ejemplo,</l>
+              <l n="895" xml:id="em0640-es-897">calmando vuestros lloros su coraje de acero,</l>
+              <l n="896" xml:id="em0640-es-898">dando a Roma motivos para daros las gracias,</l>
+              <l n="897" xml:id="em0640-es-899">viéndoos más mediador que las Matronas Sabinas,</l>
+              <l n="898" xml:id="em0640-es-900">lanzándose a través de las batallas latinas,</l>
+              <l n="899" xml:id="em0640-es-901">deliberando entre sus padres y esposos,</l>
+              <l n="900" xml:id="em0640-es-902">a quienes febril Marte emparejaba a golpes;</l>
+              <l n="901" xml:id="em0640-es-903">tomaos en serio solo el probar la fortuna,</l>
+              <l n="902" xml:id="em0640-es-904">a lo que os acompañan nuestros deseos comunes,</l>
+              <l n="903" xml:id="em0640-es-905">ya sea vergüenza, honor, salvación o la muerte,</l>
+              <l n="904" xml:id="em0640-es-906">según la voluntad de la inmutable suerte.</l>
+            </lg>
+          </sp>
+          <sp who="#Volumnia" xml:id="em0640-es-sp-98">
+            <speaker>VOLUMNIA</speaker>
+            <lg part="M" type="free">
+              <l n="905" xml:id="em0640-es-907">El azar puesto a prueba sin certeza es locura.</l>
+            </lg>
+          </sp>
+          <sp who="#Valeria" xml:id="em0640-es-sp-99">
+            <speaker>VALERIA</speaker>
+            <lg part="M" type="free">
+              <l n="906" xml:id="em0640-es-908">La esperanza, al contrario, os sonríe y suplica.</l>
+            </lg>
+          </sp>
+          <sp who="#Volumnia" xml:id="em0640-es-sp-100">
+            <speaker>VOLUMNIA</speaker>
+            <lg part="M" type="free">
+              <l n="907" xml:id="em0640-es-909">Ya tantos rechazados antes que yo me asustan.</l>
+            </lg>
+          </sp>
+          <sp who="#Valeria" xml:id="em0640-es-sp-101">
+            <speaker>VALERIA</speaker>
+            <lg part="M" type="free">
+              <l n="908" xml:id="em0640-es-910">Su crédito ante el vuestro tan solo era ilusión.</l>
+            </lg>
+          </sp>
+          <sp who="#Volumnia" xml:id="em0640-es-sp-102">
+            <speaker>VOLUMNIA</speaker>
+            <lg part="M" type="free">
+              <l n="909" xml:id="em0640-es-911">Su crédito abarcaba la fama de la patria.</l>
+            </lg>
+          </sp>
+          <sp who="#Valeria" xml:id="em0640-es-sp-103">
+            <speaker>VALERIA</speaker>
+            <lg part="M" type="free">
+              <l n="910" xml:id="em0640-es-912">¿Y quién rechazaría a una madre que ruega?</l>
+            </lg>
+          </sp>
+          <sp who="#Volumnia" xml:id="em0640-es-sp-104">
+            <speaker>VOLUMNIA</speaker>
+            <lg part="M" type="free">
+              <l n="911" xml:id="em0640-es-913">Pensad que su poder depende del foráneo.</l>
+            </lg>
+          </sp>
+          <sp who="#Valeria" xml:id="em0640-es-sp-105">
+            <speaker>VALERIA</speaker>
+            <lg part="M" type="free">
+              <l n="912" xml:id="em0640-es-914">El volsco está aquí solo con el fin de vengarlo.</l>
+            </lg>
+          </sp>
+          <sp who="#Volumnia" xml:id="em0640-es-sp-106">
+            <speaker>VOLUMNIA</speaker>
+            <lg part="M" type="free">
+              <l n="913" xml:id="em0640-es-915">El volsco que el Imperio nos disputa a nosotros,</l>
+              <l n="914" xml:id="em0640-es-916">nuestro mortal rival respira más crecido,</l>
+              <l n="915" xml:id="em0640-es-917">no despliega por nada por un hombre concreto</l>
+              <l n="916" xml:id="em0640-es-918">la potencia total de este pueblo guerrero.</l>
+            </lg>
+          </sp>
+          <sp who="#Valeria" xml:id="em0640-es-sp-107">
+            <speaker>VALERIA</speaker>
+            <lg part="M" type="free">
+              <l n="917" xml:id="em0640-es-919">Preferiría vernos al pronto rechazadas,</l>
+              <l n="918" xml:id="em0640-es-920">que excusas de este tipo, son pronto olvidadas.</l>
+              <l n="919" xml:id="em0640-es-921">“La fortuna a menudo trae consigo la dicha,</l>
+              <l n="920" xml:id="em0640-es-922">de esperanza surtiéndose, pero no de desdicha”.</l>
+            </lg>
+          </sp>
+          <sp who="#Volumnia" xml:id="em0640-es-sp-108">
+            <speaker>VOLUMNIA</speaker>
+            <lg part="M" type="free">
+              <l n="921" xml:id="em0640-es-923">Que perezca antes que ser ingrata a mi patria</l>
+              <l n="922" xml:id="em0640-es-924">afligida negándole mis preces de abogada;</l>
+              <l n="923" xml:id="em0640-es-925">si rechazo terciar, por el miedo al fracaso,</l>
+              <l n="924" xml:id="em0640-es-926">miedo justificado, si alguna vez lo tuve:</l>
+              <l n="925" xml:id="em0640-es-927">una vez decidido de mi demanda el fruto,</l>
+              <l n="926" xml:id="em0640-es-928">será el fin de la guerra, o una guerra incierta.</l>
+              <l n="927" xml:id="em0640-es-929">¡Oh Dioses lamentables! Padres de buenos planes,</l>
+              <l n="928" xml:id="em0640-es-930">tan justos, tan clementes, poderosos y sabios,</l>
+              <l n="929" xml:id="em0640-es-931">acompañad mi voz de un encanto que horade</l>
+              <l n="930" xml:id="em0640-es-932">de su valor la rocay penetrando obtenga,</l>
+              <l n="931" xml:id="em0640-es-933">obtenga el perdón por males que le hicieron,</l>
+              <l n="932" xml:id="em0640-es-934">junto con el favor de una agradable paz.</l>
+              <l n="933" xml:id="em0640-es-935">Vamos, querida nuera,ven con modesto beso</l>
+              <l n="934" xml:id="em0640-es-936">a aplacar de este Marte el encono funesto,</l>
+              <l n="935" xml:id="em0640-es-937">y tú su dulce vástago, su brote generoso</l>
+              <l n="936" xml:id="em0640-es-938">en razón de la cuna de tu país desgraciado.</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="em0640-es-sc-12">
+          <head>ESCENA IV</head>
+          <stage type="entrance" xml:id="em0640-es-st-12">CORIOLANO, CONSEJO, VOLUMNIA,GRUPO DE DAMAS, [HIJO DE CORIOLANO].</stage>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-109">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="937" xml:id="em0640-es-939">Nobles volscos, orgullo de esta vuestra República,</l>
+              <l n="938" xml:id="em0640-es-940">dignos de estar junto a los Dioses del Olimpo,</l>
+              <l n="939" xml:id="em0640-es-941">nos convoca el Consejopor el vital asedio,</l>
+              <l n="940" xml:id="em0640-es-942">ante la pérdida de un bando de la lucha,</l>
+              <l n="941" xml:id="em0640-es-943">los romanos o nos: terco uno en imponer</l>
+              <l n="942" xml:id="em0640-es-944">un mundo con murallasy el otro en defenderse,</l>
+              <l n="943" xml:id="em0640-es-945">dudo que no se pueda resolver con certeza,</l>
+              <l n="944" xml:id="em0640-es-946">conocer el evento, si no el propio destino;</l>
+              <l n="945" xml:id="em0640-es-947">en cuanto a lo que atañe a una apariencia humana</l>
+              <l n="946" xml:id="em0640-es-948">su conquista no debe hacer titubear</l>
+              <l n="947" xml:id="em0640-es-949">a nuestras fuertes huestes, o jugar con el tiempo</l>
+              <l n="948" xml:id="em0640-es-950">corriendo menos riesgos, en peligros y pérdidas;</l>
+              <l n="949" xml:id="em0640-es-951">vertiendo menos sangre, más hechos en prudencia,</l>
+              <l n="950" xml:id="em0640-es-952">tener el rival debe la paciencia por yugo,</l>
+              <l n="951" xml:id="em0640-es-953">convendrá que se rinda a su disposición,</l>
+              <l n="952" xml:id="em0640-es-954">a pesar de su aguante y de su ambición.</l>
+              <l n="953" xml:id="em0640-es-955">El pretender forzarlo, visto el grosor del número,</l>
+              <l n="954" xml:id="em0640-es-956">estimo que sería luchar contra su sombra,</l>
+              <l n="955" xml:id="em0640-es-957">recular de la meta en lugar de acercarse.</l>
+              <l n="956" xml:id="em0640-es-958">Para un bien conservar que se adquirió tan caro,</l>
+              <l n="957" xml:id="em0640-es-959">guardar la libertad, la fortuna, la raza,</l>
+              <l n="958" xml:id="em0640-es-960">no hay nada imposible, no hay nada que no se haga,</l>
+              <l n="959" xml:id="em0640-es-961">hasta el último aliento se combate audazmente,</l>
+              <l n="960" xml:id="em0640-es-962">incluso cuando el cuerpo carece de sustento,</l>
+              <l n="961" xml:id="em0640-es-963">la sangre vigorosa le hierve por las venas,</l>
+              <l n="962" xml:id="em0640-es-964">y aún de entendimiento se encuentran henchidas,</l>
+              <l n="963" xml:id="em0640-es-965">lejos de reprimir a los hombres hambrientos,</l>
+              <l n="964" xml:id="em0640-es-966">vencidos impotentes en sus muros cercados,</l>
+              <l n="965" xml:id="em0640-es-967">entre cuerpos quejosos de niños y mujeres,</l>
+              <l n="966" xml:id="em0640-es-968">montones de cadáveres sin almas, exhaladas,</l>
+              <l n="967" xml:id="em0640-es-969">entre el pestilente aire, el miedo a los asaltos,</l>
+              <l n="968" xml:id="em0640-es-970">por la muerte espoleados, cargados de trabajos:</l>
+              <l n="969" xml:id="em0640-es-971">para mí, así lo creo, encuentro que este asedio</l>
+              <l n="970" xml:id="em0640-es-972">los abruma de largo, tanto como nos calma</l>
+              <l n="971" xml:id="em0640-es-973">salvo la resistencia de los mejores juicios</l>
+              <l n="972" xml:id="em0640-es-974">que a todos se permite en lo que emprendemos,</l>
+              <l n="973" xml:id="em0640-es-975">ni una golondrina trae la primavera,</l>
+              <l n="974" xml:id="em0640-es-976">ni las mentes son siervas todas de una sesera:</l>
+              <l n="975" xml:id="em0640-es-977">e igual que el caballo más hábil, con frecuencia</l>
+              <l n="976" xml:id="em0640-es-978">de tropezar no deja, nos vemos defraudados.</l>
+              <l n="977" xml:id="em0640-es-979">¡Debilidad humana! Mas, ¡oh Bondad Divina!</l>
+              <l n="978" xml:id="em0640-es-980">¿Qué grupo hacia nosotros de Damas se dirige?</l>
+              <l n="979" xml:id="em0640-es-981">Reconozco a mi madre, y mi mujer. Vamos pues,</l>
+              <l n="980" xml:id="em0640-es-982">ármate de firmeza, como jamás tuviste</l>
+              <l n="981" xml:id="em0640-es-983">al respecto con ella. La mayor distinción</l>
+              <l n="982" xml:id="em0640-es-984">que anidar pueda en mí se plasmará en ellas;</l>
+              <l n="983" xml:id="em0640-es-985">las veo compungidas ¡Púdica esposa mía!</l>
+              <l n="984" xml:id="em0640-es-986">No me provoques más la piedad con tu llanto,</l>
+              <l n="985" xml:id="em0640-es-987">consuélate y ten fe, vos también, madre mía,</l>
+              <l n="986" xml:id="em0640-es-988">vos de quien recibí la vital luz primera,</l>
+              <l n="987" xml:id="em0640-es-989">a quien más que a nadie honro, y a quien todo yo debo,</l>
+              <l n="988" xml:id="em0640-es-990">¿qué es lo que os trae aquí ahora, decidme?</l>
+            </lg>
+          </sp>
+          <sp who="#Volumnia" xml:id="em0640-es-sp-110">
+            <speaker>VOLUMNIA</speaker>
+            <lg part="M" type="free">
+              <l n="989" xml:id="em0640-es-991">El motivo, hijo mío, de mi triste llegada,</l>
+              <l n="990" xml:id="em0640-es-992">se lee asaz marcado en mi cara ajada;</l>
+              <l n="991" xml:id="em0640-es-993">culpable tú lo sabes, por desgracia yo vengo</l>
+              <l n="992" xml:id="em0640-es-994">para que se origine del mal un bien mejor,</l>
+              <l n="993" xml:id="em0640-es-995">de la guerra una paz, si llega a complacerte</l>
+              <l n="994" xml:id="em0640-es-996">que con razones calme tu cólera ardiente,</l>
+              <l n="995" xml:id="em0640-es-997">y quieras olvidar el ofensivo ultraje,</l>
+              <l n="996" xml:id="em0640-es-998">contra ti cometido por un pueblo airado,</l>
+              <l n="997" xml:id="em0640-es-999">lo hizo un pueblo ingrato, de un ignorante Régimen</l>
+              <l n="998" xml:id="em0640-es-1000">con su benefactor, su asilo y su faro.</l>
+              <l n="999" xml:id="em0640-es-1001">Ahora se arrepiente, y clama por tu gracia,</l>
+              <l n="1000" xml:id="em0640-es-1002">ahora conmovería al corazón más duro,</l>
+              <l n="1001" xml:id="em0640-es-1003">por sus calamidades, por sus lúgubres quejas,</l>
+              <l n="1002" xml:id="em0640-es-1004">ahora, en venganza, tienes sus murallas cercadas,</l>
+              <l n="1003" xml:id="em0640-es-1005">y puedes, como un padre, después de castigarlo,</l>
+              <l n="1004" xml:id="em0640-es-1006">conseguir el olvido de los volscos reunidos.</l>
+              <l n="1005" xml:id="em0640-es-1007">Puedes hacerlo y debes, piadoso y magnánimo;</l>
+              <l n="1006" xml:id="em0640-es-1008">con el fin de granjearte una gloria sublime,</l>
+              <l n="1007" xml:id="em0640-es-1009">para así merecer de estas dos naciones,</l>
+              <l n="1008" xml:id="em0640-es-1010">ser censor imparcial de nuestras disensiones,</l>
+              <l n="1009" xml:id="em0640-es-1011">no querría guiarte (sería descortés)</l>
+              <l n="1010" xml:id="em0640-es-1012">a traicionar a aquellos que el poder te confiaron;</l>
+              <l n="1011" xml:id="em0640-es-1013">tampoco en que quieras a tu país arruinar,</l>
+              <l n="1012" xml:id="em0640-es-1014">tú debes, fiel a uno, al otro perdonar,</l>
+              <l n="1013" xml:id="em0640-es-1015">la solución hallando entre los dos extremos,</l>
+              <l n="1014" xml:id="em0640-es-1016">la clemencia precede a las otras virtudes.</l>
+              <l n="1015" xml:id="em0640-es-1017">¿Hasta qué punto piensas que la suerte más cruel</l>
+              <l n="1016" xml:id="em0640-es-1018">aflige nuestras mentes con inquietud perpetua,</l>
+              <l n="1017" xml:id="em0640-es-1019">más trabaja tu madre y tu doliente esposa,</l>
+              <l n="1018" xml:id="em0640-es-1020">si este fuego mortal de escisión no se alivia,</l>
+              <l n="1019" xml:id="em0640-es-1021">si (lo que buenos Dioses impiden que suceda)</l>
+              <l n="1020" xml:id="em0640-es-1022">mi oración no puede lograr más que deshonra?</l>
+              <l n="1021" xml:id="em0640-es-1023">¿Ansiar que la victoria llegue a tu campamento,</l>
+              <l n="1022" xml:id="em0640-es-1024">que el país erija un trofeo a tu gloria,</l>
+              <l n="1023" xml:id="em0640-es-1025">es una impiedad, es una traición</l>
+              <l n="1024" xml:id="em0640-es-1026">desear lo contrario?¡Ay! ¿Por qué razón?</l>
+              <l n="1025" xml:id="em0640-es-1027">Tu eres mi sangre, carne, huesos, mi descendencia,</l>
+              <l n="1026" xml:id="em0640-es-1028">en el que más influyo por deber de natura,</l>
+              <l n="1027" xml:id="em0640-es-1029">de ahí la esperanza de elegir, todavía</l>
+              <l n="1028" xml:id="em0640-es-1030">no he resuelto alargar hasta entonces mi muerte,</l>
+              <l n="1029" xml:id="em0640-es-1031">sobre mi cuerpo muerto tu pasarás en armas,</l>
+              <l n="1030" xml:id="em0640-es-1032">conduciendo al asalto a la flor de tu ejército,</l>
+              <l n="1031" xml:id="em0640-es-1033">¡Hijo mío, no arbitres tanta iniquidad!</l>
+              <l n="1032" xml:id="em0640-es-1034">Porestos pechos míos que te amamantaron,</l>
+              <l n="1033" xml:id="em0640-es-1035">estos ojos en llanto de lágrimas continuas,</l>
+              <l n="1034" xml:id="em0640-es-1036">por todos los dolores mortales que aguanté,</l>
+              <l n="1035" xml:id="em0640-es-1037">para traerte a este mundo por el vínculo casto</l>
+              <l n="1036" xml:id="em0640-es-1038">de un amor conyugal, por este niño tuyo,</l>
+              <l n="1037" xml:id="em0640-es-1039">por favor satisface, satisface mi ruego,</l>
+              <l n="1038" xml:id="em0640-es-1040">y respaldar prometo nuestra cobarde testa.</l>
+              <l n="1039" xml:id="em0640-es-1041">No respondes palabra, del pesar palideces,</l>
+              <l n="1040" xml:id="em0640-es-1042">tu alma sufre, agitada, imponentes impulsos;</l>
+              <l n="1041" xml:id="em0640-es-1043">¡Hijo mío! ¡Hijo mío!Por piedad considera</l>
+              <l n="1042" xml:id="em0640-es-1044">que no es preciso siempre rendirse ante la ira,</l>
+              <l n="1043" xml:id="em0640-es-1045">lo que por ti yo he hecho. Venid y abracémoslo,</l>
+              <l n="1044" xml:id="em0640-es-1046">y si él nos rechaza, a sus pies arrojémonos,</l>
+              <l n="1045" xml:id="em0640-es-1047">que su brutal rigor juntos morir nos haga,</l>
+              <l n="1046" xml:id="em0640-es-1048">que con nosotros lleve a cabo su venganza.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-111">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="1047" xml:id="em0640-es-1049">Madre, ¿qué has hecho para salvar a tu país?</l>
+              <l n="1048" xml:id="em0640-es-1050">Mi vida y mi honor, cruel,tú las traicionas,</l>
+              <l n="1049" xml:id="em0640-es-1051">por mi honor has logrado una feliz victoria,</l>
+              <l n="1050" xml:id="em0640-es-1052">mas sometes fatal, y funesta a tu sangre,</l>
+              <l n="1051" xml:id="em0640-es-1053">seguidme, porque os quiero revelar en secreto,</l>
+              <l n="1052" xml:id="em0640-es-1054">cuándo levantaré, y cómo el campamento.</l>
+            </lg>
+          </sp>
+          <sp who="#Volumnia" xml:id="em0640-es-sp-112">
+            <speaker>VOLUMNIA</speaker>
+            <lg part="M" type="free">
+              <l n="1053" xml:id="em0640-es-1055">¡Oh piadosas palabras por el Cielo inspiradas!</l>
+              <l n="1054" xml:id="em0640-es-1056">Compasivo has sido tanto como imprevisto.</l>
+            </lg>
+          </sp>
+          <sp who="#Consejodelosvolscos" xml:id="em0640-es-sp-113">
+            <speaker>CONSEJO</speaker>
+            <lg part="M" type="free">
+              <l n="1055" xml:id="em0640-es-1057">Rendido ante el cariño, este cuchicheo al margen</l>
+              <l n="1056" xml:id="em0640-es-1058">no nos presagia nada mejor que una partida,</l>
+              <l n="1057" xml:id="em0640-es-1059">y levantar, burlados, el asedio de una urbe</l>
+              <l n="1058" xml:id="em0640-es-1060">reducida al extremo, y casi sometida,</l>
+              <l n="1059" xml:id="em0640-es-1061">ciudad que ni tenía ya fe alguna en salvarse,</l>
+              <l n="1060" xml:id="em0640-es-1062">cual nosotros desde ahora de poderla apresar.</l>
+              <l n="1061" xml:id="em0640-es-1063">¡Soportar que un foráneo nos traicione así!</l>
+              <l n="1062" xml:id="em0640-es-1064">Mas, ¿quién resistiría una coacción tan fuerte?</l>
+              <l n="1063" xml:id="em0640-es-1065">Ahora hay más en él mucho más de piedad</l>
+              <l n="1064" xml:id="em0640-es-1066">que deseo de hacer mal concluyendo este ataque.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-114">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="1065" xml:id="em0640-es-1067">Madre mía, tenéis mi firmeza segura,</l>
+              <l n="1066" xml:id="em0640-es-1068">aunque al prometérosla mi pérdida está urdida,</l>
+              <l n="1067" xml:id="em0640-es-1069">volved y liberad de alarma a esos ingratos,</l>
+              <l n="1068" xml:id="em0640-es-1070">ya que a vuestra partida quedaron en zozobra.</l>
+            </lg>
+          </sp>
+          <sp who="#Volumnia" xml:id="em0640-es-sp-115">
+            <speaker>VOLUMNIA</speaker>
+            <lg part="M" type="free">
+              <l n="1069" xml:id="em0640-es-1071">No creerían (hijo) la noticia de otro,</l>
+              <l n="1070" xml:id="em0640-es-1072">si sigo en tu acampada los tendría angustiados.</l>
+              <l n="1071" xml:id="em0640-es-1073">Que Júpiter te guarde, protector, esperando</l>
+              <l n="1072" xml:id="em0640-es-1074">que volvamos a verte y te mantenga a salvo.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-116">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="1073" xml:id="em0640-es-1075">Más bien no lo esperéis que en la sala de Érebo,</l>
+              <l n="1074" xml:id="em0640-es-1076">adiós madre, adiós mi leal compañera.</l>
+            </lg>
+          </sp>
+          <sp who="#Volumnia" xml:id="em0640-es-sp-117">
+            <speaker>VOLUMNIA</speaker>
+            <lg part="F" type="free">
+              <l n="1075" xml:id="em0640-es-1077">¡Ay! Con esta sospecha el corazón me rompes,</l>
+              <l n="1076" xml:id="em0640-es-1078">¡Grandes Dioses del Cielo! Haced que sea una mofa.</l>
+            </lg>
+          </sp>
+        </div2>
+      </div1>
+      <div1 n="5" type="act">
+        <head>ACTO V</head>
+        <stage xml:id="em0640-es-st-13">CORIOLANO, PAJE, AUFIDIUS, CONSEJO, CORO DE VOLSCOS, VOLUMNIA, MENSAJERO.</stage>
+        <div2 type="scene" xml:id="em0640-es-sc-13">
+          <head>ESCENA I</head>
+          <stage xml:id="em0640-es-st-14">CORIOLANO, PAJE.</stage>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-118">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="1077" xml:id="em0640-es-1079">Trémulo, helado, pálido por un temor ignoto,</l>
+              <l n="1078" xml:id="em0640-es-1080">mi resistencia es vana, y mi constancia nuda,</l>
+              <l n="1079" xml:id="em0640-es-1081">cien presagios mortales me invaden los ojos</l>
+              <l n="1080" xml:id="em0640-es-1082">toda la noche ocultos al reposo agradable,</l>
+              <l n="1081" xml:id="em0640-es-1083">espectros palpitantes, figuras fantasmales,</l>
+              <l n="1082" xml:id="em0640-es-1084">largas lamentaciones, pavorosos augurios;</l>
+              <l n="1083" xml:id="em0640-es-1085">de un pueblo emocionado vi el cuchillo a veces</l>
+              <l n="1084" xml:id="em0640-es-1086">horadar mis entrañas, verdugo indoblegable;</l>
+              <l n="1085" xml:id="em0640-es-1087">ahora parecía en mi alma extraviada,</l>
+              <l n="1086" xml:id="em0640-es-1088">unida al grueso número de una horda luminosa,</l>
+              <l n="1087" xml:id="em0640-es-1089">y por no exigir nadie la pena de Caronte,</l>
+              <l n="1088" xml:id="em0640-es-1090">ofrecerle el tránsito, pasar el Aqueronte,</l>
+              <l n="1089" xml:id="em0640-es-1091">en el borde errante, demente y olvidada,</l>
+              <l n="1090" xml:id="em0640-es-1092">como las de las que han forzado su destino.</l>
+              <l n="1091" xml:id="em0640-es-1093">un grito de estos pájaros, profetas de desdichas,</l>
+              <l n="1092" xml:id="em0640-es-1094">arrastrado hasta el día aumentaba mis penas,</l>
+              <l n="1093" xml:id="em0640-es-1095">y al emerger el día Febo, el Sol, como enfermo</l>
+              <l n="1094" xml:id="em0640-es-1096">parece dirigirme una inicua mirada.</l>
+              <l n="1095" xml:id="em0640-es-1097">Bajo mis pies la tierra brama a cada paso,</l>
+              <l n="1096" xml:id="em0640-es-1098">nimio argumento para el que teme la muerte,</l>
+              <l n="1097" xml:id="em0640-es-1099">ni incluso el mismo Júpiter, que arroja su tormenta,</l>
+              <l n="1098" xml:id="em0640-es-1100">podría asombrarme con tal débil presagio,</l>
+              <l n="1099" xml:id="em0640-es-1101">excepto un enemigo de mis gestas pasadas,</l>
+              <l n="1100" xml:id="em0640-es-1102">de mis triunfantes lauros en montón apilados,</l>
+              <l n="1101" xml:id="em0640-es-1103">que se insufla de ira dentro de una comuna,</l>
+              <l n="1102" xml:id="em0640-es-1104">despertando rescoldos de una vieja aversión;</l>
+              <l n="1103" xml:id="em0640-es-1105">no soporta que a mí los volscos me prefieran,</l>
+              <l n="1104" xml:id="em0640-es-1106">censurable de un crimen probado ante sus ojos:</l>
+              <l n="1105" xml:id="em0640-es-1107">pudiendo controlar de mi bravura el freno,</l>
+              <l n="1106" xml:id="em0640-es-1108">es lo que ha pretendido que contra mí se vuelva,</l>
+              <l n="1107" xml:id="em0640-es-1109">no tolera que imputen mi ofensa a la piedad,</l>
+              <l n="1108" xml:id="em0640-es-1110">y los volscos me indulten a que obren con rigor;</l>
+              <l n="1109" xml:id="em0640-es-1111">tiene el aguijón dentro de la envidia y los celos,</l>
+              <l n="1110" xml:id="em0640-es-1112">y al precio que sea quiere acabar con mi vida.</l>
+              <l n="1111" xml:id="em0640-es-1113">¡Qué lo haga! Si es preciso conviene antes morir,</l>
+              <l n="1112" xml:id="em0640-es-1114">dejemos que se cumplan las leyes de la Parca,</l>
+              <l n="1113" xml:id="em0640-es-1115">o por la edad extinguidos o por muerte violenta.</l>
+              <l n="1114" xml:id="em0640-es-1116">Mas este hombre apremiado me vuelve a helar de nuevo.</l>
+            </lg>
+          </sp>
+          <sp who="#Paje" xml:id="em0640-es-sp-119">
+            <speaker>PAJE</speaker>
+            <lg part="M" type="free">
+              <l n="1115" xml:id="em0640-es-1117">Los Nobles del Consejo, reunidos os convocan.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-120">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="1116" xml:id="em0640-es-1118">Serénate, cobarde, mantén la mente en calma,</l>
+              <l n="1117" xml:id="em0640-es-1119">ve resuelto y encuentra tu salvación u olvido,</l>
+              <l n="1118" xml:id="em0640-es-1120">en verdad recubierta de una loa inmortal.</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="em0640-es-sc-14">
+          <head>ESCENA II</head>
+          <sp who="#Aufidius" xml:id="em0640-es-sp-121">
+            <speaker>AUFIDIUS</speaker>
+            <lg part="M" type="free">
+              <l n="1119" xml:id="em0640-es-1121">Invoco de testigos a los Cielos y al Sol,</l>
+              <l n="1120" xml:id="em0640-es-1122">que respecto de un país un altruista amor,</l>
+              <l n="1121" xml:id="em0640-es-1123">mi ultrajado honor, a fuer de no ser cómplice</l>
+              <l n="1122" xml:id="em0640-es-1124">de este inigualable y traidor maleficio,</l>
+              <l n="1123" xml:id="em0640-es-1125">a mi pesar me inducen a acusar a este indigno</l>
+              <l n="1124" xml:id="em0640-es-1126">de procurar la ruina de ésta nuestra nación,</l>
+              <l n="1125" xml:id="em0640-es-1127">falaz en el valor, hipócrita, desleal,</l>
+              <l n="1126" xml:id="em0640-es-1128">que nos indujo a error sirviendo a su querella,</l>
+              <l n="1127" xml:id="em0640-es-1129">solo esperando un gesto desde su proscripción,</l>
+              <l n="1128" xml:id="em0640-es-1130">por alguna traición concluida impunemente,</l>
+              <l n="1129" xml:id="em0640-es-1131">algún insigne daño, al pueblo, que ingenuo</l>
+              <l n="1130" xml:id="em0640-es-1132">recibía a esta sierpe abortada de Rómulo.</l>
+              <l n="1131" xml:id="em0640-es-1133">Engañado el primero, he visto el escollo,</l>
+              <l n="1132" xml:id="em0640-es-1134">confirmar su cargo hice a este mismo Consejo,</l>
+              <l n="1133" xml:id="em0640-es-1135">mi prioridad cedido, su palabra apreciado</l>
+              <l n="1134" xml:id="em0640-es-1136">(el hombre que es de bien nunca jamás la viola),</l>
+              <l n="1135" xml:id="em0640-es-1137">un Oráculo, en vez de un testimonio humano,</l>
+              <l n="1136" xml:id="em0640-es-1138">lo vio rival mortal del prestigio romano,</l>
+              <l n="1137" xml:id="em0640-es-1139">irreconciliable, ardiente de venganza,</l>
+              <l n="1138" xml:id="em0640-es-1140">de gran alma agraviada maravilloso alivio:</l>
+              <l n="1139" xml:id="em0640-es-1141">el ruin a contrapelo, feliz de nuestras cuitas,</l>
+              <l n="1140" xml:id="em0640-es-1142">vilmente seducido por llantos femeninos,</l>
+              <l n="1141" xml:id="em0640-es-1143">levantó nuestro asedio una segunda vez,</l>
+              <l n="1142" xml:id="em0640-es-1144">abominable crimen, peor que sacrilegio,</l>
+              <l n="1143" xml:id="em0640-es-1145">al que debió la hoguera haber ya castigado,</l>
+              <l n="1144" xml:id="em0640-es-1146">sin oír sus razones, sin ninguna piedad.</l>
+              <l n="1145" xml:id="em0640-es-1147">¿Qué no proyectaría hacer en adelante?</l>
+              <l n="1146" xml:id="em0640-es-1148">Entregarnos atados al rival pies y manos,</l>
+              <l n="1147" xml:id="em0640-es-1149">todo lo que ya he dicho, ¡ah! Ya lo veo llegar,</l>
+              <l n="1148" xml:id="em0640-es-1150">apenas contenerme puedo por el furor.</l>
+            </lg>
+          </sp>
+          <sp who="#Consejodelosvolscos" xml:id="em0640-es-sp-122">
+            <speaker>CONSEJO</speaker>
+            <lg part="M" type="free">
+              <l n="1149" xml:id="em0640-es-1151">Oigamos lo que tenga que alegar de defensa,</l>
+              <l n="1150" xml:id="em0640-es-1152">para que paliar pueda una tan grande ofensa.</l>
+            </lg>
+          </sp>
+          <sp who="#Aufidius" xml:id="em0640-es-sp-123">
+            <speaker>AUFIDIUS</speaker>
+            <lg part="M" type="free">
+              <l n="1151" xml:id="em0640-es-1153">Nuestra Comunidad te transmite la orden</l>
+              <l n="1152" xml:id="em0640-es-1154">de que entregues tu cargo con presteza en sus manos,</l>
+              <l n="1153" xml:id="em0640-es-1155">para que examine ahora e informe</l>
+              <l n="1154" xml:id="em0640-es-1156">de tu asunto por el que de pudor muere el Cielo,</l>
+              <l n="1155" xml:id="em0640-es-1157">de abusos infinitos hechos durante el cargo,</l>
+              <l n="1156" xml:id="em0640-es-1158">nuestros planes, trabajos que por ti se frustraron:</l>
+              <l n="1157" xml:id="em0640-es-1159">observa (obediente) por tanto que te quiten</l>
+              <l n="1158" xml:id="em0640-es-1160">el poder absoluto, que a un traidor no se deja.</l>
+              <l n="1159" xml:id="em0640-es-1161">Después, como acusado,deberás explicarme</l>
+              <l n="1160" xml:id="em0640-es-1162">porqué abusaste tanto del poder que te dimos.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-124">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="1161" xml:id="em0640-es-1163">Si por deseo del pueblo acepté yo mi cargo,</l>
+              <l n="1162" xml:id="em0640-es-1164">se lo reintegraré si el pueblo me lo pide.</l>
+              <l n="1163" xml:id="em0640-es-1165">No me demoraré en decir claramente,</l>
+              <l n="1164" xml:id="em0640-es-1166">todo lo que ocurrió bajo mi autoridad,</l>
+              <l n="1165" xml:id="em0640-es-1167">dándoos cuenta a vos, y a los de la ciudad,</l>
+              <l n="1166" xml:id="em0640-es-1168">quienes saben si fue perjudicial o útil.</l>
+            </lg>
+          </sp>
+          <sp who="#Aufidius" xml:id="em0640-es-sp-125">
+            <speaker>AUFIDIUS</speaker>
+            <lg part="M" type="free">
+              <l n="1167" xml:id="em0640-es-1169">Hombre de doble alma, desleal cien y cien veces,</l>
+              <l n="1168" xml:id="em0640-es-1170">inventor de ruinas y contrario a las leyes,</l>
+              <l n="1169" xml:id="em0640-es-1171">¿quién te movió a parar de nuestra gloria el rumbo?</l>
+              <l n="1170" xml:id="em0640-es-1172">¿En que nos alargáramos en guerras asfixiantes?</l>
+              <l n="1171" xml:id="em0640-es-1173">¿Quién por primera vez te permitió otorgar</l>
+              <l n="1172" xml:id="em0640-es-1174">una tregua a Roma, sin nosotros pedirlo?</l>
+              <l n="1173" xml:id="em0640-es-1175">Levantando el asedio cuando loca de miedo</l>
+              <l n="1174" xml:id="em0640-es-1176">su ciudad en pocos días iba ya a rendirse.</l>
+              <l n="1175" xml:id="em0640-es-1177">¿Por qué, desde ese día, con poder absoluto,</l>
+              <l n="1176" xml:id="em0640-es-1178">decretaste con ellos una paz vergonzosa?</l>
+              <l n="1177" xml:id="em0640-es-1179">Levantado el asedio, frenando a un ejército</l>
+              <l n="1178" xml:id="em0640-es-1180">capaz de doblegar por su reputación</l>
+              <l n="1179" xml:id="em0640-es-1181">no solo a una ciudad, sino al orbe aterrado;</l>
+              <l n="1180" xml:id="em0640-es-1182">cuéntanos traidor, ¿quién te ha incitado a hacerlo?</l>
+              <l n="1181" xml:id="em0640-es-1183">¿Así reconociste el honor que te hicimos</l>
+              <l n="1182" xml:id="em0640-es-1184">cuando una gran armada en tus manos pusimos,</l>
+              <l n="1183" xml:id="em0640-es-1185">que respondía yo mismo por ti con mi palabra?</l>
+              <l n="1184" xml:id="em0640-es-1186">¡Rápido, sin tramar artimañas, respóndeme!</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-126">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="1185" xml:id="em0640-es-1187">Mis razones os ruego que oigáis con paciencia;</l>
+              <l n="1186" xml:id="em0640-es-1188">no se deducirá, con certeza total,</l>
+              <l n="1187" xml:id="em0640-es-1189">en mí desprecio alguno; que sea censurable</l>
+              <l n="1188" xml:id="em0640-es-1190">en mi comportamiento de desleal al pueblo.</l>
+              <l n="1189" xml:id="em0640-es-1191">En el mismo momento de iniciarse la guerra,</l>
+              <l n="1190" xml:id="em0640-es-1192">conquistar no esperaba Roma, ni vos tampoco,</l>
+              <l n="1191" xml:id="em0640-es-1193">no era esa nuestra meta, ni nuestra voluntad,</l>
+              <l n="1192" xml:id="em0640-es-1194">sino debilitarla, y doblegar su orgullo,</l>
+              <l n="1193" xml:id="em0640-es-1195">para recuperar las plazas ocupadas,</l>
+              <l n="1194" xml:id="em0640-es-1196">acepté por mi parte compromisos con ellos,</l>
+              <l n="1195" xml:id="em0640-es-1197">promesa concluida antes de regresar.</l>
+            </lg>
+          </sp>
+          <sp who="#Aufidius" xml:id="em0640-es-sp-127">
+            <speaker>AUFIDIUS</speaker>
+            <lg part="M" type="free">
+              <l n="1196" xml:id="em0640-es-1198">Así pues, ¿has querido limitar nuestros triunfos?</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-128">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="1197" xml:id="em0640-es-1199">No confío en las armas, que son imprevisibles.</l>
+            </lg>
+          </sp>
+          <sp who="#Aufidius" xml:id="em0640-es-sp-129">
+            <speaker>AUFIDIUS</speaker>
+            <lg part="M" type="free">
+              <l n="1198" xml:id="em0640-es-1200">¿Qué riesgo hay en sus fuerzas presas entre sus muros?</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-130">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="1199" xml:id="em0640-es-1201">La angustia extremada de un valiente enemigo,</l>
+              <l n="1200" xml:id="em0640-es-1202">produce grandes males al vencedor procaz.</l>
+            </lg>
+          </sp>
+          <sp who="#Aufidius" xml:id="em0640-es-sp-131">
+            <speaker>AUFIDIUS</speaker>
+            <lg part="M" type="free">
+              <l n="1201" xml:id="em0640-es-1203">Más la traición se teme de un líder extranjero</l>
+              <l n="1202" xml:id="em0640-es-1204">que a menudo a los crédulos da motivos de queja.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-132">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="1203" xml:id="em0640-es-1205">Quieran los buenos Dioses que no tengáis jamás</l>
+              <l n="1204" xml:id="em0640-es-1206">tener que lamentaros por una paz igual.</l>
+            </lg>
+          </sp>
+          <sp who="#Aufidius" xml:id="em0640-es-sp-133">
+            <speaker>AUFIDIUS</speaker>
+            <lg part="M" type="free">
+              <l n="1205" xml:id="em0640-es-1207">¿No le has (exhortado por ruegos femeninos)</l>
+              <l n="1206" xml:id="em0640-es-1208">mandado a nuestro ejército una vil retirada?</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-134">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="1207" xml:id="em0640-es-1209">No sé de nadie que no se hubiera plegado,</l>
+              <l n="1208" xml:id="em0640-es-1210">y por la compasión de su deber desviado.</l>
+            </lg>
+          </sp>
+          <sp who="#Aufidius" xml:id="em0640-es-sp-135">
+            <speaker>AUFIDIUS</speaker>
+            <lg part="M" type="free">
+              <l n="1209" xml:id="em0640-es-1211">Ya veis como confiesa con placer su vileza.</l>
+            </lg>
+          </sp>
+          <sp who="#Corodevolscos" xml:id="em0640-es-sp-136">
+            <speaker>CORO</speaker>
+            <lg part="M" type="free">
+              <l n="1210" xml:id="em0640-es-1212">El traidor tiene nuestras cabezas muy turbadas</l>
+              <l n="1211" xml:id="em0640-es-1213">con discursos inútiles, bien merece la muerte,</l>
+              <l n="1212" xml:id="em0640-es-1214">que se la otorgaremos de inmediato y unánimes.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-137">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="1213" xml:id="em0640-es-1215">Socorro amigos míos, ayuda, me asesinan</l>
+            </lg>
+          </sp>
+          <sp who="#Corodevolscos" xml:id="em0640-es-sp-138">
+            <speaker>CORO</speaker>
+            <lg part="M" type="free">
+              <l n="1214" xml:id="em0640-es-1216">¡Tropieza desleal en el río aqueróntida!</l>
+              <l n="1215" xml:id="em0640-es-1217">Traiciona, si es que puedes los Manes de Plutón.</l>
+            </lg>
+          </sp>
+          <sp who="#Coriolano" xml:id="em0640-es-sp-139">
+            <speaker>CORIOLANO</speaker>
+            <lg part="M" type="free">
+              <l n="1216" xml:id="em0640-es-1218">Deteneos ciudadanos, ¿dónde tenéis los ojos?</l>
+            </lg>
+          </sp>
+          <sp who="#Corodevolscos" xml:id="em0640-es-sp-140">
+            <speaker>CORO</speaker>
+            <lg part="M" type="free">
+              <l n="1217" xml:id="em0640-es-1219">Ya estás recompensado con un justo salario,</l>
+              <l n="1218" xml:id="em0640-es-1220">¿y quién querrá seguirte con tu espantoso ejemplo?</l>
+            </lg>
+          </sp>
+          <sp who="#Aufidius" xml:id="em0640-es-sp-141">
+            <speaker>AUFIDIUS</speaker>
+            <lg part="M" type="free">
+              <l n="1219" xml:id="em0640-es-1221">El pueblo, que tan solo se amotinó, solo hizo</l>
+              <l n="1220" xml:id="em0640-es-1222">ejecutar un fallo procedente del Cielo,</l>
+              <l n="1221" xml:id="em0640-es-1223">no queriendo el tirano abandonar el cargo,</l>
+              <l n="1222" xml:id="em0640-es-1224">tuvo que apechugar con este sacrificio.</l>
+              <l n="1223" xml:id="em0640-es-1225">Alabad pues el acto, en lugar de culparlo,</l>
+              <l n="1224" xml:id="em0640-es-1226">en lugar de que crea que vais a criticarlo.</l>
+            </lg>
+          </sp>
+          <sp who="#Consejodelosvolscos" xml:id="em0640-es-sp-142">
+            <speaker>CONSEJO</speaker>
+            <lg part="M" type="free">
+              <l n="1225" xml:id="em0640-es-1227">Si la ley y sus normas han sido respetadas,</l>
+              <l n="1226" xml:id="em0640-es-1228">su pena entonces todos bien han ratificado.</l>
+            </lg>
+          </sp>
+          <sp who="#Aufidius" xml:id="em0640-es-sp-143">
+            <speaker>AUFIDIUS</speaker>
+            <lg part="M" type="free">
+              <l n="1227" xml:id="em0640-es-1229">En cambio se le habría dejado en la ocasión</l>
+              <l n="1228" xml:id="em0640-es-1230">infringir algún fraude en su ruin deseo,</l>
+              <l n="1229" xml:id="em0640-es-1231">eludir el suplicio, y con sus armas vueltas,</l>
+              <l n="1230" xml:id="em0640-es-1232">hacernos desistir de cazas con señuelo;</l>
+              <l n="1231" xml:id="em0640-es-1233">no hay más que aplicar a la úlcera incipiente,</l>
+              <l n="1232" xml:id="em0640-es-1234">el cauterizador, y que no se haga más grande.</l>
+            </lg>
+          </sp>
+          <sp who="#Consejodelosvolscos" xml:id="em0640-es-sp-144">
+            <speaker>CONSEJO</speaker>
+            <lg part="M" type="free">
+              <l n="1233" xml:id="em0640-es-1235">¿De qué sirve abatirse en lo que ya está hecho?</l>
+              <l n="1234" xml:id="em0640-es-1236">Mas para que su culpa sea aún más sospechosa,</l>
+              <l n="1235" xml:id="em0640-es-1237">traigamos un ataúd honorable a su cuerpo,</l>
+              <l n="1236" xml:id="em0640-es-1238">propio de sus virtudes, nomención de sus vicios.</l>
+            </lg>
+          </sp>
+          <sp who="#Aufidius" xml:id="em0640-es-sp-145">
+            <speaker>AUFIDIUS</speaker>
+            <lg part="M" type="free">
+              <l n="1237" xml:id="em0640-es-1239">Apruebo de buen grado esta opinión magnánima,</l>
+              <l n="1238" xml:id="em0640-es-1240">la injuria a los muertos es un crimen inmenso.</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="em0640-es-sc-15">
+          <head>ESCENA III</head>
+          <stage xml:id="em0640-es-st-15">VOLUMNIA, MENSAJERO.</stage>
+          <sp who="#Volumnia" xml:id="em0640-es-sp-146">
+            <speaker>VOLUMNIA</speaker>
+            <lg part="M" type="free">
+              <l n="1239" xml:id="em0640-es-1241">Como la hoja en el viento y la ola en los austros,</l>
+              <l n="1240" xml:id="em0640-es-1242">mis ideas de un horror se agitan inconstantes,</l>
+              <l n="1241" xml:id="em0640-es-1243">mi mente en horror se alza, y mi sangre miedosa</l>
+              <l n="1242" xml:id="em0640-es-1244">hace llorar los ojos y quejarse a la boca.</l>
+              <l n="1243" xml:id="em0640-es-1245">No puedo de esperanza llegar a sosegarme,</l>
+              <l n="1244" xml:id="em0640-es-1246">no puedo augurar nada bueno a mi hijo;</l>
+              <l n="1245" xml:id="em0640-es-1247">perdido en un bajío, lo amenaza un abismo,</l>
+              <l n="1246" xml:id="em0640-es-1248">adicto como fue a una multitud,</l>
+              <l n="1247" xml:id="em0640-es-1249">propenso a rendir cuentas a un pueblo extranjero</l>
+              <l n="1248" xml:id="em0640-es-1250">(es lo más arriesgado, donde preveo peligro)</l>
+              <l n="1249" xml:id="em0640-es-1251">de lo que no ha hecho en su cargo anterior,</l>
+              <l n="1250" xml:id="em0640-es-1252">de una paz a la cual lo forzó mi demanda,</l>
+              <l n="1251" xml:id="em0640-es-1253">mala para los volscos, los volscos que podían</l>
+              <l n="1252" xml:id="em0640-es-1254">usar mejor las almas que a su favor tenían:</l>
+              <l n="1253" xml:id="em0640-es-1255">nosotros sin coraje y sitiados, mandarnos</l>
+              <l n="1254" xml:id="em0640-es-1256">las leyes que un invicto dicta en su provecho.</l>
+              <l n="1255" xml:id="em0640-es-1257">¡Ay! Querido hijo, tu enorme compasión</l>
+              <l n="1256" xml:id="em0640-es-1258">será (bien me lo temo, si es que ya no lo ha sido)</l>
+              <l n="1257" xml:id="em0640-es-1259">causa de tu desastre, y habrás por altruista</l>
+              <l n="1258" xml:id="em0640-es-1260">optado a muerte cierta antes que disgustarme,</l>
+              <l n="1259" xml:id="em0640-es-1261">antes habrás optado por ir ante la Parca,</l>
+              <l n="1260" xml:id="em0640-es-1262">de que mi boca incurra en una impía culpa.</l>
+              <l n="1261" xml:id="em0640-es-1263">Recuerdo, ¡ay!, recuerdo, me acuerdo todavía,</l>
+              <l n="1262" xml:id="em0640-es-1264">un pavor desde entonces me sigue recordando</l>
+              <l n="1263" xml:id="em0640-es-1265">la predicción que hiciste, cuando te despediste,</l>
+              <l n="1264" xml:id="em0640-es-1266">profeta desdichado de tu pérdida (hijo),</l>
+              <l n="1265" xml:id="em0640-es-1267">frente pálida, voz que se alza en sollozos,</l>
+              <l n="1266" xml:id="em0640-es-1268">nos hablas descubriendo de tu pensar el fondo,</l>
+              <l n="1267" xml:id="em0640-es-1269">cerrando nuestro adiós con lágrimas, nos dices</l>
+              <l n="1268" xml:id="em0640-es-1270">que nos veremos luego en el reino de DisPater.</l>
+              <l n="1269" xml:id="em0640-es-1271">Hermanas Hilanderas, manos juntas pregunto</l>
+              <l n="1270" xml:id="em0640-es-1272">si su alma ha sentido vuestro aguijón siniestro,</l>
+              <l n="1271" xml:id="em0640-es-1273">antes que padecer una muerte más dura,</l>
+              <l n="1272" xml:id="em0640-es-1274">por cualquiera que quiera informarme de ello,</l>
+              <l n="1273" xml:id="em0640-es-1275">atravesad mi alma, ministros infernales,</l>
+              <l n="1274" xml:id="em0640-es-1276">poniendo el mismo afán con vuestras flechas fatales,</l>
+              <l n="1275" xml:id="em0640-es-1277">favorecedme igual; mas, ¿qué veo avanzar?</l>
+              <l n="1276" xml:id="em0640-es-1278">¿Y sus ojos perdidos mirando, aquí, allá?</l>
+              <l n="1277" xml:id="em0640-es-1279">¡Ya ha ocurrido! Me ha visto,y su aire sombrío</l>
+              <l n="1278" xml:id="em0640-es-1280">confirma la desgracia de que estoy convencida.</l>
+              <l n="1279" xml:id="em0640-es-1281">Mensajero acércate, acércate, es por mí</l>
+              <l n="1280" xml:id="em0640-es-1282">que tu cara se turba al saber mi inquietud.</l>
+            </lg>
+          </sp>
+          <sp who="#Mensajero" xml:id="em0640-es-sp-147">
+            <speaker>MENSAJERO</speaker>
+            <lg part="M" type="free">
+              <l n="1281" xml:id="em0640-es-1283">Señora, es a vos a quien la cruel fortuna</l>
+              <l n="1282" xml:id="em0640-es-1284">dirige por mi boca una horrible noticia.</l>
+            </lg>
+          </sp>
+          <sp who="#Volumnia" xml:id="em0640-es-sp-148">
+            <speaker>VOLUMNIA</speaker>
+            <lg part="M" type="free">
+              <l n="1283" xml:id="em0640-es-1285">Cuenta atrevidamente un malimaginado;</l>
+              <l n="1284" xml:id="em0640-es-1286">el Cielo está obstinado ahora en hacerme daño.</l>
+            </lg>
+          </sp>
+          <sp who="#Mensajero" xml:id="em0640-es-sp-149">
+            <speaker>MENSAJERO</speaker>
+            <lg part="M" type="free">
+              <l n="1285" xml:id="em0640-es-1287">Vuestro hijo asesinado, antaño nuestro Alcides,</l>
+              <l n="1286" xml:id="em0640-es-1288">sintió de un pueblo ebrio la furia homicida.</l>
+            </lg>
+          </sp>
+          <sp who="#Volumnia" xml:id="em0640-es-sp-150">
+            <speaker>VOLUMNIA</speaker>
+            <lg part="M" type="free">
+              <l n="1287" xml:id="em0640-es-1289">¡Oh miedo verdadero! ¡Oh crueles destinos!</l>
+              <l n="1288" xml:id="em0640-es-1290">¡Agobiantes desgracias de la incierta fortuna!</l>
+              <l n="1289" xml:id="em0640-es-1291">¡Frágil, débil favor de un vulgo inconstante!</l>
+              <l n="1290" xml:id="em0640-es-1292">Mas hazme en el discurso más creíble la desdicha.</l>
+            </lg>
+          </sp>
+          <sp who="#Mensajero" xml:id="em0640-es-sp-151">
+            <speaker>MENSAJERO</speaker>
+            <lg part="M" type="free">
+              <l n="1291" xml:id="em0640-es-1293">Los volscos reunidos, molestos con el pacto,</l>
+              <l n="1292" xml:id="em0640-es-1294">habían conspirado ya de este héroe la muerte,</l>
+              <l n="1293" xml:id="em0640-es-1295">al menos una parte por él originada,</l>
+              <l n="1294" xml:id="em0640-es-1296">que veía receloso su gloria suplantada,</l>
+              <l n="1295" xml:id="em0640-es-1297">su crédito saldado, cual si cerca del Sol,</l>
+              <l n="1296" xml:id="em0640-es-1298">en la encorvada bóveda nada brillan los Astros,</l>
+              <l n="1297" xml:id="em0640-es-1299">Aufidius es el nombre del celoso de Roma,</l>
+              <l n="1298" xml:id="em0640-es-1300">quien traidor desde tiempo ha buscaba destruirlo,</l>
+              <l n="1299" xml:id="em0640-es-1301">lo acusa ante el Consejo, lo cita como reo,</l>
+              <l n="1300" xml:id="em0640-es-1302">y ante la autoridad suprema es llevado;</l>
+              <l n="1301" xml:id="em0640-es-1303">tuvo que rendir cuentas del cargo en el momento,</l>
+              <l n="1302" xml:id="em0640-es-1304">responder de los crímenes que le imputa el pueblo.</l>
+              <l n="1303" xml:id="em0640-es-1305">Por temor Coriolano, de autoridad privado,</l>
+              <l n="1304" xml:id="em0640-es-1306">a verse degradado cual hombre despojado,</l>
+              <l n="1305" xml:id="em0640-es-1307">dice que aceptó el cargo al ser deseo de todos,</l>
+              <l n="1306" xml:id="em0640-es-1308">que en él no cesaría siendo electo por todos;</l>
+              <l n="1307" xml:id="em0640-es-1309">se esfuerza a pesar de ello en aplacar su ira,</l>
+              <l n="1308" xml:id="em0640-es-1310">destilando las mieles más dulces de su lengua;</l>
+              <l n="1309" xml:id="em0640-es-1311">de hecho, los importantes demostraban callando</l>
+              <l n="1310" xml:id="em0640-es-1312">no estar contra él influidos por mala fe alguna,</l>
+              <l n="1311" xml:id="em0640-es-1313">y el respeto acatado a sus raras virtudes</l>
+              <l n="1312" xml:id="em0640-es-1314">lograría el olvido de sus mentados crímenes;</l>
+              <l n="1313" xml:id="em0640-es-1315">pero el enemigo conocido y temido,</l>
+              <l n="1314" xml:id="em0640-es-1316">de pronto, a su tropa asesina acechante,</l>
+              <l n="1315" xml:id="em0640-es-1317">apelando al motín la anima al delito,</l>
+              <l n="1316" xml:id="em0640-es-1318">la audacia, el furor y la ira colman,</l>
+              <l n="1317" xml:id="em0640-es-1319">¡por favor!, impedidme relatar lo que resta.</l>
+            </lg>
+          </sp>
+          <sp who="#Volumnia" xml:id="em0640-es-sp-152">
+            <speaker>VOLUMNIA</speaker>
+            <lg part="F" type="free">
+              <l n="1318" xml:id="em0640-es-1320">Muy bien he comprendido tu infausto discurso,</l>
+              <l n="1319" xml:id="em0640-es-1321">está muerto, lo veo por tierra entre la gente</l>
+              <l n="1320" xml:id="em0640-es-1322">que cien veces ensartan y atraviesan su cuerpo,</l>
+              <l n="1321" xml:id="em0640-es-1323">ahora circundado por un frío mortal;</l>
+              <l n="1322" xml:id="em0640-es-1324">veo a este cuerpo guerrero tendido sobre el suelo,</l>
+              <l n="1323" xml:id="em0640-es-1325">despojado de su alma y de color privado.</l>
+              <l n="1324" xml:id="em0640-es-1326">¡Oh, duelo insoportable! ¡Oh, inquina de dolor!</l>
+              <l n="1325" xml:id="em0640-es-1327">¡Oh, Madre parricida! ¡Oh, Madre criminal!</l>
+              <l n="1326" xml:id="em0640-es-1328">De tu sangre inocente execrable verdugo.</l>
+              <l n="1327" xml:id="em0640-es-1329">¡Oh, Dioses, Dioses crueles! ¡Vosotros produjisteis</l>
+              <l n="1328" xml:id="em0640-es-1330">de mi angustia piadosa un detestable fruto!</l>
+              <l n="1329" xml:id="em0640-es-1331">¡Cobarde! Por salvar el saqueo de mi patria,</l>
+              <l n="1330" xml:id="em0640-es-1332">he inmolado a mi hijo, he dañado a mi raza;</l>
+              <l n="1331" xml:id="em0640-es-1333">que al menos pueda verlo, y que me autoricen</l>
+              <l n="1332" xml:id="em0640-es-1334">a llorar por su cuerpo, preso de los rivales,</l>
+              <l n="1333" xml:id="em0640-es-1335">a cerrarle los ojos, y besarle los labios,</l>
+              <l n="1334" xml:id="em0640-es-1336">prepararle el lecho donde duermen los muertos,</l>
+              <l n="1335" xml:id="em0640-es-1337">y que me permitieran que pueda hablarle, muerto,</l>
+              <l n="1336" xml:id="em0640-es-1338">con impensables penas mi pérdida aliviar;</l>
+              <l n="1337" xml:id="em0640-es-1339">ninguna salvo yo le derramará más lágrimas,</l>
+              <l n="1338" xml:id="em0640-es-1340">su país aún siente el filo de sus armas,</l>
+              <l n="1339" xml:id="em0640-es-1341">recordando no haber podido plegar su odio,</l>
+              <l n="1340" xml:id="em0640-es-1342">y que solo a mí debe el notable buen acto.</l>
+              <l n="1341" xml:id="em0640-es-1343">Me debe este buen acto, y yo a él debo la vida,</l>
+              <l n="1342" xml:id="em0640-es-1344">que yo le he hecho al ceder penosa arrebatándola.</l>
+              <l n="1343" xml:id="em0640-es-1345">¡Querida descendencia! ¡Alivio sin igual!</l>
+              <l n="1344" xml:id="em0640-es-1346">Ni el Río Estigia con sus nueve meandros</l>
+              <l n="1345" xml:id="em0640-es-1347">evitarán que pronto me haya unido a ti,</l>
+              <l n="1346" xml:id="em0640-es-1348">del pesar de tu muerte hasta el alma horadada,</l>
+              <l n="1347" xml:id="em0640-es-1349">combada bajo el peso de una edad consumida,</l>
+              <l n="1348" xml:id="em0640-es-1350">a quien la Tierra daña, y el Cielo es riguroso,</l>
+              <l n="1349" xml:id="em0640-es-1351">que no espera calmar las quejas de tus Manes,</l>
+              <l n="1350" xml:id="em0640-es-1352">sino con mi presencia en bordes estigianos,</l>
+              <l n="1351" xml:id="em0640-es-1353">y que, al no ser mi duelo, muy dado a afrontar eso,</l>
+              <l n="1352" xml:id="em0640-es-1354">que en un golpe benéfico encuentre yo la muerte.</l>
+            </lg>
+          </sp>
+          <trailer xml:id="em0640-es-tr-1">FIN</trailer>
+        </div2>
+      </div1>
+    </body>
+    <back/>
+  </text>
+</TEI>
